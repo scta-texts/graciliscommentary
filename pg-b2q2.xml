@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum 2, Quaestio s</title>
+        <author>Peter Gracilis</author>
+        <editor>Paul Lozowicki</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.03-dev-master">
+          <title>Librum 2, Quaestio s</title>
+          <date when="2014-03-28">March 28, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-01-27">January 27, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q2">
+        <p><lb ed="#L"/>Utrum primus angelus in caritate et gratia[?] pro creatus
+          <lb ed="#L"/>in primo instanti sui esse <choice><orig>malicia</orig><reg>malitia</reg></choice> fuerit de pravatus <g ref="#dot"/>
+        </p>
+        
+        
+        
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
