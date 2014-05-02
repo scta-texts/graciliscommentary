@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 5</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.04-dev-master">
+          <title>Librum I, Quaestio 5</title>
+          <date when="2014-04-14">April 04, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-04-14">April 04, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q5">
+        <head>Quaestio 5</head>
+        <p><lb ed="#L"/><g ref="#pilcrow"/><hi rend="largeFont">Apostolus namque</hi> haec distinctio 3a continet enim 
+          <lb ed="#L"/>conclusiones prima quod homo propter excellentiam qua excellit alias creaturas vel propter convenientiam 
+          <lb ed="#L"/>quam habet cum omni creatura dicitur creatura mundi et est aptus ad cognoscendum divinam veritatem 
+          <lb ed="#L"/>ad cuius cognitionem iuvatur a duobus scilicet a natura propria quae est rationalis et ab operibus a 
+          <lb ed="#L"/>deo factis</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio deus qui est natura in comprehensibilis seu invisibilis per creaturas ab 
+          <lb ed="#L"/>homine potest sciri et <name ref="#Lombard">magister</name> ad hoc probandum addunt 4or rationes <g ref="#slash"/>prima sic potest 
+          <lb ed="#L"/>formari illud est super omnem creaturam et est deus qui fecit quod nulla creatura potest facere 
+          <lb ed="#L"/>sed deus fecit quod nulla creatura facere potest scilicet caelum et terram ergo illud est deus ergo per cognitionem 
+          <lb ed="#L"/>effectuum aliqualem devenitur ad cognitionem illius quod deus est</p>
+        
+        <p><g ref="#pilcrow"/>2a ratio omnem 
+          <lb ed="#L"/>mutabile <corr><del>est imperfectum</del></corr> et imperfectum ostendit ad immutabile et perfectum aliquo perficiatur 
+          <lb ed="#L"/>sed omnis creatura est imperfecta et mutablis ergo omnis talis ostendit aliquid immutabile et illud 
+          <lb ed="#L"/>est deus ergo</p>
+        
+        <p><g ref="#pilcrow"/>3a ratio ubicumque est bonum et melius et optimum est ibi cuius compera<lb ed="#L"/>cione 
+        de illorum bonitate vidicamus sed in creaturis videmus unum esse aliis 
+          <lb ed="#L"/>melius ergo <choice><orig>neccesse</orig><reg>necesse</reg></choice> est ponere aliquod optimum et illud est deus ergo</p>
+        
+        <p><g ref="#pilcrow"/>2a ratio ubi magis 
+          <lb ed="#L"/>et minus sponsum est ibi sponsissimum est ponendum sed una creatura est alia sponsior ergo 
+          <lb ed="#L"/>est ponere aliquod sponsissimum et illud est deus ergo</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio deus qui est summe simplex 
+          <lb ed="#L"/>in essentia ex proprietate creaturarum intelligitur aeternus ex magnitudine earum opus et 
+          <lb ed="#L"/>dispositione sapiens et ex gubernatione bonus</p>
+        
+        <p><g ref="#pilcrow"/>4a conclusio quod vestigium trinitatis apparet in 
+          <lb ed="#L"/>qualibet creatura qui quaelibet creatura est aliquid unum habens speciem sive pulcritudinem et habens 
+          <lb ed="#L"/>ordinem amorem et bonitatem unitas quae est principium numeri[?] repraesentat patrem 
+          <lb ed="#L"/>qui est principium originis aliarum duarum personarum scilicet filii et spiritus sancti <g ref="#slash"/>species vero 
+          <lb ed="#L"/>seu pulcritudo repraesentat filium qui est pulcritudo et ad quem sicut ad exemplar omnis creatura 
+          <lb ed="#L"/>formantur <g ref="#slash"/>ordo verum spiritum sanctum repraesentat qui est summa bonitas et amor patris 
+          <lb ed="#L"/>et filii</p>
+        
+        <p><g ref="#pilrow"/>5a conclusio per creaturarum contemplationem non potest haberi sufficiens notitia trinitatis 
+          <lb ed="#L"/>sine doctrina et inspiratione divina vel <choice><orig>revelacione</orig><reg>revelatione</reg></choice></p>
+        
+        <p><g ref="#pilcrow"/>6a conclusio quod anima nostra est 
+          <lb ed="#L"/><choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis in hoc quia sicut in anima est memoria intelligentia et voluntas quorum unum non 
+          <lb ed="#L"/>est alterum et tamen adinvicem referuntur et sunt aequalia non solum singula singulis 
+          <lb ed="#L"/>sed etiam singula omnibus sunt tamen una vita una essentia sicut etiam sunt tres personae 
+          <lb ed="#L"/>in divinis et una essentia et substantia</p>
+        
+        <p><g ref="#pilcrow"/>Alia conclusio icet in mente nostra sit ymago trinitatis 
+          <lb ed="#L"/>tamen est exigua et ex magna parte dissimilis nam unus homo habet ista tria et tamen 
+          <lb ed="#L"/>homo non est ista tria deus autem est tres personae et tres personae sunt unus dominus</p>
+        
+        <p><g ref="#pilcrow"/>Item una persona scilicet unus homo habet illa tria trinitas autem summa non est vera 
+          <lb ed="#L"/>persona sed tres personae <g ref="#slash"/>Item haec tria non sunt unus homo sed unus hominis in deo 
+          <lb ed="#L"/>autem illa tria non sunt unus dei sed sunt unus deus</p>
+        
+        <p><g ref="#pilcrow"/>8a conclusio quod alio modo invenitur 
+          <pb ed="#L" n="24r"/><lb ed="#L"/>trinitas ymago in anima na[?] ibi est mens et amor ita quod notitia est 
+          <lb ed="#L"/>quasi proles genita a mente sicut a parente quia dum mens se cognoscit 
+          <lb ed="#L"/>sui noticiam gignit 3o est amor qui de notitia et ipsa mente procedit 
+          <lb ed="#L"/>quia dum mens cognoscit se diligit se et prolem suam scilicet suam notitiam sub<lb ed="#L"/>dit 
+        esse[?] <name ref="#Lombard">magister</name> quod ista tria sunt aequalia in una substantia aniame et ideo mens humana 
+          <lb ed="#L"/>ista tria considerans extendit se ad contemplationem creatoris et videt unitatem 
+          <lb ed="#L"/>in trinitate et trinitatem in unitate essentiae</p>
+        
+        <p><g ref="#pilcrow"/>9a conclusio quod mens nostra debet intelligere deum 
+          <lb ed="#L"/>unum unam essentiam unum principium et ipsum esse actorem omnium quia si duo dii 
+          <lb ed="#L"/>essent vel uterque insufficiens esset vel alter eorum superfluent</p>
+        
+        <p><g ref="#pilcrow"/>10 conclusio debemus 
+          <lb ed="#L"/>credere patrem et filium et spiritum sanctum universe creaturae conditorem et rectorem 
+          <lb ed="#L"/>nec patrem esse filium nec spiritum sanctum nec filium esse patrem nec spiritum sanctum <g ref="#dot"/> 
+          <lb ed="#L"/>nec spiritum sanctum esse patrem aut filium sed trinitatem personarum relativarum adinvicem</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>11a conclusio fides patriarcharum et apostolorum praedicat unum deum esse trinitatem in qua 
+          <lb ed="#L"/>trinitate est unus pater qui solus deus se ipso genuit unum filium et unum filium 
+          <lb ed="#L"/>qui de bono patre solus essentialiter est natus et unum spiritum sanctum qui solus a patre 
+          <lb ed="#L"/>filioque procedit</p>
+        
+        <p><hi rend="dropCapThreeLines">h</hi><hi rend="largeFont">ic oritur quaestio</hi> Ista est distinctio quarta quae sit continuatur ad 
+          <lb ed="#L"/>praecedentem quia postquam <name>magister</name> determinait de essentiae unitate et personarum personarum 
+          <lb ed="#L"/>trinitate consequenter in hac parte determinat de earum origine et al?e?te[?] 
+          <lb ed="#L"/>et dividitur in 4or partes secundum quod 4or facit <name>magister</name> prmo movet quaestionem 2o argut per 
+          <lb ed="#L"/>rationem 3o respondet ad dubitationem et 4o ponit argumenti solucionem 2a ibi si emi?[?] 
+          <lb ed="#L"/>deus genuit deum 3a ibi ad quod respondentes[?] dicimus 4a ibi nunc ad prae<lb ed="#L"/>missam 
+          dubitationem seu quaestionem et hoc sit in generali divisio istius distinctionis</p>
+        
+        <p><g ref="#pilcrow"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> prius aeternaliter deus genuit deum quam produxit temporaliter 
+          <lb ed="#L"/>ens deppendens corporeum quod non quia deus non genuit deum ergo consequentia tenet 
+          <lb ed="#L"/>et antecedens probatur quia non genuit alium deum a se ergo non genuit deum tenet 
+          <lb ed="#L"/>consequentia quia nihil se ipsum potest generare nec alium quia tunc essent plures dii igitur 
+          <lb ed="#L"/>2o si alium a se deum genuit sequitur quod <choice><orig>alica</orig><reg>aliqua</reg></choice> esset ratio assignalis quare <choice><orig>pocius</orig><reg>potius</reg></choice> 
+          <lb ed="#L"/>istum alium a se gignent quam alterum consequens est falsum quia nulla talis est 
+          <lb ed="#L"/>ratio reperibilis nec dabilis pro uno quin aeque concludat de altero <choice><orig>ymo</orig><reg>immo</reg></choice> de in<lb ed="#L"/>finitis 
+          <g ref="#slash"/>3o filius in divinis incepit esse ergo non prius etc consequentia tenet et antecedens probatur 
+          <lb ed="#L"/>quia filius est in <choice><orig>alico</orig><reg>aliquo</reg></choice> instanti et numquam ante illud instans fuit ergo in illo 
+          <lb ed="#L"/>incepti esse <g ref="#slash"/>confirmatur quia filius incepit esse in <choice><orig>alico</orig><reg>aliquo</reg></choice> instanti quia si non incepit 
+          <lb ed="#L"/>esset etc sequitur quod non incepti esse in hoc instanti quod est falsum</p>
+        
+        <p><g ref="#slash"/><g ref="#pilcrow"/>In oppositum est <name ref="#Lombard">magister</name> 
+          <lb ed="#L"/>in hac distinctione quia <name ref="#Athanasius">athansius</name> in simbolo <quote>aeternus patet aeteruns filius</quote> etc</p>
+        
+        <p><g ref="#pilcrow"/>prima conclusio 
+          <lb ed="#L"/>licet virgo materia eundem filium concepit temporalem quem deus patet genuit aeternalem 
+          <lb ed="#L"/>aliauid tamen concepti virgo mater quod non genuit deus pater prima patet quia idem est filius 
+          <lb ed="#L"/>dei patris et virginis matris 2a patet quia carnem christi virgo concepti et illam 
+          <lb ed="#L"/>non genuit deus pater</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium licet christus fuerit aeternaliter tamen temporaliter 
+          <cb ed="#L" n="24v"/><lb ed="#L"/>incepit esse christus prima pars patet quia filius fuit aeternaliter 2a patet quia temporaliter 
+          <lb ed="#L"/>incepit homo ergo temporaliter incepit esse christus tenet consequentia quia sicut anima rationalis 
+          <lb ed="#L"/>et caro unus est homo ita deus et homo unus est christus</p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium licet aliquis 
+          <lb ed="#L"/>homo fuerit aeternaliter tamen quidquid est homo incepit esse homo temporaliter</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium 
+          <lb ed="#L"/>non sequitur demonstrato christo hoc fuit aeternaliter ergo non incepit esse homo tem<lb ed="#L"/>poraliter 
+          patet ex eodem medio quia humanitas christi incepit esse temporaliter <g ref="#dbslash"/></p>
+        
+        <p><lb ed="#L"/>aliud corollarium licet christus tam neccessario sit filius sicut deus tamen christus alicuius contingenter[?] 
+          <lb ed="#L"/>est filius prima patet quia quam neccessario pater est pater tamen neccessario filius est filius et sunt deus 
+          <lb ed="#L"/>2a patet quia contingenter[?] est virginis filius</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio licet conclusio ad nos non sit evi<lb ed="#L"/>denter 
+          probabile in divinis plures filios non esse tamen solum deum patrem 
+          <lb ed="#L"/>gignere unicum filium sibi coaeternum et consubstantialem est neccesse prima patet quia omne 
+          <lb ed="#L"/>medium nobis evidens patrem gignere unum filium inferens potest inferre 
+          <lb ed="#L"/>aequaliter filium producere alium filium quia omnes tres personae sunt eiusdem perfec<lb ed="#L"/>tionis 
+          omnipotentiae et activitatis 2a patet in distinctione praesenti Item patet <ref><name ref="#Augustine">augustini</name> 6 de trinitate 
+          <lb ed="#L"/>capitulo 2o</ref> filius est deus de deo sed non nisi per generationem ergo</p>
+        
+        <p><g ref="#pilcrow"/>confirmatur quia de facto deus 
+          <lb ed="#L"/>pater produxit seu gignit unum solum filium sibi per omnia[?] aequalem[?] ergo sic 
+          <lb ed="#L"/>esse est neccesse patet consequentia ex supra dictis antecedens est catholicum primum corollarium quod 
+          <lb ed="#L"/>non plus potest hic in via nobis demonstrari unum filium quam infinitos ge<lb ed="#L"/>nerari 
+          paret conclusionem</p>
+        
+        <p><g ref="#pilcrow"/>2m non est evidenter probabile producciones diversarum rationum in 
+          <lb ed="#L"/>divinis esse patet quia sola fide tenetur quod sint tantum duae scilicet genero et spiratio 
+          <lb ed="#L"/>3m corollarium sicut multa sunt <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> quae a nobis non sunt demonstrabilia nec en??cia[?] 
+          <lb ed="#L"/>sic multa sunt impossibilia quae et contradictionem <choice><orig>implicancia</orig><reg>implicantia</reg></choice> ad quam nullus potest reduci 
+          <lb ed="#L"/>per soalm rationem naturalem patet prima pars de articulis fidei significantes trinitatem 2am patet 
+          <lb ed="#L"/>quia patrem non generare filium includit contradictionem latentem quam nullus in solo lumine 
+          <lb ed="#L"/>naturali potest alteri illustrare aut demonstrabile ostendere</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio licet deus pater deum 
+          <lb ed="#L"/>filium aeternaliter genuerit tamen non proprie dicitur quod post eius generationem <choice><orig>alicam</orig><reg>aliquam</reg></choice> rem temporaliter 
+          <lb ed="#L"/>produxerit prima patet dictam</p>
+        
+        <p><g ref="#pilcrow"/>et potest confirmari per illud <ref><title ref="#ps">psalmus</title> 2i</ref> <quote ana="#ps2_7">dominus dixit ad me 
+          <lb ed="#L"/>filius meus est tu ego hodie genui te</quote> <g ref="#slash"/>2a probatur quia quodlibet agere divinum 
+          <lb ed="#L"/>ad intra mensuratur instanti aeternitatis ergo termini importantes lapsum seu differentias tem<lb ed="#L"/>poris 
+          non proprie dicuntur de divinis tenet consequentia quia post ante quando et similes termini concernunt 
+          <lb ed="#L"/>temporis differentias antecedens patet <name ref="#Augustine">augustinum</name> psalmo 101o ubi dicit aeternitas ipsa dei substantia 
+          <lb ed="#L"/>est quae nihil habet mutabile ibi nihil est praeteritum quasi iam non sit nihil est futurum quasi 
+          <lb ed="#L"/>mundum sit non est ibi nisi est non est ibi fuit vel erit <g ref="#slash"/> Item idem <ref>12 <title ref="#CityOfGod">de 
+          <lb ed="#L"/>civitate</title> capitulo 15</ref> iste divisiones seu dimensiones temporalium spatiorum quae 
+          <lb ed="#L"/>usi?te[?] et proprie dicuntur tempus a motu siderum ceperunt unde etiam do?us[?] cum instituit 
+          <lb ed="#L"/>dicit et sint in signa et tempora et dies et annos Item idem <title>83 quaestiones</title> filius dei debet 
+          <lb ed="#L"/>dici natus quia semper nascitur quia eius nativitas seu genero numquam <choice><orig>praeteriit</orig><reg>praeterivit</reg></choice> 
+          <lb ed="#L"/>sed semper praesens est vide ibi quia illa non sunt verba formalia <g ref="#slash"/>nota tamen quod ibi 
+          <lb ed="#L"/>non sumitis semper pro differentia temporalia sed pro mensura vel instanti aeternali</p>
+        
+        <p><g ref="#pilcrow"/>primum 
+          <lb ed="#L"/>corollarium licet deus pater ante rerum <choice><orig>creacionem</orig><reg>creationem</reg></choice> suum filium non genuerit tamen nulla 
+          <pb ed="#L" n="25r"/><lb ed="#L"/>res creata sibi coeterna fuit prima patet sicut conclusio quia sicut in aeternitate non est post sic nec 
+          <lb ed="#L"/>ante 2a patet quia aliter deus non produxisset ab <choice><orig>inicio</orig><reg>initio</reg></choice> temporis quod est falsum quia deus 
+          <lb ed="#L"/>creavit etc</p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium in <choice><orig>alico</orig><reg>aliquo</reg></choice> signo vel instanti pater generat et numquam ante illud 
+          <lb ed="#L"/>genuit et tamen generare non incepit pr[?] quia in instanti aeternitatis pater generat et 
+          <lb ed="#L"/>numquam ante illud quia ante illud nullum fuit aliquid instans</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium licet pater in aliquo 
+          <lb ed="#L"/>instanti filium generat et numquam post illud generabit tamen ipsum genereare non desi<lb ed="#L"/>net 
+        nec desinit patet ex eodem fundamento de instanti aeternitatis quia post illud instans 
+          <lb ed="#L"/>nihil est vel erit <g ref="#slash"/>ex istis patet pars negativa tituli videt quod non ante corporeum ens 
+          <lb ed="#L"/>factum temporaliter deus genuit deum filium aeternaliter patet sumendo ante dicto?o[?]</p>
+        
+        <p><g ref="#pilcrow"/>consequentia 
+          <lb ed="#L"/>primam conclusionem in divinis nullus est motus ergo nec genero tenet consequentia quia omnis motus est genero antecedens patet 
+          <lb ed="#L"/><ref><title ref="#iac">Iacobi</title> primo</ref></p>
+        
+        <p><g ref="#pilcrow"/>2o virgo non genuit nisi creaturam sed filius dei non est creatura ergo maior 
+          <lb ed="#L"/>est <ref><name>augustini</name> <title>ench</title> 34o capitulo</ref> minor patet 3o <title>sententiarum</title> distinctione II <g ref="#slash"/>Item consequentia istam conclusionem est ratio facta 
+          <lb ed="#L"/>ante oppositum</p>
+        
+        <p><g ref="#pilcrow"/>3o contra corollaria eius aliquis actus intelligendi patris praecedit actum generandi 
+          <lb ed="#L"/>ergo fililus non fuit aeternaliter patet[?] consequentia quia pater solum novit <g ref="#slash"/>in filio sed etiam iste ipso 
+          <lb ed="#L"/>ut patet per <ref><name ref="#Augustine">augustinum</name> 3o <title ref="#deTrinitate">de trinitate</title></ref> ergo videtur quod pater ante verbi expressionem habeat in<lb ed="#L"/>telligendi 
+          cognitionem</p>
+        
+        <p><g ref="#pilcrow"/>contra 2am conclusionem est ratio 2a facta in oppositum</p>
+        
+        <p><g ref="#pilcrow"/>2o si deus deum generat aut 
+          <lb ed="#L"/>ergo generat cum sapientia aut sine sapientia si primum ergo idem est terminus a quo prodict et terminus 
+          <lb ed="#L"/>ad quem producit quod non videtur verum si sine sapientia ergo pater ignoranter producit 
+          <lb ed="#L"/>filium quod est falsum</p>
+        
+        <p><g ref="#picrow"/>contra 3am conclusionem est ratio 3a in oppositum</p>
+        
+        <p><g ref="#pilcrow"/>2o omnis ratio alia ab esse in deo est 
+          <lb ed="#L"/>posterior ipso esse sed generare filium est denominatio vel ratio alia ab esse dei ergo posterior[?] 
+          <lb ed="#L"/>igitur est ibi prius et posterius maior probatur quia in divina essentia est ordo quidam rationum est 
+          <lb ed="#L"/>essentialium secundum <name ref="#Dionysius">dynosium</name> <title ref="#deDivinisNominibus">de divinis nominibus</title> capitulo 3o</p>
+        
+        <p><g ref="#slash"/>Item prius est ut videtur deum vivere 
+          <lb ed="#L"/>quam intelligere et intelligere quam velle sed haec natura generationem filii praecedunt ergo</p>
+        
+        <p><g ref="#pilcrow"/>3o illud 
+          <lb ed="#L"/>quod habet rationem principii aliquo modo praecedit suum principatum sed pater respectu filii et intelligere 
+          <lb ed="#L"/>patris respectu differentiae[dicere?] eius[?] habet rationem principii ergo aliquo modo praecedit</p>
+        
+        <p><g ref="#pilcrow"/>confirmatur quia intelligere 
+          <lb ed="#L"/>est commune tribus suppositis et non differentiae[dicere?] ergo prius est intelligere ipso differentiae[dicere?]</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum 
+          <lb ed="#L"/>negatur consequentia ad probationem dico quod non omnis genero est motus sicut patet de ista <g ref="#slash"/>2o dicitur 
+          <lb ed="#L"/>secundum <name>Iacobum de viterbio</name> quaestione 2a de divinis pn?tis[?] quod quandoque genus dicit im<lb ed="#L"/>perfectionem 
+          et species perfectionem et tunc genus illud non dicitur de deo sed bene species sicut 
+          <lb ed="#L"/>in proposito patet de generatione et motu quandoque econverso et tunc genus dicitur de deo sed species 
+          <lb ed="#L"/>non sicut totum universale dicitur de deo et totum integrale non quia deus non habet partes 
+          <lb ed="#L"/>quandoque tam genus quam species dicunt perfectionem et tunc utrumque convenit deo <g ref="#slash"/>ex quo 
+          <lb ed="#L"/>patet quod dato quod motus sit superius ad generationem et genus tamen non sequitur genero 
+          <lb ed="#L"/>dicitur de deo igitur motus</p>
+        
+        <p><g ref="#slash"/>Ad 2m dicitur quod <name>augustinus</name> vult dicere quod virgo non 
+          <lb ed="#L"/>genuit nisi christum qui secundum humanitatem potest dici creatura ut dicit <ref><name ref="#Lombard">magister</name> 11 distinctione 
+          <lb ed="#L"/>3ii</ref> aliter dicere ad hoc insequentibus</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m negatur antecedens ad probationem dicitur 
+          <lb ed="#L"/>quod notitia patris in se ipso non est prior notitia in filio ymmo est eadem essentialiter</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad primam rationem in oppositum negatur antecedens ad probationem negatur consequentia quia licet non generet 
+          <lb ed="#L"/>alium deum tamen generat deum filium qui est alius personaliter tamen non est alius 
+          <lb ed="#L"/>deus <g ref="#slash"/>Ad primam conra 2am conclusionem quae est 2a ratio in oppositum diceret <name ref="#HugolinoOfOrvieto">hugolinus</name> 
+          <pb ed="#L" n="25v"/><lb ed="#L"/>concedo consequentiam rationem huius assignando per hoc quod pater totam latitudinem cognitionis 
+          <lb ed="#L"/>in esse producit dicendo unum verbum ideo non sunt plura verba nec plures filii</p>
+        
+        <p><lb ed="#L"/><g ref="#slash"/>sed hoc non videtur ratio sufficiens quia adhuc conve?tur[?] quare <choice><orig>pocius</orig><reg>potius</reg></choice> per istam totam la<lb ed="#L"/>titudinem 
+        immensam cognitionis producxerit filium istum quam alium <g ref="#slash"/>2o diceret 
+          <lb ed="#L"/><name ref="#JohannesBrakel">brinkel</name> ad hoc quod producit hunc filium et non alium quia in deo <corr><del>n</del>est</corr> tantum 
+          <lb ed="#L"/>hoc memoria fecunda et non alia potest esse fecunda <g ref="#slash"/>sed similiter non sufficit quia 
+          <lb ed="#L"/>sic posset dicere quilibet de quolibet homine quod in ipso est tantum una memoria fe<lb ed="#L"/>cunda 
+        et tamen eius sunt plura verba <g ref="#slash"/>Item ipse solvit idem per idem et sic non reddit 
+          <lb ed="#L"/>rationem cum memoria intelligentia et cognitio sint in filio sicut in patre ideo dico aliter 
+          <lb ed="#L"/>quod nulla ratio est nobis nota quare pater generat istum et non alium quae ratio se 
+          <lb ed="#L"/>habeat tamquam antecedens nobis notum ad inferendum illud consequens quia data quacumque ratione 
+          <lb ed="#L"/>tali aequaliter inferretur de filio et spiritu sancto</p>
+        
+        <p>Ad 2m dicitur quod generat cum sa<lb ed="#L"/>pientia 
+        ad bonum sensum et ad improbationem negatur consequentia Item dicitur quod si idem sumitur essentialiter 
+          <lb ed="#L"/>conceditur consequens si personaliter negatur consequentia</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m dicitur quod deus generat deum ibi stat 
+          <lb ed="#L"/>pro persona ergo sicut conceditur tres esse personas ita tres deos negatur consequentia quia non 
+          <lb ed="#L"/>admittit illas ecclesia aequaliter</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur antecedens et ad probationem 
+          <lb ed="#L"/>negatur consequentia ex quo sequitur quod non bene nec sufficienter exponitur iste tres incipit per istas 
+          <lb ed="#L"/>propositiones <c>a</c> est in instanti praesenti et numquam ante hoc fuit ergo a esse incipit 
+          <lb ed="#L"/>sed debet dici <c>a</c> es in isto instanti temporis etc et ita potest dici de desinit suo modo[?]</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad confirmationem negatur consequentia quia arguitur ab inferiori ad superius negacione proposita a 
+          <lb ed="#L"/>parte praedicati[?]</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m negatur maior ad confirmationem dicitur quod in divina essentia est ordo 
+          <lb ed="#L"/>rationum essentialium dicitur quod talis ordo intrinsece nullo modo est amittendus nec dyobolus 
+          <lb ed="#L"/>sic ponit in trinitate</p>
+        
+        <p><g ref="#slash"/>Ad 3m conceditur universaliter antecedens sed negatur in divinis Ad confirmationem 
+          <lb ed="#L"/>quidquid sit de consequente negatur consequentia quia nec vivere praecedit intelligere nec intelligere 
+          <lb ed="#L"/>velle nec velle praecedit dicere quia ut dictum est nulla est ibi prioritas 
+          <lb ed="#L"/>nec posterioritas</p>
+        
+        <p><g ref="#pilcrow"/>hic oritur quaestio haec dico continet 4 conclusiones</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>prima concedendum est quod deus genuit deum et unus genuit unum tamen non est 
+          <lb ed="#L"/>concedendum quod deus genuit se deum vel alium deum</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio potest concedi quod 
+          <lb ed="#L"/>deus pater genuit deum quod non est pater</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio fides tenet tres personas 
+          <lb ed="#L"/>esse unum deum unam substantiam unam essentiam et econverso unam essentiam esse tres 
+          <lb ed="#L"/>personas et hoc probat <name ref="#Lombard">magister</name> per <name>augustinum</name> primo <title ref="#deTrinitate">de trinitate</title> cui secundum <name ref="#Lombard">magistrum</name> in hac 
+          <lb ed="#L"/>materia praeceteris[?] fides est adhibenda <g ref="#slash"/>Sciendum tamen quod contra 3am conclusionem universaliter 
+          <lb ed="#L"/>esse auctoritates scripturae ubi sapientia in creata de se dicit ab aeterno et ante 
+          <lb ed="#L"/>secula creata sine[?] <g ref="#slash"/> Item filius clarifica me pater claritate quam hm[?] priusquam 
+          <lb ed="#L"/>mundus fieret et cunctae aliae similes possunt adduci ex quibus patet quod termini 
+          <lb ed="#L"/>lapsum significantes dicuntur de divinis</p>
+        
+        <p><g ref="#slash"/>Ad primum horum dicitur quod illa auctoritas sic 
+          <lb ed="#L"/>intelligitur ante secula id est si tempora fuissent ante secula fuisse in illis vel dum 
+          <lb ed="#L"/>illa fuissent quia licet deus coexistat cuilibet parti temporis tamen proprie deus non 
+          <lb ed="#L"/>est in tempore sed in aeternitate vel in eius instanti et sic possunt solvi aliae aucto[?] <g ref="#slash"/>ex 
+          <lb ed="#L"/>ductis patet quod non sequitur deus non est prius quia non fuit ergo esse incipit vel incepit</p>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
