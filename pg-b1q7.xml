@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 7</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.04-dev-master">
+          <title>Librum I, Quaestio 7</title>
+          <date when="2014-04-14">April 04, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-04-14">April 04, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q7">
+        <head>Quaestio 7</head>
+         
+        <p><pb ed="#L" n="28v"/><lb ed="#L"/><hi rend="dropCapThreeLines">P</hi><hi rend="largeFont">raeterea quaeri solet</hi> haec est distinctio 6 qui ad praecedentem 
+          <lb ed="#L"/>sic continatur nam postquam <name>magister</name> determinavit de divina generatione quantum 
+          <lb ed="#L"/>ad genitem[?] et genitum nunc de ipsa tractare incipit quantum ad generationis 
+          <lb ed="#L"/>modum et dividitur in tres partes nam primo quaestionem proponit 2o solutionem ap<lb ed="#L"/>ponit 
+          et 3o declarationem responsionis exponit 2a ibi circa primum nec voluntate nec <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
+          <lb ed="#L"/>3a ibi praedicta tamen verba</p>
+        
+        <p><g ref="#pilcrow"/>2a dividitur in duas quia primo circa solutionem 
+          <lb ed="#L"/>ponit suam intentionem 2o apponit et solvit obiectionem 2a ibi sed contra hoc opponitur</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3a etiam dividitur in duas nam primo circa declarationem praemittit quod intendit <g ref="#slash"/>2o 
+          <lb ed="#L"/>declarationem esse varet concludit 2a ibi dicamus ergo etc quaeritur circa eam</p>
+        
+        <p><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum memoral patris fecunda complacenter et libere filium qui est 
+          <lb ed="#L"/>persona 2a determinetur gignvere <g ref="#slash"/>quod non quia pater producit naturae ergo non li<lb ed="#L"/>bere 
+        consequentia tenet et antecedens probatur per <name ref="#JohnDamascenus">damascens</name> libro primo capitulo 8o dicens genero est opus 
+          <lb ed="#L"/>naturae</hi></p>
+          
+          <p><g ref="#pilcrow"/>2o sequeretur quod filii genero esset voluntatis opero consequens videtur falsum quia est actus 
+            <lb ed="#L"/>memoriae patris patet consequentia quia complacentia seu complacere est actus voluntatis secundum 
+            <lb ed="#L"/><ref><name rend="#Anselmus">anselmus</name> <title>de conceptu virginali</title> capitulo 2o</ref></p>
+          
+          <p><g ref="#pilcrow"/>confirmatur quia actus suppositi paternalis est actus 
+            <lb ed="#L"/>essentialis ergo non plus determinatur ad gignendum filium quam filius ad hoc determinetur 
+            <lb ed="#L"/>ergo conclusio[?] falsa commune[?] bonae et antecedens apparet quia omnis actus patris ad intra est actus im<lb ed="#L"/>manens 
+            et per consequens essentialis et toti trinitatis communis</p>
+        
+        <p><g ref="#pilcrow"/>3o pater 11o modo determinatur 
+          <lb ed="#L"/>ad gignendum filum ergo antecedens probatur quia terminari dicit imperfectionem ergo patri nec cuicumque 
+          <lb ed="#L"/>divino supposito attribuendum probatio antecedentis quia a quocumque determinatur aliquid ab illo 
+          <lb ed="#L"/>est effective productum vel producitur vel salt?[?] movetur</p>
+        
+        <p><g ref="#pilcrow"/>In oppositum est <name rend="#Augustinus">augustinus</name> 9 
+          <lb ed="#L"/><title ref="#deTrinitate">de trinitate</title> capitulo 8 verbum amore concipitur <g ref="#slash"/>Ad idem est <name ref="#Lombard">magister</name> in fine huius distinctionis 
+          <lb ed="#L"/>6 ubi allegat <ref><name ref="#Augustine">augustinum</name> <title>super epistola ad ephe</title></ref></p>
+        
+        <p><g ref="#pilcrow"/>confirmatur ratione sic verbi aeter<lb ed="#L"/>na 
+          genero est perfectissima opero ergo complacens et libera <g ref="#dot"/> consequentia tnet quia secundum <name ref="#Aristotle">philosophum</name> 
+          <lb ed="#L"/>2o et 10 <title ref="#Ethics">ethicorum</title> opero perfectissima est delectissma[?] antecedens probatur quia quanto terminus pro<lb ed="#L"/>ductus 
+          est maioris perfectionis tanto opero seu productio est perfectior sed filius 
+          <lb ed="#L"/>in divinis est infinitae perfectionis ergo et eius productio sed ad hoc pater non eset indeterminatus 
+          <lb ed="#L"/>ergo determinatus</p>
+        
+        <p><g ref="#pilcrow"/>prima conclusio licet verbum infallibile a patre gignatur immutabiliter 
+          <lb ed="#L"/><choice><orig>neccessitate</orig><reg>necessitate</reg></choice> exigentiae tamen sine imperfectione pater ipsum generat delectabiliter ac voluntate 
+          <lb ed="#L"/>complacenciae prima pars probatur quia idem qui est purus actus <choice><orig>neccessario</orig><reg>necessario</reg></choice> exigit quod 
+          <lb ed="#L"/>existat in tribus suppositis sed illa tria non essent nisi pater gigneret et filium 
+          <lb ed="#L"/>et pater et filius spirarent spiritum sanctum ergo <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> naturalis exigentiae filius a patre 
+          <lb ed="#L"/>gignitur et confirmatur[?] quia pater non potest non gignere verbum ergo <choice><orig>neccessario</orig><reg>necessario</reg></choice> generat ipsum 
+          <lb ed="#L"/><g ref="#slash"/>primum corollarium licet pater verbum gignat <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> exisgentiae ab hac tamen ex<lb ed="#L"/>cluditur 
+          <choice><orig>neccessariis</orig><reg>necessariis</reg></choice> coactionis et indigentiae patet pars prima per conclusionem sed 2a patet quia 
+          <lb ed="#L"/>omps[?] cogi non potest contra <name ref="#Aureoli">oriolum</name></p>
+          
+          <p><g ref="#pilcrow"/>2m corollarium quam repugnat spiritum sanctum 
+            <lb ed="#L"/>a verbo non spirari tam <choice><orig>neccessario</orig><reg>necessario</reg></choice> concurrit amore essentialis ad verbum generari 
+            <lb ed="#L"/>patet 2am conclusionis[?] partem <g ref="#slash"/>quae probatur per <name ref="#RichardOfStVictor">ricardum</name> <title>de trinitate</title> libro ?[?] capitulo 17 dicentem in<lb ed="#L"/>genitum 
+            velle de se habere conformem atque condignum idem videtur mihi quod gignere</p>
+        
+        <p><pb ed="#29r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad idem est <name ref="#Dionysius">dyonisius</name> <title>de divinis nominibus</title> dicens amor divinus non dimisit deum esse sine 
+          <lb ed="#L"/><choice><orig>gignicione</orig><reg>gignitione</reg></choice> germinis <g ref="#slash"/>unde <ref><title ref="#mt">matthaeum</title> 3o</ref> <quote ana="#mt3_17">hic est filius meus dilectus in quo mihi bene</quote> etc</p>
+        
+          <p><lb ed="#L"/><g ref="#corollarium"/>3m corollarium pater seu fecunditas paternae memoria nullo modo postquam verbum produxit 
+            <lb ed="#L"/>potuit aut voluit verbum producere patet quia aliter ipsum genuisset voluntate 
+            <lb ed="#L"/>antecedente contra <name ref="#Augustine">augustinum</name> ad orosium[?] quaestionem 8 et contra <name ref="#Lombard">magistrum</name> in littera</p>
+        
+        <p>Item tunc <choice><orig>alica</orig><reg>aliqua</reg></choice> prioritas 
+          <lb ed="#L"/>esset in divinis quod est contra dicta in alia quaesitone</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio quam repugnat paternam memoriam 
+          <lb ed="#L"/>verbum fallibile ab aeterno produxisse tam repugnat omnem actum aeternalem esse 
+          <lb ed="#L"/>nocionalem vel fuisse prima pars patet per dictam in alia conclusione <g ref="#slash"/> confirmatur tamen quia repugnat 
+          <lb ed="#L"/>aliquod fallibile existere et non mensurari tempore ergo nullum tale potuit producit 
+          <lb ed="#L"/>sine 2a pars probatur quia actus praedestinationis petri vel alterius est actus aeternus 
+          <lb ed="#L"/>et non est nocionales ymmo tribus personis communis ergo</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium nullius rei 
+          <lb ed="#L"/>futuricio aut eius privatio carnit simpliciter temporis incio seu semper fuit aut 
+          <lb ed="#L"/>aeternalem patet quia futuricio et privatio et similia aut illa sunt aliquid aut nihil si nihil 
+          <lb ed="#L"/>ergo non fuerunt temporalem nec aeternaliter si sunt aliquid aut creator vel creatura non primum 
+          <lb ed="#L"/>cum ipse sit purus actus semper praesens si aliud a deo sequitur quod non fuerunt ab aeterno 
+          <lb ed="#L"/>ut patet primam conclusionis partem et eius probationem</p>
+        
+        <p><g ref="#pilcrow"/>ex dictis videtur sequi quod contradictoria non 
+          <lb ed="#L"/>posset simul esse vera iudicium vel antichristum fore non fuerunt vera ab aeterno 
+          <lb ed="#L"/>quia non fuerunt ab aeterno</p>
+        
+        <p><g ref="#pilcrow"/>2o posset inferri quo ad ne?cens[?] rerum aeternaliter extitisse 
+          <lb ed="#L"/>sequitur deum ad extra aliquid <corr>produxisse aeternaliter</corr> patet quia si deus aeternaliter extra se nihil 
+          <lb ed="#L"/>produxit nullius rei ab aeterno ne?o[?] extitit contra <ref><name ref="#HugolinoOfOrvieto">hugolinum</name> libro 2o quaestione 2a 
+          <lb ed="#L"/>articulo 4o</ref></p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium principale non quilibet actus patris aeternalis est apropriatus seu 
+          <lb ed="#L"/>nocionalis patet per 2am partem conclusionis quia actus quo pater praescti futurum quodlibet et tribus 
+          <lb ed="#L"/>suppositis communis et per consequens non est nocionalis</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium non omnis actus patris 
+          <lb ed="#L"/>cogertivus[?] est verbi infallibilis productivus patet quia aliquis est actus patris aeternalis 
+          <lb ed="#L"/>nullius termini productivus patet de actu quo <name>petrum</name> praedestinavit</p> 
+        
+        <p><g ref="#pilcrow"/>3a conclusio licet 
+          <lb ed="#L"/>memoria paterna sit fecunda complacenter et libere tamen ad verbi generationem 
+          <lb ed="#L"/>non est determinata formaliter et proprie patet per primam conclusionem prima pars 2a probatur quia sic 
+          <lb ed="#L"/>determinari proprie importat in perfectionem ergo memoriae paternae non est attribuendum 
+          <lb ed="#L"/>antecedens patet quia potentia <choice><orig>alica</orig><reg>aliqua</reg></choice> respectu cuius determinatur respectu illius prius fuit in potentia quam in 
+          <lb ed="#L"/>actu sed hoc sonat imperfectionem</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium quam <choice><orig>neccessario</orig><reg>necessario</reg></choice> pater summa beatitudine 
+          <lb ed="#L"/>fruitur tam <choice><orig>neccessario</orig><reg>necessario</reg></choice> ab eodem verbum infallibile gignitur patet quia tantum sibi comp<lb ed="#L"/>lacet 
+          in verbo quantum in se ipso ideo <title ref="#mt">matthaeum</title> 3o dicit <quote ana="#mt3_17">hic est filius meus dilectus</quote> etc</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium licet a memoria paterna libere complacentus ac naturaliter verbum aeternum 
+          <lb ed="#L"/>dicatur non tamen proprie aut formaliter ad hoc praedeterminatur patet dicta <g ref="#slash"/>ex quibus 
+          <lb ed="#L"/>potest inferri pars negativa conclusionis</p>
+        
+        <p><g ref="#pilcrow"/>Contra primam conclusionem arguitur verbum aeternum non potest 
+          <lb ed="#L"/>esse et non esse indifferenter ergo non producitur libere et complacenter antecedens est notum 
+          <pb ed="#L" n="29v"/><lb ed="#L"/>consequentia patet quia illa solum producuntur libere quae possunt aliter se habere seu quae possunt esse et 
+          <lb ed="#L"/>non esse</p>
+        
+        <p><g ref="#pilcrow"/>2o per dictum <name ref="#RichardOfStVictor">ricardi [?]</name> <title>de trinitate</title> capitulo 7o in fine ubi dict quamvis 
+          <lb ed="#L"/>uterque scilicet filius et spiritus sanctus a patre sit est tamen alius et alius modus procedendi in 6o 
+          <lb ed="#L"/>et in alio sed certum est quod si filius producitur libere et complacentur cum spiritus sanctus etiam sic 
+          <lb ed="#L"/>procedat sequitur quod non esset alius et alius procedendi modus in ipsis 3o contra 3m corollarium 
+          <lb ed="#L"/>videtur esse <name ref="#Augustine">augustinus</name> cum[?] <title ref="#deTrinitate">de trinitate</title> capitulo ultimo dicens quod partum mentis praecedit appetitus 
+          <lb ed="#L"/>quidam <g ref="#slash"/>Item contra hoc vide <name ref="#Scotus">scotum</name> distinctionem 6 primi</p>
+        
+        <p><g ref="#pilcrow"/>Contra 2am partem 2ae conclusionis 
+          <lb ed="#L"/>et eius corollaria si esset aliquis actus aeternalis non nocionalis sequitur quod essent plures dii 
+          <lb ed="#L"/>patet quia quilibet actus aeternus est ipsemet deus ergo si ponatur multitudo actuum aeternorum 
+          <lb ed="#L"/>oportet ponere multitudinem deorum quod est absonum <g ref="#slash"/>confirmatur quia in divinis idem est scire 
+          <lb ed="#L"/>et intelligere et vellet et hiis similia[??]</p>
+        
+        <p><g ref="#pilcrow"/>contra 2m corollarium spiritus sanctus eodem amore 
+          <lb ed="#L"/>amat se quo pater et filius amant ipsum sed ille actus amoris in patre et 
+          <lb ed="#L"/>filio et nocionalis ergo etiam in spiritu sancto eadem ratione quilibet actus patris aeternalis 
+          <lb ed="#L"/>erit nocionalis</p>
+        
+        <p><g ref="#dbslash"/>contra 3m corollarium si deus agit aliquid ad intra actu essentiali 
+          <lb ed="#L"/>ergo aliquid <corr><add place="aboveLine">non</add></corr> nocionale[?] producitur ad intra patet consequentia quia ab activo ad passionem[?] est bona 
+          <lb ed="#L"/>consequentia sicut sequitur deus creat ergo aliquid ergo aliquid creatur ita sequitur deus agit ergo aliquid agitur</p> 
+          
+        <p><lb ed="#L"/><g ref="#pilcrow"/>contra 3am conclusionem paterna memoria non potest filium non producere ergo <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> est ipsum pro<lb ed="#L"/>ducere 
+          ergo non libere tenet consequentia quia liberum et <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> opponuntur</p>
+        
+        <p><g ref="#pilcrow"/>2o sequeretur quod voluntas 
+          <lb ed="#L"/>haberet rationem principii ut sic in tali generatione consequens m[?] quia vel esset voluntas accedens 
+          <lb ed="#L"/>consequens vel coaeva non primum quia ille fuit error <name>erromii[?]</name> dicens falsum esse 
+          <lb ed="#L"/>filium voluntatis accedentis ut dicit <ref><name ref="#Augustine">augustinus</name> 3o <title ref="#deTrinitate">de trinitate</title> capitulo 20</ref> nec 2m per 3m 
+          <lb ed="#L"/>corollarium primae conclusionis nec 3m quia filius non diceretur a spiritu sancto quod est erroni[?]</p>
+        
+        <p><g ref="#pilcrow"/>3o contra 
+          <lb ed="#L"/>2m corollarium quantam repugnantiam includit patrem esse et non esse tantam includit 
+          <lb ed="#L"/>filium non gignere ergo talis contradictio vel repugnantia potest ostendi via primi principii 
+          <lb ed="#L"/>et sic sequitur quod diversitas vel pluralitas divinarum personarum posset demonstrari evidenter 
+          <lb ed="#L"/>contra superius dicta prima consequentia patet quia patrem esse includit contradictionem ita formaliter 
+          <lb ed="#L"/>quod talis contradictio potest evidenter ostendi ex primo principio ergo patrem filium non pro<lb ed="#L"/>ducere 
+          sequi contradictionem potest ostendi veritatem primi principii quod est falsum</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum 
+          <lb ed="#L"/>dicitur quod voluntatem concurrere ad verbi productionem seu voluntatem esse principium productivum 
+          <lb ed="#L"/>filii potest intelligi dicitur <g ref="#slash"/> uno modo antecedenter principative alio modo complacenter seu delectabiliter 
+          <lb ed="#L"/>coexigitive <g ref="#slash"/>tunc ad rationem conceditur antecedens principale et negatur consequentia sumendo concursum voluntatis 
+          <lb ed="#L"/>2o modo si autem primo modo conceditur tota ratio nec est contra dicta</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m quod est auctoritas <name ref="#RichardOfStVictor">ricar<lb ed="#L"/>do</name> cum <name ref="#Rimini">nostro doctore gregorio</name> libro primo distinctione 6 articulo 2o quod est unicus modus pro<lb ed="#L"/>cedendi 
+          utriusque nec auctoritas huius doctoris in hac parte est credendum</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m dicitur 
+          <lb ed="#L"/>quod ibi <name ref="#Augustine">augustinus</name> loquitur de partu mentis nostrae non divinae ut patet videri in textu 
+          <lb ed="#L"/>sequenti</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur consequentia ad probationem dicitur quod <ref><name ref="#Anselm">anselmus</name> <title ref="#Monologion">monologion</title> 
+          <lb ed="#L"/>capitulo 62o usque ad 65</ref> ubi tractat hanc materiam dicens dubium esse non debet quod 
+          <lb ed="#L"/>pater et filius et eorum unus quisque se ipsum et alios ambos dicit sicut se et alios 
+          <pb ed="#L" n="30r"/><lb ed="#L"/>intelligit quod si ita est quomodo non sunt in summa essentia tot verba quot sunt di<lb ed="#L"/>centes 
+          et subdit capitulo 63o sicut singulus eorum est sciens et intelligens ita sin<lb ed="#L"/>gulus 
+          quisque dicens nec tamen omnes simul sunt tres dicentes sed unus solus 
+          <lb ed="#L"/>dicens quid namque ibi dicitur nisi eorum essentia si ergo illa una sola eest unum solum 
+          <lb ed="#L"/>est quod dicitur ergo si unum solum est quod dicitur unum etiam solum est quod dicit et quod dicitur sequitur 
+          <lb ed="#L"/>ibi non esse plura verba vide ibi processum</p>
+        
+        <p><g ref="#pilcrow"/>Ad idem est processus <title ref="#HenryOfGhent">henrici 
+          <lb ed="#L"/>de gandavo</title> parte prima articulo 42o ubi quaerit utrum intelligere quod non est nisi 
+          <lb ed="#L"/>essentiale correspondeat in deo a deo verbum essentiale ubi ostendit quod non satis prolixe 
+          <lb ed="#L"/>qui vult videat per hoc possunt salvi aliae duae rationes et confirmatio primae</p>
+        
+        <p><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>primum contra 3am conclusionem conceditur antecedens et consequens primum et negatur consequentia 2a et ad probationem quia libertas 
+          <lb ed="#L"/>opponitur <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> dicitur hoc verum esse de libertate coactionis et indigentiae non aut 
+          <lb ed="#L"/>opponitur <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> complacentiae et immutabilitatis</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m potest dici sicut ad primum 
+          <lb ed="#L"/>contra primam conclusionem quia si intelligitur quod voluntas producat filium antecedenter principative negatur consequens 
+          <lb ed="#L"/>et consequentia si vero complacenter et coexigitive sic potest concedi consequens et dicitur ultra ad 
+          <lb ed="#L"/><choice><orig>improbaciones</orig><reg>improbationes</reg></choice> quod voluntate coaeva producitur et cum infertur ergo filius a spiritu sancto non 
+          <lb ed="#L"/>distincta negatur consequentia sumendo uniformiter voluntatem seu voluntarie producere</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m negatur 
+          <lb ed="#L"/>consequentia quia licet unum repugnet tantum sicut aliud tamen una <choice><orig>contradiccio</orig><reg>contradictio</reg></choice> est non stat 
+          <lb ed="#L"/>nec tantum apparet nobis sicut reliqua ratio non sequitur quod si una repugnantia possit 
+          <lb ed="#L"/>per nos demonstrari veritate primi principii quod etiam alia per nos evidenter possit 
+          <lb ed="#L"/>ostendi</p>
+        
+        <p><g ref="#pilcrow"/>Ad rationes in oppositum patet ex dictis quomodo voluntas concurrit ad generationem 
+          <lb ed="#L"/>filii Item quare memoria paterna non est proprie determinata ut probant argumenta quamvis 
+          <lb ed="#L"/>forte in proprie posset dici determinata</p>
+        
+        <p><g ref="#pilcrow"/>hic quaeri solet haec distinctio continet 
+          <lb ed="#L"/>3 conclusiones prima quod sicut deus pater non <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> nec voluntate nec volens aut volens 
+          <lb ed="#L"/>est deus sic deus pater non <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> nec voluntate filium genuit nec volens nec 
+          <lb ed="#L"/>volens ipsum genuit ad intellectum haeretici</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio quod licet in deo idem 
+          <lb ed="#L"/>sit esse natura et voluntas non tamen sequitur quod si verbum dei est natura filius quod propter hoc sit 
+          <lb ed="#L"/>filius voluntate sicut non sequitur praescientia et divina voluntas sunt idem igitur quidquid dicitur de 
+          <lb ed="#L"/>una et de altera nam praescientia est de bonis et malis voluntas vero tantum de 
+          <lb ed="#L"/>bonis vel respectu bonorum</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio quod pater genuit filium volens sicut et potens 
+          <lb ed="#L"/>et bonus ipsum genuit et sapiens non tamen voluntate praecedente vel accedente 
+          <lb ed="#L"/>nec naturali coactus <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> vel ductus genuit filium et ideo non nolens sed vo<lb ed="#L"/>lens 
+          genuit ipsum scilicet voluntate approbante vel complacente ut supra est dictum etc</p>
+          
+          
+        </p>
+            
+      </div>  
+    </body>
+  </text>
+</TEI>
