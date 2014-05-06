@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 11</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.05-dev-master">
+          <title>Librum I, Quaestio 11</title>
+          <date when="2014-05-02">May 02, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-05-05">May 02, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q11">
+        <head>Quaestio 11</head>
+         <p><lb ed="#L"/><hi rend="dropCapTwoLines">N</hi><hi rend="largeFont">unc post filii aeternitatem</hi> haec est distinctio 10a quae continatur ad 
+           <lb ed="#L"/>praecedentes sic quia postquam <name ref="#Lombard">magister</name> determinavit de filii generatione nunc vero 
+           <pb ed="#L" n="39r"/><lb ed="#L"/>incipit tractare de spiritus sancti processione <g ref="#slash"/>et dividitur in duas quia primo determinat 
+           <lb ed="#L"/>de eius modo processivo[?] 2o de eisu principio productivo 2a incipit in principio distinctionis 
+           <lb ed="#L"/>11 <g ref="#dot"/> hic dicendum est</p>
+        
+        <p><g ref="#pilcrow"/>prima dividitur in duas quia primo ostendit quomodo spiritus sanctus procedit 
+          <lb ed="#L"/>seu producitur <g ref="#slash"/>secundo quare solus nomine communi exprimitur 2a ibi hic notandum est</p>
+        
+        <p><lb ed="#L"/><g ref="#slash"/>prima in duas quia primo ostendit quomodo spiritus sanctus procedit 
+          <lb ed="#L"/>seu producitur <g ref="#slash"/>secundo quare solus nomine communi exprimitur 2a ibi hic notandum est</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>prima in duas quia primo ostendit modi[?] quo procedit vel emanat <g ref="#slash"/>2o quod dixit 
+          <lb ed="#L"/>aucto?lus[?] confirmat 2a nunc vero quod incepimus et haec est divisio huius distinctionis <g ref="#slash"/>sequitur 
+          <lb ed="#L"/>distinctio <g ref="#dot"/>11a<g ref="#dot"/> In qua postquam <name ref="#Lombard">magister</name> posuit in praecedent spiritus sancti processionem hic vero circa hoc 
+          <lb ed="#L"/>ponit duplicem operationem <g ref="#slash"/>quae quid distinctio iia in 3 dividitur primo enim ostendit <name>magister</name> latinorum 
+          <lb ed="#L"/>concordiam 2o graecorum discordiam 2a ibi graeci tamen prima in duas quia primo <name ref="#Lombard">magister</name> 
+          <lb ed="#L"/>praemittit suam intentionem 2o subiungit sui dicti probationem ibi quod aut[?] de utroque <g ref="#dot"/> 
+          <lb ed="#L"/>2a principalis in duas quia primo ponit graecorum cum latinis aliqualem convenientiam 2o eorum 
+          <lb ed="#L"/>disconvenientiam ibi non autem verba determinamus et haec sit divisio harum distinctionum duarum</p>
+        
+        <p><hi rend="threeLineDropCap">U</hi><hi rend="largeFont">trum</hi> pater et filius eodem modo agendi in distincto spiritum sanctum producant in supposito 
+          <lb ed="#L"/>a se distincto <g ref="#slash"/>quod non quia tunc sequitur primo[?] quod tantum repugnaret spiritum sanctum a filio 
+          <lb ed="#L"/>non produci sicut ab ipso non distingui consequens est falsum quia si per impossibile filius 
+          <lb ed="#L"/>spiritum sanctum non producent ad haec distinctio esset inter ipsos ergo prima consequentia probatur quia si eodem modo 
+          <lb ed="#L"/>pater et filius spirent cum ergo pater taliter spiret quod si non spiraret spiritum sanctum 
+          <lb ed="#L"/>non diceretur ab eo sequitur quod si filius etiam <corr><add place="aboveLine">non</add></corr> spiraret nec distingueretur</p>
+        
+        <p><g ref="#pilcrow"/>2o filius non spirat 
+          <lb ed="#L"/>spiritum sanctum probatur auctoritas <ref><name ref="#JohnDamascenus">damasceni</name> libro primo capitulis 10 et 11</ref> dicens spiritum sanctum ex patre dicimus 
+          <lb ed="#L"/>et patris spiritum sanctum nominamus ex filio vero non dicimus sed spiritum filii nominamus 
+          <lb ed="#L"/>ergo si nota est ex filio non videtur procedere ab eo</p>
+        
+        <p><g ref="#pilcrow"/>3o si sic sequeretur quod ab eis naturaliter 
+          <lb ed="#L"/>procederet <corr>consequens</corr> est falsum quia procedit modo amoris et libertatis seu voluntatis 
+          <lb ed="#L"/>sed probatur consequentia quia ad intra est unicus procedendi modus in divinis inplurificabilis[?] ut fuit 
+          <lb ed="#L"/>dictum supra sed filius modo naturali seu naturaliter a patre procedit igitur si spiritus sanctus ab 
+          <lb ed="#L"/>aliquo procedat hoc esse[?] naturaliter et non libere</p>
+        
+        <p><g ref="#pilcrow"/>Ad oppositum est <name ref="#Lombard">magister</name> in hac 11 distinctione et 
+          <lb ed="#L"/>extra <ref><title>de summa trinitate et fide catholica</title> libro 6</ref></p>
+        
+        <p><g ref="#pilcrow"/>prima conclusio licet spiritus sanctus non prius nec 
+          <lb ed="#L"/>magis procedat a patre quam a filio tamen spiritum esse vel procedere ab aliquo solum 
+          <lb ed="#L"/>ostendi potest fidei medio prima pars probatur quia pro quocumque signo spiritus sanctus est spiratur 
+          <lb ed="#L"/>a filio sed pro omni signo pro quo spiratur a patre est igitur pro quocumque signo spiratur a patre 
+          <lb ed="#L"/>pro eodem spiratur a filio maior patet quia si detur oppositum sequitur quod in <choice><orig>alico</orig><reg>aliquo</reg></choice> signo spiritus sanctus 
+          <lb ed="#L"/>esset ab uno tantum et non a duobus contra fidem</p>
+        
+        <p><g ref="#pilcrow"/>2a scilicet minor probatur quia pro quocumque signo pro 
+          <lb ed="#L"/>quo spiratio activa est spiratio passiva <choice><orig>eciam</orig><reg>etiam</reg></choice> est ergo probatur antecedens quia aliter sequeretur quod pater 
+          <lb ed="#L"/>pro <choice><orig>alico</orig><reg>aliquo</reg></choice> signo spiraret spiritum sanctum pro quo signo non spiraretur spiritus sanctus quae est 
+          <lb ed="#L"/>contradictio</p>
+        
+        <p><g ref="#pilcrow"/>2a pars conclusionis probatur quia sequeretur quod trinitas divinarum personarum posset evidenti 
+          <lb ed="#L"/>ratione ostendi quod est falsum ut probatum est</p>
+        
+        <p><g ref="#pilcrow"/>Item omnis ratio citra fidem probans spiritum sanctum 
+          <lb ed="#L"/>procedere probaret spiritum sanctum alium spiritum sanctum producere sicut fuit dictum de 
+          <lb ed="#L"/>generatione filii sed quod fidei medio ostendi potest patet extra <ref><title>de summa trinitate et fide 
+          <lb ed="#L"/>catholica</title> libro 6o capitulo fidei</ref> <g ref="#slash"/>Item per <ref><name ref="#Augustine">augustinum</name> 4o <title>de trinitate</title></ref> capitulo habet de parvis ubi 
+          <lb ed="#L"/>deducit hoc multis auctoritatibus sacrae scripturae</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium sicut pater non prius dicit 
+          <pb ed="#L" n="39v"/><lb ed="#L"/>verbum quam spiret sanctum spiritum sic genero verbi divini non est realiter prior spiratione 
+          <lb ed="#L"/>spiritus sancti prima pate quia filius non est prior spiritu sancto ergo antecedens probatur quia sicut probatur pater non est 
+          <lb ed="#L"/>prior filio sic probatur quod filius non est prior spiritu sancto <g ref="#slash"/>2a pars probatur quia in divinis nulla est realis 
+          <lb ed="#L"/>prioritas in quo ut probatum est <g ref="#slash"/>si etiam generatio praecederet spirationem sequeretur quod generatum praece<lb ed="#L"/>deret 
+          spiratum quod improbatum est</p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium quod in deo causaliter filius spiritum sanctum producit 
+          <lb ed="#L"/>quia eius expressa <choice><orig>ymago</orig><reg>imago</reg></choice> et perfecta similitudo existit patet quia eadem ratione praedicaretur 
+          <lb ed="#L"/>quod spiritus sanctus produceret filium ergo</p>
+        
+        <p>3m corollarium non praecise ex eo quia filius est deus spiritum 
+          <lb ed="#L"/>sanctum spirat vel producit filius patet quia sic praedicaretur quod spiritus sanctus produceret se 
+          <lb ed="#L"/>ipsum vel alkum quod est filium et patet consequentia quia non minus est deus quam sit pater vel filius</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio licet nulla alia res a spiratione activa sit spiritus sancti a filio distinctiva[?] tamen 
+          <lb ed="#L"/>haec consequentia non est formalis spiritus sanctus a filio non producitur ergo filius a spiritu sancto 
+          <lb ed="#L"/>non distinguitur prima pars probatur quia nihil est in filio quod non sit spiratio activa ergo <g ref="#slash"/>2o quia 
+          <lb ed="#L"/>si per aliud distingueretur sequitur quod filius non esset summe simplex patet consequentia quia plures entitates 
+          <lb ed="#L"/>incomplexae essent in eo</p>
+        
+        <p><g ref="#pilcrow"/>2a pars probatur quia filius non praecise distinguitur a spiritu sancto quia praecise 
+          <lb ed="#L"/>ipsum spirat ergo illa consequentia non est formalis patet consequentia quia in illa consequentia arguitur a pluribus 
+          <lb ed="#L"/>causis veritatis ad unam sed talis consequentia non valet sed antecedens principale arguitur quia filius distinguitur 
+          <lb ed="#L"/>sufficienter a spiritu sancto per hoc quod ipse procedit a patre nascendo et spiritus sanctus non 
+          <lb ed="#L"/>sed tantum procedendo <g ref="#slash"/>haec ratio etiam confirmatur dicto <ref><name ref="#Augustine">augustini</name> 5o <title>de trinitate</title> capitulo 14o</ref> ideo spiritus 
+          <lb ed="#L"/>sanctus non est filius cum uterque a patre exeat quia ipse exit non quomodo natus sed 
+          <lb ed="#L"/>quomodo datus Item <title>de fide catholica</title> capitulo 2o aliud est natum esse aliud procedere ideo alius filus 
+          <lb ed="#L"/>alius spiritus sanctus</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium non solum oppositio relativa est personarum divinarum distinctiva[?] patet 
+          <lb ed="#L"/>quia si inter filium et spiritum sanctum non esset huiusmodi oppositio adhuc distingueretur per conclusionem <g ref="#slash"/>confirmatio 
+          <lb ed="#L"/>quia personae divinae se ipsis et non solum relationibus distinguitur hoc corollarium est contra <ref><name ref="#ThomasStrasbourg">thomam 
+          <lb ed="#L"/>de argentis</name> libro primo distinctione 11a quaestione 2a articulo 2o</ref></p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium si per impossibile filius 
+          <lb ed="#L"/>spiritum sanctum non produceret adhuc staret quod nulla divina persona per modum 
+          <lb ed="#L"/>generationis et spirationis <corr>proderet[?]</corr> <g ref="#slash"/>contra <ref><name ref="#GilesOfRome">aegidium</name> primo <title>quolibet</title> quaestione 6a</ref> <g ref="#slash"/>Item contra <name ref="#Ockham">okam</name> et 
+          <lb ed="#L"/><name ref="#Aureoli">oriolum</name> probatur quia illo casu posito adhuc sufficienter personae productae distinguentur 
+          <lb ed="#L"/>abinvicem ut dicit <ref>2a conclusionis pars</ref></p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium haec consequentia non est evidens nec 
+          <lb ed="#L"/>formalis spiritus sanctus a filio non procedit ergo spiritus sanctus non est nec existat <g ref="#slash"/>contra 
+          <lb ed="#L"/><ref><name>gregorium</name> libro primo distinctione 11 articulo 2o</ref> patet corollarium quia si consequentia esset formalis sequitur quod si 
+          <lb ed="#L"/>spiritus non produceretur a verbo ipse non distingueretur ab eo quod est improbatum in conclusione <g ref="#slash"/>confirmatur 
+          <lb ed="#L"/>quia spiritus sanctus per aliquod incomplexum praeter spirationem sufficienter a verbo distinguitur ergo seclusa 
+          <lb ed="#L"/>spiratione per impossibile vel possibile adhuc spiritus sanctus a verbo distingueretur antecedens est suum in 
+          <lb ed="#L"/>primo articulo eiusdem conclusionis et consequentia patet per dictam</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio licet pater spirare activum communi<lb ed="#L"/>cet 
+        filio tamen spiritus sanctus producitur ab utroque eodem modo naturali et libero prima pars patet 
+          <lb ed="#L"/>in distinctione 12 primi in qua dictur quod pater dat filio quod spiret spiritum sanctum ergo <g ref="#slash"/>sed quod modo 
+          <lb ed="#L"/>naturali producant spiritum sanctum patet auctoritate <ref><name>hylarii</name> 5o <title>de trinitate</title></ref> et eum 
+          <lb ed="#L"/>allegat <name ref="#Lombard">magister</name> intextu ubi dicit ex virtute naturae in naturam eandem processionem 
+          <pb ed="#L" n="40r"/><lb ed="#L"/>subsistit spiritus sanctus sed quod praecedat libere patet quia voluntarie ut dicit <ref><name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">de trinitate</title> 
+          <lb ed="#L"/>capitulo 17</ref> vide in fonte <g ref="#slash"/>confirmatur etiam quia non repugnat filium generari naturaliter et 
+          <lb ed="#L"/>libere ergo nec spiritum sanctum repugnat spirari naturaliter et libere consequentia patet per simile 
+          <lb ed="#L"/>sed antecedens probatum est supra</p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium spiritus immensae bonitatis non producitur per 
+          <lb ed="#L"/>modum voluntatis contra <ref><name>scotum</name> libro primo distinctione 18 quaestione prima articulo primo</ref> et contra <ref><name ref="#Ockham">okam</name> eadem 
+          <lb ed="#L"/>distinctione quaestione prima</ref> probatur quia vel voluntas sumitur essentialiter vel <choice><orig>nocionaliter</orig><reg>notionaliter</reg></choice> <g ref="#slash"/>non primum quia certum est 
+          <lb ed="#L"/>quod voluntas non producit filium nec spiritum sanctum nec 2m quia tunc spiritus sanctus producent se 
+          <lb ed="#L"/>ipsum consequentia patet per <ref><name ref="#Augustine">augustinum</name> 17 <title ref="#deTrinitate">de trinitate</title> capitulo 3o de magnis</ref> et <ref>16 de parvis</ref> dicentem voluntas 
+          <lb ed="#L"/>dei proprie si dicenda est aliquid intrinsece persona magis hoc nomen spiritui sancto convenit 
+          <lb ed="#L"/>sicut caritas nam quid est aliud caritas quam voluntas per hanc rationem arguit <name>augustinus</name> contra 
+          <lb ed="#L"/><name>eunomium</name> haereticum quod filius non sit filius voluntatis seu voluntate</p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium in eodem 
+          <lb ed="#L"/>principio respectu eiusdem termini unitive libertas et <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> concurrunt active spirative[?] 
+          <lb ed="#L"/>probatur quia unicus est terminus simplex scilicet spiritus sanctus sed ille est a patre et filio libere et naturaliter 
+          <lb ed="#L"/>productus et <choice><orig>neccessario</orig><reg>necessario</reg></choice> per spirationem <g ref="#slash"/>nota tamen quod haec libertas non est contradictionis sed com<lb ed="#L"/>placentiae 
+          et naturalis dilectionis contra <name ref="#Rimini">gregorium</name> improbantem <name ref="#Scotus">scotum</name></p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium est pars 
+          <lb ed="#L"/>quaesiti affirmativa</p>
+        
+        <p><g ref="#pilcrow"/>contra primam conclusionem arguitur primo sic auctoritate <ref><name ref="#Dionysius">dyonisii</name> capitulo 2o <title>de divinis nominibus</title></ref> 
+          <lb ed="#L"/>dicentis non est audendum de spiritu sancto dre[?] et occulta divinitate praeter ea <g ref="#dot"/> quae divinitus 
+          <lb ed="#L"/>nobis ex sacris litteris sunt expressa sed in sacris litteris canonis non videtur haec 
+          <lb ed="#L"/>veritas expressa igitur non est ponenda</p>
+        
+        <p><g ref="#pilcrow"/>2o sequitur quod maior sit <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> inter patrem 
+          <lb ed="#L"/>et spiriti[?] filium quam inter patrem et spiritum sanctum consequens est falsum patet consequentia quia ultra <choice><orig>ydemp<lb ed="#L"/>titatem</orig><reg>iden<lb ed="#L"/>titatem</reg></choice> 
+          essentiae est <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> spirationis activae</p>
+        
+        <p><g ref="#pilrow"/>3o cuiuslibet <choice><orig>accionis</orig><reg>actionis</reg></choice> simpliciter simplex 
+          <lb ed="#L"/>est principium unum ergo sed hoc est falsum quod probatur primo quia si esset unum principium spirans 
+          <lb ed="#L"/>spiritum sanctum tunc esset aliqua persona 4a in divinis cum filius non sit illud principium 
+          <lb ed="#L"/>unum nec pater <g ref="#slash"/>2o sequitur tantum duas esse ibi personas probo quia tantum principium spi<lb ed="#L"/>rativum 
+          et spiratum principium vel terminus spirationis</p>
+        
+        <p><g ref="#pilcrow"/>3o sequitur patrem et filium aliqualiter 
+          <lb ed="#L"/>esse unum qualiter <sic>qualiter</sic> spiritus sanctus non esset illud unum consequens est falsum et patet 
+          <lb ed="#L"/>consequentia quia pater et filius sunt unum principium spiritus sancti sed spiritus sanctus non est sit unum 
+          <lb ed="#L"/>cum eis ergo antecedens patet quia aliter sequitur primo quod idem terminus indivisibilis unica relatione ad 
+          <lb ed="#L"/>plura referretur <g ref="#slash"/>2o quod unum et idem a pluribus causis totalibus simpliciter produceretur quod 
+          <lb ed="#L"/>supra est improbatum 3o sequitur quod effectus <choice><orig>deppendent</orig><reg>dependent</reg></choice> a causa qua remota non minus 
+          <lb ed="#L"/>produceretur haec sunt falsa ergo</p>
+        
+        <p><g ref="#pilcrow"/>4o principaliter <!-- possible small whole in actual manuscript here --> aut ista veritas <choice><orig>neccessario</orig><reg>necessario</reg></choice> et expresse 
+          <lb ed="#L"/>sequitur ex dictis sacra scripturae aut non si primum mirum est quod hoc non viderunt 
+          <lb ed="#L"/>doctores graecorum sicut <name ref="#JohnDamascenus">damascenus</name> <name>th?opillus[?]</name> <name>gregorius nazazenus</name> et <name ref="#Cyril">cyrillus</name> 
+          <lb ed="#L"/>si 2m sequitur quod nec nos debemus docere nec fideles ad hoc credendum debent 
+          <lb ed="#L"/>artari nec oppositum debet haereticum dici</p>
+        
+        <p><g ref="#pilrow"/>5o aliquod principium spiritus sancti non est filius 
+          <lb ed="#L"/>ergo nullum principium spiritus sancti est filius antecedens patet quia pater qui non est filius est principium 
+          <lb ed="#L"/>spiritus sancti et consequentia probatur quia in materia naturali indefinita vel singularis infert universalem sicut 
+          <lb ed="#L"/>est in proposito</p>
+        
+        <p><g ref="#pilcrow"/>contra 2am conclusionem arguitur primo sic a quocumque aliquid constituitur inesse ab eodem 
+          <pb ed="#L" n="40v"/><lb ed="#L"/>distinguitur illo sed filius constituitur inesse personali filiatione ergo ea formaliter distinguitur ab omni 
+          <lb ed="#L"/>alia persona ergo circumscripta per possibile vel impossibile spirationem remanebit filius per<lb ed="#L"/>sonaliter 
+          distinctus a quacumque alia persona ergo non solum per spirationem distinguitur a spiritu sancto ut 
+          <lb ed="#L"/>dicit prima pars conclusionis haec est ratio <ref><name ref="#Scotus">scoti</name> 11a distinctione quaestione 2a</ref></p>
+        
+        <p><g ref="#pilcrow"/>3o inter divinas personas 
+          <lb ed="#L"/>non potest esse distinctio nisi per <choice><orig>alicam</orig><reg>aliquam</reg></choice> oppositionem quae non potest esse nisi relativa sed talis non potest esse 
+          <lb ed="#L"/>nisi per aliquam originem ergo si nulla est origo spiritus sancti a verbo nec aliqua relatio ergo 
+          <lb ed="#L"/>nec distinctio <ref><name ref="#Aquinas">doctor sanctus</name> in <title ref="#SummaTheologica">summa</title> parte prima quaestione 36 articulo 2o</ref></p>
+        
+        <p><g ref="#pilcrow"/>contra 2m corollarium generatio 
+          <lb ed="#L"/>activa et spiratio activa in patre dicunt eandem rem ergo generatio passiva non concer<lb ed="#L"/>neret 
+          spirationem passivam nisi concerneret generationem activam sed si spiritus sanctus non procederet 
+          <lb ed="#L"/>a filio generatio passiva non concerneret spirationem <corr><del>passivam</del></corr> activam ergo eandem esset personam 
+          <lb ed="#L"/>genita et spirata <ref><name ref="#Aquinas">thomas</name> ubi supra</ref></p>
+        
+        <p><g ref="#pilcrow"/>contra 3m corollarium spiritus sanctus non esset si a filio 
+          <lb ed="#L"/>non procederet illa consequentia est formalis spiritus sanctus non procedit a filio ergo non distinguitur ab 
+          <lb ed="#L"/>eo consequentia bona quia quod non est a nullo distinguitur <g ref="#slash"/>antecedens probatur tripliciter <g ref="#slash"/>primo quia si spiritus sanctus non 
+          <lb ed="#L"/>procederet a filio non esset donum patris et filii igitur nec spiritus sanctus <g ref="#slash"/>2o quia filius per se est 
+          <lb ed="#L"/>principium spiritus sancti ergo si eum non spiraret tunc spiritus sanctus non esst <g ref="#slash"/>3o si <choice><orig>alica</orig><reg>aliqua</reg></choice> creatura 
+          <lb ed="#L"/>non produceretur a filio non produceretur a filio nec a patre ergo si erit de spiritu sancto et 
+          <lb ed="#L"/>per consequens si filius non produceret spiritum sanctum ipse non esset ista est ratio <ref><name ref="#Rimini">doctoris nostri 
+          <lb ed="#L"/>gregorii</name> 11 distinctione primi articulo 2o</ref></p>
+        
+        <p><g ref="#pilcrow"/>contra 3am conclusionem pater sufficineter producit spiritum sanctum ergo filium 
+          <lb ed="#L"/>producere superfluit consequentia bona quia sicut frustra sit per plura etc a fortiori frustra 
+          <lb ed="#L"/>sit plura quod sufficienter de facto fit per unum solum sed deus et natura nihil agunt frustra ergo 
+          <lb ed="#L"/>antecedens probatur qua non perfectius producitur a duobus quam ab uno tantum</p>
+        
+        <p><g ref="#pilcrow"/>2o aliqualem pater 
+          <lb ed="#L"/>producit spiritum sanctum qualiter filius non producit ipsum ergo non eodem modo antecedens probatur quia pater non 
+          <lb ed="#L"/>habet suum producere ab alio sed filius habet a patre ergo</p>
+        
+        <p><g ref="#pilcrow"/>3o diversorum suppositorum diversi 
+          <lb ed="#L"/>sunt actus sed pater et filius diversa supposita ergo si spirant diversae sunt spirationes 
+          <lb ed="#L"/>et diversi actus consequens est falsum patet consequentia sed antedens probatur quia licet duo angeli se diligant 
+          <lb ed="#L"/>tamen non sequitur quod sit unus amore duorum ergo sic est in divinis</p>
+        
+        <p><g ref="#pilcrow"/>contra primum corollarium voluntas est 
+          <lb ed="#L"/>principium <choice><orig>adintra</orig><reg>ad intra</reg></choice> productivum et non nisi amoris ergo spiritus immensae bonitatis producitur etc 
+          <lb ed="#L"/><ref><name>scotus</name> distinctione 10a</ref> <corr><del rend="strikethrough">et sic de aliis connterse</del></corr></p>
+        
+        <p><g ref="#pilcrow"/>contra 2m corollarium sequeretur si sic quod inter liberum et <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> 
+          <lb ed="#L"/>non esset differentia contra <ref><name ref="#Aristotle">philosophum</name> 9 <title ref="#Metaphysics">metaphysicae</title></ref> et consequens probat <ref><name>gregorius</name> 10 distinctione articulo 2o conclusione 2a</ref></p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>contra 3m corollarium principium productivum spiritus sancti est voluntas ergo libere producitur et non 
+          <lb ed="#L"/>naturaliter seu <choice><orig>neccessario</orig><reg>necessario</reg></choice> patet consequentia quia sicut intellectus non habet modum liberum agendi sic 
+          <lb ed="#L"/>nec voluntas modum naturalem antecedens patet <space extent="oneWordLength"/> quia spiritus sanctus est amore ergo producitur <c>a</c><g ref="#dot"/> 
+          <lb ed="#L"/>voluntate haec ratio est <ref><name ref="#AlphonsusVargas">alphonsi</name> distinctione 11a prima articulo 2o quaestione 3a</ref></p>
+        
+        <p><g ref="#pilcrow"/>2o spiritus sanctus non 
+          <lb ed="#L"/>producitur quomodo natus ergo non naturaliter antecedens est <ref><name ref="#Augustine">augustini</name> libro <title ref="#deTrinitate">de trinitate</title> capitulo 12o</ref> consequentia probatur 
+          <lb ed="#L"/>quia quidquid producitur naturaliter in eadem natura cum producente producitur ut natum ergo 
+          <lb ed="#L"/>ex opposito quod non producitur ut natum non producitur naturaliter ergo consequentia fuit bona</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad primum quod est dictum <name ref="#Dionysius">dyonisii</name> dicitur quod illa acutoritas et similes debent intelligi per 
+          <lb ed="#L"/>aliud vel praeter etc[?] id est contrarium vel adversum ut patet quia ipsemet <name ref="#Dionysius">dyonisius</name> mul<lb ed="#L"/>ta 
+          docuit quae expresse non habentur in canone <g ref="#slash"/>et ita possunt exponi aliae 
+          <pb ed="#L" n="41r"/><lb ed="#L"/>auctoritates multae</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m negatur consequentia et ad probationem dicitur quod <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> spirationis 
+          <lb ed="#L"/>non addit aliquid ultra essentialiter[?]</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m posset primo concedit consequens sicut dicit 
+          <lb ed="#L"/><ref><name ref="#Aquinas">thomas</name> parte prima quaestione 36 articulo 4o</ref> sed non videtur conformiter loqui in <title>scripto</title> primo ubi 
+          <lb ed="#L"/>dicit non possumus dicere quod pater et filius est spirans vel spirator sed debemus 
+          <lb ed="#L"/>dicere quod sunt duo spirantes vel spiratores quia duo supposita et in <title ref="#SummaTheologica">summa</title> dicit 
+          <lb ed="#L"/>ubi supra quod non debent dici duo spiratores propter unicam <choice><orig>spiracionem</orig><reg>spirationem</reg></choice></p>
+        
+        <p><g ref="#slash"/>2o <name ref="#Rimini">noster 
+          gregorius</name> diceret quod haec propositio pater et filius sunt unum principium spiritus sancti valet tantum sicut 
+          <lb ed="#L"/>haec pater et filius uno et eodem modo tamquam unum principium spirant spiritum sanctum et sic ipse 
+          <lb ed="#L"/>non concederet patrem et filium unum esse principium spiritus sancti productivum vel spirationum 
+          <lb ed="#L"/>quia sunt duo qui spirant vide rationes ibi</p>
+        
+        <p><g ref="#pilcrow"/>3o diceret <name ref="#HugolinoOfOrvieto">hugolinus</name> quasi sequens <name ref="#Rimini">gregorium</name> 
+          <lb ed="#L"/>non sunt unum principium spirandi spiritum sanctum capiendo li unum stricte pro uno numero 
+          <lb ed="#L"/>simplici quia vel esset illud essentia el duae personae vel una tantum vel aggregatum ex 
+          <lb ed="#L"/>essentia et relatione vel relatio communis sed nullum horum dici dbet ergo <g ref="#slash"/>2o dicit idem quod quando decretalis 
+          <lb ed="#L"/>dicit extra de summa trinitate capitulo[?] 6o fideliter fatemur capitulo <g ref="#slash"/>quod spiritus sanctus aeternaliter ex 
+          <lb ed="#L"/>patre et filio tamquam non ex duobus principis sed tamquam ex uno principio non duabus 
+          <lb ed="#L"/>spirationibus sed una spiratione procedit hoc debet intelligi quod decretalis non intendit 
+          <lb ed="#L"/>affirmare unum principium vel unitatem principii sed unitatem et uniformitatem modi 
+          <lb ed="#L"/>principiendi ideo non dicit tamquam ex duobus principiis <choice><orig>eciam</orig><reg>etiam</reg></choice> voluit asserere unitatem 
+          <lb ed="#L"/>numeralem[?] spirationis seu processionis spiritus sancti ex cuius dictis patet quod licet secundum eum haec 
+          <lb ed="#L"/>non sit vera pater et filius sunt unum principium spiritus sancti tamen haec a doctoribus ponitur 
+          <lb ed="#L"/>conclusio communis</p>
+        
+        <p><g ref="#pilcrow"/>4o posset dici quod licet concedatur patrem et filium esse unum principium 
+          <lb ed="#L"/>spiritus sancti non tamen concedendum est eos esse idem principium spiritus sancti ne <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> personae 
+          <lb ed="#L"/>intelligatur Item non est concedendum quod pater sit aliud principium spiritus sancti quam filius ne 
+          <lb ed="#L"/>pluralitas spirationis notetur</p>
+        
+        <p><g ref="#pilcrow"/>5o notandum quod non est concedendum pater et filius est aliquod principium 
+          <lb ed="#L"/>spiritus sancti populi aliquod quod est principium denotans <choice><orig>relacionem</orig><reg>relationem</reg></choice> intrinsecam sicut non admittitur 
+          <lb ed="#L"/>pater et filius sunt aliquid deus</p>
+        
+        <p><g ref="#pilcrow"/>6o notandum quod habetur in glosa cardinalis extra de summa 
+          <lb ed="#L"/>trinitate ubi supra super illo verbo unica spiratione ubi obicit glossa dicens sumpta 
+          <lb ed="#L"/>sunt plura ergo plures erunt <choice><orig>acciones</orig><reg>actiones</reg></choice> quia <choice><orig>acciones</orig><reg>actiones</reg></choice> sunt suppositorum Respondet glosa 
+          <lb ed="#L"/>dicens ubi sint plura sumpta et plures actiones[?] agendi ibi sunt plures <choice><orig>acciones</orig><reg>actiones</reg></choice> 
+          <lb ed="#L"/>ubi sunt plura sumpta et unica ratio agendi non oportet ibi esse plures <choice><orig>acciones</orig><reg>actiones</reg></choice> 
+          <lb ed="#L"/>sicut est in proposito quia licet pater et filius spirent tamen quia est una ratio ideo una spiratio</p>
+        
+        <p><lb ed="#L"/><g ref="#slash"/>ex dictis posset inferri aliter ad formam negando quod unus <choice><orig>accionis</orig><reg>actionis</reg></choice> unum sit 
+          <lb ed="#L"/>principium et ad probationem quia si non etc conceditur hoc consequens sicut eadem albedine <name ref="#Sortes">sortes</name> est similis 
+          <lb ed="#L"/><name ref="#Plato">platoni</name> albo et dissimilis <name>iohanni</name> nigro</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m illatum conceditur sicut fuit expositum distinctione 
+          <lb ed="#L"/>5a loquendo de totalitate termini producti quia spiritus sanctus producitur totus a filio non tamen est 
+          <lb ed="#L"/>eius causa</p>
+        
+        <p>Ad 3m etiam conceditur consequens</p>
+        
+        <p><g ref="#pilcrow"/>Ad 4m principale dicitur quod veritas illa sequitur ex dictis 
+          <lb ed="#L"/>sacrae scripturae prout <name ref="#Augustine">augustinus</name> testatur superius et <name ref="#Lombard">magister</name> in hac distinctione adducens ad hoc 
+          <lb ed="#L"/>plures auctoritates novi testamenti quae patent in littera et quando dicitur quomodo doctor etc 
+          <lb ed="#L"/>dicitur quod forte[?] eorum pertinacia fuit et est causa eorum execacionis[?] et ignorantiae</p>
+        
+        <p><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>6m posset negari consequentia et ultra dici quod illa relata[?] logicalis non est generalis sed praecise 
+          <lb ed="#L"/>ubi eest p?cio[?] simpliciter et essentialis</p>
+        
+        <p><g ref="#pilcrow"/>2o dicitur quod forma non valet quia similiter dicerentur aliquid est <g ref="#dot"/> 
+          <pb ed="#L" n="41v"/><lb ed="#L"/>pater et non est filius ergo essentia quae est pater non est filius quod est falsum</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum contra 
+          <lb ed="#L"/>2am conclusionem conceditur maior sed negatur minor tum quia proprie nulla persona divina constituitur 
+          <lb ed="#L"/>in esse personali <g ref="#slash"/>tum quia filius per nihil constituitur in huius esse personali quod non 
+          <lb ed="#L"/>est formaliter ipse filius</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m primo potest dici quod ratio fundatur super falsa <choice><orig>yma<lb ed="#L"/>ginacione</orig><reg>ima<lb ed="#L"/>ginatione</reg></choice> 
+        quia <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod personae divinae non se ipsis sed solum relationibus distinguuntur 
+        <lb ed="#L"/>quod negatur 2o hoc concesso non tamen solum relationibus oppositis sed etiam disperatis[?]</p> 
+          
+        <p><lb ed="#L"/>Ad rationem contra 2m corollarium negatur consequentia quia illa non est ratio quare paternitas et spiratio 
+          <lb ed="#L"/>activa non constituit duas personas quia non sunt relationes oppositae sed quia spiratio 
+          <lb ed="#L"/>activa est communicabilis filio ideo non est constitutiva suppositi et patet quia si illa esset 
+          <lb ed="#L"/>ratio de facto filius et spiritus sanctus non essent duae personae quia filius et spiritus sanctus non 
+          <lb ed="#L"/>constituuntur diversis relationibus oppositis quia filio non opponitur spirationi passive 
+          <lb ed="#L"/>haec est responsio <ref><name ref="#AlphonsusVargas">alphonsi</name> distinctione 11 primi articulo 2o</ref> <g ref="#slash"/>Aliter dico quod ratio fundatur super falso 
+          <lb ed="#L"/>quia <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> <choice><orig>constitucionem</orig><reg>constitutionem</reg></choice> et distinctionem personarum esse per relationes et non distingui personas 
+          <lb ed="#L"/>se ipsis quod non diceret</p>
+        
+        <p><g ref="#pilcrow"/>Ad rationem contra 3m corollarium negatur antecedens et ad probationem quia tunc 
+          <lb ed="#L"/>non essent posset negari consequentia primo et ad auctoritates <name ref="#Paul">apostoli</name> et <name ref="#Augustine">augustini</name> dicitur quod 
+          <lb ed="#L"/>locuntur sicut nunc est sed non sicut esset in illo casu <g ref="#slash"/>2o posset dici quod donum 
+          <lb ed="#L"/>filii tunc esset sed non esset donum filii <g ref="#slash"/>3o posset illa negari consequentia quia licet non esset 
+          <lb ed="#L"/>donum filii sic quod esset a filio esset tamen donum filii quia a filio donaretur 
+          <lb ed="#L"/>sicut de finito dicunt graeci <g ref="#slash"/>Ad 2m eius motivum negatur consequentia <g ref="#slash"/>Ad 3m eius d[?] negatur 
+          <lb ed="#L"/>etiam consequentia quia non est simile de actibus <choice><orig>nocionalibus</orig><reg>notionalibus</reg></choice> ad intra et essentialibus ad extra</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 3am conclusionem dicitur a quibus quod consequentia non valet propter unicum principium spirandi 
+          <lb ed="#L"/>ac propter unicam vim producendi quae est essentia divina sed quia ad hoc sequitur essentiam 
+          <lb ed="#L"/>divinam esse principium quo productionis ad intra quod non dico ideo aliter responsio negando 
+          <lb ed="#L"/>consequentiam quia aliter sequeretur a simili pater sufficienter est deus ergo filius superflue est deus 
+          <lb ed="#L"/>vel spiritus sanctus Item solus pater sufficienter producit creaturas ergo superflue terminos[?] divinae 
+          <lb ed="#L"/>personae producunt illas</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m primo posset negari antecedens quia eodem producere scilicet se 
+          <lb ed="#L"/>ipso pater aliter producit spiritum sanctum quam filium et aliter producit pater et aliter filius 
+          <lb ed="#L"/>spiritum sanctum <g ref="#slash"/>et si obicitur per decretalem qui dicit quoe aequaliter et pariter producunt 
+          <lb ed="#L"/>posset dici quod illa aequalitas ad originationem debet referri activam quia tam pater quam 
+          <lb ed="#L"/>filius originant[?] active seu spirant spiritum sanctum</p>
+        
+        <p><g ref="#pilcrow"/>3o posset dici quod li <mentioned>aliter</mentioned> 
+          <lb ed="#L"/>potest teneri adverbialiter et sic concediter antecedens et negatur consequentia vel nominaliter et sic negatur antecedens 
+          <lb ed="#L"/>et conceditur consequentia</p>
+        
+        <p><g ref="#pilcrow"/>4o potest dici quod li <mentioned>aliter</mentioned> potest dicere ipsum patrem vel ipsum producere 
+          <lb ed="#L"/>vel spiritum sanctum si sumatur 2o vel 3o modis negatur antecedens si 2o modo negatur consequentia</p>
+        
+        <p><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>3m negatur antecedens universaliter suppositum quia aliter <choice><orig>creacio</orig><reg>creatio</reg></choice> esset triplex actus cum sit actus 
+          <lb ed="#L"/>trium suppositorum et ad probationem de dubous angelis dicitur quod non est simile propter ydemp<lb ed="#L"/>titatem 
+          essentialem divinorum suppositorum</p>
+        
+        <p><g ref="#pilcrow"/>Ad aliud contra primum corollarium dico primo quod voluntas 
+          <lb ed="#L"/>non est formale principium productivum saltim ad intra <g ref="#slash"/>2o potest dici quod cum 
+          <pb ed="#L" n="42r"/><lb ed="#L"/>nulla res se ipsam gignat vel producat et inter voluntatem et spiritum sanctum nulla sit 
+          <lb ed="#L"/>distinctio ideo ratio non concludit</p>
+        
+        <p><g ref="#pilcrow"/>Ad aliud contra 2m corollarium conceditur consequens de libertate immutabilitatis 
+          <lb ed="#L"/>quia <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> summe non repugnat et de hac loquitur corollarium</p>
+        
+        <p><g ref="#pilcrow"/>Ad aliud negatur antecedens et ad 
+          <lb ed="#L"/>probationem negatur consequentia sumendo voluntatem essentialiter sicut sumpsi tamen unde sequitur quod aliquid quod est voluntas est 
+          <lb ed="#L"/>principium spiritus sancti quia pater et etiam filius <g ref="#slash"/>2o dicitur quod non sequitur amore est actus voluntatis 
+          <lb ed="#L"/>ergo non naturalis quia multipliciter sumiter natura vel naturaliter prout <ref><name ref="#Scotus">scotus</name> ostendit distinctione 10 primi</ref> 
+          <lb ed="#L"/>et similiter <name ref="#BonsemblantesBaduarius">bonsemblantes</name></p>
+        
+        <p><g ref="#pilcrow"/>Ad aliud negatur consequentia et ad probationem quia quidquid producitur etc hoc negatur 
+          <lb ed="#L"/>non enim videtur magis inconveniens spiritum sanctum procedere naturaliter quam filium esse voluntarie 
+          <lb ed="#L"/>et tamen <ref><name ref="#Lombard">magister</name> distinctione 6 primi capitulo ultimo</ref> inquit dicamus ego quod pater sicut sapiens ita 
+          <lb ed="#L"/>volens genuit filium ita similiter videtur dici posse de spiritu sancto</p>
+        
+        <p><g ref="#pilcrow"/>Ad primam 
+          <lb ed="#L"/>et 3am rationes in oppositum patet <choice><orig>solucio</orig><reg>solutio</reg></choice> ex dictis</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2am respondet <name ref="#GilesOfRome">doctor noster aegidius</name> 
+          <lb ed="#L"/>primo quod non est standum sententiae <name ref="#JohnDamascenus">damasceni</name> quia ipse fuit graecus</p>
+        
+        <p><g ref="#pilcrow"/>Aliter dicit <name ref="#ThomasStrasbourg">thomas argentis</name> 
+          <lb ed="#L"/>salvando dictum <name ref="#JohnDamascenus">damesceni</name> quod graeci bene crediderunt et credidissent hunc articulum sed 
+          <lb ed="#L"/>quia non fuerunt vocati ad consilium ubi illud credere fuit ordinatum ideo credere noluerunt 
+          <lb ed="#L"/>2o dicit quod illae dictiones <mentioned>a</mentioned> vel <mentioned>ab</mentioned> et <mentioned>ex</mentioned> significant apud graecos principatem[?] quamdam quae 
+          <lb ed="#L"/>principatas[?] filio non convenit quare non negant spiritum sanctum procedere a filio sed negant 
+          <lb ed="#L"/>ipsum principaliter procedere ab ipso et hoc videtur veritati consonum</p>
+        
+        <p><g ref="#pilcrow"/>Aliter respondet <ref><name ref="#RichardFitzRalph">armikanus</name> 
+          <lb ed="#L"/>in summa sua in <title>quaesitionibus armenorum</title> libro 6o capitulo 2o</ref> dicens quod <name ref="#JohnDamascenus">damscenus</name> solum tractat de 
+          <lb ed="#L"/>hiis quae suo tempore solum erant solum expressa diffinita et tradicta ad credendum 
+          <lb ed="#L"/>ideo excusatur unde de <name ref="#JohnDamascenus">damscenus</name> dicit <ref><name ref="#Lombard">magister</name> <title ref="#Sentences">sententiarum</title> libro 3o distinctione 11a</ref> quod nulla parvae[?] in<lb ed="#L"/>telligentiae 
+          notatus est suspicione ideo potest excusari de hoc quia supposito quod crediderit 
+          <lb ed="#L"/>spiritum sanctum non producere a filio quia nondum per ecclesiam extiterat determinatum quod ab 
+          <lb ed="#L"/>utroque procedit</p>
+        
+        <p><g ref="#pilcrow"/><hi rend="largeFont">nunc post filii aeternitatem <!-- also functions as a twoLineDropCap --></hi> haec distinctio continet 
+          <lb ed="#L"/>4or conclusiones <g ref="#slash"/>prima est 
+          <lb ed="#L"/>quod spiritus sanctus est amore seu caritas sive dilectio patris et filii qua pater et filius se 
+          <lb ed="#L"/>invicem diligunt et nos</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio quod caritas aliquando refertur ad substantiam quae communis est 
+          <lb ed="#L"/>tribus personis et tota in simul[?] aliquando specialiter ad personam spiritus sancti sicut sapientia divina 
+          <lb ed="#L"/>aliquando pro substantia divina sumitur aliquando pro filio capitur</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio sicut spiritus sanctus in trinitate 
+          <lb ed="#L"/>specialiter dicitur caritas quae est patris et filii unio ita et nomen tenet proprie quod patri 
+          <lb ed="#L"/>et filio quodammodo communiter congruitur</p>
+        
+        <p><g ref="#pilcrow"/>hic dicendum est spiritum sanctum etc haec distinctio 11 continet 
+          <lb ed="#L"/>conclusiones 4or <g ref="#slash"/>prima quod spiritus sanctus procedit a patre et filio secundum doctores latinos 
+          <lb ed="#L"/>et secundum veritatem quod probatur per multa doctorum testimonia et scripturae sacrae</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio 
+          <lb ed="#L"/>licet graeci confiteantur et concedant spiritum sanctum esse spiritum filii tamen dicunt spiritum sanctum 
+          <lb ed="#L"/>tantum a patre procedere et non a filio</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio cum dicitur quid aliud docuerit vel praedicaverit 
+          <lb ed="#L"/>anathema sit hoc est intelligendum est qui oppositum vel contrarium seu contrario modo praedi<lb ed="#L"/>caverit 
+          anathema sit</p>
+        
+        <p><g ref="#pilcrow"/>4a conclusio graeci concedentes spiritum sanctum esse spiritum filii convenit[?] 
+          <lb ed="#L"/>nobiscum in fide sententiam eandem quia non est aliud esse spiritum patris vel filii quam 
+          <lb ed="#L"/>esse vel procedere a patre et filio</p>
+        
+        <p><g ref="#pilcrow"/>ex quo videtur sequi quod graeci solum a nobis differunt 
+          <lb ed="#L"/>in verbo quia etiam spiritus sanctus a filio sicut a patre procedat paret multos graecorum doctores 
+          <lb ed="#L"/>unde <name ref="#Scotus">doctor subtilis</name> dicit inter latinos et graecos non esse discordiam realem sed vocalem</p>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
