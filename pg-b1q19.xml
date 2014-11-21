@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 19</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.11-dev-master">
+          <title>Librum I, Quaestio 19</title>
+          <date when="2014-11-18">November 18, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-11-18">November 18, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q19">
+        <head>Quaestio 19</head>
+        <p><lb ed="#L"/><hi rend="threeLineDropCap">P</hi>raeterea diligenter considerandum est haec est distinctio 18 quae 
+          <lb ed="#L"/>ad praecedentem sic continuatur quia postquam <name ref="#Lombard">magister</name> tractavit de spiritus sancti 
+          <lb ed="#L"/>processione temporali <g ref="#slash"/>nunc <unclear cert="high">bona</unclear> tractat de quamdam eius proprietate spirituali <g ref="#slash"/>et dividitur 
+          <lb ed="#L"/>haec distinctio in 5 partes secundum quod quinque conclusiones movet et solvit <g ref="#slash"/>nam primo quaeritur 
+          <lb ed="#L"/>utrum spiritus sanctus eadem ratione sit donum qua datur <g ref="#slash"/>2o utrum spiritus sanctus proprie donatur 
+          <lb ed="#L"/><g ref="#slash"/>3o utrum filio nascendo ut sic essentia tribuatur <g ref="#slash"/>4o utrum quia filius nobis datus est 
+          <lb ed="#L"/><unclear>m?ur</unclear> esse dicatur <g ref="#slash"/>5o utrum spiritus sanctus ex eo quod se ipsum dat ad se ipsum referatur 
+          <lb ed="#L"/><g ref="#slash"/>2a ibi sed quaeritur <unclear>cui</unclear> donabilis <g ref="#slash"/>3a ibi hic oritur quo <g ref="#slash"/>4a ibi hic quaeritur utrum filius 
+          <lb ed="#L"/>5a ibi post haec quaeritur et haec est divisio et <unclear>senten?</unclear> in generali etc</p>
+        
+        <p><lb ed="#L"/><hi rend="threeLineDropCap">U</hi>trum aeterni doni temporalis donatio sit infinita recipientis obligatio 
+          <lb ed="#L"/>utrum aeternum donum datum temporaliter obliget virum bonum immense 
+          <lb ed="#L"/>simpliciter <g ref="#slash"/>quod non quia si esset aliquod aeternum donum aut illud esset essentiale aut 
+          <lb ed="#L"/>notionale non essentiale quia secundum <ref><name ref="#Augustine">augustinum</name> 4o <title ref="#deTrinitate">de trinitate</title> capitulo penultimo</ref> esse donum in divinis 
+          <lb ed="#L"/>a patre procedere nec etiam notionale quia tota trinitas communicat se causare ea dicente 
+          <lb ed="#L"/><quote ana="#John14_23">apud eum veniemus et mansionem apud eum faciemus</quote> <g ref="#slash"/>cum 2o quia ratio doni 
+          <lb ed="#L"/>est amor <unclear cert="medium">qui</unclear> est essentialis</p>
+        
+        <p><g ref="#pilcrow"/>2o sequitur quod nullum beneficium creaturam obliget plusquam 
+          <lb ed="#L"/>ante consequens est falsum patet consequentia quia infinita obligatione nulla est maior</p>
+        
+        <p><g ref="#pilcrow"/>2o principaliter 
+          <lb ed="#L"/>si quo esset vera sequeretur quod nihil esset amabile nihil eligibile nisi ratione huius doni consequens non 
+          <lb ed="#L"/>videtur verum quia tunc nullus gradus amabilitatis vel elegibilitatis corresponderet esse 
+          <lb ed="#L"/>naturali quod est falsum patet consequentia quia quantum bonum esset illud bonum ut obligatorium creaturae 
+          <lb ed="#L"/>recipientis tantum esset amabile et elegibile</p>
+        
+        <p><g ref="#pilcrow"/>3o sequereutr quod omnes recipientes illud 
+          <lb ed="#L"/>donum aequaliter deo obligarentur per ipsum consequens est falsum quia propter effectus divinae in<lb ed="#L"/>carnationis 
+        et plures <corr>alios</corr> divinae <unclear>miserationis</unclear> plus obligantur fideles nunc 
+          <lb ed="#L"/>quam ante illorum beneficiorum receptionem iuxta illud <name>gregorium</name> cum enim augentur dona 
+          <lb ed="#L"/>et rationes crescunt donorum id est obligationes prima consequentia patet quia omnes obligantur infinite</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>In oppositum arguitur quodlibet donum tantum obligat quantum proficit illi cui datur sed donum im<lb ed="#L"/>mensum 
+        plus proficit homini habenti ipsum quam infinita bona creata si essent ergo</p>
+        
+        <p><g ref="#pilcrow"/>prima conclusio 
+          <lb ed="#L"/>sicut soli filio in divinis convenit esse verbum si soli spiritui snacto proprie competit esse donum 
+          <lb ed="#L"/>haec patet per <ref><name ref="#Augustine">augustinum</name> 15 <title ref="#deTrinitate">de trinitate</title> capitulo 17</ref> dicentem <quote ana="#Augustine_DeTrinitate_15_17_29_a">non frustra in hac trinitate non dicitur 
+          <lb ed="#L"/>verbum nisi dei filius nec dicitur donum dei nisi spiritus sanctus</quote><!-- De Trin XV, 17, 29, (p. 503 ll. 54-58)--> Item <ref>5o <title ref="#deTrinitate">de trinitate</title> capitulo 5o</ref> <unclear>dicentem</unclear> 
+          <lb ed="#L"/><quote ana="#Augustine_DeTrinitate_5_11_12_a">ipsa relatio non apparet in hoc nomine spiritus sed apparet cum dicitur donum dei donum est patris et 
+          <lb ed="#L"/>filii</quote> haec verba habentur in hac distinctione</p>
+        
+        <p><g ref="#slash"/>primum corollarium sicut filius est eo verbum quo filius 
+          <lb ed="#L"/>sic spiritus sanctus eo donum est quo spiritus sanctus paret conclusionem quia est idem ipsum esse <unclear>utrique</unclear> <g ref="#pilcrow"/></p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>2m corollarium sicut filio competit prima ratio artis <unclear>sitiae</unclear> activitatis <unclear>sic</unclear> productive sic 
+          <lb ed="#L"/>spiritui sancto conventi prima ratio libertatis donative seu communicative prima pars patet 
+          <lb ed="#L"/><ref>6o <title ref="#deTrinitate">de trinitate</title> capitulo ultima</ref> ubi dicitur quod <quote ana="#Augustine_DeTrinitate_6_10_11_a">filius est ars patris plena omnium rationum</quote> etc 
+          <pb ed="#L" n="60v"/><lb ed="#L"/><g ref="#slash"/>2a patet <ref><sic>5o</sic><!-- actually 15 --> <title ref="#deTrinitate">de trinitate</title> capitulo 19o</ref> <quote ana="#Augustine_DeTrinitate_15_19_34_a">quia per hoc donum quod est spiritus sanctus membris christi quibusque <!-- earlier I would have transcribed this as "quibuscqumque"; therefore check previous instances --> divi<lb ed="#L"/>duntur 
+            propria dona</quote></p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium licet spiritui sancto <unclear cert="high">conveniat</unclear> nomen doni aeternaliter eidem 
+          <lb ed="#L"/>tamen competit nomen dati temporaliter paret verba <ref><name ref="#Augustine">augustini</name> 5o <title ref="#deTrinitate">de trinitate</title> capitulo 3o</ref> et allegat eum 
+          <lb ed="#L"/><name ref="#Lombard">magister</name> in hac distinctione</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio non stat aliquem habere ordinatam volitionem respectu cuiuscumque crea<lb ed="#L"/>ti 
+        boni et eundem non habere actualem vel habitualem dilectionem respectu immensi doni paret 
+          <lb ed="#L"/><ref><name ref="#Augustine">augustini</name> libro 4o <name ref="#ContraIulianum">contra iulianum</name> capitulo 6o</ref> dicentis <quote ana="#Augustine_ContraIulianum_4_3_33_a"><sic>nullus</sic> bene utitur creaturis sine amore crea<lb ed="#L"/>toris</quote> 
+          Item <ref>8 <title ref="#deTrinitate">de trinitate</title> capitulo 5o</ref> dicit <quote ana="#Augustine_DeTrinitate_8_3_5_a">cum alia non amentur nisi quia bona sunt pude<lb ed="#L"/>ant 
+        homines non amare ipsum bonum unde bona sunt</quote></p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium licet quilibet 
+          <lb ed="#L"/>iuste infinite possit se diligere creatura tamen non licite diligit se quantum tenetur 
+          <lb ed="#L"/>deum diligere prima patet quia non tantum quin plus creatura potest se diligere 2a patet quia tenetur 
+          <lb ed="#L"/>deum diligere dilectione alterius speciei perfectioris quam sit dilectio respectu creaturae elicita 
+          <lb ed="#L"/>patet quia usus et fruitio differunt specie cum fruitio sit propter se usus propter aliud</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>2m corollarium licet <unclear>omne</unclear> donum creatum sit diligibile propter increatum tamen donum increatum 
+          <lb ed="#L"/>potest licite plus diligi propter beneficium datum saltim occasionaltier et motive 
+          <lb ed="#L"/>prima paret <unclear>dictam</unclear> 2a probatur quia odiens benefactorem gravius peccat ceteris paribus ergo dili<lb ed="#L"/>gens 
+        plus meretur caeteris paribus <g ref="#slash"/>confirmatur quia beneficium plus obligat saltim 
+          <lb ed="#L"/>extensive ad deum diligendum ergo licite propter beneficium quis potest diligere christum 
+          <lb ed="#L"/>saltim occasionaliter et partialiter non tamen principaliter causaliter sicut <ref>videbitur infra</ref><!-- cross reference --></p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium licet donum creatum possit esse aliter melius quam sit in se bonum 
+          <lb ed="#L"/>tamen nihil potest esse creaturae tam bonum sicut est sibi ipsi <unclear>in creatum</unclear> donum prima 
+          <lb ed="#L"/>probatur qui in casu panis est melior famescenti quam mille floris ymmo quam 
+          <lb ed="#L"/>omnia regna mundi quia liberat ipsum <unclear>amorte</unclear> quod non facerent <unclear>omnes</unclear> mundi 
+          <lb ed="#L"/>divitiae 2a patet quia donum increatum est sibi ipse immense bonum sed nulli creaturae 
+          <lb ed="#L"/>potest esse immensum bonum ergo licet sit sibi melius per ipsum quam per <unclear>quodcumque <!-- should this be quodque --></unclear> bonum 
+          <lb ed="#L"/>creatum sibi bene esse possit </p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio licet stet creaturae propter beneficium quandoque non 
+          <lb ed="#L"/>obligari tamen non stat obligationem creaturae ad deum creatura stante <choice><orig>anullari</orig><reg>annullari</reg></choice> 
+          <lb ed="#L"/>prima probatur quia si non sequeretur quod de nullo bono temporali debito posset <unclear>adple?m[?]</unclear> 
+          <lb ed="#L"/>satisfactio fieri consequens est falsum quia tunc reddens mille flores pro decem <unclear>concess[?]</unclear> 
+          <lb ed="#L"/>non <unclear cert="high">deobligaret</unclear> se quod nullus diceret</p>
+        
+        <p><g ref="#pilcrow"/>confirmatur quia <name ref="#Sortes">sortes</name> obligans potest in casu 
+          <lb ed="#L"/>tantum facere de malo illi cui contulit beneficium quod plus sibi nocebit 
+          <lb ed="#L"/>maleficium quam profuerit beneficium ergo talis obligatio potest <choice><orig>anullari</orig><reg>annullari</reg></choice></p>
+        
+        <p><g ref="#pilcrow"/>2a pars probatur 
+          <lb ed="#L"/>quia quidquid boni deo reddimus vel reddere possumus totum procedit ab 
+          <lb ed="#L"/>eo et est suum ergo pro nullo beneficio a deo recepto potest creatura deobligari 
+          <lb ed="#L"/>ergo tam <choice><orig>neccessario</orig><reg>necessario</reg></choice> deo creatura obligatur quam <choice><orig>neccessario</orig><reg>necessario</reg></choice> est si a deo conservatur</p>
+        
+        <p><g ref="#dbslash"/>primum corollarium 
+          <lb ed="#L"/>quodlibet ei beneficium est infinite obligationis ratio radix seu medium patet quia 
+          <lb ed="#L"/>si non sequitur quod recipiens dei beneficium posset deo satisfacere et obligationem eius 
+          <lb ed="#L"/><choice><orig>anullare</orig><reg>annullare</reg></choice></p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium licet quodlibet dei beneficium sit creaturae <unclear>infinite obligati[?]vum</unclear> 
+          <lb ed="#L"/>tamen donum increatum est principale obligationis motivum patet quia ab increato 
+          <lb ed="#L"/>dono fluit omne donum creatum et omne creatum est propter illud diligendum ergo</p>
+        
+        <p><pb ed="#L" n="61r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium licet obligatio creaturae ad deum creatura manente non possit <choice><orig>anullari</orig><reg>annullari</reg></choice> tamen 
+          <lb ed="#L"/>quaelibet creatura potest plus deo quam sit obligata obligari <g ref="#slash"/>vel sic licet quaelibet 
+          <lb ed="#L"/>creatura infinite deo obligetur intensive tamen quaelibet potest plus et plus deo obli<lb ed="#L"/>gari 
+        extensive patet prima pars per dicta</p> 
+        
+        <p><g ref="#slash"/>2a probatur quia ex voto castitatis quod est 
+          <lb ed="#L"/>dei beneficium obligor ad continentiam ad quam ante votum non obligabar et sic 
+          <lb ed="#L"/>posset argui de omnibus statutis et cerimoniis ad quas ordinis professores 
+          <lb ed="#L"/>se obligant profitendo haec pars 2a est contra <ref><name ref="#HugolinoOfOrvieto">hugolinum</name> distinctione prima primi quaesitone ultima circa finem</ref> 
+          <lb ed="#L"/><g ref="#slash"/>confirmatur quia alias omnia similia esset praecepta patet quia quod obligat sub <choice><orig>pena</orig><reg>poena</reg></choice> peccati 
+          <lb ed="#L"/>mortalis est praeceptum vel <unclear>aequip?polet</unclear> praecepto</p>
+        
+        <p><g ref="#pilcrow"/>Ex dictis sequitur quod deus 
+          <lb ed="#L"/>tam <choice><orig>neccessario</orig><reg>necessario</reg></choice> est creaturae ars obligatoria seu obligativa quam <choice><orig>neccessario</orig><reg>necessario</reg></choice> est eiusdem ars 
+          <lb ed="#L"/>conservatoria seu conservativa patet quia non stat creaturam a deo non conservari si sit 
+          <lb ed="#L"/>per consequens non sibi obligari <g ref="#slash"/>ultimo sequitur in quo sensu quo potest concedi et in quo negari 
+          <lb ed="#L"/>quia licet creatura plus extensive id est pluries seu pluribus beneficiis deo possit obligari 
+          <lb ed="#L"/>tamen quodlibet dominium beneficium infinite obligat creaturam quam diu habet esse et conservari</p>
+        
+        <p><g ref="#pilcrow"/>contra primam conclusionem plures divinae personae dantur creatis sanctis ergo non solum spiritus sanctus 
+          <lb ed="#L"/>dicitur donum consequentia videtur bona et antecedens patet <ref><title ref="io">ioahnnis</title> <sic>15o<!-- should be 14 --></sic></ref> <quote ana="#io14_23">ad eum veniemus et mansi<lb ed="#L"/>onem 
+          apud eum faciemus</quote> <choice><orig>ymmo</orig><reg>immo</reg></choice> cum sanctificare creaturam et ad ipsam venire sit 
+          <lb ed="#L"/>opus adextra sequitur quod tota trinitas datur menti bene dispositae <g ref="#slash"/>confirmatur quia pater 
+          <lb ed="#L"/>dat filio quidquid habet <choice><orig>ymmo</orig><reg>immo</reg></choice> filius dicitur nobis dicitur datus ergo proprie donum dicitur</p>
+        
+        <p><g ref="#pilcrow"/>contra primum corollarium sequitur quod esse donum esset personalis proprietas spiritus sancti consequens falsum 
+          <lb ed="#L"/>quia illud quod competit spiritui sancto in ordine ad creaturas non potest esse personalis 
+          <lb ed="#L"/>proprietas eius sed esse donum competit spiritui sancto in ordine ad creaturas ergo maior 
+          <lb ed="#L"/>patet quia proprietas cuiuslibet domini suppositi est aeterna creatura vero temporalis <g ref="#slash"/>minor patet ex 
+          <lb ed="#L"/>hoc quia etiam spiritus sanctus dicitur donum quia nobis datur ex tempore ut apparet in hac distinctione 18</p>
+          
+        <p><g ref="#pilcrow"/>3o contra 2m corollarium sequitur quod spiritus sanctus esset ratio communicativa quam pater essentiam communicat filio 
+          <lb ed="#L"/>per generationem consequens falsum patet consequentia quia pater communicat filio essentiam prima ratione communicativa</p> 
+        
+        <p><g ref="#dbslash"/>contra 3m 
+          <lb ed="#L"/>corollarium donum et datum immensum nullo modo differunt igitur si spiritus dicitur donum aeternaliter 
+          <lb ed="#L"/>sequitur quod etiam dicitur datus aeternaliter</p>
+        
+        <p><g ref="#pilcrow"/>contra 2am conclusionem quilibet licite potest tantum se diligere etc 
+          <lb ed="#L"/>quia licite tantum bonum proprium potest appetere naturale quantum immensum donum aeternale ergo 
+          <lb ed="#L"/>stat <choice><orig>alicam</orig><reg>aliquam</reg></choice> voluntatem esse rectam respectu dilectionis sui subducta omni dilectione 
+          <lb ed="#L"/>dei consequentia nota antecedens patet quia infinite licite potest homo se diligere et non plus quam 
+          <lb ed="#L"/>infinite potest deum diligere igitur</p>
+        
+        <p><g ref="#pilcrow"/>2o si dilectio dei requireretur in dilectione creaturae 
+          <lb ed="#L"/>ordinata aut solum requiritur habitualis aut actualis <g ref="#slash"/> non prima sufficit quia ideo 
+          <lb ed="#L"/>dei dilectio requiritur in dilectione creaturae ut ordinata sic diligens constituat 
+          <lb ed="#L"/>deum finem ultimum suae dilectionis sed omnis constituens deum pro tali fine 
+          <lb ed="#L"/>actualiter tenetur diligere eum <g ref="#slash"/>confirmatur quia si habitualis sufficeret sequitur quod quidquid 
+          <lb ed="#L"/>puer baptizatus noviter faceret esset meritorium consequens falsum patet consequentia quia habet dei 
+          <lb ed="#L"/>dilectionem habitualem scilicet caritatem <g ref="#slash"/>nec potest dici quod actualis quia non semper tenetur 
+          <lb ed="#L"/>deum diligere actualiter nec de deo cogitare <choice><orig>ymmo</orig><reg>immo</reg></choice> non videtur bene possibile simul et 
+          <lb ed="#L"/>semel eundum cogitare de deo et creatura simul actualiter</p>
+        
+        <p><g ref="#pilcrow"/>3o contra corollarium primum si creatura 
+          <pb ed="#L" n="61v"/><lb ed="#L"/>posset infinite se diligere sequitur quod posset se diligere licite plus quam omnem creaturam 
+          <lb ed="#L"/>aliam consequens falsum probo quia proximum meliorem tenetur plus diligere</p>
+        
+        <p><g ref="#pilcrow"/>2o quia tunc 
+          <lb ed="#L"/>quilibet prius deberet vitari mortem sui ipsius quam alterius consequens falsum probo quia 
+          <lb ed="#L"/>tunc plus deberet occidere <name ref="#Sortes">sortem</name> quam permittere se occidi ab eo consequens falsum et contra 
+          <lb ed="#L"/><ref><name ref="#Augustine">beatum augustinum</name> libro <title>de libero arbitrio</title></ref> dicentem quod <quote>occidens hominem ne ab eo occi<lb ed="#L"/>datur 
+        vel non rem propriam vel <unclear>p?dititiam</unclear> amittat peccat contra legem aeternam 
+          <lb ed="#L"/>licet non peccet contra legem civilem vel humanam</quote> <!-- can't find direct quote here; probably a paraphrase--> <g ref="#slash"/>Item <title><name>bernardus</name> <title>de dispensatione 
+            <lb ed="#L"/>et praecepto</title> capitulo 5o</title> dicit quod <quote>occidere hominem <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> se deffendi mortale 
+          <lb ed="#L"/>peccatum est<!-- can't find quote --></quote> igitur in nullo casu hoc est eligendum sed fugiendum semper</p>
+        
+        <p><g ref="#pilcrow"/>3o quia sit 
+          <lb ed="#L"/><name ref="#Sortes">sortes</name> in extrema <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> et habeat unum panem tantum quo <unclear>mediante</unclear> possit e<lb ed="#L"/>vadere 
+        mortem et sit <name ref="#Plato">plato</name> etiam in extram <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> tunc quaeritur utrum <name ref="#Plato">plato</name> 
+          <lb ed="#L"/>liceat <choice><orig>aufferre</orig><reg>auferre</reg></choice> panem <name ref="#Sortes">sortis</name> vel non si non sequitur quod <corr><unclear>for?</unclear></corr> <name ref="#Plato">plato</name> non habet 
+          <lb ed="#L"/>se plus diligere quam proximum nec prius habet fugere propriam mortem quam proximi 
+          <lb ed="#L"/>quod est propositum si dicitur quod licite potest rapere panem de manu <name ref="#Sortes">sortis</name> sequitur 
+          <lb ed="#L"/>quod licite potest <name>plato</name> occidere <name>sortem</name> contra <ref><name ref="#Augustine">augustinum</name> primo <title ref="#CityOfGod">de civitate</title> capitulo 8o</ref></p>
+        
+        <p><g ref="#pilcrow"/>contra 
+          <lb ed="#L"/>3am conclusionem si <unclear>obligatus</unclear> creaturae etc <unclear>aut</unclear> igitur beneficatus potest seu recipiens erit gratus 
+          <lb ed="#L"/>vel non si non sit gratus sed ingratus ergo ad <unclear>haec</unclear> manet obligatus seu vinculum 
+          <lb ed="#L"/>obligationis si sic vel ergo aequaliter secundum proportionem et aequalitatem vel saltim 
+          <lb ed="#L"/>pars eius si magis erit quam fuerit gratus primum beneficium ergo obligat primum <unclear>bene?sto</unclear> 
+          <lb ed="#L"/>rem et per consequens stat vinculum obligationis inter illos si <unclear>ve?equaliter</unclear> est gratus 
+          <lb ed="#L"/>seequitur utrumque esse benefactorem alterius et per consequens adhuc stat obligatio unius ad 
+          <lb ed="#L"/>alterum quod est propositum</p>
+        
+        <p><g ref="#pilcrow"/>contra primum corollarium sequitur quod non plus obligant beneficia negativa 
+          <lb ed="#L"/>quam positiva consequens est falsum quia negativa sunt infinita ut puta quia deus non fecit hominem 
+          <lb ed="#L"/>irrationalem non <unclear>latronem</unclear> non homicidam non monstruosum <choice><orig>ymmo</orig><reg>immo</reg></choice> quia infinitis 
+          <lb ed="#L"/>peccatis <unclear>possibilibus</unclear> hominem praeservat de quibus beneficiis regratiatur deo beatus 
+          <lb ed="#L"/><ref><name ref="#Augustine">augustinus</name> in libro <title ref="#Confessions">confessionum</title></ref> et <ref><title>rectractionum</title></ref> et aliis locis pluribus Item sequitur quod 
+          <lb ed="#L"/>peccans post beneficium infinite gratuitum peccaret consequentia patet quia infinite esset ingratus</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3o contra 2m corollarium beneficium temporale minus obligat quam spirituale ergo non quodlibet infinite 
+          <lb ed="#L"/>patet consequentia et antecedens probatur tum quia quilibet gradus gratiae est homini melior quam omnia bona 
+          <lb ed="#L"/>corporalia <g ref="#slash"/>tum 2o quia nigratus de benficio spirituali gravius peccat quam ingratus 
+          <lb ed="#L"/>d dono corporali vel temporali igitur</p>
+        
+        <p><g ref="#pilcrow"/>4o contra 3m corollarium arguitur quia si creatura posset 
+          <lb ed="#L"/>plus deo obligari sequeretur quod non debemus deo quidquid sumus et quidquid melius 
+          <lb ed="#L"/>possumus consequens est infra contra <ref><name>beatum augustinum</name> 3o de libro arbitrio capitulo 36o</ref> consequentia patet quia 
+          <lb ed="#L"/>creatura non potest ad plus obligari quam se totum et quidquid etc</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum negatur consequentia quia 
+          <lb ed="#L"/>non omne <corr><add place="belowLine">quid</add></corr> datur proprie donum appellatur <g ref="#slash"/>2o dico quod licet omnes tres operentur sanctificationem 
+          <lb ed="#L"/>creaturae tamen quia illa fit per quodam medium amorosum ideo spiritui sancto appropriatur</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3o dico quod non sequitur pater dat essentiam filio ergo filius vel essentia est donum ex hiis 
+          <lb ed="#L"/>patet solutio <ref>primae rationis in oppositum</ref> quia donum esse est notionale et personale et ad improbationem
+          <pb ed="#L" n="62r"/><lb ed="#L"/>dico quod licet ratio doni sit amore non tamen ut dicitur essentialiter sed notionaliter</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m 
+          <lb ed="#L"/>negaret minorem <name>thomas de argentina</name> in distinctione praesenti 18 concedo tamen minorem sed 
+          <lb ed="#L"/>nego minorem sumendo convenire seu competere habitualiter quia sicut verbum esse 
+          <lb ed="#L"/>competit filio actualiter per relatum actualem adintra et tamen competit eidem per relatum 
+          <lb ed="#L"/>habitualem ad creaturas eo quod secundum <ref><name ref="#Augustine">augustinum</name> 15 <title ref="#deTrinitate">de trinitate</title> capitulo 11o</ref> <quote>initium omnis operis 
+          <lb ed="#L"/>verbum</quote> <!-- this quote is in 15.11.20, but  but is also in Eccl 37:20 --> sic suo modo est dicendum de spiritu sancto</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m negatur consequentia quia spiritus sanctus est ratio 
+          <lb ed="#L"/>communicativa libera et per modum libertatis modo pater licet communicet libere filio essentiam 
+          <lb ed="#L"/>non tamen per modum libertatis sed per modum naturae</p>
+        
+        <p><g ref="#pilcrow"/>Ad 4m negatur antecedens quia donum 
+          <lb ed="#L"/><unclear>differt</unclear> a dato primo in signo quia donum notat donationem liberam non requirentem 
+          <lb ed="#L"/>redonationem 2o in modo significandi quia dicit aptitudinem datum vero actum seu dationem 
+          <lb ed="#L"/>actualem 3o <unclear>differt</unclear> a significato quia donum signficat cum non tempore seu sine tempore sed 
+          <lb ed="#L"/>datum significat cum tempore quia <unclear>partici?m[?]</unclear></p>
+        
+        <p><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur antecedens et ad probationem 
+          <lb ed="#L"/>dicit <ref><name ref="#Kilvignton">climeton</name> distinctione prima super sententias articulo principali</ref> quod homo infinite debet se <corr><del rend="strikethrough">in</del></corr> 
+          <lb ed="#L"/>diligere et infinite plus quam proximum et plus quam infinitum bonum creatum si esset quia in<lb ed="#L"/>finite 
+        plus habet fugere culpam in se quam in quocumque proximo <g ref="#slash"/>sed contra hoc dicit <name ref="#HugolinoOfOrvieto">hugolinus</name> libro 
+          <lb ed="#L"/>primo distinctione prima quaestione 3a circa finem quod non sequitur infinitis bonis <unclear>habens</unclear> te praeferre ergo in<lb ed="#L"/>finite 
+        <unclear>habens</unclear> te diligere quia sufficit quod dilectio propria sit alterius generis non tamen 
+          <lb ed="#L"/>infinite melior qualibet dilectione proximi <g ref="#slash"/>sed salva eius reverentia nihil arguit 
+          <lb ed="#L"/>contra <name ref="#Kilvignton">climetonem</name> quia ut patet ex primo corollario huius quaestionis multum refert <unclear>dre?</unclear> 
+          <lb ed="#L"/>infinite habeo me diligere ergo me diligere habeo infinite <name ref="#Kilvignton">climeton</name> concedit primam et 
+          <lb ed="#L"/>negari consequentiam 2am sed <name ref="#HugolinoOfOrvieto">hugolinus</name> sumit pro eodem quia semper refert li infinite ad ipsum 
+          <lb ed="#L"/>diligere seu ad ipsum amorem et ponit illum <unclear>termen</unclear> a parte <unclear>p?ti</unclear> et <name ref="#Kilvignton">climeton</name> a parte 
+          <lb ed="#L"/>subiecti <g ref="#slash"/>dicitur ergo cum <name ref="#Kilvignton">climentis</name> quod licet creatura infinite possit se diligere tamen ad huc 
+          <lb ed="#L"/>debet deum infinite sine comparatione plus diligere quam se ipsum</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m dicitur a 
+          <lb ed="#L"/><name>facino?</name> quod debet esse actualis propter rationes tactas <g ref="#slash"/>2o posset dici quod sufficit habi<lb ed="#L"/>tualis 
+          <g ref="#slash"/>et tunc posset dici ad probationem <unclear>p?am</unclear> quod talis non constitueret deum pro fine 
+          <lb ed="#L"/>ultimo dicitur quod constituit deum finem dilecitonis habitualiter sicut deum diligit 
+          <lb ed="#L"/>habitualiter nec semper requiritur actualis cognitio de deo</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2am probationem negatur consequentia quia puer 
+          <lb ed="#L"/>non habet dilectionem liberam nec deliberatam respectu cuiuscumque actus sed quasi naturalem 
+          <lb ed="#L"/>et animalem tum quia in puero numquam fuit nec praefuit dilectio actualis respectu dei 
+          <lb ed="#L"/>qualis praefuit in adulto habente dilectionem dei habitualem</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m conceditur consequens 
+          <lb ed="#L"/>plus id est ardentius et prius quia infnitis bonis creatis quilibet posset se praeferre et bonum 
+          <lb ed="#L"/>suum praeferre bono alterius et malum suum fugere prius quam malum alterius et ad 
+          <lb ed="#L"/>probationem dicitur quod licet proximo quem scio meliorem me teneat velle maius bonum 
+          <lb ed="#L"/>de facto tamen prius mihi debeo ordinate tantum optare vel maius bonum quam sibi 
+          <lb ed="#L"/>2o posset dici quod ubi non stat <unclear>me[?]</unclear> proximum esse meliorem me vel deum vel 
+          <lb ed="#L"/>deum velle me diligere ipsum plus quam me licite possum me plus semper diligere</p> 
+          
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad aliam probationem dicitur concedo consequens et cum infertur ex casu posito quod tunc citius etc conceditur 
+          <pb ed="#L" n="62v"/><lb ed="#L"/>consequens supponendo quod <name>sortes</name> non habeat voluntatem per se et principaliter occidendi <name>platonem</name> sed praeten<lb ed="#L"/>dat 
+        tantum se a morte praeservare et fugere si potest si autem aliter non possit 
+          <lb ed="#L"/>evadere nisi occidat <name>platonem</name> sic non peccat si autem <unclear>interveniat</unclear> libidinosa 
+          <lb ed="#L"/>voluntas occidendi <name>platonem</name> tunc ipse peccat et sic dicit <name ref="#Augustine">augustinus</name> quod agit contra legem dei 
+          <lb ed="#L"/>aeternam</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3am probationem de casu extremae <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> dico quod rapiens panem de 
+          <lb ed="#L"/>manu alterius non intendo mortem alterius sed salvationem proprie vitae non 
+          <lb ed="#L"/>peccat <g ref="#slash"/>2o pro materia argument dico quod in extrema neccessitate positus potest a <unclear>quocumque<!-- quoque or quocumque --></unclear> accipere aliquid 
+          <lb ed="#L"/>pro salvatione vitae suae et sic omnia sunt sibi consequentia et ei quodammodo obligatus 
+          <lb ed="#L"/><g ref="#slash"/>3o dico quod multa sunt in tali casu homini obligata et licite possunt <corr><del rend="strikethrough/expunctuated">h</del></corr> ab eo 
+          <lb ed="#L"/>accipi quae tamen si haberet non essent sua nec licite posset retinere ipsa patet 
+          <lb ed="#L"/>ex consequenti in tali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <unclear>favus</unclear> panis <c>a</c><g ref="#dot"/> est obligatus et panis <c>b</c> <g ref="#dot"/> et sic de aliis 
+          <lb ed="#L"/>et tamen si haberet <c>a</c><g ref="#dot"/> panem <c>b</c><g ref="#dot"/> non esset amplius obligatus nec <c>c</c> nec <c>d</c> quia non esset 
+          <lb ed="#L"/>amplius in tali <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> <g ref="#slash"/>sed contra hoc posset instari quia ex hoc videtur sequi 
+          <lb ed="#L"/>quod quanto talis esset pauperior tanto esset maior dicens et dicior patet consequentia quia 
+          <lb ed="#L"/>talis <unclear cert="high">haberet</unclear> pluries debitores et plura sunt sibi obligata quam si esset minus 
+          <lb ed="#L"/>pauper <g ref="#slash"/>hic dicitur quod consequentia non valet quia maioritas <unclear>domini</unclear> non attenditur penes 
+          <lb ed="#L"/>maiorem bonorum habitionem lictatam sed possessionem licet ergo talis habeat 
+          <lb ed="#L"/>plura obligata tamen pauciora sunt ab eo possessa</p>
+        
+        <p><g ref="#pilcrow"/>Ad primum contra conclusionem 3am 
+          <lb ed="#L"/>dico primo quod conclusio non loquitur de obligatione proveniente ex beneficio recepto 
+          <lb ed="#L"/><g ref="#dot"/><c>a</c><g ref="#dot"/> creatura et illa potest solvi vel per maius bonum vel per aequale vel per <unclear>minus</unclear> 
+          <lb ed="#L"/>malum inflictum a benefactore licet forte non omnis obligatio inter creaturas posset 
+          <lb ed="#L"/>solvi quia quilibet iure divino proximum diligere etc talis obligatio non potest 
+          <lb ed="#L"/><choice><orig>anullari</orig><reg>annullari</reg></choice> sed non est contra conclusionem</p>
+        
+        <p><g ref="#pilcrow"/>Ad 2m posset primo dici concedo consequens quia <unclear>patet</unclear> 
+          <lb ed="#L"/>utriusque obligamur infinite <g ref="#slash"/>2o posset negari consequentia quia licet infinite obligemur 
+          <lb ed="#L"/>beneficio quolibet tamen non obligamur eadem specie obligationis pro quolibet sed secundum 
+          <lb ed="#L"/>diversas species obligationis <g ref="#slash"/>3o posset concedi consequens et consequentia quia homo pluriens obligatur 
+          <lb ed="#L"/>infinite pro pluribus beneficiis</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m conceditur antecedens de obligationem quo ad speciem 
+          <lb ed="#L"/>quia maiori specie obligationis obligatur quis ex receptione gratiae quam <unclear>peccative</unclear> 
+          <lb ed="#L"/>2o posset ngari antecedens de obligatione <unclear>intentiva</unclear> quia beneficium quodlibet sic obligat 
+          <lb ed="#L"/>infinite creaturam deo <g ref="#slash"/>3o <unclear>diceret</unclear> facimus quod quodlibet divinum beneficium praecise tantum 
+          <lb ed="#L"/>obligat recipientem quantum deus vult ipsum per illud obligare <g ref="#slash"/>4o dico quod non sequitur 
+          <lb ed="#L"/>beneficium est infinite grata seu peccat infinite seu infinito peccato quia non 
+          <lb ed="#L"/>penes latitudinem obligationis praecise attenditur culpae gravitas sed 
+          <lb ed="#L"/>etiam pene voluntatis conatum et <choice><orig>alicas</orig><reg>aliquas</reg></choice> alias circumstantias alias quodlibet peccatum 
+          <lb ed="#L"/>post originale esset infinitae malitiae cum quodlibet habeat circumstantias ingratitudinis 
+          <lb ed="#L"/>propter gratiam receptam <g ref="#slash"/>Item ibi non est infinita gratitudo quia non quodlibet beneficium est in<lb ed="#L"/>finitium 
+          et infinite bonum ipsi creaturae</p>
+        
+        <p><g ref="#pilcrow"/>Ad 4m dico quod <name ref="#Augustine">augustinus</name> vult dicere quod deo non 
+          <pb ed="#L" n="63r"/><lb ed="#L"/>non possumus satisfacere pro benficiis suis dando sibi quidquid sumus et quidquid 
+          <lb ed="#L"/>melius possumus adhuc tantum tum non tenemur sibi dare quidquid possumus 
+          <lb ed="#L"/>sicut tenemur ipsum non offendere peccatis et culpis</p>
+        
+        <p><g ref="#pilcrow"/><ref>Ad primam rationem ad oppositum</ref> 
+          <lb ed="#L"/>patet solutio ex supra dictis</p>
+        
+        <p><g ref="#pilcrow"/><ref>Ad 2am</ref> dico quod nullus gradus eligibilitatis propter se 
+          <lb ed="#L"/>correspondet cuiuscumque creaturae sed solum propter aliud est diligenda quaelibet creatura ex quo patet quod quilibet 
+          <lb ed="#L"/>deberet potius eligere non esse quam deum per culpam offendere</p>
+        
+        <p><g ref="#pilcrow"/>Ad 3m patet quod 
+          <lb ed="#L"/>fideles post incarnationem plus obligantur extensive quia pluribus beneficiis quam ante et sic 
+          <lb ed="#L"/><sic>pluriens</sic> infinite creatura potest obligari sicut dicitur quod christus pluries meruit idem praemium aliter 
+          <lb ed="#L"/>nihil meruisset per mortem et passionem quia in conceptionem tantum eruit et non aliud ergo illud idem</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Praeterea considerandum est prima conclusio quod spiritus sanctus dicitur donum ab aeterno quia 
+          <lb ed="#L"/>ab aeterno procedit a patre et filio sed dicitur datum ex tempore quia creaturis datur ex 
+          <lb ed="#L"/>tempore seu temporaliter</p>
+        
+        <p><g ref="#pilcrow"/>2a conclusio quod spiritus sanctus dicitur relative ad patrem et filium seu re<lb ed="#L"/>fertur 
+          ad patrem et filium quia est spiritus patris et filii sed relatio illa non apparet in hoc nomine 
+          <lb ed="#L"/>spiritus sed in hoc nomine donum</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio quod proprietas consequentia dicitur spiritus sanctus vel donum 
+          <lb ed="#L"/>est ipsa processio qua ab aeterno procedit a patre et filio ut donum sive <unclear>uter</unclear> 
+          <lb ed="#L"/>dabilis vel donabilis</p>
+        
+        <p><g ref="#pilcrow"/>4a conclusio quod filius procedit a patre ut genitus seu ut 
+          <lb ed="#L"/>donum vel donabilis sed spiritus sanctus procedit a patre et filio non ut genitus sed 
+          <lb ed="#L"/>tantum ut donum vel donabilis aliter tamen quam filius quia filii processio nativitas est 
+          <lb ed="#L"/>sed spiritus sancti processio non est nativitas nec genitura utraque tamen ineffabilis est</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>5a conclusio quod sicut filius accepit esse a patre non tantum filius ut sit sed ut omnino 
+          <lb ed="#L"/>sit sic spiritus sanctus a patre et filio procedendo accepit non tantum ut spiritus sanctus 
+          <lb ed="#L"/>sit sed etiam ut omnino sit hoc tamen <unclear>non</unclear> accepit ex eo quod datur quia non datur 
+          <lb ed="#L"/>nisi ex tempore</p>
+        
+        <p><g ref="#pilcrow"/>6a conclusio quod de patre genero praestat essentiam filio non quod filius essentia sit 
+          <lb ed="#L"/>filius sed nativitate tantum sed quia nascendo habet eandem totam essentiam quae est in patre</p>
+        
+        <p><g ref="#pilcrow"/>7a conclusio 
+          <lb ed="#L"/>quod processio de patre et fiio praestat et communicat essentiam spiritui sancto secundum non quod essentia 
+          <lb ed="#L"/>spiritus sanctus sit spiritus sanctus sed personali proprietate sed quia proprie procedendo habet essentiam eandem totam 
+          <lb ed="#L"/>quae est in patre et filio</p>
+          
+        <p><g ref="#pilcrow"/>8a conlusio spiritus sanctus secundum hoc quod sempiterne donum est refertur 
+          <lb ed="#L"/>ad patrem et filium secundum vero quod dicitur datum vel donatum refertur ad eum qui 
+          <lb ed="#L"/>dedit et ad eos quibus datur ut sic dicitur spiritus noster quando illum recipimus</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>9a conclusio quod filius dicitur panis noster redemptor noster etc de similibus aliis multis 
+          <lb ed="#L"/>quae aliquo modo sibi conveniunt sed tamen non dicitur filius noster sed patris tantum quia filius dicitur tantum 
+          <lb ed="#L"/>relative ad illum qui <corr>veniat</corr> inquantum vero est nobis datus refertur ad deum 
+          <lb ed="#L"/>qui dedit et ad eos quibus datus est</p>
+        
+        <p><g ref="#pilcrow"/>postea quaerit utrum spiritus sanctus ad se 
+          <lb ed="#L"/>referatur sicut a se datur sed illam hic non solvit sed infra in aliis distinctionibus</p>
+      </div>  
+    </body>
+  </text>
+</TEI>
