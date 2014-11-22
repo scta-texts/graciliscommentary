@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 3</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.03-dev-master">
+          <title>Librum I, Quaestio 3</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-01-27">January 27, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q3">
+        <head>Quaestio 3</head>
+        <div>
+          <head>Circa textum</head>
+        <p>Hoc itaque vera aut pia fide, etc.</p>
+        
+        <p>Postquam <name ref="#Lombard">Magister</name> prni[?] sit quaedam necessaria praeambula in prima distinctione hic consequenter continuat[?] nam in prima ponit studentium informationem Sacrae Scriptura, secundo insequitur et probat multipliciter suam intentionem secunda ibi proponamus, ergo in medium</p>
+        
+        <p>Prima in tres dividitur quia primo docet qualiter studentes se debent ad eam disponere secundo quae et quali pro ipsius intellectu debent credere et supponere tertio qualiter debent in ea procedere secunda ibi ceterum ut in primo et tertia ibi</p>
+        
+        <p>Prima posset dividi tres secundum tres dispositiones quas ponit, nam docet quod quilibet studens debet esse mundus et virtuosus attentus et studiosus tranquillus et non litigiosus, secunda ibi de hac ergo re, tertia ibi proinde omnis qui audit.</p>
+        
+        <p>Secunda pars principalis dividitur in duas. Primo ponit sua conclusionem seu intentionem et probat eam testimoniis legis antique. Secundo declarat eam testimoniis legis evangelice secunda ibi nunc vero ad propositum.</p>
+        
+        <p>Prima dividitur in duas. Primo probat essentiae simplicem unitatem, secundo personarum triplicem alteritatem et harum aeternam aequalitatem secunda ibi personarum aequalitatem.</p>
+        
+        <p>Secunda pars nunc vero ad propositionem in tres dividitur, quia primo ponit unitatem essentiae et trinitatem personarum simul. Ostendit secundo durationem aeternitatis annectit. Tertio se excusat quod non plures auctoritates ad hoc adducit secunda ibi ipse et necessario sui evangelii tertia ibi sed quia singulae poenae silbem[?] novi testamento[?] et hoc est divino.</p>
+        </div>
+        <div>
+          <head>Quaestio</head>
+        <p>Utrum possit probari per textum Sacrae Scripturae trinus et unus conditor 
+          creatae naturae?</p> 
+          
+          <p>Quod non primo quia Deus non est trinus et unus, igitur. Antecedens probatur quia nullum incommunicabile est communicabile tribus, sed Pater est incommunicabilis et essentia divina communicabilis, ergo Pater non est essentia et consequenter potest argui de Filio et Spiritu Sancto.</p>
+        
+        <p>Secundo quia per nullum textum falsum potest illud probari, sed textus Scripturae videtur falsus autem saltim in proprius[?], ergo. Minor patet <ref corresp="#pgb1q3-Qldpdpc"><title ref="#hab">Habacuc</title> 2o</ref> ubi dicitur <quote xml:id="pgb1q3-Qldpdpc" ana="#hab2_11">"lapis de pariete clamabit."</quote></p>
+        
+        <p>Item <name ref="#IsidoreOfSeville">Isidorus</name> valet <quote>"errare nos fecisti de viis tuis et <sic>indurare fecisti</sic> cor nostrum, <pb ed="#L" n="18v"/> ne timeremus te?"</quote><note>The verse is from Isaiah 63:17, but the text clearly points to "Isidorus." Perhaps Isidore uses the verse to make a similar point.</note></p>
+        
+        <p>Item <quote ana="#lc7_22">"caeci vident, claudi ambulant,"</quote> etc.</p> 
+        
+        <p>Item <name ref="#Lombard">magister[?]</name> 5o nihil est probabile 
+          per scripturam quae demeruit fidem, sed probare evidenter et articulos est diminuere 
+          fidem et eam evacuare, ergo.</p>
+        
+        <p>In oppositum videtur esse <name ref="#Lombard">Magister</name> in hac distinctione.</p> 
+          
+          <p>Item <ref corresp="#pgb1q3-Qpshder"><name ref="#Augustine">Augustinus</name> XIV <title ref="#deTrinitate">De Trinitate</title> capitulo primo</ref> dicit quod <quote xml:id="pgb1q3-Qpshder" ana="#AugDeTrin14_1">"per studium huius scientiae fides saluberrima gignitur, defenditur, et roboratur."</quote></p>
+        </div>
+        <div>
+          <head>Prima conclusio</head>
+        <p>Primo conclusio: licet haec propositio 'si Deus est ipse est trinus et unus' possit ex primo principio sufficienter deduci tamen Deum trinum esse et unum' <supplied>tamen</supplied> non potest ex eo principio primo evidenter concludi.</p> 
+          
+          <p>Prima <supplied>pars</supplied> patet quia ex opposito consequentis, sequitur oppositum antecedentis, ergo. Consequentia bona, quamvis non sciamus eam evidenter esse bonam. Antecedens probatur nam sequitur Deus non est trinus et unus, ergo Deus non est quanta enim necessitate haec est necessaria Deus est tanta necessitate est haec 'deus est trinus et unus.'</p>
+        
+        <p>Secunda pars probatur quia, si posset ex primo principio evidenter concludi aut a priori, et hoc non quia nullum talem est possibile esse, nec a posteriori cum primo cum quilibet effectus creatus sit finitus demonstraret primam causam esse finitam cum secundo cum omnis demonstratio procedat ab effectu creato ad causam summa est insufficiens quia plures habet dissimilitudines quam similitudines, et dato quod posset in illo suaderi patet causam esse adhuc nullo modo convinceretur evidenter ipsum trinum esse.</p>
+        
+        <p>Ad hoc sunt verba mihi in hac distinctione dicentia: <quote ana="#pl-b1d3">"non enim per creaturarum contemplationem sufficiens notitia Trinitatis potest haberi sine doctrinae vel superioris inspirationis revelatione."</quote><note>Lombard, I Sententia, d. 3 <!-- need to add chapter and quote id to ana refernce --></note></p>
+        <div>
+          <head>Primum corollarium</head>
+        <p>Primum corollarium quod multae propositiones de Deo dictae seu formabiles sunt ex primo principio deducibiles. Patet ex conclusione, et confirmatur de ista <mentioned>'Deus non est lapis'</mentioned> potest ex illo deduci quia eius opposita includit contradictionem, nam sequitur: Deus est lapis essentialiter, ergo; Deus est Deus, ergo Deus est intelligens; ergo Deus non est lapis. Consequentia prima patet quia idem praedicatur de se ipso. Secunda patet quia quam necessario Deus est Deus tam necessario Deus est intelligens. Et tertia patet quia nullum intelligens est lapis essentialiter.</p>
+        </div>
+          <div>
+            <head>Secundum corollarium</head>
+        
+        <p>Secundum corollarium: licet omnis evidentia arguat certitudinem, non tamen omnis certitudo infert evidentia. Prima patet quia omnis sciens evidenter conclusionem est certus de illa. Secunda patet quia <mentioned>'Deum esse trinum'</mentioned> est certissimum quia fide creditum, et tamen de hoc articulo non habemus evidentiam.</p>
+          </div>
+          <div>
+            <head>Tertium corollarium</head>
+        
+            <p>Tertium corollarium: quam repugnat nihil esse simpliciter tam repugnat tria supposita distincta non esse realiter. Ex quo sequitur ultra hanc consequentiam esse necessariam: nulla tria sunt, igitur nihil est. Patet quia sequitur nulla tria sunt, ergo tria divina supposita non sunt, igitur nullus Deus est, ergo nihil est. Ex quo adhuc infertur quod sequitur bene unum est, ergo tria sunt quia tria divina supposita sunt. Patet consequentia quia oppositum consequentis infert oppositum antecedentis quia sequitur nulla tria sunt, ergo tria divina supposita non sunt, ergo nullum unum est.</p>
+          </div>
+        </div>
+          <div>
+            <head>Secunda conclusio</head>
+        <p>Secunda conclusio: quam est necesse in divinis unam esse supersimplicem essentiae unitatem tam est necesse illam esse trinam realem pluralitatem seu alteritatem. Haec patet ex dictis in prima.</p>
+        
+        <p>Confirmatur quia sic est de facto sicut conclusio significat, ergo sic esse est necesse. Antecedens patet ex fide consequentia probatur quia qualitercumque intrinsece est in divina essentia talis esse est necesse. Patet <name ref="#Lombard">magistrum</name> in hac distinctione. Item per <ref><name ref="#RichardOfStVictor">Ricardum</name> libro primo <title ref="#deTrinitateStVictor">De Trinitate</title> capitulo 27o</ref> dicentem confidenter fateamur personas in deitate secundum substantiam <unclear cert="medium">dicans</unclear> et substantiam significare <pb ed="#L" n="19r"/> et plures ibi personas non plures substantias esse quia sunt plures habentes unum indifferens esse ex differenti proprietate unitatis ad hoc sunt verba <name ref="#Lombard">Magistri</name> in hac distinctione, principio <quote ana="#pl-b1d2c1">"hoc itaque"</quote><note>Lombard, Sententia I, d. 2, c. 1 (I:20)</note> etc.</p>
+        
+            <div>
+          <head>Primum corollarium</head>
+          
+        <p>Primum corollarium: non solum in divinis est sollicitudo vel naturae singularitas seu simplicitas, sed etiam vera et realis trium personarum aequalium trinitas. Patet ex conclusione, unde <ref><title ref="#io">Iohannes</title> <supplied>14o</supplied></ref> <quote ana="#io14_16">"alium paracletum dabit vobis."</quote> Item <ref><title ref="#Iio">I Iohannis</title> <supplied>5o</supplied></ref> <quote ana="#Iio5_7">"tres sunt qui testimonium dant"</quote> in caelo. Item <name ref="#Athanasius">Athanasius</name> <quote>"alia est persona Patris"</quote>, etc.</p>
+            </div>
+            <div>
+              <head>Secundum corollarium</head>
+        
+              <p>Secundum corollarium: licet paternum notionale <unclear cert="medium">dicere</unclear> sit Filium aequalem sibi producere, tamen non quodlibet suppositum divinum dicens vel intelligens est Spiritum Sanctum producens. Prima pars est <name ref="#Augustine">Augustini</name> libro <title ref="#deTrinitate">De Trinitate</title> dicentis <quote>"Pater dicens se genuit Verbum sibi aequale per omnia. Non enim integre perfecteque se dixisset si aliquid minus se vel amplius esset in eius Verbo quam in se ipso"</quote><note>Augustine, de Trinitate, XV, 14, 23</note>. Secunda pars probatur quia cum quaelibet persona divina se et alia a se intelligat, sequitur quod Filius produceret se Filium vel alium non se quia nihil se potest producere vel generare secundum <name ref="#Augustine">Augustinum</name> nec secundum quia sic esset quaternitas in divinis quod est impossibile et contra conclusionem.</p>
+              
+            </div>
+            <div>
+              <head>Tertium corollarium</head>
+        
+        <p>Tertium corollarium: quam est necesse in divinis tria supposita esse tam est impossibile Spiritum Sanctum adintra aliquid producere. Patet ex dictis quia ipsum ad intra non producere est verum, ergo necessarium, ergo oppositum eius est impossibile.</p>
+            </div>
+          </div>
+        <div>
+          <head>Tertia conclusio</head>
+        <p>Tertio conclusio: licet theologus per textum scripturae non possit Deum esse trinum evidenter ostendere, tamen potest per eundum meritorie Trinitatem sufficienter ostendere, sufficienter approbare et deducere.</p> 
+          
+          <p>Prima patet quia obiectum illius articuli non potest evidenter ad contradictionem deduci ut patet ex prima conclusione.</p>
+          
+          <p>Secunda pars probatur quia ille articulus est sufficienter in Sacra Scriptura expressus, ergo. Antecedens patet in hac distinctione unde <name ref="#Lombard">Magister</name> <quote ana="#pl-b1d2c5">"singulae pene syllabae novi testamenti hanc ineffabilis unitatis veritatem atque Trinitatis concorditer insinuant."</quote><note>Lombard, Sententia, I, d. 2, 5 (I:29)</note> Sed quod meritorie possit inquiri et per scripturam doceri et deduci arguitur ex dictis <name ref="#Augustine">Augustini</name> et allegatur a <name ref="#Lombard">Magistro</name> in hac distinctione dicit quod hac Trinitate nihil fructuosius invenitur.<note>Cf. Augustine, De Trinitate, III, 5</note> Item <name ref="#Lombard">Magister</name> in prologo <quote ana="#pl-b1prol">"delectat nos veritas pollicentis,"</quote><note>Lombard, Sententia, I, prologus (I:1)</note> scilicet spes habendi vitam aeternam quae fuit una de causis <unclear cert="medium">moventibus</unclear> ad compilationem huius operis.</p>
+        <div>
+          <head>Primum corollarium</head>
+        <p>Primum corollarium: nullus Sacrae Scripturae textus in suo proprie sensu est falsus. Contra: <name ref="#Ockham">Okam</name> in <title>Scripto super Sententias</title>. Patet quia aliter articuli fidei non possent per huius textum probari nec deduci, immo Scriptura redderetur suspecta.</p>
+        </div>
+          <div>
+            <head>Secundum corollarium</head>
+        <p>Secundum corollarium: quod studere in Sacra Scriptura est circumstantia augens merita. Patet si in caritate et propter Deum fiat et fidei Catholicae non repugnet, immo studere in qualibet scientia non prohibita est meritorium si imperetur a bono actu voluntatis, ut ostendit <name>Fastinus</name>. <!-- Fascinus of Asti --></p>
+          </div>
+          <div>
+            <head>Tertium corollarium</head>
+        <p>Tertium corollarium est pars conclusionis affirmativa, scilicet quod potest probari per textum Sacrae Scriptura, etc. Paret dicta.</p>
+          </div>
+        </div>
+        <div>
+          <head>Contra primum conclusionem</head>
+        <p>Contra primam conclusionem arguitur per rationem naturalem possumus cognoscere et deducere divinam essentiam esse, ergo et Trinitatem personarum. Consequentia nota quia quidquid cognoscitur de essentia divina vere competit Trinitati. Antecedens patet per <ref><name ref="#Cicero">Tullium</name> <title>De natura deorum</title> libro secundo</ref> post principium, omnibus enim innatum est et in anima quasi insculptum esse Deo. Ad idem est <ref><name ref="#Augustine">Augustinus</name> <title ref="Confessions">Confessionum</title> capitulo octavo</ref> loquens de <name ref="#Platonists">platonicis</name> ubi dicit quod <quote>"ipse ratione devenerit ad notitiam non solum divinae essentiae sed etiam Trinitatis."</quote></p>
+        
+        <p>Secundo sic: omnis perfectio reperta in creaturis debet Deo attribui, sed generare est perfectio in creatura, ergo.</p>
+        
+        <p>Tertio: quanto natura est actualior tanto <pb ed="#L" n="19v"/> est fecundior, sed divina natura est infinita actualiter, ergo infinitae fecunditatis.</p>
+        
+        <p>Quarto: omne bonum est sui ipsius communicativum naturaliter, sed Deus est infinitum bonum, ergo. Maior est <ref><name ref="#Dionysius">Dionysius</name> <title ref="#deDivinisNominibus">De divinis nominibus</title> capitulo 12o</ref>. Et minor est <ref><name ref="#Anselm">Anselmus</name> in suo <title ref="#Proslogion">Proslogion</title> capitulis multis.</ref></p>
+        </div>
+        <div>
+          <head>Contra secundam conclusionem</head>
+        <p>Contra secundam conclusionem: si essent tres personae etc, sequitur quod in divinis est relatio et oppositio relationis, vel ergo erit una tantum vel plures. Si solum unam, ergo erunt tantum duo supposita seu duae personae. Si vero plures, ergo erunt ibi ad minus quattuor supposita quod est haeresis. Patet consequentia quia omnis oppositio relativa requirit duo extrema, scilicet generare et generari, spirare et spirari.</p>
+        
+        <p>Secundo sic: Deus omni modo est idem, quo simpliciter est melius esse idem quam non idem. Sed esse idem essentialiter <supplied>et<!-- est in witness --> --></supplied> personaliter est melius quam non esse sic idem, ergo. Maior patet <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> 15o</ref>. Minor patet quia quod convenit Patri et cuilibet personae est melius ipsum quam non ipsum. Sed esse idem essentialiter et personaliter convenit cuilibet personae, ergo sic idem melius ipsum quam non ipsum. Minor patet quia quaelibet persona personaliter et essentialiter est idem essentiae divinae.</p>
+        
+        <p>Tertio: sequitur quod sunt tres aeternae personae divinae, et tamen non sunt tres aeternae. Consequens implicat. Patet consequentia quia per conclusionem et corollarium eius sunt tres coaeternae personae, ergo et aeternae. Sed quod non sunt tres aeternae paret <name ref="#Athanasius">Athansium</name> dicentem <quote>"non tres aeterni sed unus aeternus."</quote></p>
+        
+        <p>Quarto: contra secundum corollarium si per intelligere etc., sequitur quod quaelibet persona producet Filium. Patet consequentia quia quaelibet intelligit aliquid sequitur ergo quod producit se vel aliquid ex se per intelligere vel diligere. Confirmatur quia si cum simplicitate stat Trinitas personarum, pari ratione potest stare quaternitas quia non videtur ratio quare Filius non possit producere Filium per suum intelligere sicut Pater.</p>
+        </div>
+<div>
+  <head>Contra tertiam conclusionem</head>
+        
+  <p>Contra tertiam conclusionem: Deum esse trinum nullibi in Sacra <supplied>Scriptura <!-- sacra repeated in ms witness --></supplied> invenitur expressum, ergo. Probatur antecedens quia cum Scriptura habeat plures sensus et intellectus, posset adversarius <unclear cert="medium">dicere</unclear> quod Christus et alii de Trinitate loquentes non sunt locuti ad sensum, sed mystice et figuraliter.</p>
+        
+        <p>Contra primum corollarium: quia multae sunt propositiones quae videntur falsae in sensu litterali, sed ille est proprius sensus Scripturae, ergo. Antecedens patet <ref><title ref="#io">Iohannes</title> <supplied>10o <!-- this is 4o in ms --></supplied></ref> ubi Christus dicit <quote ana="#io10_9">"ego sum ostium"</quote>. Item <quote ana="#io15_1">"ego sine vitis vera"</quote>. Confirmatur hoc quia scripturae doctorum inter se contradicunt, ergo. Antecedens patet de <name ref="#Augustine">Augustino</name> et <name ref="#Jerome">Ieromino</name> <title>super epistola pauli ad galatas</title> in multis passibus. Item confirmatur antecedens quia evangelistae inter se videntur discordare. Patet quia ob hoc videtur <name ref="#Augustine">Augustinus</name> fecisse librum <title>De concordia evangelistarum</title>.</p>
+        
+        <p>Item contra conclusionem et secundum corollarium: quia studentes theologiam periculo errandi se exponunt, ergo nullus eam debet studere nec eius meritorium est studium. Patet antecedens quia ibi miscentur dicta philosophorum et haereticorum quae legere in propriis locis non licet nec expedit, ut patet de <name ref="#Jerome">Ieromino</name> qui graviter fuit percussus eo quod legit libros <name ref="#Cicero">Ciceronis</name> ut habetur in eius legenda.</p>
+        
+        <p>Item per studium theologiae acquiritur habitus faciliter credendi, ergo per illud perdit studens unam circumstantiam augentem meritum. Antecedens patet. Et consequentia probatur quia difficultas credendi est circumstantia augens meritum, unde <name ref="#Jerome">Ierominus</name> in quaedam epistola <quote>"res maioris est meriti quae maioris est laboris."</quote> Item <name ref="#Ambrose">Ambrosius</name> in libro <title>De Cain et Abel</title>, <quote>"omnis virtus in labore consistit."</quote></p>
+        
+        <p>Ad idem videtur esse <ref><name ref="#Aristotle">Philosophus</name> IIo <title ref="#Ethics">Ethicorum</title></ref> ex quibus videtur sequi quod eligibilior esset status simplicis <cb ed="#L" n="20r"/> fidelis viatoris quam profundi ac subtilis doctoris.</p>
+</div>
+      <div>
+        <head>Responsio ad obiectiones contra primam conclusionem</head>
+        
+        <p>Ad primum: quidquid sit de antecedente, negatur consequentia. Ad probationem dicitur quod Trinitatis divina ab aliquo cognoscitur <unclear cert="low">a quo</unclear> non cognoscitur Trinitas divina.</p>
+        
+        <p>Ad dictum <name ref="#Augustine">Augustini</name> de <title ref="#Platonists">Platonicis</title>: primo dicitur quod <name ref="#Augustine">Augustinus</name> non dicit se invenisse in libro <name ref="#Platonists">Platonicorum</name>, sed in libro cuiusdam <name ref="#Platonists">Platonici</name>. Sed plures fuerunt <name ref="#Platonists">platonici</name> post adventum Christum sicut <name ref="#Porphyry">Porphyrius</name>, <name ref="#Plotinus">Plotinus</name>, et <name>Apollonius</name> qui forte fuerunt boni. Secundo potest dici quod si aliquid noviter de Trinitate hanc habuerit ex divina inspiratione, sicut dicit <ref><name ref="#Augustine">Augustinus</name> de <unclear cert="low">linete[?] mercurii[?]</unclear> in sermone <title>Contra quinque haereses</title></ref>.</p>
+        
+        <p>Ad <supplied>secundum</supplied>: primo posset maior negari quia mereri vel posse mereri est perfectio in creatura, non tamen potest Deo attribui. Secundo posset negari minor quia forte generare vel posse generare non est perfectio simpliciter potissime in divinis quia secundum quod communiter arguitur cum Filius hoc non potest careret aliqua perfectione.</p>
+        
+        <p>Ad tertium: posset concedi consequens quod divina natura in suppositis Patris et Filii est infinitae fecunditatis quia Pater producit Filium in omnibus sibi aequalem, Pater et Filius Spiritum Sanctum eis consubstantialem.</p>
+        
+        <p>Ad quartum: conceditur tota ratio, nec ex hoc concluditur evidenter Trinitas personarum in divinis, immo aeque probaretur per illa media quaternitas et quinternitas, immo forte melius quam Trinitas.</p>
+      </div>
+        <div>
+          <head>Responsio ad obiectiones contra secundam conclusionem</head>
+          <!-- possible corruption here, transition to response to arguments against second conclusion somehwat unclear -->
+          <!-- ad aliud seems to refer to the second argumnent against the second conclusio. The corruption then seems to be a missing response to the first argument -->
+        <p>Ad aliud: posset negari minor et ad probationem dicitur quod licet quaelibet persona sit idem essentiae personaliter et essentialiter, tamen non convenit esse idem omnibus tribus personis simul adinvicem personaliter. Item potest dici quod maior illa qua dicitur quod convenit Patri et cuilibet personae est melius ipsum quam non ipsum est vera si non sit <unclear cert="medium">relativum</unclear> sed solum includens relationem.</p>
+        
+        <p>Ad tertium: dicitur quod aeternum vel aeternae potest stare substantive et sic non sunt tres aeterni sed unus aeternus vel adiective et sic possunt dici tres aeterni vel aeternae. Secundo posset dici quod magis proprie dicitur Pater, Filius, et Spiritus Sanctus sunt coaeterni quam aeterni, ideo <name ref="#Athanasius">Athanasius</name> primum concedit et secundum negat.</p>
+          
+        <p>Ad quartum: negatur consequentia, et ad probationem dicitur secundum <ref><name ref="#ThomasStrasbourg">Thomas de Argentina</name> distinctione secunda primi, articulo primo</ref> quod <mentioned>'dicitur'</mentioned> sumitur dupliciter in divinis. Uno modo proprie et sic idem est quod Verbum concipere et sic sumit ipsum <name ref="#Augustine">Augustinus</name> <unclear cert="low">VII</unclear> <title ref="#deTrinitate">De Trinitate</title> dicens quod non nisi Pater est dicens adintra. Alio modo sumit <mentioned>'dicere'</mentioned> pro perfecte intelligere et sic quaelibet persona dicit se. Et conformiter posset dici de intelligere, sic accipit <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> <unclear cert="low">57</unclear> et 59 capitulis</ref> ubi dicit singulae personae se dicunt et quaelibet illarum se dicit. Si autem quaeritur evidens ratio quare Filius non producit Filium per suum dicere sicut Pater potest dici cum <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> 85o et 68 capitulis</ref> quod hoc transcendit omnis intellectus humani active et est a nobis in via in explicabile. Per idem patet ad confirmationem cum dicitur quod eadem ratione, etc. Negatur consequentia. Et cum dicitur quia non videtur ratio, etc. dicitur quod licet illam proprie nec perfecte sciamus, tamen ad haec aliqua est et ideo credendo debemus captivare intellectum.</p>
+      </div>
+        <div>
+          <head>Responsio ad obiectiones contra tertium conclusionem</head>
+        
+          <p>Ad primum contra tertiam conclusionem: negatur antecedens, nam patet m?t[?] ultimo <title ref="#io">Ioahnnes</title> primo et etiam in <title ref="#Decretals">decretis</title> Romanorum Pontificum quibus qui contradiceret censeretur haereticus nolo tamen <unclear cert="low">die[?]</unclear> illa decreta esse Scriptura Sacra.</p> 
+        
+          <p>Ad secundum: primo posset antecedens negari loquendo de propositionibus quae non solum narrative, sed et assertive ponuntur in textu Sacrae Scripturae. Secundo pro intellectu nota quod ille dicitur sensus proprius alicuius Scripturae quem sensum auctor Scripturae per ipsam intendit. Hoc ostendit <ref><name ref="#RichardFitzRalph">Armacanus</name> libro primo <title>De quaestionibus Armenorum</title> tunc principium illius libri.</ref> <pb ed="#L" n="21v"/> Secundo nota quod cum Scriptura habeat plures sensus, si veritas alicuius textus non potest haberi secundum unum sensum est recurrendum ad alium cui aliae Scripturae magis concordat, et est summe cavendum ne figurativa locutio ad litteram accipiatur, et econverso ne vera et propria locutio ad figuram mutetur et figurativa putetur.</p> 
+          
+        <p>Tertio notandum quod, licet per Scripturam quandoque significetur unum per similitudinem, tamen non oportet propter hoc quod idem in quolibet loco per illud idem significetur unum per similitudinem. Ista notabilia ponit <ref><name ref="#Augustine">Augustinus</name> 3o <title ref="#deDoctrinaChristiana">De doctrina Christiana</title></ref> et ponit de omnibus exemplum.</p>
+        
+        <p>Ad confirmationem dicitur quod doctores non sunt Sacrae Scripturae auctores, sed tantum expositores de evangelistis dicitur quod in nullo passu discordat realem et insignum huius liber ille non vocatur de <mentioned>'discordia'</mentioned> sed <mentioned>'concordia evangelistarum'</mentioned>. Si tamen diceretur de <mentioned>'discordia'</mentioned> illa non esset vera et realem, sed solum aestimata vel opinata et verbalis.</p>
+          <!-- where I left off  6/16 -->
+        <p>Ad aliud: negatur antecedens, si studeat qualem debet, debet enim talis non quaerere intelligere ut credat, sed <quote>"credere ut intelligat"</quote> ut dicit <ref><name ref="#Anselm">Anselmus</name> in fine prologi sui <title ref="#Proslogion">Proslogion</title></ref>. Ad probationem de dictis haereticorum, etc., dicitur quod legere talia dicta ad verorum eruditionem et falsorum reprobationem est licitum. Sed illa legere ad credulitatem vel imitationem seu assertionem vanitatem vel delectionem inordinatam non est licitum, et forte <name ref="#Jerome">Ierominus</name> ideo fuit flagellatus et percussus quia illa cum delectionem legebat quia forte amore illorum meliora et utiliora omittebat.</p>
+        
+        <p>Ad ultimum dicitur quod, licet studens facilius credat, non tamen propter hoc eius meritum minuitur quia loco eius circumstantiae acquirit alias meliores sicut intensius credere vel extensius expressius et verius. Per huiusmodi enim habitum subordinat fidem sua caritati et in Deum dirigit <unclear cert="high">actualiter</unclear>.</p>
+        
+        <p>Secundo posset dici negando antecedens quia non semper subtilior theologus facilius credit, immo occurrunt sibi plures rationes et instantiae quas simplices fideles non advertunt.</p>
+          
+          <p>Ex dictis patet quod non sequitur ex eis per studium theologiae acquiritur notitia respectu articuli fide superior, ergo idem est evidens et inevidens, evidens per scientiam, inevidens per fidem, sed bene sequitur quod assentit articulo per aliquod medium quod non facit scientificam evidentiam.</p>
+        </div>
+        <div>
+          <head>Responsio ad rationes principales</head>
+        
+        <p>Ad primam rationem in oppositum primo posset dici quod sumendo communicabile ut communicatum alteri est distinctum ab illo cui communicatur sic dicitur quod essentia proprie non est communicabilis.</p>
+        
+        <p>Secundo dicitur sequendo scolam communem et modum loquendi doctoris quod essentia est communicabilis et non persona et tunc illa maior potest intelligi dupliciter. Uno modo nullum incommunicabile est communicabile tribus, id est non est illud quod communicatur tribus, et sic maior est falsa. Alio modo nullum incommunicabile, id est ipsum non potest communicari tribus, et tunc maior est vera, sed forma arguendi non valet. Ad alias duas paret dicta quod sit respondendum.</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
