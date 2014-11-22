@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,11 +31,20 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q18">
         <head>Quaestio 18</head>
-        <p xml:id="pgb1q18-d1e92"><lb ed="#L"/><hi rend="dropCapThreeLines">S</hi>upra dictum est etc postquam <name ref="#Lombard">magistrum</name> posuit de dilectione suam 
+        <p><lb ed="#L"/><hi rend="dropCapThreeLines">S</hi>upra dictum est etc postquam <name ref="#Lombard">magistrum</name> posuit de dilectione suam 
           <lb ed="#L"/>intensionem in prima parte et ostendit qualiter caritas recipit intensionem in 2a parte <g ref="#slash"/>nunc 
           <lb ed="#L"/>in ista parte 3a adducit oppositam opinionem <g ref="#slash"/>et dividitur primo in duas quia primo 
           <lb ed="#L"/>praedictam opinionem adducit <g ref="#slash"/>2o quamdam conclusionem adiungit <g ref="#slash"/>2a ibi hic quaeritur si spiritus sanctus 
@@ -42,7 +52,7 @@
         ex caritatis divinae et creatae descriptione <g ref="#dot"/> 2o ex spiritus sancti operatione 3o ex caritatis 
           <lb ed="#L"/>creatae descriptione 2a ibi sed aliud est inquiunt 3a ibi alias quoque inducunt rationes etc</p>
         
-        <p xml:id="pgb1q18-d1e128"><hi rend="dropCapThreeLines">U</hi>trum sicut deus potest facere de non caro carum non donando infusae 
+        <p><hi rend="dropCapThreeLines">U</hi>trum sicut deus potest facere de non caro carum non donando infusae 
           <lb ed="#L"/>caritatis <sic>caritudinem</sic> sic se solo possit efficere de caro non 
           <lb ed="#L"/>carum subtrahendo humanae voluntatis rectitudinem <g ref="#slash"/>utrum sicut deus potest 
           <lb ed="#L"/>facere de non caro carum sic se solo possit efficere de iusto non istum <g ref="#slash"/>utrum 
@@ -53,21 +63,21 @@
           <lb ed="#L"/>posset dare sse album sine albedine parieti et esse hominem sine humanitate quae sunt 
           <lb ed="#L"/>falsa et consequentiae patent quia non plus videtur ratio de una quam de alia</p>
         
-        <p xml:id="pgb1q18-d1e163"><g ref="#pilcrow"/>2o principaliter sequeretur quod deus 
+        <p><g ref="#pilcrow"/>2o principaliter sequeretur quod deus 
           <lb ed="#L"/>posset esse ratio formalis carificans voluntatem patet consequentia sed falsitas probatur quia si sic tunc 
           <lb ed="#L"/>sequitur quod posset esse menti creatae motus dilectionis ordinatae consequens est falsum cum motus 
           <lb ed="#L"/>imperfectionem dicat</p>
         
-        <p xml:id="pgb1q18-d1e173"><g ref="#pilcrow"/>3o si deus posset aufferre menti rectitudinem sequitur quod posset facere 
+        <p><g ref="#pilcrow"/>3o si deus posset aufferre menti rectitudinem sequitur quod posset facere 
           <lb ed="#L"/>mentem peccantem consequens est falsum quia deo auctore nemo determinor sit secundum <name ref="#Augustine">augustinum</name> 
           <lb ed="#L"/>consequentia patet quia omnis mens carens rectitudine est in iusta <g ref="#slash"/>Ad videtur <ref><name ref="#Anselm">anselmus</name> libro <title>de libero arbitrio</title> 
           <lb ed="#L"/>capitulo 4o</ref></p>
         
-        <p xml:id="pgb1q18-d1e196"><g ref="#slash"/>In oppositum arguitur prima pars est superius ostensa sed 2a probatur quia rectitudo et voluntas sunt 
+        <p><g ref="#slash"/>In oppositum arguitur prima pars est superius ostensa sed 2a probatur quia rectitudo et voluntas sunt 
           <lb ed="#L"/>res distinctae absolute ergo unam ab alia potest seperare deus et per consequens voluntatem humanam 
           <lb ed="#L"/>et eius rectitudinem potest separare et <choice><orig>aufferre</orig><reg>auferre</reg></choice> ergo</p>
         
-        <p xml:id="pgb1q18-d1e210"><g ref="#pilcrow"/>prima conclusio licet de lege ordinata <g ref="#dot"/> 
+        <p><g ref="#pilcrow"/>prima conclusio licet de lege ordinata <g ref="#dot"/> 
           <lb ed="#L"/>nullus possit fieri de non caro carus sine infusa caritate tamen de lege absoluta 
           <lb ed="#L"/>vel possibili stat non habentem talem <unclear>quo</unclear> caritatem esse deo magis carum alio 
           <lb ed="#L"/>ipsam habente ac dictum intensius diligere ordinate patet prima pars ex supra dictis 
@@ -75,22 +85,22 @@
           <lb ed="#L"/>diligendum quam de facto diligat certus viator mente habitu talis caritatis 
           <lb ed="#L"/>creatae ergo antecedens patuit supra</p>
         
-        <p xml:id="pgb1q18-d1e232"><g ref="#pilcrow"/>primum corollarium quamvis de lege communi requiratur 
+        <p><g ref="#pilcrow"/>primum corollarium quamvis de lege communi requiratur 
           <lb ed="#L"/>caritas creata ad viatorem carum esse tamen nulla creata caritas <unclear>requiritur</unclear> ad meri<lb ed="#L"/>torie 
           operari vel bene agere prima apparet quia nullus est carus sine tali habitu 2a probatur quia 
           <lb ed="#L"/>quamcumque caritate data viator poterit meritorie agere sine illa</p>
         
-        <p xml:id="pgb1q18-d1e245"><g ref="#pilcrow"/>2m corollarium 
+        <p><g ref="#pilcrow"/>2m corollarium 
           <lb ed="#L"/>quaelibet mens creata eliciens actum dilectionis meritorium infinite plus diligit 
           <lb ed="#L"/>deum quam si absolute <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> probatur <unclear>tum</unclear> quia non est absolute <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> quod mens creata 
           <lb ed="#L"/>diligat deum <unclear>tum</unclear> 2o quia infinite minori caritate vel dilectione posset mens deum 
           <pb ed="#L" n="58v"/><lb ed="#L"/>diligere meritorie</p>
         
-        <p xml:id="pgb1q18-d1e277"><g ref="#pilcrow"/>3m corollarium maior est <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> inter albedinem et esse al<lb ed="#L"/>bum 
+        <p><g ref="#pilcrow"/>3m corollarium maior est <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> inter albedinem et esse al<lb ed="#L"/>bum 
           quam inter caritatem creatam et esse carum patet quia nihil potest esse sine alibedine album sed 
           <lb ed="#L"/>sine tali creatae potest aliquid esse carum</p>
         
-        <p xml:id="pgb1q18-d1e291"><g ref="#pilcrow"/>2a conclusio licet non repugnet spiritui sancto esse 
+        <p><g ref="#pilcrow"/>2a conclusio licet non repugnet spiritui sancto esse 
           <lb ed="#L"/>formabile posse quo mens elicit meritorie dilectionis actum tamen repugnat spiritui 
           <lb ed="#L"/>sancto esse menti creatae ordinatae dilectionis motum prima patet quia esse ipsum tale formabile 
           <lb ed="#L"/>posse nullam dicit imperfectionem <choice><orig>ymmo</orig><reg>immo</reg></choice> perfectionem nec claudit <choice><orig>alicam</orig><reg>aliquam</reg></choice> repugnantiam 
@@ -99,22 +109,22 @@
           <lb ed="#L"/>quemdam imperfectionem scilicet potentialitatem sed spiritus sanctus est summus actus omnem potentialitatem a se 
           <lb ed="#L"/>excludens ergo</p>
         
-        <p xml:id="pgb1q18-d1e336"><g ref="#pilcrow"/>primum corollarium denominatio talis dilectionis est magis attenda 
+        <p><g ref="#pilcrow"/>primum corollarium denominatio talis dilectionis est magis attenda 
           <lb ed="#L"/>penes talem rationem formabilem quam penes dilectionis motum vitalem patet quia talis ratio 
           <lb ed="#L"/>per se et intrinsece dicitur dilectio sed talis motus solum extrinsece quia determinatur ad ipsam 
           <lb ed="#L"/>dilectionem</p>
         
-        <p xml:id="pgb1q18-d1e346"><g ref="#pilcrow"/>2m corollarium quod non omnis ratio formalis diligendi ens summae perfectionis est 
+        <p><g ref="#pilcrow"/>2m corollarium quod non omnis ratio formalis diligendi ens summae perfectionis est 
           <lb ed="#L"/>modus bene agendi seu meritorie dilectionis quia spiritus sanctus est vel esse potest huius 
           <lb ed="#L"/>ratio et non motus</p> 
         
-        <p xml:id="pgb1q18-d1e354"><g ref="#dbslash"/>3m corollarium quod habentem motum dilectionis meritorium habere 
+        <p><g ref="#dbslash"/>3m corollarium quod habentem motum dilectionis meritorium habere 
           <lb ed="#L"/>habitum caritatis non est <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> et econverso habentem habitum caritatis menti <unclear>accessorium</unclear> 
           <lb ed="#L"/>habere motum dilectionis non est <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> patet per conclusionem <g ref="#slash"/> et confirmatur quia soli gratiae 
           <lb ed="#L"/>praedestinationis corresopndet esse meritorii ex vi divinae acceptationis ergo alias 
           <lb ed="#L"/>patuit supra</p>
         
-        <p xml:id="pgb1q18-d1e384"><g ref="#pilcrow"/>3a conclusio licet deus nullam culpae latitudinem possit homini inferre 
+        <p><g ref="#pilcrow"/>3a conclusio licet deus nullam culpae latitudinem possit homini inferre 
           <lb ed="#L"/>tantum deus voluntatis rectitudinem potest homini aufferre prima pars patet quia tunc deo 
           <lb ed="#L"/>auctore talis homo fieret determinor contra <ref><name ref="#Augustine">augustinum</name> <title>83 quaestiones</title> quaestione 5</ref> 2a probatur quia omne 
           <lb ed="#L"/>quod non est voluntas potest deus seperare et ab ea auferre sed rectitudo voluntatis 
@@ -123,22 +133,22 @@
           <lb ed="#L"/>recta <choice><orig>ymmo</orig><reg>immo</reg></choice> etiam sequeretur quod nulla voluntas posset peccare quia tunc quaelibet voluntas esset formaliter 
           <lb ed="#L"/>iustitia et rectitudo quae sunt falsa ergo</p>
         
-        <p xml:id="pgb1q18-d1e417"><g ref="#pilcrow"/>primum corollarium quaelibet rectitudo simpliciter humanae 
+        <p><g ref="#pilcrow"/>primum corollarium quaelibet rectitudo simpliciter humanae 
           <lb ed="#L"/>voluntatis includit realiter latitudinem gratitudinem gratificantis caritatis 
           <lb ed="#L"/>patet quia si non sequeretur quod voluntas posset eam habere a se vel ab alia creatura contra <ref><name ref="#Anselm">venarabilem 
           <lb ed="#L"/>anselmum</name> <title>de libero arbitrio</title> capitulo 14</ref></p>
         
-        <p xml:id="pgb1q18-d1e434"><g ref="#pilcrow"/>2m corollarium stat mentem privatam esset tota latitudine 
+        <p><g ref="#pilcrow"/>2m corollarium stat mentem privatam esset tota latitudine 
           <lb ed="#L"/>rectitudinis et numquam demeruisse aliquam latitudinem poenae sue poenitudinis 
           <lb ed="#L"/>patet quia si deus aliquam creaturam rectitudine privaret adhuc talem non minus di<lb ed="#L"/>ligeret 
         <choice><orig>ymmo</orig><reg>immo</reg></choice> ad maius praemium quam ante acceptare posset si vellet</p> 
         
-        <p xml:id="pgb1q18-d1e451"><g ref="#dbslash"/>3m 
+        <p><g ref="#dbslash"/>3m 
           <lb ed="#L"/>corollarium stat hominem privari voluntatis rectitudine et ipsum non iniustum sed <corr><del rend="strikethrough">illius</del></corr> 
           <lb ed="#L"/>iustum esset patet quia deus potest privare hominem rectitudinem et non potest homini iniustitia 
           <lb ed="#L"/>vel malitiam infligere <g ref="#slash"/>ex hiis patet quid ad quaestionem sit dicendum</p>
         
-        <p xml:id="pgb1q18-d1e467"><g ref="#pilcrow"/>contra prima conclusionem 
+        <p><g ref="#pilcrow"/>contra prima conclusionem 
           <lb ed="#L"/>arguitur si non esset simpliciter <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> aliquam creaturam esse iustam sequeretur quod deus <unclear>oppositum</unclear> illius 
           <pb ed="#L" n="59r"/><lb ed="#L"/>quod aeternaliter ordinavit posset facere consequens est falsum quia tunc deus esset mutabilis 
           <lb ed="#L"/>et consequentia patet quia si non <choice><orig>neccessario</orig><reg>necessario</reg></choice> sic est sicut ordinavit <unclear>oppositum</unclear> evenire <g ref="#slash"/> 
@@ -147,44 +157,44 @@
           <lb ed="#L"/>secundum illam est <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> hominem carum habere caritatem creatam ergo antecedens patet quia omne 
           <lb ed="#L"/>aeternum absolute est <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> lex aeterna est <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> igitur</p>
         
-        <p xml:id="pgb1q18-d1e549"><g ref="#pilcrow"/>2o contra primum corollarium si nulla 
+        <p><g ref="#pilcrow"/>2o contra primum corollarium si nulla 
           <lb ed="#L"/>gratia requiritur ad bene operandum meritorie ergo nullam gratiam habendo quis posset salvari 
           <lb ed="#L"/>de lege ordinata</p>
         
-        <p xml:id="pgb1q18-d1e557"><g ref="#pilcrow"/><sic>4o</sic> contra 2m corollarium non quilibet gradus caritatis sufficit ad 
+        <p><g ref="#pilcrow"/><sic>4o</sic> contra 2m corollarium non quilibet gradus caritatis sufficit ad 
           <lb ed="#L"/><unclear>fortem</unclear> temptationem vincendum vel ad martirium patiendum propter deum ergo nec 
           <lb ed="#L"/>sufficit ad quodlibet opus meritorium exercendum et per consequens si minori caritate diligeret 
           <lb ed="#L"/>non sufficienter diligeret</p>
         
-        <p xml:id="pgb1q18-d1e571"><g ref="#pilcrow"/>contra 2am conclusionem mentem uniri deo beatifice sine motu 
+        <p><g ref="#pilcrow"/>contra 2am conclusionem mentem uniri deo beatifice sine motu 
           <lb ed="#L"/>potentiae ad obiectum repugnat ergo spiritus sanctus non potest esse formaliter ratio percipiendi 
           <lb ed="#L"/>deum beatifice seu dilectionis meritorie consequentia tenet cum talis motus repugnet spiritui 
           <lb ed="#L"/>sancto et antecedens probatur quia aliter sequeretur quod tale obiectum beatificum esset essentialiter et intrinsece praesens 
           <lb ed="#L"/>creatae potentiae quod est falsum quia soli deo sic est praesens</p>
         
-        <p xml:id="pgb1q18-d1e583"><g ref="#pilcrow"/>2o contra primum corollarium sequeretur si huiusmodi 
+        <p><g ref="#pilcrow"/>2o contra primum corollarium sequeretur si huiusmodi 
           <lb ed="#L"/>motus staret sine terminis quod non esset perceptio seu vitalis operatio consequens est falsum 
           <lb ed="#L"/>probatur consequentia quia omnis perceptio vitalis competit sibi solum terminative extrinsece ut dicit corollarium</p>
         
-        <p xml:id="pgb1q18-d1e592"><lb ed="#L"/><g ref="#pilcrow"/>3o nullus talis motus est ponendus ego antecedens patet quia hoc esset propter distantiam potentiae ab obiecto 
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3o nullus talis motus est ponendus ego antecedens patet quia hoc esset propter distantiam potentiae ab obiecto 
           <lb ed="#L"/>et hoc non quia deus semper est praesenes potentiae</p>
         
-        <p xml:id="pgb1q18-d1e599"><g ref="#pilcrow"/>4o si 3m corollarium esset verum sequeretur quod in aliquo posset 
+        <p><g ref="#pilcrow"/>4o si 3m corollarium esset verum sequeretur quod in aliquo posset 
           <lb ed="#L"/>esse caritas gratuita et tamen ille non esset carus deo nec acceptus consequens est contra veritatem 
           <lb ed="#L"/>Item sequitur deum non esse bonum patet quia <quote>ille non est bonus qui non de bonis gaudet 
           <lb ed="#L"/>operationibus</quote> ut habetur <ref>primo <title ref="#Ethics">ethicorum</title></ref></p>
         
-        <p xml:id="pgb1q18-d1e616"><g ref="#pilcrow"/>contra 3am conclusionem si <choice><orig>aufferret</orig><reg>auferret</reg></choice> deus a voluntate rectitudinem 
+        <p><g ref="#pilcrow"/>contra 3am conclusionem si <choice><orig>aufferret</orig><reg>auferret</reg></choice> deus a voluntate rectitudinem 
           <lb ed="#L"/>aut hoc faceret nolens aut volens non primum quia deus nihil operatur nolens 
           <lb ed="#L"/>nec 2m quia cum rectitudo voluntatis sit velle quo deus vult ipsam velle sequitur quod deus 
           <lb ed="#L"/>posset velle voluntatem non velle quod vult eam velle sed hoc implicat ergo</p>
         
-        <p xml:id="pgb1q18-d1e632"><g ref="#pilcrow"/>2o contra 
+        <p><g ref="#pilcrow"/>2o contra 
           <lb ed="#L"/>primum corollarium stat rectitudo voluntatis cum peccato mortali ergo non includit gratiam 
           <lb ed="#L"/>gratificantem patet consequentia et antecedens patet per <ref><name ref="#Anselm">anselmum</name> <title>de libero arbitrio</title> capitulo 13</ref> dicentem <quote>volens habere rectitudinem 
           <lb ed="#L"/>habet rectitudinem</quote> sed existens in mortali peccato potest velle havere rectitudinem ergo <g ref="#dbslash"/></p>
         
-        <p xml:id="pgb1q18-d1e654"><lb ed="#L"/><g ref="#pilcrow"/>3o arguitur per <ref><name ref="#Anselm">anslemus</name> ibidem capitulo 14</ref> dicens omnem habentem rectitudinem dici potest habere iustitiam 
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3o arguitur per <ref><name ref="#Anselm">anslemus</name> ibidem capitulo 14</ref> dicens omnem habentem rectitudinem dici potest habere iustitiam 
           <lb ed="#L"/>et esse iustum quia omnis habens iustitiam iustus est non tamen <unclear>sensio</unclear> iustis hominibus 
           <lb ed="#L"/>esse promissam perpetuam vitam sed illis tantum qui sunt iusti sine omni iniustitia 
           <lb ed="#L"/>4o contra 3m et 2m corollaria privatio iustitiae et rectitudinis est formaliter culpa ergo cuilibet 
@@ -192,87 +202,87 @@
           inquit perdidit iustitiam originalem in qua factus et pro ea invenit 
           <lb ed="#L"/>privationem eius qui nullam habet essentiam quam iniustitiam nominamus</quote></p>
         
-        <p xml:id="pgb1q18-d1e690"><g ref="#pilcrow"/>Ad primum potest consequentia 
+        <p><g ref="#pilcrow"/>Ad primum potest consequentia 
           <lb ed="#L"/>negari quia talis motus vitalis non est aliquid distinctum ab ipsa vitali potentia <g ref="#slash"/>2o potest 
           <lb ed="#L"/>dici quod deus se solo potest mentem beatifice sine quacumque alia quantitate quacumque in complexa 
           <lb ed="#L"/>non tamen sine quolibet complexo se habere et haec solutio est primae rationis contra 2am conclusionem</p> 
         
-        <p xml:id="pgb1q18-d1e703"><g ref="#dbslash"/>Ad 
+        <p><g ref="#dbslash"/>Ad 
           <lb ed="#L"/>primum contra prima conceditur consequens de hiis quae non sunt praeterita nec posita inesse loquendo ratio 
           <lb ed="#L"/>est quia quod ab aeterno voluit potest numquam voluisse</p>
         
-        <p xml:id="pgb1q18-d1e711"><g ref="#pilcrow"/>Ad 2m conceditur antecedens quia lex illa 
+        <p><g ref="#pilcrow"/>Ad 2m conceditur antecedens quia lex illa 
           <pb ed="#L" n="59v"/><lb ed="#L"/>est deus sed negatur consequentia quia tunc omnia evenirent de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quod est falsum <g ref="#slash"/>2o potest dici quod 
           <lb ed="#L"/>lex potest sumi dupliciter <g ref="#slash"/>uno modo pro aliquo in christo quod est deus alio modo pro <choice><orig>alico</orig><reg>aliquo</reg></choice> complexo quod est dictum 
           <lb ed="#L"/>aliquod aeternaliter ordinasse primo modo conceditur antecedens et negatur consequentia 2o modo negatru antecedens et conceditur consequentia <g ref="#dbslash"/></p>
         
-        <p xml:id="pgb1q18-d1e740"><lb ed="#L"/><g ref="#pilcrow"/>Ad 3m negatur consequentia</p>
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad 3m negatur consequentia</p>
         
-        <p xml:id="pgb1q18-d1e745"><g ref="#slash"/>ad 4m negatur antecedens quia licet caritas minor non inclinet intensive 
+        <p><g ref="#slash"/>ad 4m negatur antecedens quia licet caritas minor non inclinet intensive 
           <lb ed="#L"/>sicut <unclear>magna</unclear> tamen ad omnem actum ad quem maior inclinat etiam minor inclinat seu 
           <lb ed="#L"/>inclinare potest <g ref="#slash"/>2o posset negari illa consequentia <c>a</c><g ref="#dot"/> caritas non sufficit ad faciendum voluntatem 
           <lb ed="#L"/>velle subire <unclear>martirium</unclear> ergo non sufficit ad deum sufficienter diligendum</p>
         
-        <p xml:id="pgb1q18-d1e768"><g ref="#slash"/>Ad primum 
+        <p><g ref="#slash"/>Ad primum 
           <lb ed="#L"/>contra 2am conclusionem iam dictum est</p>
         
-        <p xml:id="pgb1q18-d1e774"><g ref="#pilcrow"/>Ad 2m conceditur consequens sicut enim altero numquam proprie dicitur generatio 
+        <p><g ref="#pilcrow"/>Ad 2m conceditur consequens sicut enim altero numquam proprie dicitur generatio 
           <lb ed="#L"/>nisi sequatur terminus genitus ita talis motus non diceretur vitalis perceptio nisi terminus vitaliter 
           <lb ed="#L"/>percipiatur</p>
         
-        <p xml:id="pgb1q18-d1e783"><g ref="#pilcrow"/>Ad 3m negatur antecedens et ad probationem dico quod licet deus sit semper praesens realiter 
+        <p><g ref="#pilcrow"/>Ad 3m negatur antecedens et ad probationem dico quod licet deus sit semper praesens realiter 
           <lb ed="#L"/>non tamen obiective vitaliter unde talis motus est reddere rem non praesentem obiectaliter <g ref="#slash"/>2o 
           <lb ed="#L"/>dico quod dato quod deus sit semper sufficienter praesens animae obiectaliter adhuc anima indiget tali 
           <lb ed="#L"/>motu propter alia obiecta extrinseca quae non sunt vitaliter praesentia <corr><del rend="strikethrough">pi</del></corr> potentiae</p>
         
-        <p xml:id="pgb1q18-d1e799"><g ref="#pilcrow"/>Ad 4m 
+        <p><g ref="#pilcrow"/>Ad 4m 
           <lb ed="#L"/>dicitur consequens de eius potentia absoluta nec ex hoc sequitur contradictio loquendo de eius acceptatione 
           <lb ed="#L"/>ad vitam aeternam nec sequitur deum non esse bonum quia licet non acceptet illud opus 
           <lb ed="#L"/>ad vitam aeternam acceptat tamen ad aliquid quod pro ipso reddet vel reddidit</p>
         
-        <p xml:id="pgb1q18-d1e809"><g ref="#pilcrow"/><lb ed="#L"/>Ad aliam sequitur deum non esse iustum retributorem etc hic dicit <ref><name ref="#Rimini">gregorius</name> distinctione 17 primi 
+        <p><g ref="#pilcrow"/><lb ed="#L"/>Ad aliam sequitur deum non esse iustum retributorem etc hic dicit <ref><name ref="#Rimini">gregorius</name> distinctione 17 primi 
           <lb ed="#L"/>quaestione prima articulo 2o corollario 2o conclusionis 2ae</ref> quod nec vitae aeternae nec cuiuscumque primi 
           <lb ed="#L"/>aeterni vel temporalis aliquis actus hominis ex quacumque caritate elicitus est ex condigno meritorius 
           <lb ed="#L"/>quod sibi bonum videbitur et potest negari consequentia</p>
         
-        <p xml:id="pgb1q18-d1e825"><g ref="#pilcrow"/>Ad primum contra 3am conclusionem posset dici quod 
+        <p><g ref="#pilcrow"/>Ad primum contra 3am conclusionem posset dici quod 
           <lb ed="#L"/>nec sic nec sit sed non volendo huius rectitudinem servare</p>
         
-        <p xml:id="pgb1q18-d1e831"><g ref="#pilcrow"/>Aliter dicit <name ref="#Wodeham">adam</name> et <name ref="#BonsemblantesBaduarius">bo<lb ed="#L"/>semblant</name> 
+        <p><g ref="#pilcrow"/>Aliter dicit <name ref="#Wodeham">adam</name> et <name ref="#BonsemblantesBaduarius">bo<lb ed="#L"/>semblant</name> 
         quod volens et conceditur consequens quod infertur in sensu diviso prima solutio securior 
           <lb ed="#L"/>videtur</p>
         
-        <p xml:id="pgb1q18-d1e845"><g ref="#pilcrow"/>Ad 2m potest dici quod rectitudo potest sumi dupliciter uno modo simpliciter alio modo secundum quid sed 
+        <p><g ref="#pilcrow"/>Ad 2m potest dici quod rectitudo potest sumi dupliciter uno modo simpliciter alio modo secundum quid sed 
           <lb ed="#L"/><name ref="#Anselm">anselmus</name> loquitur de rectitudine secundum quid <g ref="#slash"/>corollarium vero intelligitur de rectitudine <corr><del rend="strikethrough">servi</del></corr> simpliciter dicta 
           <lb ed="#L"/><g ref="#slash"/>2o potest dici quod velle est duplex primum est efficax indicativum 2m est effi<lb ed="#L"/>cax 
           optativum de primo loquitur <name ref="#Anselm">anselmus</name> dicens quod quid vult rectitudinem scilicet efficaciter 
           <lb ed="#L"/>indicative habet illam et talem velle non stat cum mortali sed bene 2m</p>
         
-        <p xml:id="pgb1q18-d1e871"><g ref="#pilcrow"/>Ad 
+        <p><g ref="#pilcrow"/>Ad 
           <lb ed="#L"/>3m dicitur <name ref="#Anselm">anselmus</name> non loquitur de rectitudine vel iustitia simpliciter sed secundum quid ut patet intuenti 
           <lb ed="#L"/>eius verba ideo nihil concludit contra dicta</p>
         
-        <p xml:id="pgb1q18-d1e882"><g ref="#pilcrow"/>Ad 4m conceditur antecedens de facto sed in casu quo 
+        <p><g ref="#pilcrow"/>Ad 4m conceditur antecedens de facto sed in casu quo 
           <lb ed="#L"/>deus <choice><orig>aufferret</orig><reg>auferret</reg></choice> rectitudinem a voluntate sine demerito voluntatis talis privatio non esset 
           <lb ed="#L"/>culpa nec verba <name ref="#Anselm">anselmus</name> probat oppositum quia iustitia mali angelis fuit sibi inesse 
           <lb ed="#L"/>ideo eius privatio fuit peccatum non aut sit esset de iustitia isitus quam deus privaret 
           <lb ed="#L"/>rectitudine sua sine sue peccato Ad rationes in oppositum patet solutio per dicta superius</p>
         
-        <p xml:id="pgb1q18-d1e904"><lb ed="#L"/><hi>s</hi>upra dictum est prima conclusio quod spiritus sanctus operatur in nobis actum credendi 
+        <p><lb ed="#L"/><hi>s</hi>upra dictum est prima conclusio quod spiritus sanctus operatur in nobis actum credendi 
           <lb ed="#L"/>est spirandi <unclear>me?bus</unclear> virtutibus scilicet fide et spe actum vero diligendi doctores ponunt 
           <lb ed="#L"/>quod operatur in nobis sine alicuius virtutis medio vel sine habitu creato</p>
         
-        <p xml:id="pgb1q18-d1e917"><g ref="#pilcrow"/>Et nota 
+        <p><g ref="#pilcrow"/>Et nota 
           <lb ed="#L"/>quod <ref><name ref="#Lombard">magister</name> hic</ref> videtur negare caritatem creatam ideo communiter hic non tenetur quia praeter actum 
           <lb ed="#L"/>diligendi ponunt doctores habitum creatum caritatis <g ref="#slash"/>Alii vero sunt quid volunt 
           <pb ed="#L" n="60r"/><lb ed="#L"/>salvare <name ref="#Lombard">magistrum</name> dicens quod <name ref="#Lombard">magister</name> non intendit huiusmodi habitum negare haec aut 
           <lb ed="#L"/>relinquo iudicio legentis</p>
         
-        <p xml:id="pgb1q18-d1e944"><g ref="#pilcrow"/>2a conclusio quod per donum quod est spiritus sanctus dantur 
+        <p><g ref="#pilcrow"/>2a conclusio quod per donum quod est spiritus sanctus dantur 
           <lb ed="#L"/>dona et dividuntur non enim singuli habent omnia dona sed hii illa alii alia quamvis 
           <lb ed="#L"/>omnes habeant ipsum donum scilicet spiritum sanctum a quo omnia dona <unclear>cuiusquamque</unclear> dividuntur</p>
         
-        <p xml:id="pgb1q18-d1e955"/>
+        <p></p>
       </div>  
     </body>
   </text>
