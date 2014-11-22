@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,27 +28,22 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
-      </div>
-    </front>
+    
     <body>
       <div xml:id="pg-b1q6">
         <head>Quaestio 6</head>
-        <p><lb ed="#L"/><hi rend="threeLineDropCap">P</hi><hi rend="largeFont">ostquam queritur</hi> Ista est distinctio 5 In qua post quam <name>magister</name> ostendit qualiter 
+        <p xml:id="pgb1q6-d1e83"><lb ed="#L"/><hi rend="threeLineDropCap">P</hi><hi rend="largeFont">ostquam queritur</hi> Ista est distinctio 5 In qua post quam <name>magister</name> ostendit qualiter 
         <lb ed="#L"/>haec sit concedenda deus genuit deum <g ref="#slash"/> nunc vero <name ref="#Lombard">magister</name> movet quaestionem 
           <lb ed="#L"/>concurnentem gignens et genitum <g ref="#slash"/>et dividitur in tres quia primo movet 
           <lb ed="#L"/>variam quaestionem 2o ponit quovis solutionem 3o exponit multitudinem auctoritatem et dat 
           <lb ed="#L"/>earum variam intentionem 2a ibi ad quod catholicis 3a ibi dicitur quoque</p>
         
-        <p><g ref="#pilcrow"/>2a pars 
+        <p xml:id="pgb1q6-d1e110"><g ref="#pilcrow"/>2a pars 
           <lb ed="#L"/>dividitur in duas quia primo ostendit quod potentia divina non generatur passive 2o quod non generat 
           <lb ed="#L"/>active 2a ibi itaque non est dicendum <g ref="#slash"/>prima posset dividi in plures secundum quod <name ref="#Lombard">magister</name> 
           <lb ed="#L"/>suam intentionem ponit 2o contra eam obicit partis[?] patebunt legendo et hoc sit divino etc</p>
         
-        <p><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> quam repugnet plures causas aliquam rem totaliter efficere <g ref="#dot"/> tam repu<lb ed="#L"/>get 
+        <p xml:id="pgb1q6-d1e125"><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> quam repugnet plures causas aliquam rem totaliter efficere <g ref="#dot"/> tam repu<lb ed="#L"/>get 
         eamdem rem semet ipsam realiter producere <g ref="#slash"/>quod non quia de facto plures 
           <lb ed="#L"/>causae[?] aliquam rem totaliter efficiunt quod patet primo quia deus et voluntas creata sunt causae tota<lb ed="#L"/>les 
         actuum liberorum voluntatis creatae igitur sequitur quod deus illorum actuum sit causa totalis 
@@ -59,20 +51,20 @@
           <lb ed="#L"/>quod voluntas <choice><orig>eciam</orig><reg>etiam</reg></choice> sit totalis causa illorum patet quia alias non quaelibet <choice><orig>porcio</orig><reg>portio</reg></choice> actus voluntatis 
           <lb ed="#L"/>esset a voluntate effective et sic non esset in eius potestate contra <name ref="#Augustine">augustinum</name></p>
         
-        <p><g ref="#pilcrow"/>2o si alicui 
+        <p xml:id="pgb1q6-d1e170"><g ref="#pilcrow"/>2o si alicui 
           <lb ed="#L"/>combustibili puta ligno applicarentur duo ignes aequalem dispositi cum 
           <lb ed="#L"/>omnibus circumstantiis qualibet illorum esset causa totalis illius combustionis quod patet quia quilibet 
           <lb ed="#L"/>illorum est causa sufficiens combustionis qua posita sequitur effectus</p>
         
-        <p><g ref="#pilcrow"/>3o essentia divina 
+        <p xml:id="pgb1q6-d1e181"><g ref="#pilcrow"/>3o essentia divina 
           <lb ed="#L"/>est principium generativum sui ipsius et subiectum suae generationis ergo antecedens patet quia non videtur 
           <lb ed="#L"/>aliquid principium quo nec aliud in quo aliquid generetur ad intra nisi divina essentia</p>
         
-        <p><g ref="#pilcrow"/>In oppositum 
+        <p xml:id="pgb1q6-d1e189"><g ref="#pilcrow"/>In oppositum 
           <lb ed="#L"/>arguitur quia quodlibet illorum est impossibile et nulla est latitudo impossibilitatis quia omnia impossibilia 
           <lb ed="#L"/>aeque sunt impossibilia ergo</p>
         
-        <p><g ref="#pilcrow"/>prima conclusio licet aliquis effectus secundum se et quodlibet sui a pluribus 
+        <p xml:id="pgb1q6-d1e197"><g ref="#pilcrow"/>prima conclusio licet aliquis effectus secundum se et quodlibet sui a pluribus 
           <lb ed="#L"/><choice><orig>deppendeat</orig><reg>dependeat</reg></choice> effective causaliter tamen non <choice><orig>scat</orig><reg>stat</reg></choice> eundem effectum a pluribus causis 
           <lb ed="#L"/>totalibus <choice><orig>deppendere</orig><reg>dependere</reg></choice> aequaliter <g ref="#slash"/>prima pars patet per primam rationem factum ante oppositum de 
           <lb ed="#L"/>actibus voluntatis 2a probatur quia prima causa <choice><orig>perfeccius</orig><reg>perfectius</reg></choice> et plus influit in effectum quam 2a 
@@ -80,23 +72,23 @@
           <lb ed="#L"/>antecedens patet per actorem de causis patet etiam quia prima causa <choice><orig>indeppendenter</orig><reg>independenter</reg></choice> causat et influit 
           <lb ed="#L"/>ergo non aequaliter cum 2a</p>
         
-        <p><g ref="#pilcrow"/>primum corollarium licet respectu eiusdem sint plures causae totales tota<lb ed="#L"/>litate 
+        <p xml:id="pgb1q6-d1e252"><g ref="#pilcrow"/>primum corollarium licet respectu eiusdem sint plures causae totales tota<lb ed="#L"/>litate 
         effectus <sic>effectus</sic> causati tamen non <choice><orig>scat</orig><reg>stat</reg></choice> respectu eiusdem simul esse plures causas 
           <lb ed="#L"/>totales totalitate praecisiva[?] causali patet per conclusionem totum[?] corollarium</p>
         
-        <p><g ref="#pilcrow"/>2m corollarium quod non sequitur 
+        <p xml:id="pgb1q6-d1e269"><g ref="#pilcrow"/>2m corollarium quod non sequitur 
           <lb ed="#L"/><c>a</c><g ref="#dot"/> est aliquo modo causa totalis effectiva de <c>b</c><g ref="#dot"/> ergo <c>a</c><g ref="#dot"/> posito cum alio semoto[?] divino 
           <lb ed="#L"/>influxu non sequitur <g ref="#dot"/><c>b</c><g ref="#dot"/></p>
         
-        <p><g ref="#pilcrow"/>3m corollarium quod etiam haec consequentia non valet <c>a</c><g ref="#dot"/> totaliter producit <c>b</c> 
+        <p xml:id="pgb1q6-d1e293"><g ref="#pilcrow"/>3m corollarium quod etiam haec consequentia non valet <c>a</c><g ref="#dot"/> totaliter producit <c>b</c> 
           <lb ed="#L"/>ergo nihil aliud ab <c>a</c><g ref="#dot"/> producit <c>b</c><g ref="#dot"/> patet idem quia oppositum consequentis <choice><orig>scat</orig><reg>stat</reg></choice> cum antecedente sumpto 
           <lb ed="#L"/>dicto modo</p>
         
-        <p><g ref="#pilcrow"/>Ex dictis posset inferi ulterius quod ad productionem muscae[?] requiritur 
+        <p xml:id="pgb1q6-d1e324"><g ref="#pilcrow"/>Ex dictis posset inferi ulterius quod ad productionem muscae[?] requiritur 
           <lb ed="#L"/>tanta productivas seu potentia activa quanta requiritur ad verbi generationem in divina essentia 
           <lb ed="#L"/>patet quia utrobique requiritur immensa potentia patet dicta</p>
         
-        <p><g ref="#pilcrow"/>2a conclusio licet in divina essentia 
+        <p xml:id="pgb1q6-d1e332"><g ref="#pilcrow"/>2a conclusio licet in divina essentia 
           <lb ed="#L"/>intrinsece nomen causae non ponatur tamen ratio principii in divinis non negatur <g ref="#slash"/> prima 
           <lb ed="#L"/>patet quia <corr><del rend="strikethrough">ad</del></corr> causa dicitur esse ad cuius esse sequitur aliud sed dici[?] essentia non sequitur unum ad 
           <lb ed="#L"/>aliud quia ibi non est prius nec posterius nec est ibi dare aliud et aliud substantive ergo <g ref="#slash"/> antecedens 
@@ -105,21 +97,21 @@
           <cb ed="#L" n="26v"/><lb ed="#L"/>est illud a quo aliquid habet esse antecedens patet in simbolo <name>athanasii</name> filius a patre solo est etc Item 
           <lb ed="#L"/>spiritus sanctus a patre et filio etc</p>
         
-        <p><g ref="#pilcrow"/>confirmatur quia secundum <name ref="#Augustine">augustinum</name> potest est principium sine principio 
+        <p xml:id="pgb1q6-d1e375"><g ref="#pilcrow"/>confirmatur quia secundum <name ref="#Augustine">augustinum</name> potest est principium sine principio 
           <lb ed="#L"/>filius principium a principio</p>
         
-        <p><g ref="#pilcrow"/>primum corollarium sola trinitas in creata cuislibet creaturae potest di<lb ed="#L"/>ci 
+        <p xml:id="pgb1q6-d1e384"><g ref="#pilcrow"/>primum corollarium sola trinitas in creata cuislibet creaturae potest di<lb ed="#L"/>ci 
         totalis proprie et sufficiens causa patet quia posita eius causalitate respectu cuiuslibet producibilis 
           <lb ed="#L"/>ad extra omni alio secluso sequitur aliud id est effectus et hoc eset esse causam proprie secundum quod dicit 
           <lb ed="#L"/>probatio conclusionis</p>
         
-        <p><g ref="#pilcrow"/>2m corollarium licet in creatis principium et causa se habeant convertibiliter tamen in divinis 
+        <p xml:id="pgb1q6-d1e394"><g ref="#pilcrow"/>2m corollarium licet in creatis principium et causa se habeant convertibiliter tamen in divinis 
           <lb ed="#L"/>non dicuntur uniformiter</p>
         
-        <p><g ref="#pilcrow"/>3m quod nulla creatura aut producibilis aeternitas <choice><orig>neccessario</orig><reg>necessario</reg></choice> exigit 
+        <p xml:id="pgb1q6-d1e400"><g ref="#pilcrow"/>3m quod nulla creatura aut producibilis aeternitas <choice><orig>neccessario</orig><reg>necessario</reg></choice> exigit 
           <lb ed="#L"/>ad esse plures efficientes causas patet quia prima causa se sola sufficit</p>
         
-        <p><g ref="#pilcrow"/>3a conclusio licet ad[?] quod 
+        <p xml:id="pgb1q6-d1e413"><g ref="#pilcrow"/>3a conclusio licet ad[?] quod 
           <lb ed="#L"/>non implicat contradictionem a prima causa non possit causari tamen quidquid formaliter et proprie in<lb ed="#L"/>cludit 
         contradictionem a prima causa potest fieri et produci prima pars probatur quia prima causa seu deus 
           <lb ed="#L"/>est aliquid quod nullam includit contradictionem sed deus non potest ab <choice><orig>alico</orig><reg>aliquo</reg></choice> causari ergo maior patet quia 
@@ -128,117 +120,117 @@
           <lb ed="#L"/>et agere <choice><orig>deppendet</orig><reg>dependet</reg></choice> a deo ut dictum est nec a se quia secundum <ref><name ref="#Augustine">augustinum</name> primo <title ref="#deTr">de Trinitate</title> 
           <lb ed="#L"/>capitulo primo</ref> nulla res est quae se ipsam gignat</p>
         
-        <p><g ref="#pilcrow"/>2a pars conclusionis probatur quia solae propositiones 
+        <p xml:id="pgb1q6-d1e452"><g ref="#pilcrow"/>2a pars conclusionis probatur quia solae propositiones 
           <lb ed="#L"/>formaliter et proprie <choice><orig>contradiccionem</orig><reg>contradictionem</reg></choice> includunt sed omnes tales sunt a prima causa formabiles <corr><add>ergo</add></corr></p>
         
-        <p><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium quod ratio formalis termini ac etiam principii quo formaliter filius generatur vel 
+        <p xml:id="pgb1q6-d1e467"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium quod ratio formalis termini ac etiam principii quo formaliter filius generatur vel 
           <lb ed="#L"/>spiritus sanctus spiratur divinae essentiae non competit sed ab eadem negatur patet quia aliter idem 
           <lb ed="#L"/>gigneret se ipsum quod est contra dicta in quaestione et contra <name ref="#Lombard">magistrum</name> in hac distinctione</p> 
         
-        <p><g ref="#pilcrow"/>Item 
+        <p xml:id="pgb1q6-d1e479"><g ref="#pilcrow"/>Item 
           <lb ed="#L"/>pro isto corollario est determinatio ecclesiae extra de summa trinitate et fide catholica capitulo[?] 
           <lb ed="#L"/>damp?nius[?] ubi dicitur quod essentia divina nec gnerat nec generatur Item illud probat 
           <lb ed="#L"/><ref><name ref="#Rimini">gregorius doctor noster</name> in hac distinctione articulo 4o</ref></p>
         
-        <p><g ref="#pilcrow"/>2m corollarium sicut divina essentia non 
+        <p xml:id="pgb1q6-d1e492"><g ref="#pilcrow"/>2m corollarium sicut divina essentia non 
           <lb ed="#L"/>est formabile divinae generationis principium productivum ita non est eiusdem principium materiale 
           <lb ed="#L"/>subinum[?] prima patet dicta 2a pars probatur quia essentia divina non potest perfici ergo nec in 
           <lb ed="#L"/>hac generatione subici patet consequentia quia terminus cuiuscumque generationis perficit subiectum suum aliquis 
           <lb ed="#L"/>patet de se</p>
         
-        <p><g ref="#pilcrow"/>3m corollarium quod deum non esse chimiam[?] esse totum parte sua minus 
+        <p xml:id="pgb1q6-d1e504"><g ref="#pilcrow"/>3m corollarium quod deum non esse chimiam[?] esse totum parte sua minus 
           <lb ed="#L"/>esse contradictoria simul vera esse non includunt contradictiones formaliter et proprie patet 
           <lb ed="#L"/>per 2am partem conclusionis quia includunt quia talia non possunt fieri a prima causa <g ref="#slash"/> ex dictis 
           <lb ed="#L"/>patet affirmativa pars conclusionis</p>
         
-        <p><g ref="#pilcrow"/>contra primam conclusionem unr[?] esse duae rationes factae in oppositum conclusionis</p>
+        <p xml:id="pgb1q6-d1e517"><g ref="#pilcrow"/>contra primam conclusionem unr[?] esse duae rationes factae in oppositum conclusionis</p>
         
-        <p><g ref="#pilcrow"/>2o contra 2am partem arguitur quia plures possunt esse causae alicuius effectus quarum qualibet 
+        <p xml:id="pgb1q6-d1e521"><g ref="#pilcrow"/>2o contra 2am partem arguitur quia plures possunt esse causae alicuius effectus quarum qualibet 
           <lb ed="#L"/>posita sequitur effectum poni sed sic esse causam est esse causam totalem ergo antecedens patet 
           <lb ed="#L"/>de duobus ignibus de pluribus naue[?] trahentibus quarum medietas posset trahere na<lb ed="#L"/>ve[?] 
           in casu et de multis aliis</p>
         
-        <p><g ref="#pilcrow"/>3o si prima pars conclusionis et primi corollarii essent vere 
+        <p xml:id="pgb1q6-d1e531"><g ref="#pilcrow"/>3o si prima pars conclusionis et primi corollarii essent vere 
           <lb ed="#L"/>sequitur dictum <name ref="#Aristotle">philosophi</name> esse falsum quo dicitur quod causa efficiens est sufficiens qua posita ponitur 
           <lb ed="#L"/>effectus et qua remota ymor[?] patet consequentia quia posita causalitate voluntatis respectu alicuius 
           <lb ed="#L"/>actus liberi non sequitur effectus nisi ponatur <choice><orig>alica</orig><reg>aliqua</reg></choice> causa concurrens puta deus ergo</p>
         
-        <p><g ref="#pilcrow"/>contra 2am partem 2ae conclusionis si ratio principii aliter personae divinae conveniret sequitur 
+        <p xml:id="pgb1q6-d1e550"><g ref="#pilcrow"/>contra 2am partem 2ae conclusionis si ratio principii aliter personae divinae conveniret sequitur 
           <lb ed="#L"/>quod aliquod suppositum divinum principatum dici posset consequens[?] non conceditur et patet consequentia quia 
           <lb ed="#L"/>principium et principatum sunt correlativa quae simul dicuntur ad convertentiam[?]</p>
         
-        <p><g ref="#pilcrow"/>2o contra primum 
+        <p xml:id="pgb1q6-d1e558"><g ref="#pilcrow"/>2o contra primum 
           <lb ed="#L"/>corollarium si deus esset causa sufficiens et totalis cuiuslibet effectus creati sequeretur quod frustra 2a 
           <pb ed="#L" n="27r"/><lb ed="#L"/>causa aliquid produceret consequens est falsum patet consequentia quia si non ageret non minus sequeretur effectus ergo</p>
         
-        <p><g ref="#pilcrow"/>3o <corr>contra</corr> 3m corollarium si <choice><orig>alica</orig><reg>aliqua</reg></choice> entitas ad sui generationem non exigeret plures efficiantes[?] 
+        <p xml:id="pgb1q6-d1e567"><g ref="#pilcrow"/>3o <corr>contra</corr> 3m corollarium si <choice><orig>alica</orig><reg>aliqua</reg></choice> entitas ad sui generationem non exigeret plures efficiantes[?] 
           <lb ed="#L"/>causas sequitur quod deus se solo posset producere odium sui ipsius in <choice><orig>alico</orig><reg>aliquo</reg></choice> consequens est falsum 
           <lb ed="#L"/>cum ille actus <choice><orig>neccessario</orig><reg>necessario</reg></choice> sit <choice><orig>malicia</orig><reg>malitia</reg></choice> in volutus et consequentia patet quia omnis actus est 
           <lb ed="#L"/>est entitas producibilis</p>
         
-        <p><g ref="#pilcrow"/>contra primum corollarium 3ae conclusionis arguitur quod essentia generat et generatur 
+        <p xml:id="pgb1q6-d1e606"><g ref="#pilcrow"/>contra primum corollarium 3ae conclusionis arguitur quod essentia generat et generatur 
           <lb ed="#L"/>primo sic omnis essentia divina vel filius generat tota trinitas est essentia vel filius ergo 
           <lb ed="#L"/>tota trinitas generatur praemisse sunt vere et forma est bona ut videtur ergo</p>
         
-        <p><g ref="#pilrow"/>2o sic 
+        <p xml:id="pgb1q6-d1e614"><g ref="#pilrow"/>2o sic 
           <lb ed="#L"/>aliquid generat in divinis et nihil aliud ab essentia ergo <g ref="#slash"/>3o hic pater generat hic[?] pater est essentia 
           <lb ed="#L"/>ergo hoc essentia generat et potest reduci ad primum modi personae[?] figurae sic omnis pater ge<lb ed="#L"/>nerat 
           omnis essentia est pater igitur omnis essentia generat</p>
         
-        <p><g ref="#pilcrow"/>4o generans est essentia divina ergo 
+        <p xml:id="pgb1q6-d1e626"><g ref="#pilcrow"/>4o generans est essentia divina ergo 
           <lb ed="#L"/>essentia divina est generans consequentia patet conversionem simpliciter dictam antecedens probatur quia pater 
           <lb ed="#L"/>generans est essentia ergo generans est esssentia</p>
         
-        <p><g ref="#pilcrow"/>5o tam convertibiliter pater se habet ad 
+        <p xml:id="pgb1q6-d1e634"><g ref="#pilcrow"/>5o tam convertibiliter pater se habet ad 
           <lb ed="#L"/>essentiam quam convertibiliter se haberet si solum suppositum patris esset sed tunc quidquid diceretur 
           <lb ed="#L"/>de patre diceretur de essentia ergo nunc est ita ergo sicut generare dicitur de patre ita 
           <lb ed="#L"/>potest dici de essentia</p>
         
-        <p><g ref="#pilcrow"/>6o essentia divina non est non generans et est ergo est generans 
+        <p xml:id="pgb1q6-d1e644"><g ref="#pilcrow"/>6o essentia divina non est non generans et est ergo est generans 
           <lb ed="#L"/>consequentia videtur nota antecedens probatur quia quidquid est divinis aut est generans aut ingenitum[?] aut 
           <lb ed="#L"/>pro?dens[?]</p>
         
-        <p><g ref="#pilcrow"/>contra 2m corollarium eiusdem conclusionis probatur quod divina essentia sit subiectum divinae 
+        <p xml:id="pgb1q6-d1e652"><g ref="#pilcrow"/>contra 2m corollarium eiusdem conclusionis probatur quod divina essentia sit subiectum divinae 
           <lb ed="#L"/>generationis quia illud quod remanet sub utroque termino habet rationem subiecti essentia divina est huiusmodi ergo</p>
         
-        <p><lb ed="#L"/><g ref="#pilcrow"/>2o cuilibet active potentiae correspondet passiva potentia sed in patre est activa potentia ergo in filio 
+        <p xml:id="pgb1q6-d1e659"><lb ed="#L"/><g ref="#pilcrow"/>2o cuilibet active potentiae correspondet passiva potentia sed in patre est activa potentia ergo in filio 
           <lb ed="#L"/>est aliquid se habens passive sed hoc non est relatio ergo essentia</p>
         
-        <p><g ref="#pilcrow"/>3o quia haec propositio conceditur filius est a patre 
+        <p xml:id="pgb1q6-d1e666"><g ref="#pilcrow"/>3o quia haec propositio conceditur filius est a patre 
           <lb ed="#L"/>conceditur ergo li a <g ref="#dot"/> <corr>cong?tat[?]</corr> circumstantiam esse originis causalis vel principii materialis si primum 
           <lb ed="#L"/><name>augustinus</name> nihil concludebat contra maximum[?] libro 3o quia maximus[?] concessit filium esse 
           <lb ed="#L"/>a patre si 2m habetur propositum quod essentia in generatione filii est substantiam[?]</p>
         
-        <p><g ref="#pilcrow"/>pro solutione rationis 
+        <p xml:id="pgb1q6-d1e684"><g ref="#pilcrow"/>pro solutione rationis 
           <lb ed="#L"/>est advertendum quod aliquid esse causam seu <choice><orig>deppendere</orig><reg>dependere</reg></choice> ab <choice><orig>alica</orig><reg>aliqua</reg></choice> causa totaliter potest sumi 
           <lb ed="#L"/>dupliciter <g ref="#slash"/><corr>vo</corr> primo modo quia totum effectum et quodlibet sui effective sine alia causa efficiat 
           <lb ed="#L"/>ipsum</p>
         
-        <p><g ref="#pilcrow"/>2o modo quod totum effectum et quodlibet eius efficit seclusa omni alia causa efficiente 
+        <p xml:id="pgb1q6-d1e711"><g ref="#pilcrow"/>2o modo quod totum effectum et quodlibet eius efficit seclusa omni alia causa efficiente 
           <lb ed="#L"/>iuxta primum modum datum de causa totali effectiva seu de <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> effectiva 
           <lb ed="#L"/>posui et intelligo primam partem conclusionis primae et primam partem ergo primi cor?[?] eiusdem et ibi 
           <lb ed="#L"/>duo alia corollaria sed iuxta secundum datum sensum de totali causa posui partem 2am conclusionis 
           <lb ed="#L"/>et 2am eiusdem corollariae[?] ut patet intuenti</p>
         
-        <p><g ref="#pilcrow"/>Ad primum igitur conceditur antecedens consequens et consequentia de 
+        <p xml:id="pgb1q6-d1e729"><g ref="#pilcrow"/>Ad primum igitur conceditur antecedens consequens et consequentia de 
           <lb ed="#L"/>totali causa in primo sensu non in 2o quia si antecedens sumentur in 2o sensu esset falsum quia 
           <lb ed="#L"/>sic solus deus est totalis causa quia nulla causa 2a potest sine ipso efficere supposito 
           <lb ed="#L"/>tamen generali influxu divino adhuc potest dici quod possunt esse plures causae tota<lb ed="#L"/>les 
           respectu alicuius effectus maxime si idem potest produci effectus a diversi causis 
           <lb ed="#L"/>creatis et a qualibet illarum sine alia et secundum hoc etiam procedunt aliae tres rationes</p>
         
-        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 2am conclusionem dicitur primo quod consequens non est inconveniens sed tamen non debet concedi 
+        <p xml:id="pgb1q6-d1e743"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 2am conclusionem dicitur primo quod consequens non est inconveniens sed tamen non debet concedi 
           <lb ed="#L"/>propter haereticos ne habeant occasionem contra nos dicendi quod <choice><orig>alica</orig><reg>aliqua</reg></choice> persona divina sit finita 
           <lb ed="#L"/><g ref="#slash"/>2o potest dici quod principium sonat imperfectionem non autem principium ideo consequens simpliciter 
           <lb ed="#L"/>non est admittendum sed negandum</p>
         
-        <p><g ref="#pilcrow"/>Ad aliud negatur consequentia rationem assignat facinus in 2o 
+        <p xml:id="pgb1q6-d1e762"><g ref="#pilcrow"/>Ad aliud negatur consequentia rationem assignat facinus in 2o 
           <lb ed="#L"/>quia deus vult quod causa 2a agat ut perficiatur <g ref="#slash"/>nam si deus se solo produceret 
           <lb ed="#L"/>motum caeli intelligentia creata movens ipsum sic non perficeretur per ipsum motum 
           <pb ed="#L" n="27v"/><lb ed="#L"/>nec anima per motum corporis et sic per aliis ideo licet aeque sequeretur effectus causa 2a non agente 
           <lb ed="#L"/>sicut quando agit tamen non frustra agit 2a causa</p>
         
-        <p><g ref="#pilcrow"/>sed contra istam responsionem arguitur quia omnem per<lb ed="#L"/>fectionem 
+        <p xml:id="pgb1q6-d1e778"><g ref="#pilcrow"/>sed contra istam responsionem arguitur quia omnem per<lb ed="#L"/>fectionem 
           quam anima vel causa 2a consequitur per suam <choice><orig>accionem</orig><reg>actionem</reg></choice> vel per suum coefficere deus potest 
           <lb ed="#L"/>supplere ergo frustra ut prius <g ref="#slash"/>Ideo aliter <name ref="#HugolinoOfOrvieto">hugolinus</name> respondet dicens quod subtracta causa<lb ed="#L"/>litate 
           causae 2ae respectu effectus alicuius ille effectus non poneretur inesse supposito quod 
@@ -246,7 +238,7 @@
           <lb ed="#L"/>quia deus non solum vult se esse effectorem illius effectus sed coeffectorem quod 
           <lb ed="#L"/>non potest esse nisi 2a causa agat cum eo</p>
         
-        <p><g ref="#pilcrow"/>Ad 3m conceditur consequens in hoc sensu quod illam 
+        <p xml:id="pgb1q6-d1e808"><g ref="#pilcrow"/>Ad 3m conceditur consequens in hoc sensu quod illam 
           <lb ed="#L"/>entitatem seu qualitatem quae est odium dei deus potest causare et ad improbationem quia ille 
           <lb ed="#L"/>actus etc negatur hoc quia sicut stat visionem esse et per eam nihil videre aut videri sic 
           <lb ed="#L"/>stat illam qualitatem quae est odium dei esse et per illam subiectum suum non effici nec 
@@ -255,14 +247,14 @@
           <lb ed="#L"/>et diceretur quod quidquid est ibi entitatis deus se solo posset producere sed non posset af<lb ed="#L"/>ficere 
           per illam quia hoc non est proprie efficere aliquid sed pocius defficere secundum <name ref="#Augustine">augustinum</name> <g ref="#dbslash"/></p>
         
-        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur maior sicut ista omnis leo vel homo est risibilis et si tales 
+        <p xml:id="pgb1q6-d1e833"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur maior sicut ista omnis leo vel homo est risibilis et si tales 
           <lb ed="#L"/>propositiones probentur per inductionem singularium suarum dicendo sic iste leo vel homo est risibilis 
           <lb ed="#L"/>est iste leo vel homo est risibilis et sic de singulis <g ref="#slash"/> dicitur quod non sufficit hoc inductio quia est 
           <lb ed="#L"/>nata habere singulares plures</p>
         
-        <p><g ref="#pilcrow"/>Ad 2m negatur consequentia quia illud non sufficit</p>
+        <p xml:id="pgb1q6-d1e846"><g ref="#pilcrow"/>Ad 2m negatur consequentia quia illud non sufficit</p>
         
-        <p><g ref="#pilcrow"/>Ad 
+        <p xml:id="pgb1q6-d1e850"><g ref="#pilcrow"/>Ad 
           <lb ed="#L"/>3m dimissis variis modi solvendi illos <choice><orig>sillogismos</orig><reg>syllogismos</reg></choice> pro nunc dico tales non 
           <lb ed="#L"/>debite perditi[?] de omni regulari quia tales propositiones non sunt universales sufficienter 
           <lb ed="#L"/>licet vocaliter appareant universales <g ref="#slash"/>primum patet quia ad bene regulari perditi[?] de omni 
@@ -271,7 +263,7 @@
           de terminis transpositis et sic si ista esset sufficienter universalis omnis essentia divina est pater 
           <lb ed="#L"/>hoc esset bona consequentia omnis essentia divina est pater igitur tantum pater est essentia divina quod est falsum ergo</p>
         
-        <p><lb ed="#L"/><g ref="#pilcrow"/>Item ad hoc quod illa maior fuerit sufficienter universaliter requiritur quod subiectum nulli conveniat quin 
+        <p xml:id="pgb1q6-d1e878"><lb ed="#L"/><g ref="#pilcrow"/>Item ad hoc quod illa maior fuerit sufficienter universaliter requiritur quod subiectum nulli conveniat quin 
           <lb ed="#L"/>praedicatum eidem conveniat sed sic non est hic unde contingunt summere aliquid sub subiecto de quo non 
           <lb ed="#L"/>dicitur praedicatum in illa omnis essentia divina est pater vel similem in ista omne illud quod est pater 
           <lb ed="#L"/>est pater quia filius est essentia divina similiter illud quod est pater praedicatur de filio et spiritu sancto et 
@@ -282,69 +274,69 @@
           <lb ed="#L"/>ergo essentia generat patet quod si maior reddatur sicut debet est falsa et si non fit <choice><orig>circumlocucio</orig><reg>circumlocutio</reg></choice> 
           <lb ed="#L"/>talis forma non valet</p>
         
-        <p><g ref="#pilcrow"/>Item omne illud quod est pater est pater omne illud quod est deitas est 
+        <p xml:id="pgb1q6-d1e925"><g ref="#pilcrow"/>Item omne illud quod est pater est pater omne illud quod est deitas est 
           <lb ed="#L"/>illud quod est pater ergo omne illud quod est deitas est pater tales formae faciliter solvuntur 
           <lb ed="#L"/>per dicta quia sicut non sufficienter regulantur sic praemisse non sunt sufficienter universales 
           <lb ed="#L"/>vel secundum alium modum dicendi non fit debita circumlocutio in praemissis ideo non valent formae</p>
         
-          <p><pb ed="#L" n="28r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur quod consequens conversionis illius potest dupliciter sumi <g ref="#slash"/> uno modod essentia divina est generans 
+          <p xml:id="pgb1q6-d1e935"><pb ed="#L" n="28r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur quod consequens conversionis illius potest dupliciter sumi <g ref="#slash"/> uno modod essentia divina est generans 
             <lb ed="#L"/>id est hoc quod generat et sic conceditur <g ref="#slash"/>alio modo sic essentia divina est generans id est generat sic negatur 
             <lb ed="#L"/>consequentia quia nec debet sic converti sed primo modo</p>
         
-        <p><g ref="#pilcrow"/>Ad 5m dicitur quod assumptum eset verum quantum ad 
+        <p xml:id="pgb1q6-d1e949"><g ref="#pilcrow"/>Ad 5m dicitur quod assumptum eset verum quantum ad 
           <lb ed="#L"/>praedicationes essentiales non notionales quia nunc ibi est opposito relationis sed tunc nulla 
           <lb ed="#L"/>esset</p>
         
-        <p><g ref="#pilcrow"/>Ad 6m negatur antecedens quia est non generans et ad probationem quia quidquid est in divina essentia 
+        <p xml:id="pgb1q6-d1e957"><g ref="#pilcrow"/>Ad 6m negatur antecedens quia est non generans et ad probationem quia quidquid est in divina essentia 
           <lb ed="#L"/>dicitur quod sic debet intelligi quidquid est in divina essentia vel est generans id est vel est illud quod est ge<lb ed="#L"/>nerans 
           vel illud quod est genitum etc</p>
         
-        <p><g ref="#pilcrow"/>Ad primum contra illud corollarium dicitur quod si recipiuntur 
+        <p xml:id="pgb1q6-d1e965"><g ref="#pilcrow"/>Ad primum contra illud corollarium dicitur quod si recipiuntur 
           <lb ed="#L"/>hic termini produntes[?] et productum sic maior est falsa <g ref="#slash"/>si vero sumuntur termini pro <choice><orig>privacione</orig><reg>privatione</reg></choice> 
           <lb ed="#L"/>et forma introducta tunc minor est falsa quia filius numquam habuit terminum cum sit aeternus</p> 
           
-        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m dicitur quod maior habet veritatem impermixtis potentialibus compositionibus non autem 
+        <p xml:id="pgb1q6-d1e982"><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m dicitur quod maior habet veritatem impermixtis potentialibus compositionibus non autem 
           <lb ed="#L"/>in ente compositione et possibilitate carente simpliciter sicut est in divinis</p>
         
-        <p><g ref="#pilcrow"/>Ad 3m dicitur quod li <g ref="#dot"/><c>a</c><g ref="#dot"/> 
+        <p xml:id="pgb1q6-d1e989"><g ref="#pilcrow"/>Ad 3m dicitur quod li <g ref="#dot"/><c>a</c><g ref="#dot"/> 
           <lb ed="#L"/>denotat circumstantiam originis substantialis seu consubstantialitatem principii alitus cum 
           <lb ed="#L"/>suo producto et ita etiam dicit consubstantialitatem quae notat quamdam distinctionem et tunc non concludit 
           <lb ed="#L"/>ratio quia maximus licet concederet patrem generare filium nolebat tamen filium patri 
           <lb ed="#L"/>consubstantialem esse ex dictis patet quod antecedens 3ae rationis in oppositum est negandum non plus sed 
           <lb ed="#L"/>dicta sufficiant</p> 
         
-        <p><g ref="#pilcrow"/><hi rend="largeFont">Post haec quaeritur</hi> haec distinctio continet 9 conclusiones 
+        <p xml:id="pgb1q6-d1e1009"><g ref="#pilcrow"/><hi rend="largeFont">Post haec quaeritur</hi> haec distinctio continet 9 conclusiones 
           <lb ed="#L"/><g ref="#slash"/>prima quod pater non genuit divinam essentiam nec divina essentia genuit filium nec essentia 
           <lb ed="#L"/>genuit essentia et intelligit <name ref="#Lombard">magister</name> nomine essentiae divinam naturam quae communis est tribus 
           <lb ed="#L"/>2a conclusio quod si pater genuisset divinam essentiam essentia divina relative diceretur ad patrem 
           <lb ed="#L"/>sed quod relative dicitur non indicat essentiam vel substantiam ut sic scilicet in ratione essentiae ut 
           <lb ed="#L"/>ostenditur per <name ref="#Augustine">beatum augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title></p>
         
-        <p><g ref="#pilcrow"/>3a conclusio quod si pater genuisset divinam essentiam 
+        <p xml:id="pgb1q6-d1e1035"><g ref="#pilcrow"/>3a conclusio quod si pater genuisset divinam essentiam 
           <lb ed="#L"/>cum pater sit divina essentia ipse esset genitor eiusdem rei quae est ipse et ita res 
           <lb ed="#L"/>eadem se ipsam genuisset quod negat <name ref="#Augustine">augustinus</name></p>
         
-        <p><g ref="#pilcrow"/>4a conclusio cum pater divina essentia sit 
+        <p xml:id="pgb1q6-d1e1045"><g ref="#pilcrow"/>4a conclusio cum pater divina essentia sit 
           <lb ed="#L"/>et sit deus si ipsam genuisset ipse esset pater et esset deus eo vel idem quod genuisset 
           <lb ed="#L"/>et ita genitum esset causa gignienti[?] ut esset quod est falsum simile pater non est sapiens 
           <lb ed="#L"/>sapientia quam genuit quia cum sapere ibi idem sit quod esset sequitur quod filius quod est sapientia 
           <lb ed="#L"/>a patre genita esset causa quare pater esset et quare sapiens esset contra <name ref="#Augustine">augustinum</name> ubi supra</p> 
           
-        <p><lb ed="#L"/><g ref="#pilcrow"/>5a conclusio pater genuit illud quod est ipse idem scilicet filium qui est illud quod pater est quia quod pater est et filius 
+        <p xml:id="pgb1q6-d1e1060"><lb ed="#L"/><g ref="#pilcrow"/>5a conclusio pater genuit illud quod est ipse idem scilicet filium qui est illud quod pater est quia quod pater est et filius 
           <lb ed="#L"/>hoc est sed non quid pater est et filus hoc est quid masculum[?] genus refertur ad personam 
           <lb ed="#L"/>sed terminus neuter generis importat substantiam aut essentiam</p> 
         
-        <p><g ref="#pilcrow"/>6a conclusio cum dicitur eem[?] de 
+        <p xml:id="pgb1q6-d1e1070"><g ref="#pilcrow"/>6a conclusio cum dicitur eem[?] de 
           <lb ed="#L"/>essentia esse natam vel essentiam de essentia esse et similes intelligendum est quod filius quid 
           <lb ed="#L"/>est essentia divina est a patre vel est natus de patre quid est divina essentia <g ref="#slash"/>similiter si in 
           <lb ed="#L"/>est quod pater genuit filium quid est eadem substantia vel eiusdem substantiae cum patre</p>
         
-        <p><g ref="#pilcrow"/>7a conclusio 
+        <p xml:id="pgb1q6-d1e1082"><g ref="#pilcrow"/>7a conclusio 
           <lb ed="#L"/>quod filius et spiritus sanctus non dicuntur esse de nihilo[?] sed de aliquo non tamen de materia aliqua 
           <lb ed="#L"/>sed filius dicitur esse de substantia patris quia est eiusdem substantiae cum eo et spiritus sanctus dicitur de substantia 
           <lb ed="#L"/>patris et filii quia ab utroque procedit ita quod est eiusdem substantiae</p>
         
-        <p><g ref="#pilcrow"/>8a conclusio quod solus 
+        <p xml:id="pgb1q6-d1e1092"><g ref="#pilcrow"/>8a conclusio quod solus 
           <lb ed="#L"/>unigenitus dei dicitur natura filius quia eiusdem negatur et eadem natura et eadem natura est cum patre 
           <lb ed="#L"/>et haec sufficiant pro praesenti <choice><orig>leccione</orig><reg>lectione</reg></choice> <g ref="#slash"/>sequitur distinctio sexta</p>
       </div>  
