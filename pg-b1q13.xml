@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q13">
         <head>Quaestio 13</head>
@@ -92,7 +104,7 @@
           <lb ed="#L"/>praecedens corollarium</p>
         
         <p xml:id="pgb1q13-d1e317"><g ref="#pilcrow"/>2a conclusio licet spiritus sanctus sit omnium donorum suorum ratio causalis effectiva 
-          <lb ed="#L"/>non tamen inest eis simul existendi <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ratio connexiva prima patet per illud <title ref="#eph">ephesios</title> 2o <quote ana="#ep2_10">ipsius 
+          <lb ed="#L"/>non tamen inest eis simul existendi <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> ratio connexiva prima patet per illud <title ref="#eph">ephesios</title> 2o <quote ana="#eph2_10">ipsius 
           <lb ed="#L"/>factura sumus creati in christo ihesu in operibus bonis quae praeparavit deus ut in illis 
           <lb ed="#L"/>ambulemus</quote> super quo <name ref="#Augustine">augustinus</name> inquit non utique illa <choice><orig>creacione</orig><reg>creatione</reg></choice> qua homines facta sunt nullus 
           <lb ed="#L"/>sed de ea ipse dicebat qui iam homo erat cor mundum ea[?] in me deus 2a pars 
