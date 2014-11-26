@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q5">
         <head>Quaestio 5</head>
@@ -110,9 +122,9 @@
           <lb ed="#L"/>filioque procedit</p>
         
         <p xml:id="pgb1q5-d1e283"><hi rend="dropCapThreeLines">h</hi><hi rend="largeFont">ic oritur quaestio</hi> Ista est distinctio quarta quae sit continuatur ad 
-          <lb ed="#L"/>praecedentem quia postquam <name>magister</name> determinait de essentiae unitate et personarum personarum 
+          <lb ed="#L"/>praecedentem quia postquam <name ref="#Lombard">magister</name> determinait de essentiae unitate et personarum personarum 
           <lb ed="#L"/>trinitate consequenter in hac parte determinat de earum origine et al?e?te[?] 
-          <lb ed="#L"/>et dividitur in 4or partes secundum quod 4or facit <name>magister</name> prmo movet quaestionem 2o argut per 
+          <lb ed="#L"/>et dividitur in 4or partes secundum quod 4or facit <name ref="#Lombard">magister</name> prmo movet quaestionem 2o argut per 
           <lb ed="#L"/>rationem 3o respondet ad dubitationem et 4o ponit argumenti solucionem 2a ibi si emi?[?] 
           <lb ed="#L"/>deus genuit deum 3a ibi ad quod respondentes[?] dicimus 4a ibi nunc ad prae<lb ed="#L"/>missam 
           dubitationem seu quaestionem et hoc sit in generali divisio istius distinctionis</p>
@@ -215,7 +227,7 @@
           <lb ed="#L"/><ref><title ref="#iac">Iacobi</title> primo</ref></p>
         
         <p xml:id="pgb1q5-d1e644"><g ref="#pilcrow"/>2o virgo non genuit nisi creaturam sed filius dei non est creatura ergo maior 
-          <lb ed="#L"/>est <ref><name>augustini</name> <title>ench</title> 34o capitulo</ref> minor patet 3o <title>sententiarum</title> distinctione II <g ref="#slash"/>Item consequentia istam conclusionem est ratio facta 
+          <lb ed="#L"/>est <ref><name ref="#Augustine">augustini</name> <title>ench</title> 34o capitulo</ref> minor patet 3o <title>sententiarum</title> distinctione II <g ref="#slash"/>Item consequentia istam conclusionem est ratio facta 
           <lb ed="#L"/>ante oppositum</p>
         
         <p xml:id="pgb1q5-d1e665"><g ref="#pilcrow"/>3o contra corollaria eius aliquis actus intelligendi patris praecedit actum generandi 
@@ -249,7 +261,7 @@
         
         <p xml:id="pgb1q5-d1e740"><g ref="#pilcrow"/>Ad primum 
           <lb ed="#L"/>negatur consequentia ad probationem dico quod non omnis genero est motus sicut patet de ista <g ref="#slash"/>2o dicitur 
-          <lb ed="#L"/>secundum <name>Iacobum de viterbio</name> quaestione 2a de divinis pn?tis[?] quod quandoque genus dicit im<lb ed="#L"/>perfectionem 
+          <lb ed="#L"/>secundum <name ref="#JamesViterbo">Iacobum de viterbio</name> quaestione 2a de divinis pn?tis[?] quod quandoque genus dicit im<lb ed="#L"/>perfectionem 
           et species perfectionem et tunc genus illud non dicitur de deo sed bene species sicut 
           <lb ed="#L"/>in proposito patet de generatione et motu quandoque econverso et tunc genus dicitur de deo sed species 
           <lb ed="#L"/>non sicut totum universale dicitur de deo et totum integrale non quia deus non habet partes 
@@ -257,7 +269,7 @@
           <lb ed="#L"/>patet quod dato quod motus sit superius ad generationem et genus tamen non sequitur genero 
           <lb ed="#L"/>dicitur de deo igitur motus</p>
         
-        <p xml:id="pgb1q5-d1e768"><g ref="#slash"/>Ad 2m dicitur quod <name>augustinus</name> vult dicere quod virgo non 
+        <p xml:id="pgb1q5-d1e768"><g ref="#slash"/>Ad 2m dicitur quod <name ref="#Augustine">augustinus</name> vult dicere quod virgo non 
           <lb ed="#L"/>genuit nisi christum qui secundum humanitatem potest dici creatura ut dicit <ref><name ref="#Lombard">magister</name> 11 distinctione 
           <lb ed="#L"/>3ii</ref> aliter dicere ad hoc insequentibus</p>
         
@@ -316,7 +328,7 @@
         
         <p xml:id="pgb1q5-d1e929"><g ref="#pilcrow"/>3a conclusio fides tenet tres personas 
           <lb ed="#L"/>esse unum deum unam substantiam unam essentiam et econverso unam essentiam esse tres 
-          <lb ed="#L"/>personas et hoc probat <name ref="#Lombard">magister</name> per <name>augustinum</name> primo <title ref="#deTrinitate">de trinitate</title> cui secundum <name ref="#Lombard">magistrum</name> in hac 
+          <lb ed="#L"/>personas et hoc probat <name ref="#Lombard">magister</name> per <name ref="#Augustine">augustinum</name> primo <title ref="#deTrinitate">de trinitate</title> cui secundum <name ref="#Lombard">magistrum</name> in hac 
           <lb ed="#L"/>materia praeceteris[?] fides est adhibenda <g ref="#slash"/>Sciendum tamen quod contra 3am conclusionem universaliter 
           <lb ed="#L"/>esse auctoritates scripturae ubi sapientia in creata de se dicit ab aeterno et ante 
           <lb ed="#L"/>secula creata sine[?] <g ref="#slash"/> Item filius clarifica me pater claritate quam hm[?] priusquam 
