@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +30,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q17">
         <head>Quaestio 17</head>
@@ -47,14 +58,14 @@
           <lb ed="#L"/>ad speciem bonitatis moralis et virtutis igitur nullum talem potest intendi et per consequens nec caritas 
           <lb ed="#L"/>consequentia patet quia immenso non potest ari maius antecedens probatur quia quodlibet meritorium agere pro<lb ed="#L"/>cedit 
         ex formali posse spiritus sancti et per consequens talis actus est immense bonus quo 
-          <lb ed="#L"/>ad speciem virtutis et bonitatis moralis haec est ratio <ref><name>iohannis de marchia</name> distinctione 17 primi 
+          <lb ed="#L"/>ad speciem virtutis et bonitatis moralis haec est ratio <ref><name ref="#Ripa">iohannis de marchia</name> distinctione 17 primi 
           <lb ed="#L"/>articulo 3o</ref></p>
         
         <p xml:id="pgb1q17-d1e152"><g ref="#pilcrow"/>2o si caritas posset gradualiter intendi sequeretur quod etiam posset remitti gradualiter 
           <lb ed="#L"/>consequentia patet quia sicut per graduum replicationem sit gradualis intensio sic per eorum remissionem 
           <lb ed="#L"/>vel <unclear>desi?onem</unclear> fit eorum remissio sed falsitas consequentis probatur quia vel talis remissio fieret 
           <lb ed="#L"/>per morale peccatum vel veniale <g ref="#slash"/>non primum quia totam caritatem corrumpit nec 2m 
-          <lb ed="#L"/>quia tunc veniale puniretur <choice><orig>pena</orig><reg>poena</reg></choice> aeterna ratione propria <unclear>con?t</unclear> <ref><name>magistrum</name> libro 2o distinctione 42</ref></p>
+          <lb ed="#L"/>quia tunc veniale puniretur <choice><orig>pena</orig><reg>poena</reg></choice> aeterna ratione propria <unclear>con?t</unclear> <ref><name ref="#Lombard">magistrum</name> libro 2o distinctione 42</ref></p>
         
         <p xml:id="pgb1q17-d1e184"><lb ed="#L"/><g ref="#pilcrow"/>3o si caritas intenderetur gradualiter aut caritas acquisita esset eadem cum prima 
           <lb ed="#L"/>autem alia si primum sequitur quod idem augeat et producat se ipsum si 2m sequitur quod duo 
@@ -69,20 +80,20 @@
           <lb ed="#L"/>gradum caritatis ergo maior bonitas maiorem arguent caritatem sed nunc aliquis 
           <lb ed="#L"/>viator est perfectior et melior moraliter quam ante <unclear>igitur</unclear> aliquis nunc habet maiorem 
           <lb ed="#L"/>caritatem quam ante et non nisi per gradualem caritatis intensionem ergo quo vera antecedens 
-          <lb ed="#L"/>est <name>apostoli</name> <title ref="#Icor">primae ad corinthios</title> <sic>13o</sic> <quote ana="#Icor15_10">gratia dei sum id quod sum</quote> <g ref="#slash"/>Item ecclesia orat opus 
+          <lb ed="#L"/>est <name ref="#Paul">apostoli</name> <title ref="#Icor">primae ad corinthios</title> <sic>13o</sic> <quote ana="#Icor15_10">gratia dei sum id quod sum</quote> <g ref="#slash"/>Item ecclesia orat opus 
           <lb ed="#L"/>sempiternae deus da nobis fidei speci et caritas augmentum etc</p>
         
         <p xml:id="pgb1q17-d1e239"><g ref="#pilcrow"/>prima conclusio licet 
           <lb ed="#L"/>spiritus sanctus non possit mentem creatam immense formare et actuare <g ref="#dot"/> tamen spiritus 
           <pb ed="#L" n="55v"/><lb ed="#L"/>sanctus est iustae mentis posse <unclear>actuativum</unclear> formale ac salutare prima pars patet quia finitae 
           <lb ed="#L"/>et mensae repugnat immensae actuari et formari in quocumque agere suo <g ref="#slash"/>2a pars 
-          <lb ed="#L"/>probatur per <ref><name>augustnum</name> libro <title>de gratia et libero arbitrio</title></ref> dicentem formamur et creamur a deo in omnibus 
-          <lb ed="#L"/>operibus bonis Item <ref>sermone 44 super Iohannem</ref> et habentur verba in hac distinctione ubi dicitur 
+          <lb ed="#L"/>probatur per <ref><name ref="#Augustine">augustinum</name> libro <title>de gratia et libero arbitrio</title></ref> dicentem formamur et creamur a deo in omnibus 
+          <lb ed="#L"/>operibus bonis Item <title>sermone 44 super Iohannem</title> et habentur verba in hac distinctione ubi dicitur 
           <lb ed="#L"/>sine spiritu sancto constat christum nos non diligere et eius mandata servare non posse 
           <lb ed="#L"/>et ad nos posse attingere tanto minus quanto illum percipimus minus ergo</p>
         
         <p xml:id="pgb1q17-d1e277">primum corollarium tam praecise intense spiritus sancti est menti posse formale <unclear>actuativum</unclear> quam inten<lb ed="#L"/>se 
-          dat ei intrinsece esse causarum seu caritativum conclusio et corollarium sunt contra <ref><name>magistrum ra<lb ed="#L"/>dulphum  <!-- check "cadulphum" -->
+          dat ei intrinsece esse causarum seu caritativum conclusio et corollarium sunt contra <ref><name ref="#RadulphusDeCastello">magistrum ra<lb ed="#L"/>dulphum  <!-- check "cadulphum" -->
           de castello</name> in illa quaestione vel determinatione</ref> ubi quaerit utrum bona 
           <lb ed="#L"/>naturalia bonum gratuitis possit rationabiliter proportionari seu compari patet corollarium quia 
           <lb ed="#L"/>secundum <name ref="#Augustine">augustinum</name> tanto minus possumus diligere christum quanto minus in nobis percipimus 
@@ -139,7 +150,7 @@
           <lb ed="#L"/>non variatur nolo tamen dicere quod intensio caritatis sic fiat de facto <corr><g ref="#carrot"/><add place="belowLine">sed</add></corr> de possibili</p>
         
         <p xml:id="pgb1q17-d1e461"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium non penes remissionem cupiditatis quantificanda est intensio creatae 
-          <lb ed="#L"/>caritatis patet ex conclusione contra <ref><name>hugolinum</name> distinctione 17</ref> <g ref="#slash"/>confirmatur quia tunc caritas virginis 
+          <lb ed="#L"/>caritatis patet ex conclusione contra <ref><name ref="#HugolinoOfOrvieto">hugolinum</name> distinctione 17</ref> <g ref="#slash"/>confirmatur quia tunc caritas virginis 
           <lb ed="#L"/>gloriosae non fuisset intensa quod est falsum simpliciter consequentia patet quia non habuit cupiditatem 
           <lb ed="#L"/>quam posset remittere vel contra quam posset proficere</p>
         
@@ -158,7 +169,7 @@
         <p xml:id="pgb1q17-d1e511"><g ref="#pilcrow"/>contra primam conclusionem arguitur si sic 
           <lb ed="#L"/>sequeretur quod spiritus sanctus esset forma eius aliquo modo consequens est falusm quia vel esset eius forma 
           <lb ed="#L"/>essentialis vel accidentalis non primum quia tunc esset eius forma constitutiva nec 2m 
-          <lb ed="#L"/>quia nihil est tale nisi sit accidens sed spiritus sanctus non potest esse accidens ergo <name>radulphus</name> 
+          <lb ed="#L"/>quia nihil est tale nisi sit accidens sed spiritus sanctus non potest esse accidens ergo <name ref="#RadulphusDeCastello">radulphus</name> 
           <lb ed="#L"/>ubi <unclear>s?a</unclear></p>
         
         <p xml:id="pgb1q17-d1e529"><g ref="#pilcrow"/>2o contra conclusionem et corollarium primum arguit sic quia sequitur quod tam intense spiritus sanctus 
@@ -285,13 +296,13 @@
           <lb ed="#L"/>meritoria si non esset desidia ut dictum est in praecedenti solutione <g ref="#slash"/>2o dicitur et 
           <lb ed="#L"/>melius quod non semper et proportionaliter secundum quod aliquid nocet vel prodest est fugiendum 
           <lb ed="#L"/>vel appetendum nam secundum <ref><name ref="#Augustine">augustinum</name> 14 <title ref="#CityOfGod">de civitate dei</title> capitulo 13</ref> aliquibus prodest 
-          <lb ed="#L"/>peccare et tamen nullus debet appetere exemplum de <name>petro</name> adducit Item minus est interficere 
-          <lb ed="#L"/>hominem et penitere sufficienter quam commitere veniale et non satifacere et tamen primum 
+          <lb ed="#L"/>peccare et tamen nullus debet appetere exemplum de <name ref="#Peter">petro</name> adducit Item minus est interficere 
+          <lb ed="#L"/>hominem et penitere sufficienter quam committere veniale et non satisfacere et tamen primum 
           <lb ed="#L"/>non est mirius fugiendum quam 2m ymmo plus</p>
         
         <p xml:id="pgb1q17-d1e962"><g ref="#pilcrow"/>Ad illud quod dicitur forma eest simplici etc 
           <lb ed="#L"/>primo diceret <name ref="#GilesOfRome">aegidius</name> quod forma indivisibilis posset intendi vel remitti secundum maiorem 
-          <lb ed="#L"/>vel minorem <unclear>perti?onem</unclear> ipsius ad subiectum hoc dicit <ref><name>dominus aegidius</name> in hac distinctione</ref> et in <ref>suo 
+          <lb ed="#L"/>vel minorem <unclear>perti?onem</unclear> ipsius ad subiectum hoc dicit <ref><name ref="#GilesOfRome">dominus aegidius</name> in hac distinctione</ref> et in <ref>suo 
           <lb ed="#L"/>quodlibet quaestione 14a</ref> <g ref="#slash"/>2o dicitur quod auctoritas ibi loquitur de simplictate opposita quantitati <unclear>modalis</unclear> 
           <lb ed="#L"/>non perfectionis ideo non concludit contra <ref><name ref="#Scotus">scotum</name> distinctione 17a</ref></p>
         
