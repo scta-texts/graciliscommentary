@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q19">
         <head>Quaestio 19</head>
@@ -204,7 +214,7 @@
           <lb ed="#L"/>tunc plus deberet occidere <name ref="#Sortes">sortem</name> quam permittere se occidi ab eo consequens falsum et contra 
           <lb ed="#L"/><ref><name ref="#Augustine">beatum augustinum</name> libro <title>de libero arbitrio</title></ref> dicentem quod <quote>occidens hominem ne ab eo occi<lb ed="#L"/>datur 
         vel non rem propriam vel <unclear>p?dititiam</unclear> amittat peccat contra legem aeternam 
-          <lb ed="#L"/>licet non peccet contra legem civilem vel humanam</quote> <!-- can't find direct quote here; probably a paraphrase--> <g ref="#slash"/>Item <title><name>bernardus</name> <title>de dispensatione 
+          <lb ed="#L"/>licet non peccet contra legem civilem vel humanam</quote> <!-- can't find direct quote here; probably a paraphrase--> <g ref="#slash"/>Item <title><name ref="#Bernard">bernardus</name> <title>de dispensatione 
             <lb ed="#L"/>et praecepto</title> capitulo 5o</title> dicit quod <quote>occidere hominem <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> se deffendi mortale 
           <lb ed="#L"/>peccatum est<!-- can't find quote --></quote> igitur in nullo casu hoc est eligendum sed fugiendum semper</p>
         
@@ -214,7 +224,7 @@
           <lb ed="#L"/>liceat <choice><orig>aufferre</orig><reg>auferre</reg></choice> panem <name ref="#Sortes">sortis</name> vel non si non sequitur quod <corr><unclear>for?</unclear></corr> <name ref="#Plato">plato</name> non habet 
           <lb ed="#L"/>se plus diligere quam proximum nec prius habet fugere propriam mortem quam proximi 
           <lb ed="#L"/>quod est propositum si dicitur quod licite potest rapere panem de manu <name ref="#Sortes">sortis</name> sequitur 
-          <lb ed="#L"/>quod licite potest <name>plato</name> occidere <name>sortem</name> contra <ref><name ref="#Augustine">augustinum</name> primo <title ref="#CityOfGod">de civitate</title> capitulo 8o</ref></p>
+          <lb ed="#L"/>quod licite potest <name ref="#Plato">plato</name> occidere <name ref="#Sortes">sortem</name> contra <ref><name ref="#Augustine">augustinum</name> primo <title ref="#CityOfGod">de civitate</title> capitulo 8o</ref></p>
         
         <p xml:id="pgb1q19-d1e881"><g ref="#pilcrow"/>contra 
           <lb ed="#L"/>3am conclusionem si <unclear>obligatus</unclear> creaturae etc <unclear>aut</unclear> igitur beneficatus potest seu recipiens erit gratus 
@@ -239,7 +249,7 @@
         
         <p xml:id="pgb1q19-d1e967"><g ref="#pilcrow"/>4o contra 3m corollarium arguitur quia si creatura posset 
           <lb ed="#L"/>plus deo obligari sequeretur quod non debemus deo quidquid sumus et quidquid melius 
-          <lb ed="#L"/>possumus consequens est infra contra <ref><name>beatum augustinum</name> 3o de libro arbitrio capitulo 36o</ref> consequentia patet quia 
+          <lb ed="#L"/>possumus consequens est infra contra <ref><name ref="#Augustine">beatum augustinum</name> 3o de libro arbitrio capitulo 36o</ref> consequentia patet quia 
           <lb ed="#L"/>creatura non potest ad plus obligari quam se totum et quidquid etc</p>
         
         <p xml:id="pgb1q19-d1e982"><g ref="#pilcrow"/>Ad primum negatur consequentia quia 
@@ -251,7 +261,7 @@
           <pb ed="#L" n="62r"/><lb ed="#L"/>dico quod licet ratio doni sit amore non tamen ut dicitur essentialiter sed notionaliter</p>
         
         <p xml:id="pgb1q19-d1e1009"><g ref="#pilcrow"/>Ad 2m 
-          <lb ed="#L"/>negaret minorem <name>thomas de argentina</name> in distinctione praesenti 18 concedo tamen minorem sed 
+          <lb ed="#L"/>negaret minorem <name ref="#ThomasStrasbourg">thomas de argentina</name> in distinctione praesenti 18 concedo tamen minorem sed 
           <lb ed="#L"/>nego minorem sumendo convenire seu competere habitualiter quia sicut verbum esse 
           <lb ed="#L"/>competit filio actualiter per relatum actualem adintra et tamen competit eidem per relatum 
           <lb ed="#L"/>habitualem ad creaturas eo quod secundum <ref><name ref="#Augustine">augustinum</name> 15 <title ref="#deTrinitate">de trinitate</title> capitulo 11o</ref> <quote>initium omnis operis 
@@ -301,10 +311,10 @@
           <lb ed="#L"/>deum velle me diligere ipsum plus quam me licite possum me plus semper diligere</p> 
           
         <p xml:id="pgb1q19-d1e1201"><lb ed="#L"/><g ref="#pilcrow"/>Ad aliam probationem dicitur concedo consequens et cum infertur ex casu posito quod tunc citius etc conceditur 
-          <pb ed="#L" n="62v"/><lb ed="#L"/>consequens supponendo quod <name>sortes</name> non habeat voluntatem per se et principaliter occidendi <name>platonem</name> sed praeten<lb ed="#L"/>dat 
+          <pb ed="#L" n="62v"/><lb ed="#L"/>consequens supponendo quod <name ref="#Sortes">sortes</name> non habeat voluntatem per se et principaliter occidendi <name ref="#Plato">platonem</name> sed praeten<lb ed="#L"/>dat 
         tantum se a morte praeservare et fugere si potest si autem aliter non possit 
-          <lb ed="#L"/>evadere nisi occidat <name>platonem</name> sic non peccat si autem <unclear>interveniat</unclear> libidinosa 
-          <lb ed="#L"/>voluntas occidendi <name>platonem</name> tunc ipse peccat et sic dicit <name ref="#Augustine">augustinus</name> quod agit contra legem dei 
+          <lb ed="#L"/>evadere nisi occidat <name ref="#Plato">platonem</name> sic non peccat si autem <unclear>interveniat</unclear> libidinosa 
+          <lb ed="#L"/>voluntas occidendi <name ref="#Plato">platonem</name> tunc ipse peccat et sic dicit <name ref="#Augustine">augustinus</name> quod agit contra legem dei 
           <lb ed="#L"/>aeternam</p>
         
         <p xml:id="pgb1q19-d1e1237"><g ref="#pilcrow"/>Ad 3am probationem de casu extremae <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> dico quod rapiens panem de 
@@ -319,7 +329,7 @@
           <lb ed="#L"/>quod quanto talis esset pauperior tanto esset maior dicens et dicior patet consequentia quia 
           <lb ed="#L"/>talis <unclear cert="high">haberet</unclear> pluries debitores et plura sunt sibi obligata quam si esset minus 
           <lb ed="#L"/>pauper <g ref="#slash"/>hic dicitur quod consequentia non valet quia maioritas <unclear>domini</unclear> non attenditur penes 
-          <lb ed="#L"/>maiorem bonorum habitionem lictatam sed possessionem licet ergo talis habeat 
+          <lb ed="#L"/>maiorem bonorum habitionem licitatam sed possessionem licet ergo talis habeat 
           <lb ed="#L"/>plura obligata tamen pauciora sunt ab eo possessa</p>
         
         <p xml:id="pgb1q19-d1e1338"><g ref="#pilcrow"/>Ad primum contra conclusionem 3am 
@@ -337,7 +347,7 @@
         
         <p xml:id="pgb1q19-d1e1385"><g ref="#pilcrow"/>Ad 3m conceditur antecedens de obligationem quo ad speciem 
           <lb ed="#L"/>quia maiori specie obligationis obligatur quis ex receptione gratiae quam <unclear>peccative</unclear> 
-          <lb ed="#L"/>2o posset ngari antecedens de obligatione <unclear>intentiva</unclear> quia beneficium quodlibet sic obligat 
+          <lb ed="#L"/>2o posset negari antecedens de obligatione <unclear>intentiva</unclear> quia beneficium quodlibet sic obligat 
           <lb ed="#L"/>infinite creaturam deo <g ref="#slash"/>3o <unclear>diceret</unclear> facimus quod quodlibet divinum beneficium praecise tantum 
           <lb ed="#L"/>obligat recipientem quantum deus vult ipsum per illud obligare <g ref="#slash"/>4o dico quod non sequitur 
           <lb ed="#L"/>beneficium est infinite grata seu peccat infinite seu infinito peccato quia non 
