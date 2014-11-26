@@ -30,13 +30,22 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q7">
         <head>Quaestio 7</head>
          
         <p xml:id="pgb1q7-d1e83"><pb ed="#L" n="28v"/><lb ed="#L"/><hi rend="dropCapThreeLines">P</hi><hi rend="largeFont">raeterea quaeri solet</hi> haec est distinctio 6 qui ad praecedentem 
-          <lb ed="#L"/>sic continatur nam postquam <name>magister</name> determinavit de divina generatione quantum 
+          <lb ed="#L"/>sic continatur nam postquam <name ref="#Lombard">magister</name> determinavit de divina generatione quantum 
           <lb ed="#L"/>ad genitem[?] et genitum nunc de ipsa tractare incipit quantum ad generationis 
           <lb ed="#L"/>modum et dividitur in tres partes nam primo quaestionem proponit 2o solutionem ap<lb ed="#L"/>ponit 
           et 3o declarationem responsionis exponit 2a ibi circa primum nec voluntate nec <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
@@ -55,7 +64,7 @@
           
           <p xml:id="pgb1q7-d1e146"><g ref="#pilcrow"/>2o sequeretur quod filii genero esset voluntatis opero consequens videtur falsum quia est actus 
             <lb ed="#L"/>memoriae patris patet consequentia quia complacentia seu complacere est actus voluntatis secundum 
-            <lb ed="#L"/><ref><name rend="#Anselmus">anselmus</name> <title>de conceptu virginali</title> capitulo 2o</ref></p>
+            <lb ed="#L"/><ref><name ref="#Anselm">anselmus</name> <title>de conceptu virginali</title> capitulo 2o</ref></p>
           
           <p xml:id="pgb1q7-d1e160"><g ref="#pilcrow"/>confirmatur quia actus suppositi paternalis est actus 
             <lb ed="#L"/>essentialis ergo non plus determinatur ad gignendum filium quam filius ad hoc determinetur 
@@ -67,7 +76,7 @@
           <lb ed="#L"/>divino supposito attribuendum probatio antecedentis quia a quocumque determinatur aliquid ab illo 
           <lb ed="#L"/>est effective productum vel producitur vel salt?[?] movetur</p>
         
-        <p xml:id="pgb1q7-d1e180"><g ref="#pilcrow"/>In oppositum est <name rend="#Augustinus">augustinus</name> 9 
+        <p xml:id="pgb1q7-d1e180"><g ref="#pilcrow"/>In oppositum est <name ref="#Augustinus">augustinus</name> 9 
           <lb ed="#L"/><title ref="#deTrinitate">de trinitate</title> capitulo 8 verbum amore concipitur <g ref="#slash"/>Ad idem est <name ref="#Lombard">magister</name> in fine huius distinctionis 
           <lb ed="#L"/>6 ubi allegat <ref><name ref="#Augustine">augustinum</name> <title>super epistola ad ephe</title></ref></p>
         
@@ -132,7 +141,7 @@
         
         <p xml:id="pgb1q7-d1e435"><g ref="#pilcrow"/>3m corollarium non omnis actus patris 
           <lb ed="#L"/>cogertivus[?] est verbi infallibilis productivus patet quia aliquis est actus patris aeternalis 
-          <lb ed="#L"/>nullius termini productivus patet de actu quo <name>petrum</name> praedestinavit</p> 
+          <lb ed="#L"/>nullius termini productivus patet de actu quo <name ref="#Peter">petrum</name> praedestinavit</p> 
         
         <p xml:id="pgb1q7-d1e446"><g ref="#pilcrow"/>3a conclusio licet 
           <lb ed="#L"/>memoria paterna sit fecunda complacenter et libere tamen ad verbi generationem 
