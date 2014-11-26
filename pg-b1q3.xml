@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +31,17 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <text xml:lang="la">
+      <front>
+        <div type="status">
+          <note type="status">Draft</note>
+          <note type="collobaration">Yes</note>
+        </div>
+        <div xml:id="includeList">
+          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+        </div>
+      </front>
     <body>
       <div xml:id="pg-b1q3">
         <head>Quaestio 3</head>
@@ -129,7 +142,7 @@
         </div>
           <div>
             <head>Secundum corollarium</head>
-        <p xml:id="pgb1q3-d1e420">Secundum corollarium: quod studere in Sacra Scriptura est circumstantia augens merita. Patet si in caritate et propter Deum fiat et fidei Catholicae non repugnet, immo studere in qualibet scientia non prohibita est meritorium si imperetur a bono actu voluntatis, ut ostendit <name>Fastinus</name>. <!-- Fascinus of Asti --></p>
+            <p xml:id="pgb1q3-d1e420">Secundum corollarium: quod studere in Sacra Scriptura est circumstantia augens merita. Patet si in caritate et propter Deum fiat et fidei Catholicae non repugnet, immo studere in qualibet scientia non prohibita est meritorium si imperetur a bono actu voluntatis, ut ostendit <name ref="#FascinusOfAsti">Fastinus</name>. <!-- Fascinus of Asti --></p>
           </div>
           <div>
             <head>Tertium corollarium</head>
