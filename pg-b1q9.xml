@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q9">
         <head>Quaestio 9</head>
@@ -123,7 +135,7 @@
           <lb ed="#L"/>plures deos ergo <g ref="#slash"/>prima consequentia probatur quia si iustitia divina est deus formaliter tunc divina 
           <lb ed="#L"/>sapientia si formaliter non sit iustitia tunc <corr><add place="aboveLine">non</add></corr> erit deus formaliter <g ref="#slash"/>2a patet consequentia quia 
           <lb ed="#L"/>deum velle beatificare <name ref="#Peter">petrum</name> est deus realiter et tamen per ponentes huiusmodi formalitates 
-          <lb ed="#L"/>est deus contingenter[?] <corr><del rend="blackout">[?]</del></corr> Ista tria corollaria videntur de mente <ref><name rend="#Anselm">anselmi</name> <title ref="#Monologion">monologion</title> 17o <!-- check all "universaliter"'s for "videnter" --> 
+          <lb ed="#L"/>est deus contingenter[?] <corr><del rend="blackout">[?]</del></corr> Ista tria corollaria videntur de mente <ref><name ref="#Anselm">anselmi</name> <title ref="#Monologion">monologion</title> 17o <!-- check all "universaliter"'s for "videnter" --> 
           <lb ed="#L"/>capitulo</ref> dicit[?] quamadmodum unum est quod de essentia summa dicitur essentialiter ita ipsa uno modo 
           <lb ed="#L"/>una consideratione est quidquid essentialiter est <g ref="#slash"/>cum enim aliquis homo dicatur et corpus et rationalis 
           <lb ed="#L"/>et homo non uno modu nec una consideratione haec tria dicuntur ita vero essentia divina 
