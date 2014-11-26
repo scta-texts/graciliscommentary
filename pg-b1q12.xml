@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +31,16 @@
     
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q12">
         <head>Quaestio 12</head>
@@ -55,8 +66,8 @@
           <lb ed="#L"/>spiritus sanctus 3a vero ibi inter generationem filii</p>
         
         <p xml:id="pgb1q12-d1e154"><g ref="#pilcrow"/>2a principalis dividitur in tres quia primo ostendit spiritum 
-          <lb ed="#L"/>sanctum non debere dici genitum 2o ex dictis <name>Ieromi[?]</name> obicit in contrarium et 3o solvit 
-          <lb ed="#L"/>argumentum obyi[?] 2a <name>Ieromus</name> tamen et 3a sed ut istam etc et haec sit diviso harum distinctionum etc</p>
+          <lb ed="#L"/>sanctum non debere dici genitum 2o ex dictis <name ref="#Jerome">Ieromi[?]</name> obicit in contrarium et 3o solvit 
+          <lb ed="#L"/>argumentum obyi[?] 2a <name ref="#Jerome">Ieromus</name> tamen et 3a sed ut istam etc et haec sit diviso harum distinctionum etc</p>
         
         <p xml:id="pgb1q12-d1e168"><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> sit possibile spiritum sanctum esse productum et ipsum non esse genitum 
           <lb ed="#L"/>nec ingenitum <g ref="#slash"/>utrum a patre et filio spiritus sanctus taliter procedat sic 
