@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -29,7 +32,16 @@
     
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+    <div type="status">
+      <note type="status">Draft</note>
+      <note type="collobaration">Yes</note>
+    </div>
+    <div xml:id="includeList">
+      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+    </div>
+    </front>
     <body>
       <div xml:id="pg-b1q11">
         <head>Quaestio 11</head>
@@ -48,7 +60,7 @@
         <p xml:id="pgb1q11-d1e134"><lb ed="#L"/><g ref="#pilcrow"/>prima in duas quia primo ostendit modi[?] quo procedit vel emanat <g ref="#slash"/>2o quod dixit 
           <lb ed="#L"/>aucto?lus[?] confirmat 2a nunc vero quod incepimus et haec est divisio huius distinctionis <g ref="#slash"/>sequitur 
           <lb ed="#L"/>distinctio <g ref="#dot"/>11a<g ref="#dot"/> In qua postquam <name ref="#Lombard">magister</name> posuit in praecedent spiritus sancti processionem hic vero circa hoc 
-          <lb ed="#L"/>ponit duplicem operationem <g ref="#slash"/>quae quid distinctio iia in 3 dividitur primo enim ostendit <name>magister</name> latinorum 
+          <lb ed="#L"/>ponit duplicem operationem <g ref="#slash"/>quae quid distinctio iia in 3 dividitur primo enim ostendit <name ref="#Lombard">magister</name> latinorum 
           <lb ed="#L"/>concordiam 2o graecorum discordiam 2a ibi graeci tamen prima in duas quia primo <name ref="#Lombard">magister</name> 
           <lb ed="#L"/>praemittit suam intentionem 2o subiungit sui dicti probationem ibi quod aut[?] de utroque <g ref="#dot"/> 
           <lb ed="#L"/>2a principalis in duas quia primo ponit graecorum cum latinis aliqualem convenientiam 2o eorum 
@@ -139,7 +151,7 @@
         
         <p xml:id="pgb1q11-d1e460"><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium haec consequentia non est evidens nec 
           <lb ed="#L"/>formalis spiritus sanctus a filio non procedit ergo spiritus sanctus non est nec existat <g ref="#slash"/>contra 
-          <lb ed="#L"/><ref><name>gregorium</name> libro primo distinctione 11 articulo 2o</ref> patet corollarium quia si consequentia esset formalis sequitur quod si 
+          <lb ed="#L"/><ref><name ref="#Rimini">gregorium</name> libro primo distinctione 11 articulo 2o</ref> patet corollarium quia si consequentia esset formalis sequitur quod si 
           <lb ed="#L"/>spiritus non produceretur a verbo ipse non distingueretur ab eo quod est improbatum in conclusione <g ref="#slash"/>confirmatur 
           <lb ed="#L"/>quia spiritus sanctus per aliquod incomplexum praeter spirationem sufficienter a verbo distinguitur ergo seclusa 
           <lb ed="#L"/>spiratione per impossibile vel possibile adhuc spiritus sanctus a verbo distingueretur antecedens est suum in 
@@ -148,7 +160,7 @@
         <p xml:id="pgb1q11-d1e486"><g ref="#pilcrow"/>3a conclusio licet pater spirare activum communi<lb ed="#L"/>cet 
         filio tamen spiritus sanctus producitur ab utroque eodem modo naturali et libero prima pars patet 
           <lb ed="#L"/>in distinctione 12 primi in qua dictur quod pater dat filio quod spiret spiritum sanctum ergo <g ref="#slash"/>sed quod modo 
-          <lb ed="#L"/>naturali producant spiritum sanctum patet auctoritate <ref><name>hylarii</name> 5o <title>de trinitate</title></ref> et eum 
+          <lb ed="#L"/>naturali producant spiritum sanctum patet auctoritate <ref><name ref="#HilaryOfPoitiers">hylarii</name> 5o <title ref="#HilaryOfPoitiers_DeTrinitate">de trinitate</title></ref> et eum 
           <lb ed="#L"/>allegat <name ref="#Lombard">magister</name> intextu ubi dicit ex virtute naturae in naturam eandem processionem 
           <pb ed="#L" n="40r"/><lb ed="#L"/>subsistit spiritus sanctus sed quod praecedat libere patet quia voluntarie ut dicit <ref><name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">de trinitate</title> 
           <lb ed="#L"/>capitulo 17</ref> vide in fonte <g ref="#slash"/>confirmatur etiam quia non repugnat filium generari naturaliter et 
@@ -156,13 +168,13 @@
           <lb ed="#L"/>sed antecedens probatum est supra</p>
         
         <p xml:id="pgb1q11-d1e531"><g ref="#pilcrow"/>primum corollarium spiritus immensae bonitatis non producitur per 
-          <lb ed="#L"/>modum voluntatis contra <ref><name>scotum</name> libro primo distinctione 18 quaestione prima articulo primo</ref> et contra <ref><name ref="#Ockham">okam</name> eadem 
+          <lb ed="#L"/>modum voluntatis contra <ref><name ref="#Scotus">scotum</name> libro primo distinctione 18 quaestione prima articulo primo</ref> et contra <ref><name ref="#Ockham">okam</name> eadem 
           <lb ed="#L"/>distinctione quaestione prima</ref> probatur quia vel voluntas sumitur essentialiter vel <choice><orig>nocionaliter</orig><reg>notionaliter</reg></choice> <g ref="#slash"/>non primum quia certum est 
           <lb ed="#L"/>quod voluntas non producit filium nec spiritum sanctum nec 2m quia tunc spiritus sanctus producent se 
           <lb ed="#L"/>ipsum consequentia patet per <ref><name ref="#Augustine">augustinum</name> 17 <title ref="#deTrinitate">de trinitate</title> capitulo 3o de magnis</ref> et <ref>16 de parvis</ref> dicentem voluntas 
           <lb ed="#L"/>dei proprie si dicenda est aliquid intrinsece persona magis hoc nomen spiritui sancto convenit 
-          <lb ed="#L"/>sicut caritas nam quid est aliud caritas quam voluntas per hanc rationem arguit <name>augustinus</name> contra 
-          <lb ed="#L"/><name>eunomium</name> haereticum quod filius non sit filius voluntatis seu voluntate</p>
+          <lb ed="#L"/>sicut caritas nam quid est aliud caritas quam voluntas per hanc rationem arguit <name ref="#Augustine">augustinus</name> contra 
+          <lb ed="#L"/><name ref="#EunomiusOfCyzicus">eunomium</name> haereticum quod filius non sit filius voluntatis seu voluntate</p>
         
         <p xml:id="pgb1q11-d1e586"><g ref="#pilcrow"/>2m corollarium in eodem 
           <lb ed="#L"/>principio respectu eiusdem termini unitive libertas et <choice><orig>neccessitas</orig><reg>necessitas</reg></choice> concurrunt active spirative[?] 
@@ -198,7 +210,7 @@
         
         <p xml:id="pgb1q11-d1e721"><g ref="#pilcrow"/>4o principaliter <!-- possible small whole in actual manuscript here --> aut ista veritas <choice><orig>neccessario</orig><reg>necessario</reg></choice> et expresse 
           <lb ed="#L"/>sequitur ex dictis sacra scripturae aut non si primum mirum est quod hoc non viderunt 
-          <lb ed="#L"/>doctores graecorum sicut <name ref="#JohnDamascenus">damascenus</name> <name>th?opillus[?]</name> <name>gregorius nazazenus</name> et <name ref="#Cyril">cyrillus</name> 
+          <lb ed="#L"/>doctores graecorum sicut <name ref="#JohnDamascenus">damascenus</name> <name>th?opillus[?]</name> <name ref="#GregoryOfNazianzus">gregorius <unclear>nazazenus</unclear></name> et <name ref="#CyrilOfAlexandria">cyrillus</name> 
           <lb ed="#L"/>si 2m sequitur quod nec nos debemus docere nec fideles ad hoc credendum debent 
           <lb ed="#L"/>artari nec oppositum debet haereticum dici</p>
         
@@ -249,10 +261,10 @@
         
         <p xml:id="pgb1q11-d1e893"><g ref="#pilcrow"/>contra primum corollarium voluntas est 
           <lb ed="#L"/>principium <choice><orig>adintra</orig><reg>ad intra</reg></choice> productivum et non nisi amoris ergo spiritus immensae bonitatis producitur etc 
-          <lb ed="#L"/><ref><name>scotus</name> distinctione 10a</ref> <corr><del rend="strikethrough">et sic de aliis connterse</del></corr></p>
+          <lb ed="#L"/><ref><name ref="#Scotus">scotus</name> distinctione 10a</ref> <corr><del rend="strikethrough">et sic de aliis connterse</del></corr></p>
         
         <p xml:id="pgb1q11-d1e914"><g ref="#pilcrow"/>contra 2m corollarium sequeretur si sic quod inter liberum et <choice><orig>neccessarium</orig><reg>necessarium</reg></choice> 
-          <lb ed="#L"/>non esset differentia contra <ref><name ref="#Aristotle">philosophum</name> 9 <title ref="#Metaphysics">metaphysicae</title></ref> et consequens probat <ref><name>gregorius</name> 10 distinctione articulo 2o conclusione 2a</ref></p>
+          <lb ed="#L"/>non esset differentia contra <ref><name ref="#Aristotle">philosophum</name> 9 <title ref="#Metaphysics">metaphysicae</title></ref> et consequens probat <ref><name ref="#Rimini">gregorius</name> 10 distinctione articulo 2o conclusione 2a</ref></p>
         
         <p xml:id="pgb1q11-d1e937"><lb ed="#L"/><g ref="#pilcrow"/>contra 3m corollarium principium productivum spiritus sancti est voluntas ergo libere producitur et non 
           <lb ed="#L"/>naturaliter seu <choice><orig>neccessario</orig><reg>necessario</reg></choice> patet consequentia quia sicut intellectus non habet modum liberum agendi sic 
