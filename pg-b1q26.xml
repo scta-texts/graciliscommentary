@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 26</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.12-dev-master">
+          <title>Librum I, Quaestio 26</title>
+          <date when="2014-12-31">December 31, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-12-31">December 31, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q26">
+        <head>Quaestio 26</head>
+        <p xml:id="pgb1q26-d1e3115"><lb ed="#L"/><hi rend="dropCapThreeLines">h</hi>ic oritur quaestio Ista est 32 distinctio inquam postquam <name ref="#Lombard">magister</name> determina<lb ed="#L"/>vit 
+        de personarum divinarum appropriationibus nunc circa eas movet <unclear>quaestiones<!-- conclusiones --></unclear> 
+          <lb ed="#L"/>cum motivis et solutionibus <g ref="#slash"/>Et dividitur in duas quia primo tractat illas 
+          <lb ed="#L"/><unclear>quaestiones<!--conclusiones --></unclear> <g ref="#slash"/>de quibusdam appropriatis cum earum solutionibus 2o determinat de ipsis proprietatibus 
+          <lb ed="#L"/>et earum operationibus 2a ibi in principio 33 distinctionis post supra dicta</p>
+        
+        <p xml:id="pgb1q26-d1e3144"><g ref="#pilcrow"/>prima in tres dividitur 
+          <lb ed="#L"/>quia primo movet <unclear>quaestionem<!--conclusionem--></unclear> de appropriato ipsius filii 2o de appropriato spiritus sancti <g ref="#slash"/>3o comparat 
+          <lb ed="#L"/>unum alteri 2a ibi praeterea diligenter 3a ibi praeterea diligenter notandum</p>
+        
+        <p xml:id="pgb1q26-d1e3158"><g ref="#pilcrow"/>2a pars principalis 
+          <lb ed="#L"/>quae est distinctio 33a dividitur in tres quia primo personarum et proprietatum comparationem ponit <g ref="#slash"/>2o obiectionem 
+          <pb ed="#L" n="80r"/><lb ed="#L"/>recitat et solvit 3o ex dictis suis quamdam difficilem <unclear>quaestionem</unclear> ostendit 2a ibi 
+          <lb ed="#L"/>hoc autem aliqui 3a ibi sed forte quaeres et haec sit divisio in generali lectionis</p>
+        
+        <p xml:id="pgb1q26-d1e3175"><hi>U</hi>trum patris et filii amor seu nexus indissolubilis sit quo 
+          <lb ed="#L"/>ab eis omnis res diliguntur vel est diligibilis <g ref="#slash"/>quia non quia tunc sequeretur quod 
+          <lb ed="#L"/>quaelibet res infinite diligeretur consequens est falsum patet consequentia quia quaelibet res in<lb ed="#L"/>finito 
+        amore diligeretur</p>
+        
+        <p xml:id="pgb1q26-d1e3189"><g ref="#pilcrow"/>2o sequeretur quod quaelibet res semper uniformiter diligeretur et numquam 
+          <lb ed="#L"/>posset non diligi consequens est falsum quia tunc deus aeque diligeret peccantem et non 
+          <lb ed="#L"/>peccantem et consequentia probatur quia quod diliguntur in dissolubili nexu amoris illud non potest non 
+          <lb ed="#L"/>diligi</p>
+        
+        <p xml:id="pgb1q26-d1e3199"><g ref="#pilcrow"/>3o si pater diligeret dilectione spirata sequitur quod saperet sapientia genita 
+          <lb ed="#L"/>consequens est contra <ref><name ref="#Augustine">augustinum</name> 7o <title ref="#deTrinitate">de trinitate</title></ref> et patet consequentia a simili quia non minus pater est sapiens 
+          <lb ed="#L"/>quam diligens</p>
+        
+        <p xml:id="pgb1q26-d1e3214"><g ref="#pilcrow"/>In oppositum est <ref><name ref="#Lombard">magister</name> in hac distinctione 32</ref> et <ref>supra distinctione 14</ref></p>
+        
+        <p xml:id="pgb1q26-d1e3225"><g ref="#pilcrow"/>prima conclusio 
+          <lb ed="#L"/>creatura quaelibet rationalis diligatur immenso amore tamen nullum creatum est im<lb ed="#L"/>mense 
+          diligibile intrinseco valore prima patet quia pater et filius omnem creaturam di<lb ed="#L"/>ligunt 
+        spiritu sancto ergo immenso amore tenet consequentia et antecedens est <ref><name ref="#Lombard">magistri</name> 32</ref> et <ref>14 
+          <lb ed="#L"/>distinctionibus</ref> 2a pars probatur quia quodlibet creatum est finiti valoris intrinsece ergo ex sui 
+          <lb ed="#L"/>valoris intrinseca ratione est finite diligibile</p>
+        
+        <p xml:id="pgb1q26-d1e3248"><g ref="#pilcrow"/>primum corollarium quodlibet creatum in in<lb ed="#L"/>finitum 
+          maiori amore diligitur quam sit eius valor intrinsecus <unclear>quo</unclear> in specie reponitur 
+          <lb ed="#L"/>patet quia immenso amore diligitur et valore finitae perfectionis intrinsece in specie re<lb ed="#L"/>ponitur</p>
+        
+        <p xml:id="pgb1q26-d1e3261">2m corollarium non praecise penes valorem boni optati aut collati 
+          <lb ed="#L"/>debet amor seu dilectio mensurari patet quia deus amore eodem omnia diligit 
+          <lb ed="#L"/>et tamen non omnibus aequale bonum confert</p>
+        
+        <p xml:id="pgb1q26-d1e3269"><g ref="#pilcrow"/>3m corollarium licet deus omnia eodem a<lb ed="#L"/>more 
+        diligat creata tamen secundum magis et minus sunt ab eo dilecta 
+          <lb ed="#L"/>patet quia alias non plus diligeret virginem quam daemonem quod est <choice><orig>condampnatum</orig><reg>condemnatum</reg></choice> parisius</p>
+        
+        <p xml:id="pgb1q26-d1e3283"><lb ed="#L"/><g ref="#pilcrow"/>2a conclusio licet pater et filius omnia diligant eodem amore spirato et nexu in<lb ed="#L"/>dissolubili 
+          tamen mere contingenter et libere diligunt et amorem conferunt cuilibet creato 
+          <lb ed="#L"/>diligibili patet prima quia pater et filius omnia diligunt spiritu sancto qui est amor 
+          <lb ed="#L"/>spiratus a patre et filio et eorum nexus <choice><orig>in dissolubilis</orig><reg>indissolubilis</reg></choice> 2a patet quia tres divinae 
+          <lb ed="#L"/>personae agunt adextra mere contingenter et libere</p>
+        
+        <p xml:id="pgb1q26-d1e3303"><g ref="#pilcrow"/>primum corollarium stat ad diligi 
+          <lb ed="#L"/>amore infinito et nexu indissolubili et illud dilectum quandoque posse non 
+          <lb ed="#L"/>diligi patet quia quodlibet creatum deus potest ad <unclear>nullare[?]</unclear> et tamen diligere et tamen quodlibet 
+          <lb ed="#L"/>tale diligitur spiritu sancto quid est vinculum patris et filii amorosum et nexus 
+          <lb ed="#L"/>indissolubilis ergo</p>
+        
+        <p xml:id="pgb1q26-d1e3318"><g ref="#pilcrow"/>2m corollarium stat ab aliquo deum clare videri et a tali vidente 
+          deum non amari patet tum quia deus non <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> ad concausandam dilec<lb ed="#L"/>tionem 
+        vel diligere in aliquo propter aliud distinctum ab ipso <g ref="#slash"/>tum 2o quia talis videns 
+          <lb ed="#L"/>deum posset apprehendere deum sub ratione punitoris et afflictoris sui et in 
+          <lb ed="#L"/>hoc habere displicentiam et odium sicut faciunt dampnati</p>
+        
+        <p xml:id="pgb1q26-d1e3336"><g ref="#pilcrow"/>3m corollarium licet deus in 
+          <lb ed="#L"/>casu plus diligat peccantem quam certum amantem tamen non minori sed aequali 
+          <lb ed="#L"/>amore diligit tam amantem quam peccantem prima pars patet quia in casu peccans 
+          <pb ed="#L" n="80v"/><lb ed="#L"/>venialiter est in maiori gratia quam alius carens venialibus</p>
+        
+        <p xml:id="pgb1q26-d1e3347"><g ref="#pilcrow"/>confirmatur quia stat pec<lb ed="#L"/>cantem 
+        esse praedestinatum et existentem sine peccato esse praestitum sed omnem 
+          <lb ed="#L"/>praedestinatum deus plus diligit quam praescitum quia ei proponit vitam dare aeter<lb ed="#L"/>nam</p>
+        
+        <p xml:id="pgb1q26-d1e3358"><g ref="#pilcrow"/>3a conclusio licet pater spiritu sancto sit omnia diligibilia diligens tamen pater non est 
+          <lb ed="#L"/>verbo aeterno seu sapientia genita sapiens prima patet per dicta 2a probatur quia pater est 
+          <lb ed="#L"/>illo sapiens quo intelligit sed pater intelligit se ipso et non filio ergo</p>
+        
+        <p xml:id="pgb1q26-d1e3366"><g ref="pilcrow"/>primum corollarium 
+          <lb ed="#L"/>non sequitur pater est sapiens sapientia ingenita et filius sapientia genita igitur plures 
+          <lb ed="#L"/>sunt sapientiae in divina essentia nec ex hoc sapientia patris est alia a filii vel 
+          <lb ed="#L"/>spiritus sancti sapientia patet quia si consequentia valeret a simili sequeretur quod deus genitus non esset deus 
+          <lb ed="#L"/>ingenitus ergo sunt plures dii quae tamen consequentia nihil valet sicut nec ista deus pater non 
+          <lb ed="#L"/>est deus genitus seu filius ergo sunt plures dii</p>
+        
+        <p xml:id="pgb1q26-d1e3380"><g ref="#pilcrow"/>2m corollarium licet pater sit sapiens 
+          <lb ed="#L"/>sapientia ingenita et filius sapientia genita tamen in divinis est unica sapientia a catholico 
+          <lb ed="#L"/>confitenda</p>
+        
+        <p xml:id="pgb1q26-d1e3388"><g ref="#slash"/>3m corollarium est affirmativa pars quaestionis</p>
+        
+        <p xml:id="pgb1q26-d1e3392"><g ref="#pilcrow"/>contra primam conclusionem sequeretur quod deus 
+          <lb ed="#L"/>non plus diligeret praedestinatum quam praescitum probo nec plus virginem quam <choice><orig>dampnatum</orig><reg>damnatum</reg></choice> 
+          <lb ed="#L"/>quia immensa dilectio non potest esse maior et minor in eodem</p>
+        
+        <p xml:id="pgb1q26-d1e3406"><g ref="#pilcrow"/>2o sequeretur quod creaturae 
+          <lb ed="#L"/>dilectio esset <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> consequens est falsum quia tunc creatura esset <choice><orig>neccessario</orig><reg>necessario</reg></choice> dilecta quod conclusioni 2ae 
+          <lb ed="#L"/>repugnat et patet consequentia prima quia tanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> creatura diligitur quanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> est 
+          <lb ed="#L"/>dilectio creaturae</p>
+        
+        <p xml:id="pgb1q26-d1e3442"><g ref="#pilcrow"/>3o pater et filius non sunt spiritu sancto ergo nec diligunt spiritu sancto 
+          <lb ed="#L"/>antecedens patet sed probatur consequentia <unclear>quoniam</unclear> secundum <ref><name ref="#Augustine">augustinum</name> 7 <title ref="#deTrinitate">de trinitate</title> capitulo 5o</ref> si pater esset sapiens 
+          <lb ed="#L"/>sapientia genita pater esset filius ergo a simili si pater et filius diligunt amore 
+          <lb ed="#L"/>spirato sequitur quod sunt spiritu sancto quia idem est eis esse quod diligere</p>
+        
+        <p xml:id="pgb1q26-d1e3463"><g ref="#pilcrow"/>contra 2am conclusionem 
+          <lb ed="#L"/>et corollaria deus diligit se spiritu amore qui est fruitio et nos amore 
+          <lb ed="#L"/>qui est usus ergo tenet consequentia quia diligere aliquid propter se et aliquid propter aliud non videtur idem 
+          <lb ed="#L"/>diligere vel idem amore sed antecedens patet <ref>prima distinctione huius primi</ref> ubi ostenditur quod deus utitur 
+          <lb ed="#L"/>nobis et fruitur se</p>
+        
+        <p xml:id="pgb1q26-d1e3478"><g ref="#pilcrow"/>2o contra 3m corollarium si sic hoc esset quia peccans venialiter esset 
+          <lb ed="#L"/>in maiori gratia sed hoc non quia impossibile est aliquem esse in gratia et peccare venialiter 
+          <lb ed="#L"/>probo quia termini illorum sunt incompossibiles ergo et illi motus tenet consequentia quia si termini illorum 
+          <lb ed="#L"/>motivum non sint compossibiles nec illi motus et antecedens patet quia motus meritorie 
+          <lb ed="#L"/>operationis est gloria terminus vero peccati venialis est <choice><orig>pena</orig><reg>poena</reg></choice> et miseria saltim sensus 
+          <lb ed="#L"/>sed illa non sunt compossibilia in eodem <choice><orig>ymmo</orig><reg>immo</reg></choice> sequitur quod nullus propter veniale retar<lb ed="#L"/>daretur 
+          a sua beatitudine quod est falsum</p>
+        
+        <p xml:id="pgb1q26-d1e3507"><g ref="#pilcrow"/>contra idem 3o facilius est mereri remissionem 
+          <lb ed="#L"/>peccati venialis quam mereri vitam aeternam ergo merens vitam aeternam meretur 
+          <lb ed="#L"/>remissionem peccati venialis tenet consequentia quia quod potest mereri maius potest minus et per consequens 
+          <lb ed="#L"/>aeque cito meretur remissionem venialis sicut committeret veniale</p>
+        
+        <p xml:id="pgb1q26-d1e3517"><g ref="#pilcrow"/>4o sequeretur quod omnis 
+          <lb ed="#L"/>gratia compateretur secum omne veniale consequens est falsum de caritate christi et beatorum 
+          <lb ed="#L"/>et consequentia patet quia gratiae beatorum et viatorum non differunt specie</p>
+        
+        <p xml:id="pgb1q26-d1e3525"><g ref="#pilcrow"/>5o sequeretur quod gratia in 
+          <lb ed="#L"/>eodem simul augeretur et minueretur consequens est impossibile patet consequentia quia auctoritas meri<lb ed="#L"/>torius 
+        auget eam et veniale minuit</p>
+        
+        <p xml:id="pgb1q26-d1e3534"><g ref="#pilcrow"/>6o veniale peccatum est infinitum 
+          <lb ed="#L"/>malum ergo non stat cum gratia tenet consequentia et antecedens probatur quia coniungens peccatum <!-- bottom margin read veniale; and the "codex 5us" --> 
+          <pb ed="#L" n="81r"/>veniale cum merito vitae aeternae aut facit quod actus est minus meritorius quam 
+          <lb ed="#L"/>alias esset si non coniungeretur aut non si non contra quia sic peccans aliquod cum 
+          <lb ed="#L"/>deo amat non propter deum et per consequens deum minus amat tenet consequentia per <ref><name ref="#Augustine">augustinum</name> 
+          <lb ed="#L"/>10 <title ref="#Confessions">confessionum</title></ref> dicentem <quote ana="#Augustine_Confessions_10_29_40_a">minus te <!-- amat --> qui tecum aliquid amat</quote> etc si sic 
+          <lb ed="#L"/>ergo tollit aliquem gradum gloriae aeternae et per consequens est malum aliquod quantum et 
+          <lb ed="#L"/>bonum quod aufert</p>
+        
+        <p xml:id="pgb1q26-d1e3567"><g ref="#pilcrow"/>contra 3am conclusionem essentia divina nullo modo producitur ergo nec 
+          <lb ed="#L"/>amor et per consequens pater non diligit amore producto tenet consequentia prima quia essentia 
+          <lb ed="#L"/>et dei amor in divinis sunt idem secundum rem et rationem</p>
+        
+        <p xml:id="pgb1q26-d1e3575"><g ref="#pilcrow"/>2o sequitur quod in divinis sunt 
+          <lb ed="#L"/>duae sapientiae et duo amores patet quia personalis et essentialis</p>
+        
+        <p xml:id="pgb1q26-d1e3581"><g ref="#pilcrow"/>3o sequitur contra 2m 
+          <lb ed="#L"/>corollarium in divinis est sapientia genita et ingenita sed nulla vita sapientia est genita 
+          <lb ed="#L"/>et ingentia ergo</p>
+        
+        <p xml:id="pgb1q26-d1e3589"><g ref="#pilcrow"/>Ad primum <name ref="#Ripa">Iohannes de rippa</name> concederet antecedens de dilectione in<lb ed="#L"/>tellectiva 
+          sed quia hoc est prohibitum ideo dico aliter negando consequentiam quia diligere creaturam 
+          <lb ed="#L"/>cognoscat aliquid quod non <unclear>cognoscatur</unclear> in diligere simpliciter ideo non sequitur deus diligit 
+          <lb ed="#L"/>adextra dilectione quae est immensa ergo diligit creaturam immense</p>
+        
+        <p xml:id="pgb1q26-d1e3605"><g ref="#pilcrow"/>Ad secundum 
+          <lb ed="#L"/>conceditur consequens et negatur consequentia 2a et ad probationem dicitur quod tanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> diligitur creatura 
+          <lb ed="#L"/>quanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> dilectio qua diligitur creatura est dilectio creaturae non quanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> 
+          <lb ed="#L"/>est dilectio simpliciter modo spiritus sanctus contingentur est dilectio creaturae sumendo pro dilectione 
+          <lb ed="#L"/>connexa tamen spiritus sanctus est <choice><orig>neccessario</orig><reg>necessario</reg></choice> dilectio licet ergo non possit non esse dilectio 
+          <lb ed="#L"/>potest tamen non esse dilectio creaturae</p>
+        
+        <p xml:id="pgb1q26-d1e3645"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia licet in deo esse 
+          <lb ed="#L"/>et diligere sint idem realiter differunt tamen ratione et habitudine et aliquid ideo conceditur 
+          <lb ed="#L"/>de uno quod non de alius</p>
+        
+        <p xml:id="pgb1q26-d1e3653"><g ref="#pilcrow"/>2o dicitur quod pater et filius non diligunt spiritu sancto tamquam 
+          <lb ed="#L"/>forma quae eis sit ratio et principium diligendi sed diligunt spiritu sancto tamquam 
+          <lb ed="#L"/>producto termino nec ille <unclear>abl?tius</unclear> proprie causaliter tenetur</p>
+        
+        <p xml:id="pgb1q26-d1e3664"><g ref="#pilcrow"/>Ad primum contra 2a conclusionem 
+          <lb ed="#L"/>negatur consequentia sumendo consequens pro amore incomplexo quia eodem amore qui est spiritus santus 
+          <lb ed="#L"/>fruitur se et utitur nobis ad utilitatem nostram non suam ut dicit <name ref="#Lombard">magister</name></p>
+        
+        <p xml:id="pgb1q26-d1e3674"><lb ed="#L"/><g ref="#pilcrow"/>2o posset dici quod si sumitur amor pro actu qo nos diligit ad hoc 
+          <lb ed="#L"/>dicitur quod eodem actu omnia diligit se et nos sed tamen illo actu plus se quam 
+          <lb ed="#L"/>nos diligit quia maius bonum sibi vult quam nobis et plus diligit 
+          <lb ed="#L"/>unam creaturam quam aliam</p>
+        
+        <p xml:id="pgb1q26-d1e3685"><g ref="#pilcrow"/>Ad 2m conceditur consequens et ad probationem conceditur quod termini mo<lb ed="#L"/>tuum 
+          cupiditatis et caritatis sunt compossibiles sumendo pro termino cupiditas ve<lb ed="#L"/>nialis 
+          <choice><orig>penam</orig><reg>poenam</reg></choice> sensus seculsa mortali culpa <g ref="#dot"/> loquendo etiam de potentia dei ab<lb ed="#L"/>soluta 
+          quia de facto in anima christi simul fuerunt <unclear>gloria</unclear> et sensus <choice><orig>pena</orig><reg>poena</reg></choice> <unclear>af<lb ed="#L"/>flictiva</unclear> 
+        ergo illa sibi mutuo non videntur repugnantia <g ref="#slash"/>2o posset dici 
+          <lb ed="#L"/>quod de lege communi illi duo termini sunt incompossibiles scilicet gloria et <choice><orig>pena</orig><reg>poena</reg></choice> sed 
+          <lb ed="#L"/>terminum motus cupiditatis venailis pro peccato veniali ut est <unclear>infintio</unclear> omne 
+          <lb ed="#L"/>sic conceditur quod illud est compossibile cum gratia quae videtur esse terminus actus boni quia 
+          <lb ed="#L"/>per ipsum augetur non tamen est compossibilis cum gloria</p>
+        
+        <p xml:id="pgb1q26-d1e3738"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia 
+          <lb ed="#L"/>licet facilius sit homini datae denarium quam <unclear cert="high">floris</unclear> tamen non quilibet potens 
+          <pb ed="#L" n="81v"/><lb ed="#L"/>florenum potest dare denarium quia aliquis habet florenum qui nullum habet denarium</p>
+        
+        <p xml:id="pgb1q26-d1e3751"><lb ed="#L"/><g ref="#pilcrow"/>2o posset negari antecedens et cum dicitur quod minus bonum etc ergo negatur consequentia quia minus bonum 
+          <lb ed="#L"/>saepe cum maiori difficultate acquiritur quam maius bonum nam non sequitur <name ref="#Sortes">sortes</name> 
+          <lb ed="#L"/>potest generare hominem ergo equum et tamen homo est perfectior omni econverso</p>
+        
+        <p xml:id="pgb1q26-d1e3763"><g ref="#pilcrow"/>Item secundum 
+          <lb ed="#L"/><name ref="#Lombard">magistrum</name> distinctione 14a 4ti in purgatorio remittuntur venialia ubi 
+          <lb ed="#L"/>tamen nullus meretur vitam aeternam licet mereatur aliquis eius accelerationem 
+          <lb ed="#L"/>ex quo videtur quod non est facilius etc</p>
+        
+        <p xml:id="pgb1q26-d1e3775"><g ref="#pilcrow"/>Ad 4m posset negari consequentia maxime 
+          <lb ed="#L"/>in lege ordinata quia in patria gloria quae est gratia consummata quae est cupiditati 
+          <lb ed="#L"/>in permixta conpatitur secum aliquid gradum cupiditatis <g ref="#slash"/>etiam ad probationem posset 
+          <lb ed="#L"/>dici quod gratia beatoris et viatoris essent alterius speciei <g ref="#slash"/>Aliter posset dici 
+          <lb ed="#L"/>quodlibet sit eiusdem speciei tamen propter <choice><orig>alicas</orig><reg>aliquas</reg></choice> circumstantias gratia beatorum non compa<lb ed="#L"/>titur 
+        secum cupiditatem quam gratia beato viatoris secum compatitur <g ref="#slash"/>sed posset 
+          <lb ed="#L"/>instari quia quidquid repugnat uni individuo alicuius speciei repugnat omni in<lb ed="#L"/>dividuo 
+        illius speciei <g ref="#slash"/>etiam dicit sicut vis <g ref="#slash"/>Nota quod <ref><name ref="#HugolinoOfOrvieto">hugolinus</name> distinctione 43 4ti quaestione 
+          <lb ed="#L"/>2a</ref> dicit quod iustitia patriae est alterius speciei habitus a iustitia viae est <unclear cert="high">verum</unclear> 
+          <lb ed="#L"/>medium quo probat quod deus praemiat ultra condignum</p>
+          
+          <p xml:id="pgb1q26-d1e3823"><g ref="#pilcrow"/>Ad 5m dicitur 
+            <lb ed="#L"/>quod gratiam <unclear>minui</unclear> potest intelligi dupliciter uno modo large et interpretive scilicet quia gratia 
+            <lb ed="#L"/>est minor quam esset si non esset veniale peccatum <unclear cert="medium">coniunctum</unclear> et sic potest dici concedendo 
+            <lb ed="#L"/>consequens quia sic intenditur gratia realiter et remittitur illo modo per accidens et in 
+            <lb ed="#L"/>interpretive alio modo dicitur gratiam <unclear>minui</unclear> realiter et proprie et sic negatur consequens et consequentia 
+            <lb ed="#L"/>quia licet gratia propter veniale sit minor quam esset si talis non peccaret 
+            <lb ed="#L"/>venialiter tamen gratia in se non remittitur proprie</p>
+        
+        <p xml:id="pgb1q26-d1e3849"><g ref="#pilcrow"/>Ad 6m negatur antecedens 
+          <lb ed="#L"/>et ad probationem negatur ultima consequentia tum quia non proprie sed solum interpretive tollit 
+          <lb ed="#L"/>illam portionem praemii <g ref="#slash"/>tum 2o quia sic probaretur quod obmissio consilii esset 
+          <lb ed="#L"/>peccatum quia si non obmitteretur consilium daretur praemium aeternum facienti 
+          <lb ed="#L"/>quod non dabitur obmitenti</p>
+        
+        <p xml:id="pgb1q26-d1e3863"><g ref="#pilcrow"/>2o posset dici quod veniale gratiam remittit 
+          <lb ed="#L"/>ad tempus sed cum veniale fuerit remissum <unclear>red?bit</unclear> gradus seu latitudo 
+          <lb ed="#L"/>gratiae quam operans habuisset si non peccasset venialiter et sic non bonum aeternum 
+          <lb ed="#L"/>tollit aeternaliter sed solum temporaliter</p>
+        
+        <p xml:id="pgb1q26-d1e3877"><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur consequentia et ad 
+          <lb ed="#L"/>probationem dicitur quod amor productus differt ab essentia solum secundum rationem quia persona 
+          <lb ed="#L"/>in sua ratione formali in se includit relativam proprietatem quam non includit 
+          <lb ed="#L"/>essentia cum essentia secundum suam essentialem rationem dicatur ad se persona vero seu 
+          <lb ed="#L"/>proprietas relativa dicitur relative</p>
+        
+        <p xml:id="pgb1q26-d1e3889"><g ref="#pilcrow"/>Ad 2m negatur consequentia quia similiter probaretur duos 
+          <lb ed="#L"/>esse duos <g ref="#slash"/>dicitur ergo quod amor personalis non differt ab amore essentiali 
+          <lb ed="#L"/>realiter sed solum secundum rationem <g ref="#slash"/>2o dico quod licet proprietas et non essentia producitur 
+          <lb ed="#L"/>in divinis tamen totus filius est genitus et productus et per consequens personaliter sapientia 
+          <lb ed="#L"/>sumpta potest dici genita et similiter potest de amore dici</p>
+        
+        <p xml:id="pgb1q26-d1e3906"><g ref="#pilcrow"/>Ad 3m negatur 
+          <lb ed="#L"/>minor quia lux veritas sapientia deus et similia nomina quandoque sumuntur 
+          <pb ed="#L" n="82r"/><lb ed="#L"/>essentialiter quandoque personaliter et illa tantum in singulari et non in plurali aliter a simili 
+          <lb ed="#L"/>probaretur pluralitas deorum quia in divinis est deus genitus sed nullus <unclear>vincus</unclear> est genitus 
+          <lb ed="#L"/>et ingenitus ergo etc patet quod ratio non valet</p>
+        
+        <p xml:id="pgb1q26-d1e3923"><g ref="#pilcrow"/>Ad primum in oppositum negatur consequentia nec sequitur 
+          <lb ed="#L"/>infinito amore <unclear><choice><orig>in complexo</orig><reg>incomplexo</reg></choice></unclear> diligitur ergo infinite diligitur</p>
+        
+        <p xml:id="pgb1q26-d1e3936"><g ref="#pilcrow"/>Ad 2m negatur consequentia et ad 
+          <lb ed="#L"/>probationem negatur antecedens sed oportet quod illa dilectio sit indissolubiliter dilectio illius creaturae quae di<lb ed="#L"/>ligitur 
+        quod non est verum quia licet spiritus sanctus sit patris et filii indissolubilis amor sic 
+          <lb ed="#L"/>quod non potest non esse amor utriusque tamen spiritus sanctus potest non esse amor creaturae</p>
+        
+        <p xml:id="pgb1q26-d1e3946"><lb ed="#L"/><g ref="#pilcrow"/>Ad 3m negatur consequentia quia sapere significat motum animae ad res diligere vero significat 
+          <lb ed="#L"/>motum rei ad animam vide <ref><name ref="#ThomasStrasbourg">thomam de argentina</name> distinctione 32a</ref></p>
+        
+        <p xml:id="pgb1q26-d1e3958"><g ref="#pilcrow"/>hic oritur 
+          <lb ed="#L"/>quaestio <g ref="#slash"/>prima conclusio distinctionis 32 quod pater et filius diligunt se spiritu sancto et 
+          <lb ed="#L"/>conservant unitatem sua essentia et suo dono quod est spiritus sanctus</p>
+        
+        <p xml:id="pgb1q26-d1e3968"><g ref="#pilcrow"/>2a conclusio quod filius 
+          <lb ed="#L"/>dicitur <corr><del rend="strikethrough">donum</del></corr> sapientia patris quia est sapientia de patre qui est sapientia tamen pater non 
+          <lb ed="#L"/>est sapiens sapientia quam ipse genuit quia cum ibi sit idem esse et sapere sequitur quod 
+          <lb ed="#L"/>pater esset a filio non filius a patre quod est falsum <g ref="#slash"/>licet <ref><name ref="#Augustine">augustinus</name> <title>83 questiones</title> quaestione 23</ref> dicens 
+          <lb ed="#L"/>quod <quote>pater est sapiens sapientia genita <!-- question 23 seems correcte though probably not a direct quote --></quote> ipse postea illud correxit et retractavit 
+          <lb ed="#L"/>libro <title>retractationum</title></p>
+        
+        <p xml:id="pgb1q26-d1e4003"><g ref="#pilcrow"/>3a conclusio quod sicut pater est deus ingenitus et filius deus genitus 
+          <lb ed="#L"/>et deus genitus non est deus ingenitus non ideo tamen aliud est deus <unclear>g[?]</unclear> pater alius deus 
+          <lb ed="#L"/>filius sed uterque unus solus deus ita sapientia genita non est sapientia ingenita 
+          <lb ed="#L"/>sed alia est sapientia genita alia sapientia ingenita non alia sapientia sed una 
+          <lb ed="#L"/>eademque sapientia</p>
+        
+        <p xml:id="pgb1q26-d1e4018"><g ref="#pilcrow"/>4a conclusio quod filius est sapiens se ipso vel per se ipsum id est sui 
+          <lb ed="#L"/>natura vel essentia non tamen sapiens est a se ipso vel de se ipso sed a patre</p>
+        
+        <p xml:id="pgb1q26-d1e4024"><g ref="#pilcrow"/>5a conclusio 
+          <lb ed="#L"/>quod secundum aliquos sicut filius per se agit sed non a se ita filius debet dici sapiens 
+          <lb ed="#L"/>per se sed non a se et similiter debet dici deus per se sed non a se vel de se</p>
+        
+        <p xml:id="pgb1q26-d1e4032"><g ref="#pilcrow"/>6a conclusio 
+          <lb ed="#L"/>quod tantum est una sapientia patris sed non uno modo dicitur nam sapientia patris dicitur illa 
+          <lb ed="#L"/>quam genuit et sapientia patris dicitur illa qua sapiens est una tamen est sapientia patris 
+          <lb ed="#L"/>quia eadem persona patris quae intelligitur cum dicitur sapientia ingenita et persona filii quae 
+          <lb ed="#L"/>significatur cum dicitur sapientia genita est una eademque sapientia et essentia quae communis est tribus 
+          <lb ed="#L"/>personis</p>
+        
+        <p xml:id="pgb1q26-d1e4047"><g ref="#pilcrow"/>alia conclusio quod sicut in trinitate dilectio est quae est pater et filius et spiritus sanctus quae est essentia 
+          <lb ed="#L"/>divinitatis et tamen spiritus sanctus dilectio est quae non est pater vel filius nec ideo duae dilectiones 
+          <lb ed="#L"/>sed tantum dilectio una est in trinitate quia dilectio quae proprie spiritus sanctus est <sic>est</sic> dilectio quae 
+          <lb ed="#L"/>trinitas est tamen ipse spiritus sanctus trinitas non est ita dicendum est de sapientia</p>
+        
+        <p xml:id="pgb1q26-d1e4060"><g ref="#pilcrow"/>8a conclusio 
+          <lb ed="#L"/>quod pater non dicitur diligere filium nec filius patrem tantum ea dilectione quae ab utroque 
+          <lb ed="#L"/>procedit quae non est aliquis eorum sed tantum spiritus sanctus tamquam ea dilectione pater sit vel 
+          <lb ed="#L"/>filius sed sic ea pater diligit filium et econverso ut etiam pater per ea quae ipse est 
+          <lb ed="#L"/>dilectione diligat sic et filius <g ref="#slash"/>Ita quod licet pater diligat filium spiritu sancto 
+          <lb ed="#L"/>et econverso tamen potest diligit filium dilectione essentiali quae ipse ipse et etiam filius patrem</p> 
+          
+        <p xml:id="pgb1q26-d1e4077"><lb ed="#L"/>post supradicta <g ref="#slash"/>prima conclusio quod proprietates personarum distinguunt et determinant 
+          <lb ed="#L"/>personas et sunt in ipsis personis et in divina essentia suntque ipse divinae personae et sunt divina 
+          <pb ed="#L" n="82v"/><lb ed="#L"/>essentia et ratio est quia omne illud quod habet deus est illud excepto eo quod relative dicitur 
+          <lb ed="#L"/>nam pater habet filium non tamen est filius</p>
+        
+        <p xml:id="pgb1q26-d1e4090"><g ref="#pilcrow"/>2a conclusio quod proprietates aliter sunt in divinis personis 
+          <lb ed="#L"/>et aliter in divina essentia nam in divina essentia sic sunt quod eam non determinant nec 
+          <lb ed="#L"/>distinguunt in personis vero sic sunt quod eas determinant et distinguunt et ideo essentia nec 
+          <lb ed="#L"/>generat nec generatur pater autem generat et filius generaliter</p>
+        
+        <p xml:id="pgb1q26-d1e4100"><g ref="#pilcrow"/>3a conclusio quod proprietate generationis 
+          <lb ed="#L"/>pater est et deus nec divina essentia et tamen ipsa proprietas est deus et divina essentia</p>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
