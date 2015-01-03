@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 25</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.12-dev-master">
+          <title>Librum I, Quaestio 25</title>
+          <date when="2014-12-27">December 27, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-12-25">December 25, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q25">
+        <head>Quaestio 25</head>
+        <p xml:id="pgb1q25-d1e3115"><lb ed="#L"/><hi rend="dropCapThreeLines">S</hi>unt enim quaedam postquam <name ref="#Lombard">magister</name> tractavit de 
+          <lb ed="#L"/>notionibus aeternis personis intrinsecis <g ref="#slash"/>nunc incipit tractare de relationibus 
+          <lb ed="#L"/>temporalibus et extrinsecis <g ref="#slash"/>Et dividitur in duas quia primo tractat de 
+          <lb ed="#L"/>hiis quae de quibusdam personis dicuntur extrinsece ex tempore <g ref="#slash"/>2o de hiis quae personis 
+          <lb ed="#L"/>conveniunt communiter appropriate 2a incipit in principi 31 distinctionis ibi praeterea consi<lb ed="#L"/>derare 
+          oportet</p>
+        
+        <p xml:id="pgb1q25-d1e3141"><g ref="#pilcrow"/>prima dividitur in tres quia primo ponit de relationibus temporalibus veritatem 
+          <lb ed="#L"/>2o qualiter possunt deo communire ostendit possibilitatem et 3o ex hiis solvit quamda dif<lb ed="#L"/>ficultatem 
+        2a ibi quomodo ergo obtinebimus 3a ibi hic potest solvi conclusio</p>
+        
+        <p xml:id="pgb1q25-d1e3149"><g ref="#pilcrow"/>2a pars 
+          <pb ed="#L" n="77r"/><lb ed="#L"/>principalis quae est distinctio 31 dividitur in tres quia primo ponit de aequalitate 
+          <lb ed="#L"/>divina cum <unclear>responsionibus</unclear> <unclear>quaestionibus</unclear> 2o ostendit <sic>similitudinarias</sic> quaestionibus fieri posse de 
+          <lb ed="#L"/>similitudine et aequales posse dari solutiones 3o exsequitur de hiis secundum 
+          <lb ed="#L"/>duorum sanctorum opiniones et traditiones 2a ibi hoc idem dicimus 3a ibi 
+          <lb ed="#L"/>non est <choice><orig>praetermitendum</orig><reg>praetermittendum</reg></choice> etc circa hac duas distinctiones quaeritur</p>
+        
+        <p xml:id="pgb1q25-d1e3180"><hi rend="dropCapThreeLines">U</hi>trum summum <choice><orig>indeppendens</orig><reg>independens</reg></choice> referatur ad <unclear>contingens</unclear> <g ref="#slash"/>utrum trinum 
+          <lb ed="#L"/>simplex invariabile referatur ad contingens seu producibile <g ref="#slash"/>utrum per pro<lb ed="#L"/>ducta 
+        possit formaliter inferre deum ad creata vere realiter referri 
+          <lb ed="#L"/>quod non deus non <choice><orig>deppendet</orig><reg>dependet</reg></choice> ab <choice><orig>alico</orig><reg>aliquo</reg></choice> contingenti producibile vel producto temporaliter 
+          <lb ed="#L"/>igitur ad nullum talem refertur realiter antecedens est notum et patet consequentia quia quod ad aliud 
+          <lb ed="#L"/>refertur ab illo <choice><orig>deppendet</orig><reg>dependet</reg></choice></p>
+        
+        <p xml:id="pgb1q25-d1e3228"><g ref="#pilcrow"/>2o si sic aut hoc esset relatione distincta a se <corr><add place="aboveLine">et</add></corr> a qualibet 
+          <lb ed="#L"/>re absoluta aut referretur se ipso <g ref="#slash"/>primo non quia cum relatio referatur ad deum sequitur 
+          <lb ed="#L"/>quod relationis est relatio et sic esset processus in infinitum in relationibus quod est falsum Item sequitur quod 
+          <lb ed="#L"/>illud quo mediante deus referretur ad producibile esset in deo consequens est falsum quia nullius 
+          <lb ed="#L"/>accidentis deus est subiectum et patet consequentia quia non ens non potest esse subiectum accidentis <g ref="#slash"/> 
+          <lb ed="#L"/>nec 2m quia eadem ratione quaelibet res creata referretur ad aliam se ipsa quod est falsum 
+          <lb ed="#L"/>quia quodlibet relatum est res distincta a re absoluta</p>
+        
+        <p xml:id="pgb1q25-d1e3253"><g ref="#pilcrow"/>3o vel deus ad ea referretur 
+          <lb ed="#L"/>relatione temporali vel aeterna non primum quia tunc deus mutaretur paret <ref><name ref="#Averroes">commentatorem</name> 5o <title ref="#PhysicsCommentary">physicorum</title> 
+          <lb ed="#L"/>commento 10</ref> ubi vult quod quando aliquid fit de novo relatum per mutationem alterius 
+          <lb ed="#L"/>utrumque transmutatur per accidens seu transmutatione <unclear>relati?va</unclear> nec potest dici 2m quia 
+          <lb ed="#L"/>quia nulla creatura fuit aeternaliter sed realis realtio non potest esse inter duo extrema 
+          <lb ed="#L"/>nisi sint realia positiva ergo</p>
+        
+        <p xml:id="pgb1q25-d1e3279"><g ref="#pilcrow"/>In oppositum arguitur deus ab aeterno scivit se pro<lb ed="#L"/>ducturum 
+        creaturam ergo <unclear>conclusio <!-- quaestio --></unclear> vera tenet consequentia quia sciens et scibilie et seu scitum ad 
+          <lb ed="#L"/>invicem referuntur et antecedens non est dubium quia deus nihil incepit scire ex 
+          <lb ed="#L"/>tempore</p>
+        
+        <p xml:id="pgb1q25-d1e3293"><g ref="#pilcrow"/>prima conclusio licet deus referatur ad creata ex tempore seu temporaliter <g ref="#slash"/>prima pars paret 
+          <lb ed="#L"/>quia deus ex tempore est creator et dominus creaturae realiter ergo antecedens patet per <ref><name ref="#Lombard">magistrum</name> 
+          <lb ed="#L"/>distinctio 30</ref> et patet consequentia quia dominus refertur ad servum nec prius dominus et dominus quam sit 
+          <lb ed="#L"/>eius servus <g ref="#slash"/>2a pars probatur quia deus fuit aeternaliter praescius et productivus producibilium 
+          <lb ed="#L"/>ergo aeternaliter referebatur ad ens creabile et scibile consequentia patet cum creativum 
+          <lb ed="#L"/>et creabile sciens et scibile sint <unclear>cor?va<!-- correlativa? --></unclear> <g ref="#slash"/>sed quod sit relatio realis et non rationis 
+          <lb ed="#L"/>tantum quia circumscripta omni operatione intellectus cuiuscumque creati stat deum esse creantem 
+          <lb ed="#L"/>et dominum creaturae et ipsum referri ad quodlibet producibile</p>
+        
+        <p xml:id="pgb1q25-d1e3327"><g ref="#pilcrow"/>primum corollarium sicut non re<lb ed="#L"/>pugnat 
+        ens reale referri ad aliquid quod caret actuali esse sic non repugnat 
+          <lb ed="#L"/>non ens posse <choice><orig>refferri</orig><reg>referri</reg></choice> ad summe <choice><orig>neccesse</orig><reg>necesse</reg></choice> <g ref="#slash"/>prima patet quia memoria est absentium et 
+          <lb ed="#L"/>praeteritorum ergo ens refertur ad non ens consequentia tenet quia memoria dicitur memoria ut patet 
+          <lb ed="#L"/>per <ref><name ref="#Augustine">augustinum</name> 10 <title ref="#deTrinitate">de trinitate</title> capitulo 10</ref> antecedens est <ref><name ref="#Aristotle">philosophi</name> in <title>de memoria et reminiscentia</title></ref> <g ref="#slash"/>confirmatur 
+          <lb ed="#L"/>haec pars quia <choice><orig>ymago</orig><reg>imago</reg></choice> rosae existens in pariete vel in potentia memorativa aeque est <choice><orig>ymago</orig><reg>imago</reg></choice> 
+          <lb ed="#L"/>rosae dum rosa non est sicut quando est ergo ens refertur ad non ens patet consequentia quia 
+          <pb ed="#L" n="77v"/><lb ed="#L"/><choice><orig>ymago</orig><reg>imago</reg></choice> inquantum <choice><orig>ymago</orig><reg>imago</reg></choice> est quid relatum <g ref="#slash"/>2a pars probatur quia ens refertur ad non ens 
+          <lb ed="#L"/>igitur tenet consequentia quia <unclear>relativa</unclear> dicuntur <unclear>convertentiam</unclear> et antecedens patet ex conclusione et ex probatione primae 
+          partis eius</p>
+        
+        <p xml:id="pgb1q25-d1e3413"><g ref="#pilcrow"/>2m corollarium licet sit <corr><add>im</add>possibile</corr> creata entia existentia non habere <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> 
+          <lb ed="#L"/>tamen non quodlibet terminans <choice><orig>deppendentiam</orig><reg>dependentiam</reg></choice> alicuius rei est ens reale per existentiam prima 
+          <lb ed="#L"/>patet quia implicat aliquod creatum esse et ipsum non <choice><orig>deppendere</orig><reg>dependere</reg></choice> a deo quia sequitur ipsum 
+          <lb ed="#L"/>esse et non esse <g ref="#slash"/>2a pars probatur sumendo <mentioned><choice><orig>deppendentiam</orig><reg>dependentiam</reg></choice></mentioned> pro <unclear>quacumque</unclear> habitudine unius rei 
+          <lb ed="#L"/>ad aliam quia non ens terminat entis <choice><orig>deppendentiam</orig><reg>dependentiam</reg></choice> relativam ut patet per dicta</p>
+        
+        <p xml:id="pgb1q25-d1e3469"><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium licet pater ut pater et dominus et dominus non possit referri nisi ad aliquam 
+          <lb ed="#L"/>essentiam prout dicunt <unclear>relationem</unclear> actualem et non habitualem <g ref="#slash"/>tamen aliqua sunt <sic>relatia</sic> quibus 
+          <lb ed="#L"/>repugnat referri ad ens reale seu ad aliquam existentem substantiam <g ref="#dot"/> prima pars est 
+          <lb ed="#L"/>determinatio <name ref="#Augustine">augustini</name> 7o <title ref="#deTrinitate">de trinitate</title> primo quia nihil est pater nisi habeat filium nec dominus 
+          <lb ed="#L"/>nisi habeat servum <g ref="#slash"/>2a pars patet quia factivum seu productivum non refertur proprie 
+          <lb ed="#L"/>ad aliquod existens ens reale sed ad illud quod non est et potest esse vel quod est producibile 
+          <lb ed="#L"/><g ref="#slash"/>nota hic tenet <name ref="#Rimini">gregorius</name> quod divina res est absoluta <unclear>relatia</unclear> aliquo modo</p>
+        
+        <p xml:id="pgb1q25-d1e3513"><g ref="#pilcrow"/>2a conclusio licet quaelibet 
+          <lb ed="#L"/>relatio reperibilis inter entia creata sit ab omni re absoluta aliqualiter realiter distincta 
+          <lb ed="#L"/>nulla tamen talis relatio absque re absoluta potest esse distincte intellecta <g ref="#slash"/>prima pars probatur 
+          <lb ed="#L"/>quia relatio realis et res absoluta seu <unclear>realtivi</unclear> et absolutum ut sic reponuntur 
+          <lb ed="#L"/>in diversis praedicamentis realiter cum differant non solum numero et specie sed etiam genere ergo 
+          <lb ed="#L"/>antecedens probatur quoa relatio est praedicamentum distinctum ab alio a se 2a pars probatur quia si relatio patris 
+          <lb ed="#L"/>ad filium posset concipi sine quacumque re absoluta distincte sequitur quod aliquis posset 
+          <lb ed="#L"/>distincte se scire aliquid esse patrem et nescire ipsum habere filum Item posset 
+          <lb ed="#L"/>scire <name ref="#Sortes">sortem</name> esse similem et <choice><orig>ygnorare</orig><reg>ignorare</reg></choice> an alicui sit similis <choice><orig>ymmo</orig><reg>immo</reg></choice> nesciret 
+          <lb ed="#L"/><name ref="#Sortes">sortem</name> cum <name ref="#Sortes">sortes</name> sit res absoluta sed ista non sunt concedenda igitur</p>
+        
+        <p xml:id="pgb1q25-d1e3562"><g ref="#pilcrow"/>primum 
+          <lb ed="#L"/>corollarium quod quilibet creatorum realis respectus est ab utroque termino realiter distinctus patet quia fun<lb ed="#L"/>damentum 
+        seu terminus relationis est res absoluta ut sic</p>
+        
+        <p xml:id="pgb1q25-d1e3570"><g ref="#pilcrow"/>2m corollarium non quaelibet 
+          <lb ed="#L"/>res ad aliam relata a sua relatione est res realiter distincta patet quia tunc sequeretur 
+          <lb ed="#L"/>quod in relationibus relationum esset procedere in infinitum ut superius sint argutum consequentia 
+          <lb ed="#L"/>patet quia omnis relatio habet habitudinem aliquam ad aliud et tunc quaeritur vel talis relatio re<lb ed="#L"/>fertur 
+          se ipsa vel alia si primum habetur intentum si 2m quaeretur de illo per quid 
+          <lb ed="#L"/>referretur sicut prius et sequitur consequens illatum quod erit processus sine fine</p>
+        
+        <p xml:id="pgb1q25-d1e3584"><g ref="#pilcrow"/>3m corollarium 
+          <lb ed="#L"/>eadem relatione reali quis potest ad plura referri quia aliter sequeretur quod essent tot pater<lb ed="#L"/>nitates 
+          in patre uno quot ipse haberet filios consequens est falsum et consequentia patet</p>
+        
+        <p xml:id="pgb1q25-d1e3592"><g ref="#pilcrow"/>3a conclusio quod 
+          <lb ed="#L"/>relatio entis increati ad ens creatum non est prior relatione entis creati ad ens increatum 
+          <lb ed="#L"/>probatur quia <unclear>aeque</unclear> primo creatura refertur ad deum et deus ad creaturam probatio quia ab aeterno 
+          <lb ed="#L"/>creatura producibilis <unclear>referebatur</unclear> ad deum ut patet per primam conclusionem</p>
+        
+        <p xml:id="pgb1q25-d1e3609"><g ref="#pilcrow"/>primum corollarium non quodlibet 
+          <lb ed="#L"/>ad aliud relatum est ad illud finaliter ordinatum patet quia deus realiter refertur 
+          <lb ed="#L"/>ad creaturam et tamen deus finaliter non ordinatur ad ipsam sed potius <unclear>econverso <!-- compare to "aeque" in previous paragraph --></unclear> crea<lb ed="#L"/>tura 
+          ad ipsum</p>
+        
+        <p xml:id="pgb1q25-d1e3623"><g ref="#pilcrow"/>2m corollarium stat aliquid nova relatione ad aliud referri 
+          <lb ed="#L"/>et nihil novi relato conferri seu ipsum relatum in nullo mutari <g ref="#slash"/>patet 
+          <pb ed="#L" n="78r"/><lb ed="#L"/>quia creator ex tempore refertur ad creaturam existentem sed creator non est alicuius 
+          <lb ed="#L"/>novitatis vel accidentis susceptibilis intrinsece ergo</p>
+        
+        <p xml:id="pgb1q25-d1e3636"><g ref="#pilcrow"/>3m corollarium non stat 
+          <lb ed="#L"/>quamlibet relationem accidens esse et ipsam cuilibet relativorum formaliter inesse patet quia 
+          <lb ed="#L"/>si quaelibet relatio esset accidens inhaerens formaliter cuilibet relativorum sequitur quod in deo 
+          <lb ed="#L"/>esset accidens quod est falsum et consequentia patet cum realiter referatur ad creata ut patet per 
+          <lb ed="#L"/>dicta</p>
+        
+        <p xml:id="pgb1q25-d1e3648"><g ref="#pilcrow"/>Ex dictis patet quod licet illud quo deus se habet ad creata relative non <choice><orig>dep<lb ed="#L"/>pendeat</orig><reg>dep<lb ed="#L"/>endeat</reg></choice> 
+        ex solo opere intellectus <corr><del>s</del></corr> effective tamen illud non est ponendum esse in deo 
+          <lb ed="#L"/>subiective vel inhaesive prima pars patet quia nullo creato intellectu existente <unclear>ad hoc <!-- adhuc --></unclear> 
+          <lb ed="#L"/>deus se haberet ad lignum <unclear>relativ[?]e</unclear> 2a pars patet quia quidquid est in deo est deus <g ref="#slash"/>ex 
+          <lb ed="#L"/>omnibus sequitur pars affirmativa conclusionis</p>
+        
+        <p xml:id="pgb1q25-d1e3682"><g ref="#pilcrow"/>contra primam conclusionem deus est extra ordinem creaturae nec 
+          <lb ed="#L"/>ordinatur ad ipsam ergo nec ad eam refertur realiter patet consequentia quoniam qui realiter 
+          <lb ed="#L"/>adinvicem referuntur illa videntur esse eiusdem ordinis</p>
+        
+        <p xml:id="pgb1q25-d1e3690"><g ref="#pilcrow"/>2o sequeretur quod deus non esset 
+          <lb ed="#L"/>summe simplex probo quia si realiter refertur sequitur quod in ipso sit aliqua realitas 
+          <lb ed="#L"/>quae <choice><orig>neccessario</orig><reg>necessario</reg></choice> coexigat ad suum esse alterum terminum</p>
+        
+        <p xml:id="pgb1q25-d1e3705"><g ref="#pilcrow"/>3o contra hoc est <name ref="#Lombard">magister</name> in hac 
+          <lb ed="#L"/>distinctione dicens <quote ana="#pl-b1d30c1-a">appellatio qua creatura dicitur ad creatorem relativa est et relationem notat quae est 
+          <lb ed="#L"/>in creatura appellatio vero illa qua creator relative dicitur ad creaturam relative 
+          <lb ed="#L"/>relativa quidem est sed non notat relationem quae sit in creatore</quote><!-- Lib I, d. 30 --></p>
+        
+        <p xml:id="pgb1q25-d1e3721"><g ref="#pilcrow"/>4o contra primum corollarium omne 
+          <lb ed="#L"/>quod refertur <corr><add place="aboveLine">est</add><!-- possible deletion as well --></corr> nullum non ens est igitur maior patet quia relativa haec ipsa quot sunt 
+          <lb ed="#L"/>ut patet in praedicamentis sed quod non est non est hac ipsum quo est nec sui nec alterius</p>
+        
+        <p xml:id="pgb1q25-d1e3734"><g ref="#pilcrow"/>5o 
+          <lb ed="#L"/>omne quod est aliud est aliquid et ens sed omnis terminus relationis realis est aliud a relativo ergo 
+          <lb ed="#L"/>quodlibet tale est ens minor patet quia <unclear>relativi <!-- ?? --></unclear> est id quod alterius est</p>
+        
+        <p xml:id="pgb1q25-d1e3746"><g ref="#pilcrow"/>6o contra 2m corollarium 
+          <lb ed="#L"/>sequeretur quod a non ente <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> aliquod ens probo quia quaelibet relatio <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> quaedam 
+          <lb ed="#L"/>in aliud</p>
+        
+        <p xml:id="pgb1q25-d1e3766"><g ref="#pilcrow"/>contra 2am conclusionem si relatio in creatura esset res distincta ab <unclear>asso?ta</unclear> sequitur quod deus 
+          <lb ed="#L"/>posset facere creaturam esse sine <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> consequens est falsum probo <unclear>consequentem</unclear> 
+          <lb ed="#L"/>quia deus potest absolvere subiectum a quocumque accidente realiter distincto ab ipso cum ponit <g ref="#slash"/> 
+          <lb ed="#L"/>accidens separare a subiecto a quo distinguitur realiter</p>
+        
+        <p xml:id="pgb1q25-d1e3791"><g ref="#pilcrow"/>2o quaeritur a quo talis <choice><orig>dep<lb ed="#L"/>pendentia</orig><reg>dep<lb ed="#L"/>endentia</reg></choice> 
+          causatur effectiva aut a fundamento vel non si sic cum deus pos<lb ed="#L"/>sit 
+          suspendere omnem actionem creaturae sequitur quod fundamentum esse poterit 
+          <lb ed="#L"/>sine tali <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> quod repugnat dictis <g ref="#slash"/>si non a creatura causatur 
+          <lb ed="#L"/>sed a deo sequitur idem consequens quia deus causando effectum priorem non <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> pro<lb ed="#L"/>ducere 
+          posteriorem ab illo priori realiter distinctum</p>
+        
+        <p xml:id="pgb1q25-d1e3829"><g ref="#pilcrow"/>3o eadem productione producitur creatura 
+          <lb ed="#L"/>et eius <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> ergo tenet consequentia quia eadem productio non potest terminari ad diversas 
+          <lb ed="#L"/>res realiter distinctas antecedens probatur quia si producuntur diversis productionibus sequitur quod prima 
+          <lb ed="#L"/>posset esse sine 2a et sic creatura esset sine <choice><orig>deppendentia</orig><reg>dependentia</reg></choice></p>
+        
+        <p xml:id="pgb1q25-d1e3850"><g ref="#pilcrow"/>4o creatura <choice><orig>deppen<lb ed="#L"/>det</orig><reg>depen<lb ed="#L"/>det</reg></choice> 
+          a deo circumscripto omni eo quod non est ipsa ergo <g ref="#dot"/> tenet consequentia antecedens probatur quia posita una 
+          <lb ed="#L"/>sola creatura et circumscripto omni eo quod non est ipsa <unclear>adhuc</unclear> talis est effectus dei 
+          <lb ed="#L"/>2o probatur antecedens quia si creatura <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> per aliud a se sequitur quod non <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> 
+          <lb ed="#L"/>simpliciter sed tantum secundum quid patet consequentia quia quod per aliud <choice><orig>deppendet</orig><reg>dependet</reg></choice> solum <choice><orig>deppendet</orig><reg>dependet</reg></choice> 
+          <lb ed="#L"/>secundum quid</p>
+        
+        <p xml:id="pgb1q25-d1e3902"><g ref="#pilcrow"/>3o idem antecedens probatur quis si lapis <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> <g ref="#slash"/> a se distincta <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> 
+          <pb ed="#L" n="78v"/><lb ed="#L"/>sequeretur quod <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> lapidis quae se ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> magis <choice><orig>deppen<lb ed="#L"/>deret</orig><reg>depen<lb ed="#L"/>deret</reg></choice> 
+          a deo quam lapis consequens est falsum quia utrumque <choice><orig>deppendet</orig><reg>dependet</reg></choice> causaliter consequentia probatur 
+          <lb ed="#L"/>quia quod <choice><orig>deppendet</orig><reg>dependet</reg></choice> se ipso <choice><orig>deppendet</orig><reg>dependet</reg></choice> primo et principaliter quod <unclear>autem</unclear> <choice><orig>deppendet</orig><reg>dependet</reg></choice> alio 
+          <lb ed="#L"/>non <choice><orig>deppendet</orig><reg>dependet</reg></choice> primo sed ex consequenti</p>
+        
+        <p xml:id="pgb1q25-d1e3984"><g ref="#pilcrow"/>5o contra 2am partem eiusdem conclusionis effectus potest 
+          <lb ed="#L"/>intelligi sine causa ergo relatio sine quacumque re absoluta tenet consequentia quia non plus <choice><orig>deppendent</orig><reg>dependent</reg></choice> 
+          <lb ed="#L"/>intellectio unius rei disparatae ab alia distincta quam intellectio effectus ab intel<lb ed="#L"/>lectione 
+          causae suae antecedens patet quia aliquis potest scire aliquem esse patrem et nescire 
+          <lb ed="#L"/>an filium habeat et econverso aliquis potest scire <name ref="#Sortes">sortem</name> esse filium et ignorare an habet 
+          <lb ed="#L"/>patrem</p>
+        
+        <p xml:id="pgb1q25-d1e4008"><g ref="#pilcrow"/>contra 3am conclusionem sunt tres rationes factae in oppositum <g ref="#slash"/>aliter tamen contra eam arguitur 
+          <lb ed="#L"/>sicut se habet fundamentum <corr><add place="marginLeft">ad fundamentum</add></corr> sic relatio ad relationem sed deus prior est creatura ergo relatio dei 
+          <lb ed="#L"/>ad creaturam est prior relatione creaturae ad deum <g ref="#slash"/>Item relatio dei ad creatruam est 
+          <lb ed="#L"/>rationis tantum ergo posterior relatione creaturae ad deum patet consequentia quia omnis relatio realis praecedit 
+          <lb ed="#L"/>relationem rationis</p>
+        
+        <p xml:id="pgb1q25-d1e4029"><g ref="#pilcrow"/>Ad primum negatur consequentia quia similiter probaretur quod creatura non referretur 
+          <lb ed="#L"/>ad ipsum deum cum non sit eiusdem ordinis cum deo</p>
+        
+        <p xml:id="pgb1q25-d1e4036"><g ref="#pilcrow"/>Ad 2m negatur consequentia 
+          <lb ed="#L"/>et similiter eius probatio <g ref="#slash"/>2o dico quod non quaelibet relatio exigit ad suum esse quod eius terminus 
+          <lb ed="#L"/>sit in rerum natura existens</p>
+        
+        <p xml:id="pgb1q25-d1e4046"><g ref="#pilcrow"/>Ad verba <name ref="#Lombard">magistri</name> dicitur quod intendit quod cum 
+          <lb ed="#L"/>deus refertur ad creaturam de novo nullam novitas vel mutatio est 
+          <lb ed="#L"/>in eo sed solum in creatura propter quam mutationem et ad deum ipsa et ad ipsam 
+          <lb ed="#L"/>deus noviter refertur</p>
+        
+        <p xml:id="pgb1q25-d1e4059"><g ref="#pilcrow"/>Ad 4m negatur maior et ad probationem dicitur quod isti termini aliquid 
+          <lb ed="#L"/>aliud sumuntur quandoque pro hiis quae non sunt entitates reales nec existunt 
+          <lb ed="#L"/>et sic conceditur quod relativa dicuntur esse aliorum generaliter et communissime sumendo istum 
+          <lb ed="#L"/>terminum aliorum prout dicitur tam de existentibus quam non existentibus <g ref="#slash"/>patet per <unclear cert="high">id<!-- idem? --></unclear> ad 5m <g ref="#slash"/></p>
+        
+        <p xml:id="pgb1q25-d1e4077"><lb ed="#L"/><g ref="#pilcrow"/>Ad 6m negatur consequentia et ad probationem dicitur quod non quaelibet relatio proprie est <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> 
+          <lb ed="#L"/>quia tunc pater <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> a filio et filius a patre <choice><orig>ymmo</orig><reg>immo</reg></choice> quaelibet persona <choice><orig>dep<lb ed="#L"/>penderet</orig><reg>dep<lb ed="#L"/>enderet</reg></choice> 
+          ab alia cum quaelibet referatur ad aliam quod non est dicendum Item dominus non 
+          <lb ed="#L"/><choice><orig>deppendet</orig><reg>dependet</reg></choice> a servo nec causa a creato licet nullus possit esse dominus nisi servus sit 
+          <lb ed="#L"/>nec causa nisi causatum sit</p>
+        
+        <p xml:id="pgb1q25-d1e4122"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur consequentia quia relatio non est nisi 
+          <lb ed="#L"/>habitudo fundamenti ad terminum <g ref="#slash"/>ad probationem dicitur quod licet deus posset separare accidens 
+          <lb ed="#L"/><unclear>relativum</unclear> a suo subiecto non tamen sequitur quod possit facere creaturam <choice><orig>indeppendentem</orig><reg>independentem</reg></choice> 
+          <lb ed="#L"/>quia implicat</p>
+        
+        <p xml:id="pgb1q25-d1e4143"><g ref="#pilcrow"/>Ad 2m dicitur quod talis <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> per accidens a deo pro<lb ed="#L"/>ducitur 
+        quia ad productionem <choice><orig>neccessario</orig><reg>necessario</reg></choice> ponitur talis <unclear>respectus</unclear> <choice><orig>deppendentiae</orig><reg>dependentiae</reg></choice> et ad probationem 
+          <lb ed="#L"/>quia tunc deus <choice><orig>neccessitaretur</orig><reg>necessitaretur</reg></choice> etc dicitur quod deus non simpliciter <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> aliquid producere 
+          <lb ed="#L"/>adextra sed secundum quid et ex suppositione alterius rei productae et illa vocatur <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> 
+          <lb ed="#L"/>conditionata vel ex supposito</p>
+        
+        <p xml:id="pgb1q25-d1e4196"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia licet eadem actione produ<lb ed="#L"/>cantur 
+        tamen creatura producitur per se sed <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> per accidens</p>
+        
+        <p xml:id="pgb1q25-d1e4208"><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>4m dicitur quod aliquid deppendere ab alio potest esse dupliciter scilicet formaliter vel fundamentaliter</p>
+        
+        <p xml:id="pgb1q25-d1e4214"><lb ed="#L"/><g ref="#pilcrow"/>primo modo dicitur quod creatura non deppendet se ipsa formaliter a deo circumscripto 
+          <lb ed="#L"/>omni alio 2o modo vero creatura se ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> quolibet alio secluso <g ref="#slash"/> modo 
+          <pb ed="#L" n="79r"/><lb ed="#L"/>hic loquimur de <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> formali <unclear>relativa</unclear> et ideo negatur antecedens</p>
+        
+        <p xml:id="pgb1q25-d1e4242"><g ref="#dbslash"/>Ad 
+          <lb ed="#L"/>primam probationem dicitur quod casus est impossibilis <g ref="#slash"/>2o dicitur quod si admitteretur tunc illa creatura 
+          <lb ed="#L"/><choice><orig>deppenderet</orig><reg>dependeret</reg></choice> fundamentaliter et non formaliter</p>
+        
+        <p xml:id="pgb1q25-d1e4257"><g ref="#pilcrow"/>Ad 2am probationem negatur consequentia quia talis se 
+          <lb ed="#L"/>ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> fundamentaliter simpliciter</p>
+        
+        <p xml:id="pgb1q25-d1e4269"><g ref="#slash"/>Ad 3am probationem similiter negatur consequentia quia licet <choice><orig>deppen<lb ed="#L"/>dentia</orig><reg>depen<lb ed="#L"/>dentia</reg></choice> 
+        se ipsa <choice><orig>deppendeat</orig><reg>dependeat</reg></choice> formaliter a deo tamen lapis se ipso <choice><orig>deppendet</orig><reg>dependet</reg></choice> 
+          <lb ed="#L"/>fundamentaliter</p>
+        
+        <p xml:id="pgb1q25-d1e4298"><g ref="#pilcrow"/>Ad 5m principale dicitur quod si antecedens intelligitur de intellectione distincta 
+          <lb ed="#L"/>et perfecta ipsum negatur si de confusa conceditur sed sic ratio non facit contra conclusionem</p>
+        
+        <p xml:id="pgb1q25-d1e4304"><g ref="#pilcrow"/>2o dicitur 
+          <lb ed="#L"/>concesso antecedente negando consequentiam quia qui distincte cognoscit unum relativorum cognoscit 
+          <lb ed="#L"/>reliquum quia esse relationis et relati est esse ad aliud esse vero lapidis non est 
+          <lb ed="#L"/>esse ad aliud sed ad se licet esse effectus ut effectus est sit ad aliud et sic non 
+          <lb ed="#L"/>potest intelligi sine intellectione etc</p>
+        
+        <p xml:id="pgb1q25-d1e4316"><g ref="#pilcrow"/>Ad primum in oppositum negatur consequentia quia licet deus non ponit 
+          <lb ed="#L"/>esse creaturus quin aliquid sit creabilem tamen proprie loquendo de <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> deus a nullo 
+          <lb ed="#L"/><choice><orig>deppendet</orig><reg>dependet</reg></choice></p>
+        
+        <p xml:id="pgb1q25-d1e4334"><g ref="#pilcrow"/>Ad 2m dicitur secundum <name ref="#Rimini">gregorium</name> quod relatio dei est deus sed aliter dici <name ref="#AlphonsusVargas">alphonsus</name></p>
+        
+        <p xml:id="pgb1q25-d1e4343"><lb ed="#L"/>Ad 3m dicitur quod deum referri relatione aeterna potest intelligi dupliciter primo modo sic quod res 
+          <lb ed="#L"/>quae <corr><add place="marginLeft">relatio</add></corr> est aeterna sit et sit deus ita quod deus ad omnem rem refertur relatione aeterna <g ref="#dot"/> 
+          <lb ed="#L"/>quia se ipso <g ref="#slash"/>2o modo relatione aeterna id est aeternaliter refertur et temporali id est temporaliter refertur 
+          <lb ed="#L"/>ex tempore vel postquam non taliter referebatur sic dicitur quod deus refertur aeternaliter 
+          <lb ed="#L"/>ad aliqua quae non erant eo quia ipse praecognoscebat ipsa et ad aliqua temporaliter refertur 
+          <lb ed="#L"/>inquantum est eorum creator et dominus quia licet illud fuerit tamen non fuit <unclear>dominium</unclear></p>
+        
+        <p xml:id="pgb1q25-d1e4368"><g ref="#slash"/>et ad 
+          <lb ed="#L"/>probationem quia si temporaliter tunc sequitur mutatio in deo negatur consequentia sumendo mutationem proprie 
+          <lb ed="#L"/>et ad <name ref="#Averroes">commentatorem</name> dicitur quod aliquid transmutari potest dupliciter intelligi primo modo proprie et stricte 
+          <lb ed="#L"/>et sic illud transmutatur relative quod <unclear>movetur</unclear> secundum illam rem secundum quam est <unclear>relativi</unclear> sicut si 
+          <lb ed="#L"/><name ref="#Sortes">sortes</name> efficeretur magis similis <name ref="#Plato">platoni</name> albo per intentionem albedinis in <name ref="#Sortes">sorte</name> 
+          <lb ed="#L"/><name ref="#Sortes">sortes</name> proprie transmutaretur <g ref="#slash"/>alio modo in proprie et large et sic nunc omne quod refertur 
+          <lb ed="#L"/>ad quod ante non referebatur potest dici transmutari relative et sic loquitur <name ref="#Averroes">commentator</name> exemplum 
+          <lb ed="#L"/>in <choice><orig>columpna</orig><reg>columna</reg></choice> <g ref="#dot"/> quae per solam mutationem <name ref="#Sortes">sortis</name> potest esse <name ref="#Sortes">sorti</name> <unclear>dextera</unclear> nunc 
+          <lb ed="#L"/>quae prius fuit sinistra <g ref="#slash"/>nota quod <name ref="#Rimini">gregorius</name> tenet quod omnis entitas est absoluta et 
+          <lb ed="#L"/>relativa et quod nulla relatio est res distincta ab omni re absoluta contra opinionem <name ref="#AlphonsusVargas">alphonsi</name> 
+          <lb ed="#L"/>vide <ref><name ref="#Rimini">gregorium</name> circa distinctionem 28 et sequentes</ref></p>
+        
+        <p xml:id="pgb1q25-d1e4450"><g ref="#pilcrow"/>Sunt enim quaedam 
+          <lb ed="#L"/><g ref="#slash"/>prima conclusio distinctionis 30 quod quaedam nomina ex tempore de deo dicuntur ei <unclear>quae</unclear> temporaliter <unclear>conveniunt</unclear> 
+          <lb ed="#L"/>sine sui mutatione et relative dicuntur secundum accidens non quod accidat deo sed 
+          <lb ed="#L"/>accidit creaturis sicut creator <unclear>dicens <!-- dominus --></unclear> refugium etc</p>
+        
+        <p xml:id="pgb1q25-d1e4472"><g ref="#pilcrow"/>2a conclusio licet deus ex 
+          <lb ed="#L"/>tempore non ceperit esse dominus temporis tamen deus cepit esse dominus temporis prima 
+          <lb ed="#L"/>patet quia <corr><del rend="strikethrough">d</del></corr> tempus non cepit ex tempore quia li <mentioned>ex</mentioned> dicit ordinem et praesupponit 
+          <lb ed="#L"/>tempus et sic tempus fuisset antequam cepisset esse <g ref="#slash"/>2a pars probatur quia non semper fuit tempus</p>
+        
+          <p xml:id="pgb1q25-d1e4492"><lb ed="#L"/>3a conclusio quaedam dicuntur de deo temporaliter et relative ad creaturas sine mutatione 
+          <lb ed="#L"/>deitatis sed non sine mutatione creaturae et sic accidens est in creatura non 
+          <lb ed="#L"/>in creatore</p>
+        
+        <p xml:id="pgb1q25-d1e4500"><g ref="#pilcrow"/>4a conclusio quod appellatio qua creatura relative dicitur ad creatorem relativa est 
+          <pb ed="#L" n="79v"/><lb ed="#L"/>et relationem notat quae est in ipsa creatura</p>
+        
+        <p xml:id="pgb1q25-d1e4507"><g ref="#pilcrow"/>5a conclusio appellatio qua creator relative 
+          <lb ed="#L"/>dicitur ad creaturam relativa est sed nullam relationem notat quae sit in creatore</p>
+        
+        <p xml:id="pgb1q25-d1e4513"><g ref="#pilcrow"/>6a conclusio 
+          <lb ed="#L"/>quod cum dicimus spiritum sanctum datum vel donatum relative dicitur ad dantem et ad illum 
+          <lb ed="#L"/>cui donatur tamen non dicimus spiritum sanctum referri ad se licet a se detur</p>
+        
+        <p xml:id="pgb1q25-d1e4522"><g ref="#dbslash"/>
+          <lb ed="#L"/>praeterea considerare etc</p>
+        
+        <p xml:id="pgb1q25-d1e4528"><g ref="#pilcrow"/>prima conclusio distinctionis 31 quod nihil sibi ipsi dicitur 
+          <lb ed="#L"/>simile aut aequale tres autem divinae personae dicuntur aequales sibi invicem et 
+          <lb ed="#L"/>similes <unclear>quae</unclear> relative quia aequalitas vel similitudo tantum est appellatio relativa sed non relatio</p>
+        
+        <p xml:id="pgb1q25-d1e4539"><lb ed="#L"/><g ref="#pilcrow"/>2a conclusio pater filius et spiritus sanctus dicuntur aequales et similes non secundum proprietates relativas 
+          <lb ed="#L"/>secundum unitatem essentiae filius tamen non est patri aequalis ex eo quod filius sed secundum illud 
+          <lb ed="#L"/>quod ad se dicitur id est substantiam et virtutem et naturam aequalitas enim est virtutis <choice><orig>ydemptitas</orig><reg>identitas</reg></choice></p>
+        
+        <p xml:id="pgb1q25-d1e4553"><lb ed="#L"/><g ref="#pilcrow"/>3a conclusio quod secundum aliquos nomine aequalitatis vel similitudinis non ponitur aliquid sed removetur 
+          <lb ed="#L"/>ita quod pater ideo dicitur filio aequalis quia non est maior nec minor patre et hoc 
+          <lb ed="#L"/>propter essentiae unitatem similiter dicitur similis quia non est diversus nec alienus nec in aliquo 
+          <lb ed="#L"/>dissimilis et hoc propter essentiae simplicitatem et sic aequalitas in divinis non ponit aliquam rem 
+          <lb ed="#L"/>sed solum dicitur secundum rationem vel remotionem</p>
+        
+        <p xml:id="pgb1q25-d1e4566"><g ref="#pilcrow"/>4a conclusio quod secundum <name ref="#HilaryOfPoitiers">hylarium</name> aequalitas patri 
+          <lb ed="#L"/>appropriatur qui a nullo est filium vero vocat <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> cui attribuit speciem seu 
+          <lb ed="#L"/>pulcritudinem propter perfectam patris repraesentationem <g ref="#slash"/>spiritum vero sanctum vocat munus 
+          <lb ed="#L"/>eo quod est donum patris et filii cui attribuit usum quia ab ipso ad nostram 
+          <lb ed="#L"/>utilitatem omnia dona nobis infunduntur</p>
+        
+        <p xml:id="pgb1q25-d1e4590"><g ref="#pilcrow"/>5a conclusio quod aeternitas et species seu pul<lb ed="#L"/>critudo 
+        et usus seu dilectio non proprietates personarum distinguunt sed <choice><orig>ypostases</orig><reg>hypostases</reg></choice> 
+          <lb ed="#L"/>ostendunt et ideo appropiate de eis dicuntur</p>
+        
+        <p xml:id="pgb1q25-d1e4605"><g ref="#pilcrow"/>6a conclusio quod <choice><orig>ymago</orig><reg>imago</reg></choice> quae est filius coaequaliter 
+          <lb ed="#L"/>patri non autem filio quia quod filius sit aequalis patri hoc filius habet a patre pater autem 
+          <lb ed="#L"/>non habet a filio quod sit ei aequalis</p>
+        
+        <p xml:id="pgb1q25-d1e4619"><g ref="#pilcrow"/>7a conclusio quod secundum <name ref="#Augustine">augustinum</name> patri appropriatur unitas 
+          <lb ed="#L"/>quia sicut unitas non habet principium a quo sit sed est aliorum principium sic pater est sine 
+          <lb ed="#L"/>principio et est aliarum personarum principium <g ref="#slash"/>filio vero appropriatur aequalitas quia in eo primo invenitur 
+          <lb ed="#L"/>in divinis aequalitas <g ref="#slash"/>spiritui sancto autem appropriatur utriusque concordia quia procedit a patre 
+          <lb ed="#L"/>et filio ut amor et dilectio</p>
+        
+        <p xml:id="pgb1q25-d1e4639"><g ref="#pilcrow"/>8a conclusio quod pater filius et spiritus sanctus recte dicuntur esse 
+          <lb ed="#L"/>unum et unus deus sed non debent dici unius</p>
+        
+        <p xml:id="pgb1q25-d1e4645"><g ref="#pilcrow"/>9a conclusio quod quando veritas dicit 
+          <lb ed="#L"/><quote ana="#io10_30">ego et pater unum sumus</quote> in hoc quod dicit unum excludit errorem <name ref="#Arius">arrii</name> qui 
+          <lb ed="#L"/>tres personas nolebat esse unius eiusdemque substantiae <g ref="#slash"/>in hoc quod dicit sumus ex<lb ed="#L"/>cludit 
+          haeresim <name ref="#Sabellius">sabelii</name> qui trinitatem ponebat <unclear cert="low">nominem<!--??--></unclear> tantum sine subsistentia personarum</p>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
