@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 32</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.01">
+          <title>Librum I, Quaestio 32</title>
+          <date when="2015-01-21">January 21, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-01-21">January 21, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-01-21" who="#JW" status="draft" n="2015.01" >
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q32">
+        <head>Quaestio 32</head>
+        <p><lb ed="#L"/><quote><hi rend="dropCapThreeLines">P</hi>raedestinatio vero etc</quote> Ista est 40 distinctio in qua postquam 
+          <lb ed="#L"/>determinavit <name ref="#Lombard">magister</name> de scientia et praescientia dei in generali <g ref="#slash"/>nunc incipit 
+          <lb ed="#L"/>determinare de quadam eius parte in speciali <g ref="#slash"/> et dividitur in duas quia primo 
+          <lb ed="#L"/>tractat de praedestinatione 2o de reprobatione 2a incipit ibi cumque praedestinatio</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>prima pars dividitur in duas quia primo agit de praedestinationis <corr><del rend="strikethrough">effectiva</del><add place="inline"></add></corr> <unclear>diffinitiva</unclear> 
+          <lb ed="#L"/>ratione 2o de eius effectu permansive et fixa per duratione 2a ibi praedestinatorum 
+          <lb ed="#L"/>nullus videtur</p>
+        
+        <p><g ref="#pilcrow"/>2a principalis pars dividitur etiam in duas quia primo <name ref="#Lombard">magister</name> ponit effectum 
+          <lb ed="#L"/>reprobationis positivum 2o eius effectum privativum 2a incipit ibi 
+          <lb ed="#L"/>et sicut praedestinatio et haec sufficiant pro divisione praesentis distinctionis circa quam quaeritur</p>
+        
+        <p><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum praedestinatio aeternaliter ac existenti in caritate deus possit certi<lb ed="#L"/>tudinaliter 
+        suam dampnationem revelare <g ref="#slash"/>utrum existenti in caritate 
+          <lb ed="#L"/>ac praedestinato aeternaliter deus possit revelare suam dampnationem 
+          <lb ed="#L"/>certitudinaliter</p>
+        
+        <p><g ref="#slash"/>quod non quia nullus praedestinatur aeternaliter ergo antecedens probatur tum quia potest aliquis in<lb ed="#L"/>cipere 
+          esse praedestinatus tum quia sequitur quod numerus praedestinatorum oportet auctus non posset 
+          <lb ed="#L"/>tum quia sequitur quod quilibet praedestinatus esse scriptus in libro vitae indelebiliter patet consequentis 
+          <lb ed="#L"/>falsitas per illud <ref><title ref="#ps">psalmus</title> <sic>64</sic></ref> <quote ana="#ps68_29">deleantur de libro viventium</quote> consequentia patet quia omne 
+          <lb ed="#L"/>aeternum est immutabile</p>
+        
+        <p><g ref="#pilcrow"/>2o principaliter <corr><del>non</del></corr> repugnat praedestinatum dampnari finaliter 
+          <lb ed="#L"/>ergo antecedens probatur quia sequeretur quod talis esset praedestinatus et non praedestinatus tum 2o quia deus esse 
+          <lb ed="#L"/>videretur mutatus cum voluerit eum salvare et non salvat <g ref="#slash"/>cum 3o quia sequitur quod 
+          <lb ed="#L"/>scriptura sacra foret falsa quae dicit praedestinatum fore salvandum</p>
+        
+        <p><g ref="#pilcrow"/>confirmatur per <ref><name ref="#Augustine">augustinum</name> 8o 
+          <lb ed="#L"/><title ref="#CityOfGod">de civitate dei</title> capitulo 51o</ref> dicentem <quote ana="#Augustine_DeCivitateDei_18_51_2_a"><quote ana="#rom8_29">quos enim praescivit et praedestinavit fieri conformes 
+          <lb ed="#L"/><choice><orig>ymagini</orig><reg>imagini</reg></choice> filii sui</quote> ex eis perire nullus potest</quote><!-- careful quote with quote here --></p>
+        
+        <p><g ref="#slash"/>3o principaliter existenti in caritate ac 
+          <lb ed="#L"/>praedestinato non potest fieri talis <g ref="#slash"/> revelatio ergo antecedens probatur tum quia tunc sua aeterna <choice><orig>damp<pb ed="#L" n="#96r"/><lb ed="#L"/>natio</orig><reg>dam<pb ed="#L" n="#96r"/><lb ed="#L"/>natio</reg></choice> 
+          <choice><orig>neccessario</orig><reg>necessario</reg></choice> eveniret tum quia deus desperandi materiam et occasionem sibi daret 
+          <lb ed="#L"/>tamen quia tunc clare videns deum summum bonum doleret seu dolere posset</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>In oppositum arguitur quia praedestinatus potest dampnari ergo eius dampnatio sibi potest 
+          <lb ed="#L"/>revelari et clare ostendi consequentia tenet et antecedens patet per <ref><name ref="#Lombard">magistrum</name> distinctione 40 primi</ref></p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>prima conclusio quaelibet a deo praedestinative et gratuite electum deus aeternaliter praepara<lb ed="#L"/>vit 
+          multiplicem gratiae et gloriae effectum patet per <ref><name ref="#Paul">apostolum</name> <title ref="#eph">ephesios</title> primo</ref> <quote ana="#eph1_5">praedesti<lb ed="#L"/>navit 
+          in adoptionem filiorum secundum propositum voluntatis suae in laudem gloriosae 
+          <lb ed="#L"/>gratiae suae <!-- this quotation extends into eph 1:6 --></quote> <g ref="#slash"/>Item per <ref><name ref="#Augustine">augustinum</name> in <title>praedestinatione</title> capitulo 12</ref> praedestinatio est gratiae 
+          <lb ed="#L"/>praeparatio <g ref="#slash"/>Item confirmatur quia praedestinatio divina est causa salvationis praedestinati 
+          <lb ed="#L"/>ergo est causa eorum quae sunt requisita ad illum finem consequendum sed praedestinatio est 
+          <lb ed="#L"/>et praeparatio seu volitio aeternalis ut praedestinatus in tempore iustificetur praeser<lb ed="#L"/>vetur 
+          obediat credat et perseveret et hoc maxime verum est de adultis</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium sicut impossibile est deum aliquid ad esse futurum nunc primo determinare 
+          <lb ed="#L"/>sic est impossibile deum incipere praedestinare patet quia aeternaliter praedestinat 
+          <lb ed="#L"/>confirmatur quia si inciperet etc sequitur quod erat <g ref="#dot"/><c>a</c><g ref="#dot"/> ante illud <unclear><choice><orig>istans</orig><reg>instans</reg></choice></unclear> et per consequens 
+          <lb ed="#L"/>est futurum in hoc <choice><orig>istanti</orig><reg>instanti</reg></choice> <choice><orig>ymmo</orig><reg>immo</reg></choice> in quolibet praecedenti</p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium licet deus 
+          <lb ed="#L"/>possit plura futura praescire quam praescit futura esse non tamen potest plura 
+          <lb ed="#L"/>quam scit scire nec proprie potest numerum scitorum praescitorum vel praedestinatorum 
+          <lb ed="#L"/>augere prima patet supposito quod numerus futurorum sit certus et finitus quia potest 
+          <lb ed="#L"/>ultra praescita aliqua futura velle esse futura et scire esse futura 
+          <lb ed="#L"/>2a pars probatur quia deus est omnium scibilium notitia comprehensiva acutalis ergo non 
+          <lb ed="#L"/>potest plura scire <g ref="#slash"/>3a pars probatur quia si sic haec copulativa posset verificari simul 
+          <lb ed="#L"/>hic numerus salvandorum continet plures unitates quid prior et prior non 
+          <lb ed="#L"/>continet pauciores quod est falsum patet consequentia quia illud est proprie numerum au<lb ed="#L"/>geri 
+          ergo patet quod sicut numerus scibilium non potest augeri sic nec numerus electorum 
+          <lb ed="#L"/>potest intendi</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium liber rite infallibilis est scripturae indelebilis 
+          <lb ed="#L"/>patet <ref><title ref="#dan">daniel</title> 12o</ref> <quote ana="#dan12_1">salvabitur meus omnis qui scriptus fuerit in libro vitae</quote> Item 
+          <lb ed="#L"/><title ref="#is">ysid</title> <quote ana="#is4_3">sanctus vocabitur omnis qui scriptus est in vita in ierusalem</quote></p>
+        
+        <p>3a conclusio licet 
+          <lb ed="#L"/>omnis reprobatus possit finaliter salvari tamen non omnis praedestinatus 
+          <lb ed="#L"/>potest finaliter dampnari seu <choice><orig>pene</orig><reg>poene</reg></choice> aeternae deputari prima pars patet 
+          <lb ed="#L"/>quia in sensu diviso est concedenda secundum <name ref="#Lombard">magistrum</name> <g ref="#slash"/>confirmatur quia deus contingenter <corr><del rend="strikethrough/expunctuated">d</del></corr> 
+          <lb ed="#L"/>reprobat reprobatos ergo potest eos non reprobare vel reprobasse <g ref="#slash"/>2a pars 
+          <lb ed="#L"/>probat quia christus est praedestinatus et tamen non potest dampnari seu <unclear>in aeterna</unclear> 
+          <lb ed="#L"/><choice><orig>pena</orig><reg>poena</reg></choice> deputari ergo antecedens probatur per <name ref="#Paul">apostolum</name> <quote ana="#ro1_4">praedestinatus est filius dei 
+          <lb ed="#L"/>in virtute</quote> <g ref="#slash"/>ex quo patet quod nisi dictum <unclear><name ref="#HughOfStVictor">hugonis</name></unclear> restringeretur ad supposita 
+          <lb ed="#L"/>creata non haberet veritatem ubi dicit quod quilibet qui est beatus potest non 
+          <lb ed="#L"/>esse electus constat enim quod christus est electus sicut praedestinatus iuxta 
+          <lb ed="#L"/>illud <title ref="#cant">canticum</title> <quote ana="#cant5_10">electus ex milibus</quote> quod secundum glossam de christo intelligitur<lb ed="#L"/></p>
+        
+        <p><pb ed="#L" n="96v"/><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium aliquid quod deus nunc vult potest numquam velle vel volusse sine sui 
+          <lb ed="#L"/>mutatione intrinsece patet quia nunc praedestinatur elective potest numquam ipsum praedestinasse</p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>2m corollarium verba diversorum temporum dicta de deo non notant tempus mesurans 
+          <lb ed="#L"/>dei actum sed significat in <unclear>dis?tem</unclear> praesentiam aeternitatis ad omnem temporis flu<lb ed="#L"/>xum 
+          patet quia aliter in divino actu electivo vel praedestinativo ac reprobativo foret 
+          <lb ed="#L"/>praeteritio aut futuritio quod est falsum</p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium quod verum est aliquem hominem praedesti<lb ed="#L"/>natum 
+        esse quem deus non potest non praedestinasse patet de supposito christi</p>
+        
+        <p><g ref="#pilcrow"/>3a conclusio <choice><orig>sicud</orig><reg>sicut</reg></choice> 
+          <lb ed="#L"/>praedestinatio est bonorum electiva ad perpetuae gloriae felicitatem sic praedestinatio 
+          <lb ed="#L"/>est malorum reprobativa ad perpetuae miseriae calamitatem prima patet de se et 
+          <lb ed="#L"/>per <name ref="#Lombard">magistrum</name> 2a per <ref><name ref="#Augustine">augustinum</name> 22o vel 21 <title ref="#CityOfGod">de civitate</title> capitulo 24o</ref> dicentem quod <quote ana="#Augustine_DeCivitateDei_21_24_1_a">aliqui in hac 
+          <lb ed="#L"/>vita praedestinati sunt in ignem aeternum ire cum dyabolo</quote> <g ref="#slash"/>Item <name ref="#Anselm">anselmus</name> non solum prae<lb ed="#L"/>destinatio 
+          bonorum sed etiam malorum dici potest Item <ref><name ref="#Augustine">augustinus</name> <title ref="#Enchiridion">enchiridion</title> capitulo 80</ref> dicit <quote ana="#Augustine_Enchiridion_1_26_100_a">deus 
+          <lb ed="#L"/>aliquos iuste praedestinavit ad <choice><orig>penam</orig><reg>poenam</reg></choice> et aliquos benigne ad gratiam</quote></p>
+        
+        <p><lb ed="#L"/><g ref="#pilrow"/>primum corollarium licet praedestinatus possit videre in verbo se dampnandum finaliter tamen 
+          <lb ed="#L"/>si hoc sibi reveletur contingentur dampnabitur et non aliter <g ref="#slash"/>prima patet quia ex conclusione aliquis 
+          <lb ed="#L"/>praedestinatus dampnabitur sumendo praedestinationem large <g ref="#slash"/>2o probatur illa pars in sensu 
+          <lb ed="#L"/>diviso quia praedestinatus ad gloriam potest dampnari cum eius salvari sit contingens 
+          <lb ed="#L"/>sed quod posset revelari patet quia non repugnat praedestinato plus revelari <choice><orig>pe<lb ed="#L"/>nam</orig><reg>poe<lb ed="#L"/>nam</reg></choice> 
+          suam quam culpam sed de facto <name>christus</name> <name ref="#JudasIscariot">iude</name> et <name ref="#Peter">petro</name> suam cul<lb ed="#L"/>pam 
+          ergo in de potuit revelare suam <choice><orig>penam</orig><reg>poenam</reg></choice> et per consequens suam aeternam 
+          <lb ed="#L"/><choice><orig>dampnationem</orig><reg>damnationem</reg></choice> <g ref="#slash"/>sed posset dici quod non est simile quia <choice><orig>dampnatio</orig><reg>damnatio</reg></choice> non repugnat prae<lb ed="#L"/>destinationi 
+          licet repugnet alicui effectum <choice><orig>dampnationis</orig><reg>damnationis</reg></choice> scilicet gratiae sed <choice><orig>pena</orig><reg>poena</reg></choice> 
+          <lb ed="#L"/>infernalis repugnat propter eius proprietatem non solum effectui praedestinationis sed 
+          <lb ed="#L"/>sed etiam ipsi praedestinationi quia istae sunt incompossibiles <name>sortes</name> est praedestinatus et <name>sortes</name> 
+          <lb ed="#L"/>aeternaliter cruciabitur ideo forte diceretur quod non sequitur deus potest revelare 
+          <lb ed="#L"/>culpam ergo poenam <g ref="#slash"/>sed contra hoc arguitur quoa perserverantia finalis in peccato mortali 
+          <lb ed="#L"/>de directo repugnat praedestinationi et deus tamen illam revelavit <name ref="#Jews">iu<lb ed="#L"/>daeis</name> 
+          scilicet dicens <quote ana="#io8_24">in peccatis vestris moriemini</quote> <ref><title ref="#io">iohannis</title> 8o</ref> Item <ref><title ref="#io">iohannis</title> 6o</ref> 
+          <lb ed="#L"/><quote ana="#io6_71">unus ex vobis dyabolus est</quote> <g ref="#slash"/>Item <quote ana="#mt26_25">bonum erat ei si natus non fuisset</quote> etc 
+          <lb ed="#L"/><g ref="#slash"/>confirmatur desertio dei finalis est nolle nolle misereri vel non velle 
+          <lb ed="#L"/>misereri sed decedere finaliter in culpa est maxima pars <choice><orig>dampnationis</orig><reg>damnationis</reg></choice> sed 
+          <lb ed="#L"/>illam potest deus revelare ut patet per textus <unclear>praemissos</unclear></p>
+        
+        <p><g ref="#pilcrow"/>2a pars corollarii probatur 
+          <lb ed="#L"/>quia dei dicere seu revelare evidens adextra non plus necessitat eventum 
+          <lb ed="#L"/>rei futurum ergo quam eius dicere adintra immense evidens et certum sed tale 
+          <lb ed="#L"/>dicere adintra non necessitate ut patet per <name ref="#Lombard">magistrum</name> ergo maior nota et minor <ref>distinctione 38</ref></p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium deus non potest solum <choice><orig>dampnationem</orig><reg>damnationem</reg></choice> alicui revelare conditionaliter 
+          <lb ed="#L"/>sed etiam potest hoc cuilibet dampnando revelare absolute simpliciter patet per corollarium</p>
+          
+        <p><pb ed="#L" n="97r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarlium sicut</p>
+        
+        
+        
+        
+        
+        
+        
+        <p></p>
+        
+        <p></p>
+          
+        
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
