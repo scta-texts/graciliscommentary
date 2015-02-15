@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 35 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 35 [London Transcription]</title>
+          <date when="2015-02-01">February 01, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-02-01">February 01, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-01" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q35">
+        <head>Quaestio 35 [London Transcription]</head>
+        <p xml:id="pgb1q35-d1e3237"><lb ed="#L"/><unclear>Quidam</unclear> tamen de suo sensu gloriantes 
+          <lb ed="#L"/>postquam <name ref="#Lombard">magister</name> superius determinavit de dei omnipotentia per respectum ad 
+          <lb ed="#L"/><sic>ad</sic> productorum entitatem nunc vero in hac 43 distinctione tractat de 
+          <lb ed="#L"/>ipsam per respectum ad ipsorum quantitatem seu numerositatem</p>
+        
+        <p xml:id="pgb1q35-d1e3254"><g ref="#pilcrow"/>Et dividitur in tres 
+          <lb ed="#L"/>quia primo refellit unam opinionem <unclear>falsidam[?]</unclear> 2o adducit et solvit eius 
+          <lb ed="#L"/>rationem sophisticam 3o ponit determinationem propriam veridicam 2a incipit ibi 
+          <lb ed="#L"/>non potest deus 3a fateamur itaque deum</p>
+        
+        <p xml:id="pgb1q35-d1e3267"><g ref="#pilcrow"/>2a pars habet 7<g ref="#dot"/> partes quas adducit 
+          <lb ed="#L"/>pro illa falsa opinione partes patebunt legendo et haec eset in generali divisio etc</p>
+        
+        <p xml:id="pgb1q35-d1e3275"><lb ed="#L"/>utrum eam quae deus praeordinavit immediate se facturum possit 
+          <lb ed="#L"/>libere numquam facere in futurum <g ref="#slash"/>quod non quia nihil potest a deo fieri ergo consequentia 
+          <lb ed="#L"/>bona <g ref="#dot"/> quia conclusio supponit oppositum <g ref="#slash"/>antecedens probatur quia si sic sequitur omnem creaturam 
+          <lb ed="#L"/>esse possibilem quia deus potest facere quod talis creatura potest fieri quia deus potest facere 
+          <lb ed="#L"/>illam sicut ideo domus potest fieri ab homine quia homo est artifex sciens et potens 
+          <lb ed="#L"/>facere donum et consequentia patet a simili quia ideo <g ref="#dot"/><c>a</c><g ref="#dot"/> impossibile non potest a deo fieri quia 
+          <lb ed="#L"/>tale impossibile non potest <sic>possibiliari</sic> seu fieri</p>
+        
+        <p xml:id="pgb1q35-d1e3308"><g ref="#pilcrow"/>2o si quaestio esset vera <g ref="#dot"/> sequeretur quod etiam 
+          <lb ed="#L"/>illud quod deus non praeordinavit se facturum <g ref="#slash"/>posset facere consequentia patet a simili 
+          <lb ed="#L"/>sed consequens falsum probatio quia tunc deus posset producere aliquid infinitum cum non 
+          <lb ed="#L"/>videatur maior ratio de uno non praeordinato quam alio ad esse vel fore <g ref="#dbslash"/></p>
+        
+        <p xml:id="pgb1q35-d1e3324"><lb ed="#L"/><g ref="#pilcrow"/>3o inconveniens est non fieri ab homine prudente quia praeordinavit et praedixit 
+          <lb ed="#L"/>se facturum et quod si faceret iuste et decenter faceret ergo inconveniens esset deum 
+          <lb ed="#L"/>non facere quae praeordinavit se facturum et per consequens illud est impossibile ultima 
+          <lb ed="#L"/>consequentia patet per <name ref="#Anselm">anselum</name> quia minimum inconvenines in deo est impossibile</p>
+        
+        <p xml:id="pgb1q35-d1e3338"><g ref="#pilcrow"/>In oppositum est 
+          <lb ed="#L"/>dictum christi potestate habeo ponendi animam meam et iterum sumendi eam 
+          <lb ed="#L"/>sed praeordinaverat animam suam pro omnibus ponere et potuit illam libere 
+          <lb ed="#L"/>a dolore et morte <unclear>exipere</unclear> et praeservare ergo quod praeordinavit se facturum 
+          <lb ed="#L"/>potest non facere</p>
+        
+        <p xml:id="pgb1q35-d1e3353"><g ref="#pilcrow"/>confirmatur quia quidquid deus praeordinavit se facturum illud prae<pb ed="#L" n="104r"/><lb ed="#L"/>ordinavit  
+          contingenter et libere ergo illud faciet contingenter et libere ergo posset 
+          <lb ed="#L"/>illud numquam facere ergo quaestio vera</p>
+        
+        <p xml:id="pgb1q35-d1e3362"><g ref="#pilcrow"/>prima conclusio licet deus ideo non 
+          <lb ed="#L"/>possit <c>a</c><g ref="#dot"/> impossibile inesse producere quia impossibile est <c>a</c><g ref="#dot"/> produci inesse <g ref="#slash"/>tamen ideo 
+          <lb ed="#L"/><c>b</c><g ref="#dot"/> producibile potest esse quia deus potest <g ref="#dot"/><c>b</c><g ref="#dot"/> inesse producere <g ref="#slash"/>prima pars probatur quia 
+          <lb ed="#L"/>si non sequitur quod econverso ideo a non potest esse quia deus non potest <c>a</c><g ref="#dot"/> producere sed hoc 
+          <lb ed="#L"/>est falsum quia illud importaret insufficientiam et de factum potentiae in deo igitur 
+          <lb ed="#L"/>patet consequentia ultima quia per illud designatur quod prima causa et ratio huius impossibilitatis 
+          <lb ed="#L"/>esset negatio potentiae in deo et <choice><orig>deffectus</orig><reg>defectus</reg></choice> potentiae requisitae sufficienter ad illud 
+          <lb ed="#L"/>producendum exemplum si ideo sol non potest illuminare extra caelum vel infra 
+          <lb ed="#L"/>clausam donum quia ibi non est locus illuminabilis vel quia est impeditum 
+          <lb ed="#L"/>propter corpus <choice><orig>oppacum</orig><reg>opacum</reg></choice> propter hoc non notatur <choice><orig>deffectus</orig><reg>defectus</reg></choice> potentiae insolubile <g ref="#slash"/>confirmatur 
+          <lb ed="#L"/>quia si ideo visus non potest videre sonum quia sonus non est visibilis et non 
+          <lb ed="#L"/>econverso ergo a simili ideo deus non potest etc</p>
+        
+        <p xml:id="pgb1q35-d1e3436"><g ref="#pilcrow"/>2a pars conclusionis probatur quia dicit <c>b</c> est 
+          <lb ed="#L"/>ideo est quia deus dat sibi esse ergo dum <g ref="#dot"/><c>b</c><g ref="#dot"/> potest esse ideo potest esse quia deus 
+          <lb ed="#L"/>potest sibi dare esse ergo tota conclusio vera <g ref="#pilcrow"/>confirmatur per <ref><name ref="#Anselm">anselmus</name> in <title>de casu dyaboli</title> dicentem 
+          <lb ed="#L"/>capitulo 12</ref> ideo mundus est quia deus potuit facere mundum antequam fieret 
+          <lb ed="#L"/>non quia mundus ipse prius potuit esse ex quibus verbis patere potest illa 
+          <lb ed="#L"/>pars 2a</p>
+        
+        <p xml:id="pgb1q35-d1e3470"><g ref="#pilcrow"/>primum corollarium licet omnis res factibilis possit a deo solo produci 
+          <lb ed="#L"/>effective tamen non omnem rem factibilem secundum qualibet suam conditionem et denomina<lb ed="#L"/>tionem 
+          deus potest se solo <corr><unclear>effective</unclear></corr> productive prima pars patuit in praecedenti 
+          <lb ed="#L"/>conclusione <g ref="#slash"/>2a pars probatur quia actum meritorium cum conditionem <unclear>relatus</unclear> et relationis quem 
+          <lb ed="#L"/>importat non potest producere ergo antecedens patet quia esse meritorium est conditio actus 
+          <lb ed="#L"/>ut relati ad aliquam causam relatabilem conformiter agentem relative divinae 
+          <lb ed="#L"/>Item actus meritorius dicit relatum ad aliquod gratis acceptans talem actum 
+          <lb ed="#L"/>ad aliquod certum praemium ergo ut sic a solo deo non potest produci</p>
+        
+        <p xml:id="pgb1q35-d1e3498"><g ref="#pilcrow"/>2m 
+          <lb ed="#L"/>corollarium quod ideo deus non potest simul verificare contradictoria quia illa ex suis 
+          <lb ed="#L"/>propriis rationibus formaliter sunt repugnantia patet quia frustra eius repu<lb ed="#L"/>gnantiae 
+          et impossibilitatis assignaretur causa extrinseca ex quo per proprias quidditates 
+          <lb ed="#L"/>sunt impossibilia et repugnantia</p>
+        
+        <p xml:id="pgb1q35-d1e3510"><g ref="#pilcrow"/>3m corollarium licet impossibilitas producendi 
+          <lb ed="#L"/><c>a</c><g ref="#dot"/> impossibile se teneat ex parte rei producibilis seu impossibilis tamen impossibilitatis 
+          <lb ed="#L"/>peccandi non se tenet ex parte peccati sed ex parte dei impeccabilis 
+          <lb ed="#L"/>prima patet per dicta 2a pars probatur quia peccatum fieri est possibile a creatura ergo 
+          <lb ed="#L"/>ex parte peccati non est assignanda impossibilitas illius qua impossibile est deum 
+          <lb ed="#L"/>peccare sed ideo non potest peccare quia est summa perfectio a <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> bonitas 
+          <lb ed="#L"/>sine malitia Ex quibus posset inferri quod licet <c>a</c> possibile ideo possit 
+          <lb ed="#L"/>esse quia deus est omnipotens tamen <g ref="#dot"/><c>b</c><g ref="#dot"/> impossibile non ideo potest esse quia deus non est 
+          <lb ed="#L"/>omnipotens Item sequitur quod convenientius dicitur ideo hominem non posse asinum quia 
+          <lb ed="#L"/>deus non vult sic esse quam quia deus illud non potest facere patet quia secundum 
+          <pb ed="#L" n="104v"/><lb ed="#L"/>notat imperfectionem in deo et primum non</p>
+        
+        <p xml:id="pgb1q35-d1e3554"><g ref="#pilcrow"/>2a conclusio licet deus persuum immensum 
+          <lb ed="#L"/>posse possit producere aliquid infinite perfectum in accidentis genere <g ref="#slash"/>tamen non 
+          <lb ed="#L"/>potest aliquid infinitae perfectionis simpliciter in genere substantiae producere seu facere <g ref="#slash"/>prima pars 
+          <lb ed="#L"/>probatur quia deus potest producere albedinem quae esset infinite perfecta albedo 
+          <lb ed="#L"/>et tamen non esset infinite perfectum accidens nec infinite perfectum <corr><del rend="expunctuated">accidens</del></corr> ens 
+          <lb ed="#L"/>simpliciter ergo antecedens probatur quia illud non videtur claudem contradictionem sicut fuit 
+          <lb ed="#L"/>supra probatum de productionem caritatis per partes proportionales etc in praecedenti 
+          <lb ed="#L"/>conclusione arguendo contra 2am conclusionem <g ref="#slash"/>2a pars probatur quia substantia infinitae perfectionis simpliciter esset 
+          <lb ed="#L"/>simpliciter <choice><orig>indeppendens</orig><reg>independens</reg></choice> et per consequens esset deus sed deus adextra non potest alium pro<lb ed="#L"/>ducere 
+          deum ergo</p>
+        
+        <p xml:id="pgb1q35-d1e3594"><g ref="#pilcrow"/>primum corollarium stat <g ref="#dot"/><c>a</c><g ref="#dot"/> esse infinite perfectam albedinem et <c>a</c><g ref="#dot"/> 
+          <lb ed="#L"/>non esse infinite perfectam qualitatem patet quia si <c>a</c><g ref="#dot"/> esset infinita albedo 
+          <lb ed="#L"/>adhuc in genere aequalitatis <g ref="#dot"/><c>b</c><g ref="#dot"/> caritas esset perfectior qualitas quam <c>a</c><g ref="#dot"/> quia esset 
+          <lb ed="#L"/>speciei superioris 2m corollarium cum intentionem perfectionis in specie stat in eodem 
+          <lb ed="#L"/>remissa perfectio in genere patet per idem</p>
+        
+        <p xml:id="pgb1q35-d1e3630"><g ref="#pilcrow"/>3m corollarium stat aliquid distare plus 
+          <lb ed="#L"/>a non gradu suae speciei quam a non gradu perfectionis simpliciter seu a non 
+          <lb ed="#L"/>gradu essendi patet quia si <c>a</c><g ref="#dot"/> esset albedo infinita ipsa distaret in<lb ed="#L"/>finite 
+          a non esse albedinis et tamen infinite sed finite distaret <c>a</c> non 
+          <lb ed="#L"/>gradu entitatis vel perfectionis simpliciter <g ref="#slash"/>Ex hoc hoc patet quod illae perfectiones 
+          <lb ed="#L"/>non possunt simul uniformiter remitti per certam mensuram usque ad non 
+          <lb ed="#L"/>gradum patet quia tunc una posset esse sine altera quod est impossibile et patet de<lb ed="#L"/>ductio</p>
+        
+        <p xml:id="pgb1q35-d1e3659"><g ref="#pilcrow"/>3a conclusio sicut deus illud quod ab aeterno voluit potest numquam vo<lb ed="#L"/>luisse 
+          sic deus illud quod se facturum ordinavit potest numquam producere 
+          <lb ed="#L"/>prima pars patet per dicta in alii quaestionibus <g ref="#slash"/>confirmatur quia libere et contingenter vult ergo 
+          <lb ed="#L"/>potest non velle sed ad deum posse non velle sequitur ipsum posse numquam vo<lb ed="#L"/>luisse 
+          ergo</p>
+        
+        <p xml:id="pgb1q35-d1e3673"><g ref="#pilcrow"/>2a pars conclusionis probatur ex prima parte quia suum velle efficax est 
+          <lb ed="#L"/>suum facere igitur sicut illud quod vult potest non velle sic illud quod praeor<lb ed="#L"/>dinavit 
+          se facturum possit numquam producere</p>
+        
+        <p xml:id="pgb1q35-d1e3681"><g ref="#pilcrow"/>confirmatur voluntas creata libere 
+          <lb ed="#L"/>et contingenter produxit actum suum ergo divina voluntas adextra patet consequentia cum rationali 
+          <lb ed="#L"/>veritatis et cotingentiae creaturae radicetur et fundetur in libertate divina 
+          <lb ed="#L"/>et antecedens experimur quia percipimus nos posse velle quod volumus vel quod 
+          <lb ed="#L"/>non volumus et econverso posse non velle quod volumus vel quod nolumus</p>
+        
+        <p xml:id="pgb1q35-d1e3693"><g ref="#pilcrow"/>primum 
+          <lb ed="#L"/>corollarium ad deum velle <choice><orig>neccessario</orig><reg>necessario</reg></choice> antichristum fore sequitur omnia evenire non con<lb ed="#L"/>tingenter 
+          sed de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> patet quia secundum <name ref="#Lombard">magistrum</name> cum eius voluntas sit omnipotens sequitur quod si 
+          <lb ed="#L"/>vult <c>a</c><g ref="#dot"/> <choice><orig>neccessario</orig><reg>necessario</reg></choice> fore a <choice><orig>neccessario</orig><reg>necessario</reg></choice> erit sed eadem ratio est de quolibet futuro igitur etc 
+          <lb ed="#L"/><g ref="#slash"/>confirmatur quia si <g ref="#dot"/><c>a</c><g ref="#dot"/> futurum contingentur evenire supposto quod deus vellet ipsum 
+          <lb ed="#L"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> fore hoc videretur esse ideo quia causae secundae libere et contingenter <c>a</c> producerent 
+          <lb ed="#L"/>in esse sed hoc est falsum quia eadem <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> illas causas ad illius productionem influere 
+          <lb ed="#L"/>vel concurrere Item si libere illae causae producunt sequitur etiam quod deus libere producit 
+          <pb ed="#L" n="105r"/><lb ed="#L"/>et vult patet consequentia ex dictis quoniam libertas causae 2ae <choice><orig>deppendet</orig><reg>dependet</reg></choice> ex libertate 
+          <lb ed="#L"/>primae et <g ref="#slash"/>voluntatis divinae</p>
+        
+        <p xml:id="pgb1q35-d1e3779"><g ref="#pilcrow"/>2m corollarium sicut cum deus efficitur agens 
+          <lb ed="#L"/>vel creans de non creante ipse non mutatur sic cum vult <choice><orig>neccessario</orig><reg>necessario</reg></choice> illud 
+          <lb ed="#L"/>quod voluit contingenter in nullo viariatur patet quia modo deum velle <g ref="#dot"/><c>a</c><g ref="#dot"/> libere 
+          <lb ed="#L"/>libertate contradictionis et postea propter lapsum temporis idem <choice><orig>neccessario</orig><reg>necessario</reg></choice> velle non est 
+          <lb ed="#L"/>deum aliter se habere intrinsece sed solum quadam denominationem extrinseca sicut 
+          <lb ed="#L"/>supra patuit in exemplo statuae <g ref="#slash"/>nam secundum <ref><name ref="#Lombard">magistrum</name> distinctione 41 primi</ref> deus 
+          <lb ed="#L"/>sibi retinuit diversas denominationes propter mutationes extrinsecas <!-- ?quote? --></p>
+        
+        <p xml:id="pgb1q35-d1e3822"><g ref="#pilcrow"/>3m corollarium 
+          <lb ed="#L"/>licet ad positionem seu praeteritionem rei inesse sequatur <choice><orig>neccessario</orig><reg>necessario</reg></choice> deum illam 
+          <lb ed="#L"/>rem velle fuisse tamen per huius rei positionem vel praeteritionem non infertur 
+          <lb ed="#L"/>deum ad illam <choice><orig>neccessitatum</orig><reg>necessitatum</reg></choice> esse patet quia tunc creatura haberet respectu dei
+          <lb ed="#L"/>prioritatem et causalitatem sicut <choice><orig>neccessarias</orig><reg>necessarias</reg></choice> respectu <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> quod non est dicendum</p>
+        
+        <p xml:id="pgb1q35-d1e3860"><g ref="#pilcrow"/>Ex dictis 
+          <lb ed="#L"/>patet affirmativa pars quaestionis <!-- compare this to the "conclusionis" that follows; go back and reconsider all "affirmativa pars conclusionis" --> quae patet ex 3a conclusionis</p>
+        
+        <p xml:id="pgb1q35-d1e3868"><g ref="#pilcrow"/>Contra primam conclusionem arguitur 
+          <lb ed="#L"/>primo sic illud quod potest esse ideo potest esse quia deus vel aliqua tam potest illud 
+          <lb ed="#L"/>facere ergo ideo <c>a</c><g ref="#dot"/> impossibile non potest esse quia deus non potest illud facere esse 
+          <lb ed="#L"/>antecedens est 2a pars primae conclusionis et patet consequentia quia in causis <unclear cert="high">convertibilibus</unclear> si affirmativa 
+          <lb ed="#L"/>est causa affirmationis et negatio negationis ut habetur <ref>primo <title ref="#PosteriorAnalytics">posteriorum</title></ref></p>
+        
+        <p xml:id="pgb1q35-d1e3892"><g ref="#pilcrow"/>2o illud 
+          <lb ed="#L"/>quod <unclear>deo</unclear> convenit ab aeterno et <choice><orig>neccessario</orig><reg>necessario</reg></choice> non conventi sibi quia convenit creaturae sed deum 
+          <lb ed="#L"/>non producere <c>b</c> impossibile convenit sibi ab aeterno <corr><del rend="strikethrough">non</del><add place="aboveLine">et</add></corr> <choice><orig>neccessario</orig><reg>necessario</reg></choice> ergo non per creaturam 
+          <lb ed="#L"/>nec per aliquod sibi extrinsecum maior probatur quia vel illud est imperfectionis vel perfectionis 
+          <lb ed="#L"/>si primum non convenit deo si 2m sequitur quod sibi non conveniat per creaturam 
+          <lb ed="#L"/>nec per aliquod intelligibile sibi extrinsecum minor rationis est nota</p>
+        
+        <p xml:id="pgb1q35-d1e3931"><g ref="#pilcrow"/>3o ideo 
+          <lb ed="#L"/>creatura non potest deum corrumpere quia deus non potest corrumpi ergo ideo impossibile 
+          <lb ed="#L"/>non potest esse quia deus non potest illud producere inesse tenet consequentia quia eodem modo 
+          <lb ed="#L"/>videtur dicendum de omnibus impossibilibus antecedens probatur quia <choice><orig>neccessarias</orig><reg>necessarias</reg></choice> essendi formaliter 
+          <lb ed="#L"/>ex parte dei est ratio quare creatura non potest ipsum corrumpere et non <choice><orig>deffectus</orig><reg>defectus</reg></choice> 
+          <lb ed="#L"/>potentiae creaturae</p>
+        
+        <p xml:id="pgb1q35-d1e3958"><g ref="#pilcrow"/>4o aeque impossibile est deum facere peccatum sicut chymeram 
+          <lb ed="#L"/>vel aliud impossibile sed ratio impossibilitatis primi se tenet ex parte dei ut dicit 
+          <lb ed="#L"/>corollarium unum ergo ratio impossibilitatis cuiuslibet alterius etiam se tenebit ex parte 
+          <lb ed="#L"/>dei non creaturae seu impossibilitatis <corr><del rend="strikethrough">dei</del><add place="inLine">rei</add></corr> 2a pars antecedentis prius est concessa <g ref="#dot"/> 
+          <lb ed="#L"/><g ref="#slash"/>confirmatur quia deus est causa omnium causarum causantium repugnantiam et impossibilitatem 
+          <lb ed="#L"/>igitur illa impossibilitas se tenet ex parte dei</p>
+        
+        <p xml:id="pgb1q35-d1e3982"><g ref="#pilcrow"/>contra 2am partem istius conclusionis 
+          <lb ed="#L"/>si ideo <c>a</c><g ref="#dot"/> possibile potest esse etc sequitur quod ab aeterno et <choice><orig>neccessario</orig><reg>necessario</reg></choice> deus ageret et 
+          <lb ed="#L"/>vellet adextra consequens est falsum et patet consequentia quia ab aeterno quodlibet possibile fuit 
+          <lb ed="#L"/>possibile et etiam <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> est deum posset producere <c>a</c> possibile <choice><orig>ymmo</orig><reg>immo</reg></choice> deus vult 
+          <lb ed="#L"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> a possibile posse esse</p>
+        
+        <p xml:id="pgb1q35-d1e4026"><g ref="#pilcrow"/>2o creaturam esse producibilem a deo et deum 
+          <lb ed="#L"/>esse productivum ipsius sunt simul natura quia corruptiva ergo unum non est causa alterius 
+          <lb ed="#L"/>consequentia patet quia causa naturaliter est prior causato et antecedens patet de se</p>
+        
+        <p xml:id="pgb1q35-d1e4034"><g ref="#pilcrow"/>3o aliquid est possibile formaliter 
+        <pb ed="#L" n="105v"/>et non est possibile deo ergo non ideo etc antecedens patet quia posse errare decipi 
+        <lb ed="#L"/>fallere sunt in se possibilia et non deo ergo</p>
+        
+        <p xml:id="pgb1q35-d1e4042"><g ref="#pilcrow"/>4o <c>a</c><g ref="#dot"/> non ideo potest esse 
+          <lb ed="#L"/>talle vel taliter se habens quia deus potest ipsum facere tale vel taliter 
+          <lb ed="#L"/>se habens ergo non ideo quia deus potest ipsum facere esse est possibile tenet consequentia 
+          <lb ed="#L"/>quia ratio negandi consequens est quia omnis possibilitas est a deo antecedens patet quia actus 
+          <lb ed="#L"/>non potest esse a deo deformis vituperalis nec demeritorius <choice><orig>ymmo</orig><reg>immo</reg></choice> nec 
+          <lb ed="#L"/>meritorius denominative</p>
+        
+        <p xml:id="pgb1q35-d1e4067"><g ref="#pilcrow"/>contra prima partem 2ae conclusionis arguitur quia de ratione cuiuslibet ad 
+          <lb ed="#L"/>extra producto repugnat infinitas quaelibet consequentia patet quia qua ratione 
+          <lb ed="#L"/>sibi conveniret unus modus infinitatis eadem ratione nullus sibi repu<lb ed="#L"/>gnaret 
+          antecedens patet per <ref><name ref="#Augustine">augustinum</name> 6o <title ref="#deTrinitate">de trinitate</title> capitulo</ref> 5o <g ref="#slash"/>Item <title ref="#sap">sapientiae</title> <sic>7<!-- actually 11 --></sic> <quote ana="#sap11_21">omnia 
+          <lb ed="#L"/>constituisti <unclear>domine</unclear> in numero pondere et mensura</quote></p>
+          
+          <p xml:id="pgb1q35-d1e4102"><g ref="#pilcrow"/>2o sequitur quod deus respectu 
+            <lb ed="#L"/>alicuius producibilis adextra posset se reddere impotentem consequens est falsum et patet 
+            <lb ed="#L"/>consequentia quia si produceret infinitum non posset aliud illius rationis postea pro<lb ed="#L"/>ducere 
+            patet quia quodlibet quod esset illius speciei includeretur in illo aliter non esset 
+            <lb ed="#L"/>infinitum</p>
+        
+        <p xml:id="pgb1q35-d1e4114"><g ref="#pilcrow"/>3o si deus prouceret caritatem vel albedinem infinitam 
+          <lb ed="#L"/>sequitur quod illa continent infinitos gradus et per consequens esset infinitus numerus 
+          <lb ed="#L"/>consequens est impossibile ut patet per supra dicta omnis numerus est par aut impar et potest 
+          <lb ed="#L"/>augeri per additionem unitatis et per consequens nullus infinitus est numerus possibilis 
+          <lb ed="#L"/>vel dabilis</p>
+        
+        <p xml:id="pgb1q35-d1e4127"><g ref="#pilcrow"/>contra 3am conclusionem qualitercumque divina voluntas se habebit intrinsece respectu <g ref="#dot"/><c>a</c><g ref="#dot"/> 
+          <lb ed="#L"/>futuri taliter nunc se habet respectu illius sed quandoque se habebit respectu illius <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+          <lb ed="#L"/>ergo et nunc <choice><orig>neccessario</orig><reg>necessario</reg></choice> vult a fore minor est nota quia quandocumque a futurum erit 
+          <lb ed="#L"/>praeteritum <choice><orig>neccessario</orig><reg>necessario</reg></choice> deus volet a fuisse <g ref="#slash"/>sed maior probatur multipliciter primo quia si non 
+          <lb ed="#L"/>sequitur quod deus esset hodie minus liber quam heri consequens est falsum patet consequentia 
+          <lb ed="#L"/>de aliquo futuro quod hodie transivit in praeteritum quia hodie <choice><orig>neccessario</orig><reg>necessario</reg></choice> deus 
+          <lb ed="#L"/>vult ipsum fuisse et heri non <choice><orig>neccessario</orig><reg>necessario</reg></choice> sed libere illud voluit ergo etc</p>
+        
+        <p xml:id="pgb1q35-d1e4182"><lb ed="#L"/><g ref="#slash"/>2o quia si non sequitur quod aliqua creatura <choice><orig>neccessitabit</orig><reg>necessitabit</reg></choice> divinum velle ad volendum 
+          <lb ed="#L"/>consequens est falsum et patet consequentia quia ex positione creaturae in esse <choice><orig>neccessitaretur</orig><reg>necessitaretur</reg></choice> deus 
+          <lb ed="#L"/>ad volendum talem creaturam</p>
+        
+        <p xml:id="pgb1q35-d1e4203"><g ref="#pilcrow"/>Item novae <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> illius est causa aliqua 
+          <lb ed="#L"/>ergo quia non nisi creatura <g ref="#slash"/>3o sequitur quod pura privatio et purum nihil divinam 
+          <lb ed="#L"/><choice><orig>neccessitabit</orig><reg>necessitabit</reg></choice> voluntatem consequens non est dicendum et patet consequentia quia res praeterita nihil 
+          <lb ed="#L"/>est et tamen ducit deum ad impossibilitatem et <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> volendi igitur</p>
+        
+        <p xml:id="pgb1q35-d1e4233"><g ref="#pilcrow"/>4to 
+          <lb ed="#L"/>voluntas divina ex se <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> respectu praeteriti ergo etiam respectu futuri tenet consequentia quia non 
+          <lb ed="#L"/>videtur ratio diversitatis quin si <choice><orig>neccessitet</orig><reg>necessitet</reg></choice> se ipsum respectu praeteriti quin posset 
+          <lb ed="#L"/>respectu futuri</p>
+        
+        <p xml:id="pgb1q35-d1e4255"><g ref="#pilcrow"/>Ad primum negatur consequentia et ad probationem dicitur quod regula illa non 
+          <lb ed="#L"/>tenet secundum quamlibet formam et in diversis materiebus nam non sequitur <unclear cert="low">corruptibile</unclear> 
+          <lb ed="#L"/>ideo immediate potest a deo destrui quia deus est virtus destructiva opus 
+          <lb ed="#L"/>ergo quod non est corruptibile idoe non potest destrui vel <choice><orig>corrumpi</orig><reg>corrupi</reg></choice> quia deus non est 
+          <lb ed="#L"/>virtus destructiva opus patet consequentiam non valere quia spiritus sanctus non potest des<pb ed="#L" n="106r"/><lb ed="#L"/>trui 
+          non quia deus non sit virtus destructiva omnipotens sed quia spiritus sanctus est formaliter 
+          <lb ed="#L"/><choice><orig>neccesse</orig><reg>necesse</reg></choice> esse</p>
+        
+        <p xml:id="pgb1q35-d1e4287"><g ref="#pilcrow"/>Item non sequitur omne ab aeterno cognitum fore ideo est ab aeterno co<lb ed="#L"/>gnitum 
+          fore quia deus videt ab aeterno omnia futura ergo quod non est ab aeter<lb ed="#L"/>no 
+          cognitam ideo non est cognitum fore quia deus non videt omnia futura 
+          <lb ed="#L"/>Item non sequitur omnis avis potest volare quia animal alatum alis potet volare ergo 
+          <lb ed="#L"/>quod non potest volare ideo non potest volare quia animal alatum alis non potest 
+          <lb ed="#L"/>volare sed otius quia non est animal alatum non potest volare <g ref="#slash"/>2o dicitur quod negatio 
+          <lb ed="#L"/>est causa negationois si negatio illa post puram negationem denotet affirmationem 
+          <lb ed="#L"/>in proposito autem denotaret defectum potentiae in deo qui staret ex parte 
+          <lb ed="#L"/>dei et non ex parte obiecti <g ref="#slash"/>denotaret etiam illa negatio quod causa <unclear>praecisiva</unclear> vel 
+          <lb ed="#L"/>potior se tenent ex parte dei sicut in affirmativa notatur talis causalitas 
+          <lb ed="#L"/>praecisiva vel potior ex parte dei</p>
+        
+        <p xml:id="pgb1q35-d1e4321"><g ref="#pilcrow"/>Ad 2m conceditur maior si li quia denotet 
+          <lb ed="#L"/>causalitatem si autem sumatur large ut magis negetur causalitas quam po<lb ed="#L"/>natur 
+          sic negatur maior et maxime capiendo convenire large pro quocumque de 
+          <lb ed="#L"/>deo dicibili sine per modum affirmationis sive negationis sive per enun<lb ed="#L"/>tiationem 
+          de praesenti de esse seu de possibili</p>
+        
+        <p xml:id="pgb1q35-d1e4333"><g ref="#pilcrow"/>Ad probationem dicitur quod non est perfectionis 
+          <lb ed="#L"/>nec imperfectionis non posse facere impossibile sed quia nihil ponit in affirmativa sed tantum 
+          <lb ed="#L"/>negat</p>
+        
+        <p xml:id="pgb1q35-d1e4341"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia aliqua dicuntur de deo cum modo impossibilitatis 
+          <lb ed="#L"/>quae non denotant nec cognotant imperfectionem in deo sed potius realiter et im<lb ed="#L"/>plicite 
+          dicunt perfectionem potentiae in ipso sic quod illa possibilitas aequivalet <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> 
+          <lb ed="#L"/>perfectionis sicut est non posset <choice><orig>corrumpi</orig><reg>corrupi</reg></choice> non posse impedire non posse non in<lb ed="#L"/>fluere 
+          causae 2ae agenti <g ref="#slash"/>quaedam vero cum negatione potentiae dicta de ipso deno<lb ed="#L"/>tarent 
+          imperfectionem ut dictum non posse se solo producere <g ref="#dot"/><c>b</c><g ref="#dot"/> modo impossibilitas 
+          <lb ed="#L"/>faciendi chymeram non provenit ex imperfectione potentiae absolute</p>
+        
+        <p xml:id="pgb1q35-d1e4377"><g ref="#pilcrow"/>Ad 3m dicitur 
+          <lb ed="#L"/>quod non est simile de quolibet impossibili quia non posse peccare convenit deo ratione 
+          <lb ed="#L"/><choice><orig>neccessariae</orig><reg>necessariae</reg></choice> bonitatis <corr><del>ita</del></corr> ideo tam convenienter sumitur ex parte dei sed impos<lb ed="#L"/>sibilitas 
+          producendi chymeram non sic denotat <corr><add place="aboveLine">im</add>perfectionem</corr> in deo sed 
+          <lb ed="#L"/>potius videretur denotare imperfectionem si se teneeret ex parte dei et non 
+          <lb ed="#L"/>principaliter ex parte chymerae improducibils</p>
+        
+        <p xml:id="pgb1q35-d1e4406"><g ref="#pilcrow"/>Ad confirmationem dicitur quod licet deus sit causa 
+          <lb ed="#L"/>remota et per accides indirecte illius impossibilitatis eo quod est causa actu vel 
+          <lb ed="#L"/>potentia naturarum ex formalibus rationibus repugnantium tamen non sequitur propter hoc pro<lb ed="#L"/>positum</p>
+        
+        <p xml:id="pgb1q35-d1e4416"><g ref="#pilcrow"/>Ad primum contra 2am partem negatur consequens quia licet propositio causalis proprie si sit 
+          <lb ed="#L"/>de inesse affirmativa de praesenti veram habeat causalitatem in re correspondentem tamen 
+          <lb ed="#L"/>hoc universaliter non requiritur ad veritatem cuiuslibet causalis <unclear>ypostaticae</unclear> unde in proposito 
+          <lb ed="#L"/>illa causalis non significat causam et propter quid nec est de inesse sed de possibili nec 
+          <lb ed="#L"/>significat causam causare sed posse causare</p>
+        
+        <p xml:id="pgb1q35-d1e4432"><g ref="#pilcrow"/>Ad 2m posset concedi consequens et consequentia loquendo 
+          <lb ed="#L"/>de propria et vera causalitate si tamen intelligeretur <corr><del rend="strikethrough">de</del></corr> inconveniente vel inferetur 
+          <lb ed="#L"/>ex ipso quod talis <unclear>ypostatica</unclear> causalis esset falsa sic negatur consequentia</p>
+        
+        <p xml:id="pgb1q35-d1e4447"><g ref="#pilcrow"/>Ad 3m 
+          <lb ed="#L"/>negatur antecedens sumendo possibile proprie pro aliquo producibili per se <g ref="#slash"/>ad probationem 
+          <pb ed="#L" n="106v"/><lb ed="#L"/>dicitur quod peccatum posse esse a deo non tantum importaret aliquod ens posse esse 
+          <lb ed="#L"/>a deo effective sed aliquid importaret posse fieri a deo vel <choice><orig>obmitti</orig><reg>omitti</reg></choice>  
+          <lb ed="#L"/>contra dictamen rectae rationis et contra regulam divinae iustitiae cui debet deus 
+          <lb ed="#L"/>conformari</p>
+        
+        <p xml:id="pgb1q35-d1e4471"><g ref="#pilcrow"/>Ad 4m dicitur quod si per esse intelligitur esse tale per formam 
+          <lb ed="#L"/>positivam sic negatur antecedens si vero intelligitur esse tale generaliter positive 
+          <lb ed="#L"/>privative absolute relative sic negatur consequentia quia quandoque rem posse esse talem 
+          <lb ed="#L"/>vel taliter non est proprie rem habere potentiam sed <choice><orig>deffectum</orig><reg>defectum</reg></choice> potentiae vel potentiam 
+          <lb ed="#L"/><choice><orig>deffectivam</orig><reg>defectivam</reg></choice> <g ref="#slash"/>2o dicitur conformiter ad quoddam corollarium quod sicut a solo deo non 
+          <lb ed="#L"/>potest effici meritorius actus propter conditionem relativam ad causam 2am sub habitudine 
+          <lb ed="#L"/>determinata sic etiam nec in consensu compositionis effectus causae 2ae potest esse a solo 
+          <lb ed="#L"/>deo et sic potest dici quod solus deus licet actum meritorium possit pro<lb ed="#L"/>ducere 
+          non tamen potest producere actum meritorium</p>
+        
+        <p xml:id="pgb1q35-d1e4505"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur 
+          <lb ed="#L"/>consequentia quia si deus produceret aliquod infinitam caritatem <choice><orig>ad huc</orig><reg>adhuc</reg></choice> posset 
+          <lb ed="#L"/>creare aliam quia posset <choice><orig>corrumpere</orig><reg>corrupere</reg></choice> <unclear><unclear cert="low">aliam</unclear></unclear> et producere aliam infinitam <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+          <lb ed="#L"/>posset conservare primum in eodem <choice><orig>loco que</orig><reg>locoque</reg></choice> ponere cum prima et 2am et 3am secundum 
+          <lb ed="#L"/>sui beneplacitum</p> 
+        
+        <p xml:id="pgb1q35-d1e4546"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia forte licet deus posset 
+          <lb ed="#L"/>infinita producere non tamen infinitum numerum primum patet de productione an<lb ed="#L"/>gelorum 
+          per partes proportionales horae 2m patet quia par vel impar est <unclear>passio</unclear> 
+          <lb ed="#L"/>numero ab eo inseparabilis et per unitatem posse augeri</p>
+        
+        <p xml:id="pgb1q35-d1e4559"><g ref="#pilcrow"/>Ad primum contra 3am 
+          <lb ed="#L"/>conclusionem negatur consequentia ad probationem primam similiter negatur consequentia quia idem eodem modo vult hodie 
+          <lb ed="#L"/>et heri intrinsece</p>
+        
+        <p xml:id="pgb1q35-d1e4568"><g ref="#slash"/>Ad 2m negatur consequentia et consequens ad probationem dicitur quod si li <mentioned>ex</mentioned> de<lb ed="#L"/>notet 
+          connaturalem illationem conditur si vero causalitatem negatur quia talis <choice><orig>neccessaris</orig><reg>necessaris</reg></choice> <corr><add place="marginRight">non</add></corr> 
+          <lb ed="#L"/>proprie habet causam</p>
+        
+        <p xml:id="pgb1q35-d1e4589"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia solum est illa <choice><orig>neccessaris</orig><reg>necessaris</reg></choice> connaturalis</p>
+        
+        <p xml:id="pgb1q35-d1e4599"><lb ed="#L"/>Ad 4m negatur consequentia quia ex se eo <choice><orig>neccessitatur</orig><reg>necessitatur</reg></choice> <corr><del rend="strikethrough">spiritus sanctus</del></corr> ad productionem 
+          <lb ed="#L"/>spiritus sancti et non alterius rei</p>
+        
+        <p xml:id="pgb1q35-d1e4615"><g ref="#pilcrow"/><quote>fateamur itaque deum<!-- probably a quote from lombard --></quote> etc 
+          <lb ed="#L"/>prima conclusio quod deus potest facere plura quam facit et alia velle quam vellit de 
+          <lb ed="#L"/>facto vide textum ibi et lege rationes et solutiones ibidem</p>
+        
+        <p xml:id="pgb1q35-d1e4626"><g ref="#slash"/>2a conclusio quod <unclear>quae</unclear> <corr><add place="marginRight">facit</add></corr> 
+          <lb ed="#L"/>deus decet eum facere et si alia faceret deceret eum faceret et tamen eius 
+          <lb ed="#L"/>voluntas non est alia nec nova nec immutabilis aliquo modo esse potest licet enim 
+          <lb ed="#L"/>possit velle quod numquam voluit hoc tamen non potest velle nova voluntate 
+          <lb ed="#L"/>sed aeterna quod ostendit pluribus rationibus et auctoribus lege textum illum</p>
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
