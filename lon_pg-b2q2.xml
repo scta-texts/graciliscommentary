@@ -31,12 +31,12 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
-      </div>
-    </front>
+  	<front>
+  		<div xml:id="includeList">
+  			<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+  			<xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+  		</div>
+  	</front>
     <body>
       <div xml:id="pg-b2q2">
         <head subtype="title">Librum II, Quaestio II</head>
@@ -90,7 +90,7 @@
 
         <p xml:id="pgb2q2-iistms"><g ref="pilcrow" />Item <name ref="#Jerome">Ieromus</name> <title ref="#">super 
         <lb ed="#L" />osseae</title> capitulo 3o dicit daemones in magna pinguedine spiritus sancti sunt creati 
-        <lb ed="#L" />Item <title>ezekiel</title> 18 scribitur de lucifero <corr><del rend="strikethrough">si</del></corr> quomodo perfectus in viis tuis ambu<lb ed="#L" />lasti  
+        <lb ed="#L" />Item <title ref="#ez">ezekiel</title> 18 scribitur de lucifero <corr><del rend="strikethrough">si</del></corr> quomodo perfectus in viis tuis ambu<lb ed="#L" />lasti  
         in die creationis tuae donec inventa est iniquita in te Item <name ref="#JohnDamascenus">damascenus</name> 
         <lb ed="#L" />libro <sic>libro</sic> 2o capitulo 3o dicit verbo dei creati sunt omnes angeli et a spiritu sancto per 
         <lb ed="#L" /><corr><del rend="strikethrough">crea</del></corr> sanctificationem sunt facti secundum proportionem dignitus et ordinis 
@@ -184,7 +184,7 @@
 		
 		<p xml:id="pgb2q2-3cpata"><g ref="pilcrow" />3a conclusio primum peccatum angelis 
 		<lb ed="#L" />fuit ingratitudo obmissiva in inanis gloriae et vane inordinata 
-		<lb ed="#L" />delectatio commissiva conclusio patet per <name ref="#Augustine">beatum augustinum</name> 12 <title>de civitate dei</title> capitulo 9o 
+		<lb ed="#L" />delectatio commissiva conclusio patet per <name ref="#Augustine">beatum augustinum</name> 12 <title ref="#CityOfGod">de civitate dei</title> capitulo 9o 
 		<lb ed="#L" />vel 11o <title>super genesi</title> dicentem Iste inquit <name ref="#Lucifer">lucifer</name> quia se vidit pulchrum 
 		<lb ed="#L" />et liberum in naturalibus a gratuitis atque aliis spiritibus[?] speritivus[?] praelatum non inde[?] 
 		<lb ed="#L" />se convertit ad deum cum tenentur et posset ecce ingratitudo obmissiva  
@@ -378,7 +378,7 @@
 		<lb ed="#L" />ibidem dicens quod non a se habuit illam nec a libero arbitrio sed a deo 
 		<lb ed="#L" />ideo solum prioritas fuit ibi naturae inter istam formationem et inform<lb ed="#L" />itatem 
 		oppositam sibi unde <name ref="#Augustine">augustinus</name> ibidem post dicit formationem suam 
-		<lb ed="#L" />praecessit non tempore sed origine <g ref="#slash" /> Item 11o <title>de civitate</title> capitulo 11o nullo modo secundum tempus 
+		<lb ed="#L" />praecessit non tempore sed origine <g ref="#slash" /> Item 11o <title ref="#CityOfGod">de civitate</title> capitulo 11o nullo modo secundum tempus 
 		<lb ed="#L" />spatium[?] prius erant illi spiritus tenebrae quod angelos dicimus sed simul 
 		<lb ed="#L" />ut facti sunt ab hac quidam aversi ex quilibet verbis patet solutio illarum 
 		<lb ed="#L" />duarum auctoritatum et similium[?]. 
