@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q15">
         <head>Quaestio 15</head>
@@ -85,8 +97,8 @@
           <lb ed="#L"/>tamen humanitas <unclear>supponiter</unclear> christo unita <unclear>acribus</unclear> personis divinis solum fuit creata prima 
           <lb ed="#L"/>patet ex conclusione <g ref="#slash"/>2a probatur cum ratione dignitatis illius unionis suppositabilis dcuit illam 
           <lb ed="#L"/>materiam immediate a deo produci <g ref="#slash"/>tum 2o illa in instanti fuit formata sed hoc non videtur 
-          <lb ed="#L"/>posse fieri a finita potentia ut nunc suppono <g ref="#slash"/>ad hoc videtur scriptura <ref><title>matthaeo</title> 1o</ref> quod <quote ana="#mt1_20">in ea 
-          <lb ed="#L"/>natum est de spiritu sancto est</quote> Item <ref><title>luce</title> 1o</ref> <quote ana="#lc1_35">spiritus sanctus supervenient in te</quote> etc</p>
+          <lb ed="#L"/>posse fieri a finita potentia ut nunc suppono <g ref="#slash"/>ad hoc videtur scriptura <ref><title ref="#mt">matthaeo</title> 1o</ref> quod <quote ana="#mt1_20">in ea 
+          <lb ed="#L"/>natum est de spiritu sancto est</quote> Item <ref><title ref="#lc">luce</title> 1o</ref> <quote ana="#lc1_35">spiritus sanctus supervenient in te</quote> etc</p>
         
         <p xml:id="pgb1q15-d1e340"><g ref="#pilcrow"/>2m corollarium 
           <lb ed="#L"/>licet angelus signum corporale temporalis missionis personae divinae possit producere 
@@ -109,7 +121,7 @@
         <p xml:id="pgb1q15-d1e403"><g ref="#pilcrow"/>2a conclusio species sensibilis assistens ex<lb ed="#L"/>trinsece 
         et in existens intrinsece memoriae vitaliter immutat intellectum et actuat ipsum 
           <lb ed="#L"/>obiectaliter et taliter patet quantum ad species extrinsece existentes per <ref><name ref="#Augustine">beatum Augustinum</name> in 
-          <lb ed="#L"/><title>de vera religione</title> capitulo 6o</ref> et <ref>2o <title ref="#deTrinitate">de trinitate</title> capitulo 4o</ref></p>
+            <lb ed="#L"/><title ref="#DeVeraReligione">de vera religione</title> capitulo 6o</ref> et <ref>2o <title ref="#deTrinitate">de trinitate</title> capitulo 4o</ref></p>
         
         <p xml:id="pgb1q15-d1e425"><g ref="#pilcrow"/>Item patet per <name ref="#Aristotle">philosophum</name> in <title>de memoria</title> 
           <lb ed="#L"/>et reminiscentia ubi dicit factus enim motus assensu vel <unclear>assens?ili[?]</unclear> imprimit in animam 
@@ -126,7 +138,7 @@
           <pb ed="#L" n="51r"/><lb ed="#L"/>immutatio est actus formalis talium specierum cum stet illas omne et nihil vitaliter im<lb ed="#L"/>mutare</p>
         
         <p xml:id="pgb1q15-d1e476"><g ref="#pilcrow"/>2m corollarium stat intellectum aliquid apprehendere et ab eodem moveri vitaliter 
-          <lb ed="#L"/>et illud movens esse praesens intellectui realiter vel situaliter paret <name ref="#Augustine">beatum augustinum</name> in <title>de 
+          <lb ed="#L"/>et illud movens esse praesens intellectui realiter vel situaliter paret <name ref="#Augustine">beatum augustinum</name> in <title ref="#DeVeraReligione">de 
             <lb ed="#L"/>vera religione</title> ubi dicit se vitaliter apprehendere solere absentem et romam 
           <lb ed="#L"/>seu <unclear>carthagenem</unclear> distantes et hoc experimur</p>
         
