@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -30,7 +31,16 @@
     </fileDesc>
   </teiHeader>
   <text xml:lang="la">
-    
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
     <body>
       <div xml:id="pg-b1q18">
         <head>Quaestio 18</head>
@@ -58,9 +68,9 @@
           <lb ed="#L"/>sequitur quod posset esse menti creatae motus dilectionis ordinatae consequens est falsum cum motus 
           <lb ed="#L"/>imperfectionem dicat</p>
         
-        <p xml:id="pgb1q18-d1e173"><g ref="#pilcrow"/>3o si deus posset aufferre menti rectitudinem sequitur quod posset facere 
+        <p xml:id="pgb1q18-d1e173"><g ref="#pilcrow"/>3o si deus posset <choice><orig>aufferre</orig><reg>auferre</reg></choice> menti rectitudinem sequitur quod posset facere 
           <lb ed="#L"/>mentem peccantem consequens est falsum quia deo auctore nemo determinor sit secundum <name ref="#Augustine">augustinum</name> 
-          <lb ed="#L"/>consequentia patet quia omnis mens carens rectitudine est in iusta <g ref="#slash"/>Ad videtur <ref><name ref="#Anselm">anselmus</name> libro <title>de libero arbitrio</title> 
+          <lb ed="#L"/>consequentia patet quia omnis mens carens rectitudine est in iusta <g ref="#slash"/>Ad videtur <ref><name ref="#Anselm">anselmus</name> libro <title ref="#DeLiberoArbitrio">de libero arbitrio</title> 
           <lb ed="#L"/>capitulo 4o</ref></p>
         
         <p xml:id="pgb1q18-d1e196"><g ref="#slash"/>In oppositum arguitur prima pars est superius ostensa sed 2a probatur quia rectitudo et voluntas sunt 
@@ -116,7 +126,7 @@
         
         <p xml:id="pgb1q18-d1e384"><g ref="#pilcrow"/>3a conclusio licet deus nullam culpae latitudinem possit homini inferre 
           <lb ed="#L"/>tantum deus voluntatis rectitudinem potest homini aufferre prima pars patet quia tunc deo 
-          <lb ed="#L"/>auctore talis homo fieret determinor contra <ref><name ref="#Augustine">augustinum</name> <title>83 quaestiones</title> quaestione 5</ref> 2a probatur quia omne 
+          <lb ed="#L"/>auctore talis homo fieret determinor contra <ref><name ref="#Augustine">augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione 5</ref> 2a probatur quia omne 
           <lb ed="#L"/>quod non est voluntas potest deus seperare et ab ea auferre sed rectitudo voluntatis 
           <lb ed="#L"/>non est voluntas ergo maior nota quia omnem rem absolutam ab alia distincta deus etc minor 
           <lb ed="#L"/>patet quia rectitudo et voluntas creata si esset idem sequeretur quod omnis voluntas creata esset 
@@ -126,7 +136,7 @@
         <p xml:id="pgb1q18-d1e417"><g ref="#pilcrow"/>primum corollarium quaelibet rectitudo simpliciter humanae 
           <lb ed="#L"/>voluntatis includit realiter latitudinem gratitudinem gratificantis caritatis 
           <lb ed="#L"/>patet quia si non sequeretur quod voluntas posset eam habere a se vel ab alia creatura contra <ref><name ref="#Anselm">venarabilem 
-          <lb ed="#L"/>anselmum</name> <title>de libero arbitrio</title> capitulo 14</ref></p>
+            <lb ed="#L"/>anselmum</name> <title ref="#DeLiberoArbitrio">de libero arbitrio</title> capitulo 14</ref></p>
         
         <p xml:id="pgb1q18-d1e434"><g ref="#pilcrow"/>2m corollarium stat mentem privatam esset tota latitudine 
           <lb ed="#L"/>rectitudinis et numquam demeruisse aliquam latitudinem poenae sue poenitudinis 
@@ -181,14 +191,14 @@
         
         <p xml:id="pgb1q18-d1e632"><g ref="#pilcrow"/>2o contra 
           <lb ed="#L"/>primum corollarium stat rectitudo voluntatis cum peccato mortali ergo non includit gratiam 
-          <lb ed="#L"/>gratificantem patet consequentia et antecedens patet per <ref><name ref="#Anselm">anselmum</name> <title>de libero arbitrio</title> capitulo 13</ref> dicentem <quote>volens habere rectitudinem 
+          <lb ed="#L"/>gratificantem patet consequentia et antecedens patet per <ref><name ref="#Anselm">anselmum</name> <title ref="#Anselm_DeLiberoArbitrio">de libero arbitrio</title> capitulo 13</ref> dicentem <quote>volens habere rectitudinem 
           <lb ed="#L"/>habet rectitudinem</quote> sed existens in mortali peccato potest velle havere rectitudinem ergo <g ref="#dbslash"/></p>
         
         <p xml:id="pgb1q18-d1e654"><lb ed="#L"/><g ref="#pilcrow"/>3o arguitur per <ref><name ref="#Anselm">anslemus</name> ibidem capitulo 14</ref> dicens omnem habentem rectitudinem dici potest habere iustitiam 
           <lb ed="#L"/>et esse iustum quia omnis habens iustitiam iustus est non tamen <unclear>sensio</unclear> iustis hominibus 
           <lb ed="#L"/>esse promissam perpetuam vitam sed illis tantum qui sunt iusti sine omni iniustitia 
           <lb ed="#L"/>4o contra 3m et 2m corollaria privatio iustitiae et rectitudinis est formaliter culpa ergo cuilibet 
-          <lb ed="#L"/>tali debetur pena consequentia tenet et antecedens est <ref><name ref="#Anselm">anselmus</name> in <title>de casu dyaboli</title> capitulo 4o</ref> dicens <quote>dya<lb ed="#L"/>bolus 
+          <lb ed="#L"/>tali debetur pena consequentia tenet et antecedens est <ref><name ref="#Anselm">anselmus</name> in <title ref="#DeCasuDiaboli">de casu dyaboli</title> capitulo 4o</ref> dicens <quote>dya<lb ed="#L"/>bolus 
           inquit perdidit iustitiam originalem in qua factus et pro ea invenit 
           <lb ed="#L"/>privationem eius qui nullam habet essentiam quam iniustitiam nominamus</quote></p>
         
