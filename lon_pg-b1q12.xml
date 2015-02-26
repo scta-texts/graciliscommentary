@@ -4,13 +4,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 12</title>
+        <title>Librum I, Quaestio 12 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2014.05-dev-master">
-          <title>Librum I, Quaestio 12</title>
+          <title>Librum I, Quaestio 12 [London Transcription]</title>
           <date when="2014-05-07">May 07, 2014</date>
         </edition>
       </editionStmt>
@@ -28,14 +28,20 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
-    
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-05-07" who="#JW" status="draft" n="2014.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div type="status">
-        <note type="status">Draft</note>
-        <note type="collobaration">Yes</note>
-      </div>
       <div xml:id="includeList">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
@@ -43,7 +49,7 @@
     </front>
     <body>
       <div xml:id="pg-b1q12">
-        <head>Quaestio 12</head>
+        <head>Quaestio 12 [London Transcription]</head>
          <p xml:id="pgb1q12-d1e92"><cb ed="#L" n="42v"/><lb ed="#L"/><hi rend="threeLineDropCap">I</hi><hi rend="largeFont">tem quaeritur etc</hi> <g ref="#pilcrow"/>haec est distinctio 12 inquam postquam <name ref="#Lombard">magister</name> determinavit 
            <lb ed="#L"/>de filii generatione et spiritus sancti processione <g ref="#slash"/>nunc tractat de earum adinvicem 
            <lb ed="#L"/>comparatione <g ref="#slash"/>et dividitur in daus quia primo inquirit de ordine processionis 2o 
@@ -355,13 +361,13 @@
         <p xml:id="pgb1q12-d1e1189"><g ref="#pilcrow"/><hi rend="largeFont">Post haec considerandum</hi> est haec 13 distinctio continet <g ref="#dot"/><c>a</c><g ref="#dot"/> conclusiones</p>
         
         <p xml:id="pgb1q12-d1e1200"><lb ed="#L"/><g ref="#pilcrow"/>prima quod licet spiritus sanctus procedat a patre et sit de substantia patris sicut et filius non tamen dicitur 
-          <lb ed="#L"/>natus sive genitus et ideo non dicitur filius cuius ratio est quia si diceretur filus esset filus 
+          <lb ed="#L"/>natus sive genitus et ideo non dicitur filius cuius ratio est quia si diceretur filius esset filius 
           <lb ed="#L"/>patris et fili cum procedat ab utroque sed absurdum est quod sit filius amborum quia nullus 
           <lb ed="#L"/>est filius duorum nisi sit patris et matris</p>
         
         <p xml:id="pgb1q12-d1e1211"><g ref="#pilcrow"/>2a conclusio quod licet filus et spiritus sanctus proc<lb ed="#L"/>dant 
         a patre tamen dissimiliter quia spiritus sanctus procedit a patre quomodo datus sive ut 
-          <lb ed="#L"/>donum filus vero proceit ut <corr><del rend="expunctuated">d</del></corr> natus sive ut genitus et ideo spiritus sanctus non est 
+          <lb ed="#L"/>donum filius vero procedit ut <corr><del rend="expunctuated">d</del></corr> natus sive ut genitus et ideo spiritus sanctus non est 
           <lb ed="#L"/>filius</p>
         
         <p xml:id="pgb1q12-d1e1225"><g ref="#pilcrow"/>3a conclusio quod spiritus sanctus non dicitur filius quia non est genitus sicut unigenitus nec factus 
@@ -386,8 +392,7 @@
           <lb ed="#L"/>illo qui ab alio non est aliquo tamen alius est et sic accipiendo ingenitum de solo patre dicitur 
           <lb ed="#L"/>quia filius est ab alio et spiritus sanctus a patre et filio qui sunt aliae personae et sic <name ref="#Lombard">magister</name> concordat 
           <lb ed="#L"/>dictam <name ref="#Augustine">augustini</name> et <name ref="#Jerome">Ieronimi</name> et haec sufficiant pro praesenti lectione</p>
-        
-        
+     
       </div>  
     </body>
   </text>
