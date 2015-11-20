@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 12</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.05-dev-master">
+          <title>Librum I, Quaestio 12</title>
+          <date when="2015-11-19">November 19, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-19">November 19, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-05-07" who="#JW" status="draft" n="2014.05">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q12">
+        <head>Quaestio 12</head>
+        <div>
+          <head>Circa textum</head>
+         <p xml:id="pgb1q12-d1e92">
+           <cb ed="#L" n="42v"/>
+           <cit>
+             <quote>Item quaeritur</quote>
+             <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d12c1-d1e3477">Lombardus, I, d. 12, c. 1, n. 1</ref></bibl>
+           </cit> 
+           etc. Haec est distinctio 12 <unclear>inquam <!-- in qua --></unclear> postquam <name ref="#Lombard">Magister</name> determinavit 
+           de Filii generatione et Spiritus Sancti processione, nunc tractat de earum adinvicem 
+           comparatione et dividitur in duas, quia primo inquirit de ordine processionis. Secundo, 
+           ostendit differentiam generationis et spirationis. Secunda in principio 13 distinctionis ibi 
+           <cit>
+             <quote>post haec</quote>
+             <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c1-d1e3477">Lombardus, I, d. 13, c. 1, n. 1</ref></bibl>
+           </cit> 
+           etc.</p> 
+        
+        <p xml:id="pgb1q12-d1etia">Prima dividitur 
+          in duas quia primo movet quaestiones, secundo ponit ad eas responsiones. Secunda ibi 
+           <cit>
+             <quote>his et 
+               huius quaestionibus</quote>
+             <bibl>Lombardus, </bibl>
+           </cit> 
+           Et ista dividitur in tres quia primo, ostendit quod Spiritus Sanctus non procedit 
+           prius a Patre quam a Filio. Secundo, quod non plenius ab uno quam ab alio. Tertio, ponit aliquarum 
+           auctoritatum intellectum in sensu vario. Secunda ibi 
+           <cit>
+             <quote>nunc autem tractandum.</quote>
+             <bibl>Lombardus, XXX</bibl>
+           </cit> 
+          Tertia ibi 
+           <cit>
+             <quote><name ref="#Augustine">Augustinus</name> tamen.</quote>
+             <bibl>Lombardus, XXX</bibl>
+           </cit>
+         </p>
+        
+        <p xml:id="pgb1q12-d1e138">Tunc sequitur distinctio patet[?] 
+          <cit>
+            <quote>post haec</quote>
+            <bibl>Lombardus, I, d. 13, c. 1, n. 1</bibl>
+          </cit> 
+          etc. quae in duas dividitur quia, primo ostendit quos Spiritus Sanctus 
+          non debet dici genitus. Secundo quod non debet dici ingenitus. Secunda ibi 
+          <cit>
+            <quote>nunc considerandum est.</quote>
+            <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c4-d1e3477">Lombardus, I, d. 13, c. 4, n. 1</ref></bibl>
+          </cit> 
+          Prima dividitur in tres quia primo ostendit quomodo generari non competiti Spiritui Sancto. Secundo quod procedere 
+          competit filio. Tertio quod inter generationem et processionem est differentia seu distinctio. Secundum cum aut 
+          Spiritus Sanctus. Tertia. vero ibi 
+          <cit>
+            <quote>inter generationem filii.</quote>
+            <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c3-d1e3477">Lombardus, I, d. 13, c. 3, n. 1</ref></bibl>
+          </cit> Secunda principalis dividitur in tres quia, primo ostendit Spiritum 
+          Sanctum non debere dici genitum. Secundo ex dictis <name ref="#Jerome">Ieromi[?]</name> obicit in contrarium. Et tertio, solvit 
+          argumentum <unclear>obyi[?]</unclear>. Secunda 
+          <cit>
+            <quote><name ref="#Jerome">Ieromus</name> tamen,</quote>
+            <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c4-d1e3526">Lombardus, I, d. 13, c. 4, n. 5</ref></bibl>
+          </cit> et tertia 
+          <cit>
+            <quote>sed ut istam</quote>
+            <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c4-d1e3552">Lombardus, I, d. 13, c. 4, n. 7</ref></bibl>
+          </cit> 
+          etc. Et haec sit diviso harum distinctionum, etc.</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q12-d1e168">Utrum sit possibile Spiritum Sanctum esse productum et ipsum non esse genitum 
+              nec ingenitum, utrum a Patre et Filio Spiritus Sanctus taliter procedat sic 
+              quod ipsum nec ingenitum ne genitum fides concedat utrum Spiritus Sanctus a 
+              Patre et Filio taliter producatur quod nec genitus nec ingenitus.</p> 
+              
+              <p xml:id="pgb1q12-vdqdnp">Vere dicatur quod non 
+              quia si Spiritus Sanctus non esset genitus, sequeretur quod viator tho?us[?] posset scire differentiam vel 
+              distinctionem inter generationem et processionem. Consequentia est bona et falsitas consequentis patet per <name ref="#Augustine">Augustinum</name> et 
+              <ref><name ref="#Lombard">Magistrum</name> in litera huius distinctionis 13</ref> dicentem: 
+                <cit>
+                  <quote>inter generationem et processionem, dum hic vivimus, distinguere non <unclear>possumus <!-- dbcheck because edited lombard text has sufficimus --></unclear></quote>
+                  <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c3-d1e3477">Lombard, I, d. 13, c. 3, n. 1</ref></bibl>
+                </cit>
+              </p>
+            
+            <p xml:id="pgb1q12-d1e200">Secundo, productiones ad intra divinae sunt eiusdem rationis 
+              et speciei, ergo sicut Filius per unam dicitur genitus ita Spiritus Sanctus per similem in specie potest dici genitus. 
+              Patet consequentia quia identitas specifica productionum et producentium et terminorum productorum 
+              arguit sufficienter identitatem denominationum seu proprietatum naturalium, alias staret quod 
+              productio <name ref="#Sortes">Sortis</name> et <name ref="#Plato">Platonis</name> esset eiusdem speciei, et tamen unus esset eiusdem speciei et alius non. 
+              Antecedens primum probatur quia termini seu personae per illas productiones productae non differunt specie, 
+              sed solum numeraliter vel personaliter.</p>
+            
+            <p xml:id="pgb1q12-d1e260">Tertio, Spiritus Sanctus est et non est genitus, ergo est ingenitus 
+              ergo ingenitus. Patet consequentia, quia negativa infert unam affirmativam de praedicato negato et propositio de praedicato 
+              <unclear>negato[?]</unclear> infert unam de praedicato infinito vel <unclear>infinitato</unclear>, ergo etc.</p>
+        
+            <p xml:id="pgb1q12-d1e268">In oppositum est <ref><name ref="#Lombard">Magister</name> 
+              in hac distinctione 13</ref> et <ref><name ref="#Augustine">Augustinus</name> primo <title ref="#deTrinitate">De Trinitate</title> capitulo sexto.</ref></p> 
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+            <p xml:id="pgb1q12-d1e287">Prima conclusio: licet sit impossibile non distingui 
+              productionem Filii a productione Spiritus Sancti, tamen de communi lege in vita praesenti nullus potest 
+              cognoscere huius distinctionem ratione evidenti. Prima pars probatur, quia aliter possibile esset esse in divinis 
+              quam nunc de facto sit si illae productiones non distinguerentur, sed hoc est impossibile, ergo. Impossibilitas 
+              patet per superius dictam quia qualitercumque est ad intra taliter necesse est esse. Secunda pars patet per 
+              <ref><name ref="#Lombard">Magistrum</name> in hac distinctione.</ref> Item per <ref><name ref="#Augustine">Augustinum</name> XIII <title ref="#deTrinitate">De Trinitate</title> capitulo 13,</ref> dicentem quod 
+              <cit>
+                <quote>illam trinitatem in hac luce videbimus ubi nulla ratio erit.</quote>
+                <bibl>Augustinus, De Trinitate, XIII, c. 13, xxx</bibl>
+              </cit> 
+              Et confirmatur tota conclusio per <ref><name ref="#JohnDamascenus">Damascenum</name> libro primo capitulo 10,</ref>
+              dicentem 
+              <cit>
+                <quote>quomodo est quaedam differentia generationis et processionis dicimus,</quote>
+                <bibl>Damascenus, XXX</bibl>
+                <!-- ending of quotation unclear here ?? -->
+              </cit> 
+              quis autem 
+              est modus dre[?] nequaquam pro ista etiam consequentiae[?] sunt 
+              <ref>
+                <seg>verba <name ref="#Lombard">Magistri</name> in textu.</seg>
+                <bibl>Lombardus, XXX</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q12-d1e343">Primum corollarium: quo 
+              <pb ed="#L" n="43r"/> 
+              non sequitur evidenter Filius a solo Patre et Spiritus Sanctus ab utroque producitur, ergo generatio Filii 
+              a processione Spiritus Sancti distinguitur. Patet quia unitas vel pluralitas producentium 
+              non infert pluralitatem vel distinctionem productionum maxime ubi est unus modus a 
+              gerendi[?], sicut est in proposito, sut dictum est supra.</p>
+            
+            <p xml:id="pgb1q12-d1e363">Secundum corollarium: quod eodem modo non sequitur producta 
+              supposita distinctae plurificantur, ergo productiones earumdem aliquo modo <unclear>distinguitur <!-- check number agreement with subject --></unclear>. Patet 
+              ex eodem.</p>
+            
+            <p xml:id="pgb1q12-d1e377">Tertium <supplied>corollarium</supplied>: quod ex modo producendi distinctio talis non potest evidenter ostendi. Patet 
+              quia si modus procedendi sufficiet, hoc esset, ideo quia Filius procedit quomodo natus et Spiritus Sanctus 
+              quomodo datus, ut dicit <ref><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo 14.</ref> Sed ista ratio non ostendit cur 
+              Spiritus Sanctus non procedit quomodo natus, ergo illa non sufficit, ex dictis posset inferri 
+              quod aliquod est necesse esset quod nullus viator stante lege potest nosce. Patet de distinctione 
+              productionum illarum personarum.</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+            
+            <p xml:id="pgb1q12-d1e408">Secunda conclusio: quam repugnat distinctio specifica inter personas divinas 
+              tam repugnat distinctio eadem inter productiones aeternas. Probatur quia utrobique repugnat, 
+              ergo aequa repugnat. Patet consequentia quia repugnantia seu oppositio contradictionis non habet latitudinem 
+              nec suscipit magis aut minus eodem modo sumpta. Antecedens probatur quia omnis distinctio specifica 
+              arguit et infert diversitatem <unclear>negatur</unclear>. Sed talis repugnat in divina essentia, ergo distinctio specifica in 
+              divinis personis vel productionibus non est ponenda. Secunda pars probatur quia productiones non 
+              sunt distinctae nisi ratione distinctionis personarum vel quia terminantur ad distinctas personas sed personae 
+              non specie sed solum numero distinguitur, ergo. Secundo, probatur conclusio quia supposita divina sunt eiusdem perfectionis 
+              simpliciter ergo eiusdem speciei tenet consequentia quia sicut nullae duae species sunt eiusdem perfectionis sic etc 
+              antecedens est catholicum. Tertio, confirmatur per 
+              <ref><name ref="#JohnDamascenus">Damscenum</name> libro III, capitulo sexto</ref> dicentem: 
+              <cit>
+                <quote>numero et non specie seu natura differre dicimus hypostases,</quote>
+                <bibl>Damascenus, XXX</bibl>
+              </cit> 
+              igitur.</p> 
+              
+            <p xml:id="pgb1q12-pcsppd">Primum corollarium: sed supposita divina et productiones ad 
+              intra non distinguitur specifice, tamen illa distingui numero conceditur catholice. Patet per dictam.</p> 
+              
+            <p xml:id="pgb1q12-scnssn">Secundum corollarium: non sequitur a per generationem producitur et <c>b</c> per generationem non produicitur ergo <c>a</c> ab 
+              ipso <c>b</c> specifice distinguitur patet quia Filius et Spiritus Sanctus non distinguitur specifice et tamen Filius generatur 
+              et Spiritus Sanctus non.</p>
+            
+            <p xml:id="pgb1q12-d1e489">Tertium corollarium: licet in divinis sint tria supposita numero distincta, tamen 
+              non proprie dicuntur tria eiusdem speciei individua. Istud corollarium ponit 
+              <ref>
+                <seg><name ref="#ThomasStrasbourg">Thomas Argentis</name> 
+                  libro primo distinctione</seg>
+                <bibl>Thomas Argentis, XXX</bibl>
+                <!-- possible quote below -->
+              </ref> 
+              dicentem non potest esse quia individuum importat alteritatem naturae non 
+              autem suppositum.</p>
+          </div>
+          <div>
+            <head>
+              <supplied>Tertia conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q12-d1e505">Tertia conclusio: sicut non stat Spiritum Sanctum esse Patrem aut Filium sic repugnat <unclear>s</unclear>
+              Spiritum Sanctum esse genitum vel ingenitum. Probatur prima pars quia personae divinae necessario 
+              distinguitur, ergo. Tenet consequentia et antecedens probatur, quia si non esset confusio personarum in divinis vel tantum esset 
+              una utrumque est error et impossibile, ergo. Secunda, pars probatur quia esset genitum est esse Filium 
+              et esse ingentium est esse patrem, ergo etc. Antecedens patet <ref>in hac 13 distinctione</ref> ubi dicitur quod si Spiritus 
+              Sanctus esset genitus duo Filii essent in divinis et si esset ingenitus duos patres in trinitate 
+              poneremus ut dicit <name ref="#Augustine">Augustinus</name>, ergo.</p>
+            
+            <p xml:id="pgb1q12-d1e531">Primum corollarium: sicut cum naturali identitate stat personarum 
+              alteritas ita cum trina personalitate stat productionem dualitas probatur quia 
+              in divinis sunt tantum duae productiones scilicet generatio et processio.</p>
+            
+            <p xml:id="pgb1q12-d1e551">Secundum corollarium: sicut solus Pater 
+              a nullo est productus sic solus Pater proprie dicitur ingenitus patet per dictam. Item per 
+              <ref><name ref="#JohnDamascenus">Damscenum</name> libro primo, capitulo nono</ref> dicentem 
+              <cit>
+                <quote>solus Pater est ingenitus solus Filius genitus solus Spiritus Sanctus processibilis 
+                  seu procedens.</quote>
+                <bibl>Damescenus, XXX, </bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q12-d1e566">Tertium corollarium: licet Spiritus Sanctus possit dici ingenitus improprie et negative 
+              <pb ed="#L" n="43v"/> 
+              non tamen debet dici ingenitus proprie et privative[?]. Prima pars patet quia Spiritus Sanctus non est genitus, ergo est ingenitus 
+              exponendo negative ingenitus. Secunda patet per dictam, quia tunc persona Spiritus Sancti esset persona 
+              Patris quod est impossibile, ex quibus omnibus sequitur pars conclusionis affirmativa.</p>
+          </div>
+          <div>
+            <head><supplied>Responsiones et Obiectiones</supplied></head> 
+            <p xml:id="pgb1q12-d1e577">Contra primam conclusionem arguitur primo 
+              rationibus 
+              <ref>
+                <seg><name ref="#HugolinoOfOrvieto">Hugolini</name> contra <name ref="#Rimini">Gregorium</name> arguentis libro primo distinctione 10 usque ad 14</seg>
+                <bibl>Hugolinus, XXX</bibl>
+              </ref> 
+              quia Filius est 
+              ab uno Spiritus Sanctus a duobus ergo ex modo procedendi inter generationem et processionem potest distinctio haberi 
+              sed <name ref="#Rimini">Magister Gregorius</name> dicit quod non sufficit, ideo <name ref="#HugolinoOfOrvieto">Hugolinus</name> replicat contra ubi est productio verbi 
+              non requiritur duplex producens vel productivum, ergo ratio distinctionis inter generationem et processionem 
+              potest assignari. Antecedens patet quia unum producens sufficit.</p>
+            
+            <p xml:id="pgb1q12-d1e608">Secundo, ubi est generatio viventis personae, 
+              ibi non possunt esse pluries generantes nisi alter illorum se haberet per modum materis, 
+              sed hoc est impossibile in divinis, ergo.</p>
+        
+            <p xml:id="pgb1q12-d1e617">Tertio, ubi est persona opus et se dicit si requiritur alia persona 
+              sequitur vel quod non sit opus vel quod aliter producat quam dicendo, ergo.</p>
+        
+            <p xml:id="pgb1q12-d1e623">Quarto, contra tertium corollarium quia, 
+              licet Spiritus Sanctus sit notitia, non tamen processione est notitia, nec Filius est amor generatione, 
+              ideo illae productiones sufficienter distinguitur ex eo quia Filius non est amore per generationem nec Spiritus 
+              Sanctus habet quod sit notitia per spirationem 
+              <ref>
+                <seg><name ref="#HugolinoOfOrvieto">Hugolinus</name> libro primo, distinctione 10 et 11, articulo 4,</seg>
+                <bibl>Hugolinus, I, d. 10 et 11, a. 4 <!-- ref to both 10 and 11 is unclear --></bibl>
+              </ref> 
+              vide ibi arguit contra <name ref="#Rimini">Gregorium</name>.</p>
+        
+        <p xml:id="pgb1q12-d1e647">Quinto, omnis perfecta operatio terminatur ad aliquem terminum productum, sed potest 
+          ratione convinci quod in Deo est perfecta operatio intellectus et voluntatis, ergo potest convinci quod intelligere 
+          divinum terminatur ad verbum et velle ad amorem, sed cum nihil producat se ipsum, sequitur 
+          quod productum realiter differat a producente sed talis differentia non potest esse in essentia, 
+          ergo in personis et earumdem processionibus.</p>
+        
+        <p xml:id="pgb1q12-d1e659">Sexto, naturam creatam reperiri in pluribus suppositis 
+          est perfectionis simpliciter in creatura, ergo est naturae divinae attribuendum. Consequentia tenet quia quidquid est perfectionis 
+          in creatura debet Deo attribui.</p>
+        
+        <p xml:id="pgb1q12-d1e667">Contra secundam conclusionem, productio divinarum personarum est 
+          secundum formas specie distinctas, ergo tales productiones specie <unclear>distinguitur <!-- distinguuntur might be better --></unclear>. Tenet consequentia quia illa distinctio est specifica 
+          quae est secundum formas distinctas. Et antecedens patet quia relationes divinae sunt specie distinctae, scilicet paternitas, 
+          filiatio, et passiva spiratio, et per tales distinguitur supposita divina, ergo.</p>
+        
+        <p xml:id="pgb1q12-d1e677">Secundo, supposita divina 
+          distinctis per ipsa non possunt dare aliam distinctionem quam illam quae ipsis competit secundum eorum formalem 
+          rationem, sed paternitas et filiatio secundum earum formales rationes differunt specie, ergo illa quae faciunt 
+          esse distincta distinguitur speciei.</p>
+        
+        <p xml:id="pgb1q12-d1e688">Tertio, contra corollaria, in tribus personis divinis non est maior bonitas 
+          quam in una, ergo frustra ponitur tres, ergo hoc non est ponendum. Patet haec consequentia, quia <quote ana="#aa-decaelo-18">Deus et natura 
+          nihil faciunt frustra</quote> <ref>primo <title ref="#deCaelo">caeli</title></ref> et antecedens est catholicum.</p>
+        
+        <p xml:id="pgb1q12-d1e704">Quarto, sicut se habet summe bonum 
+          ad malitiam, sic summe unum ad multitudinem, sed repugnat in summe bono esse 
+          malitiam, igitur in summe uno multitudinem. Ergo sicut repugnatur Deo peccatum vel peccabilitas, 
+          sic personarum pluralitas.</p>
+        
+        <p xml:id="pgb1q12-d1e725">Quinto, omnis oppositio realis relativa exigit 
+          suo <unclear>extrema</unclear> distinguitur realiter, vel oportet ergo ponere in divinis unam oppositionem relativam 
+          vel duas. Si unam, sic duo erunt <unclear>extrema</unclear> tantum. Si duas, tunc quattuor <unclear>extrema</unclear>,  
+          et per consequens quattuor personae quod non est dicendum.</p>
+        
+        <p xml:id="pgb1q12-d1e737">Sexto, idem est Patrem se dicere[?] quod verbum generare 
+          sed Filius et Spiritus Sanctus, ita perfecte se dicunt, sicut Pater se intelligunt, ergo vel 
+          tria verba dicuntur vel nullum dicitur.</p>
+        
+        <p xml:id="pgb1q12-d1e745"><unclear>Septimo</unclear> Pater amando Filium et Filius <unclear>reamando[?]</unclear> Patrem 
+          producunt Spiritum Sanctum, sed Pater non minus amat Spiritum Sanctum quam Filium nec, minus <unclear>reamatur</unclear> 
+          a Spiritu Sancto quam a Filio, ergo Pater et Spiritus Sanctus producunt alium Spiritum Sanctum vel 
+          <pb ed="#L" n="44r"/> 
+          nulla persona producitur per amorem.</p>
+        
+        <p xml:id="pgb1q12-d1e758">Contra tertiam conclusionem et corollaria, arguitur primo per <name ref="#Jerome">Ieromium</name> quem allegat 
+          <ref><name ref="Lombard">Magister</name> in distinctione</ref> enim dicens Spiritus Sanctus Pater non est, sed est ingenitus, tamen Pater non est quia Patris est, 
+          ergo Spiritus Sanctus est ingenitus.</p>
+        
+        <p xml:id="pgb1q12-d1e778">Contra primum corollarium: unicus est modus communicandi naturam, ut dicit 
+          <ref><name ref="#Averroes">Commentator</name> VIII <title ref="#PhysicsCommentary">Physicorum</title>,</ref> 
+          sed per quamlibet productionem adintra communicatur natura, ergo tantum er[?] una productio.</p>
+        
+        <p xml:id="pgb1q12-d1e792">Tertio, inter generationem et processionem non est oppositio relativa, ergo nec distinctio. Consequentia tenet quia omnia 
+          sunt idem, ubi non obviat relationis oppositio. Et antecedens probatur quia omne quod generatur procedit 
+          quamvis non econverso, ergo.</p>
+        
+        <p xml:id="pgb1q12-d1e800">Ad primum, negatur assumptum universaliter quia verbum mentis nostrae secundum 
+          esse procedit tam a mente quam ab obiecto. Secundo, dico quod supposito quod unum producens sit 
+          sufficiens, si tamen sunt duo, non minus procedit verbum.</p>
+        
+        <p xml:id="pgb1q12-d1e808">Ad secundum, posset negari antecedens 
+          universaliter suppositum quia non quilibet modus generationis omnium viventium est notus nobis. Secundo dico 
+          quod solum illa habet veritatem in his quae materialiter ad generationem producti concurrunt, et sic non est 
+          de Patre et Filio respectu Spiritus Sancti quia aequaliter spirant Spiritum Sanctum. Tertio, ratio reducitur contra 
+          facientem in nullam productione viventis ex <unclear>vivente</unclear> possunt esse pluries producentes 
+          nisi unus sit, etc. Sed productio Spiritus Sancti est productio viventis ex vivente, 
+          ergo Filius se habet loco matris[?]</p>
+        
+        <p xml:id="pgb1q12-d1e841">Ad tertium, dicitur quod antecedens non habet maiorem veritatem de 
+          dre[?] quam de diligere, constat enim quod Pater se diligendo est opus, et tamen requiritur Filius 
+          qui se diligat ad productionem Spiritus Sancti.</p>
+        
+        <p xml:id="pgb1q12-d1e849">Secundo, dicitur quod una persona divina non proprie 
+          requirit aliam prout hoc verbum sonat indigentiam et imperfectionem.</p>
+        
+        <p xml:id="pgb1q12-d1e856">Tertio, dico quod secundum eum 
+          met, consequentia non valet ad productionem <c>b</c> requiruntur pluries personae, ergo neutra est opus 
+          nam <ref>distinctione 7a[?]</ref> dici hanc consequentiam non valere <c>a[?]</c> est tantae potentiae quod sufficit solus 
+          producere <c>b</c> et <c>a</c> solus non potest producere creaturam <c>d</c>, igitur maior potentia requiritur ad producendum 
+          <c>d</c> quam <c>b</c>.</p>
+        
+        <p xml:id="pgb1q12-d1e898">Ad quartum, dicitur quod ratio petit principium quia cum Spiritus Sanctus procedat 
+        et eadem natura per processionem utrique aeque communicatur perfecte quare est quod una 
+        productio non est alia dre[?] ergo quod Filius non sit amore per generationem, etc. est manifestare 
+        idem per idem vel magis notum per minus.</p>
+        
+        <p xml:id="pgb1q12-d1e908">Ad <unclear>aliud <!-- 5m --></unclear> diceret[?] adversarius 
+          quod illud non habet veritatem in operationibus immanentibus sicut sunt velle et intelligere ad 
+          intra unde <ref>IX <title ref="#Metaphysics">Metaphysciae</title></ref> et <ref>I <title ref="#Physics">Physicorum</title></ref> dicitur quod 
+          <app>
+            <lem>vel</lem>
+            <rdg wit="#L" type="corrAddition">
+              <corr>
+                <add place="aboveLine">vel</add>
+              </corr>
+            </rdg>
+          </app> 
+          operationes immanentes nihil constituitur, 
+          aliter aeque probaretur quod Spiritus Sanctus produceret adintra.</p>
+        
+        <p xml:id="pgb1q12-d1e933">Ad sextum, negatur antecedens quia 
+          natura spiritualis non multiplicata in pluribus suppositis est perfectior quam ista materialia et corruptibilia[?] 
+          quae multiplicatur per individua supposita.</p>
+        
+        <p xml:id="pgb1q12-d1e941">Ad primum contra secundam conclusionem, primo negatur antecedens quia, 
+          sicut Pater non distinguitur specie a Filio, sic nec Filio a paternitate quia Filio et Filius sunt 
+          idem. Secundo posset dici quod dato quod paternitas et 
+          <app>
+            <lem>filiatio</lem>
+            <rdg wit="#L" type="corrDeletion">
+              <corr>
+                <del rend="expunctuated">non</del>
+              </corr>
+            </rdg>
+          </app> 
+          distinguerentur specifice conside?te[?] 
+          secundum se tamen ut constituunt divina supposita habent modum proprietatum individualium, 
+          sed quia non dico personas constitui per illas proprietates, ideo sto in prima solutione 
+          et dimitto secundam quam est <name ref="#ThomasStrasbourg">Thomae de Argentis</name>.</p>
+        
+        <p xml:id="pgb1q12-d1e964">Ad secundam, dicitur quod maior non habet veritatem de 
+          his quae dant esse individuale et incommunicabile sicut hic, sed tenet de principiis 
+          divinis quae distinctis per ipsam dant esse simpliciter.</p>
+        
+        <p xml:id="pgb1q12-d1e973">Ad tertium, negatur consequentia quia illa bonitas 
+          pluribus modis est ibi.</p>
+        
+        <p xml:id="pgb1q12-d1e979">Ad quartum, transeat maior sed cum ultra dicitur quod Deo vel 
+          <pb ed="#L" n="44v"/> 
+          essentiae divinae quae sic est summe bona repugnat tam plurificari quam peccare dampnari 
+          conceditur, sed tamen cum ipsius unitate stat bene personarum pluralitas.</p>
+        
+        <p xml:id="pgb1q12-d1e988">Ad quintum, dicitur quod in divinis 
+          sunt tamtum duo relationes oppositae. Ex prima 
+          <app>
+            <lem>habemus</lem>
+            <rdg wit="#L" type="corrDeletion">
+              <corr>
+                <del>habere</del>
+              </corr>
+            </rdg>
+          </app> 
+          Patrem et Filium. Ex secunda Spiritum 
+          Sanctum quia alterum extremorum duae relationis non constituit personam, scilicet spiratio activa 
+          quae communis est Patri et Filio.</p>
+        
+        <p xml:id="pgb1q12-d1e1002">Ad sextum dicitur quod, licet non possit ratio evidens assignari 
+          seclusa fide quare dicere vel intelligere Filii non terminatur ad aliquem terminum productum, 
+          tamen supposita fide potest dici quod dicere potest dupliciter sumi. Uno modo proprie prout idem est quod 
+          verbum concipere, et sic sumit 
+          <ref>
+            <seg><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">De Trinitate</title></seg>
+            <bibl>Augustinus, De Trinitate, V, XXX</bibl>
+            <!-- look for quote below below -->
+          </ref> 
+          cum dicit quod 
+          non singulus in divinis sed Pater est dicens. Et sic conceditur illarum maior et negatur minor seu secunda pars antecedentis. Alio modo sumitur dicere 
+          pro perfecte intelligere et sic debet intelligi minor, et tunc nota non sequitur conclusio quia medium mutatur. 
+          Secundo posset dici quod non solum potest producit[?ere?] eo quod perfecte intelligit praecise sed eo quod 
+          perfectum intelligere est in ipso patre cum inclusione respectus[?] necessario requisiti ad Filium 
+          producendum qui respectus[?] est paternitas Filius autem et Spiritus Sanctus, licet intelligant, tamen illum 
+          respectum[?] non habent, ideo non generant per intelligere, sed sic dicendo est solvere idem per idem.</p>
+        
+        <p xml:id="pgb1q12-d1e1038">Ad 
+          septimum, dicitur sicut prius quod non sequitur licet 11[?n?] Spiritus Sanctus aeque perfecte diligat super Pater et Filius, 
+          tamen non habet illud diligere cum respectu[?] requisito necessario ad producendum Spiritum Sanctum qui 
+          est spiratio passiva activa quae opponitur spirationi passive quam Spiritus Sanctus habet vel est.</p>
+        
+        <p xml:id="pgb1q12-d1e1054">Ad primum contra tertiam conclusionem dicitur ad <name ref="#Jerome">Ieromium</name> quod ingenitum potest accipi tripliciter. Primo, pro illo qui 
+          non habet in se generationem passive sumptam. Secundo, pro illo qui non habet huius generationem. Tertio, pro 
+          illo qui non habet generationem nec est ab habente eam et cum hoc habet proprietatem oppositam tali 
+          generationi passive. Primo modo Spiritus Sanctus dicitur ingenitus quia non genitus et secundum hunc modum loquitur 
+          <name ref="#Jerome">Ieromus</name>. Secundo essentia divina dicitur ingentia. Tertio, modo solus Pater et isto modo loquitur conclusio.</p>
+        
+        <p xml:id="pgb1q12-d1e1080">Ad secundum dicitur 
+          <name ref="#Averroes">Commentator</name> loquitur de communicatione naturae creatae.</p>
+        
+        <p xml:id="pgb1q12-d1e1094">Ad 3m dicitur primo 
+          <app>
+            <lem>quod</lem>
+            <rdg wit="#L" type="corrDeletion">
+              <corr>
+                <del rend="strikethrough">so</del>
+              </corr>
+            </rdg>
+          </app> 
+          ratio fundatur super falso. Primo, quia personae non solum relationibus oppositis distinguitur. Secundo, quia productiones divinae differunt 
+          se ipsis et non tantum relationibus, ideo nihil concludit ratio.</p>
+        
+        <p xml:id="pgb1q12-d1e1112">Ad primam rationem in oppositum patet per 
+          dictam in prima conclusione quia non sequitur quod possit viator scire, licet ita sit.</p> 
+            
+            <p xml:id="pgb1q12-asnsnc">Ad secundum 
+              negatur consequentia.</p>
+            
+            <p xml:id="pgb1q12-atpecf">Ad tertium patet ex tertia conclusione et solutione rationum contra eam quia Spiritus Sanctus potest 
+              dici ingenitus et improprie iuxta primum modum distinctionis ponente. Secundo posset negari illa consequentia 
+              <mentioned>est non genitus, igitur ingenitus</mentioned> sicut non sequitur <mentioned>hoc est non iustum, ergo iniustum</mentioned> quia de 
+                lapide. Antecedens est verum, et consequens falsum.</p>
+          </div>
+        </div>
+        <div>
+          <head>
+            <supplied>Conclusiones</supplied>
+          </head>
+          <p xml:id="pgb1q12-d1e1135">
+            <cit>
+              <quote>Item cum quaeritur.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d12c1-d1e3477">Lombardus, I, d. 12, c. 1, n. 1</ref></bibl>
+            </cit> 
+            Haec distinctio continet tres conclusiones. Prima: quod cum quaeritur utrum Spiritus Sanctus prius procedat a 
+            Patre quam a Filio, dicendum est quod qui potest intelligere generationem Filii de Patre sine tempore 
+            etiam sine tempore processionem Spiritus Sancti ab utroque a Patre et Filio intelligat quia in Trinitate 
+            nihil prius aut posterius quia ibi ex tempore nihil inchoatur.</p>
+          
+          <p xml:id="pgb1q12-d1e1155">Secunda conclusio: quod sicut Spiritus Sanctus 
+            non processit ante a Patre quam a Filio, ita non magis vel amplius vel plenius 
+            procedit a Patre quam a Filio.</p>
+          
+          <p xml:id="pgb1q12-d1e1163">Tertia conclusio: quod cum <name ref="#Augustine">Augustinus</name> dicit Spiritum Sanctum procedere 
+            a Patre principaliter et <name ref="#Jerome">Ieromus</name> dicit quod procedit a Patre proprie et <name ref="#HilaryOfPoitiers">Hilarius</name> dicit quod Spiritus Sanctus 
+            mittitur a Patre per Filium et a Patre esse habet per Filium, debet sic intelligi quod Spiritus 
+            <pb ed="#L" n="45r"/> 
+            Spiritus procedat a Patre hoc habet Patre a se quod autem procedat a Filio vel ab ipso mittatur 
+            hoc Filius habet a Patre quia Pater gignendo Filium dedat ei quod Spiritus Sanctus ab eo 
+            procedent et mitteretur.</p>
+          
+          <p xml:id="pgb1q12-d1e1189">
+            <cit>
+              <quote>Post haec considerandum est.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d13c1-d1e3477">Lombardus, I, d. 13, c. 1, n. 1</ref></bibl>
+            </cit> 
+            Haec 13 distinctio continet <!-- 7 --><c>a</c> conclusiones. Prima quod licet Spiritus Sanctus procedat a Patre et sit de substantia Patris sicut et Filius, non tamen dicitur 
+            natus sive genitus, et ideo non dicitur Filius cuius ratio est quia si diceretur Filius esset Filius 
+            Patris et Filii cum procedat ab utroque, sed absurdum est quod sit Filius amborum quia nullus 
+            est filius duorum nisi sit patris et matris.</p>
+          
+          <p xml:id="pgb1q12-d1e1211">Secunda conclusio: quod licet Filius et Spiritus Sanctus procedant 
+            a patre tamen dissimiliter quia Spiritus Sanctus procedit a Patre quomodo datus sive ut 
+            donum Filius vero procedit 
+            <app>
+              <lem>ut</lem>
+              <rdg wit="#L" type="corrDeletion">
+                <corr>
+                  <del rend="expunctuated">d</del>
+                </corr>
+              </rdg>
+            </app> 
+            natus sive ut genitus et ideo Spiritus Sanctus non est 
+            Filius.</p>
+        
+        <p xml:id="pgb1q12-d1e1225">Tertia conclusio: quod Spiritus Sanctus non dicitur Filius quia non est genitus sicut unigenitus nec factus 
+          ut per Dei gratiam in adoptionem nasceretur sicut et nos et sic diceretur Filius dei per adoptionem.</p>
+        
+        <p xml:id="pgb1q12-d1e1237">Quarta conclusio: quod non esse quod procedit nascitur quamvis omne quod nascitur procedat.</p>
+        
+        <p xml:id="pgb1q12-d1e1242">Quinta conclusio: 
+          quod inter verbi generationem et Spiritus Sancti processionem distinguere[?] non sufficimus in hac vita 
+          et ideo sufficiat cuilibet scire quod Filius non est a se ipso sed a Patre nec Spiritus Sanctus a se 
+          ipso sed procedit ab utroque.</p>
+        
+        <p xml:id="pgb1q12-d1e1253">Sexta conclusio: quod secundum <name ref="#Augustine">Augustinum</name>, Spiritus Sanctus non debet dici genitus 
+          nec ingenitus quia si genitus esset duo filii in divinis, si autem ingenitus duos patres 
+          ibi affirmaremus quod est inconveniens. Patet quia esse ingenitum proprie convenit Patri.</p>
+        
+        <p xml:id="pgb1q12-d1e1264">Septima conclusio: 
+          quod secundum <name ref="#Jerome">Ieromium</name> Spiritus Sanctus dicitur ingenitus, sed <name ref="#Jerome">Ieromus</name> accipit ingenitum pro non genito et sic 
+          potest concedi quod Spiritus Sanctus est ingenitus, id est non genitus. <name ref="#Augustine">Augustinus</name> vero accipit ingenitum quam 
+          illo qui ab alio non est aliquo, tamen alius est et sic accipiendo ingenitum de solo Patre dicitur 
+          quia Filius est ab alio et Spiritus Sanctus a Patre et Filio qui sunt aliae personae. Et sic <name ref="#Lombard">Magister</name> concordat 
+          dictam <name ref="#Augustine">Augustini</name> et <name ref="#Jerome">Ieronimi</name>, et haec sufficiant pro praesenti lectione.</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
