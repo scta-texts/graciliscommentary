@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 21</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.11-dev-master">
+          <title>Librum I, Quaestio 21</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-11-29" who="#JW" status="draft" n="2014.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q21">
+        <head>Quaestio 21</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q21-d1e3115">
+            <cit>
+              <quote>Tunc ostendere restat.</quote>
+              <bibl>Lombardus, I, d. 20</bibl>
+            </cit> 
+            Haec est distinctio 20 in qua postquam <name ref="#Lombard">Magister</name> 
+            ostendit personarum aequalitatem quantum ad magnitudinem perfectionis in essendo hic 
+            essent idem quantum ad potentiam in agendo.</p>
+          
+          <p xml:id="pgb1q21-d1e3128">Et dividitur in duas quia primo ostendit 
+          divinarum personarum aequalem potestatem. Secundo ex dictis movet incidentalem difficultatem. 
+          Secunda incipit in principio distinctionis 21ae hic oritur <unclear cert="high">quaestio</unclear></p>
+        
+        <p xml:id="pgb1q21-d1e3137">Prima in duas quia primo 
+          <name ref="#Lombard">Magister</name> probat suum propositum auctoritate, secunda ratione ibi 
+          <cit>
+            <quote>Item alio modo</quote>
+            <bibl>Lombard, I, d. ?, c. ?</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="pgb1q21-d1e3145">Secunda pars principalis 
+          quae est distinctio 21 dividitur in duas quia primo <name ref="#Lombard">Magister</name> movet quaestionem, secundo dubitabilem. 
+          Secundo ponit <unclear>regulam</unclear> generalem circa tales quaestiones observandam. Secunda ibi 
+          <cit>
+            <quote>verum tamen ut ait <name ref="#Augustine">augustinus</name></quote>
+            <bibl>Lombardus, I, d. 21, c. X</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="pgb1q21-d1e3165">Sequitur distinctio 22a post praedictam <unclear>dissentiendum</unclear> in qua <name ref="#Lombard">Magister</name> 
+          postquam determinavit de his quae sunt de <unclear>ex</unclear> intrinseca hic tractat de nominibus 
+          huius perfectiones intrinsecas exprimentibus ut sunt <unclear>vo?lia</unclear> nomina et dividitur in 
+          duas quia primo ostendit circa huius nomina duplicem ordinem, secundo ponit regulam 
+          <pb ed="#L" n="66r"/> 
+          utilem. Secunda ibi 
+          <cit>
+            <quote>sciendum ergo,</quote>
+            <bibl>Lombardus, I, d. 22</bibl>
+          </cit> 
+          et hoc et distinctionis huius divisio et sententia in generali.</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head>Rationes principales</head>
+            <p xml:id="pgb1q21-d1e3195">Utrum quodlibet divinum suppositum propter suum aequale posse quodlibet contingentiae 
+              <pb ed="#L" n="66r"/>expositum aeque possit facere esse</p> <!-- check for contingentiae below -->
+        
+        <p xml:id="pgb1q21-d1e3206">Quod non quia inter divina supposita non 
+          est aequalitas proprie dicta nec summa ergo non habent aequale posset <unclear>fu?is</unclear> probatur tum quia 
+          aequalitas proprie dicta non est reperibilis inter nisi magnitudines <unclear>mol?</unclear> tum 2o quia aequalitas 
+        divinorum suppositorum non est nec ponit aliquod positivum ut videtur <name ref="#Lombard">magister</name> sentire 
+          distinctione 23a capitulo 2o tum quia talis aequalitas esset relatio rei vel rationis sed nullum horum dicitur ergo</p>
+        
+        <p xml:id="pgb1q21-d1e3227">2o si sic sequitur quod filius et spiritus sanctus habent posse producendi filium consequens falsum patet consequentia 
+          cum pater illud posse habeat et solus <unclear>producate</unclear> de facto</p>
+        
+        <p xml:id="pgb1q21-d1e3237">3o solus pater est deus 
+          ergo solus pater est omnipotens ergo solus pater habet posse omne possibile producendi ergo filius et spiritus 
+          sanctus nihil possunt aliquo modo producere aut facere esse consequentiae sunt notae et antecedens probatur quia 
+          solus deus est pater ergo per conversionem solus pater est deus quod fuit antecedens probandum</p>
+        
+        <p xml:id="pgb1q21-d1e3248">In 
+          oppositum arguitur per <name ref="#Lombard">magistrum</name> in hiiis distinctionibus Item <name ref="#Augustine">augustinus</name> <title ref="#OnFaithToPeter">de fide ad petrum</title> dicit 
+          nulla trium divinarum personarum aliam praecedit aeternitate aut extendit magnitudine 
+          aut superat potestate igitur</p>
+          </div>
+          <div>
+            <head>Prima conclusio</head>
+        <p xml:id="pgb1q21-d1e3270">prima conclusio licet cuilibet divino supposito repugnet omne 
+          quantum <unclear>mol</unclear> quantitate tamen divina supposita summe sunt aequalia proprie sumpta aequalitate 
+          prima pars patet per <ref><name ref="#Augustine">beatum augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title> capitulo primo</ref> dicentem <quote ana="#Augustine_DeTrinitate_5_1_2_a">intelligamus quantum possumus 
+            deum sine quantitate magnum sine qualitate bonum</quote> etc 2a pars probatur quia omnis propositio 
+          si est vera de proprietate sermonis est vera sed haec est vera divinae personae sunt aequales <corr><del rend="strikethrough">ergo</del></corr> 
+          seu aequalitas est in divinis personis ergo proprie <corr><add place="aboveLine">et</add></corr> non in proprie hanc partem probant <name ref="#Scotus">scotus</name> et 
+          <name ref="#LandulphusCaracciolo">landulphus</name> quorum rationes recitat et nititur solvere <ref><name ref="#AlphonsusVargas">alphonsus</name> libro primo distinctione 
+          19 quaesitone 2a articulo 2o conclusione prima</ref> et tenet oppositum et probat ibidem</p>
+        
+        <p xml:id="pgb1q21-d1e3322">primum corollarium licet eadem 
+          sit perfectionis aequalitas inter divina supposita tamen inter illa est vera similitudo proprie 
+          dicta patet per conclusionem confirmatur quia tam aequalitas quam similitudo est ibi verior et magis 
+          propria ubi est perfectior sed inter divina supposita est aequalitas et similitudo ergo properissima 
+        et verissima</p>
+        
+        <p xml:id="pgb1q21-d1e3336">2m corollarium quodlibet divinum suppositum alteri tantum et similiter assimilatur 
+        quod si quodlibet eorum creaturae ostenderetur clare et origo seu emanatio 
+          non praescinderetur nulla distinctio inter illa a vidente poneretur patet quia omnis distinctio 
+          in divinis fundatur super origines seu emanationes divinarum personarum 
+          secundum <name ref="#JohnDamascenus">damascenum</name></p>
+        
+        <p xml:id="pgb1q21-d1e3350">3m corollarium non stat intellectum creatum aequalitatem divinorum suppositorum 
+          concipere et ipsum eandem essentiam vel magnitudinem perfectionalem tantum semel accipere 
+          patet per <ref><name ref="#Augustine">augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title> capitulo 7o</ref> dicentem <quote ana="#Augustine_DeTrinitate_5_3_4_a">quaerimus secundum quid sit aequalis</quote> patri 
+          filius non secundum quod ad patrem dicitur filius est aequalis patri restat ergo quod sit aequalis 
+          secundum illud quod ad se dicitur et infert ergo ut substantia est aequalis et concludit <name ref="#Lombard">magister</name> 
+          post haec verba ergo inquit aequalitas patris et filii non est notio sed natura unitas</p>
+        
+        <p xml:id="pgb1q21-d1e3379">Ex hiis sequi videtur primo quod aequalitas et similitudo non dicuntur in divinis solum privative 
+        sed realiter et positive quia filius est patri aequalis secundum substantiam ut dicit 
+          <name ref="#Augustine">augustinus</name> Item si non <unclear>differentur</unclear> positive non aliter <unclear>differentur</unclear> personae divinae aequales 
+          quam non entia et impossibilia tenet consequentia quia <unclear>chimera</unclear> non est maior nec minor <unclear>ycocuo</unclear> 
+          <pb ed="#L" n="66v"/>si igitur talis remotio sufficit ad aequalitatem sequitur consequens illatum</p>
+          </div>
+          <div>
+            <head>Secunda conclusio</head>
+        <p xml:id="pgb1q21-d1e3409">2a conclusio licet solum 
+          patrem producere aliquam omnipotentem sit necesse tamen solus pater nullum <unclear>contingens<!--contingens--></unclear> potest producere 
+          aut conservare inesse prima patet quia solus pater in divinis producit necessario filium 
+          omnipotentem ut patuit supra 2a pars probatur quia sequitur solus pater producit aliquod contingens 
+          ergo filius non producit illud contingens modo adextra opera trinitatis sunt indivisa consequentia 
+          patet per exponentes exclusive</p>
+        
+        <p xml:id="pgb1q21-d1e3440">primum corollarium licet filius a patre habeat potentiam generandi 
+          tamen filius non potest adintra producere se filium nec alium prima patet quia potentia generandi 
+          filium cadit sub omnipotentia sed filus est opus ergo 2a patet quia si posset producere filium 
+          de facto immo ab aeterno producisset et sic esset quaternitas personarum in divinis quod est falsum</p> 
+          
+        <p xml:id="pgb1q21-d1e3458">2m corollarium aliquem omnipotentem esse non infert ipsum omne producibile producere posse 
+          patet quia filus in divinis est producibilis et tamen idem filius non potest se producere igitur licet sit opus</p>
+        
+        <p xml:id="pgb1q21-d1e3465">3m corollarium quod nullus sufficienter divinam omnipotentiam explicat per posse facere quidquid est vel 
+          fieri non implicat patet quia in divinis essentia est et tamen nullus potest eam facere ergo</p>
+          </div>
+          <div>
+            <head>Tertia conclusio</head>
+        <p xml:id="pgb1q21-d1e3472">3a conclusio licet 
+          quodlibet divinum suppositum aeque opus esse sit necesse tantum non stat tantum unum suppositum <corr><add place="marginRight">divinum <!-- maybe something more in spine --></add></corr> 
+          esse prima patet quia opus pater opus filius etc 2a pars probatur quia sequitur tantum pater est deus ergo filius 
+          non est deus consequens est impossibile sed consequentia patet quia dictio exclusiva sumpta pure exclusive 
+          addita uni relativorum excludit alterum ut patet per deductionem <name ref="#Aristotle">philosphi</name> primo <title ref="#Physics">physicorum</title> 
+          similem consequentiam facientis <unclear>dicentis unde</unclear> principium est igitur principatum non est confirmatur quia sequitur <corr><del>d</del></corr> tantum 
+          pater est deus ergo nullus alius a patre est deus consequentia patet ab exponente ad <unclear>expositam</unclear> consequens falsum 
+          quia filius quod est alius a patre est deus et similiter spiritus sanctus est deus</p>
+        
+        <p xml:id="pgb1q21-d1e3523">primum corollarium licet omnis 
+          propositio mere exclusiva cuius praedicatum potest convenire cuilibet <unclear>cor?uorum</unclear> sit falsa tamen omnis propositio 
+          cuius praedicatum potest convenire uni <unclear>coi?ltiorum</unclear> sine altero est vera exemplum primi haec est falsa unde 
+          pater est quia esse non tantum convenit patri sed cuilibet suppositorum trium quia probatur quia sequitur 
+          tantum pater est ergo pater est et sequitur filius non est ergo pater non est quod est oppositum etc exemplum 2i ut 
+          solus pater generat haec est vera  quia praedicatum non potest convenire filio vel spiritui sancto 
+          et sic exponentes eius sunt vere quia pater in divinis generat et nullus alius ab eo ergo solus</p>
+        
+        <p xml:id="pgb1q21-d1e3549">2m corollarium quod <unclear>dcoins</unclear> exclusive ad unum relativorum applicatio seu appositio est contradictionis 
+          formalis seu virtualis implicatio seu illatio patet de propositionibus de quibus loquitur 
+          prima pars primi corollari ut ibi deducitur</p>
+        
+        <p xml:id="pgb1q21-d1e3560">3m corollarium licet non sit verum solum patrem 
+          esse deum exclusive tamen solus pater est deus <unclear>praecisissime</unclear> prima patet per dicta 2a patet quia 
+          pater ut praecise sumptus nullo sibi addito est verus deus ex quibus sequitur pars <unclear>conclusionis<!-- quaestionis--></unclear> 
+          affirmativa</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+        
+        <p xml:id="pgb1q21-d1e3577">contra prima conclusionem in divinis non est alia et alia quantitas ergo nec proprie dicta 
+          aequalitas consequentia patet quia aequalitas proprie dicta est habitudo unius quantitatis ad aliam 
+          antecedens patet per <ref><name ref="#Augustine">augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title> capitulo 10</ref> dicentem sicut <quote ana="#Augustine_DeTrinitate_5_10_11_a">non dicimus tres essentias sed <sic>una<!-- should probably be unam --></sic> 
+          sic nec tres magnitudines sed unam</quote></p>
+        
+        <p xml:id="pgb1q21-d1e3599">2o contra primum corollarium aut talis similitudo est res 
+          distincta ab identitate vel est praecise eadem non primum quia tunc esset aliqua maior distinctio 
+          in divinis quam sit distinctio personalis consequens est falsum nec 2m quia secundum <name ref="#Scotus">scotum</name> fundamenta 
+          talium relationum non sunt eadem ex natura rei nam essentia fundat identitatem 
+          <unclear>infinitas</unclear> aequalitatem sapientiam similitudinem sed haec ex natura rei distinguitur ut tenet <ref><name ref="#Scotus">scotus</name> 
+          <pb ed="#L" n="67r"/>distinctione 19a primi quaestione 12 distinctione 13a</ref></p>
+        
+        <p xml:id="pgb1q21-d1e3636">3o contra 3m corollarium esse completum aequalitatis dependet ab 
+          intellecta ergo non est relatio realis sed rationis consequentia patet et antecedens probatur quia pater non potest 
+          concipi aequalis filio nisi eadem magnitudo <unclear>vis<!-- bis --></unclear> accipiatur per intellectum semel in patre 
+          et semel in filio</p>
+        
+        <p xml:id="pgb1q21-d1e3655">4o relatio realis requirit <unclear>extrema</unclear> realia distincta realiter sed idem non 
+          potest esse distinctum realiter a se ipso ergo aequalitas divinorum suppositorum non est relatio realis 
+          sed tantum rationis patet consequentia cum realitas et identitas sunt idem</p>
+        
+        <p xml:id="pgb1q21-d1e3673">contra 2am conclusionem 
+          opus potest in omne illud quod est <corr><del rend="strikethrough"><unclear>tors</unclear></del></corr> <unclear>potentiae terminus activae</unclear> secundum ipsum est aptum natum 
+          produci sed filius nullo modo potest ad generationem principitive ergo filius vel non est opus 
+          vel generatio filii non est terminus potentiae activae</p>
+        
+        <p xml:id="pgb1q21-d1e3691">2o contra primum et 2m corollaria pater potest filium 
+          producere et filius non potest flium producere ergo filius non est tam potens extensive 
+          productive sicut pater ergo</p> 
+        
+        <p xml:id="pgb1q21-d1e3699">3o contra primam partem primi corollarii si filius haberet potentiam producendi 
+          filium sequeretur quod talis productio posset reduci ad actum consequens est falsum per 2am partem 
+          quia filius non potest generare filium et consequentia patet quia frustra ponitur potentia quae non potest 
+          reduci ad actum sed illa potentia in filio non ponitur frustra ergo</p>
+        
+        <p xml:id="pgb1q21-d1e3709">contra 3am conclusionem pater 
+          non potest a filio separari in essendo nec econverso igitur dictio exclusiva addita
+          patri non excludit filium consequentia tenet quia dictio exclusiva non removet nec 
+          excludit ad invicem nisi quae abinvicem possunt excludi in essendo et separari</p>
+        
+        <p xml:id="pgb1q21-d1e3719">2o maior est connexio inter duo <unclear>cor?va</unclear> quam inter totam integrale et suas 
+          partes sed dictio exclusiva addita toti non excludit partem ergo addita uni 
+          <unclear>relativorum<!-- addition of "v" doesn't seem clear in abbrev --></unclear> <corr><add place="aboveLine">non</add></corr> excludit aliud maior est nota quia eadem relativa posita se ponunt 
+          et perempta se <unclear>perminunt</unclear> minor patet quia non sequitur sola domus ergo paries non est 
+          immo potius sequitur oppositum</p>
+        
+        <p xml:id="pgb1q21-d1e3751">3o si solus pater est pater est sed si pater est filius ergo 
+          <unclear>distinction <!-- dicto --></unclear> exlusiva non excludit <unclear>cor?uum</unclear></p>
+        
+        <p xml:id="pgb1q21-d1e3763">4o unum <unclear>relativorum<!-- addition of "v" doesn't seem clear in abbrev --></unclear> est de intellectu 
+          alterius ergo sequitur quod unum non potest excludi ab altero consequentia patet quia sicut non sequitur 
+          solus homo est ergo alias non est quia alias est de intellectu hominis et necessario includitur in 
+          homine sicut superius in suo inferiori sic in proposito</p>
+        
+        <p xml:id="pgb1q21-d1e3783">5o arguitur auctoritate <ref><name ref="#Augustine">augustini</name> <title ref="#ContraMaximinum">contra 
+          maximinum</title> libro 3o capitulo 13o <!-- no real direct quote; likely reference to 2.16 --></ref> ubi dicit si de solo patre diceretur quod esset sapiens 
+          <corr><add place="marginLeft"><unclear>non</unclear></add></corr> et deus tamen excluderetur filius et spiritus sanctus quia hii tres unum sunt et quia inseparabiles 
+          sunt</p>
+        
+        <p xml:id="pgb1q21-d1e3805">Ad primum negatur consequentia 2o dico quod negantes aequalitatem veram 
+          et propriam in divinis habent consequenter negare generationem activam quia illa se consequuntur 
+          3o dico quod <name ref="#Augustine">augustinus</name> in probationem consequentis recipit abstractum per concreto et sic adhuc 
+          erit in divinis aequalitas proprie dicta licet enim non sint tres magnitudines tamen sunt 
+          tres magni adiective</p>
+        
+        <p xml:id="pgb1q21-d1e3824">Ad 2m dicitur quod aequalitas et similitudo non est simpliciter 
+          identitas sed est identitas trium personarum et cum dicitur quod non quia fundamenta talium 
+          distinguitur naturae hoc</p>
+        
+        <p xml:id="pgb1q21-d1e3843">Ad 3m negaret <name ref="#AlphonsusVargas">alphonsus</name> assumptum ad probationem quia pater 
+          non potest concipi etc hoc negat quia ut dicit non est aliud aequlitas quam ipsa 
+          identitas sed si responsio valeret divina identitas posset dici aequalis sibi ipsi  <unclear>Ideo</unclear> 
+          aliter dico quod antecedens est verum quia non videtur bene imaginabile quod aequalitas in divinis 
+          concipiatur nisi bis essentia <unclear>utt</unclear> recipiatur sed non sequitur pater non potest concipi filio 
+          <pb ed="#L" n="67v"/>aequalis nisi essentia bis capiatur ab intellectu ergo pater non est potest esse aequalis 
+          filio nisi essentia bis sumatur quia stat sic esse et nullum intellectum creatum sic concipere</p>
+        
+        <p xml:id="pgb1q21-d1e3890">Ad 4m dicitur quod aequalitas in divinis habet extrema distincta sufficienter quia non dico identitatem 
+          et aequalitatem idem simpliciter esse sicut <name ref="#AlphonsusVargas">alphonsus</name> sed dico aequalitatem esse identitatem plurium 
+          distinctorum et hoc ad fundandum tales relationes in divinis sufficit</p>
+        
+        <p xml:id="pgb1q21-d1e3914">Ad primum contra 2am conclusionem 
+          dico primo quod <name ref="#Scotus">scotus</name> qui fecit illam rationem pro eodem sunt generare et posset generare 
+          et potentiam generandi quod non habent facere qui tenent oppositum 2o potest dici quod probat teneri 
+          nominaliter vel verbaliter <name ref="#Scotus">scotus</name> autem et alii tenentes cum eo pro eodem sumunt 
+          ideo non concludit ratio</p>
+        
+        <p xml:id="pgb1q21-d1e3935">Ad 2m negatur consequentia quia tam pater quam filius infinitorum simpliciter 
+          est productivus 2o dico quod non producere filium est perfectionis et non imperfectionis ideo 
+          et consequentia non valet</p>
+          
+        <p xml:id="pgb1q21-d1e3945">Ad 3m negatur consequentia et ad probationem conceditur tamquam verum ubi potentia de 
+          facto non est ad actum reducta vel ubi habens talem potentiam non est terminus per 
+          talem potentiam reductus ad perfectum actum modo in proposito filius qui habet talem 
+          potentiam est terminus ad actum reductus ideo non concludit auctoritas <name ref="#Aristotle">philosophi</name></p>
+        
+        <p xml:id="pgb1q21-d1e3957">Ad primum 
+          contra 3a conclusionem negatur consequentia</p> 
+        
+        <p xml:id="pgb1q21-d1e3963">Ad 2m negatur maior universaliter quia pars integralis spectat 
+          intrinsece ad constitutionem totius sed unum relatum non specta intrinsece ad 
+          constitutionem alterius</p>
+        
+        <p xml:id="pgb1q21-d1e3971">Ad 3m potest negari illa condicionalis seu consequentia quia <unclear>dictio<!-- this term "dictio exclusiva" should be added ot subject list. Also used in Marsilius of Inghen  --></unclear> 
+          exclusiva addita relatio sapit naturam distinctionis distrahentis unde sicut 
+          non sequitur homo mortuus est ergo homo est sic non sequitur solus pater est ergo pater est 2o potest 
+          dici quod pater est quando non est pater maxime in creaturis</p>
+        
+        <p xml:id="pgb1q21-d1e3988">Ad 4m negatur consequentia quia licet 
+          unum relativum sit de intellectu secondario seu implicato insignificato alterius 
+          non tamen est de intellectu vel significato principali</p>
+        
+        <p xml:id="pgb1q21-d1e3995">Ad 5m dicitur quod <name ref="#Augustine">augustinus</name> in 
+          talibus non intendit quod illa proprio proprie et de virtute sermonis sit concedenda 
+          solus pater est deus vel sapiens si solus teneatur exclusive sed intendit 
+          dicere quod quando tales propositiones inveniuntur in scriptura intelligi non debet quod si dictio 
+          exclusiva additur uni personae scriptura intendit alias excludere quia tunc 
+          ille auctoritas esset false eo quod personae divinae unum sunt utitur aut scriptura 
+          quandoque talibus propositionibus propter <unclear>brevitatem</unclear> sermonis supponens debere intelligi de 
+          omnibus quod dicitur de una tantum utitur etiam quandoque talibus sumendo dictiones exclusivas 
+        non exclusive sed praecisive et tunc tales propositiones sunt concedendae ut 
+          dictum est</p>
+        
+        <p xml:id="pgb1q21-d1e4029">Ad primam rationem in oppositum patet quid sit dicendum ex prima conclusione et corollario</p>
+        
+        <p xml:id="pgb1q21-d1e4033">Ad 
+          2m patet ex 2a conclusione quia si posse vel potentia sumit nominaliter <unclear>entitativeque</unclear> sic conceditur 
+          si autem sumiter verbaliter et executive sic negatur consequentia et ad probationem quia potest habet illud 
+          posse dico quod non est posse aliquid sed ad aliquid 2o dico quod si illud gerundivum 
+          <mentioned>generandi</mentioned> si gerundivum verbi <unclear>activi<!--probably activi to be parallel with passivi at the end of the line --></unclear> sic solum est in patre si verbi passivi 
+          solum et in filio si verbi impersonalis sic est in quolibet supposito divino</p>
+        
+        <p xml:id="pgb1q21-d1e4059">Ad 3am 
+          patet ex conclusione fore illud antecedens negandum et ad probationem negatur consequentia quia illa non est eius 
+          conversa eius sed sic debet converti solus deus est pater id est omnis pater vel omnis persona 
+          patris in divinis est deus et ista est concedenda tamquam vera</p>
+          </div>
+        </div>
+          <div>
+            <head><supplied>Conclusiones</supplied></head>
+        <p xml:id="pgb1q21-d1e4069"><hi rend="largeScript">nunc restat</hi></p>
+        
+          <p xml:id="pgb1q21-d1e4075"><pb ed="#L" n="68r"/>prima conclusio quod sicut trium personarum divinarum una est magnitudo ita una est ipsarum 
+            potentia</p>
+        
+        <p xml:id="pgb1q21-d1e4083">2a conclusio quod pater non est potentior filio vel spiritu sancto nec una persona 
+          est potentior alia nec plus potest pater et filius simul quam solus spiritus sanctus nec hii 
+          tres simul plus possunt quam singulus eorum</p>
+        
+        <p xml:id="pgb1q21-d1e4091">3a conclusio quod omnipotentiam quod habet <corr><del rend="strikethrough">filius pater</del></corr> 
+          filius accepti nascendo et spiritus sanctus procedendo</p>
+        
+        <p xml:id="pgb1q21-d1e4101">4a conclusio quod ideo pater non est 
+          maior filio quia <name>aequalem <!-- could be aequaliter --></name> genuit unde cum dicitur filius a patre genitus non 
+          ostenditur inaequalitas <unclear>substantiae</unclear> sed ordo naturae non quod alter sit prior alio sed quo alter 
+          est ex altero contra <name ref="#Scotus">scotum</name></p>
+        
+        <p xml:id="pgb1q21-d1e4121"><hi>Hic oritur quaestio</hi> prima conclusio distinctionis 22ae 
+          quod cum dicitur solus pater non debet intelligi quod sit sine filio et spiritu sancto sed per hoc 
+          filius et spiritus sanctus a paternitatis consortio excluduntur seu pluralitas patrum in 
+          divinis removetur</p>
+        
+        <p xml:id="pgb1q21-d1e4133">2a conclusio quod cum dicitur solum filius vel solum spiritus sanctus non dividitur 
+          filius a spiritu sancto vel a patre neque spiritus sanctus ab utroque sed <c>a</c>  consortio filialis 
+          proprietatis excluduntur pater et spiritus sanctus et <c>a</c> consortio processialis proprietatis excluduntur 
+          pater et filius</p>
+        
+        <p xml:id="pgb1q21-d1e4153">3a conclusio quod licet proprie dicatur solus pater est pater et solus 
+          filius et filius non tamen dicitur solus filius est deus vel solus pater est deus nec econverso 
+          solus deus est filius et similiter de patre et spiritu sancto</p>
+        
+        <p xml:id="pgb1q21-d1e4161">4a conclusio pater filius et spiritus sanctus 
+          est tantum unus deus et econverso unus solus deus est pater filius et spiritus sanctus et tota 
+          trinitas est unus solus deus</p>
+        
+        <p xml:id="pgb1q21-d1e4169">5a conclusio quod cum dicimus trinitas est unus solus 
+          deus non intendimus quin sit cum <unclear>spiritibus</unclear> et <unclear>animabus</unclear> sanctis sed solum dicimus 
+          quod non aliud quam <corr><del>tpa</del></corr> trinitas deus est non enim illi cum illa sunt deus</p>
+        
+        <p xml:id="pgb1q21-d1e4187">6a conclusio quod 
+          cum nominatur una divina persona aliae intelliguntur unde cum dicitur nemo novit 
+          patrem nisi filius non separatur pater et spiritus sanctus quia inseparabiles sunt nota quod nemo 
+          id est quod nullus homo et sic illa esset vera  sumendo exceptive quia nullus alius homo <c>a</c>  
+          filio novit patrem notitia comprehensiva</p>
+        
+        <p xml:id="pgb1q21-d1e4209"><hi>post praedicta etc</hi> 
+          prima conclusio distinctionis 22 quod nomini quae de deo dicuntur plures sunt differentiae nam quaedam sunt 
+          notionalia seu proprietatem personarum <unclear cert="high">designificantia</unclear> ut generatio potest verbum et similia 
+          quaedam essentialia ut virtus sapientia bonitas quae dicuntur de singulis personis <sic>sigillatim</sic> 
+          quaedam dicuntur translative seu per similitudinem ut speculum splendor caracter 
+          quaedam dicuntur ex tempore in relationem ad creaturas quorum quaedam de omnibus personis dicuntur 
+          ut dominus creator etc quaedam non de omnibus ut datus <corr><del rend="strikethrough/expunctuated">homo</del></corr> quaedam dicuntur ex tempore 
+          sed non relative ad creaturam ut incarnatus humanitus licet includant relationem 
+          secundum rem ad creaturam aliud est nomen quod dicitur de omnibus simul et de nullo <sic>sigillatim</sic> 
+          ut trinitas</p>
+        
+        <p xml:id="pgb1q21-d1e4250">conclusio 2a quod nomina quae proprie pertinent ad singulas personas sicut 
+          pater et filius et spiritus sanctus dicuntur relative adinvicem non substantialiter</p>
+        
+        <p xml:id="pgb1q21-d1e4257">3a conclusio quod illa 
+          nomina quae unitatem essentiae significant absolute dicuntur et substantialiter et de omnibus personis 
+          <sic>sigillatim</sic> et de omnibus coniunctus <unclear>infini?ri</unclear> numero non pluri ut bonus 
+          magnus non enim dicimus tres bonos aut tres deos sed unum sumendo 
+          subiective sed sumendo adiective possunt dici tres magni</p>
+        
+        <p xml:id="pgb1q21-d1e4276">4a conclusio quod 
+          <pb ed="#L" n="68v"/>nomina quae proprietatibus personalibus in ponuntur non substantialiter sed relative</p>
+          </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
