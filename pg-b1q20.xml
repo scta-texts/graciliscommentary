@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 20</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.11-dev-master">
+          <title>Librum I, Quaestio 20</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-11-25" who="#JW" status="draft" n="2014.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q20">
+        <head>Quaestio 20</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q20-d1e3115">
+            <cit>
+              <quote>Nunc postquam coaeternitatem</quote>
+              <bibl>Lombardus, I, d. X, c. xxx</bibl>
+            </cit> haec distinctio 19 ad praecedentem continatur 
+            sic quia postquam <name ref="#Lombard">magister</name> determinavit de personarum identitate reali distinctione 
+            ac duratione aeternali nunc incipit tractare de earum perfectione coaequali.</p>
+          
+          <p xml:id="pgb1q20-d1e3134">Et dividitur in 3 quia primo ostendit in quibus consistit et penes quid attenditur earum aequalitas in 
+            <pb ed="#L" n="63v"/>
+            generali, secundo ostendit illa in quibus sunt aequales in speciali non de differentia reali, tertio prosequitur 
+            de uno quoque praedictorum in speciali. Secunda ibi 
+            <cit>
+              <quote>cumque enumeratur ista quasi diversa</quote>
+              <bibl>Lombardus, I, </bibl>
+            </cit> etc. 
+            Tertia ibi 
+            <cit>
+              <quote>quod <unclear>aut</unclear> aeternitate</quote>
+              <bibl>Lombardus, I, d. xx, c. xx</bibl>
+            </cit> 
+            etc. Et haec est in generali divisio praesentis distinctionis.</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q20-d1e3149"><hi rend="dropCapThreeLines">U</hi>trum quodlibet divinum suppositum immense perfectum sit se ipso ab alio 
+              quolibet infinite distinctum quod non quia nullum divinum suppositum est immense perfectum 
+              quod patet quia sicut unum non est aliud sic perfectio unius non est perfectio alterius 
+              quia tunc plures essent immensae perfectiones quarum una non esset alia</p>
+        
+            <p xml:id="pgb1q20-d1e3161">2o divina supposita 
+              suis relatis de <corr><del><unclear>de</unclear></del></corr> proprietatibus distinguitur a se invicem et a perfectionibus <sic>attributibus<!-- perhaps should be attributis --></sic> ergo non se 
+              ipsis distinguitur tenet consequentia quia illae proprietates personales non sunt divina supposita ut videtur</p>
+            
+            <p xml:id="pgb1q20-d1e3179">3o divina supposita infinite modice distinguitur ergo tenet consequentia quia non videtur compossibile quod aliquid 
+              sit infinite modice tale et infinite tale antecedens vero patet quia divina supposita distinguitur 
+              distinctione reali personali quae est minima possibilis distinctio</p>
+            
+            <p xml:id="pgb1q20-d1e3188">In oppositum arguitur quia divina supposita 
+              distinguitur sic quod nullo modo possunt esse idem suppositionaliter et non alia re a se ipsis igitur 
+              consequentia tenet quia quantum identitas distinctioni repugnat tantum illa videntur distingui inter se prima 
+              pars antecedentis patet quia quanta necessitate deus est deus tanta necessitate est tria supposita 
+              divina 2a pars patet quia si sic sequeretur quod in essentia divina esset quaternitas consequens est falsum</p>
+          </div>
+          <div>
+            <head>Prima conclusio</head>
+            <p xml:id="pgb1q20-d1e3219">prima conclusio quodlibet suppositum divinale est immense perfectum et alteri aequale probatio quia inter 
+              divina supposita est summa identitas essentialis perfectionis <unclear>plurium</unclear> igitur tenet consequentia quia 
+              plurium distinctorum summa essentialis identitas est illorum summa aequalitas antecedens probatur 
+              quia maior identitas essentialis plurium quam sit identitas divinorum suppositorum <corr><add place="marginRight">non</add></corr> 
+              potest imaginari</p>
+            
+            <p xml:id="pgb1q20-d1e3270">primum corollarium licet nullius sit perfectionis esse suppositum determinatum 
+              tamen immensae perfectionis est esse suppositum increatum prima patet quia si sic filius non haberet 
+              omnem perfectionem patris nec econverso quod est falsum secunda pars paret conclusionem</p>
+            
+            <p xml:id="pgb1q20-d1e3280">2m corollarium nulla 
+              res creata simplex vel composita potest esse tam aequalis alteri quam sunt aequalia 
+              divina supposita patet quia nulla plura creata sunt tam idem quam sunt idem divina supposita</p>
+            
+            <p xml:id="pgb1q20-d1e3288">3m corollarium licet aequalitas seu identitas quorumlibet aequalium creatoris sit infinite 
+              minor identitate <sic>identitate</sic> divinorum suppositorum tamen non repugnat secundum aliquam denominationem 
+            unam tantum esse similitudinem similium compositorum prima patet quia aliter 
+              identitas divinorum suppositorum non esset ydemptitas summa possibils ex natura quod 
+              est contra dicta 2a pars probatur quia de potentia dei absoluta eadem albedo posset duo 
+              posset duo substantia distincta informare et per consequens illa reddere similia et alba denominare</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q20-d1e3330">2a conclusio sicut nullum divinum suppositum distinguitur a sua proprietate personali 
+              sic nullum divinum suppositum distinguitur ab aliqua perfectione essentiali seu attributali 
+              prima probatur summendo supposita cum inclusione originis et hoc patet per <name ref="#Jerome">Ieromum</name> in <title>expositione 
+            fidei catholicae</title> dicentem inpietatem sabelii declinantis tres personas 
+              sub proprietate divinus et subdit non enim nomina tantum modo sed etiam nomen proprietatis 
+              id est personas vel ut <name>graeci</name> exponunt hypostases et subsistentias confitemur 
+              ex quibus verbis patet conclusio et habentur haec verba infra <ref>distinctione 35 capitulo ultimo</ref> 
+              2a pars probatur quia perfectio attributalis est ipsa met essentia in multiplici importata 
+              <pb ed="#L" n="64r"/>per terinem generaliter importantem perfectionem simpliciter communem creatori et creaturae secundum quamdam 
+              <unclear>anologiam</unclear> ex notescentia creaturarum investigata in creatore sicut 
+              est sapientia iustitia bonitas etc huiusmodi sed quodlibet divinum suppositum est formaliter 
+              et realiter iustitia bonitas sapientia et huiusmodi ergo nullum divinum suppositum 
+              distinguitur a perfectione attributali prima pars antecedentis patet per descriptionem attributi seu 
+              perfectionis attributalis quae potest trahi ex dictis <name ref="#ThomasStrasbourg">thomae argentis</name> distinctione 
+              6a primi quaestione prima articulo primo per hoc quod dicitur generaliter significans perfectionem simpliciter  <unclear>differunt</unclear> 
+              a notionalibus quia licet patrem generare sit perfectionis simpliciter non tamen generaliter 
+              quia esset perfectionis in filio vel spiritu sancto per hoc quod dicitur deo et creaturae differunt 
+              ab illis quae non sunt nec possunt esse creaturae convenientes sicut deitas immensitas 
+              etc per hoc autem quod dicitur secundum anologiam quamdam differunt ab hiis quae 
+              sola fide credimus deo communire et ex solo libro arbitrio dependere sicut esset 
+              hominem esse natum esse passum etc</p>
+            
+            <p xml:id="pgb1q20-d1e3423">primum corollarium quod voluntas intellectus bonitas 
+              et huius perfectiones attributales non sunt nec dicunt in deo distinctas formalitates 
+              patet quia aliter esset processus infinitus informalibus quod est falsum patet consequentia quia si sapientia 
+              formaliter distinguitur a voluntate sit ergo illa formalitas <c>a</c> distincta et sequitur quod <c>a</c> 
+              habeat aliam formalitatem et tunc quaeritur de illa aut illa distinguitur ut prius 
+              et sic erit procedere in infinitum vel dabitur quod aliqua distinguitur formaliter et non habebutn 
+              diversas formalitates</p>
+            
+            <p xml:id="pgb1q20-d1e3454">2m corollarium omnes divinae perfectiones attributabiles inter 
+              se formaliter sunt eaedam et simpliciter aequales patet</p>
+            
+            <p xml:id="pgb1q20-d1e3460">3m corollarium licet huiusmodi attributa 
+              non plurificentur nec distinguitur ex natura rei tamen distinctio <!-- compare with earlier instances of "dico" which look the same --> rationis inter illas habetur 
+              seu sumitur operatione intellectus nostri prima patet ex dictis 2a probatur quia ex quo tales 
+              perfectiones attributabiles in deo non distinguitur earum pluralitates non possent haberi 
+              nisi per distinctas conceptiones earumdem acceptas ex creaturis in quibus aliud est 
+              intelligere aliud velle etc sed tales compositiones et divisiones sunt nostri intellectus 
+              operationes ergo</p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q20-d1e3479">3a conclusio sicut aequalitas inter plura creata reperibilis aequalitati 
+              divinorum suppositorum est proprie incomparabilis sic eorumdem divinorum suppositorum distinctio <!-- again compare with instances of "dico" above or in other files--> 
+              personalis omni alteri distinctioni est improportionalis prima patet dicta quia nulla plura 
+              creata sunt tam idem essentialiter quam haec supposita divina sunt idem essentialiter 2a pars 
+              probatur tum quia illa distinctio personalis in linea distinctionum non est alicuius quantitatis cum sit 
+              minima possibilis tum 2o quia nulla distinctio inter creata reperibiles est eiusdem rationis cum 
+              ista igitur ipsa cuilibet est improportionalis alteri</p>
+            
+            <p xml:id="pgb1q20-d1e3500">primum corollarium sicut duo supposita 
+              divina non sunt uno aliquid maius sic unum illorum non minus distinguitur ab uno 
+              quam a reliquis duobus patet quia quodlibet distinguitur se ipso a quolibet alio</p>
+            
+            <p xml:id="pgb1q20-d1e3509">2m corollarium licet 
+              inter quoslibet duos homines sit reperire proprie distinctionem personalem tamen non proprie 
+              dicimus illam distinctionem distinctioni divinae <unclear>fore</unclear> maiorem minorem vel aequalem 
+              patet quia sunt diversarum rationum et improportionales infinite <unclear>incompossibliter</unclear> quia infinite 
+              est impossibile quod una persona sit alia non tamen infinite impossibile infinite differenter 
+              <pb ed="#L" n="64v"/>distinguitur ita quod persona distinguitur infinite incompossibiliter et distanter et tamen distinguitur indivisibiliter 
+              quia minima distinctio possibilis est</p>
+            
+            <p xml:id="pgb1q20-d1e3533">3m corollarium est pars affirmativa <unclear>quaestionis</unclear> sumendo supposita 
+              cum inclusione originis eorum</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+            <p xml:id="pgb1q20-d1e3542">Contra primam conclusionem sequitur quod esset in divinis tria perfecta 
+              summe consequens falsum quia tantum est unum summe perfectum consequentia patet quia quodlibet aequalium 
+                ut aequale est alteri est <unclear cert="high">aliquod</unclear> perfectum sed suppositum divinum non est alteri aequale nisi <unclear cert="high">quatinus</unclear> 
+              est contra illud distinctum aliqualiter ergo quodlibet divinum suppositum ut ab alio distinctum erit 
+                summe perfectum et sic erunt tria summe perfectam</p>
+              
+              <p xml:id="pgb1q20-d1e3560">2o sequitur quod erunt infinita in deo aequalia 
+              patet quia quaelibet perfectio attributalis erit alteri aequalis</p>
+              
+              <p xml:id="pgb1q20-d1e3566">3o contra 2m corollarium subiectum 
+                et accidens eius sunt tantum una quantitate quantum ergo una quantitate quantum possunt esse aequalia 
+                patet consequentia quia quantitas est secundum <corr><add place="belowLine">ae</add>quales</corr> vel inaequales esse dicimur secundum <name ref="#Aristotle">philosophum</name></p>
+              
+              <p xml:id="pgb1q20-d1e3581">4o contra 3m corollarium sequitur quod maior identitas esset filii et patris in divinis quam hominis 
+                ad se ipsum consequens est falsum quia sicut verum est dicere<!-- compare this abbrev to other expansions to differe or differunt --> <name ref="#Plato">plato</name> est <name ref="#Plato">plato</name> sic verum foret 
+                patrem esse filium quod non est dicendum sed probatur consequentia quia identitas hominis ad se 
+                ipsum videtur esse identitas <unclear>plurium</unclear> quia homo est materia et forma suae quae sunt eius 
+                partes et sunt plures</p>
+              
+              <p xml:id="pgb1q20-d1e3626">contra 2am conclusionem sequeretur quod pater una relatione et eadem referretur 
+                ad filium et spiritum sanctum consequens est falsum quia tunc econverso filius et spiritus sanctus una relatione 
+                referentur ad patrem et sic tantum esset una persona prima consequentia nota et 2a probatur quia impossibile 
+                est quod unum et idem correspondeat duabus relationibus secundum speciem</p>
+              
+              <p xml:id="pgb1q20-d1e3636">2o contra primum corollarium 
+                sapientia et iustitia formaliter distinguitur et ex rationibus eorum <unclear>formativus</unclear> in creaturis ergo 
+                ubicumque inveniuntur earum formalitates ibi et distinctiones quia infinitas non tollit 
+                distinctionem in re</p>
+              
+              <p xml:id="pgb1q20-d1e3649">3o contra 2m corollarium si attributa non esset distincta in deo sequitur quod potentia 
+                iustitia bonitas et huiusmodi essent nomina <unclear>synomina</unclear> falsitas consequentis patet quia non idem 
+                nec eodem modo videntur significare</p>
+              
+              <p xml:id="pgb1q20-d1e3660">4o contra 3m corollarium illa distinguitur quarum unum plurificatur 
+                alio non plurificato sed essentia non plurificatur attributa vero sic alias <unclear>m?</unclear> intellectus <unclear>significeret</unclear> 
+                vel deciperetur antecedens patet nam alium conceptum habemus de iustitia alium de 
+                bonitate alium de clementia</p>
+              
+              <p xml:id="pgb1q20-d1e3676">contra 3am conclusionem divina supposita distinguitur suis proprietatibus 
+                ergo unum suppositum plures habet proprietates quam aliud ergo in <unclear>li?a</unclear> distinctionis certa quantitatis 
+                huic distinctioni correspondet igitur una distinctio adintra est proportionalis vel comparabilis alteri distinctioni</p>
+              
+              <p xml:id="pgb1q20-d1e3687">2o cuilibet proprietati tantum correspondet de ratione <unclear>d?va</unclear> quantum ei correspondet de ratione entitativa 
+                sed cuilibet proprietati divinae correspondet propria ratio entitativa ergo propria ratio <unclear>di?va</unclear> et per consequens 
+                quaelibet proprietas addit propriam distinctionem super aliam</p>
+              
+              <p xml:id="pgb1q20-d1e3703">3o contra primum corollarium et primam conclusionem 
+                si pater distinguitur se ipso a filio sequitur quod pater nullo sui convenit cum filio vle quod pater 
+                non convenit aliquo sui cum filio consequens est falsum quia tunc non esset summe unum et 
+                idem essentialiter patet consequentia quia illa quae se ipsis distinguitur non convenit aliquo sui</p>
+              
+              <p xml:id="pgb1q20-d1e3725">4o contra 
+                corollarium responsivum divinae personae sunt summe simplices ita quod nec essentia est simplicior 
+                personis nec aliqua proprietas cogitabilis in personis est simplicior quam persona ergo a quocumque<!-- compare this with "quoque"--> 
+                talis persona distinguitur se ipsa ab illo distinguitur secluso quocumque alio ergo seclusa 
+                origine distinguitur a se invicem divinae personae haec ratio est <ref><name ref="#Rimini">gregorii</name> distinctione 26 
+                articulo primo quaestione 2a</ref></p>
+              
+              <p xml:id="pgb1q20-d1e3746">Ad primum negatur consequentia et ad probationem conceditur maior quia licet 
+                <pb ed="#L" n="65r"/>perfectione incomplexa quodlibet divinum suppositum sit immense perfectum non tamen sequitur quod sint tria 
+                supposita perfecta <name ref="#HugolinoOfOrvieto">hugolinus</name> Aliter potest dici quod consequens est verum quia paciones <unclear>con?ae</unclear> 
+                conveniunt tribus personis conveniunt per nomina adiectiva vel participia si 
+                pure adiective tenentur semper <unclear>dnr[?]</unclear> de pluribus scilice de tribus pluraliter et secundum illam 
+                relatam possunt dici tres beati tres aeterni et sic de similibus <ref><name ref="#HenryOfGhent">henricus gandevensis</name> parte prima 
+                articulo 49 quaestion 3a</ref></p>
+              
+              <p xml:id="pgb1q20-d1e3777">Ad 2m negatur consequentia et ad probationem dicitur quod inter attributa nullam est 
+                distinctio ex natura rei ut patet ex 3o corollario 2ae conclusionis</p>
+              
+              <p xml:id="pgb1q20-d1e3783">Ad 4m primo posset negari antecedens quia 
+                quodlibet illorum est quantitas vel propria quantitate quantum 2o posset dici quod ratio non est contra corollarium 
+                quia quantitas non est de ratione essentiali ipsorum <unclear>quantorum</unclear></p>
+              
+              <p xml:id="pgb1q20-d1e3793">Ad 5m posset primo dici consequens 
+                admittendo et cum ultra infertur ergo sicut est concedenda ista <name ref="#Plato">plato</name> est <name ref="#Plato">plato</name> etc negatur haec consequentia 
+                2o et melius potest dici negando consequentiam primam quia identitas hominis ad se ipsum non 
+                est proprie identitas plurium sed unius tantum hominis</p>
+              
+              <p xml:id="pgb1q20-d1e3823">Ad primum contra 2am conclusionem conceditur consequens 
+                et ad improbationem quia tunc filius et spiritus sanctus etc negatur consequentia quia sicut <name ref="#Sortes">sortes</name> eadem albedine numero 
+                potest esse similis <name ref="#Plato">platoni</name> et dissimilis <name ref="#Cicero">ciceroni</name> sic unica relatio duabus relationibus correspondere 
+              potest</p>
+              
+              <p xml:id="pgb1q20-d1e3843">Ad 2m negatur consequentia et ad probationem conceditur quod infitas divina non tollit 
+                distinctionem formalem attributorum simplicter sed tollit distinctionem formalem in deo</p>
+              
+              <p xml:id="pgb1q20-d1e3849">Ad 3m 
+                negatur consequentia ad probationem dicitur quod licet illa nomina penitus significent idem in divinis non tamen 
+                significant idem in creaturis et ideo non dicuntur synomina quia synomina signficant idem 
+                penitus in quocumque significatum ipsorum reperiatur</p>
+              
+              <p xml:id="pgb1q20-d1e3859">Ad 4m negatur minor ad probationem dico <!-- compare this dico with other instances of "distinctio" --> quod sicut 
+                essentia non plurificatur sic nec attributa plurificantur ex natura rei in deo licet per 
+                diversos terminos exprimamus idem significatum et hoc est propter debilitatem nostri intellectus <!-- "debilitas intellectus" could be a subject key word under "intellectus" also visible in plaoul -->
+                quia aliter capere nec intelligere potest</p>
+              
+              <p xml:id="pgb1q20-d1e3873">Ad primum contra 3am conclusionem conceditur maior sed negatur minor 
+                quia si pater et generans filius est genitus et spiritus sanctus non genitus et sic de <unclear>singulis</unclear> 2o dicitur 
+                quod non sunt plures proprietates incomplexe in uno quam in alio quia quodlibet suppositum 
+                est sua proprietas loquendo intransitive 3o dato quod esset plures proprietates 
+                complexe tamen quia consurgunt ex unica et prima ratione <unclear>d??va</unclear> ideo nihil addunt</p>
+              
+              <p xml:id="pgb1q20-d1e3900">Ad 
+                2m diceret <name ref="#HugolinoOfOrvieto">hugolinus</name> quod non est verum assumptum quia dicit in <ref>ista distinctione quaesitone prima 
+                conclusione 4a</ref> quod quaelibet distinctio <!-- compare this "distinctio" to above "dico" --> in divinis est infinite modica et tamen est entitas infinite 
+                magna 2o et aliter potest concedi illud assumptum scilicet quod tantum correspondet etc sed non 
+                tantae et sic non valet illa consequentia distinctio inter patrem et filium est infinita ergo infinite distinguitur 
+                nisi in sensu dato et expresso in corollario ultimo</p>
+              
+              <p xml:id="pgb1q20-d1e3926">Ad 3m dicitur quod debet intelligi se ipsis 
+                distinguitur id est nulla alia entitate incomplexa si tamen consequens intelligitur quod pater non communiret 
+              in essentia cum filio negaretur quia utrique est essentia Item circa illud dicit <name ref="#HugolinoOfOrvieto">hugolinus</name> 
+                quod personae divinae se ipsis in gradu distinctionis distinguitur cum quaelibet persona tota 
+                sui entitate est essentialiter idem quod alia persona quia sunt summe unum essentialiter et 
+                dicit ultra quod non <unclear>convenit</unclear> alioquo sui quasi aliqua parte sed se totis essentialiter unum sunt</p>
+              
+              <p xml:id="pgb1q20-d1e3953">Ad 4m dicitur primo quod illa pluralitas non repugnat simplicitati sicut nec multiplicitas 
+                personarum simpolicitati essentiae 2o posset dici quod corollarium non dicit quod absolute per<pb ed="#L" n="65v"/>sonae 
+              distinguuntur sed dicit quod non distinguuntur se ipsis sine inclusione originis ideo non 
+                concludit ratio</p>
+              
+              <p xml:id="pgb1q20-d1e3967">Ad primam rationem in oppositum negatur consequentia quia una est perfectio trium personarum 
+                in <unclear>plurficabilis</unclear> et ad confirmationem quia perfectum dicitur quasi perfecte factum verum est secundum in 
+                positionem nominis non autem secundum proprietatem significationis</p>
+              
+              <p xml:id="pgb1q20-d1e3980">Ad 2m patet ex conclusione quod 
+                supposita divina sunt suae proprietates et perfectiones attributabiles</p>
+              
+              <p xml:id="pgb1q20-d1e3986">Ad 3m patet per 3am 
+                conclusionem et corollaria qualiter et quanta sit distinctio divinorum suppositorum</p>
+          </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+          <p xml:id="pgb1q20-d1e3991">nunc postquam 
+            prima conclusio quod secundum fidem catholicam tres personae divinae sunt coaeternae atque coaequales</p>
+          
+          <p xml:id="pgb1q20-d1e4000">2a conclusio quod nulla divinarum personarum aliam praecedit aeternitate aut excedit 
+            magnitudine aut superat potestate 3a conclusio quod licet ista tria scilicet aeternitas magnitudo 
+            potestas quasi diversa merentur in deo tamen unum et idem sunt scilicet divina essentia simplex 
+            et incommutabilis</p>
+          
+          <p xml:id="pgb1q20-d1e4012">4a conclusio quod pater non est maior filio nec pater et filius maiores 
+            spiritu sancto nec maius aliquid duae personae sunt simul quam una necque tres maius 
+            aliquid quam duae nec maior est essentia in duabus quam vel tribus quam in una quia tota est 
+            in singulis</p>
+          
+          <p xml:id="pgb1q20-d1e4022">5a conclusio quod filius est in patre et pater in filio et spiritus sanctus in utroque et singuli 
+            in singulis propter naturae divinae unitatem</p>
+          
+          <p xml:id="pgb1q20-d1e4028">6a conclusio quod nulla divinarum personarum trium 
+            est pars divini esse vel divinae essentiae quia singula harum verus et plus deus est 
+            et tota etiam plena essentia divina est et ideo nulla istarum in trinitate pars est</p>
+          
+          <p xml:id="pgb1q20-d1e4036">7a conclusio est 
+            quod tres divinae personae dicuntur una essentia non secundum materialem causam ut tres 
+            statuae dicuntur unum aurum nec secundum complexionis similitudinem ut tres hominis 
+            dicuntur unus naturae vel sexus nec divina essentia praedicatur de divinis personis ut genus 
+            de speciebus nec species de individuis nec ut continens de contentis nec ut 
+            maius de <unclear cert="medium">numeribus</unclear></p>
+          
+          <p xml:id="pgb1q20-d1e4053">8a conclusio deus dicitur trinus seu trinitas non autem dicitur triplex 
+            ibi enim non est triplicitas ubi summa est unitas et <unclear>indifferens</unclear> aequalitas 
+            in rebus autem corporeis non tantum est una quantum sunt tres simul et plus sunt 
+            duae res quam una in trinitate vero summa tantum est una persona quantum tres simul 
+            et tantum duae quantum una et ipse infinite sunt quia non est finis magnitudinis earum</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
