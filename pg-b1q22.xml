@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 22</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.12-dev-master">
+          <title>Librum I, Quaestio 22</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-12-03" who="#JW" status="draft" n="2014.12">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q22">
+        <head>Quaestio 22</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          
+          <p xml:id="pgb1q22-d1e3115">
+            <cit>
+              <quote>Praedictis adiciendum est 
+                dicuntur sicut Pater alicuius Filii Pater 
+                <app>
+                  <lem>dicitur.</lem>
+                  <rdg wit="#L" type="corrAddition">
+                    <corr>
+                      <add place="marginRight">dicitur</add>
+                    </corr>
+                  </rdg>
+                </app>
+              </quote> 
+            </cit> 
+            Haec est 23 distinctio in qua postquam <name ref="#Lombard">Magister</name> tractavit de divinis nominibus in generali 
+        <unclear>nunc</unclear> vero prosequatur de ipsis in speciali.</p>
+        
+        <p xml:id="pgb1q22-d1e3140">Et dividitur in tres nam primo ostenditur 
+          qualiter persona in divinis dicitur, secundo qualiter terminus <unclear>numeralis</unclear> in divinis praedicatur, et tertio qualiter terminus numeri 
+          pluralis personis divinis applicatur. Secunda pars incipit in principio et <unclear>4ae</unclear><!-- 24th--> distinctionis ibi 
+          <cit>
+            <quote>hic 
+              diligenter.</quote>
+            <bibl>Lombardus, I, d. 24, xxx</bibl>
+          </cit> 
+          Tertia in principio 25ae distinctionis ibi 
+          <cit>
+            <quote>praeterea considerandum est.</quote>
+            <bibl>Lombardus, I, d. 25, xxx</bibl>
+          </cit>
+        </p>
+        
+        <p xml:id="pgb1q22-d1e3155">prima in tres 
+          quia primo huius nominis quod est persona a quadam relata prius data ponit exceptionem 
+          2o movet utilem quaestionem et 3o ponit dictorum replicationem seu recapitulationem 
+          2a ibi ideo hic oritur quaestio 3a ibi iam sufficienter ut puto</p>
+        
+        <p xml:id="pgb1q22-d1e3167">2a 
+          principalis pars quae est 24a distinctio dividitur in tres quia primo <name ref="#Lombard">magister</name> ponit 2o recitat 
+          aliorum opinionem et 3o ponit quaestionis solutionem 2a ibi si diligenter 3a ibi <unclear>cum ei?</unclear> 
+          dicitur unus deus etc</p>
+        
+        <p xml:id="pgb1q22-d1e3184">3a pars quae est distinctio 25a dividitur in tres quia primo <name ref="#Lombard">magister</name> quaerit 
+          utrum hoc nomen persona significet divinam essentiam 2o ponit aliorum intentionem 
+          et 3o ponit propriam responsionem 2a ibi quibusdam videtur 3a ibi sciendum est ergo etc</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q22-d1e3195"><hi rend="dropCapThreeLines">U</hi><hi>trum</hi> idem conceptus numero possit convenire proprie et formaliter deo et creaturae 
+              utrum aliqua nomina reperta in scripturis sicut formaliter propria deo et creaturis 
+              quod non quia tunc sicut verus numeris ponitur et reperitur in creaturis ita verus 
+              numeris esset in divinis consequens est falsum quia numerus est accidens reale quod nullo modo est ponendum 
+              in simplicitate divinae essentiae consequentia patet cum non minus trinitas divinarum personarum 
+              sit verus numerus quam trinitas personarum creatarum ut videtur ergo</p>
+            
+           <p xml:id="pgb1q22-d1e3213">2o nullus conceptus 
+             est creaturae et deo unicus ergo nullum nomen proprie convenit deo et creaturae consequentia 
+             bona et antecedens probatur quia deus et creatura plus differunt quam substantia et accidens</p>
+            
+            <p xml:id="pgb1q22-d1e3221">3o deus 
+              non est nominabilis et creatura est ergo consequentia est bona et antecedens et <ref><name ref="#Augustine">augustini</name> in de verbis 
+              <unclear>deum</unclear> sermone 34</ref> quidquid potest fari non est ineffabile ineffabilis est autem deus ergo 
+              Item per <ref>auctorem <title ref="#deCausis">de causis</title> propositione 6</ref> dicentem prima cum est super omnem narrationem 
+              et deficiunt <unclear>linguae</unclear> a narratione eius</p>
+            
+            <p xml:id="pgb1q22-d1e3256">In oppositum videtur esse <name ref="#Lombard">magister</name> 
+              <c>a</c> 21 distinctione usque ad 26 exclusive ergo</p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+            
+            <p xml:id="pgb1q22-d1e3269">prima conclusio licet numerus secundum quid sit de rebus 
+          corporalibus probabilis tamen numerus simpliciter et rebus spiritualibus est reperabilis prima pars 
+          probatur quia numerus est pluralitas unitatum seu plures unitates ergo numerus secundum quid in 
+          rebus corporalibus est <unclear>ponibilis</unclear> patet consequentia quia si plures unitates sunt numerus sequitur quod illae 
+          unitates quae non sunt unitates simpliciter sed secundum quid non constituunt numerum simplicier 
+          sed secundum quid sed in rebus corporalibus nihil est unum simpliciter ergo patet cum quodlibet tale sit compositum 
+          ex pluribus partibus seu unitatibus scilicet ex materia et forma antecedens primum potest 
+          haberi a <ref><name ref="#Aristotle">philosopho</name></ref> et <ref><name ref="#Averroes">commentore</name> 3o <title>physicorum</title></ref> 2a pars probatur quia numerus simpliciter est unitates simpliciter 
+          seu pluralitas unitatum simplicium sed talis simplicitas solum in rebus spiritualibus 
+          invenitur ergo</p>
+        
+        <p xml:id="pgb1q22-d1e3312">primum corollarium quod sumendo numerum pro pluralitate quacumque distinctorum realiter 
+          sic in divinis est ponendus numerus simpliciter si autem sumeretur pro pluralitate 
+          aliquorum nullum per se unum existentium nec constituentium sic a divinis 
+          <pb ed="#L" n="69r"/>personis est numerus removendus totaliter prima patet quia beata trinitas est vera pluralitas 
+          personarum abinvicem distinctarum 2a probatur quia illae personae sunt unum per se essentialiter 
+          quia compositum habens partes simul non dicitur numerus quia sunt unum hoc aliquid igitur a fortiori 
+          trinitas <unclear>increata <!-- in creata --></unclear> cum sit una simplicissima essentia non est numerus illo modo sumptus 
+          et in hoc sensu sumendae sunt auctoritates sonantes non esse numerum in divinis 
+          Istud corollarium est <ref><name ref="#Rimini">gregorii</name> distinctione 24 primi articulo 3o</ref></p>
+        
+        <p xml:id="pgb1q22-d1e3342">2m corollarium quod nullus numerus simpliciter 
+          est accidens rebus numeratis inhaerens formaliter patet cum nullum accidens sit in deo 
+          ponendum et numerus simpliciter est ibi confirmatur quia si numerus esset accidens aut divisibile 
+          aut indivisibile non primum quia non quilibet numerus est <corr><del rend="strikethrough">in</del>divisibilis</corr> in plures numeros 
+          ut patet de binario Item quilibet illorum numerorum haberet partes de <unclear>qualibet</unclear> posset 
+          quaeri utrum sine fine nec 2m cum omnis quantitas sit divisibilis ut patet 
+          <ref>5o <title ref="#Metaphysics">metaphysicae</title></ref> nec potest dici quod sit divisibilis in unitates cum unitates numerales 
+        non sint superadditae rebus numeratis sed sunt ipse res sequitur quod numerus 
+          non sit accidens divisibile Item sequitur quod idem accidens esset in pluribus rebus loco 
+          maxime distantibus patet consequentia quia numerus centum homini esset in quolibet eorum cum 
+          non sit maior ratio de uno quam de alio vel omnibus istud corollarium est <ref><name ref="#Rimini">gregorii</name> 
+          4o</ref></p>
+        
+        <p xml:id="pgb1q22-d1e3388">3m corollarium quod nullus numerus acceptus simpliciter et proprie dependet ab actu 
+          intellectus seu ab anima numerante patet quia aliter cessante tali actu cessaret 
+          numerus et sic <unclear>deordinate divite</unclear> non computante floris desineret habere numerum quem 
+          prius habebat immo nec plures nec pauciores haberet quam quicumque pauper patet consequentia 
+          quia ubi non est numerus ibi non sunt plures nec pauciores nec plus nec minus 
+          discretive seu numeraliter hoc corollarium est <ref><name ref="#ThomasStrasbourg">thomae de argentia</name> <corr><del rend="strikethrough">lio</del></corr> distinctione 24a</ref> Ex quibus 
+          patet quod sicut nulla res per se <corr><del rend="strikethrough">s</del></corr> una est plures homines sic nullus numerus est una 
+          res sed plures patet quia est res numeratae vide <ref><name>gregorium</name> ubi supra</ref></p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        
+        <p xml:id="pgb1q22-d1e3440">2a conclusio quod licet 
+          divinum suppositum importans perfectionem simpliciter potest de deo dici proprie et formaliter 
+          probatur quia deus est formaliter illud quod in quolibet est melius ipsum quam non ipsum ergo conclusio 
+          vera consequentia bona et antecedens est <ref><name ref="#Anselm">anselmus</name> <title ref="#Monologion">monologion</title> 15</ref> nota tamen quod illa descriptio 
+          <name ref="#Anselm">anselmus</name> intelligi debet sic quod perfectio simpliciter est illa per quam unicuique in quo est melius 
+        est ipsum quam si non esset in illo nec esset illud nec in se formaliter nec in 
+          alio aequivalenter vel virtualiter ex quo sequitur quod descriptio <name ref="#Anselm">anselmi</name> perfectionis simpliciter 
+          in se et in sensu quem facit non videtur vera patet quia sic intellecta sequeretur ex ea quod nihil 
+          esset perfectio simpliciter patet consequentia quia nihil est quod unicuique sit melius <corr><del rend="strikethrough">s</del></corr> ipsum quam non 
+          ipsum quia vel illud esset creator vel creatura non creator quia non mihi esset melius 
+          esse deum quam non deum quia per esse me deum <unclear>reducere</unclear> ad non esse me </p>
+        
+        <p xml:id="pgb1q22-d1e3492">nec etiam illud esset creatura quia deo non esset melius esse creaturam quam non creaturam 
+          ideo quidam glosant <name rend="#Anselm">anselmum</name> sic dicentes <quote>perfectio simpliciter est illa quae in uno 
+          quoque in quo est melius est illi quam si in illo non esset</quote> sed hoc non sufficit 
+          quia tunc habere calliditatem decem graduum non esset perfectionis simpliciter consequens est falsum 
+          et consequentia patet quia si illa caritas <unclear cert="high">auferetur</unclear> a me et si daretur mihi alia caritas 
+          <pb ed="#L" n="69v"/>mille gradum melius esset mihi quam prius et tamen non haberem illam quam prius et per 
+          consequens illam habere non esset perfectionis simpliciter quod erat consequens illatum</p>
+        
+        <p xml:id="pgb1q22-d1e3526">primum corollarium 
+          quod aliqua nomina importantia negationem seu privationem significant perfecte divinam 
+          naturam et immensa perfectionem patet quia immensum infinitum et immensitas infinitas 
+          significant divinam naturam et perfectionem et tamen sunt nomina negativa ergo antecedens est <ref><name ref="#RichardOfStVictor">ricardi</name> 
+            3o <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> capitulo 9o</ref> dicentis <quote ana="#RichardOfStVictor_deTrinitate_2_7_a">productio habemus quod substantia divina non sit aliud quam immensitas 
+          sua</quote></p>
+        
+        <p xml:id="pgb1q22-d1e3551">2m corollarium nullum nomen pure negativum seu privativum est divinae 
+          essentiae perfecte declarativum seu expressivum patet quia tale nomen dicit perfectionem 
+          simpliciter ergo antecedens patet quia tale nomen non dicit quid res sit sed quid non sit</p>
+        
+        <p xml:id="pgb1q22-d1e3559">3m corollarium 
+          nullum nomen dictum de deo temporaliter dicit perfectionem simpliciter aut competit deo formaliter 
+          patet quia quodlibet tale potest deo non competere confirmatur quia aliter sequitur quod deus esset perfectior 
+          post mundi creationem quam ante patet quia in mundi creatione incepit esse deus 
+          cum illud nomen dicatur de deo in ordine ad creaturas ut ostendit <ref><name ref="#Lombard">magister</name> in distinctione 22a</ref></p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+        <p xml:id="pgb1q22-d1e3575">3a conclusio licet deus non sit <corr><add place="aboveLine"><c>a</c></add></corr> nobis in via perfecte cognoscibilis seu conceptibilis tamen in via 
+          aliquo modo a nobis deus est nominabilis prima patet per <ref><name ref="#Paul">apostolum</name>  <title ref="#Icor">primae ad corinthios</title> 13o</ref> <quote ana="#Icor13_12">nunc ex 
+            parte et imperfecte deum concipimus</quote> 2a pars probatur quia illud quod concipimus seu possumus 
+        concipere aliquo modo possumus illud per nomina vocalia exprimere et nominare 
+          cum voces sint signa passionum et conceptuum animae sed per primam partem 
+          deum aliquo modo concipimus ergo</p>
+        
+        <p xml:id="pgb1q22-d1e3609">primum corollarium quod nullum nomen mentale vel vocale 
+          est proprie univocum deo et creaturae patet quia maxime videntur li <mentioned>ens</mentioned> esse eis 
+          univocum et commune sed hoc est falsum patet quia minus convenit deus cum ente creato 
+          quam accidens cum substantia</p>
+        
+        <p xml:id="pgb1q22-d1e3622">2m corollarium licet deus sit a nobis aliquo modo conceptibilis et nominalis 
+          tamen huius conceptus in nullo praedicamento est reponibilis patet quia tunc talis terminus praedicamenti univoce 
+          de deo diceretur et creaturis quod est falsum hoc corollarium est contra <ref><name ref="#Rimini">gregorium</name> libro primo distinctione 
+          8 quaestione 3a articulo 3o</ref></p>
+        
+        <p xml:id="pgb1q22-d1e3636">3m corollarium licet nullum nomen propriem repertum in scripturis sit 
+          proprie univocum deo et creaturis tamen <unclear>idem</unclear> nomen mentale vel vocale potest deum 
+          et creaturam analogice significare prima pars patet sumendo nomen proprium univoce et scricte 
+          quia nullum est tale competens deo et creaturae 2a pars patet sumendo non proprium large 
+          et per quod conceptu rei significativo analogo et aliqualiter aequivoco</p>
+          </div>
+          <div>
+            <head>Obiectiones et responsiones</head>
+            <p xml:id="pgb1q22-d1e3665">contra primam 
+          conclusionem et corollarium primum omnis numerus simpliciter proprie dictus est pluralitas quantorum sed in divinis 
+          se in rebus <unclear>innumerabilibus</unclear> non est pluralitas quantorum ergo maior patet quia omnis talis numerus 
+          est species quantitatis quia est quantitas diserta ut patet in probatis minor patet quia nullum 
+          immateriale est quantum</p>
+        
+        <p xml:id="pgb1q22-d1e3680">2o contra 2m corollarium sequitur quod res numeratae sunt numerus consequens est falsum 
+          quia tunc aliqui numeri inaequales essent eiusdem speciei patet consequentia quia sex homines 
+          et quinque sunt eiusdem speciei quia omnes homines sunt eiusdem speciei specialissime et tamen 
+          sunt numeri inaequales ergo</p>
+        
+        <p xml:id="pgb1q22-d1e3690">Item eodem modo sequitur quod numeri aequales erunt diversarum 
+          specierum sicut quaternarius rosarum et quaternarius violarum patet consequentia quia rosa 
+          et viola distinguitur specie</p>
+        
+        <p xml:id="pgb1q22-d1e3698">3o sequitur quod aliqua substantia esset quantitas patet consequentia cum 
+          omnis numerus sit quantitas et res numeratae sunt substantiae consequens est falsum cum quia 
+          <pb ed="#L" n="70r"/>omnis quantitas est accidens tum quia substantia et quantitas diversa sunt praedicamenta et distincta</p>
+        
+        <p xml:id="pgb1q22-d1e3707">4o 
+          sequeretur quod videns exercitum hominum sciret numerum ipsorum quia numerus illorum et illi 
+          homines sunt idem</p>
+        
+        <p xml:id="pgb1q22-d1e3715">contra 2am conclusionem deus et creatura se ipsis totaliter distinguitur et in nullo 
+          formaliter <unclear>convenit</unclear> ergo nulla ratio abstracta vel sumpta ab uno competit formaliter 
+          alteri ergo nullum nomen abstractum a creatura dicitur de deo formaliter patet consequentia quia 
+          si talis ratio competent cuilibet illorum illa non esset formaliter totaliter distincta sed in aliquo 
+          <unclear>conveniret</unclear> formaliter quod repugnat dictis</p>
+        
+        <p xml:id="pgb1q22-d1e3740">2o contra primum corollarium si aliquod nomen negativum 
+          diceretur de deo formaliter vel hoc esset per informationem vel identitatem non primum 
+          quia actus simplicissimus non potest esse subiectum alicuius per <unclear>informatam</unclear> nec 2m quia tunc privativum 
+          et negativum cum positivo coinciderent per identitatem et esset realiter idem quod est falsum 
+          3o contra 2m corollarium infinitas est tam negativum sic in corporeitas sed infinitas formaliter 
+          dicitur de deo ergo</p>
+        
+        <p xml:id="pgb1q22-d1e3770">contra 3am conclusionem videtur esse <ref><name ref="#Dionysius">dyonisus</name> primo <title ref="#deDivinisNominibus">de divinis nominibus</title></ref> dicens <quote>deus est 
+          innominabilis a nobis quia nihil nominamus quod nulla cogitatione cognoscimus</quote> sed ut ipse 
+          ostendit ibidem deum nulla cognitione cognoscimus ergo</p>
+        
+        <p xml:id="pgb1q22-d1e3788">2o cuiuslibet signi ad suum significatum 
+          debet esse certa proportio sed nulla proportio potest esse inter aliquod nomen mentale et 
+          vocale et deum ergo nullo conceptu deus est conceptibilis</p>
+        
+        <p xml:id="pgb1q22-d1e3796">3o contra primum corollarium omnis intellectus 
+          de uno conceptu certus et dubius de diversis habet conceptum de quo est certus <corr><del rend="strikethrough">et</del></corr> alium <c>a</c> 
+          conceptibus de quibus est dubius sed intellectus viatoris potest esse certus de deo 
+          dubitando de ente finito vel infinita creato vel increato ergo conceptus entis 
+          de deo est alius <c>a</c> conceptu isto vel illo ergo neuter ex se in utroque includitur 
+          ergo non est unicus ad illos <ref><name ref="#Scotus">scotus</name> libro primo distinctione 3a quaestione 2a</ref> vide rationes 
+          <name ref="#ThomasStrasbourg">thomae argentia</name></p>
+        
+        <p xml:id="pgb1q22-d1e3832">contra 2m corollarium omne quod praedicatur vere inquit de pro nomine de <unclear>mon?te[?]</unclear> 
+          aliquam rem et de pro nomine de <unclear>mon?te</unclear> aliam rem specifice distinctam ab illa  non tamen de quolibet 
+          illud est genus seu praedicatum <corr>illius</corr> rei sed sic est de hoc nomine spiritus respectu dei et 
+          aliorum ergo deus seu eius conceptus est in aliquo praedicamento reponibilis minor patet quia hoc 
+          nomen spiritus praedicatur inquit de pro nomine demonstrato deum et angelos ergo spiritus est genus 
+          ad deum et angelos et consequenter deus est in genere aliquo</p>
+        
+        <p xml:id="pgb1q22-d1e3864">Ad primum maior potest negari quia non 
+          minus trinarius angelorum est numerus simpliciter et proprie dictus quam quaternarius aequorum 
+          2o dicitur quod ibi sufficit quantitas perfectionis quia in spiritualibus hoc est maius quod est perfectius 
+          quodlibet autem divinum suppositum est immense perfectum licet non sint tria immense 
+          perfecta substantialiter distincta sunt tamen vere tria quorum quodlibet est immense perfectum</p> 
+          
+        <p xml:id="pgb1q22-d1e3885">Ad 2m conceditur consequens et ad probationem quod numeros inaequales esse eiusdem speciei huius generis 
+          quod est numeris dupliciter intelligitur primo quod eadem species specialissima numeri praedicetur de utroque 
+          numero sic negatur consequentia 2o modo quod sint eiusdem speciei cuiusdem alterius generis ut substantiae vel 
+          qualitatis sic conceditur consequentia et consequens tamquam verum nec probatur falsitas in hoc sensu sed in primo 
+          eodem modo dicitur ad secundum concedendo consequens nam duo homines et duo aequi et quaecumque alia <corr><del rend="strikethrough">alia</del></corr> 
+          duo sunt in eadem specie numeri inquantum duo sed inquantum homines sunt <unclear>alii</unclear> aequi 
+          sunt diversarum specierum nec hoc est inconveniens quod eadem res diversis modis sit in praedicamentis 
+          <pb ed="#L" n="70v"/>diversis</p>
+        
+        <p xml:id="pgb1q22-d1e3917">Ad 3m conceditur consequens et dico ulterius cum <name ref="#Rimini">gregorio</name> quod non omnis quantitas est accidens 
+          2o dicitur quod licet substantia et quantitas sint distincta praedicamenta tamen de eodem possunt praedicari</p>
+        
+        <p xml:id="pgb1q22-d1e3925">Ad 4m 
+          dicitur quod videns totum exercitum unum videt numerum homini et videns exercitum mille 
+        hominum videt numerum millenarium sed non sequitur quod videat determinate illos 
+          homines esse mille <ref>exemplum ponit <name ref="#Rimini">gregorius</name></ref></p>
+        
+        <p xml:id="pgb1q22-d1e3939">Ad primum contra 2am conclusionem negatur consequentia quia 
+          sic <unclear>probatetur<!-- looks like probatur but there is a clear "tetur" --></unclear> quod equus non esset formaliter animal quia homo et equus se ipsis formaliter distinguuntur 
+          et in nullo conveniunt ex parte rei ergo conceptus animalis abstractus ab uno eorum non conveniret 
+          alteri et sic vel homo non esset formaliter animal et si sic equus non <unclear>esset</unclear> animal formaliter 2o 
+          dico ad formam quod ratio solum probat quod ratio abstracta per intellectum a creatura non convenit 
+          deo formaliter extra intellectum quia talis ratio communis et abstracta non habet esse reale 
+          sed rationis tantum tamen non sequitur quin bonitas et sapientia et huius conveniat formaliter deo</p>
+        
+        <p xml:id="pgb1q22-d1e3965">
+          Ad 2m dicitur quod per identitatem et negatur consequentia illata ergo positivum etc quia licet ist termini infinitas 
+        immensitas sicut quid privativum secundum vocem non tamen secundum rem vel significationem</p>
+        
+        <p xml:id="pgb1q22-d1e3979">Ad 3m negatur assumptum tamen pro materia argumenti dico quod aliqua nomina sunt negativa secundum 
+          rem et vocem aliqua secundum vocem et aliqua simpliciter de primis invisibilitas in sono 
+          de 2is immensitas infinitas de 3iis ignorantia caecitas vide <ref><name ref="#AlphonsusVargas">alphonsum</name> 
+          distinctionem 22a primi articulo 2o</ref> ubi ponit multiplicem <unclear>nominum</unclear> distinctionem</p>
+        
+        <p xml:id="pgb1q22-d1e4007">Ad primum contra 3am conclusionem dicitur 
+          quod illa auctoritas et consimiles doctorum quod intendunt quod in via deum cognoscere perfecte 
+        non valemus nec etiam nominare sed solum imperfecte ipsum nominare possumus 
+          ut dicit conclusio</p>
+        
+        <p xml:id="pgb1q22-d1e4017">Ad 2m dicitur ad antecedens quod sufficit quod signum imponatur significato ab 
+          aliqua proprietate quae <unclear>insignificato</unclear> existat secundum rem et apparet aliquo modo vel exprimit <unclear>in significato </unclear> 
+          non tamen oportet quod inter signum et significatum sit proportio per adaequationem et aequalitatem quia 
+          aliter circulus numquam posset esse signum vim sufficit enim quod sit proportio secundum 
+          <unclear>impositionem</unclear></p>
+        
+        <p xml:id="pgb1q22-d1e4042">Ad 3m negatur maior quia intellectus potest esse certus de disiunctiva constituta 
+          ex contradictoriis et dubius de utraque sicut de ista <name>plato</name> est vel non est et tamen non 
+          oportet quod habeat conceptum distinctum disiunctivum unde cum bacalarius sit aequivocum ad bacalarium 
+          in theologia et medicina et hoc scias et sit <name>petrus</name> baccalarius in theologia 
+          et <name>iohannes</name> in medicina et nescias quis eorum sit theologus vel medicinus tunc sic 
+          quod <name>petrus</name> sit bacalarius tu est certus quod <name>iohannes</name> est bacalarius et si sed nescis 
+          utrum bacalarius medicinus vel theologus ergo per modum suum arguendi iste terminus <mentioned>bacalarius</mentioned> 
+          est alter ab utroque istorum et in utroque includitur ergo est unicus quod est falsum patet ergo 
+          quod ratio non concludit</p>
+        
+        <p xml:id="pgb1q22-d1e4127">Ad 4m negatur maior nisi praedicetur de ipsis univoce et secundum 
+          eandem rationem <unclear>quidditativam</unclear> 2o negatur minor quia non distinguitur specifice ab aliquo et cum dicitur quod 
+          de deo praedicatur spiritus etc negatur ibi consequentia quia non praedicatur univoce de eis unde <name ref="#Augustine">augustinus</name> 
+          negat deum esse substantia probat substantia est unum de decem praedicamentis quia divina 
+          essentia nullo genere clauditur vel limitatur ideo <name ref="#Dionysius">dyonisius</name> dicit quod deus non est ens sed 
+          super ens</p>
+        
+        <p xml:id="pgb1q22-d1e4155">Ad primum in oppositum conceditur consequens et ad improbationem dicitur quod consequentia non valet quia ut patuit 
+          supra numerus ille non est aliud a suppositis illis</p>
+        
+        <p xml:id="pgb1q22-d1e4161">Ad 3m dicitur quod facit pro conclusione 3a 
+          <pb ed="#L" n="71r"/>Ad 3m patet qualiter deus est a nobis imperfecte nominabilis et aliqualiter cognoscibilis 
+          et hoc sufficit</p>
+          </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+        <p xml:id="pgb1q22-d1e4171">praedictis adiciendum est prima conclusio quod 
+          hoc nomen persona dicitur ad se et secundum substantiam et dicitur sigillatim de qualibet persona nam 
+          pater est persona et filius persona et spiritu sanctus persona et tamen non dicuntur una persona sed tres 
+          personae</p>
+        
+        <p xml:id="pgb1q22-d1e4181">2a conclusio quod ab ista relata scilicet quod nomina quae substantiam significant dicuntur sigillatim 
+          de qualibet persona et de omnibus simul infiniri numero excipitur persona 
+          quia non dicitur de tribus simul in singulari sed in plurali</p>
+        
+        <p xml:id="pgb1q22-d1e4189">3a conclusio quod graeci 
+          dicunt tres substantias id est tres hpostases et unam essentiam latini dicunt unam 
+          essentiam vel substantiam et tres personas ita quod aliter accipiunt graeci substantiam quam 
+          latini</p>
+        
+        <p xml:id="pgb1q22-d1e4205">4a conclusio quod non dicimus tres deos quia scriptura contradicit nec dicimus 
+          tres substantias vel essentias ne in summa aequalitate intelligatur diversitas quo ad essentialia 
+        dicimus autem tres personas quia et si scriptura non dicit tamen non contradicit</p>
+        
+        <p xml:id="pgb1q22-d1e4213">5a 
+          conclusio quod deus non dicitur diversus nec singularis nec unicus nec solitarius quia singularitas 
+          vel sollicitudo personarum personarum pluralitatem excludit diversitas vero unitatem essentiae tollit</p> 
+          
+        <p xml:id="pgb1q22-d1e4221">6a conclusio quod intrinsece nulla est diversitas etiam si aliquando inveniatur dictum tres diversae 
+          personae diversae id est distinctae</p>
+        
+        <p xml:id="pgb1q22-d1e4229">7a conclusio quod quia in deo non est diversitas nec multiplicitas ideo 
+          deus non est dicendus multiplex sed trinus et superples</p>
+        <!-- new distinction exposition -->
+        
+        <p xml:id="pgb1q22-d1e4237">hic diligenter 
+          haec distinctio 24a continet 9 conclusiones prima quod cum dicitur unus deus excluditur multitudo deorum 
+          nec numerii quantitas in diversitate ponitur similiter cum dicitur unus est pater unus est filius ratio dicti 
+          est quod non sunt multi patres nec multi filii ita quod talia nomina magis ponuntur 
+          ad excludendum ea quae non sunt in deo quam ad ponendum aliqua ibi nota tamen quod hic 
+          communiter non tenetur <name ref="#Lombard">magister</name> ubi dicit quod <quote>nomina numeralia solum de deo dicuntur <sic>privative</sic><!-- relative -->
+          nec aliquid ponunt nec dicunt positive</quote></p> <!-- book 1, d. 24 -->
+        
+        <p xml:id="pgb1q22-d1e4270">2a conclusio quod cum dicimus plures personas esse in 
+          deitate singularitatem et <sic>sollitudinem</sic> excludimus non diversitatem vel multiplicitatem 
+          ibi ponimus</p>
+        
+        <p xml:id="pgb1q22-d1e4281">3a conclusio quod cum dicimus tres personas nomine trinarii non quantitatem in deo 
+          ponimus vel diversitatem aliquam sed intelligitur quod <corr><del rend="strikethrough">diversitas</del></corr> nec tantum potest nec tantum filius 
+          in divinis sunt sed etiam spiritus sanctus similiter non tantum est ibi haec persona vel illa sed haec ista 
+          et illa</p>
+        
+        <p xml:id="pgb1q22-d1e4296">4a conclusio quod cum dicimus duo sunt pater et filius non unus et non vivarium quid 
+          est quantitas non est ille</p>
+        
+        <p xml:id="pgb1q22-d1e4302">5a conclusio quod cum dicitur distinctae sunt personae vel distinctio est in personis confusionem 
+          atque commixtionem excludimus et hanc non esse illam significamus</p>
+        
+        <p xml:id="pgb1q22-d1e4308">6a conclusio cum 
+          dicimus aliam et aliam esse personam non diversitatem vel alienationem ibi ponimus 
+          sed confusionem sabelliam excludimus</p>
+        
+        <p xml:id="pgb1q22-d1e4316">7a conclusio quod eodem modo ibi accipitur <unclear>distretio</unclear> 
+          <unclear>quo</unclear> distinctio et congrue ibi dicitur distinctio vel <unclear>discertio</unclear> esse non autem diversitas divisio vel 
+          separatio</p>
+        
+        <p xml:id="pgb1q22-d1e4332">8o conclusio quod cum dicitur trinitas idem videtur significari quod tres personae et sicut non 
+          potest dici pater tres personae ita nec potest dici pater est trinitas vel filius est trinitas</p>
+        
+        <p xml:id="pgb1q22-d1e4338">contra conclusio quod cum <name ref="#IsidoreOfSeville">ysidorus</name> dicit quod veritas est singularis accipit singulare pro eo quod alii unum 
+          accipiunt cum vero dicit quod trinitas est multiplex et numeralis accipit multiplicitatem et numerositatem 
+          <pb ed="#L" n="71v"/>sicut alii accipiunt trinum</p>
+        <!-- begin expositio of distinction 25 -->
+        <p xml:id="pgb1q22-d1e4354">praeterea considerandum est etc 
+          Ista distinctio 25a continet tres conclusiones prima quod nomen personae in divinis triplicem 
+          in trinitate servat rationem Aliquando enim facit intelligentiam creaturae ut cum dicitur pater eset 
+          personae filius est persona et spiritus sanctus est person <corr><add place="marginLeft">id est essentia</add></corr></p>
+        
+        <p xml:id="pgb1q22-d1e4374">2a conclusio quod hoc nomen persona 
+          aliquando facit intelligentiam ypostasis seu subsistentiae secundum graecos ut cum dicitur alia 
+          est persona patris alia filii alia spiritus sancti id est alia est ypostasis patris seu alia 
+          subsistentia secundum graecos</p>
+        
+        <p xml:id="pgb1q22-d1e4384">3a conclusio quod hoc nomen persona aliquando sumitur pro proprietate ut 
+          cum dicitur alia est personaliter seu alius est personaliter alius filius personaliter id est proprietate 
+          sua pater est alius quam filius et filius sua proprietate alius quam pater paternai enim proprietate 
+          distinguuntur ypostasis patris ab ypostasi filii proprietate filiali et spiritus sanctus processionali 
+          proprietate distinguuntur ab utroque et haec de praesenti distinctione et per consequens de tota lectione</p>
+        </div>
+
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
