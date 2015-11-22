@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 15</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.10-dev-master">
+          <title>Librum I, Quaestio 15</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-10-25" who="#JW" status="draft" n="2014.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q15">
+        <head>Quaestio 15</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q15-d1e92">
+            <cit>
+              <quote>Nunc de spiritu sancto</quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d16c1-d1e3477">Lombardus, I, d. 16, c. 1, n. 1</ref></bibl>
+            </cit> 
+            postquam <name ref="#Lombard">Magister</name> determinavit de temporalis 
+            missionis principio, nunc determinat de huiusmodi missionis modo vario 
+            et dividitur in duas partes quia primo determinat de modo sensibili et visibili, secundo 
+            de invisibili et <unclear>internali perteli</unclear>. Secunda incipit in 17 distinctione.</p>
+          
+          <p xml:id="pgb1q15-d1e111">Prima pars dividitur in duas 
+            quia primo prosequitur de missione visibili spiritus sancti. Secundo facit comparationem quamdam huius missionis 
+            ad missionem Filii. Secunda ibi 
+            <cit>
+              <quote>sed prius.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d16c1-d1e3511">Lombardus, I, d. 16, c. 1, n. 1</ref></bibl>
+            </cit>
+            Et illa dividitur in tres nam ostendit. Primo quod Spiritus 
+            Sanctus ratione missionis non dicitur mittendi principio. Secundo, quod Filius secundum quod homo est minor 
+            tota trinitate et etiam se ipso. Tertio, ostendit qualiter Pater potest dici maior Filio. Secunda ibi 
+            <cit>
+              <quote>notandum autem.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d16c2-d1e3477">Lombardus, I, d. 16, c. 2, n. 1</ref></bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote><name ref="#HilaryOfPoitiers">Hilarius</name></quote>
+              <bibl><ref type="commentary" target="http://scta.info/text/lombardsententia/paragraph/pll1d16c2-d1e3579">Lombardus, I, d. 16, c. 2, n. 5</ref></bibl>
+            </cit> 
+            etc. Et hoc divisio et sententia in generali praesentis distinctionis circa quam, etc.</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head>Rationes principales</head> 
+            <p xml:id="pgb1q15-d1e129">Utrum species in quibus Spiritus Sanctus missus apparuit visibiliter fuerunt entitates <unclear>positivas</unclear> 
+              creatas immutantes realiter.</p>
+            
+            <p xml:id="pgb1q15-d1e140">Quod non quia tunc sequeretur quod distinctio talium specierum 
+              visarum inferret proportionaliter distinctionem cognitionum consequens <unclear>falsum</unclear> quia omnis cognitio intellectus creati 
+              in genere qualitatis habet reponi sed tales species in quibus spiritus sanctus apparuit non semper reponuntur 
+              in eodem genere patet de columba et igne consequentia patet quia causae activae <corr><del>contm</del></corr> 
+              differentes specifice agentes naturaliter non libere causant actiones specifice distinctas sed 
+              illae species sunt res naturales ergo si immutant intellectum concreando cognitionem in ipso 
+              sequitur quod secundum diversitatem specierum erit diversitas cognitionum</p>
+        
+        <p xml:id="pgb1q15-d1e165">confirmatur quia <ref>2o de anima</ref> 
+          dicitur quod <quote>ad distinctionem obiectorum sequitur distinctio actuum vel operationum et ex distinctione operationum sequitur 
+          distinctio potentiarum</quote></p>
+        
+        <p xml:id="pgb1q15-d1e178">2o species in existens memoriae creatae actuat potentiam solum mentaliter 
+          et non causaliter ergo species existens extrinisece non actuat causaliter vel immutat 
+          consequentia tenet quia non minor ratio de uno quam alio et antecedens paret per <ref><name ref="#Ripa">iohannem de rippa</name>  
+          quaestionem 2a articlo 3o distinctione 2a</ref></p>
+        
+        <p xml:id="pgb1q15-d1e194">3o species in quibus spiritus sanctus apparuit visibiliter solum 
+          fuerunt imaginariae et non reales ergo antecedens patet quia secundum <ref><name ref="#Augustine">beatum augustinum</name> 2o <title ref="#deTrinitate">de trinitate</title> capitulo 
+          5o</ref> missio visibilis spiritus sancti ad hoc fit ut <unclear reason="smudge">coda</unclear> <unclear>hominum</unclear> cogita novitate exterioribus 
+          <pb ed="#L" n="50v"/>visis convertantur secundum intellectum ad occultam deitatem sed intellectus creatus movetur 
+          a phantasmatibus et imaginariis speciebus ergo</p>
+        
+        <p xml:id="pgb1q15-d1e240">In oppositum est textus evangelicus <ref><unclear>m?t</unclear> 3o</ref> ubi 
+          dicitur <quote ana="#lc3_22">descendit corporali specie</quote> igitur non fantasticum seu imaginarium sed verum et reale 
+          corpus habuit igitur</p>
+        </div>
+        <div>
+          <head>Prima conclusio</head>
+        
+        <p xml:id="pgb1q15-d1e269">prima conclusio licet persona divina missione visibili apparens possit talem 
+          speciem sine causa 2a creare credi tamen potest angelos beatos tales species corporales formare 
+          prima patet quia deus potest se solo quidquid potest cum alio maxime in genere efficientis</p>
+        
+        <p xml:id="pgb1q15-d1e277">2a probatur quia secundum 
+          <ref><name ref="#Dionysius">dyonisium</name> in <title ref="#deCoelestiHierarchia">de angelica ierarchia</title></ref> <quote ana="#deCoelestiHierarchia_a">lex divinitatis est infima per media ordinare</quote> <!-- see "Lex divinitatis est ultima per media reducere" --> </p>
+        
+        <p xml:id="pgb1q15-d1e295">primum corollarium licet columba in quia spiritus sanctus visibiliter apparuit fuerit ab angelis formata 
+          tamen humanitas <unclear>supponiter</unclear> christo unita <unclear>acribus</unclear> personis divinis solum fuit creata prima 
+          patet ex conclusione 2a probatur cum ratione dignitatis illius unionis suppositabilis dcuit illam 
+          materiam immediate a deo produci tum 2o illa in instanti fuit formata sed hoc non videtur 
+          posse fieri a finita potentia ut nunc suppono ad hoc videtur scriptura <ref><title ref="#mt">matthaeo</title> 1o</ref> quod <quote ana="#mt1_20">in ea 
+          natum est de spiritu sancto est</quote> Item <ref><title ref="#lc">luce</title> 1o</ref> <quote ana="#lc1_35">spiritus sanctus supervenient in te</quote> etc</p>
+        
+        <p xml:id="pgb1q15-d1e340">2m corollarium 
+          licet angelus signum corporale temporalis missionis personae divinae possit producere 
+          angelus tamen huiusmodi <unclear>signi</unclear> significatum non potest aliquo modo efficere patet quia illud donum gratuitum 
+          est menti colatum a solo deo productum</p>
+        
+        <p xml:id="pgb1q15-d1e353">3m corollarium sicut donum significatam per 
+          cuius appropriatum illud <corr><del rend="strikethrough">signum</del></corr> donum respicit <unclear>dicitur</unclear> apparere vel mitti patet quia illud 
+          donum principaliter significatum per speciem declarat et denominat personam missam et ideo si 
+          illud donum habeat se per modum sapientiae tunc potest dici quod filius mittitur quia ei sapientia 
+          attribuitur si per modum amoris et clementiae spiritus sanctus si per modum auctoritatis 
+          et potentiae pater potest dici apparere non tamen mittitur quia a nullo originatur</p>
+        
+        <p xml:id="pgb1q15-d1e375">Ex his 
+          posset inferri quod licet angeli non possit esse creatores possunt tamen esse rerum creabilium 
+          productores prima patet quia creare est <sic>indeppendenter</sic> aliquid de non esse ad esse productione 
+          2a pars patet quia ut dictum est illa columba eorum mysterio fuit producta quae creari 
+          poterat immo de facto a deo posset recreari</p>
+        </div>
+        <div>
+          <head><supplied>Secunda conclusio</supplied></head>
+        <p xml:id="pgb1q15-d1e403">2a conclusio species sensibilis assistens extrinsece 
+        et in existens intrinsece memoriae vitaliter immutat intellectum et actuat ipsum 
+          obiectaliter et taliter patet quantum ad species extrinsece existentes per <ref><name ref="#Augustine">beatum Augustinum</name> in 
+            <title ref="#DeVeraReligione">de vera religione</title> capitulo 6o</ref> et <ref>2o <title ref="#deTrinitate">de trinitate</title> capitulo 4o</ref></p>
+        
+        <p xml:id="pgb1q15-d1e425">Item patet per <name ref="#Aristotle">philosophum</name> in <title>de memoria</title> 
+          et reminiscentia ubi dicit factus enim motus assensu vel <unclear>assens?ili[?]</unclear> imprimit in animam 
+          velut quamdam figuram vel putatam sensibilis</p>
+        
+        <p xml:id="pgb1q15-d1e449">2a pars probatur quia si talis species in 
+          inter speciem habitualem et conceptum actualem actu quod est falsum quia tunc habens talem speciem 
+          actualiter cognosceret vel diceret eam quod non est dicendum haec consequentia ultima patet quia fantasma 
+        est verbum habituale talis speciei sensibilis ut patet per <name ref="#Augustine">beatum augustinum</name> ubi supra</p>
+        
+        <p xml:id="pgb1q15-d1e462">primum corollarium stat aliqua potentiam vitaliter immutare et illud nec formam vitalem 
+          nec actum eius formalem esse patet quia vox et ignis et plures animae species sensibiles immutant 
+        intellectum creatum per sensum et tamen tales species non sunt formae vitales nec talis 
+          <pb ed="#L" n="51r"/>immutatio est actus formalis talium specierum cum stet illas omne et nihil vitaliter immutare</p>
+        
+        <p xml:id="pgb1q15-d1e476">2m corollarium stat intellectum aliquid apprehendere et ab eodem moveri vitaliter 
+          et illud movens esse praesens intellectui realiter vel situaliter paret <name ref="#Augustine">beatum augustinum</name> in <title ref="#DeVeraReligione">de 
+            vera religione</title> ubi dicit se vitaliter apprehendere solere absentem et romam 
+          seu <unclear>carthagenem</unclear> distantes et hoc experimur</p>
+        
+        <p xml:id="pgb1q15-d1e495">3m corollarium sicut intelligentia potest 
+          rem absentem cognoscere sic etiam potest rem non existentem per speciem repraesentatem 
+          cogitative apprehendere patet quia sicut rem absentem et distantem cognoscit per speciem 
+          abstractive sic de re non existente potest habere speciem et per illam aliquid concipere ergo</p>
+        </div>
+        <div>
+          <head><supplied>Tertia conclusio</supplied></head>
+        
+        <p xml:id="pgb1q15-d1e505">3a conclusio licet columba in cuius specie spiritus sanctus missus apparuit vera et realis entitas 
+          fuerit non tamen quod licet signum in quo spiritus sanctus <corr><del rend="strikethrough">s</del></corr> apparuit nihil visus fuit fuisse 
+          rem realem scriptura exprimit aut asserit prima pars paret <ref><name ref="#Augustine">beatum augustinum</name> 2o <title ref="#deTrinitate">de 
+          trinitate</title></ref> ubi loquens de columba in qua spiritus sanctus apparuit in christi baptismate dicit non esse 
+          dubium quin fuerit verum corpus reale cum scriptura eam corporali specie asserat descendisse 
+          2a pars patet <ref>eodem libro capitulo 5o</ref> ubi de linguis igneis in die <unclear>pentecost</unclear> 
+          spiritus sanctus apparuit movet conclusionem utrum fuerit vere res vel imaginarie quaestionem insolutam 
+          nec aliquam eius partem asserit sed tamquam <unclear>probleuma</unclear> neutrum <unclear>reliquot</unclear> concludit 
+          tamen post plura dicens non enim viderunt lignas velut ignem sed visae sunt 
+          eis nam in spiritualibus dicimus visum est mihi et vidi sed in istis quae per expressam corporalem 
+          speciem occulis demonstratur non solet dici visum est mihi sed vidi ergo conclusio vera.</p>
+        
+        <p xml:id="pgb1q15-d1e574">primum corollarium quod non omne signum gratuitum demonstrans vel inferens creaturam 
+          esse deo gratam est creata caritas aut sacramentum aut habitus infusus gratificans 
+        mentem patet quia missio spiritus sancti facta sub aliquo signo visibili est <unclear>scitatis</unclear> 
+          creaturae signum ad quam mittitur illativa ostensio et tamen illud signum corporale 
+          non est aliquod praedictorum ergo</p>
+        
+        <p xml:id="pgb1q15-d1e592">2m corollarium stat aliquam personam quae igno[?] corporali apparere 
+          et illam numquam mitti vel missam esse patet de patre <corr>quia</corr> in voce apparuit 
+          christo baptizato dicens <quote>hoc est filius meus</quote> etc et tamen nusquam in scripturis <unclear>le?tur</unclear> missus quia <unclear>angelo</unclear> 
+          originatur</p>
+        
+        <p xml:id="pgb1q15-d1e615">3m corollarium nulla res in qua apparuit spiritus sanctus visibiliter fuit ei 
+          unita <unclear>supponabiliter</unclear> patet quia spiritus sanctus nusquam <unclear>le?tur</unclear> fuisse columbam linguam vel 
+          flatum</p>
+        
+        <p xml:id="pgb1q15-d1e629">ex hiis quid dicendum sit ad quaestionem patet potest enim dici quod aliqua species 
+          in qua spiritus sanctus apparuit fuit vera res et realis entitas et aliquae <unclear>fuerunt</unclear> solum 
+          apparentes et imaginarie ab omnibus tamen talibus potuit immutari et moveri potentia 
+          sensitiva vel intellectiva creata etc</p>
+        </div>
+        <div>
+          <head><supplied>Obiectiones et responsiones</supplied></head>
+        <p xml:id="pgb1q15-d1e655">contra primam conclusionem arguitur si esset vera sequitur quod angeli 
+          potius quam divinae personae deberent dici missi et apparere vel apparuisse consequens falsum 
+          patet consequentia quia cum angelus format aliquod corpus ex elementis applicando activa passionis 
+          videtur quod idem appareat in tali corpore formato</p>
+        
+        <p xml:id="pgb1q15-d1e665">2o simpliciter invisibile non potest visibiliter 
+          mitti vel apparere sine fictionem sed fictio cuilibet personae divinae repugnat ergo etc 
+          patet consequentia quia quaelibet persona divina simpliciter est invisibilis <ref>prima <title ref="#Itim">thyo</title></ref> <quote ana="#Itim6_16">lucem habitat 
+          inaccessibilem quam nullus hominum vidit</quote></p>
+        
+        <p xml:id="pgb1q15-d1e683">3o contra 2m et 3m corollaria gratuitum 
+          donum sub est accidenti sacramentorum ecclesiae ergo potest subesse <unclear>accidenti</unclear> <unclear>ange?de</unclear> tenet consequentia 
+          <pb ed="#L" n="51v"/>quia angelus est dignior perfectior et activior quam quodcumque sacramentum antecedens patet quia 
+          sacramentum baptismi confert gratiam et causat in baptizmato rite</p>
+        
+        <p xml:id="pgb1q15-d1e702">contra 2am conclusionem si esset 
+          vera sequeretur quod huiusmodi species vel huiusmodi obiectum esset causatum consequens falsum quia talis species obiecti 
+          vel perfectius repraesentet quam species memoriae vel aeque vel minus non primum quia talis 
+          species creata inesse dependet et conservari a specie memoriae et per consequens est in 
+          perfectior si dicatur quod econtra vel minus repraesentat tunc frustra ponitur talis actus 
+          distinctus a specie quae est econtra vel plus sufficiens ad talem vitalem immutationem causandum</p>
+        
+        <p xml:id="pgb1q15-d1e725">contra primum corollarium nulla in mutatio est vitalis quam stat esse absque hoc quam immutetur 
+          potentia sed immutatio obiectiva causalis est huiusmodi ergo non est <unclear>in tale</unclear> maior <unclear>nota</unclear> minor 
+          probatur quia stat aliquem actum causari et in existere informative et per nullam superadditam  
+          actionem ergo</p>
+        
+        <p xml:id="pgb1q15-d1e743">3o contra 2m et 3m corollaria illud solum vitaliter apprehenditur quod potentiae 
+          vitali vitaliter in est ergo quidquid sic apprehenditur praesens est potentiae sic apprehendenti 
+          consequentia bona et antecedens probatur quia sequitur <c>a</c> vitaliter apprehenditur a potentia intellectiva ergo <c>a</c> 
+          est praesens potentiae intellectivae</p>
+        
+        <p xml:id="pgb1q15-d1e759">contra 3am conclusionem si esset vera sequeretur quod spiritus sanctus in columba 
+          aliquo modo speciali fuisset ultra modum quo deus est in omnibus sed consequens videtur falsum 
+          quia vel hoc esset per gratiae infusionem et hoc non quia non est capax gratiae vel per unitatem 
+          suppositi et hoc non per corollarium 3m vel per repraesentationem et hoc non quia vel talem signum 
+          repraesentativum esset naturale et universale et sic spiritus sanctus appareret in qualibet creatura cum quaelibet sit 
+          vestigium trinitatis vel tale responsum esset signum gratuitum et sic in quolibet sacramento 
+          mitteretur et appareret spiritus sanctus et patet consequentia cum spiritus sanctus sit donum gratuitum</p>
+        
+        <p xml:id="pgb1q15-d1e778">2o contra 2am partem conclusionis summae veritati repugnat se manifestare per quamcumque 
+          fictionem ergo repugnat spiritum sanctum se manifestasse per linguas igneas 
+          imaginarias et fantastas et non reales patet consequentia quia tales apparitiones fantasmatae 
+        sunt fictiones patet antecedens quia <unclear>ostendens</unclear> se aliquid esse quod non est decipit 
+          illum cui fit talis ostensio</p> 
+        
+        <p xml:id="pgb1q15-d1e800">3o sequeretur quod spiritus sanctus in illis linguis non apparuisset 
+          nisi tantum <name ref="#Apostles">apostolis</name> et viris sanctis quod spiritum sanctum receperunt consequens falsum quia pluribus 
+          aliis existentibus in domo cum <name ref="#Apostles">apostolis</name> apparuerunt</p>
+        
+        <p xml:id="pgb1q15-d1e815">Ad primum negatur consequentia quia licet 
+          angelus formet talem corpus tamen non posset formare nec creare donum significatum per 
+          est <corr><del rend="strikethrough">fig</del></corr> donum illud ut dicitur in corollario 3o</p>
+        
+        <p xml:id="pgb1q15-d1e827">Ad 2m dicitur ad maiorem quod aliquid visibiliter 
+          posse apparere potest intelligi dupliciter primo modo formaliter intrinsece seu denominationem intrinseca 
+          sibi competente 2o modo denominatione extrinseca primo modo dico quod apparitio repugnat personae 
+        divinae sed non 2o modo quia sic persona divina dicitur apparere visibiliter non quia 
+          ipsa videtur sed quia aliquid videmus per quod cognoscimus spiritum sanctum vel animam personam 
+          divinam speciali modo esse in creatura ad quam talem signum mittitur</p>
+        
+        <p xml:id="pgb1q15-d1e848">Ad 3m posset 
+          negari consequentia quia non sequitur homo est perfectior et activior quam asinus ergo homo potest producere 
+          asinum sicut asinus 2o dicitur quod licet gratia subsit <unclear>accidenti</unclear> sacramentorum instrumentaliter 
+          et dispositive non tamen principaliter et effective</p>
+        
+        <p xml:id="pgb1q15-d1e863">Ad primum contra 2mm conclusionem primo posset consequentia 
+          <pb ed="#L" n="52r"/>negari quia talis ratio causalis posset sufficienter terminari ad ipsum actum cognitionis incomplexum 
+        vel ad ipsum agere complexe</p>
+        
+        <p xml:id="pgb1q15-d1e872">2o posset concedi consequens et ad improbationem dicitur quod 
+          perfectius et cum improbatur negatur consequentia qua talis similitudo non dependet a tali specie 
+          tamquam a totali eam sed partiali 3o posset dici quod dato quod talis similitudo imperfectius 
+        repraesentaret se praecise tamen species memoriae cum tali similitudine creata 
+          tales species perfectius repraesentant quam species memoriae tantum cum talis similitudo non 
+          frustra ponatur</p>
+        
+        <p xml:id="pgb1q15-d1e895">Ad 2m negatur maior quia talis immutatio non procedit a specie tali 
+          quasi a totali causa effectiva 2a posset negari minor quia positivis omnibus requisitis immutatio 
+          vitalis obiectiva non potest esse quin potentia immutetur 3o posset dici quod aliquid immutare 
+          vitaliter posset intelligi dupliciter primo modo sic quod <unclear>tale</unclear> immutans sit vitale 2o modo quod non 
+          sit in se vitaliter sed tamen aliquid vitaliter immutat primo modo maior mairo habet veritatem in aliquibus 
+          sed modo 2o sumendo vitaliter maior est falsa simpliciter</p>
+        
+        <p xml:id="pgb1q15-d1e920">Ad 3m negatur antecedens quia aliter nulla 
+          res existens extra animam posset vitaliter percipi quod est falsum et dico ultra quod haec consequentia 
+          non valet <c>a</c> vitaliter apprehenditur ergo <c>a</c> est praesens potentiae apprehendenti</p>
+        
+        <p xml:id="pgb1q15-d1e934">2o posset dici quod 
+          aliquid in esse potentiae vitali potest sumi dupliciter primo modo in se et esse proprio alio modo in specie vel 
+          in <unclear>suo repraesentativo</unclear> primo antecedens est negandum sed 2o modo intellecto antecedente negatur consequentia</p>
+        
+        <p xml:id="pgb1q15-d1e945">Ad primum 
+          contra 3am conclusionem conceditur consequentia quia fuit ibi tamquam in signo gratuito gratiae spiritus sancti ostensivo 
+          tamen illud signum non est aliquo modo causa gratiae licet gratia consequatur ipsum vide <ref><name ref="#ThomasStrasbourg">thomam 
+            de argentia</name> distinctione 16 articulo primo</ref> ubi triplex ponit signum</p>
+        
+        <p xml:id="pgb1q15-d1e960">Ad 2m ad antecedens 
+          dicitur quod si <unclear>fixtio</unclear> sumatur pro quacumque imaginaria revelatione vel repraesentatione sic dico 
+          quod non repugnat deo sic se creaturae revelare nam prophetae habuerunt multorum 
+          notitiam per tales ymaginarias visiones ut in eorum libris patet si autem fictio 
+          sumatur pro deceptione sic conceditur antecedens sed negatur consequentia</p>
+        
+        <p xml:id="pgb1q15-d1e982">Ad 3m negatur quia illud signum 
+          virtute divina potuit multiplicari in fantasiis omnium illorum quibus <unclear>ille lingue</unclear> 
+          <unclear>apparuterit</unclear></p>
+        
+        <p xml:id="pgb1q15-d1e994">Ad primum in oppositum conceditur consequentia et negatur consequentia in pro bonis quia perfectio cognitionis 
+          non semper quantificatur praecise penes perfectionem obiecti cogitati vel immutantis potentiam 
+          obiectaliter vitaliter ut argumentum videtur innuere ad alias rationes patet quid dicendum ex dictis</p>
+        </div>
+      </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+        
+       <p xml:id="pgb1q15-d1e1003">Nunc de spiritu sancto haec distinctio <!-- check "dico" above compare with "distinctio" --> continet 6 conclusiones prima est quod duplex ex processio 
+         spiritus sancti una aeterna quam procedit a patre et filio et non a se ipso alia temporalis quae dicitur 
+         missio seu donatio et haec est duplex una visibilis quando visibiliter atque ut in die <unclear>pentecost</unclear>  
+         in christi baptismate in specie columbae  alia invisibilis quam fidelium mentibus illabitur et sic duplici 
+         datione datur non solum a patre et filio sed etiam a se ipso</p>
+        
+        <p xml:id="pgb1q15-d1e1027">2a conclusio quod filius etiam duobus 
+          modis dicitur mitti uno modo visibiliter quando in carne apparuit alio modo quando invisibiliter castis 
+          mentibus percipitur</p>
+        
+        <p xml:id="pgb1q15-d1e1037">3a conclusio licet spiritus sanctus in sui natura non videatur visibiliter tamen mittitur 
+          et hoc in specie visibili</p>
+        
+        <p xml:id="pgb1q15-d1e1043">4a conclusio quod spiritus sanctus non est magis in illis creaturis in quibus 
+          apparere dicitur quam in aliis sed per eas ostenditur quod spiritus sanctus est in illis per sanctificationem et gratiam 
+          ad quos tales species vel creatae veniunt</p>
+        
+        <p xml:id="pgb1q15-d1e1051">5a conclusio quod aliter filius assumpsit naturam 
+          in qua apparuit et aliter spiritus sanctus quia filius assumpsit per unionem hypostaticam sed non spiritus 
+          <pb ed="#L" n="52v"/><sic>spiritus</sic> sanctus et filius accepit hominem et humanitatem ut fieret homo spiritus sanctus autem non accepit 
+          columbam ut fieret columba et ideo filius dicitur <unclear>luminior</unclear> patrem secundum naturam assumptam 
+          non autem spiritus sanctus</p>
+        
+        <p xml:id="pgb1q15-d1e1076">6a conclusio quod filius dei secundum formam dei est aequalis patri 
+          sed secundum formam hominis est minor patre et spiritu sancto ac tiam se ipso in quantum deus</p>
+        
+        <p xml:id="pgb1q15-d1e1083">7a 
+          conclusio quod secundum <name ref="#HilaryOfPoitiers">hylarium</name> pater est maior filio filius tamen non est minor patre nam 
+          donans maior est sed <corr><del rend="strikethrough">l</del></corr> minor iam non est cui unum ens donatur nota tamen 
+          quod li <mentioned>maior</mentioned> non notat inequalitatem essentialem sed solum auctoritatem notionalem originis 
+        quia pater originat filium filius ergo est aequalis patri in re habita quia omnem perfectionem 
+          quam habet pater habet filius sed pater dicitur maior filio in modo habendi quia filius illam perfectionem 
+        habet a patre et non econverso notat etiam quod <name ref="#HilaryOfPoitiers">hylarius</name> non concedit filium minorem 
+          patre tum quia minoritas videtur importare indignitatem tum quia voluit substrahere 
+        haereticis errorum occasionem et defensionem</p>
+        
+        <p xml:id="pgb1q15-d1e1124">sequitur distinctio 17 <unclear>h volli</unclear></p>
+        
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
