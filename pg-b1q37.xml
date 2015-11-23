@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 37</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 37</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-12" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q37">
+        <head>Quaestio 37</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q37-d1e3237">
+          <cit>
+            <quote>Iam de voluntate</quote>
+          </cit> 
+          etc. postquam <name ref="#Lombard">Magister</name> egit 
+          de dei scientia et potentia in 
+          hac distinctione 45 incipit 
+          tractare de voluntate divina et dividitur in duas quia primo <unclear cert="high">praemittit</unclear> 
+          divinae voluntatis quasi quamdam descriptionem 2o annectit divinae 
+          voluntatis multiplicem acceptionem 2a pars incipit ibi hoc est praetereundum</p>
+        
+        <p xml:id="pgb1q37-d1e3263">prima pars dividitur in duas quia primo ostendit quid sit voluntas divina 
+          2o qualiter sit omnium causa 2a pars incipit ibi haec itaque summa bona  etc 
+          et haec est divisio in generali praesentis distinctionis circa quam movetur talis quaestio</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+        <p xml:id="pgb1q37-d1e3275">Utrum per divinae voluntatis vigorem ordinentur et regulentur omnia 
+          ad universi decorem utrum per divinae voluntatis rectitudinem ordinentur 
+          omnia ad universi pulcritudinem</p> 
+        
+        <p xml:id="pgb1q37-d1e3285">Quod non quia si per vigorem voluntatis 
+          divinae omnia tunc quantumcumque resistentia <unclear>mobilis</unclear> augeretur vel potentia 
+          creata minueretur numquam motus propter hoc remitteretur consequens patet falsum ad 
+          experientia et consequentia patet quia semper totalis potentia motiva in movendo et causando 
+          excedet infinite totalem resistentiam</p>
+        
+        <p xml:id="pgb1q37-d1e3300">confirmatur quia tunc numquam ad duplationem 
+          motoris creati duplaretur motus velocitatis vel mobilis consequens est contra regulas 
+          <ref><name ref="#Aristotle">philosophi</name> 7o <title ref="#Physics">physicorum</title></ref> et contra experientiam et consequentiam patet quia duplari non poterit proportio 
+          vel excessus motoris totalis ad resistentiam mobilis immo semper potentia 
+          motiva totalis infinite excedit potentiam resistitivam ipsius mobilis</p>
+        
+        <p xml:id="pgb1q37-d1e3325">2o si sufficienter divinum velle regularet omnia sequeretur quod omnis regulatio 
+          alterius activa esset superflua consequens est falsum quia cum deus omnem causam 
+          aliam regulantem regulet et ordinet sequitur quod deus aliquid faceret frustra 
+          sed patet consequentia cum divinum velle se solo aeque bene possit regulare confirmatur 
+          quia duorum <unclear><sic>navem</sic><!-- should this be navum (gen plural) --></unclear> trahentium si unum in infinitum fortius trahit et movet 
+          quam alius sequitur quod 2us nihil facit ad motum patet quia illo circumscripto et 
+          remoto nulla variatione facta circa illam motionem alterius navis movebitur 
+          aeque velociter sicut prius</p>
+        
+        <p xml:id="pgb1q37-d1e3352">3o melius foret mala non esse 
+          quam esse in universo igitur illa non regulat ad universi decorem antecedens 
+          patet quia malum est corporo boni secundum <name ref="#Augustine">augustinum</name> in pluribus locis Item malum non 
+          perficit naturam sed viciat et inficit et bonum adnuit patet consequentia <corr><del rend="strikethrough">ergo</del></corr> quia 
+          ordinator bonus et regulator debet semper regulare et facere quod melius 
+          est igitur </p>
+        
+        <p xml:id="pgb1q37-d1e3375">In oppositum est <ref><name ref="#Paul">apostolus</name> <title ref="#rom">ad Romanos</title> <sic>2o<!-- actually 11 --></sic></ref> <quote ana="#rom11_36">per ipsum et ex ipso et in 
+          ipso sunt omnia</quote> Item <title ref="#Icor">primae ad corinthios</title> 7o <quote ana="#Icor12_6">deus operatur omnia in omnibus</quote> Ad hoc 
+          est <ref><name ref="#Augustine">augustinus</name> <sic>2o<!-- actually book 11 (this scribe seems to confiuse 2 and 11; see above) --></sic> <title ref="#CityOfGod">de civitate dei</title> capitulo 18o et 23o</ref> ubi declarat <!-- does not seem like a direct quote but the general point is found in Book 11 chapter 18 --> <unclear>existentis</unclear> multis 
+          quomodo pulchritudo alicuius totius resultat ex contrariis et multis differentibus 
+          convenienter ordinatis ut nigredo pupillae in imagine si per se consideretur habere 
+          <pb ed="#L" n="111r"/>videtur turpitudinem potius quam pulcritudinem tamen relata ad alias partes 
+          oculi et vultus imaginem decorat Item vox grossa et rudis secundum se <!-- no paragraph break because this is just offering another exmaple --> 
+          considerata non est dulcis nec delectabilis tamen relata ad aliam per modum 
+          tenoris constituit armoniam et dulcem melodiam ergo</p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+        <p xml:id="pgb1q37-d1e3454">prima conclusio omnem entitatem 
+          realem et positivam divina voluntas regulat et ordinat <unclear>pctlem[?]</unclear> rationem productivam 
+          patet per <ref><name ref="#Augustine">augustinum</name> 12o <title ref="#CityOfGod">de civitate dei</title> capitulo 16o</ref> dicentem <quote ana="#Augustine_DeCivitateDei_12_25_a">occulta dei potentia cuncta 
+          penetrans facit esse quidquid aliquo modo est inquantum est</quote> Item <name ref="#Anselm">anselmus</name> <title ref="#deConcordia">de concordia</title> 
+          et <title ref="#Anselm_DeLiberoArbitrio">de libero arbitrio</title> circa finem dicit in omnibus voluntatibus et bonis operibus deus 
+          facit et quod essentia sunt et bona sunt in malis vero facit non quod mala sunt sed 
+          tantum quod per essentiam sunt</p>
+        
+        <p xml:id="pgb1q37-d1e3497">confirmatur ratione quia in ordine essentiali causarum effectivarum posterior 
+          <sic>praeexigit</sic> causalitatem primae causae sed deus est prima causa in ordine essentiali causarum 
+          effectivarum secundum theologos et philosophos ergo quaelibet causa 2a praeexigit et praesupponit 
+          causalitatem dei in suo esse et in suo agere</p>
+        
+        <p xml:id="pgb1q37-d1e3510">primum corollarium non semper ad duplationem 
+          cuiuslibet motus seu actionis realis requiritur duplatio motoris cuiuslibet seu 
+          causae moventis totalis patet quia divina virtus non potest duplari et tamen movet 
+          et agit in qualibet actione agentis creati ut dici conclusio ergo</p>
+        
+        <p xml:id="pgb1q37-d1e3520">2m corollarium licet ignis 
+          sit effectus agentis naturalis seu naturali activitate tamen quilibet effectus potest 
+          dici liber inquantum productus est ab immensa libertate prima patet quia ignis producitur 
+          a solis causis naturalibus cum generali dei influentia 2a etiam patet quia quilibet effectus 
+          plus dependet a deo causante libere quam a quibuscumque causis 2is</p>
+        
+        <p xml:id="pgb1q37-d1e3532">3m corollarium 
+          licet nulla causa finita sit sufficiens ad producendum minimum effectum 
+          totaliter tamen nullus effectus creatus est ad produci infinite difficulter seu 
+          resistentiae formaliter prima patet quia ad productionem cuiuscumque effectus requiritur 
+          immensa divina activitas ergo 2a pars probatur quia productio unius effectus est 
+          maioris difficultatis quam productio alterius ergo Item quacumque difficultate 
+          vel resistentia data vel dabili potest dari maior et hoc respectu causarum 2arum 
+          quia respectu primae nulla est difficultas vel resistentia igitur</p>
+        
+        <p xml:id="pgb1q37-d1e3555">corollarium licet 
+          nullum divinum velle citra efficax sit executorium tamen permissio 
+          divina non debet dici velle remissum patet quia remissio seu esse remissum 
+          dicit imperfectionem <ref>contra <name ref="#Scotus">scotum</name> distinctione 27 primi vel 37</ref></p>
+        
+        <p xml:id="pgb1q37-d1e3578">Aliud corollarium licet 
+          in deo sit unicum simplex velle tamen secundum alium et alium respectum efficit 
+          entitatem productam et obligat mentem creatam prima patet quia est unicus 
+          simplex deus 2a pars probatur quia obligat ut praeceptum et non efficit 
+          ut praeceptum</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        
+        <p xml:id="pgb1q37-d1e3590">2a conclusio licet non omne quod fit aliquo modo fiat a divinae voluntatis 
+          beneplacito seu complacentia tamen quodlibet producibile a deo volitum adextra 
+          divina voluntas vult immensa in differentia prima pars apparet de peccato de quo si 
+          verum est quod fiat tamen respectu illius deus non habet beneplacitum nec velle efficax 
+          positivum sed tantum velle <corr>permissu<del rend="strikethrough">i</del>um</corr> 2a pars probatur quia deus immense libere 
+          <pb ed="#L" n="111v"/>vult adextra ergo immense indifferenter consequentia patet quia si non immense indifferenter sequitur quod 
+          volendo adextra perderet aliquem gradum libertatis quod non est dicendum</p>
+        
+        <p xml:id="pgb1q37-d1e3627">primum 
+          corollarium sicut adintra quodlibet producibile aequali in differentia est propositum divinae voluntati 
+          sic adextra quodlibet existens per se immediate est determinatum ad divino velle 
+          in suo esse actuali patet quia si non aequali in differentia adextra per suum velle posset 
+          exire in actum sequitur quod non vere sed false illud possibile esset adintra sibi <sic>sibi</sic> 
+          propositum quod est falsum</p>
+        
+        <p xml:id="pgb1q37-d1e3645">2m corollarium aeque primo ad omne positivum concurrunt divinus 
+          intellectus repraesentans idealiter et divina voluntas se habens respectu illius seu potens 
+          se habere productive seu causaliter patet quia secundum <ref><name ref="#Augustine">augustinum</name> 2o <title ref="#Confessions">Confessionum</title> capitulo 7o</ref> 
+          deus non aliter facit quaecumque facit quam dicendo sed quaecumque vult aeque primo vult <!-- unsure about quote --> 
+          et dicit ergo aeque primo illae potentiae concurrunt etc</p>
+        
+        <p xml:id="pgb1q37-d1e3674">3m corollarium sicut divinum 
+          velle omnem effectum positivum immediate efficit sic immediate causaliter illative 
+          omnem effectum indistanter attingit prima pars patet per dicta in prima conclusione 
+          Item patet per <ref><name ref="#Augustine">beatum augustinum</name> primo <title ref="#deTrinitate">de trinitate</title> capitulo 15o</ref> ubi dicit non est ulla natura 
+          etiam in extremis infimisque bestialibus quam non ille <unclear>consistervit</unclear> aliquo est omnis 
+          motus omnis ordo omnis species sine quibus nihil rerum inveniri aut excogitari 
+          potest 2a pars probatur quia respectu cuiuslibet effectus adextra divinum velle se habet 
+          aeque primo ut dictum est sed aliquem effectum attingit immediate causaliter 
+          illative ergo et quamlibet sic attingit immediate aliter unum prius quam alium et sic 
+          non aeque primo</p>
+        
+        <p xml:id="pgb1q37-d1e3713">Ex prima parte conclusionis sequitur quod non cuicumque correspondet ratio volitiva 
+          eidem correspondet ratio causalis effectiva patet quia secundum <ref><name ref="#Lombard">magistrum</name> distinctione 45a</ref> permissioni 
+          correspondet ratio volitiva et non effectiva et per hoc solvuntur multae rationes 
+          <name ref="#Bradwardine">brauardin</name></p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+        <p xml:id="pgb1q37-d1e3729">3a conclusio licet nullum malum culpae possit fieri bonum simpliciter per 
+          se et directe tamen deus omnia adextra ordinat libere ad universi decorem 
+          decenter et perfecte prima pars patet per <name>beatum augustinum</name> in pluribus locis dicentem quod 
+          malum est boni privatio sed privatio boni non est per se et simpliciter bonum seu bona igitur 
+          Item confirmatur quia mala fieri seu operari non est proficere in aliquod bonum sed deficere 
+          a bono 2a pars patet per <name ref="#Lombard">magistrum</name> in hac distinctione 45a in illo capitulo permisso 
+          autem etc Item posset confirmari per <name ref="#Augustine">augustini</name> exempla adducta ad affirmativam partem 
+          <unclear>quaestionis <!-- compare this to other ambiguous uses of conclusionis/quaestionis; see next instance below --></unclear> unde <name ref="#Augustine">augustinus</name> deus non sineret mala esse vel evenire nisi ex ipsis 
+          sciret bona elicere</p>
+        
+        <p xml:id="pgb1q37-d1e3768">primum corollarium ratio mali culpae per se sumpta non decorat 
+          universum seu producta patet quia tunc per se bonum foret malum esse 
+          et fieri contra conclusionem</p>
+        
+        <p xml:id="pgb1q37-d1e3777">2m corollarium licet melius foret in universo esse nullum malum 
+          tamen iusto dei iudicio mala culpae et poenae decorat universum prima patet 
+          quia si non sequitur quod status post peccatum esset perfectior ratione status in se quam <corr><del rend="strikethrough">universum</del></corr> 
+          et ante peccatum quod est falsum et patet consequentia quoniam tunc nullum malum et 
+          dicit notanter ratione status in se quia universum et eius status est nunc perfectior 
+          propter deum hominem factum sed hoc non est ratione status in se 2a pars probatur per 
+          <ref><name ref="#Augustine">augustinum</name> 12o <title ref="#CityOfGod">de civitate</title> capitulo 7o vel vel 6o usque 24m</ref> confirmatur quia iusto dei 
+          <pb ed="#L" n="112r"/>iudicio unum peccatum erit alterius poena perpetua</p>
+        
+        <p xml:id="pgb1q37-d1e3825">3m corollarium est <unclear>responsivum</unclear> 
+          scilicet pars affirmativa <unclear>quaestionis <!-- again ambiguous, seems like it has to be "questionis" considering the reference to the third conclusionis that follows  --></unclear> patet per dicta in 3a conclusione</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+        <p xml:id="pgb1q37-d1e3838">Contra primam conclusionem 
+          arguitur primo sic quia sequeretur quod deus simul influeret et ageret ad conservationem 
+          <c>b</c> et ad destructionem ipsius consequens est falsum quia tunc nihil posset corrumpi 
+          cum virtus resistitiva esset tanta quanta virtus destructiva sed a proportione 
+          aequalitatis non proventi actio patet consequentia quia sicut creatura non 
+          potest agere nisi deo <sic>coagente</sic> ita nec potest resistere nisi deo <sic>coresistente</sic> 
+          et sic ultra sequitur quod deus resisteret sibi ipsi</p>
+        
+        <p xml:id="pgb1q37-d1e3865">2o sequitur quod <corr><del>deus</del></corr> nulla 
+          causa 2a movebit in tempore sed in instanti consequens est contra experientiam et patet consequentia 
+          quia nulla erit proportionata resistentiae ad totalem causam motivam immo 
+          una duarum moventium causarum excedit in infinitum resistentiam mobilis</p>
+        
+        <p xml:id="pgb1q37-d1e3885">3o aliqua creata potentia est sufficiens motivum <c>b</c> mobilis igitur et sufficiens 
+          productivum alicuius effectus patet consequentia ex terminis et antecedens probatur quia resistentia <c>b</c> 
+          mobilis est finita ergo potest excedi et uniti a potentia finita sed potentia 
+          motiva <corr><del rend="strikethrough">f</del></corr> excedens resistentiam totalem alicuius mobilis sufficit 
+          ad modum aliquod mobile sine auxilio alterius motoris quod patet ex quo 
+          enim excedit resistentiam sequitur quod est magis potens movere quam 
+          mobile resistere</p>
+        
+        <p xml:id="pgb1q37-d1e3916">4o ponatur quod causa 2a cesset movere aliquod mobile 
+          aliquod mobile quod <corr><del rend="strikethrough">d</del></corr> prius cum deo movebat et quod deus uniformiter 
+          continuet causalitatem suam et motionem respectu <c>b</c> motus tunc quaeritur aut 
+          <c>b</c> motus manebit aut non si primum ergo gradus causalitatis et influentiae 
+          quo deus prius causabat erat causa totalis et sic causa 2a nihil faciebat 
+          patet quia per illam causalitatem ponitur ille effectus quam uniformiter stante circumscripta 
+          omni alia causalitate ponitur ille effectus si detur 2m aut igitur 
+          nihil ipsisu <c>b</c> motus poneretur et sic sequitur quod deus moveret et nihil moveretur 
+          aut poneretur aliqua pars <c>b</c> motus et tunc sequitur quod causa 2a habet certam 
+          proportionem in effectu et deus aliam quod est falsum</p>
+        
+        <p xml:id="pgb1q37-d1e3961">contra primam partem conclusionis 
+          2ae respectu cuiuslibet permissi deus habet aliquem actum voluntatis et non 
+          habet actum nolitionis ergo volitionis sed omni volitioni divinae correspondet 
+          ratio causalis ergo si deus permittit peccata ipse vult illa causaliter et effective</p>
+        
+        <p xml:id="pgb1q37-d1e3971">2o contra 2am partem si sic sequeretur quod quidquid potest immediate nolle etiam posset immediate 
+          velle consequens est falsum quia peccata potest immediata nolle sed non potest 
+          velle illa immediate sed patet consequentia quia ex quo est in differentia aequa 
+          aequaliter potest se ad utrumque determinare ergo quidquid vult potest nolle 
+          et econverso</p>
+        
+        <p xml:id="pgb1q37-d1e3992">3o sequitur quod aliquid deo intrinsecum immensa et differentia deo competeret 
+          et deo ipso verificaretur consequens est falsum quia sic aliqua contingentia esset 
+          deo intrinseca et consequentia patet quia velle divinum est deo intrinsecum et immensa 
+          divina tenet se respectu illius adextra ergo 4o sequitur quod velle intrinseco nulla 
+          omnino causalitas adextra corresponderet consequens est falsum et patet consequentia quia nulla 
+          <pb ed="#L" n="112v"/>perfectio correspondet divino velle adextra sed causalitas adextra est immense perfectionis 
+          in deo ergo velle divino non correspondet causalitas adextra  minor patet 
+          maior probatur quia quodlibet dei velle adextra cum possit non esse si diceret perfectionem 
+          in deo intrinsecam ut sic poset infinita perfectio deo de esse 
+          quod est impossibile</p>
+        
+        <p xml:id="pgb1q37-d1e4027">5o contra corollaria illius conclusionis arguitur quia potentia de executiva 
+          immediatius se habet respectu effectus adextra quam intellectus et voluntas ergo non aeque 
+          <unclear>primo</unclear> illae potentiae concurrunt ad effectum positivum antecedens probatur quia deus semper 
+          mundum intellexit et voluit et non effecit semper vel produxit Item 
+          <ref><name ref="#HughOfStVictor">hugo</name> <title ref="#deSacramentis">de sacramentis</title> libro primo parte 2a capitulo 5o</ref> dicit illud quod voluntate 
+          praeeunte voluit potestate subsequente implevit</p>
+        
+        <p xml:id="pgb1q37-d1e4064">6o posito actu voluntatis 
+          ponitur effectus sed sic non est de intellectu ergo voluntas 
+          se habet immediatius quam intellectus haec est ratio <ref><name ref="#ThomasStrasbourg">thomae de argentina</name> 
+          in praesenti distinctione articulo 2o</ref></p>
+        
+        <p xml:id="pgb1q37-d1e4078">contra 3am conclusionem deus <corr><del rend="strikethrough">d</del></corr> non est illorum causa regulativa 
+          quorum <unclear>non</unclear> est causa prohibitiva sed malorum actuum deus est causa 
+          prohibitiva ergo etc maior nota et quia idem regulari et prohiberi simul ab 
+          eodem videntur contraria et rationi dissona  minor nota est</p>
+        
+        <p xml:id="pgb1q37-d1e4099">2o si sic sequitur 
+          quod prohibitio divina esset signum falsum et quod deus in prohibendo et 
+          statuendo esset duplex et ficuts aliud habens in voluntate <corr>in<del>u</del>trinsece</corr> et 
+          praetendens aliud in signo consequens est falsum et patet consequentia quia prohibens aliquid 
+          fieri significat se non velle illud fieri sed si deus vult fieri ea quae 
+          prohibet sequitur quod non prohibet illa intentione ut non fiant ergo facientes 
+          excusantur a culpa  quia non agunt contra intentionem legislatoris 
+          immo deus esset contrarius sibi ipsi quia faceret contra intentionem suam et prohibitionem</p>
+        
+        <p xml:id="pgb1q37-d1e4133">3o quia deus est nolens illam actionem ergo non est volens 
+          illam antecedens probatur quia odit illam et punit et sibi displicet sed odire 
+          et displicere est nolle ergo sicut amore et complacere est species volendi</p>
+        
+        <p xml:id="pgb1q37-d1e4143">4o illud est per se volitum a deo et simpliciter bonum quod est causa maximi 
+          boni sed aliquod bonum fuit causa maximi boni ergo maior nota quia effectus 
+          non est praestantior sua causa minor patet quia crucifixio et mors christi 
+          fuit causa liberationis et redemptionis nostrae et tamen ipsum crucifigere fuit 
+          malum quia aliter <name ref="#Jews">iudaei</name> non peccassent Item peccatum <name ref="#Adam">adae</name> fuit causa 
+          incarnationis secundum aliquos sanctos unde <name ref="#GregoryGreat">gregorius</name> <quote>o felix culpa</quote></p>
+        
+        <p xml:id="pgb1q37-d1e4171">5o malum fit ergo deus vult malum fieri consequentia tenet quia cum voluntatis 
+          dei sit omnipotens sequitur quod impossibile est fieri idem quod deus vult non fieri</p> 
+          
+        <p xml:id="pgb1q37-d1e4178">6o deus vult passiones sacntorum ergo vult omne illud fine quo 
+          ille non possunt esse vel fieri patet consequentia quia volens aliquem finem 
+          vult illa quae requiruntur ad illum finem sicut est prosecutio illorum 
+          Item vult antecedens <unclear>quod</unclear> est sanctos mereri per huius passiones ergo consequens <!-- probably the end of a quire here -->
+          <pb ed="#L" n="113r"/>vult quod est sanctorum in iusta persecutio quia illud consequens includitur in antecedente</p>
+        
+        <p xml:id="pgb1q37-d1e4198">Ad primum posset concedi consequens quia non est inconveniens de potentia <unclear>illicita</unclear> et 
+          resistentia sine audiotorio influentiae generalis quae idem iuvat et 
+          eidem resistit ratione diversorum quibus simul influit sicut <corr><del rend="strikethrough">duo soles</del></corr> 
+          sol duos bellantes iuvat saltim illuminando et tamen utrique resistit 
+          et utrumque impedit in hoc quod utrumque iuvat similiter possum eidem iuvare 
+          levando honus aliquod super caput et impedire simul addendo pondus</p>
+        
+        <p xml:id="pgb1q37-d1e4222">2o posset dici quod deus principaliter et directe iuvat hanc 2am causam 
+          secundario vero et indirecte resistit ei ideo proprie et per se non resistit sibi 
+          ipsi sicut sol cum desiccat et indurat lutum et simul resolvit glaciem 
+          propinquam ex cuius resolutione impeditur condensatio et <sic>induratio</sic> luti</p>
+        
+        <p xml:id="pgb1q37-d1e4241">Ad 2m negatur consequentia et ad probationem dicitur quod licet nulla sit proportio resistentiae 
+          ad virtutem primae causae secundum quod est omnipotens et infinita tamen est proportio ad 
+          totalem potentiam motivam particularem et hoc sufficit cum generali influentia 
+          ad determinatam velocitatem motus</p>
+        
+        <p xml:id="pgb1q37-d1e4251">Nota quod velle et nolle in deo 
+          est idem actus simplex pluribus nominibus nominatus propter diversos effectus 
+          et varios respectus nec videtur inconveniens cum illi qui negant nolle in 
+          deo ponant eandem potentiam dici liberam et necessariam secundum varios respectus 
+          ideo eadem ratione idem <corr>est</corr> velle propter alium respectum dici potest nolle</p>
+        
+        <p xml:id="pgb1q37-d1e4273">2o potest dici 
+          quod proportio resistentiae ad totalem potentiam motivam est non secundum illud quod 
+          est essentialiter nec secundum illud quod est absolute potentiae sed prout tendit circa hoc 
+          passum secundum ordinem a deo institutum</p>
+        
+        <p xml:id="pgb1q37-d1e4283">Ad 3m negatur antecedens ad probationem 
+          dicitur quod ad movendum <c>b</c> potentia excedens resistentiam ipsius <c>b</c> mobilis 
+          non est respectu causae et si conceditur consequenter quod <c>a</c> est magis potens movere 
+          in ordine motoris particularis quam <c>b</c> sit potens resistere supposito tamen 
+          concursu et auxilio causae primae essentialiter praeordinatae</p>
+        
+        <p xml:id="pgb1q37-d1e4316">Ad 4m dicitur quod <c>b</c> 
+          motus manebit sed ex hoc non sequitur quod deus prius esset totalis causa 
+          et quod causa 2a nihil faceret quia licet divinum velle sit sufficiens ad ponendum 
+          totaliter effectum tamen ex sui libertate potest secum compati aliam cusalitatem 
+          ad eundem effectum</p>
+        
+        <p xml:id="pgb1q37-d1e4335">Ad primum contra 2am conclusionem negatur maior et ad probationem negatur 
+          consequentia quia non minus sapienter regeret universum si nullum esset peccatum</p>
+        
+        <p xml:id="pgb1q37-d1e4341">Ad 2m negatur consequentia quia ratio indifferentiae non terminatur nec respicit pro extremis 
+          contraria sicut sunt velle et nolle sed contradictoria sicut velle et non velle 
+          2o posset dici quod quidquid potest velle adextra potest nolle sed non econverso ratio 
+          quia quidquid potest deus velle adextra potest non velle et quidquid potest non velle 
+          potest nolle non tamen potest velle quidquid potest non velle seu nolle quia tunc 
+          posset velle peccatum</p>
+        
+        <p xml:id="pgb1q37-d1e4359">Ad 3m dicitur quod consequens potest dupliciter sumi uno modo intrinsece 
+          et entitative et sic negatur consequentia Alio modo extrinsece per habitudinem denotativam 
+          <pb ed="#L" n="113v"/>et sic conceditur antecedens nec hoc est ponere proprie contingentia deo intrinsecam nisi 
+          sumeretur contingentia indifferenter libertatis sicut forte sumunt illi qui 
+          ipsam in deo ponunt</p>
+        
+        <p xml:id="pgb1q37-d1e4375">Ad 4m negatur consequentia et quando probatur quia nulla perfectio 
+          correspondet etc negatur hoc sed bene potest denominari non velle adextra</p>
+        
+        <p xml:id="pgb1q37-d1e4380">Ad 5m negatur consequentia quia non oportet ponere 
+          propter hoc aliam potentiam sed sufficit alius respectus earumdem potentiarum Ad dictum 
+          <name ref="#HughOfStVictor">hugonis</name> dicitur quod ibi loquitur ad modum qui est in nobis volens 
+          ex hoc manuducere ad misterium trinitatis ubi talis quaelibet similitudo 
+          claudicat et ipsemet fatetur in <ref>prologo <title ref="#deCoelestiHierarchia">angelicae Ierarchiae</title></ref></p>
+        
+        <p xml:id="pgb1q37-d1e4395">Ad 
+          6m negatur consquentia 2o posset dici quod actus divini intellectus est actus voluntatis 
+          divinae ideo improprie ibi ponitur diversitas actuum ideo si ponitur actus intellectus 
+          divini sub ratione causali ipsius creaturae aeque bene ponitur effectus 
+          sicut si poneretur actus voluntatis</p>
+        
+        <p xml:id="pgb1q37-d1e4410">Ad primum contra 3am conclusionem posset 
+          negari maior quia loquendo de positivo actu qui est prohibitus 
+          licet illud deus regulet et coefficiat et vellit tamen non est dicendum 
+          quod simpliciter vellit illud fieri et esset sed secundum quid quia habet tantum velle generalis 
+          influentiae cum velle admixtione in voluntarii puta cum 
+          velle contrariae praeordinationis et antecedentis prohibitionis unde sicut proiciens 
+          merces in mari non vult simpliciter proicere sed magis vult divitiis privari 
+          quam vita similiter pater trahens navem prohibet filio ne trahat 
+          et tamen filio trahente pater coagit nec tamen proprie loquendo pater vult 
+          filium trahere immo sibi displicet licet coagat eidem et tamen filius 
+          non potest trahere sine patre sic deus quantum est de se plus vellet illud 
+          non poni si autem voluntas creata vult omnino illud ponere deus non subtrahet 
+          influentiam suam sed voluntatem relinquit suae libertati et sic 
+          producitur patet ex hoc ad illas tres rationes</p>
+        
+        <p xml:id="pgb1q37-d1e4446">Notandum tamen pro materia et 
+          solutione rationis et sequentium quod deus variis modis dicitur <corr><del>s<!-- unclear if this is a deletion --></del></corr> velle aliqua 
+          non quod in divino velle sit aliqua alietas formaliter intrinsece sed haec 
+          varietas est formaliter in denominationibus formalibus sumptis <c>a</c> 
+          velle divino illa autem varietas est in deo virtualiter et aequivalenter 
+          primo ergo respectu aliquorum deus habet velle omnimodae efficaciae et sic vult 
+          mundum esse de qua voluntate <ref><title ref="#rom">ad Romanos</title> 9</ref> <quote ana="#rom9_19">voluntati <sic>eius</sic> quis resistit</quote> 
+          2o respectu aliquorum habet velle praeordinationis praeceptoriae vel consultoriae 
+          sicut vult illa quae praecipit vel consulit sive fiant sive non 
+          et haec dicitur voluntas signi non quod sit ipsum velle divinum sed est signum 
+          quod deus quantum est ex se vellet et approbaret sic fieri et sci illa quae 
+          fiunt contra praecepta dicuntur fieri contra eius voluntatem 3o respectu quorumdam habet velle 
+          approbationis et acceptationis specialis et complacentiae et sic vult 
+          <pb ed="#L" n="114r"/>bona et merita quae fiunt <ref><title ref="#rom">ad Romanos</title> 12o</ref> <quote ana="#rom12_2">ut probetis quae sit voluntas dei 
+          bona et beneplacens et perfecta</quote> et potest dici velle beneplaciti simpliciter</p>
+        
+        <p xml:id="pgb1q37-d1e4515">4o respectu quorumdam habet velle concessionis et licentiae et sic vult quaecumque 
+          sunt licita non illicita ut sunt actus indifferentes</p>
+        
+        <p xml:id="pgb1q37-d1e4522">5o respectu quorumdam 
+          habet velle generalis influentiae seu velle non substractionis influentiae 
+          et hoc dicitur velle large et generaliter conformiter deus posset dici habere 
+          nolle respectu diversorum primo habet nolle efficax sicut vult alium mundum 
+          esse 2o antecedentis prohibitionis et contrariae ordinationis et sic vult mala 
+          fieri sive fiant sive fiant <sic>sive fiant</sic> sive non et per hoc solvitur 3a ratio 3o habet 
+          nolle reprobationis et detestationis specialis et displicentiae consequentis 
+          et sic vult mala quae fiunt sic dicitur nescire malos <title ref="#mt">matthaeus</title> 25 <quote ana="#mt25_12">nescio 
+          vox</quote> 4o habet nolle negationis et subtractionis influentiae <unclear>est</unclear> sic est 
+          nolens ea quae non sunt ex istis patet quid sit dicendum ad illas tres 
+          rationes quomodo autem deus respectu illorum quod reprobat habet aliquo modo velle 
+          et aliquo modo nolle patet <ref><title ref="#Isam">primo Samuelis</title> 8</ref> cum enim filii israel peterent sibi regem 
+          dominus hoc dicit <name ref="#Samuel">samueli</name> reprobans <quote ana="#Isam8_7">non te abiecerunt sed me ne 
+          regnem super eos iuxta omnia opera sua</quote> et tamen ibidem dicit deus <quote ana="#Isam8_22">audi 
+          voces eorum et constitue super eos regem</quote></p>
+        
+        <p xml:id="pgb1q37-d1e4597">Ad 4m negatur antecedens sumendo 
+          causam large ad probationem dicitur quod quidquid sit de causa per se et unica in proposito dicitur 
+          quod <name ref="#Jews">iudaei</name> non fuerunt causa nostrae salutis per se et simpliciter sed solum occasionaliter 
+          et valde per accidens sicut frigiditas quandoque est causa per accidens 
+          caloris consimiliter potest dici quod a de peccatum non fuit causa per se nostrae incarnationis 
+          sed solum occasionalis licet etiam secundum <name ref="#Lombard">magistrum</name> <name ref="#Adam">adam</name> non peccasset 
+          christus incarnatus non fuisset</p>
+        
+        <p xml:id="pgb1q37-d1e4625">Ad 5m consequentia negatur et ad probationem dicitur quod 
+          multa sunt praeter dei voluntatem quae nec sunt volita nec nolita sed 
+          solum permissa nec impossibile est fieri quae deus non vult fieri licet impossibile 
+          sit fieri quod vult fieri</p>
+        
+        <p xml:id="pgb1q37-d1e4636">Ad 6m negatur consequentia et ad probationem dicitur loquendo vim 
+          formiter de velle quod deus vult passiones sanctorum approbative sed 
+          non vult aliquem <corr><del rend="strikethrough">i</del></corr> iuste eos per se qui nisi permissive  et ad confirmationem 
+          supra est dictum quod sed adhuc dicitur quod non vult antecedente cum sua generalitate 
+          id est prout consequens includit sed solum vult antecedens pro suo significato principali 
+          sine inclusione sui <unclear>cognotati<!-- maybe normalized to connotati --></unclear></p>
+        
+        <p xml:id="pgb1q37-d1e4660">Ad primum in oppositum negatur consequentia et ad 
+          probationem dicitur quod non procedit de principio libere motivo sed de naturaliter 
+          movente 2o dicitur conformiter ad praedicta quod licet motiva potentia 
+          totalis sic infinita tamen potentia particularis creata est finita et secundum resistentiam 
+          seu resistentiae intensionem respectu illius potest esse motus intensior vel remissior</p>
+        
+        <p xml:id="pgb1q37-d1e4677">Ad confirmationem negatur consequentia et dicitur quod ad duplationem motoris 
+          non oportet duplare causam universalem quae influentia generali in omnibus causis 
+          <pb ed="#L" n="114v"/>influit nec proportio velocitatis motus sumitur secundum proportionem <unclear>resistere</unclear> 
+          ad talem potentiam sed sufficit duplatio totalis causae particularis creatae 2o 
+          posset dici quod non requiritur quod causa 2a dupletur secundum absolutam quidditatem 
+          suae virtutis <corr><del rend="strikethrough">sed s</del></corr> quia aliquando hoc est impossibile naturaliter sed sufficit quod dupletur 
+          proportio potentiae motivae particularis totalis ut est motiva et applicata ad agere 
+          circa hoc passum vel mobile 3o dici posset quod regulae <ref><name ref="#Aristotle">philosophi</name> 7o <title ref="#Physics">physicorum</title></ref> 
+          non tenent in potentia libera respectu effectus immediate procedentis ab illa 4o 
+          posset dici quod licet formaliter et simpliciter non dupletur concursus divinus seu 
+          influentia tamen aequivalenter in quadam similitudine potest dici duplari</p>
+        
+        <p xml:id="pgb1q37-d1e4729">Ad 
+          2m negatur consequentia ad probationem dicitur quod licet divinum velle se solo aeque perfecte regularet 
+          tamen <unclear>coninentius<!-- looks like coninentius --></unclear> regulantur per plura quia <unclear>conienntius</unclear> est quod causae 2ae 
+          habeant proprias actiones quas aptae notae sunt habere quam quod <corr><del>principiarentur</del></corr> 
+          privarentur illis actionibus propriis a deo sibi datis ad confirmationem patet per idem</p>
+        
+        <p xml:id="pgb1q37-d1e4757">Ad ultimum negatur antecedens in sensu diviso nam regulat bona et mala sive 
+          fiant contra eius voluntatem sive secundum eam aliter tamen aliter ut superius est 
+          dictum et haec sufficiant</p>
+          </div>
+        </div>
+          <div>
+            <head><supplied>Conclusiones</supplied></head>
+        <!-- need section break here; see "haec sufficiant" above. Starts new divisio textu; hard to know if this fits this question -->
+        <p xml:id="pgb1q37-d1e4770"><quote>hic non est praetereundem <!-- probably a quote from lombard --></quote> etc posita voluntatis descriptione 
+          hic agit de eius varia acceptione et dividitur in tres quia primo tractat 
+          de voluntate beneplaciti seu efficaci 2o ostendit divinam voluntatem 
+          propter plura signa pluraliter dici 3o ostendit deum aliqua percipere quae non vult impleri 
+          2a ibi aliquando vero secundum quamdam 3a ibi illa tria dicuntur dei voluntatis etc</p>
+        
+        <p xml:id="pgb1q37-d1e4792">Iam de voluntate prima conclusio quod divina voluntas est divina 
+          essentia sicut eius essentia est eius scientia unde voluntas in deo non dicit 
+          affectum vel motum sicut in nobis sed talia in deo cadere non possunt 
+          ut dictum est</p>
+        
+        <p xml:id="pgb1q37-d1e4803">2a conclusio licet in deo sit idem velle et esse deus tamen non dicitur 
+          esse omnia quae scit licet in deo sicut idem scire et esse</p>
+        
+        <p xml:id="pgb1q37-d1e4809">3a conclusio quod voluntas dei quae 
+          non potest esse iniusta neque mala quia <corr><del rend="strikethrough">non potest</del></corr> deus est sempiterna est 
+          et incommutabilis licet ea quae ei sunt subiecta transeant et varientur</p>
+        
+        <p xml:id="pgb1q37-d1e4821">4a conclusio quod voluntas dei est prima et summa causa omnium ipsa enim est sola 
+          unde habet ortum quidquid est sed ipsa non est orta ideo nec est eius causa quaerenda 
+          quia sequeretur aliquid esse maius vel prius ea quod nephas est credere</p>
+        
+        <p xml:id="pgb1q37-d1e4830">5a conclusio 
+          quod voluntas dei non est nisi una et quandoque appellatur beneplacitum sive 
+          dispositio et contra hanc non potest aliquid fieri aliquando autem signa voluntatis divinae 
+          dicuntur voluntas dei sicut signa ire dicuntur ira et signa dilectionis dilectio 
+          et est tropica locutio signa autem divinae voluntatis sunt percipere 
+          prohibere permittere consulem operari sive praeceptio prohibitio permissio  
+          consilium et operatio unde illud quod deus praecipit potest dici eius voluntatis 
+          et sic de aliis signis et contra huiusmodi signa potest aliquid fieri quia multa 
+          et plura deus praecipit quae non fiunt sicut <name ref="#Abraham">abrahae</name> praecepit filium im<pb ed="#L" n="115r"/>molare 
+          et tamen non voluit actum immolationis sed voluntatem et obedientiam 
+          <name ref="#Abraham">abrahae</name> et fidem eius probare voluit et ostendere versus 
+          Praecipit et prohibet permittit consulit implet etc</p>
+          </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
