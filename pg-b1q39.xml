@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 39</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 39</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-19" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q39">
+        <head>Quaestio 39</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q39-d1e3237">
+          <cit>
+            <quote>Voluntas quippe dei</quote>
+            <bibl>Lombardus, I, d. 47, xxx</bibl>
+          </cit> 
+          etc. <g ref="#pilcrow"/>postquam magister determina<lb ed="#L"/>vit 
+          de divina voluntate in generali in ista distinctione 47a incipit de 
+          <lb ed="#L"/>terminare de ea in speciali</p>
+        
+        <p xml:id="pgb1q39-d1e3248"><g ref="#pilcrow"/>Et dividitur in duas nam primo ostendit 
+          <lb ed="#L"/>divinae voluntatis efficaciam 2o nostrae voluntatis ad divinam ponit conformitatem 
+          2a pars incipit in principio distinctionis ultime ibi sciendum est</p>
+        
+        <p xml:id="pgb1q39-d1e3254"><g ref="#pilcrow"/>prima pars dividitur 
+          <lb ed="#L"/>in duas nam primo ostendit omnia fieri secundum divinam voluntatem 2o tractat quamdam 
+          <lb ed="#L"/>occurrentem dubietatem 2a ibi in hiis verbis</p>
+        
+        <p xml:id="pgb1q39-d1e3262">Et haec 2a pars dividitur 
+          <lb ed="#L"/>in tres nam primo movet quaestionem 2o ponit solutionem 3o dictorum sub<lb ed="#L"/>iungit 
+          recapitulationem seu epylogationem 2a ibi verum ut supra etc 
+          <lb ed="#L"/>3a ibi ex praedictis etc et haec sit in generali divisio distinctionis praesentis</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q39-d1e3272"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum quodlibet bonum possibile aliud a prima bonitate sit in se ponibile 
+              <lb ed="#L"/>ab increata voluntate</p>
+            
+            <p xml:id="pgb1q39-d1e3280"><g ref="#slash"/>arguitur primo quod non quia si sic sequeretur quod deus posset 
+              <lb ed="#L"/>facere peccatum consequens est falsum sed patet consequentia quoniam est bonum cum sit 
+              <lb ed="#L"/>quoddam verum <g ref="#slash"/>confirmatur quia omnis motio vel motus est bonitas sicut est entitas 
+              <lb ed="#L"/>sed aliquod peccatum est motus animi ergo</p>
+            
+            <p xml:id="pgb1q39-d1e3292"><g ref="#pilcrow"/>2o quia tunc sequeretur quod possibile esset possibile <c>a</c><g ref="#dot"/> 
+              <lb ed="#L"/>divina voluntate effective consequens est falsum quia omne possibile ab aeterno fuit 
+              <lb ed="#L"/>possibile aliter quandoque possibile fuisset impossibile consequentia patet quia aliquod possibile esse possibile 
+              <lb ed="#L"/>est verum et bonum ut puta <name ref="#Sortes">sortem</name> posse mereri et salvari et posse 
+              <lb ed="#L"/>unde agere <g ref="#slash"/>confirmatio quia si sic sequeretur quod deus posset infinitam delectationem 
+              <lb ed="#L"/>de obiecto creato <unclear cert="high">in mente <!-- immediate --></unclear> creata causare consequens est falsum quia sic mens in aliquo citra 
+              <lb ed="#L"/>deum posset beatifice quietari contra <name ref="#Augustine">augustinum</name> et consequentia patet quia illud videtur bonum</p>
+            
+            <p xml:id="pgb1q39-d1e3326"><lb ed="#L"/><g ref="#pilcrow"/>3o principaliter sequeretur quod divina voluntas non esset aliquo modo impedibilis consequens est falsum 
+              <lb ed="#L"/>quia tunc produceret <choice><orig>neccessario</orig><reg>necessario</reg></choice> quaelibet suum effectum quod non est dicendum patet consequentia quia 
+              <lb ed="#L"/>causa quae non potest impediri <choice><orig>neccessario</orig><reg>necessario</reg></choice> causat suum effectum</p>
+            
+            <p xml:id="pgb1q39-d1e3347"><g ref="#pilcrow"/>confirmatur quia vult omnem 
+              <lb ed="#L"/>hominem salvuum fieri et hoc non fit ergo divina voluntas est impedibilis 
+              <lb ed="#L"/>et per consequens non quodlibet bonum possibile aliud a se potest ponere inesse</p>
+            
+            <p xml:id="pgb1q39-d1e3355"><g ref="#pilcrow"/>In oppositum 
+              <lb ed="#L"/>est illud <title ref="#est">hester</title> 13o <quote ana="#est13_9"><!-- note that this verse is not going to get indexed because my current latin bibles do not include these additional chapters -->domine deus in ditione tua cuncta sunt posita 
+              <lb ed="#L"/>et non est qui possit resistere tuae voluntati</quote> <g ref="#slash"/>Item <name ref="#Lombard">magister</name> in hac distinctione</p>
+            </div>
+            <div>
+              <head><supplied>Prima conclusio</supplied></head>
+            <p xml:id="pgb1q39-d1e3376"><g ref="#pilcrow"/>prima conclusio licet voluntas humana inecta possit malum sub ratione existentis 
+              <lb ed="#L"/>vel apparentis boni appetere tamen voluntas divina perfecta non potest 
+              <lb ed="#L"/>nisi bonum et bene velle percipere seu efficere <g ref="#slash"/>prima pars probatur quia aliquis 
+              <lb ed="#L"/>scienter contra conscientiam suam peccat peccato non delectabili nec utili 
+              <lb ed="#L"/>igitur illa pars est vera consequentia bona et antecedens apparet de scienter in vido contra 
+              <lb ed="#L"/>illum cui scit se non posse nocere et tamen invidet et vellet nocere 
+              <lb ed="#L"/>Item aliquis potest appetere <choice><orig>ymmo</orig><reg>immo</reg></choice> de facto appetit facere quod non est in se 
+              <pb ed="#L" n="120v"/><lb ed="#L"/>existens nec apparens ergo antecedens patet de mentientibus sola mentiendi libidine 
+              <lb ed="#L"/>et habetur in <ref><title>canone</title> 22a quaestione 2a</ref> et <ref>3o <title ref="#Sentences">sententiarum</title> distinctionem 35</ref> <g ref="#slash"/>Item obstinati 
+              <lb ed="#L"/>voluit malum sub ratione mali ergo 2a pars in sensu praemisso in alia quaestione patet 
+              <lb ed="#L"/>per <ref><name>magistrum</name> distinctione 46a</ref> <g ref="#slash"/>Item patet per <ref>articulum dampnatum <unclear>7m</unclear> in ordine no<lb ed="#L"/>vellorum</ref> 
+              dicentem quod <quote>peccantem deus vult peccare error</quote> <g ref="#slash"/>Ad idem est <name ref="#Augustine">augustinus</name> 
+              <lb ed="#L"/>super illo verbo <title ref="#ps">psalmi</title> <quote ana="#ps16_4">ut non loquatur os meum opera hominum</quote> etc et in pluribus 
+              <lb ed="#L"/>aliis locis <g ref="#slash"/>oppositum huius partis tenet <ref><title ref="#Bradwardine">doctor profundus</title> primo libro <title ref="#CausaDei">summae</title> 
+              <lb ed="#L"/>suae capitulis 33o et 34o</ref></p>
+            
+            <p xml:id="pgb1q39-d1e3470"><g ref="#pilcrow"/>2m corollarium sicut non omne possibile ut possibile est a deo causaliter antecedenter productum 
+              <lb ed="#L"/>sic non quodlibet futurum ut futurum fuit <corr><del rend="strikethrough">ab aeterno possibile</del></corr> a deo antecedenter compla<lb ed="#L"/>center 
+              volitum patet quia quodlibet possibile et futurum fuit ab aeterno possibile et futurum 
+              <lb ed="#L"/><g ref="#slash"/>confirmatur 2a pars quia tunc qualiter cumque esset futurm taliter esset a deo antecedenter vo<lb ed="#L"/>litum 
+              sed ut culpa est est antecedenter futurum ergo ut culpa est est a deo vo<lb ed="#L"/>litum 
+              sed ut culpa est est antecedenter futurum ergo ut culpa est est a deo pla<lb ed="#L"/>citum 
+              forma est bona et conclusio est falsa ergo aliqua praemissarum non minor ergo 
+              <lb ed="#L"/>maior et consequenter corollarium verum</p>
+            
+            <p xml:id="pgb1q39-d1e3494"><g ref="#pilcrow"/>3m corollarium cuiuslibet deformitatis mentis infectivae 
+              <lb ed="#L"/>voluntas creata est principalis causa antecedenter causative seu effecitve volitive 
+              <lb ed="#L"/>patet quia illius deus non est causa principalis ergo voluntas creata</p>
+            
+            <p xml:id="pgb1q39-d1e3502"><g ref="#pilcrow"/>Ex dictis 
+              <lb ed="#L"/>patet quod quam repugnat deum esse actorem peccati tam repugnat ipsum esse 
+              <lb ed="#L"/>causam mali seu peccati contra modum loquendi <name ref="#RichardFitzRalph">armatam</name> in <title ref="#deQuaestionibusArmenorum">summa ar<lb ed="#L"/>menorum</title> 
+              patet per consequentiam quam facit <ref><name ref="#Lombard">magister</name> distinctione 38 primi</ref> dicentis si <!-- likely Lombard quote here --> 
+              <lb ed="#L"/>praescientia dei esset causa malorum deus esset actor malorum ubi patet quod esse 
+              <lb ed="#L"/>causam peccati est esse actorem peccati</p>
+            </div>
+            <div>
+              <head><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q39-d1e3530"><g ref="#pilcrow"/>2a conclusio licet divinum velle possit 
+              <lb ed="#L"/>aliquod infinitum in certa specie producere et illud productive efficere tamen divina 
+              <lb ed="#L"/>voluntas non potest facere quodlibet possibile simul existere prima pars probatur quia ad 
+              <lb ed="#L"/>infinitum esse nullum sequitur impossibile nec falsum ergo illud potest deus facere 
+              <lb ed="#L"/>consequentia patet per <ref><name ref="#Augustine">augustinum</name> <title>epistola 3a ad volusianum</title></ref> dicentem dicamus deum 
+              <lb ed="#L"/>aliquid posse quod nos fateamur investigare non posse in talibus enim 
+              <lb ed="#L"/>tota ratio facti est potentia facientis <g ref="#slash"/>Item <ref>12 <title ref="#CityOfGod">de civitate dei</title> capitulo 18</ref> <quote ana="#Augustine_DeCivitateDei_12_18_a">omnis in 
+              <lb ed="#L"/>finitas est deo finita</quote> <g ref="#slash"/>2a pars probatur quia deus actum positivum prohibitum 
+              <lb ed="#L"/>cum voluntate producit et efficit et tamen illum produci prohibet antecedenter 
+              <lb ed="#L"/>voluntati ergo <g ref="#slash"/>3a pars probatur quia nulla sunt omnia possibilia <g ref="#slash"/>tum quia deus 
+              <lb ed="#L"/>posset totam suam potentiam productivam evacuare quod est falsum <g ref="#slash"/>tum 3o quia posset 
+              <lb ed="#L"/>contradictoria simul <unclear>verificare</unclear> consequentia patet quia quaelibet pars contradictionis est possibilis 
+              <lb ed="#L"/><g ref="#slash"/>primum corollarium non sequitur iste est actum lege prohibitum causans vel volens 
+              <lb ed="#L"/>ergo est peccator seu contra legem peccans vel agens prima patet quia actus positivi 
+              <lb ed="#L"/>prohibiti deus eset causa coeffectiva et tamen deus nullo modo dicendus 
+              <lb ed="#L"/>est peccator seu agens contra legem vel contra rationis dictamen</p>
+            
+            <p xml:id="pgb1q39-d1e3598"><g ref="#pilcrow"/>2m corollarium 
+              <pb ed="#L" n="121r"/><lb ed="#L"/>licet illud quod deus prohibet quandoque aliquomodo vellit et faciat nullum tamen ho<lb ed="#L"/>minem 
+              vult facere oppositum praecepti seu aliud quam praecipiat prima patet 
+              <lb ed="#L"/>quia actum qui est odium prohibet fieri et tamen illud coefficit cum voluntate 
+              <lb ed="#L"/>creata cui tamen antecedenter prohibuit illud facere ut patuit supra <g ref="#slash"/>2a 
+              <lb ed="#L"/>pars patet quia deus nullum facit peccare aut contra suam legem agere</p>
+            
+            <p xml:id="pgb1q39-d1e3617"><g ref="#pilcrow"/>3m corollarium <corr><del rend="strikethrough">licet</del></corr> sicut idem creatum potest esse simul finitum et infinitum sic idem 
+              <lb ed="#L"/>creatum potest diversimode infinitari seu fieri infinitum prima patet quia unum 
+              <lb ed="#L"/>creatum potest esse infinitum extensive seu durative et finitum perfective 
+              <lb ed="#L"/>seu intensive 2a pars probatur quia deus tale infinitum creatum potest alio modo in<lb ed="#L"/>finitare 
+              quam sit infinitum patet extensive vel intensive</p>
+            </div>
+            <div>
+              <head><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q39-d1e3633"><g ref="#pilcrow"/>3a conclusio omne intelli<lb ed="#L"/>gibile 
+              per aliquam potentiam vere factibile est a divina voluntate inesse ponibile 
+              <lb ed="#L"/>probatur quia quodlibet factibile vere per potentiam finitam est factibile a potentia infinita 
+              <lb ed="#L"/>ergo a voluntate divina tenet consequentia cum nulla sit infinita potentia simpliciter nisi 
+              <lb ed="#L"/>ipsa antecedens probatur quoniam quidquid potest potentia finita productive potest in virtute potentiae 
+              <lb ed="#L"/>infinitae quae se sola potest quidquid potest cum alia <g ref="#slash"/>confirmatur auctoritate <ref><name ref="#Lombard">magistri</name> 
+              <lb ed="#L"/>45a distinctione primi</ref> dicentis quod <quote>voluntas dei inexpleta esse non potest</quote> <g ref="#slash"/>Item 
+              <lb ed="#L"/><ref><name ref="#Augustine">augustinus</name> <title ref="#Enchiridion">enchiridion</title> 3o</ref> dei omnipotens voluntas semper invicta est</p>
+            
+            <p xml:id="pgb1q39-d1e3671"><g ref="#pilcrow"/>primum corollarium quodlibet <choice><orig>yma<lb ed="#L"/>ginabile</orig><reg>ima<lb ed="#L"/>ginabile</reg></choice> 
+              futurum potens evenire divina voluntas se sola posset impedire 
+              <lb ed="#L"/>patet quia quodlibet tale futurum vel possibile posset nolle fore sicut potest velle fore <g ref="#dot"/> 
+              <lb ed="#L"/><choice><orig>ymmo</orig><reg>immo</reg></choice> aliqua potest nolle quae non potest velle sicut peccata ergo potest impedire 
+              <lb ed="#L"/>patet consequentia cum suum nolle respectu cuiuslibet futuri sit causa sufficiens impe<lb ed="#L"/>ditiva 
+              et antecedens patet quia quodlibet futurum aequa in differentia sibi proponitur 
+              <lb ed="#L"/>ut patuit supra</p>
+            
+            <p xml:id="pgb1q39-d1e3703"><g ref="#pilcrow"/>2m corollarium sicut impossibile est aliquid non evenire 
+              <lb ed="#L"/>deo volente sic impossibile est aliquid evenire deo <corr><del rend="strikethrough">d</del></corr> non sinente patet per <ref><name ref="#Augustine">augustinum</name> 
+              <lb ed="#L"/><title ref="#Enchiridion">enchiridion</title> 104o capitulo</ref> dicentem <unclear>opi</unclear> bono quam facile est quod non vult esse 
+              <lb ed="#L"/>non sinere tam facile est quod vult esse facere</p>
+            
+            <p xml:id="pgb1q39-d1e3727"><g ref="#pilcrow"/>3m corollarium licet omne divi<lb ed="#L"/>num 
+              facere sit divinum velle tamen non omne divinum velle est divinum facere 
+              <lb ed="#L"/>prima patet per <name ref="#Augustine">augustinum</name> quia deus non operatur nisi per velle 2a patet quia aliter 
+              <lb ed="#L"/>divinum velle faceret possibile esse impossibile quod est falsum patet consequentia cum divina voluntas 
+              <lb ed="#L"/>vellit possibile esse possibile et impossibile esse impossibile ex dictis patet affirmativa 
+              <lb ed="#L"/>quaestionis pars vera</p>
+            </div>
+            <div>
+              <head><supplied>Obiectiones et responsiones</supplied></head>
+            <p xml:id="pgb1q39-d1e3745"><g ref="#pilcrow"/>Contra primam conclusionem arguit doctor praenominatus sic 
+              <lb ed="#L"/><name ref="#Bernard">bernardin</name> ubi supra tamen primo quia peccatum esse est verum sed omne verum deus 
+              <lb ed="#L"/>potest facere ergo</p>
+            
+            <p xml:id="pgb1q39-d1e3756"><g ref="#pilcrow"/>2o deus scit peccatum et non impedit et tamen impedire potest 
+              <lb ed="#L"/>ergo est causa peccati patet consequentia cum non careat <unclear>stipulo<!-- ? --></unclear> conscientiae alienae qui ma<lb ed="#L"/>nifesto 
+              facinori desunt obviare ut dicit regula iuris</p>
+            
+            <p xml:id="pgb1q39-d1e3768"><g ref="#pilcrow"/>3o quia deus 
+              <lb ed="#L"/>est causa omnium nostrarum motionum quarum multae sunt male ergo</p>
+            
+            <p xml:id="pgb1q39-d1e3774"><g ref="#slash"/>4o omnis boni 
+              <lb ed="#L"/>deus est causa peccatum est bonum ergo maior patet minor probatur per <ref><name ref="#Augustine">beatum augustinum</name> <title ref="#Enchiridion">enchiridion</title> 
+              <lb ed="#L"/>26</ref> deus iudicat melius de malis benefacere quam nulla mala 
+              <pb ed="#L" n="121v"/><lb ed="#L"/>esse</p>
+            
+            <p xml:id="pgb1q39-d1e3793"><g ref="#pilcrow"/>5o omnis iusti deus est causa peccatum est huius ergo minor patet per dicta 
+              <lb ed="#L"/><name ref="#Augustine">augustini</name> <title ref="#ContraIulianum">contra iulianum</title> 45 <g ref="#slash"/>Item per <ref><name ref="#GregoryGreat">gregorium</name> super <title>ezechiel</title> 3a omelia</ref> 
+              <lb ed="#L"/>ubi habetur quod unum peccatum alterius est causa et <choice><orig>pena</orig><reg>poena</reg></choice> iusta plures 
+              <lb ed="#L"/>aliae rationes fatae fuerunt in alia quaestione immediata</p>
+            
+            <p xml:id="pgb1q39-d1e3825"><g ref="#pilcrow"/><unclear>confirmatur</unclear> 2am 
+              <lb ed="#L"/><corr><del rend="strikethrough">et</del></corr> conclusionem si eius probatio esset bona sequeretur quod deus posset facere quodlibet 
+              <lb ed="#L"/><corr><del rend="strikethrough">pos</del></corr> possibile esse consequens repugnat <g ref="#slash"/> et patet consequentia a simili quia quodlibet possibile 
+              <lb ed="#L"/>non sequitur aliquod inconveniens nec impossibile</p>
+            
+            <p xml:id="pgb1q39-d1e3846"><g ref="#pilcrow"/>2o deus producit adin<lb ed="#L"/>tra 
+              secundum gradum maximum activitatis ergo et adextra et per consequens 
+              <lb ed="#L"/>producit <choice><orig>in finita</orig><reg>infinita</reg></choice> vel non potest producere ipsum consequens est falsum quia tunc 
+              <lb ed="#L"/>poneret quodlibet possibile inesse</p>
+            
+            <p xml:id="pgb1q39-d1e3863"><g ref="#pilcrow"/>3o si deo omnis infinitas sit finita sequitur 
+              <lb ed="#L"/>quod aliqua sit omnis infinitas finita consequens est falsum</p>
+            
+            <p xml:id="pgb1q39-d1e3869">4o quaeritur ubi 
+              <lb ed="#L"/>esset tale infinitum quia si in loco sequitur infinitum non esse patet cum 
+              <lb ed="#L"/>locus sit ultima superficies corporis continentis</p>
+            
+            <p xml:id="pgb1q39-d1e3876"><g ref="#pilcrow"/>5o sequeretur quod pars esset 
+              <lb ed="#L"/>aequalis toto et unum infinitum maius alio quae universaliter falsa</p>
+            
+            <p xml:id="pgb1q39-d1e3882"><g ref="#pilcrow"/>6o sequitur 
+              <lb ed="#L"/>quod deus possit facere delectationem infinitam et in illa quietare mentem 
+              <lb ed="#L"/>consequens est falsum</p>
+            
+            <p xml:id="pgb1q39-d1e3890"><g ref="#pilcrow"/>contra 3am conclusionem arguitur primo intelligibile est per <corr><del rend="strikethrough">in</del>finitam</corr> potentiam 
+              <lb ed="#L"/>fieri mala et illa non possunt fieri <unclear>ad?ma</unclear> voluntate ergo non quodlibet etc</p>
+            
+            <p xml:id="pgb1q39-d1e3904"><lb ed="#L"/><g ref="#pilcrow"/>2o contra corollaria voluntas dei est impedibilis probatur quia non posset impedire 
+              <lb ed="#L"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> ageret adextra et sic quodlibet producibile produceret</p>
+            
+            <p xml:id="pgb1q39-d1e3917"><g ref="#pilcrow"/>3o non omne 
+              <lb ed="#L"/>volitum a deo fit ergo antecedens patet <ref><title ref="#Itim">ad thymotheum</title> 7o</ref> quia <quote ana="#Itim2_4">vult omnes homines 
+              <lb ed="#L"/>salvos fieri</quote></p>
+            
+            <p xml:id="pgb1q39-d1e3932"><g ref="#pilcrow"/>4o deus mala culpae vult non esse ergo antecedens probatur 
+              <lb ed="#L"/>quia praecipit illa non fieri</p>
+            
+            <p xml:id="pgb1q39-d1e3938"><g ref="#pilcrow"/>5o stat divinum velle esse velle quod <name ref="#Sortes">sortes</name> 
+              <lb ed="#L"/>velit <g ref="#slash"/>et <name ref="#Sortes">sortem</name> posse non velle ponatur ergo in esse et sequitur quod <name ref="#Sortes">sortes</name> 
+              <lb ed="#L"/>non libere vult <choice><orig>ymmo</orig><reg>immo</reg></choice> nihil vult et tamen divinum velle est velle quod 
+              <lb ed="#L"/><name ref="#Sortes">sortes</name> velit ergo divinum velle est impedibile</p>
+            
+            <p xml:id="pgb1q39-d1e3968"><g ref="#pilcrow"/>Ad primum respondet <ref><name ref="#Lombard">magister</name> 
+              <lb ed="#L"/>distinctione 36</ref> dicens quod non est dignum solutionem propter quod <name ref="#Bernard">bernardin</name> dicit quod in<lb ed="#L"/>dignius 
+              soluit <g ref="#slash"/>2o posset dici negando maiorem et si doctores 
+              <lb ed="#L"/>videantur dicere oppositum dicitur quod loquuntur de incomplexis veritatibus 
+              <lb ed="#L"/><g ref="#slash"/>3o et forte melius potest dici quod in talibus formis semper minor est neganda 
+              <lb ed="#L"/>sumendo verum pro re dicti non pro dicto nec pro signo veri unde licet 
+              <lb ed="#L"/>haec propositio sit vera <name ref="#Sortes">sortes</name> peccat tamen haec deformitas <name ref="#Sortes">sortem</name> peccare 
+              <lb ed="#L"/>nec dicitur nec est verum</p>
+            
+            <p xml:id="pgb1q39-d1e4005"><g ref="#pilcrow"/>Ad 2m negatur consequentia quia licet permittat tamen non 
+              <lb ed="#L"/>proprie vult ratio permissionis nobis non est nota sed tantum sibi</p>
+            
+            <p xml:id="pgb1q39-d1e4011"><g ref="#pilcrow"/>Ad 
+              <lb ed="#L"/>3m dicitur quod <name ref="#Augustine">augustinus</name> sumit causam large pro illo quod est causa esse <unclear>sive</unclear> est 
+              <lb ed="#L"/>causa ut sic et ut causa sic non autem ut causae sint <g ref="#slash"/>2o dicitur quod loquitur de 
+              <lb ed="#L"/>positivo actu tantum cuius deus est causa coefficiens tantum cum voluntate <g ref="#slash"/><corr><del rend="strikethrough">3o</del></corr></p>
+            
+            <p xml:id="pgb1q39-d1e4035"><lb ed="#L"/>Ad <sic>5m et 4m</sic> dicitur simul quod si intelligitur quod peccatum in se sit aliquod bonum 
+              <lb ed="#L"/>hoc est falsum si vero intelligitur quod aliquod iustum et bonum vel utile quandoque sequitur 
+              <pb ed="#L" n="122r"/><lb ed="#L"/>per accidens ad peccatum sicut est verum et tunc si sic niformiter sumeretur maior 
+              <lb ed="#L"/>neganda est quia non omne ad quod sequitur per accidens aliquod iustum vel bonum deus 
+              <lb ed="#L"/>vult</p>
+            
+            <p xml:id="pgb1q39-d1e4052"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur consequentia ad probationem dicitur quod non est simile quia <choice><orig>alica</orig><reg>aliqua</reg></choice> 
+              <lb ed="#L"/>serentur inconvenientia quae patent in probatione 2ae partis eiusdem conclusionis</p>
+            
+            <p xml:id="pgb1q39-d1e4064"><g ref="#pilcrow"/>Ad 
+              <lb ed="#L"/>2m dicitur quod improprie in deo dicitur summus gradus seu agere secundum ultimum posse 
+              <lb ed="#L"/>sui tamen sumendo ad bonum sensum negatur consequentia quia non posse producere infinitum 
+              <lb ed="#L"/>simpliciter adextra non dicit imperfectionem licet in creatura producere posse tantum et 
+              <lb ed="#L"/>non plus proveniat ex imperfectione</p>
+            
+            <p xml:id="pgb1q39-d1e4076"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia non sequitur omnis pars con<lb ed="#L"/>tinui 
+              est finita deo <unclear>cognita</unclear> ergo aliqua pars est omnis pars deo cognita consequentia non 
+              <lb ed="#L"/>valet sic in proposito</p>
+            
+            <p xml:id="pgb1q39-d1e4087"><g ref="#pilcrow"/>Ad 4m dicitur quod non implicat infinitam <sic>magnem</sic> vel 
+              <lb ed="#L"/>multitudinem loco contineri sed tunc non esset ibi dare ultimam superficiem 
+              <lb ed="#L"/><g ref="#slash"/>2o posset dici quod deus simul posset duo <unclear>corpora</unclear> ponere et tria <choice><orig>ymmo</orig><reg>immo</reg></choice> infinita 
+              <lb ed="#L"/>quae omnia non plus <unclear>occuparent<!-- occuparet --></unclear> de loco quam primum corpus <name ref="#ThomasStrasbourg">thomas de argentina</name></p>
+            
+            <p xml:id="pgb1q39-d1e4117"><lb ed="#L"/><g ref="#pilcrow"/>Ad 5m negatur consequentia ad probationem dicitur quod tale infinitum secundum quod infinitum non 
+              <lb ed="#L"/>proprie haberet partem <g ref="#slash"/>2o dicitur quod non est inconveniens unum infinitum esse maius 
+              <lb ed="#L"/>alio secundum sic opinantes</p>
+            
+            <p xml:id="pgb1q39-d1e4129"><g ref="#pilcrow"/>Ad 6m dico quod quidam concedunt consequens et 
+              <lb ed="#L"/>quod mens tantum delectaretur in illo obiecto creato sicut in deo non tamen per hoc 
+              <lb ed="#L"/>beatificaretur <name ref="#RogerRosetus">rosetus <!-- is this an attribution to Roger Rosetus --></name> <g ref="#dot"/> <g ref="#slash"/>2o dicunt alii quod consequens est verum dicunt tamen quod 
+              <lb ed="#L"/>adhuc non tantum delectaretur in illo sicut in deo et per consequens non beatifi<lb ed="#L"/>caretur 
+              <name ref="#RichardKilvington">climeton</name> <g ref="#slash"/>3o dicit <name ref="#HugolinoOfOrvieto">hugolinus</name> quod tantum delectaretur quantum ad gradum 
+              <lb ed="#L"/>in specie sed non quantum ad perfectionem speciei in genere ita quod quantumcumque delectatio in<lb ed="#L"/>tenderetur 
+              respectu boni causati numquam deveniret ad perfectionem delectionis 
+              <lb ed="#L"/>causatae ab obiecto increato et sic numquam quietaretur ultimate in illo creato</p> 
+              
+            <p xml:id="pgb1q39-d1e4165"><lb ed="#L"/>Ad primum dicitur quod deformitas proprie non dicitur fieri cum nihil sit sed potius est de 
+              <lb ed="#L"/>fieri vel deficere a fieri vel facere</p>
+            
+            <p xml:id="pgb1q39-d1e4171"><g ref="#pilcrow"/>Ad 2m negatur antecedens ad probationem dicitur 
+              <lb ed="#L"/>quod causam impedire potest esse dupliciter <g ref="#slash"/>primo modo extrinsece ab alio 2o intrinsece 
+              <lb ed="#L"/>a se ipso modo ad propositionem dicitur quod causa quae non potest retrahi nec cessare 
+              <lb ed="#L"/>ab agere nec ab alio nec a se <choice><orig>neccessario</orig><reg>necessario</reg></choice> agit sed sic non est de deo quia 
+              <lb ed="#L"/>potest libere ab actum adextra cessare et hoc potest dici improprie et large impe<lb ed="#L"/>dire 
+              sed quia impediri magis proprie sonat impedimentum proveniens 
+              <lb ed="#L"/>ab extrinseco sic dicitur quod deus nullo modo est impedibilis quia quaecumque vult 
+              <lb ed="#L"/>facit</p>
+            
+            <p xml:id="pgb1q39-d1e4198"><g ref="#pilcrow"/>Ad 3m negatur antecedens de voluntate efficaci loquendo sed non de 
+              <lb ed="#L"/>voluntate signi et ad probationem dicitur quod intelligitur sic id est nullus fit salvatus 
+              <lb ed="#L"/>nisi deus velit ipsum salvum fieri hanc ponit <ref><name ref="#Augustine">augustinus</name> <title ref="#Enchiridion">enchiridion</title> circa 
+              <lb ed="#L"/>finem</ref> et <name ref="#Lombard">magister</name> in littera <g ref="#slash"/>2o potest dici quod ibi fit distributio pro 
+              <lb ed="#L"/>generibus singulorum non pro singulis generum</p>
+            
+            <p xml:id="pgb1q39-d1e4224"><g ref="#pilcrow"/>Ad 4m negatur antecedens de voluntate 
+              <lb ed="#L"/>efficaci quia si sic vellet illa non esse non fierent et ad probationem negatur 
+              <lb ed="#L"/>consequentia quia aliquando deus aliquid vult <g ref="#slash"/>voluntate signi quod tamen non vult voluntate 
+              <pb ed="#L" n="122v"/><lb ed="#L"/>beneplaciti ut patet de immolatione <name ref="#Isaac">ysaac</name> quam praecepit quae sibi non placuit 
+              <lb ed="#L"/>sed tantum manifestatio obiective fuit et <name ref="#Abraham">abraham</name> in volendo facere prae<lb ed="#L"/>ceptum 
+              deo placuit</p>
+            
+            <p xml:id="pgb1q39-d1e4248"><g ref="#pilcrow"/>Ad 5m dicitur quod stat deum velle voluntate si<lb ed="#L"/>gni 
+              seu praecepti <name ref="#Sortes">sortem</name> mereri et cum hoc <name ref="#Sortes">sortem</name> non mereri sed non stat 
+              <lb ed="#L"/>deum velle efficaciter <name ref="#Sortes">sortem</name> mereri et quod <name ref="#Sortes">sortes</name> non mereatur <g ref="#slash"/>et si obicitur 
+              <lb ed="#L"/>ex hoc sequitur quod <name ref="#Sortes">sortes</name> non libere meretur quia posito quod deus hoc vellit de 
+              <lb ed="#L"/>facto efficaciter quod <name ref="#Sortes">sortes</name> <c>a</c> mereatur tunc <choice><orig>neccessario</orig><reg>necessario</reg></choice> merebitur in <c>a</c><g ref="#dot"/> ergo non li<lb ed="#L"/>bere 
+              ergo non libere et sic non erit meritum quod repugnat dicto posito ergo</p>
+            
+            <p xml:id="pgb1q39-d1e4298"><lb ed="#L"/><g ref="#pilcrow"/>hic posset dici quod adhuc <name ref="#Sortes">sortes</name> mereri est contingens simpliciter sed ipsum mereri 
+              <lb ed="#L"/>sit consequens <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> ad deum velle ipsum efficaciter mereri quia sicut deum sic 
+              <lb ed="#L"/>efficaciter velle est contingens sic contingenter vult <name ref="#Sortes">sortes</name> efficaciter mereri libere 
+              <lb ed="#L"/>ibi ergo est <choice><orig>neccessarias</orig><reg>necessarias</reg></choice> consequentiae non consequentis</p>
+            </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+          <p xml:id="pgb1q39-d1e4328"><g ref="#pilcrow"/>voluntas quippe dei 
+            <lb ed="#L"/><g ref="#pilcrow"/>prima conclusio quod voluntas dei aeterna quae ipse est semper est efficax et <choice><orig>nichil</orig><reg>nihil</reg></choice> fit contra eam 
+            <lb ed="#L"/>multa tamen fiunt praeter eam et haec voluntas de homine semper impletur quocumque 
+            <lb ed="#L"/>se vertat</p>
+          
+          <p xml:id="pgb1q39-d1e4345"><g ref="#pilcrow"/>2a conclusio quod voluntas dei semper impletur aut a nobis cum bonum 
+            <lb ed="#L"/>et bene facimus aut de nobis cum contra voluntatem dei facimus quae est signi 
+            <lb ed="#L"/>et sic de homine semper implet deus suam voluntatem quia nihil facit homo de quo 
+            <lb ed="#L"/>non operetur deus quod vult</p>
+          
+          <p xml:id="pgb1q39-d1e4355"><g ref="#pilcrow"/>3a conclusio quod deus quaedam praecepti personaliter 
+            <lb ed="#L"/>in veteri lege et in nova quae ab illis quibus praecepit noluit fieri 
+            <lb ed="#L"/>ut <name ref="#Abraham">abrahae</name> immolationem filii et etiam in <choice><orig>euvangelio</orig><reg>evangelio</reg></choice> de sanatis ab eo 
+            <lb ed="#L"/>quibus praecepit me cui <unclear>dicerent</unclear> <g ref="#slash"/>et nota quod illa non volebat simpliciter 
+            <lb ed="#L"/>sed ad modum volentis se habuit propter aliquam significationem iustam forte ad 
+            <lb ed="#L"/><unclear cert="low">obiectiam</unclear> vel humilitatem ostendam et propriam laudem vitandam vel 
+            <lb ed="#L"/>non quaerendam et haec sufficiant pro praesenti lectione</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
