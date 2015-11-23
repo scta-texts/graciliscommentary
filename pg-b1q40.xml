@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 40</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 40</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-21" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q40">
+        <head xml:id="pgb1q40-Hd1e3498">Quaestio 40</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q40-d1e3501">
+          <cit>
+            <quote>Sciendum quodque.</quote>
+            <bibl>Lombardus, I, d. 48, xxx</bibl>
+          </cit> 
+          Haec est distinctio 48 et ultima huius primi in qua 
+          postquam <name ref="#Lombard">Magister</name> ostendit in praecedenti divinae voluntatis efficaciam hic 
+          ostendit voluntatis creatae ad divinam concordantiam seu consonantiam</p>
+        
+        <p xml:id="pgb1q40-d1e3516">Et dividitur in duas nam primo ostendit quod conformitas in volito non arguit 
+          bonam hominis voluntatem 2o ostendit quod bona dei voluntas quandoque 
+          impletur per voluntatem hominis depravatam seu peccato deformatam 2a ibi 
+          Illud quoque etc</p>
+        
+        <p xml:id="pgb1q40-d1e3528">prima dividitur in duas quia primo qualiter debemus 
+          voluntatem nostram conformare divinae ostendit 2o per <name ref="#Augustine">beatum augustinum</name> probat hoc 
+          et concludit 2a ibi unde <name ref="#Augustine">augustinus</name> etc</p>
+        
+        <p xml:id="pgb1q40-d1e3542">Et haec 2a pars dividitur in 4or 
+          nam primo circa illud ponit suam intentionem 2o instat per unam obiectionem 
+          3o illius subiungit solutionem 4o ostendit per hoc quod quis potest 
+          solvere multiplicem quaestionem 2a ibi sed adhuc opponitur 3a ibi ad <unclear>quodam</unclear> 
+          <unclear>respondentes</unclear>  4a ex quo solvitur et haec est divisio praesentis distinctionis etc</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+        <p xml:id="pgb1q40-d1e3565">Utrum stet rectum esse actum voluntatis creatae sine sui ad 
+          velle divinum conformitate</p> 
+        
+        <p xml:id="pgb1q40-d1e3573">quod non quia non stat intellectum creatum esse 
+          rectum et ipsum non esse conformem divino intellectui ergo actus voluntatis etc 
+          <pb ed="#L" n="123r"/>consequentia patet per simile quia intellectus divinus est regula cuiuslibet veri et recti alias intellectus 
+          assentiens opinioni falsae non erraret quod est falsum</p>
+        
+        <p xml:id="pgb1q40-d1e3583">2o nullus actus est 
+          rectus nisi sit divinae voluntati gratuite acceptus ergo consequentia patet quia 
+          quia nullus actus est iustus aut rectus et acceptus nisi sit conformits divino 
+          velle antecedens patet <ref><title ref="#rom">ad romanos</title> 9o</ref> <quote xml:id="pgb1q40-Qd1e3597" ana="#rom9_16">non est volentis neque currentis sed dei</quote> etc</p>
+        
+        <p xml:id="pgb1q40-d1e3601">3o non stat divinam voluntatem creatam habere rectitudinem sine sui 
+          ad divinum velle similitudine seu conformitate ergo consequentia patet cum actus voluntatis 
+          rectus praesupponat rectitudinem et includat et antecedens patet per dicta <name ref="#Augustine">augustini</name> 
+          <title ref="#ContrFaustum">contra faustum</title> dicente peccatum est dictum factum vel concupitum contra legem 
+          seu voluntatem dei confirmatur quia voluntas divina non esse creatae conformis 
+          ergo nec econverso tenet consequentia quia relativa aequiperantiae dicuntur ad <unclear>convertentiam</unclear></p>
+        
+        <p xml:id="pgb1q40-d1e3626">In oppositum 
+          arguitur quia licite quis potest velle quod deus non vult ergo stat actum etc 
+          patet consequentia et antecedens est <name ref="#Lombard">magistri</name> allegantis <ref><name ref="#Augustine">augustinum</name> <title ref="#Enchiridion">enchiridion</title></ref> ubi loquitur 
+          de bono filio licite volente patrem vivere quem deus vult mori 
+          immo quem scit deum non velle vivere</p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+        <p xml:id="pgb1q40-d1e3654">prima conclusio licet ad rectitudinem et 
+          certitudinem intellectus creati requiratur eius conformitas ad divinum intellectum 
+          respectu obiecti cogniti tamen ad rectitudinem voluntatis creatae non semper 
+          exigitur eius conformitas ad divinam voluntatem respectu obiecti voliti 
+          prima pars patet per <ref><name ref="#Augustine">augustinum</name> libro <title>de <!-- possibile immortalitate --> <sic>mortalitate</sic></title> capitulo 18o</ref> <quote xml:id="pgb1q40-Qd1e3678">si quid veritatem 
+          eam dicimus qua vera sunt omnia</quote> confirmatur ratione quia si non sequitur quod 
+          staret creatum intellectum vere et certitudinaliter aliquid scire et deum illud 
+          non scire consequens est impossibile cum intellectus divinus sit cuiuslibet veri idea et 
+          exemplar cognitivum et repraesentativum et patet consequentia quia si intellectus divinus 
+          et humanus idem obiectum intelligunt sub eadem ratione formali sequitur quod 
+          ibi est conformitas in obiecto cognito 2a pars patet per <name ref="#Augustine">augustinum</name> <title ref="#Enchiridion">enchiridion</title> 
+          ubi fuit allegatum de filio etc</p>
+        
+        <p xml:id="pgb1q40-d1e3712">primum corollarium sicut una rectitudo excedit 
+          aliam rectitudinem sic non quaelibet rectitudo habet eandem latitudinem 
+          prima patet quia rectitudo moralis excedit naturalem Item rectitudo immensa 
+          excedit quam <unclear>crealam[?]</unclear> Item libertas increata excedit angelicam et 
+          angelica humanam 2a pars probatur quia sequitur una rectitudo excedit aliam 
+          igitur non omnes habent eandem latitudinem perfectionaliter</p>
+        
+        <p xml:id="pgb1q40-d1e3732">2m corollarium stat 
+          aliquem moraliter deficere et hoc quod deus vult obiectaliter appetere 
+          patet per <name ref="#Lombard">magistrum</name> et <name ref="#Augustine">augustinum</name> in hac distinctione quia deus vult bona voluntate 
+          et bene quod homo vult mala voluntate et male</p>
+        
+        <p xml:id="pgb1q40-d1e3755">3m corollarium stat 
+          mentem creatam divino velle conformari materialiter seu obiectaliter 
+          et simul eidem deformari habitualiter vel sic stat aliquem divino velle 
+          conformari nec deformari actualiter primum patet nam <name ref="#Jews">iudaei</name> volebant 
+          mortem christi mala voluntate quam deus volebat bona patet sicut 
+          praecedens 2m patet quia stat aliquem habere gratiae seu caritatis habitum et non 
+          <pb ed="#L" n="123v"/>exire in actum meritorium</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        <p xml:id="pgb1q40-d1e3788">2a conclusio stat aliqua duo velle inter se deformari 
+          et illa simul uni et eidem conformari patet quia angelus <unclear>parsarum</unclear> volebat resistere 
+          angelo <name ref="#Daniel">danielis</name> promonentis liberationem populi israelitici 12 diebus 
+          ut patet libro <title ref="#dan">danielis</title> et tamen constat quod illae voluntates deo erant conformes 
+          Item <name ref="#Abraham">abraham</name> voluit immolare filium et angelus noluit immo prohibuit 
+          et utrumque habuit velle conforme voluntati divinae quia volebant illud quod 
+          deus volebat ipsas velle aliter peccasset quod non est dicendum</p>
+        
+        <p xml:id="pgb1q40-d1e3830">primum corollarium 
+          licet voluntatem viatricem agere deformiter recte rationi sit ipsam peccare 
+          et demereri tamen voluntatem velle conformiter rectae rationi non infert semper ipsam 
+          iustam esse seu mereri prima pars patet loquendo de viatoribus adultis tamen quia 
+          qui agit contra conscientiam seu rationis dictamen aedificat ad gehennam cum 
+          quia <unclear>recte</unclear> agere et mereri est se conformare rectae rationi secundum omnes circumstantias 
+          debitas et requisitas quas enumerat <ref><name ref="#Aristotle">philosophus</name> 2o <title ref="#Ethics">ethicorum</title></ref> ergo se deformans 
+          rectae rationi est male agere mortaliter et peccare 2a pars probatur quia 
+          existens in mortali peccato potest velle et optari cor contritum et sic de 
+          multis aliis circumstantiis et dictaminibus rectae rationis potest se aliquo modo 
+          conformare ergo non quaelibet conformitas voluntatis ad rectam rationem infert 
+          et multa bona opera recto dictamini conformia facere</p>
+        
+        <p xml:id="pgb1q40-d1e3890">2m corollarium licet 
+          nullus assensus ex puris naturalibus elicitus sit meritorius tamen verus assensus 
+          potest elici ex puris naturalibus prima pars patet quia non sumus sufficientes ex 
+          nobis tamquam ex nobis etc 2a pars patet ex praecedenti corollario quia si in mortali peccato 
+          potest haberi verus assensus et iudicium rectae rationi conforme sequitur a fortiori 
+          quod in puris naturalibus existens ratione utens non impeditus aliunde potest</p>
+        
+        <p xml:id="pgb1q40-d1e3910">3m corollarium aliqua voluntas recto dictamini conformata est iniusta et 
+          peccato deformata vel sic non quaelibet voluntas quae per culpam est deformis 
+          est cuilibet recto dictamini seu recto rationi deformis patet quia voluntas 
+          existens in mortali peccato potest esse conformis recto dictamini Item voluntas 
+          potest esse deformis absque hoc quod aliquod iudicium actualiter sit in intellectu</p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+        <p xml:id="pgb1q40-d1e3938">3a conclusio voluntatis humanae ad divinam moralis conformitas 
+          seu rectitudo consistit in velle vel nolle quod eam vult teneri 
+          velle vel nolle summa pulcritudo dico teneri propter consimilia quia 
+          dum homo facit opus consilii deus vult eum sic velle et tamen sine 
+          taliter velle potest esse voluntas conformis divinae quia non vult eam 
+          teneri velle quia tunc peccaret si non sic vellet quod est falsum patet conclusio 
+          per <ref><name ref="#Anselm">anselmum</name> libro <title ref="#DeSimilitudinibus">de similitudinibus</title> capitulo 3o</ref> ubi dicit quod non debemus semper velle 
+          quod deus vult sed hoc velle debemus quod deus vult nos velle 
+          Item patet per <name ref="#Augustine">augustinum</name> super psalmo 31 recti cordae sunt qui dirigunt cor 
+          secundum voluntatem dei</p>
+        
+        <p xml:id="pgb1q40-d1e3975">primum corollarium non semper requiritur ad creatae voluntatis 
+          moralem et iustam rectitudinem ipsam velle quod sine ambiguitate scit 
+          <pb ed="#L" n="124r"/>velle summam pulcritudinem et certitudinem contra <name ref="#ThomasStrasbourg">thomam de argentina</name> 
+          hoc patet quia amisso breviario scio sine dubio quod deus vult me 
+          eum perdere et tamen potest deus me non velle illud minor probatur quia licite 
+          possum me velle habere breviarium et non amisisse vel amitere 
+          ne omittam horas cum non habeam aliud</p>
+        
+        <p xml:id="pgb1q40-d1e4002">2m corollarium licet oppositum 
+          voliti divini a voluntate creata licite possit esse volitum tamen quodlibet 
+          recte et iuste volitum est divinae volitatis obiectum prima pars paret dicta 
+          2a pars probatur quia quidquid est iuste volitum a voluntate creata deus vult 
+          illam voluntatem velle sed quidquid deus vult iustam voluntatem 
+          velle est obiectum voluntatis divinae ergo</p>
+        
+        <p xml:id="pgb1q40-d1e4016">3m corollarium stat aliquem habere 
+          rectum velle et mereri et voluntatem suam divinae voluntati in aliquo 
+          deformari contra <name ref="#Rimini">gregorium</name> et <name ref="#HugolinoOfOrvieto">hugolinum</name> patet quia secundum omnes doctores quilibet 
+          tenetur velle quod deus eum vult velle sed in casu possibili deus vult 
+          aliquem velle oppositum illius quod ipse desu vult ergo</p>
+        
+        <p xml:id="pgb1q40-d1e4040">ex quibus patet responsio 
+          affirmativa ad quaestionem</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones responsiones</supplied></head>
+        
+        <p xml:id="pgb1q40-d1e4047">Contra primam conclusionem arguitur sic intellectus <sic>intellectus</sic> 
+          humanus et divinus infinitae sunt dissimiles et distantes ergo inter illos 
+          nulla est conformitas et per consequens conclusio falsa consequentia prima patet quia inter infinite 
+          dissimilia nulla videtur posse esse conformitas et 2a consequentia patet quia nullus 
+          obligatur ad simpliciter impossibile</p>
+        
+        <p xml:id="pgb1q40-d1e4062">2o contra primum corollarium diffinitio recti omnibus 
+          rectis aequaliter convenit ergo unum rectum non est magis rectum alio 
+          nec una rectitudo aliam excedit et sic corollarium falsum</p>
+        
+        <p xml:id="pgb1q40-d1e4070">3o una linea 
+          recta non est magis recta alia ergo nec unus intellectus est alio magis 
+          rectus et similiter de voluntate potest argui quia ut videtur rectitudo consistit 
+          in indivisibili</p>
+        
+        <p xml:id="pgb1q40-d1e4080">4o contra alia corollaria sequitur quod staret <name ref="#Sortes">sortem</name> peccare et tamen 
+          qualitercumque deus vult ipsum velle vult consequens est falsum quia tunc staret 
+          <name ref="#Sortes">sortem</name> peccare et deum velle <name ref="#Sortes">sortem</name> velle qualitercumque ipse vult et sic deus 
+          vult <name ref="#Sortes">sortem</name> peccare quod non est dicendum</p>
+        
+        <p xml:id="pgb1q40-d1e4102">5o si talis vult qualitercumque deus 
+          vult ipsum velle et vult ipsum non peccare ergo ipse non vult peccare 
+          et per consequens non peccat</p>
+        
+        <p xml:id="pgb1q40-d1e4110">6o nullus peccat conformando totaliter voluntatem suam 
+          divinae voluntati sed talis sic volens  qualitercumque deus vult ipsum velle 
+          conformat totaliter voluntatem suam divinae voluntati igitur</p>
+        
+        <p xml:id="pgb1q40-d1e4121">Contra 2am 
+          conclusionem nulla voluntas creata potest esse divinae voluntati conformis ergo etc 
+          antecedens probatur quia si sic sequitur conversio quod voluntas divina esset conformis creatae 
+          quia relativa aequiperantiae dicuntur ad convertentiam consequens est falsum ergo</p>
+        
+        <p xml:id="pgb1q40-d1e4131">2o aliquid est deo 
+          volitum cuius nullus potest sine culpa conformari ergo antecedens probatur quia christum 
+          occidi deus voluit et non potuit occidi nisi iniuste igitur volens 
+          ipsum occidi iniuste et male vult</p>
+        
+        <p xml:id="pgb1q40-d1e4141">3o contra 3m corollarium arguitur ex determinatione 
+          consilii ubi dicitur donum utrumque dei est et scire quid facere de<pb ed="#L" n="124v"/>beamus 
+          et diligere ut sciamus</p>
+        
+        <p xml:id="pgb1q40-d1e4150">4o per <ref><name ref="#Augustine">beatum augustinum</name> 3o <title ref="#DeLiberoArbitrio">de libero arbitrio</title> 
+          capitulo 39</ref> amisit homo scire quid rectum sit et ab hac poena non liberatur 
+          nisi ex dono dei ergo homo non potest sine caritate habere dictamen rectae 
+          rationi conforme</p>
+        
+        <p xml:id="pgb1q40-d1e4174">5o <ref>per eundem primo <title ref="#Retractationum">retractationum</title> capitulo 9o</ref> ad miseriam iuste 
+          dampnatorum pertinet ignorantia quam patitur omnis homo ergo ignorantia agendorum 
+          consequitur quodlibet peccatum mortale</p>
+        
+        <p xml:id="pgb1q40-d1e4188">contra 3am conclusionem arguitur quia si sic sequeretur quod 
+          aliquis tenentur velle se non esse in gratia consequens est falsum quia tunc voluntas 
+          teneretur velle sua rectitudine carere et patet consequentia de peccante et cadente 
+          a culpa in gratiam immo econverso a gratia in culpam quia scit quod deus vult 
+          ipsum privari gratia</p>
+        
+        <p xml:id="pgb1q40-d1e4207">2o si <name ref="#Sortes">sorti</name> reveletur quod debeat perpetuo dampnari 
+          sequitur quod ipse teneretur velle suam damnationem consequens est falsum quia tunc 
+          licite non posset orare deum pro sua salute nec ipsam optare et sic 
+          cogeretur desperare et peccare</p>
+        
+        <p xml:id="pgb1q40-d1e4226">3o deus vult quemlibet viatorem servare 
+          praecepta ex caritate sed peccans mortaliter pro mensura qua peccat 
+          vel est in mortali non potest sic illa servare nec tamen tenetur ad impossibile 
+          ergo non tenetur velle quod scit deum velle ipsum velle</p>
+        
+        <p xml:id="pgb1q40-d1e4236">4or contra primum corollarium 
+          arguitur per glosam super illo <title ref="#ps">psalmo</title>  non adhaesit mihi cor pravum cor 
+          pravum et distortum habet qui non vult quod deus vult Item ibidem 
+          voluntas dei est regula cui nos oportet conformari</p>
+        
+        <p xml:id="pgb1q40-d1e4254">5o contra 2m corollarium 
+          si sic sequeretur quod deus vellet opposita et contraria simul consequens est falsum et patet consequentia 
+          quia illud quod ego volo est divinae voluntatis obiectum sed quodlibet quod est obiectum 
+          divinae voluntatis deus vult ergo deus vult opposita quod est propositum </p>
+        
+        <p xml:id="pgb1q40-d1e4265">6o contra 3m corollarium sequitur quod aliquis teneretur velle contra legem dei aeternam 
+          consequens est falsum quia omnis sic volens peccat consequentia paret <ref><name ref="#Augustine">augustinum</name> <title ref="#ContraFaustum">contra faustum</title> 
+          22o</ref> dicentem lex aeterna et ratio vel voluntas divina ergo ratio est <name ref="#HugolinoOfOrvieto">hugolini</name></p>
+        
+        <p xml:id="pgb1q40-d1e4284">Ad primum dico quod duplex ex conformitas una naturalis seu proportio 
+          naturalis commensurationis alia habitudinis et <unclear>imitationis</unclear> de prima loquendo 
+          conceditur antecedens sed negatur consequentia de 2a negatur antecedens</p>
+        
+        <p xml:id="pgb1q40-d1e4297">Ad 2m negatur consequentia patet 
+          instantia de qualibus <unclear>susci?bus</unclear> intensionem et remissionem 2o posset dici 
+          antecedens negando quia sicut rationale magis conventi angelo quam homini sic etc</p>
+        
+        <p xml:id="pgb1q40-d1e4310">Ad confirmationem quod est 2m dicitur quod una linea recta non est magis recta quam 
+          alia ergo hic dicitur quod sicut linea recta aurea aliter est recta quam linea 
+          recta <unclear>ferrea</unclear> sic in proposito sed posset instari quia hoc non solvit rationem 
+          quia licet ibi non sit rectitudo aequaliter bona tamen ibi est aequalis rectitudo 
+          in esse rectitudinis</p>
+        
+        <p xml:id="pgb1q40-d1e4327">Ad hoc dicitur quod non est simile de lineis rectis 
+          et dictaminibus rectis quia quod linea sit recta hoc non habet ab 
+          extrinseco cui magis et magis possit conformari sicut dictamen 
+          rectum ideo non est simile ideo neganda est consequentia Item notat quod sicut ternarius indivisibiliter 
+          non est ternarius et similiter binarius tamen ternarius excedit binarium
+          <!-- added transcription from 116r that must be added to diplomatic -->
+          <pb ed="#L" n="116"/>
+          sic quaelibet rectitudo consistit in indivisibili tamen una excedit aliam et 
+          una est perfectio</p>
+            
+          <p><g ref="#pilcrow"/>Ad 4m conceditur consequens quia
+          
+          </p> 
+        
+        <!-- end of folio 116r insertion -->
+        
+        <p xml:id="pgb1q40-d1e4686"><pb ed="#L" n="126r"/>prima conclusio huius distinctionis 48 et ultime primi libri sententiarum quod voluntas hominis 
+          volentis hoc fieri quod deus vult aliquando est mala volentis aliud 
+          quam illud quandoque est bona exempla patent in textu</p>
+        
+        <p xml:id="pgb1q40-d1e4696">2a conclusio quod bona voluntas 
+          dei aliquando impletur per malam voluntatem hominis nam deus voluit bona 
+          voluntate mortem christi quam intulerunt ei <name ref="#Jews">iudaei</name> voluntate mala 3a 
+          conclusio quod tota trinitas voluit quod christus pateretur non tamen voluit ut eum 
+          <name ref="#Jews">iudaei</name> occiderent quia voluit poenam crucifixi sed non voluit <corr><del rend="strikethrough">penam</del></corr> 
+          <name ref="#Jews">iudaeorum</name> culpam nec tamen noluit quia si noluisset non fuisset</p>
+        
+        <p xml:id="pgb1q40-d1e4730">4a conclusio 
+          quod sanctis viris placuit quod christus moreretur intuitu nostrae redemptionis 
+          et impletionis divinae voluntatis sed eis non placuit intuitu eius cruciatus 
+          poenalitatis</p>
+        
+        <p xml:id="pgb1q40-d1e4745">5a conclusio quod homo potest passiones sanctorum velle et nolle 
+          bona voluntate nam passionem christi bona voluntate volebant qui ei 
+          compatiebantur et ex compassione nolebant qui vero volebant illam 
+          ut eius corona acceleraretur bona voluntate eam volebant etc</p>
+      
+      </div>  
+    </body>
+  </text>
+</TEI>
