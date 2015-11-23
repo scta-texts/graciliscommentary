@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 34</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.01">
+          <title>Librum I, Quaestio 34</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-01-30" who="#JW" status="draft" n="2015.01">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q34">
+        <head>Quaestio 34</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q34-d1e3130">
+          <cit>
+            <quote>Nunc vero de omnipotentia</quote>
+            <bibl>Lombardus, I, d. 42, xxx</bibl>
+          </cit> haec est distinctio 42 in quam postquam 
+        <name ref="#Lombard">magister</name> tractavit de dei scientia vera et infallibili nunc incipit 
+          tractare de eius potentia immensa et interminabili</p>
+        
+        <p xml:id="pgb1q34-d1e3147">Et dividitur in tres partes 
+          quia primo movet quaestionem et solvit eam 2o contra responsionem facit variam instantiam 
+          3o ponit quoddam notabile ex quo potest quilibet elicere veram solutionem 2a incipit 
+          ibi sed quaeritur 3a ibi hic diligenter</p>
+        
+        <p xml:id="pgb1q34-d1e3160">prima dividitur in tres secundum 
+          quod triplicem ponit obiectionem cuilibet iungendo responsionem 2a ibi sed alia sunt 
+          quaedam 3a ibi sunt etiam et alia</p>
+        
+        <p xml:id="pgb1q34-d1e3168">sequitur illa pars ex quibus quae dividitur 
+          in tres nam primo auctoritatibus arguit 2o ipsarum intellectum aperit 3o contra 
+          expositionem illarum obicit 2a ibi sed adhuc 3a ibi se <unclear>de</unclear> forte dices 
+          etc et haec est divisio etc</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><suppled>Rationes principales</suppled></head>
+        <p xml:id="pgb1q34-d1e3198"><pb ed="#L" n="101v"/><hi rend="dropCapThreeLines">U</hi>trum Ratio adaequata omnipotentiae sit immensa activitas divinae essentiae 
+          primo quod non arguitur quia si esset aliqua omnipotentia illa esset reducibilis ad actum 
+          sed hoc falsum quia tunc esset aliqua potentia passiva infnita sibi correspondens  
+          patet consequentia quia frustra est potentia quae non potest reduci ad actum</p>
+        
+        <p xml:id="pgb1q34-d1e3213">2o si aliquid esset 
+          omnipotens illud posset causare motum in instanti consequens est falsum patet consquentia quia omnipotentia 
+          nihil posset resistere sed successio in motu causatur ex resistentia ergo</p>
+        
+        <p xml:id="pgb1q34-d1e3227">3o deus 
+          non est omnipotens respectu cuiuslibet possibilis ergo antecedens probatur tum quia non potest mentiri ergo</p>
+        
+        <p xml:id="pgb1q34-d1e3233">3o deus 
+          non est omnipotens respectu cuiuslibet possibilis ergo antecedens probatur tum quia non potest mentiri nec peccare 
+          tum quia non <corr><add place="aboveLine">est</add></corr> <unclear>omnis</unclear> potentiae potentia cum divina persona non sit potens super aliam nec 
+          essentia super personam tum etiam quia non potest vicem cuiuslibet causae 2ae immediate supplere</p>
+        
+        <p xml:id="pgb1q34-d1e3250">In 
+          oppositum est <name ref="#Lombard">magister</name> allegans <name ref="#Augustine">augustinum</name> in hac distinctione</p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+        <p xml:id="pgb1q34-d1e3262">prima conclusio licet stet aliquem 
+          esse omnipotentem simpliciter et non habere inse omnem potentiam formaliter tamen necesse est 
+          primum omnium productorem unam tantum habere potentiam secundum virtutuem gradum et vigorem 
+          prima pars conclusionis probatur quia deus est omnipotens et non habet omnem potentiam in se 
+          formaliter ergo conclusio vera  prima pars antecedentis patet 2a probatur quia aliquae potentiae dicunt imperfectionem 
+          ergo non sunt ponendae in deo formaliter sed solum virtualiter antecedens patet 
+          de potentiis passivus Item probatur antecedens de activis potentiis creaturarum 
+          quae habent imperfectionem annexam et limitationem et per consequens non debent poni 
+          in deo formaliter sed virtualiter solum sicut est potentia currendi comendi loquendi 
+          et similes potentia vero volendi et intelligendi sunt in deo formaliter et sunt deus 
+          quia sunt et dicunt perfectionem simpliciter</p>
+        
+        <p xml:id="pgb1q34-d1e3301">2a pars conclusionis probatur per <ref><name ref="#Dionysius">dyonisium</name> <title ref="#deDivinisNominibus">de divinis 
+          nominibus</title> capitulo ultimo</ref> dicentem <quote>virtus divina est aqua  per quam in qua et ad quam sunt 
+          omnia</quote>  et concludit <quote>oportet nos laudare divinam virtutem unam et omnem causam</quote> Item 
+          <ref>capitulo 10</ref> dicit <quote>divina virtus continet et collocat omnia ordinando firmat 
+          conservando et ex se quasi ex radice omnia producit et ad se ipsam omnia 
+          <unclear>coinltit</unclear></quote> haec <name ref="#Dionysius">dyonisius</name> ibi ex quibus verbis satis patet 2a pars huius conclusionis </p>
+        
+        <p xml:id="pgb1q34-d1e3344">primum corollarium nullus divinam omnipotentiam unde et sufficienter explicat per posse 
+          facere quidquid fieri non implicat patet quia peccatum est factibile et tamen deus non potest 
+          illud facere ergo</p>
+        
+        <p xml:id="pgb1q34-d1e3353">2m corollarium quanta necessitate creatura est possibilis tanta necessitate 
+          ab omnipotente est factibilis patet quia sequitur nulla creatura potest esse ergo nulla potentia 
+          potest facere aliquam creaturam esse ergo omnipotentia divina non potest creatura facere esse</p>
+        
+        <p xml:id="pgb1q34-d1e3373">3m corollarium stat <sic>stat</sic> aliquem esse omnipotentem et non esse ad aliquod producibile 
+          potentem patet quia nisi sic filius non esset opus cum se non possit producere generative 
+          similiter nec spiritus sanctus</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        <p xml:id="pgb1q34-d1e3385">2a conclusio licet per immensitatem infinitatem et per infinitatem 
+          immensam potentiae respectu cuiuslibet existentis vel producibilis non imperfectionem 
+          dicentis sufficienter inferatur ratio supremi entis tamen nullus effectus producibilis 
+          productus vel creatus est vel esse potest divinae omnipotentiae terminus adaequatus  
+          prima pars probatur nam non stat aliquod ens esse tale et ipsum non esse deum omnipotentem 
+          ergo antecedens probatur <ref><title ref="#sap">sapientiae</title> 7o</ref> quae <quote ana="#sap7_27">cum sit una omnia potest</quote> Item <ref><title ref="#lc">luce</title> <sic>2o<!-- actually c. 1 --></sic></ref>
+          <quote ana="#lc1_37">non est impossibile apud deum omne verbum</quote> Item patet per <ref><name ref="#Dionysius">dyonisium</name> <title ref="#deDivinisNominibus">de divinis nominibus</title> 
+          <pb ed="#L" n="102r"/>capitulo 8o</ref> dicentem virtutem dei esse infinitam quia potest producere infinita Item paret <name ref="#AlanusDeInsulis">alanum</name> 
+          <title ref="#DeMaximisTheologiae">de maximis theologiae</title> regula 51 ubi dicit <quote>solus ille est omnipotens qui potest omnia quae 
+          posse est aliquid posse</quote> Item nota quod de ratione omnipotentiae est quod sit libera ex quo patet 
+          quod plus est dicere omnipotens quam infinita potentia unde si esset infinita potentia et non libera 
+          illa esset non omnipotentia</p>
+        
+        <p xml:id="pgb1q34-d1e3468">2a pars conclusionis probatur quia si sic sequitur quod tali inesse producto 
+        deus non posset aliquid producere nisi illud destrueret in toto vel in parte 
+        consequens videtur inconveniens patet consequentia quia cum ille effectus adaequaretur omnipotentiae 
+        divinae omnes contineret perfectiones produci possibiles vel si non omnes contineret sequitur 
+        quod non esset adaequatus terminus re quod repugnat posito ergo tota conclusio vera</p>
+        
+        <p xml:id="pgb1q34-d1e3494">primum corollarium 
+          in <unclear>linea</unclear> seu latitudine producibilium necesse est aliquid esse inproductum</p>
+        
+        <p xml:id="pgb1q34-d1e3509">2m corollarium <unclear>linea</unclear> 
+          imagibilis producibilium perfectionum versus sursum est infinita non habens terminum 
+          patet quia aliter daretur suprema perfectio producibilis adextra et sic daretur terminus adaequatus 
+          omnipotentiae quod est improbatum supra</p>
+        
+        <p xml:id="pgb1q34-d1e3534">sub corollario sequitur ex productione cuiuslibet effectus quantumcumque 
+          parvi sufficienter infertur immensitas principii primi patet quia ex qualibus 
+          tali productione potest argui independentia eius primi</p>
+        
+        <p xml:id="pgb1q34-d1e3548">3m corollarium quod haec consequentia 
+          non est bona explicatio omnipotentiae quidquid fieri ab aliquo omnipotente non implicat 
+          contradictionem deus potest facere et solum tale contra <ref><name ref="#HugolinoOfOrvieto">hugolinum</name> distinctione 42 primi articulo primo</ref> 
+          patet quia large loquendo secundum eum filius dei potest fieri <corr><del>aliquo modo</del></corr> ab omnipotente aliquo 
+          scilicet a patre et non a spiritu sancto nec a se ipso Item sic dicere est facere <unclear cert="high">circulationem</unclear> 
+          et dicere quod ideo est omnipotens quia est omnipotens</p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+        <p xml:id="pgb1q34-d1e3575">3a conclusio sicut immensitas divina est 
+          potens efficere omnem dependentem possibilem facturam sic activitas immensa 
+          potest producere quidquid potest creatura aequivalenter secundum speciem et mensuram 
+          prima patet per dicta 2a pars patet quia causa 2a non potest nisi in virtute primae Item prima 
+          causa potest causative producere independenter et aeque faciliter in instanti sicut 
+          in tempore quod non potest creatura patet etiam ex dictis <name ref="#Dionysius">dyonisii</name> supra positis </p>
+        
+        <p xml:id="pgb1q34-d1e3621">primum corollarium quidquid est perfectionis a causa 2a possibile produci 5o ab omnipotente modo 
+          in infinitum perfectiori potest effici patet quia deus modo independenti potest quod non potest 
+          causa aliqua 2a</p>
+        
+        <p xml:id="pgb1q34-d1e3637">2m corollarium unicum posse immensum et omnipotens est omnis potentia 
+          perfecta super aequivalenter aequivalens patet quia potest quidquid alia potentia potest et quamlibet 
+          excedit secundum speciem et mensuram actionis</p>
+        
+        <p xml:id="pgb1q34-d1e3645">3m corollarium sicut sine omnipotentis 
+          activitate nihil potest produci sic ab eo omnis ratio productiva causae 2ae potest immediate 
+          suppleri patet quia est omnis potentia potens aequivalenter et praevalenter 
+          ex dictis patet pars affirmativa <unclear cert="high">conclusionis</unclear></p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+        <p xml:id="pgb1q34-d1e3657">contra primam conclusionem arguitur prima ratione facta 
+          in <unclear cert="high">pede</unclear> <unclear cert="high">conclusionis</unclear> quia talis potentia ad actum non est <unclear>reproducibilis</unclear> ergo tenet consequentia per 
+          <name ref="#Aristotle">philosophum</name> et antecedens probatur quia tunc posset dari terminus adaequatus ei contra 2am conclusionem</p>
+        
+        <p xml:id="pgb1q34-d1e3677">2o quia motus posset fieri in instanti quod implicat quia de ratione motus est quod habeat 
+          partem et partibilem successionem quia acquiritur pars post partem</p>
+        
+        <p xml:id="pgb1q34-d1e3690">3o sequitur quod deus 
+          haberet potentiam peccandi saltim aequivalenter consequens est falsum et patet consequentia cum illa 
+          <pb ed="#L" n="103r"/>consequentia et ad probationem dicitur quod posse peccare non est posse nec efficere si sic deficere
+          Item peccare dicit imperfectionem ideo non cadit sub obiecto omnipotente</p>
+        
+        <p xml:id="pgb1q34-d1e3703">Ad 
+          primam contra 2am conclusionem negatur consequentia et ad probationem dicitur quod supposito quod creatura posset 
+          producere infinita non tamen propria virtute et independenter a nullo extrinseco 
+          actuata sicut deus</p>
+        
+        <p xml:id="pgb1q34-d1e3720">Ad 2m posset negari consequentia quia in hiis quae implicant 
+          contradictionem <unclear>convenientius</unclear> dicitur quod non possunt fieri quam deus non potest illa facere 
+          nec tamen propter hoc debet dici aliquod verbum impossibile apud deum quia impossibile non dicitur 
+          verbum cum proprie dici vel intelligi non possit ideo impossibilia non repugnant 
+          nec infringunt veritatem illius dicti</p>
+        
+        <p xml:id="pgb1q34-d1e3735">Ad aliud dicitur quod sumendo fieri 
+          pro effective effici sic spiritus sanctus nec filius possunt fieri licet producantur</p>
+        
+        <p xml:id="pgb1q34-d1e3741">2o 
+          posset dici secundum <name ref="#Aquinas">thomam</name> et <name ref="#GilesOfRome">aegidium nostrum</name> quod spirare non comprehenditur sub 
+          omnipotentia simpliciter et absolute sed sub omnipotentia patris et filii et non spiritus sancti 
+          propter repugnantiam habitudinis terminorum vel praedicati ad subiectum</p>
+        
+        <p xml:id="pgb1q34-d1e3757">Ad 3m negatur consequentia quia 
+          dato quod illa multitudo magnitudo se qualitas sit aliquo modo infinita tamen 
+          quia est limitata et dependens ideo simpliciter non est infinita et ergo non adaequat 
+          potentiam divinam 2o pro materia argumenti dicitur quod licet deus posset producere infinita non 
+          tamen potest producere infinitum numerum prima patet quia deus potest causare immediate 
+          prima horae unum angelum et in 2a proportionali unum alium et sic consequenter eos 
+          conservando 3o dicitur quod si foret aliquod corpus infinitum secundum omnem dimensionem 
+          non posset moveri motu recto sed circulari nec oportet in motu 
+          locali mutare locum 4o dicitur quod deus posset ponere corpus in eodem 
+          loco cum priori immo infinita talia posset deus ponere in eodem 
+          loco</p>
+        
+        <p xml:id="pgb1q34-d1e3801">Ad primum contra 3am conclusionem dicitur quod utraque pars adversis tenetur et rationes 
+          utriusque partis solvuntur Ideo qui vellet tenere quod sic posset dicere 
+          ad rationem prima opinionis oppositae negando consequentia sic intelligendo consequens quod 
+          deus conservaret omnes homines et vellet numquam fuisset tempus quia secundum opinionem 
+          <name ref="#JamesViterbo">iacobi de viterbio</name> quaelibet res creata est finis temporalis morosus fluxus 
+          alio modo posset intelligi consequens nullum hominem destruendo id est vellet nullum 
+          hominem esse vel fuisse et sic consequentia et consequens possunt concedi</p>
+        
+        <p xml:id="pgb1q34-d1e3821">Ad 2m consequentia 
+          negatur quia sic posset dici de articulo de futuro quia aequaliter credit ecclesia praeteritum 
+          et futurum et aequaliter praecipit credendum sic quod de nullo habemus dubitare</p>
+        
+        <p xml:id="pgb1q34-d1e3832">Ad 3m potest negari consequentia 2o dicitur quod concessio consequente non sequitur 
+          aliquod impossibile</p>
+        
+        <p xml:id="pgb1q34-d1e3840">Ad 4m de <name ref="#Abel">abel</name> dicitur quod sicut deus posset facere quod ille qui 
+          fuit pater meus potest velle quod numquam fuerit pater meus sic potest velle quod unus 
+          qui numquam fuit pater meus esset pater meus</p>
+        
+        <p xml:id="pgb1q34-d1e3851">Ad primam alterius partis diceretur 
+          quod talis necessaris praeteritionis est ex parte lapsus temporis Ad 2m negatur antecedens 
+          quia illa copulativa implicat Ad 3m negatur consequentia</p> 
+          </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+        <p xml:id="pgb1q34-d1e3869">Nunc vero de omnipotentia 
+        prima conclusio quod deus trinitas est opus quia potest omnia quae possibilia sunt 
+        <pb ed="#L" n="103v"/>posse vel quae convenit ei posse</p>
+        
+        <p xml:id="pgb1q34-d1e3880">2a conclusio quod deus potest quaedam per se facere ut 
+          creare caelum quaedam potest facere non in se sed in creaturis ut motum quaedam 
+          dicitur non posse ut peccare pati falli et mori quia huius posse non est 
+          potentiae sed infirmitatis deus enim omnia potest facere sed non facit nisi quod convenit 
+          veritati eius et iustitiae</p>
+        
+        <p xml:id="pgb1q34-d1e3892">3a conclusio quod deus a se et per se omnia potest 
+          creatura vero nec a se nec per se potest aliquid filius dei per se potest sed non a se 
+          quia non habet a se quod possit omnia sed a patre a quo habet esse simili et spiritus sanctus</p>
+        
+        <p xml:id="pgb1q34-d1e3903">4a conclusio quod deus potest facere quidquid vult fieri et potest quidquid vult se posse et 
+          econverso vult se posse quidquid potest non tamen omne quod vult se posse facere 
+          vult fieri quia tunc omne quod facere posset fieret cum voluntas eius sit omnipotens nec 
+          aliquid ei resistere possit</p>
+        
+        <p xml:id="pgb1q34-d1e3914">Et notandum est  non ideo dicitur deus omnipotens quia 
+          <sic>quia</sic> potest quidquid vult facere quia tunc quilibet beatus esset omnipotens quia potest facere 
+          quidquid vult fieri et quidquid vult se posse</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
