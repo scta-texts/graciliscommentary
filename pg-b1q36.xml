@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 36</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 36</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-07" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q36">
+        <head>Quaestio 36</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q36-d1e3237">
+          <cit>
+            <quote>Nunc restat illud</quote>
+          </cit> 
+          etc. Haec est distinctio 44 In qua postquam
+          determinavit <name ref="#Lombard">magister</name> de dei potentia quantum ad productorum quantitatem 
+          hic tractat de huiusmodi potentia per respectum ad ipsorum bonitatem</p>
+        
+        <p xml:id="pgb1q36-d1e3249">Et 
+          dividitur in tres quia primo quaerit utrum deus posset facere res in gradu perfectiori 
+          2o utrum modo meliori 3o utrum omnem quod potuit semper possit 
+          statu uniformi 2a ibi post haec considerandum 3a ibi praeterea quaeri solet 
+          <pb ed="#L" n="107r"/>prima dividitur in duas quia primo errorem quorumdam recitat et eundem recitat 
+          2o veritatem determinat et approbat ibi verum hic ab eis</p>
+        
+        <p xml:id="pgb1q36-d1e3265">3a pars principalis scilicet 
+          praeterea quaeri solet dividitur in tres nam primo circa illam quaestionem tangit quemdam 
+          falsam opinionem 2o de ea ponit suam intentionem 3o confirmat suam responsionem 
+          2a incipit ibi Ad quod dicimus 3a ibi fateamur etc</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+        <p xml:id="pgb1q36-d1e3275"><hi rend="threeLineDropCap">U</hi>trum omnipotens quodlibet posse ab eo dependens productive possit 
+          meliorare seu perfectius facere entitative seu augere perfective 
+          quod non quia quodlibet a deo dependens est infinite perfectum ergo nullum tale 
+          potest perfectius fieri entitative seu essentialiter patet consequentia et antecedens probatur quia quodlibet individuum 
+          speciei superioris infinite excedit perfectionem speciei inferioris individui quia ipsum 
+          excedit per totam latitudinem specierum producibilium <sic>interse</sic> et aliam speciem 
+          sed illae producibiles sunt infinitae igitur quodlibet sic excedens est infinite perfectum</p>
+        
+        <p xml:id="pgb1q36-d1e3298">2o si aliquod creatum posset meliorari entitative sequitur quod illud posset esse 
+          propinquius summo <corr><del>f</del></corr> enti independenti quam prius consequens est falsum quia quodlibet 
+          dependens infinite distat a deo perfectionaliter ergo nullum creatum est sibi propinquius 
+          alio consequentia patet quia penes appropinquationem ad summum ens videtur attendi 
+          rerum perfectio</p>
+        
+        <p xml:id="pgb1q36-d1e3321">3o si deus perficeret hominem essentialiter aut homo maneret 
+          in specie humana aut non non primum quia quaelibet perfecto specifica consistit in indivisibili 
+          sicut species numeri cuiuslibet si detur 2m sequitur quod homo non est <unclear>melio?cus</unclear> 
+          perfectionaliter seu essentialiter patet consequentia quia ex quo <sic>desiit</sic> esset in specie humana 
+          desiit esse homo ergo quaestio falsa</p>
+        
+        <p xml:id="pgb1q36-d1e3344">In oppositum est <name ref="#Lombard">magister</name> in praesenti distinctione 
+          et probatur ratione <unclear>quoniam</unclear> cuilibet perfectioni finitae deus potest aliquem gradum 
+          perfectionis addere sed omne a deo dependens est perfectionis finitae ego quaestio vera </p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+        <p xml:id="pgb1q36-d1e3359">prima conclusio quaelibet species producibiles adextra sicut est perfectionis limitatae sic nulla 
+          species excedit aliam intrinsece quidditative infinitae</p>
+        
+        <p xml:id="pgb1q36-d1e3366">prima pars probatur quia si sic 
+          sequeretur quod infinitas perfectionis simpliciter denominationes contineret consequens est falsum  
+          quia tunc esset deus et patet consequentia quia si detur oppositum consequentis sequitur quod non 
+          est intrinsece perfecta simpliciter et infinite quod est oppositum antecedentis</p>
+        
+        <p xml:id="pgb1q36-d1e3378">confirmatur quia sicut 
+          unum infinitum <unclear>intensive</unclear> non excedit aliud infinitum intensive sic unum 
+          infinitum perfectionaliter non excedit aliud infinitum perfectionaliter</p>
+        
+        <p xml:id="pgb1q36-d1e3390">2a pars probatur quia 
+          quidditas cuiuslibet speciei est finita ergo tantum finite aliam excedit patet consequentia 
+          quoniam excessus non est maior excedente et antecedens patet quia quidditas rei 
+          non est maior quam sit eius intrinseca perfectio</p>
+        
+        <p xml:id="pgb1q36-d1e3400">primum corollarium licet nulla species aliam 
+          excedat infinite simpliciter tamen summum necesse quodlibet creatum excedit immense 
+          aequaliter patet quia se tota excedit quidquid excedit cum sit perfectio 
+          super simplex et indivisibilis ergo</p>
+        
+        <p xml:id="pgb1q36-d1e3424">2m corollarium licet nullae duae species sint 
+          aeque perfectae simpliciter tamen summum necesse quamlibet speciem creatam excedit immense 
+          aequaliter vel sic licet homo perfectior sit asino tamen aequaliter exceduntur 
+          a deo patet primum</p>
+        
+        <p xml:id="pgb1q36-d1e3441">3m corollarium si species aliqua contineret individua 
+          <pb ed="#L" n="107v"/>infinita non propter hoc esset tunc plus quam nunc perfecta vel <unclear>sit</unclear> istud corollarium 3m 
+          quod quaelibet species latitudinis adextra producibilis est cuilibet aliquo modo alteri comparabilis 
+          patet quia quodlibet finitum alteri finito est aliquo modo comparabile aliud corollarium quam repugnat 
+          duas species imperfectione similiter aequari tam repugnat illas in aliqua specifica perfectione 
+          <corr><del>e</del>comparari</corr> patet quia quaecumque comparantur oportet quod comparentur in aliqua <sic>in aliqua</sic> denominatione 
+          perfectionis simpliciter <unclear cert="high">commune</unclear> sit utrique communis et de utroque <unclear>comparatorum</unclear> <unclear>p?abilis</unclear> 
+          quia nigredo non potest comparari albedini in nigredine sed in colore secundum 
+          quod unum illorum est intensior color quam aliud vel remissior seu perfectior 
+          color</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        <p xml:id="pgb1q36-d1e3499">2a conclusio licet de facto aliquem duae species sint immediate tamen inter quaslibet 
+          duas species sunt producibiles infinite prima patet quia inter humanam et angelicam 
+          nulla est de facto media 2a pars probatur quoniam excessus unius speciei super 
+          aliam est divisibilis et per consequens secundum quantitatem continaum imaginabilis et sic secundum puncta 
+          huius quantitatis species sunt producibiles perfectiores et minus perfecte et cum huius 
+          puncta sint infinita sequitur propositum patet antecedens quia indivisibile non facit maius 
+          nec perfectius</p>
+        
+        <p xml:id="pgb1q36-d1e3524">primum corollarium quod non plures species producibiles sunt inter deum et 
+          non gradum quam sint producibiles inter hominem et angelum patet quia utrobique infinite</p>
+        
+        <p xml:id="pgb1q36-d1e3533">2m corollarium sicut perfectio specifica seu entitatis creatae non attenditur praecise 
+          penes replicationem unitatis divinae sic non universaliter perfectiones specierum 
+          se habent aut formantur sicut species numerorum prima patet quia sequeretur quod angelus haberet 
+          maiorem perfectionem quam intelligere et velle consequens est falsum quia nulla maior 
+          est revelata in <corr><del rend="strikethrough">spturis</del><add place="inLine">scripturis</add></corr> et consequentia patet causa homo illas perfectiones habeat 
+          quia homo potest intelligere et velle 2a pars probatur quia inter binarium et trinarium 
+          nulla media species est producibilis sicut inter perfectiones specificas</p>
+        
+        <p xml:id="pgb1q36-d1e3558">3m corollarium 
+          sicut quaelibet perfectio specifica consistit in indivisibili simpliciter realiter sic nulla 
+          species superior continet inferiorem formaliter prima patet quia talis perfectio est <sic>punctalis</sic> 
+          et sicut unitate addita vel remota variatur species numeri sic secundum <ref><name ref="#Aristotle">philosophum</name> 8o 
+          <title ref="#Metaphysics">metaphysicae</title></ref> addito quocumque gradu essentiali alicui speciei mutatur eius diffinitio 
+          et perfectio 2a pars probatur quia si sic sequeretur quod homo esset formaliter asinus consequentia patet 
+          quia secundum <ref><name ref="#Aristotle">philosophum</name> 7o <title ref="#Metaphysics">metaphysicae</title></ref> <quote>partes formales praedicantur in recto de diffinito</quote> 
+          Item sequeretur quod asinus esset formaliter iustus et iustitia patet supposito quod tota 
+          perfectio substantiae sit supra totam perfectionem accidentis secundum quosdam</p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+        <p xml:id="pgb1q36-d1e3601">3a conclusio licet 
+          nullum creatum manens infra limites suae speciei possit a deo meliorari 
+          intrinsece essentialiter tamen quolibet creato dato deus potest illud meliorare et aliquod 
+          illo melius producere perfectionaliter prima pars probatur quia per additionem cuiuslibet gradus 
+          essetnialis mutatur perfectio specifica antecedens paret dicta cum talis perfectio consistat in 
+          indivisibili propter hoc <ref><name ref="#Aristotle">philosophus</name> 8o <title ref="#Metaphysics">metaphysicae</title></ref> comparat numero diffinitionem seu perectionem 
+          rei quia sicut unitate data vel remota ab aliquo numero variatur numeri 
+          species sic addito vel remoto quocumque gradu essentiali mutatur species 
+          rei seu diffinitio 2a patet per dicta quia qualibet perfectione finita deus perfectiorem 
+          producere potest igitur</p>
+        
+        <p xml:id="pgb1q36-d1e3631">primum corollarium licet ab omnipotenti posse non sit factibile supremum 
+          <pb ed="#L" n="108r"/>creabile tamen infinitum creabile ab ipso est factibile patet utraque pars per <ref><name ref="#JamesViterbo">iacobum 
+          de viterbio</name> primo quolibet quaestione 2a articulo primo</ref> ubi innuit lineam perfectionalem 
+          universi per purum actuale secundum <unclear>sursum</unclear> et purum potentiale secundum deorsum terminari 
+          et quemlibet gradum intermedium mixtum <unclear>ex</unclear> actuali et potentiali ex quo patet quod 
+          quilibet gradus inter primum et infinitum magis debet dici potentialis quam actualis quia 
+          quia plus appropinquat ad purum potentiale quam ad purum actuale ad deum 
+          qui est purus actus</p>
+        
+        <p xml:id="pgb1q36-d1e3673">2m corollarium licet non stet duas species esset aeque perfectas 
+          essentialiter tamen non repugnat duas species esse aequales accidentaliter prima pars patet 
+          quia illae duo species non plus different quam duo individua eiusdem speciei 
+          et sic non essent duae species sed una 2a pars probatur quia albedo potest esse eiusdem 
+          intensionis et extentionis sicut nigredo et per consequens aequales quo ad hoc 
+          ex dictis patet in quo sensu quaestio potest concedi et in quo sensu negari</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+          
+        <p xml:id="pgb1q36-d1e3690">Contra primam conclusionem arguitur quilibet gradus perfectionis simpliciter citra immensum 
+          est creaturae communicabilis per participationem ergo aliqua species producibilis est 
+          vel potest esse infinitae perfectionis tenet consequentia et antecedens probatur quia nullus gradus 
+          repugnat creaturae nec unus repugnat alteri cum omnes simul concurrant 
+          in divinam essentiam ergo nec est repugnantia ex parte communicationis quia omnes communicantur 
+          adintra per plenitudinem</p>
+        
+        <p xml:id="pgb1q36-d1e3707">2o deus aequae perfecte agit adextra sicut adintra 
+          ergo <unclear>plus</unclear> sibi correspondere adextra aliquid adaequatum suae potentiae patet consequentia quia 
+          adintra sic agit quod habet termen adaequatum</p>
+        
+        <p xml:id="pgb1q36-d1e3718">3o incipiat deus acquirere <unclear>lineam</unclear> 
+          perfectionis simpliciter ita quod in prima parte proportionali horae acquirat tantam perfectionem 
+          et in 2a etc tunc sequitur quod in fine horae erit linea totaliter acquisita</p>
+        
+        <p xml:id="pgb1q36-d1e3729">4o 
+          contra primum corollarium si sic sequitur quod deus non posset excedere creaturam perfectionaliter consequens 
+          est falsum patet consequentia quia minus excessus non ponit distantiam nec facit maius 
+          sed per corollarium indivisibiliter excedit ergo minime</p>
+        
+        <p xml:id="pgb1q36-d1e3739">5o contra ultimum primam necesse 
+          infinitis modis est mutabile a creaturis ergo duae species imperfectione possunt 
+          aequari tenet consequentia et antecedens probatur quia sicut deus est mutabilis secundum lineam 
+          imaginariam ascendentem et descendentem adversis speciebus ita etiam est mutabilis 
+          secundum lineam transversalem quae aequaliter distat ab ipso secundum omnes partes suas 
+          confirmatur per <ref><name ref="#AlanusDeInsulis">alanum</name> <title ref="#DeMaximisTheologiae">de maximis theologiae</title> regula 8a</ref> dicentem <quote>deus est sphaera intelligibilis 
+          cuius centrum ubique circumferentia vero nusquam</quote></p>
+        
+        <p xml:id="pgb1q36-d1e3784">contra 2am conclusionem infinitas mediorum 
+          simul non communicantium identitate speciei vel generis <corr><del rend="strikethrough">non</del></corr> tollit 
+          <corr><del rend="strikethrough/expunctuated">in</del>finitatem</corr> <unclear>specificam</unclear> extremorum ergo implicat inter duas species productas 
+          producibiles esse infinitas consequentia tenet quia ex opposito consequentis infertur oppositum antecedentis 
+          et antecedens probatur quia implicat inter duos terminos finitos <unclear>specifice</unclear> esse infinita media 
+          specifice distincta</p>
+        
+        <p xml:id="pgb1q36-d1e3819">2o contra 2m corollarium est <ref><name ref="#Aristotle">philosophus</name> 8 <title ref="#Metaphysics">metaphysicae</title></ref> ubi dicit quod species sunt 
+          sicut numeri ergo perfectiones <unclear>specificae <!-- compare with above use --></unclear> formantur ad modum numerorum Item <name ref="#Augustine">augustinus</name> 
+          <quote><unclear>amove</unclear> a rebus numeros et nihil sunt<!-- can't find this --></quote></p>
+        
+        <p xml:id="pgb1q36-d1e3855">3o contra idem quia si perfectiones specificae non 
+          attendentur penes replicationem unitatis divinae hoc esset quia rationes constitutivae 
+          non possunt communicari aliis consequens est falsum quia rationale quae est ratio constitutiva 
+          <pb ed="#L" n="108v"/>hominis communicatur angelis</p>
+        
+        <p xml:id="pgb1q36-d1e3866">4o contra 3m corollarium linea perfectionalis est divisibilis ergo componitur 
+          ex divisibilibus ergo quaelibet species est divisibilis quantitate ergo non consistit in indivisibili 
+          immo plura puncta correspondent ei ex quo habet divisibilem quantitatem</p>
+        
+        <p xml:id="pgb1q36-d1e3880">5o contra idem quia illa species est aliquanta perfectio ergo est quantitatis perfectionis ergo habet latitudinem 
+          intensivam et consequenter ei correspondent plura puncta in linea perfectionis simplici</p>
+        
+        <p xml:id="pgb1q36-d1e3887">contra 
+          3am conclusionem si 2a pars esset vera sequeretur quod imperfectionibus specificis creabilibus esset 
+          processus in infinitum consequens est falsum quia ibi est ordo essentialis in illis igitur etc</p>
+        
+        <p xml:id="pgb1q36-d1e3895">2o contra primum corollarium aliqua dabilis species est certe perfectionis et aliqua in duplo 
+          maioris et aliqua in triplo et sic in infinitum ergo est dabilis infinitae perfectionis</p>
+        
+        <p xml:id="pgb1q36-d1e3902">3o linea perfectionis simpliciter incipit a non gradu et terminatur ad deum ergo est 
+          aliqua species ita proprie deum sicut proprie non gradum patet consequentia ex quo sunt 
+          ibi duo extrema illam terminantia</p>
+        
+        <p xml:id="pgb1q36-d1e3912">4o contra 2m corollarium stat duo individua 
+          eiusdem speciei esse inaequaliter eiusdem perfectionis simpliciter ergo stat duas 
+          species esse aequae perfectas essentialiter consequentia patet quia qualis est habitudo seu proportio 
+          individui unius speciei ad individuum alterius talis est habitudo 
+          speciei ad speciem antecedens est articulus anima christi est perfectior essentialiter anima vide</p>
+        
+        <p xml:id="pgb1q36-d1e3924">5o 
+          aliqua duo entia genere differentia sunt aequaliter perfecta ergo stat duas <corr><add place="marginRight">species etc</add></corr> 
+          consequentia tenet quia quae differunt genere differunt species antecedens probatur de materia caeli et materia 
+          istorum inferiorum cum una sit transmutabilis generabilibus et corruptibilis alia autem non  
+          sed quod sint aequae perfecte probatur quia utraque terminat inclusive totam latitudinem 
+          entis possibilis versus extremum inferius vel versus non gradu ergo aequaliter 
+          distant a primo et summo terminante illam latitudinem seu lineam versus 
+          extremum superius</p>
+        
+        <p xml:id="pgb1q36-d1e3949">6o homo et anima sunt diversarum specierum et sunt eiusdem perfectionois 
+          essentialis vel aequalis igitur antecedens probatur quia alia est ratio essentialis intrinseca 
+          animae et alia hominis ut patet per earum diffinitiones <unclear>quidditativas <!--looks like quam rather than "quid" --></unclear> homo enim dicitur substantia 
+          anima corporea rationalis anima vero in corporea sed 2a pars antecedentis probatur quia 
+          totum non est minus perfectum quam eius pars cum pars includatur in tota ergo 
+          homo non est minus perfectus quam eius anima et maxime cum anima communicet corpori 
+          <sic>corpori</sic> omnem suam essentialem perfectionem et intrinsecam sed quod anima non 
+          sit minus perfecta intrinsece quam compositum patet cum omnis perfectio essentialis ipsius 
+          compositi sit a forma quae dat sibi esse  Item anima virtualiter et perfectiori 
+          modo continet omnem perfectionem compositi quam ipsum compositum igitur aeque perfecta 
+          est intrinsece</p>
+        
+        <p xml:id="pgb1q36-d1e3985">Ad primum negatur antecedens sumendo ipsum collective et in sensu 
+          composito et cum probatur quia nullus gradus repugnat etc conceditur in sensu diviso 
+          quia nec <c>a</c> nec <c>b</c> nec <c>c</c> tamen non sequitur propter hoc quod omnis possit simul esse et 
+          concurrere in eandem rem vel speciem quia talis gradus infinitus nec est 
+          nec esse potest 2o cum dicitur quod non est repugnantia ex parte communicationis etc dicitur 
+          quod ex parte creaturae est incompossibilitas quia ei repugnat esse omnipotentem 
+          esse per se simpliciter esse necesse esse et independentem esse Item talis creatura 
+          <pb ed="#L" n="109r"/>esset essentialiter iustitia cognitio gratia dilectio et sic ipsa non posset decipi 
+          obliquae agere vel peccare immo deus eam non posset destruere et damnare 
+          patet ergo quod est repugnantia ex parte creaturae et ex parte talis denominationis 
+          cui repugnat communicari creaturae</p>
+        
+        <p xml:id="pgb1q36-d1e4050">Ad 2m dicitur quod si li <mentioned>aeque</mentioned> perfecte notet 
+          vel respiciat agens conceditur antecedens et negatur consequentia quia utrobique est deus 
+          si vero denotet vel determinet termen actionis negatur antecedens</p>
+        
+        <p xml:id="pgb1q36-d1e4061">Et si arguitur deus 
+          agit adextra secundum ultimum suae potentiae ergo producit termen infinitum hic respondetur 
+          quod si intelligatur quod non possit perfectius agere negatur antecedens si autem intelligitur 
+          quod non potest perfectiori potentia vel modo agere conceditur antecedens et negatur consequentia </p>
+        
+        <p xml:id="pgb1q36-d1e4075">Ad 3m dicitur quod si casus sit possibilis in fine horae nulla erit infinita 
+          quamvis in infinitum aliqua sit perfecta nulla tamen est illa secundum quod nulla 
+          est talis quae sit infinitae perfectionis et si dicitur quod ex omnibus istis deus posset 
+          facere unam speciem quod si deus faceret illa esset quia contineret omnia quae homo <sic>sic</sic> 
+          in proposito hic dicitur quod sic non posset fieri una ex omnibus istis quia nulla 
+          talis est creabilis seu possibilis</p>
+        
+        <p xml:id="pgb1q36-d1e4098">Ad 4m negatur consequentia Ad probationem dicitur quamvis sit indivisibilis 
+          tamen eminenter in ipso omne divisibile continetur et ideo immense 
+          excedit</p>
+        
+        <p xml:id="pgb1q36-d1e4108">Ad 5m negatur consequentia et cum arguitur de linea transversali dicitur 
+          quod est imitabilis secundum lineam transversalem praecise secundum eandem rationem sed 
+          secundum lineam rectam secundum aliam et aliam rationem ita quod non secundum lineam 
+          transversalem est specierum perfectio mutanda seu imaginanda</p>
+        
+        <p xml:id="pgb1q36-d1e4129">Ad 6m dicitur 
+          quod deus est sicut centrum cuiuslibet rei modo a centro circuli versus circumferentiam 
+          possunt infinitae lineae trahi aequaliter se habentes ad centrum 
+          quae forte differrent specie maxime ubi circulus esset compositus ex 
+          partibus diversarum rationum sic de deus et diversitate specierum potest imaginari</p>
+        
+        <p xml:id="pgb1q36-d1e4149">Ad primum contra 2am conclusionem dicitur quod ratio bene concluderet si unum non includeret 
+          aliud formaliter vel aequivalenter sicut est in proposito quia species inferior 
+          includitur in superiori aequivalenter vel supereminenter ideo argumentum 
+          non facit contra conclusionem</p>
+        
+        <p xml:id="pgb1q36-d1e4160">Ad 2m dicitur quod sicut compatitur secum multiplex etc 
+          et ideo illam exponit <ref><name ref="#GilesOfRome">aegidius</name> primo</ref> sicut non inveniuntur duae species 
+          numerorum aeque distantes ab unitate nec duae species sic distantes etc 
+          2o sicut unitate dempta vel addita variatur species numerii sicut etc 
+          3o sicut binarius continetur virtualiter in ternario sic <unclear>vege?num</unclear> <unclear>insensitivo</unclear> 
+          et una species in aliam 2o notandum secundum <name ref="#GilesOfRome">aegidium</name> quod duplex est distantia 
+          una finita alia infinita prima est duplex quia quaedam est in qua 
+          cadit medium et alia in propria in qua in qua non potest esse medium ut 
+          punctalis Infinita etiam est duplex quia quaedam est in qua quodlibet extremum 
+          dicit aliquam essentiam sicut deus et creatura distant 2a in propria in 
+          qua unum <unclear>termen <!-- looks like "tantum" --></unclear> extremum dicit essentiam et sic distant prima materia et nihil 
+          <pb ed="#L" n="109v"/>et sic dicuntur distare infinite quia inter ipsa nulla est proportio et sic posset 
+          dici ad illud sapientiae omnia in numero pondere et mensura constituisti <!-- quote here --> 
+          omnis entitas creatur in certo numero partium organicarum et partium eiusdem 
+          quantitatis et certi generis ac specie  2o quod perfectiones et qualitates cuiuslibet entis sunt 
+          in certo numero Item sicut in numero est aliqua species infima sic in speciebus Item sicut 
+          numeri sunt immediati sic species sunt immediate de facto Item impondere id est unicuique 
+          dedit proprias operationes <corr><del>i</del></corr> inclinationes a determinatos fines Item in mensura 
+          hoc est habent certum gradum perfectionis</p>
+        
+        <p xml:id="pgb1q36-d1e4253">Ad aliam dicitur quod <name ref="#Augustine">augustinus</name> vult 
+          dicere quod omnia formantur in certis partibus organicis et integralibus</p>
+        
+        <p xml:id="pgb1q36-d1e4262">Ad 
+          3m dicitur quod si differentia sumitur pro primo modo dicendi per se et in quale sic rationale dicitur 
+          differentia hominis si autem sumitur 2o modo ex hoc non distinguitur ab omni specie alterius 
+          generis et sic non est rationale ultima differentia hominis quia conventi deo et angelis 
+          si autem accipitur ut distinguitur ab omnibus quae sunt eiusdem generis sic est differentia 
+          hominis quia distinguit hominem ab omni <corr><del rend="strikethrough">ee</del></corr> alio quod continetur sub animali per 
+          hoc patet ad confirmationem</p>
+        
+        <p xml:id="pgb1q36-d1e4283">Ad 4m dicitur quod sicut trinarius est divisibilis et tamen indivisibiliter 
+          est trinarius ita species est divisibilis et tamen stat in indivisibili 
+          ita quod illi gradus specifici sunt ut instans in tempore vel puncta in linea </p>
+        
+        <p xml:id="pgb1q36-d1e4298">Ad 5m dicitur quod quaelibet species est aliquanta perfectio quia eminenter continet perfectionem 
+          sub ipsa non tamen sequitur quod habeat latitudinem intensivam formaliter 
+          sic quod ei correspondeat plura puncta sicut non sequitur binarius ut sic est quantitas 
+          <unclear>discreta<!-- could be distincta --></unclear> ergo est divisibilis in binarios</p>
+        
+        <p xml:id="pgb1q36-d1e4313">Ad primum contra 3am conclusionem potest 
+          concedi consequens quia in numeris videtur esse essentialis ordo et processus in infinitum 
+          2o posset dici quod non oportet essentialem ordinem esse nisi in hiis quae actu sunt 
+          producta quia illa sunt tantum adinvicem comparabilia proprie quae habent realem et actualem 
+          entitatem modo species de facto productae sunt finitae ideo inter 
+          illas stat ordo essentialis</p>
+        
+        <p xml:id="pgb1q36-d1e4327">Ad 2m dicitur quod in infinitum aliqua species est creata 
+          vel creabilis perfecta et tamen nulla est perfecta in infinitum ideo non potest 
+          dari species creata infinitae perfectionis</p>
+        
+        <p xml:id="pgb1q36-d1e4336">Ad 3m dicitur quod illa linea non terminatur 
+          ad deum quia deus est essentia non inclusa in illam lineam sed totaliter extra 
+          illam immense illam excedens et quodlibet eius sicut aeternitas tempus nec est 
+          imaginandum aliquid ita <unclear>prope</unclear> deum sicut <unclear>prope</unclear> non gradum</p>
+        
+        <p xml:id="pgb1q36-d1e4364">Ad 4m 
+          quidquid sit de consequentia negatur antecedens ad articulum dicitur quod intelligitur de dispositionibus 
+          naturalibus et habitibus animam christi informantibus quae perficiunt et meliorant 
+          essentiam animae</p>
+        
+        <p xml:id="pgb1q36-d1e4374">Ad 5m negatur antecedens ad probationem dicitur quod posset esse dubium utrum 
+          sit materia ibi 2o posset dici quod licet ibi esset materia non tamen eiusdem speciei 
+          cum materia istorum inferiorum 3o dicitur quod si sic materia utrobique quod ambae 
+          sunt transmutabiles quantum est ex parte sui 4o diceretur quod si essent diversarum 
+          specierum altera non terminaret totam latitudinem entis creabilis 
+          immo eis corresponderent diversa puncta in linea perfectionis</p>
+        
+        <p xml:id="pgb1q36-d1e4400">Ad 6m 
+          <pb ed="#L" n="110r"/>primo dicitur quod anima non communicat corpori quodlibet suum esse perfectum perfectione simpliciter quia anima 
+          est formaliter vita formaliter indivisibilis formaliter forma intellectiva unde 
+          <unclear>principium</unclear> modus et constat quod nullum istorum formaliter communicat corpori 
+          seu homini cum homo non sit formaliter vita nec intellectus</p>
+        
+        <p xml:id="pgb1q36-d1e4415">2o dicitur quod quaedam 
+          sunt species compositae quaedam simplices modo speciei compositae in linea perfectionis 
+          simpliciter correspondent duo puncta secundum formam unus et secundum formam alius 
+          ideo licet una species sit tamen possunt dici duae secundum quid ex quo patet quod 
+          homo est perfectior anima saltim extensiva perfectione</p>
+        
+        <p xml:id="pgb1q36-d1e4427">3o posset dici quod corollarium intelligitur 
+          de speciebus simplicibus quibus correspondet unus punctus in linea perfectionem 
+          simpliciter vel intelligitur de speciebus totaliter distinctis quarum una non includitur 
+          in altera ut pars eius</p>
+        
+        <p xml:id="pgb1q36-d1e4442">Ad rationes in oppositum patet per dicta in corollariis quid dicendum sit 
+          et in conclusionibus ac argumentorum solutionibus</p>
+        
+        <p xml:id="pgb1q36-d1e4448">Notandum tamen gratia materiae quod duplex 
+          est accessus sive appropinquatio creaturae ad summum una est extrinseca 
+          illius perfectionis et illa mensuratur penes distantia quae est inter illam 
+          perfectionem et deum et quia quaelibet distantia inter deum et creaturam est infinita 
+          ideo accessus creturae ad deum non mensuratur penes talem 
+          distantiam extrinsecam Alia est distantia intrinseca creaturae et illa est 
+          inter illam perfectionem specificam et non gradum perfectionis simpliciter quia quaelibet superior 
+          continet eminenter totam latitudinem perfectionum inferiorum et illa magis 
+          proprie vocatur accessus ad summum quam alia prima quae est extrinseca creatura</p>
+        
+        <p xml:id="pgb1q36-d1e4475">2o notandum quod accessus ad summum isto modo est acquisitio divinae participationis 
+          et quanto talis participatio maior est tanto est creatura perfectior 
+          nec ideo quia creatura est similior deo magis participat divinam bonitatem 
+          sed econverso quia magis participat divinam bonitatem ideo est similior sibi quia 
+          fundamentum prius est suo relativo et causa suo effectu</p>
+        
+        <p xml:id="pgb1q36-d1e4488">Item quanto creatura 
+          illam plus participat tanto plus deum imitatur et sic idem est accessus 
+          creaturae ad deum et recessus a non gradu licet perfectio specifica per accessum ad 
+          summum magis proprie mensuretur quam per recessum a non gradu quia ut est accesssus 
+          dicit quam positivum et ut est recessus privativum</p>
+          </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+        <p xml:id="pgb1q36-d1e4500">Nunc illud 
+          restat <!-- probably a quote --> etc prima conclusio quod deus potest alia facere quam facit et quae facit posset 
+          meliora facere unde deus potuisset talem fecisse hominem qui nec posset 
+          peccare nec vellet et si talem fecisset meliorem quam fecerit fecisset</p>
+        
+        <p xml:id="pgb1q36-d1e4514">2a conclusio quod deus eorum quae facit quaedam posset facere modo meliori 
+          et quaedam modo minus bono quam faciat ut li <mentioned>aliter</mentioned> seu <mentioned>alter</mentioned> modus 
+          referatur ad qualitatem creaturae non ad sapientiam conditoris non enim meliori 
+          nec minus bona sapientia posset facere quae facit quam de facto faciat</p>
+        
+        <p xml:id="pgb1q36-d1e4535">3a conclusio quod deus potest quidquid semel potuit et semper vult quidquid semel voluit 
+          id est eam habet potentiam et voluntatem quam semel habuit unde potuit <sic>in</sic> 
+          <pb ed="#L" n="110v"/>incarnari est incarnatus eadem potentia sicut eadem est scientia qua scivit se 
+          resurrecturum et sic se resurrexisse non tamen potest facere omne illud semper 
+          quod aliquando potuit nec vult esse vel fieri sed fuisse vel factum esse ita et 
+          de scientia dicendum est eodem modo conformiter</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
