@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 38</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.02">
+          <title>Librum I, Quaestio 38</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-02-15" who="#JW" status="draft" n="2015.02">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q38">
+        <head>Quaestio 38</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+        <p xml:id="pgb1q38-d1e3237">
+          <cit>
+            <quote>hic oritur quaestio</quote>
+            <bibl>Lombardus, I, d. 46, xxx</bibl>
+          </cit> haec est distinctio 46 primi in qua postquam 
+          <name ref="#Lombard">Magister</name> determinavit de divina efficacia hic circa dicta movet 
+          quaestiones nam primo quaerit utrum deus vellit aliquod bonum quod non eveniet 
+          2o utrum aliquod malum nolit fieri quod tamen fiet 2a ibi ideoque cum stet</p>
+        
+        <p xml:id="pgb1q38-d1e3251">prima dividitur in duas nam primo ostendit duplici auctoritate divinam voluntatem 
+          non semper impleri 2o docet qualiter his auctoritatibus potest responderi 2a ibi 
+          sed audiamus solutionem</p>
+        
+        <p xml:id="pgb1q38-d1e3264">2a principalis pars etiam dividitur in duas nam primo 
+          recitat opinionem duplicem 2o uni illarum <unclear>consen?do[?]</unclear> ponit propriam determinationem 
+          2a incipit ibi si quis sibi diligenter etc haec est divisio etc</p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head>Rationes principales</head>
+            
+            <p xml:id="pgb1q38-d1e3277">Utrum divinum velle rerum immediatum productivum principium sit 
+          non esse earum causale principium positivum quod non quia si sic sequeretur quod divinum 
+          velle tantum et tam perfecte influeret et ageret ad productionem 
+          unius rei sicut alterius immo tantum ad non esse rei sicut ad eius productionem 
+          inesse consequens videtur falsum et consequentia patet quia omne illud quod divinum velle immediate 
+          producit ad illius productionem infinite concurrit et influit 
+          patet quia eius causalitas a nulla causa 2a suppleri potest</p>
+        
+        <p xml:id="pgb1q38-d1e3303">2o sequitur quod divinum velle 
+          esset per se causa peccati et deformitatis consequens est falsum et patet consequentia quia si deus 
+          est principium causale non esse gratiae <name ref="#Sortes">sortis</name> cum ad hoc sequitur formaliter <unclear><name ref="#Sortes">sortes</name><!-- sortis? --></unclear> 
+          esse in culpa sequitur illatum</p>
+        
+        <p xml:id="pgb1q38-d1e3321">3o illud quod ex se formaliter circumscripto omni 
+          alio habet non esse illud non habet ab alio sed non ens eset huius ergo maior 
+          nota minor apparet quia quaelibet creatura sibi relicta non habet nisi non esse ergo etiam 
+          habet in se principium deducens ipsam ad non esse nisi a deo conservare inesse</p>
+        
+        <p xml:id="pgb1q38-d1e3333">In oppositum arguitur quia non ens ex se non habet non esse ergo habet ab alio causaliter 
+          consequentia bona sed antecedentis probatio quia si sic tunc sequeretur quod non ens esset necesse 
+          non esse et sic per nullam potentiam posset poni inesse quod est falsum</p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+        <p xml:id="pgb1q38-d1e3348">prima conclusio 
+          licet divinum velle dicatur agere adextra infinite secundum modos repugnantes 
+          creaturae tamen semper adextra agit finite secundum conditiones sibi et causae 2ae 
+          prima patet quia divinum velle agit principio infinitae perfectionis independenter 
+          ut causa prima sine qua non potest agere alia causa 2a et sic agere repugnat 
+          causae 2ae quantumcumque intendatur eius perfectio et activitas ergo illa pars vera sed 2a 
+          pars probatur quia agere effectum finitum in tempore finito finita velocitate et effectum 
+          nunc maiorem nunc minorem arguit aliquem agere finite sed illae conditiones 
+          conveniunt deo et creaturae simul agentibus igitur</p>
+        
+         <p xml:id="pgb1q38-d1e3369">primum corollarium sicut 
+           non repugnat creaturam secundum varios sensus finite et infinite deum 
+           diligere sic non repugnat deum secundum varios respectus adextra finite et 
+           <pb ed="#L" n="115v"/>infinite influere prima pars quia creatura finite diligit deum referendo finite 
+           ad potentiam et ad actum diligendi et tamen cum hoc diligit deum infinite 
+           secundum <sic>appraeciabilitatem</sic> et propositionem quia praeponit eum infinitis bonis aliis 
+           creatis si essent 2a pars patet per conclusionem et eius probationem</p>
+        
+        <p xml:id="pgb1q38-d1e3389">2m corollarium licet deus 
+          non agat adextra infinite secundum terminationem adaequatam et ex haustionem 
+          ultimatam virtualis influentiae tamen agit infinite adextra secundum immensitatem 
+          suae causae ut est nota nobilitatis et excellentiae prima patet quia si deus ageret primo modo 
+          sequitur quod non posset plus nec perfectius agere intensive nec extensive consequens 
+          est falsum quia quocumque effectum dato deus potest producere perfectiorem 2a pars 
+          probatur quia deus non solum ens in se <unclear>infinitivo</unclear> absolute formaliter sed etiam agit 
+          modo excellentiae infinitae et eminentiae quia independenter ut primum efficiens 
+          et ultimus finis et ut habens plenam omnipotentiam ergo</p>
+        
+        <p xml:id="pgb1q38-d1e3420">3m corollarium licet quolibet effectu 
+          dato vel dabili deus possit perfectiorem producere tamen deus quantum est ex 
+          parte sui ad nullius effectus productionem potest perfectius quam concurrit concurrere  
+          prima patet per alias dicta 2a pars probatur ex conclusione quia <unclear>dtn?quantum<!-- looks corrected somehow --></unclear> est ex parte sui 
+          semper infinite concurrit nec perfectius filium suum generat quam muscam producat 
+          referendo li perfectius ad perfectionem principii producentis si autem notaret 
+          perfectionem termini praecedentis tunc est dicendum quod in infinitum perfectius producit 
+          filium quam hominem vel angelum sicut filius improportionabiliter perfectior est 
+          angelo vel homine</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+        <p xml:id="pgb1q38-d1e3449">2a conclusio licet deo volente seu actore nemo fiat 
+          malus causaliter simpliciter tamen in malis culpae deus vult coagere secundum quid 
+          et quasi conditionaliter prima pars est <ref><name ref="#Augustine">augustini</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title> quaestione 3a</ref> ubi sic arguit nullo 
+          homine sapiente actore fit homo determinor deus autem est omni homine sapiente 
+          praestantior ergo nemo actore deo fit determinor multo enim est praestantior 
+          dei voluntas quam hominis sapientis sed constat quod convenit homini sapienti 
+          causare effective malitiam qua formaliter quis efficiatur malus ergo etc 
+          2a pars probatur quia quantum est ex parte dei plus vellet illud positivum actu 
+          non fieri tamen si voluntas creata vult omnino illud fieri et producere ipsum nec 
+          deo obedire deus non subtrahet eius influentiam generalem sed relinquit 
+          voluntatem suae libertati unde sicut proiciens merces in mari 
+          non vult simpliciter proicere merces sed conditionaliter quia citius vult divitiis 
+          privari quam vita sic in proposito item sicut pater trahit navem cum filio 
+          ne maneat <unclear>inflivem[?]</unclear> et tamen prius prohibuit ei ne illam moveret cum 
+          filio trahente pater coagit nec tamen proprie vult filium trahere immo 
+          sibi displicet licet coagat eidem sic in proposito vult malos actus cum 
+          admixtionem in voluntarii et de hac mixtione voluntarii cum in 
+          voluntario habetur <ref>3o <title ref="#Ethics">ethicorum</title></ref></p>
+        
+        <p xml:id="pgb1q38-d1e3513">primum corollarium licet respectu bonorum actuum 
+          moraliter divinum velle praecedat creatum velle causaliter tamen in actibus</p>
+          </div>
+          <!-- seems like there is missing text here; marcolino say this jumps to 117r, but it still seems like text has been skipped--> 
+        
+        <div>
+          <head><supplied>Obiectiones et responsiones</supplied></head>
+          <!-- seems like there is missing text here; marcolino say this jumps to 117r, but it still seems like text has been skipped-->
+          
+        <p xml:id="pgb1q38-d1e3521"><pb ed="#L" n="117r"/>??ione ergo deo actore homo fit malus tenet consequentia et antecedens patet <ref><title ref="#io">ioannis</title> <sic>13o<!-- should actually be 11o --></sic></ref> 
+          ubi <name ref="#Caiaphas">cayphas</name> consulens christum occidi ne <name ref="#Jews">iudaei</name> perderent locum ait 
+          <quote ana="#io11_50">expedit nobis ut unus moriatur homo</quote> etc hoc aut dicit perversa cogitatione 
+          christi mortem ne perderent bona eorum temporalia inducens alios 
+          ad hoc faciendum prout dicunt <name ref="#Origen">origines</name> et <name>theophillus</name> sed ibi dicitur 
+          quod prophetavit et secundum glosam spiritum dei locutus est et sic habuit a spiritu 
+          sancto huius locutionem et principium illius scilicet cogitationem et volitionem</p> 
+          
+        <p xml:id="pgb1q38-d1e3562">2o deus spiritualiter impedit consentire <corr><del rend="strikethrough">voluntati</del></corr> veritati et inclinat ad 
+          credendi errori ergo ideo homo errat quia voluntatem deus antecedenter inclinat 
+          antecedens paret <ref><name ref="#Augustine">augustinum</name> libro <title ref="#DeGratiaEtLiberoArbitrio">de gratia et libero arbitrio</title> circa finem</ref> 
+          ubi ponit quod quandocumque inclinat corda hominum ad consentiendum malo 
+          seu falso et ad hoc adducit illud <ref><title ref="#IIreg">2i regum <!-- seems like it is actually II sammuel --></title> 17</ref> <quote>manifestavit dominus 
+          dissipare consilium <name>achitophel</name> bonum ut inducat super <name>absalon</name> 
+          mala</quote> et dissimilavit ut ait <name ref="#Augustine">augustinus</name> agendo in corde <name>absalon</name> 
+          tale consilium repudiaret et aliud quod sibi non expediebat eligeret</p>
+        
+        <p xml:id="pgb1q38-d1e3617">3o contra 2am partem si deus aliquid vellet sub conditione aut illa est praesens aut 
+          praeterita non 2m quia omne praeteritum vel praesens est certum et absolute determinatum 
+          aut <unclear>illa</unclear> conditio esset aliquod possibile futurum et hoc non quia qualibet rem futuram quae 
+          erit deus scit determinate illam fore ergo frustra ponitur illud velle sub 
+          conditione</p>
+        
+        <p xml:id="pgb1q38-d1e3636">4o quaeritur aut deus vult illam conditionem fore aut non si primum 
+          ergo vult illam conditionem fore absolute aut non si detur 2m iterum quaeretur 
+          de illa et sic erit processus in infinitum si detur primum sequitur eadem ratione quod 
+          volebat principale simpliciter et absolute non conditionaliter</p>
+        
+        <p xml:id="pgb1q38-d1e3648">5o sequitur quod conditionis 
+          positio esset antecedenter determinans divinum velle ad volendum et simpliciter 
+          determinans quando conditio esset <corr><del rend="strikethrough/expunctuated">com</del>posita</corr> consequens est falsum ergo</p>
+        
+        <p xml:id="pgb1q38-d1e3661">6o sequitur quod deus intrinsece 
+          foret volens aliter nunc quam prius consequens est falsum probatur consequentia quia nunc 
+          vult conditionaliter et quando conditio ponetur inesse volet determinate</p>
+        
+        <p xml:id="pgb1q38-d1e3669">7o 
+          sequitur quod deus unum futurum vellet intrinsece modo perfectiori quam aliud consequens 
+          est falsum probatur consequentia quia quod vult absolute et determinate vult modo perfectiori 
+          actualiori et determinatiori quam illud quod vult modo conditionali 
+          sicut illud quod scio me habere determinate scio modo certiori quam illud 
+          quod scio me habere modo conditionali</p>
+        
+        <p xml:id="pgb1q38-d1e3683">contra primum et 2m corollaria ideo creata voluntas 
+          obmittit quia deus non coagit nec vult coagere ergo in actibus malis 
+          et prohibitis ideo voluntas comittit quia deus coagit et per consequens voluntas dei est 
+          prior in illis consequentia patet quia non est magis inconveniens unum quam aliud quia saepe 
+          tantum peccat obmittens quantum committens antecedens probatur quia peccator aliquando ideo 
+          non coadiuvat eum bene <name ref="#Augustine">augustinus</name> de bono perseverantiae circa medium dicit 
+          peccato ideo non surrexit quia hunc deus non erexit</p>
+        
+        <p xml:id="pgb1q38-d1e3704">2o ideo voluntas 
+          <pb ed="#L" n="117v"/>agit bonum quia deus coagit ergo obmittit quia deus non coagit tenet consequentia 
+          quia negatio est causa negationis ubi affirmatio affirmationis</p>
+        
+        <p xml:id="pgb1q38-d1e3713">3o ideo iste est in 
+          peccato quia deus ei subtrahit gratiam ergo quia deus non agit ad bonum etc 
+          patet consequentia quia subtractio gratiae est subtractio conservationis et <unclear>manutae</unclear> 
+          <unclear>nenciae</unclear> gratiae etc <corr><add place="aboveLine">est</add></corr> subtractio cuiusdam causalitatis effectivae antecedens probatur quia ideo 
+          iste est peccator quia privatus rectitudine et iustitia quia deus eum privavit <unclear>illis</unclear></p>
+        
+        <p xml:id="pgb1q38-d1e3737">contra 3m corollarium deus est actor huius entis quod ens est peccatum ergo est actor peccati</p>
+        
+        <p xml:id="pgb1q38-d1e3742">2o deus est actor illius quod est peccatum ergo peccati consequentia patet quia peccatum et illud 
+          quod est peccatum convertuntur et hoc peccatum et illud quod est hoc peccatum similiter convertatur 
+          ergo antecedens est notum</p>
+        
+        <p xml:id="pgb1q38-d1e3751">3o peccatum faciens est deus ergo deus est faciens 
+          peccatum consequentia paret per conversionem simplicem</p>
+        
+        <p xml:id="pgb1q38-d1e3756">contra 3am conclusionem arguitur per <name ref="#Anselm">anselmum</name> 
+          de casu dyaboli capitulo primo dicentem sicut omnia alia a deo a se nihil habent 
+          ita a deo <corr><del rend="strikethrough/expunctuated">habent</del></corr> non nisi aliquid habent et infra ea quae sunt et transeunt ad non 
+          esse non ipse deus facit ea non esse quia sicut a summo bono non est 
+          nisi bonum ita a summa essentia non est nisi essentia nihil ergo et non esse non est 
+          ab ipso aliquo non est nisi bonum et essentia</p>
+        
+        <p xml:id="pgb1q38-d1e3779">Item per <ref><name ref="#Augustine">augustinum</name> libro <title ref="#MoralsOfCatholicChurch">de moribus 
+          ecclesiae</title></ref> quomodo inquit potest ille qui omnium quae sunt causa est ut sicut causa esse rursum 
+          ut non sicut nam quidquid est inquantum est ex deo est inquantum vero abesse deficit 
+          non est ex deo eandem ponit sententiam <ref><title ref="#deDiversisQuaestionibus">83 quaestionibus</title> quaestione 21</ref></p>
+        
+        <p xml:id="pgb1q38-d1e3806">2o ratione fundata 
+          in dicitis <name ref="#Augustine">augustini</name> arguitur nullum malum est a deo sed cadere ab esse in non esse est 
+          malum ergo maior ponitur <ref>ibidem scilicet <title ref="#deDiversisQuaestionibus">83 questiones</title> questione 2a</ref> et similiter minor</p> 
+        
+        <p xml:id="pgb1q38-d1e3823">3o deficere ab 
+          esse est malum ergo illius deus non est causa consequentia patet per dicta antecedens probatur quia 
+          illud unicuique est malum quod est contra eius naturam quod tollit bonum essendi</p>
+        
+        <p xml:id="pgb1q38-d1e3831">Ad primum dicitur quod si perfectius intelligitur ex parte effectus conceditur quod perfectiorem 
+          potest producere si autem intelligitur formaliter ex parte dei id est ex principio formaliter 
+          et realiter perfectiori negatur unde <ref><name ref="#Lombard">magister</name> libro primo distinctione 44a capitulo 3o</ref> dicit ea quae deus 
+          facit non potest facere alio modo vel meliori si modus referatur ad sapientiam 
+          artificis si vero ad ipsam rem factam sic dicitur quod potest facere aliter et modo 
+          meliori sic in proposito est dicendum per hoc ad formam negatur consequentia sumendo 
+          perfectius 2o modo nec valet similitudo quia deus non agit per velle nec perfectius 
+          nunc minus perfectum tamquam per aliud et aliud principium immediatum sicut 
+          hoc est angelus</p>
+        
+        <p xml:id="pgb1q38-d1e3860">Ad 2m negatur antecedens sumendo perfectius ex parte dei 
+          realiter et formaliter 2o dicitur quod cum influentia specialis dicitur addi generali 
+          influentiae non est intelligendum quod ex parte dei aliquis gradus causalitatis 
+          vel principii addatur formaliter et realiter alteri gradui quasi imperfectiori 
+          sed influentia speciali deum agere est deum agere cum causa 2a ad tantum vel 
+          talem effectum quod secundum ordinem institutum regulariter et communem cursum 
+          causarum 2araum ad actionem illarum non sequitur talis et tantus effectus 3o 
+          dicitur quod cum deus agit speciali influentia potest dici quod perfectius agit non 
+          <pb ed="#L" n="118r"/>formaliter nec realiter ex parte sui sed virtualiter et quasi interpretative quia tunc 
+          agit mediante aliquo dono supernaturali prius dato quod virtus dei licet 
+          sit simplex et indivisibilis tamen ratione libertatis suae potest producere extra se 
+          inaequalia ac si virtus eius esset divisibilis et quasi ageret actione sibi formaliter 
+          inhaerente nunc perfectiori nunc minus perfecta</p>
+        
+        <p xml:id="pgb1q38-d1e3895">Ad 3m negatur antecedens sumendo 
+          perfectius personaliter et significative et quando dicitur quod <unclear>creare <!-- could be causare--></unclear> non potest communicari creaturae 
+          dicitur hic quod nullus modus quo deus agit est creaturae communicabilis quia non 
+          potest agere independenter nec principio infinito formaliter si autem dicatur 
+          producere <unclear>creando<!--potentially causando --></unclear> non potest affirmari de creatura sed educere formam de 
+          potentia me potest creaturae convenire ergo hic dicitur concedo antecedens sed negatur consequentia</p>
+        
+        <p xml:id="pgb1q38-d1e3921">Ad 4m cum dicitur quod deus potest magis et minus nisi inquadam aequivalentia 
+          virtuali non formali quia si illa maioritas vel minoritas sit alicubi 
+          ipsa est in effectu realiter qui est maior vel minor vel in resistentia 
+          seu peccato creatae quod est maius vel minus et cum dicitur quod ideo effectus est maior etc 
+          dicitur quod si intelligitur quod talis minoritas vel maioritas sit in deo 
+          formaliter negatur illud si vero intelligitur quod deus vellit effectum talem et 
+          tantum esse conceditur quod divinum velle est causa illius</p>
+        
+        <p xml:id="pgb1q38-d1e3941">Ad 5m dicitur quod in deo nulla 
+          est finitas activitatis nisi aequivalenter et similitudinarie seu interpretative 
+          quia agit principio formaliter in finito quasi ageret virtute finita ut dictum est </p>
+        
+        <p xml:id="pgb1q38-d1e3950">Ad 6m dicitur quod deus diligit et approbat finite et infinite secundum diversas 
+          acceptationes talis denominationis diligit enim infinite quia formaliter 
+          dilectione infinita et ad bonum infinitum obiectaliter saltim et durative 
+          item finite diligit quia acceptat illud bonum finitum ad praemium 
+          formale finitum intensive</p>
+        
+        <p xml:id="pgb1q38-d1e3967">Ad primum contra 2am negatur antecedens et ad probationem 
+          dicitur quod deus non movit <name ref="#Caiaphas">caypham</name> ad loquendum consilium malum sed <name ref="#Caiaphas">caypha</name> 
+          volente loqui consilium malum deus acceptavit verba ad hoc 
+          ut essent vera in sensu prophetico quem tamen sensum loquens non habebat in 
+          mente sua expresse</p>
+        
+        <p xml:id="pgb1q38-d1e3985">Ad 2m negatur antecedens et ad probationem de <name>achitophel</name> 
+          dicitur quod non debet intelligi quod deus inclinet effective ad illa ut incitet 
+          vel sugerat per se proprie et positive sed quandoque ex demeritis hominum 
+          permittit voluntates eorum ad illa inclinari et excitari in eis 
+          occasiones peccati et causas peccati et impedimenta boni impleri sive 
+          ab homine sive a diabolo non conferendo auxilium speciale sed deserendo 
+          non reprimendo occasiones mali et impedimenta boni etiam quandoque 
+          maiorem potentiam et licentiam hosti permittendo vide <ref><name>augustinum</name> <title ref="#DeCorreptioneEtGratia">de 
+          correptione et gratia</title></ref></p>
+        
+        <p xml:id="pgb1q38-d1e4021">Item inclinat ad malum quandoque per accidens et indirecte 
+          scilicet quandoque conferendo beneficia homini quibus abutitur et occasionem 
+          accipit peccati ex benficio aliquo accipere debuisset occasionem bene 
+          <pb ed="#L" n="118v"/>agendi Item qunandoque administrat vel adminsitrari permittit homini malo 
+          aliquod quod potest eum inclinare occasionaliter ad peccandum salva tamen hominis 
+          libertate exemplum ponit <name ref="#JohnChrysostom">chrisostus</name> <title>super matthaeum</title> de domino ponente ante servum saccum 
+          pecuniae ut probet eius fidelitatem sic deus quandoque dat homini occasionem 
+          peccandi et hoc malis non ut peccare sciant sed ut peccatorem 
+          ostendat haec <name ref="#JohnChrysostom">chrisosti</name></p>
+        
+        <p xml:id="pgb1q38-d1e4067">Ad 3m dicitur quod aliquid deum velle occasionaliter tripliciter 
+          potest sumi primo propter illius conditionis ignorantiam et incertitudinem sicut dicimus 
+          cras faciam <c>c</c> si <c>b</c> evenerit sic deus nihil vult conditionaliter 2o modo propter conditionis 
+          aliqualem nolitionem et reprobationem et displicientiam sicut quis 
+          vult proicere merces in mari si sit in periculo sic dicitur deus velle actus 
+          positivos qui sunt prohibiti conditio autem est ex quo voluntas non 
+          vult servare iustitiam nec obedientiam sed contraire mandatis dei sic 
+          etiam vult hominem dampnari ex quo habet finalem in poenitentiam et quod 
+          non vellit absolute patet <ref><title ref="#Ezekiel">ezechiel</title> 18o</ref> <quote ana="#Ezekiel18_32">nolo mortem peccatoris sed ut</quote> etc</p>
+        
+        <p xml:id="pgb1q38-d1e4116">3o propter conditionis requisitae negationem volo te peregrinari si esset samis 
+          et quia scio conditionem non poni ideo non volo illud absolute sic deus 
+          vult bona quae praecipit et consulit licet non fiat sic etiam vult omnes homines 
+          salvos fieri si voluntas humana vellet et non esset rebellis divinae 
+          voluntati</p>
+        
+        <p xml:id="pgb1q38-d1e4128">Ad formam ergo argumenti potest dici quod talis conditio potest esse praesens 
+          vel praeterita et quando arguitur quod deus scit quodlibet praesens etc dicitur quod licet certum sic 
+          deo simpliciter et determinate illud esse scilicet actum prohibitum esse tamen non vult 
+          simpliciter actum prohibitum absolute et quia etiam secundum oppositum tenentes deus 
+          scit simpliciter mala esse et fieri tamen non vult illa simpliciter et directe sed sicut 
+          medicus vult venenum in medicinam vel incisionem infirmi</p>
+        
+        <p xml:id="pgb1q38-d1e4144">
+          Ad improbationem 3ii membri dicitur quod ratio solum probat quod deus non vult conditio 
+          naturaliter primo modo</p>
+        
+        <p xml:id="pgb1q38-d1e4152">Ad 4m dicitur quod quandoque non vult conditionem fore quia 
+          non vult illum peccare si tamen peccat vult coagere ad talem actum 
+          generali influentia contingit etiam quandoque deum velle huiusmodi conditionem non 
+          simpliciter sed secundum quid quia cum admixtione involuntarii vel displicibilis 
+          sic deus vult voluntatem causare actum prohibitum non absolute et 
+          simpliciter sed cum admixtionem voluntarii antecedenter prohibitioni et voluntarii 
+          consequenter displicentis et detestantis ideo cum dicitur si deus non vult huius 
+          conditionem ergo frustra vult aliquid sub illa conditione negatur consequentia quia licet 
+          illa conditio ponatur ab alio tamen irrationabilis est et mala et cum dicitur 
+          ultra si vult illam etc sequitur quod vellit conditionem sub alia conditione 
+          negatur consequentia nec tamen sequitur quod illam vellit simpliciter sed solum secundum quid cum permixtione 
+          involuntarii ut dictum est</p>
+        
+        <p xml:id="pgb1q38-d1e4186">Ad 5m negatur consequentia quia procedit 
+          <pb ed="#L" n="119r"/>de velle conditionaliter primo modo non 2o</p>
+        
+        <p xml:id="pgb1q38-d1e4194">Ad 6m negatur consequentia propter idem et 
+          ad probationem quod nunc et prius et semper volet sub conditione modo dicto 
+          nec valet probatio quia similiter probaretur alietas in deo ex eo quia prius vult 
+          <c>a</c> fore postea esse et post fuisse</p>
+        
+        <p xml:id="pgb1q38-d1e4207">Ad 7m negatur consequentia ad probationem quia vult 
+          unum modo <sic>determinatiori</sic> negatur hoc quia utrumque velle est aeque determinatum et actuale 
+          ex parte dei licet secundum unum dicatur velle simpliciter et absolute aliud vero secundum 
+          quam et conditionaliter quia propter libertatem et illuminationem actus illius formantur 
+          denominationes variae vere sicut de voluntate nostra varietatem actuum </p>
+        
+        <p xml:id="pgb1q38-d1e4224">Ad primum contra corollaria negatur antecedens sumendo obmittere non tantum pro negatione et privatione 
+          simplici sed pro privatione deformi nova deformitate secundum quam dicitur peccans 
+          et cum arguitur ulterius negatur assumptum immo quia malitia illum impedit et quia 
+          non facit antecedenter quod in se est ut adiuvetur speciali auxilio et facit 
+          se <corr>adiutori<add>o</add><del>um</del></corr> divino indignum et ad <name ref="#Augustine">augustinum</name> potest dici quod li <mentioned>quia</mentioned> notat <unclear>con</unclear> 
+          <unclear>causam <!-- could be part of preceding word --></unclear> vel quasi rationem et propter quid conditionale ideo enim non resurrexit quia ex libertate 
+          sua et malitia impediente peccator non fecit quod in se est ideo 
+          deus hunc non erigit et sic ratio quare hunc deus non erigit reducibilis est 
+          in rationem se tenentem ex parte peccatoris scilicet propter indignitatem et defectum</p>
+        
+        <p xml:id="pgb1q38-d1e4278">Ad 2m negatur consequentia quomodo autem regula debeat intelligi patuit supra</p>
+        
+        <p xml:id="pgb1q38-d1e4283">Ad 3m negatur antecedens sumendo gratiam pro habitu infusibili et ad probationem conceditur 
+          quod ideo ille est peccator quia privatur rectitudine debita et cum infertur 
+          ergo quia privatus caritate negatur consequentia nam privari caritate non est formaliter 
+          privari rectitudine nec econtra licet <unclear cert="high">concomitanter</unclear> et convertibiliter se habeant pro 
+          statu vitae praesentis</p>
+        
+        <p xml:id="pgb1q38-d1e4300">2o posset dici quod si privari caritate sit privari rectitudine 
+          quasi quadam rectitudine habituali tunc non valet consequentia consequentia in 
+          talibus propositionibus causalibus</p>
+        
+        <p xml:id="pgb1q38-d1e4309">Ad primum contra 3m corollarium committitur fallaciam figurae <!-- could tag this in subject index -->
+          dictionis <unclear cert="medium">item</unclear> ibi non est forma syllogistica quia totale medium non sumitur 
+          in utraque praemissarum ideo non sequitur conclusio sed deberet concludit ergo deus peccati 
+          est actor et illa conceditur</p>
+        
+        <p xml:id="pgb1q38-d1e4331">Ad 2m negatur consequentia sicut enim ars non facit illud 
+          quod est imago sed facit imaginem sic in <corr><del rend="strikethrough">peccato</del></corr> proposito et ultra conceditur 
+          quod illae convertuntur sed per hoc nihil habetur contra <unclear cert="high">sicut</unclear> licet <c>b</c> et <c>b</c> esse album convertantur 
+          consequentia sicut illa imaginem causans est natura ergo natura est causans imaginem 
+          vel illam trinitatem cognoscentes fuerunt philosophi igitur philosophi fuerunt trinitatem cognoscentes 
+          ratio est quia propter naturam terminorum aliud cognoscat convertens quam conversa  si 
+          tamen argueretur sic deus eest actor huius rei sed actor huius rei est actor peccati 
+          ergo forma haec est bona sed minor est falsa</p>
+        
+        <p xml:id="pgb1q38-d1e4396">Ad primum contra 3am conclusionem dicitur quod aliquid 
+          esse causam <corr><add place="marginLeft">non esse</add></corr> potest dupliciter intelligi primo modo tamquam illud quod impedit illam rem 
+          esse et expellit illam ab esse et quo circumscripto vel non impediente 
+          illa res staret in esse ex se vel ab alia causa et sic deus nulli 
+          <pb ed="#L" n="119v"/>creaturae possibili est causa non essendi et sic intelligunt <name ref="#Anselm">anselmus</name> et <name ref="#Augustine">augustinus</name>  2o modo tamquam 
+          illud quo dante esse illa res est nec manutenente quocumque alio posito 
+          non est sic deus est causa non essendi rerum</p>
+        
+        <p xml:id="pgb1q38-d1e4429">2o potest dici quod non lcuntur de 
+          non esse simpliciter et universaliter sed de non esse includente deformitatem unde <corr><add place="aboveLine">in</add>finite</corr> <ref>auctor 
+          <title ref="#deDiversisQuaestionibus">83 questiones</title> questione <unclear>21a</unclear></ref> concludit <quote>mali inquit auctor non est alias deus non fuisset 
+          quare tenebrae factae fuerunt in eius passione</quote> Item preciosa in conspectu deum etc 
+          sed nihil preciosum nisi bonum ergo et quodlibet bonum deus vult Item causa 2a causat 
+          non esse alicuius et non nisi in virtute primae sibi coagentis igitur</p>
+        
+        <p xml:id="pgb1q38-d1e4463">Ad 2m 
+          dicitur sicut ad primum quod deum esse causa imperfectionis vel defectus dicitur intelligitur 
+          primo modo quia rem capacem perfectionis et bonitatits naturalis deus impedit et ipso 
+          dempto non impediente nec adiuvante haberet huius perfectionem naturalem et sic 
+          deus non est causa defectus naturalis nec monstrorum ut sic 2o modo pro ipso dante 
+          huius perfectionem et quo non dante res talis non haberet quocumque alio dempto 
+          et sic deus potest dici causa imperfectionis et defectuum naturalium et monstrorum</p>
+        
+        <p xml:id="pgb1q38-d1e4482">Ad 3m etiam dicitur quod esse causam defectivam potest dupliciter intelligi primo modo ut sit 
+          nota insufficientiae et impotentiae in causa et circumstantia imperfectionis vel carentia 
+          circumstantiae debitae et convenientis in causa et sic deus non est causa defectiva 
+          nec causa alicuius defectus</p>
+        
+        <p xml:id="pgb1q38-d1e4494">2o modo improprie ut notetur praecise causa negationis 
+          requisitae ad esse talis <corr><del rend="strikethrough/expunctuated">d</del>efectus</corr> seu perfectionis ut quia talis causalitas non ponitur 
+          ideo talis perfectio ex parte effectus de est et deficit et sic deus est causa defectus 
+          improprie et secundum quid sic etiam potest dici quod deus est causa <unclear>excaecationis<!-- double check earlier instances of executionem --></unclear> 
+          alicuius scilicet non <sic>dativa</sic> seu nolens dare illuminare modo supradicto 
+          patet per <unclear cert="high">hoc</unclear> ad 3m principale et ad primum et 2m patet per supradicta quid sit dicendum</p> 
+        </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+        <p xml:id="pgb1q38-d1e4530">hic oritur quaestio etc prima conclusio quod deus ea voluntate quae ipse 
+          est quae beneplacitum vocatur non vult aliquid fieri quod non fiat nec non fieri quod 
+          fiat et si obicitur <ref>illud <title ref="#mt">matthaeus</title> <sic>3o</sic></ref> <quote ana="#mt23_37">quotiens volui congregare filios tuos 
+          et noluisti</quote> Item <ref>illud <title ref="#Itim"><sic>2ae <!-- actually Itim --></sic> thymotheum</title> 2o</ref> <quote>vult omnes homines salvos fieri</quote> 
+          et tamen non omnis salvantur haec sic debent intelligi id est quicumque salvantur 
+          et congregantur sola dei voluntate salvantur sicut deus illuminat omnem 
+          hominem venientem in hunc mundum id est nullus illuminatur nisi per ipsum</p>
+        
+        <p xml:id="pgb1q38-d1e4576">2a conclusio quod deus non vult mala fieri sed permittit mala fieri quia si ea 
+          vellet non fieri vel si nolet ea fieri impotens videretur permittit autem 
+          mala fieri licet non vellit quae ex malis <sic>quae<!--should this be omitted--></sic> fiunt facit bona provenire</p>
+        
+        <p xml:id="pgb1q38-d1e4589">3a conclusio aliquid est in se bonum et cui fit sed non facienti sicut subvenire 
+          pauperibus non propter bonum  aliquid est bonum in se et facienti sed non ei cui fit 
+          sicut cum veritas alicui non obiecti praedicatur et aliquid est quod nec est bonum in se 
+          nec facienti sed valet ad aliquid ut ad decorem universi et hoc est malum mala 
+          enim poenae valent ad <sic>emendenda</sic> peccata vel ad probandam seu de<pb ed="#L" n="120ra"/>monstrandam 
+          huius vitae miseriam</p>
+        
+        <p xml:id="pgb1q38-d1e4611">4a conclusio licet omne verum sit a deo et 
+          mala fieri sit verum non tamen propter hoc mala fiunt a deo ita quod veritas 
+          quae est in hoc dicto est a deo sed res dicti scilicet deformitas non est a deo</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
