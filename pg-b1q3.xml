@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -11,18 +11,16 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.03-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 3</title>
           <date when="2014-03-19">March 03, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2014-01-27">January 27, 2013</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -30,16 +28,30 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
       <front>
-        <div type="status">
-          <note type="status">Draft</note>
-          <note type="collobaration">Yes</note>
+        <div xml:id="include-list">
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
         </div>
-        <div xml:id="includeList">
-          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-          <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+        <div xml:id="starts-on">
+          <pb ed="#L" n="18-r"/>
         </div>
       </front>
     <body>
@@ -47,7 +59,8 @@
         <head>Quaestio 3</head>
         <div>
           <head><supplied>Circa textum</supplied></head>
-        <p xml:id="pgb1q3-d1e88">Hoc itaque vera ac pia fide, etc. 
+          <p xml:id="pgb1q3-d1e88">
+            Hoc itaque vera ac pia fide, etc. 
           Postquam <name ref="#Lombard">Magister</name> praemisit quaedam necessaria praeambula in prima distinctione, 
           hic consequenter se <!-- add se in diplomatic -->  continuat ad dicenda in hac distinctione secunda quae in duas partes principales dividitur. 
           <!-- "ad...dividitur" needs to be added to diplomatic --> Nam in prima ponit studentium informationem Sacrae Scripturae, 
@@ -134,7 +147,10 @@
             </cit> 
           Item <name ref="#IsidoreOfSeville">Isidorus</name> valet 
           <cit>
-            <quote>Errare nos fecisti de viis tuis et <sic>indurare fecisti</sic> cor nostrum, <pb ed="#L" n="18v"/> ne timeremus te?</quote>
+            <quote>Errare nos fecisti de viis tuis et <sic>indurare fecisti</sic> cor nostrum, 
+              <pb ed="#L" n="18-v"/> 
+              ne timeremus te?
+            </quote>
             <bibl>Isidore, ??<!--The verse is from Isaiah 63:17, but the text clearly points to "Isidorus." Perhaps Isidore uses the verse to make a similar point.--></bibl>
           </cit> 
           Item 
@@ -191,10 +207,10 @@
           trinam realem pluralitatem seu alteritatem. Haec patet ex dictis in prima. Confirmatur, quia sic est de facto sicut conclusio significat, 
           ergo sic esse est necesse. Antecedens patet ex fide. Consequentia probatur, quia qualitercumque intrinsece est in divina essentia, talis esse est necesse. 
           Patet 
-            <ref>
-              <seg><supplied>per</supplied> <name ref="#Lombard">Magistrum</name> in hac distinctione.</seg>
+            <cit>
+              <ref><supplied>per</supplied> <name ref="#Lombard">Magistrum</name> in hac distinctione.</ref>
               <bibl>Lombard, Sent, I, d. 2</bibl>
-            </ref> 
+            </cit> 
             Item per 
             <ref>
               <name ref="#RichardOfStVictor">Ricardum</name> libro primo <title ref="#RichardOfStVictor_deTrinitate">De Trinitate</title> 
@@ -203,7 +219,7 @@
             dicentem 
             <cit>
               <quote>confidenter<!-- dbcheck confidenter against Stef's notes --> fateamur personas in divinitate secundum substantiam deitas et substantiam significare 
-                <pb ed="#L" n="19r"/> 
+                <pb ed="#L" n="19-r"/> 
                 et plures ibi personas, non plures substantias esse quia sunt plures habentes unum et indifferens esse ex differenti proprietate, unitas.</quote>
               <bibl>Richardus De Sancto Victore, De Trinitate, I, 20</bibl>
             </cit> 
@@ -262,10 +278,10 @@
             <bibl>Lombard, Sententia, I, d. 2, 5 (I:29)</bibl>
           </cit> 
           Sed quod meritorie possit inquiri et per Scripturam doceri et deduci arguitur 
-          <ref>
-            <seg>ex dictis <name ref="#Augustine">Augustini</name></seg>
+          <cit>
+            <ref>ex dictis <name ref="#Augustine">Augustini</name></ref>
             <bibl>Cf. Augustine, De Trinitate, III, 5</bibl>
-          </ref> 
+          </cit> 
           et allegatur a 
           <ref><name ref="#Lombard">Magistro</name> in hac distinctione</ref> dicens quod 
           <cit>
@@ -281,19 +297,19 @@
           scilicet spes habendi vitam aeternam quae fuit una de causis <unclear cert="medium">moventibus</unclear> ad compilationem huius operis.</p>
           
           <p xml:id="pgb1q3-d1e404">Primum corollarium: nullus Sacrae Scripturae textus in suo proprio sensu est falsus. Contra: 
-          <ref>
-            <seg><name ref="#Ockham">Okam</name> in <title ref="#SentencesOckham">Scripto super Sententias</title>.</seg>
+          <cit>
+            <ref><name ref="#Ockham">Okam</name> in <title ref="#SentencesOckham">Scripto super Sententias</title>.</ref>
             <bibl>Ockham, Sententia, XX</bibl>
-          </ref> 
+          </cit> 
           Patet, quia aliter articuli fidei non possent per huius textum probari nec deduci, immo Scriptura redderetur suspecta.</p>
           
           <p xml:id="pgb1q3-d1e420">Secundum corollarium: quod studere in Sacra Scriptura est circumstantia augens merita. 
             Patet, si in caritate et propter Deum fiat et fidei Catholicae non repugnet, immo studere in qualibet scientia non prohibita est meritorium, si imperetur a 
             bono actu voluntatis, 
-            <ref>
-              <seg>ut ostendit <name ref="#FascinusOfAsti">Fascinus</name>.</seg>
+            <cit>
+              <ref>ut ostendit <name ref="#FascinusOfAsti">Fascinus</name>.</ref>
               <bibl>Fascinus de Asti, XX</bibl>
-            </ref> <!-- Fascinus of Asti --></p>
+            </cit> <!-- Fascinus of Asti --></p>
           
           <p xml:id="pgb1q3-d1e433">Tertium corollarium est pars conclusionis affirmativa, scilicet quod potest probari per textum Sacrae Scriptura, etc. <unclear>Patet <!-- could be paret --></unclear> <supplied>per</supplied> dicta.</p>
         </div>
@@ -308,52 +324,84 @@
               <bibl>Cicero, De natura deorum, II, XX</bibl>
             </cit> 
             Ad idem est 
-            <ref>
-              <seg><name ref="#Augustine">Augustinus</name> <title ref="Confessions">Confessionum</title> capitulo octavo</seg>
+            <cit>
+              <ref><name ref="#Augustine">Augustinus</name> <title ref="Confessions">Confessionum</title> capitulo octavo</ref>
               <bibl>Augustinus, Confessionum, XX</bibl>
-            </ref> 
+            </cit> 
             loquens de <name ref="#Platonists">Platonicis</name>, ubi dicit quod ipse ratione devenerit ad notitiam non solum divinae essentiae sed etiam Trinitatis.</p>
           
           <p xml:id="pgb1q3-d1e467">Secundo sic: omnis perfectio reperta in creaturis debet Deo attribui, sed generare est perfectio in creatura, ergo.</p>
           
-          <p xml:id="pgb1q3-d1e470">Tertio: quanto natura est actualior, tanto <pb ed="#L" n="19v"/> est fecundior; sed divina natura est infinita actualiter; 
+          <p xml:id="pgb1q3-d1e470">Tertio: quanto natura est actualior, tanto 
+            <pb ed="#L" n="19-v"/> 
+            est fecundior; sed divina natura est infinita actualiter; 
             ergo infinitae fecunditatis.</p>
           
-          <p xml:id="pgb1q3-d1e475">Quarto: omne bonum est sui ipsius communicativum naturaliter; sed Deus est infinitum bonum, ergo <supplied>etc</supplied>. Maior est 
-            <ref>
-              <seg><name ref="#Dionysius">Dionysius</name> <title ref="#deDivinisNominibus">De divinis nominibus</title> capitulo 12o.</seg>
+          <p xml:id="pgb1q3-d1e475">
+            Quarto: omne bonum est sui ipsius communicativum naturaliter; 
+            sed Deus est infinitum bonum, ergo <supplied>etc</supplied>. 
+            Maior est 
+            <cit>
+              <ref>
+                <name ref="#Dionysius">Dionysius</name> 
+                <title ref="#deDivinisNominibus">De divinis nominibus</title> 
+                capitulo 12o
+              </ref>
               <bibl>Pseudo-Dionysius, De divinis nominibus, XX 
                 <!-- This axiom, which is cited by the Scholastics as taken from the IV chapter of the “De divinis nominibus”, 
                   is in reality NOT by Denys, although dyonisian in character.
                   See: Julien Peghaire, L’aziom bonum est diffusivum sui dans le neoplatonisme et le thomisme. 
                   J.P. Jossua, L’axiome bonum est diffusivum sui chez S. Thomas d’Aquin. -->
               </bibl>
-            </ref> 
+            </cit>. 
             Et minor est 
-            <ref>
-              <seg><name ref="#Anselm">Anselmus</name> in suo <title ref="#Proslogion">Proslogion</title> capitulis multis.</seg>
-              <bibl>Anselmus, Proslogion, XX</bibl>
-            </ref>
+            <cit>
+              <ref>
+                <name ref="#Anselm">Anselmus</name> 
+                in suo <title ref="#Proslogion">Proslogion</title> 
+                capitulis multis
+              </ref>
+              <bibl>Anselmus, Proslogion, 2, 3, 13, 20 (I, 101-103, 110-111, 115-116)</bibl>
+            </cit>.
           </p>
-        
-        <p xml:id="pgb1q3-d1e499">Contra secundam conclusionem: <mentioned>si essent tres personae</mentioned> etc, 
-          sequitur quod in divinis est relatio et oppositio relationis, vel ergo erit una tantum vel plures. 
-          Si solum unam, ergo erunt tantum duo supposita seu duae personae. Si vero plures, ergo erunt ibi ad minus quattuor supposita quod est haeresis. 
-          Patet consequentia, quia omnis oppositio relativa requirit duo extrema, scilicet generare et generari, spirare et spirari.</p>
-        
-        <p xml:id="pgb1q3-d1e502">Secundo sic: Deus omne modo est idem, quo simpliciter est melius esse idem quam non idem; sed esse idem essentialiter 
-          <app>
-            <lem><supplied>et</supplied></lem>
-            <rdg wit="#L">est</rdg>
-          </app> 
-          personaliter est melius quam non esse sic idem, ergo <supplied>etc</supplied>. Maior patet <supplied>per</supplied> 
-          <ref>
-            <seg><name ref="#Anselm">Anselmum</name> <supplied>in</supplied> <title ref="#Monologion">Monologion</title> 15o.</seg>
-            <bibl>Anselmus, Monologion, 15</bibl>
-          </ref> 
-          Minor patet quia quod convenit Patri et cuilibet personae est melius ipsum quam non ipsum. Sed esse idem essentialiter et personaliter convenit cuilibet personae, ergo sic idem melius ipsum quam non ipsum. Minor patet, quia quaelibet persona personaliter et essentialiter est idem essentiae divinae.</p>
-        
-        <p xml:id="pgb1q3-d1e518">Tertio: sequitur quod sunt tres aeternae personae divinae, et tamen non sunt tres aeternae. Consequens 
+          <p xml:id="pgb1q3-d1e499">
+            Contra secundam conclusionem: <mentioned>si essent tres personae</mentioned> etc, 
+            sequitur quod in divinis est relatio et oppositio relationis, 
+            vel ergo erit una tantum vel plures. 
+            Si solum unam, ergo erunt tantum duo supposita seu duae personae. 
+            Si vero plures, ergo erunt ibi ad minus quattuor supposita quod est haeresis. 
+            Patet consequentia, quia omnis oppositio relativa requirit duo extrema, 
+            scilicet generare et generari, spirare et spirari.
+          </p>
+          <p xml:id="pgb1q3-d1e502">
+            Secundo sic: Deus omne modo est idem, quo simpliciter est melius esse idem quam non idem; sed esse idem essentialiter 
+            <app>
+              <lem type="conjecture-supplied"><supplied>et</supplied></lem>
+              <rdg wit="#L">est</rdg>
+            </app>
+            personaliter est melius quam non esse sic idem, ergo <supplied>etc</supplied>. Maior patet <supplied>per</supplied> 
+            <cit>
+            <ref>
+              <name ref="#Anselm">Anselmum</name> 
+              <title ref="#Monologion">Monologion</title> 
+              15o
+            </ref>
+            <bibl>
+              Anselmus, 
+              <title>Monologion</title>, 
+              15 (I, 28-29).
+            </bibl>
+          </cit>.
+          Minor patet quia quod convenit Patri et cuilibet personae est melius ipsum quam non ipsum. 
+          Sed esse idem essentialiter et personaliter convenit cuilibet personae, 
+          ergo sic idem melius ipsum quam non ipsum. 
+          Minor patet, quia quaelibet persona personaliter 
+          et essentialiter est idem essentiae divinae.
+        </p>
+        <p xml:id="pgb1q3-d1e518">
+          Tertio: sequitur quod sunt tres aeternae personae divinae, 
+          et tamen non sunt tres aeternae. 
+          Consequens 
           <app>
             <lem><supplied>implicatur</supplied>.</lem>
             <rdg wit="#L">implicat</rdg>
@@ -382,14 +430,16 @@
           
           <p xml:id="pgb1q3-d1e545">Contra primum corollarium: quia multae sunt propositiones quae videntur falsae in sensu litterali, 
             sed ille est proprius sensus Scripturae, ergo <supplied>etc</supplied>. Antecedens patet <supplied>in</supplied> 
-            <ref>
-              <seg><title ref="#io">Iohannes</title> 
+            <cit>
+              <ref>
+                <title ref="#io">Iohannes</title> 
                 <app>
-                  <lem><supplied>10o</supplied></lem>
+                  <lem type="conjecture-supplied"><supplied>10o</supplied></lem>
                   <rdg wit="#L">4o</rdg>
                 </app>
-              </seg>
-            </ref> 
+              </ref>
+              <bibl>Ioahnnes 10, XXX</bibl>
+            </cit> 
             ubi Christus dicit 
             <cit>
               <quote ana="#io10_9">ego sum hostium.</quote>
@@ -405,49 +455,56 @@
               <rdg wit="#L">doctorum</rdg>
             </app> 
             inter se contradicunt, ergo. Antecedens patet de 
-            <ref>
-              <seg><name ref="#Augustine">Augustino</name></seg>
+            <cit>
+              <ref><name ref="#Augustine">Augustino</name></ref>
               <bibl>Augustine, XX</bibl>
-            </ref> et 
-            <ref>
-              <seg><name ref="#Jerome">Ieromino</name> <title>Super epistola Pauli ad Galatas</title> in multis passibus.</seg>
+            </cit> et 
+            <cit>
+              <ref><name ref="#Jerome">Ieromino</name> <title>Super epistola Pauli ad Galatas</title> in multis passibus.</ref>
               <bibl>Jerome, XX</bibl>
-            </ref> 
+            </cit> 
             Item, confirmatur antecedens quia evangelistae inter se videntur discordare. Patet, quia, ob hoc, videtur <name ref="#Augustine">Augustinus</name> 
             fecisse 
-            <ref>
-              <seg>librum <title ref="#DeConsensuEvangelistarum"><!-- dbcheck and change this id -->De concordia Evangelistarum</title>.</seg>
+            <cit>
+              <ref>librum <title ref="#DeConsensuEvangelistarum"><!-- dbcheck and change this id -->De concordia Evangelistarum</title>.</ref>
               <bibl>Augustine, De concordia Evangelistarum, XX</bibl>
-            </ref>
+            </cit>
           </p>
           
-          <p xml:id="pgb1q3-d1e578">Item, contra conclusionem et secundum corollarium: quia studentes theologiam periculo errandi se exponunt, 
+          <p xml:id="pgb1q3-d1e578">
+            Item, contra conclusionem et secundum corollarium: quia studentes theologiam periculo errandi se exponunt, 
             ergo nullus eam debet studere, nec eius meritorium est studium. Patet antecedens, quia ibi miscentur dicta 
             philosophorum et haereticorum quae legere in propriis locis non licet nec expedit, ut patet de <name ref="#Jerome">Ieromino</name>, qui graviter fuit 
-            percussus eo quod legit libros <name ref="#Cicero">Ciceronis</name> ut habetur in eius legenda.</p>
+            percussus eo quod legit libros <name ref="#Cicero">Ciceronis</name> ut habetur in eius legenda.
+          </p>
         
-        <p xml:id="pgb1q3-d1e587">Item, per studium theologiae acquiritur habitus faciliter credendi, ergo per illud perdit studens unam circumstantiam augentem meritum. 
+        <p xml:id="pgb1q3-d1e587">
+          Item, per studium theologiae acquiritur habitus faciliter credendi, ergo per illud perdit studens unam circumstantiam augentem meritum. 
           Antecedens patet. Et consequentia probatur, quia difficultas credendi est circumstantia augens meritum, unde 
-          <ref><name ref="#Jerome">Ierominus</name> in quaedam epistola</ref> 
+          <ref>
+            <name ref="#Jerome">Ierominus</name> in quaedam epistola
+          </ref> 
           <cit>
             <quote>res maioris est meriti quae maioris est laboris.</quote>
             <bibl>Jerome, Exhortatio ad sponsam Christi, XX</bibl>
           </cit> 
           Item 
-          <ref><name ref="#Ambrose">Ambrosius</name> in libro <title>De Cain et Abel</title>,</ref> 
+          <ref>
+            <name ref="#Ambrose">Ambrosius</name> in libro <title>De Cain et Abel</title>
+          </ref>, 
           <cit>
             <quote>omnis virtus in labore consistit.</quote>
             <bibl>Ambrose, De Cain et Abel, XX</bibl>
           </cit>
         </p>
-        
-        <p xml:id="pgb1q3-d1e605">Ad idem videtur esse 
-          <ref>
-            <seg><name ref="#Aristotle">Philosophus</name> II <title ref="#Ethics">Ethicorum</title></seg>
+        <p xml:id="pgb1q3-d1e605">
+          Ad idem videtur esse 
+          <cit>
+            <ref><name ref="#Aristotle">Philosophus</name> II <title ref="#Ethics">Ethicorum</title></ref>
             <bibl>Aristotle, Ethics, II, XXX</bibl>
-          </ref> 
+          </cit> 
           ex quibus videtur sequi quod eligibilior esset status simplicis 
-          <pb ed="#L" n="20r"/> 
+          <pb ed="#L" n="20-r"/> 
           fidelis viatoris quam profundi ac subtilis doctoris.</p>
           
           <p xml:id="pgb1q3-d1e623">Ad primum: quidquid sit de antecedente, negatur consequentia. 
@@ -458,10 +515,10 @@
             sed in libro cuiusdam <name ref="#Platonists">Platonici</name>. Sed plures fuerunt <name ref="#Platonists">Platonici</name> post adventum Christi, 
             sicut <name ref="#Porphyry">Porphyrius</name>, <name ref="#Plotinus">Plotinus</name>, et <name>Apuleius</name>, qui forte fuerunt boni. 
             Secundo potest dici quod si aliquid noviter de Trinitate hanc habuerit ex divina inspiratione, sicut dicit 
-            <ref>
-              <seg><name ref="#Augustine">Augustinus</name> de <unclear cert="low">hermete Mercurii</unclear> in sermone <title>Contra quinque haereses</title>.</seg>
+            <cit>
+              <ref><name ref="#Augustine">Augustinus</name> de <unclear cert="low">hermete Mercurii</unclear> in sermone <title>Contra quinque haereses</title>.</ref>
               <bibl>Augustine, Adv. Quinq. Haer. 3, 1-21, (CCM 60, 264-268)</bibl>
-            </ref>
+            </cit>
           </p>
           
           <p xml:id="pgb1q3-d1e670">Ad <supplied>secundum</supplied>: primo posset maior negari, quia mereri vel posse mereri est perfectio in creatura, 
@@ -488,26 +545,32 @@
           ideo <name ref="#Athanasius">Athanasius</name> primum concedit et secundum negat.</p>
           
         <p xml:id="pgb1q3-d1e706">Ad quartum: negatur consequentia, et ad probationem dicitur secundum 
-          <ref>
-            <seg><name ref="#ThomasStrasbourg">Thomas de Argentina</name> <supplied>in</supplied> distinctione secunda primi, articulo primo</seg>
+          <cit>
+            <ref><name ref="#ThomasStrasbourg">Thomas de Argentina</name> <supplied>in</supplied> distinctione secunda primi, articulo primo</ref>
             <bibl>Thomas of Strasburg</bibl>
-          </ref> 
+          </cit> 
           quod <mentioned>dicitur</mentioned> sumitur dupliciter in divinis. Uno modo proprie, et sic idem est quod Verbum concipere, et sic sumit ipsum 
-          <ref>
-            <seg><name ref="#Augustine">Augustinus</name> <unclear cert="low">VII</unclear> <title ref="#deTrinitate">De Trinitate</title></seg>
+          <cit>
+            <ref><name ref="#Augustine">Augustinus</name> <unclear cert="low">VII</unclear> <title ref="#deTrinitate">De Trinitate</title></ref>
             <bibl>Augustine, De Trinitate, VII, xxx</bibl>
-          </ref> 
+          </cit> 
           dicens quod non nisi Pater est dicens adintra. Alio modo sumit <mentioned>dicere</mentioned> pro perfecte intelligere, et sic quaelibet persona dicit se. 
           Et conformiter posset dici de intelligere, sic accipit 
-          <ref>
-            <seg><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> <unclear cert="low">57</unclear> et 59 capitulis</seg>
-            <bibl>Anselm, Monologion, xxx</bibl>
-          </ref> 
+          <cit>
+            <ref>
+              <name ref="#Anselm">Anselmus</name> 
+              <title ref="#Monologion">Monologion</title> 
+              <unclear cert="low">57</unclear> et 59 capitulis
+            </ref>
+            <bibl>
+              Anselm, <title>Monologion</title>, 57 and 59 (I, 68-70)
+            </bibl>
+          </cit>
           ubi dicit <supplied>quod</supplied> singulae personae se dicunt et quaelibet illarum se dicit. Si autem quaeritur evidens ratio quare Filius non producit Filium per suum dicere sicut Pater, potest dici cum 
-          <ref>
-            <seg><name ref="#Anselm">Anselmus</name>, <title ref="#Monologion">Monologion</title> 85o et 68o capitulis,</seg>
-            <bibl>Anselm, Monologion, xxx</bibl>
-          </ref> 
+          <cit>
+            <ref><name ref="#Anselm">Anselmus</name>, <title ref="#Monologion">Monologion</title> 85o et 68o capitulis,</ref>
+            <bibl>Anselm, Monologion, non invenimus<!-- problematic; needs review --></bibl>
+          </cit> 
           quod hoc transcendit omnis intellectus humani 
           <app>
             <lem><supplied>actum</supplied></lem>
@@ -518,64 +581,75 @@
           tamen ad haec aliqua est et ideo credendo debemus captivare intellectum.</p>
       
           <p xml:id="pgb1q3-d1e756">Ad primum, contra tertiam conclusionem: negatur antecedens, Nam patet 
-            <ref>
-              <seg><title ref="#mt"><unclear>Matthaeus</unclear></title> ultimo</seg>
+            <cit>
+              <ref><title ref="#mt"><unclear>Matthaeus</unclear></title> ultimo</ref>
               <bibl>Matthaeus, xxx</bibl>
-            </ref> 
-            <ref>
-              <seg><title ref="#io">Ioahnnes</title> primo</seg>
+            </cit> 
+            <cit>
+              <ref><title ref="#io">Ioahnnes</title> primo</ref>
               <bibl>Iohannes, xxx</bibl>
-            </ref> 
+            </cit> 
             et etiam 
-            <ref>
-              <seg>in <title ref="#Decretals">Decretis</title> Romanorum Pontificum,</seg>
+            <cit>
+              <ref>in <title ref="#Decretals">Decretis</title> Romanorum Pontificum,</ref>
               <bibl>Decreti Romanorum Pontificum, xxx</bibl>
-            </ref> 
+            </cit> 
             quibus, qui contradiceret, censeretur haereticus, nolo tamen dicere illa decreta esse Scriptura Sacra.</p> 
         
           <p xml:id="pgb1q3-d1e768">Ad secundum: primo posset antecedens negari, loquendo de propositionibus quae non solum narrative, 
             sed et assertive ponuntur in textu Sacrae Scripturae. Secundo, pro intellectu nota quod ille dicitur sensus proprius alicuius 
             Scripturae quem sensum auctor Scripturae per ipsam intendit. Hoc ostendit 
-            <ref>
-              <seg><name ref="#RichardFitzRalph">Armacanus</name> libro primo <title ref="#deQuaestionibusArmenorum">De quaestionibus Armenorum</title> 
-                tunc principium illius libri.</seg>
+            <cit>
+              <ref>
+                <name ref="#RichardFitzRalph">Armacanus</name> libro primo 
+                <title ref="#deQuaestionibusArmenorum">De quaestionibus Armenorum</title> 
+                tunc principium illius libri.
+              </ref>
               <bibl>Richard FitzRalph, De quaestionibus Armenorum, xxx</bibl>
-            </ref> 
-            <pb ed="#L" n="20v"/> 
+            </cit> 
+            <pb ed="#L" n="20-v"/> 
             Secundo, nota quod, cum Scriptura habeat plures sensus, si veritas alicuius textus non potest haberi secundum unum sensum, est 
             recurrendum ad alium cui aliae Scripturae magis concordat, et est summe cavendum, ne figurativa locutio ad litteram 
             accipiatur, et e converso ne vera et propria locutio ad figuram mutetur et figurativa putetur.</p> 
           
           <p xml:id="pgb1q3-d1e781">Tertio, notandum quod, licet per Scripturam quandoque significetur unum per similitudinem, tamen non oportet propter hoc quod idem in quolibet loco per illud idem significetur unum per similitudinem. Ista notabilia ponit 
-            <ref>
-              <seg><name ref="#Augustine">Augustinus</name> III <title ref="#deDoctrinaChristiana">De doctrina Christiana</title></seg>
+            <cit>
+              <ref><name ref="#Augustine">Augustinus</name> III <title ref="#deDoctrinaChristiana">De doctrina Christiana</title></ref>
               <bibl>Augustine, De doctrina Christiana, III, xxx</bibl>
-            </ref> 
+            </cit> 
             et ponit de omnibus exemplum.</p>
           
-          <p xml:id="pgb1q3-d1e791">Ad confirmationem dicitur quod doctores non sunt Sacrae Scripturae auctores, sed tantum expositores. 
+          <p xml:id="pgb1q3-d1e791">
+            Ad confirmationem dicitur quod doctores non sunt Sacrae Scripturae auctores, sed tantum expositores. 
             De evangelistis dicitur quod in nullo passu discordant realiter, et insignum huius liber ille non vocatur de 
             <mentioned>discordia</mentioned> sed <mentioned>concordia evangelistarum</mentioned>. Si tamen diceretur de <mentioned>discordia</mentioned> 
-            illa non esset vera et realis, sed solum aestimata, vel opinata, et verbalis.</p>
+            illa non esset vera et realis, sed solum aestimata, vel opinata, et verbalis.
+          </p>
           
           <p xml:id="pgb1q3-d1e806">Ad aliud: negatur antecedens. Si studeat qualiter debet, debet enim talis non quaerere intelligere ut credat, sed 
             <cit>
               <quote>credere ut intelligat</quote>
-              <bibl>Anselm, Prosologion, prologus, xxx</bibl>
+              <bibl>Anselm, Prosologion, 1, (I, 100, ll. 18-19)</bibl>
             </cit> 
             ut dicit 
-            <ref><name ref="#Anselm">Anselmus</name> in fine prologi sui <title ref="#Proslogion">Proslogion</title>.</ref> 
+            <ref>
+              <name ref="#Anselm">Anselmus</name> 
+              in fine prologi sui <title ref="#Proslogion">Proslogion</title>
+            </ref>.
             Ad probationem <mentioned>de dictis haereticorum,</mentioned> etc., dicitur quod legere talia dicta ad verorum eruditionem et falsorum 
             reprobationem est licitum; sed illa legere ad credulitatem vel imitationem, seu assertionis vanitatem vel delectionem inordinatam non est licitum, 
             et forte <name ref="#Jerome">Ierominus</name> ideo fuit flagellatus et percussus, quia illa cum delectionem legebat, quia forte amore illorum 
-            meliora et utiliora omittebat.</p>
-        
-          <p xml:id="pgb1q3-d1e822">Ad ultimum dicitur quod, licet studens facilius credat, non tamen propter hoc eius meritum minuitur, quia loco eius 
+            meliora et utiliora omittebat.
+          </p>
+          <p xml:id="pgb1q3-d1e822">
+            Ad ultimum dicitur quod, licet studens facilius credat, non tamen propter hoc eius meritum minuitur, quia loco eius 
             circumstantiae acquirit alias meliores, sicut intensius credere vel extensius, expressius, et verius. Per huiusmodi enim habitum subordinat 
-            fidem sua caritati et in Deum dirigit <unclear cert="high">actualiter</unclear>.</p>
-          
-          <p xml:id="pgb1q3-d1e828">Secundo posset dici negando antecedensm quia non semper subtilior theologus facilius credit, immo occurrunt sibi plures rationes et 
-            instantiae quas simplices fideles non advertunt.</p>
+            fidem sua caritati et in Deum dirigit <unclear cert="high">actualiter</unclear>.
+          </p>
+          <p xml:id="pgb1q3-d1e828">
+            Secundo posset dici negando antecedens<!--m dbcheck if this is just type--> quia non semper subtilior theologus facilius credit, immo occurrunt sibi plures rationes et 
+            instantiae quas simplices fideles non advertunt.
+          </p>
           
           <p xml:id="pgb1q3-d1e831">Ex dictis patet quod non sequitur ex eis <supplied>quod</supplied> per studium theologiae acquiritur notitia respectu articuli fide 
             superior, ergo idem est evidens et inevidens, evidens per scientiam, inevidens per fidem, sed bene sequitur quod assentit articulo per aliquod medium 
@@ -599,7 +673,7 @@
           
           <p xml:id="pgb1q3-scqeap">Secunda conclusio: quod in Deo est Deus, licet Pater genuerit Filium, et ideo Filius non sit qui Pater est Filiusque Patre genitus sit. 
             Ideo Pater non sit qui Filius est et Spiritus Sanctus nec potest fit nec Filius, sed tantum 
-            <pb ed="#L" n="21r"/> 
+            <pb ed="#L" n="21-r"/> 
             Patris et Filii Spiritus utrique coaequalis et consubstantialis nec ibi est aliud et aliud neutraliter sed alius et alius personaliter.</p>
           
           <p xml:id="pgb1q3-d1e90"><g ref="#pilcrow"/>Tertia conclusio: quod omnis catholica tractatores qui de Trinitate 
