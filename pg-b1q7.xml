@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -10,18 +11,16 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.04-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 7</title>
           <date when="2014-04-14">April 04, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,34 +28,41 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-14" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="28-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q7">
-        <head>Quaestio 7</head>
-         <div>
-           <head><supplied>Circum Textum</supplied></head>
+        <head xml:id="pg-b1q7-Hd1e3724">Quaestio 7</head>
+         <div xml:id="pg-b1q7-Dd1e3727">
+           <head xml:id="pg-b1q7-Hd1e3729"><supplied>Circum Textum</supplied></head>
            <p xml:id="pgb1q7-d1e83">
-             <pb ed="#L" n="28v"/>
+             <pb ed="#L" n="28-v"/>
              <cit>
-               <quote>Praeterea quaeri solet</quote>
+               <quote xml:id="pg-b1q7-Qd1e3739">Praeterea quaeri solet</quote>
                <bibl>Lombard, Sent., I, d. 6</bibl>
               </cit> 
               Haec est distinctio sexta, quae ad praecedentem 
@@ -65,132 +71,139 @@
               modum et dividitur in tres partes. Nam primo quaestionem proponit, secundo solutionem apponit, 
               et tertio declarationem responsionis exponit. Secunda ibi 
              <cit>
-               <quote>circa primum nec voluntate nec necessitate.</quote>
+               <quote xml:id="pg-b1q7-Qd1e3751">circa primum nec voluntate nec necessitate.</quote>
                <bibl>Lombard, Sent., I, d. 6</bibl>
              </cit> 
               Tertia ibi 
              <cit>
-               <quote>praedicta tamen verba.</quote>
+               <quote xml:id="pg-b1q7-Qd1e3760">praedicta tamen verba.</quote>
                <bibl>Lombard, Sent., I, d. 6</bibl>
              </cit>
            </p>
-           
            <p xml:id="pgb1q7-d1e112">Secunda dividitur in duas, quia primo circa solutionem 
               ponit suam intentionem, secundo apponit et solvit obiectionem. 
               Secunda ibi 
              <cit>
-               <quote>sed contra hoc opponitur.</quote>
+               <quote xml:id="pg-b1q7-Qd1e3772">sed contra hoc opponitur.</quote>
                <bibl>Lombard, Sent., I, d. 6</bibl>
              </cit>
            </p>
-            
             <p xml:id="pgb1q7-d1e118">Tertia etiam dividitur in duas. Nam primo circa declarationem praemittit quod intendit; secundo 
               declarationem esse veram concludit. Secunda ibi 
               <cit>
-                <quote>dicamus ergo</quote>
+                <quote xml:id="pg-b1q7-Qd1e3784">dicamus ergo</quote>
                 <bibl>Lombard, Sent., I, d. 6</bibl>
               </cit> 
-              etc.</p>
+              etc.
+            </p>
          </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            
-            <p xml:id="pgb1q7-d1e127">Quaeritur circa eam: utrum memoria Patris fecunda complacenter et libere Filium, qui est 
-              persona secunda determinetur gignere.</p>
-            
-            <p xml:id="pgb1q7-qnqeon">Quod non quia Pater producit 
+        <div xml:id="pg-b1q7-Dd1e3793">
+          <head xml:id="pg-b1q7-Hd1e3795"><supplied>Quaestio</supplied></head>
+          <div xml:id="pg-b1q7-Dd1e3799">
+            <head xml:id="pg-b1q7-Hd1e3801"><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q7-d1e127">
+              Quaeritur circa eam: utrum memoria Patris fecunda complacenter et libere Filium, qui est 
+              persona secunda determinetur gignere.
+            </p>
+            <p xml:id="pgb1q7-qnqeon">
+              Quod non quia Pater producit 
               <app>
-                <lem><supplied>naturaliter</supplied></lem>
+                <lem type="conjecture-supplied"><supplied>naturaliter</supplied></lem>
                 <rdg wit="#L">naturae</rdg>
               </app> 
               ergo non libere. 
               Consequentia tenet et antecedens probatur per 
               <ref><name ref="#JohnDamascenus">Damascenum</name> <supplied>in</supplied> libro primo capitulo octavo</ref> dicens 
               <cit>
-                <quote>generatio est opus naturae.</quote>
+                <quote xml:id="pg-b1q7-Qd1e3830">generatio est opus naturae.</quote>
                 <bibl>Iohannes Damascenus, De Fide Orthodoxa, I, 8 (PL XXX)</bibl>
               </cit>
             </p>
-            
-            <p xml:id="pgb1q7-d1e146">Secundo sequeretur quod Filii generatio esset voluntatis operatio. Consequens videtur falsum, quia est actus 
+            <p xml:id="pgb1q7-d1e146">
+              Secundo sequeretur quod Filii generatio esset voluntatis operatio. Consequens videtur falsum, quia est actus 
               memoriae Patris. Patet consequentia, quia complacentia seu complacere est actus voluntatis, secundum 
-              <ref>
-                <seg><name ref="#Anselm">Anselmum</name> <title ref="#deConceptuVirginali">De Conceptu Virginali</title>, capitulo secundo</seg>
-                <bibl>Anselmus, De Conceptu Virginali, c. 2, XXX</bibl>
-              </ref> 
+              <cit>
+                <ref>
+                  <name ref="#Anselm">Anselmum</name> <title ref="#deConceptuVirginali">De Conceptu Virginali</title>, 
+                  capitulo secundo</ref>
+                <bibl>Anselmus, De Conceptu Virginali, 3, (II, 143, ll. 16-21)</bibl>
+              </cit> 
               Confirmatur, quia actus suppositi paternalis est actus 
               essentialis: ergo non plus determinatur ad gignendum Filium quam Filius ad hoc determinetur, 
               <unclear>ergo.<!-- unclear if this is the end of the argument or transition to next sentence --></unclear> Conclusio falsa, consequentiae bonae, et antecedens apparet, quia omnis actus Patris ad intra est actus immanens 
-              et per consequens essentialis et toti trinitatis communis.</p>
-            
-            <p xml:id="pgb1q7-d1e170">Tertio, Pater nullo modo determinatur 
+              et per consequens essentialis et toti trinitatis communis.
+            </p>
+            <p xml:id="pgb1q7-d1e170">
+              Tertio, Pater nullo modo determinatur 
               ad gignendum Filium, ergo <supplied>etc.</supplied>. Antecedens probatur, quia determinari dicit imperfectionem; ergo Patri nec cuicumque 
               divino supposito attribuendum <supplied>est</supplied>. Probatio antecedentis <supplied>est</supplied> quia a quocumque determinatur aliquid ab illo 
               est effective productum, vel producitur, vel saltem movetur.</p> 
             
-            <p xml:id="pgb1q7-d1e180">In oppositum est 
+            <p xml:id="pgb1q7-d1e180">
+              In oppositum est 
               <ref>
                 <name ref="#Augustinus">Augustinus</name> IX 
                 <title ref="#deTrinitate">De Trinitate</title> capitulo 8</ref> 
               <cit>
-                <quote>verbum amore concipitur.</quote>
+                <quote xml:id="pg-b1q7-Qd1e3886">verbum amore concipitur.</quote>
                 <bibl>Augustinus, De Trinitate, IX, c. 8 (XXX)</bibl>
               </cit> 
               Ad idem est 
-              <ref>
-                <seg><name ref="#Lombard">Magister</name> in fine huius distinctionis sexta,</seg>
+              <cit>
+                <ref><name ref="#Lombard">Magister</name> in fine huius distinctionis sexta,</ref>
                 <bibl>Lombard, Sent., I, d. 6</bibl>
-              </ref> 
+              </cit> 
               ubi allegat 
-              <ref>
-                <seg><name ref="#Augustine">Augustinum</name> <title>Super Epistolam ad Ephesinos</title>.</seg>
+              <cit>
+                <ref><name ref="#Augustine">Augustinum</name> <title>Super Epistolam ad Ephesinos</title>.</ref>
                 <bibl>Augustine, XXX</bibl>
-              </ref>
+              </cit>
               Confirmatur ratione sic: Verbi aeterna 
               generatio est perfectissima operatio, ergo complacens et libera. Consequentia tenet, quia secundum 
-              <ref>
-                <seg><name ref="#Aristotle">Philosophum</name> 2o et 10 <title ref="#Ethics">Ethicorum</title></seg>
+              <cit>
+                <ref><name ref="#Aristotle">Philosophum</name> 2o et 10 <title ref="#Ethics">Ethicorum</title></ref>
                 <bibl>Aristotles, Ethics, X (1174b31-33) <!-- note from stefano: Here, however, Peter is actually copying from Thomas of Strasburg, I Sent., d. 6, q. 2: “Contra, delectabilissima operatio non potest esse sine actu voluntatis, sed generare divinum est delectabilissima operatio, ergo etc. Maior patet, quia nulla potest esse delectation absue complacentia voluntatis; minore probo, quia operatio perfectissima est delectabilisissima; patet, 1 et 10 Ethicorum..." --></bibl>
-              </ref> 
+              </cit> 
               operatio perfectissima est dilectissima. Antecedens probatur, quia quanto terminus productus 
               est maioris perfectionis, tanto operatio seu productio est perfectior; sed Filius 
               in divinis est infinitae perfectionis, ergo et eius productio; sed ad hoc Pater non est indeterminatus, 
               ergo determinatus.</p>
           </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head>
-            <p xml:id="pgb1q7-d1e228">Prima conclusio: licet Verbum infallibile a Patre gignatur immutabiliter 
+          <div xml:id="pg-b1q7-Dd1e3934">
+            <head xml:id="pg-b1q7-Hd1e3936"><supplied>Prima conclusio</supplied></head>
+            <p xml:id="pgb1q7-d1e228">
+              Prima conclusio: licet Verbum infallibile a Patre gignatur immutabiliter 
               necessitate exigentiae, tamen sine imperfectione Pater ipsum generat delectabiliter ac voluntate 
               complacentiae. Prima pars probatur, quia idem qui est purus actus necessario exigit quod 
               existat in tribus suppositis; sed illa tria non essent nisi Pater gigneret et Filium, 
               et Pater et Filius spirarent Spiritum Sanctum; ergo, necessitate naturalis exigentiae, Filius a Patre 
-              gignitur. Et confirmatur, quia pater non potest non gignere Verbum, ergo necessario generat ipsum.</p>
-            
-            <p xml:id="pgb1q7-pclpca">Primum corollarium: licet Pater Verbum gignat necessitate exigentiae, ab hac tamen excluditur 
+              gignitur. Et confirmatur, quia pater non potest non gignere Verbum, ergo necessario generat ipsum.
+            </p>
+            <p xml:id="pgb1q7-pclpca">
+              Primum corollarium: licet Pater Verbum gignat necessitate exigentiae, ab hac tamen excluditur 
               necessitas coactionis et indigentiae. Patet pars prima per conclusionem; sed secunda patet quia, 
-              omnipotens cogi non potest, contra <name ref="#Aureoli">Aureolum</name></p>
-            
-            <p xml:id="pgb1q7-d1e289">Secundum corollarium: quam repugnat Spiritum Sanctum 
+              omnipotens cogi non potest, contra <name ref="#Aureoli">Aureolum</name>
+            </p>
+            <p xml:id="pgb1q7-d1e289">
+              Secundum corollarium: quam repugnat Spiritum Sanctum 
               a Verbo non spirari, tam necessario concurrit amor essentialis ad Verbum generari. 
               Patet per conclusionis partem, quae probatur per 
-              <ref>
+              <ref corresp="#pg-b1q7-Qd1e3961">
                 <name ref="#RichardOfStVictor">Richardum</name>, <title ref="#RichardOfStVictor_deTrinitate">De Trinitate</title> libro sexto, capitulo 17,
               </ref> 
               dicentem 
               <cit>
-                <quote>ingenitum velle de se habere conformem atque condignum idem videtur mihi quod gignere</quote>
+                <quote xml:id="pg-b1q7-Qd1e3961">ingenitum velle de se habere conformem atque condignum idem videtur mihi quod gignere</quote>
                 <bibl>Richardus de Sancto Victore, De Trinitate, VI, c. 17 (XXX)</bibl>
               </cit>
-              <pb ed="#29r"/>
+              <pb ed="#L" n="29-r"/>
               Ad idem est 
-              <ref>
+              <ref corresp="#pg-b1q7-Qd1e3981">
                 <name ref="#Dionysius">Dionysius</name> <title ref="#deDivinisNominibus">De divinis nominibus</title>
               </ref> 
               dicens 
               <cit>
-                <quote>amor divinus non dimisit Deum esse sine 
+                <quote xml:id="pg-b1q7-Qd1e3981">amor divinus non dimisit Deum esse sine 
                   <sic>gignitione germinis. <!-- actual text of Dionysius has "sine germine" --></sic></quote>
                 <bibl>Pseudo-Dionysius, De divnis nominibus, c. 4 (XXX)</bibl>
               </cit> 
@@ -199,42 +212,44 @@
                 <title ref="#mt">Matthaeus</title> tertio,
               </ref> 
               <cit>
-                <quote ana="#mt3_17">Hic est Filius meus dilectus in quo mihi bene</quote>
+                <quote xml:id="pg-b1q7-Qd1e4000" ana="#mt3_17">Hic est Filius meus dilectus in quo mihi bene</quote>
                 <bibl>Matthaeus 3:17</bibl>
               </cit> 
-              etc</p>
-        
-            <p xml:id="pgb1q7-d1e344">Tertium corollarium: Pater, seu fecunditas paternae memoriae, nullo modo, postquam Verbum produxit, 
+              etc.
+            </p>
+            <p xml:id="pgb1q7-d1e344">
+              Tertium corollarium: Pater, seu fecunditas paternae memoriae, nullo modo, postquam Verbum produxit, 
               potuit aut voluit Verbum producere. Patet, quia aliter ipsum genuisset voluntate 
               antecedente, <supplied>quod est</supplied> contra 
-              <ref>
-                <seg><name ref="#Augustine">Augustinum</name> <title>ad Orosium</title>, quaestionem 8,</seg>
+              <cit>
+                <ref><name ref="#Augustine">Augustinum</name> <title>ad Orosium</title>, quaestionem 8</ref>
                 <bibl>Augustinus, Ad Orosium, XXX</bibl>
-              </ref> 
+              </cit>, 
               et contra 
-              <ref>
-                <seg><name ref="#Lombard">Magistrum</name> in littera.</seg>
+              <cit>
+                <ref><name ref="#Lombard">Magistrum</name> in littera</ref>
                 <bibl>Lombard, Sent., I, XXX</bibl>
-              </ref> 
+              </cit>. 
               Item, tunc aliqua prioritas 
               esset in divinis, quod est contra dicta in 
-              <ref>
-                <seg>alia quaesitone.</seg>
+              <cit>
+                <ref>alia quaesitone</ref>
                 <bibl>Cross-Reference, XXX</bibl>
-              </ref>
+              </cit>.
             </p>
           </div>
-          
-          <div>
-            <head><supplied>Secunda conclusio</supplied></head>
-            <p xml:id="pgb1q7-d1e370">Secunda conclusio: quam repugnat paternam memoriam 
+          <div xml:id="pg-b1q7-Dd1e4049">
+            <head xml:id="pg-b1q7-Hd1e4051"><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q7-d1e370">
+              Secunda conclusio: quam repugnat paternam memoriam 
               verbum fallibile ab aeterno produxisse, tam repugnat omnem actum aeternalem esse 
               notionalem vel fuisse. Prima pars patet per dicta in alia conclusione. Confirmatur, tamen, quia repugnat 
               aliquod fallibile existere et non mensurari tempore; ergo nullum tale potuit producit 
               sine <supplied>tempore</supplied>. Secunda pars probatur, quia actus praedestinationis <name ref="#Peter">Petri</name> vel alterius est actus aeternus 
-              et non est notionales, immo tribus personis communis, ergo <supplied>etc.</supplied>.</p>
-            
-            <p xml:id="pgb1q7-d1e387">Primum corollarium: nullius rei 
+              et non est notionales, immo tribus personis communis, ergo <supplied>etc.</supplied>.
+            </p>
+            <p xml:id="pgb1q7-d1e387">
+              Primum corollarium: nullius rei 
               futuritio aut eius privatio caruit simpliciter temporis initio, seu semper fuit aut 
               aeternalem. Patet quia futuritio et privatio et similia aut illa sunt aliquid aut nihil. Si nihil, 
               ergo non fuerunt temporaliter nec aeternaliter. Si sunt aliquid, aut creator vel creatura; non primum, 
@@ -244,260 +259,287 @@
               quia non fuerunt ab aeterno. Secundo posset inferri quod ad <unclear cert="low">negationes</unclear> rerum aeternaliter extitisse 
               sequitur Deum ad extra aliquid produxisse aeternaliter. Patet quia, si Deus aeternaliter extra se nihil 
               produxit, nullius rei ab aeterno <unclear cert="low">negatio</unclear> extitit, <supplied>quod est</supplied> contra 
-              <ref>
-                <seg><name ref="#HugolinoOfOrvieto">Hugolinum</name>, libro secundo, quaestione secunda, 
-                  articulo quarto</seg>
+              <cit>
+                <ref>
+                  <name ref="#HugolinoOfOrvieto">Hugolinum</name>, libro secundo, quaestione secunda, 
+                  articulo quarto
+                </ref>
                 <bibl>Hugolinus de Urbe Veteri, II, q. 2, a. 4 (XXX)</bibl>
-              </ref>
+              </cit>
             </p>
-            
-            <p xml:id="pgb1q7-d1e427">Secundum corollarium principale: non quilibet actus Patris aeternalis est appropriatus seu 
+            <p xml:id="pgb1q7-d1e427">
+              Secundum corollarium principale: non quilibet actus Patris aeternalis est appropriatus seu 
               notionalis. Patet per secundam partem conclusionis, quia actus quo Pater praescit futurum quodlibet et tribus 
-              suppositis <supplied>non est</supplied> communis et per consequens non est notionalis.</p>
-            
-            <p xml:id="pgb1q7-d1e435">Tertium corollarium: non omnis actus Patris 
+              suppositis <supplied>non est</supplied> communis et per consequens non est notionalis.
+            </p>
+            <p xml:id="pgb1q7-d1e435">
+              Tertium corollarium: non omnis actus Patris 
               cognitivus est Verbi infallibilis productivus. Patet, quia aliquis est actus Patris aeternalis 
-              nullius termini productivus. Patet de actu quo <name ref="#Peter">Petrum</name> praedestinavit.</p> 
+              nullius termini productivus. Patet de actu quo <name ref="#Peter">Petrum</name> praedestinavit.
+            </p> 
           </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head>
-            
-            <p xml:id="pgb1q7-d1e446">Tertia conclusio: licet 
+          <div xml:id="pg-b1q7-Dd1e4110">
+            <head xml:id="pg-b1q7-Hd1e4112"><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q7-d1e446">
+              Tertia conclusio: licet 
               memoria paterna sit fecunda complacenter et libere, tamen ad Verbi generationem 
               non est determinata formaliter et proprie. Patet per primam conclusionem prima pars; secunda probatur, quia sic 
               determinari proprie importat imperfectionem, ergo memoriae paternae non est attribuendum; 
               antecedens patet, quia potentia aliqua respectu cuius determinatur, respectu illius prius fuit in potentia quam in 
-              actu, sed hoc sonat imperfectionem.</p>
-            
-            <p xml:id="pgb1q7-d1e467">Primum corollarium: quam necessario Pater summa beatitudine 
+              actu, sed hoc sonat imperfectionem.
+            </p>
+            <p xml:id="pgb1q7-d1e467">
+              Primum corollarium: quam necessario Pater summa beatitudine 
               fruitur, tam necessario ab eodem Verbum infallibile gignitur. Patet, quia tantum sibi complacet 
               in verbo quantum in se ipso; ideo 
-              <ref>
+              <ref corresp="#pg-b1q7-Qd1e4129">
                 <title ref="#mt">Matthaeus</title> tertio
               </ref> 
               dicit: 
               <cit>
-                <quote ana="#mt3_17">Hic est Filius meus dilectus,</quote>
+                <quote xml:id="pg-b1q7-Qd1e4129" ana="#mt3_17">Hic est Filius meus dilectus</quote>
                 <bibl>Matthaeus 3:17</bibl>
-              </cit> 
-              etc.</p>
-            
-            <p xml:id="pgb1q7-scqese">Secundum corollarium: quam repugnat Patri non esse 
+              </cit>,
+              etc.
+            </p>
+            <p xml:id="pgb1q7-scqese">
+              Secundum corollarium: quam repugnat Patri non esse tam
               <app>
-                <lem>tam</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr><del rend="strikethrough/expunctuated">repugnat</del></corr>
+                <lem n="tam"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough expunctuated">repugnat</del>
                 </rdg>
               </app> 
               ipsum gignere est necesse 
-              patet tum quia sua actio est sibi connaturalis tum etiam quia suum agere est suum esse.</p>
-            
-            <p xml:id="pgb1q7-d1e495">Tertium corollarium: licet a memoria paterna libere complacenter ac naturaliter verbum aeternum 
+              patet tum quia sua actio est sibi connaturalis tum etiam quia suum agere est suum esse.
+            </p>
+            <p xml:id="pgb1q7-d1e495">
+              Tertium corollarium: licet a memoria paterna libere complacenter ac naturaliter verbum aeternum 
               dicatur non tamen proprie aut formaliter ad hoc praedeterminatur. Patet per dicta, ex quibus 
-              potest inferri pars negativa conclusionis.</p>
+              potest inferri pars negativa conclusionis.
+            </p>
           </div>
-          <div>
-            <head><supplied>Obiectiones et Responsiones</supplied></head>
-            
-            <p xml:id="pgb1q7-d1e505">Contra primam conclusionem arguitur: Verbum aeternum non potest 
+          <div xml:id="pg-b1q7-Dd1e4158">
+            <head xml:id="pg-b1q7-Hd1e4160"><supplied>Obiectiones et Responsiones</supplied></head>
+            <p xml:id="pgb1q7-d1e505">
+              Contra primam conclusionem arguitur: Verbum aeternum non potest 
               esse et non esse indifferenter, ergo non producitur libere et complacenter. Antecedens est notum. 
-              <pb ed="#L" n="29v"/> 
+              <pb ed="#L" n="29-v"/> 
               Consequentia patet, quia illa solum producuntur libere quae possunt aliter se habere, seu quae possunt esse et 
-              non esse.</p>
-            
-            <p xml:id="pgb1q7-d1e516">Secundo, per dictum 
-              <ref>
+              non esse.
+            </p>
+            <p xml:id="pgb1q7-d1e516">
+              Secundo, per dictum 
+              <ref corresp="#pg-b1q7-Qd1e4182">
                 <name ref="#RichardOfStVictor">Richardi</name> II <title ref="#RichardOfStVictor_deTrinitate">De Trinitate</title> capitulo septimo in fine,
               </ref> 
               ubi dicit 
               <cit>
-                <quote>quamvis uterque scilicet Filius et Spiritus Sanctus a Patre sit, 
+                <quote xml:id="pg-b1q7-Qd1e4182">quamvis uterque scilicet Filius et Spiritus Sanctus a Patre sit, 
                   est tamen alius et alius modus procedendi,</quote>
                 <bibl>Richardus de Sancto Victore, De Trinitate, II, c. 7 (XXX)</bibl>
               </cit> 
-              <supplied>et</supplied> in 
-              <ref>
-                <seg>6o et in alio.</seg>
+              <supplied>et</supplied> 
+              in 
+              <cit>
+                <ref>6o et in alio.</ref>
                 <bibl>Richardus de Sancto Victore, De Trinitate, 6o et alio (XXX)</bibl>
-              </ref> 
+              </cit> 
               Sed certum est quod, si Filius producitur libere et complacentur, cum Spiritus Sanctus etiam sic 
-              procedat, sequitur quod non esset alius et alius procedendi modus in ipsis.</p> 
-            
-            <p xml:id="pgb1q7-tctdsp">Tertio contra tertium corollarium: 
+              procedat, sequitur quod non esset alius et alius procedendi modus in ipsis.
+            </p> 
+            <p xml:id="pgb1q7-tctdsp">
+              Tertio contra tertium corollarium: 
               videtur esse 
-              <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo ultimo,
+              <ref corresp="#pg-b1q7-Qd1e4214">
+                <name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo ultimo,
               </ref> 
               dicens quod 
               <cit>
-                <quote>partum mentis praecedit appetitus quidam.</quote>
+                <quote xml:id="pg-b1q7-Qd1e4214">partum mentis praecedit appetitus quidam.</quote>
                 <bibl>Augustinus, De Trinitate, II, c. 12, n. 18 <!-- Stefanso notes: The actual quote is: “ Partum mentis praecedit appetitus, quo id quod nosse volumus quaerendo, nascitur proles ipsa notitia”, Book 2, c. 12, n. 18. --> </bibl>
               </cit> 
               Item, contra hoc, vide 
-              <ref>
-                <seg><name ref="#Scotus">scotum</name>, distinctionem 6 primi.</seg>
+              <cit>
+                <ref><name ref="#Scotus">scotum</name>, distinctionem 6 primi.</ref>
                 <bibl>Scotus, Ordinatio, I, d. 6 (XXX)</bibl>
-              </ref>
+              </cit>
             </p>
-            
-            <p xml:id="pgb1q7-d1e548">Contra secundam partem secundae conclusionis: 
+            <p xml:id="pgb1q7-d1e548">
+              Contra secundam partem secundae conclusionis: 
               et eius corollaria: si esset aliquis actus aeternalis non notionalis, sequitur quod essent plures dii. 
               Patet, quia quilibet actus aeternus est ipsemet Deus. Ergo, si ponatur multitudo actuum aeternorum, 
               oportet ponere multitudinem deorum, quod est absonum. Confirmatur quia in divinis idem est scire 
-              et intelligere et vellet et his similia</p>
-            
+              et intelligere et vellet et his similia
+            </p>
             <p xml:id="pgb1q7-d1e562">Contra secundam corollarium: Spiritus Sanctus eodem amore 
               amat se quo Pater et Filius amant ipsum; sed ille actus amoris in Patre et 
-              Filio et nocionalis; ergo etiam in Spiritu Sancto eadem ratione quilibet actus Patris aeternalis 
-              erit nocionalis.</p>
-            
-            <p xml:id="pgb1q7-d1e572">Contra tertium corollarium: si Deus agit aliquid ad intra actu essentiali, 
+              Filio et notionalis; ergo etiam in Spiritu Sancto eadem ratione quilibet actus Patris aeternalis 
+              erit notionalis.
+            </p>
+            <p xml:id="pgb1q7-d1e572">
+              Contra tertium corollarium: si Deus agit aliquid ad intra actu essentiali, 
               ergo aliquid 
               <app>
                 <lem>non</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="aboveLine">non</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="above-line">non</add>
                 </rdg>
               </app> 
               notionale producitur ad intra. Patet consequentia, quia ab activo ad passionem est bona 
-              consequentia, sicut sequitur Deus creat, ergo aliquid creatur ita sequitur <supplied>quod</supplied> Deus agit, ergo aliquid agitur.</p>
-            
-            <p xml:id="pgb1q7-d1e585">Contra tertiam conclusionem, paterna memoria non potest Filium non producere, ergo necessaria est ipsum producere, 
-              ergo non libere. Tenet consequentia, quia liberum et necessarium opponuntur.</p>
-            
-            <p xml:id="pgb1q7-d1e604">Secundo, sequeretur quod voluntas 
+              consequentia, sicut sequitur Deus creat, ergo aliquid creatur ita sequitur <supplied>quod</supplied> Deus agit, ergo aliquid agitur.
+            </p>
+            <p xml:id="pgb1q7-d1e585">
+              Contra tertiam conclusionem, paterna memoria non potest Filium non producere, ergo necessaria est ipsum producere, 
+              ergo non libere. Tenet consequentia, quia liberum et necessarium opponuntur.
+            </p>
+            <p xml:id="pgb1q7-d1e604">
+              Secundo, sequeretur quod voluntas 
               haberet rationem principii, ut sic in tali generatione. Consequens <unclear>est verum</unclear> quia vel esset voluntas accedens 
               antecedens vel coaeva; non primum, quia ille fuit error <name ref="#EunomiusOfCyzicus">Eunomii</name> dicens falsum esse 
               Filium voluntatis accedentis ut dicit 
-              <ref>
-                <seg><name ref="#Augustine">augustinus</name> III <title ref="#deTrinitate">De Trinitate</title> capitulo 20;</seg>
+              <cit>
+                <ref><name ref="#Augustine">Augustinus</name> III <title ref="#deTrinitate">De Trinitate</title> capitulo 20</ref>
                 <bibl>Augustinius, De Trinitate, III, c. 20 (XXX)</bibl>
-              </ref> nec secundum per tertium 
-              corollarium primae conclusionis; nec tertium, quia Filius non diceretur a Spiritu Sancto quod est erroneum</p>
-            
-            <p xml:id="pgb1q7-d1e628">Tertio contra 
+              </cit>; 
+              nec secundum per tertium 
+              corollarium primae conclusionis; nec tertium, quia Filius non diceretur a Spiritu Sancto quod est erroneum.
+            </p>
+            <p xml:id="pgb1q7-d1e628">
+              Tertio contra 
               secundum corollarium, quantam repugnantiam includit <mentioned>Patrem esse et non esse,</mentioned> tantam includit 
               <mentioned>Filium non gignere</mentioned>; ergo talis contradictio vel repugnantia potest ostendi via primi principii 
               et sic sequitur quod diversitas vel pluralitas divinarum personarum posset demonstrari evidenter, <supplied>quod est</supplied> 
               contra superius dicta. Prima consequentia patet quia <mentioned>Patrem esse <supplied>et non esse</supplied></mentioned> includit contradictionem ita formaliter 
               quod talis contradictio potest evidenter ostendi ex primo principio; ergo <mentioned>Patrem Filium non producere</mentioned> 
-              sequi contradictionem potest ostendi veritatem primi principii, quod est falsum.</p>
-            
-            <p xml:id="pgb1q7-d1e645">Ad primum 
+              sequi contradictionem potest ostendi veritatem primi principii, quod est falsum.
+            </p>
+            <p xml:id="pgb1q7-d1e645">
+              Ad primum 
               dicitur quod voluntatem concurrere ad Verbi productionem seu voluntatem esse principium productivum 
               Filii potest intelligi dicitur uno modo antecedenter principative, alio modo complacenter seu delectabiliter 
               coexigitive. Tunc ad rationem conceditur antecedens principale et negatur consequentia, sumendo <mentioned>concursum voluntatis</mentioned> 
-              secundo modo; si autem primo modo conceditur tota ratio, nec est contra dicta.</p>
-            
-            <p xml:id="pgb1q7-d1e662">Ad secundum: quod est auctoritas 
+              secundo modo; si autem primo modo conceditur tota ratio, nec est contra dicta.
+            </p>
+            <p xml:id="pgb1q7-d1e662">
+              Ad secundum: quod est auctoritas 
               <app>
-                <lem><supplied><name ref="#RichardOfStVictor">Richardi</name></supplied></lem>
+                <lem type="conjecture-supplied"><supplied><name ref="#RichardOfStVictor">Richardi</name></supplied></lem>
                 <rdg wit="#L">Richardo</rdg>
               </app> 
               cum 
-              <ref>
-                <seg><name ref="#Rimini">Nostro Doctore Gregorio</name> libro primo, distinctione sexta, articulo secundo</seg>
+              <cit>
+                <ref><name ref="#Rimini">Nostro Doctore Gregorio</name> libro primo, distinctione sexta, articulo secundo</ref>
                 <bibl>Gregorius Ariminiensis, Lectura, I, d. 6, a. 2</bibl>
-              </ref> 
+              </cit> 
               quod est unicus modus procedendi 
-              utriusque, nec auctoritas huius doctoris in hac parte est credendum.</p>
-            
-            <p xml:id="pgb1q7-d1e676">Ad tertium dicitur 
+              utriusque, nec auctoritas huius doctoris in hac parte est credendum.
+            </p>
+            <p xml:id="pgb1q7-d1e676">
+              Ad tertium dicitur 
               quod ibi <name ref="#Augustine">Augustinus</name> loquitur de partu mentis nostrae, non divinae, ut patet videri in textu 
-              sequenti.</p>
-            
-            <p xml:id="pgb1q7-d1e688">Ad primum contra secundam conclusionem, negatur consequentia. Ad probationem dicitur quod 
-              <ref>
+              sequenti.
+            </p>
+            <p xml:id="pgb1q7-d1e688">
+              Ad primum contra secundam conclusionem, negatur consequentia. Ad probationem dicitur quod 
+              <ref corresp="#pg-b1q7-Qd1e4360">
                 <name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> 
                   capitulo 62 usque ad 65,
               </ref> 
               ubi tractat hanc materiam dicens 
               <cit>
-                <quote>dubium esse non debet quod 
-                  Pater et Filius et eorum unus quisque se ipsum et alios ambos dicit sicut se et alios,</quote>
-                <bibl>Anselmus, Monologion, 62-65 (XXXX) <!-- stef identifies the actual quote as: The quote is: "Sed ne forte repugnet, huic assertion quid intueor. Nam dubium esse non debet quia pater et filius et eorum spiritus unus quisque seipsum et alios ambos dicit, sicut se et alios intelligit. Quod si ita est" --></bibl>
-              </cit> 
-              <pb ed="#L" n="30r"/> 
+                <quote xml:id="pg-b1q7-Qd1e4360">dubium esse non debet quod 
+                  Pater et Filius et eorum unus quisque se ipsum et alios ambos dicit sicut se et alios</quote>
+                <bibl>Anselmus, Monologion, 62 (I, 72, ll. 6-8)<!-- stef identifies the actual quote as: The quote is: "Sed ne forte repugnet, huic assertion quid intueor. Nam dubium esse non debet quia pater et filius et eorum spiritus unus quisque seipsum et alios ambos dicit, sicut se et alios intelligit. Quod si ita est" --></bibl>
+              </cit>,
+              <pb ed="#L" n="30-r"/> 
               intelligit quod si ita est quomodo non sunt in summa essentia tot verba quot sunt dicentes 
               et subdit 
-              <ref>capitulo 63</ref> 
+              <ref corresp="#pg-b1q7-Qd1e4375">capitulo 63</ref> 
               <cit>
-                <quote>sicut singulus eorum est sciens et intelligens ita singulus 
+                <quote xml:id="pg-b1q7-Qd1e4375">sicut singulus eorum est sciens et intelligens ita singulus 
                   quisque dicens, nec tamen omnes simul sunt tres dicentes sed unus solus 
                   dicens.</quote>
-                <bibl>Anselmus, Monologion, 63 <!-- stef gives the full quotation as: The quote is "Cum ergo constet quia sicut pertinent ad eius essentiam, scientia et intelligentia, sic eius scire et intelligere non est aliquam dicere, id est, semper praesens intueri quod scit et intelligit: necesse est, ut quemadmodum singulus pater, singulus filius et singulus eorum spiritus, est sciens et intelligens; et tamen hi tres simul, non sunt plures scientes aut intelligentes, sed unus scient, et unus intelligens, ita singulus quisque sit dicens, nec tamen sint tres dicentes simul, sed unus dicens." --></bibl>
+                <bibl>Anselmus, Monologion, 63 (I, 73, ll. 18-22) <!-- stef gives the full quotation as: The quote is "Cum ergo constet quia sicut pertinent ad eius essentiam, scientia et intelligentia, sic eius scire et intelligere non est aliquam dicere, id est, semper praesens intueri quod scit et intelligit: necesse est, ut quemadmodum singulus pater, singulus filius et singulus eorum spiritus, est sciens et intelligens; et tamen hi tres simul, non sunt plures scientes aut intelligentes, sed unus scient, et unus intelligens, ita singulus quisque sit dicens, nec tamen sint tres dicentes simul, sed unus dicens." --></bibl>
               </cit> 
               Quid namque ibi dicitur nisi eorum essentia, si ergo illa una sola est? Unum solum 
               est quod dicitur, ergo, si unum solum est quod dicitur, unum etiam solum est quod dicit et quod dicitur. Sequitur 
-              ibi non esse plura verba. Vide ibi <quote>processum.</quote></p>
+              ibi non esse plura verba. Vide ibi <quote xml:id="pg-b1q7-Qd1e4384">processum.</quote></p>
             
             <p xml:id="pgb1q7-d1e718">Ad idem est processus 
               <ref><name ref="#HenryOfGhent">Henrici 
               de Gandavo</name>, parte prima, articulo 42,</ref> ubi quaerit 
               <cit>
-                <quote>utrum intelligere quod non est nisi essentiale
+                <quote xml:id="pg-b1q7-Qd1e4396">utrum intelligere quod non est nisi essentiale
                   correspondeat in Deo aliquod Verbum essentiale,</quote>
                 <bibl>Cf. Henricus de Gandavo, I, a. 40, q. 7</bibl>
               </cit> 
               ubi ostendit quod non satis prolixe. Qui vult, videat per hoc possunt 
               <app>
-                <lem><supplied>salvari</supplied></lem>
+                <lem type="conjecture-supplied"><supplied>salvari</supplied></lem>
                 <rdg wit="#L">salvi</rdg>
               </app> 
-              aliae duae rationes et confirmatio primae.</p>
-        
-          <p xml:id="pgb1q7-d1e731">Ad 
-            primum contra tertiam conclusionem: conceditur antecedens et consequens primum, et negatur consequentia secunda et ad probationem <supplied>dicitur</supplied> quia <mentioned>libertas 
-            opponitur necessitati</mentioned> dicitur hoc verum esse de libertate coactionis et indigentiae, non aut 
-            opponitur necessitati complacentiae et immutabilitatis.</p>
-          
-          <p xml:id="pgb1q7-d1e753">Ad secundum potest dici sicut ad primum 
-            contra primam conclusionem, quia, si intelligitur quod voluntas producat Filium antecedenter principativ, negatur consequens 
-            et consequentia; si vero complacenter et coexigitive, sic potest concedi consequens et dicitur ultra ad 
-            improbationes quod voluntate coaeva producitur et cum infertur <mentioned>ergo Filius a Spiritu Sancto non 
-            distincta</mentioned> negatur consequentia sumendo uniformiter voluntatem seu voluntarie producere.</p>
-        
-        <p xml:id="pgb1q7-d1e770">Ad tertium negatur 
-          consequentia, quia licet unum repugnet tantum sicut aliud, tamen una contradictio 
-          <app>
-            <lem><supplied>esse</supplied></lem>
-            <rdg wit="#L">est</rdg>
-          </app> 
-          non stat 
-          nec tantum apparet nobis sicut reliqua ratio non sequitur quod, si una repugnantia possit 
-          per nos demonstrari veritate primi principii, quod etiam alia per nos evidenter possit 
-          ostendi.</p>
-        
-        <p xml:id="pgb1q7-d1e788">Ad rationes in oppositum patet ex dictis quomodo voluntas concurrit ad generationem 
-          Filii. Item quare memoria paterna non est proprie determinata, ut probant argumenta, quamvis 
-          forte in proprie posset dici determinata.</p>
+              aliae duae rationes et confirmatio primae.
+            </p>
+            <p xml:id="pgb1q7-d1e731">
+              Ad 
+              primum contra tertiam conclusionem: conceditur antecedens et consequens primum, et negatur consequentia secunda et ad probationem <supplied>dicitur</supplied> quia <mentioned>libertas 
+              opponitur necessitati</mentioned> dicitur hoc verum esse de libertate coactionis et indigentiae, non aut 
+              opponitur necessitati complacentiae et immutabilitatis.
+            </p>
+            <p xml:id="pgb1q7-d1e753">
+              Ad secundum potest dici sicut ad primum 
+              contra primam conclusionem, quia, si intelligitur quod voluntas producat Filium antecedenter principativ, negatur consequens 
+              et consequentia; si vero complacenter et coexigitive, sic potest concedi consequens et dicitur ultra ad 
+              improbationes quod voluntate coaeva producitur et cum infertur <mentioned>ergo Filius a Spiritu Sancto non 
+              distincta</mentioned> negatur consequentia sumendo uniformiter voluntatem seu voluntarie producere.
+            </p>
+            <p xml:id="pgb1q7-d1e770">
+              Ad tertium negatur 
+              consequentia, quia licet unum repugnet tantum sicut aliud, tamen una contradictio 
+              <app>
+                <lem type="conjecture-supplied"><supplied>esse</supplied></lem>
+                <rdg wit="#L">est</rdg>
+              </app> 
+              non stat 
+              nec tantum apparet nobis sicut reliqua ratio non sequitur quod, si una repugnantia possit 
+              per nos demonstrari veritate primi principii, quod etiam alia per nos evidenter possit 
+              ostendi.
+            </p>
+            <p xml:id="pgb1q7-d1e788">
+              Ad rationes in oppositum patet ex dictis quomodo voluntas concurrit ad generationem 
+              Filii. Item quare memoria paterna non est proprie determinata, ut probant argumenta, quamvis 
+              forte in proprie posset dici determinata.
+            </p>
           </div>
         </div>
-        <div>
-          <head>Conclusiones</head> <!-- shouldn't this be "septima -->
-        <p xml:id="pgb1q7-d1e797">
-          <cit>
-            <quote>Hic quaeri solet.</quote>
-            <bibl>Lombard, Sent., I, d. 6</bibl>
-          </cit> 
-          Haec distinctio continet 
-          tres conclusiones. Prima <supplied>est</supplied> quod sicut Deus Pater non necessitate nec voluntate nec nolens aut volens 
-          est Deus, sic Deus Pater non necessitate nec voluntate Filium genuit, nec nolens nec 
-          volens ipsum genuit, ad intellectum haeretici.</p>
-        
-          <p xml:id="pgb1q7-d1e819">Secunda conclusio <supplied>est</supplied> quod, licet in Deo idem 
-          sit esse natura et voluntas, non tamen sequitur quod, si Verbum Dei est natura Filius quod propter hoc sit 
-          Filius voluntate, sicut non sequitur <mentioned>praescientia et divina voluntas sunt idem igitur quidquid dicitur de 
-          una et de altera</mentioned>; nam praescientia est de bonis et malis, voluntas vero tantum de 
-          bonis vel respectu bonorum.</p>
-        
-        <p xml:id="pgb1q7-d1e831">Tertia conclusio quod Pater genuit Filium volens sicut et potens, 
-          et bonus ipsum genuit et sapiens, non tamen voluntate praecedente vel <unclear>accedente <!-- stef suggests changing this and earlier instances to antecedente --></unclear>, 
-          nec naturali coactus necessitate vel ductus genuit Filium, et ideo non nolens sed volens 
-          genuit ipsum scilicet voluntate approbante vel complacente, ut supra est dictum etc.</p>
+        <div xml:id="pg-b1q7-Dd1e4448">
+          <head xml:id="pg-b1q7-Hd1e4450">Conclusiones</head> <!-- shouldn't this be "septima -->
+          <p xml:id="pgb1q7-d1e797">
+            <cit>
+              <quote xml:id="pg-b1q7-Qd1e4459">Hic quaeri solet.</quote>
+              <bibl>Lombard, Sent., I, d. 6</bibl>
+            </cit>
+            Haec distinctio continet 
+            tres conclusiones. Prima <supplied>est</supplied> quod sicut Deus Pater non necessitate nec voluntate nec nolens aut volens 
+            est Deus, sic Deus Pater non necessitate nec voluntate Filium genuit, nec nolens nec 
+            volens ipsum genuit, ad intellectum haeretici.
+          </p>
+          <p xml:id="pgb1q7-d1e819">
+            Secunda conclusio <supplied>est</supplied> quod, licet in Deo idem 
+            sit esse natura et voluntas, non tamen sequitur quod, si Verbum Dei est natura Filius quod propter hoc sit 
+            Filius voluntate, sicut non sequitur <mentioned>praescientia et divina voluntas sunt idem igitur quidquid dicitur de 
+            una et de altera</mentioned>; nam praescientia est de bonis et malis, voluntas vero tantum de 
+            bonis vel respectu bonorum.
+          </p>
+          <p xml:id="pgb1q7-d1e831">
+            Tertia conclusio quod Pater genuit Filium volens sicut et potens, 
+            et bonus ipsum genuit et sapiens, non tamen voluntate praecedente vel <unclear>accedente <!-- stef suggests changing this and earlier instances to antecedente --></unclear>, 
+            nec naturali coactus necessitate vel ductus genuit Filium, et ideo non nolens sed volens 
+            genuit ipsum scilicet voluntate approbante vel complacente, ut supra est dictum etc.
+          </p>
         </div>
-      </div>  
+      </div>
     </body>
   </text>
 </TEI>
