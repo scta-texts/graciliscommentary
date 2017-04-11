@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -17,12 +17,10 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority/>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -30,23 +28,41 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="21-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q4">
-        <head>Quaestio 4</head>
-        <div>
-          <head>Circa textum</head>
+        <head xml:id="pg-b1q4-Hd1e3723">Quaestio 4</head>
+        <div xml:id="pg-b1q4-Dd1e3726">
+          <head xml:id="pg-b1q4-Hd1e3728">Circa textum</head>
           
           <p xml:id="pgb1q4-d1e98">
             <cit>
-              <quote><name ref="#Paul">Apostolus</name> namque ait</quote>
+              <quote xml:id="pg-b1q4-Qd1e3735"><name ref="#Paul">Apostolus</name> namque ait</quote>
               <bibl>Lombard, ??</bibl>
             </cit> 
             etc. Haec est distinctio tertia. <unclear>Inquam</unclear> <name ref="#Lombard">Magister</name>, postquam 
@@ -54,158 +70,188 @@
             scripturae, nunc vero intendit hoc idem probare rationibus congruis et similibus naturae, et dividitur in tres partes principales quia primo hoc probat rationem et argumento, secundo similitudine et 
             vestigio, tertio imagine fundata in animae fundamento. Secunda ibi 
             <cit>
-              <quote>nunc restat ostendere.</quote>
+              <quote xml:id="pg-b1q4-Qd1e3752">nunc restat ostendere</quote>
               <bibl>Lombardus, I, d. 3, xxx</bibl>
-            </cit> 
+            </cit>.
             Tertia ibi 
             <cit>
-              <quote>nunc vero ad eam.</quote>
+              <quote xml:id="pg-b1q4-Qd1e3761">nunc vero ad eam</quote>
               <bibl>Lombardus, I, d. 3, xxx</bibl>
-            </cit></p>
+            </cit>.
+          </p>
           
           <p xml:id="pgb1q4-d1e119">Prima dividitur in quattuor secundum quod quattuor rationibus probat suam intensionem. 
             Nam primo arguitur ex Dei causalitate seu efficientia, secundo ex creaturarum mutabilitate 
             et deficientia, tertio ex perfectorum bonitate et excellentia, quarto ex sponsorum caritate 
             seu continentia. Secunda ibi 
             <cit>
-              <quote>alio et modo.</quote>
+              <quote xml:id="pg-b1q4-Qd1e3773">alio et modo.</quote>
               <bibl>Lombardus, I, d. 3</bibl>
             </cit> Tertia ibi 
             <cit>
-              <quote>consideraverunt</quote>
+              <quote xml:id="pg-b1q4-Qd1e3782">consideraverunt</quote>
               <bibl>Lombardus, I, d. 3</bibl>
             </cit> 
             etc. 
             Quarta ibi 
             <cit>
-              <quote>intellexerunt</quote>
+              <quote xml:id="pg-b1q4-Qd1e3791">intellexerunt</quote>
               <bibl>Lombardus, I, d. 3</bibl>
             </cit> 
             Quarta pars principalis dividitur in tres. Nam primo ostendit qualiter vestigium cunctis rebus a prima arte 
             imprimitur, secundo qualiter hoc vestigium a rationali mente cognoscitur, tertio qualiter hoc vestigium 
             Trinitatis fine fide non perficitur. Secunda ibi 
             <cit>
-              <quote>in illa enim Trinitate.</quote>
+              <quote xml:id="pg-b1q4-Qd1e3800">in illa enim Trinitate.</quote>
               <bibl>Lombardus, I, d. 3</bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>ecce ostensum 
+              <quote xml:id="pg-b1q4-Qd1e3809">ecce ostensum 
               est qualiter in creaturis</quote>
               <bibl>Lombardus, I, d. 3, xxx</bibl>
             </cit> 
-            etc. Et hoc sit divisio et sententia huius distinctionis in generali.</p>
+            etc. Et hoc sit divisio et sententia huius distinctionis in generali.
+          </p>
         </div>
-        <div>
-          <head><supplied>Quaestio: Utrum animae humanae propagatio activa sit proprie Trinitatis divinae imago?</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            
-            <p xml:id="pgb1q4-d1e140">Utrum animae humanae propagatio active sit proprie Trinitatis divinae imago.</p>
-          
-            <p xml:id="pgb1q4-qnqaeo">Quod non: quia anima humana non est suorum actuum productiva, ergo etc. Tenet consequentia et alias probatur, quia anima humana non est formaliter activa, 
+        <div xml:id="pg-b1q4-Dd1e3818">
+          <head xml:id="pg-b1q4-Hd1e3820"><supplied>Quaestio: Utrum animae humanae propagatio activa sit proprie Trinitatis divinae imago?</supplied></head>
+          <div xml:id="pg-b1q4-Dd1e3824">
+            <head xml:id="pg-b1q4-Hd1e3826"><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q4-d1e140">
+              Utrum animae humanae propagatio active sit proprie Trinitatis divinae imago.
+            </p>
+            <p xml:id="pgb1q4-qnqaeo">
+              Quod non: quia anima humana non est suorum actuum productiva, ergo etc. 
+              Tenet consequentia et alias probatur, quia anima humana non est formaliter activa, 
               ut dicit 
-              <ref>
-                <seg><name ref="#Ripa">Iohannes de Rippa</name> in suis <title>Determinationibus</title>, quaestione secunda, conclusione quarta.</seg>
+              <cit>
+                <ref><name ref="#Ripa">Iohannes de Rippa</name> in suis 
+                  <title>Determinationibus</title>, quaestione secunda, conclusione quarta.</ref>
                 <bibl>Iohannes de Ripa, Determinationes, ??</bibl>
-              </ref> 
-              Tum secundo, quia ipsa est suorum actuum receptiva et respectu eorumdem passiva, ergo non activa, quia tunc idem esset agens et <unclear>patiens <!-- originally I suggested passus, stefano suggested passivus --></unclear>.</p>
+              </cit> 
+              Tum secundo, quia ipsa est suorum actuum receptiva et respectu eorumdem passiva, 
+              ergo non activa, quia tunc idem esset agens 
+              et <unclear>patiens <!-- originally I suggested passus, stefano suggested passivus --></unclear>.
+            </p>
             
-            <p xml:id="pgb1q4-d1e159">Secundo, non 
+            <p xml:id="pgb1q4-d1e159">
+              Secundo, non 
               quaelibet res creata est vestigium trinitatis ergo nec in anima est imago eiusdem reperibilis. 
               Consequentia patet, quia sicut se habet anima ad esse imaginem, ita quaelibet creatura ad esse vestigium. 
               Patet antecedens, quia aliter sequeretur quod quilibet concipiens vel videns aliquod creatum haberet unum 
-              conceptum de eo proprium quod est falsum.</p>
+              conceptum de eo proprium quod est falsum.
+            </p>
             
-            <p xml:id="pgb1q4-d1e169">Tertio, anima humana non <!-- stefano thinks "non" is a mistake and should be removed --> dicit imperfectam <!-- or inperfectam could be the mistake and it should be perfectam --> notitiam 
+            <p xml:id="pgb1q4-d1e169">
+              Tertio, anima humana non <!-- stefano thinks "non" is a mistake and should be removed --> dicit imperfectam <!-- or inperfectam could be the mistake and it should be perfectam --> notitiam 
               Trinitatis, ergo non est eius imago. Patet consequentia, quia cum imago sit unitiva illius cuius est imago, 
               <unclear>dicunt</unclear> imperfectam notitiam eius quam vestigium. Antecedens probatur, quia aliter de Trinitate increata 
-              in lumine naturali haberemus perfectam notitiam, quod est contra dicta in conclusione praecedente.</p>
-            
-            <p xml:id="pgb1q4-d1e191">Ad 
+              in lumine naturali haberemus perfectam notitiam, quod est contra dicta in conclusione praecedente.
+            </p>
+            <p xml:id="pgb1q4-d1e191">
+              Ad 
               oppositum est 
-              <ref>
-                <seg><name ref="#Lombard">Magister</name> in hac distinctione</seg>
+              <cit>
+                <ref><name ref="#Lombard">Magister</name> in hac distinctione</ref>
                 <bibl>Lombard I, d. 3 (PL ??)</bibl>
-              </ref> 
+              </cit> 
               allegans <name ref="#Augustine">Augustinum</name> pro hac parte in multis locis, ut 
-              patet in textu.</p>
-            </div>
-            <div>
-              <head>Prima conclusio</head>
-              <p xml:id="pgb1q4-d1e202">Prima conclusio: quam repugnat animae humanae non esse <unclear>intellectivum</unclear> tam ei repugnat 
-                non esse formaliter <unclear>activum</unclear> et sui actus <unclear>receptivum</unclear>. Probatur, quia quodlibet rationalis 
-                creatura est sui actus formaliter activa et receptiva, ergo consequentia <supplied>est</supplied> bona, quia quod formaliter 
-                et intrinsece est tale, ei non esse tale repugnat, si existit. Tum secundo quia potentiae animae 
-                et anima sunt formaliter idem, ut nunc suppono, ergo etc. Antecedens probatur, primo quia, 
-                secundum 
-                <ref>
-                  <seg><name ref="#Lombard">Magistrum</name>, libro 2o</seg>
-                  <bibl>Lombard, Sent., II</bibl>
-                </ref> 
-                voluntas est sui actus effectus actio; ergo est activa formaliter per se et intrinsece 
-                <pb ed="#L" n="21v"/> aut non. Si sic, habetur propositum; si non, sed per aliud est active queritur de illo sicut prius 
-                aut est formalem activum aut non. Si sic, sequitur quod aeque erat standum in primo, si non 
-                tunc erit processus in infinitum, quod est falsum. Confirmatur, quia anima ideo est activa actuum 
-                vitalium, quia est vita corporis, ergo est formaliter activa. Consequentia est bona et antecedens patet <supplied>per</supplied> 
-                <ref>
-                  <seg><name ref="#Aristotle">Philosophum</name> II <title ref="#deAnima">de anima</title></seg>
-                  <bibl>Aristotle, De anima, II</bibl>
-                </ref> 
-                Sed quod anima sit sui actus receptiva, patet quia aliter nulli 
-                essent actus eliciti immanentes. Consequens est falsum. Consequentia patet, quia pro tanto antiqui 
-                negabant animam <!-- dbcheck "animam vs. anima" --> esse sui 
-                <app>
-                  <lem>actus</lem>
-                  <rdg wit="#L" type="corrDeletion">
-                    <corr>
-                      <del rend="strikethrough">susceptivam</del>
-                    </corr>
-                  </rdg>
-                </app> 
-                causam effectivam quia 
-                tunc idem esset agens et <unclear>patiens <!-- I had passus, stef suggests passivus --></unclear> movens et motum, 
-                quod reputabant inconveniens.</p> 
-              
-              <p xml:id="pgb1q4-d1e232">Primum corollarium: sequitur ex dictis in conclusione, <supplied>quod</supplied> partes imaginis animae humanae reali pluralitate carere.</p>
-              
-              <p xml:id="pbb1q4-scsaaf">Secundum corollarium: stat potentiam perceptivam esse formaliter activam, et tamen percepere non esse 
-                formaliter agere. Patet quia <mentioned>Deum esse</mentioned> non est formaliter <mentioned>Deum creare</mentioned>, et tamen Deus est 
-                formaliter creativus. Item, se percipere non est se agere, et tamen potentia perceptiva eadem 
-                formaliter sui ipsius est activa aliorum formalem.</p> 
-              
-              <p xml:id="pgb1q4-d1e242">Tertium corollarium: licet quaelibet potentia 
-                perceptiva formaliter sit activa, non tamen quaelibet potentia activa 
-                <app>
-                  <lem>est</lem>
-                  <rdg wit="#L" type="corrAddition">
-                    <corr>
-                      <add place="aboveLine">est</add>
-                    </corr>
-                  </rdg>
-                </app> 
-                formaliter perceptiva. Patet quia posset perceptivum est inferius ad posse activum. Item, ignis est activus 
-                et tamen non est perceptivus alicuius obiecti.</p> 
-              
-              <p xml:id="pgb1q4-d1e250">Aliud corollarium: si quodlibet posse <!-- dbcheck posse --> receptivum 
-                seu passivum sit imperfectionis denominatio, quilibet angelus est minus perfectus 
-                quam quemcumque putans hoc. Immo sequitur quod anima humana sit perfectior quolibet angelo. Patet, quia 
-                angelus est maioris capacitatis quam anima humana, ergo magis <!-- dbcheck --> 
-                <app>
-                  <lem>perfectus,</lem>
-                  <rdg wit="#L" type="corrDeletion">
-                    <corr><del rend="strikethrough">ergo minus</del></corr>
-                  </rdg>
-                </app> 
-                cum capacitas angeli et hominis sit posse <!-- confirm posse --> receptivum passivum. Immo 
-                sequitur quod quanto anima sit perfectior tanto est imperfectior, quod implicat etc. Patet, cum anima sit sua capacitas 
-                quanta ergo est eius capacitas tanta est eius perfectio essentialis; ergo, quanto est capacior 
-                tanto est perfectior. Ex alia parte arguitur: quanto est capacior tanto receptior et magis passiva, et quanto est magis passiva 
-                et receptivior tanto est imperfectior, ergo <supplied>habetur</supplied> propositum.</p>
+              patet in textu.
+            </p>
           </div>
-          <div>
-            <head>Secunda conclusio</head>
-            <p xml:id="pgb1q4-d1e272">Secunda conclusio: licet quodlibet suppositum creatae entitatis gerat vestigium 
+          <div xml:id="pg-b1q4-Dd1e3886">
+            <head xml:id="pg-b1q4-Hd1e3888">Prima conclusio</head>
+            <p xml:id="pgb1q4-d1e202">
+              Prima conclusio: quam repugnat animae humanae non esse 
+              <unclear>intellectivum</unclear> tam ei repugnat 
+              non esse formaliter <unclear>activum</unclear> et sui actus 
+              <unclear>receptivum</unclear>. Probatur, quia quodlibet rationalis 
+              creatura est sui actus formaliter activa et receptiva, 
+              ergo consequentia <supplied>est</supplied> bona, quia quod formaliter 
+              et intrinsece est tale, ei non esse tale repugnat, si existit. Tum secundo quia potentiae animae 
+              et anima sunt formaliter idem, ut nunc suppono, ergo etc. 
+              Antecedens probatur, primo quia, 
+              secundum 
+              <cit>
+                <ref><name ref="#Lombard">Magistrum</name>, libro 2o</ref>
+                <bibl>Lombard, Sent., II</bibl>
+              </cit>
+              voluntas est sui actus effectus actio; ergo est activa formaliter per se et intrinsece 
+              <pb ed="#L" n="21-v"/> 
+              aut non. Si sic, habetur propositum; si non, sed per aliud est active queritur de illo sicut prius 
+              aut est formalem activum aut non. Si sic, sequitur quod aeque erat standum in primo, si non 
+              tunc erit processus in infinitum, quod est falsum. Confirmatur, quia anima ideo est activa actuum 
+              vitalium, quia est vita corporis, ergo est formaliter activa. Consequentia est bona et antecedens patet <supplied>per</supplied> 
+              <cit>
+                <ref>
+                  <name ref="#Aristotle">Philosophum</name> II <title ref="#deAnima">de anima</title>
+                </ref>
+                <bibl>Aristotle, De anima, II</bibl>
+              </cit> 
+              Sed quod anima sit sui actus receptiva, patet quia aliter nulli 
+              essent actus eliciti immanentes. Consequens est falsum. Consequentia patet, quia pro tanto antiqui 
+              negabant animam <!-- dbcheck "animam vs. anima" --> esse sui
+              actus
+              <app>
+                <lem n="actus"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">susceptivam</del>
+                </rdg>
+              </app> 
+              causam effectivam quia 
+              tunc idem esset agens et <unclear>patiens <!-- I had passus, stef suggests passivus --></unclear> movens et motum, 
+              quod reputabant inconveniens.
+            </p>
+            <p xml:id="pgb1q4-d1e232">
+              Primum corollarium: sequitur ex dictis in conclusione, 
+              <supplied>quod</supplied> partes imaginis animae humanae reali pluralitate carere.
+            </p>
+            <p xml:id="pgb1q4-scsaaf">
+              Secundum corollarium: stat potentiam perceptivam esse formaliter activam, 
+              et tamen percepere non esse 
+              formaliter agere. 
+              Patet quia <mentioned>Deum esse</mentioned> non est formaliter <mentioned>Deum creare</mentioned>, et tamen Deus est 
+              formaliter creativus. Item, se percipere non est se agere, et tamen potentia perceptiva eadem 
+              formaliter sui ipsius est activa aliorum formalem.
+            </p>
+            <p xml:id="pgb1q4-d1e242">
+              Tertium corollarium: licet quaelibet potentia 
+              perceptiva formaliter sit activa, non tamen quaelibet potentia activa 
+              <app>
+                <lem>est</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="aboveLine">est</add>
+                </rdg>
+              </app> 
+              formaliter perceptiva. 
+              Patet quia posset perceptivum est inferius ad posse activum. 
+              Item, ignis est activus 
+              et tamen non est perceptivus alicuius obiecti.
+            </p>
+            <p xml:id="pgb1q4-d1e250">
+              Aliud corollarium: si quodlibet posse <!-- dbcheck posse --> receptivum 
+              seu passivum sit imperfectionis denominatio, quilibet angelus est minus perfectus 
+              quam quemcumque putans hoc. Immo sequitur quod anima humana sit perfectior quolibet angelo. Patet, quia 
+              angelus est maioris capacitatis quam anima humana, ergo magis <!-- dbcheck --> 
+              perfectus,
+              <app>
+                <lem n="perfectus"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">ergo minus</del>
+                </rdg>
+              </app>
+              cum capacitas angeli et hominis sit posse <!-- confirm posse --> receptivum passivum. Immo 
+              sequitur quod quanto anima sit perfectior tanto est imperfectior, quod implicat etc. Patet, cum anima sit sua capacitas 
+              quanta ergo est eius capacitas tanta est eius perfectio essentialis; ergo, quanto est capacior 
+              tanto est perfectior. Ex alia parte arguitur: quanto est capacior tanto receptior et magis passiva, et quanto est magis passiva 
+              et receptivior tanto est imperfectior, ergo <supplied>habetur</supplied> propositum.
+            </p>
+          </div>
+          <div xml:id="pg-b1q4-Dd1e4010">
+            <head xml:id="pg-b1q4-Hd1e4012">Secunda conclusio</head>
+            <p xml:id="pgb1q4-d1e272">
+              Secunda conclusio: licet quodlibet suppositum creatae entitatis gerat vestigium 
               Beatae Trinitatis, stat tamen ab aliquo huiusmodi vestigium intueri et ab eodem Trinitatis 
               conceptum non haberi. Prima patet in hac distinctione, quia quodlibet suppositum habet unitatem, venustatem 
               et bonitatem. Unitas repraesentat patrem, quia, sicut unitas est principium numeri, 
@@ -214,108 +260,120 @@
               Bonitas vero <supplied>est</supplied> Spiritum Sanctum, qui est amor Patris et Filii, a quo omne bonum procedit. Secunda probatur, quia 
               stat vestigium intueri et ipsum - non sub ratione qua vestigium est - speculari seu 
               considerari, nec ipsum ad Trinitatem referri. Patet quia aliter quicumque cognosceret <name ref="#Sortes">Sortem</name> qui 
-              est potest cognosceret eius Filium quod est falsum.</p>
-            
-            <p xml:id="pgb1q4-d1e288">Primum corollarium: licet stet creatam entitatem intueri 
+              est potest cognosceret eius Filium quod est falsum.
+            </p>
+            <p xml:id="pgb1q4-d1e288">
+              Primum corollarium: licet stet creatam entitatem intueri 
               ab aliquo et Trinitatis notitiam non haberi, tamen quaelibet creata entitas perfectius 
               repraesentat Beatam Trinitatem quam se ipsam entitatem. Prima patet per conclusionem secundam. Probatur, loquendo de 
               repraesentatione prout creatura est perfecte intuitive visa secundum eius perfectionis gradum, quia 
               Trinitati competiti primo et per se unitas, venustas et bonitas et omnis perfectio simpliciter; 
-              ergo patet consequentia quia in illis consistit creaturae perfectio.</p> 
-            
+              ergo patet consequentia quia in illis consistit creaturae perfectio.
+            </p> 
             <p xml:id="pgb1q4-d1e298">Secundum corollarium: cum vestigium sub ratione 
-              <pb ed="#L" n="22r"/> vestigii attenditur seu cognoscitur, aliquis contuitus Trinitatis in mente producitur seu concipitur. 
+              <pb ed="#L" n="22-r"/> 
+              vestigii attenditur seu cognoscitur, aliquis contuitus Trinitatis in mente producitur seu concipitur. 
               Patet, quia vestigium et vestigiatum sunt correlativa <!-- confirm correlativa --> ergo cognitio unius sub ratione relativitatis 
               infert cognitionem alterius. Antecedens patet, <supplied>per</supplied> <name ref="#Aristotle">Philosophum</name> dicentem quod eadem est cognitio oppositorum seu relativorum, sicut 
               non stat quod aliquis cognoscat <name ref="#Sortes">Sortem</name> esse Patrem quin cognoscat Filium vel 
-              quin conceptum aliquem habeat de Filio.</p>
-            
-            <p xml:id="pgb1q4-d1e310">Tertium corollarium. Vestigium Trinitatis ab aliquo cognoscitur; aliquo non cognoscitur Trinitatis vestigium.</p>
+              quin conceptum aliquem habeat de Filio.
+            </p>
+            <p xml:id="pgb1q4-d1e310">
+              Tertium corollarium. Vestigium Trinitatis ab aliquo cognoscitur; aliquo non cognoscitur Trinitatis vestigium.
+            </p>
           </div>
-          <div>
-            <head>Tertio conclusio</head>
-            
-            <p xml:id="pgb1q4-d1e320">Tertia conclusio: sicut anima est suorum actuum 
+          <div xml:id="pg-b1q4-Dd1e4052">
+            <head xml:id="pg-b1q4-Hd1e4054">Tertio conclusio</head>
+            <p xml:id="pgb1q4-d1e320">
+              Tertia conclusio: sicut anima est suorum actuum 
               causa effectiva seu causativa effective, sic eadem est ipsorum actuum receptiva subiective. Ista conclusio patet <supplied>per</supplied> dicta in conclusione 
               prima, tamen prima pars aliter probatur: quodlibet creatum habet aliquod formale effectivum principale ipsius principii; igitur et actus animae habent huiusmodi principium; 
               sed nullum tale videtur ponendum praeter animam; ergo confirmatur. Voluntas est causa volitionis; ergo 
               et anima. Probatur consequentia, quia voluntas est una mens, una substantia, una vita, 
-              <ref>
-                <seg>secundum <name ref="#Augustine">Augustinum</name></seg>
+              <cit>
+                <ref>secundum <name ref="#Augustine">Augustinum</name></ref>
                 <bibl>Augustinus, ??</bibl>
-              </ref> 
+              </cit> 
               et 
-              <ref>
-                <seg>allegatur a <name ref="#Lombard">Magistro</name> in hac distinctione.</seg>
+              <cit>
+                <ref>allegatur a <name ref="#Lombard">Magistro</name> in hac distinctione</ref>
                 <bibl>Lombard, Sent. I, d. 3</bibl>
-              </ref> Antecedens patet <supplied>per</supplied> 
-              <ref>
-                eundum libro <title ref="#Retractationum">retractationum</title>, capitulo nono
-              </ref> 
+              </cit>.
+              Antecedens patet <supplied>per</supplied> 
+              <ref corresp="#pg-b1q4-Qd1e4097">eundum libro <title ref="#Retractationum">Retractationum</title>, capitulo nono</ref>
               ubi dicit 
               <cit>
-                <quote>nihil tamen est in potestate voluntatis sicut ipsa voluntas.</quote>
+                <quote xml:id="pg-b1q4-Qd1e4097">nihil tamen est in potestate voluntatis sicut ipsa voluntas.</quote>
                 <bibl>Augustinus, Retractionum, ??</bibl>
               </cit> 
               Secunda pars conclusionis communiter 
               tenetur et patet <supplied>per</supplied> dicta in prima conclusione. Et confirmatur per illud 
-              <ref>
+              <ref corresp="#pg-b1q4-Qd1e4115">
                 <title ref="#lc">Lucae</title> 16
               </ref> 
               <cit>
-                <quote ana="#lc16_26">filii recordare</quote>
+                <quote xml:id="pg-b1q4-Qd1e4115" ana="#lc16_26">filii recordare</quote>
                 <bibl>Lucas 16:25</bibl>
               </cit> 
               etc., ubi loquitur ad litteram et fuit historia, non parabola solum, ut patet <supplied>per</supplied> 
-              <ref>
-                <seg><name ref="#Augustine">augustinum</name> <title>super genesis</title> dicentem capitulo septimo. <!-- confirm septimo --></seg>
+              <cit>
+                <ref><name ref="#Augustine">Augustinum</name> <title>Super genesis</title> dicentem capitulo septimo. <!-- confirm septimo --></ref>
                 <bibl>Augustinus, Super Genesis, c. 7 (??)</bibl>
-              </ref> 
+              </cit> 
               Ad idem est 
-              <ref>
-                <seg><name ref="#Anselm">Anselmus</name> <title ref="#deConceptuVirginali">de conceptu virginali</title> capitulo 4o,</seg>
-                <bibl>Anselm, De conceptu Virginali, c. 4 (??)</bibl>
-              </ref> 
+              <cit>
+                <ref><name ref="#Anselm">Anselmus</name> <title ref="#deConceptuVirginali">de conceptu virginali</title> capitulo 4o,</ref>
+                <bibl>Anselm, De conceptu Virginali, c. 4 (II, 145, ll. 23-26) <!-- not sure if line below is a quote or not --></bibl>
+              </cit> 
               in membris corporis 
-              nec dolet nec delectatur nisi anima et voluntas rationalis</p>
-        
-        <p xml:id="pgb1q4-d1e364">Primum corollarium: omnis actus creatae imaginis habet plures causas suae originis. Patet, quia obiectum talis actus est vera 
-          causa effectiva partialis, ut patet <supplied>per</supplied> 
-          <ref><name ref="#Augustine">Augustinum</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo 13o</ref> dicentem 
-          <cit>
-            <quote>omnis res quam cognoscimus congenerat in nobis notitiam sui;</quote>
-            <bibl>Augustinus, De Trinitate, IX, c. 13 (PL ??)</bibl>
-          </cit> 
-          sed ultra hanc causam anima est causa principalis, 
-          ut dicit conclusio, ergo patuit et in prima conclusione.</p>
-        
-        <p xml:id="pgb1q4-d1e382">Secundum corollarium: non repugnat nec est impossibile 
-          causam naturalem actum liberum producere. Patet, quia <!-- confirm quia --> obiectum creatum causat libere sed naturaliter 
-          et naturali influxu concurrit. Confirmatur, quia potentia intellectiva est aliqualem <unclear>causa</unclear> actuum 
-          voluntatis, ut dictum est supra; ergo, etc.</p>
-        
-        <p xml:id="pgb1q4-d1e389">Tertium corollarium: est intuitum scilicet affirmativa quovis pars vera, 
-          quod patet, quia ibi est essentialis unitas et causalis seu potentialis trinitatis; ergo consequentia et 
-          antecedens patet 
-          <ref>
-            <seg>ex dictis <name ref="#Augustine">Augustini</name></seg>
-            <bibl>Augustinus, ??</bibl>
-          </ref> 
-          et 
-          <ref>
-            <seg><name ref="#Lombard">Magistrum</name> in hac distinctione.</seg>
-            <bibl>Lombard, Sent. I, d. 3</bibl>
-          </ref>
-        </p>
+              nec dolet nec delectatur nisi anima et voluntas rationalis
+            </p>
+            <p xml:id="pgb1q4-d1e364">
+              Primum corollarium: omnis actus creatae imaginis habet plures causas suae originis. Patet, quia obiectum talis actus est vera 
+              causa effectiva partialis, ut patet <supplied>per</supplied> 
+              <ref>
+                <name corresp="pg-b1q4-Qd1e4173" ref="#Augustine">Augustinum</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo 13o
+              </ref> 
+              dicentem 
+              <cit>
+                <quote xml:id="pg-b1q4-Qd1e4173">omnis res quam cognoscimus congenerat in nobis notitiam sui;</quote>
+                <bibl>Augustinus, De Trinitate, IX, c. 13 (PL ??)</bibl>
+              </cit>
+              sed ultra hanc causam anima est causa principalis, 
+              ut dicit conclusio, ergo patuit et in prima conclusione.
+            </p>
+            <p xml:id="pgb1q4-d1e382">
+              Secundum corollarium: non repugnat nec est impossibile 
+              causam naturalem actum liberum producere. Patet, quia <!-- confirm quia --> obiectum creatum causat libere sed naturaliter 
+              et naturali influxu concurrit. Confirmatur, quia potentia intellectiva est aliqualem <unclear>causa</unclear> actuum 
+              voluntatis, ut dictum est supra; ergo, etc.
+            </p>
+            <p xml:id="pgb1q4-d1e389">
+              Tertium corollarium: est intuitum scilicet affirmativa quovis pars vera, 
+              quod patet, quia ibi est essentialis unitas et causalis seu potentialis trinitatis; ergo consequentia et 
+              antecedens patet 
+              <cit>
+                <ref>ex dictis <name ref="#Augustine">Augustini</name></ref>
+                <bibl>Augustinus, ??</bibl>
+              </cit>
+              et
+              <cit>
+                <ref>
+                  <name ref="#Lombard">Magistrum</name> in hac distinctione.</ref>
+                <bibl>Lombard, Sent. I, d. 3</bibl>
+              </cit>
+            </p>
           </div>
-          <div>
-            <head>Obiectiones et Responsiones</head>
-            <p xml:id="pgb1q4-d1e399">Contra primam conclusionem est 
+          <div xml:id="pg-b1q4-Dd1e4217">
+            <head xml:id="pg-b1q4-Hd1e4219">Obiectiones et Responsiones</head>
+            <p xml:id="pgb1q4-d1e399">
+              Contra primam conclusionem est 
               opinio <name ref="#Ripa">Iohanis de Rippa</name>. Non stat intellectum divinum esse formaliter activum, ergo nec 
               creatum. Patet consequentia, sed antecedens probatur, quia si <!-- confirm sic --> sic sequitur quod in Deo esset idem formalem posset agere 
-              <c>a</c> et posset percipere <c>a</c>. Consequens est falsum, quia tunc Deus sui ipsius esset activus, quod est impossibile.</p>
-            
-            <p xml:id="pgb1q4-d1e415">Secundo, posset intellectivum seu perceptivum aliquid addit supra posse activum, ergo non 
+              <c>a</c> et posset percipere <c>a</c>. Consequens est falsum, quia tunc Deus sui ipsius esset activus, quod est impossibile.
+            </p>
+            <p xml:id="pgb1q4-d1e415">
+              Secundo, posset intellectivum seu perceptivum aliquid addit supra posse activum, ergo non 
               sunt formaliter idem. Consequentia bona et antecedens probatur, quia, ut dictum est in tertio corollario, ignis est activus 
               sed non perceptivus. Patet etiam, quia esse activum est proprietas communis tam potentia <!-- check potentiae vs. potentia --> vitali quam 
               non vitali, sed perceptiva <!-- check perceptiva vs perceptivae --> solum vitali. Confirmatur, quia illud quod est perceptivum addit 
@@ -323,171 +381,217 @@
               et tunc sequitur quod posset perceptivum est magis posset perceptivum quam quodcumque 
               posset activum non perceptivum sit activum consequentem. Si non, sit <unclear>formaliter</unclear> activum, 
               sed est illud quo animal vel aliquid est formaliter <!-- check previous instances of formalem to see if they should be formaliter --> perceptivum, ergo esse perceptivum ut sic 
-              non est esset activum quod, est propositum, et idem actum posset fieri de posse passivo</p> <!-- Stefano has more notes for this paragraph -->
-            
-            <p xml:id="pgb1q4-d1e435">Tertio, si posse perceptivum sit formaliter posse activum, aut ergo praecise realiter aut praecise in<pb ed="#L" n="22v"/>tentionaliter. 
+              non est esset activum quod, est propositum, et idem actum posset fieri de posse passivo
+            </p> <!-- Stefano has more notes for this paragraph -->
+            <p xml:id="pgb1q4-d1e435">
+              Tertio, si posse perceptivum sit formaliter posse activum, aut ergo praecise realiter aut praecise 
+              in<pb ed="#L" n="22-v"/>tentionaliter. 
               Non primo modo, nec secundo modo, quia quodlibet posse activum reale dicit maiorem 
               perfectionem in re quam posse activum intentionale; sed non quodlibet posse activum realem 
               est maioris perfectionis quam posse activum <unclear>intentionalem <!-- confirm intentionalem --></unclear> formalem, scilicet perceptivum; 
-              ergo posse perceptivum non est <unclear>formaliter <!-- confirm --></unclear> posse activum realiter vel intentionaliter.</p>
-            
-            <p xml:id="pgb1q4-d1e441">Quarto, probatur quod posset vel esse activum non sit formaliter posse vel esse passivum, 
+              ergo posse perceptivum non est <unclear>formaliter <!-- confirm --></unclear> posse activum realiter vel intentionaliter.
+            </p>
+            <p xml:id="pgb1q4-d1e441">
+              Quarto, probatur quod posset vel esse activum non sit formaliter posse vel esse passivum, 
               quia esse activum est denominatio perfectionis in quacumque re; ergo esse accidentium non est formaliter 
               esse passivum. Contra secundam partem secundae conclusionis arguitur primo sic. Non minus dependet creatura a Deo quam accidens a suo subiecto; sed concipiens accidens format conceptum substantiae; propositum ergo 
-              videns creaturam seu Trinitatis vestigium format in mente <unclear>conceptum <!-- confirm --></unclear> Deo propositum.</p>
-            
+              videns creaturam seu Trinitatis vestigium format in mente <unclear>conceptum <!-- confirm --></unclear> Deo propositum.
+            </p>
             <!-- this might be the beginning obiection to conclusion two -->
             <p xml:id="pgb1q4-d1e446">Secundo, contra primam partem et eius corollaria videtur 
-              <ref><name ref="#Paul">Apostolus</name> <title ref="#rom">Ad Romanos</title> <sic>quinto</sic></ref> 
+              <ref corresp="#pg-b1q4-Dd1e4287">
+                <name ref="#Paul">Apostolus</name> <title ref="#rom">Ad Romanos</title> <sic>quinto</sic>
+              </ref> 
               <cit>
-                <quote ana="#rom11_33">Incomprehensibilia sunt iudicia eius</quote>
+                <quote xml:id="pg-b1q4-Qd1e4287" ana="#rom11_33">Incomprehensibilia sunt iudicia eius</quote>
                 <bibl>Ad Romanos 11:33</bibl>
               </cit> 
-              etc.</p>
-            
-            <p xml:id="pgb1q4-d1e468">Tertio, nullum immensum cognoscitur seu reputatur mensum et finitum; 
+              etc.
+            </p>
+            <p xml:id="pgb1q4-d1e468">
+              Tertio, nullum immensum cognoscitur seu reputatur mensum et finitum; 
               quodlibet creatum est finitum; ergo Deus non per aliquod talem est cognoscibilis. Maior patet, quia ratio 
-              finitatis excludit totaliter rationem immensitatis et infinitatis.</p>
-            
-            <p xml:id="pgb1q4-d1e472">Contra primam partem primi corollarii et contra secundum arguitur <supplied>quod</supplied>, si illa essent vera, sequeretur quod videns creaturam intuitive perfectius 
+              finitatis excludit totaliter rationem immensitatis et infinitatis.
+            </p>
+            <p xml:id="pgb1q4-d1e472">
+              Contra primam partem primi corollarii et contra secundum arguitur <supplied>quod</supplied>, si illa essent vera, sequeretur quod videns creaturam intuitive perfectius 
               cognosceret Deum quam creaturam. Consequens est falsum. Patet consequentia, quia per corollarium perfectius 
               repraesentat Deum quam creaturam visam, cum igitur per huius visionem creatura intuitive 
-              et perfecte cognoscatur; sequitur quod Deus per eam perfectius cognoscetur.</p>
-            
-            <p xml:id="pgb1q4-d1e476">Sexto, nullus talis conceptus 
+              et perfecte cognoscatur; sequitur quod Deus per eam perfectius cognoscetur.
+            </p>
+            <p xml:id="pgb1q4-d1e476">
+              Sexto, nullus talis conceptus 
               Deo proprius in visione creaturae est perceptibilis nec reperibilis, igitur nec ponibilis. Consequentia <supplied>est</supplied> bona. 
-              Antecedens patet, quia nullus potest discernere talem conceptum a conceptu creaturae.</p>
-              
-            <p xml:id="pgb1q4-d1e485">Contra tertiam conclusionem, 
+              Antecedens patet, quia nullus potest discernere talem conceptum a conceptu creaturae.
+            </p>
+            <p xml:id="pgb1q4-d1e485">
+              Contra tertiam conclusionem, 
               si esset vera, sequeretur quod idem esset movens et motum, agens et <unclear>patiens <!-- could also be passum or passivum --></unclear>, ut supra 
-              fuit argutum.</p>
-            
-            <p xml:id="pgb1q4-d1e489">Secundo, tunc anima esset infinite virtutis et accidentis, quia infinitae 
-              receptivitatis.</p>
-            
-            <p xml:id="pgb1q4-d1e499">Tertio, si anima esset intrinsece formaliter activa, tunc ipsa posset agere 
-              sine sensibus corporalibus, quod est falsum, quia tunc iudicare posset caecus de coloribus.</p> 
-              
-            <p xml:id="pgb1q4-d1e508">Quarto, contra primum corollarium, si obiectum esset causa actionis animae, sequeretur quod idem creatum agens 
+              fuit argutum.
+            </p>
+            <p xml:id="pgb1q4-d1e489">
+              Secundo, tunc anima esset infinite virtutis et accidentis, quia infinitae 
+              receptivitatis.
+            </p>
+            <p xml:id="pgb1q4-d1e499">
+              Tertio, si anima esset intrinsece formaliter activa, tunc ipsa posset agere 
+              sine sensibus corporalibus, quod est falsum, quia tunc iudicare posset caecus de coloribus.
+            </p> 
+            <p xml:id="pgb1q4-d1e508">
+              Quarto, contra primum corollarium, si obiectum esset causa actionis animae, sequeretur quod idem creatum agens 
               praecise eodem modo se habens posset esse causa oppositorum. Consequens est falsum, ut videtur. 
               Patet consequentia, quia, stante cognitione obiecti, voluntas potest libere velle obiectum et <unclear>nolle <!-- stef suggests nolle rather than velle; confirm --></unclear> successive 
-              et illi sunt actus oppositi causati vel causabiles ab obiecto, ergo etc.</p>
-            
-            <p xml:id="pgb1q4-d1e512">Quinto, contra secundum corollarium, 
+              et illi sunt actus oppositi causati vel causabiles ab obiecto, ergo etc.
+            </p>
+            <p xml:id="pgb1q4-d1e512">
+              Quinto, contra secundum corollarium, 
               si obiectum potest esse causa efficiens dilectionis libere, sequeretur quod ad intentionem bonitatis 
-              in obiecto sequitur dilectionis intentionem in anima consequens experitur falsum, ergo etc.</p>
-            
-            <p xml:id="pgb1q4-d1e516">Sexto, contra tertiam corollarium, <!-- missed line in trasncription; add to diplomatic --> si anima imago Trinitas, 
+              in obiecto sequitur dilectionis intentionem in anima consequens experitur falsum, ergo etc.
+            </p>
+            <p xml:id="pgb1q4-d1e516">
+              Sexto, contra tertiam corollarium, <!-- missed line in trasncription; add to diplomatic --> si anima imago Trinitas, 
               vel ergo <supplied>est</supplied> secundum eius nudam essentiam, vel secundum potentiam, <!-- end of added transcription --> 
-              vel quia suorum actuum, est activa et receptiva; sed neutrum horum est dicendum, ergo etc.</p>
-            
-            <p xml:id="pgb1q4-d1e520">Ad primum, negatur antecedens et ad probationem <mentioned>quia idem esset</mentioned> etc negatur hoc, quia, ut dicit 
+              vel quia suorum actuum, est activa et receptiva; sed neutrum horum est dicendum, ergo etc.
+            </p>
+            <p xml:id="pgb1q4-d1e520">
+              Ad primum, negatur antecedens et ad probationem <mentioned>quia idem esset</mentioned> etc negatur hoc, quia, ut dicit 
               secundum corollarium primae conclusionis, aliud est dicere percipere non <unclear>est <!-- stef suggests "esse" --></unclear> formaliter agere et dicere potentia 
-              perceptiva non est formaliter activa; ista enim duo sunt multum diversa.</p>
-            
-            <p xml:id="pgb1q4-d1e524">Ad secundum negatur consequentia. Ad confirmationem dicitur quod illud additum, licet sit formaliter activum, non tamen 
-              sequitur quod est magis activum quam quocumque aliud activum.</p>
-            
-            <p xml:id="pgb1q4-d1e531">Secundo posset dici quod nullum inferius 
-              addit aliquid supra illud quod significatur per genus superius; et sic posset negari antecedens illius argumenti.</p>
-            
-            <p xml:id="pgb1q4-d1e535">Tertio posset dici quod tota ratio nihil plus concludit quam posse activum non est formaliter 
+              perceptiva non est formaliter activa; ista enim duo sunt multum diversa.
+            </p>
+            <p xml:id="pgb1q4-d1e524">
+              Ad secundum negatur consequentia. Ad confirmationem dicitur quod illud additum, licet sit formaliter activum, non tamen 
+              sequitur quod est magis activum quam quocumque aliud activum.
+            </p>
+            <p xml:id="pgb1q4-d1e531">
+              Secundo posset dici quod nullum inferius 
+              addit aliquid supra illud quod significatur per genus superius; et sic posset negari antecedens illius argumenti.
+            </p>
+            <p xml:id="pgb1q4-d1e535">
+              Tertio posset dici quod tota ratio nihil plus concludit quam posse activum non est formaliter 
               posse perceptivum; sed ex hoc non sequitur quod nullum posse perceptivum sit formaliter 
-              <pb ed="#L" n="23r"/>
-              activum, ut dicit tertium corollarium, quia se habent sicut superius et inferius.</p>
-            
-            <p xml:id="pgb1q4-d1e541">Ad tertium dicitur 
+              <pb ed="#L" n="23-r"/>
+              activum, ut dicit tertium corollarium, quia se habent sicut superius et inferius.
+            </p>
+            <p xml:id="pgb1q4-d1e541">
+              Ad tertium dicitur 
               quod utroque modo intellectus est activus, quia intellectus creat obiectum extra inesse intentionaliter 
-              sed actus suos causat <unclear>realiter <!-- confirm realiter --></unclear>. Et cum dicitur quod <!-- confirm quod --> <quote>quodlibet activum reale,</quote> etc hoc 
+              sed actus suos causat <unclear>realiter <!-- confirm realiter --></unclear>. Et cum dicitur quod <!-- confirm quod --> <quote xml:id="pg-b1q4-Qd1e4374">quodlibet activum reale,</quote> etc hoc 
               negatur, quia ignis est activus ignis realiter et intellectus solum intentionalem, quia potest 
               causare in se materialem similitudinem ignis, <unclear>et <!-- confirm et and not esse --></unclear> constat quod intellectus est perfectius activum 
-              quam ignis, <unclear>quia <!-- confirm quia not qui --></unclear> est activum perceptivum, ignis vero non.</p>
-            
+              quam ignis, <unclear>quia <!-- confirm quia not qui --></unclear> est activum perceptivum, ignis vero non.
+            </p>
             <p xml:id="pgb1q4-d1e545">Ad quartum conceditur antecedens, sed negatur quod 
               quodlibet esse passivum sit denominatio imperfectionis, sumendo esse passivum prout 
               est esse perceptivum informabile subiective; aliter enim sequeretur quod angelus quam esset maioris 
-              perceptionis tanto esset minoris perfectionis, ut dictum est.</p>
-            
-            <p xml:id="pgb1q4-d1e549">Ad primum, contra secundam conclusionem, dicitur: 
+              perceptionis tanto esset minoris perfectionis, ut dictum est.
+            </p>
+            <p xml:id="pgb1q4-d1e549">
+              Ad primum, contra secundam conclusionem, dicitur: 
               concedo totam rationem, scilicet quod videns Trinitatis vestigium format in mente dei conceptum 
-              et maxime si considerat vestigium sub ratione qua vestigium, ut dicit corollarium.</p>
-            
-            <p xml:id="pgb1q4-d1e553">Secundo posset 
+              et maxime si considerat vestigium sub ratione qua vestigium, ut dicit corollarium.
+            </p>
+            <p xml:id="pgb1q4-d1e553">
+              Secundo posset 
               dici quod concipiens accidens non sub ratione inhaerentiae, sed sub ratione qua entitas, sic 
-              non oportet habere conceptum substantiae.</p>
-            
-            <p xml:id="pgb1q4-d1e558">Pro solutione, nota quod habere conceptum de Deo potest esse dupliciter, 
+              non oportet habere conceptum substantiae.
+            </p>
+            <p xml:id="pgb1q4-d1e558">
+              Pro solutione, nota quod habere conceptum de Deo potest esse dupliciter, 
               scilicet virtualiter vel formaliter. Virtualiter vero quando virtute illius quis potest habere 
               formalem conceptum formaliter, quando per talem conceptum formalem significatur Deus. Item, hoc potest 
               fieri perceptibiliter vel imperceptibiliter, sic quod quandoque <unclear>actus principiandi[?] <!-- stef suggests percipitur actus principiandi --></unclear> et res 
-              concepta, quandoque actus principiandi et non res concepta.</p>
-            
-            <p xml:id="pgb1q4-d1e566">Ad tertium, dicitur quod <name ref="#Paul">Apostolus</name> intendit 
+              concepta, quandoque actus principiandi et non res concepta.
+            </p>
+            <p xml:id="pgb1q4-d1e566">
+              Ad tertium, dicitur quod <name ref="#Paul">Apostolus</name> intendit 
               quod non fuit comprehensibilia omnimode et perfecte, licet imperfecte cognoscantur, quia 
-              <quote>invisibilia dei per ea</quote> etc. Secundo potest dici quod illud est verum de omnibus iudiciis et 
+              <quote xml:id="pg-b1q4-Qd1e4408">invisibilia dei per ea</quote> etc. Secundo potest dici quod illud est verum de omnibus iudiciis et 
               omnibus viis eius simul; tamen, quodlibet per se est investigibile aliquo modo et potest sciri, vel 
-              ita revelationem aut alio modo.</p>
-            
-            <p xml:id="pgb1q4-d1e575">Ad quartum, primo potest negari maior; secundo posset dici quod, licet 
+              ita revelationem aut alio modo.
+            </p>
+            <p xml:id="pgb1q4-d1e575">
+              Ad quartum, primo potest negari maior; secundo posset dici quod, licet 
               finitum non potest ducere in cognitionem infiniti sub ratione infinita positive, tamen hoc potest remotive 
-              seu negative, quia cognoscere infinitum est cognoscere rem quae non est finita nec limitata.</p>
-            
-            <p xml:id="pgb1q4-d1e581">Ad quintum, dicitur quod si consequens intelligitur quo ad obiectum cognitum, conceditur; si vero intelligitur 
+              seu negative, quia cognoscere infinitum est cognoscere rem quae non est finita nec limitata.
+            </p>
+            <p xml:id="pgb1q4-d1e581">
+              <cit>
+                <ref>Ad quintum</ref>
+                <bibl>Vide supra</bibl>
+              </cit>, 
+              dicitur quod si consequens intelligitur quo ad obiectum cognitum, conceditur; si vero intelligitur 
               quo ad actum evidentis cognitionis, sic negatur consequentia et consequens, quia creaturae visae habemus 
-              <choice><orig>noticiam</orig><reg>notitiam</reg></choice> evidentem non autem de deo repraesentante.</p>
-            
-            <p xml:id="pgb1q4-d1e590">Ad sextum, cum dicitur <quote>nullus talis conceptus</quote> etc, patet <supplied>per</supplied> 
+              <choice><orig>noticiam</orig><reg>notitiam</reg></choice> evidentem non autem de deo repraesentante.
+            </p>
+            <p xml:id="pgb1q4-d1e590">
+              <cit>
+                <ref target="http://scta.info/resource/pgb1q4-d1e476">Ad sextum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q4-d1e476">Vide supra</ref></bibl>
+              </cit>
+              cum dicitur 
+              <quote xml:id="pg-b1q4-Qd1e4427">nullus talis conceptus</quote> 
+              etc, patet <supplied>per</supplied> 
               distinctiones positas <unclear>quod <!-- confirm quod over quid --></unclear> dicendum, quia stat quod non percipiatur et videatur. 
               Item, potest esse virtualis non formalis. Item, non est sic proprius quod Deus eodem modo quo est in se 
-              ipso subsistat conceptui illi, sed quia per talem conceptum cognoscatur et significat Deus et non alius.</p> 
-            
-            <p xml:id="pgb1q4-d1e596">Ad primum, contra tertiam conclusionem, conceditur consequens de agente partiali et receptivo totali, 
+              ipso subsistat conceptui illi, sed quia per talem conceptum cognoscatur et significat Deus et non alius.
+            </p> 
+            <p xml:id="pgb1q4-d1e596">
+              Ad primum, contra tertiam conclusionem, conceditur consequens de agente partiali et receptivo totali, 
               sicut anima respectu suorum actuum, loquendo esse de passione quae non est obiectio vel 
               corruptio, sed salus est perfectio. Secundo diceret <name ref="#OsbertPickingham">Osbertus <!-- Osbert Pickingham, a Carmelite who read the Sentences in Oxford by 1354. --></name> quod voluntas est movens 
               secundum se, et motum secundum quod informata est per apprehensionem; et <unclear>sic <!-- should this be deleted --></unclear> dicitur ultra quod voluntas unquam movet 
               se de novo, nisi aliquo modo moveatur, ab alio puta a dictamine vel iudicio 
-              virtutis apprehensive; et sic non sequitur quod idem sit movens et motum secundum idem.</p>
+              virtutis apprehensive; et sic non sequitur quod idem sit movens et motum secundum idem.
+            </p>
             
-            <p xml:id="pgb1q4-d1e608">Ad secundum, negatur consequentia, quia esse receptivum non est perfectionis simpliciter. Secundo posset dici quod anima 
-              non est infinitae virtutis seu activitatis, sed finitae.</p>
+            <p xml:id="pgb1q4-d1e608">
+              Ad secundum, negatur consequentia, quia esse receptivum non est perfectionis simpliciter. Secundo posset dici quod anima 
+              non est infinitae virtutis seu activitatis, sed finitae.
+            </p>
             
-            <p xml:id="pgb1q4-d1e614">Ad tertium, negatur consequentia quia anima non 
+            <p xml:id="pgb1q4-d1e614">
+              Ad tertium, negatur consequentia quia anima non 
               est totalis causa multorum iudiciorum, sicut est iudicare vel sillogyzare de coloribus, sed 
-              requiritur causaliter obiectum et organum visus, et loquor de totalitate esse, non effectus.</p>
+              requiritur causaliter obiectum et organum visus, et loquor de totalitate esse, non effectus.
+            </p>
             
-            <p xml:id="pgb1q4-d1e618">Ad 
+            <p xml:id="pgb1q4-d1e618">
+              Ad 
               quartum, conceditur consequens de causa partiali requisitive concurrente, sicut est obiectum seu cognitio 
-              <pb ed="#L" n="23v"/>
-              ipsius obiecti.</p>
-            
-            <p xml:id="pgb1q4-d1e624">Ad quintum, negatur consequentia, quia obiectum non est causa totalis sed solum partialis.</p>
-            
-            <p xml:id="pgb1q4-d1e628">Ad 
+              <pb ed="#L" n="23-v"/>
+              ipsius obiecti.
+            </p>
+            <p xml:id="pgb1q4-d1e624">
+              Ad quintum, negatur consequentia, quia obiectum non est causa totalis sed solum partialis.
+            </p>
+            <p xml:id="pgb1q4-d1e628">
+              Ad 
               ultimum negatur assumptum pro secunda parte, sed pro materia notandum secundum <name ref="#ThomasStrasbourg">Thomam Argentinae</name> in hac 
               distinctione, quod imago tripliciter potest sumi. Primo modo penes ipsam animam et eius <unclear>potentiam <!-- confirm --></unclear> praecise.
               Secundo modo sumitur pro potentiis actibus informatis. Tertio modo sumitur magis proprie cum tales 
-              actus et habitus sint respectu obiecti immensi. Sic loquitur 
-              <ref>
+              actus et habitus sint respectu obiecti immensi. Sic loquitur
+              <ref corresp="#pg-b1q4-Qd1e4484">
                 <name ref="#Augustine">Augustinus</name> de imagine IX <title ref="#deTrinitate">De Trinitate</title>, 
                 capitulo 13o,
               </ref> 
               dicens 
               <cit>
-                <quote>imago Dei est in mente non quia sui meminit, amat, et <supplied>se</supplied> intelligit, sed 
-                  quia potest Deum, a quo facta est, meminisse, amare, et intelligere.</quote>
-              </cit>
+                <quote xml:id="pg-b1q4-Qd1e4484">imago Dei est in mente non quia sui meminit, amat, 
+                  et <supplied>se</supplied> intelligit, sed 
+                  quia potest Deum, a quo facta est, meminisse, amare, et intelligere</quote>
+                <bibl>Augustinus, De Trinitate, IX</bibl>
+              </cit>.
             </p>
-            
             <p xml:id="pgb1q4-d1e668">Ad rationes in oppositum, 
-              patet dicta quid dicendum <supplied>sit</supplied>.</p>
+              patet dicta quid dicendum <supplied>sit</supplied>.
+            </p>
           </div>
         </div>
-        
-        <div>
-          <head>Conclusiones pro distinctione tertia</head>
+        <div xml:id="pg-b1q4-Dd1e4500">
+          <head xml:id="pg-b1q4-Hd1e4502">Conclusiones pro distinctione tertia</head>
           <p xml:id="pgb1q4-d1e83">
             <cit>
-              <quote>Apostolus namque</quote>
+              <quote xml:id="pg-b1q4-Qd1e4509">Apostolus namque</quote>
               <bibl>Lombard, ??</bibl>
             </cit>, 
             etc. 
@@ -495,19 +599,19 @@
             conclusiones. Prima, quod homo, propter excellentiam qua excellit alias creaturas vel propter convenientiam 
             quam habet cum omni creatura, dicitur creatura mundi et est aptus ad cognoscendum divinam veritatem,  
             ad cuius cognitionem iuvatur a duobus, scilicet a natura propria, quae est rationalis et ab operibus a 
-            deo factis.</p>
-          
-          <p xml:id="pgb1q4-d1e90">Secunda conclusio. Deus, qui est natura in comprehensibilis seu invisibilis per creaturas, ab 
+            deo factis.
+          </p>
+          <p xml:id="pgb1q4-d1e90">
+            Secunda conclusio. Deus, qui est natura in comprehensibilis seu invisibilis per creaturas, ab 
             homine potest sciri et <name ref="#Lombard">magister <!-- magistri dbcheck --></name> ad hoc probandum addunt quattuor rationes. Prima sic potest 
             formari: illud est super omnem creaturam et est deus qui fecit quod nulla creatura potest facere: 
             sed deus fecit quod nulla creatura facere potest, scilicet caelum et terram; ergo illud est Deus. Ergo per cognitionem 
             effectuum aliqualem, devenitur ad cognitionem illius quod Deus est. Secunda ratio: omne <!-- dbcheck this is "omne" --> 
+            mutabile
             <app>
-              <lem>mutabile</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
-                  <del>est imperfectum</del>
-                </corr>
+              <lem n="mutabile"></lem>
+              <rdg wit="#L" type="correction-deletion">
+                <del>est imperfectum</del>
               </rdg>
             </app> 
             et imperfectum ostendit aliquid <!-- dbcheck change to aliquid --> immutabile et perfectum a quo <!-- dbcheck change to "a quo" --> perficiatur 
@@ -516,57 +620,66 @@
             de illorum bonitate vidicamus; sed in creaturis videmus unum esse aliis 
             melius; ergo necesse est ponere aliquod optimum et illud est deus, ergo etc. Quarta <!-- confirm that this should be "quarta"; might need to be in <supplied> --> ratio: ubi magis 
             et minus sponsum est ibi sponsissimum est ponendum; sed una creatura est alia sponsior; ergo, 
-            est ponere aliquod sponsissimum et illud est deus; ergo, etc.</p>
-          
-          <p xml:id="pgb1q4-d1e153">Tertia conclusio: Deus, qui est summe simplex 
+            est ponere aliquod sponsissimum et illud est deus; ergo, etc.
+          </p>
+          <p xml:id="pgb1q4-d1e153">
+            Tertia conclusio: Deus, qui est summe simplex 
             in essentia, ex proprietate creaturarum intelligitur aeternus ex magnitudine earum, opus et 
-            dispositione sapiens, et ex gubernatione bonus.</p>
-          
-          <p xml:id="pgb1q4-d1e161">Quarta conclusio, quod vestigium trinitatis apparet in 
+            dispositione sapiens, et ex gubernatione bonus.
+          </p>
+          <p xml:id="pgb1q4-d1e161">
+            Quarta conclusio, quod vestigium trinitatis apparet in 
             qualibet creatura quia <!-- db check quia --> quaelibet creatura est aliquid unum habens speciem sive pulchritudinem et habens 
             ordinem, amorem, et bonitatem; unitas, quae est principium numeri repraesentat Patrem, 
             qui est principium originis aliarum duarum personarum, scilicet Filii et Spiritus Sancti; species vero, 
             seu pulcritudo, repraesentat Filium, qui est pulchritudo et ad quem sicut ad exemplar omnis creatura 
             formatur <!-- db check that formatur is correct --> ordo verum Spiritum Sanctum repraesentat, qui est summa bonitas et amor Patris 
-            et Filii.</p>
-          
-          <p xml:id="pgb1q4-d1e182">Quinta conclusio: per creaturarum contemplationem non potest haberi sufficiens notitia trinitatis 
-            sine doctrina et inspiratione divina vel revelatione.</p>
-          
-          <p xml:id="pgb1q4-d1e193">Sexta conclusio, quod anima nostra est 
+            et Filii.
+          </p>
+          <p xml:id="pgb1q4-d1e182">
+            Quinta conclusio: per creaturarum contemplationem non potest haberi sufficiens notitia trinitatis 
+            sine doctrina et inspiratione divina vel revelatione.
+          </p>
+          <p xml:id="pgb1q4-d1e193">
+            Sexta conclusio, quod anima nostra est 
             imago Trinitatis in hoc quia sicut in anima est memoria, intelligentia, et voluntas, quorum unum non 
             est alterum et tamen adinvicem referuntur et sunt aequalia, non solum singula singulis; 
             sed etiam singula omnibus sunt tamen una vita, una essentia sicut etiam sunt tres personae, 
-            in divinis et una essentia et substantia.</p>
-          
-          <p xml:id="pgb1q4-d1e210">Septima <!-- confirm this is septima --> conclusio: licet in mente nostra sit imago Trinitatis, 
+            in divinis et una essentia et substantia.
+          </p>
+          <p xml:id="pgb1q4-d1e210">
+            Septima <!-- confirm this is septima --> conclusio: licet in mente nostra sit imago Trinitatis, 
             tamen est exigua et ex magna parte dissimilis; nam unus homo habet ista tria et tamen 
             homo non est ista tria; deus autem est tres personae et tres personae sunt unus dominus. 
             Item, una persona, scilicet unus homo, habet illa tria; Trinitas autem summa non est vera 
             persona, sed tres personae. Item haec tria non sunt unus homo, sed unus hominis in Deo, 
-            autem illa tria non sunt unus Dei, sed sunt unus Deus.</p>
-          
-          <p xml:id="pgb1q4-d1e229">Octava conclusio, quod alio modo invenitur 
-            <pb ed="#L" n="24r"/> Trinitatis <!-- confirm that this is trinitatis --> imago in anima; nam ibi est mens et amor, ita quod notitia est 
+            autem illa tria non sunt unus Dei, sed sunt unus Deus.
+          </p>
+          <p xml:id="pgb1q4-d1e229">
+            Octava conclusio, quod alio modo invenitur 
+            <pb ed="#L" n="24-r"/> Trinitatis <!-- confirm that this is trinitatis --> imago in anima; 
+            nam ibi est mens et amor, ita quod notitia est 
             quasi proles genita a mente sicut a parente, quia, dum mens se cognoscit, 
             sui notitiam gignit; tertio est amor qui de notitia et ipsa mente procedit, 
             quia, dum mens cognoscit se, diligit se et prolem suam, scilicet suam notitiam. Sub dicens <!-- dbcheck Sub dicens --> <name ref="#Lombard">magister</name> quod ista tria sunt aequalia in una substantia animae et ideo mens humana,  
             ista tria considerans, extendit se ad contemplationem creatoris et videt unitatem, 
-            in Trinitate et Trinitatem in unitate essentiae.</p>
-          
-          <p xml:id="pgb1q4-d1e252">Nona conclusio, quod mens nostra debet intelligere Deum 
+            in Trinitate et Trinitatem in unitate essentiae.
+          </p>
+          <p xml:id="pgb1q4-d1e252">
+            Nona conclusio, quod mens nostra debet intelligere Deum 
             unum, unam essentiam, unum principium et ipsum esse actorem omnium, quia, si duo dii 
-            essent, vel uterque insufficiens esset vel alter eorum superfluet <!-- doube check if superfluet should be supplied and corrected from superfluent --></p>
-          
+            essent, vel uterque insufficiens esset vel alter eorum superfluet <!-- doube check if superfluet should be supplied and corrected from superfluent -->
+          </p>
           <p xml:id="pgb1q4-d1e260">Decima conclusio: debemus 
             credere Patrem et Filium et Spiritum Sanctum universe creaturae conditorem et rectorem, 
             nec Patrem esse Filium nec Spiritum Sanctum nec Filium esse Patrem nec Spiritum Sanctum,  
-            nec Spiritum Sanctum esse Patrem aut Filium sed Trinitatem personarum relativarum ad invicem.</p>
-          
+            nec Spiritum Sanctum esse Patrem aut Filium sed Trinitatem personarum relativarum ad invicem.
+          </p>
           <p xml:id="pgb1q4-d1e270">Undecima conclusio: fides Patriarcharum et Apostolorum praedicat unum Deum esse Trinitatem in qua 
             Trinitate est unus Pater, qui solus Deus se ipso genuit unum Filium, et unum Filium,  
             qui de bono Patre solus essentialiter est natus et unum Spiritum Sanctum, qui solus a Patre 
-            Filioque procedit.</p>
+            Filioque procedit.
+          </p>
         </div>
       </div>  
     </body>
