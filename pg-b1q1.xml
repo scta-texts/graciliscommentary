@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -16,8 +16,7 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
@@ -29,6 +28,14 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
         <change when="2015-12-24" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
@@ -39,24 +46,27 @@
   </teiHeader>
   <text>
     <front>
-      <div xml:id="includeList">
-      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="11-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q1">
-        <div>
-          <head>Circa textum</head>
+        <div xml:id="pg-b1q1-Dd1e3724">
+          <head xml:id="pg-b1q1-Hd1e3726">Circa textum</head>
           <p xml:id="pgb1q1-cadanl">
             <cit>
-              <quote>Cupientes aliquid de penuria</quote>
+              <quote xml:id="pg-b1q1-Qd1e3733">Cupientes aliquid de penuria</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             etc. Istud est prooemium 
             libri sententiarum qui liber dividitur in prooemium et tractatum. Secunda incipit ibi 
             <cit>
-              <quote>veteris ac novae legis.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3742">veteris ac novae legis.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit>
           </p>
@@ -66,17 +76,17 @@
             detrahendo. In tertia ponitur commendatio operis in prosequendo. In quarta ponitur <unclear>exitatio</unclear> 
             auditorum in proficiendo. Secunda ibi 
             <cit>
-              <quote>quamvis non ambigamus.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3757">quamvis non ambigamus.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>horum igitur 
+              <quote xml:id="pg-b1q1-Qd1e3766">horum igitur 
                 odibilem ecclesiam.</quote>
             </cit> 
             Quarta ibi 
             <cit>
-              <quote>non igitur haec labor debet.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3772">non igitur haec labor debet.</quote>
               <bibl>Lombardus, I, d. xxx</bibl>
             </cit> 
             etc.</p>
@@ -89,13 +99,13 @@
             mercedis perpetuae. Tertia sunt <unclear>praeces</unclear> sociorum assiduae. In tertia comparat causas 
             praedictas adinvicem ostendendo victoriam causarum <unclear>mo?tium</unclear>. Secunda incipit ibi 
             <cit>
-              <quote>consummationis 
+              <quote xml:id="pg-b1q1-Qd1e3793">consummationis 
                 fiduciam.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>quae vincit zelus</quote>
+              <quote xml:id="pg-b1q1-Qd1e3802">quae vincit zelus</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             quaelibet aliarum causarum potest dividi 
@@ -105,12 +115,12 @@
             prima ponit contradictionis invidorum evidentiam, in secunda contradictionis causam, in tertia contradicentium 
             nequitiam. Secunda ibi 
             <cit>
-              <quote>quia deficientibus <unclear>volitum</unclear> motibus.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3814">quia deficientibus <unclear>volitum</unclear> motibus.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>qui non rationi subiciunt</quote>
+              <quote xml:id="pg-b1q1-Qd1e3826">qui non rationi subiciunt</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit>
           </p>
@@ -123,18 +133,18 @@
             commendatio operis in prosequendo et quatturo facit hic quia primo commendat opus 
             a causa finali, secundo a causa efficiente, tertio a materiali, et quarto a formali. Secunda ibi 
             <cit>
-              <quote>cum labore.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3842">cum labore.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit>
-            <pb ed="#L" n="12r"/>
+            <pb ed="#L" n="12-r"/>
             Tertia ibi 
             <cit>
-              <quote>ex testimoniis veritatis.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3853">ex testimoniis veritatis.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Quarta ibi 
             <cit>
-              <quote>in quo haereticae doctrinae</quote>
+              <quote xml:id="pg-b1q1-Qd1e3862">in quo haereticae doctrinae</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit>
           </p>
@@ -144,12 +154,12 @@
             rationem ipsum auditorem excitantem ad proficiendum. Primo non inducitur 
             ab utili brevitate, secundo ab humili veritate, tertio ab evidenti falsitate. Secunda ibi 
             <cit>
-              <quote>in hoc autem tractatu</quote>
+              <quote xml:id="pg-b1q1-Qd1e3877">in hoc autem tractatu</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>ut autem quod quaeritur.</quote>
+              <quote xml:id="pg-b1q1-Qd1e3886">ut autem quod quaeritur.</quote>
               <bibl>Lombardus, I, prologus, xxx</bibl>
             </cit> 
             Haec est divisio in generali prologi.</p>
@@ -185,11 +195,13 @@
             praemittit capitula ad faciliore et leviorem inductionem seu introductionem et sic 
             terminatur sententia huius prologi Circa quem movetur talis quaestio</p>
         </div>
-        <div> 
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head> 
-            <p xml:id="pgb1q1-uqvovs"><pb ed="#L" n="12r"/>Utrum quis viator scientifice sine dono speciali 
+        <div xml:id="pg-b1q1-Dd1e3922"> 
+          <head xml:id="pg-b1q1-Hd1e3924"><supplied>Quaestio</supplied></head>
+          <div xml:id="pg-b1q1-Dd1e3928">
+            <head xml:id="pg-b1q1-Hd1e3930"><supplied>Rationes principales</supplied></head> 
+            <p xml:id="pgb1q1-uqvovs">
+              <pb ed="#L" n="12-r"/>
+              Utrum quis viator scientifice sine dono speciali 
               possit assentire theologicae omni vero supernaturali?</p>
             
             <p xml:id="pgb1q1-qspali">Quod sic primo quia omnis potentia naturalis 
@@ -206,20 +218,20 @@
             
             <p xml:id="pgb1q1-shdsam">Secundo haereticus damnatus et diabolus possunt 
               assentire theologicae 
-              <pb ed="#L" n="12v"/> 
+              <pb ed="#L" n="12-v"/> 
               veritati sine speciali lumen, igitur et viator. 
               Antecedens patet de dicente epulatione 
-              <ref>
-                <seg><title ref="#lc">Lucae</title> 16.</seg>
+              <cit>
+                <ref><title ref="#lc">Lucae</title> 16.</ref>
                 <bibl>Lucas 16, xxx</bibl>
-              </ref> 
+              </cit> 
               Tum secundo quia agente et patiente sufficienter applicatis, 
               aequalis sequitur actio. Sed intellectus agens est potens <!-- possible quote here --> 
               omnia facere et intellectus possibilis omnia fieri ut patet 
-              <ref>
-                <seg>I <title ref="#deAnima">De anima</title></seg>
+              <cit>
+                <ref>I <title ref="#deAnima">De anima</title></ref>
                 <bibl>Aristoteles, De anima, I, xxx</bibl>
-              </ref> 
+              </cit> 
               ergo in homine approximatis aequaliter, sequitur actio in eo.</p> 
             
             <p xml:id="pgb1q1-tsqpap">Tertio si quaestio foret falsa, 
@@ -227,10 +239,10 @@
               Consequens falsum, quia nullus modernus theologus illud percipit sibi infundi. 
               Consequentia patet, quia impossibile est haberi talia lumina seu tales habitus 
               et habentem latere ut arguit 
-              <ref>
-                <seg><name ref="#ThomasStrasbourg">Thomas Argentiae</name> quaestione secunda prologi, articulo primo.</seg>
+              <cit>
+                <ref><name ref="#ThomasStrasbourg">Thomas Argentiae</name> quaestione secunda prologi, articulo primo.</ref>
                 <bibl>Thomas de Argentina, I, prologus, q. 2, a. 1</bibl>
-              </ref>
+              </cit>
             </p>
             
             <p xml:id="pgb1q1-qvprit">Quarto viator potest convincere solo rationis dictamine aliam vitam futuram post istam, ergo. 
@@ -243,35 +255,35 @@
               Maior patet dictam et minor patet de se et per illud 
               <ref><name ref="#Augustine">Augustini</name> I <title ref="#Confessions">Confessionum</title> capitulo primo,</ref> 
               <cit>
-                <quote>ad te Domine nos fecisti et inquietum est cor nostrum donec requiescat in te.</quote>
+                <quote xml:id="pg-b1q1-Qd1e4016">ad te Domine nos fecisti et inquietum est cor nostrum donec requiescat in te.</quote>
                 <bibl>Augustinus, Confessionum, c. 1</bibl>
               </cit>
             </p>
             <p xml:id="pgb1q1-ioeqqv">In oppositum est 
               <ref><name ref="#Augustine">Augustinus</name> <title>Super Genesem</title></ref> dicens 
-              <quote>Maior est huius scripturae auctoritas quam omnis humani ingenii perspicacitas.</quote> 
+              <quote xml:id="pg-b1q1-Qd1e4033">Maior est huius scripturae auctoritas quam omnis humani ingenii perspicacitas.</quote> 
               Item <ref><name ref="#Lombard">Magister</name>, in prologo,</ref> 
               <unclear>dicens <!-- dbcheck in lon --></unclear> 
               <cit>
-              	<quote type="commentary" source="http://scta.info/resource/pll1prol-cadzdd">ardua scandere, opus ultra vires praesumpsimus agere.</quote>
+              	<quote xml:id="pg-b1q1-Qd1e4047" type="commentary" source="http://scta.info/resource/pll1prol-cadzdd">ardua scandere, opus ultra vires praesumpsimus agere.</quote>
               	<bibl><ref type="commentary" target="http://scta.info/resource/pll1prol-cadzdd">Lombard, Sententia, I, prologus, n. 1</ref> </bibl>
               </cit> 
               Item, 
               <ref><name ref="#Augustine">Augustinus</name> II libro <title>De sermone Domini in monte</title></ref> 
               <cit>
-                <quote>cum rationalis anima cogitat ac ratiocinatur quidquid in ea ratione, verum est non est ei attribuendum sed ipsi luci veritatis.</quote>
+                <quote xml:id="pg-b1q1-Qd1e4066">cum rationalis anima cogitat ac ratiocinatur quidquid in ea ratione, verum est non est ei attribuendum sed ipsi luci veritatis.</quote>
                 <bibl>Augustinus, De sermone Domini in monte, II, xxx</bibl>
               </cit> 
               Item nullus potest sapientiam creatam adipisci nisi gratia quae Deus est fuerit illustratus, ergo. 
               Consequentia patet et antecedens est 
-              <ref>
-                <seg><name ref="#Augustine">Augustini</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, quaestione 24.</seg>
+              <cit>
+                <ref><name ref="#Augustine">Augustini</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, quaestione 24.</ref>
                 <bibl>Augustinus, De Diversis Quaestionibus, q. 24</bibl>
-              </ref>
+              </cit>
             </p>
           </div>
-          <div>
-            <head><supplied>Prima Conclusio</supplied></head>
+          <div xml:id="pg-b1q1-Dd1e4089">
+            <head xml:id="pg-b1q1-Hd1e4091"><supplied>Prima Conclusio</supplied></head>
             
             <p xml:id="pgb1q1-pclecv">Prima conclusio: licet assensus theologicus a propositione theologica non sit distinctus, 
               tamen stat duas propositiones eiusdem subiecti vel praedicati idem significantes formari et unam ab alia specifice distingui. 
@@ -293,7 +305,7 @@
               
             <p xml:id="pgb1q1-scqeeh">Secundum corollarium: quod stat viatorem habitu theologico informari 
               et ipsum theologum non denominari. Ex quo ultra potest inferi et concedi quod de lege ordinata 
-              <pb ed="#L" n="13r"/> 
+              <pb ed="#L" n="13-r"/> 
               theologia potest manere fide, sed non potest manere seu stare sine fide theologia. 
               Ex quo ultra sequitur quod non est tam essentiale habitui theologico esse <mentioned>theologicum</mentioned> 
               quam est ei essentiale esse <mentioned>habitum</mentioned>.</p> 
@@ -302,8 +314,8 @@
               duo contra dictoria in specie distincta; patet quia contradictorum alicuius propositionis potest 
               esse assensus in mente unius et dissensus immediate alterius.</p>
           </div>
-          <div>
-            <head><supplied>Secunda Conclusio</supplied></head>
+          <div xml:id="pg-b1q1-Dd1e4123">
+            <head xml:id="pg-b1q1-Hd1e4125"><supplied>Secunda Conclusio</supplied></head>
             <p xml:id="pgb1q1-scqsot">Secunda conclusio: quod licet theologica propositio sit theologica cognitio, 
               tamen non est necesse notitiam, qua quis dicitur scire totale obiectum sui ipsius esse. 
               Prima pars probatur quia fides vel notitia theologica non differt ab assensu theologico. 
@@ -330,8 +342,8 @@
               est falsa <mentioned><name ref="#Sortes">Socrates</name> scit geometriam, logicam, theologiam vel aliquam aliam scientiam.</mentioned> 
               Patet ex eodem fundamento: quia scientia non proprie scitur, sed est id quo aliquid scitur sic esse vel non esse.</p> 
           </div> 
-          <div> 
-            <head><supplied>Tertio Conclusio</supplied></head>
+          <div xml:id="pg-b1q1-Dd1e4151"> 
+            <head xml:id="pg-b1q1-Hd1e4153"><supplied>Tertio Conclusio</supplied></head>
             
             <p xml:id="pgb1q1-tclsie">Tertia conclusio: licet non repugnet viatori nullam veritatem theologicam credere 
               et actum et habitum fidei habere, 
@@ -342,21 +354,28 @@
             <!-- consider collapsing paragraphs -->          
             <p xml:id="pgb1q1-sppilp">Secunda pars probatur per <ref><name ref="#Augustine">Augustinum</name> in quadam epistola,</ref> ubi inquit: 
               <cit>
-                <quote><supplied>Neque enim</supplied> cum coepero te in tanti huius secreti intelligentiam introducere (nisi Deus intus ad iuverit, non potero)</quote>
+                <quote xml:id="pg-b1q1-Qd1e4177"><supplied>Neque enim</supplied> cum coepero te in tanti huius secreti intelligentiam introducere (nisi Deus intus ad iuverit, non potero)</quote>
                 <bibl>PL 33:453</bibl>
               </cit> 
               et alibi in locis pluribus. 
               Item 
               <ref><name ref="#Anselm">Anselmus</name> I <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>, capitulo secundo</ref>: 
               <cit>
-                <quote ana="#Anselm_CurDeusHomo_1_1_a">Rectus ordo exigit ut profunda Christianae fidei, prius credamus, quam ea ratione fidei praesumamus discutere.</quote>
-                <bibl><name>Anselmus</name>, <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>, I, c. 2</bibl>
-              </cit> 
+                <quote xml:id="pg-b1q1-Qd1e4196" ana="#Anselm_CurDeusHomo_1_1_a">
+                  Rectus ordo exigit ut profunda Christianae fidei, prius credamus, 
+                  quam ea ratione fidei praesumamus discutere
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>, 
+                  I, c. 1 (II, 48, ll. 16-17)
+                </bibl>
+              </cit>. 
               Item 
               <ref><name ref="#Augustine">Augustinus</name> in <title ref="#HomiliesOnJohn">Homilia prima super Iohannem</title>,</ref> 
               dicens, 
               <cit>
-                <quote>Deus illuminat parvulos et indoctos lumine fidei, maiores autem lumine sapientiae,</quote>
+                <quote xml:id="pg-b1q1-Qd1e4219">Deus illuminat parvulos et indoctos lumine fidei, maiores autem lumine sapientiae,</quote>
                 <bibl>Augustinus, xxx</bibl>
               </cit> 
               ergo ad scientifice assentiendum veritatibus theologicis requiritur speciale lumen.</p>
@@ -367,7 +386,7 @@
             <p xml:id="pgb1q1-scmiss">Secundum corollarium: multi sunt beati in regno caelorum qui, 
               si credidissent, fuissent damnati et de numero reproborum aut in loco damnatorum. 
               Patet de pueris Graecorum statim 
-              <pb n="13v" ed="#L"/> 
+              <pb n="13-v" ed="#L"/> 
               post baptismum ante annos discretionis decedentium. Nam constat quod Graeci baptizati, 
               licet sub alia forma verborum et per consequens recipiunt gratiam qua mediante possunt salvari, 
               tamen quia adulti eorum aliter credunt quam Roma Ecclesia credit et credere praecipit, 
@@ -416,7 +435,7 @@
               theologia non est superior fide quod est falsum et contra 
               <ref><name ref="#Augustine">Augustinum</name> XIV <title ref="#deTrinitate">De Trinitate</title> capitulo primo</ref> dicens, 
               <cit>
-                <quote><sic>hac</sic> scientia, scilicet theologia, non pollent plurimi quamvis fide polleant.</quote>
+                <quote xml:id="pg-b1q1-Qd1e4272"><sic>hac</sic> scientia, scilicet theologia, non pollent plurimi quamvis fide polleant.</quote>
                 <bibl>Augustinus, De Trinitate, XIV, c. 1, xxx</bibl>
               </cit> 
               Si detur secundum, sequitur quod theologia stabit sine fide quod repugnat dictis.</p>
@@ -429,17 +448,17 @@
               theologiae totale est propositio theologica vel res ad extra vel significatum propositionis. 
               Si primum habetur contra primum corollarium. Non secundum quia tunc multae scientiae essent 
               de rebus <unclear cert="high">contingentibus</unclear> potentibus 
-              <pb ed="#L" n="14r"/> 
+              <pb ed="#L" n="14-r"/> 
               aliter se habere tamquam de obiectis contra 
-              <ref>
-                <seg><name ref="#Aristotle">Philosophum</name> VI <title ref="#Ethics">Ethicorum</title></seg>
+              <cit>
+                <ref><name ref="#Aristotle">Philosophum</name> VI <title ref="#Ethics">Ethicorum</title></ref>
                 <bibl>Aristoteles, Ethica, VI, xxx</bibl>
-              </ref> 
+              </cit> 
               et 
-              <ref>
-                <seg>I <title ref="#PosteriorAnalytics">Posteriorum</title>.</seg>
+              <cit>
+                <ref>I <title ref="#PosteriorAnalytics">Posteriorum</title>.</ref>
                 <bibl>Aristoteles, Posteriora Analytica</bibl>
-              </ref> 
+              </cit> 
               Nec tertium eadem radice, quia significat propositio rem extra animam.</p>
                 
             <p xml:id="pgb1q1-cqeefv">Confirmatur quia eadem ratione res ad extra 
@@ -504,26 +523,26 @@
               aliquis gradus theologiae, sed non deberet dici theologia, 
               quia sine fide non sufficeret ille habitus habentem denominare theologicum. 
               Et sic potest dici 
-              <pb ed="#L" n="14v"/> 
+              <pb ed="#L" n="14-v"/> 
               conformiter ad praedicta quod theologia potest manere sine fide, 
               sed non potest manere sine fide theologia, non enim sufficeret ille habitus 
               habentem theologicum denominare saltim secundum legem praesentem. 
               Nota quod <name ref="AlphonsusVargas">Alphonsus</name> tenet quod sit idem habitus theologiae et fidei, 
               <ref>quaestione tertia prologi, articulo secundo, conclusione prima,</ref> 
               sed <name ref="#ThomasStrasbourg">Thomas Argentiae</name> tenet oppositum et eius rationes solvit 
-              <ref>
-                <seg>quaestione quarta, articulo secundo.</seg>
+              <cit>
+                <ref>quaestione quarta, articulo secundo.</ref>
                 <bibl>Thomas de Argentina, I, q. 4, a. 2</bibl>
-              </ref>
+              </cit>
             </p>
           
             <p xml:id="pgb1q1-asqqpf">Ad septimum, quod est contra secundam conclusionem, 
               negatur minor quia multa sunt vera quae non sunt propositiones sicut significata propositioni. 
               Et hoc videtur de mente 
-              <ref>
-                <seg><name ref="#Aristotle">Aristotelis</name> libro <title ref="#Categories">Praedicamentorum</title> capitulo de oppositis,</seg>
+              <cit>
+                <ref><name ref="#Aristotle">Aristotelis</name> libro <title ref="#Categories">Praedicamentorum</title> capitulo de oppositis,</ref>
                 <bibl>Aristoteles, Praedicamentorum, xxx</bibl>
-              </ref> <!-- possible quote here -->
+              </cit> <!-- possible quote here -->
               ubi dicit quod significatum unius propositionis contradictione contradicit significato alterius, 
               et si unum est verum, reliquum est falsum, ista autem significata quadam extrinseca denominatione Deum vera vel falsa, 
               quia eorum significata sunt vera vel falsa vel essent si formarentur, 
@@ -555,14 +574,14 @@
               id est propter nihil ad certius assertum sicut videtur assumere 
               <ref><name ref="#WilliamOfAuxerre">Altissiodorensis</name> libro tertio <title>Summae</title> suae</ref> dicens quod 
               <cit>
-                <quote>articuli fidei sunt per se noti.</quote>
+                <quote xml:id="pg-b1q1-Qd1e4415">articuli fidei sunt per se noti.</quote>
                 <bibl>Guillelmus Altissiodorensis, xxx</bibl>
               </cit> 
               Nota differentiam de per se noto quam ponit 
-              <ref>
-                <seg><name ref="#HugolinoOfOrvieto">Hugolinus</name> libro primo, distinctione tertia, quaestione prima, articulo primo.</seg>
+              <cit>
+                <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name> libro primo, distinctione tertia, quaestione prima, articulo primo.</ref>
                 <bibl>Hugolinus de Urbe Veteri, xxx</bibl>
-              </ref>
+              </cit>
             </p>
           
             <p xml:id="pgb1q1-aanafi">Ad aliam, negatur consequentia. 
@@ -580,10 +599,10 @@
               Et ad eius probationem etiam negatur consequentia, 
               quia non aeque primo nec eodem modo ratio eorum movet intellectum. 
               De hoc vide 
-              <ref>
-                <seg><name ref="#HenryOfGhent">Henricum de Gandavio</name> parte prima articulo primo 44 14 quaestionibus.</seg>
+              <cit>
+                <ref><name ref="#HenryOfGhent">Henricum de Gandavio</name> parte prima articulo primo 44 14 quaestionibus.</ref>
                 <bibl>Henricus de Gandavensis, xxx</bibl>
-              </ref>
+              </cit>
             </p>
             
             <p xml:id="pgb1q1-aaqinc">Ad aliam quidquid sit de antecedente, 
@@ -594,7 +613,7 @@
               negatur consequentia quia sic probaretur quod nullus esset habitus caritatis vel gratiae 
               infusus creaturae quia non omnes qui habent percipiunt, immo nemo sic in ordio vel amore dignus sit. 
               Secundo posset dici quod omnis 
-              <pb n="15r" ed="#L"/> 
+              <pb n="15-r" ed="#L"/> 
               theologus percipit, licet non perfecte percipiat ipsum, nec percipiat se percipere.</p>
             
             <p xml:id="pgb1q1-aupqef">Ad ultimum posset negari consequentia quia si 
