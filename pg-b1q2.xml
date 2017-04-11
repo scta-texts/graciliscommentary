@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -17,12 +17,11 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2013-10-10">October 10, 2013</date>  
+        <date when="2013-10-10">October 10, 2013</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -30,6 +29,14 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
         <change when="2015-12-24" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
@@ -40,21 +47,24 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="15-r"/>
       </div>
     </front>
     <body>
         <div xml:id="pg-b1q2">
-        <head>Librum I, Quaestio 2</head>
-          <div>
-            <head>
+        <head xml:id="pg-b1q2-Hd1e3727">Librum I, Quaestio 2</head>
+          <div xml:id="pg-b1q2-Dd1e3730">
+            <head xml:id="pg-b1q2-Hd1e3732">
               <supplied>Circa textum</supplied>
             </head> 
             <p xml:id="pgb1q2-d1e3417">
               <cit>
-                <quote>Veteris ac novae legis</quote>
+                <quote xml:id="pg-b1q2-Qd1e3742">Veteris ac novae legis</quote>
                 <bibl>Lombard, Sententia, I (XXX)</bibl>
               </cit> 
               etc. Praemissio prooemio sequitur tractatus 
@@ -62,20 +72,20 @@
               tractanda. Secunda incipit in principio secundae distinctionis. Prima dividitur in tres partes 
               principales; nam in prima, materias librorum per quasdam distinctiones ab invicem distinguit et separat; 
               in secunda movet quasdam quaestiones et eas pertractat; in tertia ponit quasdam resumptiones 
-              et circa dicta <quote>epilogat</quote>. Secunda ibi 
+              et circa dicta <quote xml:id="pg-b1q2-Qd1e3752">epilogat</quote>. Secunda ibi 
               <cit>
-                <quote>cum autem homines.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3757">cum autem homines.</quote>
                 <bibl>Lombardus, I, d. 1, xxx</bibl>
               </cit> 
               Tertia ibi: 
               <cit>
-                <quote>ergo ominum qua dicta sunt.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3766">ergo ominum qua dicta sunt.</quote>
                 <bibl>Lombardus, I, d. 1, xxx</bibl>
               </cit> 
               Prima pars adhuc dividitur in duas, quia primo <name ref="#Lombard">Magister</name> inquirit materias librorum divisive, 
               secundo diffinitive. Secunda ibi: 
               <cit>
-                <quote>frui</quote>
+                <quote xml:id="pg-b1q2-Qd1e3779">frui</quote>
                 <bibl>Lombardus, I, d. 1, xxx</bibl>
               </cit> 
               etc. 
@@ -83,20 +93,21 @@
               <name ref="#Lombard">Magister</name> tres movet quaestiones. Prima utrum homo possit licite frui se; secunda, utrum Deus 
               fruatur homine; tertia, utrum homo licite fruatur virtute. Secunda ibi 
               <cit>
-                <quote>ibi sed cum Deus.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3791">ibi sed cum Deus.</quote>
                 <bibl>Lombardus, I, d. 1, xxx</bibl>
               </cit> 
               Tertia 
               ibi 
               <cit>
-                <quote>hic considerandum est.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3800">hic considerandum est.</quote>
                 <bibl>Lombardus, I, d. 1, xxx</bibl>
               </cit> 
               Quaelibet harum partium dividitur in duas, 
+              quia
               <app>
-                <lem>quia</lem>
-                <rdg wit="#L" type="intextu">ponit</rdg>
-                <note xml:lang="en">L has "ponit movet" which doesn't make a lot of sense. Best conjecture here is that the scribe is offering two options, we chosen movet over ponit</note>
+                <lem n="quia"/>
+                <rdg wit="#L" type="variation-present">ponit</rdg>
+                <note xml:lang="en">L has "ponit movet" which doesn't make a lot of sense. Best conjecture here is that the scribe is offering two options, we've chosen movet over ponit</note>
               </app> 
               movet quaestionem; secundo solvit seu ponit quaestionis solutionem. Partes patebunt. Tertia pars principalis 
               <unclear cert="low">epilogativa</unclear> dividitur in 
@@ -110,89 +121,94 @@
                 </rdg>
               </app> 
               quia primo epilogat, secundo modum dicendorum insipiat et ad dicenda se continuat. 
-              Secunda ibi <quote>de quibus omnibus</quote> etc, et haec sit divisio in generali</p>
+              Secunda ibi <quote xml:id="pg-b1q2-Qd1e3840">de quibus omnibus</quote> etc, et haec sit divisio in generali</p>
           </div>
-          <div>
-            <head>
+          <div xml:id="pg-b1q2-Dd1e3845">
+            <head xml:id="pg-b1q2-Hd1e3847">
               <supplied>Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae, voluntatis vel sic: utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum</supplied>
             </head>
-            <p xml:id="pgb1q2-d1e3518">Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae 
+            <p xml:id="pgb1q2-d1e3518">
+              Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae 
               voluntatis, vel sic: utrum sicut voluntas creata est relatae dilectionis subiectum, sic 
-              sola Trinitas beata sit ordinatae fruitionis obiectum </p>
-            <div>
-              <head>
+              sola Trinitas beata sit ordinatae fruitionis obiectum.
+            </p>
+            <div xml:id="pg-b1q2-Dd1e3856">
+              <head xml:id="pg-b1q2-Hd1e3858">
                 <supplied>Rationes principales</supplied>
               </head>
-              <p xml:id="pgb1q2-d1e3531">Quod non, quia non solum 
+              <p xml:id="pgb1q2-d1e3531">
+                Quod non, quia non solum 
                 voluntas est dilectionis subiectum ergo <supplied>etc.</supplied>. Antecedens probatur, quia dilectio est cognitio; sed cuiuslibet cognitionis creatae
                 intellectus est subiectum, ergo <supplied>etc.</supplied>. Maior patet, quia non est maius inconveniens ponere dilectionem esse cognitionem 
                 quam dicere assensum esse apprehensionem. Tum quia, sequitur quod aliquis esset beatus et non videret Deum. 
-                Patet, quia, si sint duo actus, Deus posset unum sine alio conservare.</p>
-          
-              <p xml:id="pgb1q2-d1e3547">Secundo non. Sola Trinitas 
+                Patet, quia, si sint duo actus, Deus posset unum sine alio conservare.
+              </p>
+              <p xml:id="pgb1q2-d1e3547">
+                Secundo non. Sola Trinitas 
                 est ordinatae fruitionis obiectum, ergo <supplied>etc.</supplied>. Probatur antecedens, tum quia, quaelibet creatura est infinite 
                 diligibilis, ergo et ordinatae fruibilis. Patet consequentia, quia, si non est fruibilis, ergo est tam diligibilis 
                 quod non plus diligibilis. Primum antecedens probatur per 
-                <ref>
-                  <seg><name ref="#HugolinoOfOrvieto">Hugolinum</name> libro primo, conclusione tertia, articulo primo.</seg>
+                <cit>
+                  <ref><name ref="#HugolinoOfOrvieto">Hugolinum</name> libro primo, conclusione tertia, articulo primo.</ref>
                   <bibl>Hugolinus de Urbe Veteri, Sententia, I, d. 3, a. 1</bibl>
-                </ref> 
+                </cit> 
                 Item, ipsum probat 
-                <ref>
-                  <seg><name ref="#FascinusOfAsti">Fascinus</name> in suo primo,</seg>
+                <cit>
+                  <ref><name ref="#FascinusOfAsti">Fascinus</name> in suo primo,</ref>
                   <bibl>Fascinus de Ast, Sententia, I, XXX</bibl>
-                </ref> 
+                </cit> 
                 quia Deus 
                 <app>
                   <lem><supplied>quamlibet</supplied></lem>
                   <rdg wit="#L">quaelibet</rdg>
                 </app> 
-                creaturam diligit infinite.</p>
-          
-              <p xml:id="pgb1q2-d1e3573">Tertio, si angelus <name ref="#Satan">Satanae</name> transformaret se in speciem lucis, creatura posset eo licite 
+                creaturam diligit infinite.
+              </p>
+              <p xml:id="pgb1q2-d1e3573">
+                Tertio, si angelus <name ref="#Satan">Satanae</name> transformaret se in speciem lucis, creatura posset eo licite 
                 frui, ergo <supplied>etc.</supplied>. Antecedens patet 
-                <ref>
-                  <seg><name ref="#Lombard">Magistrum</name> libro primo distinctione 30</seg>
+                <cit>
+                  <ref><name ref="#Lombard">Magistrum</name> libro primo distinctione 30</ref>
                   <bibl>Lombard, Sententia, I, d. 30 (XXX)</bibl>
-                </ref> 
+                </cit> 
                 et in 
-                <ref>
-                  <seg>eandem secunda quaestione prima, <!-- this reference is unclear --></seg>
+                <cit>
+                  <ref>eandem secunda quaestione prima, <!-- this reference is unclear --></ref>
                   <bibl>XXX</bibl>
-                </ref> 
+                </cit> 
                 ubi dicitur quod, in tali casu, credens Diabolum esse Christum licite posset adorare eum, 
                 nec talis error esset periculosus,</p>
                 
               <p xml:id="pgb1q2-d1e3603">In oppositum est 
-                <ref type="commentary" target="http://scta.info/resource/pll1d1c2-riqhud">
-                  <seg><name ref="#Lombard">Magister</name> in distinctione praesenti</seg>
-                  <bibl><ref type="commentary" target="http://scta.info/resource/pll1d1c2-riqhud">Lombard, Sententia, I, d. 1, c. 2 (XXX)</ref></bibl>
-                </ref>  
+                <cit>
+                  <ref target="http://scta.info/resource/pll1d1c2-riqhud"><name ref="#Lombard">Magister</name> in distinctione praesenti</ref>
+                  <bibl><ref target="http://scta.info/resource/pll1d1c2-riqhud">Lombard, Sententia, I, d. 1, c. 2 (XXX)</ref></bibl>
+                </cit>  
                 allegans 
                 <ref>
                   <name ref="#Augustine">Augustinum</name>, primo <title ref="#deDoctrinaChristiana">De doctrina Christiana</title> capitulo 20</ref> 
                 <cit>
-                  <quote ana="Augustine_DeDoctrinaChristiana_1_5_5_a">res autem quae nos beatos faciunt 
+                  <quote xml:id="pg-b1q2-Qd1e3966" ana="Augustine_DeDoctrinaChristiana_1_5_5_a">res autem quae nos beatos faciunt 
                     et quibus fruendum est sunt Pater et Filius et Spiritus Sanctus.</quote>
                   <bibl>Augustinus, De doctrina Christiana, I, 5, 5 (XXX)</bibl>
                 </cit>
               </p>
               </div>
-            <div>
-              <head>Prima conclusio</head>
+            <div xml:id="pg-b1q2-Dd1e3975">
+              <head xml:id="pg-b1q2-Hd1e3977">Prima conclusio</head>
               <p xml:id="pgb1q2-d1e3628">Prima conclusio de supposito: licet omnis 
                 dilectio dependeat causaliter a cognitione, tamen quaelibet obiecti apprehensio vel cognitio 
                 cum voluntatis libertate sufficit dilectionem causare. Prima probatur, quia, si non sequitur quod dilectio 
                 posset poni seu elici naturaliter a voluntate, seclusa omni cognitione. Consequens est falsum, 
-                <pb ed="#L" n="15v"/> 
+                <pb ed="#L" n="15-v"/> 
                 quia tunc voluntas posset diligere in infinitum, contra 
-                <ref>
-                  <seg><name ref="#Augustine">Augustinum</name> in libro XIII, 2, 10 <title ref="#deTrinitate">De Trinitate</title>.</seg>
+                <cit>
+                  <ref><name ref="#Augustine">Augustinum</name> in libro XIII, 2, 10 <title ref="#deTrinitate">De Trinitate</title>.</ref>
                   <bibl>Augustinus, De Trinitate, XIII, 2, 10 (XXX)</bibl>
-                </ref> 
+                </cit> 
                 Patet consequentia, quia, positis omnibus causis ad productionem ad productionem alicuius effectus requisitis 
                 omni alio secluso, talis effectus posset naturaliter poni in esse. Secunda pars probatur, quia, 
-                quia <quote>si sola obiecti cognitio</quote> etc., sequitur quod, stante iudicio vel apprehensione alicuius 
+                quia <quote xml:id="pg-b1q2-Qd1e3998">si sola obiecti cognitio</quote> etc., sequitur quod, stante iudicio vel apprehensione alicuius 
                 obiecti sub ratione 
                 <app>
                   <lem>mali</lem>
@@ -205,24 +221,27 @@
                 </app> 
                 seclusa omnia existentia vel apparentia bonitatis, 
                 voluntas posset tale obiectum velle vel diligere. Consequentia nota, sed consequens est contra 
-                <ref>
-                  <seg><name ref="#Aristotle">Philosophum</name></seg>
+                <cit>
+                  <ref><name ref="#Aristotle">Philosophum</name></ref>
                   <bibl>Aristotle, Ethica, XXX</bibl>
-                </ref> et 
-                <ref>
-                  <seg><name ref="#Averroes">commentatorem</name> 
+                </cit> 
+                et 
+                <cit>
+                  <ref><name ref="#Averroes">commentatorem</name> 
                     I <name ref="#Ethics">Ethicorum</name>
-                  </seg>
+                  </ref>
                   <bibl>Averroes, XXX</bibl>
-                </ref> 
-                quia omnia bonum appetunt</p>
-              
-              <p xml:id="pgb1q2-d1e3692">Primum corollarium: quod nulla dilectio vel volitio 
+                </cit> 
+                quia omnia bonum appetunt
+              </p>
+              <p xml:id="pgb1q2-d1e3692">
+                Primum corollarium: quod nulla dilectio vel volitio 
                 est essentialiter cognitio vel formaliter apprehensio. Patet, quia causa et effectus distinguuntur essentialiter; 
                 et antecedens patet per conclusionem, quia dilectio causaliter dependet a cognitione et non in genere causae 
-                formalis, materialis, nec finalis, ergo efficientis.</p>
-              
-              <p xml:id="pgb1q2-d1e3708">Secundum corollarium: si dilectio respectu alicuius obiecti 
+                formalis, materialis, nec finalis, ergo efficientis.
+              </p>
+              <p xml:id="pgb1q2-d1e3708">
+                Secundum corollarium: si dilectio respectu alicuius obiecti 
                 sit in voluntate, necesse est respectu eiusdem 
                 <app>
                   <lem><supplied>cognitionis</supplied></lem>
@@ -235,8 +254,8 @@
                 causare.</p>
             
             </div>
-            <div>
-              <head>Secunda conclusio</head>
+            <div xml:id="pg-b1q2-Dd1e4065">
+              <head xml:id="pg-b1q2-Hd1e4067">Secunda conclusio</head>
               
               <p xml:id="pgb1q2-d1e3736">Secunda conclusio: quam impossibile est entitatem creatam esse intrinsece bonitatis infinitae et 
                 illimitatae, tam est impossibile aliquam talem habere rationem intrinsecam diligibilitatis infinitae. 
@@ -258,7 +277,7 @@
                 </ref> 
                 dicens quod 
                 <cit>
-                  <quote>solus deus est summe bonus cui nihil boni simpliciter de esse potest.</quote>
+                  <quote xml:id="pg-b1q2-Qd1e4104">solus deus est summe bonus cui nihil boni simpliciter de esse potest.</quote>
                   <bibl>Augustinus, Super Psalmos 134, XXX</bibl>
                 </cit> 
                 Confirmatur, quia aliter creatura posset esse independens. 
@@ -279,10 +298,10 @@
               <p xml:id="pgb1q2-d1e3792">Primum corollarium: nullum diligens 
                 rem incomplexe ordinate debet latitudinem suae dilectionis extendere ultra 
                 valorem intrinsecum rei amatae. Patet <supplied>per</supplied> 
-                <ref>
-                  <seg><name ref="#Augustine">Augustinum</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo 9</seg>
+                <cit>
+                  <ref><name ref="#Augustine">Augustinum</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo 9</ref>
                   <bibl>Augustinus, De Trinitate IX, c. 9</bibl>
-                </ref> 
+                </cit> 
                 ubi ostendit quod 
                 quanto res est minus bona quam Deus tanto minus est diligi debet; et concludit 
                 in fine quod quaelibet res, quae non est Deus debet infinite minus diligi quam Deus.</p>
@@ -295,42 +314,40 @@
                 iuste creaturae frui. Patet quia nulli creaturae correspondet tanta bonitas quanta 
                 bonitas est Dei, ergo <supplied>etc.</supplied>; nec tanta diligibilitas. Nota quod ista est probatio praecedentis corollarii. 
                 Sequitur corollarie omnis ponens <!-- fix ponens in diplomatic --> <mentioned>Deum esse</mentioned> posse demonstrari habet ponere ipsum esse, 
-                quod super omnia debet amari. Patet ex 
+                quod super omnia debet amari. Patet ex virtute 
                 <app>
-                  <lem>virtute</lem>
-                  <rdg wit="#L" type="corrDeletion">
-                    <corr>
-                      <del rend="strikethrough">de</del>
-                    </corr>
+                  <lem n="virtute"/>
+                  <rdg wit="#L" type="correction-deletion">
+                    <del rend="strikethrough">de</del>
                   </rdg>
                 </app> 
                 vocabuli; nam Deus est 
                 <cit>
-                  <quote>id quod melius cogitari non potest</quote>
-                  <bibl>Anselm, Prologion, XXX</bibl>
+                  <quote xml:id="pg-b1q2-Qd1e4182">id quod melius cogitari non potest</quote>
+                  <bibl>Anselmus, Proslogion, 3 (I, 103, II. 1-2)</bibl>
                 </cit> 
                 secundum regulam <name ref="#Anselm">Anselmi</name>; sed quanta est intrinseca bonitas rei, 
                 tanta est eius diligibilitas per dicta; igitur <supplied>etc.</supplied>.</p>
             </div>
-            <div>
-              <head>Tertia conclusio</head> 
+            <div xml:id="pg-b1q2-Dd1e4199">
+              <head xml:id="pg-b1q2-Hd1e4201">Tertia conclusio</head> 
               <p xml:id="pgb1q2-d1e3859">Tertia conclusio: sicut sola Trinitas increata 
                 est ordinatae fruitionis ratio obiectiva sic eadem sub unica ratione est 
                 creatae imaginis ad se fruendum motiva. Prima patet <supplied>per</supplied> 
-                <ref>
-                  <seg><name ref="#Augustine">Augustinum</name> I <title ref="#deDoctrinaChristiana">De Doctrina Christiana</title></seg>
+                <cit>
+                  <ref><name ref="#Augustine">Augustinum</name> I <title ref="#deDoctrinaChristiana">De Doctrina Christiana</title></ref>
                   <bibl>Augustinus, De Doctrina Christiana, I, XXX</bibl>
-                </ref> 
+                </cit> 
                 ubi prius allegatum. Item 
                 <ref>I <title ref="#Confessions">Confessionum</title></ref> 
                 <cit>
-                  <quote>ad te domine nos fecisti et inquietum est cor nostrum donec requiescat in te.</quote>
+                  <quote xml:id="pg-b1q2-Qd1e4229">ad te domine nos fecisti et inquietum est cor nostrum donec requiescat in te.</quote>
                   <bibl>Augustinus, Confessionum, I, 17, 27 (XXX)</bibl>
                 </cit> 
                 Confirmatur, quia nulla creatura 
                 sibi sufficit ad esse nec ad bene esse, ergo nec sufficit alteri, et sic in creatura 
                 non potest esse quietatio ultimata et finalis. Secunda pars probatur, quia, si non hoc esse quia 
-                <pb ed="#L" n="16r"/> 
+                <pb ed="#L" n="16-r"/> 
                 moveret intellectum sub ratione <unclear>veri <!-- confirm and add in diplomatic --></unclear> et voluntatem sub ratione boni; sed hoc non impedit, 
                 quia omnino est eadem ratio bonitatis et veritatis immense, sed Trinitas immensa non 
                 movet partes imaginis ad se fruendum, nisi sub ratione veritatis et bonitatis 
@@ -341,10 +358,10 @@
                 memoriam sine intellectiva beatifice elevari. Prima patet conclusionem. Secunda probatur. Tum quia est 
                 unica motio, tum quia motum seu receptivum est unum et idem, scilicet memorativa 
                 intellectiva potentia, <!-- confirm change to potentia from potentiae --> ut videtur sentire 
-                <ref>
-                  <seg><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo tertio.</seg>
+                <cit>
+                  <ref><name ref="#Augustine">Augustinus</name> IX <title ref="#deTrinitate">De Trinitate</title> capitulo tertio.</ref>
                   <bibl>Augustinus, De Trinitate, IX, c. 3</bibl>
-                </ref> 
+                </cit> 
                 Per hoc, tamen, nolo asserere quin homo posset Deum intelligere clare et non diligere, quia forte 
                 stat quod videat clare et non diligat, sed non beatifice.</p> 
               
@@ -363,17 +380,17 @@
                 <supplied>patet</supplied> per dicta, quia res materialis seu obiectum, causaliter concurrit ad cognitionem, quae est immaterialis 
                 Ex dictis sequitur pars affirmativa <unclear>quaestionis.</unclear></p>
             </div>
-            <div>
-              <head>Obiectiones et responsiones</head> 
+            <div xml:id="pg-b1q2-Dd1e4277">
+              <head xml:id="pg-b1q2-Hd1e4279">Obiectiones et responsiones</head> 
               <p xml:id="pgb1q2-d1e4017">Contra primam conclusionem et eius corollaria arguitur, 
                 quia aliqua volitio et dilectio formaliter est cognitio. Ergo antecedens probatur, quia, si destrueretur 
                 in mente cognitio, remanente dilectione respectu obiecti dilecti, quaeritur autem <supplied>utrum</supplied> per talem 
                 dilectionem obiectum cognosceretur aut non. Si sic, habetur propositum; si non, sequitur quod 
                 in cognitum diligit, <supplied>quod est</supplied> 
-                <ref>
-                  <seg>contra <name ref="#Augustine">Augustinum</name>.</seg>
+                <cit>
+                  <ref>contra <name ref="#Augustine">Augustinum</name>.</ref>
                   <bibl>Augustinus, XXX</bibl>
-                </ref> 
+                </cit> 
                 Item, ad hoc est prima ratio principalis facta ad oppositum 
                 <unclear>quaestionis.</unclear></p>
           
@@ -382,10 +399,10 @@
             patriae est unitas obiecti moventis sub unica ratione; ergo ibi est unitas <!-- confirm unitas and correct in diplomatic --> 
             actuum et per consequens cognitio et dilectio, sive diligere et cognoscere, erit idem 
             actus non plurificatus. Minor patet <supplied>per</supplied> secundam partem tertiae conclusionis. Maior patet <supplied>per</supplied> 
-            <ref>
-              <seg><name ref="#Aristotle">Philosophum</name> II <title ref="#deAnima">De anima</title></seg>
+            <cit>
+              <ref><name ref="#Aristotle">Philosophum</name> II <title ref="#deAnima">De anima</title></ref>
               <bibl>Aristotle, De anima, II, XXX</bibl>
-            </ref>
+            </cit>
           </p>
           
           <p xml:id="pgb1q2-d1e4077">Contra secundam conclusionem <!-- confirm and correct to conclusionem in diplomatic --> et eius corollaria, arguitur primo: quaelibet creatura licite 
@@ -401,7 +418,7 @@
             realiter qui est infinitus et infinite.</p>
           
           <p xml:id="pgb1q2-d1e4103">Quarto, contra secundam corollarium, homo <unclear>fruens <!-- confirm and correct in diplomatic --></unclear> licite 
-            <pb ed="#L" n="16v"/> 
+            <pb ed="#L" n="16-v"/> 
             potest frui in proximum quam in Deum, ergo licite plus diligere. Consequentia patet, cum sit in aliud frui, 
             sit diligere. Antecedens patet, quia quis licite potest plus et <unclear>fruens <!-- fruentius check with fruens above; confirm and/or correct --></unclear> plorare mortem 
             amici quam mortem Christi, et plus temporalia dampnata quam peccata commissa.</p>
@@ -450,22 +467,22 @@
           
           <p xml:id="pgb1q2-d1e4228">Ad secundam probationem dicitur quod nullus potest esse perfecte beatus nisi Deum videat. 
             Ideo, negatur consequentia, 
-            <ref>
-              <seg>sicut dicit <name>Magister Honofrius</name>.</seg>
+            <cit>
+              <ref>sicut dicit <name>Magister Honofrius</name>.</ref>
               <bibl>Honofrius, XXX</bibl>
-            </ref> 
+            </cit> 
             De hoc vide 
-            <ref>
-              <seg><name ref="#Rimini">Gregorium</name>, libro primo, distinctione prima, articulo secundo, quaestione secunda.</seg>
+            <cit>
+              <ref><name ref="#Rimini">Gregorium</name>, libro primo, distinctione prima, articulo secundo, quaestione secunda.</ref>
               <bibl>Gregory Ariminiensis, Sent., I, d. 1, a. 2, q. 2</bibl>
-            </ref>
+            </cit>
           </p>
           
           <p xml:id="pgb1q2-d1e4242">Ad secundum diceret 
-            <ref>
-              <seg><name ref="#AlphonsusVargas">Alphonsus</name>, libro primo, distinctio prima,</seg>
+            <cit>
+              <ref><name ref="#AlphonsusVargas">Alphonsus</name>, libro primo, distinctio prima,</ref>
               <bibl>Alphonsus Vargas, Sent., I, d. 1</bibl>
-            </ref> 
+            </cit> 
             negando minorem, quia tenet quod in fruitione patriae anima non se habet active sed pure passive.</p>
           
           <p xml:id="pgb1q2-d1e4252">Secundo posset dici quod, licet proprie loquendo una potentia moveatur causaliter effective ad 
@@ -479,13 +496,15 @@
           
           <p xml:id="pgb1q2-d1e4271">Ad tertium, primo 
             diceret 
-            <ref>
-              <seg><name ref="#HugolinoOfOrvieto">Hugolinus</name>, distinctione prima primi <supplied>libri</supplied>, quaestione tertia.</seg>
+            <cit>
+              <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name>, distinctione prima primi <supplied>libri</supplied>, quaestione tertia.</ref>
               <bibl>Hugolinus de Urbe Veteri, Sent., I, d. 1, q. 3</bibl>
-            </ref> 
+            </cit> 
             Concedo antecedens sic quod ab infinitis voluntatibus 
             plus potest in infinitum diligi, sed non ab una voluntate; vide ibi. Aliter dicitur negando 
-            <!-- end of first codex --><pb ed="#L" n="17r"/><!-- new codex --> 
+            <!-- end of first quire -->
+            <pb ed="#L" n="17-r"/>
+            <!-- new quire --> 
             hanc consequentiam <mentioned>haec creatura est infinite diligibilis, ergo est fruibilis,</mentioned> nisi addatur 
             ex valore intrinseco rei.</p>
           
@@ -511,16 +530,16 @@
             et tertio modis sumendo <mentioned>frui</mentioned>, conceditur antecedens et negatur consequentia.</p>
           
           <p xml:id="pgb1q2-d1e4340">Ad aliud, contra tertiam conclusionem, diceret <name ref="#ThomasStrasbourg">Thomas de Argentina</name> quod anima est infinitae capacitatis potentia obiectali non naturali; vide 
-            <ref>
-              <seg>quaestionem tertiam <!-- confirm "quaestionem tertiam" and correct in diplomatic --> prologi, articulo primo.</seg>
+            <cit>
+              <ref>quaestionem tertiam <!-- confirm "quaestionem tertiam" and correct in diplomatic --> prologi, articulo primo.</ref>
               <bibl>Thomas de Argentina, Sent., I, prologus, q. 3</bibl>
-            </ref> 
+            </cit> 
             Aliter posset dici quod anima est infinitae capacitatis et infinitae 
             perceptivitatis, licet non sit potentia perceptiva infinita nec infinite; et posset negari consequentia. 
-            <ref>
-              <seg><name ref="#RichardKilvington">Clienton</name>, quaestione tertia</seg>
+            <cit>
+              <ref><name ref="#RichardKilvington">Clienton</name>, quaestione tertia</ref>
               <bibl>Richard Kilvington, Sent., I, q. 3</bibl>
-            </ref> 
+            </cit> 
             dicit quod capacitas animae est finita substantia, sed est capacitas 
             infinita, et sic 
             <app>
@@ -554,10 +573,10 @@
             aliter dicitur quod nullum bonum citra Deum animam potest satiare et beatificare <supplied>et</supplied> eam quietare 
             quia nullum bonum citra Deum potest causare delectionem de illo genere quae foret quietativa; ideo, secundum hanc rationem, 
             quae est 
-            <ref>
-              <seg><name ref="#HugolinoOfOrvieto">Hugolini</name>, distinctione prima primi, quaestione tertia, circa finem,</seg>
+            <cit>
+              <ref><name ref="#HugolinoOfOrvieto">Hugolini</name>, distinctione prima primi, quaestione tertia, circa finem,</ref>
               <bibl>Hugolinus de Urbe Veteri, Sent. I, d. 1, q. 3 (XXX)</bibl>
-            </ref> 
+            </cit> 
             posset negari consequentia.</p> 
           
           <p xml:id="pgb1q2-d1e4429">Item, notandum quod, licet creatura nequeat quietari finaliter in bono creato, 
@@ -566,7 +585,7 @@
           
           <p xml:id="pgb1q2-d1e4437">Item, stat 
             aliquem nescire Deum esse et capere pro fine ultimo aliquod bonum temporale, et 
-            <pb ed="#L" n="17v"/>
+            <pb ed="#L" n="17-v"/>
             tunc voluntas quietatur in illo et decipitur.</p>
           
           <p xml:id="pgb1q2-d1e4446">Ultimo, posset dici quod Deus potest creare aliquod 
@@ -590,10 +609,10 @@
             ut est deformitas, non habet rationem <unclear>intelligibilitatis</unclear> sicut nec <unclear>volibilitatis</unclear>, et sic privatio 
             non cognoscitur proprie nisi per habitum, sic nec peccatum nisi ut est quemdam boni privatio. 
             Nota 
-            <ref>
-              <seg><name ref="#FascinusOfAsti">Fascinum</name> in secundo,</seg>
+            <cit>
+              <ref><name ref="#FascinusOfAsti">Fascinum</name> in secundo,</ref>
               <bibl>Fascinus de Asti, XXX</bibl>
-            </ref> 
+            </cit> 
             ubi de hoc ponit exemplum, dicens quod homo scit se privari 
             floreno non nisi quia in mente sua habet speciem floris super quem reflectitur sua 
             imaginario et sic <supplied>in</supplied> mente specie tali causatur iudicium de carentia floreni; 
@@ -607,24 +626,24 @@
             moventis.</p>
           
           <p xml:id="pgb1q2-d1e4564">Ad ultimam rationem in oppositum, primo dicerent 
-            <ref>
-              <seg><name ref="#Bradwardine">Bradwardinus</name></seg>
+            <cit>
+              <ref><name ref="#Bradwardine">Bradwardinus</name></ref>
               <bibl>Bradwardinus, XXX</bibl>
-            </ref> et 
-            <ref>
-              <seg><name ref="#Holcot">Holcot</name></seg>
+            </cit> et 
+            <cit>
+              <ref><name ref="#Holcot">Holcot</name></ref>
               <bibl>Holcot, XXX</bibl>
-            </ref> 
+            </cit> 
             quod talis frueretur creatura sed excusaretur propter invincibilem errorem 
             et ignorantiam absolutam. Secundo diceret <name ref="#HugolinoOfOrvieto">Magister Hugolinus</name> quod talis non diligeret creaturam 
             sed Deum, et ideo excusaretur potissime, si in talem errorem non incidisset ex 
             sua culpa.</p>
           
           <p xml:id="pgb1q2-d1e4588">Tertio, diceret 
-            <ref>
-              <seg><name ref="#JohnKlenkok">Magister Iohannes Klenkot</name></seg>
+            <cit>
+              <ref><name ref="#JohnKlenkok">Magister Iohannes Klenkot</name></ref>
               <bibl>Iohannes Klenkot, XXX</bibl>
-            </ref> 
+            </cit> 
             quod talis excusaretur a 
             tanto, non a toto, quia vel talis est in peccato originali, vel non; si primum, tunc 
             error ille est peccati pena, nec excusatur; si non, sed est in veniali, adhuc 
@@ -633,11 +652,11 @@
             a Deo sic errare.</p>
             </div>
           </div>
-          <div>
-            <head>Conclusiones pro distinctione prima</head>
+          <div xml:id="pg-b1q2-Dd1e4699">
+            <head xml:id="pg-b1q2-Hd1e4701">Conclusiones pro distinctione prima</head>
           <p xml:id="pgb1q2-d1e4607">
             <cit>
-              <quote>Veteris ac novae legis</quote>
+              <quote xml:id="pg-b1q2-Qd1e4708">Veteris ac novae legis</quote>
               <bibl>Lombard, Sent. I, d. 1</bibl>
             </cit> 
             etc. 
@@ -649,19 +668,20 @@
             adiuvant, sicut sacramenta evangelica, seu novae legis.</p>
           
           <p xml:id="pgb1q2-d1e4628">Secunda conclusio <supplied>est</supplied> quod 
-            <ref type="commentary" target="http://scta.info/resource/pll1d1c1-ueeeis">
-              <seg>in hoc libro <title>Sententiarum</title> primo de rebus postea de signis <name ref="#Lombard">magister</name></seg>
+            <cit>
+              <ref  target="http://scta.info/resource/pll1d1c1-ueeeis">in hoc libro <title>Sententiarum</title> primo de rebus postea de signis <name ref="#Lombard">magister</name></ref>
               <bibl><ref type="commentary" target="http://scta.info/resource/pll1d1c1-ueeeis">Lombard, Sententiarum I, d. 1, c. 1 (xxx)</ref></bibl>
-            </ref> 
-            determinabit</p>
+            </cit> 
+            determinabit.
+          </p>
           
           <p xml:id="pgb1q2-d1e4639">Tertia conclusio <supplied>est</supplied> quod, 
-            <ref>
-              <seg>secundum <name ref="#Augustine">Augustinum</name>,</seg>
+            <cit>
+              <ref>secundum <name ref="#Augustine">Augustinum</name>,</ref>
               <bibl>Augustine, XXX</bibl>
-            </ref> 
+            </cit> 
             triplex est genus rerum. Nam quaedam sunt quibus fruendum est, ut Pater, 
-            <pb ed="#L" n="18r"/>
+            <pb ed="#L" n="18-r"/>
             Filius, et Spiritus Sanctus, Trinitas Increata; quaedam quibus est utendum, scilicet mundus et quae sunt 
             in eo; quaedam quae fruuntur et utuntur, sicut nos et angeli sancti.</p>
           
