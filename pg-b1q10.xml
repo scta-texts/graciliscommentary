@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -10,586 +10,652 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.05-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 10</title>
           <date when="2014-05-01">May 01, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
           <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
         </availability>
-        <date when="2014-05-01">May 01, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-01" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-05-01" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="36-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q10">
-        <head>Quaestio 10</head>
-        <div>
-          <head><supplied>Circum textum</supplied></head>
-         <p xml:id="pgb1q10-d1e83">
-           <cit>
-             <quote>Nunc ad distinctionem personarum.</quote>
-             <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c1-d1e3477">Lombardus, I, d. 9, c. 1, n. 1</ref></bibl>
-           </cit> 
-           Haec est nona distinctio huiusmodi primi in 
-           qua postquam <name ref="#Lombard">Magister</name> determinavit de generatione divina, nunc determinat de duratione 
-           Patris et Filii coaeterna, et dividitur in duas, quia ostendit primo eorum 
-           coaeternitatem quantum ad modum essendi intrinsecum. Secundo quantum ad modum dicendi vel significandi 
-           extrinsecum. Secunda ibi 
-           <cit>
-             <quote>hic quaeri potest.</quote>
-             <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c4-d1e3477">Lombardus, I, d. 9, c. 4, n. 1</ref></bibl>
-           </cit>
-         </p>
-        
-        <p xml:id="pgb1q10-d1e104">Prima dividitur in quattuor, quia primo praemittit divinarum 
-          personarum distinctionem. Secundo subiungit earum aequalem durationem. Tertio inducit contra hoc haereticorum 
-          obiectionem. Quarto fefellit oppositis praesumptionem. Secunda ibi 
-          <cit>
-            <quote>genitus est enim.</quote>
-            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c2-d1e3477">Lombardus, I, d. 9, c.2, n. 1</ref></bibl>
-          </cit> 
-          Tertia 
-          <cit>
-            <quote>sed contra hoc</quote>
-            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c2-d1e3480">Lombardus, I, d. 9, c.2, n. 2</ref></bibl>
-          </cit> 
-          Quarto 
-          <cit>
-            <quote>sed quaeris</quote>
-            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c3-d1e3477">Lombardus, I, d. 9, c.3, n. 1</ref></bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q10-d1e116">Secunda principalis dividitur in tres, quia primo movet quamdam disputabilem sententiam. 
-          Secundo concordat doctorum apparentem repugnantiam. Tertio infert conclusionem circa hoc tenendam. 
-          Secunda ibi 
-          <cit>
-            <quote>dicamus ergo Filium.</quote>
-            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c4-d1e3781">Lombardus, I, d. 9, c. 4, n. 13</ref></bibl>
-          </cit> 
-          Tertia ibi 
-          <cit>
-            <quote><supplied>Sed inquiet haeretics<!-- london leaves this blank. current refernce is a guess--></supplied>.</quote>
-            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c5-d1e3477">Lombardus, I, d. 9, c. 5, n. 1</ref></bibl>
-          </cit> 
-          Et haec est divisio huius lectionis</p>
-        </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head> 
-            <p xml:id="pgb1q10-d1e126">
-              <pb ed="#L" n="36v"/>
-              Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque 
-              durative mensurae</p>
-            
-            <p xml:id="pgb1q10-qnqsmp">Quod non quia verbum est mensura creaturae, ergo 
-              verbum non est Patri coaeternum. Antecedens patet et consequentia probatur, quia mensura debet aequari 
-              et mensurative suo mensurato proportionari.</p>
-            
-            <p xml:id="pgb1q10-d1e142">Secundo, verbum divinum est immensum, ergo aeternitate 
-              non est mensuratum, quia contradictio videtur quod immensum mensuretur. Antecedens est catholicum. 
-              Confirmatur quia verbum est supra et ultra aeternitatem, ergo aeternitate non est mensuratum. Alias 
-              probatur <ref><title ref="#ex">Exodi</title> <sic>tertio</sic>:</ref> 
-              <cit>
-                <quote ana="#ex15_18">Dominus regnabit et ultra.</quote>
-                <bibl>Exodus 15:18</bibl>
-              </cit>
-            </p>
-            
-            <p xml:id="pgb1q10-d1e168">Tertio, aeternitas est facta, ergo 
-              verbum non est aeternitas, nec ea mensuratur. Antecedens patet per 
-              <ref><name ref="#Augustine">Augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title></ref> ubi dicit: 
-              <cit>
-                <quote>Deus est auctor aeternitatis.</quote>
-                <bibl>Augustinus, 83 Quaestionibus, XXX</bibl>
-              </cit> 
-              Item 
-              <ref><name ref="#Boethius">Boetius</name></ref> 
-              dicit quod 
-              <cit>
-                <quote>sicut nunc fluens facit temporis sic nunc 
-                  stans et permanens facit aeternitatem.</quote>
-                <bibl>Boetius, XXX</bibl>
-              </cit>
-            </p>
-            
-            <p xml:id="pgb1q10-d1e188">In oppositum est 
-              <ref><name ref="#Lombard">Magister</name> <title ref="#Sentences">sententiarum</title> in hac distinctione.</ref> 
-              Item, in simile in hac Trinitate, nihil prius aut posterius. etc</p>
-          </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head>
-            
-            <p xml:id="pgb1q10-d1e200">Prima conclusio: licet aeternaliter seu aeternitatis 
-              duratio in abstracto ad extra non sit communicabilis perfectio, ipsa tamen est cuiuslibet producti 
-              aeterna et formalis mensuratio. Prima pars quia sequeretur quod creatura Deo posset esse coaeterna 
-              vel quod quaelibet creatura esset producta ante quodlibet tempus, sed utrumque est falsum, impossibile ergo. Secunda 
-              pars probatur quia Deo respectu creaturae conveniunt proprietates mensurae proprie et non transumptive 
-              solum, ergo antecedens ostendit 
-              <ref><name ref="#GilesOfRome">Aegidius</name> libro secundo, distinctione octava, questione tertia, parte secunda</ref> quoniam sibi competit 
-              ratio numeri temporaliter uniformiter simpliciter et indivisibiliter. Secundo, quia creaturae competit ratio 
-              adaequationis dupliciter, scilicet per conformitatem et im?ttationem[?], ergo sequitur quod Deus taliter formaliter 
-              sit mensura cuiuslibet entis producti. Prima pars conclusionis confirmatur quia nulli creaturae potest competere 
-              invariabilitas immutabilitas et simultatas[?], ergo nec aeternitas. Patet consequentia quia ille 
-              sunt proprietates aeternitatis ut post patebit. Et antecedens patet quia secundum <name ref="#Rimini">Gregorium</name> eo ipso quo 
-              creatura est vicissitudinem mutabilitatis habet.</p>
-            
-            <p xml:id="pgb1q10-d1e236">Primum corollarium: immensitas et 
-              aeternitas mensurae non infert immensitatem mensuratae naturae contra <ref><name ref="#Ripa">Iohannem de Marchia</name> 
-              quaestione prima <title ref="#SentencesRipa">Sententiarum</title> determinationi in responsione primae contra secundam conclusionem.</ref> Patet quia 
-              Deus immensus est formalis mensura creaturae, et tamen creatura non est immensa, et per consequens 
-              non est ei adaequata proportionaliter ut dicit ibi.</p>
-            
-            <p xml:id="pgb1q10-d1e257">Secundum corollarium: aeternitatis formalis ratio 
-              non est perfectionis simpliciter denominatio. Patet quia quaelibet talis perfectio est ad extra communicabilis 
-              creaturae concretive, sed aeternitas non est communicabilis creaturae, igitur.</p>
-            
-            <p xml:id="pgb1q10-d1e265">Ex primo 
-              <app>
-                <lem>corollario</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr><del rend="strikethrough">p</del></corr>
-                </rdg>
-              </app> 
-              et conclusione 
-              sequitur quod quaelibet materialis et divisibilis natura mensuratur immateriali et indivisibili mensura 
-              aliquo modo et non adaequate.</p>
-            
-            <p xml:id="pgb1q10-d1e277">Tertium corollarium: licet aeternitas ut sic non sit perfectio ut 
-              si simpliciter denotative, tamen est modus perfectionis <unclear cert="high">identitate</unclear> realiter et entitative. 
-              Prima patet per 
-              <ref>
-                <seg>corollarium 2m.</seg>
-                <bibl>Vide supra</bibl>
-              </ref> 
-              Secunda probatur quia aeternitas essentialiter est Deus aeternus.</p>
-              </div>
-              <div>
-                <head><supplied>Secunda conclusio</supplied></head>
-                <p xml:id="pgb1q10-d1e291">Secunda conclusio: sicut 
-                  summa bonitas est sua super simplex natura, sic sua aeternitas est eius omnis 
-                  mensura. Probatur per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologii</title> 24</ref> ubi ait 
-                  <cit>
-                    <quote>summa substantiam constat sine 
-                      principio et sine fine esse nec habere praesens praeteritum nec futurum</quote>
-                    <bibl>Anselmus, Monologion, 24, XXX</bibl>
-                  </cit>
-                </p> 
-                
-                <p xml:id="pgb1q10-d1e309">Item <name>Alexander</name> <!-- alan of lille? Alexander of Alexandria? --> 
-                  libro <title>De memoria rerum difficilium</title> propositione 52 dicit 
-                  <cit>
-                    <quote>tempus rem a suo principio 
-                      distare facit aeternitas vero rem suae causae continuat[?] et coniungit in aeternitate 
-                      non est pars neque prius aut posterius</quote>
-                    <bibl>Alexander, XXX</bibl>
-                  </cit>
-                </p>
-                
-                <p xml:id="pgb1q10-d1e328">Item <ref>propositione 44</ref> dicit quod nullum immutabile mensuratur 
-                  <pb ed="#L" n="37r"/> 
-                  mensura successiva aut succedente sed aeterna.</p>
-                
-                <p xml:id="pgb1q10-d1e340">Prima corollarium: mensura cuiuslibet divinae operationis 
-                  seu causalitatis est instans semper praesens et indivisibile aeternitatis. Patet quia Deus est sua 
-                  opero nominaliter et active sumpta, ergo. Confirmatur quia tam Deus quam creatura mensurantur 
-                  aeternitate, et per consequens eius instanti quia sunt idem praecisive.</p>
-                
-                <p xml:id="pgb1q10-d1e346">Secundum corollarium: quam repugnat 
-                  pluralitas deorum d??ti[?] tam repugnat multiplicitas signorum aeternitati. Patet quia summa 
-                  natura est eius omnis mensura, ergo quaelibet eius mensura est sibi adaequata totaliter, 
-                  sed quodlibet signum vel instans aeternitatis est eius propria mensura, ergo quodlibet talem est simplex 
-                  non multiplex. Et intelligo per mensuram aequalem cum Deo permanentiam durativam 
-                  super simplicem et independentem et principio carentem.</p>
-                
-                <p xml:id="pgb1q10-d1e375">Tertium corollarium: sicut aeternitas est 
-                  pluralitatem signorum mensura intrinsece excludens sic instans aeternitas est omnem 
-                  successionem durativam contentive includens. Prima pars est contra <ref><name ref="#Scotus">Scotum</name> in locis pluribus</ref> 
-                  quae probatur sic quia aliter tota Trinitas foret multiplicior eius significans quod est falsum et contra 
-                  <ref>
-                    <seg>secundum corollarium.</seg>
-                    <bibl>Vide supra</bibl>
-                  </ref> 
-                  Item illud signum esset simplicius eius aeternitate quod est falsum.</p>
-                
-                <p xml:id="pgb1q10-d1e390">Secunda pars est contra 
-                  <name ref="#HugolinoOfOrvieto">Hugolinum</name>, quae probatur quia instans aeternitatis est adaequate ipsa aeternitatis, ergo cuiuscumque 
-                  <app>
-                    <lem>aeternitatis</lem>
-                    <rdg wit="#L" type="corrReplace">
-                      <corr>
-                        <del>aeternitas</del>
-                        <add>aeternitatis</add>
-                      </corr>
-                    </rdg>
-                  </app> 
-                  est praecontentiva[?] instans aeternitatis est illud contentive includens et illud 
-                  inclusive continens sed aeternitas praecontinet[?] et includit omnem moram durativam 
-                  successivam realem et imaginatiam[?], ergo.</p>
-          </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head> 
-            <p xml:id="pgb1q10-d1e417">Tertia conclusio: aeterni verbi generatio seu aeternum 
-              generari instanti aeternitatis censendum est mensurari haec patet per <ref><name ref="#JohnDamascenus">Damescenus</name> libro primo, capitulo octavo</ref> 
-              generatio divina est sine initio et aeternae naturae opus existens. Item probatur ratione quia haec generatio 
-              est invariabilis incorruptibilis simultanea absque successione, sed istae sunt proprietates 
-              aeternitatis, ergo. Prima pars antecedentis patet et secunda per <ref><name ref="#Augustine">Augustinum</name> III <title ref="#deTrinitate">De Trinitate</title> capitulo tertio</ref> dicentem quod 
-              <cit>
-                <quote>Deus est 
-                  vera aeternitas.</quote>
-                <bibl>Augustinus, De Trinitate, III</bibl>
-              </cit> 
-              Item <ref>IV <title ref="#deTrinitate">De Trinitate</title> capitulo 19</ref> vera illius incommunicabilis ipsa est aeternitas 
-              Ad idem est dicens <ref><name ref="#GilesOfRome">Aegidius</name> distinctione 8 primi, parte secunda, quaestione secunda</ref> ubi ponit has proprietates 
-              inforam[?]</p>
-            
-            <p xml:id="pgb1q10-d1e472">Primum corollarium: non stat verbum pro aliquo signo posse dici et in illo ipsum per 
-              generationem non produci contra 
-              <ref>
-                <seg><name ref="#Scotus">Scotum</name> distinctione 22 primi, quaestione secunda</seg>
-                <bibl>Scotus, I, d. 22, q. 2</bibl>
-              </ref> 
-              probatur quia, si in aliquo signo Pater posset 
-              generare Filium et pro illo non generaret eum, sequitur quod generatio non mensuraretur instanti 
-              carente principio. Consequens est falsum per dicta. Patet consequentia quia primum signum in quo persona prima 
-              habitualiter est fecunda praecederet generationem Filii, et per consequens pro illo foret negatio verbi 
-              praecedens quod est falsum.</p>
-        
-            <!-- check signo versus significato -->
-            
-            <p xml:id="pgb1q10-d1e501">Secundum corollarium: pro quocumque signo Pater generat unigenitum pro eodem 
-              signo Filius spirat Spiritum Sanctum contra <name ref="#Scotus">Scotum</name> ubi supra probatur signo primum signum originis 
-              in quo Pater est fecundus et Filius non secundum eum et sit illud signum <c>a</c> et secundum signum 
-              in quo Filius est fecundus et sit <c>b</c> tunc sic <c>a</c> habet annexam negationem fecunditatis 
-              Filii ergo in <c>a</c>  non est Filius fecundus et <c>a</c> est prius <c>b</c>, ergo Filius prius est non fecundus quam 
-              fecundus. Patet consequentia quia <c>a</c> est prius <c>b</c> posterius, aliter <c>a</c> non esset primum et <c>b</c> secundum ut dicit. 
-              Sed hoc consequens est falsum quia tunc Filius inciperet esse fecundus et non sine initio esset 
-              fecundus contra dictam, ergo verum est corollarium.</p>
-            <p xml:id="pgb1q10-d1e569">Tertium corollarium est titulus quaestionis affirmativus quod probat dicens 
-              <ref>
-                <seg><name ref="#AlphonsusVargas">Alphonsus</name> distinctione prima,</seg>
-                <bibl>Alphonsus Vargas, I, d. 1, xxx</bibl>
-              </ref> 
-              vide ibi. Confirmatur quia in divinis non est aliqua prioritas praeter originis 
-              aliquo non in quo quam non intendo negare per dicta in quaestione quia solum loquor 
-              de prioritate mensurativa contra modum ponendi <name ref="#Scotus">Scoti</name> qui imaginatur quod in 
-              <pb ed="#L" n="37v"/> 
-              instanti aeternitatis sunt tria signa originis. In primo sunt omnia essentialia scilicet scientia sapientia 
-              bonitas, etc. In secundo pater generat Filium. In tertio spirat Spiritum Sanctum et dicit consequenter quod Pater 
-              prius origine spirat Spiritum Sanctum quam Filius, vide 
-              <ref>
-                <seg><name ref="#AlphonsusVargas">Alphonsum</name> distinctione 9 primi.</seg>
-                <bibl>Alphonsus Vargas, I, d. 9, ??</bibl>
-              </ref>  
-              Corollarium responsivum probat <name ref="#AlphonsusVargas">Alphonsus</name> sic virtualiter Filio et cuilibet personae divinae 
-              pro quocumque signo originis vel naturae repugnat non esse, ergo et posterius esse, ergo nulla 
-              persona divina est prior alia. Antecedens patet quia quaelibet est summe necesse esset. Et consequentia patet si 
-              enim pro aliquo signo una persona est prior alia posterior autem igitur in illo signo Filius 
-              habet esse autem non si sic ergo in illo Pater non est prior eo si non ergo Filius habet esse post 
-              non esse et sic producitur de non esse ad esse. Patet consequentia quia in secundo habet esse immo 
-              sequitur quod Filio non repugnat non esse quod est oppositum antecedentis.</p> 
-          </div>
-          <div>
-            <head>Obiectiones et Responsiones</head> 
-            <p xml:id="pgb1q10-d1e651">Contra prima conclusionem: 
-              Deus non est eiusdem generis cum creatis ergo earum non est mensura. haec 
-              <app>
-                <lem><supplied>consequentia</supplied></lem>
-                <rdg wit="#L">consequentiam</rdg>
-              </app> 
-              patet per <ref><name ref="#Aristotle">Philosophum</name> X <title ref="#Metaphysics">Metaphysicae</title></ref> dicentem 
-              <cit>
-                <quote>mensura debet esse unigena,</quote>
-                <bibl>Augustinus, Metaphysicae, X</bibl>
-              </cit> 
-              id est, unius generis cum mensurato. Secundo 
-              Deus non est creaturae proportionalis. Item non est replicabilis. Item quantitas non convenit 
-              Deo vel aeternitati, sed istae sunt mensurae proprietates, ergo.</p> 
-            
-            <p xml:id="pgb1q10-d1e675">Contra secundam conclusionem et corollaria eius: 
-              si mensura aeterna foret propria cuilibet operationi divinae intrinsece, sequitur quod facere divinum 
-              esset aeternum. Consequens non vietur verum, sed apparet consequentia quia tum velle divinum sit aeternum et divinum 
-              velle sit facere, sequitur divinum facere esse aeternum, et sic ab eo aeterno omnia 
-              facta fuissent.</p>
-            
-            <p xml:id="pgb1q10-d1e687">Secundo, sequitur quod duo contradictoria in instanti aeternitatis sint simul simul vera consequens 
-              est falsum consequentia probatur quia deus non vult modo christum pati et illud non velle est entium 
-              et voluit christum pati ergo illud velle fuit aeternum et sic in eodem instanti illud voluit 
-              et noluit seu non voluit quae sunt contradictoria</p>
-            
-            <p xml:id="pgb1q10-d1e698">Tertio, si aeque praesens velle futurum 
-              esse esset et praeteritum esse praeteritum, sequitur quod aeque necessariam esset unum sicut reliquum. 
-              Consequens est falsum.</p>
-        
-            <p xml:id="pgb1q10-d1e712">Quarto, contra corollaria: omne illud quod dicit indivisibile esse indivisibiliter 
-              est simplicius illo quod dicit indivisibile esse et non indivisibiliter, sed signum vel 
-              instans aeternitatis dicit indivisibile indivisibiliter aeternitas vero indivisibile, sed non indivisibiliter, 
-              ergo etc.</p>
-            
-            <p xml:id="pgb1q10-d1e722">Quinto, contra secundum et tertium corollarium videtur esse illud <ref><title ref="#io">Iohannis</title> 16</ref> ubi dicitur 
-              de spiritu 
-              <cit>
-                <quote ana="#io16_13">quaecumque audiet loquetur,</quote>
-                <bibl>Ioannes 16:13</bibl>
-              </cit> 
-              sed certum est quod illud futurum non potest referri 
-              nisi ad aliquod signum aeternale et sic erunt plura in aeternitate signa. 
-              Item <ref><title ref="#io">Iohannis</title> <sic>12</sic></ref> 
-              <cit>
-                <quote ana="#io17_5">clarifica me pater claritate</quote>
-                <bibl>Ioannes 17:5</bibl>
-              </cit> 
-              quam habui priusquam mundus fient. Item contra conclusionem 
-              est dictum 
-              <app>
-                <lem><name>Boetii</name></lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
-                    <del rend="strikethrough">augustini</del>
-                    <add>boetii</add>
-                  </corr>
-                </rdg>
-              </app> 
-              superius allegati quia si aeternitas enfecta[?], sequitur quod 
-              non sit Deus. Item auctoritas <name ref="#Augustine">Augustini</name>.</p> 
-            
-            <p xml:id="pgb1q10-d1e766">Contra tertiam conclusionem est ratio facta in oppositum quia verbum divinum, etc.</p>
-        
-        <p xml:id="pgb1q10-d1e770">Secundo, per illud <ref><title ref="#ex">Exodi</title> 3o</ref> 
-          <cit>
-            <quote ana="#ex15_18">Dominus regnabit et ultra</quote>
-            <bibl>Exodus 15:18</bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q10-d1e782">Tertio, generatio passiva et 
-          Filius habet principium, ergo eius duratio habet principium. Patet consequentia quia sunt idem. Antecedens patet 
-          per <ref><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> 14</ref> dicentem 
-          <cit>
-            <quote>Pater est principium Filii</quote>
-            <bibl>Augustinus, De Trinitate, V</bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q10-d1e799">Quarto, in divinis est numerus. 
-          Antecedens patet quia Trinitas. Et consequentia patet quia in quolibet numero dualitas sequitur unitatem 
-          et unitas praecedit eam.</p>
-        
-        <p xml:id="pgb1q10-d1e806">Quinto, quidquid est primo propinquius illud videtur prius sed Filius 
-          est propinquior. Primo quia immediatior Patri, igitur Filius est prior Spiritu Sancto et pari 
-          passu Pater Filio. Maior nota et minor probatur quia Spiritus Sanctus procedit a Patre mediantem Filio.</p>
-        
-          <p xml:id="pgb1q10-d1e820">
-            <pb ed="#L" n="38r"/>
-            Pro solutione rationum contra primam conclusionem, notandum quod mensura dicitur multipliciter. Uno modo per ipsius 
-            mensurae replicationem, et sic sumitur 
-            <ref>
-              <seg>X <title ref="#Metaphysics">Metaphysicae</title></seg>
-              <bibl>Aristoteles, Metaphysicae, X, xxx</bibl>
-            </ref> 
-            de ponderibus.</p>
-            
-            <p xml:id="pgb1q10-d1e841">Secundo modo per assimulationem 
-              et approximationem aliorum ad ipsum et imitationem.</p> 
-        
-            <p xml:id="pgb1q10-d1e852">Tertio sumitur secundum causalitatem prioritatem 
-              et determinationem et sic dicitur ars mensura <unclear>artificienti[?]</unclear>, sic dicitur 
-              <ref>
-                <seg>V <title ref="#Metaphysics">Metaphysicae</title></seg>
-                <bibl>Aristoteles, Metaphysicase, V, xxx</bibl>
-              </ref> 
-              de intelligibili.</p>
-            
-            <p xml:id="pgb1q10-d1e863">Quarto modo secundum formalem reformationem seu receptationem et sic scientia dicitur mensura scitorum.</p> 
-              
-            <p xml:id="pgb1q10-d1e867">Quinto modo per situs interpositionem et altitudo istius situs est mensura tantae vel tantae distantiae.</p> 
-            
-            <p xml:id="pgb1q10-d1e880">Primo et ultimo modis, Deus non dicitur mensura, licet bene secundo, tertio, et quarto modis est mensura 
-            rerum.</p> 
-            
-            <p xml:id="pgb1q10-d1e886">Ad primum, dico quod sumendo <mentioned>genus</mentioned> large pro quocumque communi verificante de pluribus 
-              <unclear cert="high">sive</unclear> univoce vel aequivoce, sic potest concedi <corr>Deum</corr> esse eiusdem generis cum creaturis, 
-              quia isto modo ens dicitur de creaturis et Deo. Si vero <mentioned>genus</mentioned> sumatur stricte et proprie pro 
-              aliquo quod dicitur de pluribus univoce, tantum sic conceditur antecedens et negatur consequentia. Primo pro illo sensu 
-              sed in alio non.</p> 
-            
-            <p xml:id="pgb1q10-d1e904">Ad secundum, dicitur quod licet inter Deum et creaturas non sit proportio quantitative 
-              adaequationis, tamen inter ea est proportio ordinis seu exemplaris imitationis et hoc 
-              sufficit ad hoc quod sit rerum mensura.</p> 
-            
-            <p xml:id="pgb1q10-d1e924">Ad tertium, negatur consequentia et ad probationem dicitur 
-              quod replicatio nota est de ratione mensurae simpliciter, sed tantum mensurae quantitativae.</p>
-        
-            <p xml:id="pgb1q10-d1e930">Ad 
-              quartum, negatur consequentia, quia, licet nomen quantitatis fuerit in potentiam rebus quantitatis primo et proprie, 
-              tamen cum hoc stat quod significatum possit Deo competere.</p> 
-            
-            <p xml:id="pgb1q10-d1e939">Ad primum contra secundam conclusionem, conceditur 
-              consequens, sed tamen non est aeternum facere loquendo de facere Dei ad extra. Posset etiam dici 
-              quod nota omne velle Dei est facere, 
-              <app>
-                <lem>licet</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr><del rend="expunctuated">non</del></corr>
-                </rdg>
-              </app> 
-              econverso.</p>
-        
-            <p xml:id="pgb1q10-d1e953">Ad secundum, negatur consequentia ad probationem, dico 
-              quod <mentioned>Christum pati</mentioned> potest dupliciter summi. Uno modo pro dicto seu pro hac propositione <mentioned>Christus patitur</mentioned>. Secundo modo 
-              pro re dicti scilicet pro instanti pro quo Christus patiebatur et passione Christi. Si primo modo sumitur non 
-              probatur consequentia, quia illae propositiones non aeternaliter fuerit. Si secundo modo tunc dicitur quod Deus vult 
-              quidquid unquam voluit et omnem volitum est praesens in suo praesenti instanti aeternitatis 
-              ubi nullus est fluxus praeteriti vel futuri. Et per illam solutionem possunt solvi plura 
-              argumenta similia in hac materia.</p>
-            
-            <p xml:id="pgb1q10-d1e982">Ad tertium, negatur consequentia quia talis necessitatis temporis praeteriti non provenit 
-              ex intrinseco notitiae divinae, sed potius ab extrinseceo. Puta quia res posita est inesse 
-              actuali.</p>
-            
-            <p xml:id="pgb1q10-d1e1002">Ad quartum, negatur minor quia tam simplex et tam simplex et tam indivisibiliter est aeternitas quam simplex 
-              vel indivisibile est signum vel instans aeternitatis et econverso.</p>
-            
-            <p xml:id="pgb1q10-d1e1008">Ad quintum de Spiritu Sancto hic respondet 
-              <ref><name ref="#Augustine">Augustinus</name> homelia 45 <title>super Iohannem</title></ref> ostendens quod vere dicimus de Deo fuit et erit quia 
-              numquam de eo deerit numquam defuit non quiddam quod aliqua signorum pluralitas in 
-              ipso sit.</p>
-            
-            <p xml:id="pgb1q10-d1e1024">Aliter potest dici quod Deus, licet proprie non sit in tempore et personae quia non variatur 
-              secundum tempus per accidens tamen est in tempore quia est quando tempus est ideo verba praeteriti et futuri 
-              temporis de deo dici possunt haec responsio trahitur ex dictis 
-              <ref>
-                <seg><name ref="#GilesOfRome">aegidi</name> libro primo, distinctione 
-                  hac, parte 3a, quaestione 4a.</seg>
-                <bibl>Aegidius Romanos, I, d. 9, p. 3, q. 4</bibl>
-              </ref>
-            </p>
-            
-            <p xml:id="pgb1q10-tpdcii">Tertio potest dici quod li <mentioned>antequam mundus fieret</mentioned> potest se habere habitualiter 
-              hoc est si fuisset tempus ante mundum habuisset claritatem in illo.</p>
-            
-            <p xml:id="pgb1q10-d1e1048">Quarto, posset dici quod, si 
-              recipitur tempus pro quacumque imaginaria successione possibili positiva vel privativa, tunc infinitum tempus 
-              fuit ante mundum quia talia possunt capi pro talibus signis illius imaginarii successus.</p> 
-            
-            <p xml:id="pgb1q10-abdapp">Ad <name ref="#Boethius">boetium</name> dicentem quod nunc stans etc conceditur quantum ad nostrae mentis apprehensionem sive 
-              quantum ad nostri intellectus cogitationem Ad <name ref="#Augustine">augustini</name> dicitur quod loquitur de aeternitate participata et 
-              secundum quid non autem de aeternitate simpliciter seu loquitur de aeternitate a parte post[?]</p> 
-            
-            <p xml:id="pgb1q10-d1e1084">Ad primum contra 3am 
-              <pb ed="#L" n="38v"/> 
-              conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta, tamen dicitur mensum mensura 
-              quae est sua aeternitas prout ostendit 
-              <ref>
-                <seg><name ref="#GilesOfRome">Aegidius</name> distinctione 8 primi, parte 3a, quaestione 3a.</seg>
-                <bibl>Aegidius Romanos, I, d. 8, p. 3, q. 3</bibl>
-              </ref>
-            </p>
-        
-        <p xml:id="pgb1q10-d1e1099">Ad illud 
-          <ref>
-            <seg><title ref="#ex">Exodi</title> 3</seg>
-            <bibl>Exodus 3:XXX</bibl>
-          </ref> 
-          dicitur quod sumitur aeternitas dicitur uno modo primo per pro peryodo[?] unius cuiusque 
-          vitae naturalis, secundo modo pro uniformi et immobili simultanea existentia. Primo modo conceditur simpliciter, 
-          sed secundo modo negatur. Secundo posset dici secundum 
-          <ref>
-            <seg><name ref="#Anselm">Anselmum</name> <title ref="#Proslogion">Prosologion</title> capitulo tertio</seg>
-            <bibl>Anselmus, Prosologion, c. 3, xxx</bibl>
-          </ref> 
-          quod Deus est ultra illa  
-          quae etiam finem non habebunt tum quia illa nullatenus sine eo esse possunt ipse autem 
-          non minus esse si omnia in nihilum irent tum secundo quia illa possunt cogitari habere finem Deus 
-          vero nequaquam cum etiam quia Dei et eorum aeternitas est Deo tota sed eis non.</p>
-        
-        <p xml:id="pgb1q10-d1e1145">Ad tertium primo 
-          negatur consequentia quia similiter posset argui quod essentia haberet principium quia ipsa est idem filio Item 
-          posset dici quod si summatur principium pro durationis sic filius et spiritus sanctus habent 
-          principium quia sicut pater communicat filio deitatem ita et aeternitatem si aut sumatur pro durationis 
-          limitatione sic nulla persona divina habet principium</p>
-        
-        <p xml:id="pgb1q10-d1e1178">Ad quartum de numero 
-          dicitur quod sicut in divinis est sapientia magnitudo tamen non qualitas aut quantitas sic est ibi 
-          ternarius non tamen proprie dictus numeris et de hoc videbitur infra.</p>
-        
-        <p xml:id="pgb1q10-d1e1186">Ad quintum negatur minor 
-          quia non ideo dicitur quod pater producit spiritum sanctum mediante filio quia pater non immediate producit 
-          ipsum sed quia filius habet a patre virtutem spiratiam sed contra hoc obicitur per <name ref="#Augustine">Augustinum</name> libro 
-          de triplici habita?lo[?] ubi dicit iusti in patria videbunt quid inter est inter generationem et 
-          spirationem et videbunt quod pater praecedit filium non natura sed origine</p>
-        
-        <p xml:id="pgb1q10-d1e1202">Ad hoc tamen 
-          dicit <name ref="#AlphonsusVargas">Alphonsus</name> quod <name ref="#Augustine">Augustinus</name> vult dicere quod inter Patrem et Filium est prioritas originis 
-          non in quo, sed aliquo, id est quod Filius ordine naturae est a Patre, non tamen est ibi prioritas signorum 
-          realis d?va[?] et mensurativa ut <name ref="#Scotus">Scotus</name> et sequaces sui intuntur[?] probare, quorum rationes 
-          solvit <ref><name ref="#AlphonsusVargas">Alphonsus</name> in hac distinctione nona</ref> vide ibi.</p>
-          </div>
-        </div>
-        <div>
-          <head>Conclusiones pro distinctione nona</head>
-          <p xml:id="pgb1q10-d1e1229">
+        <head xml:id="pg-b1q10-Hd1e94">Quaestio 10</head>
+        <div xml:id="pg-b1q10-Dd1e97">
+          <head xml:id="pg-b1q10-Hd1e99"><supplied>Circum textum</supplied></head>
+          <p xml:id="pgb1q10-d1e83">
             <cit>
-              <quote>Nunc ad distinctionem personarum.</quote>
+              <quote xml:id="pg-b1q10-Qd1e107" source="http://scta.info/resource/pll1d9c1-d1e3477">Nunc ad distinctionem personarum.</quote>
               <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c1-d1e3477">Lombardus, I, d. 9, c. 1, n. 1</ref></bibl>
             </cit> 
+            Haec est nona distinctio huiusmodi primi in 
+            qua postquam <name ref="#Lombard">Magister</name> determinavit de generatione divina, nunc determinat de duratione 
+            Patris et Filii coaeterna, et dividitur in duas, quia ostendit primo eorum 
+            coaeternitatem quantum ad modum essendi intrinsecum. Secundo quantum ad modum dicendi vel significandi 
+            extrinsecum. Secunda ibi
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e120">hic quaeri potest.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c4-d1e3477">Lombardus, I, d. 9, c. 4, n. 1</ref></bibl>
+            </cit>
+          </p>
+          <p xml:id="pgb1q10-d1e104">Prima dividitur in quattuor, quia primo praemittit divinarum 
+            personarum distinctionem. Secundo subiungit earum aequalem durationem. Tertio inducit contra hoc haereticorum 
+            obiectionem. Quarto fefellit oppositis praesumptionem. Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e133">genitus est enim.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c2-d1e3477">Lombardus, I, d. 9, c.2, n. 1</ref></bibl>
+            </cit> 
+            Tertia 
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e143">sed contra hoc</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c2-d1e3480">Lombardus, I, d. 9, c.2, n. 2</ref></bibl>
+            </cit> 
+            Quarto 
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e153">sed quaeris</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c3-d1e3477">Lombardus, I, d. 9, c.3, n. 1</ref></bibl>
+            </cit>
+          </p>
+          <p xml:id="pgb1q10-d1e116">Secunda principalis dividitur in tres, quia primo movet quamdam disputabilem sententiam. 
+            Secundo concordat doctorum apparentem repugnantiam. Tertio infert conclusionem circa hoc tenendam. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e166">dicamus ergo Filium.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c4-d1e3781">Lombardus, I, d. 9, c. 4, n. 13</ref></bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e176"><supplied>Sed inquiet haeretics<!-- london leaves this blank. current refernce is a guess--></supplied>.</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d9c5-d1e3477">Lombardus, I, d. 9, c. 5, n. 1</ref></bibl>
+            </cit> 
+            Et haec est divisio huius lectionis</p>
+          </div>
+          <div xml:id="pg-b1q10-Dd1e189">
+            <head xml:id="pg-b1q10-Hd1e191"><supplied>Quaestio</supplied></head>
+            <div xml:id="pg-b1q10-Dd1e195">
+              <head xml:id="pg-b1q10-Hd1e197"><supplied>Rationes principales</supplied></head> 
+              <p xml:id="pgb1q10-d1e126">
+                <pb ed="#L" n="36v"/>
+                Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque 
+                durative mensurae
+              </p>
+              <p xml:id="pgb1q10-qnqsmp">
+                Quod non quia verbum est mensura creaturae, ergo 
+                verbum non est Patri coaeternum. Antecedens patet et consequentia probatur, quia mensura debet aequari 
+                et mensurative suo mensurato proportionari.
+              </p>
+              <p xml:id="pgb1q10-d1e142">
+                Secundo, verbum divinum est immensum, ergo aeternitate 
+                non est mensuratum, quia contradictio videtur quod immensum mensuretur. Antecedens est catholicum. 
+                Confirmatur quia verbum est supra et ultra aeternitatem, ergo aeternitate non est mensuratum. Alias 
+                probatur <ref><title ref="#ex">Exodi</title> <sic>tertio</sic>:</ref> 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e221" ana="#ex15_18">Dominus regnabit et ultra.</quote>
+                  <bibl>Exodus 15:18</bibl>
+                </cit>
+              </p>
+              
+              <p xml:id="pgb1q10-d1e168">Tertio, aeternitas est facta, ergo 
+                verbum non est aeternitas, nec ea mensuratur. Antecedens patet per 
+                <ref><name ref="#Augustine">Augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title></ref> ubi dicit: 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e240">Deus est auctor aeternitatis.</quote>
+                  <bibl>Augustinus, 83 Quaestionibus, XXX</bibl>
+                </cit> 
+                Item 
+                <ref><name ref="#Boethius">Boetius</name></ref> 
+                dicit quod 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e253">sicut nunc fluens facit temporis sic nunc 
+                    stans et permanens facit aeternitatem.</quote>
+                  <bibl>Boetius, XXX</bibl>
+                </cit>
+              </p>
+              
+              <p xml:id="pgb1q10-d1e188">In oppositum est 
+                <ref><name ref="#Lombard">Magister</name> <title ref="#Sentences">sententiarum</title> in hac distinctione.</ref> 
+                Item, in simile in hac Trinitate, nihil prius aut posterius. etc
+              </p>
+            </div>
+            <div xml:id="pg-b1q10-Dd1e274">
+              <head xml:id="pg-b1q10-Hd1e276"><supplied>Prima conclusio</supplied></head>
+              <p xml:id="pgb1q10-d1e200">
+                Prima conclusio: licet aeternaliter seu aeternitatis 
+                duratio in abstracto ad extra non sit communicabilis perfectio, ipsa tamen est cuiuslibet producti 
+                aeterna et formalis mensuratio. Prima pars quia sequeretur quod creatura Deo posset esse coaeterna 
+                vel quod quaelibet creatura esset producta ante quodlibet tempus, sed utrumque est falsum, impossibile ergo. Secunda 
+                pars probatur quia Deo respectu creaturae conveniunt proprietates mensurae proprie et non transumptive 
+                solum, ergo antecedens ostendit 
+                <ref><name ref="#GilesOfRome">Aegidius</name> libro secundo, distinctione octava, questione tertia, parte secunda</ref> quoniam sibi competit 
+                ratio numeri temporaliter uniformiter simpliciter et indivisibiliter. Secundo, quia creaturae competit ratio 
+                adaequationis dupliciter, scilicet per conformitatem et im?ttationem[?], ergo sequitur quod Deus taliter formaliter 
+                sit mensura cuiuslibet entis producti. Prima pars conclusionis confirmatur quia nulli creaturae potest competere 
+                invariabilitas immutabilitas et simultatas[?], ergo nec aeternitas. Patet consequentia quia ille 
+                sunt proprietates aeternitatis ut post patebit. Et antecedens patet quia secundum <name ref="#Rimini">Gregorium</name> eo ipso quo 
+                creatura est vicissitudinem mutabilitatis habet.
+              </p>
+              <p xml:id="pgb1q10-d1e236">
+                Primum corollarium: immensitas et 
+                aeternitas mensurae non infert immensitatem mensuratae naturae contra <ref><name ref="#Ripa">Iohannem de Marchia</name> 
+                quaestione prima <title ref="#SentencesRipa">Sententiarum</title> determinationi in responsione primae contra secundam conclusionem.</ref> Patet quia 
+                Deus immensus est formalis mensura creaturae, et tamen creatura non est immensa, et per consequens 
+                non est ei adaequata proportionaliter ut dicit ibi.
+              </p>
+              <p xml:id="pgb1q10-d1e257">
+                Secundum corollarium: aeternitatis formalis ratio 
+                non est perfectionis simpliciter denominatio. Patet quia quaelibet talis perfectio est ad extra communicabilis 
+                creaturae concretive, sed aeternitas non est communicabilis creaturae, igitur.
+              </p>
+              <p xml:id="pgb1q10-d1e265">
+                Ex primo corollario 
+                <app>
+                  <lem n="corollario"/>
+                  <rdg wit="#L" type="correction-deletion">
+                    <del rend="strikethrough">p</del>
+                  </rdg>
+                </app> 
+                et conclusione 
+                sequitur quod quaelibet materialis et divisibilis natura mensuratur immateriali et indivisibili mensura 
+                aliquo modo et non adaequate.
+              </p>
+              <p xml:id="pgb1q10-d1e277">
+                Tertium corollarium: licet aeternitas ut sic non sit perfectio ut 
+                si simpliciter denotative, tamen est modus perfectionis <unclear cert="high">identitate</unclear> realiter et entitative. 
+                Prima patet per 
+                <cit>
+                  <ref target="http://scta.info/resource/pgb1q10-d1e257">corollarium 2m</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e257">Vide supra</ref></bibl>
+                </cit>. 
+                Secunda probatur quia aeternitas essentialiter est Deus aeternus.
+              </p>
+            </div>
+            <div xml:id="pg-b1q10-Dd1e338">
+              <head xml:id="pg-b1q10-Hd1e340"><supplied>Secunda conclusio</supplied></head>
+              <p xml:id="pgb1q10-d1e291">Secunda conclusio: sicut 
+                summa bonitas est sua super simplex natura, sic sua aeternitas est eius omnis 
+                mensura. Probatur per <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologii</title> 24</ref> ubi ait 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e356">summa substantiam constat sine 
+                    principio et sine fine esse nec habere praesens praeteritum nec futurum</quote>
+                  <bibl>Anselmus, <title>Monologion</title>, 24,(I, 42, ll. 11-12).</bibl>
+                </cit>.
+              </p> 
+              
+              <p xml:id="pgb1q10-d1e309">Item <name>Alexander</name> <!-- alan of lille? Alexander of Alexandria? --> 
+                libro <title>De memoria rerum difficilium</title> propositione 52 dicit 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e376">tempus rem a suo principio 
+                    distare facit aeternitas vero rem suae causae continuat[?] et coniungit in aeternitate 
+                    non est pars neque prius aut posterius</quote>
+                  <bibl>Alexander, XXX</bibl>
+                </cit>
+              </p>
+              <p xml:id="pgb1q10-d1e328">Item <ref>propositione 44</ref> dicit quod nullum immutabile mensuratur 
+                <pb ed="#L" n="37-r"/> 
+                mensura successiva aut succedente sed aeterna.
+              </p>
+              <p xml:id="pgb1q10-d1e340">
+                Prima corollarium: mensura cuiuslibet divinae operationis 
+                seu causalitatis est instans semper praesens et indivisibile aeternitatis. Patet quia Deus est sua 
+                opero nominaliter et active sumpta, ergo. Confirmatur quia tam Deus quam creatura mensurantur 
+                aeternitate, et per consequens eius instanti quia sunt idem praecisive.
+              </p>
+              <p xml:id="pgb1q10-d1e346">
+                Secundum corollarium: quam repugnat 
+                pluralitas deorum d??ti[?] tam repugnat multiplicitas signorum aeternitati. Patet quia summa 
+                natura est eius omnis mensura, ergo quaelibet eius mensura est sibi adaequata totaliter, 
+                sed quodlibet signum vel instans aeternitatis est eius propria mensura, ergo quodlibet talem est simplex 
+                non multiplex. Et intelligo per mensuram aequalem cum Deo permanentiam durativam 
+                super simplicem et independentem et principio carentem.
+              </p>
+              <p xml:id="pgb1q10-d1e375">
+                Tertium corollarium: sicut aeternitas est 
+                pluralitatem signorum mensura intrinsece excludens sic instans aeternitas est omnem 
+                successionem durativam contentive includens. Prima pars est contra <ref><name ref="#Scotus">Scotum</name> in locis pluribus</ref> 
+                quae probatur sic quia aliter tota Trinitas foret multiplicior eius significans quod est falsum et contra
+                <cit>
+                  <ref target="http://scta.info/resource/pgb1q10-d1e375">secundum corollarium.</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e375">Vide supra</ref></bibl>
+                </cit> 
+                Item illud signum esset simplicius eius aeternitate quod est falsum.
+              </p>
+              <p xml:id="pgb1q10-d1e390">
+                Secunda pars est contra 
+                <name ref="#HugolinoOfOrvieto">Hugolinum</name>, quae probatur quia instans aeternitatis est adaequate ipsa aeternitatis, ergo cuiuscumque 
+                <app>
+                  <lem>aeternitatis</lem>
+                  <rdg wit="#L" type="correction-substitution">
+                    <subst>
+                      <del>aeternitas</del>
+                      <add>aeternitatis</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                est <unclear>praecontentiva</unclear> instans aeternitatis est illud contentive includens et illud 
+                inclusive continens sed aeternitas <unclear>praecontinet</unclear> et includit omnem moram durativam 
+                successivam realem et <unclear>imaginatiam</unclear>, ergo.
+              </p>
+            </div>
+            <div xml:id="pg-b1q10-Dd1e441">
+              <head xml:id="pg-b1q10-Hd1e443">
+                <supplied>Tertia conclusio</supplied>
+              </head> 
+              <p xml:id="pgb1q10-d1e417">
+                Tertia conclusio: aeterni verbi generatio seu aeternum 
+                generari instanti aeternitatis censendum est mensurari haec patet per <ref><name ref="#JohnDamascenus">Damescenus</name> libro primo, capitulo octavo</ref> 
+                generatio divina est sine initio et aeternae naturae opus existens. Item probatur ratione quia haec generatio 
+                est invariabilis incorruptibilis simultanea absque successione, sed istae sunt proprietates 
+                aeternitatis, ergo. Prima pars antecedentis patet et secunda per <ref><name ref="#Augustine">Augustinum</name> III <title ref="#deTrinitate">De Trinitate</title> capitulo tertio</ref> dicentem quod 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e464">Deus est 
+                    vera aeternitas.</quote>
+                  <bibl>Augustinus, De Trinitate, III</bibl>
+                </cit> 
+                Item <ref>IV <title ref="#deTrinitate">De Trinitate</title> capitulo 19</ref> vera illius incommunicabilis ipsa est aeternitas 
+                Ad idem est dicens <ref><name ref="#GilesOfRome">Aegidius</name> distinctione 8 primi, parte secunda, quaestione secunda</ref> ubi ponit has proprietates 
+                <unclear>inforam</unclear>
+              </p>
+              <p xml:id="pgb1q10-d1e472">
+                Primum corollarium: non stat verbum pro aliquo signo posse dici et in illo ipsum per 
+                generationem non produci contra 
+                <cit>
+                  <ref><name ref="#Scotus">Scotum</name> distinctione 22 primi, quaestione secunda</ref>
+                  <bibl>Scotus, I, d. 22, q. 2</bibl>
+                </cit> 
+                probatur quia, si in aliquo signo Pater posset 
+                generare Filium et pro illo non generaret eum, sequitur quod generatio non mensuraretur instanti 
+                carente principio. Consequens est falsum per dicta. Patet consequentia quia primum signum in quo persona prima 
+                habitualiter est fecunda praecederet generationem Filii, et per consequens pro illo foret negatio verbi 
+                praecedens quod est falsum.
+              </p>
+              <!-- check signo versus significato -->
+              <p xml:id="pgb1q10-d1e501">
+                Secundum corollarium: pro quocumque signo Pater generat unigenitum pro eodem 
+                signo Filius spirat Spiritum Sanctum contra <name ref="#Scotus">Scotum</name> ubi supra probatur signo primum signum originis 
+                in quo Pater est fecundus et Filius non secundum eum et sit illud signum <c>a</c> et secundum signum 
+                in quo Filius est fecundus et sit <c>b</c> tunc sic <c>a</c> habet annexam negationem fecunditatis 
+                Filii ergo in <c>a</c>  non est Filius fecundus et <c>a</c> est prius <c>b</c>, ergo Filius prius est non fecundus quam 
+                fecundus. Patet consequentia quia <c>a</c> est prius <c>b</c> posterius, aliter <c>a</c> non esset primum et <c>b</c> secundum ut dicit. 
+                Sed hoc consequens est falsum quia tunc Filius inciperet esse fecundus et non sine initio esset 
+                fecundus contra dictam, ergo verum est corollarium.
+              </p>
+              <p xml:id="pgb1q10-d1e569">
+                Tertium corollarium est titulus quaestionis affirmativus quod probat dicens 
+                <cit>
+                  <ref><name ref="#AlphonsusVargas">Alphonsus</name> distinctione prima,</ref>
+                  <bibl>Alphonsus Vargas, I, d. 1, xxx</bibl>
+                </cit> 
+                vide ibi. Confirmatur quia in divinis non est aliqua prioritas praeter originis 
+                aliquo non in quo quam non intendo negare per dicta in quaestione quia solum loquor 
+                de prioritate mensurativa contra modum ponendi <name ref="#Scotus">Scoti</name> qui imaginatur quod in 
+                <pb ed="#L" n="37-v"/> 
+                instanti aeternitatis sunt tria signa originis. In primo sunt omnia essentialia scilicet scientia sapientia 
+                bonitas, etc. In secundo pater generat Filium. In tertio spirat Spiritum Sanctum et dicit consequenter quod Pater 
+                prius origine spirat Spiritum Sanctum quam Filius, vide 
+                <cit>
+                  <ref><name ref="#AlphonsusVargas">Alphonsum</name> distinctione 9 primi.</ref>
+                  <bibl>Alphonsus Vargas, I, d. 9, ??</bibl>
+                </cit>  
+                Corollarium responsivum probat <name ref="#AlphonsusVargas">Alphonsus</name> sic virtualiter Filio et cuilibet personae divinae 
+                pro quocumque signo originis vel naturae repugnat non esse, ergo et posterius esse, ergo nulla 
+                persona divina est prior alia. Antecedens patet quia quaelibet est summe necesse esset. Et consequentia patet si 
+                enim pro aliquo signo una persona est prior alia posterior autem igitur in illo signo Filius 
+                habet esse autem non si sic ergo in illo Pater non est prior eo si non ergo Filius habet esse post 
+                non esse et sic producitur de non esse ad esse. Patet consequentia quia in secundo habet esse immo 
+                sequitur quod Filio non repugnat non esse quod est oppositum antecedentis.
+              </p>
+            </div>
+            <div xml:id="pg-b1q10-Dd1e572">
+              <head xml:id="pg-b1q10-Hd1e574">Obiectiones et Responsiones</head> 
+              <p xml:id="pgb1q10-d1e651">
+                Contra prima conclusionem: 
+                Deus non est eiusdem generis cum creatis ergo earum non est mensura. haec 
+                <app>
+                  <lem type="conjecture-supplied"><supplied>consequentia</supplied></lem>
+                  <rdg wit="#L">consequentiam</rdg>
+                </app> 
+                patet per 
+                <ref>
+                  <name ref="#Aristotle">Philosophum</name> X <title ref="#Metaphysics">Metaphysicae</title>
+                </ref> 
+                dicentem 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e598">mensura debet esse unigena,</quote>
+                  <bibl>Augustinus, Metaphysicae, X</bibl>
+                </cit> 
+                id est, unius generis cum mensurato. Secundo 
+                Deus non est creaturae proportionalis. Item non est replicabilis. Item quantitas non convenit 
+                Deo vel aeternitati, sed istae sunt mensurae proprietates, ergo.
+              </p> 
+              <p xml:id="pgb1q10-d1e675">
+                Contra secundam conclusionem et corollaria eius: 
+                si mensura aeterna foret propria cuilibet operationi divinae intrinsece, sequitur quod facere divinum 
+                esset aeternum. Consequens non vietur verum, sed apparet consequentia quia tum velle divinum sit aeternum et divinum 
+                velle sit facere, sequitur divinum facere esse aeternum, et sic ab eo aeterno omnia 
+                facta fuissent.
+              </p>
+              <p xml:id="pgb1q10-d1e687">
+                Secundo, sequitur quod duo contradictoria in instanti aeternitatis sint simul simul vera consequens 
+                est falsum consequentia probatur quia deus non vult modo christum pati et illud non velle est entium 
+                et voluit christum pati ergo illud velle fuit aeternum et sic in eodem instanti illud voluit 
+                et noluit seu non voluit quae sunt contradictoria.
+              </p>
+              <p xml:id="pgb1q10-d1e698">
+                Tertio, si aeque praesens velle futurum 
+                esse esset et praeteritum esse praeteritum, sequitur quod aeque necessariam esset unum sicut reliquum. 
+                Consequens est falsum.
+              </p>
+              <p xml:id="pgb1q10-d1e712">
+                Quarto, contra corollaria: omne illud quod dicit indivisibile esse indivisibiliter 
+                est simplicius illo quod dicit indivisibile esse et non indivisibiliter, sed signum vel 
+                instans aeternitatis dicit indivisibile indivisibiliter aeternitas vero indivisibile, sed non indivisibiliter, 
+                ergo etc.
+              </p>
+              <p xml:id="pgb1q10-d1e722">
+                Quinto, contra secundum et tertium corollarium videtur esse illud <ref><title ref="#io">Iohannis</title> 16</ref> ubi dicitur 
+                de spiritu 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e628" ana="#io16_13">quaecumque audiet loquetur,</quote>
+                  <bibl>Ioannes 16:13</bibl>
+                </cit> 
+                sed certum est quod illud futurum non potest referri 
+                nisi ad aliquod signum aeternale et sic erunt plura in aeternitate signa. 
+                Item 
+                <ref><title ref="#io">Iohannis</title> <sic>12</sic></ref> 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e644" ana="#io17_5">clarifica me pater claritate</quote>
+                  <bibl>Ioannes 17:5</bibl>
+                </cit> 
+                quam habui priusquam mundus fient. Item contra conclusionem 
+                est dictum 
+                <app>
+                  <lem><name ref="#Boethius">Boetii</name></lem>
+                  <rdg wit="#L" type="correction-substitution">
+                    <subst>
+                      <del rend="strikethrough">augustini</del>
+                      <add>boetii</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                superius allegati quia si aeternitas <unclear>enfecta[?]</unclear>, sequitur quod 
+                non sit Deus. Item auctoritas <name ref="#Augustine">Augustini</name>.
+              </p>
+              <p xml:id="pgb1q10-d1e766">
+                Contra tertiam conclusionem est ratio facta in oppositum quia verbum divinum, etc.
+              </p>
+              <p xml:id="pgb1q10-d1e770">
+                Secundo, per illud 
+                <ref>
+                  <title ref="#ex">Exodi</title> 3o.
+                </ref>
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e687" ana="#ex15_18">Dominus regnabit et ultra</quote>
+                  <bibl>Exodus 15:18</bibl>
+                </cit>
+              </p>
+              <p xml:id="pgb1q10-d1e782">
+                Tertio, generatio passiva et 
+                Filius habet principium, ergo eius duratio habet principium. Patet consequentia quia sunt idem. Antecedens patet 
+                per <ref><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> 14</ref> dicentem 
+                <cit>
+                  <quote xml:id="pg-b1q10-Qd1e707">Pater est principium Filii</quote>
+                  <bibl>Augustinus, De Trinitate, V</bibl>
+                </cit>
+              </p>
+              <p xml:id="pgb1q10-d1e799">
+                Quarto, in divinis est numerus. 
+                Antecedens patet quia Trinitas. Et consequentia patet quia in quolibet numero dualitas sequitur unitatem 
+                et unitas praecedit eam.
+              </p>
+              <p xml:id="pgb1q10-d1e806">
+                Quinto, quidquid est primo propinquius illud videtur prius sed Filius 
+                est propinquior. Primo quia immediatior Patri, igitur Filius est prior Spiritu Sancto et pari 
+                passu Pater Filio. Maior nota et minor probatur quia Spiritus Sanctus procedit a Patre mediantem Filio.
+              </p>
+              <p xml:id="pgb1q10-d1e820">
+                <pb ed="#L" n="38r"/>
+                Pro solutione rationum contra primam conclusionem, notandum quod mensura dicitur multipliciter. Uno modo per ipsius 
+                mensurae replicationem, et sic sumitur 
+                <cit>
+                  <ref>X <title ref="#Metaphysics">Metaphysicae</title></ref>
+                  <bibl>Aristoteles, Metaphysicae, X, xxx</bibl>
+                </cit> 
+                de ponderibus.
+              </p>
+              <p xml:id="pgb1q10-d1e841">
+                Secundo modo per assimulationem et approximationem aliorum ad ipsum et imitationem. 
+              </p> 
+              <p xml:id="pgb1q10-d1e852">
+                Tertio sumitur secundum causalitatem prioritatem 
+                et determinationem et sic dicitur ars mensura <unclear>artificienti[?]</unclear>, sic dicitur 
+                <cit>
+                  <ref>V <title ref="#Metaphysics">Metaphysicae</title></ref>
+                  <bibl>Aristoteles, Metaphysicase, V, xxx</bibl>
+                </cit> 
+                de intelligibili.
+              </p>
+              <p xml:id="pgb1q10-d1e863">
+                Quarto modo secundum formalem reformationem seu receptationem et sic scientia dicitur mensura scitorum.
+              </p>
+              <p xml:id="pgb1q10-d1e867">
+                Quinto modo per situs interpositionem et altitudo istius situs est mensura tantae vel tantae distantiae.
+              </p>
+              <p xml:id="pgb1q10-d1e880">
+                Primo et ultimo modis, Deus non dicitur mensura, licet bene secundo, tertio, et quarto modis est mensura rerum.
+              </p> 
+              <p xml:id="pgb1q10-d1e886">
+                Ad primum, dico quod sumendo <mentioned>genus</mentioned> large pro quocumque communi verificante de pluribus 
+                <unclear cert="high">sive</unclear> univoce vel aequivoce, sic potest concedi <corr>Deum</corr> esse eiusdem generis cum creaturis, 
+                quia isto modo ens dicitur de creaturis et Deo. Si vero <mentioned>genus</mentioned> sumatur stricte et proprie pro 
+                aliquo quod dicitur de pluribus univoce, tantum sic conceditur antecedens et negatur consequentia. Primo pro illo sensu 
+                sed in alio non.
+              </p>
+              <p xml:id="pgb1q10-d1e904">
+                Ad secundum, dicitur quod licet inter Deum et creaturas non sit proportio quantitative 
+                adaequationis, tamen inter ea est proportio ordinis seu exemplaris imitationis et hoc 
+                sufficit ad hoc quod sit rerum mensura.
+              </p> 
+              <p xml:id="pgb1q10-d1e924">
+                Ad tertium, negatur consequentia et ad probationem dicitur 
+                quod replicatio nota est de ratione mensurae simpliciter, sed tantum mensurae quantitativae.
+              </p>
+              <p xml:id="pgb1q10-d1e930">
+                Ad 
+                quartum, negatur consequentia, quia, licet nomen quantitatis fuerit in potentiam rebus quantitatis primo et proprie, 
+                tamen cum hoc stat quod significatum possit Deo competere.
+              </p>
+              <p xml:id="pgb1q10-d1e939">
+                Ad primum contra secundam conclusionem, conceditur 
+                consequens, sed tamen non est aeternum facere loquendo de facere Dei ad extra. Posset etiam dici 
+                quod nota omne velle Dei est facere, licet 
+                <app>
+                  <lem n="licet"/>
+                  <rdg wit="#L" type="correction-deletion">
+                    <del rend="expunctuated">non</del>
+                  </rdg>
+                </app> 
+                econverso.
+              </p>
+              <p xml:id="pgb1q10-d1e953">
+                Ad secundum, negatur consequentia ad probationem, dico 
+                quod <mentioned>Christum pati</mentioned> potest dupliciter summi. Uno modo pro dicto seu pro hac propositione <mentioned>Christus patitur</mentioned>. Secundo modo 
+                pro re dicti scilicet pro instanti pro quo Christus patiebatur et passione Christi. Si primo modo sumitur non 
+                probatur consequentia, quia illae propositiones non aeternaliter fuerit. Si secundo modo tunc dicitur quod Deus vult 
+                quidquid unquam voluit et omnem volitum est praesens in suo praesenti instanti aeternitatis 
+                ubi nullus est fluxus praeteriti vel futuri. Et per illam solutionem possunt solvi plura 
+                argumenta similia in hac materia.
+              </p>
+              <p xml:id="pgb1q10-d1e982">
+                Ad tertium, negatur consequentia quia talis necessitatis temporis praeteriti non provenit 
+                ex intrinseco notitiae divinae, sed potius ab extrinseceo. Puta quia res posita est inesse 
+                actuali.
+              </p>
+              <p xml:id="pgb1q10-d1e1002">
+                Ad quartum, negatur minor quia tam simplex et tam simplex et tam indivisibiliter est aeternitas quam simplex 
+                vel indivisibile est signum vel instans aeternitatis et econverso.
+              </p>
+              <p xml:id="pgb1q10-d1e1008">
+                Ad quintum de Spiritu Sancto hic respondet 
+                <ref><name ref="#Augustine">Augustinus</name> homelia 45 <title>super Iohannem</title></ref> ostendens quod vere dicimus de Deo fuit et erit quia 
+                numquam de eo deerit numquam defuit non quiddam quod aliqua signorum pluralitas in 
+                ipso sit.
+              </p>
+              <p xml:id="pgb1q10-d1e1024">
+                Aliter potest dici quod Deus, licet proprie non sit in tempore et personae quia non variatur 
+                secundum tempus per accidens tamen est in tempore quia est quando tempus est ideo verba praeteriti et futuri 
+                temporis de deo dici possunt haec responsio trahitur ex dictis 
+                <cit>
+                  <ref><name ref="#GilesOfRome">aegidi</name> libro primo, distinctione 
+                    hac, parte 3a, quaestione 4a.</ref>
+                  <bibl>Aegidius Romanos, I, d. 9, p. 3, q. 4</bibl>
+                </cit>
+              </p>
+              <p xml:id="pgb1q10-tpdcii">
+                Tertio potest dici quod li <mentioned>antequam mundus fieret</mentioned> potest se habere habitualiter 
+                hoc est si fuisset tempus ante mundum habuisset claritatem in illo.
+              </p>
+              <p xml:id="pgb1q10-d1e1048">
+                Quarto, posset dici quod, si 
+                recipitur tempus pro quacumque imaginaria successione possibili positiva vel privativa, tunc infinitum tempus 
+                fuit ante mundum quia talia possunt capi pro talibus signis illius imaginarii successus.
+              </p> 
+              <p xml:id="pgb1q10-abdapp">
+                Ad <name ref="#Boethius">boetium</name> dicentem quod nunc stans etc conceditur quantum ad nostrae mentis apprehensionem sive 
+                quantum ad nostri intellectus cogitationem Ad <name ref="#Augustine">augustini</name> dicitur quod loquitur de aeternitate participata et 
+                secundum quid non autem de aeternitate simpliciter seu loquitur de aeternitate a parte <unclear>post</unclear>.
+              </p> 
+              <p xml:id="pgb1q10-d1e1084">Ad primum contra 3am 
+                <pb ed="#L" n="38-v"/> 
+                conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta, tamen dicitur mensum mensura 
+                quae est sua aeternitas prout ostendit 
+                <cit>
+                  <ref><name ref="#GilesOfRome">Aegidius</name> distinctione 8 primi, parte 3a, quaestione 3a.</ref>
+                  <bibl>Aegidius Romanos, I, d. 8, p. 3, q. 3</bibl>
+                </cit>
+              </p>
+              <p xml:id="pgb1q10-d1e1099">
+                Ad illud
+                <cit>
+                  <ref><title ref="#ex">Exodi</title> 3</ref>
+                  <bibl>Exodus 3:XXX</bibl>
+                </cit>
+                dicitur quod sumitur aeternitas dicitur uno modo primo per pro peryodo[?] unius cuiusque 
+                vitae naturalis, secundo modo pro uniformi et immobili simultanea existentia. Primo modo conceditur simpliciter, 
+                sed secundo modo negatur. Secundo posset dici secundum 
+                <cit>
+                  <ref><name ref="#Anselm">Anselmum</name> <title ref="#Proslogion">Prosologion</title> capitulo tertio</ref>
+                  <bibl>Anselmus, <title>Prosologion</title>, 3 (I, 103).</bibl>
+                </cit> 
+                quod Deus est ultra illa  
+                quae etiam finem non habebunt tum quia illa nullatenus sine eo esse possunt ipse autem 
+                non minus esse si omnia in nihilum irent tum secundo quia illa possunt cogitari habere finem Deus 
+                vero nequaquam cum etiam quia Dei et eorum aeternitas est Deo tota sed eis non.
+              </p>
+              <p xml:id="pgb1q10-d1e1145">
+                Ad tertium primo 
+                negatur consequentia quia similiter posset argui quod essentia haberet principium quia ipsa est idem filio Item 
+                posset dici quod si summatur principium pro durationis sic filius et spiritus sanctus habent 
+                principium quia sicut pater communicat filio deitatem ita et aeternitatem si aut sumatur pro durationis 
+                limitatione sic nulla persona divina habet principium
+              </p>
+              <p xml:id="pgb1q10-d1e1178">
+                Ad quartum de numero 
+                dicitur quod sicut in divinis est sapientia magnitudo tamen non qualitas aut quantitas sic est ibi 
+                ternarius non tamen proprie dictus numeris et de hoc videbitur infra.
+              </p>
+              <p xml:id="pgb1q10-d1e1186">Ad quintum negatur minor 
+                quia non ideo dicitur quod pater producit spiritum sanctum mediante filio quia pater non immediate producit 
+                ipsum sed quia filius habet a patre virtutem spiratiam sed contra hoc obicitur per <name ref="#Augustine">Augustinum</name> libro 
+                de triplici habita?lo[?] ubi dicit iusti in patria videbunt quid inter est inter generationem et 
+                spirationem et videbunt quod pater praecedit filium non natura sed origine
+              </p>
+              <p xml:id="pgb1q10-d1e1202">
+                Ad hoc tamen 
+                dicit <name ref="#AlphonsusVargas">Alphonsus</name> quod <name ref="#Augustine">Augustinus</name> vult dicere quod inter Patrem et Filium est prioritas originis 
+                non in quo, sed aliquo, id est quod Filius ordine naturae est a Patre, non tamen est ibi prioritas signorum 
+                realis d?va[?] et mensurativa ut <name ref="#Scotus">Scotus</name> et sequaces sui intuntur[?] probare, quorum rationes 
+                solvit <ref><name ref="#AlphonsusVargas">Alphonsus</name> in hac distinctione nona</ref> vide ibi.
+              </p>
+            </div>
+          </div>
+        <div xml:id="pg-b1q10-Dd1e943">
+          <head xml:id="pg-b1q10-Hd1e945">Conclusiones pro distinctione nona</head>
+          <p xml:id="pgb1q10-d1e1229">
+            <cit>
+              <quote xml:id="pg-b1q10-Qd1e952" source="http://scta.info/resource/pll1d9c1-d1e3477">Nunc ad distinctionem personarum.</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d9c1-d1e3477">Lombardus, I, d. 9, c. 1, n. 1</ref></bibl>
+            </cit> 
             Haec distinctio continet nona conclusiones. Prima quod Pater, et Filius, et Spiritus Sanctus sunt unus Deus, <unclear>natura</unclear> 
-            tamen Pater non est Filius nec Filius est Pater nec Spiritus Sanctus est Pater vel Filius.</p>
-          
-          <p xml:id="pgb1q10-d1e1239">Secunda conclusio: una 
+            tamen Pater non est Filius nec Filius est Pater nec Spiritus Sanctus est Pater vel Filius.
+          </p>
+          <p xml:id="pgb1q10-d1e1239">
+            Secunda conclusio: una 
             essentia est Patris et Filii et Spiritus Sancti in qua non est aliud Pater, aliud Filius, aliud Spiritus Sanctus, 
-            licet personaliter alius sit Pater, alius Filius, alius Spiritus Sanctus.</p>
-          
-          <p xml:id="pgb1q10-d1e1247">Tertia conclusio: licet Filius sit genitus a 
+            licet personaliter alius sit Pater, alius Filius, alius Spiritus Sanctus.
+          </p>
+          <p xml:id="pgb1q10-d1e1247">
+            Tertia conclusio: licet Filius sit genitus a 
             Patre, tamen Pater non fuit antequam Filius, sed omnes illae tres personae sunt sibi 
-            coaeternae et coaequales.</p>
-          
-          <p xml:id="pgb1q10-d1e1255">Quattuor conclusio: sicut splendor qui gignitur ab igne coaeternus 
-            est igni seu esset coaeternus sic Filius est Patri.</p>
-          
-          <p xml:id="pgb1q10-d1e1261">Quinta conclusio: cum Patrem dicimus vel 
+            coaeternae et coaequales.
+          </p>
+          <p xml:id="pgb1q10-d1e1255">
+            Quattuor conclusio: sicut splendor qui gignitur ab igne coaeternus 
+            est igni seu esset coaeternus sic Filius est Patri.
+          </p>
+          <p xml:id="pgb1q10-d1e1261">
+            Quinta conclusio: cum Patrem dicimus vel 
             nominamus Filium designativus, quia nemo sibi ipsi est Pater cum vero Filium nominamus 
             etiam Patrem fatemur, quia nemo sibi ipsi Filius est ex quo sequitur quod nec Filius sine Patre 
-            nec Pater sine Filio esset potest semper, ergo Pater semper et Filius.</p>
-          
-          <p xml:id="pgb1q10-d1e1272">Sexta conclusio: quod Filii Dei generatio est ineffabilis 
+            nec Pater sine Filio esset potest semper, ergo Pater semper et Filius.
+          </p>
+          <p xml:id="pgb1q10-d1e1272">
+            Sexta conclusio: quod Filii Dei generatio est ineffabilis 
             quia non plene exemplificari vel intelligi potest a quocumque moralium, licet aliquid de 
-            ipsa potest intelligi et dici.</p>
-          
-          <p xml:id="pgb1q10-d1e1280">Septima conclusio: licet possit concedit quod Filius semper nascitur de Patre, 
-            tamen congruentius dicitur semper natus.</p>
-          
-          <p xml:id="pgb1q10-d1e1286">Octava conclusio: quod confitemur natum unigenitum Deum 
-            ante tempus nec ante esse quam natum nec ante natum quam esse et sic de ista distinctione.</p>
+            ipsa potest intelligi et dici.
+          </p>
+          <p xml:id="pgb1q10-d1e1280">
+            Septima conclusio: licet possit concedit quod Filius semper nascitur de Patre, 
+            tamen congruentius dicitur semper natus.
+          </p>
+          <p xml:id="pgb1q10-d1e1286">
+            Octava conclusio: quod confitemur natum unigenitum Deum 
+            ante tempus nec ante esse quam natum nec ante natum quam esse et sic de ista distinctione.
+          </p>
         </div>
       </div>  
     </body>
