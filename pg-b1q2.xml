@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 2</title>
+        <title>Liber I, Quaestio 2</title>
         <author>Peter Gracilis</author>
         <editor>Stefano Menegatti</editor>
         <editor>John T. Slotemaker</editor>
@@ -13,7 +13,7 @@
       </titleStmt>
       <editionStmt>
         <edition n="0.1.0-dev">
-          <title>Librum I, Quaestio 2</title>
+          <title>Liber I, Quaestio 2</title>
           <date when="2015-12-24">December 24, 2015</date>
         </edition>
       </editionStmt>
@@ -58,7 +58,7 @@
     </front>
     <body>
         <div xml:id="pg-b1q2">
-        <head xml:id="pg-b1q2-Hd1e3727">Librum I, Quaestio 2</head>
+        <head xml:id="pg-b1q2-Hd1e3727">Liber I, Quaestio 2</head>
           <div xml:id="pg-b1q2-Dd1e3730">
             <head xml:id="pg-b1q2-Hd1e3732">
               <supplied>Circa textum</supplied>
@@ -68,21 +68,21 @@
                 <quote xml:id="pg-b1q2-Qd1e3742" source="http://scta.info/resource/pll1d1c1-vanspv">Veteris ac novae legis</quote>
                 <bibl><ref target="http://scta.info/resource/pll1d1c1-vanspv">Lombard, Sent. I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).</ref></bibl>
               </cit> 
-              etc. Praemissio prooemio sequitur tractatus 
+              etc. Praemisso prooemio sequitur tractatus 
               in quo <name ref="#Lombard">Magister</name> duo facit. Nam primo praemittit quaedam praeambula, secundo incipit 
               tractanda. Secunda incipit in principio secundae distinctionis. Prima dividitur in tres partes 
               principales; nam in prima, materias librorum per quasdam distinctiones ab invicem distinguit et separat; 
               in secunda movet quasdam quaestiones et eas pertractat; in tertia ponit quasdam resumptiones 
               et circa dicta <quote xml:id="pg-b1q2-Qd1e3752">epilogat</quote>. Secunda ibi 
               <cit>
-                <quote xml:id="pg-b1q2-Qd1e3757" source="http://scta.info/resource/pll1d1c3-d1e3612">cum autem homines.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3757" source="http://scta.info/resource/pll1d1c3-d1e3612">cum autem homines</quote>
                 <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3612">Lombard, Sent. I, d. 1, c. 3, [n. 4/8], (I, 58, ll. 13).</ref></bibl>
-              </cit> 
+              </cit>.
               Tertia ibi: 
               <cit>
-                <quote xml:id="pg-b1q2-Qd1e3766" source="http://scta.info/resource/pll1d1c3-d1e3874">ergo ominum <unclear>qua<!-- dbcheck for quae --></unclear> dicta sunt.</quote>
+                <quote xml:id="pg-b1q2-Qd1e3766" source="http://scta.info/resource/pll1d1c3-d1e3874">ergo omnium quae dicta sunt</quote>
                 <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3874">Lombard, Sent. I, d. 1, c. 3, [n. 11/24], (I, 61, ll. 3).</ref></bibl>
-              </cit> 
+              </cit>.
               Prima pars adhuc dividitur in duas, quia primo <name ref="#Lombard">Magister</name> inquirit materias librorum divisive, 
               secundo diffinitive. Secunda ibi: 
               <cit>
@@ -114,15 +114,21 @@
               <unclear cert="low">epilogativa</unclear> dividitur in 
               <app>
                 <lem>duas</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del>tres</del>
                     <add>duas</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
-              quia primo epilogat, secundo modum dicendorum insipiat et ad dicenda se continuat. 
-              Secunda ibi <quote xml:id="pg-b1q2-Qd1e3840">de quibus omnibus</quote> etc, et haec sit divisio in generali</p>
+              quia primo epilogat, secundo modum dicendorum <unclear>insipiat</unclear> et ad dicenda se continuat. 
+              Secunda ibi 
+              <cit>
+                <quote xml:id="pg-b1q2-Qd1e3840" source="http://scta.info/resource/pll1d1c3-d1e3874">de quibus omnibus</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3874">Lombardus, Sent. I, d. 1, c. 3 [n. 24] (XXX)</ref></bibl>
+              </cit> 
+              etc. Et haec sit divisio in generali.
+            </p>
           </div>
           <div xml:id="pg-b1q2-Dd1e3845">
             <head xml:id="pg-b1q2-Hd1e3847">
@@ -207,33 +213,41 @@
                   <ref><name ref="#Augustine">Augustinum</name> in libro XIII, 2, 10 <title ref="#deTrinitate">De Trinitate</title>.</ref>
                   <bibl>Augustinus, De Trinitate, XIII, 2, 10 (XXX)</bibl>
                 </cit> 
-                Patet consequentia, quia, positis omnibus causis ad productionem ad productionem alicuius effectus requisitis 
-                omni alio secluso, talis effectus posset naturaliter poni in esse. Secunda pars probatur, quia, 
-                quia <quote xml:id="pg-b1q2-Qd1e3998">si sola obiecti cognitio</quote> etc., sequitur quod, stante iudicio vel apprehensione alicuius 
+                Patet consequentia, quia, positis omnibus causis
+                ad productionem
+                <app>
+                  <lem n="productionm"/>
+                  <rdg wit="#L" type="variation-present" cause="repetition">ad productionem</rdg>
+                </app>
+                alicuius effectus requisitis 
+                omni alio secluso, talis effectus posset naturaliter poni in esse. Secunda pars probatur quia, 
+                <app>
+                  <lem n="quia"/>
+                  <rdg wit="#L" type="variation-present" cause="repetition">quia</rdg>
+                </app>
+                <mentioned>si sola obiecti cognitio</mentioned> etc., 
+                sequitur quod, stante iudicio vel apprehensione alicuius 
                 obiecti sub ratione 
                 <app>
                   <lem>mali</lem>
-                  <rdg wit="#L" type="corrReplace">
-                    <corr>
+                  <rdg wit="#L" type="correction-substitution">
+                    <subst>
                       <del rend="strikethrough">boni</del>
                       <add place="inLine">mali</add>
-                    </corr>
+                    </subst>
                   </rdg>
                 </app> 
                 seclusa omnia existentia vel apparentia bonitatis, 
-                voluntas posset tale obiectum velle vel diligere. Consequentia nota, sed consequens est contra 
+                voluntas posset tale obiectum velle vel diligere. 
+                Consequentia nota, sed consequens est contra 
+                <ref corresp="#pg-b1q2-Qobaoba"><name ref="#Aristotle">Philosophum</name></ref>
+                et
+                <ref corresp="pg-b1q2-Qobaoba"><name ref="#Averroes">commentatorem</name> I <name ref="#Ethics">Ethicorum</name></ref>
+                quia 
                 <cit>
-                  <ref><name ref="#Aristotle">Philosophum</name></ref>
-                  <bibl>Aristotle, Ethica, XXX</bibl>
-                </cit> 
-                et 
-                <cit>
-                  <ref><name ref="#Averroes">commentatorem</name> 
-                    I <name ref="#Ethics">Ethicorum</name>
-                  </ref>
-                  <bibl>Averroes, XXX</bibl>
-                </cit> 
-                quia omnia bonum appetunt
+                  <quote xml:id="pg-b1q2-Qobaoba" ana="aa-ethica-1">omnia bonum appetunt</quote>
+                  <bibl>Aristotle, Ethica, I.1 (1094a1-3); Averroes, XXX</bibl>
+                </cit>.
               </p>
               <p xml:id="pgb1q2-d1e3692">
                 Primum corollarium: quod nulla dilectio vel volitio 
@@ -244,14 +258,11 @@
               <p xml:id="pgb1q2-d1e3708">
                 Secundum corollarium: si dilectio respectu alicuius obiecti 
                 sit in voluntate, necesse est respectu eiusdem 
-                <app>
-                  <lem><supplied>cognitionis</supplied></lem>
-                  <rdg wit="#L">cognitionem</rdg>
-                </app> 
-                in intellectu esse vel praefuisse, loquendo 
-                naturaliter et de communi lege. Patet conclusionem, quia effectus praesupponit suam causam.</p>
-              
-              <p xml:id="pgb1q2-d1e3727">Tertium corollarium: si Deus potest vicem cuiuslibet causae secundae supplere, ipse potest in voluntate dilectionem 
+                cognitionem in intellectu esse vel praefuisse, loquendo 
+                naturaliter et de communi lege. Patet per conclusionem, quia effectus praesupponit suam causam.
+              </p>
+              <p xml:id="pgb1q2-d1e3727">
+                Tertium corollarium: si Deus potest vicem cuiuslibet causae secundae supplere, ipse potest in voluntate dilectionem 
                 causare.</p>
             
             </div>
