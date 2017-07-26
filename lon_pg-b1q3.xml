@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Librum I, Quaestio 3 [London Transcription]</title>
         <author>Peter Gracilis</author>
-        <editor>Stefano Menegatti</editor>
         <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.03-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 3 [London Transcription]</title>
           <date when="2014-03-19">March 03, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
-        </availability>
-        <date when="2014-01-27">January 27, 2013</date>  
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by/4.0">Creative Commons Attribution 4.0 International</ref></p>
+        </availability>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -30,12 +31,30 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="18-r"/>
       </div>
     </front>
     <body>
@@ -71,7 +90,7 @@
           <lb ed="#L"/>textum falsum potest illud probari sed textus scripturae videtur falsus aut saltim in proprius ergo 
           <lb ed="#L"/>minor patet <ref corresp="#pgb1q3-Qldpdpc"><title ref="#hab">abacuch</title> 2o</ref> ubi dicitur <quote xml:id="pgb1q3-Qldpdpc" ana="#hab2_11">lapis de pariete clamabit</quote> Item <name ref="#IsidoreOfSeville">ysidorus</name> 
           <lb ed="#L"/>valet errare nos fecisti de viis tuis et in durare fecisti cor nostrum 
-          <pb ed="#L" n="18v"/><lb ed="#L"/>ne timeremus te Item caeci videt claudi ambulant etc Item <name ref="#Lombard">magister</name> 5o nihil est probabile 
+          <pb ed="#L" n="18-v"/><lb ed="#L"/>ne timeremus te Item caeci videt claudi ambulant etc Item <name ref="#Lombard">magister</name> 5o nihil est probabile 
           <lb ed="#L"/>per scripturam quae diminuerit fidem sed probare evidenter et articulos est diminuere 
           <lb ed="#L"/>fidem et eam evacuare ergo</p>
         
@@ -121,7 +140,7 @@
           <lb ed="#L"/>fide consequentia probatur quia qualitercumque intrinsece est in divina essentia talis esse est neccesse patet per
           <lb ed="#L"/><name ref="#Lombard">magistrum</name> in hac distinctione <g ref="#slash"/> Item per <ref><name ref="#RichardOfStVictor">ricardum</name> libro primo <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> capitulo 27o</ref> dicentem confi<lb ed="#L"/>denter 
         fateamur personas in deitate secundum substantiam dictas et substantiam significare 
-          <pb ed="#L" n="19r"/><lb ed="#L"/>et plures ibi personas non plures substantias esse quia sunt plures habentes unum in 
+          <pb ed="#L" n="19-r"/><lb ed="#L"/>et plures ibi personas non plures substantias esse quia sunt plures habentes unum in 
           <lb ed="#L"/>differens esse ex differenti proprietate unitatis <g ref="#slash"/> ad hoc sunt verba <name ref="#Lombard">magistri</name> in hac distinctione 
           <lb ed="#L"/>principio hoc itaque etc</p>
         
@@ -178,7 +197,7 @@
           <lb ed="#L"/>attribui sed generare est perfection in creatura ergo</p>
         
         <p xml:id="pgb1q3-d1e470"><g ref="#pilcrow"/>3o quanto natura est actualior tanto 
-          <pb ed="#L" n="19v"/><lb ed="#L"/>est fecundior sed divina natura est infinita actualiter ergo infinitae fecunditatis</p>
+          <pb ed="#L" n="19-v"/><lb ed="#L"/>est fecundior sed divina natura est infinita actualiter ergo infinitae fecunditatis</p>
         
         <p xml:id="pgb1q3-d1e475"><g ref="#pilcrow"/><choice><orig>4o</orig><reg>quarto</reg></choice> de bonum 
           <lb ed="#L"/>est sui ipsius communicativum naturale sed deus est infinitum bonum ergo maior est <ref><name ref="#Dionysius">dyonsius</name> <title ref="#deDivinisNominibus">de divins 
@@ -239,7 +258,7 @@
         
         <p xml:id="pgb1q3-d1e605"><g ref="#pilcrow"/>Ad idem videtur esse 
           <lb ed="#L"/><ref><name ref="#Aristotle">philosophus</name> 2o <title ref="#Ethics">ethicorum</title></ref> ex quibus videtur sequi quod eligibilior[?] esset status simplicis 
-          <cb ed="#L" n="20r"/><lb ed="#L"/>fidelis viatoris quam profundi ac <name ref="#Scotus">subtilis doctoris</name></p>
+          <pb ed="#L" n="20-r"/><lb ed="#L"/>fidelis viatoris quam profundi ac <name ref="#Scotus">subtilis doctoris</name></p>
         
         <p xml:id="pgb1q3-d1e623"><g ref="#pilcrow"/>Ad primum quidquid sit de 
           <lb ed="#L"/>antecedente negatur consequentia ad probationem dicitur quod trinitas divina ab aliquo cognoscitur aliquo non cognoscitur 
@@ -300,7 +319,8 @@
           <lb ed="#L"/>ostendit <name ref="#RichardFitzRalph">armacanus</name> libro primo <title ref="#">de quaestionibus armenorum</title> tunc principium illius libri
         </p>
         <p xml:id="pgb1q3-snqefp">
-          <pb ed="#L" n="21v"/><lb ed="#L"/>2o nota quod cum scriptura habeat plures sensus si veritas alicuius textus non potest haberi 
+          <pb ed="#L" n="20-v"/> 
+          <lb ed="#L"/>2o nota quod cum scriptura habeat plures sensus si veritas alicuius textus non potest haberi 
           <lb ed="#L"/>secundum unum sensum est recurrendum ad alium cui aliae scripturae magis concor<lb ed="#L"/>dat 
         et est summe cavendum ne figurativa locutio ad litteram accipiatur 
           <lb ed="#L"/>et econverso ne vera et propria locutio ad figuram intelligitur et figurativa putetur</p> 
@@ -359,7 +379,7 @@
           <lb ed="#L"/>unitas essentiae seu substantiae et trinitas personarum <unclear>Ideo <!-- could be correcte from Item --></unclear> non sunt tres dii sed unus 
           <lb ed="#L"/>deus licet pater genuerit filium et ideo filius non sit qui pater est filiusque <seg type="correction">a<del rend="strikethrough">g</del></seg> patre genitus 
           <lb ed="#L"/>sit ideo pater non sit qui filius est <del rend="strikethrough">3a conclusio</del> et spiritus sanctus nec pater sit nec filius sed tantum 
-          <pb ed="#L" n="21r"/><lb ed="#L"/>patris et filii spiritus utrique coaequalis et consubstantialis nec ibi est aliud et aliud neutraliter 
+          <pb ed="#L" n="21-r"/><lb ed="#L"/>patris et filii spiritus utrique coaequalis et consubstantialis nec ibi est aliud et aliud neutraliter 
           <lb ed="#L"/>sed alius et alius personaliter</p>
         
         <p xml:id="pgb1q3-d1e90"><g ref="#pilcrow"/>3a conclusio quod omnes catholici tractatores qui de trinitate 
