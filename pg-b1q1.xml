@@ -30,7 +30,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a critical edition.
@@ -265,12 +265,12 @@
         </div>
         <div xml:id="pg-b1q1-Dd1e3922"> 
           <head xml:id="pg-b1q1-Hd1e3924"><supplied>Quaestio</supplied></head>
-          <div xml:id="pg-b1q1-Dd1e3928">
+          <p xml:id="pgb1q1-uqvovs">
+            Utrum quis viator scientifice sine dono speciali 
+            possit assentire theologicae <supplied>veritati</supplied> omni vero supernaturali?
+          </p>
+          <div xml:id="pg-b1q1-Dd1e3928" type="rationes-principales">
             <head xml:id="pg-b1q1-Hd1e3930"><supplied>Rationes principales</supplied></head> 
-            <p xml:id="pgb1q1-uqvovs">
-              Utrum quis viator scientifice sine dono speciali 
-              possit assentire theologicae <supplied>veritati</supplied> omni vero supernaturali?
-            </p>
             <p xml:id="pgb1q1-qspali">
               Quod sic primo quia omnis potentia naturalis 
               potest <supplied>exire</supplied> in suam actionem naturalem, 
@@ -318,7 +318,8 @@
               et habentem latere ut arguit 
               <cit>
                 <ref><name ref="#ThomasStrasbourg">Thomas Argentinae</name> quaestione secunda prologi, articulo primo.</ref>
-                <bibl>Thomas de Argentina, I, prologus, q. 2, a. 1</bibl>
+                <bibl>Thomas de Argentina, I, prologus, q. 2, a. 1, (Venice 1564, 5vb).</bibl>
+                <note xml:lang="en">See the point in Venice 1564, 5vb that begins: "Praeterea philosophus contra Platonem…"</note>
               </cit>
             </p>
             <p xml:id="pgb1q1-qvprit">
@@ -340,12 +341,12 @@
             </p>
             <p xml:id="pgb1q1-ioeqqv">In oppositum est 
               <ref corresp="#pg-b1q1-Qd1e4033">
-                <name ref="#Augustine">Augustinus</name> <title>Super Genesem</title>
+                <name ref="#Augustine">Augustinus</name> <title ref="#DeGenesiAdLitteram">Super Genesem</title>
               </ref> 
               dicens 
               <cit>
-                <quote xml:id="pg-b1q1-Qd1e4033">Maior est huius scripturae auctoritas quam omnis humani ingenii perspicacitas.</quote>
-                <bibl>Augustinus, XXX</bibl>
+                <quote xml:id="pg-b1q1-Qd1e4033" ana="#Augustine_DeGenesiAdLitteram_2_5_9_a">Maior est huius scripturae auctoritas quam omnis humani ingenii perspicacitas</quote>
+                <bibl>Augustinus, De Genesi ad Litteram, II, 5, 9 (CSEL 28.1, 39; PL 34, 217)</bibl>
               </cit>. 
               Item 
               <ref corresp="#pg-b1q1-Qd1e4047">
@@ -549,7 +550,14 @@
               sequitur quod illa propositio theologica ab eo formata non est intrinsece assensus.
             </p>
             <p xml:id="pgb1q1-ssqsqp">
-              Secundo sequitur quod si quis theologus fieret infidelis vel haereticus, 
+              Secundo sequitur quod si quis 
+              <app>
+                <lem>theologus</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="margin-right">theologus</add>
+                </rdg>
+              </app> 
+              fieret infidelis vel haereticus, 
               ipse perderet totam scientiam theologicam. Consequentia patet quia perderet assensum propositionum 
               theologicarum et talis assensus est theologica scientia. Sed falsitas probatur 
               quia talis adhuc sciret defendere fidem nostram, legere et disputare, et argumenta solvere sicut prius, 
@@ -572,12 +580,12 @@
               sequitur quod nullus dissentiens illi posset formare propositionem eiusdem speciei. 
               Patet consequentia ex terminis. Falsitas probatur quia dissentiens illi potest formare propositionem 
               eiusdem subiecti et praedicati, ergo eiusdem speciei. 
-              Consequentia patet cum propositiones non distinguuntur a suis terminis similis sumptis.
+              Consequentia patet cum propositiones non distinguuntur a suis terminis simul sumptis.
             </p>
             <p xml:id="pgb1q1-sccqrd">
               Sexto contra corollaria quia vel fides et theologia 
               sunt idem habitus vel non. Si sic, ergo habens habitum theologicum habet fidem et per consequens est theologus. 
-              Si diversi, ponatur quod remittatur uniformiter aequaliter praecise quoad omnia versus non esse, 
+              Si diversi, ponatur quod remittatur uniformiter, aequaliter, praecise quoad omnia versus non esse, 
               tunc vel aequaliter desinent non esse vel non. Si primum, ergo sunt aequales et per consequens 
               theologia non est superior fide quod est falsum et contra 
               <ref corresp="#pg-b1q1-Qd1e4272">
@@ -587,8 +595,8 @@
               </ref> 
               dicens, 
               <cit>
-                <quote xml:id="pg-b1q1-Qd1e4272" ana="#Augustine_deTrinitate_14_1_3_b"><sic>hac</sic> scientia, scilicet theologia, non pollent plurimi quamvis fide polleant</quote>
-                <bibl>Augustinus, De Trinit., XIV, c. 1 , n. 3 (PL 42, 1037; CCSL 50A, 424)</bibl>
+                <quote xml:id="pg-b1q1-Qd1e4272" ana="#Augustine_deTrinitate_14_1_3_b">hac scientia, scilicet theologia, non pollent plurimi quamvis fide polleant</quote>
+                <bibl>Augustinus, De Trinit., XIV, c. 1, n. 3 (PL 42, 1037; CCSL 50A, 424, ll. 61-63)</bibl>
               </cit>.
               Si detur secundum, sequitur quod theologia stabit sine fide quod repugnat dictis.
             </p>
@@ -605,7 +613,7 @@
               Octavo contra corollaria eiusdem conclusionis quia vel obiectum 
               theologiae totale est propositio theologica vel res ad extra vel significatum propositionis. 
               Si primum, habetur contra primum corollarium. Non secundum quia tunc multae scientiae essent 
-              de rebus <unclear cert="high">contingentibus</unclear> potentibus 
+              de rebus contingentibus potentibus 
               <pb ed="#L" n="14-r"/> 
               aliter se habere tamquam de obiectis contra 
               <cit>
@@ -669,7 +677,7 @@
               Uno modo pro quacumque propositione significante rem theologicam, 
               et sic pura propositio vocalis potest dici theologica. 
               Alio modo sumitur pro illa propositione quae intrinsece est assensus theologicus, 
-              et sic dico quod talis propositio quae intrinsece est significatum significati theologici 
+              et sic dico quod talis propositio quae intrinsece est significatum significanti theologici 
               non potest esse sine assensu theologico. Et ad probationem negatur assumptum accipiendo 
               propositionem theologicam secundo modo, licet possit formare omnem propositionem significantem ad placitum.
             </p>
@@ -699,7 +707,7 @@
               </cit> 
               negatur antecedens, et ad probationem 
               dico quod quamdiu manebit illa propositio et assensus etiam quamvis una propositio 
-              quodammodo similis ei poterit manere quae non erit assensus, et tunc illa propositio 
+              quodammodo similis ei poterit manere quae non erit assensus. Et tunc illa propositio 
               non est theologica, et sic potest dici quod illa propositio manebit, 
               sed non manebit propositio.
             </p>
@@ -710,7 +718,7 @@
               </cit> 
               conceditur consequens, et ad probationem eius conceditur 
               antecedens, sed negatur consequentia quia propositio quae est assensus ultra terminos 
-              includit aliud, scilicet, assensum qui non includitur in altera. 
+              includit aliud, scilicet assensum qui non includitur in altera. 
               Secundo potest dici quod copula unius non est eiusdem speciei cum copula alterius 
               quia modus coniungendi subiectum cum praedicato est diversus eo quia 
               una propositio est assensus et non alia, sed solum apprehensio.
@@ -733,14 +741,16 @@
               Nota quod <name ref="AlphonsusVargas">Alphonsus</name> tenet quod sit idem habitus theologiae et fidei, 
               <cit>
                 <ref target="http://scta.info/resource/atvl1prolq3-d1e3559">quaestione tertia prologi, articulo secundo, conclusione prima</ref>
-                <bibl><ref target="http://scta.info/resource/atvl1prolq3-d1e3559">Alphonsus Vargas, I, prol., q. 3, a. 2, concl. 1</ref></bibl>
+                <bibl><ref target="http://scta.info/resource/atvl1prolq3-d1e3559">Alphonsus Vargas, I, prol., q. 3, a. 2, concl. 1, (Paris 1490, B6ra)</ref></bibl>
                 <!-- the target is currently the first paragraph of "conclusione prima"; an argument could be 
                   made for the target being pointed at the entire "conclusio" div; but at present I don't have ids for these divs -->
               </cit>, 
-              sed <name ref="#ThomasStrasbourg">Thomas Argentinae</name> tenet oppositum et eius rationes solvit 
+              sed 
+              <name ref="#ThomasStrasbourg">Thomas Argentinae</name> tenet oppositum et eius rationes solvit 
               <cit>
                 <ref>quaestione quarta, articulo secundo.</ref>
-                <bibl>Thomas de Argentina, I, q. 4, a. 2</bibl>
+                <bibl>Thomas de Argentina, I, q. 4, a. 2, (Venice 1564, 15va-vb)</bibl>
+                <note xml:lang="en">See especially in Venice 1564, 15vb where he says "Sed illa non concludunt: quia illi habitus realiter differunt, quorum unus realiter potest esse altero non existente".</note>
               </cit>
             </p>
             <p xml:id="pgb1q1-asqqpf">
@@ -753,16 +763,16 @@
                 <ref target="http://scta.info/resource/pgb1q1-scqsot">secundam conclusionem</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q1-scqsot">Vide supra</ref></bibl>
               </cit>, 
-              negatur minor quia multa sunt vera quae non sunt propositiones sicut significata <unclear>propositionum</unclear> <!-- dbcheck change from propositioni to propositionum with John -->. 
+              negatur minor quia multa sunt vera quae non sunt propositiones sicut significata propositionum. 
               Et hoc videtur de mente 
               <cit>
                 <ref><name ref="#Aristotle">Aristotelis</name> libro <title ref="#Categories">Praedicamentorum</title> capitulo de oppositis,</ref>
                 <bibl>Aristoteles, Praedicamentorum, xxx</bibl>
               </cit>, <!-- possible quote here -->
-              ubi dicit quod significatum unius propositionis <unclear>contradictoriae <!-- dbcheck --></unclear> contradicit significato alterius, 
-              et si unum est verum, reliquum est falsum. Ista autem significata quadam extrinseca denominatione <unclear>dicunt <!-- dbcheck --></unclear> vera vel falsa 
+              ubi dicit quod significatum unius propositionis contradictoriae contradicit significato alterius, 
+              et si unum est verum, reliquum est falsum. Ista autem significata quadam extrinseca denominatione dicunt vera vel falsa 
               quia eorum significata sunt vera vel falsa vel essent si formarentur. 
-              Et sic potest dici quod id <!-- dbcheck id --> significatum est verum quod est significabile per veram propositionem 
+              Et sic potest dici quod id significatum est verum quod est significabile per veram propositionem 
               et illud falsum quod per falsam. 
               Item potest dici quod omnia vera significabilia possunt 
               dici vera a prima veritate quae Deus est qui est omnium 
@@ -806,12 +816,12 @@
               <ref><name ref="#WilliamOfAuxerre">Altissiodorensis</name> libro tertio <title>Summae</title> suae</ref> dicens quod 
               <cit>
                 <quote xml:id="pg-b1q1-Qd1e4415">articuli fidei sunt per se noti</quote>
-                <bibl>Guillelmus Altissiodorensis, xxx</bibl>
+                <bibl>Guillelmus Altissiodorensis, Summa Aurea IV, tr. 5, cap. 4, qu. 3 (4, 116, ll. 80).</bibl>
               </cit>.
               Nota differentiam de per se noto quam ponit 
               <cit>
                 <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name> libro primo, distinctione tertia, quaestione prima, articulo primo</ref>
-                <bibl>Hugolinus de Urbe Veteri, xxx</bibl>
+                <bibl>Hugolinus de Urbe Veteri, Commentarius in Quottuor Libros Sententiarum, I, d. 3, q. 1, a. 1 (Eckermann 1984, II:4-11).</bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q1-aanafi">
@@ -850,8 +860,18 @@
               quia non aeque primo nec eodem modo ratio eorum movet intellectum. 
               De hoc vide 
               <cit>
-                <ref><name ref="#HenryOfGhent">Henricum de Gandavio</name> parte prima articulo primo 44 14 quaestionibus</ref>
-                <bibl>Henricus de Gandavensis, xxx</bibl>
+                <ref><name ref="#HenryOfGhent">Henricum de Gandavio</name>, parte prima, articulo primo, 44 14 quaestionibus</ref>
+                <bibl>Non invenimus</bibl>
+                <note xml:lang="en">There are several oddities about this reference that make its identification difficult. 
+                Because Henry never began a second part of his Summa (though he had planned to write it), 
+                Gracilis' reference is unclear as few authors discuss parts when referencing Henry's Summa. 
+                See Gordon Wilson's forthcoming article "The Parts of Henry of Ghent’s Quaestiones Ordinariae (Summa)," 
+                <title>Contemplation and Philosophy: Scholastic and Mystical Modes of Medieval Philosophical Thought</title>, 
+                (Studien und Texte zur Geistesgeschichte des Mittelalters), Pich, Roberto Hofmeister; Culleton, Alfredo Santiago; and Speer, Andreas 
+                (E. J. Brill, Leiden – Köln – New York, 2016).
+                The second oddity is that the first article of the Summa has neither a 14th or 44th question. In fact, no 
+                article contains more than 13 questions, and thus the exact target of this reference remains, for the moment, a mystery.
+                </note>
               </cit>.
             </p>
             <p xml:id="pgb1q1-aaqinc">
@@ -879,7 +899,8 @@
               <cit>
                 <ref target="http://scta.info/resource/pgb1q1-qvprit">Ad ultimum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q1-qvprit">Vide supra</ref></bibl>
-              </cit> posset negari consequentia quia si 
+              </cit> 
+              posset negari consequentia quia si 
               potest convincere sine tali lumine, non tamen taliter vel modo tam perfecto sicut ponit 
               fides vel theologia, et sic posset dici ad primum praecedens. 
               Secundo potest negari antecedens et dici quod probationes adiutae non probant quia 
