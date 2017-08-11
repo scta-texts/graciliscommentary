@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Librum I, Quaestio 5 [London Transcription]</title>
         <author>Peter Gracilis</author>
-        <editor>Stefano Menegatti</editor>
         <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.04-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 5 [London Transcription]</title>
           <date when="2014-04-14">April 04, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
         </availability>
         <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-14" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
@@ -118,9 +124,12 @@
   </facsimile>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="24-r"/>
       </div>
     </front>
     <body>
@@ -129,7 +138,7 @@
         
         <p xml:id="pgb1q5-d1e283"><hi rend="dropCapThreeLines">h</hi><hi rend="largeFont">ic oritur quaestio</hi> Ista est distinctio quarta quae sit continuatur ad 
           <lb ed="#L"/>praecedentem quia postquam <name ref="#Lombard">magister</name> determinait de essentiae unitate et personarum  
-          <lb ed="#L"/>trinitate consequenter in hac parte determinat de earum origine et <unclear>alietate</unclear> 
+          <lb ed="#L"/>trinitate consequenter in hac parte determinat de earum origine et alienitate 
           <lb ed="#L"/>et dividitur in 4or partes secundum quod 4or facit <name ref="#Lombard">magister</name> primo movet quaestionem 2o argut per 
           <lb ed="#L"/>rationem 3o respondet ad dubitationem et 4o ponit argumenti solutionem 2a ibi si enim 
           <lb ed="#L"/>deus genuit deum 3a ibi ad quod respondentes dicimus 4a ibi nunc ad prae<lb ed="#L"/>missam 
@@ -161,7 +170,7 @@
           <lb ed="#L"/>non genuit deus pater</p>
         
         <p xml:id="pgb1q5-d1e403"><g ref="#pilcrow"/>primum corollarium licet christus fuerit aeternaliter tamen temporaliter 
-          <pb ed="#L" n="24v"/><lb ed="#L"/>incepit esse christus prima pars patet quia filius fuit aeternaliter 2a patet quia temporaliter 
+          <pb ed="#L" n="24-v"/><lb ed="#L"/>incepit esse christus prima pars patet quia filius fuit aeternaliter 2a patet quia temporaliter 
           <lb ed="#L"/>incepit homo ergo temporaliter incepit esse christus tenet consequentia quia sicut anima rationalis 
           <lb ed="#L"/>et caro unus est homo ita deus et homo unus est christus</p>
         
@@ -217,7 +226,7 @@
         
         <p xml:id="pgb1q5-d1e579"><g ref="#pilcrow"/>primum 
           <lb ed="#L"/>corollarium licet deus pater ante rerum <choice><orig>creacionem</orig><reg>creationem</reg></choice> suum filium non genuerit tamen nulla 
-          <pb ed="#L" n="25r"/><lb ed="#L"/>res creata sibi coeterna fuit prima patet sicut conclusio quia sicut in aeternitate non est post sic nec 
+          <pb ed="#L" n="25-r"/><lb ed="#L"/>res creata sibi coeterna fuit prima patet sicut conclusio quia sicut in aeternitate non est post sic nec 
           <lb ed="#L"/>ante 2a patet quia aliter deus non produxisset ab <choice><orig>inicio</orig><reg>initio</reg></choice> temporis quod est falsum quia deus 
           <lb ed="#L"/>creavit etc</p>
         
@@ -288,7 +297,7 @@
           <lb ed="#L"/>deus</p> 
         
         <p xml:id="pgb1q5-apcess"><g ref="#slash"/>Ad primam contra 2am conclusionem quae est 2a ratio in oppositum diceret <name ref="#HugolinoOfOrvieto">hugolinus</name> 
-          <pb ed="#L" n="25v"/><lb ed="#L"/>concedo consequentiam rationem huius assignando per hoc quod pater totam latitudinem cognitionis 
+          <pb ed="#L" n="25-v"/><lb ed="#L"/>concedo consequentiam rationem huius assignando per hoc quod pater totam latitudinem cognitionis 
           <lb ed="#L"/>in esse producit dicendo unum verbum ideo non sunt plura verba nec plures filii 
           <lb ed="#L"/><g ref="#slash"/>sed hoc non videtur ratio sufficiens quia adhuc contravenitur quare <choice><orig>pocius</orig><reg>potius</reg></choice> per istam totam la<lb ed="#L"/>titudinem 
         immensam cognitionis producxerit filium istum quam alium <g ref="#slash"/>2o diceret 
