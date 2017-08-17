@@ -1,58 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 6 [London Transcription]</title>
+        <title>Liber I, Quaestio 6 [London Transcription]</title>
         <author>Peter Gracilis</author>
-        <editor>Stefano Menegatti</editor>
         <editor>Jeffrey C. Witt</editor>
+        <editor>John Slotemaker</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.04-dev-master">
-          <title>Librum I, Quaestio 6 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 6 [London Transcription]</title>
           <date when="2014-04-14">April 04, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
         </availability>
         <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-14" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
+      <div xml:id="include-list">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="25-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q6">
         <head>Quaestio 6 [London Transcription]</head>
-        <p xml:id="pgb1q6-d1e83"><pb ed="#L" n="26r"/><lb ed="#L"/><hi rend="threeLineDropCap">P</hi><hi rend="largeFont">ost haec quaeritur</hi> Ista est distinctio 5 In qua post quam <name ref="#Lombard">magister</name> ostendit qualiter 
+        <p xml:id="pgb1q6-d1e83">
+          <pb ed="#L" n="26-r"/>
+          <lb ed="#L"/><hi rend="threeLineDropCap">P</hi><hi rend="largeFont">ost haec quaeritur</hi> Ista est distinctio 5 In qua post quam <name ref="#Lombard">magister</name> ostendit qualiter 
         <lb ed="#L"/>haec sit concedenda deus genuit deum <g ref="#slash"/> nunc vero <name ref="#Lombard">magister</name> movet quaestionem 
           <lb ed="#L"/>concernentem gignens et genitum <g ref="#slash"/>et dividitur in tres quia primo movet 
           <lb ed="#L"/>variam quaestionem 2o ponit quovis solutionem 3o exponit multiplicem auctoritatem et dat 
@@ -177,7 +189,8 @@
         
         <p xml:id="pgb1q6-d1e558"><g ref="#pilcrow"/>2o contra primum 
           <lb ed="#L"/>corollarium si deus esset causa sufficiens et totalis cuiuslibet effectus creati sequeretur quod frustra 2a 
-          <pb ed="#L" n="27r"/><lb ed="#L"/>causa aliquid produceret consequens est falsum patet consequentia quia si non ageret non minus sequeretur effectus ergo</p>
+          <pb ed="#L" n="27-r"/>
+          <lb ed="#L"/>causa aliquid produceret consequens est falsum patet consequentia quia si non ageret non minus sequeretur effectus ergo</p>
         
         <p xml:id="pgb1q6-d1e567"><g ref="#pilcrow"/>3o <corr>contra</corr> 3m corollarium si <choice><orig>alica</orig><reg>aliqua</reg></choice> entitas ad sui generationem non exigeret plures efficientes 
           <lb ed="#L"/>causas sequitur quod deus se solo posset producere odium sui ipsius in <choice><orig>alico</orig><reg>aliquo</reg></choice> consequens est falsum 
@@ -245,7 +258,8 @@
         <p xml:id="pgb1q6-d1e762"><g ref="#pilcrow"/>Ad aliud negatur consequentia rationem assignat facinus in 2o 
           <lb ed="#L"/>quia deus vult quod causa 2a agat ut perficiatur <g ref="#slash"/>nam si deus se solo produceret 
           <lb ed="#L"/>motum caeli intelligentia creata movens ipsum sic non perficeretur per ipsum motum 
-          <pb ed="#L" n="27v"/><lb ed="#L"/>nec anima per motum corporis et sic per aliis ideo licet aeque sequeretur effectus causa 2a non agente 
+          <pb ed="#L" n="27-v"/>
+          <lb ed="#L"/>nec anima per motum corporis et sic per aliis ideo licet aeque sequeretur effectus causa 2a non agente 
           <lb ed="#L"/>sicut quando agit tamen non frustra agit 2a causa</p>
         
         <p xml:id="pgb1q6-d1e778"><g ref="#pilcrow"/>sed contra istam responsionem arguitur quia omnem per<lb ed="#L"/>fectionem 
@@ -299,7 +313,9 @@
           <lb ed="#L"/>per dicta quia sicut non sufficienter regulantur sic praemissae non sunt sufficienter universales 
           <lb ed="#L"/>vel secundum alium modum dicendi non fit debita circumlocutio in praemissis ideo non valent formae</p>
         
-          <p xml:id="pgb1q6-d1e935"><pb ed="#L" n="28r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur quod consequens conversionis illius potest dupliciter sumi <g ref="#slash"/> uno modo essentia divina est generans 
+          <p xml:id="pgb1q6-d1e935">
+            <pb ed="#L" n="28-r"/>
+            <lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur quod consequens conversionis illius potest dupliciter sumi <g ref="#slash"/> uno modo essentia divina est generans 
             <lb ed="#L"/>id est hoc quod generat et sic conceditur <g ref="#slash"/>alio modo sic essentia divina est generans id est generat sic negatur 
             <lb ed="#L"/>consequentia quia nec debet sic converti sed primo modo</p>
         
