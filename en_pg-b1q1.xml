@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 1</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.1.0-dev">
+          <title>Book I, Question 1</title>
+          <date when="2015-12-24">December 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2013-10-10">October 10, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-12-24" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
+          <note type="validating-schema">lbp-0.0.1</note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en" type="translation">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="11-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q1">
+        <div xml:id="pg-b1q1-Dd1e3724">
+          <head xml:id="pg-b1q1-Hd1e3726">Circa textum</head>
+          <p xml:id="pgb1q1-cadanl">
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3733" source="http://scta.info/resource/pll1prol-cadzdd">Desiring something from want</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-cadzdd">Lombardus, Sent. I, prol., [n. 1], (I, 3, ll. 1).</ref></bibl>
+            </cit> 
+            etc. This is the prologue of the 
+            book of Sentences which is a book divided in the prologue and discussed. 
+            The second part begins at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3742" source="http://scta.info/resource/pll1d1c1-vanspv">of the old and new law</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c1-vanspv">Lombardus, Sent. I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).</ref></bibl>
+            </cit>.
+          </p>
+          
+          <p xml:id="pgb1q1-ppdlde">
+            The first part is divided into four principle parts. 
+            In the first part, the reason for undertaking this work is stated.
+            In the second part, the refutation of the enemies in detracting is stated. 
+            In the third part, the commendation of the work in what follows is stated.
+            In the fourth part, the <unclear>inciting<!-- excitatio seems correct given "excitantem" that comes below" --></unclear> of the hearer for finishing the book is stated.
+            The second part begins at  
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3757" source="http://scta.info/resource/pll1prol-qnavet">quamvis non ambigamus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-qnavet">Lombardus, Sent. I, prol., [n. 3], (I, 3, ll. 16).</ref></bibl>
+            </cit>. 
+            The third part begins at
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3766" source="http://scta.info/resource/pll1prol-hidqld">therefore of those things hateful, the church</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-hidqld">Lombardus, Sent. I, prol., [n. 4], (I, 4, ll. 11).</ref></bibl>
+            </cit>.
+            The fourth part begins at
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3772" source="http://scta.info/resource/pll1prol-nidqhc">Therefore this labor ought not</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-nidqhc">Lombardus, Sent. I, prol., [n. 6], (I, 4, ll. 21).</ref></bibl>
+            </cit>.
+            etc.
+          </p>
+          <p xml:id="pgb1q1-ppddis">
+            The first part is able to be divided into three parts
+            according to which the <name ref="#Lombard">Master</name> puts three causes 
+            <unclear>drawing him away</unclear> from the compilation of this work.
+            The first is the subtlety of this science. 
+            The second is the difficulty of this material. 
+            The third is the sting of envy.
+            In the second part he puts three causes urging 
+            and inducing him to the compilation of this book.
+            The first is the example of the poor widow. 
+            The second is the hope of an eternal reward. 
+            The third are the constant request of his companions.
+            In the third part he compares the aforesaid causes to one another 
+            by showing the victory of the motivating causes. 
+            The second part begins at  
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3793" source="http://scta.info/resource/pll1prol-cadzdd">consummationis fiduciam</quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1prol-cadzdd">Lombardus, Sent. I, prol., [n. 1], (I, 3, ll. 4).</ref>
+              </bibl>
+            </cit>.
+            The third part beings at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3802" source="http://scta.info/resource/pll1prol-cadzdd">quae vincit zelus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-cadzdd">Lombardus, Sent. I, prol., [n. 1], (I, 3, ll. 8).</ref></bibl>
+            </cit>. 
+            Some of the other causes are <!-- potest or possunt -->able to be divided, but this division suffices for now.
+          </p>
+          <p xml:id="pgb1q1-eiunrs">
+            <!-- might want to collapse this paragraph with the above -->
+            And this last cause is divided into three. For in the first part, 
+            the evidence of the contradiction of the enemies is stated.
+            In the second, the reason for the contradiction is stated.
+            In the third, the wickedness of the contraction is stated. 
+            Second part is stated at
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3814" source="http://scta.info/resource/pll1prol-qnavet">quia 
+                dissentientibus voluntatum motibus
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1prol-qnavet">Lombardus, Sent. I, prol., [n. 3], (I, 3, ll. 17-18).</ref>
+              </bibl>
+            </cit>.
+            The third part is stated at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3826" source=" http://scta.info/resource/pll1prol-qnavet">qui non rationi subiciunt</quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1prol-qnavet">Lombardus, Sent. I, prol., [n. 3], (I, 3, ll. 22-23).</ref>
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q1-tssiqp">
+            Then the second principle part follows, 
+            <!-- this quote needs to be aded in text -->
+            <cit>
+              <quote>quamvis non ambigamus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-qnavet">Lombardus, Sent. I, prol., [n. 3], (I, 3, ll. 16).</ref></bibl>
+            </cit>,
+            in which the double refutation of the detractors is stated.
+            The first is the about the attack on truth. The second is about the teaching of falsehoods.
+            The second part begins at
+            <!-- this quote needs to be added to critical text -->
+            <cit>
+              <quote source="http://scta.info/resource/pll1prol-qnavet">quorum professio</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-qnavet">Lombardus, Sent. I, prol., [n. 3], (xxxx).</ref></bibl>
+            </cit>
+             
+          </p>
+          <p xml:id="pgb1q1-sepicl">
+            The third principle part follows
+            <!-- quote needs to be added to critical text -->
+            <cit>
+              <quote source="http://scta.info/resource/pll1prol-hidqld">horum igitur</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-hidqld">Lombardus, Sent. I, prol., [n. 4], (I, 4, ll. 11).</ref></bibl>
+            </cit>
+            etc.
+            in which the commendation of the work to follow is stated. 
+            And he does four things here because in the first place he <unclear>commends</unclear> 
+            the work from the final cause, in the second place from the efficient cause, 
+            in the third place from the material cause, and in the fourth place from the formal cause.
+            The second part starts at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3842" source="http://scta.info/resource/pll1prol-hidqld">cum labore</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-hidqld">Lombardus, Sent. I, prol., [n. 4], (I, 4, ll. 13).</ref></bibl>
+            </cit>.
+            <pb ed="#L" n="12-r"/>
+            The third part starts at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3853" source="http://scta.info/resource/pll1prol-hidqld">ex testimoniis veritatis</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-hidqld">Lombardus, Sent. I, prol., [n. 4], (I, 4, ll. 14).</ref></bibl>
+            </cit>.
+            The fourth part starts at 
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3862" source="http://scta.info/resource/pll1prol-iqmpdl">in quo haereticae doctrinae</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-iqmpdl">Lombardus, Sent. I, prol., [n. 5], (I, 4, ll. 17).</ref></bibl>
+              <note>Text reads: "...vipereae doctrinae fraudulentiam prodidimus...".</note>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q1-tsqigp">
+            Then the fourth and last principle part follows,
+            <cit>
+              <quote xml:id="pg-b1q1-Qneddhl" source=" http://scta.info/resource/pll1prol-nidqhc">non ergo debet hic labor</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-nidqhc">Lombardus, Sent. I, prol., [n. 6], (I, 4, ll. 21).</ref></bibl>
+            </cit>,
+            which is divided into three according to a threefold schema for inciting the hearer to complete the book.
+            For <!-- "non" should be "enim" in critical text --> 
+            In the first place the hearer is induced by the useful brevity, 
+            second by the humble truth, 
+            third by the exposure of falsity.
+            The second part begins at  
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3877" source="http://scta.info/resource/pll1prol-nidqhc">in hoc autem tractatu</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-nidqhc">Lombardus, Sent. I, prol., [n. 6], (I, 4, ll. 26).</ref></bibl>
+            </cit>. 
+            The third part at
+            <cit>
+              <quote xml:id="pg-b1q1-Qd1e3886" source="http://scta.info/resource/pll1prol-uaqcdp">ut autem quod quaeritur</quote>
+              <bibl><ref target="http://scta.info/resource/pll1prol-uaqcdp">Lombardus, Sent. I, prol., [n. 7], (I, 4, ll. 29).</ref></bibl>
+            </cit>.
+            This is the division of the prologue in general.
+          </p>
+          <p xml:id="pgb1q1-isvioa">
+            More specifically, the <name>Lombard</name> truly proceeds thus because first he puts one cause 
+            moving him to the compilation of this book which is the desire of completing it 
+            and immediately he adds the cause drawing him away from it,
+            which is the lack of talent and knowledge.
+            After these things, he identifies a cause drawing him away which is the loftiness of the subject matter
+            and the magnitude of the labor, 
+            and immediately he includes the contrary moving cause 
+            which is the confidence of divine help and the prize promised by Christ. 
+            After these things, he points out the victory of the moving causes by saying 
+            that the intense love which he has for the church, which inflames him to undertake the book, 
+            conquers the two things which seem to draw him away from the compilation of this.
+          </p>
+          <p xml:id="pgb1q1-iapipv">
+            In another part, he says that he turns his attention to three things. 
+            First regarding the defense of the catholic faith, 
+            second regarding the truth of theological explanation, 
+            third regarding the manifestation of the sacraments.
+            After these things, he puts another moving<!-- should be moventem in latin text --> 
+            which is the love <!--conirm with john that this is caritas --> and presence <!-- should be instantia not instantiam in latin text --> 
+            of brothers and colleagues, and <!-- should be "et" not "est" --> immediately he adds a third contrary cause drawing him away which 
+            is the sting and contradiction of critics <!-- i like critics for invidorum -->. 
+            After this he puts the cause of contradiction which is 
+            the discord and disorderedness of the will from which error comes and from error hate <!-- hate for invidia rather than "envy", change earlier instances -->
+            and from hate arises contradiction. After this he points out the wickedness of the ones contradicting since, namely, 
+            they do not subject the will to reason and they do not follow the right reason 
+            nor do they wish to submit themselves to the authority of sacred scripture. 
+            Rather to both reason and the authority of scripture they propose their own sense <!-- should be sensum not secundum in latin text-->
+            and by some <!-- should be quadam not quamdam in latin--> superstitious religion externally simulated they have an argument 
+            for showing a new wisdom, 
+            by devising some <!-- should remain quamdam --> doctrine and by some <!-- should be quadam not quamdam in latin -->loud intention fighting stubbornly against the truth.
+          </p>
+          <p xml:id="pgb1q1-pacmtq">
+            After this he assigns the causes of the work. In the first place 
+            he touches the final cause which is twofold, 
+            namely the turning of the church from falsity or evil things and the manifestation of catholic truth.
+            After this he puts the efficient cause which is twofold, 
+            namely the principle cause which is God and the instrumental cause 
+            which is the <name ref="#Lombard">Magister</name> himself.
+            After he puts the material cause, 
+            namely the testimony of truth of the canons and saints. 
+            After this, he touches the formal cause which is twofold, 
+            namely the form of the treatise which consists in 
+            a division of the work through books and chapters; 
+            the other is the form of treating, which is the same as the mode of acting.
+            After this he says that at the same in these books he puts forward chapters for an easier and lighter entrance or introduction.
+            And thus the sentences of this prologue end here, 
+            about which the following question is asked.
+          </p>
+        </div>
+        <div xml:id="pg-b1q1-Dd1e3922"> 
+          <head xml:id="pg-b1q1-Hd1e3924">
+            <supplied>Question</supplied></head>
+          <div xml:id="pg-b1q1-Dd1e3928">
+            <head xml:id="pg-b1q1-Hd1e3930">
+              <supplied>Rationes principales</supplied></head> 
+            <p xml:id="pgb1q1-uqvovs">
+              <!-- no page break here -->
+              Whether a pilgrim is able to assent scientifically 
+              without a special gift to every theological truth even a supernatural truth?
+            </p>
+            <p xml:id="pgb1q1-qspali">
+              That this is so in the first place because every natural potency is able to 
+              perform <!-- perform for "exire" --> its own natural act, but the intellect is a natural potency
+              and its own operation is to know and to understand, therefore it is able to assent naturally 
+              to these truths without faith or the infusion of another light.
+            </p>
+            <!-- should this be a separate paragraph -->
+            <p xml:id="pgb1q1-cqsanc">
+              This is confirmed by one is able to assent by the dictate of reason alone, 
+              otherwise they would truly be able to assent to anything. The antecedent is true
+              and the consequence is proved on the one hand because in the first place the 
+              the senses are <!-- is plural ok here for sensus potest --> likewise <!-- aeque --> able to have knowledge of that which is sensible, 
+              and on the other hand in the second place because all things truly have a single (ratio) of acting on the intellect, 
+              therefore all things are likewise <!-- aeque --> in the first place are able to be known.
+            </p>
+            <p xml:id="pgb1q1-shdsam">
+              In the second place, heretics, the damned, and the devil are 
+              able to assent to the theological 
+              <pb ed="#L" n="12-v"/>
+              truth with a special light, therefore also the pilgrim.
+              The antecedent is clear from the rich man of
+              <cit>
+                <ref><title ref="#lc">Luke</title> 16</ref>
+                <bibl>Cf. Luke 16:19-31</bibl>
+              </cit>.
+              Then in the second place because when the agent and patient are sufficiently applied,
+              there will follow an equal action. But the
+              <cit>
+                <quote xml:id="pg-b1q1-Qiaepof" ana="#Aristotle_DeAnima_III_5_a">
+                  agent intellect is able 
+                  to make all things and the possible intellect is able to become all things
+                </quote>
+                <bibl>Aristoteles, De anima, III. 5 (430a14-15)</bibl>
+              </cit>
+              as is clear from
+              <ref corresp="#pg-b1q1-Qiaepof">I <title ref="#deAnima">De anima</title></ref>.
+              Therefore in a man having prepared (approximatis) equally, the action follows in him.
+            </p> 
+            <p xml:id="pgb1q1-tsqpap">
+              In the third place, if the question turned out to be false,
+              it would follows that some a light or special gift would be infused to some theologian.
+              The consequent is false because no modern theologian perceives himself to be so infused.
+              The consequence is clear because it would be impossible that such lights or such habits are possessed 
+              by are hidden to the one having them as is argued by 
+              <cit>
+                <ref><name ref="#ThomasStrasbourg">Thomas Argentiae</name> in the first article of the second question of his prologue</ref>
+                <bibl>Thomas de Argentina, I, prologus, q. 2, a. 1</bibl>
+                <note>At we present we are not able to find a direct parallel in the identified passage.</note>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q1-qvprit">
+              In the fourth place the pilgrim is able to convinced that there is a future life after this life
+              by the command of reason alone, therefore.
+              The consequence holds since this is a theological truth.
+              The antecedent is true because just as the pursuit of a stone is to find a final place of rest, 
+              so it is with human beings. But the pursuit of a stone, <unclear>which is found when these ends are acquired  <!-- something seems missing here --></unclear>, 
+              is not able not to rest, therefore it is also the case for the pilgrim. 
+              The minor is clear. The major is proved because human beings are not less ordered 
+              to their natural end than a stone. Thus it is further true that the pursuit of man to naturally and finally rest
+              in something, <unclear>when this or these things are acquired</unclear>, is not able not to rest. 
+              But there is not such thing in the present life, therefore there remains another life for the where human beings 
+              can rest. The major is clear through what has already been said, and the minor is clear from itself 
+              and through what  
+              <ref>
+                Augustine says in the first book of the Confessions, chapter 1
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4016" ana="#Augustine_Confessions_1_1_1_a">
+                  Lord you have made us for yourself and our heart is restless until it rests in you.</quote>
+                <bibl>Augustinus, <title>Confessiones</title> I, 1, 1 (CCSL 27, 1, ll. 6-7).</bibl>
+              </cit>
+            </p>
+            <p xml:id="pgb1q1-ioeqqv">On the contrary
+              <ref corresp="#pg-b1q1-Qd1e4033">
+               Augustine in his Commentary on Genesis
+              </ref> 
+              says
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4033">The authority of scripture is greater than perspicacity of any human talent</quote>
+                <bibl>Augustinus, XXX</bibl>
+              </cit>. 
+              Again
+              <ref corresp="#pg-b1q1-Qd1e4047">
+                <name ref="#Lombard">Lombard</name>, in his prologue
+              </ref> 
+              says  
+              <cit>
+              	<quote xml:id="pg-b1q1-Qd1e4047" source="http://scta.info/resource/pll1prol-cadzdd">ardua scandere, opus ultra vires praesumpsimus agere</quote>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1prol-cadzdd">Lombardus, Sent. I, prol., [n. 1] (I, 3, ll. 3-4).</ref>
+                </bibl>
+              </cit>. 
+              Again, 
+              <ref corresp="#pg-b1q1-Qd1e4066">
+                <name ref="#Augustine">Augustine</name> 
+                in his second book 
+                <title>on the Lord's sermon on the mount</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4066">
+                  cum rationalis anima cogitat ac ratiocinatur quidquid in ea ratione, 
+                  verum est non est ei attribuendum sed ipsi luci veritatis
+                </quote>
+                <bibl>Augustinus, <title>De sermone Domini in monte</title> II.32 (CCSL 35, 122, ll. 705-708).</bibl>
+              </cit>. 
+              Again no one is able to acquire created wisdom unless they have been illuminated with the grace which is God, therefore.
+              The consequence is clear, and the antecedent is from 
+              <cit>
+                <ref>
+                  <name ref="#Augustine">Augustine</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, question 24
+                </ref>
+                <bibl>Augustinus, De diversis quaestionibus octoginta tribus, q.24 (CCSL 44A, 29-20).</bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q1-Dd1e4089">
+            <head xml:id="pg-b1q1-Hd1e4091"><supplied>First Conclusion</supplied></head>
+            <p xml:id="pgb1q1-pclecv">
+              First conclusion: though theological assent is not distinct from a theological proposition, 
+              nevertheless it is true that two propositions are formed of the same subject or predicate signifying the same thing 
+              and are distinguished one from the other specifically.
+              The first part is clear because, if they were distinguished, it would follow 
+              that theological assent would be able to be without a theological proposition.
+              The consequent is false because then someone would be able to assent 
+              without complex knowledge which is contrary to the truth.
+              The second part is proved because, if it were supposed that a believing person 
+              formed the following proposition <mentioned>Christ has died</mentioned>
+              and an unbelieving person formed the same proposition with respect to the terms, then 
+              the faithful person assents to what is signified by this proposition 
+              <unclear>when forming it</unclear>, and the unfaithful person does not assent,
+              therefore they are specifically distinct. The consequence is clear because one is really and intrinsically 
+              assent and the other is not, and nevertheless they have the same subject and predicate. 
+              Therefore the conclusion is true. 
+            </p>
+            <p xml:id="pgb1q1-pcqnet">
+              The first corollary: it is true that a person could know the entire holy scriptures 
+              and not be a theologian. This is clear because if an unbelieving person knew 
+              the scriptures, he would not be a theologian because he would not assent.
+              This is confirmed because if the believing pilgrim knew and formed every proposition to which the unbeliever assented,
+              he would despite this still be an infidel because he would consent to them. There for similar reason,
+              the one know the Holy Scriptures and dissenting is not a theology.
+              For this reason it should be known that infidelity is an assent with respect to what is false 
+              or dissent with respect to what is determined to be true by the Church or revealed in Holy Scripture.
+            </p>
+            
+            <p xml:id="pgb1q1-scqeeh">
+              The second corollary: it is true that the pilgrim could be informed with the theological 
+              habit yet not be considered a theologian. From this is able to further inferred and conceded 
+              that from the ordained law 
+              <pb ed="#L" n="13-r"/> 
+              the theologian is able to remain in faith, but is not always able t
+              to remain or be a theologian without faith. From this it further follows that the <mentioned>theological</mentioned> 
+              part is not as essential to the theological habit as the <mentioned>habit</mentioned>.
+            </p> 
+            <p xml:id="pgb1q1-tcqdia">
+              The third corollary: one indistinct proposition is able to have two contradictories 
+              distinct in species. This is clear because the contradictory of a proposition is able to be 
+              the immediate assent of one and the immediate dissent of another.
+            </p>
+          </div>
+          <div xml:id="pg-b1q1-Dd1e4123">
+            <head xml:id="pg-b1q1-Hd1e4125"><supplied>Second conclusion</supplied></head>
+            <p xml:id="pgb1q1-scqsot">
+              The second conclusion: though a theological proposition is theological cognition,
+              nevertheless it is not necessarily knowledge by which someone is said to know 
+              the total object of its own being. <!--  meaning is not entirely clear --> 
+              The first part is proved because faith or theological knowledge do not differ from theological assent, 
+              but theological assent is a theological proposition, therefore a theological proposition is theological knowledge or cognition.
+              The major premise is clear because theological faith <!-- theological faith is a strange phrase, but "fides theologica" does appear to be a phrase mostly appearing in later 16th authors --> 
+              is not able to be without theological assent, otherwise
+              someone would believe something and not assent to it, which is false. 
+              The minor is clear from the first conclusion. The second part is proved because 
+              nothing is caused by itself, but our knowledge is at least partially caused by an object, 
+              therefore this knowledge is not its own total object. <!--unsure about own total object -->
+            </p>
+            <p xml:id="pgb1q1-cqdqep">
+              <!-- this paragraph might be better added to above paragraph -->
+              This is confirmed because, suppose there was a vision that was a vision of itself, 
+              it would still be required some object by which ti is caused. 
+              Thus having supposed that the same thing is knowledge of itself, 
+              nevertheless another object is required by which such knowledge is caused, and, as a consequence, 
+              it is not its total object, which was the conclusion to be proved.
+              
+            </p>
+            <p xml:id="pgb1q1-pcqoss">
+              First corollary: theological propositions are not the object of Holy Scripture.
+            </p>
+            <p xml:id="pgb1q1-scqste">
+              Second corollary: theology or another science is not properly speaking known, 
+              but is that by which something is known or cognized. This is clear through the fact that that which is known 
+              is the object of the science, but science is not the object of itself, at least not the the total object, therefore.
+            </p> 
+            <p xml:id="pgb1q1-tcqvne">
+              The third corollary: the following proposition according to the force of the word 
+              is false: <mentioned>Socrates knows geometry, logic, theology or any other science</mentioned>.<!-- punctuation should be outside ref in latin text -->
+              This is clear from the fundamental point since science is not properly known but is that by which something is known to be in this way or not.  
+              
+            </p> 
+          </div> 
+          <div xml:id="pg-b1q1-Dd1e4151"> 
+            <head xml:id="pg-b1q1-Hd1e4153"><supplied>Third conclusion</supplied></head>
+            <p xml:id="pgb1q1-tclsie">
+              The third conclusion, though it is not impossible for the pilgrim to not believe any theological truths 
+              and still have the act and habit of faith, nevertheless under the present law it is impossible that 
+              the pilgrim assent to theological truths without any special light.
+              The first part is proved in the first place regarding the habit. There is no doubt that 
+              many have the habit of the virtues without that habit being put into act. <!-- this is similar to a brief discussion had by Holcot in question 1-->
+              But that the act of faith is able to be without believing is proved because  the act of faith 
+              and the actuation or the doing itself are not more identical than an accident and its adherence. 
+              But God is able to make an accident without adherence, therefore.
+              The second part is proved through
+              <ref corresp="#pg-b1q1-Qd1e4177"><name ref="#Augustine">Augustine</name> in some epistle,</ref> 
+              where he says: 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4177"><supplied>Neque enim</supplied> cum coepero te in tanti huius 
+                  secreti intelligentiam introducere (nisi Deus intus ad iuverit, non potero)</quote>
+                <bibl>PL 33:453</bibl>
+              </cit>, 
+              and elsewhere in several places. 
+              Again 
+              <ref><name ref="#Anselm">Anselm</name> I <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>, in chapter two</ref>: 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4196" ana="#Anselm_CurDeusHomo_1_1_a">
+                  Rectus ordo exigit ut profunda Christianae fidei, prius credamus, 
+                  quam ea ratione fidei praesumamus discutere
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title ref="#Anselm_CurDeusHomo">Cur Deus Homo</title>, 
+                  I, c. 1 (II, 48, ll. 16-17)
+                </bibl>
+              </cit>. 
+              Again 
+              <ref><name ref="#Augustine">Augustine</name> in <title ref="#HomiliesOnJohn">in his first homily on John</title></ref> 
+              dicens, 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4219">Deus illuminat parvulos et indoctos lumine fidei, maiores autem lumine sapientiae</quote>
+                <bibl>Augustinus, xxx</bibl>
+              </cit> 
+              Therefore a special light is required in order to scientificaly assent to theological truths.
+            </p>
+            <p xml:id="pgb1q1-pcpiss">
+              The first corollary: many are saved in the end who have never believed or never actually believe.
+              This is clear when considering young children who die immediately after baptism. 
+              Again this is clear when considering those being baptized how are lacking the use of reason, 
+              like those who are born mentally impaired.
+            </p> 
+            <p xml:id="pgb1q1-scmiss">
+              The second corollary: many are blessed in the kingdom of heaven who, 
+              if they had believed, would have been damned and would have been among the numbers of the reprobate 
+              or in the place of the damned. This is clear from considering the young children of the 
+              Greeks dying immediately <pb n="13-v" ed="#L"/> after baptism before the age of discretion.
+              For it happens that the Greeks are baptized, though it is through a different form of words, 
+              and as a consequence they receive the grace by which they are able to be saved. Nevertheless
+              because the adult Greeks believe differently than the Roman Church believes and commands people to believe, 
+              therefore they are not in the state of being saved.
+            </p>
+            <p xml:id="pgb1q1-tchnqv">
+              The third corollary: it is possible under the current law that the pilgrim 
+              does not believe just as the church commands them to believe, and nevertheless 
+              the pilgrim while believing in this manner in no way sins or is at fault of. Or it 
+              is possible that some pilgrim is deficient in believing while not culpable and 
+              nevertheless does not believe in the way the church commands that they should believe.
+              This is clear because it is possible that someone can licitly believe nothing for a certain amount of time, 
+              therefore it is possible that such a person does not err nor believe just as the Roman Church believes.
+              From what has been said, it is clear that the negative part in any case true.
+            </p>
+          </div>
+          <div xml:id="pg-b1q1-Doeroer">
+            <head xml:id="pg-b1q1-Hoeroer">Objections and responses</head>
+            <p xml:id="pgb1q1-cpceia">
+              Against the first conclusion it is first argued in the following way: 
+              a theological proposition is able to exist without theological assent, 
+              therefore it is distinguished. 
+              The consequence is valid. The antecedent is proved because every proposition which 
+              a believer is able to form is able to be formed by an unbeliever while remaining in 
+              a state of unbelief. And since this unbeliever does not have the assent of true <unclear>theology</unclear>, <!-- theologia vs theologiae unclear here --> 
+              it follows that the theological proposition formed by this person is not intrinsically assent.
+            </p>
+            <p xml:id="pgb1q1-ssqsqp">
+              In the second place it follows that if a theologian were to become an infidel or heretic, 
+              then he would lose the entirety of the theological science. The consequence is clear 
+              because he would lose the assent to the theological propositions and such assent is 
+              the theological science. But the falsity of this is proved since such a person would still know how to
+              defend our faith,to read and dispute, and to solve arguments just as before, 
+              since he does not know less than before.
+            </p>
+            <p xml:id="pgb1q1-tpaeca">
+              In the third place, we assent to a proposition through assent, 
+              therefore theological assent is not a theological proposition.
+              The consequence is clear because we do not assent to a proposition 
+              by means of a proposition since, if this were the case, the same thing 
+              would be that by which we assent and that to which we assent.
+            </p>
+            <p xml:id="pgb1q1-qsiepm">
+              In the fourth place, it is possible that a proposition exists 
+              and assent to the proposition does not exist, therefore. 
+              The antecedent is proved because a person is able to believe some proposition 
+              to be true and later not believe, but rather believe the opposite on account 
+              of some reasons, while the same proposition remains. 
+            </p>
+            <p xml:id="pgb1q1-qcstss">
+              In the fifth place against the second part 
+              it is argued because, if assent distinguished the type (species) of the proposition, then 
+              if someone were to form the following proposition <mentioned>no man is an ass</mentioned>, 
+              then it would follows that no one dissenting to this would be able to form a proposition of the 
+              same type (species). The consequence is clear from the terms. The falsity is proved 
+              because the one dissenting to this proposition is able to form a proposition
+              of the same subject and predicate, therefore it is of the same type (species).
+              This consequence is clear since propositions are nothing other than their terms taken together.
+            </p>
+            <p xml:id="pgb1q1-sccqrd">
+              In the sixth place against the corollary because either faith and theology 
+              are the same habit or not. If they are the same, then the one having the theological habit has faith and 
+              as a consequence is a theologian. If they are diverse, 
+              then suppose that there is a remission of all things uniformly, equally, and precisely toward non-being, 
+              then they either arrive equally at non-being or not. 
+              If the first, then they are equal and consequently theology is not superior to faith which is false
+              and against what 
+              <ref corresp="#pg-b1q1-Qd1e4272">
+                <name ref="#Augustine">Augustine</name> 
+                XIV <title ref="#deTrinitate">De Trinitate</title> 
+                in chapter one
+              </ref> 
+              says, 
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4272"><sic>hac</sic> scientia, scilicet theologia, non pollent plurimi quamvis fide polleant</quote>
+                <bibl>Augustinus, De Trinitate, XIV, c. 1, xxx</bibl>
+              </cit>.
+              If the second, then it follows that theology will stand without faith which is opposed what has been said. 
+            </p>
+            <p xml:id="pgb1q1-scsons">
+              In the seventh place against the second part of the second conclusion: everything 
+              that is known is true, but only a proposition is true, therefore only a proposition is known,
+              therefore only a proposition is the total object of our science.
+            </p>
+            <p xml:id="pgb1q1-occrea">
+              In the eighth place against the corollary of the same conclusion because either the 
+              total object of theology is a theological proposition or an external thing or the thing signified by the proposition.
+              If the first, then the objection against the first corollary is sustained. The second option is not valid 
+              because then there would be several sciences about contingent things being able
+              <pb ed="#L" n="14-r"/> 
+              to be disposed differently just as the sciences about objects, which is opposed to what the 
+              <cit>
+                <ref><name ref="#Aristotle">Philosopher</name> says in book VI of <title ref="#Ethics">Ethics</title></ref>
+                <bibl>Aristoteles, Ethica, VI, xxx</bibl>
+              </cit> 
+              and in
+              <cit>
+                <ref>book I of the <title ref="#PosteriorAnalytics">Posterior Analytics</title></ref>
+                <bibl>Aristoteles, Posteriora Analytica</bibl>
+              </cit>.
+              The third option is not valid for the same reason since 
+              the proposition signifies a thing outside the soul.
+            </p>
+            <p xml:id="pgb1q1-cqeefv">
+              This is confirmed because by the same reasons some 
+              external thing would be the object of an opinion, of faith, and of error, 
+              and as a consequence it would mean that one and the same person 
+              would know, opine, believe and be ignorant which are false. 
+              The consequence is clear for it is true that a person knows that God is three and one, 
+              opines that He alone moves the heavens, believes that He became incarnate, 
+              and errs when thinking that He is of finite strength.
+            </p>
+            <p xml:id="pgb1q1-nctiec">
+              In the ninth place against the third conclusion:
+              theological truths are either self-evident or deduced from what is self-evident, 
+              therefore for the knowledge of such things faith is not necessary.
+              The antecedent is proved because no one would be obliged to believe without any doubt 
+              something that is self-evident in and of itself or deduced from something self-evident, 
+              but one is obliged to believe the theological truths without any doubt, therefore.
+              The major premise is clear because every true thing is deduced or deducible from 
+              a first principle since every true thing is virtually contained within it.
+             
+            </p>
+            <p xml:id="pgb1q1-dstogd">
+              In the tenth place, if it were true that such a light, etc, it would follow 
+              that anyone would be able to have greater certitude about such truths than 
+              the certitude of science. The consequent is false but the consequence is clear because 
+              the certitude of faith is infinite since it is infinitely removed from every degree of doubt.
+            </p>
+            <p xml:id="pgb1q1-unlfdm">
+              In the eleventh place, no special light is required in order to assent to a lie, 
+              therefore it is not otherwise for a theological truth since the one saying 
+              a theological truth, which he believes to be false, speaks a lie.
+            </p>
+            <p xml:id="pgb1q1-arasap">
+              In response to these arguments, to the first argument I say that a theological 
+              proposition is able to be taken in two ways. In one mode for some proposition 
+              signifying a theological thing, 
+              and thus a pure vocal proposition is able to be called theological.
+              In another mode it is taken from a proposition which is intrinsically theological assent, 
+              and thus I say that such a proposition which is the thing signified by the <unclear>signifying theological proposition</unclear> <!-- should this be "significanti" ?? -->
+              is not able to be without theological assent. And for the proof, what the argument 
+              assumes is denied when taking the theological proposition in the second mode, though it is possible 
+              to form any proposition signifying whatever one wants.
+            </p>
+            <p xml:id="pgb1q1-ascddt">
+              To the second argument, the consequent is conceded when taking <mentioned>science</mentioned>
+              as something that includes theological assent. But when taking <mentioned>science</mentioned> 
+              as a habit by which one is able <unclear>to know how to conclude<!-- dbcheck this --></unclear> one proposition 
+              from another, in such a case he would not lose the science, 
+              but nevertheless such a person ought not to be called a theologian
+              
+            </p> 
+            <p xml:id="pgb1q1-atnepr">
+              To the third argument, the antecedent is denied, and for the proof 
+              it is said that the assent is the proposition itself by which we assent 
+              not to the proposition but that reality is thus or is not thus. <!-- somewhat loose translation -->
+            </p>
+            <p xml:id="pgb1q1-aqnnmp">
+              To the fourth argument, the antecedent is denied, and for the proof
+              I say that as long as this proposition and assent will remain 
+              so also will a similar proposition be able to remain which will not be assent, 
+              and then this proposition is not a theological proposition, and thus it is able 
+              to be said that this proposition will remain, but will not remain a proposition.
+            </p>
+            <p xml:id="pgb1q1-aqcssa">
+              To the fifth argument the consequent is conceded and for its proof
+              the antecedent is conceded but the consequence is denied because
+              the proposition which is an assent beyond the terms includes another assent, 
+              namely an assent which is not included in the other. 
+              In the second place it is able to be said that the copula of one is not of the same 
+              type as the copula of the other because the mode of joining the subject and the predicate 
+              is diverse since one proposition is assent while other is not, but only apprehension.
+            </p>
+            <p xml:id="pgb1q1-asdqas">
+              To the sixth argument it is said that they are not one habit.
+              And since it is posited that they remit uniformly, perhaps someone would 
+              say that they are not able to remit uniformly. But having admitted the case,
+              it is said that some degree of theology will remain, but it would not properly 
+              be called theology because without faith the habit would not be sufficient
+              such that the one having could be said to have a theological habit. 
+              And thus it is able to be said in <pb ed="#L" n="14-v"/>  
+              conformity with what has been said above
+              that theology is able to remain without faith, but one is not able to remain 
+              in theology without faith, for this habit would not be sufficient such 
+              that the one having it could be said to be to have the theological habit, at least according to 
+              to present world order (law).
+              Note that <name ref="AlphonsusVargas">Alphonsus</name> holds that 
+              the habit of faith and theology is the same, 
+              <ref>in the third question of his prologue, article two, conclusion one</ref>, 
+              but <name ref="#ThomasStrasbourg">Thomas Argentinae</name> holds the opposite and 
+              solves his arguments in  
+              <cit>
+                <ref>question four, article two</ref>
+                <bibl>Thomas de Argentina, I, q. 4, a. 2</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q1-asqqpf">
+              To the seventh argument, which is against the second conclusion, 
+              the minor is denied because many things are true which are not propositions 
+              like the things signified by the propositions.
+              And this appears to be the mind of  
+              <cit>
+                <ref><name ref="#Aristotle">Aristotle</name> in his book on the <title ref="#Categories">Categories</title> in the chapter on opposites</ref>
+                <bibl>Aristoteles, Praedicamentorum, xxx</bibl>
+              </cit>, <!-- possible quote here -->
+              where he says that the thing signified by one contradictory <!-- should this be "contradictoriae" rather than "contradictione" --> proposition contradicts the thing signified by the other propositions,   
+              and if one is true, the other is false. But the things signified by some extrinsic denomination assert (dicunt??) something either true or false 
+              because the things signified by them are true or false or would be if they were formed. 
+              And thus it is possible to say that the signified is true which is signifiable through a true proposition 
+              and the signified is false which is signified through a false proposition. 
+              Again it is able to be said that all true signifiable things are to be called 
+              true from the first truth which is God who is the truth and certain judgment of all such things.
+            </p>
+            <p xml:id="pgb1q1-aodsht">
+              To the eight argument it is said that neither of the aforementioned (predicates), 
+              but it is the fact that it is in reality or that it is not. And if it is asked whether 
+              it is the case that any (aliqua) thing is said, when taking <mentioned>thing</mentioned> loosely for 
+              every complex or incomplex signifiable, truly or falsely. And when it is said that there would be 
+              a science of contingent things, etc., here this is denied, therefore sciences are about necessary things 
+              because their objects are real and necessary things and entities <unclear>since in this way there is nothing except God</unclear>. 
+              But therefore they are said to be sciences about necessary things which are things which are known 
+              to not be able to not to be thus.
+              Consider for example, this knowable thing, <mentioned>every isosceles has three angles</mentioned>, etc.,
+              is not said to be necessary because it is necessary that it is isosceles or that it necessarily has three, etc.,
+              but because it is necessary that, if it is isosceles, it has three angles, etc.
+              Further this knowable thing is said to be eternal because whenever an isosceles was, it had three, 
+              and whenever it should exist, it will always have tree.
+            </p>
+            <p xml:id="pgb1q1-acpceh">
+              With respect to the confirmation the consequent would be able to be conceded because 
+              we know that the same God exists and we believe the term and we are perhaps able to err about Him 
+              by holding some false opinion, and this according to diverse considerations and dispositions.
+            </p>
+            <p xml:id="pgb1q1-aanpap">
+              With respect to another [ninth] argument, 
+              the antecedent is denied when speaking about the knowledge of pilgrims, 
+              and the proof of this argument it is said that the major premise is false unless it
+              were received self-evidently, that is on account of something asserted that cannot be more certain just as seems to be assumed by
+              <ref><name ref="#WilliamOfAuxerre">Altissiodorensis</name> in the third book of his <title>Summae</title> </ref> who says that
+              <cit>
+                <quote xml:id="pg-b1q1-Qd1e4415">the articles of faith are self-evident.</quote>
+                <bibl>Guillelmus Altissiodorensis, xxx</bibl>
+              </cit>.
+              Note the difference concerning something that is self-evident put forward by 
+              <cit>
+                <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name> in book one, distinction 3, question 1, article 1</ref>
+                <bibl>Hugolinus de Urbe Veteri, xxx</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q1-aanafi">
+              With respect to another [tenth] argument, the consequence is denied. 
+              For the proof, it is denied that the certitude of faith is infinite, indeed no created certitude is infinite 
+              because any such thing is a finite act or habit inclining to a finite act. 
+            </p>
+            <p xml:id="pgb1q1-aunqev">
+              With respect to the final argument the 
+              major premise is denied because in this case one ought
+              to believe and assert a lie without hesitation, not nevertheless inasmuch 
+              as it is a lie, but precisely against the mind of the one saying 
+              and thinking the falsity which is actually true.
+            </p>
+            <p xml:id="pgb1q1-aprpqq">
+              With respect to the first argument made before the opposition 
+              the major premise is conceded and the conclusion <unclear>which is <!-- maybe just simply "is"; could the "quae" be a mistake --></unclear> because 
+              the intellect naturally is able to know something.
+            </p>
+            <p xml:id="pgb1q1-acnapq">
+              <!-- new paragraph -->
+              With respect to the confirmation the consequence is denied. For the proof again the 
+              consequence is denied. And for the proof this the consequence is also denied because 
+              the ratio does not move the intellect either equally or in the same mode. 
+              On this point see  
+              <cit>
+                <ref><name ref="#HenryOfGhent">Henry of Ghent</name> in the first part of the first article 44 14 questions</ref>
+                <bibl>Henricus de Gandavensis, xxx</bibl>
+              </cit>
+            </p>
+            <p xml:id="pgb1q1-aaqinc">
+              To another (second) argument, whatever is the case about the antecedent, 
+              the consequence is denied, and for the proof it is said that it is true about the complete and precise agent, 
+              but the agent intellect is not the total agent causing the understanding, therefore it does not conclude.
+            </p>
+            <p xml:id="pgb1q1-aacpsp">
+              To another (third) argument the consequent is conceded, and for the disproof the consequence is 
+              denied because in this way it would be proved that the habit of charity or grace is not infused to a creature
+              because not everyone who has the habit perceives it, indeed no one thus, whether in hate or love, is worthy. <!-- meaning and translation unclear here -->
+              In the second place it would be able to be said that every 
+              <pb n="15-r" ed="#L"/> 
+              theologian perceives, though they do not perfectly perceive this, nor do they perceive that they perceive.
+            </p>
+            <p xml:id="pgb1q1-aupqef">
+              To the last argument it would be possible to deny the consequence 
+              because if it is possible to convince without such a light, nevertheless 
+              not in such a way or in a such a perfect mode as faith or theology does, 
+              and thus it would be able to say to the immediatlye preceding (primum praecedens). 
+              In the second place it is possible to deny the antecedent and to be said that 
+              helping proofs do not prove because it could be proved in the same way that 
+              man from his purely natural ability would be able to achieve beatitude which is false.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
