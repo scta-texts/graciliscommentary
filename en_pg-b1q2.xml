@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book I, Question 2</title>
+        <author>Peter Gracilis</author>
+        <editor>John T. Slotemaker</editor>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.1.0-dev">
+          <title>Librum I, Quaestio 2</title>
+          <date when="2015-12-24">December 24, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2013-10-10">October 10, 2013</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-12-24" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
+          <note type="validating-schema">lbp-0.0.1</note>
+      	</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en" type="translation">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="15-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q2">
+      <head xml:id="pg-b1q2-Hd1e3727">Librum I, Quaestio 2</head>
+        <div xml:id="pg-b1q2-Dd1e3730">
+          <head xml:id="pg-b1q2-Hd1e3732">
+            <supplied>Circa textum</supplied>
+          </head> 
+          <p xml:id="pgb1q2-d1e3417">
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3742" source="http://scta.info/resource/pll1d1c1-vanspv">Veteris ac novae legis</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c1-vanspv">Lombard, Sent. I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).</ref></bibl>
+            </cit> 
+            etc. Having completed the prologue a treatise follows in which the <name ref="#Lombard">Master</name> 
+            does two things. For in the first place he provides a preamble, in the second place 
+            he begins the matter to be treated. The second part begins in the beginning of the second distinction. <!-- reference to second distinction -->
+            The first part is divided into three principal. For in the first part 
+            the material of the books is distinguished and separated through distinctions.
+            In the second part he introduces and treats some questions. 
+            In the third part he takes up some of these things again and concerning what has been said 
+            makes a conclusion. The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3757" source="http://scta.info/resource/pll1d1c3-d1e3612">cum autem homines</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3612">Lombard, Sent. I, d. 1, c. 3, [n. 4/8], (I, 58, ll. 13).</ref></bibl>
+            </cit>. 
+            The third at: 
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3766" source="http://scta.info/resource/pll1d1c3-d1e3874">ergo ominum <unclear>qua<!-- dbcheck for quae --></unclear> dicta sunt</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3874">Lombard, Sent. I, d. 1, c. 3, [n. 11/24], (I, 61, ll. 3).</ref></bibl>
+            </cit>. 
+            The first part is further divided into two parts because in the first place the<name ref="#Lombard">Master</name> \
+            inquires about the matter of these books in terms of division, secondly in terms of definition.
+            The second begins at
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3779" source="http://scta.info/resource/pll1d1c2-faeand">frui</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c2-faeand">Lombard, Sent. I, d. 1, c. 2, [n. 3/2], (I, 56, ll. 10).</ref></bibl>
+            </cit> 
+            etc. 
+            The second principal part is divided into three inasmuch as the  
+            <name ref="#Lombard">Master</name> moves three questions: 
+            first whether man is able to licitly enjoy himself; 
+            second whether God enjoys man; third whether man licitly enjoys virtue.
+            The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3791" source="http://scta.info/resource/pll1d1c3-d1e3728">sed cum Deus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3728">Lombard, Sent. I, d. 1, c. 3, [n. 6/12], (I, 58, ll. 30).</ref></bibl>
+            </cit>.
+            The third at 
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3800">hic considerandum est</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3760">Lombard, Sent. I, d. 1, c. 3, [n. 7/14], (I, 59, ll. 20).</ref></bibl>
+            </cit>.
+            Some of these parts are divided <!-- should "divided" in latin be plural" --> into two because
+            he introduces question, in the second place solves or offers the solution to the question. The parts are clear. 
+            The third principal <unclear>epilogitive</unclear> part is divided into two because in the first place he makes a conclusion, 
+            in the second place he <unclear>indicates</unclear> the mode of things to be said and continues the things that should be said. 
+            The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e3840" source="http://scta.info/resource/pll1d1c3-d1e3874">de quibus omnibus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3874">Lombardus, Sent. I, d. 1, c. 3 [n. 24] (XXX)</ref></bibl>
+            </cit> 
+            etc.
+            And this is the division in general.</p>
+        </div>
+        <div xml:id="pg-b1q2-Dd1e3845">
+          <head xml:id="pg-b1q2-Hd1e3847">
+            <supplied>Whether the supposite of created entity is an enjoyable object of the ordered will? 
+              Or whether just as the created will is the subject of a related love, 
+              so the blessed Trinity alone is the object of ordered enjoyment?
+             </supplied>
+          </head>
+          <p xml:id="pgb1q2-d1e3518">
+            Whether the supposite of created entity is an enjoyable object of the ordered will? 
+            Or whether just as the created will is the subject of a related love, 
+            so the blessed Trinity alone is the object of ordered enjoyment?
+          </p>
+          <div xml:id="pg-b1q2-Dd1e3856">
+            <head xml:id="pg-b1q2-Hd1e3858">
+              <supplied>Principal arguments</supplied>
+            </head>
+            <p xml:id="pgb1q2-d1e3531">
+              The answer is no because the will is not the only subject of love, therefore.
+              The antecedent is proved because love is cognition, 
+              but the subject of a created cognition is in the intellect. 
+              The major premise is clear because is not any more inconvenient 
+              to say that love is cognition than to say assent is apprehension.
+              Further because it would follow that someone would be blessed and would not see God.
+              This is clear because if there are two acts, God would be able to preserve one 
+              without the other.
+            </p>
+            <p xml:id="pgb1q2-d1e3547">
+              In the second place the 
+              Trinity is not the only object of ordered enjoyment, therefore. 
+              The antecedent is proved since any creature  
+              is infinitely loveable, therefore it is enjoyable in an ordered way.
+              The consequence is clear because, if it is not enjoyable, 
+              then it is loveable to a degree such that it can not be more loveable. <!-- i.e. "not infinitely loveable" --> 
+              The first antecedent is proved through 
+              <cit>
+                <ref><name ref="#HugolinoOfOrvieto">Hugolinum</name> in book one, conclusion three, article one</ref>
+                <bibl>Hugolinus de Urbe Veteri, Sententia, I, d. 3, a. 1</bibl>
+              </cit>. 
+              Again, this is proved by 
+              <cit> 
+                <ref><name ref="#FascinusOfAsti">Fascinus</name> in his first book</ref>
+                <bibl>Fascinus de Ast, Sententia, I, XXX</bibl>
+              </cit> 
+              because God loves any creature infinitely.
+            </p>
+            <p xml:id="pgb1q2-d1e3573">
+              In the third place if the angel <name ref="#Satan">Satan</name> were to transform himself into the species of light, 
+              a creature would be able to licitly enjoy him, therefore. 
+              The antecedent is clear through the
+              <cit>
+                <ref><name ref="#Lombard">Master</name> in book one, distinction 30</ref>
+                <bibl>Non invenimus</bibl>
+              </cit> 
+              and in  
+              <cit>
+                <ref>the same book, distinction two, question 1 <!-- this reference is unclear --></ref>
+                <bibl>Non invenimus</bibl>
+              </cit>, 
+              where he says that, in such a case, the one believing the devil to be Christ is licitly able to adore him, 
+              and this error would not be dangerous.</p>
+              
+            <p xml:id="pgb1q2-d1e3603">On the contrary is the  
+              <cit>
+                <ref target="http://scta.info/resource/pll1d1c2-riqhud"><name ref="#Lombard">Master</name> in the present distinction</ref>
+                <bibl><ref target="http://scta.info/resource/pll1d1c2-riqhud">Lombard, Sententia, I, d. 1, c. 2 (XXX)</ref></bibl>
+              </cit>  
+              quoting Augustine 
+              <ref>
+                <name ref="#Augustine">Augustinum</name>, in the first book  of <title ref="#deDoctrinaChristiana">On Christian Doctrine</title>, chapter 20</ref> 
+              <cit>
+                <quote xml:id="pg-b1q2-Qd1e3966" ana="Augustine_DeDoctrinaChristiana_1_5_5_a">res autem quae nos beatos faciunt 
+                  et quibus fruendum est sunt Pater et Filius et Spiritus Sanctus</quote>
+                <bibl>Augustinus, De doctrina Christiana, I, 5, 5 (XXX)</bibl>
+              </cit>.
+            </p>
+            </div>
+          <div xml:id="pg-b1q2-Dd1e3975">
+            <head xml:id="pg-b1q2-Hd1e3977">Prima conclusio</head>
+            <p xml:id="pgb1q2-d1e3628">
+              The first conclusion about the supposite: though every 
+              love depends on cognition causally, nevertheless any apprehension or cognition 
+              of the object with the freedom of the will suffices to cause love
+              The first is proved because, if not, it would follow that 
+              love would be able to asserted or elicited naturally from the will, 
+              without any cognition. The consequent is false 
+              <pb ed="#L" n="15-v"/>
+              because then the will would be able to love into infinity, 
+              which opposes 
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> in book XIII, 2, 10 <title ref="#deTrinitate">De Trinitate</title></ref>
+                <bibl>Augustinus, De Trinitate, XIII, 2, 10 (XXX)</bibl>
+              </cit>. 
+              The consequence is clear because, having posited every cause required for the production of some effect, 
+              with others having been excluded, such an effect would naturally be able to put into being.
+              The second part is proved because <mentioned>if the cognition of the object alone</mentioned> etc., 
+              it would follow that, given the judgement or apprehension of some object under the 
+              aspect of evil with the existence of appearance of all things good removed, 
+              the will would be able to wish or love such an object. The consequence is known, 
+              but the consequent is contrary to the  
+              <ref corresp="pg-b1q2-Qobaoba"><name ref="#Aristotle">Philosopher</name></ref>
+              and the
+              <ref corresp="pg-b1q2-Qobaoba"><name ref="#Averroes">Commentator</name> book I of the <name ref="#Ethics">Ethics</name></ref>
+              because 
+              <cit>
+                <quote xml:id="pg-b1q2-Qobaoba" ana="#aa-ethica-1">all things desire the good</quote>
+                <bibl>Aristotle, Ethica, I.1 (1094a1-3); Averroes, XXX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q2-d1e3692">
+              The first corollary: that no love or volition 
+              is essentially cognition or formally apprehension. This is clear because 
+              the cause and effect are distinguished essentially. 
+              And the antecedent is clear through the conclusion 
+              because love depends causally on cognition and this on a type of 
+              formal, material, or final cause, 
+              therefore it depends on a type of efficient cause. 
+            </p>
+            <p xml:id="pgb1q2-d1e3708">
+              The second corollary: if love of the respect of some object 
+              is in the will, then it is necessary with respect to the same thing 
+              that the cognition be or be present in the intellect, when 
+              speaking naturally or with respect to the common law. 
+              This is clear through the conclusion because an effect presupposes its own cause.
+            </p>
+            <p xml:id="pgb1q2-d1e3727">
+              The third corollary: if God is able to supply the exchange of some second cause, 
+              he is able to cause love in the will.
+            </p>
+          </div>
+          <div xml:id="pg-b1q2-Dd1e4065">
+            <head xml:id="pg-b1q2-Hd1e4067">Second conclusion</head>
+            <p xml:id="pgb1q2-d1e3736">
+              The second conclusion: it is both impossible that a created entity be intrinsically of infinite and unlimited goodness
+              and it is impossible that any person has the intrinsic reason (ratio) of infinite loveability.
+              The first is clear because uncreated nature alone is and is able to be intrinsically of unlimited goodness, therefore.
+              The antecedent is clear through
+              <ref corresp="#pg-b1q2-Qd1e4104">
+                <name ref="#Augustine">Augustine</name> <title ref="#onGenesis">Super Psalmos</title> 134 </ref> 
+              saying that 
+              <cit>
+                <quote xml:id="pg-b1q2-Qd1e4104">solus deus est summe bonus cui nihil boni simpliciter de esse potest</quote>
+                <bibl>Augustinus, Super Psalmos 134, XXX</bibl>
+              </cit>. 
+              This is confirmed because otherwise the creature would independent.
+              The second part is proved because an created good thing is 
+              insufficient unto itself and lacking another good, therefore 
+              there is nothing that is infinitely loveable from its own intrinsic reason (ratio).
+              The consequence is clear because something cannot be intrinsically more 
+              loveable than its intrinsic goodness.
+            </p> 
+            <p xml:id="pgb1q2-d1e3792">
+              The first corollary: <unclear>no one</unclear> loving a thing <unclear>incomplexly and appropriately</unclear> ought 
+              to extend the latitude of his love beyond the intrinsic worth of the thing loved.
+              This is clear through  
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> IX <title ref="#deTrinitate">De Trinitate</title>, in chapter 9</ref>
+                <bibl>Augustinus, De Trinitate IX, c. 9</bibl>
+              </cit> 
+              where he shows that to the degree that something is less good than God, in the same degree it ought to be less loved.
+              And he concludes in the end that anything, which is not God, ought to be loved infinitely less than God.
+            </p>
+            <p xml:id="pgb1q2-d1e3820">
+              The second corollary: no one loving God less than a creature enjoys or loves that entity appropriately.
+              This is clear because there is an equal perversity in enjoying what should be used 
+              and using what should be enjoyed.
+            </p>
+            <p xml:id="pgb1q2-d1e3828">
+              The third corollary: it is both repugnant that someone should use God appropriately, and 
+              repugnant that a creature justly enjoy a creature. This is clear because no creature has 
+              as much goodness as God, therefore, nor as much loveability. Note that this is the proof of the preceeding 
+              corollary. It follows corollarly that everyone positing that <mentioned>that God exists</mentioned> 
+              is able to be demonstrated has to conclude: this being itself, which is above all things, ought to be loved. 
+              This is clear from the force of the word, for God is 
+              <cit>
+                <quote xml:id="pg-b1q2-Qd1e4182">that which nothing greater can be thought</quote>
+                <bibl>Anselmus, Proslogion, 3 (I, 103, II. 1-2)</bibl>
+              </cit> 
+              according to the rule of Anselm <name ref="#Anselm">Anselmi</name>. But to whatever 
+              degree is the intrinsic goodness of something, so is the degree of its loveability 
+              through what has been said, therefore.
+            </p>
+          </div>
+          <div xml:id="pg-b1q2-Dd1e4199">
+            <head xml:id="pg-b1q2-Hd1e4201">Third conclusion</head> 
+            <p xml:id="pgb1q2-d1e3859">
+              Third conclusion: just as the uncreated Trinity alone 
+              is objective reason (ratio) of proper fruition, 
+              so by the same token under a single reason (ratio) of the created image is there a motive 
+              for enjoying itself. <!-- translation unclear here -->
+              The first part is clear through 
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> I <title ref="#deDoctrinaChristiana">De Doctrina Christiana</title></ref>
+                <bibl>Augustinus, De Doctrina Christiana, I, XXX</bibl>
+              </cit> 
+              where it was stated previously. Again in 
+              <ref>I <title ref="#Confessions">Confessions</title></ref> 
+              <cit>
+                <quote xml:id="pg-b1q2-Qd1e4229" ana="#Augustine_Confessions_1_1_1_a">ad te Domine nos fecisti et inquietum est cor nostrum donec requiescat in te.</quote>
+                <bibl>Augustinus, <title>Confessiones</title> I, 1, 1 (CCSL 27, 1, ll. 6-7).</bibl>
+              </cit> 
+              This is confirmed because no creature suffices unto itself for existence or to live well, 
+              therefore it does not suffice for another, and thus the ultimate and final rest 
+              is not able to be found in a creature. 
+              The second part is proved because, if 
+              because if not, then would be the case that 
+              <pb ed="#L" n="16-r"/> 
+              it moves the intellect under the reason (ratio) of the true 
+              and the will under the reason (ratio) of the good, but this
+              does not work (impedit) because it is entirely the same reason (ratio) of goodness and immense truth. 
+              But the immense Trinity does not demand that parts of the image should be enjoyed for their own sake, 
+              except under the reason (ratio) of the truth and the immense goodness. Therefore, it is by one reason.
+              <!-- paragraph hard to translate; needs second reader -->
+            </p> 
+            
+            <p xml:id="pgb1q2-d1e3930">
+              The first corollary: just as the uncreated Trinity under one 
+              reason (ration) moves and shows itself beatifically in the image of a creature, 
+              so it is not the case that the created image, the memory, 
+              is elevated beatifically without the intellective (part) <!-- difficult translation -->
+              The first is clear through the conclusion.
+              The second is proved then because both because there is a single motion, 
+              and because the thing moved and the thing received is the same, namely the memorative intellective power, 
+              as seems to be the position of  
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> IX <title ref="#deTrinitate">De Trinitate</title> in chapter three</ref>
+                <bibl>Augustinus, De Trinitate, IX, c. 3</bibl>
+              </cit>.
+              Nevertheless through this I do not wish to assert 
+              that man would not be able to understand God clearly and not love him 
+              because it is possible that he would see him clearly and not love him, 
+              though he would not see him beatifically.</p> 
+            
+            <p xml:id="pgb1q2-d1e3975">
+              The second corollary: it is both repugnant that the created image beatifically enjoy the divine persone with essence, 
+              and that it enjoys the essence and not some intrinsic perfection. This is proved because 
+              every divine perfection is formally and really the person and essence and vice versa.
+            </p> 
+            
+            <p xml:id="pgb1q2-d1e3991">
+              The third corollary: just as the Blessed Trinity more intensely and remissively vitally changes the enjoyable perception of itself, 
+              so any object concurs causally and vitally for the perceptive perception of itself. 
+              <!-- stefano notes this corollarium is almost Verbatim from Ripa Determinationes 
+                also check John of Basel text here 
+              --> 
+              The first part is proved because it freely moves the created potency and freely effects the 
+              total perception of itself, when it acts outside itself.
+              From this fact it might be able to be inferred that, though the total and univocal cause 
+              is not able to exceed the genus of the species, nevertheless a partial and equivocal cause
+              is able to cause and effect beyond the perfection of its proper nature.
+              The first part is clear in multiple places <unclear>in philosophy <!-- dbcheck --></unclear>. 
+              The second is clear through what has been said since the material thing or object causally concurs for 
+              cognition, which is immaterial. From what has been said the affirmative part of the question follows.
+            </p>
+          </div>
+          <div xml:id="pg-b1q2-Dd1e4277">
+            <head xml:id="pg-b1q2-Hd1e4279">Objections and Responses</head>
+            <p xml:id="pgb1q2-d1e4017">
+              Against the first conclusion and its corollaries it is argued since 
+              any volition and love is formally cognition, therefore. 
+              The antecedent is proved because, if cognition were destroyed in the mind, 
+              while love remained with respect to the loved object, then it would be asked 
+              whether or not through such love the object were known. If yes, the proposed position is obtained. 
+              If not, then it would follow that one loves something unknown, which is 
+              <cit>
+                <ref>against <name ref="#Augustine">Augustine</name></ref>
+                <bibl>Augustinus, XXX</bibl>
+              </cit>.
+              Again, with respect to this, the first principle argument made in opposition to question.
+            </p>
+            <p xml:id="pgb1q2-d1e4045">
+              In the second place, wherever there is a unity of the moving object under a single reason, 
+              there is a unity of acts. But in the operation of the intellect and will, 
+              at least in the enjoyment of heaven there is a unity of the moving object under a single reason,
+              therefore there is a unity of acts, and as a consequence cognition and love, or loving and knowing, 
+              will be the same non-plurified act. 
+              The minor is clear through according to the second part of the third conclusion. 
+              The major is clear through 
+              <cit>
+                <ref><name ref="#Aristotle">Aristotle</name> II <title ref="#deAnima">De anima</title></ref>
+                <bibl>Aristotle, De anima, II, XXX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q2-d1e4077">
+              Against the second conclusion and its corollaries 
+              it is argued in the first that 
+              any creature is licitly able to be loved infinitely more than it is loved now, therefore. 
+            </p>
+            <p xml:id="pgb1q2-d1e4083">
+              In the second place because God and every created multitude are infinitely loveable and 
+              there exists <!-- "there exists" is an assertion that seems missing in the latin --> 
+              something that is infinitely loveable and not God, but other than God. 
+              Therefore something other than God is properly enjoyable.
+            </p>
+            <p xml:id="pgb1q2-d1e4092">
+              In the third place, God loves anything infinitely and immensely, 
+              therefore anything is loveable infinitely.
+              The antecedent is clear because God loves as much and in the same way as he is, since 
+              his loving and his love and his mode of loving are really one and the same 
+              with him who is the infinite and who is infinitely.
+            </p>
+            
+            <p xml:id="pgb1q2-d1e4103">
+              In the fourth place against the second corollary, man is able to licitly enjoy 
+              his neighbor more than God, therefore he licitly able to love him more. 
+              The consequence is clear since to enjoy someone is to love someone. 
+              The antecedent is clear because someone is licitly able to lament the death of a friend 
+              more deeply (plus) and more enjoyable (fruentius) than the death of Christ, and more for 
+              the damnation of temporal things than for the committed sins.
+            </p>
+            <p xml:id="pgb1q2-d1e4122">
+              Against the third conclusion it is first argued thus, the rational receptive potency of any creature 
+              is finite and limited, therefore some limited goodness is able to beatify and finally satifisfy the creature. 
+              The antecedent is proved because no creature is a greater perceptibility or capacity than an entity.
+            </p>
+            <p xml:id="pgb1q2-d1e4139">
+              Against the same conclusion it is argued, God alone finitely beatifies some blessed creature, 
+              therefore finite goodness is able to supply its object influx in the perception of the creature. 
+              The consequence is clear because to every given finite thing there is able to be given something equally 
+              finite and better in perfection.
+            </p>
+            <p xml:id="pgb1q2-d1e4150">
+              Against the second part of the same conclusion, the object of the intellect and the will 
+              is not able to move under the same reason, therefore.
+              The antecedent is proved because the object of the intellect is intelligible as intelligible, 
+              but the object of the will is a willable object as willable. But these things 
+              differ by reason (ratio), which is proved in the first place by the fact that someone 
+              is able today to be willing and understanding one object 
+              and tomorrow to understand the same thing but not to wish it.
+            </p>
+            <!-- should this be its own paragraph ?? or should it be absorbed above -->
+            <p xml:id="pgb1q2-d1e4166">
+              In the second place God understands today a man who he does not wish to love 
+              and tomorrow he has understood and loved him. But this diversity is not in God, 
+              therefore it lies in the obiectal <!-- objectal ?? --> reasons.
+            </p> 
+            <!-- should this be its own paragraph ?? or should it be absorbed above -->
+            <p xml:id="pgb1q2-d1e4175">
+              In the third place God understands the evil of guilt and 
+              yet he does not will it, therefore.
+            </p>
+            <p xml:id="pgb1q2-d1e4181">
+              Against the same part it is argued in the second place principally thus, it follows 
+              that some part of the image is elicitive of enjoyment. The consequent is false because 
+              enjoyment is an act of the will alone, since it is love or loving some thing on account of itself. 
+              The consequence is clear because, if one does not elicit, then one is moved toward being elicited 
+              and the other is not. Therefore it does not move by a single reason some part of them, which is 
+              the opposite of this part.
+            </p>
+            <p xml:id="pgb1q2-d1e4199">
+              To the first objection the antecedent in the first place is able to be denied, and 
+              for the proof it is said that, if love were to remain without knowledge, then 
+              either God woudl supply the exchange of knowledge, as it was said in one of the corollaries, 
+              or one would love mediately through a preceding ostensive cognition.
+            </p>
+            <p xml:id="pgb1q2-d1e4212">
+              In the second place it is able to be said that, 
+              though love is able to be some experimental knowledge or perception,
+              nevertheless it is not able to be our intellective cognition, or judicative, or indicative. 
+              And through this is able to be solved the first argument in opposition to the question 
+              by denying the antecedent. And for the first proof of this it is said that 
+              it is not inconvenient to say that assent is apprehension because it pertains to the 
+              intellect to assent and to apprehend. However to say that love is cognition, at least indiciative cognition, 
+              is inconvenient.
+            </p>
+            <!-- this paragraph should possible be merged with the above -->
+            <p xml:id="pgb1q2-d1e4228">
+              To the second proof it is said that no one is able to be perfectly blessed unless he sees God. 
+              Therefore the consequence is denied just as
+              <cit>
+                <ref>just as <name>Magister Honofrius</name> says</ref>
+                <bibl>Honofrius, XXX</bibl>
+              </cit>.
+              On this matter see 
+              <cit>
+                <ref><name ref="#Rimini">Gregory</name>, in book one, distinction 1, article 2, question 2.</ref>
+                <bibl>Gregory Ariminiensis, Sent., I, d. 1, a. 2, q. 2</bibl>
+              </cit>.
+            </p>
+        
+            <p xml:id="pgb1q2-d1e4242">
+              To the second 
+              <cit>
+                <ref><name ref="#AlphonsusVargas">Alphonsus</name>, in book I, distinction 1</ref>
+                <bibl>Alphonsus Vargas, Sent., I, d. 1, q. 3, concl. 2</bibl>
+              </cit> 
+              would respond by denying the minor because he holds that, 
+              in the enjoyment of heaven, the soul is not active but purely passive. 
+            </p>
+            <p xml:id="pgb1q2-d1e4252">
+              In the second place it is able to be said that, though properly speaking 
+              one potency moves causally effectively for eliciting an act, 
+              nevertheless this motion is not formal and objective, 
+              but only for the purpose of being perceived. 
+              But here I speak about formal perceptive and objectal motion and not about the other kind.
+            </p>
+            <p xml:id="pgb1q2-d1e4263">
+              In the third place it would be able to be said that some beatifical potency in a single reason (ratio) 
+              has or is able to find its proper object since its obiectal motion is freely presentative 
+              which is not the case in other objects which naturally present and move themselves. 
+            </p>
+            <p xml:id="pgb1q2-d1e4271">
+              To the third in the first place
+              responds
+              <cit>
+                <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name>, in distinction 1 of book 1, question 3</ref>
+                <bibl>Hugolinus de Urbe Veteri, Sent., I, d. 1, q. 3</bibl>
+              </cit>.
+              I concede the antecedent in the following way, that from an infinity of will 
+              it is possible to be loved more into infinity, but not from one will, see there. Additionally, 
+              it can be responded by denying  
+              <!-- end of first quire -->
+              <pb ed="#L" n="17-r"/>
+              <!-- new quire -->
+              this consequence, 
+              <mentioned>this creature is infinitely loveable, therefore it is enjoyable</mentioned>,
+              unless this is added from the intrinsic worth of the thing.
+            </p>
+            <p xml:id="pgb1q2-d1e4294">
+              To the fourth the antecedent is conceded thus, by understanding that 
+              <mentioned>nothing other than God</mentioned>, not including God or of which God is not a part,
+              is <unclear>not <!-- should there be a "not" supplied here here--></unclear> infinitely loveable. 
+              But in what has been proposed, this multitude includes God.
+              <!--there should probably be a paragraph break here -->
+              In the second place it is able to be said that this multitude 
+              is loveable with more loves than God is, but not more intensely, or
+              man out to which more good things to this multitude than to God, not nevertheless a greater good.
+              Thus it would be possible to say that Christ should be loved more than the Father, that is, in more modes because 
+              he died for us.
+            </p>
+            <p xml:id="pgb1q2-d1e4314">
+              To the fifth the antecedent is able to be denied.
+              <!-- should this be a new paragraph -->
+              In the second place this consequence is able to be denied, 
+              <mentioned>some thing is loveable infinitely from an intrinsic reason (ratio), therefore it is enjoyable</mentioned>
+              because it would then be required that by the reason (ratio) of some intrinsic goodness it would be intrinsically infinitely loveable. 
+              Again it would be able to be said that, though it is loveable infinitely, 
+              nevertheless it is not loveable infinitely.
+            </p>
+            <p xml:id="pgb1q2-d1e4329">
+              To another it is said that <mentioned>to enjoy something</mentioned> in said 
+              in three different ways. In the first mode as cordial effection, in the second mode as bodily effect, 
+              in the third mode as sensual exertion. But in the second and third modes of understanding the word 
+              <mentioned>to enjoy</mentioned> the antecedent is conceded and the consequence is denied.
+            </p>
+            <p xml:id="pgb1q2-d1e4340">
+              To another against the third conclusion 
+              <name ref="#ThomasStrasbourg">Thomas of Argentina</name> 
+              would respond that the soul is of infinite capacity for an objectal non natural potency. See
+              <cit>
+                <ref>question three of the prologue, article one</ref>
+                <bibl>Thomas de Argentina, Sent., I, prologus, q. 3</bibl>
+              </cit>.
+              Otherwise it would be possible to say that the soul is of an infinite capacity and of infinite perceptiveness, 
+              though it is not an infinite perceptive potency nor infinitely, and the consequence would be able to be denied.
+              <cit>
+                <ref><name ref="#RichardKilvington">Kilvington</name>, in his third question</ref>
+                <bibl>Richard Kilvington, Sent., I, q. 3</bibl>
+              </cit> 
+              says that the capacity of the soul is a finite substance, but it is an infinite capacity, 
+              and thus he would deny the antecedent of the argument. Note the argument which he solves.</p>
+            
+            <p xml:id="pgb1q2-d1e4367">
+              To another I respond that God would be able to create one object so delightful that, 
+              if God were to relinquish a soul of his nature, it would be as loveable in itself as in God
+              and nevertheless it would not follow that such a soul would satisfy or beatify in the created object 
+              because, though it is as loveable with this one, nevertheless it would be the case the creature 
+              would still rather have that delight from God that from a created object.
+            </p>
+            <p xml:id="pgb1q2-d1e4380">
+              But against this response it is argued that either such a creature is able to freely 
+              wish to have this delight from the creature just as from the creator or not. If the first, 
+              then he is satisfied in the created good, against what has been said. If the second, then 
+              it is not equally or in the same degree delighted in one as in the other, the opposite of which 
+              is conceded by the case in question.
+            </p>
+            <p xml:id="pgb1q2-d1e4390">
+              Again a creature more greatly inclines to itself than to God, 
+              therefore God is not the final end to which the creature is moved. 
+              The antecedent is clear because, if the creature loves God, that is for his well being, 
+              then whatever desires its own well being aims at its own conservation in being and being well.
+            </p>
+            <p xml:id="pgb1q2-d1e4400">
+              Again a rational creature is in objectal potency to being at rest in that in which God wills 
+              for it to rest in. Therefore, a creature is able to find ultimate rest in created thing.
+              The consequence holds because God is able to will this and to do so properly, and in the second place 
+              because God is able to supsend his motion which moves the creature toward resting in God.
+            </p>
+            <p xml:id="pgb1q2-d1e4411">
+              Therefore it is said differently that no good below 
+              the level of God is able to satisfy and beatify the soul and bring it to rest 
+              because no good below the level of God is able to cause that kind of delight which 
+              restful. Therefore according to the argument made by 
+              <cit>
+                <ref><name ref="#HugolinoOfOrvieto">Hugolinsu</name>, in distinction one of the first book, in question three, near the end</ref>
+                <bibl>Hugolinus de Urbe Veteri, Sent. I, d. 1, q. 3 (XXX)</bibl>
+              </cit> 
+              the consequence is able to be denied.
+            </p>
+            <p xml:id="pgb1q2-d1e4429">
+              Again it should be known that, though the creature is not able to come to final rest in the created good, 
+              nevertheless it is able to believe that is at rest. This is clear because it would be able to have some
+              created loveable thing such that he believes that is ultimate desirable things, even though 
+              it is deceived on account of bad acts.
+            </p>
+            <p xml:id="pgb1q2-d1e4437">Again it is the case that someone 
+              does not know that God exists and takes as its ultimate end some temporal good,
+              <pb ed="#L" n="17-v"/>
+              and in this case the will is at rest in this and is deceived.
+            </p>
+            <p xml:id="pgb1q2-d1e4446">
+              In the last place it is able to be said that God is able to create something good 
+              in which the soul is able to have as much <!-- translation of tantum difficult -->delight and rest, 
+              where <mentioned>as much</mentioned> indicates the degree or latitude of an individual withing a species 
+              and not of a species within a genus.
+            </p>
+            <p xml:id="pgb1q2-d1e4457">
+              To another against the second part 
+              it is said that it is able to be distinguished because either such diversity of reason 
+              comes form the co-rising (consurgentem) motion from the subject and predicate, and this is not against the conclusion 
+              or comes from the object precisely, and in this case the antecedent is denied.
+              And with respect to the proof <mentioned>because the object</mentioned> etc., it is conceded. And when 
+              it is added <mentioned>but these things differ in reason</mentioned>, 
+              it is conceded for creatures, indeed they even differ in reality, 
+              but not in God. Therefore the argument against the conclusion does not succeed.
+            </p>
+            <p xml:id="pgb1q2-d1e4478">
+              To another proof, the consequence is denied, though perhaps it concludes that there is 
+              not the same ratio of willing and understanding, but it does not support the distinction between the intelligible and willable. 
+            </p>
+            <p xml:id="pgb1q2-d1e4484">
+              To another proof in the first place the consequence would able to be denied and the antecedent conceded. 
+              In the second place consequent would be able to be conceded because he argues only for a difference in creatures.
+            </p>
+            <p xml:id="pgb1q2-d1e4502">
+              To another proof it is able to be said that just as the evil of guilt, since it is a deformity, 
+              does not have the reason (ratio) of intelligibility, just as it also does not have the reason (ratio) of will-ability, 
+              et thus the privation is not properly known through habit, so neither does sin, unless in the case that is some privation of the good. 
+              <!--dbcheck above, translation difficult -->
+              Note  
+              <cit>
+                <ref><name ref="#FascinusOfAsti">Fascinum</name> in the second</ref>
+                <bibl>Fascinus de Asti, XXX</bibl>
+              </cit>, 
+              where he offers an example, saying that a man knows himself to be lacking a floren 
+              not unless because in his mind he has the likeness of a flower upon which he is imagination is reflected, 
+              and thus in his mind by such a species is caused the judgment of the missing floren. Thus he says further that 
+              God knows there is not in Sorte, nor will there be, because thus he will have grace without 
+              discontinuation.
+            </p>
+            <p xml:id="pgb1q2-d1e4550">
+              To another in the first place the consequent would be able to be conceded 
+              by extending <mentioned>elicere</mentioned> to effect causally because then 
+              enjoyment includes and act of the intellectu and thus enjoyment is not 
+              only an act of the will, but also of the intellect. 
+              In another mode the consequence is able to be denied when taking 
+              <mentioned>enjoyment</mentioned> strictly just as he precisely speaks of the act of the will, 
+              by holding the ration from the part of the moving object.
+            </p>
+            <p xml:id="pgb1q2-d1e4564">
+              To the last argument in the opposition it in the first place 
+              <cit>
+                <ref><name ref="#Bradwardine">Bradwardine</name></ref>
+                <bibl>Bradwardinus, XXX</bibl>
+              </cit> 
+              and 
+              <cit>
+                <ref><name ref="#Holcot">Holcot</name></ref>
+                <bibl>Holcot, XXX</bibl>
+              </cit> 
+              would say that such a person would enjoy the creature but would excused on 
+              account of the unconquerable error and absolute ignorance. 
+              In the second place <name ref="#HugolinoOfOrvieto">Master Hugolinus</name> would 
+              say that such a person would not love the creature but God,
+              and therefore would most especially be excused, in such an error were not occurring 
+              from his guilt.
+            </p>
+            <p xml:id="pgb1q2-d1e4588">
+              In the third place  
+              <cit>
+                <ref><name ref="#JohnKlenkok">Master John Klenkot</name></ref>
+                <bibl>Iohannes Klenkot, XXX</bibl>
+              </cit>
+              would say that such a person would be excused in part, 
+              but not from the whole, because either such a person is in original sin or not. If the first, 
+              then this error is the penalty for sin and is not excused. If not, but the person is in a venial sin, 
+              still in the penalty of venial sin God is able justly allow some to fall into mortal sin, 
+              and thus he is not excused because it is seem true that someone without any guilt should be permitted 
+              by God to fall into error.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q2-Dd1e4699">
+          <head xml:id="pg-b1q2-Hd1e4701">Conclusions for the first distinction</head>
+          <p xml:id="pgb1q2-d1e4607">
+            <cit>
+              <quote xml:id="pg-b1q2-Qd1e4708" source="http://scta.info/resource/pll1d1c1-vanspv">Veteris ac novae legis</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d1c1-vanspv">Lombard, Sent. I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).</ref></bibl>
+            </cit> 
+            etc. 
+            This first distinction contains ten conclusions. The first is that what is treated in the sacred pages or 
+            contained in the old and new law concerns specifically things and sign, and 
+            by <mentioned>things</mentioned> he means those things which are no used from signifying something. 
+            But a <mentioned>sign</mentioned> is said to be that which is used for signifying something. 
+            Further some of these signs are not used except for the sake of signifying something, like legal sacraments; 
+            others, not only signify but also speak (ferunt?) <!-- translation difficult --> because they help the 
+            intellect, such as the evangelical sacraments or those belonging to the new law.
+            
+          </p>
+          <p xml:id="pgb1q2-d1e4628">
+            The second conclusion is that 
+            <cit>
+              <ref target="http://scta.info/resource/pll1d1c3-d1e3874">in this first book of the <title>Sentences</title> the <name ref="#Lombard">Master</name></ref>
+              <bibl>
+                <ref type="commentary" target="http://scta.info/resource/pll1d1c3-d1e3874">Lombard, Sent. I, d. 1, c. 3, [n. 11/24], (I, 61, ll. 7-9).</ref>
+              </bibl>
+            </cit>
+            will first determine about make determinations about things and then about signs.
+          </p>
+          <p xml:id="pgb1q2-d1e4639">
+            The third conclusion is that. 
+            <cit>
+              <ref>according to <name ref="#Augustine">Augustine</name></ref>
+              <bibl>Augustine, XXX</bibl>
+            </cit>,
+            there are three types of things. For some are things that should be enjoyed, like the Father,
+            <pb ed="#L" n="18-r"/>
+            the Son, and the Holy Spirit, and the uncreated trinity, some are things that should be used, 
+            namely the world and those thing which are in the workd; some are things that are enjoyed and used, 
+            like ourselves and the holy angels. 
+          </p>
+          <p xml:id="pgb1q2-d1e4656">
+            The fourth conclusion is that to enjoy is to inhere in something through love on account of the thing itself. 
+            But to use something is to take something into the faculty of the will or to use something 
+            is to use bring back (referre?) that which comes into use for choosing that which should be enjoyed. 
+          </p>
+          <p xml:id="pgb1q2-d1e4670">
+            The fifth conclusion is that <mentioned>to enjoy something</mentioned> is called using something with joy, not merely in hope, 
+            but in reality. And thus everyone who enjoys, uses, because they take something into the faculty of the will, 
+            but the converse is not the case.
+          </p>
+          <p xml:id="pgb1q2-d1e4678">
+            The sixth conclusion is that the place where we enjoy perfectly, fully, and properly 
+            is the place where we will see what we enjoy, namely in heaven. 
+            In this life, however, we enjoy, but only imperfectly.
+          </p>
+          <p xml:id="pgb1q2-d1e4685">
+            The seventh conclusion is that no one ought to enjoy herself
+            because no one ought to love herself on account of herself, but rather on account of that which should be enjoyed.
+            Whence Paul, while enjoying Philemon in the Lord, was enjoying God rather than man. 
+          </p>
+          <p xml:id="pgb1q2-d1e4702">
+            Eight conclusion is that God loves us by using us, not by enjoying us. 
+            But this use, by which God uses us, aims toward our utility, not his, 
+            and for his favor (voluntatem) alone.
+          </p>
+          <p xml:id="pgb1q2-d1e4711">
+            The ninth conclusion is that the virtues should be used well, not enjoyed. 
+            But these virtues and other powers of the soul are thing powers through which we enjoy and use.
+          </p>
+          <p xml:id="pgb1q2-d1e4717">
+            The tenth conclusion is that the first it should be 
+            treated about things which should be enjoyed, that is the only undivided Trinity. 
+            And this is the opinion of this distinction.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
