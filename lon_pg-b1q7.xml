@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 7 [London Transcription]</title>
+        <title>Liber I, Quaestio 7 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Stefano Menegatti</editor>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.04-dev-master">
-          <title>Librum I, Quaestio 7 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 7 [London Transcription]</title>
           <date when="2014-04-14">April 04, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
         </availability>
         <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
@@ -29,30 +29,37 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-14" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
+      <div xml:id="include-list">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="28-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q7">
         <head>Quaestio 7 [London Transcription]</head>
          
-        <p xml:id="pgb1q7-d1e83"><pb ed="#L" n="28v"/><lb ed="#L"/><hi rend="dropCapThreeLines">P</hi><hi rend="largeFont">raeterea quaeri solet</hi> haec est distinctio 6 quae ad praecedentem 
+        <p xml:id="pgb1q7-d1e83"><pb ed="#L" n="28-v"/><lb ed="#L"/><hi rend="dropCapThreeLines">P</hi><hi rend="largeFont">raeterea quaeri solet</hi> haec est distinctio 6 quae ad praecedentem 
           <lb ed="#L"/>sic continatur nam postquam <name ref="#Lombard">magister</name> determinavit de divina generatione quantum 
           <lb ed="#L"/>ad generantem et generatum nunc de ipsa tractare incipit quantum ad generationis 
           <lb ed="#L"/>modum et dividitur in tres partes nam primo quaestionem proponit 2o solutionem ap<lb ed="#L"/>ponit 
@@ -63,9 +70,11 @@
           <lb ed="#L"/>ponit suam intentionem 2o apponit et solvit obiectionem 2a ibi sed contra hoc opponitur</p>
         
         <p xml:id="pgb1q7-d1e118"><lb ed="#L"/><g ref="#pilcrow"/>3a etiam dividitur in duas nam primo circa declarationem praemittit quod intendit <g ref="#slash"/>2o 
-          <lb ed="#L"/>declarationem esse verum concludit 2a ibi dicamus ergo etc quaeritur circa eam</p>
+          <lb ed="#L"/>declarationem esse verum concludit 2a ibi dicamus ergo etc</p>
         
-        <p xml:id="pgb1q7-d1e127"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum memoria patris fecunda complacenter et libere filium qui est 
+        <p xml:id="pgb1q7-d1e127">
+          quaeritur circa eam
+          <lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum memoria patris fecunda complacenter et libere filium qui est 
           <lb ed="#L"/>persona 2a determinetur gignere</p> 
           
           <p xml:id="pgb1q7-qnqeon"><g ref="#slash"/>quod non quia pater producit <sic>naturae</sic> ergo non li<lb ed="#L"/>bere 
@@ -108,7 +117,8 @@
             <lb ed="#L"/>a verbo non spirari tam <choice><orig>neccessario</orig><reg>necessario</reg></choice> concurrit amor essentialis ad verbum generari 
             <lb ed="#L"/>patet per 2am conclusionis partem <g ref="#slash"/>quae probatur per <ref><name ref="#RichardOfStVictor">ricardum</name> <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> libro <unclear>sexto</unclear> capitulo 17</ref> dicentem <quote>in<lb ed="#L"/>genitum 
             velle de se habere conformem atque condignum idem videtur mihi quod gignere</quote> 
-            <pb ed="#29r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad idem est <ref><name ref="#Dionysius">dyonisius</name> <title ref="#deDivinisNominibus">de divinis nominibus</title></ref> dicens <quote>amor divinus non dimisit deum esse sine 
+            <pb ed="#L" n="29-r"/>
+            <lb ed="#L"/><g ref="#pilcrow"/>Ad idem est <ref><name ref="#Dionysius">dyonisius</name> <title ref="#deDivinisNominibus">de divinis nominibus</title></ref> dicens <quote>amor divinus non dimisit deum esse sine 
             <lb ed="#L"/><sic>gignitione germinis</sic></quote> <g ref="#slash"/>unde <ref><title ref="#mt">matthaeus</title> 3o</ref> <quote ana="#mt3_17">hic est filius meus dilectus in quo mihi bene</quote> etc</p>
         
           <p xml:id="pgb1q7-d1e344"><lb ed="#L"/><g ref="#corollarium"/>3m corollarium pater seu fecunditas paternae memoriae nullo modo postquam verbum produxit 
@@ -163,7 +173,7 @@
         
         <p xml:id="pgb1q7-d1e505"><g ref="#pilcrow"/>Contra primam conclusionem arguitur verbum aeternum non potest 
           <lb ed="#L"/>esse et non esse indifferenter ergo non producitur libere et complacenter antecedens est notum 
-          <pb ed="#L" n="29v"/><lb ed="#L"/>consequentia patet quia illa solum producuntur libere quae possunt aliter se habere seu quae possunt esse et 
+          <pb ed="#L" n="29-v"/><lb ed="#L"/>consequentia patet quia illa solum producuntur libere quae possunt aliter se habere seu quae possunt esse et 
           <lb ed="#L"/>non esse</p>
         
         <p xml:id="pgb1q7-d1e516"><g ref="#pilcrow"/>2o per dictum <ref><name ref="#RichardOfStVictor">ricardi</name> 2o <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> capitulo 7o in fine</ref> ubi dicit <quote>quamvis 
@@ -223,7 +233,7 @@
         <p xml:id="pgb1q7-d1e688"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur consequentia ad probationem dicitur quod <ref><name ref="#Anselm">anselmus</name> <title ref="#Monologion">monologion</title> 
           <lb ed="#L"/>capitulo 62o usque ad 65</ref> ubi tractat hanc materiam dicens dubium esse non debet quod 
           <lb ed="#L"/>pater et filius et eorum unus quisque se ipsum et alios ambos dicit sicut se et alios 
-          <pb ed="#L" n="30r"/><lb ed="#L"/>intelligit quod si ita est quomodo non sunt in summa essentia tot verba quot sunt di<lb ed="#L"/>centes 
+          <pb ed="#L" n="30-r"/><lb ed="#L"/>intelligit quod si ita est quomodo non sunt in summa essentia tot verba quot sunt di<lb ed="#L"/>centes 
           et subdit capitulo 63o sicut singulus eorum est sciens et intelligens ita sin<lb ed="#L"/>gulus 
           quisque dicens nec tamen omnes simul sunt tres dicentes sed unus solus 
           <lb ed="#L"/>dicens quid namque ibi dicitur nisi eorum essentia si ergo illa una sola est unum solum 
