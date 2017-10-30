@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -10,16 +10,15 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.04-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber I, Quaestio 9 [London Transcription]</title>
           <date when="2014-04-29">April 29, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
         </availability>
         <date when="2014-04-29">April 29, 2014</date>
       </publicationStmt>
@@ -29,31 +28,38 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-29" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-04-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
+      <div xml:id="include-list">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="33-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q9">
         <head>Librum I, Quaestio 9 [London Transcription]</head>
-         
-        <p xml:id="pgb1q9-d1e83"><lb ed="#L"/><hi rend="dropCapThreeLines">n</hi><hi rend="largeFont">unc de veritate sive proprietate etc</hi> <g ref="#slash"/>haec distinctio 8 ad prae<lb ed="#L"/>cedentem 
-        sic continatur quia post quam <name ref="#Lombard">magister</name> ostendit in divinis esse veram generationem 
+        <p xml:id="pgb1q9-d1e83">
+          <lb ed="#L"/><hi rend="dropCapThreeLines">n</hi><hi rend="largeFont">unc de veritate sive proprietate etc</hi> <g ref="#slash"/>haec distinctio 8 ad prae<lb ed="#L"/>cedentem 
+          sic continatur quia post quam <name ref="#Lombard">magister</name> ostendit in divinis esse veram generationem 
           <lb ed="#L"/>nunc <corr><add place="aboveLine">in</add></corr> ista distinctione ponit multitudinem proprietatum significantem eius perfectionem <g ref="#slash"/>et 
           <lb ed="#L"/>dividitur in tres partes quia primo determinat <name ref="#Lombard">magister</name> de dei aeterna entitate 2o de eius in<lb ed="#L"/>commutabilitate 
           3o de eius simplicitate 2a ibi deus in solius essentia 3a ibi 
@@ -61,7 +67,7 @@
           <lb ed="#L"/>proprium 2o ex dictis movet dubium et 3o respondet ad ipsum 2a ibi hic diligenter 
           <lb ed="#L"/>3a ibi illud ergo quod <g ref="#slash"/>2a pars principalis manet indivisa sed 3a dividitur in duas 
           <lb ed="#L"/>quia primo <name ref="#Lombard">magister</name> ostendit divinae naturae simplicitatem per <choice><orig>comparacionem</orig><reg>comparationem</reg></choice> et <unclear cert="high">respectum</unclear> ad extra 2o per <unclear cert="high">respectum</unclear> 
-          <lb ed="#L"/>ad intra 2a ibi hic diligenter <corr><del rend="strikethrough">3a ibi</del></corr> et haec est divisio praesentis distinctionis</p>
+          <lb ed="#L"/>ad intra 2a ibi hic diligenter <del rend="strikethrough">3a ibi</del> et haec est divisio praesentis distinctionis</p>
         
         <p xml:id="pgb1q9-d1e143"><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> sola prima causa entis producibilis sit simplex <sic>simplex</sic> <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
           <lb ed="#L"/>et incommutabilis seu invariabilis</p> 
@@ -404,7 +410,7 @@
           <lb ed="#L"/>accidentalium ut in animalibus humanis et angelis nullum enim quod est vere simplex est mutabile</p>
         
         <p xml:id="pgb1q9-d1e1311"><lb ed="#L"/><g ref="#pilcrow"/>6a conclusio quod anima respectu corporis simplex dicitur quia <unclear cert="medium">molae</unclear> non diffunditur per <sic>saptium <!-- probably meant to be spatium --></sic> 
-          <lb ed="#L"/>loci sed in uno quoque corpore est in toto tota et in qualibet eius parte tota</p>
+          <lb ed="#L"/>loci sed in <choice><sic>uno quoque</sic><corr>unoquoque</corr></choice> corpore est in toto tota et in qualibet eius parte tota</p>
         
         <p xml:id="pgb1q9-d1e1318"><g ref="#pilcrow"/>7a conclusio quod licet 
           <lb ed="#L"/>deus dicatur multipliciter scilicet bonus iustus sapiens et magnus tamen hoc non est 
