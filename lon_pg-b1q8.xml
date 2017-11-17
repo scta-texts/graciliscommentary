@@ -1,61 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 8 [London Trancription]</title>
+        <title>Liber I, Quaestio 8 [London Trancription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2014.04-dev-master">
-          <title>Librum I, Quaestio 8 [London Transcription]</title>
+          <title>Liber I, Quaestio 8 [London Transcription]</title>
           <date when="2014-04-14">April 04, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
         </availability>
         <date when="2014-04-14">April 04, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-04-14" who="#JW" status="draft" n="2014.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
+      <div xml:id="include-list">
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
         <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="30-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q8">
-        <head>Quaestio 8 [London Transcription]</head>
+        <head>Liber I, Quaestio 8 [London Transcription]</head>
          
-        <p xml:id="pgb1q8-d1e83"><lb ed="#L"/><hi rend="dropCapThreeLines">h</hi><hi rend="largeFont">ic quaeri solet</hi> <g ref="#pilcrow"/>Ista est distinctio alia prima quae ad praecedentem sic continatur 
+        <p xml:id="pgb1q8-d1e83"><lb ed="#L"/><hi rend="dropCapThreeLines">h</hi><hi rend="largeFont">ic quaeri solet</hi> <g ref="#pilcrow"/>Ista est distinctio 7a primi quae ad praecedentem sic continatur 
           <lb ed="#L"/>quia postquam <name ref="#Lombard">magister</name> determinavit de divina generatione quantum ad modum et formam 
           <lb ed="#L"/>hic incipit determinare de ea quantum ad agendi potentiam <g ref="#slash"/> et dividitur in 2 
-          <lb ed="#L"/>quia primo inquirit an potentia generandi conveniat patri aeterno 2o ante hoc reperiatur in filio 
+          <lb ed="#L"/>quia primo inquirit an potentia generandi conveniat patri aeterno 2o <sic>ante</sic> haec reperiatur in filio 
           <lb ed="#L"/>2a ibi Item quaeritur a quibusdam</p>
         
         <p xml:id="pgb1q8-d1e107"><g ref="#pilcrow"/>prima in tres quia primo movet quaestionem <g ref="#slash"/>2o circa eam 
