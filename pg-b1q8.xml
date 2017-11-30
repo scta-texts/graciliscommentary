@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,10 +42,7 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="include-list">
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-      </div>
+      
       <div xml:id="starts-on">
         <pb ed="#L" n="30-r"/>
       </div>
@@ -156,7 +150,7 @@
                 <bibl>Anselmus, Prosologion, 3, (I, 103, ll. 1-2)</bibl>
               </cit>,
               ut inquit 
-              <ref corresp="#pg-b1q8-Qd1e3600">
+              <ref xml:id="pg-b1q8-Rd1e3966" corresp="#pg-b1q8-Qd1e3600">
                 <name ref="#Anselm">Anselmus</name> in <title ref="#Proslogion">Prosologion</title>
               </ref>.
             </p>
@@ -186,7 +180,7 @@
                 <bibl>Psalmus 32:9 et Psalmus 148:5</bibl>
               </cit>.
               Item 
-              <ref corresp="#pg-b1q8-Qd1e3646"><title ref="#io">Iohannes</title> primo</ref> 
+              <ref xml:id="pg-b1q8-Rd1e4000" corresp="#pg-b1q8-Qd1e3646"><title ref="#io">Iohannes</title> primo</ref> 
               <cit>
                 <quote xml:id="pg-b1q8-Qd1e3646" ana="#io1_3">per ipsum omnia facta sunt</quote>
                 <bibl>Ioannes 1:3</bibl>
@@ -233,7 +227,7 @@
               Patet quia omnia illa important imperfectionem. 
               Illud corollarium est contra 
               <cit>
-                <ref><name ref="#Scotus">Scotum</name> libro primo, distinctione 6</ref>
+                <ref xml:id="pg-b1q8-Rd1e4025"><name ref="#Scotus">Scotum</name> libro primo, distinctione 6</ref>
                 <bibl>Scotus, I, d. 6, xxx</bibl>
               </cit>.
             </p>
@@ -293,7 +287,7 @@
               Patet quia Pater beatificatur formaliter omni 
               sua perfectione immensa. 
               Et ista sunt duo corollaria contra 
-              <ref>
+              <ref xml:id="pg-b1q8-Rd1e4069">
                 <name ref="#Scotus">Scotum</name> distinctione 6 primi
               </ref>.
             </p>
@@ -321,7 +315,7 @@
                 To read both phrases together as part of the text confuses the sense of the text terribly.</note>
               </app>. 
               Patet per 
-              <ref corresp="#pg-b1q8-Qaeppia">
+              <ref xml:id="pg-b1q8-Rd1e4099" corresp="#pg-b1q8-Qaeppia">
                 <name ref="#GilesOfRome">Dominum Aegidium</name>, 
                 distinctione quarta primi, parte prima, 
                 quaestione 2, ubi in solutione primi argumenti principalis
@@ -343,7 +337,7 @@
             <p xml:id="pgb1q8-d1e387">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e173">primam partem primae conclusionis</ref>
+                <ref xml:id="pg-b1q8-Rd1e4127" target="http://scta.info/resource/pgb1q8-d1e173">primam partem primae conclusionis</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e173">Vide supra</ref></bibl>
               </cit>: 
               cui competit principium generationis in divinis, 
@@ -365,12 +359,12 @@
             <p xml:id="pgb1q8-d1e406">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e211">secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4143" target="http://scta.info/resource/pgb1q8-d1e211">secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e211">Vide supra</ref></bibl>
               </cit>
               et 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e238">tertium corollarium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4153" target="http://scta.info/resource/pgb1q8-d1e238">tertium corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e238">Vide supra</ref></bibl>
               </cit>: 
               si essent vera, sequeretur quod Deus ad extra ageret mere naturaliter et necessario. 
@@ -420,7 +414,7 @@
               habet a Patre.
             </p>
             <p xml:id="pgb1q8-d1e484">
-              Secundo, ex dicto Christi <ref><title ref="#lc">Lucae</title> 2</ref> 
+              Secundo, ex dicto Christi <ref xml:id="pg-b1q8-Rd1e4190"><title ref="#lc">Lucae</title> 2</ref> 
               <cit>
                 <quote xml:id="pg-b1q8-Qd1e3780" ana="#lc2_49">in his quae Patris mei sunt oportet me esse</quote>
                 <bibl>Lucas 2:49</bibl>
@@ -442,7 +436,7 @@
             <p xml:id="pgb1q8-d1e520">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e284">secundam partem tertiae conclusionis</ref>
+                <ref xml:id="pg-b1q8-Rd1e4218" target="http://scta.info/resource/pgb1q8-d1e284">secundam partem tertiae conclusionis</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e284">Vide supra</ref></bibl>
               </cit>: 
               omne illud quod est perfectius est communicabilius, 
@@ -465,7 +459,7 @@
               et formativus et non per creationem, 
               igitur per generationem, et habetur intentum. 
               Ratio fundatur super illo dicto 
-              <ref corresp="#pg-b1q8-Qcmsssg">
+              <ref xml:id="pg-b1q8-Rd1e4229" corresp="#pg-b1q8-Qcmsssg">
                 <name ref="#Augustine">Augustini</name>, 
                 libro <title>De cognitione beatae vitae</title>
               </ref>, 
@@ -487,14 +481,14 @@
               sequitur quod ibi sit notitia genita. 
               Haec est ratio 
               <cit>
-                <ref><name ref="#Scotus">Scoti</name> distinctione secunda primi</ref>
+                <ref xml:id="pg-b1q8-Rd1e4255"><name ref="#Scotus">Scoti</name> distinctione secunda primi</ref>
                 <bibl>Scotus, I, d. 2</bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q8-d1e587">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e335">secundum corollarium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4269" target="http://scta.info/resource/pgb1q8-d1e335">secundum corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e335">Vide supra</ref></bibl>
               </cit>: 
               si esset verum, 
@@ -503,14 +497,14 @@
               sicut divina essentia. 
               Consequens est falsum, ergo. 
               <cit>
-                <ref><name ref="#Ripa">Iohannes de Marchia</name></ref>
+                <ref xml:id="pg-b1q8-Rd1e4279"><name ref="#Ripa">Iohannes de Marchia</name></ref>
                 <bibl>Ioannes de Marchia, XXX</bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q8-d1e597">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e354">tertiam corollarium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4292" target="http://scta.info/resource/pgb1q8-d1e354">tertiam corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e354">Vide supra</ref></bibl>
               </cit>: 
               relationes eiusdem 
@@ -532,7 +526,7 @@
               et per consequens non possunt esse plures 
               filii. 
               <cit>
-                <ref><name ref="#Aquinas">Sanctus Thomas</name>, parte prima, quaestione 41, articulo 6</ref>
+                <ref xml:id="pg-b1q8-Rd1e4320"><name ref="#Aquinas">Sanctus Thomas</name>, parte prima, quaestione 41, articulo 6</ref>
                 <bibl>Aquinas, <title>Summa Theologiae</title> I, q. 41, a. 6, resp. (4, 432).</bibl>
               </cit>.
             </p>
@@ -543,7 +537,7 @@
               quia ista filiatio huiusmodi est tota quantitas subsistens, 
               quare multiplicari non potest. 
               <cit>
-                <ref><name ref="#Aureoli">Aureolus</name>, libro primo, distinctione 7, quaestione 2, articulo 3</ref>
+                <ref xml:id="pg-b1q8-Rd1e4337"><name ref="#Aureoli">Aureolus</name>, libro primo, distinctione 7, quaestione 2, articulo 3</ref>
                 <bibl>Aureolus, I, d. 7, q. 2, a. 3 (xxx)</bibl>
               </cit>.
             </p>
@@ -565,7 +559,7 @@
               ergo nec plures tales relationes, 
               et per consequens nec plures filii.  
               <cit>
-                <ref><name ref="#Ockham">Ockam</name>, distinctione 7 primi, quaestione 3, articulo 2</ref>
+                <ref xml:id="pg-b1q8-Rd1e4370"><name ref="#Ockham">Ockam</name>, distinctione 7 primi, quaestione 3, articulo 2</ref>
                 <bibl>Ockham, <title>Ordinatio</title> I, d. 7, q. 3 (3, 153, l. 24 - 154, l. 4).</bibl>
               </cit>.
             </p>
@@ -577,7 +571,7 @@
               Sed sic est de actum paternae generationis in divinis, 
               ergo non possunt esse plures filii. 
               <cit>
-                <ref><name ref="#HenryOfGhent">Henricus</name>, <title>quolibet</title> 6, quaestione prima</ref>
+                <ref xml:id="pg-b1q8-Rd1e4387"><name ref="#HenryOfGhent">Henricus</name>, <title>quolibet</title> 6, quaestione prima</ref>
                 <bibl>Henricus, Quodlibet VI, q. 1</bibl>
               </cit>.
             </p>
@@ -588,7 +582,7 @@
               Sed quidquid potest esse in Deo est ibi de facto, 
               ergo infinitae ibi formet generationes.  
               <cit>
-                <ref><name ref="#Scotus">Scotus</name>, suo <title>quolibet</title>, quaestione secunda</ref>
+                <ref xml:id="pg-b1q8-Rd1e4404"><name ref="#Scotus">Scotus</name>, suo <title>quolibet</title>, quaestione secunda</ref>
                 <bibl>Scotus, Quodlibet, q. 2</bibl>
               </cit>.
             </p> 
@@ -603,7 +597,7 @@
               plures filii non generantur, 
               et per consequens non sola fide tenetur.  
               <cit>
-                <ref><name ref="#HugolinoOfOrvieto">Hugolinus</name>, distinctione 7 primi, quaestione 2, conclusione 2</ref>
+                <ref xml:id="pg-b1q8-Rd1e4421"><name ref="#HugolinoOfOrvieto">Hugolinus</name>, distinctione 7 primi, quaestione 2, conclusione 2</ref>
                 <bibl>Hugolinus, I, d. 7, q. 2</bibl>
               </cit>, 
               vide ibi.
@@ -617,7 +611,7 @@
               quanta sapientia quanta est sua essentia ut 
               patet per 
               <cit>
-                <ref target="http://scta.info/resource/adt-l15"><name ref="#Augustine">Augustinum</name>, <title ref="#deTrinitate">De Trinitate</title>, libro <supplied>15</supplied>, capitulo 14</ref>
+                <ref xml:id="pg-b1q8-Rd1e4435" target="http://scta.info/resource/adt-l15"><name ref="#Augustine">Augustinum</name>, <title ref="#deTrinitate">De Trinitate</title>, libro <supplied>15</supplied>, capitulo 14</ref>
                 <bibl>Augustinus, De Trinitate, XV, c. 14</bibl>
               </cit>. 
               Confirmatur illud antecedens quia aut illud verbum esset 
@@ -626,35 +620,38 @@
               Nullum horum est dandum, ergo.
             </p>
             <p xml:id="pgb1q8-d1e732">
-              Octavo, si aliud 
-              verbum producere posset non perfecte Pater se dixisset. Consequens est falsum. Istae tres 
-              rationes sunt 
+              Octavo, 
+              si aliud verbum producere posset, 
+              non perfecte Pater se dixisset. 
+              Consequens est falsum. 
+              Istae tres rationes sunt 
               <cit>
-                <ref><name ref="#BonsemblantesBaduarius">Bonsemblantes</name> quas ponit in suo primo quaestione,</ref>
+                <ref xml:id="pg-b1q8-Rd1e4457"><name ref="#BonsemblantesBaduarius">Bonsemblantes</name> quas ponit in suo primo quaestione</ref>
                 <bibl>Bonsemblantes, XXX</bibl>
-              </cit> 
+              </cit>, 
               qua quaerit utrum potentia 
               generandi sit in Filio.
             </p>
             <p xml:id="pgb1q8-d1e747">
-              Nono, contra illud corollarium videtur esse processus 
+              Nono contra illud corollarium, 
+              videtur esse processus 
               <cit>
-                <ref>
-                  <name ref="#GilesOfRome">Domini Aegidi</name> distinctione 
+                <ref xml:id="pg-b1q8-Rd1e4472">
+                  <name ref="#GilesOfRome">Domini Aegidi</name>, distinctione 
                   7 primi, quaestione ultima
                 </ref>
                 <bibl>Aegidius Romanos, Sent, I, d. 7, P. 2, Q. 4</bibl>
-              </cit> 
+              </cit>, 
               ubi dat differentiam inter verbum nostrum et divinum. Prima quia 
               <cit>
-                <quote source="http://scta.info/resource/gr-l1d7p2q4-d1e341">verbum divinum semper de scientia nascitur</quote>
+                <quote xml:id="pg-b1q8-Qd1e4484" source="http://scta.info/resource/gr-l1d7p2q4-d1e341">verbum divinum semper de scientia nascitur</quote>
                 <bibl>Aegidius Romanos, Sent, I, d. 7, P. 2, Q. 4</bibl>
               </cit> 
               nostrum vero verbum quandoque de ignorantia. 
               Secunda 
               quia 
               <cit>
-                <quote source="http://scta.info/resource/gr-l1d7p2q4-d1e366">
+                <quote xml:id="pg-b1q8-Qd1e4493" source="http://scta.info/resource/gr-l1d7p2q4-d1e366">
                   scientia Dei est immutabiliter stabilis 
                 </quote>
                 <bibl>Aegidius Romanos, Sent, I, d. 7, P. 2, Q. 4</bibl>
@@ -662,28 +659,26 @@
               nostra vero amissibilis. 
               Tertia quia 
               <cit>
-                <quote source="http://scta.info/resource/gr-l1d7p2q4-d1e379">
-                  verbum divinum 
-                  est informe semper autem 
-                  nostrum
-                  non est formatum
+                <quote xml:id="pg-b1q8-Qd1e4502" source="http://scta.info/resource/gr-l1d7p2q4-d1e379">
+                  verbum divinum <supplied>numquam</supplied> est informe 
                 </quote>
                 <bibl>Aegidius Romanos, Sent, I, d. 7, P. 2, Q. 4</bibl>
-              </cit>. 
+              </cit>,
+              semper autem nostrum non est formatum. 
               Quarta quia 
               <cit>
-                <quote source="gr-l1d7p2q4-d1e398">divinum nascitur de tota 
+                <quote xml:id="pg-b1q8-Qd1e4511" source="gr-l1d7p2q4-d1e398">divinum nascitur de tota 
                 scientia Patris</quote>
                 <bibl>Aegidius Romanos, Sent, I, d. 7, P. 2, Q. 4</bibl>
               </cit>, 
               non autem nostrum
               potest formari de omnibus speciebus in memoria 
-              contentis ex quibus videtur concludi unitas omini verbi et pluralitas 
+              contentis ex quibus videtur concludi unitas divini verbi et pluralitas 
               nostri.
             </p>
             <p xml:id="pgb1q8-d1e776">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e387">Ad primum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4523" target="http://scta.info/resource/pgb1q8-d1e387">Ad primum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e387">Vide supra</ref></bibl>
               </cit>, 
               dicitur quod essentia esse principium generationis divini verbi potest sumi 
@@ -693,7 +688,7 @@
             </p>
             <p xml:id="pgb1q8-asnosf">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e398">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4536" target="http://scta.info/resource/pgb1q8-d1e398">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e398">Vide supra</ref></bibl>
               </cit>, 
               negatur 
@@ -718,7 +713,7 @@
             </p>
             <p xml:id="pgb1q8-d1e822">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e406">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4566" target="http://scta.info/resource/pgb1q8-d1e406">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e406">Vide supra</ref></bibl>
               </cit>, 
               negatur consequentia, et ad probationem dicitur quod, si modus et 
@@ -728,7 +723,7 @@
             </p>
             <p xml:id="pgb1q8-d1e837">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e422">Ad primum contra secundam conclusionem</ref>
+                <ref xml:id="pg-b1q8-Rd1e4579" target="http://scta.info/resource/pgb1q8-d1e422">Ad primum contra secundam conclusionem</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e422">Vide supra</ref></bibl>
               </cit>, 
               negatur antecedens universaliter et, licet increatis veritatem[?] 
@@ -738,14 +733,14 @@
             </p>
             <p xml:id="pgb1q8-d1e865">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e430">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4595" target="http://scta.info/resource/pgb1q8-d1e430">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e430">Vide supra</ref></bibl>
               </cit>, 
               negatur consequentia ratione identitatis naturae.
             </p>
             <p xml:id="pgb1q8-d1e870">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e460">Ad tertium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4608" target="http://scta.info/resource/pgb1q8-d1e460">Ad tertium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e460">Vide supra</ref></bibl>
               </cit>, 
               loquendo 
@@ -758,12 +753,12 @@
             </p>
             <p xml:id="pgb1q8-d1e884">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e475">Ad quartum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4624" target="http://scta.info/resource/pgb1q8-d1e475">Ad quartum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e475">Vide supra</ref></bibl>
               </cit>, 
               negatur consequentia ratio identitatis naturae. 
               <cit>
-                <ref>Ad illud</ref>
+                <ref xml:id="pg-b1q8-Rd1e4634">Ad illud</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e484">Vide supra</ref></bibl>
               </cit> 
               <title ref="#lc">luce</title> dicitur quod li <mentioned>oportet</mentioned> non denotat oportunitatem necessitatis sed potius congruitatis.
@@ -773,14 +768,14 @@
             </p>
             <p xml:id="pgb1q8-d1e928">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e503">Ad aliud</ref>
+                <ref xml:id="pg-b1q8-Rd1e4654" target="http://scta.info/resource/pgb1q8-d1e503">Ad aliud</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e503">Vide supra</ref></bibl>
               </cit> 
               negatur consequentia simpliciter.
             </p> 
             <p xml:id="pgb1q8-d1e932">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e520">Ad primum contra tertiam conclusionem</ref>
+                <ref xml:id="pg-b1q8-Rd1e4667" target="http://scta.info/resource/pgb1q8-d1e520">Ad primum contra tertiam conclusionem</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e520">Vide supra</ref></bibl>
               </cit>, 
               dicitur quod non sequitur evidenter Deus est infinita bonitas 
@@ -790,7 +785,7 @@
             </p>
             <p xml:id="pgb1q8-d1e942">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e534">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4682" target="http://scta.info/resource/pgb1q8-d1e534">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e534">Vide supra</ref></bibl>
               </cit>, 
               diceret 
@@ -816,7 +811,7 @@
             </p> 
             <p xml:id="pgb1q8-d1e991">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e534">Ad primum contra tertium corollarium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4717" target="http://scta.info/resource/pgb1q8-d1e534">Ad primum contra tertium corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e534">Vide supra</ref></bibl>
               </cit>, dicitur quod ratio fundatur super falso. Primo quod Deus non possit 
               multiplicare individua sub una specie, error. Item quod formae non recipiunt divisionem 
@@ -824,7 +819,7 @@
             </p>
             <p xml:id="pgb1q8-d1qjd1">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e618">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4730" target="http://scta.info/resource/pgb1q8-d1e618">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e618">Vide supra</ref></bibl>
               </cit>, 
               negatur antecedens quia si ratio valeret posset concludi quod ibi non essent tres 
@@ -834,26 +829,26 @@
             </p>
             <p xml:id="pgb1q8-d1e1017">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e632">Ad tertium</ref>
+                <ref xml:id="pg-b1q8-Rd1e4743" target="http://scta.info/resource/pgb1q8-d1e632">Ad tertium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e632">Vide supra</ref></bibl>
               </cit>, 
               primo posset negari maior per adversarium quia 
               <cit>
-                <ref>secundum <name ref="#AlphonsusVargas">Alphonsum</name></ref>
+                <ref xml:id="pg-b1q8-Rd1e4753">secundum <name ref="#AlphonsusVargas">Alphonsum</name></ref>
                 <bibl>Alphonsus Vargas, XXX</bibl>
               </cit> 
               non 
               plus repugnat esse pluries in eodem fundamento relationes quam plura activa 
               eiusdem rationis sed secundum concedit ipse met 
               <cit>
-                <ref><name ref="#Ockham">Ockham</name> ibidem,</ref>
+                <ref xml:id="pg-b1q8-Rd1e4764"><name ref="#Ockham">Ockham</name> ibidem,</ref>
                 <bibl>Ockham, <title>Ordinatio</title> I, d. 7, q. 3 (3, 153, l. 24 - 154, l. 4)</bibl>
               </cit> 
               ergo.
             </p>
             <p xml:id="pgb1q8-d1e1031">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e651">Ad quartum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4781" target="http://scta.info/resource/pgb1q8-d1e651">Ad quartum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e651">Vide supra</ref></bibl>
               </cit>, 
               dicitur quod si 
@@ -863,7 +858,7 @@
             </p>
             <p xml:id="pgb1q8-d1e1040">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e664">Ad quintum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4794" target="http://scta.info/resource/pgb1q8-d1e664">Ad quintum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e664">Vide supra</ref></bibl>
               </cit>, 
               negatur consequentia de forma quia nec sequitur in creaturis 
@@ -873,7 +868,7 @@
             
             <p xml:id="pgb1q8-d1e1048">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e685">Ad sextum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4807" target="http://scta.info/resource/pgb1q8-d1e685">Ad sextum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e685">Vide supra</ref></bibl>
               </cit>, 
               negatur antecedens 
@@ -886,7 +881,7 @@
             
             <p xml:id="pgb1q8-d1e1065">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e703">Ad septimum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4821" target="http://scta.info/resource/pgb1q8-d1e703">Ad septimum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e703">Vide supra</ref></bibl>
               </cit>, 
               negatur consequentia ad probationem 
@@ -895,7 +890,7 @@
               quod ratio probaret quod Pater non posset aliud verbum gignere, non tamen ostendit quod Filius non 
               possit generare. Tertio, dicitur quod si sumitur antecedens pro notitia in qua tunc supponit 
               quod deberet probare quia 
-              <ref>secundum <name ref="#Augustine">Augustinum</name></ref> 
+              <ref xml:id="pg-b1q8-Rd1e4829">secundum <name ref="#Augustine">Augustinum</name></ref> 
               <cit>
                 <quote xml:id="pg-b1q8-Qd1e4165">Pater omnia novit in se et omnia novit 
                   in verbo.</quote>
@@ -910,7 +905,7 @@
             <p xml:id="pgb1q8-phpvfa">
               Per hoc patet 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e732">ad 8m</ref>
+                <ref xml:id="pg-b1q8-Rd1e4854" target="http://scta.info/resource/pgb1q8-d1e732">ad 8m</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e732">Vide supra</ref></bibl>
               </cit> 
               quod non sequitur Pater perfecte se dicit, ergo non 
@@ -919,7 +914,7 @@
             <p xml:id="pgb1q8-d1e1104">
               <pb ed="#L" n="33-r"/>
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e747">Ad processum <name ref="#GilesOfRome">Domini Aegidii</name></ref>
+                <ref xml:id="pg-b1q8-Rd1e4872" target="http://scta.info/resource/pgb1q8-d1e747">Ad processum <name ref="#GilesOfRome">Domini Aegidii</name></ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e747">Vide supra</ref></bibl>
               </cit> 
               dicitur quod solum intendit differentia probare inter verbi dei 
@@ -928,7 +923,7 @@
             </p>
             <p xml:id="pgb1q8-d1e1116">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-qnnesp">Ad primum in oppositum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4887" target="http://scta.info/resource/pgb1q8-qnnesp">Ad primum in oppositum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-qnnesp">Vide supra</ref></bibl>
               </cit>, 
               negatur antecedens. Secundo modo posset dici 
@@ -937,7 +932,7 @@
             </p>
             <p xml:id="pgb1q8-d1e1126">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q8-d1e146">Ad secundum</ref>
+                <ref xml:id="pg-b1q8-Rd1e4900" target="http://scta.info/resource/pgb1q8-d1e146">Ad secundum</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q8-d1e146">Vide supra</ref></bibl>
               </cit>, 
               patet per idem quod, licet Patris suppositum non sit suppositum Filii nec econverso quia 
