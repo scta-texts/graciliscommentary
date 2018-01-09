@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -134,115 +137,156 @@
                 </app>
                 autem verba determinamus</quote>
               <bibl>
-                <ref type="commentary" target="http://scta.info/resource/pll1d11c1-d1e3624">Lombardus, I, d. 11, c. 1, n. 9</ref>
+                <ref target="http://scta.info/resource/pll1d11c1-d1e3624">Lombardus, I, d. 11, c. 1, n. 9</ref>
               </bibl>
             </cit>.
             And this is the division of these two distinctions.
           </p>
         </div>
         <div xml:id="pg-b1q11-Dd1e213">
-         <head xml:id="pg-b1q11-Hd1e215">Quaestio</head>
+         <head xml:id="pg-b1q11-Hd1e215">Question</head>
           <p xml:id="pgb1q11-d1e177">
-            Utrum Pater et Filius eodem modo agendi in distincto Spiritum Sanctum producant in supposito 
-            a se distincto
+            Whether the Father and the Son in the same indistinct mode of acting produce the Holy Spirit 
+            in a supposite distinct from them.
           </p>
           <div xml:id="pg-b1q11-Dd1e218">
             <head xml:id="pg-b1q11-Hd1e220">
-              <supplied>Rationes principales</supplied>
+              <supplied>Principal Arguments</supplied>
             </head>
             <p xml:id="pgb1q11-qnqsnd">
-              quod non quia tunc sequitur primo quod tantum repugnaret Spiritum Sanctum a Filio 
-              non produci sicut ab ipso non distingui. Consequens est falsum quia, si, per impossibile, Filius 
-              Spiritum Sanctum non producent ad haec, distinctio esset inter ipsos, ergo. Prima consequentia probatur quia, si eodem modo 
-              Pater et Filius spirent <unclear cert="low">cum <!-- tum --></unclear>, ergo Pater taliter spiret quod, si non spiraret Spiritum Sanctum, 
-              non diceretur. Ab eo sequitur quod si Filius, etiam 
-              <app>
-                <lem>non</lem>
-                <rdg wit="#L" type="correction-addition">
-                  <add place="aboveLine">non</add>
-                </rdg>
-              </app> 
-              spiraret nec distingueretur.
+              That not 
+              because then it follows in the first place that 
+              it is only repugnant that the Holy Spirit is not produced by the Son 
+              just as it is not distinguished from it.
+              The consequent is false 
+              because if, through the impossible, 
+              the Son were not to produce the Holy Spirit, 
+              this distinction between them would still exist, 
+              therefore. 
+              The first consequence is proved because, 
+              if in the same mode, the Father and Son spirate,
+              then therefore the Father spirates in such a way that, 
+              if he were not to spirate the Holy Spirit, 
+              it would not be said to be from him. 
+              It follows that, if the Son also does not spirate, 
+              then it would also be distinguished.
             </p>
             <p xml:id="pgb1q11-d1e201">
-              Secundo, Filius non spirat 
-              Spiritum Sanctum probatur auctoritas <ref xml:id="pg-b1q11-Rd1e251"><name ref="#JohnDamascenus">Damasceni</name> libro primo, capitulis 10 et 11</ref> dicens 
+              In the second place, 
+              that the Son does not spirate the Holy Spirit 
+              is proved by the authority of
+              <ref xml:id="pg-b1q11-Rd1e251" corresp="#pg-b1q11-Qd1e258">
+                <name ref="#JohnDamascenus">Damascene</name>, in book one, chapters 10 and 11</ref>, 
+              saying
               <cit>
                 <quote xml:id="pg-b1q11-Qd1e258">Spiritum Sanctum ex Patre dicimus 
-                  et Patris Spiritum Sanctum nominamus ex Filio vero non dicimus sed Spiritum Filii nominamus,</quote>
-                <bibl>Damescenus, XXX, I, cc. 10 et 11</bibl>
-              </cit> <!-- confirm quote ending here -->
-              ergo, si nota est ex Filio, non videtur procedere ab eo.
+                  et Patris Spiritum Sanctum nominamus ex Filio vero non dicimus sed Spiritum Filii nominamus</quote>
+                <bibl>Damescenus, De fide orthodoxa I, c. 8</bibl>
+              </cit>.
+              Therefore, if it is not from the Son, 
+              it does not seem to precede from him.
             </p>
             <p xml:id="pgb1q11-d1e216">
-              Tertio, si sic, sequeretur quod ab eis naturaliter 
-              procederet <unclear cert="low">consequens</unclear> est falsum quia procedit modo amoris et libertatis seu voluntatis, 
-              sed probatur consequentia quia ad intra est unicus procedendi modus in divinis <unclear cert="low">inplurificabilis</unclear> ut fuit 
-              dictum supra sed Filius modo naturali seu naturaliter a Patre procedit, igitur si Spiritus Sanctus ab 
-              aliquo procedat hoc esse naturaliter et non libere.
+              In the third place, 
+              if this is true, 
+              it would follow that it would naturally proceed from them.
+              The consequent is false because 
+              it proceeds in the mode of love and of liberty or of the will.
+              But the consequence is proved 
+              because internally there is a single mode of proceeding in the divine 
+              that cannot be made into a plurality 
+              as was said above. 
+              But the Son proceeds from the Father in a natural mode or naturally, 
+              therefore, if the Holy Spirit proceeds from something,
+              this will be naturally and not freely.
             </p>
             <p xml:id="pgb1q11-d1e231">
-              Ad oppositum est 
+              In opposition is the position of the 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e280">
-                <name ref="#Lombard">Magister</name> in hac 11 distinctione</ref>
+                  <name ref="#Lombard">master</name> in distinction 11
+                </ref>
                 <bibl>Lombardus, I, d. 11, XXX</bibl>
-              </cit> 
-              et 
-              <cit><ref xml:id="pg-b1q11-Rd1e291">
-                <title>extra</title>, de summa trinitatem,</ref>
+              </cit>,
+              and  
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e291">
+                  <title>Extra</title>, De summa Trinitatem
+                </ref>
                 <bibl>Liber extra, XXX</bibl>
-              </cit>
-              et 
+              </cit>,
+              and 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e302">
-                <title>fide catholica</title>, libro 6.</ref>
+                  <title>fide catholica</title>, libro 6
+                </ref>
                 <bibl>fide catholica, VI, xxx</bibl>
-              </cit>
+              </cit>.
             </p>
           </div>
           <div xml:id="pg-b1q11-Dd1e315">
             <head xml:id="pg-b1q11-Hd1e317">
-              <supplied>Prima conclusio</supplied>
+              <supplied>First conclusion</supplied>
             </head>
             <p xml:id="pgb1q11-d1e244">
-              Prima conclusio: licet Spiritus Sanctus non prius nec 
-              magis procedat a Patre quam a Filio, tamen Spiritum esse vel procedere ab aliquo solum 
-              ostendi potest fidei medio. Prima pars probatur quia pro quocumque signo Spiritus Sanctus est spiratur 
-              a Filio, sed pro omni signo pro quo spiratur a Patre est, igitur pro quocumque signo spiratur a Patre 
-              pro eodem spiratur a Filio. Maior patet quia si detur oppositum, sequitur quod in aliquo signo Spiritus Sanctus 
-              esset ab uno tantum et non a duobus contra fidem.
+              First conclusion: though the Holy Spirit 
+              does not proceed from the Father prior or more greatly than from the Son, 
+              nevertheless that the Spirit is or proceeds from something  
+              is only able to be shown by means of faith.
+              The first part is proved 
+              because for each sign the Holy Spirit is spirated from the Son, 
+              but for every sign for which it is spirated it is from the Father, 
+              therefore for any sign spirated by the Father 
+              for the same sign it is spirated by thed Son.
+              The major premise is clear because,
+              if the opposite were given,
+              it follows that in some sign 
+              the Holy Spirit would from one only 
+              and not from two, 
+              contradicting the faith.
             </p>
             <p xml:id="pgb1q11-d1e265">
-              Secunda, scilicet minor probatur quia pro quocumque signo pro 
-              quo spiratio activa est spiratio passiva etiam est, ergo. Probatur antecedens quia aliter sequeretur quod Pater 
-              pro aliquo signo spiraret Spiritum Sanctum pro quo signo non spiraretur Spiritus Sanctus quae est 
-              contradictio.
+              <!-- review paragraph break here -->
+              In the second place, namely, the minor is proved 
+              because for each for which there is active spiration, 
+              there is also passive spiration, 
+              therefore.
+              The antecedent is proved 
+              because otherwise it would follow 
+              that the Father some sign would spirate the Holy Spirit
+              for which sign the Holy Spirit would not be spirated, 
+              which is a contradiction.
             </p>
             <p xml:id="pgb1q11-d1e288">
-              Secunda pars conclusionis probatur quia sequeretur quod Trinitas divinarum personarum posset evidenti 
-              ratione ostendi quod est falsum ut probatum est.
+              <!-- review paragraph break -->
+              The second part of the conclusion is proved 
+              because it would follow 
+              that the Trinity of the divine persons 
+              would be able to be shown by evident reason, 
+              which is false as has been proven.
             </p>
             <p xml:id="pgb1q11-d1e294">
-              Item omnis ratio citra fidem probans Spiritum Sanctum 
-              procedere probaret Spiritum Sanctum alium Spiritum Sanctum producere sicut fuit dictum de 
-              generatione Filii, sed quod Fidei medio ostendi potest. Patet 
+              Again, 
+              every argument short of faith 
+              proving that the Holy Spirit proceeds would prove 
+              that the Holy Spirit produces another Holy Spirit, 
+              just as was said about the generation of the Son. <!-- cross reference here ?? --> 
+              But that it is able to be shown by means of fatih is clear from 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e332"><title>extra</title>, de summa trinitate</ref>
+                <ref xml:id="pg-b1q11-Rd1e332"><title>Extra</title>, de summa trinitate</ref>
                 <bibl>Liber Extra, de summa trinitate</bibl>
               </cit> 
-              et 
+              and 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e343"><title>fide catholica</title> libro 6o capitulo fidei.</ref>
+                <ref xml:id="pg-b1q11-Rd1e343"><title>fide catholica</title>, libro sexto, capitulo fidei</ref>
                 <bibl>Fide catholica, VI, c. XXX</bibl>
-              </cit> 
-              Item per 
+              </cit>.
+              Again through 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e354"><name ref="#Augustine">Augustinum</name> IV <title ref="#deTrinitate">De Trinitate</title> capitulo <unclear>53</unclear> de parvis</ref>
+                <ref xml:id="pg-b1q11-Rd1e354"><name ref="#Augustine">Augustine</name> IV <title ref="#deTrinitate">De Trinitate</title>, capitulo <unclear>53</unclear> de parvis</ref>
                 <bibl>Augustinus, De Trinitate, IV, c. 53, xxx </bibl>
               </cit>, 
-              ubi 
-              deducit hoc multis auctoritatibus Sacrae Scripturae.
+              where he deduces this from many authorities of Sacred Scripture.
             </p>
             <p xml:id="pgb1q11-d1e321">
               Primum corollarium: sicut Pater non prius dicit 
