@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -16,36 +16,40 @@
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-05-01">May 01, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-01" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-05-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="36-r"/>
       </div>
     </front>
     <body>
@@ -66,7 +70,7 @@
           <lb ed="#L"/>2o concordat doctorum apparentem repugnantiam 3o infert conclusionem circa hoc tenendam 
           <lb ed="#L"/>2a ibi dicamus ergo filium 3a ibi <space exclude="threeWords"/> et haec est divisio huius lectionis</p>
         
-        <p xml:id="pgb1q10-d1e126"><pb ed="#L" n="36v"/><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> cuilibet supposito seu personae divinae naturae repugnet prioritas cuius<lb ed="#L"/>cumque 
+        <p xml:id="pgb1q10-d1e126"><pb ed="#L" n="36-v"/><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> cuilibet supposito seu personae divinae naturae repugnet prioritas cuius<lb ed="#L"/>cumque 
         durativae mensurae</p>
         
         <p xml:id="pgb1q10-qnqsmp">quod non quia verbum est mensura creaturae ergo 
@@ -128,7 +132,7 @@
           <lb ed="#L"/>non est pars neque prius aut posterius</p>
         
         <p xml:id="pgb1q10-d1e328"><g ref="#pilcrow"/>Item propositione 44 dicit quod nullum immutabile mensuratur 
-          <pb ed="#L" n="37r"/><lb ed="#L"/>mensura successiva aut succedente sed aeterna</p> 
+          <pb ed="#L" n="37-r"/><lb ed="#L"/>mensura successiva aut succedente sed aeterna</p> 
         
         <p xml:id="pgb1q10-d1e340">prima corollarium mensura cuiuslibet divinae operationis 
           <lb ed="#L"/>seu causalitatis est instans semper praesens et indivisibile aeternitatis patet quia deus est sua 
@@ -185,7 +189,7 @@
           <lb ed="#L"/><ref><name ref="#AlphonsusVargas">dominus alphonsus</name> distinctione prima</ref> vide ibi <g ref="#pilcrow"/>confirmatur quia in divinis non est <choice><orig>alica</orig><reg>aliqua</reg></choice> prioritas praeter ori<lb ed="#L"/>ginis 
           aliquo non in quo quam non intendo negare per dicta in quaestione quia solum loquor 
           <lb ed="#L"/>de prioritate mensurativa contra modum ponendi <name ref="#Scotus">scoti</name> qui <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in 
-          <pb ed="#L" n="37v"/><lb ed="#L"/>instanti aeternitatis sunt tria signa originis in primo sunt omnia essentialia scilicet scientia sapientia 
+          <pb ed="#L" n="37-v"/><lb ed="#L"/>instanti aeternitatis sunt tria signa originis in primo sunt omnia essentialia scilicet scientia sapientia 
           <lb ed="#L"/>bonitas etc <g ref="#slash"/>In 2o pater generat filium in 3o spirat spiritum sanctum et dicit consequenter quod pater 
           <lb ed="#L"/>prius origine spirat spiritum sanctum quam filius vide <ref><name ref="#AlphonsusVargas">alphonsum</name> distinctione 9 primi</ref> <g ref="#dot"/> 
           <lb ed="#L"/><g ref="#slash"/>corollarium responsivum probat <name ref="#AlphonsusVargas">alphonsus</name> sic virtualiter filio et cuilibet personae divinae 
@@ -236,7 +240,7 @@
           <lb ed="#L"/>de spiritu <quote ana="#io16_13">quaecumque audiet loquetur</quote> sed certum est quod illud futurum non potest referri 
           <lb ed="#L"/>nisi ad aliquod signum aeternale et sic erunt plura in aeternitate signa <g ref="#slash"/>Item <ref><title ref="#io">Iohannis</title> <sic>12o</sic></ref> 
           <lb ed="#L"/><quote ana="#io17_5" xml:id="pg-b1q10-Qd1e644">clarifica me pater claritate quam habui priusquam mundus fient</quote> Item contra conclusionem 
-          <lb ed="#L"/>est dictum <corr><del rend="strikethrough"><name ref="#Augustine">augustini</name></del><add><name ref="#Boethius">boecii</name></add></corr>  superius allegati quia si aeternitas est facta sequitur quod 
+          <lb ed="#L"/>est dictum <subst><del rend="strikethrough"><name ref="#Augustine">augustini</name></del><add><name ref="#Boethius">boecii</name></add></subst>  superius allegati quia si aeternitas est facta sequitur quod 
           <lb ed="#L"/>non sit deus Item auctoritas <name ref="#Augustine">augustini</name></p>
         
         <p xml:id="pgb1q10-d1e766"><g ref="#pilcrow"/>contra 3am conclusionem est ratio facta in oppositum quia verbum divinum etc.</p>
@@ -255,7 +259,7 @@
           <lb ed="#L"/>est propinquior primo quia <choice><orig>immediacior</orig><reg>immediatior</reg></choice> patri igitur filius est prior spiritu sancto et pari 
           <lb ed="#L"/>passu pater filio maior nota et minor probatur quia spiritus sanctus procedit a patrem mediantem filio</p>
         
-          <p xml:id="pgb1q10-d1e820"><pb ed="#L" n="38r"/><lb ed="#L"/><g ref="#pilcrow"/>pro <choice><orig>solucione</orig><reg>solutione</reg></choice> rationum contra primam conclusionem notandum quod mensura dicitur multipliciter <g ref="#slash"/>uno modo per ipsius 
+          <p xml:id="pgb1q10-d1e820"><pb ed="#L" n="38-r"/><lb ed="#L"/><g ref="#pilcrow"/>pro <choice><orig>solucione</orig><reg>solutione</reg></choice> rationum contra primam conclusionem notandum quod mensura dicitur multipliciter <g ref="#slash"/>uno modo per ipsius 
             <lb ed="#L"/>mensurae replicationem et sic sumitur <ref>10 <title ref="#Metaphysics">metaphysicae</title></ref> de ponderibus</p>
         
         <p xml:id="pgb1q10-d1e841"><g ref="#pilcrow"/>2o modo per assimulationem 
@@ -329,7 +333,7 @@
           <lb ed="#L"/>secundum quid non autem de aeternitate simpliciter seu loquitur de aeternitate a parte post</p>
         
         <p xml:id="pgb1q10-d1e1084"><g ref="#pilcrow"/>Ad primum contra 3am 
-          <pb ed="#L" n="38v"/><lb ed="#L"/>conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta tamen dicitur mensum men<lb ed="#L"/>sura 
+          <pb ed="#L" n="38-v"/><lb ed="#L"/>conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta tamen dicitur mensum men<lb ed="#L"/>sura 
           quae est sua aeternitas prout ostendit <ref><name ref="#GilesOfRome">aegidius</name> distinctione 8 primi parte 3a quaestione 3a</ref> <g ref="#slash"/></p>
         
         <p xml:id="pgb1q10-d1e1099"><lb ed="#L"/><g ref="#pilcrow"/>Ad illud <ref><title ref="#ex">exodi</title> 3o</ref> dicitur quod sumitur aeternitas dupliciter uno modo primo per pro <choice><orig>peryodo</orig><reg>periodo</reg></choice> unius cuiusque 
