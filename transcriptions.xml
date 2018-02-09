@@ -5,7 +5,10 @@
   <!-- isTranscription of will default to "critical" if filename is identical to repo name, otherwise it will default to filename prefix -->
   <transcription  
     hash="head"
-    name="translation"
+    name="transcription"
+    type="critical"
+    isTranscriptionOf="critical"
+    canonical="true"
     use-for-extraction="true">pg-b1q1.xml</transcription>
   <transcription 
     hash="QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz"
@@ -13,18 +16,24 @@
     versionNo="0.0.0"
     type="critical"
     isTranscriptionOf="critical"
-    hasSuccessor="http://scta.info/resource/pg-b1q1/critical/transcription"/>
+    hasSuccessor="http://scta.info/resource/pg-b1q1/critical/transcription">pg-b1q1.xml</transcription>
   <transcription 
     hash="head"
     name="translation1"
     type="translation"
     language="en"
-    isTranslationOf="en">en_pg-b1q1.xml</transcription>
+    canonical="true"
+    isTranscriptionOf="en">en_pg-b1q1.xml</transcription>
   <transcription 
     hash="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
     name="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
     type="translation"
     language="en"
-    isTranslationOf="en"/>
+    isTranscriptionOf="en"
+    hasSuccessor="http://scta.info/resource/pg-b1q1/en/translation1">en_pg-b1q1.xml</transcription>
+  />
+  <translationManifestations>
+    <manifestation name="en" lang="en" title="English"/>
+  </translationManifestations>
   
 </transcriptions>
