@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 11 [London Transcription]</title>
+        <title>Liber I, Quaestio 11 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.05-dev-master">
-          <title>Librum I, Quaestio 11 [London Transcription]</title>
+        <edition n="0.0.0-dev-master">
+          <title>Liber I, Quaestio 11 [London Transcription]</title>
           <date when="2014-05-02">May 02, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-05-05">May 02, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-02" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-05-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-    <div xml:id="includeList">
-      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-      <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
-    </div>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="38-v"/>
+      </div>
     </front>
     <body>
       <div xml:id="pg-b1q11">
-        <head>Quaestio 11 [London Transcription]</head>
+        <head>Liber I, Quaestio 11 [London Transcription]</head>
          <p xml:id="pgb1q11-d1e92"><lb ed="#L"/><hi rend="dropCapTwoLines">N</hi><hi rend="largeFont">unc post filii aeternitatem</hi> haec est distinctio 10a quae continuatur ad 
            <lb ed="#L"/>praecedentes sic quia postquam <name ref="#Lombard">magister</name> determinavit de filii generatione nunc vero 
-           <pb ed="#L" n="39r"/><lb ed="#L"/>incipit tractare de spiritus sancti processione <g ref="#slash"/>et dividitur in duas quia primo determinat 
+           <pb ed="#L" n="39-r"/><lb ed="#L"/>incipit tractare de spiritus sancti processione <g ref="#slash"/>et dividitur in duas quia primo determinat 
            <lb ed="#L"/>de eius modo processivo 2o de eius principio productivo 2a incipit in principio distinctionis 
            <lb ed="#L"/>11 <g ref="#dot"/> hic dicendum est</p>
         
@@ -116,7 +120,7 @@
           <lb ed="#L"/>deducit hoc multis auctoritatibus sacrae scripturae</p>
         
         <p xml:id="pgb1q11-d1e321"><g ref="#pilcrow"/>primum corollarium sicut pater non prius dicit 
-          <pb ed="#L" n="39v"/><lb ed="#L"/>verbum quam spiret sanctum spiritum sic generatio verbi divini non est realiter prior spiratione 
+          <pb ed="#L" n="39-v"/><lb ed="#L"/>verbum quam spiret sanctum spiritum sic generatio verbi divini non est realiter prior spiratione 
           <lb ed="#L"/>spiritus sancti prima patet quia filius non est prior spiritu sancto ergo antecedens probatur quia sicut probatur pater non est 
           <lb ed="#L"/>prior filio sic probatur quod filius non est prior spiritu sancto <g ref="#slash"/>2a pars probatur quia in divinis nulla est realis 
           <lb ed="#L"/>prioritas in quo ut probatum est <g ref="#slash"/>si etiam generatio praecederet spirationem sequeretur quod generatum praece<lb ed="#L"/>deret 
@@ -169,7 +173,7 @@
           <lb ed="#L"/>in distinctione 12 primi in qua dicitur quod pater dat filio quod spiret spiritum sanctum ergo <g ref="#slash"/>sed quod modo 
           <lb ed="#L"/>naturali producant spiritum sanctum patet auctoritate <ref><name ref="#HilaryOfPoitiers">hylarii</name> 5o <title ref="#HilaryOfPoitiers_DeTrinitate">de trinitate</title></ref> et eum 
           <lb ed="#L"/>allegat <name ref="#Lombard">magister</name> in textu ubi dicit <quote xml:id="pg-b1q11-Qevnsss">ex virtute naturae in naturam eandem processionem 
-          <pb ed="#L" n="40r"/><lb ed="#L"/>subsistit spiritus sanctus</quote> sed quod praecedat libere patet quia voluntarie ut dicit <ref><name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">de trinitate</title> 
+          <pb ed="#L" n="40-r"/><lb ed="#L"/>subsistit spiritus sanctus</quote> sed quod praecedat libere patet quia voluntarie ut dicit <ref><name ref="#Augustine">augustinus</name> 15 <title ref="#deTrinitate">de trinitate</title> 
           <lb ed="#L"/>capitulo 17</ref> vide in fonte <g ref="#slash"/>confirmatur etiam quia non repugnat filium generari naturaliter et 
           <lb ed="#L"/>libere ergo nec spiritum sanctum repugnat spirari naturaliter et libere consequentia patet per simile 
           <lb ed="#L"/>sed antecedens probatum est supra</p>
@@ -225,7 +229,7 @@
           <lb ed="#L"/>est in proposito</p>
         
         <p xml:id="pgb1q11-d1e764"><g ref="#pilcrow"/>contra 2am conclusionem arguitur primo sic a quocumque aliquid constituitur inesse ab eodem 
-          <pb ed="#L" n="40v"/><lb ed="#L"/>distinguitur illo sed filius constituitur inesse personali filiatione ergo ea formaliter distinguitur ab omni 
+          <pb ed="#L" n="40-v"/><lb ed="#L"/>distinguitur illo sed filius constituitur inesse personali filiatione ergo ea formaliter distinguitur ab omni 
           <lb ed="#L"/>alia persona ergo circumscripta per possibile vel impossibile spirationem remanebit filius per<lb ed="#L"/>sonaliter 
           distinctus a quacumque alia persona ergo non solum per spirationem distinguitur a spiritu sancto ut 
           <lb ed="#L"/>dicit prima pars conclusionis haec est ratio <ref><name ref="#Scotus">scoti</name> 11a distinctione quaestione 2a</ref></p>
@@ -284,7 +288,7 @@
         <p xml:id="pgb1q11-d1e984"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum quod est dictum <name ref="#Dionysius">dyonisii</name> dicitur quod illa auctoritas et similes debent intelligi per 
           <lb ed="#L"/>aliud vel praeter et sic id est contrarium vel adversum ut patet quia ipsemet <name ref="#Dionysius">dyonisius</name> mul<lb ed="#L"/>ta 
           docuit quae expresse non habentur in canone <g ref="#slash"/>et ita possunt exponi aliae 
-          <pb ed="#L" n="41r"/><lb ed="#L"/>auctoritates multae</p>
+          <pb ed="#L" n="41-r"/><lb ed="#L"/>auctoritates multae</p>
         
         <p xml:id="pgb1q11-d1e1005"><g ref="#pilcrow"/>Ad 2m negatur consequentia et ad probationem dicitur quod <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> spirationis 
           <lb ed="#L"/>non addit aliquid ultra essentialem</p>
@@ -350,7 +354,7 @@
           <lb ed="#L"/>ubi est praedicatio simpliciter et essentialis</p>
         
         <p xml:id="pgb1q11-d1e1232"><g ref="#pilcrow"/>2o dicitur quod forma non valet quia similiter dicerentur aliquid est <g ref="#dot"/> 
-          <pb ed="#L" n="41v"/><lb ed="#L"/>pater et non est filius ergo essentia quae est pater non est filius quod est falsum</p>
+          <pb ed="#L" n="41-v"/><lb ed="#L"/>pater et non est filius ergo essentia quae est pater non est filius quod est falsum</p>
         
         <p xml:id="pgb1q11-d1e1241"><g ref="#pilcrow"/>Ad primum contra 
           <lb ed="#L"/>2am conclusionem conceditur maior sed negatur minor tum quia proprie nulla persona divina constituitur 
@@ -409,7 +413,7 @@
         
         <p xml:id="pgb1q11-d1e1419"><g ref="#pilcrow"/>Ad aliud contra primum corollarium dico primo quod voluntas 
           <lb ed="#L"/>non est formale principium productivum saltim ad intra <g ref="#slash"/>2o potest dici quod cum 
-          <pb ed="#L" n="42r"/><lb ed="#L"/>nulla res se ipsam gignat vel producat et inter voluntatem et spiritum sanctum nulla sit 
+          <pb ed="#L" n="42-r"/><lb ed="#L"/>nulla res se ipsam gignat vel producat et inter voluntatem et spiritum sanctum nulla sit 
           <lb ed="#L"/>distinctio ideo ratio non concludit</p>
         
         <p xml:id="pgb1q11-d1e1432"><g ref="#pilcrow"/>Ad aliud contra 2m corollarium conceditur consequens de libertate immutabilitatis 
