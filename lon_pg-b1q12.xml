@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 12 [London Transcription]</title>
+        <title>Liber I, Quaestio 12 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.05-dev-master">
-          <title>Librum I, Quaestio 12 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 12 [London Transcription]</title>
           <date when="2014-05-07">May 07, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-05-07">May 07, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-07" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-05-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="42-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q12">
-        <head>Quaestio 12 [London Transcription]</head>
-         <p xml:id="pgb1q12-d1e92"><cb ed="#L" n="42v"/><lb ed="#L"/><hi rend="threeLineDropCap">I</hi><hi rend="largeFont">tem quaeritur etc</hi> <g ref="#pilcrow"/>haec est distinctio 12 inquam postquam <name ref="#Lombard">magister</name> determinavit 
+        <head>Liber I, Quaestio 12 [London Transcription]</head>
+         <p xml:id="pgb1q12-d1e92"><pb ed="#L" n="42-v"/><lb ed="#L"/><hi rend="threeLineDropCap">I</hi><hi rend="largeFont">tem quaeritur etc</hi> <g ref="#pilcrow"/>haec est distinctio 12 inquam postquam <name ref="#Lombard">magister</name> determinavit 
            <lb ed="#L"/>de filii generatione et spiritus sancti processione <g ref="#slash"/>nunc tractat de earum adinvicem 
            <lb ed="#L"/>comparatione <g ref="#slash"/>et dividitur in duas quia primo inquirit de ordine processionis 2o 
            <lb ed="#L"/>ostendit differentiam generationis et spirationis 2a in principio 13ae distinctionis ibi post haec etc</p> 
@@ -107,7 +112,7 @@
           <lb ed="#L"/>est modus dre[?] nequaquam pro ista etiam consequentiae[?] sunt verba <name ref="#Lombard">magistri</name> in textu</p>
         
         <p xml:id="pgb1q12-d1e343"><g ref="#pilcrow"/>primum corollarium quo 
-          <pb ed="#L" n="43r"/><lb ed="#L"/>non sequitur evidenter filius a solo patre et spiritus sanctus ab utroque producitur ergo generatio fi<lb ed="#L"/>lii 
+          <pb ed="#L" n="43-r"/><lb ed="#L"/>non sequitur evidenter filius a solo patre et spiritus sanctus ab utroque producitur ergo generatio fi<lb ed="#L"/>lii 
           a processione spiritus sancti distinguitur patet quia unitas vel pluralitas <choice><orig>producencium</orig><reg>producentium</reg></choice> 
           <lb ed="#L"/>non infert pluralitatem vel distinctionem productionum maxime ubi est unus modus a 
           <lb ed="#L"/>gerendi[?] sicut est in proposito ut dictum est supra</p>
@@ -165,7 +170,7 @@
           <lb ed="#L"/>seu procedens</p>
         
         <p xml:id="pgb1q12-d1e566"><g ref="#pilcrow"/>3m corollarium licet spiritus sanctus possit dici ingenitus improprie et negative 
-          <pb ed="#L" n="43v"/><lb ed="#L"/>non tamen debet dici ingenitus proprie et privative[?] prima pars patet quia spiritus sanctus non est genitus ergo est ingenitus 
+          <pb ed="#L" n="43-v"/><lb ed="#L"/>non tamen debet dici ingenitus proprie et privative[?] prima pars patet quia spiritus sanctus non est genitus ergo est ingenitus 
           <lb ed="#L"/>exponendo negative ingenitus 2a patet per dictam quia tunc persona spiritus sancti esset persona 
           <lb ed="#L"/>patris quod est impossibile ex quibus omnibus sequitur pars conclusionis affirmativa</p>
         
@@ -230,7 +235,7 @@
         <p xml:id="pgb1q12-d1e745"><g ref="#pilcrow"/>alio pater amando filium et filius reamando[?] patrem 
           <lb ed="#L"/>producunt spiritum sanctum sed pater non minus amat spiritum sanctum quam filium nec minus re<lb ed="#L"/>amatur 
           a spiritu sancto quam a filio ergo pater et spiritus sanctus producunt alium spiritum sanctum <g ref="#slash"/>vel 
-          <pb ed="#L" n="44r"/><lb ed="#L"/>nulla persona producitur per amorem</p>
+          <pb ed="#L" n="44-r"/><lb ed="#L"/>nulla persona producitur per amorem</p>
         
         <p xml:id="pgb1q12-d1e758"><g ref="#pilcrow"/>contra 3am conclusionem et corollaria arguitur primo per <name ref="#Jerome">ieromium</name> quem <choice><orig>alegat</orig><reg>allegat</reg></choice> 
           <lb ed="#L"/><name ref="Lombard">magister</name> in distinctione enim dicens spiritus sanctus pater non est sed est ingenitus tamen pater non est quia patris est 
@@ -297,7 +302,7 @@
           <lb ed="#L"/>pluribus modis est ibi</p>
         
         <p xml:id="pgb1q12-d1e979"><g ref="#pilcrow"/>Ad 4m transeat maior sed cum ultra dicitur quod deo vel 
-          <pb ed="#L" n="44v"/><lb ed="#L"/>essentiae divinae quae sic est summe bona repugnat tam plurificari quam peccare dampnari 
+          <pb ed="#L" n="44-v"/><lb ed="#L"/>essentiae divinae quae sic est summe bona repugnat tam plurificari quam peccare dampnari 
           <lb ed="#L"/>conceditur sed tamen cum ipsius unitate stat bene personarum pluralitas</p>
         
         <p xml:id="pgb1q12-d1e988"><g ref="#pilcrow"/>Ad 5m dicitur quod in divinis 
@@ -358,7 +363,7 @@
         <p xml:id="pgb1q12-d1e1163"><g ref="#pilcrow"/>3a conclusio quod cum <name ref="#Augustine">augustinus</name> dicit spiritum sanctum procedere 
           <lb ed="#L"/>a patre principaliter et <name ref="#Jerome">Ieromus</name> dicit quod procedit a patre proprie et <name ref="#HilaryOfPoitiers">hylarius</name> dicit quod spiritus sanctus 
           <lb ed="#L"/>mittitur a patre per filium et a patre esse habet per filium debet sic intelligi quod spiritus 
-          <pb ed="#L" n="45r"/><lb ed="#L"/>spiritus procedat a patre hoc habet patre a se quod autem procedat a filio vel ab ipso mit<lb ed="#L"/>tatur 
+          <pb ed="#L" n="45-r"/><lb ed="#L"/>spiritus procedat a patre hoc habet patre a se quod autem procedat a filio vel ab ipso mit<lb ed="#L"/>tatur 
           hoc filius habet a patre quia pater gignendo filium dedat ei quod spiritus sanctus ab eo 
           <lb ed="#L"/>procedent et mitteretur</p>
         
