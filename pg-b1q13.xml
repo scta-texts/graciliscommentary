@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 13</title>
+        <title>Liber I, Quaestio 13</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.05-dev-master">
-          <title>Librum I, Quaestio 13</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 13</title>
           <date when="2015-11-21">November 21, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-21">November 21, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,33 +27,36 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-09" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-11-21" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="45-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q13">
-        <head>Quaestio 13</head>
-        <div>
-          <head>Circa textum</head> 
+        <head xml:id="pg-b1q13-Hd1e95">Quaestio 13</head>
+        <div xml:id="pg-b1q13-Dd1e98">
+          <head xml:id="pg-b1q13-Hd1e100">Circa textum</head> 
           <p xml:id="pgb1q13-d1e92">
             <cit>
-             <quote>Praeterea diligenter.</quote>
+             <quote xml:id="pg-b1q13-Qd1e107">Praeterea diligenter.</quote>
              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c1-d1e3477">Lombardus, I, d. 14, c. 1, n. 1</ref></bibl>
            </cit> 
            Ista est 14 distinctio quae ad praecedentes sic continatur, 
@@ -64,13 +65,13 @@
            Sanctum dari specialiter hominibus a Patre et Filio. Secundo quaerit utrum possit dari ad homine 
            <unclear cert="high">sancto</unclear> ibi 
            <cit>
-             <quote>hic quaeritur utrum viri sancti</quote>
+             <quote xml:id="pg-b1q13-Qd1e123">hic quaeritur utrum viri sancti</quote>
              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c3-d1e3477">Lombardus, I, d. 14, c. 3, n. 1</ref></bibl>
            </cit> 
            prima dividitur in duas quia primo de principio huius temporaliter 
            missionis ponit suam intentionem. Secundo refellit a suo proposito falsum opinionem. Secunda ibi 
            <cit>
-             <quote>sunt aliqui.</quote>
+             <quote xml:id="pg-b1q13-Qd1e133">sunt aliqui.</quote>
              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c2-d1e3477">Lombardus, I, d. 14, c. 2, n. 1</ref></bibl>
            </cit>
          </p>
@@ -78,21 +79,21 @@
             pura creatura. Secundo ostendit quomodo auctoritas <name ref="#Paul">Apostoli</name> huic videtur contraria. Tertio ostendit quomodo illa 
             est expondenda[?]. 2a ibi 
             <cit>
-              <quote>sed huic videtur esse contrarium.</quote>
+              <quote xml:id="pg-b1q13-Qd1e152">sed huic videtur esse contrarium.</quote>
               <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c3-d1e3557">Lombardus, I, d. 14, c. 3, n. 4</ref></bibl>
             </cit> 
             Tertia, ibi 
             <cit>
-              <quote>sed intelligendum est,</quote>
+              <quote xml:id="pg-b1q13-Qd1e162">sed intelligendum est,</quote>
               <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c3-d1e3557">Lombardus, I, d. 14, c. 3, n. 4</ref></bibl>
             </cit> 
             etc.</p>
         </div>
-        <div>
-          <head>
+        <div xml:id="pg-b1q13-Dd1e172">
+          <head xml:id="pg-b1q13-Hd1e174">
             <supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
+          <div xml:id="pg-b1q13-Dd1e179">
+            <head xml:id="pg-b1q13-Hd1e181"><supplied>Rationes principales</supplied></head>
             <p xml:id="pgb1q13-d1e150">Utrum missio temporalis Spiritus Sancti in corda fidelium sit processio aeternalis 
               non habens initium utrum Spiritus Sancti in corda fidelium donatio[?] temporalis sit 
               eiusdem a Patre et Filio spiratio aeternalis</p> 
@@ -108,10 +109,11 @@
               quod sibi uniretur ut caritas habitualis, quod est falsum.</p>
             
             <p xml:id="pgb1q13-d1e200">Secundo, principaliter arguitur vel ergo daretur 
-              Spiritus Sanctus cum quolibet suo dono vel cum nullo vel cum aliquo et aliquo. 
+              Spiritus Sanctus cum quolibet suo dono vel cum nullo vel cum aliquo et aliquo.
+              Non
               <app>
-                <lem>Non</lem>
-                <rdg wit="#L" type="intextu" cause="repetitio">non</rdg>
+                <lem n="non"/>
+                <rdg wit="#L" type="variation-present" cause="repetition">non</rdg>
               </app> 
               primum quia tunc 
               Spiritus Sanctus staret in eodem cum dono timoris quod est falsum quia caritas foras mittit[?] 
@@ -121,23 +123,23 @@
             <p xml:id="pgb1q13-tpqtcs">Tertio, principaliter quam repugnat temporale aeternaliter dari tam repugnat aeternum temporaliter dari 
               vel procedere sed primum est impossibile, ergo. Antecedens patet cum quia persona procedens tum quia omne temporale 
               est mutabile ut inquit 
-              <ref>
-                <seg><name ref="#Augustine">Augustinus</name> IV <title ref="#deTrinitate">De Trinitate</title> capitulo 2.</seg>
+              <cit>
+                <ref xml:id="pg-b1q13-Rd1e208"><name ref="#Augustine">Augustinus</name> IV <title ref="#deTrinitate">De Trinitate</title> capitulo 2.</ref>
                 <bibl>Augustinus, De Trinitate, IV, c. 2, xxx</bibl>
-              </ref>
+              </cit>
             </p>
           
             <p xml:id="pgb1q13-d1e235">In oppositum est 
-              <ref>
-                <seg><name ref="#Lombard">Magister</name> in hac distinctione.</seg>
+              <cit>
+                <ref xml:id="pg-b1q13-Rd1e226"><name ref="#Lombard">Magister</name> in hac distinctione.</ref>
                 <bibl>Lombardus, I, d. 14, xxx</bibl>
-              </ref> 
+              </cit> 
               Et confirmatur quia quae solum ratione differunt idem sunt realiter, sed missio Spiritus Sancti temporalis et processio 
               aeternalis sunt huiusmodi, ergo. Minor patet quia quando processio Spiritus Sancti terminatur ad obiectum aeternum dicitur aeterna 
               quando ero ad temporale dicitur temporalis.</p>
           </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head>
+          <div xml:id="pg-b1q13-Dd1e237">
+            <head xml:id="pg-b1q13-Hd1e239"><supplied>Prima conclusio</supplied></head>
             <p xml:id="pgb1q13-d1e249">Prima conclusio stat quodlibet donum incomplexum Spiritus Sancti inhaerere 
               formaliter creaturae rationali et per huius dona creaturam Deo non gratificari. Probatur quia stat 
               quodlibet donum incomplexum creatum a Deo conservari et ad esse sibi gratiosum[?] non acceptari 
@@ -154,11 +156,11 @@
               repugnat formaliter et 
               <app>
                 <lem>intrinsece</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del>extrinsece</del>
                     <add>intrinsece</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
               seu est incompossibile. Patet quia omne tale repugnans est 
@@ -169,40 +171,39 @@
               cuilibet tali dono creato incomplexo, sicut est caritas creata peccatum est compossibile per 
               praecedens corollarium.</p>
           </div>
-          <div>
-            <head><supplied>Secunda conclusio</supplied></head>
+          <div xml:id="pg-b1q13-Dd1e277">
+            <head xml:id="pg-b1q13-Hd1e279"><supplied>Secunda conclusio</supplied></head>
             
             <p xml:id="pgb1q13-d1e317">Secunda conclusio: licet Spiritus Sanctus sit omnium donorum suorum ratio causalis effectiva, 
               non tamen inest eis simul existendi necessaria ratio connexiva. Prima patet per illud 
-              <ref><title ref="#eph">Ephesios</title> 2</ref> 
+              <ref xml:id="pg-b1q13-Rd1e285"><title ref="#eph">Ephesios</title> 2</ref> 
               <cit>
-                <quote ana="#eph2_10">ipsius 
+                <quote xml:id="pg-b1q13-Qd1e292" ana="#eph2_10">ipsius 
                   factura sumus creati in christo ihesu in operibus bonis quae praeparavit deus ut in illis 
                   ambulemus</quote>
                 <bibl>Ephesios 2:10</bibl>
               </cit> 
               super quo <name ref="#Augustine">Augustinus</name> inquit 
               <cit>
-                <quote>non utique illa creatione qua homines facta sunt nullus 
+                <quote xml:id="pg-b1q13-Qd1e304">non utique illa creatione qua homines facta sunt nullus 
                   sed de ea ipse dicebat qui iam homo erat cor mundum ea[?] in me deus</quote>
                 <bibl>Augustinus, XXX</bibl>
               </cit> 
               Secunda pars 
               probatur quia Spiritus Sanctus non habet maiorem connexionem nec magis necessariam respectu unius quam 
-              respectu omnium sed non habet respectu omnium 
+              respectu omnium sed non habet respectu omnium
+              connexionem
               <app>
-                <lem>connexionem</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del>ergo</del>
-                  </corr>
+                <lem n="connexionem"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del>ergo</del>
                 </rdg>
               </app> 
               necessariam secundum 
-              <ref><name ref="#Paul">Apostolum</name> <title ref="#Icor">I Corinthios</title> primo</ref> <!-- cannot find quote -->
+              <ref xml:id="pg-b1q13-Rd1e323"><name ref="#Paul">Apostolum</name> <title ref="#Icor">I Corinthios</title> primo</ref> <!-- cannot find quote -->
               dicentem divisiones Graecarum sunt et sequitur 
               <cit>
-                <quote ana="Icor12_11">omnia autem haec operatur unus atque idem Spiritus dividens 
+                <quote xml:id="pg-b1q13-Qd1e335" ana="Icor12_11">omnia autem haec operatur unus atque idem Spiritus dividens 
                   singulis prout vult,</quote>
                 <bibl>I Corinthios 12:11</bibl>
               </cit> 
@@ -225,17 +226,17 @@
               renovatione qua creatur in eo cor mundum et esse iustum sed hoc est quodam Spiritus Sancti 
               donum complexum puta mentem esse iustam et Deo gratam.</p>
           </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head>
+          <div xml:id="pg-b1q13-Dd1e357">
+            <head xml:id="pg-b1q13-Hd1e359"><supplied>Tertia conclusio</supplied></head>
             <p xml:id="pgb1q13-d1e456">Tertia conclusio: licet missio qua 
               Spiritus Sanctus viris temporaliter communicatur ab eiusdem processione aeternali non realiter 
               distinguitur improprie tamen huiusmodi missio seu gratuita diffusio temporalis nuncupatur. 
               Prima pars probatur quia summe simplex indivisibile a se ipso proprie non est distinguibile nec realiter 
               et Spiritus Sancti missio etc est huiusmodi, ergo. Maior nota. Minor probatur quia aliter Spiritus Sanctus <sic>incipet</sic> 
               quandoque habere aliquam dispositionem seu realem productionem quam non habuit ab aeterno quod est falsum. 
-              Secunda pars patet per <ref><name ref="#Lombard">Magistrum</name> in primo capitulo 14 distinctionis</ref> ubi dicit 
+              Secunda pars patet per <ref xml:id="pg-b1q13-Rd1e368"><name ref="#Lombard">Magistrum</name> in primo capitulo 14 distinctionis</ref> ubi dicit 
               <cit>
-                <quote>hanc productionem esse temporalem,</quote>
+                <quote xml:id="pg-b1q13-Qd1e375">hanc productionem esse temporalem,</quote>
                 <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c1-d1e3517">Lombardus, I, d. 14, c. 1, n. 5</ref></bibl>
               </cit> 
               sed hoc non potest dici proprie et intrinsece, ergo improprie et terminative alicuius relationis novae extrinsece 
@@ -255,8 +256,8 @@
           est vel esse potest mutabilis. Patet eadem est cum aeternali processione quae omnino immutabilis 
           est igitur. Ex quibus sequitur titulus quaestionis quovis affirmativus.</p>
           </div>
-          <div>
-            <head><supplied>Obiectiones et responsiones</supplied></head>
+          <div xml:id="pg-b1q13-Dd1e395">
+            <head xml:id="pg-b1q13-Hd1e397"><supplied>Obiectiones et responsiones</supplied></head>
         <p xml:id="pgb1q13-d1e522">Ad rationem principalem, negatur antecedens et ad 
           probationem dicitur per tertiam conclusionem quod saltim de potentia et lege Dei absoluta Spiritus Sanctus potest communicari 
           et mitti sine donis illis et econverso quia inter illa non est connexio necessaria nec tamen. Ex
@@ -283,11 +284,11 @@
           et 
           <app>
             <lem>formaliter</lem>
-            <rdg wit="#L" type="corrReplace">
-              <corr>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
                 <del rend="strikethrough">meritorius</del>
                 <add place="inLine">gratuitus</add>
-              </corr>
+              </subst>
             </rdg>
           </app> 
            videatur quia videtur impossibile actum esse meritorium vitae aeternae 
@@ -298,19 +299,19 @@
           concludi et minor formari sed sufficienter per se intrinsece elevat ad esse bene moraliter, 
           ergo ad operari et sic arguendo negatur minor.</p>
         
-        <p xml:id="pgb1q13-d1e603">Ad secundum dico quod intelligit de unione 
+        <p xml:id="pgb1q13-d1e603">Ad secundum dico quod intelligit de unione
+          gratuita
           <app>
-            <lem>gratuita</lem>
-            <rdg wit="#L" type="corrDeletion">
-              <corr>
-                <del rend="strikethrough">formali</del>
-              </corr>
+            <lem n="gratuita"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">formali</del>
             </rdg>
           </app> 
           per sanctificationem mentis de qua nunc et sermo. Negatur antecedens cum quia Deus est agens 
           infinitae virtutis tum quia anima est quasi immediatum[?] subiectum[?] in illa unione, tum quia agens 
           dicitur esse ubi operatur sed Deus omnem in nobis dispositionem bonam operatur, ergo prius est in nobis 
-          quam tales dispositiones.</p>
+          quam tales dispositiones.
+        </p>
         
         <p xml:id="pgb1q13-d1e623">Ad tertium, concesso antecedente, negatur consequentia quia si valeret probaretur 
           similiter quod homo sufficeret ad producendum quodlibet individuum speciei inferioris citra ipsum. 
@@ -324,15 +325,15 @@
         <p xml:id="pgb1q13-d1e641">Contra secundam 
           conclusione, arguitur primo sic impossibile est aliquam creaturam esse et Deum in ipsam per potentiam praesentiam 
           et essentia non existere, ergo. Antecedens patet per 
-          <ref>
-            <seg><name ref="#Lombard">Magistrum</name> distinctione 37 primi.</seg>
+          <cit>
+            <ref xml:id="pg-b1q13-Rd1e461"><name ref="#Lombard">Magistrum</name> distinctione 37 primi.</ref>
             <bibl>Lombardus, I, d. 37</bibl>
-          </ref> 
+          </cit> 
           Consequentia patet cum quia talia gratuita dona sunt res cum quia his quibus datur sunt res vere, ergo Spiritus Sanctus 
           erit, tamen in illis quam in donis, ergo unum sine alio non datur.</p>
         
         <p xml:id="pgb1q13-d1e661">Contra primum corollarium: quia sequeretur quod 
-          aliquis posset habere esse gratuitum sine forma gratuita consequens est falsum, quia <quote>forma est quae 
+          aliquis posset habere esse gratuitum sine forma gratuita consequens est falsum, quia <quote xml:id="pg-b1q13-Qd1e473">forma est quae 
           dat esse rei.</quote> Consequentia patet, quia forma habitualis gratuita est Dei donum creatum gratuitum 
           et quicumque habet spiritum sanctum habet esse gratuitum ergo</p>
         
@@ -353,12 +354,12 @@
           hic non loquor de illo modo communi essendi quo Deus est in omnibus rebus sed de illo de quo 
           dicitur Christus 
           <cit>
-            <quote ana="#io14_23">si quis diligit me</quote>
+            <quote xml:id="pg-b1q13-Qd1e494" ana="#io14_23">si quis diligit me</quote>
             <bibl>Ioannes 14:23</bibl>
           </cit>
           etc. 
           <cit>
-            <quote ana="#io14_23">mansionem apud eum faciemus</quote>
+            <quote xml:id="pg-b1q13-Qd1e503" ana="#io14_23">mansionem apud eum faciemus</quote>
             <bibl>Ioannes 14:23</bibl>
           </cit> 
           super quo dicit 
@@ -368,7 +369,7 @@
           tum etiam quia in hac unione venit propter eum ad eum et in eum. Tertio quia non venit recessurus 
           sed aeternaliter remansurus, ideo dicit 
           <cit>
-            <quote ana="#io14_23">apud eum mansione faciemus</quote>
+            <quote xml:id="pg-b1q13-Qd1e515" ana="#io14_23">apud eum mansione faciemus</quote>
             <bibl>Ioannes 14:23</bibl>
           </cit>  
           posset ergo dici quod ille modus specialis essendi est caritatis creatae et increatae in corde 
@@ -376,16 +377,16 @@
           in intellectu refractio ut sic quilibet hoc percipiens et accipiens dicere[?] posset 
           illud <title ref="#ps">Psalmus</title> 
           <cit>
-            <quote ana="#ps84_7">Deus tu conversus vivificabis nos.</quote>
+            <quote xml:id="pg-b1q13-Qd1e528" ana="#ps84_7">Deus tu conversus vivificabis nos.</quote>
             <bibl>Psalmus 84:7</bibl>
           </cit> 
           Hunc modum ponit  
-          <ref>
+          <ref xml:id="pg-b1q13-Rd1e535">
             <name ref="#HermannusDeScildis">Magister 
               <pb ed="#L" n="47r"/> 
               Hermannus de Scildis</name> super illud <title ref="#cant">Canticum</title> <unclear>4</unclear>,</ref> 
           <cit>
-            <quote ana="#cant7_10"><sic>dilectio</sic> et ad me conversio eius.</quote>
+            <quote xml:id="pg-b1q13-Qd1e551" ana="#cant7_10"><sic>dilectio</sic> et ad me conversio eius.</quote>
             <bibl>Hermanus de Schildesche, xxx</bibl>
           </cit> 
         </p>
@@ -409,24 +410,25 @@
         
         <p xml:id="pgb1q13-d1e822">Contra tertiam conclusionem arguitur, primo sic genuam[?] 
           est Spiritus Sancti processio, ergo una ab alia est distincta. Consequentia patet ex terminis, et antecedens est 
-          <ref>
-            <seg><name ref="#Lombard">Magistri</name> 
-            in hac distinctione.</seg>
+          <cit>
+            <ref xml:id="pg-b1q13-Rd1e578"><name ref="#Lombard">Magistri</name> 
+            in hac distinctione.
+            </ref>
             <bibl>Lombardus, I, d. 14, xxx</bibl>
-          </ref>
+          </cit>
         </p>
         
         <p xml:id="pgb1q13-d1e833">Confirmatur quia processiones penes terminos numerantur sicut potest trahi ex 
-          <ref>
-            <seg>IV <title ref="#Physics">Physicorum</title></seg>
+          <cit>
+            <ref xml:id="pg-b1q13-Rd1e592">IV <title ref="#Physics">Physicorum</title></ref>
             <bibl>Aristoteles, Physicorum, IV, xxx</bibl>
-          </ref> 
+          </cit> 
           de motibus sed processionis temporalis et aeternalis est alius et alius tempus[?] 
           secundum 
-          <ref>
-            <seg><name ref="#Averroes">Commentatorem</name> 10 <title ref="#MetaphysicsCommentary">Metaphysicae</title></seg>
+          <cit>
+            <ref xml:id="pg-b1q13-Rd1e603"><name ref="#Averroes">Commentatorem</name> 10 <title ref="#MetaphysicsCommentary">Metaphysicae</title></ref>
             <bibl>Averroes, Metaphysicae, X</bibl>
-          </ref> 
+          </cit> 
           corruptibile et incorruptible differunt plusquam genere, ergo conclusio falsa.</p>
         
         <p xml:id="pgb1q13-d1e852">Contra primum 
@@ -438,28 +440,28 @@
           quia tunc homo immense esset gratus deo et sic unus non plus quam alius esset gratus</p>
         
         <p xml:id="pgb1q13-d1e876">Contra tertium corollarium, est 
-          <ref><name ref="#Augustine">Augustinus</name> IV <title ref="#CityOfGod">De civitate <supplied>Dei</supplied></title> capitulo tertio</ref> approbans verbum <name>apulei</name> dicentis 
+          <ref xml:id="pg-b1q13-Rd1e625">
+            <name ref="#Augustine">Augustinus</name> IV <title ref="#CityOfGod">De civitate <supplied>Dei</supplied></title> capitulo tertio</ref> approbans verbum <name>apulei</name> dicentis 
           in libro suo de mundo terrena omnia mutationes conversiones intrinsecus 
           habent cum ergo secundum <name ref="#Augustine">Augustinum</name> omne temporale sit mutabile sequitur quod si processio Spiritus 
           Sancti sit temporalis quod sit mutabilis.</p>
         
         <p xml:id="pgb1q13-d1e910">Ad primum, dicitur quod <name ref="#Lombard">Magister</name> vult dicere quod Spiritus 
           Sanctus duobus modis procedit et tamen vitam processione. Ad confirmationem conceditur antecedens 
-          ubi procedens 
+          ubi procedens
+          realiter
           <app>
-            <lem>realiter</lem>
-            <rdg wit="#L" type="corrDeletion">
-              <corr>
-                <del rend="strikethrough">distinguitur</del>
-              </corr>
+            <lem n="realiter"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">distinguitur</del>
             </rdg>
           </app> 
           et intrinsece refertur ad tales terminos et non extrinsece 
           secundum rationem solutio unde secundum 
-          <ref>
-            <seg><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo ultimo,</seg>
+          <cit>
+            <ref xml:id="pg-b1q13-Rd1e662"><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo ultimo,</ref>
             <bibl>Augustinus, De Trinitate, V, c. xxx</bibl>
-          </ref> 
+          </cit> 
           Spiritus Sanctus ad obiectum 
           aeternum refertur secundum esse ad temporale vero solum secundum rationem.</p>
         
@@ -492,11 +494,11 @@
               quadam denominatione extrinseca sine sui mutatione.</p>
           </div>
         </div>
-        <div>
-          <head><supplied>Conclusiones</supplied></head>
+        <div xml:id="pg-b1q13-Dd1e710">
+          <head xml:id="pg-b1q13-Hd1e712"><supplied>Conclusiones</supplied></head>
           <p xml:id="pgb1q13-d1e1028">
             <cit>
-              <quote>Praeterea diligenter.</quote>
+              <quote xml:id="pg-b1q13-Qd1e720">Praeterea diligenter.</quote>
               <bibl><ref type="commentary" target="http://scta.info/resource/pll1d14c1-d1e3477">Lombardus, I, d. 14, c. 1, n. 1</ref></bibl>
             </cit>
             etc. Haec distinctio continet 5 conclusiones. Prima quod genia[?]  est processio Spiritus Sancti 
@@ -507,31 +509,31 @@
           <p xml:id="pgb1q13-d1e1047">Secunda conclusio: quod hanc temporalem processionem Christus insinuavit 
             cum post resurrectionem insufflavit in discipulos dicens 
             <cit>
-              <quote ana="#io20_22">accipite Spiritum Sanctum</quote>
+              <quote xml:id="pg-b1q13-Qd1e733" ana="#io20_22">accipite Spiritum Sanctum</quote>
             </cit> 
             <title ref="#io">Iohannis</title>. 
-            Ipse etiam Spiritus Sanctus est ista 
+            Ipse etiam Spiritus Sanctus est ista
+            virtus
             <app>
-              <lem>virtus</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
-                  <del rend="strikethrough">de</del>
-                </corr>
+              <lem n="virtus"/>
+              <rdg wit="#L" type="correction-deletion">
+                <del rend="strikethrough">de</del>
               </rdg>
             </app> 
             quae de Christo 
             <cit>
-              <quote ana="#lc6_19">exibat et sanabat 
+              <quote xml:id="pg-b1q13-Qd1e753" ana="#lc6_19">exibat et sanabat 
                 <app>
-                  <lem><supplied>omnes</supplied></lem>
+                  <lem type="conjecture-supplied"><supplied>omnes</supplied></lem>
                   <rdg wit="#L">os</rdg>
                 </app>
               </quote>
               <bibl>Lucas 6:19</bibl>
             </cit> 
-            <ref><title ref="#lc">Luce</title> 
+            <ref xml:id="pg-b1q13-Rd1e770">
+              <title ref="#lc">Luce</title> 
               <app>
-                <lem>6.</lem>
+                <lem type="conjecture-supplied"><supplied>6</supplied></lem>
                 <rdg wit="#L">8</rdg>
               </app>
             </ref>
