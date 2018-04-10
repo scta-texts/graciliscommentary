@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
@@ -10,42 +10,46 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.05-dev-master">
+        <edition n="0.0.0-dev">
           <title>Librum I, Quaestio 13 [London Transcription]</title>
           <date when="2014-05-09">May 09, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-05-09">May 09, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-05-09" who="#JW" status="draft" n="2014.05">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-05-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="45-r"/>
       </div>
     </front>
     <body>
@@ -75,7 +79,7 @@
           <lb ed="#L"/>dispositio et sic erit processus infinitus in dispositionibus talibus praerequisitis vel erit dabilis 
           <lb ed="#L"/>aliqua simpliciter prima non praesupponens aliam et tunc similiter potest dici de <choice><orig>dacione</orig><reg>datione</reg></choice> spiritus sancti 
           <lb ed="#L"/>quod erit prima non praerequirens aliam si 2m sequitur quod aeque esset aptus ad recipiendum spiritum sanctum 
-          <pb ed="#L" n="45v"/><lb ed="#L"/>indispositus sicut dispositus quod est falsum ergo <g ref="#pilcrow"/>2o probatur antecedens quia si spiritus sanctus daretur creaturae sequeretur 
+          <pb ed="#L" n="45-v"/><lb ed="#L"/>indispositus sicut dispositus quod est falsum ergo <g ref="#pilcrow"/>2o probatur antecedens quia si spiritus sanctus daretur creaturae sequeretur 
           <lb ed="#L"/>quod sibi uniretur ut caritas habitualis quod est falsum</p>
         
         <p xml:id="pgb1q13-d1e200"><g ref="#pilcrow"/>2o principaliter arguitur vel ergo daretur 
@@ -134,7 +138,7 @@
           <lb ed="#L"/>et personam spiritus sancti per illapsum specialem eidem non infundi patet quia dona sunt 
           <lb ed="#L"/>ab eo distincta Item non habent <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> connexionem ut simul in eodem existant <choice><orig>neccessario</orig><reg>necessario</reg></choice> ergo</p>
         
-        <p xml:id="pgb1q13-d1e430"><pb ed="#L" n="46r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium quamvis spiritus sanctus possit communicari sine quolibet eius dono gratuito incomplexo 
+        <p xml:id="pgb1q13-d1e430"><pb ed="#L" n="46-r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium quamvis spiritus sanctus possit communicari sine quolibet eius dono gratuito incomplexo 
           <lb ed="#L"/>creato tamen spiritus sanctus non potest dari sine quocumque alio dono gratuito prima patet per dictam 
           <lb ed="#L"/>2a pars probatur quia impossibile est menti rationali dari spiritus sanctus sine <choice><orig>innovacione</orig><reg>innovatione</reg></choice> vel 
           <lb ed="#L"/><choice><orig>renovacione</orig><reg>renovatione</reg></choice> qua creatur in eo cor mundum et esse iustum sed hoc est quoddam spiritus sancti 
@@ -192,7 +196,7 @@
         <p xml:id="pgb1q13-d1e578"><lb ed="#L"/><g ref="#pilcrow"/>contra 3m corollarium sequitur quod habitus caritatis non est effectivus meritorii actus quod est falsum 
           <lb ed="#L"/>quia assistentia non sufficit ad meritorie operandum consequentia probatur cum actus meritorius intrinsece 
           <lb ed="#L"/>et formaliter <corr><del rend="strikethrough">meritorius</del><add place="inLine">gratuitus</add></corr>  videatur quia videtur impossibile actum esse meritorium vitae aeternae 
-          <pb ed="#L" n="46v"/><lb ed="#L"/>et non esse meritorium vel gratuitum</p>
+          <pb ed="#L" n="46-v"/><lb ed="#L"/>et non esse meritorium vel gratuitum</p>
         
         <p xml:id="pgb1q13-d1e595"><g ref="#pilcrow"/>Ad primum negatur minor et ad probationem negatur consequentia sed sic debet 
           <lb ed="#L"/>concludi et minor formari sed sufficienter per se intrinsece elevat ad esse bene moraliter 
@@ -249,7 +253,7 @@
           intimatio et quaedam dulcedinis divinae immense diffusio et quaedam divini luminis 
           <lb ed="#L"/>in intellectu refractio ut sic quilibet hoc percipiens et accipiens dicere posset 
           <lb ed="#L"/>illud <title ref="#ps">psalmus</title> <quote ana="#ps84_7">deus tu conversus vivificabis nos</quote> hunc modum ponit <name ref="#HermannusDeScildis">magister 
-          <pb ed="#L" n="47r"/><lb ed="#L"/>hermanus de schildis</name> super illud <ref><title ref="#cant">canticum</title><sic>4o</sic></ref><quote ana="#cant7_10"><sic>dilectio</sic> et ad me conversio eius</quote><g ref="#dbslash"/>
+          <pb ed="#L" n="47-r"/><lb ed="#L"/>hermanus de schildis</name> super illud <ref><title ref="#cant">canticum</title><sic>4o</sic></ref><quote ana="#cant7_10"><sic>dilectio</sic> et ad me conversio eius</quote><g ref="#dbslash"/>
         </p>
         
         <p xml:id="pgb1q13-d1e779"><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m dicitur quod aliquem habere esse gratuitum potest esse dupliciter <g ref="#slash"/>uno modo habitualiter intrinsece 
@@ -316,7 +320,7 @@
         
         <p xml:id="pgb1q13-d1e1005"><g ref="#pilcrow"/>Ad ultimum antecedens 
           <lb ed="#L"/>negatur pro prima parte quia nihil procedit dum non est modo nullum temporale habuit 
-          <pb ed="#L" n="47v"/><lb ed="#L"/>esse ab aeterno sed temporalitas potest competere aeterno non intrinsece sed extrinsece seu 
+          <pb ed="#L" n="47-v"/><lb ed="#L"/>esse ab aeterno sed temporalitas potest competere aeterno non intrinsece sed extrinsece seu 
           <lb ed="#L"/>quadam <choice><orig>denominacione</orig><reg>denominatione</reg></choice> extrinseca sine sui <choice><orig>mutacione</orig><reg>mutatione</reg></choice></p>
         
         <p xml:id="pgb1q13-d1e1028"><g ref="#pilcrow"/><hi>Praeterea di<lb ed="#L"/>ligenter 
