@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 33</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.01">
+          <title>Librum I, Quaestio 33</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-01-27" who="#JW" status="draft" n="2015.01">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">documentary</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q33">
+        <head xml:id="pgb1q33-Hd1e3498">Quaestio 33</head>
+        <div>
+          <head xml:id="pgb1q33-Hd1e3503"><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q33-d1e3507">
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3511">Si autem quaerimus.</quote>
+              <bibl>Lombardus, I, d. xxx</bibl>
+            </cit> 
+            Postquam <name ref="#Lombard">Magister</name> egit de praedestinatione 
+            et reprobatione quantum ad 
+            <app>
+              <lem>eorum</lem>
+              <rdg wit="#L" type="corrDeletion">
+                <corr>
+                  <del>rationem causalem</del>
+                </corr>
+              </rdg>
+            </app> 
+            certitudinem 
+            infallibilem in hac 43 distinctione incipit tractare de ipsis 
+            quantum ad eorum rationem causalem. Et dividitur in duas, nam primo 
+            <pb ed="#L" n="99r"/> 
+            quaerit an praedestinato vel reprobatio tenetur ex humana operatione, secundo incidenter 
+            quaerit utrum Dei scientia varietur ex creaturarum mutatione. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3540">praeterea considerare oportet</quote>
+              <bibl>Lombardus, I, d. xxx</bibl>
+            </cit>
+          </p>
+          
+          <p xml:id="pgb1q33-d1e3548">Prima dividitur in tres quia primo facit suam
+            <app>
+              <lem>inquisitionem,</lem>
+              <rdg wit="#L" type="corrReplace">
+                <del>intentionem</del>
+                <add>inquisitionem</add>
+              </rdg>
+            </app> 
+            secundo circa eam ponit suam intentionem, tertio refellit quemdam 
+            haereticam opinionem. Secunda ibi 
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3567">opinati sunt.</quote>
+              <bibl>Lombardus, I, xxx</bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3576">multi vero.</quote>
+              <bibl>Lombardus, I, xxx</bibl>
+            </cit>
+          </p>
+          
+          <p xml:id="pgb1q33-d1e3584">Prima in tres principalis 
+            quia primo de scientia et praescientia movet quaestionem, secundo ad quaestionem de praescientia dat responsionem, 
+            tertio alterius quaestionis dat solutionem. Secunda ibi 
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3588">de scientia.</quote>
+              <bibl>Lombardus, I, xxx</bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pgb1q33-Qd1e3597">de praescientia autem,</quote>
+              <bibl>Lombardus, I, xxx</bibl>
+            </cit> 
+            etc.</p>
+        </div>
+        <div>
+          <head xml:id="pgb1q33-Hd1e3608">Quaestio</head>
+          <div>
+            <head xml:id="pgb1q33-Hd1e3613"><supplied>Rationes principales</supplied></head> 
+            
+            <p xml:id="pgb1q33-d1e3617">Utrum praedestinationis ac reprobationis aeternalis sit aliquod aeternale 
+              motivum autem ratio causalis</p> 
+            
+            <p xml:id="pgb1q33-qsqopp">Quod sic quia aliquis potest mereri alteri primam gratiam, 
+              ergo eadem ratione finalem et ultimam, sed illa videtur esse ratio causalis praedestinationis, 
+              ergo. Antecedens patet de stante orante pro <name ref="#Paul">Paulo</name>. Confirmatur, si nulla daretur 
+              causa, sequitur Deum esse acceptorem personarum contra Scripturam.</p>
+            
+            <p xml:id="pgb1q33-d1e3625">Secundo, reprobatio alicuius 
+              est et non a se, ergo ab aliqua causa et non a Deo, igitur quod non a Deo probatur quia vel esset 
+              volente Deo ut dicit <name ref="#Rimini">Gregorius</name>, et hoc non quia tunc oppositum esset impossibile nec eo 
+              volente quia tunc Deum vellet malum 
+              <app>
+                <lem>culpae</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del>s</del><!-- unclear -->
+                  </corr>
+                </rdg>
+              </app> 
+              vel praecise eo non volente, 
+              ut dicit 
+              <ref>
+                <seg><name ref="#HugolinoOfOrvieto">Hugolinus</name>.</seg>
+                <bibl>Hugolinus de Urbe Veteri</bibl>
+              </ref> 
+              Et hoc non quia tunc reprobatio futura non differet <unclear>a <!-- is this "a" or <c>a</c> --></unclear> 
+              mere possibili futuro 
+              <app>
+                <lem><unclear>non.</unclear></lem> <!-- dbcheck -->
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del>3o principalis arguitur</del>
+                  </corr>
+                </rdg>
+              </app>  
+              Confirmatur quia Deus rationabiliter agit 
+              reprobando, ergo reprobationis est assignanda causa et non Deus, ergo aliquod demeritum 
+              temporale vel homo et habetur propositum.</p>
+            
+            <p xml:id="pgb1q33-d1e3646">Tertio, principaliter Deus reprobat praescitos et praedestinatos 
+              praedestinat propter aliquid quod non est ei aeternum et est ergo temporale. Patet consequentia 
+              et antecedens probatur quia aliqua est ratio causalis in communi vel generali, scilicet ut reluceat divinae 
+              <unclear>mi?e[?]</unclear> largitas et iustitiae aequitas, ut dicit 
+              <ref>
+                <seg><name ref="#Aquinas">Sanctus Thomas</name></seg>
+                <bibl>Aquinas, xxx</bibl>
+              </ref> 
+              et 
+              <ref>
+                <seg><name ref="#GilesOfRome">Aegidius Noster</name> 
+                  in hac distinctione.</seg>
+                <bibl>Aegidius Romanus, I, d. xxx</bibl>
+              </ref> 
+              Tum secundo quia datur causa sine qua non reprobationis et praedestinationis, 
+              ut dicit 
+              <ref>
+                <seg><name ref="#HenryOfGhent">Henricus Gandavensis</name> 4 quolibet, distinctio 19.</seg>
+                <bibl>Henricus Gandavensis, Quodlibet IV, d. 19</bibl>
+              </ref> 
+              Tum tertio quia usus malus <unclear>liberii</unclear> 
+              arbitrii finaliter duraturus a Deo praescitus est ratio 
+              <app>
+                <lem>causalis</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">liberi arbitrii</del>
+                  </corr>
+                </rdg>
+              </app>  
+              reprobationis, ut dicit 
+              <ref>
+                <seg><name ref="#ThomasStrasbourg">Thomas de Argentia</name> in hac distinctione articulo primo</seg>
+                <bibl>Thomas Argentina I, d. x, a. 1</bibl>
+              </ref> 
+              et similiter 
+              <ref>
+                <seg><name>Clienton</name> quaestione,</seg>
+                <bibl>Richard of Kilvington, xxx</bibl>
+              </ref> 
+              igitur.</p>
+            
+            <p xml:id="pgb1q33-d1e3682">In oppositum est 
+              <ref>
+                <seg><name rend="#Lombard">Magister</name> in littera.</seg>
+                <bibl>Lombardus, I, xxx</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q33-d1e3688">Item 
+              <ref><name ref="#Augustine">Augustinus</name> <title ref="#OnFaithToPeter">De fide ad 
+              Petrum</title> 35 capitulo</ref> 
+              <cit>
+                <quote>illi soli cum Christo regnabunt quos gratuita voluntate 
+                  sua praedestinavit ad regnum. <!-- quote here?? Possible paraphrase --></quote>
+                <bibl>Augustinus, De fide ad Petrum, xx, c. 35</bibl>
+              </cit>
+            </p>
+          </div>
+          <div>
+            <head xml:id="pgb1q33-Hd1e3703"><supplied>Prima conclusio</supplied></head>
+            <p xml:id="pgb1q33-d1e3707">Prima conclusio: licet non quilibet gradus caritatis vel 
+              gratiae sit praedestinationis effectus, tamen divina praedestinatio est causa cuiuslibet meritorii 
+              actus. Nota tamen quod hic voco meritorium actum pro quo dabitur in patria aliquis gradus 
+              gloriae. Prima pars probatur quia aliquis praedestinatus potest habere gratiam seu habet de facto, 
+              sed talis gratia non est de facto taliter vel effective a sua praedestinatione cum 
+              sit reprobatus, ergo illa pars vera. Consequentia bona et antecedens patet de <unclear>vida</unclear> et pluribus 
+              praescitis qui quandoque fuerunt et sunt in caritate.</p>
+            <!-- collapse paragaphs -->
+            <p xml:id="pgb1q33-d1e3710">Secunda pars probatur quia quidquid est causa alicuius 
+              finis est causa eorum quae sunt ad illum finem necessario requisita sed praedestinatio 
+              est tam salvationis ergo praedestinatio erit causa meriti necessario requisiti ad 
+              salutem, ergo conclusio vera tota. Confirmatur dicto Christi 
+              <cit>
+                <quote xml:id="pgb1q33-Qd1e3712" ana="#io15_16">elegi vos 
+                  <app>
+                    <lem>praedestinando,</lem>
+                    <rdg wit="#L" type="corrReplace">
+                      <corr>
+                        <del rend="strikethrough">praesdestinando</del>
+                        <add>praedestinando</add>
+                      </corr>
+                    </rdg>
+                  </app>
+                  scilicet ut eatis et fructum afferatis</quote>
+                <bibl>Ioannes 15:16</bibl>
+              </cit> 
+              ubi <unclear>no?anter</unclear> 
+              <app>
+                <lem>praeponit</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr><del>de</del></corr>
+                </rdg>
+              </app> 
+              praedestinationem 
+              electivam tamquam fructus meritorii effectivam, etiam patet per <name ref="#Lombard">Magistrum</name> de ista.</p> 
+            
+            <p xml:id="pgb1q33-d1e3731">Primum corollarium: nullus praesciti actus proprie est meritorius gloriae. Patet quia praedestinatio 
+              <pb ed="#L" n="99v"/> 
+              divina ut sic non est illius causa.</p>
+            
+            <p xml:id="pgb1q33-d1e3736">Secundum corollarium: non quilibet usus <sic>liberi</sic> arbitrii 
+              est productivus actus meritorii. Patet de arbitrio praesciti.</p>
+            
+            <p xml:id="pgb1q33-d1e3743">Tertium corollarium: licet praescitus 
+              possit salvari, tamen numeris electorum de communi lege non potest augeri. 
+              Prima pars patet quia quilibet praedestinatus contingenter salvabitur. Secunda pars patet per 
+              <ref><name ref="#Augustine">Augustinum</name> 
+              <title>de <unclear>cor[?]</unclear> commune et gratia</title> capitulo 61</ref> dicentem 
+              <cit>
+                <quote>certus est numerus electorum ut non addatur 
+                  eis quidquam nec minuatur ab eis.</quote>
+                <bibl>Augustinus, xxx, c. 61</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q33-d1e3755">Confirmatur quia si posset augeri ponatur 
+              quod per <c>a</c> augeatur, tunc sic <c>a</c> est de numero electorum et prius non fuit de 
+              eorum numero, igitur <c>a</c> incepit esse de numero illorum. Consequens est falsum quia quilibet 
+              electus fuit ab aeterno electus.</p>
+          </div>
+          <div>
+            <head xml:id="pgb1q33-Hd1e3770"><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q33-d1e3774">Secunda conclusio: sicut ratio causalis divinae praedestinationis 
+              est divinum propositum merendi praedestinato finaliter, sic non propositum finaliter 
+              ad iuste esse et bene acceptandi respectu reprobationis se habet causaliter. Probatur conclusio per 
+              <name ref="#Augustine">Augustinum</name> super <name ref="#Paul">Apostolum</name> cuius vult miseretur et quem vult indurat non inquit 
+              <name ref="#Augustine">Augustinus</name> ut ab illo aliquid irrogetur quo sit homo determinor sed tantum quo sit homo 
+              melior non erogatur ex quibus. Patet conclusio. Confirmatur ratio cum non est currentis 
+              neque volentis sed Dei miserentis.</p>
+            
+            <p xml:id="pgb1q33-d1e3786">Primum corollarium: sicut reprobatio per propositum non 
+              miserendi vel per nolle misereri non bene exprimitur sed per solum non propositum 
+              vel per velle non misereri insufficienter describitur. Prima pars probatur quia tam propositum 
+              quia velle se habent positive, sed Deus respectu reprobationis non se habet positive, ergo. 
+              Secunda pars probatur quia per solum non propositum non 
+              <app>
+                <lem>distinguitur</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">non</del>
+                  </corr>
+                </rdg>
+              </app> 
+              reprobatus vel reprobatio 
+              a mere possibili non futuro, ergo per illud insufficienter describitur reprobatio. 
+              Consequentia tenet et antecedens probatur quia ratio distinctiva futuri positivi a mere possibili est determinatio 
+              divinae voluntatis. Item Deus habet non propositionem seu non velle respectu <unclear>chimerae</unclear>.</p>
+            
+            <p xml:id="pgb1q33-d1e3795">Secundum corollarium: lege stante haec est bona consequentia <c>a</c> est reprobatus, ergo erit aliqua 
+              culpa maculatus. Patet quia sequitur <c>a</c> est reprobatus, ergo Deus aeternam poenam 
+              sibi praeparavit, sed non sine culpa, ergo.</p>
+            
+            <p xml:id="pgb1q33-d1e3804">Tertium corollarium: licet Deus aequae primo sit 
+              culpae et poena praesciti clara visio et cognitio, tamen respectu poenae et culpae 
+              Deus non est aeque primo causalis volitio. Patet quia Deus vult et praeparat poenam 
+              sed non culpam.</p>
+          </div>
+          <div>
+            <head xml:id="pgb1q33-Hd1e3810"><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q33-d1e3814">Tertia conclusio: sicut nulli merito <unclear>viatori</unclear> correspondet ratio <unclear>di?va</unclear> vel 
+              electiva praedestinationis sic praedestinationis ac reprobationis aeternalis 
+              nulla est ratio causalis temporalis. Prima patet quia tota ratio <unclear>d?va</unclear> et electiva correspondet 
+              praecise determinationi divinae voluntatis. Secunda pars patet quia solum divinum 
+              suppositum vel non propositum miserendi est ratio causalis praedestinationis et reprobationis, 
+              sed illud est aeternum non temporale, ergo.</p>
+            
+            <p xml:id="pgb1q33-d1e3826">Primum corollarium: sicut non datur causa 
+              vel ratio in speciali quare <name ref="#Petrus">Petrus</name> praedestinatur et <name ref="#JudasIscariot">Iudas</name> damnatur nisi 
+              aeternalis sic nec datur causa nisi in generali quare aliqui reprobantur et alii 
+              praedestinantur nisi voluntas divinalis. Patet quia si esset aliqua hoc esset 
+              propter relucentiam divinae 
+              <app>
+                <lem>bonitatis</lem>
+                  <rdg wit="#L" type="corrReplace">
+                    <corr>
+                      <del rend="strikethrough">voluntatis</del> 
+                      <add>bonitatis</add>
+                    </corr>
+                  </rdg>
+              </app> 
+              et aequitatis quia Dei bonitas 
+              et aequitas sufficienter relucent in aliis effectibus, ergo.</p>
+            
+            <p xml:id="pgb1q33-d1e3839">Secundum corollarium: 
+              sicut divina praedestinatio est causa meritoriae operationis sic liberi arbitrii usus 
+              <pb ed="#L" n="100r"/> 
+              non est causa praedestinatonis. Patet quia est posterior illa, ergo.</p>
+            
+            <p xml:id="pgb1q33-d1e3844">Tertium corollarium: licet possit aliquis 
+              aliquo modo esse causa suae obdurationis, tamen nullus potest esse causa suae aeternae reprobationis. 
+              Prima patet quia demeritum potest esse causa obdurationis aliquo modo ut dicit 
+              <ref>
+                <seg><name ref="#Rimini">Gregorius</name></seg>
+                <bibl>Gregorius Ariminiensis, xxx</bibl>
+              </ref> 
+              et 
+              <name ref="#Lombard">Magister <!-- is this lombard --></name> <unclear>obdurationis</unclear> inquit <name ref="#Lombard">Magister</name> meritum invenimus. Secunda patet per conclusionem 
+              Ex dictis sequitur negativa pars <unclear>conclusionis<!-- quaestionis --></unclear>.</p>
+          </div>
+          <div>
+            <head xml:id="pgb1q33-Hd1e3863">Obiectiones et responsiones</head>
+            <p xml:id="pgb1q33-d1e3866">Contra prima conclusionem, arguitur per 
+              <ref>
+                <seg><name ref="#Augustine">Beatum Augustinum</name> in 
+                fine libri <title ref="#DePraedestinationeSanctorum">De praedestinatione sanctorum</title></seg>
+                <bibl>Augustinus, De praedestinatione sanctorum, xxx</bibl>
+              </ref> 
+              dicentem praedestinationem non solum in apostolis 
+              sicut <unclear>Pelagiani</unclear> ponunt ponimus, sed in omnibus Deo digne servientibus, 
+              sed existens in caritate est serviens Deo digne, ergo omnis talis est praedestinatus, 
+              et per consequens omnis gradus caritatis vel gratiae est praedestinationis effectus.</p> 
+            
+            <p xml:id="pgb1q33-d1e3876">Secundo, si non sequitur quod aliquis esset dignus vita aeterna cui Deus nollet eam dare 
+              sed poenam. Consequens est falsum quia tunc non omne istum esset a Deo volitum. Consequentia 
+              patet quia existens in gratia vel caritate est dignus vita aeterna.</p>
+            
+            <p xml:id="pgb1q33-d1e3879">Tertio, sequeretur quod aliquis posset 
+              esse effectus ad aliquem gradum certum ad quem <unclear>?eus</unclear> cum aeternaliter non 
+              elegisset eum. Falsitas consequentis patet per <name ref="#Augustine">Augustinum</name> super illo verbo <title ref="#eph">Ad Ephesios</title> 
+              <cit>
+                <quote xml:id="pgb1q33-Qd1e3890" ana="#eph1_4">elegit nos ante mundi constitutionem ut essemus sancti.</quote>
+                <bibl>Ephesios 1:4</bibl>
+              </cit> 
+              <name ref="#Augustine">Augustinus</name> ideo <!-- punctuation unclear here -->
+              facti sumus et non aliter quia nos elegit et non econverso.</p>
+            
+            <p xml:id="pgb1q33-d1e3897">Quarto, sequitur quod esset in potestate 
+              non praedestinati ex suis naturalibus et gratia sibi data facere se praedestinati. 
+              Consequens est falsum, et patet consequentia quia mediante auxilio gratiae sibi datae posset 
+              vitare quodlibet peccatum mortale futurum et perseverare finaliter in gratia quod, 
+              si faceret, salvaretur et per consequens esset praedestinatus.</p>
+            
+            <p xml:id="pgb1q33-d1e3901">Quinto, per 
+              <ref>
+                <seg><name ref="#Augustine">Augustinum</name> <title ref="#DeHaeresibus">de 
+                  haeresibus</title></seg>
+                <bibl>Augustinus, De Haeresibus, xxx</bibl>
+              </ref> 
+              et allegat ipsum 
+              <ref>
+                <seg><name ref="#Lombard">Magister</name> libro 2, distinctione 28</seg>
+                <bibl>Lombardus, II, d. 28</bibl>
+              </ref> <!-- possible quote here --> 
+              nullus potest implere 
+              mandata et est ergo quilibet talis habet gratiam praedestinationis.</p>
+            
+            <p xml:id="pgb1q33-d1e3916">Sexto, nullus 
+              sententiatus a Deo ad supplicium aeternum est vita aeterna dignus, ergo 
+              nullus sit sententiatus habet gratiam vel caritatem. Tenet consequentia cum habere 
+              caritatem. Tenet consequentia cum habere caritatem vel gratiam arguat dignitatem 
+              habendi vitam aeternam. Antecedens probatur quia quilibet ad tale supplicium 
+              <app>
+                <lem><unclear>sn?iatus</unclear></lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">habet gratiam vel caritatem</del>
+                  </corr>
+                </rdg>
+              </app> 
+              est tali supplicatio et morte aeterna dignus.</p>
+            
+            <p xml:id="pgb1q33-d1e3926">Contra secundam conclusionem, parvuli non baptizati non sunt reprobati nisi propter usum liberi 
+              arbitrii primorum parentum, ergo non solum non propositum acceptandi ad <unclear>gloriam</unclear> 
+              est causa reprobationis. Tenet consequentia, et antecedens patet per 
+              <ref><name ref="#Augustine">Augustinum</name> libro V <title ref="#ContraIulianum">Contra Iulianum</title> 
+                capitulo 3</ref> 
+              dicentem 
+              <cit>
+                <quote>nulla esset poena nisi peccatum praecessisset.</quote>
+                <bibl>Augustinus, Contra Iulianum, V, c. 3</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q33-d1e3940">Secundo contra 
+              <app>
+                <lem>secundam</lem>
+                <rdg wit="#L" type="corrReplace">
+                  <corr>
+                    <del rend="strikethrough">falsum</del>
+                    <add place="marginRight">secundam</add>
+                  </corr>
+                </rdg>
+              </app> 
+              partem primi corollarii, non propositum finaliter acceptandi ad gloriam est causa 
+              reprobationis, ergo per solum non propositum finaliter miserendi reprobatio sufficienter 
+              describitur. Antecedens est secunda conclusio, igitur illa repugnat corollario et per consequens alterum 
+              illorum male ponitur.</p>
+            
+            <p xml:id="pgb1q33-d1e3949">Tertio contra secundum corollarium, quia dato quod nulla esset 
+              culpa et quod Deus nollet misereri stat aliquem esset indignum vita 
+              ergo ad esse reprobatum, non sequitur aliquem culpa maculandum. Prima consequentia patet 
+              <pb ed="#L" n="101r"/> 
+              in esse possunt <unclear>vivari</unclear> sanctorum precibus et orationibus, Deus enim ordinavit ut sanctorum 
+              mediantibus precibus hi pro quibus orant recipiant gratiam in praesenti et gloriam 
+              in futuro, ideo glosa non loquitur ibi de praedestinatione in se et secundum se 
+              consideratam sed in ordine ad executionem et effectuum in esse positionem.</p>
+            
+            <p xml:id="pgb1q33-d1e3957">Ad secundum, negatur consequentia si intelligitur quod accipit personas secundum earum statum 
+              vel dignitatem. Si autem intelligitur quod sit acceptor personarum, id est personas 
+              acceptans propter ipsius gratuitam <unclear>misericordiam</unclear>, sic non est contra scripturam concedere 
+              consequens.</p>
+            
+            <p xml:id="pgb1q33-d1e3964">Ad tertium, dicitur quod nulla est ratio praeter eius voluntatem.</p>
+            
+            <p xml:id="pgb1q33-d1e3967">Ad rationes 
+              in oppositum, quando dicitur aliquis potest alteri mereri primam gratiam, igitur finalem, negatur 
+              consequentia. Secundo posset dici quod prima gratia et gratia praedestinationis quam nullus 
+              meretur nec potest mereri.</p>
+            
+            <p xml:id="pgb1q33-d1e3970">Ad alias, patet quid sit dicendum per dicta in positione.</p>
+          </div>
+        </div>
+        <div>
+          <head xml:id="pgb1q33-Hd1e3977"><supplied>Conclusiones</supplied></head>
+          
+          <p xml:id="pgb1q33-d1e3981">
+            <cit>
+              <quote>Si autem quaerimus</quote>
+              <bibl>Lombardus, I, d. xxx</bibl>
+            </cit> 
+            Prima conclusio: quod gratiae quae homini apponitur 
+            ad iustificationem, nulla sunt merita et multo minus praedestinationis <unclear>consequentia</unclear> ab 
+            aeterno elegit quod voluit aliqua possunt existere merita, nec ita reprobationis 
+            qua ab aeterno aliquos praescivit futuros malos et damnandos 
+            nulla sunt merita obdurationis, vero potest esse aliquod meritum quia aliquid 
+            suis peccatis demerentur ut gratia eis non apponatur.</p>
+          
+          <p xml:id="pgb1q33-d1e3984">Secunda conclusio: quod catholica
+            fides respuit animas in caelos esse conversatas et ibi aliquid boni 
+            vel mali egisse et pro meritis ad corpora terrena detrusa esse.</p>
+          
+          <p xml:id="pgb1q33-d1e3987">Tertia conclusio: 
+            quod Deus elegit quos voluit gratuita <unclear>misericordia</unclear>, non quia futuri fideles 
+            erat, sed ut fideles essent eis gratiam dedit, non quia fideles erat, 
+            sed ut fierent, sed tamen non conceditur quosdam reprobasse ut mali essent, 
+            nec obdurare ut peccent quia reprobatio non est ita causa mali sicut 
+            praedestinatio causa boni.</p>
+          
+          <p xml:id="pgb1q33-d1e3993">Quarta conclusio: quod Deus multa praescivit quae modo non praescit 
+            quia praescire non est nisi respectu futuri multa vero sunt quae prius fuerit futura 
+            et modo non sed praeterita vel praesentia.</p>
+          
+          <p xml:id="pgb1q33-d1e3997">Quinta conclusio: quod illud quod Deus semel scivit 
+            semper scit, sicut aliquando Christum scivit <unclear>nasciturum</unclear>, ita nunc scit natum eadem 
+            scientia, et ideo tempora sunt merita et verba, sed fides non, nec scientia etc.</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
