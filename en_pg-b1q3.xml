@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 3</title>
+        <author>Peter Gracilis</author>
+        <editor>Stefano Menegatti</editor>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Quaestio 3</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-19" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+      <front>
+        <div xml:id="include-list">
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+        </div>
+        <div xml:id="starts-on">
+          <pb ed="#L" n="18-r"/>
+        </div>
+      </front>
+    <body>
+      <div xml:id="pg-b1q3">
+        <head xml:id="pg-b1q3-Hd1e3724">Question 3</head>
+        <div xml:id="pg-b1q3-Dd1e3727">
+          <head xml:id="pg-b1q3-Hd1e3729"><supplied>Concerning the Text</supplied></head>
+          <p xml:id="pgb1q3-d1e88">
+            <cit>
+              <quote xml:id="pg-b1q3-Qhivapf" source="http://scta.info/resource/pll1d2c1-d1e3473">Hoc itaque vera ac pia fide</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c1-d1e3473">Lombardus, Sent. I, d. 2, c. 1, [n.1], (I, 61, ll. 12).</ref></bibl>
+            </cit>, 
+            etc. 
+            After <name ref="#Lombard">the Master</name> introduces some necessary preambles in the first distinction, 
+            here consequently he continues to the things that should be said in this second distinction which is divided into two parts.
+            For in the first part he puts the information of those studying the Sacred Scriptures, <!-- translation difficult here -->.
+            in the second place he continues and proves in many ways his intention. 
+            The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3744" source="http://scta.info/resource/pll1d2c4-d1e3473">proponamus, ergo in medium</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c4-d1e3473">Lombardus, Sent. I, d. 2, c. 4, [n.1], (I, 63, ll. 19).</ref></bibl>
+            </cit>.
+            The first part is divided into three parts because in the first place he teaches how those who are studying 
+            ought to dispose themselves, in the second place he teaches which things and what sort of thins they ought to believe and suppose 
+            in order to understand it, and in the third place how they ought to proceed in this study. 
+            The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3753" source="http://scta.info/resource/pll1d2c3-d1e3473">ceterum ut in primo</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c3-d1e3473">Lombardus, Sent. I, d. 2, c. 3, [n.1], (I, 63, ll. 9).</ref></bibl>
+            </cit>,
+            and the third at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3763"><supplied>...<!-- need to supply what should go in the blank left in ms --></supplied>.</quote>
+              <bibl>Non invenimus</bibl>
+            </cit>.
+            The first could be divided in three according to the three dispositions which he asserts. 
+            For he teaches that someones studying ought to be pure and virtuous, careful and studious, calm and not quarrelsome.
+            The second begins at
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3775" source="http://scta.info/resource/pll1d2c1-d1e3511">de hac ergo re</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c1-d1e3511">Lombardus, Sent. I, d. 2, c. 1, [n.3], (I, 62, ll. 1).</ref></bibl>
+            </cit>.
+            The third begins at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3784" source="http://scta.info/resource/pll1d2c1-d1e3524">proinde omnis qui audit</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c1-d1e3524">Lombardus, Sent. I, d. 2, c. 1, [n.3/4], (I, 62, ll. 5).</ref></bibl>
+            </cit>.
+            <!-- possible paragraph break point, in comparision to what was done with question 1 -->
+            The second principal part is divided into two. 
+            In the first place he puts his conclusion or intention and proves it with the witnesses of the old law, 
+            in the second place he declare it with the witnesses of the evangelical law.
+            The second occurs at  
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3793" source="http://scta.info/resource/pll1d2c4-d1e3723">nunc vero ad propositum</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c4-d1e3723">Lombardus, Sent. I, d. 2, c. 4, [n.5/13], (I, 65, ll. 24).</ref></bibl>
+            </cit>.
+            The first part is divided into two. In the first place he proves the simple unity of the essence, 
+            in the second place he proves the threefold difference of the persons and the eternal equality of them. 
+            The second occurs at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3802" source="http://scta.info/resource/pll1d2c4-d1e3570">personarum aequalitatem</quote>
+              <bibl cert="medium"><ref target="http://scta.info/resource/pll1d2c4-d1e3570">Lombardus, Sent. I, d. 2, c. 4, [n.2/7], (I, 64, ll. 9).</ref></bibl>
+              <note xml:lang="en">Identification is somewhat uncertain, as Lombard has "personarum quoque pluralitatem" rather than "personarum aequalitatem".</note>
+            </cit>.
+            The second part now truly to the proposition at hand is divided into three parts 
+            because in the first place he shows the unity of the essence and the trinity of the three persons at the same time, 
+            in the second place he adds the duration of eternity, and in the third place he apologizes that he is not able to bring 
+            more authorities to bear on this matter. 
+            The second occurs at
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3811" source="http://scta.info/resource/pll1d2c5-d1e3596">ipse et necessario sui evangelii</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c5-d1e3596">Lombardus, Sent. I, d. 2, c. 5, [n.3/5], (I, 68, ll. 3).</ref></bibl>
+            </cit>. 
+            The third occurs at 
+            <cit>
+              <quote xml:id="pg-b1q3-Qd1e3821" source="http://scta.info/resource/pll1d2c5-d1e3677">sed quia singulae poenae syllabae novi Testamenti</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c5-d1e3677">Lombardus, Sent. I, d. 2, c. 5, [n.5/9], (I, 68, ll. 15).</ref></bibl>
+            </cit>. 
+            And this is the distinction.
+          </p>
+        </div>
+        <div xml:id="pg-b1q3-Dd1e3830">
+          <head xml:id="pg-b1q3-Hd1e3832">
+            <supplied>Question: Whether it is able to be proved through 
+              the text of Holy Scripture that the creator of created nature 
+              is three and one.</supplied>
+          </head>
+          <div xml:id="pg-b1q3-Dd1e3836">
+            <head xml:id="pg-b1q3-Hd1e3838"><supplied>Principal arguments</supplied></head>
+            <p xml:id="pgb1q3-d1e119">
+              Whether it is able to be proved through 
+              the text of Holy Scripture that the creator of created nature 
+              is three and one?
+            </p>
+            <p xml:id="pgb1q3-d1e122">
+              It is not able to be so proved because in the first place 
+              God is not three and one, therefore etc. 
+              The antecedent is proved because no incommunicable is communicable to three things. 
+              But the Father is incommunicable and the divine essence is communicable. 
+              Therefore the Father is not the essence 
+              and consequently it is able to be argued about the Son and the Holy Spirit. 
+            </p>
+            <p xml:id="pgb1q3-d1e125">
+              In the second place because this is not able to be proved through a false text. 
+              But the text of Scripture seems to be false or <!-- i think this "autem" should be changed to "aut" --> at least improper, therefore etc. 
+              Minor is clear in
+              <ref xml:id="pg-b1q3-Rd1e3879" corresp="#pgb1q3-Qldpdpc"><title ref="#hab">Habacuc</title> 2</ref>, 
+              where it is said 
+              <cit>
+                <quote xml:id="pgb1q3-Qldpdpc" ana="#hab2_11">the stones of the wall will cry out</quote>
+                <bibl>Habacuc 2:11</bibl>
+              </cit>.
+              Again
+              <name ref="#IsidoreOfSeville">Isidore</name> valet 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e3872">Why have you made us wander from your ways and you have made us to harden our harts, 
+                  <pb ed="#L" n="18-v"/> 
+                  so that we do not fear you?
+                </quote>
+                <bibl>Isiah 63:17</bibl>
+              </cit> 
+              Again
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e3887" ana="#lc7_22">the blind receive sight, and the lame walk</quote>
+                <bibl>Lucas 7:22</bibl>
+              </cit>,
+              etc. 
+              Again <ref xml:id="pg-b1q3-Rd1e3921" corresp="#pg-b1q3-Qd1e3902">the <name ref="#Lombard">Master</name> in book 5</ref>
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e3902">nothing is probable through scripture, which would have diminished faith</quote>
+                <bibl>Not found</bibl>
+                <note xml:lang="en">This text is not directly found in Lombard. 
+                  It is possible that he means to cite the end (c. 5) of d. 2, 
+                  which makes some sense. There the content is close, but the wording is different.
+                  See <ref xml:id="pg-b1q3-Rd1e3936" target="http://scta.info/resource/pll1d2c5-d1e3677">Lombardus, Sent. I, d. 2, c. 5, [n.5/9], (I, 68, ll. 15).</ref>
+                </note>
+              </cit>,
+              but likewise to prove evidently the articles 
+              would diminish faith and empty it of it is value, 
+              therefore etc.
+            </p>
+            <p xml:id="pgb1q3-d1e163">
+              On the contrary, the 
+              <name ref="#Lombard">Master</name> in this distinction seems to be opposed. 
+              Again
+              <ref xml:id="pg-b1q3-Rd1e3947" corresp="#pgb1q3-Qpshder">
+              <name ref="#Augustine">Augustin</name> XIV <title ref="#deTrinitate">De Trinitate</title> in chapter one</ref> 
+              says that
+              <cit>
+                <quote xml:id="pgb1q3-Qpshder" ana="#AugDeTrin14_1-a">through 
+                  the study of this science the saving faith is increased, defended, and strengthened</quote>
+                <bibl>Augustine, De Trinitate, XIV, c. 1</bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q3-Dd1e3934">
+            <head xml:id="pg-b1q3-Hd1e3936"><supplied>First conclusion</supplied></head>
+            <p xml:id="pgb1q3-d1e188">
+              First conclusion: though this proposition,
+              <mentioned>if God himself is three and one</mentioned> is able to be sufficiently 
+              deduced from a first principle, nevertheless that <mentioned>God is three and one</mentioned> 
+              is not able to be concluded evidently from that first principle
+              The first part is clear because, from the contrary of the consequent, 
+              the opposite of the antecedent follows, therefore. 
+              The consequence is valid, although we do not this to be evidently valid.
+              The antecedent is since it follows, <!-- should we supply "if" here --> 
+              God is not three and one, therefore God is not.
+              For to the degree that is necessary that <mentioned>God is</mentioned>,
+              it is to the same degree necessary that <mentioned>God is three and one</mentioned>. 
+              The second part is proved because, 
+              if it were possible to be concluded evidently from a first principle, 
+              then this would either be a priori, and this not the case because this
+              is not possible, or a posteriori which is not the case. 
+              The latter is not the case because in the first place, 
+              since some created effect is finite, 
+              then such a proof would demonstrate that the first cause is finite. 
+              Again in the second place, though every demonstration proceeds 
+              from a created effect to a highest cause, this is insufficient 
+              because it <!-- antecedent of "it" is ab bit unclear, the highes cause? but the similarities to what "God" or to the created effect? -->
+              has more dissimilarities than similarities. 
+              Further, given the fact that it might be possible 
+              for someone to be persuaded through this argument
+              that there is a first cause, 
+              it would still in no way evidently convince 
+              them that this highest cause is triune.
+              On this point
+              <ref xml:id="pg-b1q3-Rd1e3995" corresp="#pg-b1q3-Qnepsir">consider the words of the <name ref="#Lombard">Master</name> in this distinction</ref>
+              saying: 
+              <cit>
+                <quote xml:id="pg-b1q3-Qnepsir" source="http://scta.info/resource/pll1d3c1-d1e3654">
+                  Non enim per creaturarum contemplationem sufficiens notitia Trinitatis
+                  potest haberi sine doctrinae vel superioris inspirationis revelatione</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d3c1-d1e3654">Lombard, Sent. I, d. 3, [n. 11] (XXX)</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-d1e217">
+              The first corollary is that many said or formable propositions about God 
+              are deducible from the first principle. 
+              This is clear from the conclusion, and this is confirmed in the case of the proposition
+              <mentioned>God is not a stone</mentioned> because it is able to be deduced from the first principle 
+              since the opposite proposition includes a contradiction. 
+              For it follows, God is essentially a stone, therefore God is God, 
+              therefore God is intelligent, therefore God is not a stone. 
+              The first consequence is clear because the same this is predicate of itself. 
+              The second is clear because given that is necessary that God is God 
+              so it is necessary that God is intelligent. 
+              And the third is clear because no intelligent this is essentially a stone.
+            </p>
+            <p xml:id="pgb1q3-d1e229">
+              The second corollary: though every evidence argues for certitude, nevertheless not every certitude carries evidence. 
+              The first is clear because everyone evidently knowing a conclusion is certain about that thing. 
+              The second is clear because the fact that <mentioned>God is three</mentioned> is most certain 
+              since is believed through faith, 
+              and nevertheless we do not have evidence concerning this article of belief.
+            </p>
+            <p xml:id="pgb1q3-d1e241">
+              The third corollary: just as it is repugnant that there is absolutely nothing, 
+              so it is repugnant that three supposites are not really distinct. 
+              From this it further follows that the following consequence is necessary: 
+              there are not three things, therefore nothing is. 
+              This is clear because it follows, if there are not three things, 
+              then there are not three divine supposites, 
+              therefore there is no God, therefore nothing is. 
+              From this it is still inferred that it follows well, 
+              there is one, therefore there are three because there are three divine supposites. 
+              The consequence is clear because the opposite of the consequent 
+              implies the opposite of the antecedent because it follows that, 
+              there are not three things, 
+              therefore there are not three divine supposites, there is not one.
+              <!-- translation difficult here, need dbcheck from John -->
+            </p>
+          </div>
+          <div xml:id="pg-b1q3-Dd1e4007">
+            <head xml:id="pg-b1q3-Hd1e4009"><supplied>Second conclusion</supplied></head>
+            <p xml:id="pgb1q3-d1e251">
+              The second conclusion: just as it is necessary in that within the divine 
+              persons there is one super simple unity of essence, 
+              so it is necessary that there is a real triune plurality or alterity. 
+              This is clear from what has been said in the first conclusion. 
+              <!-- is this correctly understood as reference to the first conclusion. If so a ref element should be added-->
+              The is confirmed because it is in reality just as the conclusion signifies, 
+              therefore that it is so is necessary. 
+              The antecedent is clear from faith.
+              The consequence is proved because in whatever sort of thing 
+              is intrinsecally in the divine essence, it is necessary that such a thing is.
+              This is clear  
+              This is clear through
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4049" target="http://scta.info/resource/pll1d2c2-d1e3473">the <name ref="#Lombard">Magistrum</name> in this distinction</ref>
+                <bibl><ref target="http://scta.info/resource/pll1d2c2-d1e3473">Lombard, Sent. I, d. 2, c. 2, [n.1], (I, 62, ll 15-24)</ref></bibl>
+                <!-- need to leave note explain reference connection; also need to double check that target url points to the right place -->
+              </cit>.
+              Again through
+              <ref xml:id="pg-b1q3-Rd1e4064" corresp="#pg-b1q3-Qd1e4042">
+                <name ref="#RichardOfStVictor">Richard</name> in his first book <title ref="#RichardOfStVictor_deTrinitate">On the Trinity</title> 
+                chapter 27
+              </ref>, 
+              saying
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4042">confidenter fateamur personas in divinitate secundum substantiam deitas et substantiam significare 
+                  <pb ed="#L" n="19-r"/> 
+                  et plures ibi personas, 
+                  non plures substantias esse quia sunt plures habentes unum 
+                  et indifferens esse ex differenti proprietate, unitas
+                </quote>
+                <bibl>
+                  Richardus De Sancto Victore, 
+                  <title>De Trinitate</title>, IV, c. 19 (183, ll. 48-52).
+                </bibl>
+              </cit>.
+              This are the words
+              
+              <ref xml:id="pg-b1q3-Rd1e4091" corresp="#pg-b1q3-Qd1e4061">
+                of the <name ref="#Lombard">Master</name> in this distinction, in the beginning
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4061" source="http://scta.info/resource/pll1d2c1-d1e3473">hoc itaque</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d2c1-d1e3473">Lombard, Sent. I, d. 2, c. 1, [n.1], (I, 61, ll. 1)</ref></bibl>
+              </cit> 
+              etc.
+            </p>
+            <p xml:id="pgb1q3-d1e287">
+              The first corollary: not only in the divine is there solitude or singularity or simplicity of nature, 
+              but also a true and real trinity of three equal persons. 
+              This is clear from the conclusion, <!-- ref to above conlusion -->  
+              whence in 
+              <ref xml:id="pg-b1q3-Rd1e4110">
+                <title ref="#io">John</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4082" ana="#io14_16">alium paracletum dabit vobis.</quote>
+                <bibl>Iohannes 14:16</bibl>
+              </cit>. 
+              Again in
+              <ref xml:id="pg-b1q3-Rd1e4128"><title ref="#Iio">I John</title></ref> 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4098" ana="#Iio5_7">tres sunt, qui testimonium dant in caelo</quote>
+                <bibl>I Iohannes 5:7</bibl>
+              </cit>. 
+              Again <name ref="#Athanasius">Athanasius</name> 
+              <quote xml:id="pg-b1q3-Qd1e4109">alia est persona Patris</quote>, etc.
+            </p>
+            <p xml:id="pgb1q3-d1e323">
+              The second corollary: though the paternal notional <unclear>utterance</unclear> 
+              is to produce the son equal to itself, 
+              nevertheless some speaking or understanding divine supposite is not producing the Holy Spirit. 
+              The first part is from  
+              <ref xml:id="pg-b1q3-Rd1e4157" corresp="#pg-b1q3-Qd1e4129">
+                <name ref="#Augustine">Augustine</name> 
+                in his book <title ref="#deTrinitate">De Trinitate</title>
+              </ref> 
+              saying
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4129">
+                  Pater dicens se genuit Verbum sibi aequale per omnia; 
+                  non enim integre perfecteque se dixisset si aliquid minus se vel amplius 
+                  esset in eius Verbo quam in se ipso
+                </quote>
+                <note>Augustine, de Trinitate, XV, 14, 23</note>
+              </cit>. 
+              The second part is proved because since a divine person understands itself and something other than itself, 
+              it follows that the Son would produce either himself or another that is not himself. 
+              Not the first since according to <name ref="#Augustine">Augustine</name> 
+              nothing is able to produce or generate itself, 
+              and not the second because there would thus be a quaternity in the divine, 
+              which is impossible and against the conclusion.
+            </p>
+            <p xml:id="pgb1q3-d1e350">
+              The third corollary: just as is necessary that there be three supposites in the divine, 
+              so it is impossible that the Holy Spirit produce something within it. 
+              This is clear from what has been said because 
+              it is true that it does not produce something internally, 
+              therefore it is necessary, 
+              therefore the opposite of this truth is impossible
+            </p>
+          </div>
+          <div xml:id="pg-b1q3-Dd1e4147">
+            <head xml:id="pg-b1q3-Hd1e4149">
+              <supplied>Third conclusion</supplied>
+            </head>
+            <p xml:id="pgb1q3-d1e361">
+              The third conclusion: though the theologian through the text of 
+              scripture is not able to show evidently that God is three, 
+              nevertheless, through the same text, 
+              he his able meritoriously to sufficiently approve and deduce the Trinity.
+              The first is clear because the object of this article 
+              is not evidently able to be deduced to the point of a contradiction, 
+              as is clear from the 
+              <cit>
+                <ref xml:id="pg-b1q3-Rcm381d" target="http://scta.info/resource/pgb1q3-d1e188">first conclusion</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q3-d1e188">Vide supra</ref></bibl>
+              </cit>.
+              The second part is proved because the article 
+              is sufficiently expressed in Sacred Scripture, therefore etc. 
+              The antecedent is clear in this distinction,  
+              where the
+              <ref xml:id="pg-b1q3-Rd1e4196" corresp="#pg-b1q3-Qd1e4161">
+                the <name ref="#Lombard">Master</name>
+              </ref> 
+              ways
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4161" source="http://scta.info/resource/pll1d2c5-d1e3677">singulae pene syllabae novi testamenti hanc ineffabilem <!-- confirm ineffabilem --> unitatis veritatem atque Trinitatis concorditer insinuant</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d2c5-d1e3677">Lombard, Sent. I, d. 2, c. 1, [n.3/9], (I, 62, ll. 4-5)</ref></bibl>
+              </cit>.
+              But that the theologian meritoriously able to inquire and to teach and deduce through scripture 
+              it is argued 
+              <ref xml:id="pg-b1q3-Rd1e4214" corresp="#pg-b1q3-Qd1e4188">
+                from the words of <name ref="#Augustine">Augustine</name>
+              </ref>
+              and alleged by 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4222" corresp="#pg-b1q3-Qd1e4188" target="http://scta.info/resource/pll1d2c1-d1e3511">
+                  the <name ref="#Lombard">Master</name> in this distinction
+                </ref>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d2c1-d1e3511">Lombard, Sent. I, d. 2, c. 1 [n.3] <!-- don't have for numbers or para no. for newest edition --></ref>
+                </bibl>
+              </cit>
+              saying that
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4188">hac Trinitate nihil fructuosius invenitur</quote>
+                <bibl>Augustine, De Trinitate, I, 3, 5 (PL 42:822)</bibl>
+              </cit>. 
+              Again
+              <ref xml:id="pg-b1q3-Rd1e4246" corresp="#pg-b1q3-Qd1e4203">
+                the <name ref="#Lombard">Master</name> in his prologue
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4203" source="http://scta.info/resource/pll1prol-cadzdd">delectat nos veritas pollicentis</quote>
+                <bibl><ref target="http://scta.info/resource/pll1prol-cadzdd">Lombard, Sent. I, prol. [n.1], (I, 63, ll. 6-7)</ref></bibl>
+              </cit>, 
+              namely the hope of having eternal life which was one of 
+              the moving causes for the compilation of his book. <!-- possible ref back to book one here? -->
+            </p>
+            <p xml:id="pgb1q3-d1e404">
+              The first corollary: No text of Sacred Scripture taken in its proper sense is false. 
+              This is opposed to what 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4270"><name ref="#Ockham">Ockham</name> says in his<title ref="#SentencesOckham">Scripto super Sententias</title></ref>
+                <bibl>Ockham, Sententia, XX</bibl>
+              </cit>.
+              This is clear because otherwise the articles of faith would not be able 
+              to be proven or deduced through this text, indeed Scripture would be rendered suspect.
+            </p>
+            <p xml:id="pgb1q3-d1e420">
+              The second corollary: to study Sacred Scripture is a condition that increases merit. 
+              This is clear, if it is understaken in love and on account of God 
+              and is not repugnant to the catholic faith. 
+              Indeed to study in any science that has not been prohibited is meritorious, 
+              if it is commanded by a good act of the will,
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4287">as <name ref="#FascinusOfAsti">Fascinus</name> shows</ref>
+                <bibl>Fascinus de Asti, XX</bibl>
+              </cit>. <!-- Fascinus of Asti -->
+            </p>
+            <p xml:id="pgb1q3-d1e433">
+              The third corollary is the affirmative part of the conclusion <!-- cross reference -->, 
+              namely that it is able to be proven through the text of Sacred Scripture, etc. 
+              This is clear through what has been said.
+              
+            </p>
+          </div>
+          <div xml:id="pg-b1q3-Dd1e4259">
+            <head xml:id="pg-b1q3-Hd1e4261"><supplied>Objections and responses</supplied></head>
+            <p xml:id="pgb1q3-d1e443">
+              Against the first conclusion it is argued: 
+              through natural reasons we are able to know and to deduce 
+              that the divine essence exists, therefore also that there is a Trinity of persons. 
+              The consequence is known because whatever is known about the divine essence truly 
+              coincides with the Trinity. 
+              The antecedent is clear through 
+              <ref xml:id="pg-b1q3-Rd1e4319">
+                <name ref="#Cicero">Tullius</name>, <title>De natura deorum</title>, 
+                in the second book, after the beginning
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4286">omnibus enim innatum est et in anima quasi insculptum esse Deo</quote>
+                <bibl>Cicero, De natura deorum, II, XX</bibl>
+              </cit>. 
+              To the same is Augustine
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4342">
+                  <name ref="#Augustine">Augustine</name>, 
+                  <title ref="Confessions">Confessions</title>, 
+                  chapter 8
+                </ref>
+                <bibl>Augustinus, <title>Confessiones</title> 8, 2 (CCSL 27, 114-116)</bibl>
+              </cit>, 
+              speaking about the <name ref="#Platonists">Platonists</name>, 
+              where he says that with reason itself he came to the knowledge not only of the divine essence. 
+              but also of the Trinity.
+            </p>
+            <p xml:id="pgb1q3-d1e467">
+              <!-- we need a link relation here to indicate that this is an object to conclusion 1 
+                even though there is not explicit reference as there is in the paragraph above. 
+                This relation could be asserted in the info.xml file but has to be something more than just 
+                isRelatedTo. The idea that his an objection to the first conclusion not indicated in the paragraph itself 
+                and is only know through the preceding paragraph. If there paragraphs were to be disconnected, 
+                the nature of this relationship woudl be lost. The relationship could be something like "isObjectionTo" and 
+                the inverse could be "isObjectedToBy" This is also true for arguments 2-4 -->
+              The second is argued thus: every perfection found in creatures out to be attributed to God, 
+              but to generate is a perfection in creatures, therefore.
+            </p>
+            <p xml:id="pgb1q3-d1e470">
+              In the third place: to whatever degree nature is more actual, 
+              so it is also  
+              <pb ed="#L" n="19-v"/>
+              more fertile. 
+              But the divine nature is infinitely in act, therefore it is 
+              of infinite fecundity.
+            </p>
+            <p xml:id="pgb1q3-d1e475">
+              In the fourth place: every good thing is naturaly communicative of itself.
+              But God is an infinite good, therefore.
+              The major is from 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4377">
+                  <name ref="#Dionysius">Dionysius</name> 
+                  <title ref="#deDivinisNominibus">On the divine names</title> 
+                  chapter 12
+                </ref>
+                <bibl>Pseudo-Dionysius, De divinis nominibus, XX</bibl>
+              </cit>. 
+              And the minor is in 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4394">
+                  <name ref="#Anselm">Anselm</name> 
+                  in his <title ref="#Proslogion">Proslogion</title> 
+                  in many chapters
+                </ref>
+                <bibl>Anselmus, Proslogion, 2, 3, 13, 20 (I, 101-103, 110-111, 115-116)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-d1e499">
+              Agains the second conclusion: if there were three persons, etc., 
+              it would follows that in the divine there is a relation and an opposition of relation, 
+              therefore it <!-- this relation?? --> will be either only one thing or many.
+              If only one, then there will only be two supposites or two persons. 
+              But if many, then there will be at least four supposites which is a heresy.
+              The consequence is clear because every relative opposition requires two extremes, 
+              namely to generate to be generated, to spirate and to be spirated.
+            </p>
+            <p xml:id="pgb1q3-d1e502">
+              <!-- same problem. We need to an assert a meaniful link relation even though the explicit reference 
+                is only made in the precedeing paragraph -->
+              In the second place it is argued thus: God is the same in every mode 
+              in which it is better to be the same than not the same. 
+              But to be the same essentially and personally is better than not to be the same in thse ways, 
+              therefore. The major is clear through 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4435">
+                  <name ref="#Anselm">Anselm</name>, 
+                  <title ref="#Monologion">Monologion</title> 
+                  15
+                </ref>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>Monologion</title>, 
+                  15 (I, 28-29).
+                </bibl>
+              </cit>.
+              The minor is clear because it is better that what suits the Father and any person exists than not exists.
+              But to be the same essentially and personally suits each person,
+              therefore being the same is better than not. 
+              The minor is clear because any person is personally and essentially 
+              the same as the divine essence.
+            </p>
+            <p xml:id="pgb1q3-d1e518">
+              In the third place: it follows that there are three eternal divine persons, 
+              and nevertheless not all three are eternal. 
+              The consequent is implied. The consequence is clear 
+              because through the conclusion and its corollary 
+              there are three coeternal persons, and they are alos eternal. 
+              But that there are not three eternal things is clear through 
+              <name ref="#Athanasius">Athansius</name> who says 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4427">there are not three eternal things but one</quote>
+                <bibl>Athanasius, XX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-d1e526">
+              In the fourth place against the second corollary: if through understanding, etc., 
+              then it follows that any person will produce the Son. The consequence is clear because 
+              everyone understands something, therefore it follows that this person produces himself 
+              or something other than himself through understanding or loving. 
+              This is confirmed because, if the Trinity of persons is compatible with simplicity, 
+              by the same reasons it is compatible with quaternity because there does not 
+              seem to be a reason why the Son is not able to produce the son through his own understanding 
+              just as the Father.
+            </p>
+            <p xml:id="pgb1q3-d1e535">
+              Against the third conclusion: that God is three is 
+              nowhere expressly found in Sacred Scripture, therefore. 
+              The antecedent is proved since, because Scripture has many senses and understandings, 
+              it would be possible for and adversary to say that Christ and others who are speaking about the 
+              Trinity were not speaking literally, but mystically and figuratively. 
+            </p>
+            <p xml:id="pgb1q3-d1e545">
+              Against the first corollary because there are many propositions which appear to false in the literal sense, 
+              but this is the proper sense of Scripture, therefore. 
+              The antecedent is clear in 
+              <ref xml:id="pg-b1q3-Rd1e4514" corresp="#pg-b1q3-Qd1e4486">
+                <title ref="#io">John</title> 10
+              </ref>
+              ubi Christus dicit 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4486" ana="#io10_9">I am the gate</quote>
+                <bibl>Iohannes 10:9</bibl>
+              </cit>.
+              Again, 
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4495" ana="#io15_1">I am the true wine</quote>
+                <bibl>Iohannes 15:1</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-chqdce">
+              This is confirmed because the doctors of the scripture 
+              contradict themselves, therefore. 
+              The antecedent is clear from 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4565"><name ref="#Augustine">Augustine</name></ref>
+                <bibl>Augustine, XX</bibl>
+              </cit> 
+              and from 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4575"><name ref="#Jerome">Jerome</name> <title>Super epistola Pauli ad Galatas</title> in many passages</ref>
+                <bibl>Jerome, XX</bibl>
+              </cit>. 
+              Again, the antecedent is confirmed because the Gospel authors seem to disagree among themselves. 
+              This is clear because, on account of this matter, Augustine seems to have written his
+              book <title ref="#DeConsensuEvangelistarum">On the harmony of the Gospels</title>.
+            </p>
+            <p xml:id="pgb1q3-d1e578">
+              Again, against the conclusion and the second corollary: since the ones studying theology 
+              expose themselves to the danger of erring, therefore no one ought to study theology, 
+              nor is the study of theology meritorious. The antecedent is clear because within this study 
+              are mixed in the words of the philosophers and heretics 
+              which are neither licit nor helpful to read in their own right, as is clear from <name ref="#Jerome">Jerome</name>,
+              who was seriously wounded by the fact that he read the books 
+              <name ref="#Cicero">Cicero</name> as it his said in his legend. <!-- is this a reference to something? biography?hagiography?? a work by Jerome??-->
+            </p>
+            <p xml:id="pgb1q3-d1e587">
+              Again, through the study of theology the habit of believing is easily acquired, 
+              therefore through this study the one studying loses a circumstances that increases merit.
+              The antecedent is clear. And the consequence is proved because the difficulty of believing 
+              is a circumstances that increases merit, whence 
+              <ref xml:id="pg-b1q3-Rd1e4616">
+                <name ref="#Jerome">Jerome</name> in some epistle
+              </ref>
+              says
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4574">what is of greater merit is that which is of greater labor</quote>
+                <bibl>Jerome, Exhortatio ad sponsam Christi, XX</bibl>
+              </cit>. 
+              Again 
+              <ref xml:id="pg-b1q3-Rd1e4631">
+                <name ref="#Ambrose">Ambrose</name> in his book <title>On Cain and Abel</title>
+              </ref>
+              says,
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4592">all virtue consists in labor</quote>
+                <bibl>Ambrose, De Cain et Abel, XX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-d1e605">
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4654">the <name ref="#Aristotle">Philosopher</name> in book II of the <title ref="#Ethics">Ethics</title></ref>
+                <bibl>Aristotle, Ethics, II, XXX</bibl>
+              </cit> 
+              seems to support the same point, 
+              from which it seems to follow that it would be better to have 
+              the status of a simple 
+              <pb ed="#L" n="20-r"/>
+              faithful pilgrim 
+              than that of a profound or subtle doctor. 
+            </p>
+            <!--where i left off -->
+            <p xml:id="pgb1q3-d1e623">
+              To the first: whatever is the case concerning the antecedent, 
+              the consequence is denied.
+              For the proof it is said that the divine trinity is known by some and not known by some. 
+            </p>
+            <p xml:id="pgb1q3-d1e629">
+              With respect to the saying of <name ref="#Augustine">Augustine</name> about the <name ref="#Platonists">Platonists</name>:
+              in the first place it is said that <name ref="#Augustine">Augustine</name> 
+              does not say that he himself found this in the book of the <name ref="#Platonists">Platonists</name>,
+              but in of some <name ref="#Platonists">Platonist</name>. 
+              But there were many <name ref="#Platonists">Platonists</name> after the coming of Christ, 
+              like <name ref="#Porphyry">Porphyry</name>, <name ref="#Plotinus">Plotinus</name>, et <name>Apuleius</name>, 
+              who were perhaps good men.
+              In the second place it is able to be said that if someone had known about the Trinity, 
+              they would have had this from divine inspiration, just as 
+              Secundo potest dici quod si aliquid noviter de Trinitate hanc habuerit ex divina inspiratione, sicut dicit 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4706"><name ref="#Augustine">Augustine</name> says in <unclear cert="low">hermete Mercurii</unclear> in the sermon <title>Contra quinque haereses</title></ref>
+                <bibl>Augustine, Adv. Quinq. Haer. 3, 1-21, (CCM 60, 264-268)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-d1e670">
+              With respect to the second: in the first place the major would be able to be denied 
+              because to merit or to be able to merit is a perfection in creature, 
+              nevertheless it is not able to be attributed to God. In the second place, 
+              the minor would be able to be denied because perhaps to generate or to be able to generate 
+              is an absolute perfection most especially in the divine because, according to what is commonly argued,
+              since the Son is not able to lack any perfection.
+            </p>
+            <p xml:id="pgb1q3-d1e676">
+              With respect to the third consequent would be able to be conceded because the 
+              divine nature in the supposites of the Father and the Son is of an infinite fecundity 
+              since the Father produces the Son in every way equal to himself, and the Father and the Son 
+              produce the holy spirit consubstantial to themselves.
+            </p>
+            <p xml:id="pgb1q3-d1e680">
+              The fourth: the entire argument is conceded and yet from this it is not evidently concluded that a Trinity of persons 
+              is in the divine. Indeed it could be equally proved through this means a quaternity and quinternity, 
+              perhaps even more than a trinity.
+            </p>
+            <p xml:id="pgb1q3-d1e693">
+              To another argument: the minor would be able to be denied and for the proof it is said that, 
+              though some person is of the same essence personally and essentially, 
+              nevertheless it is not the case that same thing suits all three persons personally at the same time. 
+              Again, it is able to be said that this major premise, in which it is said 
+              it is better that what suits the Father or any person exists than not exist,
+              is true if it is not relative but is only including a relation. 
+              
+            </p>
+            <p xml:id="pgb1q3-d1e699">
+              To the third argument: it is said that the eternal or eternal things are able to exist substantively, 
+              and thus are not three eternal things 
+              but one eternal thing, or adjectively and thus there are able to be called 
+              there eternal or eternal things. <!-- not sure how to translate the differnet gender and numbers of "aeterum/aeterni/aeternae" here -->
+              In the second place, it would be able to be said that it is more properly said that the Father, Son, and Holy Spirit 
+              are coeternal than eternal, therefore <name ref="#Athanasius">Athansius</name> concedes the first and denies the second.
+            </p>
+            <p xml:id="pgb1q3-d1e706">
+              To the fourth: the consequence is denied and for the proof it is said 
+              according to 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4765"><name ref="#ThomasStrasbourg">Thomas of Argentina</name>, 
+                  in the second distinction of the first book, 
+                  in the first article, 
+                </ref>
+                <bibl>Thomas of Strasburg, I, d. 2, a. 1</bibl>
+              </cit> 
+              that <mentioned>it is said</mentioned> is taken in two ways when applied to the divine. 
+              
+              In one mode properly, and in this case it is the same things as grasping the world. 
+              And it is in this manner that  
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4782"><name ref="#Augustine">Augustine</name> <unclear cert="low">VII</unclear> <title ref="#deTrinitate">De Trinitate</title></ref>
+                <bibl>Augustine, De Trinitate, VII, xxx</bibl>
+              </cit> 
+              uses the word when he says that no one but the Father is speaking internally. <!-- is this is quote -->
+              In another mode the word <mentioned>to say</mentioned> is take to mean to understand perfectly, 
+              and thus any person speaks itself,
+              and in the same way it could be said about the word <mentioned>to understand</mentioned>. 
+              It is in this way that
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4801">
+                  <name ref="#Anselm">Anselm</name>, in the  
+                  <title ref="#Monologion">Monologion</title>, 
+                  <unclear cert="low">57</unclear> et 59 chapters
+                </ref>
+                <bibl>
+                  Anselm, <title>Monologion</title>, 57 and 59 (I, 68-70)
+                </bibl>
+              </cit>
+              uses the term when he says
+              individual persons speak themselves 
+              any of them speak themselves. 
+              But if an evident reason is sought for why the Son does not 
+              produce the Son through his speaking just as in the case of the Father, 
+              it is able to be said with 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4826"><name ref="#Anselm">Anselm</name>, <title ref="#Monologion">Monologion</title>, 85o et 68o capitulis</ref>
+                <bibl>Anselm, Monologion, non invenimus<!-- problematic; needs review --></bibl>
+              </cit>, 
+              that this transcends every act of human understanding.
+              Through the same, the response to the confirmation is clear when it is said 
+              <mentioned>by the same reason</mentioned> etc. 
+              The consequence is denied, and when it is said <mentioned>because the argument does not seem</mentioned>, etc.,
+              it is said that, though we know this properly but not perfectly, 
+              nevertheless there is something to it,
+              and therefore through believing we ought to take the intellect captive. 
+            </p>
+            <p xml:id="pgb1q3-d1e756">
+              To the first against the third conclusion: the antecedent is denied, for it is 
+              clear in 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4860"><title ref="#mt">Matthew</title> in the last chapter</ref>
+                <bibl>Matthaeus, xxx</bibl>
+              </cit>, 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4872"><title ref="#io">John</title> in chapter 1</ref>
+                <bibl>Iohannes, xxx</bibl>
+              </cit>, 
+              and also in the  
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4883">in <title ref="#liberextra">Decretals of the Roman Pontiffs</title></ref>
+                <bibl>Decreti Romanorum Pontificum, xxx</bibl>
+              </cit>, 
+              in which, whoever would contradict, would be censured as a heretic. 
+              Nevertheless I do not want to say that the <title ref="#liberextra">Decreta</title> are Sacred Scripture.
+              quibus, qui contradiceret, censeretur haereticus. Nolo tamen dicere illa decreta esse Scriptura Sacra.
+            </p>
+            <p xml:id="pgb1q3-d1e768">
+              To the second: in the first place the antecedent woudl be able to be denied, 
+              when speaking about propositions which are put in the the text of Sacred scripture 
+              not only narratively, but also assertively. 
+              In the second place for clarity, note that the proper sense of any scripture 
+              is the sense that the author Scripture intended by it. This is shown by 
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4898">
+                  <name ref="#RichardFitzRalph">Armacanus</name>, in book one 
+                  <title ref="#deQuaestionibusArmenorum">De quaestionibus Armenorum</title>,
+                  in the beginning of this book.
+                </ref>
+                <bibl>Richard FitzRalph, De quaestionibus Armenorum, xxx</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q3-snqefp">
+              <pb ed="#L" n="20-v"/> 
+              In the second place, note that, since Scripture has many senses, 
+              if the truth of some text is not able to be maintained according tone one sense, 
+              one should run to another with which the other Scriptures better harmonize.
+              And the highest care should be taken that the figurative expression 
+              is not admitted to the literal expression, 
+              and conversely that the true and proper expression is not changed 
+              into a figure and through to be figurative.
+            </p>
+            <p xml:id="pgb1q3-d1e781">
+              In the third place, it should be noted that, 
+              though through scripture something can be signified through a likeness, 
+              nevertheless it is not necessary on account of this 
+              that the same thing in one place signifies one thing 
+              through this same word through a likeness. <!--db check, translation difficult here -->
+              This notable is asserted by 
+               
+              <cit>
+                <ref xml:id="pg-b1q3-Rd1e4918"><name ref="#Augustine">Augustine</name> III <title ref="#deDoctrinaChristiana">De doctrina Christiana</title></ref>
+                <bibl>Augustine, De doctrina Christiana, III, xxx</bibl>
+              </cit>
+              and he offers an example about everything.
+            </p>
+            <p xml:id="pgb1q3-d1e791">
+              To the confirmation it is said that doctors are not authors of Sacred Scripture, but only expositors.
+              Concerning the evangelists it is said that in no passage are they really discordant. And accordingly <!-- accordingly for "insignum" --> 
+              his book is not called
+              <mentioned>on the discord</mentioned> but <mentioned>on the concord of the evangelists</mentioned>.
+              Nevertheless if it were called 
+              <mentioned>on the discord</mentioned>, 
+              this would not be true and real, but only an assessment or an opinion and mere words.
+            </p>
+            <p xml:id="pgb1q3-d1e806">
+              To another: the antecedent is denied. If one studies in the way they ought, 
+              for such a person ought not to seek to understand in order to believe, but  
+              <cit>
+                <quote xml:id="pg-b1q3-Qd1e4896">believe in order to understand</quote>
+                <bibl>Anselm, Prosologion, 1, (I, 100, ll. 18-19)</bibl>
+              </cit> 
+              as
+              <ref xml:id="pg-b1q3-Rd1e4953">
+                <name ref="#Anselm">Anselm</name> says
+                at the end of the prologue of his <title ref="#Proslogion">Proslogion</title>
+              </ref>.
+              To the proof <mentioned>concerning the sayings of the heretics</mentioned>, etc., 
+              it is said that reading such words is licit when it is for the learning of what is true and 
+              the rebuke of what is false. But such reading is not licit when it is 
+              for the purpose of believe or imitation 
+              or the vanity of assertion or the inordinate delight.
+              And perhaps therefore <name ref="#Jerome">Jerome</name> was flogged and beaten because 
+              he was reading with delight since perhaps on account of that love 
+              he was missing the better and more useful parts.
+            </p>
+            <p xml:id="pgb1q3-d1e822">
+              To the last: it is said that, though the one studying believes more easily, 
+              nevertheless his merit does not diminish on account of this because in this case 
+              he acquires better things, such as to believe more intensely or extensively, more expressly or more truly. 
+              For through a habit of this type he subordinates faith to his love and actually directs it into God. .
+            </p>
+            <p xml:id="pgb1q3-d1e828">
+              In the second place it would be able to be responded by denying the antecedent 
+              because the more subtile theologian does not always believe more easily, indeed 
+              many arguments and objections arise for the theologian that do not bother the simple believer.
+            </p>
+            <p xml:id="pgb1q3-d1e831">
+              From what has been said it is clear that it does not follow from these things <!-- things?? eis? -->
+              that through the study of theology there is acquired,  with respect to the articles, a knowledge superior to faith.
+              Therefore the same thing is evident and inevident, evident through science, inevident through faith. But 
+              it follows that one assents to an article through some means 
+              that does not come from scientific evidence.
+            </p>
+            <p xml:id="pgb1q3-d1e840">
+              The first argument to the contrary: in the first place it would be possible to say that 
+              when taking <mentioned>communicable</mentioned> as communicated to another,
+              it is distinct from the one to whom it is communicated. In this way it is 
+              said that the essence is not properly communicable.
+            </p> 
+            <p xml:id="pgb1q3-d1e843">
+              In the second place, it is said, by following the common school and the mode of speaking 
+              of the doctors, that the essence is communicable and not the person. And then the 
+              major premise is able to be understood in two ways.
+              In one mode nothing incommunicable is communicable to three things, 
+              that is, it is not something which is communicated to three things, 
+              and thus the major premise is false.
+              In another mode nothing incommunicable <!-- is something missing here -->, that is, 
+              this is not able to be communicated to three things, 
+              and then the major premise is true, but form of arguing is not valid.
+            </p> 
+            <p xml:id="pgb1q3-aadqsr">
+              To the other two it is clear through what has been said what should be responded.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q3-Dd1e4948">
+          <head xml:id="pg-b1q3-Hd1e4950">
+            <supplied>Conclusiones pro secunda distinctione</supplied>
+          </head>
+          <p xml:id="pgb1q3-d1e85">
+            <cit>
+              <quote xml:id="pg-b1q3-Qhivhiv" source="http://scta.info/resource/pll1d2c1-d1e3473">Hic itaque vera</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d2c1-d1e3473">Lombardus, Sent. I, d. 2, c. 1, [n.1], (I, 61, ll. 12).</ref></bibl>
+            </cit> 
+            this second distinction contains three final sentential conclusions.
+            The first: that the Trinity of divine persons is the only one and true God.
+          </p>
+          <p xml:id="pgb1q3-scqeap">
+            The second conclusion: that in God is a 
+            unity of essence or substance and a trinity of persons. 
+            Therefore there are not three gods but one God, 
+            though the Father generated the Son, 
+            and therefore the Son is not the who is the Father, and the Son is generated from the father, 
+            therefore the Father is not who the Son is, and the Holy Spirit is not the Father nor the Son, but the spirit
+            <pb ed="#L" n="21-r"/> 
+            is only coequal and consubstantial to both Father and the Son. Nor in this case are 
+            they different <!-- aliud et aliud --> neutrally, rather they are different <!-- alius et alius --> personally.
+          </p>
+          <p xml:id="pgb1q3-d1e90">
+            Third conclusion: that ever catholic writer who has written about the Trinity 
+            which is God intends to teach that the Father and Son and Holy Spirit 
+            are of one substance and essence and are one God with an inseparable equality. 
+            And this unity in essence and trinity in persons is proved through many scriptures 
+            and in many testimonies of holy doctors. Moreover the <name ref="#Lombard">Master</name> ads 
+            near the beginning of this distinction that this highest good, 
+            namely God the Trinity, is only recognized by minds purged through faith.
+            And this concludes this distinction.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>

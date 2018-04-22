@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 3 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 3 [London Transcription]</title>
+          <date when="2014-03-19">March 03, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-03-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="18-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q3">
+        <head>Quaestio 3 [London Transcription]</head>
+        <p xml:id="pgb1q3-d1e88"><hi rend="#largeFont">hoc itaque vera aut pia fide etc</hi> <g ref="#pilcrow"/>postquam <name ref="#Lombard">magister</name> prni[?] 
+          <lb ed="#L"/>sit quaedam neccessaria praeambula in prima distinctione hic consequenter se continuat ad dicenda in 
+          <lb ed="#L"/>hac distinctione 2a quae in duas partes principales dividitur nam in prima ponit 
+          <lb ed="#L"/>studentium informationem sacrae scriptura 2o insequitur et probat multipliciter suam intentionem 2a 
+          <lb ed="#L"/>ibi proponamus ergo in medium <g ref="#pilcrow"/>prima in tres dividitur quia primo docet qualiter studentes 
+          <lb ed="#L"/>se debent ad eam disponere <g ref="#slash"/> 2o quae et quali pro ipsius intellectu debent credere et 
+          <lb ed="#L"/>supponere 3o qualiter debent in ea procedere 2a ibi ceterum ut in primo et 3a 
+          <lb ed="#L"/>ibi <space extent="twoWordsLength"/> <g ref="#pilcrow"/>prima posset dividi tres secundum tres dispositiones quas ponit 
+          <lb ed="#L"/>nam docet quod quilibet studens debet esse mundus et virtuosus <g ref="#dot"/> attentus et stu<lb ed="#L"/>diosus 
+        tranquillus et non litigiosus 2a ibi de hac ergo re <g ref="#slash"/> 3a ibi proinde 
+          <lb ed="#L"/>omnis qui audit <g ref="#pilcrow"/>2a pars principalis dividitur in duas primo ponit sua conclusionem seu in<lb ed="#L"/>tentionem 
+        et probat eam testimoniis legis antique <g ref="#slash"/> 2o declarat eam testimoniis legis 
+          <lb ed="#L"/>evangelice 2a ibi nunc vero ad propositum <g ref="#pilcrow"/>prima dividitur in duas primo probat essentiae sim<lb ed="#L"/>plicem 
+        unitatem 2o personarum triplicem alteritatem et harum aeternam aequalitatem 2a ibi 
+          <lb ed="#L"/>personarum aequalitatem <g ref="#pilcrow"/>2a pars nunc vero ad propositionem in tres dividitur quia primo ponit unitatem 
+          <lb ed="#L"/>essentiae et trinitatem personarum simul ostendit 2o durationem aeternitatis annectit 3o se 
+          <lb ed="#L"/>excusat quod non plures auctoritates ad hoc adducit 2a ibi ipse et neccessario 
+          <lb ed="#L"/>sui euvangelii <g ref="#slash"/> 3a ibi sed quia singulae <choice><orig>pene</orig><reg>poenae</reg></choice> silbem[?] novi testament et hoc est divino</p>
+        
+        <p xml:id="pgb1q3-d1e119"><hi rend="#largeFont">Utrum</hi> possit probari per textum sacrae scripturae trinus et unus conditor 
+          <lb ed="#L"/>creatae naturae</p> 
+        
+        <p xml:id="pgb1q3-d1e122">quod non primo quia deus non est trinus et unus igitur antecedens probatur quia nullum 
+          <lb ed="#L"/>in communicabile est communicabile tribus sed pater est incommunicabilis et essentia divina communicabilis 
+          <lb ed="#L"/>ergo pater non est essentia et consequenter potest argui de filio et spiritu sancto</p>
+        
+        <p xml:id="pgb1q3-d1e125"><g ref="#pilcrow"/>2o quia per nullum 
+          <lb ed="#L"/>textum falsum potest illud probari sed textus scripturae videtur falsus aut saltim in proprius ergo 
+          <lb ed="#L"/>minor patet <ref corresp="#pgb1q3-Qldpdpc"><title ref="#hab">abacuch</title> 2o</ref> ubi dicitur <quote xml:id="pgb1q3-Qldpdpc" ana="#hab2_11">lapis de pariete clamabit</quote> Item <name ref="#IsidoreOfSeville">ysidorus</name> 
+          <lb ed="#L"/>valet errare nos fecisti de viis tuis et in durare fecisti cor nostrum 
+          <pb ed="#L" n="18-v"/><lb ed="#L"/>ne timeremus te Item caeci videt claudi ambulant etc Item <name ref="#Lombard">magister</name> 5o nihil est probabile 
+          <lb ed="#L"/>per scripturam quae diminuerit fidem sed probare evidenter et articulos est diminuere 
+          <lb ed="#L"/>fidem et eam evacuare ergo</p>
+        
+        <p xml:id="pgb1q3-d1e163">In oppositum videtur esse <name ref="#Lombard">magister</name> in hac distinctione <g ref="#slash"/> Item <ref corresp="#pgb1q3-Qpshder"><name ref="#Augustine">augustinus</name> 
+          <lb ed="#L"/>14 <title ref="#deTrinitate">de Trinitate</title> capitulo primo</ref> dicit quod <quote xml:id="pgb1q3-Qpshder" ana="#AugDeTrin14_1-a">per studium huius scientiae fides saluberrima gignitur 
+          <lb ed="#L"/>deffenditur et roboratur</quote></p>
+        
+        <p xml:id="pgb1q3-d1e188"><g ref="#pilcrow"/>primo conclusio licet hoc propositio si deus est ipse est trinus et unus 
+          <lb ed="#L"/>possit ex primo principio sufficienter deduci tantum deum trinum esse et unum non 
+          <lb ed="#L"/>potest ex eo principio primo evidenter concludi prima patet quia ex obiecto consequentis sequitur obiectum 
+          <lb ed="#L"/>antecedentis ergo consequentia bona quamvis non sciamus eam evidenter esse bonam aliquis 
+          <lb ed="#L"/>probatur nam sequitur deus non est trinus et unus ergo deus none st quanta enim neccessitate hoc 
+          <lb ed="#L"/>est neccessaria deus est tanta neccessitate est hoc deus est trinus et unus <g ref="#pilcrow"/>2a pars probatur quia 
+          <lb ed="#L"/>si posset ex primo principio evidenter concludi aut a priori et hoc non quia nullum 
+          <lb ed="#L"/>talem est possibile esse nec a posteriori cum primo cum quilibet effectus creatus sit finitus 
+          <lb ed="#L"/>demonstraret primam causam esse finitam <g ref="#slash"/> cum 2o cum omnis demonstratio procedat 
+          <lb ed="#L"/>ab effectu creato ad causam summa est insufficiens quia plures habet dissimilitudines 
+          <lb ed="#L"/>quam similitudines et dato quod posset illo modo suaderi primam causam esse adhuc nullomodo 
+          <lb ed="#L"/>convinceretur evidenter ipsum trinum esse <g ref="#pilcrow"/>Ad hoc sunt verba <name ref="#Lombard">magistri</name> in hac distinctione 
+          <lb ed="#L"/>dicens <quote xml:id="pg-b1q3-Qnepsir">non enim per creaturarum contemplationem sufficiens notitia trinitatis potest haberi 
+          <lb ed="#L"/>sine doctrinae vel superioris <choice><orig>inspiracionis</orig><reg>inspirationis</reg></choice> revelationem</quote></p>
+        
+        <p xml:id="pgb1q3-d1e217"><g ref="#pilrow"/>primum corollarium quod mul<lb ed="#L"/>tae 
+          propositiones de deo dictae seu formabiles sunt ex primo principio deducibiles 
+          <lb ed="#L"/>patet ex conclusione <g ref="#slash"/>et confirmatur de ista deus non est lapis potest ex illo deduci 
+          <lb ed="#L"/>quia eius opposita includit <choice><orig>contradiccionem</orig><reg>contradictionem</reg></choice> nam sequitur deus est lapis essentialiter ergo deus 
+          <lb ed="#L"/>est deus ergo deus est intelligens ergo deus non est lapis consequentia prima patet quia idem praedicatur 
+          <lb ed="#L"/>de se ipso 2a patet quia quam neccessario deus est deus tam neccessario deus est intelligens 
+          <lb ed="#L"/>et 3a patet quia nullum intelligens est lapis essentialiter</p>
+        
+        <p xml:id="pgb1q3-d1e229"><g ref="#pilcrow"/><choice><orig>2m</orig><reg>secundum</reg></choice> corollarium licet omnis evidentia 
+          <lb ed="#L"/>arguat certitudinem non tamen omnis certitudo infert evidentia prima patet 
+          <lb ed="#L"/>quia omnis sciens evidenter conclusionem est certus de illa <g ref="#dot"/> 2a patet quia deum esse trinum est 
+          <lb ed="#L"/>certissimum quia fide creditum et tamen de hoc articulo non habemus <choice><orig>evidenciam</orig><reg>evidentiam</reg></choice></p>
+        
+        <p xml:id="pgb1q3-d1e241"><g ref="#pilcrow"/><choice><orig>3m</orig><reg>tertium</reg></choice> corollarium quam repugnat nihil esse simpliciter tam repugnat tria supposita distincta 
+          <lb ed="#L"/>non esse realiter Ex quo sequitur ultra hanc consequentiam esse neccessariam nullam tria sunt igitur 
+          <lb ed="#L"/>nihil est patet quia sequitur nulla tria sunt ergo tria divina supposita non sunt igitur nullus deus 
+          <lb ed="#L"/>est ergo nihil est <g ref="#pilcrow"/>ex quo adhuc infl[?] quod sequitur <corr>bene<del rend="expunctuated">ita</del></corr> unum est ergo tria sunt 
+          <lb ed="#L"/>quia tria divina supposita sunt patet consequentia quia oppositum consequentis infert oppositum antecedentis quia 
+          <lb ed="#L"/>sequitur nulla tria sunt ergo tria divina supposita[?] non sunt ergo nullum unum est</p>
+        
+        <p xml:id="pgb1q3-d1e251"><g ref="#pilcrow"/>2a conclusio quam 
+          <lb ed="#L"/>est neccesse in divinis unam esse supersimplicem essentiae unitatem tam est <choice><orig>neccesse</orig><reg>necesse</reg></choice> illam 
+          <lb ed="#L"/>esse trinam realem pluralitatem seu alteritatem hoc patet ex dictis in prima 
+          <lb ed="#L"/><g ref="#pilcrow"/>confirmatur quia sic est de facto sicut conclusio significat ergo sic esse est neccesse antecedens patet ex 
+          <lb ed="#L"/>fide consequentia probatur quia qualitercumque intrinsece est in divina essentia talis esse est neccesse patet per
+          <lb ed="#L"/><name ref="#Lombard">magistrum</name> in hac distinctione <g ref="#slash"/> Item per <ref><name ref="#RichardOfStVictor">ricardum</name> libro primo <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> capitulo 27o</ref> dicentem confi<lb ed="#L"/>denter 
+        fateamur personas in deitate secundum substantiam dictas et substantiam significare 
+          <pb ed="#L" n="19-r"/><lb ed="#L"/>et plures ibi personas non plures substantias esse quia sunt plures habentes unum in 
+          <lb ed="#L"/>differens esse ex differenti proprietate unitatis <g ref="#slash"/> ad hoc sunt verba <name ref="#Lombard">magistri</name> in hac distinctione 
+          <lb ed="#L"/>principio hoc itaque etc</p>
+        
+        <p xml:id="pgb1q3-d1e287"><g ref="#pilcrow"/>primum corollarium non solum in divinis est <choice><orig>solicitudo</orig><reg>sollicitudo</reg></choice> vel naturae singularitas 
+          <lb ed="#L"/>seu simplicitas sed et vera et realis trium personarum aequalium trinitas patet ex conclusione 
+          <lb ed="#L"/>bene <ref><title ref="#io">iohannis</title> 4o</ref> alium peraclitum dabit vobis sitis[?] <ref><title ref="#Iio">prima Iohannis</title> 3o</ref> tres sunt 
+          <lb ed="#L"/>qui testimonium dant in caelo <g ref="#slash"/>Item <name ref="#Athanasius">athanasius</name> alia est persona patris etc</p>
+        
+        <p xml:id="pgb1q3-d1e323"><g ref="#pilcrow"/>2m corollarium 
+          <lb ed="#L"/>licet paternum nocionale[?] differentae sit filium aequalem sibi producere tamen non quodlibet suppositum 
+          <lb ed="#L"/>divinum dicens vel intelligens est spiritum sanctum producens prima pars est <name ref="#Augustine">augustinum</name> libro 
+          <lb ed="#L"/><title ref="#deTrinitate">de trinitate</title> dicit pater dicens se genuit verbum sibi aequale per omnia non enim integre 
+          <lb ed="#L"/>perfecteque se dixisset si aliquid minus se vel amplius esset in eius verbo quam in se ipso 
+          <lb ed="#L"/>2a pars probatur quia cum quaelibet persona divina se et alia a se intelligat sequitur quod filius produ<lb ed="#L"/>ceret 
+          se filium vel alium non se quia nihil se potest producere vel generare secundum <name ref="#Augustine">augustinum</name> 
+          <lb ed="#L"/>nec secundum quia sic esset quaternitas in divinis quod est impossibile et contra conclusionem</p>
+        
+        <p xml:id="pgb1q3-d1e350"><g ref="#pilcrow"/>3m corollarium quam est 
+          <lb ed="#L"/>neccesse in divinis tria supposita esse tam est impossibile spiritum sanctum adintra aliquid producere 
+          <lb ed="#L"/>patet ex dictis quia ipsum ad intra non produere est verum ergo neccessarium ergo oppositum eius 
+          <lb ed="#L"/>est impossibile</p>
+        
+        <p xml:id="pgb1q3-d1e361"><g ref="#pilcrow"/>3a conclusio licet theologus per textum scripturae non possit deum esse trinum 
+          <lb ed="#L"/>evidenter ostendere tamen potest per eundum meritorie trinitatem sufficienter ostendere sufficienter 
+          <lb ed="#L"/>approbare et deducere prima patet quia obiectum illius articuli non potest evidenter ad contradictionem 
+          <lb ed="#L"/>deduci ut patet ex prima conclusione 2a pars probatutr quia ille articulus est sufficienter in sacra 
+          <lb ed="#L"/>scriptura expressus ergo antecedens patet in hac distinctione unde <name ref="#Lombard">magister</name> singule poene[?] silbem[?] 
+          <lb ed="#L"/>novi testamenti hac ineffabilis unitatis veritatem atque trinitatis concorditer 
+          <lb ed="#L"/>insinuant <g ref="#slash"/>sed quod meritorie possit inquiri et per scripturam doceri et deduci arguitur 
+          <lb ed="#L"/>ex dictis <name ref="#Augustine">augustini</name> et allegatur a <name ref="#Lombard">magistro</name> in hac distinctione dicit quod hac trinitate 
+          <lb ed="#L"/>nihil fructuosius invenitur <g ref="#slash"/> Item <name ref="#Lombard">magister</name> in prologo delectat nos veritas 
+          <lb ed="#L"/>pollicentis scilicet spes habendi vitam aeternam quae fuit una de causis mone?lus[?] 
+          <lb ed="#L"/>ad compilationem[?] huius operis</p>
+        
+        <p xml:id="pgb1q3-d1e404"><g ref="#pilcrow"/>primum corollarium nullus sacrae scripturae textus in suo proprie 
+          <lb ed="#L"/>sensu est falsis contra <name ref="#Ockham">Okam</name> in <title>scripto super sententias</title> patet quia aliter articuli fidei non posset 
+          <lb ed="#L"/>per huius textum probari nec deduci ymmo scriptura redderetur suspecta</p>
+        
+        <p xml:id="pgb1q3-d1e420"><g ref="#pilcrow"/>2m corollarium 
+          <lb ed="#L"/>quod studere in sacra scriptura est circumstantia augens meritas patet si in caritate 
+          <lb ed="#L"/>et propter deum fiat et fidei catholice non repugnet ymmo studere in qualibet scientia 
+          <lb ed="#L"/>non prohibita est meritorium si imperetur a bono actu voluntatis ut ostendit <name>fastinus[?]</name> <!-- Fascinus of Asti --></p>
+        
+        <p xml:id="pgb1q3-d1e433"><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium est pars quovis affirmativa scilicet quod potest probari per textum sacrae scriptura etc patet dicta</p>
+        
+        <p xml:id="pgb1q3-d1e443"><lb ed="#L"/><g ref="#pilcrow"/>Contra primam conclusione arguitur per rationem naturalem possumus cognoscere et deducere divinam 
+          <lb ed="#L"/>essentiam esse ergo et trinitatem personarum consequentia non quia quidquid cognoscitur de essentia divina vere 
+          <lb ed="#L"/>competit trinitati antecedens patet per <ref><name ref="#Cicero">tullium</name> <title>de natura deorum</title> libro 2o</ref> post principium omnibus 
+          <lb ed="#L"/>enim innatum est et in anima quasi insculptum esse deo <g ref="#slash"/>Ad idem est <name ref="#Augustine">augustinus</name> <title ref="Confessions">confessionum</title> 
+          <lb ed="#L"/>capitulo 8o loquens de <name ref="#Platonists">platonicis</name> ubi dicit quod ipse ratione devenerit ad notitiam non 
+          <lb ed="#L"/>solum divinae essentiae sed etiam trinitatis</p>
+        
+        <p xml:id="pgb1q3-d1e467"><g ref="#pilcrow"/>2o sic omnis perfectio reperta in creaturis debet deo 
+          <lb ed="#L"/>attribui sed generare est perfection in creatura ergo</p>
+        
+        <p xml:id="pgb1q3-d1e470"><g ref="#pilcrow"/>3o quanto natura est actualior tanto 
+          <pb ed="#L" n="19-v"/><lb ed="#L"/>est fecundior sed divina natura est infinita actualiter ergo infinitae fecunditatis</p>
+        
+        <p xml:id="pgb1q3-d1e475"><g ref="#pilcrow"/><choice><orig>4o</orig><reg>quarto</reg></choice> de bonum 
+          <lb ed="#L"/>est sui ipsius communicativum naturale sed deus est infinitum bonum ergo maior est <ref><name ref="#Dionysius">dyonsius</name> <title ref="#deDivinisNominibus">de divins 
+            <lb ed="#L"/>nominibus</title> capitulo 12o</ref> et minor est <ref><name ref="#Anselm">anselmus</name> in suo <title>proslogion</title> capitulis multis</ref></p>
+        
+        <p xml:id="pgb1q3-d1e499"><g ref="#pilcrow"/>Contra <choice><orig>2am</orig><reg>secundam</reg></choice> 
+          <lb ed="#L"/>conclusionem si essent tres personae etc sequitur quod in divinis est relatio et oppositio relationis vel ergo 
+          <lb ed="#L"/>erit una tantum vel plures si solum unam ergo erunt tamen duo supposita seu 
+          <lb ed="#L"/>duae personae si vero pluries ergo erunt ibi ad minus <choice><orig>4or</orig><reg>quattuor</reg></choice> supposita quod est haeresis 
+          <lb ed="#L"/>patet consequentia quia omnis oppositio reletiva requirit duo extrema scilicet generare et generari spi<lb ed="#L"/>rare 
+          et spirari</p>
+        
+        <p xml:id="pgb1q3-d1e502"><g ref="#pilcrow"/>2o sic deus omni modo est idem quo simpliciter est melius esse idem 
+          <lb ed="#L"/>quam non idem sed esse idem essentialiter est personaliter est melius quam non esse sic idem ego 
+          <lb ed="#L"/>maior patet per <ref><name ref="#Anselm">anselmus</name> <title ref="#Monologion">monologion</title> 15o</ref> minor patet quia quod convenit patri et cuilibet 
+          <lb ed="#L"/>personae est melius ipsum quam non ipsum sed esse idem essentialiter et personaliter convenit 
+          <lb ed="#L"/>cuilibet personae ergo sic idem melius ipsum quam non ipsum minor patet quia quaelibet persona 
+          <lb ed="#L"/>personaliter et essentialiter est idem essentiae divinae</p>
+        
+        <p xml:id="pgb1q3-d1e518"><g ref="#pilcrow "/><choice><orig>3o</orig><reg>tertio</reg></choice> sequitur quod sunt tres aeternae personae 
+          <lb ed="#L"/>divinae et tamen non sunt tres aeternae consequens implicat patet consequentia quia per conclusionem et corollarium 
+          <lb ed="#L"/>eius sunt tres coaeternae personae ergo et aeternae sed quod non sunt tres aeternae patet per 
+          <lb ed="#L"/><name ref="#Athanasius">athansium</name> dicentem non tres aeterni sed unus aeternus</p>
+        
+        <p xml:id="pgb1q3-d1e526"><g ref="#pilcrow"/><g ref="#pilcrow"/>4o contra 2m corollarium si per 
+          <lb ed="#L"/>intelligere etc sequitur quod quaelibet persona producet filium patet consequentia quia quaelibet intelligit aliquid 
+          <lb ed="#L"/>sequitur ergo quod producit se vel aliquid ex se per intelligere vel diligere <g ref="#pilcrow"/>confirmatur quia si 
+          <lb ed="#L"/>cum simplicitate stat trinitas personarum pari ratione potest stare quaternitas quia non 
+          <lb ed="#L"/>videtur ratio quare filius non possit producere filium per suum intelligere sicut pater</p>
+        
+        <p xml:id="pgb1q3-d1e535"><lb ed="#L"/><g ref="#pilcrow"/>contra <choice><orig>3am</orig><reg>tertiam</reg></choice> conclusionem deum esse trinum nullibi[?] in sacra <sic>sacra</sic> invenitur expressum 
+          <lb ed="#L"/>ergo probatur antecedens quia cum scriptura habeat plures sensus et intellectus posset adversarius 
+          <lb ed="#L"/>die[?] quod christus et alii de trinitate loquentes non sunt locuti ad sensum sed mis<lb ed="#L"/>tice 
+        et figuraliter</p>
+        
+        <p xml:id="pgb1q3-d1e545"><g ref="#pilcrow"/>contra primum corollarium quia multae sunt propositiones qui videntur falsae in sensu<lb ed="#L"/>ltali[?] 
+          sed ille est proprius sensus scripturae ergo antecedens patet <ref><title ref="#io">iohannis</title> 4o</ref> ubi christus dicit ego 
+          <lb ed="#L"/>sum hostium <g ref="#slash"/> Item ego sum vitis vera
+        </p>
+        <p xml:id="pgb1q3-chqdce">
+          <g ref="#slash"/>confirmatur hoc quia scripturae doctorum inter se 
+          <lb ed="#L"/>contradicunt ergo antecedens pate de <name ref="#Augustine">augustino</name> et <name ref="#Jerome">Ieromino</name> <title>super epistola pauli ad galatas</title> 
+          <lb ed="#L"/>in multis passibus <g ref="#pilcrow"/>Item confirmatur antecedens quia evangelistae inter se videntur discordare 
+          <lb ed="#L"/>patet quia ob hoc videtur <name ref="#Augustine">augustinus</name> fecisse librum de concordia evangelistarum</p>
+        
+        <p xml:id="pgb1q3-d1e578"><g ref="#pilcrow"/>Item 
+          <lb ed="#L"/>contra conclusionem et <choice><orig>2m</orig><reg>secundum</reg></choice> corollarium quia studentes theologiam periculo errandi se exponunt 
+          <lb ed="#L"/>ergo nullus eam debet studere nec eius meritorium est studium patet antecedens quia ibi mis<lb ed="#L"/>centur 
+          dicta philosophorum et haereticorum quae legere in propriis locis non habet nec ex<lb ed="#L"/>pedit 
+          ut patet de <name ref="#Jerome">Ieromino</name> qui graviter fuit percussus eo quod legit libros 
+          <lb ed="#L"/><name ref="#Cicero">ciceronis</name> ut habetur in eius legenda</p>
+        
+        <p xml:id="pgb1q3-d1e587">Item per studium theologiae acquiritur habitus 
+          <lb ed="#L"/>faciliter credendi ergo per illud prodit studens unam circumstanciam augentem meritum 
+          <lb ed="#L"/>antecedens patet et consequentia probatur quia difficultas credendi est circumstantia augens meritum unde 
+          <lb ed="#L"/><name ref="#Jerome">Ierominus</name> in quaedam epistola res maioris est meriti quae maioris est laboris Item <name ref="#Ambrose">ambrosius</name> 
+          <lb ed="#L"/>in libro <title>de carni et abel</title> omnis virtus in labore consistit</p>
+        
+        <p xml:id="pgb1q3-d1e605"><g ref="#pilcrow"/>Ad idem videtur esse 
+          <lb ed="#L"/><ref><name ref="#Aristotle">philosophus</name> 2o <title ref="#Ethics">ethicorum</title></ref> ex quibus videtur sequi quod eligibilior[?] esset status simplicis 
+          <pb ed="#L" n="20-r"/><lb ed="#L"/>fidelis viatoris quam profundi ac <name ref="#Scotus">subtilis doctoris</name></p>
+        
+        <p xml:id="pgb1q3-d1e623"><g ref="#pilcrow"/>Ad primum quidquid sit de 
+          <lb ed="#L"/>antecedente negatur consequentia ad probationem dicitur quod trinitas divina ab aliquo cognoscitur aliquo non cognoscitur 
+          <lb ed="#L"/>trinitas divina</p>
+        
+        <p xml:id="pgb1q3-d1e629"><g ref="#pilcrow"/>Ad dictum <name ref="#Augustine">augustini</name> de <name ref="#Platonists">platonicis</name> primo dicitur quod <name ref="#Augustine">augustinus</name> non dicit 
+          <lb ed="#L"/>se invenisse in libro platonicorum sed in libro cuiudam platonici sed plures fuerunt platonici 
+          <lb ed="#L"/>post adventum christum sicut <name ref="#Porphyry">porphirius</name> <name ref="#Plotinus">plotinus</name> et <name>apulenus</name> qui forte fuerunt boni 
+          <lb ed="#L"/><g ref="#slash"/>2o potest dici quod si aliquid noverit de trinitate hanc habuerit ex divina inspiratione 
+          <lb ed="#L"/>sicut dicit <ref><name ref="#Augustine">augustinus</name> de hermete mercurii in sermone <title>contra quinque haereses</title></ref></p>
+        
+        <p xml:id="pgb1q3-d1e670"><g ref="#pilcrow"/>Ad 7m[?] primo 
+          <lb ed="#L"/>posset mairo negari quia mereri vel posse mereri est perfectio in creatura non tamen potest deo 
+          <lb ed="#L"/>attribui <g ref="#slash"/><choice><orig>2o</orig><reg>secundo</reg></choice> posset negari minor quia forte generare vel posse generare non est 
+          <lb ed="#L"/>perfectio simpliciter potissime in divinis quia secundum quod communiter arguitur cum filius hoc non 
+          <lb ed="#L"/>potest careret <choice><orig>alica</orig><reg>aliqua</reg></choice> perfectione</p>
+        
+        <p xml:id="pgb1q3-d1e676"><g ref="#pilcrow"/>Ad 3m posset concedi consequens quod divina natura in suppositis 
+          <lb ed="#L"/>patris et filii est infinitae fecunditatis quia pater producit filium in omnibus sibi 
+          <lb ed="#L"/>aequalem pater et filius spiritum sanctum eis consubstantialem</p>
+        
+        <p xml:id="pgb1q3-d1e680"><g ref="#pilcrow"/>Ad <choice><orig>4m</orig><reg>quartum</reg></choice> conceditur totam ratio nec ex 
+          <lb ed="#L"/>hoc concluditur evidenter trinitas personarum in divinius <choice><orig>ymmo</orig><reg>immo</reg></choice> aeque probaretur per illa 
+          <lb ed="#L"/>media quaternitas et quinternitas <choice><orig>ymmo</orig><reg>immo</reg></choice> forte melius quam trinitas</p>
+        
+        <p xml:id="pgb1q3-d1e693"><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>aliud posset negari minor et ad probationem dicitur quem licet quaelibet perfecta sit idem essentiae personaliter 
+          <lb ed="#L"/>et essentialiter tamen non convenit esse idem omnibus talibus personis simul ad invicem 
+          <lb ed="#L"/>personalem <g ref="#slash"/> Item potest dici quod maior illa qua dicitur quod convenit patri et cuilibet per<lb ed="#L"/>sonae 
+          est melius ipsum quam non ipsum est vera si non sit relatum sed solum 
+          <lb ed="#L"/>includens relationem</p>
+        
+        <p xml:id="pgb1q3-d1e699"><g ref="#pilcrow"/>Ad 3m dicitur quod aeternum vel aeternae potest stare substantive 
+          <lb ed="#L"/>et sic non sunt tres aeterni sed unus aeternus vel adiective et sic possunt dici tres 
+          <lb ed="#L"/>aeterni vel aeternae 2o posset dici quod magis proprie dicitur pater filius et spiritus sanctus sunt 
+          <lb ed="#L"/>coaeterni quam aeterni ideo <name ref="#Athanasius">athanasius</name> primum concedit et 2m negat</p>
+        
+        <p xml:id="pgb1q3-d1e706"><g ref="#pilcrow"/>Ad 4m negatur 
+          <lb ed="#L"/>consequentia et ad probationem dicitur secundum <ref><name ref="#ThomasStrasbourg">thomas de argentina</name> distinctione 2a primi articulo primo</ref> quod dicitur sumitur[?] dicitur[?] 
+          <lb ed="#L"/>in divinis ?do[?] proprie et sic idem est quod verbum concipiere et sic sumit ipsum <name ref="#Augustine">augustinus</name> a <g ref="#dot"/> <title ref="#deTrinitate">de trinitate</title> 
+          <lb ed="#L"/>dicens quod non nisi pater est dicens ad intra <g ref="#slash"/> alio modo sint dicere pro perfecte intelligere 
+          <lb ed="#L"/>et sic quaelibet perfecta dicit se <g ref="#slash"/> et conformiter posset dicit de intelligere sic accipit <name ref="#Anselm">anselmus</name> 
+          <lb ed="#L"/><title ref="#Monologion">monologion</title> 58[?] et 59 capitulis ubi dicit singule personae se dicunt et quaelibet 
+          <lb ed="#L"/>illarum se dicit <g ref="#slash"/> si autem que?tur[?] evidens ratio quare filius non producit filium per 
+          <lb ed="#L"/>suum dre[?] sicut pater potest dici cum <name ref="#Anselm">anselmus</name> <title ref="#Monologion">monologion</title> 85o et 68 capitulis quod hoc trans<lb ed="#L"/>cendit 
+          omnis intellectus humani active et est a nobis in via in explicabile 
+          <lb ed="#L"/><g ref="#slash"/>per idem patet ad conformationem cum dicitur quod eadem ratione etc negatur consequentia et cum dicitur quia non videtur 
+          <lb ed="#L"/>ratio etc dicitur quod licet illam proprie nec perfecte sciamus tamen ad haec <choice><orig>alica</orig><reg>aliqua</reg></choice> est et ideo credendo 
+          <lb ed="#L"/>debemus captivare[?] intellectum</p>
+        
+        <p xml:id="pgb1q3-d1e756"><g ref="#pilcrow"/>Ad primum contra 3am conclusionem negatur antecedens nam patet m?t[?] 
+          <lb ed="#L"/>ultimo <title ref="#io">Ioahnnis</title> primo et etiam in <title ref="#Decretals">decretis</title> romanorum pontificium  quibus qui contradiceret 
+          <lb ed="#L"/>censeretur haereticus nolo tamen ddie[?] illa decreta esse scriptura sacra</p> 
+        
+        <p xml:id="pgb1q3-d1e768"><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m primo posset antecedens negari loquendo de propositionibus quae non solum narrative sed 
+          <lb ed="#L"/>et assertive ponuntur in textu sacrae scripturae <g ref="#pilcrow"/>2o pro intellectu nota quod ille dicitur 
+          <lb ed="#L"/>sensus proprius alicuius scripturae quem sensum actor scriptae per ipsam intendit hoc 
+          <lb ed="#L"/>ostendit <name ref="#RichardFitzRalph">armacanus</name> libro primo <title ref="#">de quaestionibus armenorum</title> tunc principium illius libri
+        </p>
+        <p xml:id="pgb1q3-snqefp">
+          <pb ed="#L" n="20-v"/> 
+          <lb ed="#L"/>2o nota quod cum scriptura habeat plures sensus si veritas alicuius textus non potest haberi 
+          <lb ed="#L"/>secundum unum sensum est recurrendum ad alium cui aliae scripturae magis concor<lb ed="#L"/>dat 
+        et est summe cavendum ne figurativa locutio ad litteram accipiatur 
+          <lb ed="#L"/>et econverso ne vera et propria locutio ad figuram intelligitur et figurativa putetur</p> 
+          
+        <p xml:id="pgb1q3-d1e781"><lb ed="#L"/><g ref="#pilcrow"/>3o notandum quod licet per scripturam quandoque significetur unum per similitudinem tamen non oportet propter 
+          <lb ed="#L"/>hoc quod idem in quolibet loco per illud idem significetur unum per similituidnem ista notabilia 
+          <lb ed="#L"/>ponit <ref><name ref="#Augustine">augustinus</name> 3o <title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> et ponit de omnibus exemplum</p>
+        
+        <p xml:id="pgb1q3-d1e791"><g ref="#pilcrow"/>Ad confirmationem 
+          <lb ed="#L"/>dicitur quod doctores non sunt sacrae scripturae actores sed tantum expositores 
+          <lb ed="#L"/>de euvangelicis[?] dicitur quod in nullo passu discordat realem et insignum huius liber 
+          <lb ed="#L"/>ille non vocatur de discordia sed concordia euvangelicarum[?] si tamen diceretur de discordia 
+          <lb ed="#L"/>illa non esset vera et realem sed solum aestimata vel opinata et verbalis</p>
+        
+        <p xml:id="pgb1q3-d1e806"><g ref="#pilcrow"/>Ad aliud 
+          <lb ed="#L"/>negatur antecedens si studeat qualem debet <g ref="#slash"/> debet enim talis non quaerere intelligere ut credat 
+          <lb ed="#L"/>sed credere ut intelligat ut dicit <ref><name ref="#Anselm">anselmus</name> in fine prologi sui <title>proslogion</title></ref> ad probationem 
+          <lb ed="#L"/>de dicitis haereticorum etc dicitur quod legere talia dicta ad vocarum eruditionem et 
+          <lb ed="#L"/>falsorum reprobationem est licitum sed illa legere ad credulitatem vel imitationem 
+          <lb ed="#L"/>seu assertionem vanitatem vel delectionem inordinatam non est licitum et forte 
+          <lb ed="#L"/><name ref="#Jerome">ierominus</name> ido fuit flagellatus et percussus quia illa cum delectione legebat 
+          <lb ed="#L"/>quia forte amore illorum meliora et utiliora obmittebat</p>
+        
+        <p xml:id="pgb1q3-d1e822"><g ref="#pilcrow"/>Ad ultimum 
+          <lb ed="#L"/>dicitur quod licet studens facilius credat non tamen propter hoc eius meritum minuitur quia 
+          <lb ed="#L"/>loco eius cirucmstantiae acquirit alias meliores sicut intensius credere vel 
+          <lb ed="#L"/>extensius expressius et verius per huiusmodi non habitum subordinat fidem sua caritati 
+          <lb ed="#L"/>et in deum dirigit actualiter[?]</p>
+        
+        <p xml:id="pgb1q3-d1e828"><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice>posset dici negando antecedens quia non semper subtilior 
+          <lb ed="#L"/>theologus facilius credit ymmo occurrunt sibi plures rationes et instanciae 
+          <lb ed="#L"/>quas simplices fideles non advertunt</p>
+        
+        <p xml:id="pgb1q3-d1e831"><g ref="#pilcrow"/>ex dictis patet quod non sequitur ex eis per 
+          <lb ed="#L"/>studium theologiae acquiritur notitia respectu articuli fide superior ergo idem est evidens 
+          <lb ed="#L"/>et inevidens evidens per scientiam inevidens per fidem sed bene sequitur quod assentit articulo 
+          <lb ed="#L"/>per aliquod medium quod facit sanctificam evidentiam</p>
+        
+        <p xml:id="pgb1q3-d1e840"><g ref="#pilcrow"/>Ad prima rationem in oppositum 
+          <lb ed="#L"/>primo posset dici quod sumendo communicale ut communicatum alteri est distinctum ab illo cui communi<lb ed="#L"/>catur 
+          sic dicitur quod essentia proprie non est communicabilis</p>
+        
+        <p xml:id="pgb1q3-d1e843"><g ref="#pilcrow"/><choice><orig>2o</orig><reg>secundo</reg></choice> dicitur sequendo scolam communem et 
+          <lb ed="#L"/>modum loquendi doctorum quod essentia est communicabilis et non persona et tunc illa maior potest 
+          <lb ed="#L"/>intelligi dupliciter <g ref="#slash"/> uno modo nullum incommunicabile est communicabile tribus id est non est illud quod communicatur tribus 
+          <lb ed="#L"/>et sic maior est falsa <g ref="#slash"/> alio modo nullum incommunicabile id est ipsum non potest communicari tribus et tunc maior 
+          <lb ed="#L"/>est vera sed forma arguendi non valet</p> 
+        
+        <p xml:id="pgb1q3-aadqsr"><g ref="#slash"/> Ad alias duas patet per dicta quod sit respondendum</p>
+        
+        <!-- conclusions cut from earlier question 4 -->
+        <p xml:id="pgb1q3-d1e85"><lb ed="#L"/>hic itaque vera hoc 2a distinctio continet tres conclusiones finalem sententialem prima quod 
+          <lb ed="#L"/>trinitas divinarum personarum est unus solus et verus deus</p> 
+        
+        <p xml:id="pgb1q3-scqeap"><g ref="#pilcrow"/>2a conclusio quod in deo est 
+          <lb ed="#L"/>unitas essentiae seu substantiae et trinitas personarum <unclear>Ideo <!-- could be correcte from Item --></unclear> non sunt tres dii sed unus 
+          <lb ed="#L"/>deus licet pater genuerit filium et ideo filius non sit qui pater est filiusque <seg type="correction">a<del rend="strikethrough">g</del></seg> patre genitus 
+          <lb ed="#L"/>sit ideo pater non sit qui filius est <del rend="strikethrough">3a conclusio</del> et spiritus sanctus nec pater sit nec filius sed tantum 
+          <pb ed="#L" n="21-r"/><lb ed="#L"/>patris et filii spiritus utrique coaequalis et consubstantialis nec ibi est aliud et aliud neutraliter 
+          <lb ed="#L"/>sed alius et alius personaliter</p>
+        
+        <p xml:id="pgb1q3-d1e90"><g ref="#pilcrow"/>3a conclusio quod omnes catholici tractatores qui de trinitate 
+          <lb ed="#L"/>quae deus est scripserunt hoc secundum scripturas docere intendunt quod pater et filius et spiritus sanctus 
+          <lb ed="#L"/>sunt unius substantiae et essentiae et inseparabili aequalitate unus est deus et hoc unitas in 
+          <lb ed="#L"/>essentia et trinitas in personis probatur in textu per multa scriptura et doctorum sanctorum 
+          <lb ed="#L"/>testimonia Addit autem <name ref="#Lombard">magister</name> circa principium huius distinctionis quod hoc summum bonum 
+          <lb ed="#L"/>scilicet deus trinitas solis mentibus per fidem purgatis cmtur[?] et hoc de distinctione ista <g ref="#dot"/></p>
+          
+          
+        
+      </div>  
+    </body>
+  </text>
+</TEI>
