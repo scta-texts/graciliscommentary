@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 15 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.10-dev-master">
+          <title>Liber I, Quaestio 15 [London Transcription]</title>
+          <date when="2014-10-25">October 25, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-10-25">October 25, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-10-25" who="#JW" status="draft" n="2014.10">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>  
+  <facsimile>
+<surface n="L50v">
+<graphic url="../../images/L50v.jpg"/>
+<zone start="#pgb1q15-d1e194" ulx="494" uly="144" lrx="2036" lry="376" n="2"/>
+<zone start="#pgb1q15-d1e240" ulx="482" uly="298" lrx="2024" lry="464" n="1"/>
+<zone start="#pgb1q15-d1e269" ulx="434" uly="388" lrx="2006" lry="580" n="1"/>
+<zone start="#pgb1q15-d1e277" ulx="448" uly="502" lrx="2020" lry="636" n="1"/>
+<zone start="#pgb1q15-d1e295" ulx="424" uly="584" lrx="1992" lry="976" n="1"/>
+<zone start="#pgb1q15-d1e340" ulx="428" uly="854" lrx="1996" lry="1126" n="1"/>
+<zone start="#pgb1q15-d1e353" ulx="428" uly="1018" lrx="1996" lry="1484" n="1"/>
+<zone start="#pgb1q15-d1e403" ulx="424" uly="1568" lrx="1992" lry="1814" n="1"/>
+<zone start="#pgb1q15-d1e425" ulx="416" uly="1732" lrx="1988" lry="1928" n="1"/>
+<zone start="#pgb1q15-d1e449" ulx="410" uly="1840" lrx="1982" lry="2172" n="1"/>
+<zone start="#pgb1q15-d1e462" ulx="382" uly="2088" lrx="1950" lry="2366" n="1"/>
+</surface>
+<surface n="L50r">
+<graphic url="L50r.jpg"/>
+<zone start="#pgb1q15-d1e92" ulx="4" uly="1004" lrx="1682" lry="1290" n="1"/>
+</surface>
+<surface n="L51r">
+<graphic url="L51r.jpg"/>
+<zone start="#pgb1q15-d1e462" ulx="8" uly="636" lrx="1634" lry="1288" n="2"/>
+<zone start="#pgb1q15-d1e476" ulx="6" uly="268" lrx="1632" lry="530" n="1"/>
+<zone start="#pgb1q15-d1e495" ulx="12" uly="426" lrx="1638" lry="750" n="1"/>
+<zone start="#pgb1q15-d1e574" ulx="6" uly="1236" lrx="1632" lry="1540" n="1"/>
+<zone start="#pgb1q15-d1e592" ulx="0" uly="1438" lrx="1626" lry="1706" n="1"/>
+<zone start="#pgb1q15-d1e615" ulx="6" uly="1598" lrx="1632" lry="1814" n="1"/>
+<zone start="#pgb1q15-d1e629" ulx="16" uly="1716" lrx="1642" lry="1982" n="1"/>
+<zone start="#pgb1q15-d1e655" ulx="4" uly="1880" lrx="1630" lry="2144" n="1"/>
+<zone start="#pgb1q15-d1e665" ulx="2" uly="2056" lrx="1628" lry="2292" n="1"/>
+<zone start="#pgb1q15-d1e683" ulx="2" uly="2206" lrx="1628" lry="2362" n="1"/>
+</surface>
+<surface n="L51v">
+<graphic url="L51v.jpg"/>
+<zone start="#pgb1q15-d1e683" ulx="526" uly="226" lrx="2022" lry="426" n="2"/>
+<zone start="#pgb1q15-d1e702" ulx="514" uly="314" lrx="2042" lry="668" n="1"/>
+<zone start="#pgb1q15-d1e725" ulx="482" uly="612" lrx="2010" lry="876" n="1"/>
+<zone start="#pgb1q15-d1e743" ulx="442" uly="1552" lrx="1980" lry="1770" n="1"/>
+<zone start="#pgb1q15-d1e759" ulx="462" uly="932" lrx="1990" lry="1388" n="1"/>
+<zone start="#pgb1q15-d1e778" ulx="444" uly="1316" lrx="1980" lry="1654" n="1"/>
+<zone start="#pgb1q15-d1e815" ulx="452" uly="1676" lrx="1988" lry="1892" n="1"/>
+<zone start="#pgb1q15-d1e827" ulx="444" uly="1832" lrx="1980" lry="2242" n="1"/>
+<zone start="#pgb1q15-d1e848" ulx="424" uly="2126" lrx="1962" lry="2388" n="1"/>
+<zone start="#pgb1q15-d1e863" ulx="424" uly="2270" lrx="1962" lry="2406" n="1"/>
+</surface>
+<surface n="L52r">
+<graphic url="L52r.jpg"/>
+<zone start="#pgb1q15-d1e863" ulx="0" uly="202" lrx="1726" lry="392" n="2"/>
+<zone start="#pgb1q15-d1e872" ulx="0" uly="274" lrx="1726" lry="674" n="1"/>
+<zone start="#pgb1q15-d1e895" ulx="4" uly="540" lrx="1726" lry="934" n="1"/>
+<zone start="#pgb1q15-d1e920" ulx="4" uly="790" lrx="1726" lry="1030" n="1"/>
+<zone start="#pgb1q15-d1e934" ulx="6" uly="894" lrx="1732" lry="1294" n="1"/>
+<zone start="#pgb1q15-d1e960" ulx="12" uly="1172" lrx="1734" lry="1516" n="1"/>
+<zone start="#pgb1q15-d1e982" ulx="18" uly="1396" lrx="1740" lry="1618" n="1"/>
+<zone start="#pgb1q15-d1e994" ulx="2" uly="1506" lrx="1724" lry="1736" n="1"/>
+<zone start="#pgb1q15-d1e1003" ulx="2" uly="1672" lrx="1724" lry="2006" n="1"/>
+<zone start="#pgb1q15-d1e1027" ulx="2" uly="1898" lrx="1724" lry="2112" n="1"/>
+<zone start="#pgb1q15-d1e1037" ulx="4" uly="2010" lrx="1726" lry="2164" n="1"/>
+<zone start="#pgb1q15-d1e1043" ulx="4" uly="2066" lrx="1726" lry="2264" n="1"/>
+<zone start="#pgb1q15-d1e1051" ulx="6" uly="2168" lrx="1732" lry="2358" n="1"/>
+</surface>
+<surface n="L52v">
+<graphic url="L52v.jpg"/>
+<zone start="#pgb1q15-d1e1051" ulx="432" uly="208" lrx="1992" lry="464" n="2"/>
+<zone start="#pgb1q15-d1e1076" ulx="428" uly="346" lrx="1988" lry="514" n="1"/>
+<zone start="#pgb1q15-d1e1083" ulx="418" uly="418" lrx="1978" lry="932" n="1"/>
+<zone start="#pgb1q15-d1e1124" ulx="404" uly="834" lrx="1964" lry="930" n="1"/>
+</surface>
+  </facsimile>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q15">
+        <head>Quaestio 15 [London Transcription]</head>
+        <p xml:id="pgb1q15-d1e92"><lb ed="#L"/><hi rend="threeLineDropCap">N</hi>unc de spiritu sancto postquam <name ref="#Lombard">magister</name> determinavit de temporalis 
+          <lb ed="#L"/>missionis principio nunc determinat de huiusmodi missionis modo vario 
+          <lb ed="#L"/>et dividitur in duas partes quia primo determinat de modo sensibili et visibili 2o 
+          <lb ed="#L"/>de invisibili et internali perceptabili 2a incipit in 17 distinctione</p>
+        
+        <p xml:id="pgb1q15-d1e111"><g ref="#pilcrow"/>prima pars dividitur in duas 
+          <lb ed="#L"/>quia primo prosequitur de missione visibili spiritus sancti 2o facit comparationem quamdam huius missionis 
+          <lb ed="#L"/>ad missionem filii 2a ibi sed prius et illa dividitur in tres nam ostendit primo quod spiritus 
+          <lb ed="#L"/>sanctus ratione missionis non dicitur mittendi principio 2o quod filius secundum quod homo est minor 
+          <lb ed="#L"/>tota trinitate et etiam se ipso 3o ostendit qualiter pater potest dici maior filio 2a ibi notandum autem 
+          <lb ed="#L"/>3a ibi <name ref="#HilaryOfPoitiers">hylarius</name> etc et hoc divisio et sententia in generali praesentis distinctionis circa quam etc</p>
+        
+        <p xml:id="pgb1q15-d1e129"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum species in quibus spiritus sanctus missus apparuit visibiliter fuerunt entitates potentias 
+          <lb ed="#L"/>creatas immutantes realiter</p>
+        
+        <p xml:id="pgb1q15-d1e140"><g ref="#pilcrow"/>quod non quia tunc sequeretur quod distinctio talium specierum 
+          <lb ed="#L"/>visarum inferret proportionaliter distinctionem cognitionum consequens <unclear>falsum</unclear> quia omnis cognitio intellectus creati 
+          <lb ed="#L"/>in genere qualitatis habet reponi sed tales species in quibus spiritus sanctus apparuit non semper re<lb ed="#L"/>ponuntur 
+        in eodem genere patet de columba et igne consequentia patet quia causae activae <corr><del>contm</del></corr> 
+          <lb ed="#L"/>differentes specifice agentes naturaliter non libere causant actiones specifice distinctas sed 
+          <lb ed="#L"/>illae species sunt res naturales ergo si immutant intellectum concreando cognitionem in ipso 
+          <lb ed="#L"/>sequitur quod secundum diversitatem specierum erit diversitas cognitionum
+        <g ref="#pilcrow"/>confirmatur quia <ref>2o de anima</ref> 
+          <lb ed="#L"/>dicitur quod <quote>ad distinctionem obiectorum sequitur distinctio actuum vel operationum et ex distinctione operationum sequitur 
+          <lb ed="#L"/>distinctio potentiarum</quote></p>
+        
+        <p xml:id="pgb1q15-d1e178"><g ref="#pilcrow"/>2o species in existens memoriae creatae actuat potentiam solum mentaliter 
+          <lb ed="#L"/>et non causaliter ergo species existens extrinsece non actuat causaliter vel immutat 
+          <lb ed="#L"/>consequentia tenet quia non minor ratio de uno quam alio et antecedens patet per <ref><name ref="#Ripa">iohannem de rippa</name> <g ref="#dot"/> 
+          <lb ed="#L"/>quaestione 2a articulo 3o distinctione 2a</ref></p>
+        
+        <p xml:id="pgb1q15-d1e194"><g ref="#pilcrow"/>3o species in quibus spiritus sanctus apparuit visibiliter solum 
+          <lb ed="#L"/>fuerunt <choice><orig>ymaginariae</orig><reg>imaginariae</reg></choice> et non reales ergo antecedens patet quia secundum <ref><name ref="#Augustine">beatum augustinum</name> 2o <title ref="#deTrinitate">de trinitate</title> capitulo 
+            <lb ed="#L"/>5o</ref> missio visibilis spiritus sancti ad hoc fit ut <quote xml:id="pg-b1q15-Qd1e232">corda<!-- smudge here -->hominum cogita novitate exterioribus 
+          <pb ed="#L" n="50v"/><lb ed="#L"/>visis convertantur secundum intellectum ad occultam deitatem</quote> sed intellectus creatus movetur 
+          <lb ed="#L"/>a <choice><orig>fantasmatibus</orig><reg>phantasmatibus</reg></choice> et <choice><orig>ymaginariis</orig><reg>imaginariis</reg></choice> speciebus ergo</p>
+        
+        <p xml:id="pgb1q15-d1e240"><g ref="#pilcrow"/>In oppositum est textus <choice><orig>euvangelicus</orig><reg>evangelicus</reg></choice> <ref><title ref="#mt">matthaeus</title> 3o</ref> ubi 
+          <lb ed="#L"/>dicitur <quote ana="#lc3_22">descendit corporali specie</quote> igitur non fantasticum seu <choice><orig>ymaginarium</orig><reg>imaginarium</reg></choice> sed verum et reale 
+          <lb ed="#L"/>corpus habuit igitur</p>
+        
+        <p xml:id="pgb1q15-d1e269"><g ref="#pilcrow"/>prima conclusio licet persona divina missione visibili apparens possit talem 
+          <lb ed="#L"/>speciem sine causa 2a creare credi tamen potest angelos beatos tales species corporales formare 
+          <lb ed="#L"/>prima patet quia deus potest se solo quidquid potest cum alio maxime in genere efficientis <g ref="#slash"/>2a probatur quia secundum 
+          <lb ed="#L"/><ref><name ref="#Dionysius">dyonisium</name> in <title ref="#deCoelestiHierarchia">de angelica ierarchia</title></ref> <quote xml:id="pg-b1q15-Qd1e293" ana="#deCoelestiHierarchia_a">lex divinitatis est infima per media ordinare</quote> <!-- see "Lex divinitatis est ultima per media reducere" --> </p>
+        
+        <p xml:id="pgb1q15-d1e295"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium licet columba in qua spiritus sanctus visibiliter apparuit fuerit ab angelis formata 
+          <lb ed="#L"/>tamen humanitas suppositionaliter christo unita a tribus personis divinis solum fuit creata prima 
+          <lb ed="#L"/>patet ex conclusione <g ref="#slash"/>2a probatur cum ratione dignitatis illius unionis suppositabilis decuit illam 
+          <lb ed="#L"/>materiam immediate a deo produci <g ref="#slash"/>tum 2o illa in instanti fuit formata sed hoc non videtur 
+          <lb ed="#L"/>posse fieri a finita potentia ut nunc suppono <g ref="#slash"/>ad hoc videtur scriptura <ref><title ref="#mt">matthaeo</title> 1o</ref> quod <quote xml:id="pg-b1q15-Qd1e315" ana="#mt1_20">in ea 
+            <lb ed="#L"/>natum est de spiritu sancto est</quote> Item <ref><title ref="#lc">luce</title> 1o</ref> <quote xml:id="pg-b1q15-Qd1e329" ana="#lc1_35">spiritus sanctus supervenient in te</quote> etc</p>
+        
+        <p xml:id="pgb1q15-d1e340"><g ref="#pilcrow"/>2m corollarium 
+          <lb ed="#L"/>licet angelus signum corporale temporalis missionis personae divinae possit producere 
+          <lb ed="#L"/>angelus tamen huiusmodi signi significatum non potest aliquo modo efficere patet quia illud donum gratuitum 
+          <lb ed="#L"/>est menti <sic>colatum</sic> a solo deo productum</p>
+        
+        <p xml:id="pgb1q15-d1e353"><g ref="#pilcrow"/>3m corollarium sicut donum significatum per
+          <lb ed="#L"/>talem speciem non subest angelicae activitati sic non angelus sed persona divina
+          <lb ed="#L"/>cuius appropriatum illud <subst><del rend="strikethrough">signum</del> <add place="inLine">donum</add></subst> respicit <unclear>dicitur</unclear> apparere vel mitti patet quia illud 
+          <lb ed="#L"/>donum principaliter significatum per speciem declarat et denominat personam missam et ideo si 
+          <lb ed="#L"/>illud donum habeat se per modum sapientiae tunc potest dici quod filius mittitur quia ei sapientia 
+          <lb ed="#L"/>attribuitur si per modum amoris et clementiae spiritus sanctus si per modum auctoritatis 
+          <lb ed="#L"/>et potentiae pater potest dici apparere non tamen mittitur quia a nullo originatur</p>
+        
+        <p xml:id="pgb1q15-d1e375"><g ref="#pilcrow"/>Ex hiis 
+          <lb ed="#L"/>posset inferri quod licet angeli non possint esse creatores possunt tamen esse rerum creabilium 
+          <lb ed="#L"/>productores prima patet quia creare est <sic>indeppendenter</sic> aliquid de non esse ad esse productione 
+          <lb ed="#L"/>2a pars patet quia ut dictum est illa columba eorum <choice><orig>misterio</orig><reg>mysterio</reg></choice> fuit producta quae creari 
+          <lb ed="#L"/>poterat <choice><orig>ymmo</orig><reg>immo</reg></choice> de facto a deo posset recreari</p>
+        
+        <p xml:id="pgb1q15-d1e403"><g ref="#pilcrow"/>2a conclusio species sensibilis assistens ex<lb ed="#L"/>trinsece 
+        et in existens intrinsece memoriae vitaliter immutat intellectum et actuat ipsum 
+          <lb ed="#L"/>obiectaliter et causaliter patet quantum ad species extrinsece existentes per <ref><name ref="#Augustine">beatum Augustinum</name> in 
+          <lb ed="#L"/><title ref="#DeVeraReligione">de vera religione</title> capitulo 6o</ref> et <ref>2o <title ref="#deTrinitate">de trinitate</title> capitulo 4o</ref> <g ref="#pilcrow"/>Item patet per <name ref="#Aristotle">philosophum</name> in <title>de memoria</title> 
+          <lb ed="#L"/>et reminiscentia ubi dicit factus enim motus a sensu vel a sensibili imprimit in animam 
+          <lb ed="#L"/><choice><orig>velud</orig><reg>velut</reg></choice> quamdam figuram vel picturam sensibilem <g ref="#pilcrow"/>2a pars probatur quia si talis species in 
+          <lb ed="#L"/>existens memoriae intrinsece et obiectaliter non immutaret potentiam sequeretur quod non esset differentia 
+          <lb ed="#L"/>inter speciem habitualem et conceptum actualem actu quod est falsum quia tunc habens talem speciem 
+          <lb ed="#L"/>actualiter cognosceret vel diceret eam quod non est dicendum haec consequentia ultima patet quia fantas<lb ed="#L"/>ma 
+        est verbum habituale talis speciei sensibilis ut patet per <name ref="#Augustine">beatum augustinum</name> ubi supra</p>
+        
+        <p xml:id="pgb1q15-d1e462"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium stat aliquam potentiam vitaliter immutare et illud nec formam vitalem 
+          <lb ed="#L"/>nec actum eius formalem esse patet quia vox et ignis et plures aliae species sensibiles immu<lb ed="#L"/>tant 
+        intellectum creatum per sensum et tamen tales species non sunt formae vitales nec talis 
+          <pb ed="#L" n="51r"/><lb ed="#L"/>immutatio est actus formalis talium specierum cum stet illas esse et nihil vitaliter im<lb ed="#L"/>mutare</p>
+        
+        <p xml:id="pgb1q15-d1e476"><g ref="#pilcrow"/>2m corollarium stat intellectum aliquid apprehendere et ab eodem moveri vitaliter 
+          <lb ed="#L"/>et illud movens esse praesens intellectui realiter vel situaliter patet per <name ref="#Augustine">beatum augustinum</name> in <title ref="#DeVeraReligione">de 
+            <lb ed="#L"/>vera religione</title> ubi dicit se vitaliter apprehendere solem absentem et romam 
+          <lb ed="#L"/>seu carthagenem distantes et hoc experimur</p>
+        
+        <p xml:id="pgb1q15-d1e495"><g ref="#pilcrow"/>3m corollarium sicut intelligentia potest 
+          <lb ed="#L"/>rem absentem cognoscere sic etiam potest rem non existentem per speciem repraesentantem 
+          <lb ed="#L"/>cogitative apprehendere patet quia sicut rem absentem et distantem cognoscit per speciem 
+          <lb ed="#L"/>abstractive sic de re non existente potest habere speciem et per illam aliquid concipere ergo</p>
+        
+        <p xml:id="pgb1q15-d1e505"><lb ed="#L"/><g ref="#pilcrow"/>3a conclusio licet columba in cuius specie spiritus sanctus missus apparuit vera et realis entitas 
+          <lb ed="#L"/>fuerit non tamen quodlibet signum in quo spiritus sanctus <del rend="strikethrough">s</del> apparuit vel visus fuit fuisse 
+          <lb ed="#L"/>rem realem scriptura exprimit aut asserit prima pars patet per <ref><name ref="#Augustine">beatum augustinum</name> 2o <title ref="#deTrinitate">de 
+          <lb ed="#L"/>trinitate</title></ref> ubi loquens de columba in qua spiritus sanctus apparuit in christi baptismate dicit non esse 
+          <lb ed="#L"/>dubium quin fuerit verum corpus reale cum scriptura eam corporali specie asserat descen<lb ed="#L"/>disse 
+          2a pars patet <ref>eodem libro capitulo 5o</ref> ubi de linguis igneis in die pentecostes 
+          <lb ed="#L"/>spiritus sanctus apparuit movet conclusionem utrum fuerit vere res vel <choice><orig>ymaginarie</orig><reg>imaginarie</reg></choice> quaestionem inso<lb ed="#L"/>lutam 
+          nec <choice><orig>alicam</orig><reg>aliquam</reg></choice> eius partem asserit sed tamquam probleuma neutrum <unclear>reliquit</unclear> concludit 
+          <lb ed="#L"/>tamen post plura dicens non enim viderunt linguas <choice><orig>velud</orig><reg>velut</reg></choice> ignem sed visae sunt 
+          <lb ed="#L"/>eis nam in spiritualibus dicimus visum est mihi et vidi sed in istis quae per expressam cor<lb ed="#L"/>poralem 
+          speciem occulis demonstratur non solet dici visum est mihi sed vidi ergo conclusio vera.</p>
+        
+        <p xml:id="pgb1q15-d1e574"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium quod non omne signum gratuitum demonstrans vel inferens creaturam 
+          <lb ed="#L"/>esse deo gratam est creata caritas aut sacramentum aut habitus infusus gratifi<lb ed="#L"/>cans 
+        mentem patet quia missio spiritus sancti facta sub aliquo signo visibili est sanctitatis 
+          <lb ed="#L"/>causare signum ad quam mittitur illativa ostensio et tamen illud signum corporale 
+          <lb ed="#L"/>non est aliquod praedictorum ergo</p>
+        
+        <p xml:id="pgb1q15-d1e592"><g ref="#pilcrow"/>2m corollarium stat aliquam personam in signo corporali apparere 
+          <lb ed="#L"/>et illam numquam mitti vel missam esse patet de patre <seg type="corrections">qu<add place="aboveLine">i</add></seg> in voce apparuit 
+          <lb ed="#L"/>christo baptizato dicens <quote xml:id="pg-b1q15-Qd1e594">hic est filius meus</quote> etc et tamen nusquam in scripturis legitur missus quia a nullo
+          <lb ed="#L"/>originatur</p>
+        
+        <p xml:id="pgb1q15-d1e615"><g ref="#pilcrow"/>3m corollarium nulla res in qua apparuit spiritus sanctus visibiliter fuit ei 
+          <lb ed="#L"/>unita suppositionaliter patet quia spiritus sanctus nusquam legitur fuisse columbam linguam vel 
+          <lb ed="#L"/>flatum</p>
+        
+        <p xml:id="pgb1q15-d1e629"><g ref="#pilcrow"/>ex hiis quid dicendum sit ad quaestionem patet potest enim dici quod <choice><orig>alica</orig><reg>aliqua</reg></choice> species 
+          <lb ed="#L"/>in qua spiritus sanctus apparuit fuit vera res et realis entitas et aliquae <unclear>fuerunt</unclear> solum 
+          <lb ed="#L"/>apparentes et <choice><orig>ymaginariae</orig><reg>imaginariae</reg></choice> ab omnibus tamen talibus potuit immutari et moveri potentia 
+          <lb ed="#L"/>sensitiva vel intellectiva creata etc</p>
+        
+        <p xml:id="pgb1q15-d1e655"><g ref="#pilcrow"/>contra primam conclusionem arguitur si esset vera sequitur quod angeli 
+          <lb ed="#L"/>potius quam divinae personae deberent dici missi et apparere vel apparuisse consequens falsum 
+          <lb ed="#L"/>patet consequentia quia cum angelus format aliquod corpus ex elementis applicando activa passivis 
+          <lb ed="#L"/>videtur quod idem appareat in tali corpore formato</p>
+        
+        <p xml:id="pgb1q15-d1e665"><g ref="#pilcrow"/>2o simpliciter invisibile non potest visibiliter 
+          <lb ed="#L"/>mitti vel apparere sine fictionem sed fictio cuilibet personae divinae repugnat ergo etc 
+          <lb ed="#L"/>patet consequentia quia quaelibet persona divina simpliciter est invisibilis <g ref="#slash"/><ref>prima <title ref="#Itim">thyo</title></ref> <quote xml:id="pg-b1q15-Qd1e639" ana="#Itim6_16">lucem habitat 
+          <lb ed="#L"/>inaccessibilem quam nullus hominum vidit</quote></p>
+        
+        <p xml:id="pgb1q15-d1e683"><g ref="#pilcrow"/>3o contra 2m et 3m corollaria gratuitum 
+          <lb ed="#L"/>donum subest activitati sacramentorum ecclesiae ergo potest subesse activitati angelicae tenet consequentia 
+          <pb ed="#L" n="51v"/><lb ed="#L"/>quia angelus est dignior perfectior et activior quam quodcumque sacramentum antecedens patet quia 
+          <lb ed="#L"/>sacramentum baptismi confert gratiam et causat in baptismale rite</p>
+        
+        <p xml:id="pgb1q15-d1e702"><g ref="#pilcrow"/>contra 2am conclusionem si esset 
+          <lb ed="#L"/>vera sequeretur quod huiusmodi species vel huiusmodi obiectum esset causatum consequens falsum quia talis species obiecti 
+          <lb ed="#L"/>vel perfectius repraesentet quam species memoriae vel aeque vel minus <g ref="#slash"/>non primum quia talis 
+          <lb ed="#L"/>species creata in esse <choice><orig>deppendet</orig><reg>dependet</reg></choice> et conservari a specie memoriae et per consequens est in<lb ed="#L"/>perfectior 
+          si dicatur quod aeque vel minus repraesentat tunc frustra ponitur talis actus 
+          <lb ed="#L"/>distinctus a specie quae est aeque vel plus sufficiens ad talem vitalem immutationem causandum</p>
+        
+        <p xml:id="pgb1q15-d1e725"><lb ed="#L"/><g ref="#pilcrow"/>contra primum corollarium nulla immutatio est vitalis quam stat esse absque hoc quam immutetur 
+          <lb ed="#L"/>potentia sed immutatio obiectiva causalis est huiusmodi ergo non est <unclear>in tale</unclear> maior <unclear>nota</unclear> minor 
+          <lb ed="#L"/>probatur quia stat aliquem actum causari et in existere informative et per nullam superadditam  
+          <lb ed="#L"/>actionem ergo</p>
+        
+        <p xml:id="pgb1q15-d1e743"><g ref="#pilcrow"/>3o contra 2m et 3m corollaria illud solum vitaliter apprehenditur quod potentiae 
+          <lb ed="#L"/>vitali vitaliter inest ergo quidquid sic apprehenditur praesens est potentiae sic apprehendenti 
+          <lb ed="#L"/>consequentia bona et antecedens probatur quia sequitur <c>a</c> vitaliter apprehenditur a potentia intellectiva ergo <c>a</c> 
+          <lb ed="#L"/>est praesens potentiae intellectivae</p>
+        
+        <p xml:id="pgb1q15-d1e759"><g ref="#pilcrow"/>contra 3am conclusionem si esset vera sequeretur quod spiritus sanctus in columba 
+          <lb ed="#L"/>aliquo modo speciali fuisset ultra modum quo deus est in omnibus sed consequens videtur falsum 
+          <lb ed="#L"/>quia vel hoc esset per gratiae infusionem et hoc non quia non est capax gratiae <g ref="#slash"/>vel per unitatem 
+          <lb ed="#L"/>suppositi et hoc non per corollarium 3m vel per repraesentationem et hoc non quia vel talem signum 
+          <lb ed="#L"/>repraesentativum esset naturale et universale et sic spiritus sanctus appareret in qualibet creatura cum quaelibet sit 
+          <lb ed="#L"/>vestigium trinitatis vel tale repraesentativum esset signum gratuitum et sic in quolibet sacramento 
+          <lb ed="#L"/>mitteretur et appareret spiritus sanctus et patet consequentia cum spiritus sanctus sit donum gratuitum</p>
+        
+        <p xml:id="pgb1q15-d1e778"><lb ed="#L"/><g ref="#pilcrow"/>2o contra 2am partem conclusionis summae veritati repugnat se manifestare per quamcumque 
+          <lb ed="#L"/>fictionem ergo repugnat spiritum sanctum se manifestasse per linguas igneas 
+          <lb ed="#L"/><choice><orig>ymaginarias</orig><reg>imaginarias</reg></choice> et fantastas et non reales patet consequentia quia tales apparitiones fan<lb ed="#L"/>tasmatae 
+        sunt fictiones patet antecedens quia <unclear>ostendens</unclear> se aliquid esse quod non est decipit 
+          <lb ed="#L"/>illum cui fit talis ostensio</p> 
+        
+        <p xml:id="pgb1q15-d1e800"><g ref="#dbslash"/>3o sequeretur quod spiritus sanctus in illis linguis non apparuisset 
+          <lb ed="#L"/>nisi tantum <name ref="#Apostles">apostolis</name> et viris sanctis qui spiritum sanctum receperunt consequens falsum quia pluribus 
+          <lb ed="#L"/>aliis existentibus in domo cum <name ref="#Apostles">apostolis</name> apparuerunt</p>
+        
+        <p xml:id="pgb1q15-d1e815"><g ref="#pilcrow"/>Ad primum negatur consequentia quia licet 
+          <lb ed="#L"/>angelus formet talem corpus tamen non posset formare nec creare donum significatum per
+          <lb ed="#L"/>tale corpus sed solum deus ideo illa persona solum dicitur mitti et apparere cuius appropriatum
+          <lb ed="#L"/>est <del rend="strikethrough">fig</del> donum illud ut dicitur in corollario 3o</p>
+        
+        <p xml:id="pgb1q15-d1e827"><g ref="#pilcrow"/>Ad 2m dicitur ad maiorem quod aliquid visibiliter 
+          <lb ed="#L"/>posse apparere potest intelligi dupliciter primo modo formaliter intrinsece seu denominatione intrinseca 
+          <lb ed="#L"/>sibi competente <g ref="#slash"/>2o modo denominatione extrinseca <g ref="#slash"/>primo modo dico quod apparitio repugnat per<lb ed="#L"/>sonae 
+        divinae sed non <g ref="#slash"/>2o modo quia sic persona divina dicitur apparere visibiliter non quia 
+          <lb ed="#L"/>ipsa videtur sed quia aliquid videmus per quod cognoscimus spiritum sanctum vel aliam personam 
+          <lb ed="#L"/>divinam speciali modo esse in creatura ad quam talem signum mittitur</p>
+        
+        <p xml:id="pgb1q15-d1e848"><g ref="#pilcrow"/>Ad 3m posset 
+          <lb ed="#L"/>negari consequentia quia non sequitur homo est perfectior et activior quam asinus ergo homo potest producere 
+          <lb ed="#L"/>asinum sicut asinus <g ref="#slash"/>2o dicitur quod licet gratia subsit activitati sacramentorum instrumentaliter 
+          <lb ed="#L"/>et dispositive non tamen principaliter et effective</p>
+        
+        <p xml:id="pgb1q15-d1e863"><g ref="#pilcrow"/>Ad primum contra 2mm conclusionem primo posset consequentia 
+          <pb ed="#L" n="52r"/><lb ed="#L"/>negari quia talis ratio causalis posset sufficienter terminari ad ipsum actum cognitionis in<lb ed="#L"/>complexum 
+        vel ad ipsum agere complexe</p>
+        
+        <p xml:id="pgb1q15-d1e872"><g ref="#slash"/>2o posset concedi consequens et ad improbationem dicitur quod 
+          <lb ed="#L"/>perfectius et cum improbatur negatur consequentia quia talis similitudo non <choice><orig>deppendet</orig><reg>dependet</reg></choice> a tali specie 
+          <lb ed="#L"/>tamquam a totali causa sed partiali
+        </p>
+        <p xml:id="pgb1q15-tpdnfp"><g ref="#slash"/>3o posset dici quod dato quod talis similitudo imper<lb ed="#L"/>fectius 
+        repraesentaret se praecisae tamen species memoriae cum tali similitudine creata 
+          <lb ed="#L"/>tales species perfectius repraesentant quam species memoriae tantum cum talis similitudo non 
+          <lb ed="#L"/>frustra ponatur</p>
+        
+        <p xml:id="pgb1q15-d1e895"><g ref="#pilcrow"/>Ad 2m negatur maior quia talis immutatio non procedit a specie tali 
+          <lb ed="#L"/>quasi a totali causa effectiva
+        </p>
+        <p xml:id="pgb1q15-spnqpi">
+          <g ref="#slash"/>2a posset negari minor quia positivis omnibus requisitis immutatio 
+          <lb ed="#L"/>vitalis obiectiva non potest esse quin potentia immutetur
+        </p>
+        <p xml:id="pgb1q15-tpdefs">
+          <g ref="#slash"/>3o posset dici quod aliquid immutare 
+          <lb ed="#L"/>vitaliter posset intelligi dupliciter primo modo sic quod tale immutans sit vitale 2o modo quod non 
+          <lb ed="#L"/>sit in se vitaliter sed tamen aliquid vitaliter immutat <g ref="#slash"/>primo modo maior habet veritatem in aliquibus 
+          <lb ed="#L"/>sed modo 2o sumendo vitaliter maior est falsa simpliciter</p>
+        
+        <p xml:id="pgb1q15-d1e920"><g ref="#pilcrow"/>Ad 3m negatur antecedens quia aliter nulla 
+          <lb ed="#L"/>res existens extra animam posset vitaliter percipi quod est falsum et dico ultra quod haec consequentia 
+          <lb ed="#L"/>non valet <c>a</c> vitaliter apprehenditur ergo <c>a</c> est praesens potentiae apprehendenti</p>
+        
+        <p xml:id="pgb1q15-d1e934"><g ref="#pilcrow"/>2o posset dici quod 
+          <lb ed="#L"/>aliquid inesse potentiae vitali potest sumi dupliciter primo modo in se et esse proprio alio modo in specie vel 
+          <lb ed="#L"/>in suo repraesentativo primo antecedens est negandum sed 2o modo intellecto antecedente negatur consequentia</p>
+        
+        <p xml:id="pgb1q15-d1e945"><g ref="#dbslash"/>Ad primum 
+          <lb ed="#L"/>contra 3am conclusionem conceditur consequentia quia fuit ibi tamquam in signo gratuito gratiae spiritus sancti ostensivo 
+          <lb ed="#L"/>tamen illud signum non est aliquo modo causa gratiae licet gratia consequatur ipsum vide <ref><name ref="#ThomasStrasbourg">thomam 
+            <lb ed="#L"/>de argentia</name> distinctione 16 articulo primo</ref> ubi triplex ponit signum</p>
+        
+        <p xml:id="pgb1q15-d1e960"><g ref="#pilcrow"/>Ad 2m ad antecedens 
+          <lb ed="#L"/>dicitur quod si <choice><orig>fixtio</orig><reg>fictio</reg></choice> sumatur pro quacumque <choice><orig>ymaginaria</orig><reg>imaginaria</reg></choice> revelatione vel repraesentatione sic dico 
+          <lb ed="#L"/>quod non repugnat deo sic se creaturae revelare nam prophetae habuerunt multorum 
+          <lb ed="#L"/>notitiam per tales ymaginarias visiones ut in eorum libris patet si autem fictio 
+          <lb ed="#L"/>sumatur pro deceptione sic conceditur antecedens sed negatur consequentia</p>
+        
+        <p xml:id="pgb1q15-d1e982"><g ref="#pilcrow"/>Ad 3m negatur quia illud signum 
+          <lb ed="#L"/>virtute divina potuit multiplicari in fantasiis omnium illorum quibus illae linguae 
+          <lb ed="#L"/>apparuerunt<!--possibly corrected--></p>
+        
+        <p xml:id="pgb1q15-d1e994"><g ref="#dbslash"/>Ad primum in oppositum conceditur consequentia et negatur consequentia improbationis quia perfectio cognitionis 
+          <lb ed="#L"/>non semper quantificatur praecise penes perfectionem obiecti cogitati vel immutantis potentiam 
+          <lb ed="#L"/>obiectaliter vitaliter ut argumentum videtur innuere ad alias rationes patet quid dicendum ex dictis</p>
+        
+        
+       <p xml:id="pgb1q15-d1e1003"><g ref="#pilcrow"/>Nunc de spiritu sancto haec distinctio <!-- check "dico" above compare with "distinctio" --> continet 6 conclusiones <g ref="#slash"/>prima est quod duplex ex processio 
+         <lb ed="#L"/>spiritus sancti una aeterna quam procedit a patre et filio et non a se ipso <g ref="#slash"/>alia temporalis quae dicitur 
+         <lb ed="#L"/>missio seu donatio et haec est duplex una visibilis quando visibiliter atque ut in die <unclear>pentecost</unclear>  
+         <lb ed="#L"/>in christi baptismate in specie columbae <g ref="#slash"/> alia invisibilis quam fidelium mentibus illabitur et sic duplici 
+         <lb ed="#L"/>datione datur non solum a patre et filio sed etiam a se ipso</p>
+        
+        <p xml:id="pgb1q15-d1e1027"><g ref="#pilcrow"/>2a conclusio quod filius etiam duobus 
+          <lb ed="#L"/>modis dicitur mitti uno modo visibiliter quando in carne apparuit <g ref="#slash"/>alio modo quando invisibiliter castis 
+          <lb ed="#L"/>mentibus percipitur</p>
+        
+        <p xml:id="pgb1q15-d1e1037"><g ref="#pilcrow"/>3a conclusio licet spiritus sanctus in sui natura non videatur visibiliter tamen mittitur 
+          <lb ed="#L"/>et hoc in specie visibili</p>
+        
+        <p xml:id="pgb1q15-d1e1043"><g ref="#pilcrow"/>4a conclusio quod spiritus sanctus non est magis in illis creaturis in quibus 
+          <lb ed="#L"/>apparere dicitur quam in aliis sed per eas ostenditur quod spiritus sanctus est in illis per sanctificationem et gratiam 
+          <lb ed="#L"/>ad quos tales species vel creatae veniunt</p>
+        
+        <p xml:id="pgb1q15-d1e1051"><g ref="#pilcrow"/>5a conclusio quod aliter filius assumpsit naturam 
+          <lb ed="#L"/>in qua apparuit et aliter spiritus sanctus quia filius assumpsit per unionem <choice><orig>ypostaticam</orig><reg>hypostaticam</reg></choice> sed non spiritus 
+          <pb ed="#L" n="52v"/><lb ed="#L"/><sic>spiritus</sic> sanctus et filius accepit hominem et humanitatem ut fieret homo spiritus sanctus autem non ac<lb ed="#L"/>cepit 
+          columbam ut fieret columba et ideo filius dicitur <unclear>luminior</unclear> patrem secundum naturam assump<lb ed="#L"/>tam 
+          non autem spiritus sanctus</p>
+        
+        <p xml:id="pgb1q15-d1e1076"><g ref="#pilcrow"/>6a conclusio quod filius dei secundum formam dei est aequalis patri 
+          <lb ed="#L"/>sed secundum formam hominis est minor patre et spiritu sancto ac tiam se ipso in quantum deus</p>
+        
+        <p xml:id="pgb1q15-d1e1083"><g ref="#pilcrow"/>7a 
+          <lb ed="#L"/>conclusio quod secundum <name ref="#HilaryOfPoitiers">hylarium</name> pater est maior filio filius tamen non est minor patre nam 
+          <lb ed="#L"/>donans maior est sed <corr><del rend="strikethrough">l</del></corr> minor iam non est cui unum ens donatur <g ref="#slash"/>nota tamen 
+          <lb ed="#L"/>quod li <mentioned>maior</mentioned> non notat inequalitatem essentialem sed solum auctoritatem notionalem ori<lb ed="#L"/>ginis 
+        quia pater originat filium <g ref="#slash"/>filius ergo est aequalis patri in re habita quia omnem perfectionem 
+          <lb ed="#L"/>quam habet pater habet filius sed pater dicitur maior filio in modo habendi quia filius illam perfec<lb ed="#L"/>tionem 
+        habet a patre et non econverso <g ref="#pilcrow"/>notat etiam quod <name ref="#HilaryOfPoitiers">hylarius</name> non concedit filium minorem 
+          <lb ed="#L"/>patre tum quia minoritas videtur importare indignitatem tum quia voluit substra<lb ed="#L"/>here 
+        haereticis errorum occasionem et defensionem</p>
+        
+        <p xml:id="pgb1q15-d1e1124"><g ref="#pilcrow"/>sequitur distinctio 17 <unclear>h volli</unclear></p>
+        
+          
+      </div>  
+    </body>
+  </text>
+</TEI>
