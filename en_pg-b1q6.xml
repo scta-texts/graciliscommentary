@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book I, Question 6</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Book I, Quaestio 6</title>
+          <date when="2015-07-03">July  04, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-03" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="25-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q6">
+        <!-- TODO: dbcheck all instances of "generated" consider whether they should be "beget" or whether or not generate is an ok translation for gignere" -->
+        <head xml:id="pg-b1q6-Hd1e3498">Quaestio 6</head>
+        <div xml:id="pg-b1q6-Dd1e3501">
+          <head xml:id="pg-b1q6-Hd1e3503">
+            <supplied>About the text</supplied>
+          </head>
+          <p xml:id="pgb1q6-d1e83">
+            <pb ed="#L" n="26-r"/>
+            <cit>
+              <quote xml:id="pg-b1q6-Qd1e3515" source="http://scta.info/resource/pll1d5c1-d1e3476">Post haec queritur</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d5c1-d1e3476">Lombardus, Sent. I, d. 5, c. 1, [n.1], (I, 80, ll. 26-27).</ref></bibl>
+            </cit>.
+            This is the fifth distinction in which, after the <name ref="#Lombard">Master</name> showed how 
+            it should be conceded that <mentioned>God generated God</mentioned>, 
+            now the <name ref="#Lombard">Master</name> introduces the question 
+            concerning begetting and the begetted. 
+            And this is divided into three because in the first place he 
+            introduces the new <!-- new for "variam" --> question, in the second place 
+            it offers the solution to the question, 
+            in the third place he expounds on many authorities 
+            and explains the different intention of each of them. 
+            The second begins at 
+            <cit>
+              <quote xml:id="pg-b1q6-Qd1e3538" source="http://scta.info/resource/pll1d5c1-d1e3479">ad quod catholicis</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d5c1-d1e3479">Lombardus, Sent. I, d. 5, c. 1, [n.1/2], (I, 81, ll. 2).</ref></bibl>
+            </cit>.
+            The third at
+            <cit>
+              <quote xml:id="pg-b1q6-Qd1e3547" source="http://scta.info/resource/pll1d5c1-d1e3830">dicitur quoque</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d5c1-d1e3830">Lombardus, Sent. I, d. 5, c. 1, [n.12/27], (I, 85, ll. 2).</ref></bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q6-d1e110">
+            The second part is divided into two 
+            because in the first place he shows that divine power is not generated passively, 
+            in the second place that it does not generate actively. 
+            The second begins at
+            <cit>
+              <quote xml:id="pg-b1q6-Qd1e3559" source="http://scta.info/resource/pll1d5c1-d1e3592">itaque non est dicendum</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d5c1-d1e3592">Lombardus, Sent. I, d. 5, c. 1, [n.6/12], (I, 82, ll. 16).</ref></bibl>
+              <note xml:lang="en">While this could also be a reference to 
+                <ref target="http://scta.info/resource/pll1d5c1-d1e3482">Lombardus, Sent. I, d. 5, c. 1, [n.?/3], (XXX).</ref>. 
+                The above identification, based on the sense of the discussion is a better match.</note>
+            </cit>.
+            The first could be divided into many parts according to which the
+            <name ref="#Lombard">Master</name> offers his intention.
+            In the second, he objects against it. 
+            The parts will be clear while reading, 
+            and this is the distinction, etc.
+          </p>
+        </div>
+        <div xml:id="pg-b1q6-Dd1e3580">
+          <head xml:id="pg-b1q6-Hd1e3582">
+            <supplied>Question: Whether it is repugnant that many causes effect something 
+            totally and it is repugnant that the same things really produces itself.</supplied>
+          </head>
+          <p xml:id="pgb1q6-d1e125">Whether it is repugnant that many causes effect something 
+            totally and it is repugnant that the same things really produces itself?</p>
+          <div xml:id="pg-b1q6-Dd1e3586">
+            <head xml:id="pg-b1q6-Hd1e3588">Principal arguments</head>
+            <p xml:id="pg-b1q6-d1e3594">That not because 
+              de facto many causes totally effect some thing, which is clear in the first place 
+              because God and the created will are total causes 
+              of the free acts of the created will.
+              Therefore it follows that God is a total cause of these acts. 
+              This is clear because the whole act and any part of it 
+              depended totally on God to come into being and to be conserved. 
+              But it also follows that the will is a total cause of these acts. 
+              This is clear because other there would not be some portion of the act of the will 
+              that be effectively from the will, and thus it would be in within its power, 
+              which is  
+              <cit>
+                <ref>against <name ref="#Augustine">Augustine</name></ref>
+                <bibl>Augustine, XXX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q6-d1e170">
+              Secondly, if two fires equally disposed are applied to something combustible like wood,
+              in every circumstance, one of them would be the total cause of the combustion, 
+              which is clear because any one of them is a sufficient cause of combustion, 
+              which when posited, the effect follows.
+            </p> 
+            <p xml:id="pgb1q6-d1e181">
+              Thirdly, 
+              the divine essence is the generative principle of itself and the subject of its own generation, therefore.
+              The antecedent is clear because there does not seem to be another principle by which 
+              or in which something could be internally generated except in the divine essence.
+            </p> 
+            <p xml:id="pgb1q6-d1e189">
+              On the contrary it is argued, because one of these is impossible and there is no range of impossibility 
+              because all impossible things are equally impossible.
+              </p>
+          </div>
+          <div xml:id="pg-b1q6-Dd1e3632">
+            <head xml:id="pg-b1q6-Hd1e3634">
+              <supplied>First conclusion</supplied>
+            </head>
+            <p xml:id="pgb1q6-d1e197">
+              First conclusion: though some effect on account of itself and something of its own 
+              depends effectively causally on many things, 
+              nevertheless it is not the case that the same effect depends equally on 
+              several total causes.
+              The first part is clear through first argument made before the opposite 
+              about the acts of the will.
+              The second part is proved because the first cause influences the effect more and more perfectly 
+              than the second, therefore. 
+              The consequence holds because the first cause 
+              necessarily requires the production of some effect, as I suppose. 
+              The antecedent is clear 
+              <cit>
+                <ref>through the author of the <title ref="#deCausis">Book of Causes</title></ref>
+                <bibl>Librum de Causis, XXX</bibl>
+              </cit>. 
+              This is also clear because the first cause independently causes and influences, 
+              therefore it does not do so equally with the second.
+            </p>
+            <p xml:id="pgb1q6-d1e252">
+              The first corollary: though with respect to the same thing there are many total causes 
+              in the totality of the caused effect,
+              nevertheless it is not the cause that with respect to the same thing 
+              there are at one and the same time many total causes 
+              in the precise causal totality. This is clear through the conclusion  <!-- totum is unclear not sure how to translate --> 
+              and entire corollary.
+            </p> 
+            <p xml:id="pgb1q6-d1e269">
+              The second corollary: that it does not follow that, 
+              <c>a</c> is in some mode the total effective cause 
+              of <c>b</c>, therefore, when <c>a</c> has been posited with by some remote divine influence 
+              <c>b</c> does not follow.
+            </p>
+            <p xml:id="pgb1q6-d1e293">
+              The third corollary: that this consequence also does not follow, 
+              <c>a</c> totally produces <c>b</c>,
+              therefore nothing other than <c>a</c> produces <c>b</c>. 
+              The same this is clear because 
+              the opposite of the consequent stands 
+              with the antecedent taken in the stated mode.
+            </p>
+            <p xml:id="pgb1q6-d1e324">
+              From what has been said it could be further inferred that 
+              for the production of a fly as many productive things or active potencies 
+              are required as are required for the generation of the word in the divine essence.
+              This is clear because in both cases an immense potency is required. 
+              This is clear through what has been said.
+            </p>
+          </div>
+          <div xml:id="pg-b1q6-Dd1e3719">
+            <head xml:id="pg-b1q6-Hd1e3721">
+              <supplied>Second conclusion</supplied>
+            </head>
+            <p xml:id="pgb1q6-d1e332">
+              The second conclusion: though in the divine essence the name of cause is not intrinsically posited, 
+              nevertheless the ratio of a beginning in the divine is not denied.
+              The first is clear because 
+              the cause is called the being to being of which another follows. But in the divine essence 
+              one thing does not follow to another because there nothing is prior or posterior, 
+              nor is there a giving substantively of one thing and then another, therefore. 
+              The antecedent is clear
+              <cit>
+                <ref>in book V of the <title ref="#Metaphysics">Metaphysics</title></ref>
+                <bibl>Aristoteles, Metaphyisca, V, XXX</bibl>
+              </cit>.
+              The second part is proved because truely the Son in the divine is from the Father 
+              and the Holy Spirit is from both of them, 
+              therefore the ratio of a beginning should be put in the divine.
+              The consequence holds because according to 
+              <cit>
+                <ref><name ref="#Aristotle">Philosopher</name>, book V <title ref="#Metaphysics">Metaphysics</title></ref>
+                <bibl>Aristoteles, Metaphyscia, XXX</bibl>
+              </cit>,
+              the beginning 
+              <pb ed="#L" n="26-v"/> 
+              is that from which something has its being. 
+              The antecedent is clear because in the Symbol
+              <title>Symbol of <name ref="#Athanasius">Athanasius</name></title> 
+              <cit>
+                <quote xml:id="pg-b1q6-Qd1e3786">the Son is from the Father alone</quote>
+                <bibl>Symbolum Athanasii, XXX</bibl>
+              </cit>, 
+              etc.
+              Again
+              <cit>
+                <quote xml:id="pg-b1q6-Qd1e3795">The Holy Spirit is from the Father and the Son</quote>
+                <bibl>Symbolum Athanasii, XXX</bibl>
+              </cit> 
+              etc. 
+              This is confirmed because, 
+              according to <name ref="#Augustine">Augustine</name>,
+              the Father is the beginning without a beginning, 
+              and the Son is the beginning from the beginning.
+            </p>
+            <p xml:id="pgb1q6-d1e384">
+              The first corollary: only the uncreated Trinity is able to be called 
+              the total, proper, and sufficient cause of any creature.
+              This is clear because, having posited its causality with respect to anything externally producible thing, 
+              while everything else set aside, something else follows, that is the effect, and this is to be the proper 
+              cause according to what the proof of the conclusion says.
+            </p>
+            <p xml:id="pgb1q6-d1e394">
+              The second corollary: though in created things the beginning and the cause are convertible, 
+              nevertheless in the divine they are not said in the same way.
+            </p>
+            <p xml:id="pgb1q6-d1e400">
+              Third: that no creature or producible entity necessary 
+              demands several efficent causa for being. 
+              This is clear because the first cause alone suffices.
+            </p>
+          </div>
+          <div xml:id="pg-b1q6-Dd1e3816">
+            <head xml:id="pg-b1q6-Hd1e3818">
+              <supplied>Third conclusion</supplied>
+            </head> 
+            <p xml:id="pgb1q6-d1e413">
+              The third conclusion: though something that 
+              implies a contradiction is not able to be caused by the first cause, 
+              nevertheless whatever formally and properly includes a contradiction 
+              is able to become and produced. 
+              The first part is proved because the first cause or God 
+              is something that does not include a contradiction. 
+              But God is not able to be caused by something, therefore.
+              The major premise is proved because 
+              no simple or incomplex entity includes a contradiction. 
+              The second part of the antecedent is clear 
+              because if God were able to be caused, 
+              it would either be by himself or by something else. 
+              He is not cause by something because 
+              every other cause depends on God to be conserved and to act, 
+              as has been said. 
+              Not the second because according to  
+              <ref>
+                <name ref="#Augustine">Augustine</name>, book I of <title ref="#deTrinitate">De Trinitate</title>, 
+                chapter one
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q6-Qd1e3838" ana="#Augustine_DeTrinitate_1_1_1_a">no thing is that which begets itself</quote>
+                <bibl>Augustine, De Trinitate, I, 1, 1 (XXX)</bibl>
+              </cit>.
+              The second part of the conclusion is proved 
+              because only propositions formally and properly include contradiction.
+              However all such things are formable by the first cause, therefore 
+              
+              Secunda pars conclusionis probatur quia solae propositiones formaliter et proprie contradictionem includunt,
+              sed omnes tales sunt a prima causa formabiles, 
+              <app>
+                <lem>ergo</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add>ergo</add>
+                </rdg>
+              </app>
+              <supplied>etc.</supplied>.
+            </p>
+            
+            <p xml:id="pgb1q6-d1e467">
+              The first corollary: that the formal ratio of the term 
+              and also of the principle by which the Son 
+              was formally generated or the Holy Spirit was spirated 
+              does not belong to the divine essence, 
+              but is rather denied by it. 
+              This is clear because otherwise the same thing 
+              would beget itself which is contrary to what has been said 
+              in the question and against  
+              <cit>
+                <ref>the <name ref="#Lombard">Master</name> in this distinction</ref>
+                <bibl><ref>Lombardus, Sent. I, d. 5, c. 1, [n. 4], (I, 81-82).</ref></bibl>
+              </cit>. 
+              Again, 
+              in favor of this corollary is the determination of the Church
+              Item, 
+              pro isto corollario est determinatio ecclesiae 
+              <ref><title>Extra</title>, de summa Trinitate et fide catholica, capitulo dampnamus</ref> 
+              where it is said that
+              <cit>
+                <quote xml:id="pg-b1q6-Qd1e3889">the divine essence neither generates or is generated</quote>
+                <bibl>Liber Extra, XXX</bibl>
+              </cit>. 
+              Again, this is proved by  
+              <cit>
+                <ref><name ref="#Rimini">Gregory our Doctor</name> in this distinction, article 4</ref>
+                <bibl>Rimini, Sent., I, d. 5, a. 4 (XXX)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q6-d1e492">
+              The second corollary: just as the divine essence 
+              is not the formable productive principle of divine generation, 
+              so it is not the material subjective principle of the same.
+              The first part is clear through what has been said. 
+              The second part is clear because the divine essence is not able to be perfected, 
+              therefore it is not able to be subjected to this generation. 
+              The consequence is clear because the terminus of any generation 
+              perfects its subject. The antecedent is clear in itself. 
+            </p>
+            <p xml:id="pgb1q6-d1e504">
+              The third corollary: 
+              Tertium corollarium 
+              <mentioned>God is not</mentioned>, 
+              <mentioned>a Chimera exists</mentioned>, 
+              <mentioned>the whole is less than its parts</mentioned>, 
+              <mentioned>contradictories are true at the same time</mentioned> 
+              do not formally and properly include contradictions. 
+              This is clear through the second part of the conclusion
+              since they include because <!-- sense very difficult here; needs further review --> 
+              such things are not able to become 
+              from a first cause. 
+              The affirmative part of the conclusion is clear 
+              from what has been said.
+            </p>
+          </div>
+          <div xml:id="pg-b1q6-Dd1e3942">
+            <head xml:id="pg-b1q6-Hd1e3944">
+              <supplied>Objections and responses</supplied>
+            </head>
+            <p xml:id="pgb1q6-d1e517">
+              Against the first conclusion
+              there seem to be two reasons made in the opposition to the question.
+            </p>
+            <p xml:id="pgb1q6-d1e521">
+              In the second place against the second part,
+              it is argued, since many things are able to be the 
+              causes of some effect, given that one of them is posited, 
+              it follows that the effect is also posited. 
+              But to be a cause in this way is to be the total cause, therefore.
+              The antecedent is clear from the two fires, form 
+              the many ships which are pulling of <!-- transl difficult here -->
+              which the middle would be able to pull the ship in this case, 
+              and from many other examples.
+            </p>
+            <p xml:id="pgb1q6-d1e531">
+              In the third place, if the first part of the conclusion and the first corollary were true, 
+              it follows that the
+              <cit>
+                <ref>saying of the <name ref="#Aristotle">Philosopher</name></ref>
+                <bibl>Aristoteles, XXX</bibl>
+              </cit> 
+              is false, in which it is said that an efficient cause is sufficient, 
+              such that when posited, the effect is also posited, 
+              and, when removed, it is removed.
+              The consequence is clear because, 
+              when the causality of the will within respect to some act of the will 
+              is posted, the effect does not follow, 
+              unless there is also posited some concurrent cause, think God, therefore.
+            </p>
+            <p xml:id="pgb1q6-d1e550">
+              Against the second part of the second conclusion, 
+              if the ratio of the beginning were instead to suit a divine person, 
+              it follows that it would be possible that some divine supposite is begun. 
+              The consequent is not conceded, 
+              and the consequence is clear because 
+              the beginning and the begun are correlatives, 
+              which are said to correlate at the same time.
+            </p>
+            <p xml:id="pgb1q6-d1e558">
+              In the second place against the first corollary, 
+              if God were the sufficient and total cause of any create effect, 
+              it would follow that a second 
+              <pb ed="#L" n="27-r"/>
+              cause produces something in vain.
+              The consequent is false. 
+              The consequence is clear because, 
+              if the second cause did not act, 
+              the effect would nonetheless still follow, therefore.
+            </p>
+            <p xml:id="pgb1q6-d1e567">
+              In the third place against the third corollary, 
+              if some entity for its own generation does not need several efficient causes, 
+              it follows that God alone would be able to produce in something hatred of himself.
+              The consequent is false, since this act is necessarily involved in wickedness, 
+              and the consequence is clear because every act is a producible entity.
+            </p>
+            <p xml:id="pgb1q6-d1e606">
+              Against the first corollary of the third conclusion, 
+              it is argued that the essence generates and is generated. 
+              In the first place thus, every divine essence or Son is generated, 
+              the whole Trinity is the essence or the Son, therefore 
+              the whole Trinity is generated. 
+              The premisses are true and the form is good, as it is seen, therefore.
+            </p>
+            <p xml:id="pgb1q6-d1e614">
+              In the second place thus, 
+              something generates in the divine, 
+              and this is nothing other than the essence, 
+              therefore.
+            </p> 
+            <p xml:id="pgb1q6-thpoeg">
+              In the third place, 
+              this Father generates,
+              this Father is the essence, 
+              therefore this essence generates.
+              And this is able to be reduced to 
+              the first mode of the first figure,
+              <!-- could be a seg type for syllogisms; if so it could be added here. -->
+              every father generates, 
+              every essence is the Father,
+              therefore every essence generates.
+            </p>
+            <p xml:id="pgb1q6-d1e626">
+              In the fourth place, what is generating is the divine essence, 
+              therefore the divine essence is generating. 
+              The consequence is clear through the conversion absolutely speaking. 
+              The antecedent is proved 
+              because the Father generating is the essence, 
+              therefore what is generating is the essence.
+            </p>
+            <p xml:id="pgb1q6-d1e634">
+              In the fifth place, 
+              the Father is both convertible to the essence 
+              and the essence would be convertible tot he Father, 
+              if its only suppositum were the Father, 
+              but then, whatever would be said about the Father, 
+              would be said about the essence, 
+              therefore. Now it is thus, therefore, 
+              just as generating is said of the Father, 
+              so it is also able to be said of the essence.
+            </p>
+            <p xml:id="pgb1q6-d1e644">
+              In the sixth place, 
+              the divine essence is not not-generating and it exists, 
+              therefore it is generating.
+              The consequence seems to be known. 
+              The antecedent is proved 
+              because whatever is in the divine is 
+              either generating, or generated, or proceeding.
+            </p>
+            <p xml:id="pgb1q6-d1e652">
+              Against the second corollary of the same conclusion, 
+              it is proved that the divine essence is the subject of divine generation 
+              because that which remains under each term has the ratio of a subject. 
+              The divine essence is of this type, therefore.
+            </p>
+            <p xml:id="pgb1q6-d1e659">
+              Secondly, to any active potency there corresponds a passive potency. 
+              But in the Father there is an active potency, 
+              therefore in the Son there is something passive. 
+              But this is not the relation, therefore it is the essence.
+              
+              Secundo, cuilibet activae potentiae correspondet passiva potentia sed in patre est activa potentia ergo in filio 
+              est aliquid se habens passive sed hoc non est relatio ergo essentia.
+            </p>
+            <p xml:id="pgb1q6-d1e666">
+              Thirdly, 
+              because the following propositions is conceded 
+              <mentioned>the Son is from the Father</mentioned>,
+              it is therefore conceded that the word <mentioned>a</mentioned>
+              connotes that the circumstance of either the causal origin or material principle.
+              If the first, then
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> conclueds nothing in <title>Contra Maximum</title>, in book 3</ref>
+                <bibl>Augustine, Contra Maximum, III, XXX</bibl>
+              </cit>
+              because <name>Maximus</name> conceded that the 
+              Son is from the Father. 
+              If the second, the proposed is obtained 
+              because in the generation of the Son the essence is the subject.
+            </p>
+            <!-- combine with above -->
+            <p xml:id="pgb1q6-d1e684">
+              For the solution of the argument 
+              it should be known that 
+              the fact that something is a cause or depends totally on a cause 
+              is able to be taken in two ways.
+              In the first mode because the entire effect and 
+              whatever is effective of it effects it without another cause.
+            </p>
+            <!-- combine with above -->
+            <p xml:id="pgb1q6-d1e711">
+              In the second mode, that the entire effect and anything of it 
+              effects in isolation with any other efficient cause. 
+              According to the first mode given about the total effective cause or the effective dependence, 
+              I have posited and I understand the first part of the first conclusion and therefore the first part o
+              of its first corollary, and there the two other corollaries. 
+              But according to the second sense given about the total cause, I have put the second part of the conlusion 
+              and the second of its corollaries, as is clear to the one looking.
+            </p> 
+            <p xml:id="pgb1q6-d1e729">
+              To the first, therefore the antecedent, consequent, and consequence 
+              are conceded concerning the total cause in the first sense, but not in the second, because, 
+              if the antecedent were taken in the second sense, then it would be false 
+              because in this sense God alone is the total cause because no second cause 
+              is able to cause an effect with him. 
+              Nevertheless having supposed the general divine influence, 
+              it is still able to be said there are able to be several total causes 
+              with respect to effect, especially if the same effect is able to be produced 
+              by diverse created causes and by one without the other. 
+              And in this way the other three arguments proceed as well.
+            </p> 
+            <p xml:id="pgb1q6-d1e743">
+              To the first against the second conclusion, 
+              it is said in the first places that the consequent is not inconvenient, 
+              but nevertheless is not able to be conceded 
+              on account of heretics, lest they have an occasion for saying against us 
+              that some divine person is finite.
+              In the second place it is able to be said that the beginning may sound an imperfection, 
+              but the beginning itself, therefore the consequent absolutely must not be admitted 
+              but rather denied.
+            </p>
+            <p xml:id="pgb1q6-d1e762">
+              To another, the consequence is denied. <name ref="#FascinusOfAsti">Facinus</name> 
+              identifies the reason in the second <!-- in the second book? or in the second place --> because 
+              God wishes that the second cause would act so that it will be perfected. 
+              For if God alone were to produce the motion of the heavens, 
+              then the created intelligence moving it would not be perfected through this motion,
+              <pb ed="#L" n="27-v"/> 
+              and nor would the soul be perfected through the motion of the body, 
+              and thus for other things. 
+              Therefore, though, assuming the second cause does not act, 
+              the effect would be the same as if it did act, 
+              nevertheless it is not in vain that the second cause acts.
+            </p>
+            <p xml:id="pgb1q6-d1e778">
+              But, against this response, 
+              it is argued, since every perfection 
+              which the soul or second cause acquires through its action 
+              or through its own participation, <!-- coefficere -->
+              God is capable of supplying, therefore it is in vain a said before.
+              There <name ref="#HugolinoOfOrvieto">Hugolinus</name> responds differently,
+              saying that when the causality of the second cause 
+              with respect to some effect is removed, 
+              then the effect would not be put into being, 
+              having supposed that God does not now wish to act differently 
+              than before the subtraction of the causality of the second cause.
+              The reason is because God does not merely wish to be the effector of the effect, 
+              but the coeffector, which he is not able to be unless the second cause acts with him.
+            </p> 
+            <p xml:id="pgb1q6-d1e808">
+              To the third, the consequent is conceded in this sense, 
+              that the entity or quality, which is the hatred of God, 
+              God is able to cause. And with respect to the disproof, 
+              <mentioned>because this act</mentioned> etc., this is denied because, 
+              just as it is the case that there is vision and through this 
+              nothing sees or is seen, 
+              so it is the case that the quality, which is the hatred of God, 
+              is and through this its subject is neither effected nor actualized.
+              Whence just as the vision is not seeing, 
+              likewise hatred is not hating. 
+              If nevertheless the consequent were taken 
+              for both, namely for the quality affecting and actualizing the subject, 
+              then the consequence and the consequent would be denied, 
+              and it would be said that, whatever is there of the entity, 
+              God himself alone would be able to produce. 
+              But he would not be able to affect through this 
+              because this is not properly to effect something, 
+              but rather to defect something
+              <cit>
+                <ref>according to <name ref="#Augustine">Augustinum</name></ref>
+                <bibl>Augustine, XXX.</bibl>
+              </cit>.
+            </p>
+            
+            <p xml:id="pgb1q6-d1e833">
+              To the first against the third conclusion, 
+              the major premise is denied, 
+              just as this proposition <mentioned>every lion or every man is risible</mentioned> is denied. 
+              And if such propositions were proved through the induction of their singulars by saying thus, 
+              <mentioned>this lion and or this man is risible</mentioned>, and 
+              <mentioned>this lion or this man is risible</mentioned>, and so on about individuals, 
+              it is said that this induction is not sufficient 
+              because one is not able to have enough individuals. <!-- is enough ok for "plures"; "many singulars" makes less sense -->
+            </p>
+            <p xml:id="pgb1q6-d1e846">
+              To the second, the consequence is denied because it is not sufficient.
+            </p>
+            <p xml:id="pgb1q6-d1e850">
+              To the third, having dismissed various modes of solving these syllogisms, 
+              for now I say that such things are not rightly regulated when <mentioned>speaking about everything</mentioned> 
+              because such propositions are sufficiently universal, 
+              though vocally they appear as universals. 
+              The first part is clear because to be well regulated by 
+              <mentioned>speaking about everything</mentioned> 
+              requires that the major premise in the first figure 
+              is sufficiently universal and really so not just vocally.
+              And this is not able to be in this case because every proposition sufficiently universal 
+              implies sufficiently one exclusive thing about the transposed terms. 
+              And thus, if this were sufficiently universal, 
+              <mentioned>every divine essence is the Father</mentioned>,
+              then this consequence would be valid, 
+              <mentioned>every divine essence is the Father, 
+              therefore only the Father is the divine essence</mentioned>,
+              which is false, therefore.
+            </p>
+            <p xml:id="pgb1q6-d1e878">
+              Again, for this major premise to be sufficiently universal 
+              requires that the subject suits nothing 
+              that the predicate does not also suit.
+              But it is not so in this case. 
+              Whence it happens in the following propositions that it takes something under the subject about which 
+              the predicate is not said, namely <mentioned>every divine essence is the Father</mentioned> 
+              or similarly in this
+              <mentioned>everything that is the Father is the Father</mentioned> 
+              because the Son is the divine essence. 
+              Similarly that which is the Father is predicated of the Son and the Holy Spirit 
+              and nevertheless neither the Son nor the Holy Spirit is the Father. 
+              Through what has been said here all the syllogisms made regarding this matter 
+              are able to be solved. 
+              Whence, if it is argued thus, 
+              <mentioned>
+                this essence is the Son, 
+                this paternity is not the Son, 
+                therefore this paternity is not the essence
+              </mentioned>, 
+              this is clear, because, if the circumlocution or the major 
+              were sufficiently universal, this will be false on account of the aforesaid reasons.
+            </p>
+            
+            <p xml:id="pgb1q6-ihpfnv">
+              Again, 
+              <mentioned>
+                this Father generates, 
+                this Father is the essence, 
+                therefore the essence generates
+              </mentioned>. 
+              It is clear that, if the major is understood as it ought, 
+              it is false, and if the circumlocution does not occur, 
+              then the form is not valid.
+            </p>
+            <p xml:id="pgb1q6-d1e925">
+              Again, 
+              <mentioned>
+                every thing that is the Father is the Father, 
+                everything that is the deity is that which is the Father, 
+                therefore everything that is the deity is the Father
+              </mentioned>.
+              Such forms are easily solved through what has been said 
+              because, just as they are no sufficiently regulated, 
+              so the premisses are not sufficiently universal or, 
+              according to another way of speaking, 
+              there is not the proper circumlocution in the premises, 
+              therefore the forms are not valid.
+            </p>
+            
+            <p xml:id="pgb1q6-d1e935">
+              <pb ed="#L" n="28-r"/>
+              To the fourth it is said that consequent of the conversion 
+              is able to be take in two ways.
+              In one mode 
+              <mentioned>the divine essence is generating</mentioned>,
+              that is, 
+              <mentioned>this which generates</mentioned>, 
+              and thus it is conceded. 
+              In another mode thus 
+              <mentioned>the divine essence is generating</mentioned>, 
+              id est, 
+              <mentioned>it generates</mentioned>,
+              thus the consequences is denied because 
+              it is not able to be converted in this mode, 
+              but only in the first mode.
+            </p> 
+            <p xml:id="pgb1q6-d1e949">
+              To the fifth, 
+              it is said that the assumed is true with respect 
+              to essential predications, but not to notional predications 
+              because now there is an opposition of relations, 
+              and then there would be nothing.</p>
+            
+            <p xml:id="pgb1q6-d1e957">
+              To the sixth, the antecedent is denied 
+              because it is not generating, and to the proof 
+              because whatever is in the divine essence 
+              is said because it out to be understood thus, 
+              whatever is in the divine essence 
+              either is generating, that is, either is that which is generating, 
+              or that which is generated, etc.
+            </p>
+            <p xml:id="pgb1q6-d1e965">
+              To the first against this corollary, 
+              it is said that, if these terms 
+              <mentioned>producing</mentioned> and <mentioned>produced</mentioned> 
+              are understood in this way, then the major premise is false. 
+              But if the terms are taken for the privation and introduced form, 
+              then the minor is false 
+              because the Son never had the term,
+              since he is eternal.
+            </p>
+            <p xml:id="pgb1q6-d1e982">
+              To the second, 
+              it is said that the major premise has truth 
+              in mixed compositional potencies, 
+              but not in a being lacking composition and possibility,
+              as in the case of the divine.
+            </p>
+            <p xml:id="pgb1q6-d1e989">
+              To the third, 
+              it is said that the word <mentioned>a</mentioned>
+              denotes the circumstance of the substantial origin 
+              or the consubstantiality of some principle with its product. 
+              But the argument also speaks of a consubstantiality which notes some distinction, 
+              and then the argument does not conclude because, though Maximus considered that the Father generated the Son, 
+              nevertheless he would not allows that the Son was consubstantial with the Father.
+            </p>
+            <p xml:id="pgb1q6-edpsds">
+              From what has been said it is clear that 
+              the antecedent of the third argument in the opposition 
+              should be denied. 
+              Nothing more is required, 
+              what has been said is sufficient.
+            </p> 
+          </div>
+        </div>
+        <div xml:id="pg-b1q6-Dd1e4268">
+          <head xml:id="pg-b1q6-Hd1e4270"><supplied>Conclusions</supplied></head>
+          <p xml:id="pgb1q6-d1e1009">
+            <cit>
+              <quote xml:id="pg-b1q6-Qd1e4278" source="http://scta.info/resource/pll1d5c1-d1e3476">Post haec quaeritur</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d5c1-d1e3476">Lombardus, Sent. I, d. 5, c. 1, [n.1], (I, 80, ll. 26-27).</ref></bibl>
+            </cit>.
+            This distinction contains nine conclusions.
+            The first: that the Father did not generate the divine essence, 
+            nor did the divine essence generate the Son, 
+            nor did the essence generate the essence.
+            And <name ref="#Lombard">the Master</name> understands 
+            by the name <mentioned>essence</mentioned> the divine nature, \
+            which is common in three.
+          </p>
+          
+          <p xml:id="pgb1q6-scqqdt">
+            Second conclusion: that if the Father generated the divine essence, 
+            the divine essence would be said relatively to the Father.
+            But what is said relatively does not indicate the essence or substance, 
+            as is the case, namely in the ratio of the essence, as 
+            is shown through 
+            <cit>
+              <ref><name ref="#Augustine">Blessed Augustine</name> V <title ref="#deTrinitate">De Trinitate</title></ref>
+              <bibl>Augustine, De Trinitate, V (XXX)</bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q6-d1e1035">
+            The third conclusion: 
+            that if the Father generated the divine essence, 
+            since the Father is the divine essence, 
+            he would be the generator of the same thing that is his very self, 
+            and thus the same thing would generate itself, which Augustine denies.
+            <cit>
+              <ref><name ref="#Augustine">Augustine</name></ref>
+              <bibl>Augustine, XXX</bibl>
+            </cit>
+            denies.
+          </p>
+          <p xml:id="pgb1q6-d1e1045">
+            <!-- I've been using "generate" for gignere. "Beget" might be better in all instances -->
+            The fourth conclusion: 
+            since the Father is the divine essence and God, 
+            if he generated the divine essence, then by virtue of that fact 
+            the Father and God would be either the same thing that it generated, 
+            and thus would be generated by a generating cause, as it would be, 
+            which is false. 
+            Similarly, the Father is not wise with the wisdom that he generates, 
+            since were he to be same thing as his knowing, 
+            it would follows that the Son which is this wisdom 
+            generated by the Father, would be the cause of why the Father is and why wisdom, 
+            against Augustine as said above. 
+            <cit>
+              <ref><name ref="#Augustine">Augustinum</name> ubi supra</ref>
+              <bibl>Augustine, XXX</bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q6-d1e1060">
+            The fifth conclusion:
+            The Father begets that which is the same as himself,
+            namely the Son, who is that which the Father is 
+            because what the Father is, the Son is, 
+            but the Son is not who the Father is since the masculine 
+            type refers to a person, 
+            but the term of the neuter type indicates the substance or essence. 
+          </p> 
+          <p xml:id="pgb1q6-d1e1070">
+            Sixth conclusion: when it is said 
+            <mentioned>the essence is born from the essence</mentioned> 
+            vel 
+            <mentioned>essence is from the essence</mentioned> 
+            and similar things, 
+            one should understand that the Son, 
+            who is the divine essence, 
+            is from the Father and is born from the Father, 
+            who is the divine essence. 
+            Similarly, if it were to be read that  
+            the substance of God beget the Son who is the same substance, 
+            it should be understood that the Father beget the Son 
+            who is the same substance or of the same substance with the Father
+          </p>
+          <p xml:id="pgb1q6-d1e1082">
+            Seventh conclusion: 
+            that the Son and the Holy Spirit are not said to be from nothing, 
+            but from something, nevertheless they are not from some material, 
+            but the Son is said to be from the substance of the Father 
+            because he is of the same substance with him, 
+            and the Holy Spirit is said to be of the substance of the Father and the Son
+            because he proceeds from both of them, 
+            such that he is of the same substance.
+          </p>
+          <p xml:id="pgb1q6-d1e1092">
+            Eight conclusion: 
+            that the only begotten one of God alone is said to be the Son by nature 
+            because he is of the same nature and is the same nature as the Father.
+            And this is sufficient for the present lecture. 
+            Distinction 6 follows.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
