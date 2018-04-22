@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 12 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 12 [London Transcription]</title>
+          <date when="2014-05-07">May 07, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-05-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="42-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q12">
+        <head>Liber I, Quaestio 12 [London Transcription]</head>
+         <p xml:id="pgb1q12-d1e92"><pb ed="#L" n="42-v"/><lb ed="#L"/><hi rend="threeLineDropCap">I</hi><hi rend="largeFont">tem quaeritur etc</hi> <g ref="#pilcrow"/>haec est distinctio 12 in qua postquam <name ref="#Lombard">magister</name> determinavit 
+           <lb ed="#L"/>de filii generatione et spiritus sancti processione <pc type="virgula">/</pc> nunc tractat de earum adinvicem 
+           <lb ed="#L"/>comparatione <pc type="virgula">/</pc> et dividitur in duas quia primo inquirit de ordine processionis 2o 
+           <lb ed="#L"/>ostendit differentiam generationis et spirationis 2a in principio 13ae distinctionis ibi post haec etc</p> 
+        
+        <p xml:id="pgb1q12-d1etia"><g ref="#pilcrow"/>prima dividitur 
+          <lb ed="#L"/>in duas quia primo movet quaestiones 2o ponit ad eas responsiones 2a ibi hiis et 
+          <lb ed="#L"/>huius quaestionibus <g ref="#pilcrow"/>Et ista dividitur in tres quia primo ostendit quod spiritus sanctus non procedit 
+          <lb ed="#L"/>prius a patre quam a filio 2o quod non plenius ab uno quam ab alio 3o ponit aliquarum 
+          <lb ed="#L"/>auctoritatum intellectum in sensu vario 2a ibi nunc autem tractandum 3a ibi <name ref="#Augustine">augustinus</name> 
+          <lb ed="#L"/>tamen</p>
+        
+        <p xml:id="pgb1q12-d1e138"><g ref="#pilcrow"/>Tunc sequitur distinctio 13 post haec etc quae in duas dividitur quia primo ostendit quomodo spiritus sanctus 
+          <lb ed="#L"/>non debet dici genitus 2o quod non debet dici ingenitus 2a ibi nunc considerandum est 
+          <lb ed="#L"/><g ref="#pilcrow"/>prima dividitur in tres quia primo ostendit quomodo generari non competit spiritui sancto 2o quod procedere 
+          <lb ed="#L"/>competit filio 3o quod inter generationem et processionem est differentia seu distinctio 2a cum aut 
+          <lb ed="#L"/>spiritus sanctus 3a vero ibi inter generationem filii <g ref="#pilcrow"/>2a principalis dividitur in tres quia primo ostendit spiritum 
+          <lb ed="#L"/>sanctum non debere dici genitum 2o ex dictis <name ref="#Jerome">Ieromi</name> obicit in contrarium et 3o solvit 
+          <lb ed="#L"/>argumentum <sic>obiectum</sic> 2a <name ref="#Jerome">Ieromus</name> tamen et 3a sed ut istam etc et haec sit diviso harum distinctionum etc</p>
+        
+        <p xml:id="pgb1q12-d1e168"><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> sit possibile spiritum sanctum esse productum et ipsum non esse genitum 
+          <lb ed="#L"/>nec ingenitum <g ref="#slash"/>utrum a patre et filio spiritus sanctus taliter procedat sic 
+          <lb ed="#L"/>quod ipsum nec ingenitum nec genitum fides concedat utrum spiritus sanctus a 
+          <lb ed="#L"/>patre et filio taliter producatur quod nec genitus nec ingenitus</p> 
+        
+        <p xml:id="pgb1q12-vdqdnp">vere dicatur <g ref="#slash"/>quod non 
+          <lb ed="#L"/>quia si spiritus sanctus non esset genitus sequeretur quod viator theologus posset scire differentiam vel 
+          <lb ed="#L"/>distinctionem inter generationem et processionem consequentia est bona et falsitas consequentis patet per <name ref="#Augustine">augustinum</name> et 
+          <lb ed="#L"/><name ref="#Lombard">magistrum</name> in litera huius distinctionis 13ae dicentem <quote xml:id="pg-b1q12-Qd1e3656">inter generationem et processionem dum hic vi<lb ed="#L"/>vimus 
+          distinguere non possumus</quote></p>
+        
+        <p xml:id="pgb1q12-d1e200"><g ref="#pilcrow"/>2o <choice><orig>producciones</orig><reg>productiones</reg></choice> ad intra divinae sunt eiusdem rationis 
+          <lb ed="#L"/>et speciei ergo sicut filius per unam dicitur genitus ita spiritus sanctus per similem in specie potest dici genitus 
+          <lb ed="#L"/>patet consequentia quia <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> specifica productionum et <choice><orig>producencium</orig><reg>producentium</reg></choice> et terminorum productorum 
+          <lb ed="#L"/>arguit sufficienter <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> <choice><orig>denominacionum</orig><reg>denominationum</reg></choice> seu proprietatum naturalium alias staret quod 
+          <lb ed="#L"/>productio <name ref="#Sortes">sortis</name> et <name ref="#Plato">platonis</name> esset eiusdem speciei et tamen unus esset eiusdem speciei et alius non 
+          <lb ed="#L"/>antecedens primum probatur quia termini seu personae per illas <choice><orig>producciones</orig><reg>productiones</reg></choice> productae non differunt specie 
+          <lb ed="#L"/>sed solum numeraliter vel personaliter</p>
+        
+        <p xml:id="pgb1q12-d1e260"><g ref="#pilcrow"/>3o spiritus sanctus est et non est genitus ergo est ingenitus 
+          <lb ed="#L"/><sic>ergo ingenitus</sic> patet consequentia quia negativa infert unam affirmativam de praedicato negato et propositio de praedicato 
+          <lb ed="#L"/>negato infert unam de praedicato infinito vel <sic>infinitato</sic> ergo etc</p>
+        
+        <p xml:id="pgb1q12-d1e268"><g ref="#pilcrow"/>In oppositum est <ref><name ref="#Lombard">magister</name> 
+          <lb ed="#L"/>in hac distinctione 13</ref> et <ref><name ref="#Augustine">augustinus</name> primo <title ref="#deTrinitate">de trinitate</title> capitulo 6o</ref></p> 
+        
+        <p xml:id="pgb1q12-d1e287"><g ref="#pilcrow"/>prima conclusio licet sit impossibile non distingui 
+          <lb ed="#L"/>productionem filii a <choice><orig>produccione</orig><reg>productione</reg></choice> spiritus sancti tamen de communi lege in vita praesenti nullus potest 
+          <lb ed="#L"/>cognoscere huius distinctionem ratione evidenti prima pars probatur quia aliter possibile esset esse in divinis 
+          <lb ed="#L"/>quam nunc de facto sit si illae productiones non distinguerentur sed hoc est impossibile ergo impossibilitas 
+          <lb ed="#L"/>patet per superius dictam quia qualitercumque est ad intra taliter <choice><orig>neccesse</orig><reg>necesse</reg></choice> est esse <g ref="#slash"/>2a pars patet per 
+          <lb ed="#L"/><name ref="#Lombard">magistrum</name> in hac distinctione Item per <ref><name ref="#Augustine">augustinum</name> 13 <title ref="#deTrinitate">de trinitate</title> capitulo 13o</ref> dicentem quod <quote xml:id="pg-b1q12-Qd1e3726">illam trinitatem in 
+          <lb ed="#L"/>hac luce videbimus ubi nulla ratio erit</quote> <g ref="#slash"/>et confirmatur tota conclusio per <ref><name ref="#JohnDamascenus">damascenum</name> libro 
+          <lb ed="#L"/>primo capitulo 10</ref> dicentem <quote xml:id="pg-b1q12-Qd1e3740">quomodo est quaedam differentia generationis et processionis dicimus</quote> quis autem 
+          <lb ed="#L"/>est modus differentiae nequaquam pro ista etiam conclusione sunt verba <name ref="#Lombard">magistri</name> in textu</p>
+        
+        <p xml:id="pgb1q12-d1e343"><g ref="#pilcrow"/>primum corollarium quo 
+          <pb ed="#L" n="43-r"/><lb ed="#L"/>non sequitur evidenter filius a solo patre et spiritus sanctus ab utroque producitur ergo generatio fi<lb ed="#L"/>lii 
+          a processione spiritus sancti distinguitur patet quia unitas vel pluralitas <choice><orig>producencium</orig><reg>producentium</reg></choice> 
+          <lb ed="#L"/>non infert pluralitatem vel distinctionem productionum maxime ubi est unus modus a<lb ed="#L"/>gendi 
+          sicut est in proposito ut dictum est supra</p>
+        
+        <p xml:id="pgb1q12-d1e363"><g ref="#pilcrow"/>2m corollarium quod eodem modo non sequitur pro<lb ed="#L"/>ducta 
+          supposita distincte plurificantur ergo <choice><orig>producciones</orig><reg>productiones</reg></choice> earumdem aliquo modo distinguuntur patet 
+          <lb ed="#L"/>ex eodem</p>
+        
+        <p xml:id="pgb1q12-d1e377"><g ref="#pilcrow"/>3m quod ex modo producendi distinctio talis non potest evidenter ostendi patet 
+          <lb ed="#L"/>quia si modus procedendi sufficiet hoc esset ideo quia filius procedit quomodo natus et spiritus sanctus 
+          <lb ed="#L"/>quomodo datus ut dicit <ref><name ref="#Augustine">augustinus</name> 5o <title ref="#deTrinitate">de trinitate</title> capitulo 14o</ref> sed ista ratio non ostendit cur 
+          <lb ed="#L"/>spiritus sanctus non procedit quomodo natus ergo illa non sufficit <g ref="#slash"/>ex dictis posset inferri 
+          <lb ed="#L"/>quod aliquod est <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse quod nullus viator stante lege potest <sic>nosce</sic> patet de distinctione 
+          <lb ed="#L"/>productionum illarum personarum</p>
+        
+        <p xml:id="pgb1q12-d1e408"><g ref="#pilcrow"/>2a conclusio quam repugnat distinctio specifica inter personas divinas 
+          <lb ed="#L"/>tam repugnat distinctio eadem inter productiones aeternas probatur quia utrobique repugnat 
+          <lb ed="#L"/>ergo aeque repugnat patet consequentia quia repugnantia seu oppositio contradictionis non habet latitudinem 
+          <lb ed="#L"/>nec suscipit magis aut minus eodem modo sumpta <g ref="#dot"/> antecedens probatur quia omnis distinctio specifica 
+          <lb ed="#L"/>arguit et infert diversitatem naturae sed talis repugnat in divina essentia ergo distinctio specifica in 
+          <lb ed="#L"/>divinis personis vel <choice><orig>produccionibus</orig><reg>productionibus</reg></choice> non est ponenda 2a pars probatur quia <choice><orig>producciones</orig><reg>productiones</reg></choice> non 
+          <lb ed="#L"/>sunt distinctae nisi ratione distinctionis personarum vel quia terminantur ad distinctas personas sed personae 
+          <lb ed="#L"/>non specie sed solum numero distinguuntur ergo <g ref="#slash"/>2o probatur conclusio quia supposita divina sunt eiusdem perfectionis 
+          <lb ed="#L"/>simpliciter ergo eiusdem speciei tenet consequentia quia sicut nullae duae species sunt eiusdem perfectionis sic etc 
+          <lb ed="#L"/>antecedens est catholicum <g ref="#slash"/>3o confirmatur per <ref><name ref="#JohnDamascenus">damascenum</name> libro 3o capitulo 6o</ref> dicentem numero et non specie seu natura 
+          <lb ed="#L"/>differre dicimus <choice><orig>ypostases</orig><reg>hypostases</reg></choice> igitur</p> 
+        
+        <p xml:id="pgb1q12-pcsppd">primum corollarium sed supposita divina et <choice><orig>producciones</orig><reg>productiones</reg></choice> ad 
+          <lb ed="#L"/>intra non distinguuntur specifice tamen illa distingui numero conceditur catholice patet per dictam</p>
+        
+        <p xml:id="pgb1q12-scnssn"><lb ed="#L"/>2m corollarium non sequitur <c>a</c> per generationem producitur et <c>b</c> per generationem non producitur ergo <c>a</c><g ref="#dot"/> ab 
+          <lb ed="#L"/>ipso <c>b</c> specifice distinguitur patet quia filius et spiritus sanctus non distinguuntur specifice et tamen filius generatur 
+          <lb ed="#L"/>et spiritus sanctus non</p>
+        
+        <p xml:id="pgb1q12-d1e489"><g ref="#pilcrow"/>3m corollarium licet in divinis sint tria supposita numero distincta tamen 
+          <lb ed="#L"/>non proprie dicuntur tria eiusdem speciei individua istud corollarium ponit <ref><name ref="#ThomasStrasbourg">thomas argentis</name> 
+          <lb ed="#L"/>libro primo distinctione <space unit="chars" extent="1"/></ref> dicens non potest esse quia individuum importat alteritatem naturae non 
+          <lb ed="#L"/>autem suppositum</p>
+        
+        <p xml:id="pgb1q12-d1e505"><g ref="#pilcrow"/>3a conclusio sicut non stat spiritum sanctum esse patrem aut filium sic re<lb ed="#L"/>pugnat 
+          spiritum sanctum esse genitum vel ingenitum probatur prima pars quia personae divinae <choice><orig>neccessario</orig><reg>necessario</reg></choice> 
+          <lb ed="#L"/>distinguuntur ergo tenet consequentia et antecedens probatur quia si non esset confusio personarum in divinis vel tantum esset 
+          <lb ed="#L"/>una utrumque est error et impossibile ergo 2a pars probatur quia esse genitum est esse filium 
+          <lb ed="#L"/>et esse ingentium est esse patrem ergo etc antecedens patet in hac 13 distinctione ubi dicitur quod <quote xml:id="pg-b1q12-Qsssitp">si spiritus 
+          <lb ed="#L"/>sanctus esset genitus duo filii essent in divinis et si esset ingenitus duos patres in trinitate 
+          <lb ed="#L"/>poneremus</quote> ut dicit <name ref="#Augustine">augustinus</name> ergo</p>
+        
+        <p xml:id="pgb1q12-d1e531"><g ref="#pilcrow"/>primum corollarium sicut cum naturali <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> stat personarum 
+          <lb ed="#L"/>alteritas ita cum trina personalitate stat productionum dualitas probatur quia 
+          <lb ed="#L"/>in divinis sunt tantum duae <choice><orig>producciones</orig><reg>productiones</reg></choice> scilicet generatio et processio</p>
+        
+        <p xml:id="pgb1q12-d1e551"><g ref="#pilcrow"/>2m corollarium sicut solus pater 
+          <lb ed="#L"/>a nullo est productus sic solus pater proprie dicitur ingenitus patet per dictam Item per <ref><name ref="#JohnDamascenus">damascenum</name> libro 
+            <lb ed="#L"/>primo capitulo 9o</ref> dicentem <quote xml:id="pg-b1q12-Qd1e3880">solus pater est ingenitus solus filius genitus solus spiritus sanctus processibilis 
+          <lb ed="#L"/>seu procedens</quote></p>
+        
+        <p xml:id="pgb1q12-d1e566"><g ref="#pilcrow"/>3m corollarium licet spiritus sanctus possit dici ingenitus improprie et negative 
+          <pb ed="#L" n="43-v"/><lb ed="#L"/>non tamen debet dici ingenitus proprie et privative prima pars patet quia spiritus sanctus non est genitus ergo est ingenitus 
+          <lb ed="#L"/>exponendo negative ingenitus 2a patet per dictam quia tunc persona spiritus sancti esset persona 
+          <lb ed="#L"/>patris quod est impossibile ex quibus omnibus sequitur pars conclusionis affirmativa</p>
+        
+        <p xml:id="pgb1q12-d1e577"><g ref="#pilcrow"/>contra primam conclusionem arguitur primo 
+          <lb ed="#L"/>rationibus <ref><name ref="#HugolinoOfOrvieto">hugolini</name> contra <name ref="#Rimini">gregorium</name> arguentis libro primo distinctione 10 usque ad 14</ref> quia filius est 
+          <lb ed="#L"/>ab uno spiritus sanctus a duobus ergo ex modo procedendi inter generationem et processionem potest distinctio haberi 
+          <lb ed="#L"/>sed <name ref="#Rimini">magister gregorius</name> dicit quod non sufficit <g ref="#slash"/>ideo <name ref="#HugolinoOfOrvieto">hugolinus</name> replicat contra ubi est productio verbi 
+          <lb ed="#L"/>non requiritur duplex producens vel productivum ergo ratio distinctionis inter generationem et processionem 
+          <lb ed="#L"/>potest assignari antecedens patet quia unum producens sufficit</p>
+        
+        <p xml:id="pgb1q12-d1e608"><g ref="#pilcrow"/>2o ubi est generatio viventis personae 
+          <lb ed="#L"/>ibi non possunt esse pluries generantes nisi alter illorum se haberet per modum materis 
+          <lb ed="#L"/>sed hoc est impossibile in divinis ergo</p>
+        
+        <p xml:id="pgb1q12-d1e617"><g ref="#pilcrow"/>3o ubi est persona opus et se dicit si requiritur alia persona 
+          <lb ed="#L"/>sequitur vel quod non sit opus vel quod aliter producat quam dicendo ergo</p>
+        
+        <p xml:id="pgb1q12-d1e623"><g ref="#pilcrow"/>4o contra 3m corollarium quia 
+          <lb ed="#L"/>licet spiritus sanctus sit notitia non tamen processione est notitia nec filius est amor generatione 
+          <lb ed="#L"/>ideo illae <choice><orig>producciones</orig><reg>productiones</reg></choice> sufficienter distinguuntur ex eo quia filius non est amor per generationem nec spiritus 
+          <lb ed="#L"/>sanctus habet quod sit notitia per spirationem <name ref="#HugolinoOfOrvieto">hugolinus</name> libro primo distinctione 10a et 11a articulo 4o vide 
+          <lb ed="#L"/>ibi arguit contra <name ref="#Rimini">gregorium</name></p>
+        
+        <p xml:id="pgb1q12-d1e647"><g ref="#pilcrow"/>5o omnis perfecta operatio terminatur ad aliquem terminum productum sed potest 
+          <lb ed="#L"/>ratione convinci quod in deo est perfecta operatio intellectus et voluntatis ergo potest convinci quod intelligere 
+          <lb ed="#L"/>divinum terminatur ad verbum et velle ad amorem sed cum nihil producat se ipsum sequitur 
+          <lb ed="#L"/>quod productum realiter differat a producente sed talis differentia non potest esse in essentia 
+          <lb ed="#L"/>ergo in personis et earumdem processionibus</p>
+        
+        <p xml:id="pgb1q12-d1e659"><g ref="#pilcrow"/>6o naturam creatam reperiri in pluribus suppositis 
+          <lb ed="#L"/>est perfectionis simpliciter in creatura ergo est naturae divinae attribuendum consequentia tenet quia quidquid est per<lb ed="#L"/>fectionis 
+          in creatura debet deo attribui</p>
+        
+        <p xml:id="pgb1q12-d1e667"><g ref="#pilcrow"/>contra 2am conclusionem productio divinarum personarum est 
+          <lb ed="#L"/>secundum formas specie distinctas ergo tales productiones specie distinguuntur tenet consequentia quia illa distinctio est specifica 
+          <lb ed="#L"/>quae est secundum formas distinctas et antecedens patet quia relationes divinae sunt specie distinctae scilicet paternitas 
+          <lb ed="#L"/>filiatio et passiva spiratio et per tales distinguuntur supposita divina ergo</p>
+        
+        <p xml:id="pgb1q12-d1e677"><g ref="#pilcrow"/>2o supposita divina 
+          <lb ed="#L"/>distinctis per ipsa non possunt dare aliam distinctionem quam illam quae ipsis competit secundum eorum formalem 
+          <lb ed="#L"/>rationem sed paternitas et filiatio secundum earum formales rationes differunt specie ergo illa quae faci<lb ed="#L"/>unt 
+          esse distincta distinguuntur speciei</p>
+        
+        <p xml:id="pgb1q12-d1e688"><g ref="#pilcrow"/>3o contra corollaria in tribus personis divinis non est maior bonitas 
+          <lb ed="#L"/>quam in una ergo frustra ponitur tres ergo hoc non est ponendum patet haec consequentia quia <quote ana="#aa-decaelo-18">deus et natura 
+          <lb ed="#L"/>nihil faciunt frustra</quote> <ref>primo <title ref="#deCaelo">caeli</title></ref> et antecedens est catholicum</p>
+        
+        <p xml:id="pgb1q12-d1e704"><g ref="#pilcrow"/>4o sicut se habet summe bonum 
+          <lb ed="#L"/>ad <choice><orig>maliciam</orig><reg>malitiam</reg></choice> sic summe unum ad multitudinem sed repugnat in summe bono esse 
+          <lb ed="#L"/><choice><orig>maliciam</orig><reg>malitiam</reg></choice> igitur in summe uno multitudinem ergo sicut repugnat deo peccatum vel pec<lb ed="#L"/>cabilitas 
+          sic personarum pluralitas</p>
+        
+        <p xml:id="pgb1q12-d1e725"><g ref="#pilcrow"/>5o omnis oppositio realis relativa exigit 
+          <lb ed="#L"/>duo extrema distinguitur realiter vel oportet ergo ponere in divinis unam oppositionem relativam 
+          <lb ed="#L"/>vel duas si unam sic duo erunt extrema tantum si duas tunc 4or exerma <g ref="#dot"/> 
+          <lb ed="#L"/>et per consequens 4or personae quod non est dicendum</p>
+        
+        <p xml:id="pgb1q12-d1e737"><g ref="#pilcrow"/>6o idem est patrem se dicere quod verbum ge<lb ed="#L"/>nerare 
+        sed filius et spiritus sanctus ita perfecte se dicunt sicut pater se intelligunt ergo vel 
+          <lb ed="#L"/>tria verba dicuntur vel nullum dicitur</p>
+        
+        <p xml:id="pgb1q12-d1e745"><g ref="#pilcrow"/>7o pater amando filium et filius reamando patrem 
+          <lb ed="#L"/>producunt spiritum sanctum sed pater non minus amat spiritum sanctum quam filium nec minus re<lb ed="#L"/>amatur 
+          a spiritu sancto quam a filio ergo pater et spiritus sanctus producunt alium spiritum sanctum <g ref="#slash"/>vel 
+          <pb ed="#L" n="44-r"/><lb ed="#L"/>nulla persona producitur per amorem</p>
+        
+        <p xml:id="pgb1q12-d1e758"><g ref="#pilcrow"/>contra 3am conclusionem et corollaria arguitur primo per <name ref="#Jerome">ieromium</name> quem <choice><orig>alegat</orig><reg>allegat</reg></choice> 
+          <lb ed="#L"/><name ref="Lombard">magister</name> in distinctione 11 dicens <quote xml:id="pg-b1q12-Qd1e769">spiritus sanctus pater non est sed est ingenitus tamen pater non est quia patris est</quote> 
+          <lb ed="#L"/>ergo spiritus sanctus est ingenitus</p>
+        
+        <p xml:id="pgb1q12-d1e778"><g ref="#pilcrow"/>contra primum corollarium unicus est modus communicandi naturam ut dicit 
+          <lb ed="#L"/><ref><name ref="#Averroes">commentator</name> 8 <title ref="#PhysicsCommentary">physicorum</title></ref> sed per quamlibet productionem adintra communicatur natura ergo tantum erit una pro<lb ed="#L"/>ductio</p>
+        
+        <p xml:id="pgb1q12-d1e792"><g ref="#pilcrow"/>3o inter generationem et processionem non est oppositio relativa ergo nec distinctio consequentia tenet quia omnia 
+          <lb ed="#L"/>sunt idem ubi non obviat relationis oppositio et antecedens probatur quia omne quod generatur procedit 
+          <lb ed="#L"/>quamvis non econverso ergo</p>
+        
+        <p xml:id="pgb1q12-d1e800"><g ref="#pilcrow"/>Ad primum negatur assumptum universaliter quia verbum mentis nostrae secundum 
+          <lb ed="#L"/>esse procedit tam a mente quam ab obiecto 2o dico quod supposito quod unum producens sit 
+          <lb ed="#L"/>sufficiens si tamen sunt duo non minus procedit verbum</p>
+        
+        <p xml:id="pgb1q12-d1e808"><g ref="#pilcrow"/>Ad 2m posset negari antecedens 
+          <lb ed="#L"/>universaliter sumptum quia non quilibet modus generationis omnium viventium est notus nobis <g ref="#dot"/> 2o dico 
+          <lb ed="#L"/>quod solum illa habet veritatem in hiis quae materialiter ad generationem producti concurrunt et sic non est 
+          <lb ed="#L"/>de patre et filio respectu spiritus sancti quia aequaliter spirant spiritum sanctum <g ref="#slash"/>3o ratio reducitur contra 
+          <lb ed="#L"/>facientem in nulla <choice><orig>produccione</orig><reg>productione</reg></choice> viventis ex vivente possunt esse pluries produ<lb ed="#L"/>centes 
+          nisi unus sit etc sed <choice><orig>produccio</orig><reg>productio</reg></choice> spiritus sancti est productio viventis ex vivente 
+          <lb ed="#L"/>ergo filius se habet loco matris</p>
+        
+        <p xml:id="pgb1q12-d1e841"><g ref="#pilcrow"/>Ad 3m dicitur quod antecedens non habet maiorem veritatem de 
+          <lb ed="#L"/>dicere quam de diligere constat enim quod pater se diligendo est opus et tamen requiritur filius 
+          <lb ed="#L"/>qui se diligat ad productionem spiritus sancti</p>
+        
+        <p xml:id="pgb1q12-d1e849"><g ref="#pilcrow"/>2o dicitur quod una persona divina non proprie 
+          <lb ed="#L"/>requirit aliam prout hoc verbum sonat indigentiam et imperfectionem</p>
+        
+        <p xml:id="pgb1q12-d1e856"><g ref="#pilcrow"/>3o dico quod secundum eum 
+          <lb ed="#L"/>met consequentia non valet ad productionem <c>b</c><g ref="#dot"/> requiruntur plures personae ergo neutra est opus 
+          <lb ed="#L"/>nam distinctione 7a dicit hanc consequentiam non valere <c>a</c> est tantae potentiae quod sufficit solus 
+          <lb ed="#L"/>producere <g ref="#dot"/><c>b</c><g ref="#dot"/> et <c>a</c><g ref="#dot"/> solus non potest producere creaturam <g ref="#dot"/><c>d</c> igitur maior potentia requiritur ad pro<lb ed="#L"/>ducendum 
+          <c>d</c><g ref="#dot"/> quam <g ref="#dot"/><c>b</c><g ref="#dot"/></p>
+        
+        <p xml:id="pgb1q12-d1e898"><g ref="#pilrow"/>Ad 4m dicitur quod ratio petit principium quia cum spiritus sanctus pro<lb ed="#L"/>cedat 
+        et eadem natura per processionem utrique aeque communicatur perfecte quare est quod una 
+        <lb ed="#L"/>productio non est alia dicere ergo quod filius non sit amor per generationem etc est mani<lb ed="#L"/>festare 
+        idem per idem vel magis notum per minus</p>
+        
+        <p xml:id="pgb1q12-d1e908"><g ref="#pilcrow"/>Ad aliud diceret adversarius 
+          <lb ed="#L"/>quod illud non habet veritatem in operationibus immanentibus sicut sunt velle et intelligere ad 
+          <lb ed="#L"/>intra unde <ref>9 <title ref="#Metaphysics">metaphysciae</title></ref> et <ref>primo <title ref="#Physics">physicorum</title></ref> dicitur quod <add place="above-line">per</add> operationes immanentes nihil constituitur 
+          <lb ed="#L"/>aliter aeque probaretur quod spiritus sanctus produceret adintra</p>
+        
+        <p xml:id="pgb1q12-d1e933"><g ref="#pilcrow"/>Ad 6m negatur antecedens quia 
+          <lb ed="#L"/>natura spiritualis non multiplicata in pluribus suppositis est perfectior quam ista materialia et corruptibilia[?] 
+          <lb ed="#L"/>quae multiplicatur per individua supposita</p>
+        
+        <p xml:id="pgb1q12-d1e941"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem primo negatur antecedens quia 
+          <lb ed="#L"/>sicut pater non distinguitur specie a filio sic nec filio a paternitate quia filio et filius sunt 
+          <lb ed="#L"/>idem <g ref="#slash"/>2o posset dici quod dato quod paternitas et filiatio <del rend="expunctuated">non</del> distinguerentur specifice consideratae 
+          <lb ed="#L"/>secundum se tamen ut constituunt divina supposita habent modum proprietatum individualium 
+          <lb ed="#L"/>sed quia non dico personas constitui per illas proprietates ideo sto in prima solutione 
+          <lb ed="#L"/>et dimitto 2am quam est <name ref="#ThomasStrasbourg">thomae de argentis</name></p>
+        
+        <p xml:id="pgb1q12-d1e964"><g ref="#pilcrow"/>Ad 2m dicitur quod maior non habet veritatem de 
+          <lb ed="#L"/>hiis quae dant esse individuale et incommunicabile sicut hic sed tenet de principiis 
+          <lb ed="#L"/>divinis quae distinctis per ipsam dant esse simpliciter</p>
+        
+        <p xml:id="pgb1q12-d1e973"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia illa bonitas 
+          <lb ed="#L"/>pluribus modis est ibi</p>
+        
+        <p xml:id="pgb1q12-d1e979"><g ref="#pilcrow"/>Ad 4m transeat maior sed cum ultra dicitur quod deo vel 
+          <pb ed="#L" n="44-v"/><lb ed="#L"/>essentiae divinae quae sic est summe bona repugnat tam plurificari quam peccare et dampnari 
+          <lb ed="#L"/>conceditur sed tamen cum ipsius unitate stat bene personarum pluralitas</p>
+        
+        <p xml:id="pgb1q12-d1e988"><g ref="#pilcrow"/>Ad 5m dicitur quod in divinis 
+          <lb ed="#L"/>sunt tantum duo relationes oppositae ex prima habemus <corr><del>habere</del></corr> patrem et filium ex 2a spiritum 
+          <lb ed="#L"/>sanctum quia alterum extremorum 2ae relationis non constituit personam scilicet spiratio activa 
+          <lb ed="#L"/>quae communis est patri et filio</p>
+        
+        <p xml:id="pgb1q12-d1e1002"><g ref="#pilcrow"/>Ad 6m dicitur quod licet non possit ratio evidens assignari 
+          <lb ed="#L"/>seclusa fide quare dicere vel intelligere filii non terminatur ad aliquem terminum productum 
+          <lb ed="#L"/>tamen supposita fide potest dici quod dicere potest dupliciter sumi uno modo proprie prout idem est quod 
+          <lb ed="#L"/>verbum concipere et sic sumit <ref><name ref="#Augustine">augustinus</name> 5o <title ref="#deTrinitate">de trinitate</title></ref> cum dicit quod <quote xml:id="pg-b1q12-Qnsiped">non singulus in divinis sed pater 
+          <lb ed="#L"/>est dicens</quote> et sic conceditur illae maior et negatur minor seu 2a pars antecedentis alio modo sumitur dicere 
+          <lb ed="#L"/>pro perfecte intelligere et sic debet intelligi minor et tunc nota non sequitur conclusio quia medium mutatur 
+          <lb ed="#L"/>2o posset dici quod non solum potest producere eo quod perfecte intelligit praecise sed eo quod 
+          <lb ed="#L"/>perfectum intelligere est in ipso patre cum inclusione relatus <choice><orig>neccessario</orig><reg>necessario</reg></choice> requisiti ad filium 
+          <lb ed="#L"/>producendum qui relatus est paternitas filius autem et spiritus sanctus licet intelligant tamen illum 
+          <lb ed="#L"/>relatum non habent ideo non generant per intelligere sed sic dicendo est solvere idem per idem</p>
+        
+        <p xml:id="pgb1q12-d1e1038"><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>7m dicitur sicut prius quod non sequitur licet <sic>n</sic> spiritus sanctus aeque perfecte diligat super pater et filius 
+          <lb ed="#L"/>tamen non habet illud diligere cum relato requisito <choice><orig>neccessario</orig><reg>necessario</reg></choice> ad producendum spiritum sanctum qui 
+          <lb ed="#L"/>est spiratio <sic>passiva</sic> activa quae opponitur spirationi passive quam spiritus sanctus habet vel est</p>
+        
+        <p xml:id="pgb1q12-d1e1054"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 3am conclusionem dicitur ad <name ref="#Jerome">Ieromium</name> quod ingenitum potest accipi tripliciter <g ref="#slash"/>primo pro illo qui 
+          <lb ed="#L"/>non habet in se generationem passive sumptam 2o pro illo qui non habet huius generationem <g ref="#slash"/>3o pro 
+          <lb ed="#L"/>illo qui non habet generationem nec est ab habente eam et cum hoc habet proprietatem oppositam tali 
+          <lb ed="#L"/>generationi passive primo modo spiritus sanctus dicitur ingenitus quia non genitus et secundum hunc modum loquitur 
+          <lb ed="#L"/><name ref="#Jerome">Ieromus</name> <g ref="#slash"/>2o essentia divina dicitur ingenita 3o modo solus pater et isto modo loquitur conclusio</p>
+        
+        <p xml:id="pgb1q12-d1e1080"><g ref="#pilcrow"/>Ad secundum dicitur 
+          <lb ed="#L"/><name ref="#Averroes">commentator</name> loquitur de <choice><orig>communicacione</orig><reg>communicatione</reg></choice> naturae creatae</p>
+        
+        <p xml:id="pgb1q12-d1e1094"><g ref="#pilcrow"/>Ad 3m dicitur primo quod <del rend="strikethrough">so</del> ratio fundatur super falso 
+          <lb ed="#L"/>primo quia personae non solum relationibus oppositis distinguuntur 2o quia <choice><orig>producciones</orig><reg>productiones</reg></choice> divinae differunt 
+          <lb ed="#L"/>se ipsis et non tantum relationibus ideo nihil concludit ratio</p>
+        
+        <p xml:id="pgb1q12-d1e1112"><g ref="#pilcrow"/>Ad primam rationem in oppositum patet per 
+          <lb ed="#L"/>dictam in prima conclusione quia non sequitur quod possit viator scire licet ita sit</p> 
+        
+        <p xml:id="pgb1q12-asnsnc"><g ref="#slash"/>Ad 2m 
+          <lb ed="#L"/>negatur consequentia</p> 
+        
+        <p xml:id="pgb1q12-atpecf">Ad 3m patet ex 3a conclusione et <choice><orig>solucione</orig><reg>solutione</reg></choice> rationum contra eam quia spiritus sanctus potest 
+          <lb ed="#L"/>dici ingenitus et improprie iuxta primum modum distinctionis positae 2o posset negari illa consequentia 
+          <lb ed="#L"/>est non genitus igitur ingenitus sicut non sequitur hoc est non iustum ergo iniustum quia de 
+          <lb ed="#L"/>lapide antecedens est verum et consequens falsum</p>
+        
+        <p xml:id="pgb1q12-d1e1135"><g ref="#pilcrow"/><hi rend="largeFont">Item cum quaeritur</hi> 
+          <lb ed="#L"/><g ref="#slash"/>haec distinctio continet tres conclusiones prima quod cum quaeritur utrum spiritus sanctus prius procedat a <g ref="#dot"/> 
+          <lb ed="#L"/>patre quam a filio dicendum est quod qui potest intelligere generationem filii de patre sine tempore 
+          <lb ed="#L"/>etiam sine tempore processionem spiritus sancti ab utroque a patre et filio intelligat quia in trinitate 
+          <lb ed="#L"/>nihil prius aut posterius quia ibi ex tempore nihil inchoatur</p>
+        
+        <p xml:id="pgb1q12-d1e1155"><g ref="#pilcrow"/>2a conclusio quod sicut spiritus sanctus 
+          <lb ed="#L"/>non processit ante a patre quam a filio ita non magis vel amplius vel ple<lb ed="#L"/>nius 
+          procedit a patre quam a filio</p>
+        
+        <p xml:id="pgb1q12-d1e1163"><g ref="#pilcrow"/>3a conclusio quod cum <name ref="#Augustine">augustinus</name> dicit <quote xml:id="pgb1q12-Qsspapp">spiritum sanctum procedere 
+          <lb ed="#L"/>a patre principaliter</quote> et <name ref="#Jerome">Ieromus</name> dicit quod <quote xml:id="pgb1q12-Qpapapp">procedit a patre proprie</quote> et <name ref="#HilaryOfPoitiers">hylarius</name> dicit quod <quote xml:id="pgb1q12-Qssmhpf">spiritus sanctus 
+          <lb ed="#L"/>mittitur a patre per filium et a patre esse habet per filium</quote> debet sic intelligi quod spiritus 
+          <pb ed="#L" n="45-r"/><lb ed="#L"/>spiritus procedat a patre hoc habet patre a se quod autem procedat a filio vel ab ipso mit<lb ed="#L"/>tatur 
+          hoc filius habet a patre quia pater gignendo filium dedat ei quod spiritus sanctus ab eo 
+          <lb ed="#L"/>procedent et mitteretur</p>
+        
+        <p xml:id="pgb1q12-d1e1189"><g ref="#pilcrow"/><hi rend="largeFont">Post haec considerandum</hi> est haec 13 distinctio continet 7 conclusiones 
+          <lb ed="#L"/><g ref="#pilcrow"/>prima quod licet spiritus sanctus procedat a patre et sit de substantia patris sicut et filius non tamen dicitur 
+          <lb ed="#L"/>natus sive genitus et ideo non dicitur filius cuius ratio est quia si diceretur filius esset filius 
+          <lb ed="#L"/>patris et filii cum procedat ab utroque sed absurdum est quod sit filius amborum quia nullus 
+          <lb ed="#L"/>est filius duorum nisi sit patris et matris</p>
+        
+        <p xml:id="pgb1q12-d1e1211"><g ref="#pilcrow"/>2a conclusio quod licet filius et spiritus sanctus proce<lb ed="#L"/>dant 
+        a patre tamen dissimiliter quia spiritus sanctus procedit a patre quomodo datus sive ut 
+          <lb ed="#L"/>donum filius vero procedit ut <corr><del rend="expunctuated">d</del></corr> natus sive ut genitus et ideo spiritus sanctus non est 
+          <lb ed="#L"/>filius</p>
+        
+        <p xml:id="pgb1q12-d1e1225"><g ref="#pilcrow"/>3a conclusio quod spiritus sanctus non dicitur filius quia non est genitus sicut unigenitus nec factus 
+          <lb ed="#L"/>ut per dei gratiam in <choice><orig>adopcionem</orig><reg>adoptionem</reg></choice> nasceretur sicut et nos et sic diceretur filius dei per adoptionem</p>
+        
+        <p xml:id="pgb1q12-d1e1237"><lb ed="#L"/><g ref="#pilcrow"/>4a conclusio quod non esse quod procedit nascitur quamvis omne quod nascitur procedat</p>
+        
+        <p xml:id="pgb1q12-d1e1242"><g ref="#pilcrow"/>5a conclusio 
+          <lb ed="#L"/>quod inter verbi generationem et spiritus sancti processionem distinguere[?] non sufficimus in hac vita 
+          <lb ed="#L"/>et ideo sufficiat cuilibet scire quod filius non est a se ipso sed a patre nec spiritus sanctus a se 
+          <lb ed="#L"/>ipso sed procedit ab utroque</p>
+        
+        <p xml:id="pgb1q12-d1e1253"><g ref="#pilcrow"/>6a conclusio quod secundum <name ref="#Augustine">augustinum</name> spiritus sanctus non debet dici genitus 
+          <lb ed="#L"/>nec ingenitus quia si genitus esset duo filii in divinis si autem ingenitus duos patres 
+          <lb ed="#L"/>ibi affirmaremus quod est inconveniens patet quia esse ingenitum proprie convenit patri</p>
+        
+        <p xml:id="pgb1q12-d1e1264"><g ref="#piclrow"/>7a conclusio 
+          <lb ed="#L"/>quod secundum <name ref="#Jerome">Ieronimum</name> spiritus sanctus dicitur ingenitus sed <name ref="#Jerome">Ieronimus</name> accipit ingenitum pro non genito et sic 
+          <lb ed="#L"/>potest concedi quod spiritus sanctus est ingenitus id est non genitus <g ref="#pilcrow"/><name ref="#Augustine">Augustinus</name> vero accipit ingenitum pro 
+          <lb ed="#L"/>illo qui ab alio non est aliquo tamen alius est et sic accipiendo ingenitum de solo patre dicitur 
+          <lb ed="#L"/>quia filius est ab alio et spiritus sanctus a patre et filio qui sunt aliae personae et sic <name ref="#Lombard">magister</name> concordat 
+          <lb ed="#L"/>dictam <name ref="#Augustine">augustini</name> et <name ref="#Jerome">Ieronimi</name> et haec sufficiant pro praesenti lectione</p>
+     
+      </div>  
+    </body>
+  </text>
+</TEI>
