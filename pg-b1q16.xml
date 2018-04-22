@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 16</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.11-dev-master">
+          <title>Librum I, Quaestio 16</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-11-05" who="#JW" status="draft" n="2014.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q16">
+        <head>Quaestio 16</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q16-d1e92">
+            <cit>
+              <quote>Iam nunc accedamus</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d17c1-d1e3477">Lombardus, I, d. 17, c. 1, n. 1</ref></bibl>
+            </cit> 
+            postquam determinavit <name ref="#Lombard">Magister</name> de Spiritus Sanctus 
+            missione visibili, nunc determinat de invisibili. Et dividitur in tres partes dico hoc 
+            quia primo de caritate et dilectione ponit sua intentionem, secundo ostendit quomodo caritas 
+            recipit augmentum seu intensionem, tertio adducit cum motivis oppositam opinionem. Secunda ibi 
+            <cit>
+              <quote>haec quaeritur si caritas.</quote>
+              <bibl></bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote>supra dictum est quod Spiritus Sanctus.</quote>
+              <bibl></bibl>
+            </cit>
+          </p>
+        
+        <p xml:id="pgb1q16-d1e118">Prima pars quae est principalis et praesentis 
+          lectionis dividitur in tres quia primo ponit <name ref="#Lombard">Magister</name> opinionem, secundo suae opinioni annectit confirmationem, 
+          et tertio responsionem quamdam cavillationem. Secunda ibi ne autem in re tanta. Tertia, ibi sed ne forte.</p>
+      </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head> 
+            <p xml:id="pgb1q16-d1e135">Utrum amore personalis divinae essentiae sit dilectio formalis creatae potentiae utrum 
+              immensum donum sit dilectio formalis quam recte summum bonum amat amans 
+              realis utrum spiritus sanctus amore summus per duos productus spirationes 
+              sit illud quo formaliter summus summi boni iusti veri amatores.</p> 
+            
+            <p xml:id="pgb1q16-qnpgdm">Quod non primo quia caritas 
+              creata cum voluntate sufficienter actum quamlibet meritorium efficit, ergo ponens Spiritum Sanctum 
+              esse formaliter illud quo mens diligit et meretur a veritate deficit. Consequentia bona et antecedens videtur 
+              esse de mente <ref><name ref="#Paul">Apostoli</name> <title ref="#Icor">I Ad Corinthios</title> 15</ref> dicentis 
+              <cit>
+                <quote ana="#Icor15_10">abundantius omnibus laboravi non ego 
+                  solus sed gratia Dei mecum.</quote>
+                <bibl>I Ad Corinthios 15:10</bibl>
+              </cit>
+            </p>
+          
+            <p xml:id="pgb1q16-d1e180">Secundo, sola caritas dividit inter filios <unclear>regni</unclear> et perditionis 
+              ut dicit 
+              <ref>
+                <seg><name ref="#Augustine">Augustinus</name> XV <title ref="#deTrinitate">De Trinitate</title> capitulo 18</seg>
+                <bibl>Augustinus, De Trinitate, XV, c. 18</bibl>
+              </ref> 
+              sed talis caritas non est summus amore personalis seu 
+              spiritus sanctus ut <name ref="#Rimini">Gregorius Noster</name> 
+              dicit patere ex textu <ref><title ref="#Icor">I Ad Corinthios</title> 13</ref> ubi dicit 
+              <cit>
+                <quote ana="#Icor13_1">si linguis hominum 
+                  loquar et angelorum</quote>
+                <bibl>I Ad Corinthios 13:1</bibl>
+              </cit> 
+              etc. 
+              Item <ref><title ref="#rom">Ad Romanos</title> 5</ref> 
+              <cit>
+                <quote ana="#rom5_5">caritas dei diffusa est in cordibus vestris.</quote>
+                <bibl>Ad Romanos 5:5</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e219">Tertio, nullum immensum potest esse alicuius mensi forma intrinseca, ergo. Consequentia bona. Antecedens probatur quia immenso 
+              repugnat inhaerentia subiectiva. Secundo quia illud 
+              <app>
+                <lem>
+                  <app>
+                    <lem>mensum</lem>
+                    <rdg wit="#L" type="corrReplace">
+                      <corr>
+                        <del>immensum</del>
+                        <add>mensum</add>
+                      </corr>
+                    </rdg>
+                  </app>
+                </lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough/expunctuated">haberet</del>
+                  </corr>
+                </rdg>
+              </app> 
+              tunc haberet formaliter iustitiam 
+              immensam quod repugnat, ergo.</p>
+            
+            <p xml:id="pgb1q16-d1e240">In oppositum, arguitur solus amore summus potest sufficienter mentem creatam 
+              iustificare et ad ordinate diligendum actuare ergo <unclear>quo</unclear> vera. Consequentia bona, et antecedens patet quia Spiritus Sanctus 
+              potest creatae menti communicari sine donis creatis incomplexis, <ref>ut probatum est supra.</ref></p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+            
+            <p xml:id="pgb1q16-d1e251">Prima conclusio: quod 
+              caritas creata est habitus infusus supernaturaliter <unclear>ad</unclear> mentem <unclear>actuante</unclear> specialiter mentem 
+              Deo et Deum enti <unclear>carismans</unclear> seu <sic>carificans</sic> ex acceptatione divina actualiter 
+              vel habitualiter quolibet meritum creaturae cum <unclear>causans</unclear> partialiter. Probatur primo quod sit habitus supernaturaliter 
+              infusus, patet 
+              <ref>
+                <seg><title>extra</title> de haereticis in clementinis.</seg>
+                <bibl>Extra, XXX</bibl>
+              </ref> 
+              Secundo quod sit a Deo mentem etc. patet quia Deus 
+              est vita animae ergo actuat eam in esse <unclear>sper?li</unclear> et agere. Consequentia bona. Antecedens est 
+              <ref>
+                <seg><name ref="#GregoryGreat">Gregorius</name> <title>Super Ezechialem</title> 
+                  <pb ed="#L" n="53r"/> 
+                  parte 2a omelia 5a.</seg>
+                <bibl>Gregorius Magnus, Super Ezechialem</bibl>
+              </ref> 
+              Tertio, quod carificet mentem. Patet ex verbo Christi 
+              <cit>
+                <quote ana="#io10_27">ego cognosco oves <unclear>?</unclear> eas</quote>
+                <bibl>Ioannes 10:27</bibl>
+              </cit> 
+              vel 
+              <cit>
+                <quote ana="#io13_18">ego scio quod elegerim.</quote>
+                <bibl>Ioannes 13:18</bibl>
+              </cit> 
+              Item <ref><title ref="#io">Iohannis</title> 13</ref> 
+              <cit>
+                <quote ana="#io13_1">in finem dilexit eos,</quote>
+                <bibl>Ioannes 13:1</bibl>
+              </cit> 
+              sed quod caritas 
+              <unclear>carismet</unclear> Deum menti patet per <ref><name ref="#Augustine">Augustinum</name> in <title ref="#MoralsOfCatholicChurch">Moribus ecclesiae</title> capitulo 14</ref> 
+              <cit>
+                <quote>per caritatem inquit 
+                  fit ut formemur Deo.</quote>
+                <bibl>Augustinus, Moribus Ecclesiae, c. 14</bibl>
+              </cit> 
+              Item <ref><title ref="#deDoctrinaChristiana">de doctrina christiana</title></ref> 
+              <cit>
+                <quote ana="#Augustine_DeDoctrinaChristiana_3_10_a">caritatem vocat motum 
+                  animi</quote>
+                <bibl>Augustinus, De Doctrina Christiana, 3, 10</bibl>
+              </cit> 
+              Item <ref>libro <title ref="#Confessions">Confessionum</title></ref> 
+              <cit>
+                <quote ana="#Augustine_Confessionum_13_9_10_a">pondus meum amore meus es</quote>
+                <bibl>Augustinus, Confessionum, 13, 9, 10</bibl>
+              </cit> 
+              etc. Quarta pars patet <ref>supra.</ref></p> 
+            
+            <p xml:id="pgb1q16-pcsilg">Primum 
+              corollarium: stat caritatem actualiter mentem informare et eandem mentem non actualiter 
+              inclinare contra 
+              <ref>
+                <seg><name ref="#HugolinoOfOrvieto">hugolino</name> distinctione 17 vel 14.</seg>
+                <bibl>Hugolinus, XXX</bibl>
+              </ref> 
+              Patet caritas creata non inclinat nisi moto 
+              Spiritu Sancto cum sit eius instrumentum etiam secundum ipsum unde dicit quod in opere meritorio caritas 
+              increata <unclear>unuficat</unclear> inclinat et operatur sed potentia seu voluntas solum operatur et Spiritus Sanctus non 
+              movet actualiter nisi quando vult mentem operari ut patet <ref><title ref="#ez">Ezekiel</title> primo</ref> ubi dicit 
+              <cit>
+                <quote ana="#ez1_12">ubi erat 
+                  spiritus impetus illuc <sic>gradiebatur</sic>.</quote>
+                <bibl>Ezekiel 1:12</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e387">Secundum corollarium: habens caritatis habitum non potest exire 
+              in actum proprium nisi Spiritus Sanctus actuet et moveat creatum arbitrium. Patet per <ref><name ref="#Augustine">Augustinum</name> libro 
+              de verbis Deum sermone</ref> etc. ubi dicit quod 
+              <cit>
+                <quote>bonum quod facit hominem bonum non nisi Deus est <!-- unclear where quote is --> 
+                  non enim reddit hominem bonum nisi quid semper bonus est,</quote>
+                <bibl>Augustinus, XXX</bibl>
+              </cit> 
+              contra 
+              <ref>
+                <seg><name ref="#HenryOfGhent">Gandavensem</name>.</seg>
+                <bibl>Henricus Gandavensis, XXX</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e406">Tertium corollarium: caritas 
+              non solum efficit meritum quantum ad intentionem et gradum, sed etiam quantum ad substantiam et actum. Patet  
+              ex duabus ultimis <unclear>partibilis</unclear> conclusionis quas quid particulas cum corollario isto probat dictum <name ref="#Paul">Apostoli</name> superius 
+              allegatum pro argumento primo 
+              <cit>
+                <quote ana="#Icor15_10">laboravi</quote>
+                <bibl>I Ad Corinthios 15:10</bibl>
+              </cit> 
+              etc.</p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q16-d1e426">Secunda conclusio: actio vitae aeternae meritoria inquantum talis 
+              procedit formaliter et effective a gratia praedestinationis aeternalis. Probatur quia soli gratiae tali 
+              correspondet ratio divinae acceptationis cuiuscumque bonae operationis, ergo. Secundo, quia hoc sola reddit 
+              mentem dignam vita aeterna, ergo. Tertio, probatur per 
+              <ref>
+                <seg><name ref="#Augustine">Augustinum</name> libro <title>De haeresibus</title> capitulo 8</seg>
+                <bibl>Augustinus</bibl>
+              </ref> 
+              ubi ostendit 
+              quod per hanc solam potest quis adimplere divina mandata, ergo.</p> 
+            
+            <p xml:id="pgb1q16-d1e447">Primum corollarium: stat actum 
+              a Deo acceptari et nullum habitum infusum inesse menti, contra 
+              <ref>
+                <seg><name ref="#Scotus">Scotum</name> in hac distinctione 17 
+                  quaestione 2</seg>
+                <bibl>Scotus, I, d. 17, q. 2</bibl>
+              </ref> 
+              quia sola gratia praedestinationis est medium conveniens faciens actum bonum 
+              esse Deo acceptum et vitae aeternae esse meritorium ut dicit conclusio.</p>
+            
+            <p xml:id="pgb1q16-d1e462">Secundum corollarium: licet omnis 
+              actus meritorius producatur libere a creata voluntate, tamen actum esse meritorium non est 
+              impuri hominis potestate, quia non est in potestate eius quod talis sit Deo acceptus, ergo. 
+              Confirmatur quia tunc actus beatorum essent meritorii sicut viatorum. Patet consequentia quia omnem causalitatem 
+              quam habuit beatus in via respectu sui boni actus habet in patria, immo perfectius 
+              causat, ergo istud corollarium est contra <name ref="#Scotus">Scotum</name> ubi supra.</p>
+            
+            <p xml:id="pgb1q16-d1e487">Tertium corollarium: non stat aliquem de numero 
+              dampnandorum umquam fuisse meruisse praemium <unclear>salvandorum</unclear>. Patet quia nullus actus praesciti 
+              procedit a gratia praedestinationis, ergo nullus talis est aeternae vitae meritorius. Patet consequentia 
+              ex conclusione ex quo potest elici quod sicut impossibile est praescitum salvari, ita est impossibile 
+              est praescitum vitam aeternam meruisse seu mereri.</p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q16-d1e505">Tertia conclusio: amor personalis diem 
+              essentiae est forma vitalis creatae potentiae ipsam elevans et actuans in quolibet bene 
+              agere. Probatur per illud dictum <name ref="#Paul">Apostoli</name> 
+              <cit>
+                <quote ana="#rom5_5">caritas Dei diffusa est</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit> 
+              etc. 
+              quod exponit <name ref="#Augustine">Augustinus</name> 
+              de caritate increata. Item <title ref="#rom">Ad Romanos</title> 
+              <cit>
+                <quote ana="#rom8_16">ipse enim spiritus testimonium reddit spiritum 
+                  nostro quod Filii Dei sumus</quote>
+                <bibl>Romanos 8:16</bibl>
+              </cit> 
+              et ibidem 
+              <cit>
+                <quote ana="#rom8_14">qui spiritu dei aguntur hii filii dei sunt</quote>
+                <bibl>Romanos 8:14</bibl>
+              </cit> 
+              ubi 
+              <unclear>nominaliter</unclear> dicit 
+              <name ref="#Paul">Apostolus</name> spiritu et non per Spiritum Sanctum.</p>
+            
+            <p xml:id="pgb1q16-d1e545">Pro tertia quaestione sunt verba 
+              <ref><name ref="#Augustine">Augustini</name> XV <title ref="#deTrinitate">De Trinitate</title>, capitulo 5, de parvis</ref> 
+              <cit>
+                <quote>dilectio quae ex de et Deus est est proprie Spiritus Sanctus 
+                  <pb ed="#L" n="53v"/> 
+                  per quem diffunditur in cordibus nostris caritas per quam nos inhabitat tota caritas</quote>
+                <bibl>Augustinus, De Trinitate, XV, c. 5</bibl>
+              </cit> 
+              et 
+              plura ibi dicit ad propositu nostrum.</p>
+            
+            <p xml:id="pgb1q16-d1e566">Primum corollarium: aliquid esse formam alterius elicitive 
+              seu actuative et eidem non inesse constitutive inhaesive seu informative, contra 
+              <ref>
+                <seg><name ref="#FascinusOfAsti">Fastinum</name>libro 3, quaestione 2.</seg>
+                <bibl>Fastinus de Asti, III, q. 2</bibl>
+              </ref> 
+              Patet quia illud potest sibi communicari intrinsece repraesentative <unclear>exemplariter</unclear> immutative 
+              causaliter et elevative supernaturaliter probat deducit 
+              <ref>
+                <seg><name ref="#JamesViterbo">Dominus Iacobus de Viterbo</name> in suis <title>quodlibetis</title></seg>
+                <bibl>Iacobus de Viterbo, Qudodlibet, xxx</bibl>
+              </ref>
+            </p>
+            <p xml:id="pgb1q16-d1e591">Secundum corollarium: Spiritus Sanctus seu amore summus personalis est efficiens ratio formalis qua per quam 
+              propter quam elicitur actus ordinatae dilectionis, contra 
+              <ref>
+                <seg><name ref="#Rimini">Gregorium</name> in libro primo, distinctione 17, quaestione prima, articulo primo, circa finem.</seg>
+                <bibl>Gregorius Ariminiensis, I, d. 17, q. 1, a. 1, </bibl>
+              </ref> 
+              Patet quia aliter Spiritum Sancto non <unclear>actuante</unclear> formaliter intrinsece posset 
+              mens elevari sufficienter adesse gratuitum quod est falsum.</p>
+            
+            <p xml:id="pgb1q16-d1e609">Confirmatur quia Spiritus Sanctus <sic>intrinsecatur</sic> 
+              menti personaliter sine suis donis <unclear>interiatione[?]</unclear> tali quae sufficeret ad gratuitum 
+              esse patet ex dictis et prout ipse etiam concedit in 
+              <ref>
+                <seg>illa distinctione articulo 2o.</seg>
+                <bibl>XXX, I, d. 17, a. 2</bibl>
+              </ref> 
+              Item, si Spiritus Sanctus daretur menti creatae sine suis donis creatis incomplexionis, non aliter sibi 
+              uniretur tunc quam nunc, sed tunc mens diligeret Spiritu Sancto per Spiritum Sanctum et propter 
+              Spiritum Sanctum, ergo et nunc sicut diligit dato quod diligat ordinate antecedens patet per 
+              <ref>
+                <seg>eundum libro primo distinctio 14</seg>
+                <bibl>XXX, I, d. 14</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e639">Tertium corollarium: caritas creatat mentis in Deum elevativa est idem 
+              quod gratia mentis gratificativa, contra 
+              <ref>
+                <seg><name ref="#Aquinas">Sanctam Thomam</name> prima secundae, quaestione 2, articulo 3</seg>
+                <bibl>Thomas Aquinas, S.T., I-IIae, q. 2, a. 3 </bibl>
+              </ref>, et contra 
+              <ref>
+                <seg><name ref="#ThomasStrasbourg">Thomam de Argentis</name> distinctione 17 <unclear>primi</unclear>, quaestione prima, articulo 4.</seg>
+                <bibl>Thomas de Argentina, I, d. 17, q. 1, a. 4</bibl>
+              </ref> 
+              Patet corollarium quia tam <name ref="#Paul">Apostolus</name> quam <name ref="#Augustine">Augustinus</name> 
+              indifferenter unum ponunt pro alio et utuntur pro eiusdem in diversis locis. Confirmatur quia aliter 
+              staret esse mentem deo gratam et non caram vel econverso, quod non videtur possibile.</p>
+            
+            <p xml:id="pgb1q16-d1e671">Ex praedictis 
+              patet pars tituli affirmativa, scilicet quod amore personalis etc. Modo dicto est enim forma formans 
+              causans et elevans supernaturaliter mentem non tamen est forma inhaerens seu componens.</p>
+          </div>
+          <div>
+            <head>Obiectiones et responsiones</head>
+            <p xml:id="pgb1q16-d1e680">Contra primam conclusione et primum corollarium: caritas creata est pondus animae ut patet per dictam, sed pondus 
+              semper actualiter <unclear>praemit</unclear> et gravat illud cui <name ref="#Lombard">Magister</name>, ergo caritas semper actualiter movet 
+              et incinat potentiam in qua est ad bene agendum.</p>
+            
+            <p xml:id="pgb1q16-d1e695">Secundo, contra secundam corollarium: habens Spiritum Sanctum non indiget 
+              speciali motione Spiritus Sancti se habens caritatem habet Spiritum Sanctum, ergo. Maior nota. Minor 
+              probatur per illud <name ref="#Paul">Apostoli</name> 
+              <cit>
+                <quote ana="#rom5_5">gratia Dei seu caritas diffusa est</quote>
+                <bibl>Romanos 5:5</bibl>
+              </cit> 
+              etc</p>
+            
+            <p xml:id="pgb1q16-d1e710">Tertio, contra tertium corollarium: <unclear>si</unclear> caritas 
+              efficit actionem meritoriam cum voluntate vel posterius, et hoc non per 
+              <ref>
+                <seg><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> 5</seg>
+                <bibl>Anselmus, Monologion, 5, xxx</bibl>
+              </ref> 
+              ubi comparat gratiam sessori et voluntatem iumento vel prius. Et hoc non quia tunc habitus 
+              utentur potentia contra rationem habitus quia potentia debet uti habitu vel aeque primo producerent. Et hoc 
+              non cum sint partiales causae et aequivoce differentes specie, ergo caritas nullo modo concurrit 
+              effective. Patet haec consequentia sufficienti <unclear>divisione[?]</unclear></p>
+            
+            <p xml:id="pgb1q16-d1e737">Contra secundam conclusione et eius corollaria, sequeretur quod Deus haberet 
+              aliam volitionem secundum rationem de aliquo <unclear>oso</unclear> ipso in nullo <unclear>vari?to</unclear>. Consequens falsum et consequentia probatur 
+              quia peccator ante praemiam est indignus vita aeterna, ergo non est acceptus ad vitam 
+              aeternam et post poenitentiam est dignus et acceptus, ergo 
+              <app>
+                <lem>vel</lem>
+                <rdg wit="#L" type="corrAddition">
+                  <corr>
+                    <add place="aboveLine">vel</add>
+                  </corr>
+                </rdg>
+              </app> 
+              per aliquod inhaerens. Et si sic, haberetur 
+              contra conclusionem quia oportebit ponere formam creatam vel per nihil. Et si sic, haberetur consequentia probata quod 
+              nulla mutatione facta in mente Deus habebit respectu eius volitionem animam quam prius.</p>
+            
+            <p xml:id="pgb1q16-d1e771">Secundo,
+              si Deus acceptaret poenitentem ad vitam aeternam vel est velle <unclear>beatificante</unclear> voluntate 
+              beneplaciti pro tunc, et hoc non quia tunc statim beatificaret vel est velle istum secundum 
+              <pb ed="#L" n="54r"/> 
+              dispositionem quam nunc habet esse dignum tali praemio quali non voluit prius esse dignum 
+              sed talis diversitas non potest poni in divina voluntate nisi propter diversitatem creaturae 
+              vel propter alium et alium modum essendi creaturae.</p>
+            
+            <p xml:id="pgb1q16-d1e796">Tertio, volitio divina cum sit unus actus 
+              in se non habet rationem oppositorum actuum vel velle et nolle absque distinctione obiectorum, 
+              ergo cum Deus vellit iustificatum acceptare ad aliquid <unclear>quoddam</unclear> non vult peccatorem, 
+              sequitur quod haec distinctio voluntatis divinae necessario requirat distinctionem actualem ex parte obiectorum, 
+              ergo aliter se habet iustificatus quam non iustificatus et non nisi per gratiam creatam, ergo.</p>
+            
+            <p xml:id="pgb1q16-d1e818">Contra tertiam 
+              conclusionem quia illa videtur esse 
+              <ref>
+                <seg>opinio <name ref="#Lombard">Magistri</name> in hac distinctione 17</seg>
+                <bibl>Lombard, I, d. 17, xxx</bibl>
+              </ref> 
+              quae non tenetur ad quam 
+              plura inconvenientia sequuntur, nam ad hoc sequitur quod actus caritatis non erit meritorius, 
+              secundo quod non voluntarius, tertio quod non esset delectibilis, quarto quod actus sit Spiritus Sanctus, quinto quod homo 
+              mereretur ex puris naturalibus, sexto quod Spiritus Sanctus in actu dilectionis uniretur <unclear>suppositionaliter</unclear> 
+              naturae rationali quae omnia sunt falsa.</p>
+            
+            <p xml:id="pgb1q16-d1e846">Contra primum corollarium quia cum forma non sit remissius 
+              forma ei quod informat quam sit formam in sui natura, sequitur quod Spiritus Sanctus esset menti immensa 
+              et immensa forma, et per consequens immensa iustitia et sic <unclear>salus</unclear> Dei et hominis 
+              non erit alia et alia contra 
+              <ref>
+                <seg><name ref="#Augustine">Beatum Augustinum</name> <title>De quaestionibus novi et veteris testamenti</title></seg>
+                <bibl>Augustinus, De quaestionibus novi et veteris, xxx</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e866">Tertio, contra tertium corollarium: potest argui 
+              <ref>
+                <seg>ex dictis <name ref="#Rimini">Gregorii</name> ubi supra primo</seg>
+                <bibl>Gregorius Ariminiensis, XXX</bibl>
+              </ref> 
+              quia <name ref="#Paul">Apostolus</name> loquitur 
+              uniformiter de caritate et aliis habitibus.</p>
+            
+            <p xml:id="pgb1q16-d1e879">Secundo per 
+              <ref><name ref="#Augustine">Beatum Augustinum</name> <title>homelia supra canonica 
+              Iohannis</title></ref> exponentem illud 
+              <ref><title ref="#rom">Ad Romanos</title> 8</ref> 
+              <cit>
+                <quote ana="#rom8_26">ipse spiritus postulat pro nobis</quote>
+                <bibl>Romanos 8:26</bibl>
+              </cit> 
+              etc. quid inquit 
+              <name ref="#Augustine">augustinus</name> 
+              <cit>
+                <quote>ipse Spiritus Sanctus interpellat pro <unclear>sanctis[?] natura</unclear> ipsa caritas quae in te per Spiritum 
+                  Sanctum facta,</quote>
+                <bibl>Augustinus, XXX</bibl>
+              </cit> 
+              ergo illa caritas non est Spiritus Sanctus aliter diceretur factus quod est falsum.</p>
+            
+            <p xml:id="pgb1q16-d1e910">Contra tertium corollarium, substantia caritatis et gratiae sunt diversa, ergo sunt habitus distincti. Consequentia tenet et 
+              antecedens probatur quia immediatum subiectum gratiae est substantia animae subiectum vero caritatis creatae est 
+              voluntas, igitur. Haec est 
+              <ref>
+                <seg>ratio <name ref="#ThomasStrasbourg">Thomae de Argentis</name>.</seg>
+                <bibl>Thomas de Argentina, xxx</bibl>
+              </ref>
+            </p>
+            
+            <p xml:id="pgb1q16-d1e921">Ad primum, dicitur quod pondus semper actu vel habitu 
+              inclinat, et sic videtur <name ref="#Augustine">Augustinus</name> intellexisse dicens 
+              <cit>
+                <quote ana="#Augustine_Confessionum_13_9_10_a">eo feror quocumque feror</quote>
+                <bibl>Augustinus, Confessionum, XIII, 9, 10</bibl>
+              </cit> 
+              eo feror nec est simile de ponderibus rerum naturalium gravium quia caritas est 
+              pondus supernaturale quod actualiter inclinat tantum quantum Spiritus Sanctus vult ipsam inclinare 
+              et agere.</p>
+            
+            <p xml:id="pgb1q16-d1e940">Ad secundum in maiori, dicitur quod Spiritus Sanctus potest haberi gratificative et habitualiter quasi non, 
+              tamen dico per modum habitus et potest haberi motive actualiter. Primo modo negatur maior. Secundo modo 
+              conceditur tota ratio quia de illa motione et habitione loquor in conclusione.</p>
+            
+            <p xml:id="pgb1q16-d1e950">Ad tertium, primo dicitur quod si 
+              talis actus consideratur ut actus, sic est principaliter a Deo et quasi aeque primo a gratia et voluntate. 
+              Si consideretur ut est liber, sic est primo a Deo, secundo a gratia, et tertio a voluntate. Si ut meritorius, 
+              sic dicit 
+              <ref>
+                <name ref="#HugolinoOfOrvieto">Hugolinus</name>
+                <bibl>Hugolinus, XXX</bibl>
+              </ref> quod nec gratia nec voluntas habent latitudinem aliquam effectivam respectu illius, 
+              sed 
+              <ref>
+                <seg><name ref="#Scotus">Scotus</name> in distinctione 17</seg>
+                <bibl>Scotus, I, d. 17</bibl>
+              </ref> 
+              dicit quod sic est principaliter a Deo, secundo a gratia, tertio a voluntate, sed <name ref="#Scotus">Scotus</name> 
+              in responsione praedicta <name ref="#HugolinoOfOrvieto">Hugolini</name> quam ponit 
+              <ref>
+                <seg>libro secundo circa distinctionem 27</seg>
+                <bibl>Scotus, II, d. 27 <!-- ??? --></bibl>
+              </ref> quia reputo illam bonam.</p>
+              
+            <p xml:id="pgb1q16-d1e982">Ad primum contra secundam conclusionem, dico quod omnes illae rationes tres fundantur super falso, scilicet quod 
+              praedestinatus existens in peccato mortali non sit Deo acceptus et postea sit acceptus 
+              quod non concedo. Immo dico quod praedestinatus quantumcumque peccator semper est et ab aeterno fuit 
+              acceptus Deo ad vitam aeternam habendam, et hoc etiam habet dicere 
+              <ref>
+                <name ref="#Scotus">Doctor Subtilis</name>
+                <bibl>Scotus, XXX</bibl>
+              </ref> 
+              contra quem ponuntur illa corollaria, ut patet in secunda quaestione sua gratia eandem distinctionem, ipse tamen in eadem distinctione 
+              ponit triplicem acceptationem. Prima est simplex complacentia qua Deus acceptat omnem rem 
+              possibilem vel futuram. Secunda est efficax et illa est qua vult rem esse in effectu et 
+              media necessario requisita ad eam et sic acceptat omne existens. Tertia est quaedam specialis 
+              acceptatio quae est ordinativa volitio ad votum ut consequatur aliquid maius et hoc completive 
+              et de hac loquitur non autem de aliis, ut patet ex suis dictis.</p>
+            
+            <p xml:id="pgb1q16-d1e1028">Ad primum contra tertiam 
+              conclusionem, dicitur quod secundum expositionem secundum quam communiter exponitur opinio <name ref="#Lombard">Magistri</name> illud est falsum quia conclusio 
+              mea non negat habitum creatum caritatis nec ponit Spiritum Sanctum est caritatem 
+              menti informative inhaerente sed intrinsece et actuative, utrum autem <name ref="#Lombard">Magister</name> 
+              habitum creatum negaverit dicit <name ref="#Scotus">Scotus</name>, etiam <name ref="#ThomasStrasbourg">Thomas de Argentia</name> quod non, sicut patet 
+              <ref>
+                <seg>distinctione 3a primi</seg>
+                <bibl>Scotus, XXX, I, d. 3; Thamas de Argentina, XXX, I, d. 3</bibl>
+              </ref> et 
+              <ref>
+                <seg>26 secundi libri.</seg>
+                <bibl>Scotus XXX,  II, d. 26; Thamas de Argentina, XXX,  II, d. 26</bibl>
+              </ref> 
+              Secundo, dico quod illa inconvenientia illata non sequuntur ex 
+              dictis <name ref="#Lombard">Magistri</name> probat de tribus <unclear>prius</unclear> ostendit 
+              <ref>
+                <seg><name ref="#GilesOfRome">aegidius noster</name> in hac distinctione, parte prima, quaestione secunda.</seg>
+                <bibl>Aegidius Romanos, I, d. 17, pars 1, q. 2</bibl>
+              </ref> 
+              de aliis tribus ostendit 
+              <ref>
+                <seg><name ref="#ThomasStrasbourg">Thomas de Argentia</name> in eadem distinctione, quaestione prima, <unclear>articulo</unclear></seg>
+                <bibl>Thomas de Argentina, I, d. 17, q. 1, a. XX</bibl>
+              </ref> 
+              ubi, vide eius 
+              responsiones et rationes probantes habitum caritatis <unclear>causatae</unclear> non esse in <unclear>veritate</unclear>.</p>
+            
+            <p xml:id="pgb1q16-d1e1091">Ad secundum dicitur 
+              quod antecedens est verum de forma constitutiva intrinseca vel informativa, non autem Spiritus Sanctus 
+              est taliter menti forma intrinseca quia Spiritus Sanctus non inhaeret menti. Et dico ultra quod per 
+              Spiritum Sanctum mens intrinsece non est iusta. Tertio dico quod potest concedi quod non est alia Dei 
+              salus et alia hominis salus, licet aliter sit Dei salus et aliter hominis.</p>
+            
+            <p xml:id="pgb1q16-d1e1108">Ad tertium, dico quod non 
+              semper <name ref="#Paul">Apostolus</name> loquitur conformiter, ut patet ex dictis <name ref="#Augustine">Augustini</name> in tertia conclusione addutis ad auctoritatem 
+              <name ref="#Augustine">Augustini</name> dicentis 
+              <cit>
+                <quote>quid est spiritus sanctus nisi ipsa caritas <unclear>vitae</unclear> per spiritum sanctum <unclear>focam</unclear>.</quote>
+                <bibl>Augustinus, xxx</bibl>
+              </cit> 
+              Dico primo quod 
+              auctoritas in forma est contra <name ref="#Rimini">Gregorium Nostrum</name> et pro <name ref="#Lombard">Magistro</name> quia <name ref="#Augustine">Augustinus</name> dicit 
+              <cit>
+                <quote>nihil est Spiritus Sanctus 
+                  nisi ipsa caritas vitae.</quote>
+                <bibl>Augustinus, XXX</bibl>
+              </cit>  
+              Secundo dico quod non dicit quod Spiritus Sanctus sit factus vel quod 
+              caritas sit facta simpliciter sed quod 
+              <app>
+                <lem>facta</lem>
+                <rdg wit="#L" type="corrReplace">
+                  <corr>
+                    <del>perfacta</del>
+                    <add>facta</add>
+                  </corr>
+                </rdg>
+              </app> 
+              est caritas vel quod Spiritus Sanctus factus 
+              est <unclear>in mente</unclear> quia incepit esse caritas <unclear>in mente</unclear> et incepit esse in mente 
+              sicut Deus incepit esse in mundo, tamen Deus numquam incepit esse multum ergo 
+              refert dicere Spiritus Sanctus est facta caritas et dicere caritas facta est in te 
+              vel Spiritus Sanctus factus est caritas in te quia secunda est vera et prima falsa.</p>
+            
+            <p xml:id="pgb1q16-d1e1180">Ad quartum, 
+              negatur antecedens quia voluntas non distinguitur ab essentia animae saltem realiter. Secundo dico quod consequentia 
+              non valet etiam apud <name ref="#ThomasStrasbourg">Thomam de Argentia</name> quia ipse habet concedere quod aliquod accidens potest habere 
+              plura <unclear>subiecta</unclear>, et tamen erunt unum numero quia secundum eum subiectum <unclear>immediatum</unclear> accidentium est 
+              ipsa quantitas et subiectum principale est <unclear>substantia</unclear>, et illa intellectus se distinguitur sic similiter posito 
+              quod voluntas distingueretur ab anima ad hoc voluntas potest esse subiectum immediatum gratiae et essentia 
+              animae subiectum principale et sic posset nuncupari utroque nomine. Ad rationes in oppositum patet ex dictis.</p>
+          </div>
+        </div>
+        <div>
+          <head>Conclusiones</head>
+          <p xml:id="pgb1q16-d1e1215">
+            <cit>
+            <quote>Iam nunc accedamus.</quote>
+            <bibl><ref type="commentary" target="http://scta.info/resource/pll1d17c1-d1e3477">Lombardus, I, d. 17, c. 1, n. 1</ref></bibl>
+          </cit> 
+            Prima conclusio: quod Spiritus Sanctus quid Deus est ac tertia intrinsece 
+            persona a Patre et Filio ac a se ipso temporaliter procedit seu mittitur fidelibus 
+            ac donatur.</p>
+          
+          <p xml:id="pgb1q16-d1e1226">Secunda conclusio: quod Spiritus Sanctus est amor seu caritas qua nos diligimus 
+            Deum et proximum quae caritas est ita in nobis ut faciat diligere <unclear>nos</unclear> 
+            Deum et proximum, tunc Spiritus Sanctus dicitur mitti vel dari nobis et qui diligit ipsam 
+            <pb ed="#L" n="55r"/> 
+            dilectionem qua diligit proximum diligit Deum quia ipsa dilectio Dei Spiritus Sanctus <unclear>est</unclear> 
+            ut probat auctoritatibus <name ref="#Augustine">Augustini</name>.</p> 
+          
+          <p xml:id="pgb1q16-d1e1245">Tertia conclusio: quod Spiritus Sanctus est amor <unclear>Patris <!--originally had "puris" --></unclear> et Filii quo 
+          se invicem amant et nos.</p> 
+          
+          <p xml:id="pgb1q16-d1e1251">Quarta conclusio: quod Deus dicitur spes nostra et <unclear>patiam</unclear> nostra 
+          non quod ipse Deus sit ista, sed quia ista sunt, non tamen Deus dicitur caritas <unclear>illo modo</unclear> 
+          qui ipse est caritas, ipsa potest ergo dici quod Deus seu Spiritus Sanctus est caritas 
+          qui diligimus Deum ut ille <unclear>ablativus</unclear> qua dicit habitudinem causae efficientis et formalis 
+          non perficientis et inhaerentis sed exemplantis et elevantis sequitur distinctionis huius secunda pars.</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
