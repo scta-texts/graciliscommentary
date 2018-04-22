@@ -1,0 +1,411 @@
+
+        %this tex file was auto produced from TEI by lombardpress-print on 2015-12-24T14:30:51.488-05:00 using the  file:/Users/JCWitt/Desktop/lombardpress-print/lbp-latex-critical.xsl 
+        \documentclass[twoside, openright]{article}
+        
+        % etex package is added to fix bug with eledmac package and mac-tex 2015
+        % See http://tex.stackexchange.com/questions/250615/error-when-compiling-with-tex-live-2015-eledmac-package
+        \usepackage{etex}
+        
+        %imakeidx must be loaded beore eledmac
+        \usepackage{imakeidx}
+        
+        \usepackage{eledmac}
+        \usepackage{titlesec}
+        \usepackage [english]{babel}
+        \usepackage [autostyle, english = american]{csquotes}
+        \usepackage{geometry}
+        \usepackage{fancyhdr}
+        \usepackage[letter, center, cam]{crop}
+        
+        
+        \geometry{paperheight=10in, paperwidth=7in, hmarginratio=3:2, inner=1.7in, outer=1.13in, bmargin=1in} 
+        
+        %fancyheading settings
+        \pagestyle{fancy}
+        
+        %section headings
+        \titleformat{\chapter}[display]
+        {\normalfont\huge}{}{20pt}{\Huge}
+      
+        %quotes settings
+        \MakeOuterQuote{"}
+        
+        %title settings
+        \titleformat{\section} {\normalfont\scshape}{\thesection}{1em}{}
+        \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+        \titleformat{\chapter} {\normalfont\Large\uppercase}{\thechapter}{50pt}{}
+        
+        
+        %eledmac settings
+        \foottwocol{B}
+        \linenummargin{outer}
+        \sidenotemargin{inner}
+        
+        %other settings
+        \linespread{1.1}
+        
+        %custom macros
+        \newcommand{\name}[1]{\textsc{#1}}
+        \newcommand{\worktitle}[1]{\textit{#1}}
+        
+        
+        \begin{document}
+        \fancyhead[RO]{Book I, Question 2}
+        \fancyhead[LO]{0.1.0}
+        \fancyhead[LE]{Peter Gracilis}
+        \chapter*{Book I, Question 2}
+        
+         
+        \beginnumbering
+         \section*{Librum I, Quaestio 2} 
+        \bigskip
+         \section*{ [Circa textum] } 
+        \pstart
+        \ledsidenote{\textbf{1}}
+         \edtext{\enquote{Veteris ac novae legis}}{\Afootnote{Lombard, Sententia, I (XXX)}} etc. Praemissio prooemio sequitur tractatus in quo \name{magister}\index[persons]{Peter Lombard} duo facit. Nam primo praemittit quaedam praeambula, secundo incipit tractanda. Secunda incipit in principio secundae distinctionis. Prima dividitur in tres partes principales; nam in prima, materias librorum per quasdam distinctiones ab invicem distinguit et separat; in secunda movet quasdam quaestiones et eas pertractat; in tertia ponit quasdam resumptiones et circa dicta epilogat. Secunda ibi \edtext{\enquote{cum autem homines.}}{\Afootnote{Lombardus, I, d. 1, xxx}} Tertia ibi: \edtext{\enquote{ergo ominum qua dicta sunt.}}{\Afootnote{Lombardus, I, d. 1, xxx}} Prima pars adhuc dividitur in duas, quia primo \name{Magister}\index[persons]{Peter Lombard} inquirit materias librorum divisive, secundo diffinitive. Secunda ibi: \edtext{\enquote{frui}}{\Afootnote{Lombardus, I, d. 1, xxx}} etc. Secunda pars principalis dividitur in tres secundum quod \name{Magister}\index[persons]{Peter Lombard} tres movet quaestiones. Prima utrum homo possit licite frui se; secunda, utrum Deus fruatur homine; tertia, utrum homo licite fruatur virtute. Secunda ibi \edtext{\enquote{ibi sed cum Deus.}}{\Afootnote{Lombardus, I, d. 1, xxx}} Tertia ibi \edtext{\enquote{hic considerandum est.}}{\Afootnote{Lombardus, I, d. 1, xxx}} Quaelibet harum partium dividitur in duas, \edtext{quia}{\Bfootnote{ ponit \textit{in textu} L n1}} movet quaestionem; secundo solvit seu ponit quaestionis solutionem. Partes patebunt. Tertia pars principalis epilogativa dividitur in \edtext{duas}{\Bfootnote{ duas \textit{corr. ex} tres L n2}} quia primo epilogat, secundo modum dicendorum insipiat et ad dicenda se continuat. Secunda ibi de quibus omnibus etc, et haec sit divisio in generali
+        \pend
+      
+        \bigskip
+         \section*{ [Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae, voluntatis vel sic: utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum] } 
+        \pstart
+        \ledsidenote{\textbf{2}}
+        Utrum aliquod suppositum procreatae entitatis sit fruibile obiectum ordinatae voluntatis, vel sic: utrum sicut voluntas creata est relatae dilectionis subiectum, sic sola Trinitas beata sit ordinatae fruitionis obiectum 
+        \pend
+     
+        \bigskip
+         \section*{ [Rationes principales] } 
+        \pstart
+        \ledsidenote{\textbf{3}}
+        Quod non, quia non solum voluntas est dilectionis subiectum ergo [etc.]. Antecedens probatur, quia dilectio est cognitio; sed cuiuslibet cognitionis creatae intellectus est subiectum, ergo [etc.]. Maior patet, quia non est maius inconveniens ponere dilectionem esse cognitionem quam dicere assensum esse apprehensionem. Tum quia, sequitur quod aliquis esset beatus et non videret Deum. Patet, quia, si sint duo actus, Deus posset unum sine alio conservare.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{4}}
+        Secundo non. Sola Trinitas est ordinatae fruitionis obiectum, ergo [etc.]. Probatur antecedens, tum quia, quaelibet creatura est infinite diligibilis, ergo et ordinatae fruibilis. Patet consequentia, quia, si non est fruibilis, ergo est tam diligibilis quod non plus diligibilis. Primum antecedens probatur per \edtext{\name{Hugolinum}\index[persons]{Hugolino of Orvieto} libro primo, conclusione tertia, articulo primo.}{\Afootnote{Hugolinus de Urbe Veteri, Sententia, I, d. 3, a. 1}} Item, ipsum probat \edtext{\name{Fascinus}\index[persons]{Fascinus of Asti} in suo primo,}{\Afootnote{Fascinus de Ast, Sententia, I, XXX}} quia Deus \edtext{[quamlibet]}{\Bfootnote{ quaelibet L n3}} creaturam diligit infinite.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{5}}
+        Tertio, si angelus \name{Satanae}\index[persons]{Satan} transformaret se in speciem lucis, creatura posset eo licite frui, ergo [etc.]. Antecedens patet \edtext{\name{Magistrum}\index[persons]{Peter Lombard} libro primo distinctione 30}{\Afootnote{Lombard, Sententia, I, d. 30 (XXX)}} et in \edtext{eandem secunda quaestione prima, }{\Afootnote{XXX}} ubi dicitur quod, in tali casu, credens Diabolum esse Christum licite posset adorare eum, nec talis error esset periculosus,
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{6}}
+        In oppositum est \edtext{\name{Magister}\index[persons]{Peter Lombard} in distinctione praesenti}{\Afootnote{Lombard, Sententia, I, d. 1, c. 2 (XXX)}} allegans  \name{Augustinum}\index[persons]{Augustinus}, primo \worktitle{De doctrina Christiana}\index[works]{De doctrina christiana} capitulo 20 \edtext{\enquote{res autem quae nos beatos faciunt et quibus fruendum est sunt Pater et Filius et Spiritus Sanctus.}}{\lemma{res \dots\ Sanctus.}\Afootnote{Augustinus, De doctrina Christiana, I, 5, 5 (XXX)}} 
+        \pend
+      
+        \bigskip
+         \section*{Prima conclusio} 
+        \pstart
+        \ledsidenote{\textbf{7}}
+        Prima conclusio de supposito: licet omnis dilectio dependeat causaliter a cognitione, tamen quaelibet obiecti apprehensio vel cognitio cum voluntatis libertate sufficit dilectionem causare. Prima probatur, quia, si non sequitur quod dilectio posset poni seu elici naturaliter a voluntate, seclusa omni cognitione. Consequens est falsum, \ledsidenote{L15v} quia tunc voluntas posset diligere in infinitum, contra \edtext{\name{Augustinum}\index[persons]{Augustinus} in libro XIII, 2, 10 \worktitle{De Trinitate}\index[works]{De Trinitate}.}{\Afootnote{Augustinus, De Trinitate, XIII, 2, 10 (XXX)}} Patet consequentia, quia, positis omnibus causis ad productionem ad productionem alicuius effectus requisitis omni alio secluso, talis effectus posset naturaliter poni in esse. Secunda pars probatur, quia, quia si sola obiecti cognitio etc., sequitur quod, stante iudicio vel apprehensione alicuius obiecti sub ratione \edtext{mali}{\Bfootnote{ mali \textit{corr. ex} boni L n4}} seclusa omnia existentia vel apparentia bonitatis, voluntas posset tale obiectum velle vel diligere. Consequentia nota, sed consequens est contra \edtext{\name{Philosophum}\index[persons]{Aristotle}}{\Afootnote{Aristotle, Ethica, XXX}} et \edtext{\name{commentatorem}\index[persons]{Averroes} I \name{Ethicorum}\index[persons]{} }{\Afootnote{Averroes, XXX}} quia omnia bonum appetunt
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{8}}
+        Primum corollarium: quod nulla dilectio vel volitio est essentialiter cognitio vel formaliter apprehensio. Patet, quia causa et effectus distinguuntur essentialiter; et antecedens patet per conclusionem, quia dilectio causaliter dependet a cognitione et non in genere causae formalis, materialis, nec finalis, ergo efficientis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{9}}
+        Secundum corollarium: si dilectio respectu alicuius obiecti sit in voluntate, necesse est respectu eiusdem \edtext{[cognitionis]}{\Bfootnote{ cognitionem L n5}} in intellectu esse vel praefuisse, loquendo naturaliter et de communi lege. Patet conclusionem, quia effectus praesupponit suam causam.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{10}}
+        Tertium corollarium: si Deus potest vicem cuiuslibet causae secundae supplere, ipse potest in voluntate dilectionem causare.
+        \pend
+      
+        \bigskip
+         \section*{Secunda conclusio} 
+        \pstart
+        \ledsidenote{\textbf{11}}
+        Secunda conclusio: quam impossibile est entitatem creatam esse intrinsece bonitatis infinitae et illimitatae, tam est impossibile aliquam talem habere rationem intrinsecam diligibilitatis infinitae. Patet prima, quia sola natura increata est et esse potest bonitatis illimitatae intrinsece, ergo [etc.]. Patet antecedens per  \name{Augustinum}\index[persons]{Augustinus} \worktitle{Super \edtext{Psalmos}{\Bfootnote{ psalmos \textit{corr. ex} genese L n6}} }\index[works]{} 134  dicens quod \edtext{\enquote{solus deus est summe bonus cui nihil boni simpliciter de esse potest.}}{\lemma{solus \dots\ potest.}\Afootnote{Augustinus, Super Psalmos 134, XXX}} Confirmatur, quia aliter creatura posset esse independens. Secunda pars probatur, quia quodlibet creatum bonum est \edtext{insufficiens}{\Bfootnote{ insufficiens \textit{corr. ex} sufficiens L n7}} sibi et indigens alio bono; ergo nullum est infinite diligibile ex ratione sua intrinseca. Patet consequentia, quia non est intrinsece maioris diligibilitatis quam eius bonitas intrinseca.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{12}}
+        Primum corollarium: nullum diligens rem incomplexe ordinate debet latitudinem suae dilectionis extendere ultra valorem intrinsecum rei amatae. Patet [per] \edtext{\name{Augustinum}\index[persons]{Augustinus} IX \worktitle{De Trinitate}\index[works]{De Trinitate} capitulo 9}{\Afootnote{Augustinus, De Trinitate IX, c. 9}} ubi ostendit quod quanto res est minus bona quam Deus tanto minus est diligi debet; et concludit in fine quod quaelibet res, quae non est Deus debet infinite minus diligi quam Deus.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{13}}
+        Secundum corollarium: nullus diligens Deum minus quam creaturam entitate fruitur ipso, seu diligit ordinate.  Patet, quia aequalis perversitas est frui utendis et uti fruendis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{14}}
+        Tertium corollarium: quam repugnat aliquem Deo ordinate uti, tam repugnat creaturam iuste creaturae frui. Patet quia nulli creaturae correspondet tanta bonitas quanta bonitas est Dei, ergo [etc.]; nec tanta diligibilitas. Nota quod ista est probatio praecedentis corollarii. Sequitur corollarie omnis ponens  \enquote*{Deum esse} posse demonstrari habet ponere ipsum esse, quod super omnia debet amari. Patet ex \edtext{virtute}{\Bfootnote{de \textit{add. sed del.} L n8}} vocabuli; nam Deus est \edtext{\enquote{id quod melius cogitari non potest}}{\Afootnote{Anselm, Prologion, XXX}} secundum regulam \name{Anselmi}\index[persons]{Anselm}; sed quanta est intrinseca bonitas rei, tanta est eius diligibilitas per dicta; igitur [etc.].
+        \pend
+      
+        \bigskip
+         \section*{Tertia conclusio} 
+        \pstart
+        \ledsidenote{\textbf{15}}
+        Tertia conclusio: sicut sola Trinitas increata est ordinatae fruitionis ratio obiectiva sic eadem sub unica ratione est creatae imaginis ad se fruendum motiva. Prima patet [per] \edtext{\name{Augustinum}\index[persons]{Augustinus} I \worktitle{De Doctrina Christiana}\index[works]{De doctrina christiana}}{\Afootnote{Augustinus, De Doctrina Christiana, I, XXX}} ubi prius allegatum. Item I \worktitle{Confessionum}\index[works]{Confessions} \edtext{\enquote{ad te domine nos fecisti et inquietum est cor nostrum donec requiescat in te.}}{\lemma{ad \dots\ te.}\Afootnote{Augustinus, Confessionum, I, 17, 27 (XXX)}} Confirmatur, quia nulla creatura sibi sufficit ad esse nec ad bene esse, ergo nec sufficit alteri, et sic in creatura non potest esse quietatio ultimata et finalis. Secunda pars probatur, quia, si non hoc esse quia \ledsidenote{L16r} moveret intellectum sub ratione veri  et voluntatem sub ratione boni; sed hoc non impedit, quia omnino est eadem ratio bonitatis et veritatis immense, sed Trinitas immensa non movet partes imaginis ad se fruendum, nisi sub ratione veritatis et bonitatis immense; igitur, unica ratione.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{16}}
+        Primum corollarium: sicut Trinitas increata sub unica ratione movet et ostendit se beatifice creaturae imagini, sic non stat creatam imaginem memoriam sine intellectiva beatifice elevari. Prima patet conclusionem. Secunda probatur. Tum quia est unica motio, tum quia motum seu receptivum est unum et idem, scilicet memorativa intellectiva potentia,  ut videtur sentire \edtext{\name{Augustinus}\index[persons]{Augustinus} IX \worktitle{De Trinitate}\index[works]{De Trinitate} capitulo tertio.}{\Afootnote{Augustinus, De Trinitate, IX, c. 3}} Per hoc, tamen, nolo asserere quin homo posset Deum intelligere clare et non diligere, quia forte stat quod videat clare et non diligat, sed non beatifice.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{17}}
+        Secundum corollarium: quam repugnat creatam imaginem beatifice frui persona divina sine essentia, tam repugnat ei frui essentia et non qualibet perfectione sua intrinseca. Probatur, quia omnis perfectio divina est formaliter et realiter persona et essentia et econverso.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{18}}
+        Tertium: corollarium sicut Beata Trinitas intensius et remissius ad sui fruitivam perceptionem immutat vitaliter, sic quodlibet obiectum vitaliter perceptivum ad sui perceptionem concurrit causaliter.  Prima pars probatur, quia libere movet potentiam creatam et totam sui perceptionem libere efficit, cum sit agere ad extra. Ex quo posset inferri quod, licet causa totalis et univoca genus speciei non possit excedere, tamen partialis et aequivoca ultra perfectionem naturae proprie potest efficere. Prima patet in multis locis philosophiae. Secunda [patet] per dicta, quia res materialis seu obiectum, causaliter concurrit ad cognitionem, quae est immaterialis Ex dictis sequitur pars affirmativa quaestionis.
+        \pend
+      
+        \bigskip
+         \section*{Obiectiones et responsiones} 
+        \pstart
+        \ledsidenote{\textbf{19}}
+        Contra primam conclusionem et eius corollaria arguitur, quia aliqua volitio et dilectio formaliter est cognitio. Ergo antecedens probatur, quia, si destrueretur in mente cognitio, remanente dilectione respectu obiecti dilecti, quaeritur autem [utrum] per talem dilectionem obiectum cognosceretur aut non. Si sic, habetur propositum; si non, sequitur quod in cognitum diligit, [quod est] \edtext{contra \name{Augustinum}\index[persons]{Augustinus}.}{\Afootnote{Augustinus, XXX}} Item, ad hoc est prima ratio principalis facta ad oppositum quaestionis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{20}}
+        Secundo, ubicumque est unitas obiecti moventis sub unica ratione, ibi est unitas actuum; sed in operatione intellectus et voluntatis, saltem in fruitione patriae est unitas obiecti moventis sub unica ratione; ergo ibi est unitas  actuum et per consequens cognitio et dilectio, sive diligere et cognoscere, erit idem actus non plurificatus. Minor patet [per] secundam partem tertiae conclusionis. Maior patet [per] \edtext{\name{Philosophum}\index[persons]{Aristotle} II \worktitle{De anima}\index[works]{de Anima}}{\Afootnote{Aristotle, De anima, II, XXX}} 
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{21}}
+        Contra secundam conclusionem  et eius corollaria, arguitur primo: quaelibet creatura licite potest infinite plus diligi quam nunc diligitur, igitur [etc.]
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{22}}
+        Secundo, quia Deus et omnis multitudo creata sunt bonitas infinite diligibilis et diligibilis infinite, et non sunt Deus sed aliud a Deo, ergo aliud a Deo est fruendum ordinate.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{23}}
+        Tertio, Deus diligit quamlibet  rem infinite et immense, ergo quaelibet res est diligibilis infinite. Antecedens patet quia Deus diligit tantum et taliter qualiter ipse est, cum suum diligere et sua dilectio et suus modus diligendi sint  idem cum ipso realiter qui est infinitus et infinite.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{24}}
+        Quarto, contra secundam corollarium, homo fruens  licite \ledsidenote{L16v} potest frui in proximum quam in Deum, ergo licite plus diligere. Consequentia patet, cum sit in aliud frui, sit diligere. Antecedens patet, quia quis licite potest plus et fruens  plorare mortem amici quam mortem Christi, et plus temporalia dampnata quam peccata commissa.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{25}}
+        Contra tertiam conclusionem arguitur primo sic. Cuiuslibet creaturae rationalis potentiae receptiva est finita et limitata; ergo aliqua limitata bonitas potest eam beatificare et finaliter quietare. Antecedens probatur, quia nulla creatura est maior perceptibilitas seu capacitas quam entitas.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{26}}
+        Contra idem, secundo [arguitur]: Deus solum beatificat finite quamlibet creaturam beatam, ergo bonitas finita potest influxum eius obiectivum in perceptione creaturae supplere. Consequentia patet, quia omni finito dato potest dari aliud finitum aequale vel melius in perfectione.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{27}}
+        Contra secundam partem eiusdem conclusionis: obiectum intellectus et voluntatis non \edtext{[possit]}{\Bfootnote{ possunt L n9}} movere sub eadem ratione, ergo [etc.]. Antecedens probatur, quia obiectum intellectus est intelligible ut intelligibile obiectum vero voluntatis volibile ut sic; sed illa differunt ratione quod probatur primo quia aliquis potest hodie esse volens et intelligens unum et cras intelligere idem sed non velle.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{28}}
+        Secundo, Deus hodie intelligit hominem quem non vult diligere et heri ipsum intellexit et dilexit, sed illa diversitas non est in Deo, ergo in rationibus obiectalibus.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{29}}
+        Tertio, Deus malum culpae intelligit et tamen non vult ipsum, ergo [etc.].
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{30}}
+        Contra eadem partem, secundo arguitur principaliter sic: sequitur quod quaelibet  pars imaginis sit elicitiva fruitionis. Consequens est falsum, quia fruitio est actus solius voluntatis, cum sit dilectio seu diligere aliquam rem propter se ipsam. Consequentia patet, quia, si una non elicit, ergo una movetur ad eliciendum et alia non; ergo non unica ratione movet quamlibet illarum, quod est oppositum illius partis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{31}}
+        Ad primum potest negari primo antecedens, et ad probationem dicitur quod, si remaneret dilectio sine notitia, quod tunc vel Deus supplet vicem notitiae, ut dicebatur in uno corollario,  vel illud diligeret mediante cognitione ostensiva praecedente.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{32}}
+        Secundo, potest dici quod, licet dilectio possit esse quaedam  experimentalis notitia seu perceptio, non tamen potest esse nostra cognitio intellectiva, seu iudicativa, vel indicativa, et per hoc potest solvi prima ratio in oppositum quaestionis, negando antecedens; et ad eius primam probationem dicitur quod non est inconveniens ponere assensum esse apprehensionem, quia ad intellectum pertinet assentire et apprehendere; sed dicere dilectionem esse cognitionem saltim indicativam est inconveniens.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{33}}
+        Ad secundam probationem dicitur quod nullus potest esse perfecte beatus nisi Deum videat. Ideo, negatur consequentia, \edtext{sicut dicit \name{Magister Honofrius}\index[persons]{}.}{\Afootnote{Honofrius, XXX}} De hoc vide \edtext{\name{Gregorium}\index[persons]{Gregory of Rimini}, libro primo, distinctione prima, articulo secundo, quaestione secunda.}{\Afootnote{Gregory Ariminiensis, Sent., I, d. 1, a. 2, q. 2}} 
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{34}}
+        Ad secundum diceret \edtext{\name{Alphonsus}\index[persons]{Alonso Vargas of Toledo}, libro primo, distinctio prima,}{\Afootnote{Alphonsus Vargas, Sent., I, d. 1}} negando minorem, quia tenet quod in fruitione patriae anima non se habet active sed pure passive.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{35}}
+        Secundo posset dici quod, licet proprie loquendo una potentia moveatur causaliter effective ad eliciendum actum, tamen haec  motio non est formalis et obiectiva, sed solum est ad percipiendum modo. Hic loquor de motione formali perceptiva et obiectali, et non de alia.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{36}}
+        Tertio posset dici quod quaelibet potentia beatificalis in illa unica ratione habet, seu potest sumi, proprium  obiectum reperire, quia eius motio obiectalis est libere praesentativam, quod non est in aliis obiectis quae naturaliter se obiciunt et movent.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{37}}
+        Ad tertium, primo diceret \edtext{\name{Hugolinus}\index[persons]{Hugolino of Orvieto}, distinctione prima primi [libri], quaestione tertia.}{\Afootnote{Hugolinus de Urbe Veteri, Sent., I, d. 1, q. 3}} Concedo antecedens sic quod ab infinitis voluntatibus plus potest in infinitum diligi, sed non ab una voluntate; vide ibi. Aliter dicitur negando \ledsidenote{L17r} hanc consequentiam \enquote*{haec creatura est infinite diligibilis, ergo est fruibilis,} nisi addatur ex valore intrinseco rei.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{38}}
+        Ad quartum conceditur antecedens sic intelligendo quod nihil aliud a Deo, Deum non includens, vel cuius Deus non est pars, est diligibile infinite. Modo, illa multitudo includit Deum per positum. Secundo dici potest quod illa multitudo est diligibilis pluribus dilectionibus quam Deus, sed non plus intensive, seu plura bona debet homo velle tali multitudini quam Dei, non tamen maius bonum; sic posset dici quod Christus est plus diligendus quam Pater, id est pluribus modis, quia passus pro nobis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{39}}
+        Ad quintum posset negari antecedens. Secundo, posset negari haec consequentia \enquote*{quaelibet res est diligibilis infinite ex idem intrinseca, ergo est fruibilis,} quia requireretur quod ratione suae intrinsecae bonitatis esset intrinsece infinite diligibilis. Item, posset dici quod, licet sit diligibilis infinite, non tamen est diligibilis infinite.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{40}}
+        Ad aliud, dicitur quod \enquote*{aliquid frui} dicitur \edtext{[tripliciter]}{\Bfootnote{ dupliciter L n10}} Primo modo, cordiali affectu; secundo, corporali effectu; tertio, sensuali conatu. Sed secundo et tertio modis sumendo \enquote*{frui}, conceditur antecedens et negatur consequentia.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{41}}
+        Ad aliud, contra tertiam conclusionem, diceret \name{Thomas de Argentina}\index[persons]{Thomas of Strasbourg} quod anima est infinitae capacitatis potentia obiectali non naturali; vide \edtext{quaestionem tertiam  prologi, articulo primo.}{\Afootnote{Thomas de Argentina, Sent., I, prologus, q. 3}} Aliter posset dici quod anima est infinitae capacitatis et infinitae perceptivitatis, licet non sit potentia perceptiva infinita nec infinite; et posset negari consequentia. \edtext{\name{Clienton}\index[persons]{Richard of Kilvington}, quaestione tertia}{\Afootnote{Richard Kilvington, Sent., I, q. 3}} dicit quod capacitas animae est finita substantia, sed est capacitas infinita, et sic \edtext{[negaretur]}{\Bfootnote{ negaret L n11}} antecedens rationis. Nota, rationes quasdam idem solvit.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{42}}
+        Ad aliud respondeo  quod Deus posset creare unum obiectum ita delectabile quod, si Deus relinqueret animam naturae suae, tantum delectaretur in eo sicut in Deo; et tamen non sequitur quod talis anima satiaretur vel beatificaretur in illo obiecto creato, quia, licet tantum delectaretur cum hoc, tamen staret quod potius vellet illam delectationem habere de Deo quam quam de obiecto creato.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{43}}
+        Sed contra istam responsionem arguitur, quia aut talis potest velle ita libenter habere delectionem de creatura sicut de creatore, aut non; si primum, ergo satiatur in illo creato bono, [quod est] contra dicta. Si secundum, ergo non aequaliter, nec tantum delectatur in uno sic in alio, cuius oppositum concedit casus.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{44}}
+        Item, creatura magis inclinatur ad se quam ad Deum, ergo Deus non est finis ultimus ad quem creatura movetur. Antecedens patet, quia, si creatura diligit Deum, hoc est ut bene sit, sibi bene quidquid appetit est pro sui conservatione in esse et in bene esse.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{45}}
+        Item, creatura rationalis est in potentia obiectiali ad quietandum in illo in quo Deus vult eam quietari; ergo finaliter potest quietari in bono creato. Tenet consequentia, quia Deus potest hoc velle et ordinate; tum secundo, quia Deus potest suspendere motionem suam quam creatura movetur ad quietandum in Deum.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{46}}
+        Concedo aliter dicitur quod nullum bonum citra Deum animam potest satiare et beatificare [et] eam quietare quia nullum bonum citra Deum potest causare delectionem de illo genere quae foret quietativa; ideo, secundum hanc rationem, quae est \edtext{\name{Hugolini}\index[persons]{Hugolino of Orvieto}, distinctione prima primi, quaestione tertia, circa finem,}{\Afootnote{Hugolinus de Urbe Veteri, Sent. I, d. 1, q. 3 (XXX)}} posset negari consequentia.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{47}}
+        Item, notandum quod, licet creatura nequeat quietari finaliter in bono creato, tamen potest credere quod sit quietata. Patet, quia posset habere aliquod creatum diligibile sic quod credet esse ultimum appetible; tamen decipitur propter malos actus.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{48}}
+        Item, stat aliquem nescire Deum esse et capere pro fine ultimo aliquod bonum temporale, et \ledsidenote{L17v} tunc voluntas quietatur in illo et decipitur.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{49}}
+        Ultimo, posset dici quod Deus potest creare aliquod bonum in quo anima potest tantum delectari et quietari, prout li \enquote*{tantum} dicit gradum vel latitudinem individui in specie et non speciei in genere.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{50}}
+        Ad aliud contra secundam partem dicitur quod potest distingui, quia vel talis diversitas rationis respicit motionem consurgentem ex subiecto et praedicamento, et sic non est contra conclusionem, vel respicit praecise obiectum, et sic negatur antecedens; et ad probationem \enquote*{quia obiectum,} etc. conceditur, et, cum additur \enquote*{sed illa differunt ratione,} conceditur in creaturis, immo etiam differunt re, sed non in Deo; ideo non habetur contra conclusionem, quia in Deo sunt omnino idem.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{51}}
+        Ad aliam probationem, negatur consequentia, licet forte concludat quod non est eadem ratio volendi et intelligendi, sed non arguit distinctionem inter intelligibile et volibile.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{52}}
+        Ad aliam probationem, primo posset negari consequentia et antecedens concedi. Secundo posset concedi consequens, quia solum differentiam in creaturis arguit.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{53}}
+        Ad aliam probationem potest dici quod sicut malum culpae, ut est deformitas, non habet rationem intelligibilitatis sicut nec volibilitatis, et sic privatio non cognoscitur proprie nisi per habitum, sic nec peccatum nisi ut est quemdam boni privatio. Nota \edtext{\name{Fascinum}\index[persons]{Fascinus of Asti} in secundo,}{\Afootnote{Fascinus de Asti, XXX}} ubi de hoc ponit exemplum, dicens quod homo scit se privari floreno non nisi quia in mente sua habet speciem floris super quem reflectitur sua imaginario et sic [in] mente specie tali causatur iudicium de carentia floreni; sic dicit ultra quod Deus cognoscit peccatum non esse in \name{Sorte}\index[persons]{Sortes}, nec fore, quia sic quod gratiam sine discontinuatione habebit.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{54}}
+        Ad aliud, primo posset concedi consequens extendendo elicere ad causaliter efficere, quia tunc fruitio includit actum intellectus et sic fruitio non est tantum actus voluntatis, sed etiam intellectus. Alio modo potest negari consequentia, sumendo fruitionem stricte prout praecise dicit actum voluntatis, tenendo rationem ex parte obiecti moventis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{55}}
+        Ad ultimam rationem in oppositum, primo dicerent \edtext{\name{Bradwardinus}\index[persons]{Thomas Bradwardine}}{\Afootnote{Bradwardinus, XXX}} et \edtext{\name{Holcot}\index[persons]{Robert Holcot}}{\Afootnote{Holcot, XXX}} quod talis frueretur creatura sed excusaretur propter invincibilem errorem et ignorantiam absolutam. Secundo diceret \name{Magister Hugolinus}\index[persons]{Hugolino of Orvieto} quod talis non diligeret creaturam sed Deum, et ideo excusaretur potissime, si in talem errorem non incidisset ex sua culpa.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{56}}
+        Tertio, diceret \edtext{\name{Magister Iohannes Klenkot}\index[persons]{John Klenkok}}{\Afootnote{Iohannes Klenkot, XXX}} quod talis excusaretur a tanto, non a toto, quia vel talis est in peccato originali, vel non; si primum, tunc error ille est peccati pena, nec excusatur; si non, sed est in veniali, adhuc in penampoenam peccati venialis Deus iuste potest aliquem permittere in mortali cadere, et sic non iterum excusatur, quia non est verisimile quod aliquis sine quacumque culpa permittatur a Deo sic errare.
+        \pend
+       
+        \bigskip
+         \section*{Conclusiones pro distinctione prima} 
+        \pstart
+        \ledsidenote{\textbf{57}}
+         \edtext{\enquote{Veteris ac novae legis}}{\Afootnote{Lombard, Sent. I, d. 1}} etc. Haec prima distinctio continet decem conclusiones. Prima [est] quod tractatus sacrae paginae sive continentia veteris ac novae legis, versatur praecise circa res et signa, et vocat haec res quae non exhibentur ad significandum aliquid; signum vero dicitur quod ad aliquid significandi exhibetur. Signorum etiam quaedam sunt quibus non utimur nisi gratia significandi aliquid, ut sunt sacramenta legalia quaedam, quae non solum significant, sed etiam ferunt quia intellectus adiuvant, sicut sacramenta evangelica, seu novae legis.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{58}}
+        Secunda conclusio [est] quod \edtext{in hoc libro \worktitle{Sententiarum}\index[works]{} primo de rebus postea de signis \name{magister}\index[persons]{Peter Lombard}}{\lemma{in \dots\ magister}\Afootnote{Lombard, Sententiarum I, d. 1, c. 1 (xxx)}} determinabit
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{59}}
+        Tertia conclusio [est] quod, \edtext{secundum \name{Augustinum}\index[persons]{Augustinus},}{\Afootnote{Augustine, XXX}} triplex est genus rerum. Nam quaedam sunt quibus fruendum est, ut Pater, \ledsidenote{L18r} Filius, et Spiritus Sanctus, Trinitas Increata; quaedam quibus est utendum, scilicet mundus et quae sunt in eo; quaedam quae fruuntur et utuntur, sicut nos et angeli sancti.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{60}}
+        Quarta conclusio [est] quod frui est amore inhaerere alicui rei propter se ipsam; uti vero est assumere aliquid in facultatem voluntatis, vel uti est illud quod venit in usum referre ad optinendi illud quo fruendum est.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{61}}
+        Quinta conclusio [est] quod \enquote*{aliquo frui} dicitur uti cum gaudio, non adhuc spei  sed iam rei; et sic omnis qui fruitur utitur, quia assumit aliquid in facultatem voluntatis sed non e converso.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{62}}
+        Sexta conclusio [est] quod frui perfecte, plene, et proprie est, ubi videbimus quo fruemur, scilicet in patria; in hac autem vita fruimur sed imperfecte.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{63}}
+        Septima conclusio [est] quod nullus se ipso debet frui, quia nullus debet se diligere propter se, sed propter illud quo fruendum est; unde \name{Paulus}\index[persons]{Paul, the Apostle} fruens \name{Philomene }\index[persons]{Philemon} in Domino potius Deo fruebatur quam homine.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{64}}
+        Octava conclusio [est] quod Deus diligit nos utendo nobis, non fruendo. Ille autem  usus quo  Deus nobis utitur, non ad suam, sed ad nostram refert utilitatem, et ad eius voluntatem tantum.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{65}}
+        Nona conclusio [est] quod virtutibus est bene utendum, non fruendum. Ipse autem virtutes et ceterae potentiae animae sunt per quas fruimur et utimur.
+        \pend
+     
+        \pstart
+        \ledsidenote{\textbf{66}}
+        Decima conclusio [est] quod prius est tractandum de rebus quibus est fruendum, id est de sancta ac individua Trinitate. Et est sententia huius distinctionis.
+        \pend
+      
+        \endnumbering
+        
+     
+        \end{document}
+    
