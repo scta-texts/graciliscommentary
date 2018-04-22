@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 24</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.12-dev-master">
+          <title>Librum I, Quaestio 24</title>
+          <date when="2015-11-22">November 22, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-11-22">November 22, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-12-22" who="#JW" status="draft" n="2015.01">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q24">
+        <head>Quaestio 24</head>
+        <div>
+          <head><supplied>Circa textum</supplied></head>
+          <p xml:id="pgb1q24-d1e3115">
+            <cit>
+              <quote>Praeterea considerandum est.</quote>
+              <bibl>Lombardus, I, d. 28, xxx</bibl>
+            </cit> 
+            Haec est distinctio 28 in qua postquam <name ref="#Lombard">Magister</name> 
+            tractavit de proprietatibus propriis, nunc tractare intendit de quibusdam aliis. 
+            Et in duas dividitur secundum duas proprietates quas ponit, primo ergo tractat 
+            de prima, et secundo de secunda ibi in principio distinctionis 29 
+            <cit>
+              <quote>praeterea aliud nomen.</quote>
+              <bibl>Lombardus, I, d. 29</bibl>
+            </cit> 
+            Prima pars in tres 
+            dividitur quia primo tractat de in geniti proprietate, secundo, de geniti conditione et tertio 
+            <app>
+              <lem><supplied>...</supplied></lem>
+              <rdg wit="#L" type="om."/> <!-- lacuna here; not sure yet how to encode this properly in critical text -->
+            </app> 
+            Secunda ibi 
+            <cit>
+              <quote>illud etiam taceri non oportet.</quote>
+              <bibl>Lombardus, XXX</bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote>sciendum quoque.</quote>
+              <bibl>Lombardus, XXX</bibl>
+            </cit>
+          </p>
+        
+          <p xml:id="pgb1q24-d1e3141">Secunda pars principalis in qua tractat <name ref="#Lombard">Magister</name> de 
+            secunda proprietate vel notione quae est activa spiratio dividitur in tres quia primo ostendit principii 
+            multiplicem acceptationem, secundo ponit circa hoc unam quaestionem vel suam intentionem et, 
+            tertio illius declarationem. Secunda ibi 
+            <cit>
+              <quote><unclear>omnium</unclear> ergo quae naturaliter sunt</quote>
+              <bibl>Lombardus, XXX</bibl>
+            </cit> 
+            3a ibi. <!-- seems to be missing incipit here --></p>
+        </div>
+        <div>
+          <head><supplied>Quaestio</supplied></head>
+          <div>
+            <head><supplied>Rationes principales</supplied></head>
+            <p xml:id="pgb1q24-d1e3157">Utrum pater dicens verbum suum 
+              <app>
+                <lem>aeternale</lem>
+                <rdg>
+                  <del>internale</del>
+                  <add place="aboveLine">aeternale</add>
+                </rdg>
+              </app> 
+              possit dici verbi principium 
+              internale; utrum suppositum dicens verbum aeternale dici potest verbi principium 
+              internale non impedibile.</p> 
+            
+            <p xml:id="pgb1q24-qnqvnf">Quod non quia, si esset aliquod verbum in divinis aut illud diceretur 
+              essentialiter aut relative non relative quia verbum est actus intellectus secundum sui manifestationem 
+              qui non dicitur relative. Tum secundo quia secundum 
+              <cit>
+                <quote><name ref="#Augustine">Augustinum</name> libro XV <title ref="#deTrinitate">De Trinitate</title> capitulo 19</quote>
+                <bibl>Augustinus, De Trinitate, XV, c. 19</bibl>
+              </cit> 
+              verbum est 
+              cum amore notitia sed notitia non dicitur relative sed essentialiter de qualibet persona, ergo nec 
+              debet dici quod verbum dicatur essentialiter quia secundum 
+              <ref>
+                <seg><name ref="#Augustine">Augustinum</name> libro praedicto, capitulo 17</seg>
+              </ref> 
+              in hac Trinitate 
+              non dicitur verbum nisi filius.</p>
+            
+            <p xml:id="pgb1q24-d1e3202">Secundo, principaliter sic plura sunt intelligere seu dicere in divinis, ergo 
+              plura sunt ibi verba vel nullum est ibi ponendum. Consequens est falsum. Et patet consequentia quia respectu 
+              cuiuslibet dicere est dare verbum. Antecedens patet per 
+              <ref><name ref="#Anselm">Anselmus</name> <title ref="#Monologion">Monologion</title> capitulo 62</ref> ubi dicit quod 
+              <cit>
+                <quote>quaelibet 
+                  persona se dicit.</quote>
+                <bibl>Anselmus, Monologion, c. 62, xxx</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q24-d1e3221">Tertio, in divinis nullum est principium probatio quia vel esset per respectum adintra 
+              vel adextra. Non primum quia principium et causa sunt idem ut habetur 
+              <ref>
+                <seg>IV et V <title ref="#Metaphysics">Metaphysicae</title></seg>
+                <bibl>Aristoteles, Metaphysicae</bibl>
+              </ref> 
+              sed 
+              nulla causa in divinis es ponenda per respectum adintra ergo nec quia aeque perfecte vel perfectius 
+              producitur adintra sicut adextra. Tum secundo quia tunc, sicut tria supposita res creatas 
+              producunt, sic tria principia res principitas principiarent quod est falsum. Et patet consequentia 
+              <pb ed="#L" n="74v"/> 
+              cum quodlibet illorum suppositorum sit principium respectu creabilium.</p>
+              
+            <p xml:id="pgb1q24-ioephp">In oppositum est 
+                <ref>
+                  <seg><name ref="#Lombard">Magister</name> 
+                    in his distinctionibus</seg>
+                  <bibl>Lombardus, I, d. XXX, c. xxx</bibl>
+                </ref> 
+                ubi allegat <name ref="#Augustine">Augustinum</name> pro hac parte.
+              </p>
+          </div>
+          <div>
+            <head><supplied>Prima conclusio</supplied></head>
+            
+            <p xml:id="pgb1q24-d1e3255">Prima conclusio: sicut Verbum seu 
+              Filius est ars omnipotentis operativa, sic est omnis veri notitia infallibilis declarativa. 
+              Prima pars est <ref><name ref="#Augustine">Augustini</name> VI <title ref="#deTrinitate">De Trinitate</title> capitulo ultimo</ref> 
+              dicentem 
+              <cit>
+                <quote>verbum <unclear>divinum</unclear> seu 
+                Filius Dei est ars <unclear>optimis</unclear> plena omnium rationum viventium.</quote>
+                <bibl>Augustinus, De Trinitate, VI, c. xxx</bibl>
+              </cit> 
+              Secunda pars patet per 
+              <ref>eundum <title ref="#deDiversisQuaestionibus">83 questiones</title> questione 63</ref> <unclear>questione 63 <!-- i thinks this repetition is a mistake; dbcheck and correct --></unclear> et <title ref="#HomiliesOnJohn">super iohannem</title> 
+              <cit>
+                <quote ana="#io1_1">in principio erat verbum</quote>
+                <bibl>Ioannes 1:1 <!-- dbcheck --></bibl>
+              </cit> 
+              dicens 
+              <cit>
+                <quote>in hoc 
+                loco verbum melius <unclear>interpretetur</unclear> quam ratione ut significetur ad patrem <unclear>regula</unclear> sed 
+                ad ista etiam quae per verbum facta sunt operativa potentia.</quote>
+              </cit> 
+              Item <ref>V <title ref="#deTrinitate">De Trinitate</title> 
+                capitulo 5</ref> 
+              <cit>
+                <quote>initium omnis operis verbum.</quote>
+                <bibl>Augustinus, De Trinitate, V, c. 5, xxx</bibl>
+              </cit>
+            </p>
+            
+            <p xml:id="pgb1q24-d1e3311">Primum corollarium: 
+              <app>
+                <lem>licet</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del>verbum</del>
+                  </corr>
+                </rdg>
+              </app> 
+              dicatur Pater omnia quae 
+              est et quae habet verbo communicare, tamen Pater nihil potest Filio seu ipsi verbo revelare. 
+              Prima patet per 
+              <ref><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> capitulo 15, de parvis</ref> 
+              dicentem 
+              <cit>
+                <quote>Filius non tantum habet 
+                de Patre ut sit Filius sed etiam omino ut sit.</quote>
+                <bibl>Augustinus, De Trinitate, V, c. 15, xxx</bibl>
+              </cit> 
+              Secunda patet quia revelare importat 
+              imperfectionem quia arguit nescientiam in illo cui fit revelatio, igitur non debet attribui 
+              divino verbo cum sit omnis veri ars et notitia declarativa.</p>
+            
+            <p xml:id="pgb1q24-d1e3340">Secundum corollarium: verbum 
+              aeternum et infallibile refertur realiter ad omne possibile seu factibile. Oppositum tenet 
+              <ref>
+                <seg><name ref="#Scotus">Scotus</name> distinctione 27, quaestione 3, circa finem.</seg>
+                <bibl>Scotus, I, d. 27, q. 3, xxx</bibl>
+              </ref> 
+              Patet corollarium per 
+              <ref><name ref="#Anselm">Anselmum</name>, <title ref="#Monologion">Monologion</title>, 33 capitulo</ref> ubi 
+              dicit 
+              <cit>
+                <quote>uno eodemque verbo dicit Deus Pater se ipsum et quaecumque facit</quote>
+                <bibl>Anselmus, Monologion, c. 33, xxx</bibl>
+              </cit> 
+              et 
+              <ref>34</ref> dicit 
+              <cit>
+                <quote>opus 
+                  quod sit secundum aliquam artem non solum quando fit verum antequam fiat et postquam dissolvitur 
+                  semper in ipsa arte non aliud quam quod est res ipsa.</quote>
+                <bibl>Anselmus, Monologion, c. 34, xxx</bibl>
+              </cit> 
+              Illud corollarium patet etiam ex dictis 
+              <ref>
+                <seg><name ref="#Aquinas">Sancti 
+                Thomae</name>, quaestione 4 <title ref="#Aquinas_deVeritate">De Veritate</title>, articulo 5</seg>
+                <bibl>Aquinas, De Veritate, q. 4, a. 5</bibl> <!-- unclear if a direct quote follows -->
+              </ref> 
+              ubi dicit hoc nomen verbum imponitur ad significandum 
+              aliquod absolutum cum aliquo respectu adiuncto, et infra verbum principaliter refertur 
+              ad Patrem, sed ex consequenti et quasi per accidens refertur ad creaturam, ergo.</p>
+            
+            <p xml:id="pgb1q24-d1e3391">Tertium corollarium: 
+              sicut omne intelligibile vel producibile est in patre impressum sic omne intelligibile est 
+              per verbum 
+              <app>
+                <lem>seu</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">ex</del>
+                  </corr>
+                </rdg>
+              </app> 
+              in verbo expressum. Patet quia non solum verbum aeternum exprimitur 
+              de essentia quasi de obiecto praesente paterno intellectui, sed etiam exprimitur de omnibus <unclear>intelligibus <!-- intelligentibus ?? --></unclear> 
+              sed omnia intelligibilia sunt in Patre unitive impresse, ergo de omni intelligibili 
+              verbum divinum exprimitur.</p>
+            
+            <p xml:id="pgb1q24-d1e3410">Ex dictis sequitur quod praeter divinum suppositionale nullum 
+              est verbum absolutum seu essentiale vel praeter suppositum filiale nullum est verbum 
+              divinale. Patet quia in Trinitate non dicitur verbum nisi Filius ut dicit 
+              <ref>
+                <seg><name ref="#Augustine">Augustinus</name> V <title ref="#deTrinitate">de trinitate</title> capitulo 
+                  27.</seg>
+                <bibl>Augustinus, De Trinitate, V, c. 27, xxx</bibl>
+              </ref>
+            </p>
+          </div>
+          <div>
+            <head><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q24-d1e3427">Secunda conclusio: verbum divinum est unicus terminus intellectionis <unclear>paterne</unclear> emanans ab 
+              ipso intelligente secundum actum manens intus et alterius et sui declarativus. Patet conclusio 
+              quia, si non esset unicus, sequitur primo quod paternus intellectus non se intellexisset quod est 
+              falsum. Secundo, sequitur quod talis terminus non foret productus de plena intellectus fecunditate 
+              et qualibet ab ea perfectione intrinsece quod est falsum. Tertio, sequitur quod talis potentia non esset 
+              summe actuata et quod talis actus intellectus intrinsece foret potentialis quod est 
+              falsum.</p>
+            
+            <p xml:id="pgb1q24-d1e3451">Primum corollarium: licet quidquid adextra producatur eodem verbo, dicatur tamen aliquod <c>a</c> 
+              verbo producitur quod a verbo non dicitur prima pars patet per <name ref="#Anselm">Anselmum</name> allegatum quia eodem verbo 
+              dicit Deus pater se ipsum et quaecumque facit. Secunda pars patet quia Spiritus Sanctus a verbo spirative 
+              producitur, et tamen Spiritus Sanctus non dicitur quia tunc esset verbum verbi contra 
+              <ref><name ref="#Augustinum">Augustinum</name> 
+                <title ref="#HomiliesOnJohn">Super Iohannem</title> in principio. <!-- in principio --></ref></p>
+            
+            <p xml:id="pgb1q24-d1e3477">Secundum corollarium: solus Pater verbum tam perfecte 
+              <app>
+                <lem>producit</lem>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">quam</del>
+                  </corr>
+                </rdg>
+              </app>  
+              <pb ed="#L" n="75r"/> 
+              seu exprimit quod omnem gradum similitudinis consubstantialis sibi imprimit vel sic verbum 
+              divinum suo dicenti tam similem existit quod omnem gradum similitudinis dissubstantialis 
+              excludit. Patet per 
+              <ref>
+                <seg><name ref="#Anselmum">Anselmum</name> <title ref="#Monologion">Monologion</title> 40</seg>
+                <bibl>Anselmus, Monologion, 40, xxx</bibl>
+              </ref> 
+              ubi ex pluribus dictis sic 
+              concludit verbum, ergo summum Patris sic est sibi simile ut nulla proles sic sit, 
+              scilicet omnino suo parenti similis.</p>
+            
+            <p xml:id="pgb1q24-d1e3507">Tertium corollarium: licet Pater amore producto sit diligens, 
+              non tamen Pater verbo producto seu genito est intelligens seu sapiens vel sic, licet 
+              Pater diligat se et alia amore producto, Tamen non intelligit vel sapit verbo 
+              genito. Prima patet per dicta et per 
+              <ref>
+                <seg><name ref="#Lombard">Magistrum</name></seg>
+                <bibl>Lombard, xx</bibl>
+              </ref> 
+              <unclear>quoniam<!--quin--></unclear> Pater et Filius diligunt se et nos 
+              Spiritu Sancto qui est amor spirative productus. Secunda patet quia Pater sapit sapientia 
+              formaliter ingenita non originata oppositum secundae partis huius tenet 
+              <ref>
+                <seg><name ref="#Scotus">Scotus</name> distinctione 27 primi, quaestione 
+                  tertia circa finem in solutione tertiae rationis.</seg>
+                <bibl>Scotus, I, d. 27, q. 3</bibl>
+              </ref>
+            </p>
+          </div>
+          <div>
+            <head><supplied>Tertia conclusio</supplied></head> 
+            <p xml:id="pgb1q24-d1e3537">Tertia conclusio: si tam proprie recipitur, scilicet pro illo ad 
+              quod aliud esse sequitur et principium illud esse dicitur quod per aliquid producitur, tunc de Patre respectu 
+              Filii in divinis principium admittitur et nomen respectu eiusdem excluditur. Prima pars patet quia 
+              Filius vere et realiter a Patre generaliter, ergo Filius a Patre producitur, ergo Pater principium 
+              Filii dicitur. Consequentia prima patet quia omnis genero est productio, et secunda consequentia patet per acceptationem principii 
+              positam in conclusione. Antecedens vero est catholicum.</p>
+            
+            <p xml:id="pgb1q24-d1e3554">Secunda pars probatur quia in divinis nihil prius aut 
+              posterius, ergo ibi nihil est ad quod sequitur aliud ergo nomen causae ibi non habet locum nisi respectu creabilium.</p>
+            
+            <p xml:id="pgb1q24-d1e3561">Primum corollarium: licet a tribus suppositis quodlibet creatum producatur, tamen actibus principiis 
+              increatis nullum productum procreatur paret <ref><name ref="#Lombard">magistrum</name> distinctione 29</ref> ubi dicit Pater, Filius, 
+              et Spiritus Sanctus non tria principia, sed unum principium omnium creaturarum quia de uno eodemque 
+              modo res principiant non enim alio modo res sunt a Patre aliter a Filio sed <unclear>penitus</unclear> 
+              eodem modo.</p>
+            
+            <p xml:id="pgb1q24-d1e3583">Secundum corollarium: non stat aliquid adextra per primi principii voluntatem immediate 
+              causari et divinam scientiam ad illud non terminari. Patet per quia sicut res per Dei voluntatem 
+              et potentiam producuntur, ita scientia diriguntur. Haec enim sunt aeterna fundamenta 
+              omnium creaturarum et principium primum ut dicit 
+              <ref>
+                <seg><name ref="#HughOfStVictor">Hugo</name> libro primo <title ref="#deSacramentis">De sacramentis</title>, parte 
+                  secunda, capitulo ultimo.</seg>
+                <bibl>Hugo de Sancto Victore, De sacramentis, I, pars 2, xxx</bibl>
+              </ref></p>
+            
+            <p xml:id="pgb1q24-d1e3602">Tertium corollarium: licet Deus Pater se solo nihil possit creare, potest tamen 
+              aliquid <unclear>principiare</unclear>. Prima patet quia quidquid ad extra est creabile a tribus divinis suppositis 
+              est producibile. Secunda pars patet quia Pater se solo Filium <unclear>principiat</unclear> per modum intellectionis, 
+              ergo.</p>
+            
+            <p xml:id="pgb1q24-d1e3612">Ex quibus omnibus, sequitur pars affirmativa conclusionis.</p>
+          </div>
+          <div>
+            <head><supplied>Obiectiones et responsiones</supplied></head>
+            <p xml:id="pgb1q24-d1e3616">Contra primam conclusionem, arguitur quia Filius est 
+              eo verbum quo Filius et eo Filius quo verbum, sed Filius ut Filius divinius non 
+              dicit potentiam operativam nec artem declarativam ergo nec verbum, et per consequens conclusio falsa.</p>
+            
+            <p xml:id="pgb1q24-d1e3624">Contra secundum corollarium, si verbum referretur ad creaturam et ad Patrem vel uno respectu 
+              seu eadem relatione vel diversis si 2m sequitur quod duo distincti <unclear>r?us</unclear> verbi ad patrem 
+              est actualis <unclear>r?us</unclear> vero quem habet ad possibilia est habitualis solum ergo</p>
+        
+            <p xml:id="pgb1q24-d1e3643">Tertio, contra tertium 
+              corollarium, si verbum exprimitur etc. vel ergo aeque primo exprimitur de divina essentia, 
+              sicut de aliis intelligentibus vel secundum prius et posterius. Si primum sequitur quo aeque primo divinus in<pb ed="#L" n="75v"/>tellectus 
+              beatifice intuetur pro obiecto quaecumque intellecta, sicut essentiam divinam quod non videtur 
+              verum si detur. Secundum, sequitur quod in divinis erit prioritas et posterioritas quod supra fuit 
+              negatum.</p>
+            
+            <p xml:id="pgb1q24-d1e3659">Quarto, contra sub corollarium arguitur sic ex dicto <name ref="#BasilOfCasarea">Basili</name> super illo verbo 
+              <ref><title ref="#hebr">Ad Hebraeos</title> primo</ref> 
+              <quote>
+                <quote ana="#hebr1_3">portans omnia verbo virtutis suae</quote>
+                <bibl>Hebraeos 1:3</bibl>
+              </quote> 
+              ubi dicit quod Spiritus Sanctus est verbum 
+              Filii.</p>
+            
+            <p xml:id="pgb1q24-d1e3676">Contra secundam conclusionem: arguitur per 
+              <ref><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologion</title> <sic>40<!-- I think actual is 48 --></sic></ref> dicentem quod 
+              <cit>
+                <quote ana="#Anselm_Monologion_48_a">rem cogitare cuius memoriam 
+                  habemus hoc est in mente eam dicere</quote>
+              </cit> 
+               sed in Deo sunt plura <unclear>dicere</unclear>, ergo plures sunt 
+              ibi termini intellectuales.</p>
+            
+            <p xml:id="pgb1q24-d1e3694">Secundo contra eandem et corollarium: illud est verbum interius manens quod per 
+              se, et primo significatur per verbum exterius, sed quidditas rei ut intellecta per verbum exterius 
+              significatur, ergo res intellecta est verbum interius, sed talis res non emanat ab intelligente 
+              <app>
+                <lem>ergo</lem>
+                <rdg wit="#L" type="corrAddition">
+                  <corr>
+                    <add place="marginRight">ergo</add>
+                  </corr>
+                </rdg>
+              </app>
+            </p>
+            
+            <p xml:id="pgb1q24-d1e3705">Tertio contra tertium corollarium, intellectio formaliter est in Patre, ergo et verbum, et per consequens intelligit 
+              intellectione genita quod est oppositum corollarii. Antecedens patet et probatur consequentia quia quam formaliter 
+              competit amor volitioni tam formaliter competit verbum intellectioni sed adintra 
+              volitio non est sine amore, ergo nec intellectio sine verbo genito.</p>
+            
+            <p xml:id="pgb1q24-d1e3716">Contra tertiam conclusionem, arguitur 
+              per 
+              <ref>
+                <seg><name ref="#JohnDamascenus">Damascenum</name> libro primo capitulo 2</seg>
+              </ref> 
+              ubi dicit quod 
+              <cit>
+                <quote>pater est causa filii ergo in divinis est nomen 
+                  causae concedendum.</quote>
+                <bibl>Ioannes Damascenus, De fide orthodoxa, c. 2, xxx</bibl>
+              </cit>
+            </p>
+        
+            <p xml:id="pgb1q24-d1e3732">Secundo, si nomen principii dicitur in divinis per <unclear>relatum</unclear> adextra et adintra 
+              vel ergo aeque primo vel non. Non primum quia tunc diceretur univoce adintra et adextra 
+              nec prius adintra quam adextra cum adintra notionaliter dicatur adextra vero essentialiter 
+              nec prius adextra quam adintra cum adintra dicatur aeternaliter.</p>
+            
+            <p xml:id="pgb1q24-d1e3747">Tertio contra corollarium, 
+              responsivum si Pater est principium verbi geniti et entis producti aut aequaliter est principium 
+              illorum aut aliter et aliter non aequaliter quia adextra est sic principium quod eam etiam entis 
+              procreati nec aliter et aliter quia tam creatura quam verbum procedunt per modum 
+              intellectus, ergo eodem modo. Consequentia tenet et antecedens patet quia creaturae procedunt a Deo sicut artificatum 
+              ab arte, sed hoc est per modum intellectus procedere.</p>
+            
+            <p xml:id="pgb1q24-d1e3764">Ad primum, dicitur quod Filius 
+              est ars Patris declarativa, licet non appareat in hoc nomine Filius. Unde <name ref="#Anselm">Anselmus</name> 
+              quando dicit 
+              <cit>
+                <quote>eo verbum quod Filius<!-- dbcheck --></quote>
+                <bibl>Anselmus, XXX</bibl>
+              </cit> 
+              et econverso vult dicere quod sicut in divinis ilius dicitur notionaliter 
+              ita verbum.</p>
+            
+            <p xml:id="pgb1q24-d1e3784">Ad secundum, dicitur quod eadem relatione refertur ad utrumque, non tamen sequitur quod creatura 
+              sit aeterna vel quod verbum divinum sit verbum creaturae sic quod creatura 
+              dicit ipsum verbum, sed potest dici verbum creaturae sic quia ipsa dicitur aeternaliter 
+              per ipsam. Secundo dico et est quasi id quod verbum divinum non debet dici verbum creaturae <unclear>active<!-- ae --></unclear> 
+              sic quod dicat ipsum sed bene passive eo quia creatura dicitur per ipsum.</p>
+            
+            <p xml:id="pgb1q24-d1e3803">Ad tertium, dicitur 
+              quod aeque primo quia in Patre est unica ratio intelligendi et essendi nec est ibi aliqua 
+              diversitas vel prioritas ex parte rei.</p>
+            
+            <p xml:id="pgb1q24-d1e3811">Ad quartum, dicitur quod <name ref="#BasilOfCasarea">Basilius</name> et alii Graecorum 
+              doctores usi sunt nomine verbi et imaginis pro omni eo quod procedit 
+              in divinis et sic Spiritus Sanctus potest dici verbum, sed tamen proprie nomen verbi dicitur solum de 
+              eo quod procedit ab intellectu, ideo <name ref="#BasilOfCasarea">Basilius</name> sint figurative et improprie ibi verbum.</p>
+            
+            <p xml:id="pgb1q24-d1e3828">Ad primum contra secundam conclusionem, dicitur quod non quodlibet dicere vel intelligere large loquendo habet 
+              termen ut supra patuit 
+              <ref>
+                <seg>distinctio 6.</seg>
+                <bibl>Lombardus, I, xxx</bibl>
+              </ref> 
+              Hoc etiam tenet <ref><name ref="#Scotus">Scotus</name>, libro primo, distinctio 32.</ref></p>
+            
+            <p xml:id="pgb1q24-d1e3843">Ad secundum, dicitur primo quod res intellecta non est verbum sed potius aliquod productum ex <unclear>intentione<!-- intellectione? --></unclear> 
+              quia verbum relinquitur in intellectu. Secundo dicitur quod nomina intellectum rei significant 
+              secundario.</p>
+            
+            <p xml:id="pgb1q24-d1e3863">Ad tertium, negatur consequentia, et ad probationem quando dicitur quia <unclear>ad intra <!-- compare other version of "adintra" --></unclear> non est volitio 
+              <pb ed="#L" n="76r"/> 
+              non est sine amore dicitur quod si li <mentioned>est</mentioned> sit copulativa vel nota originis et non formalitatis 
+              conceditur, et sic non est contra dicta. Secundo, dico quod sumendo large <mentioned>amorem</mentioned> concedi 
+              potest quod volitio est amor productus vel producens, non tamen oportet quod sit productus 
+              per illud id suppositum quod est amor. Unde Spiritus Sanctus est amor productus, non tamen 
+              per amorem quod personaliter est Spiritus Sanctus et est quod <unclear>dico<!-- compare with other instances of "distinctio" --></unclear> volitio in divinis.</p>
+            
+            <p xml:id="pgb1q24-d1e3888">Et si obicitur 
+              contra corollarium et responsionem quod sequitur plures esse sapientias in divinis quia Pater est sapiens 
+              sapientia non genita et Filius sapientia genita. Hic negatur consequentia quia non plus valet 
+              quam illa Deus est genitus et Deus est non genitus, ergo sunt plures dii. Patet quod haec 
+              non valet sic nec prima.</p>
+            
+            <p xml:id="pgb1q24-d1e3902">Ad primum contra tertiam conclusionem hic dicitur quod graeci utuntur aliter hoc 
+              nomine causa quam nos, ideo <name ref="#JohnDamascenus">Damascenus</name> loquitur ibi ad modum Graecorum.</p>
+            
+            <p xml:id="pgb1q24-d1e3911">Ad secundum, primo posset 
+              dici secundum 
+              <ref>
+                <seg><name ref="#ThomasStrasbourg">Thomam Argentia</name></seg>
+                <bibl>Thomas Argentia, XXX</bibl>
+              </ref> 
+              quod principium convenit Deo prius per comparationem et <unclear>relatum</unclear> adintra 
+              quam adextra quia emanatio divinarum personarum est ratio emanationis creaturarum 
+              et per consequens prior. Secundo, dicitur secundum eundem ibidem quod principium in divinis secundum 
+              <unclear>relatum[?]</unclear> creaturarum intrinsece et respectu creatorum extrinsece non dicitur univoce nec aequivoce, 
+              sed analogice tum quia <unclear>relatus[?]</unclear> quem habet adintra ponit aliquid reale sed <unclear>relatus</unclear> adextra 
+              non semper ponit aliquid reale. Tertio, dico quod non quodlibet essentiale semper est prius quodlibet notionali.</p>
+            
+            <p xml:id="pgb1q24-d1e3954">Ad tertium, dicitur quod non aequaliter nec eodem modo, et ad probationem negatur consequentia quia, licet emanatio 
+              utriusque sit secundum intellectum, non tamen secundum eandem rationem praecise nec eodem modo. Item 
+              posset dici quod creaturae emanant a Deo libere et per modi voluntatis verbum vero 
+              per modum intellectus.</p>
+            
+            <p xml:id="pgb1q24-d1e3965">Ad primum, dicitur in oppositum quod relative verbum dicitur et ad probationem 
+              bene conceditur illud assumptum, sed tamen illa non est completa et sufficiens ratio verbi, et 
+              ideo nihil concludit similiter dicitur ad <name ref="#Augustinum">Augustinum</name> quod ex scientia verbum gignitur, sed tamen non 
+              est praecisa ratio verbi.</p>
+            
+            <p xml:id="pgb1q24-d1e3980">Ad secundum, negatur consequentia quia non quodlibet dicere vel intelligere habet 
+              termen productum.</p>
+            
+            <p xml:id="pgb1q24-d1e3986">Ad teritum, negatur consequentia. Et cum ultra arguitur quod si esset principium 
+              per <unclear>relatum[?]</unclear> adextra etc., hoc negatur sed tantum unum est principium producens creaturam 
+              prout <name ref="#Lombard">Magister</name> docet in hac distinctione.</p>
+          </div>
+        </div>
+        <div>
+          <head><supplied>Conclusiones</supplied></head>
+          <p xml:id="pgb1q24-d1e4000">
+            <cit>
+              <quote>Praeterea considerandum est.</quote>
+              <bibl>Lombardus, I, d. 28, xxx</bibl>
+            </cit> 
+            Prima conclusio 28 distinctionis quod ingenitus relative dicitur de Patre et dicitur ingenitus secundum proprietatem 
+            generationis et dicitur relative quia non dicitur secundum substantiam quod enim relative pronunciatur non 
+            indicat substantiam, licet ergo genitus et ingenitus diversum sit, non tamen indicat diversam 
+            substantiam.</p>
+          
+          <p xml:id="pgb1q24-d1e4013">Secunda conclusio: quod Spiritus Sanctus potest dici non genitus, licet proprie non dicatur 
+            ingenitus quia ingenitus dicitur secundum notionem innascibilitatis et originis.</p>
+        
+          <p xml:id="pgb1q24-d1e4020">Tertia conclusio: 
+            <app>
+              <lem>quod</lem>
+              <rdg wit="#L" type="corrDeletion">
+                <corr>
+                  <del rend="strikethrough">spiritus 
+                    sanctus</del>
+                </corr>
+              </rdg> 
+            </app> 
+            <name ref="#Ambrose">Ambrosius</name> noluit beati isto termino ingenitus propter haereticos Arrianos 
+            sic etiam non oportet <unclear>subticere</unclear> quemdam propter <unclear>calumniatum</unclear> insidias.</p>
+          
+          <p xml:id="pgb1q24-d1e4041">Quarta, conclusio quod 
+            diversum est esse Patrem, et Filium, Spiritum Sanctum quia non ea notione Pater est Pater 
+            quam Filius est Filius vel Spiritus Sanctus est 
+            <app>
+              <lem>Spiritus</lem>
+              <rdg wit="#L" type="corrDeletion">
+                <corr>
+                  <del rend="strikethrough">est spiritus</del>
+                </corr>
+              </rdg>
+            </app> 
+            Sanctus.</p>
+        
+        <p xml:id="pgb1q24-d1e4053">Quinta conclusio: quod non est aliud Patrem 
+          esse et aliud Filium esse, licet aliud sit esse Patrem posito li <mentioned>patrem</mentioned> a parte <unclear>praedicati<!-- ? --></unclear> 
+          quia esset dicere quod aliud est quo Pater est et aliud quo Filius est quod est omnino falsum.</p>
+        
+        <p xml:id="pgb1q24-d1e4068">Sexta conclusio: licet 
+          diversum sit esse Patrem et esse Filium, non tamen est diversa substantia quia haec non secundum substantiam 
+          <pb ed="#L" n="76v"/> 
+          dicuntur sed secundum relationem quod tamen relatum non est accidens quia non est mutabile.</p>
+        
+        <p xml:id="pgb1q24-d1e4075">Septima conclusio: 
+          sicut solus Filius dicitur verbum et imago, ita etiam solus dicitur sapientia nata vel genita 
+          et in hoc quod dicitur nata intelligitur notio eadem quae nominatur quando dicitur verbum vel 
+          imago. Cum autem dicitur sapientia nominatur essentia non quod essentia sit nata sed intellectus 
+          est quod Filius sit genitus qui est essentia vel accipitur ibi essentia 
+          pro hypostasi, unde sapientia nata est hypostasis genita.</p>
+        
+        <p xml:id="pgb1q24-d1e4115">Octava conclusio quod imago quandoque relative 
+          dicitur sicut verbum et Filius quandoque essentiam significat, et tunc ad se dicitur et non relative et secundum 
+          hoc dicit 
+          <ref>
+            <seg><name ref="#HilaryOfPoitiers">Hilarius</name></seg>
+            <bibl>Hilarius de Poitiers, xxx</bibl>
+          </ref> quod homo fit ad communem imaginem trinitatis. Et haec de distinctione.</p>
+        
+        <p xml:id="pgb1q24-d1e4139">
+          <cit>
+            <quote>Est praeterea considerandum.</quote>
+            <bibl>Lombardus, I, d. 29</bibl>
+          </cit> 
+          Prima conclusio distinctionis 29 quod principium 
+          in divinis dicitur relative. Pater enim est principium non de principio Filius principium de principio et 
+          Spiritus Sanctus principium de utroque, scilicet de Patre et Filio.</p>
+        
+        <p xml:id="pgb1q24-d1e4149">Secunda conclusio: quod Pater dicitur principium 
+          totius deitatis se divinitatis non quod sit principium essentiae divinae sed quia est 
+          principium filii et Spiritus Sancti 
+          <app>
+            <lem>in</lem>
+            <rdg wit="#L" type="corrAddition">
+              <corr>
+                <add place="aboveLine">in</add>
+              </corr>
+            </rdg>
+          </app> 
+          quibus singulis est tota deitas seu tota essentia.</p> 
+          
+        <p xml:id="pgb1q24-d1e4161">Tertia conclusio: quod Pater est ab aeterno principium Filii et Pater et Filius non sunt duo principia, 
+          sed unum principium Spiritus Sancti, Pater enim non est paternitate principium Spiritus Sancti nec Filius 
+          filatione, sed Pater et Filius una et eadem notione sunt unum principium Spiritus Sancti 
+          et illa notio est activa<!-- double quotations around activa, not sure what this means. --> spiratio.</p>
+        
+        <p xml:id="pgb1q24-d1e4176">Quarta conclusio: quod licet Spiritus Sanctus sit ab aeterno seu 
+          aeternaliter, non tamen est principium ab aeterno quia non dicitur principium nisi respectu creaturarum 
+          quae non fuerunt ab aeterno.</p>
+        
+        <p xml:id="pgb1q24-d1e4184">Quinta conclusio: quod non solum Spiritus Sanctus est principium creaturarum, 
+          sed Pater et Filius, et hi tres non sunt tria principia, sed unum omnium creaturarum principium.</p>
+        
+        <p xml:id="pgb1q24-d1e4190">Sexta conclusio: quod Pater dicitur principium Filii quia genuit ipsum et Pater et Filius sunt unum Spiritus 
+          Sancti principium quia Spiritus Sanctus ab utroque procedit.</p>
+        
+        <p xml:id="pgb1q24-d1e4198">Septima conclusio: sicut Pater et Filius ad 
+          creaturam dicunt <!-- dicunt might be deleted --> relative unus creator unus dicens dicitur sic relative ad Spiritum Sanctum 
+          unum principium sunt vel dicuntur ad creaturam vero Pater, Filius et Spiritus Sanctus unum 
+          principium est sicut unus creator et unus dominus.</p>
+        
+        <p xml:id="pgb1q24-d1e4212">Octava conclusio: licet Filius sit principium de 
+          principio, tamen non est concedendum quod Filius habeat principium suae durationis quamvis 
+          habeat principium originis.</p>
+        
+        <p xml:id="pgb1q24-d1e4220">Nona conclusio: quod Pater et Filius eadem notione seu relatione 
+          dicuntur principium Spiritus Sancti, illius autem notionis quod ibi notat principium nomen non habemus 
+          nec est ipsa paternitas vel filiatio sed est quaedam notio quae est Patris et Filii 
+          qua ab aeterno Pater et Filius unum principium sunt sancti sequitur distinctio 30.</p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
