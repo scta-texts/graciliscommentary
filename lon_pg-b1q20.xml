@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 20 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.11-dev-master">
+          <title>Librum I, Quaestio 20 [London Transcription]</title>
+          <date when="2014-11-25">November 25, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-11-25">November 25, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-11-25" who="#JW" status="draft" n="2014.11">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q20">
+        <head>Quaestio 20 [London Transcription]</head>
+        <p xml:id="pgb1q20-d1e3115"><lb ed="#L"/><hi rend="dropCapThreLines">N</hi>unc postquam coaeternitatem haec distinctio 19 ad praecedentem continuatur 
+          <lb ed="#L"/>sic quia postquam <name ref="#Lombard">magister</name> determinavit de personarum <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> reali distinctione 
+          <lb ed="#L"/>ac duratione aeternali nunc incipit tractare de earum perfectione coaequali</p>
+        
+        <p xml:id="pgb1q20-d1e3134"><lb ed="#L"/><g ref="#pilcrow"/>Et dividitur in 3 quia primo ostendit in quibus consistit et penes quid attenditur earum aequalitas in 
+          <pb ed="#L" n="63v"/><lb ed="#L"/>generali 2o ostendit illa in quibus sunt aequales in speciali non de differentia reali 3o prosequitur 
+          <lb ed="#L"/>de uno quoque praedictorum in speciali 2a ibi cumque enumeratur ista quasi diversa etc 
+          <lb ed="#L"/>3a ibi quod autem aeternitate etc et haec est in generali divisio praesentis distinctionis</p>
+        
+        <p xml:id="pgb1q20-d1e3149"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum quodlibet divinum suppositum immense perfectum sit se ipso ab alio 
+          <lb ed="#L"/>quolibet infinite distinctum</p> 
+        
+        <p xml:id="pgb1q20-qnqnea">quod non quia nullum divinum suppositum est immense perfectum 
+          <lb ed="#L"/>quod patet quia sicut unum non est aliud sic perfectio unius non est perfectio alterius 
+          <lb ed="#L"/>quia tunc plures essent immensae perfectiones quarum una non esset alia</p>
+        
+        <p xml:id="pgb1q20-d1e3161"><g ref="#pilcrow"/>2o divina supposita 
+          <lb ed="#L"/>suis relatis <corr><del><unclear>de</unclear></del></corr> proprietatibus distinguitur a se invicem et a perfectionibus <sic>attributibus<!-- perhaps should be attributis --></sic> ergo non se 
+          <lb ed="#L"/>ipsis distinguitur tenet consequentia quia illae proprietates personales non sunt divina supposita ut videtur</p>
+        
+        <p xml:id="pgb1q20-d1e3179"><lb ed="#L"/><g ref="#pilcrow"/>3o divina supposita infinite modice distinguitur ergo tenet consequentia quia non videtur compossibile quod aliquid 
+          <lb ed="#L"/>sit infinite modice tale et infinite tale antecedens vero patet quia divina supposita distinguitur 
+          <lb ed="#L"/>distinctione reali personali quae est minima possibilis distinctio</p>
+        
+        <p xml:id="pgb1q20-d1e3188"><g ref="#pilcrow"/>In oppositum arguitur quia divina supposita 
+          <lb ed="#L"/>distinguitur sic quod nullo modo possunt esse idem suppositionaliter et non alia re a se ipsis igitur 
+          <lb ed="#L"/>consequentia tenet quia quantum <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> distinctioni repugnat tantum illa videntur distingui inter se prima 
+          <lb ed="#L"/>pars antecedentis patet quia quanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> deus est deus tanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> est tria supposita 
+          <lb ed="#L"/>divina 2a pars patet quia si sic sequeretur quod in essentia divina esset quaternitas consequens est falsum</p>
+        
+        <p xml:id="pgb1q20-d1e3219"><lb ed="#L"/><g ref="#pilcrow"/>prima conclusio quodlibet suppositum divinale est immense perfectum et alteri aequale probatio quia inter 
+          <lb ed="#L"/>divina supposita est summa <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> essentialis perfectionis <unclear>plurium</unclear> igitur tenet consequentia quia 
+          <lb ed="#L"/>plurium distinctorum summa essentialis <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> est illorum summa aequalitas antecedens probatur 
+          <lb ed="#L"/>quia maior <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> essentialis plurium quam sit <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> divinorum suppositorum <corr><add place="marginRight">non</add></corr> 
+          <lb ed="#L"/>potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice></p>
+        
+        <p xml:id="pgb1q20-d1e3270"><g ref="#pilcrow"/>primum corollarium licet nullius sit perfectionis esse suppositum determinatum 
+          <lb ed="#L"/>tamen immensae perfectionis est esse suppositum increatum prima patet quia si sic filius non haberet 
+          <lb ed="#L"/>omnem perfectionem patris nec econverso quod est falsum <g ref="#slash"/>secunda pars patet per conclusionem</p>
+        
+        <p xml:id="pgb1q20-d1e3280"><g ref="#pilcrow"/>2m corollarium nulla 
+          <lb ed="#L"/>res creata simplex vel composita potest esse tam aequalis alteri quam sunt aequalia 
+          <lb ed="#L"/>divina supposita patet quia nulla plura creata sunt tam idem quam sunt idem divina supposita</p>
+        
+        <p xml:id="pgb1q20-d1e3288"><g ref="#pilcrow"/>3m corollarium licet aequalitas seu <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> quorumlibet aequalium creatoris sit infinite 
+          <lb ed="#L"/>minor <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> <sic><choice><orig>ydemptitate</orig><reg>identitate</reg></choice></sic> divinorum suppositorum tamen non repugnat secundum aliquam de<lb ed="#L"/>nominationem 
+        unam tantum esse similitudinem similium compositorum prima patet quia aliter 
+          <lb ed="#L"/><choice><orig>ydemptitas</orig><reg>identitas</reg></choice> divinorum suppositorum non esset ydemptitas summa possibilis ex natura quod 
+          <lb ed="#L"/>est contra dicta 2a pars probatur quia de potentia dei absoluta eadem albedo posset duo 
+          <lb ed="#L"/>posset duo substantia distincta informare et per consequens illa reddere similia et alba de<lb ed="#L"/>nominare</p>
+        
+        <p xml:id="pgb1q20-d1e3330"><g ref="#pilcrow"/>2a conclusio sicut nullum divinum suppositum distinguitur a sua proprietate personali 
+          <lb ed="#L"/>sic nullum divinum suppositum distinguitur ab <choice><orig>alica</orig><reg>aliqua</reg></choice> perfectione essentiali seu attributali 
+          <lb ed="#L"/>prima probatur sumendo supposita cum inclusione originis et hoc patet per <name ref="#Jerome">Ieromum</name> in <title>ex<lb ed="#L"/>positione 
+        fidei catholicae</title> dicentem inpietatem sabelii declinantis tres personas 
+          <lb ed="#L"/>sub proprietate divinus et subdit non enim nomina tantum modo sed etiam nomen proprietatis 
+          <lb ed="#L"/>id est personas vel ut <name>graeci</name> exponunt <choice><orig>ypostases</orig><reg>hypostases</reg></choice> et subsistentias confi<lb ed="#L"/>temur 
+          ex quibus verbis patet conclusio et habentur haec verba infra <ref>distinctione 35 capitulo ultimo</ref> 
+          <lb ed="#L"/>2a pars probatur quia perfectio attributalis est ipsa met essentia in multiplici importata 
+          <pb ed="#L" n="64r"/><lb ed="#L"/>per terminem generaliter importantem perfectionem simpliciter communem creatori et creaturae secundum quam<lb ed="#L"/>dam 
+          <unclear>anologiam</unclear> ex notescentia creaturarum investigata in creatore sicut 
+          <lb ed="#L"/>est sapientia iustitia bonitas etc huiusmodi sed quodlibet divinum suppositum est formaliter 
+          <lb ed="#L"/>et realiter iustitia bonitas sapientia et huiusmodi ergo nullum divinum suppositum 
+          <lb ed="#L"/>distinguitur a perfectione attributali prima pars antecedentis patet per descriptionem attributi seu 
+          <lb ed="#L"/>perfectionis attributalis quae potest trahi ex dictis <name ref="#ThomasStrasbourg">thomae argentis</name> distinctione 
+          <lb ed="#L"/>6a primi quaestione prima articulo primo per hoc quod dicitur generaliter significans perfectionem simpliciter <g ref="#slash"/> <unclear>differunt</unclear> 
+          <lb ed="#L"/>a notionalibus quia licet patrem generare sit perfectionis simpliciter non tamen generaliter 
+          <lb ed="#L"/>quia esset perfectionis in filio vel spiritu sancto <g ref="#slash"/>per hoc quod dicitur deo et creaturae differunt 
+          <lb ed="#L"/>ab illis quae non sunt nec possunt esse creaturae convenientes sicut deitas im<lb ed="#L"/>mensitas 
+          etc per hoc autem quod dicitur secundum anologiam quamdam differunt ab hiis quae 
+          <lb ed="#L"/>sola fide credimus deo communire et ex solo libro arbitrio <choice><orig>deppendere</orig><reg>dependere</reg></choice> sicut esse 
+          <lb ed="#L"/>hominem esse natum esse passum etc</p>
+        
+        <p xml:id="pgb1q20-d1e3423"><g ref="#pilcrow"/>primum corollarium quod voluntas intellectus bonitas 
+          <lb ed="#L"/>et huius perfectiones attributales non sunt nec dicunt in deo distinctas formalitates 
+          <lb ed="#L"/>patet quia aliter esset processus infinitus informalibus quod est falsum patet consequentia quia si sa<lb ed="#L"/>pientia 
+          formaliter distinguitur a voluntate sit ergo illa formalitas <c>a</c><g ref="#dot"/> distincta et sequitur quod <c>a</c><g ref="#dot"/> 
+          <lb ed="#L"/>habeat aliam formalitatem et tunc quaeritur de illa aut illa distinguitur ut prius 
+          <lb ed="#L"/>et sic erit procedere in infinitum vel dabitur quod <choice><orig>alica</orig><reg>aliqua</reg></choice> distinguitur formaliter et non habebunt 
+          <lb ed="#L"/>diversas formalitates</p>
+        
+        <p xml:id="pgb1q20-d1e3454"><g ref="#pilcrow"/>2m corollarium omnes divinae perfectiones attributabiles inter 
+          <lb ed="#L"/>se formaliter sunt eaedem et simpliciter aequales patet</p>
+        
+        <p xml:id="pgb1q20-d1e3460"><g ref="#pilcrow"/>3m corollarium licet huiusmodi attributa 
+          <lb ed="#L"/>non plurificentur nec <unclear>distinguuntur</unclear> ex natura rei tamen distinctio <!-- compare with earlier instances of "dico" which look the same --> rationis inter illas habetur 
+          <lb ed="#L"/>seu sumitur operatione intellectus nostri prima patet ex dictis 2a probatur quia ex quo tales 
+          <lb ed="#L"/>perfectiones attributabiles in deo non distinguitur earum pluralitates non possent haberi 
+          <lb ed="#L"/>nisi per distinctas conceptiones earumdem acceptas ex creaturis in quibus aliud est 
+          <lb ed="#L"/>intelligere aliud velle etc sed tales compositiones et divisiones sunt nostri intellectus 
+          <lb ed="#L"/>operationes ergo</p>
+        
+        <p xml:id="pgb1q20-d1e3479"><g ref="#pilcrow"/>3a conclusio sicut aequalitas inter plura creata reperibilis aequalitati 
+          <lb ed="#L"/>divinorum suppositorum est proprie incomparabilis sic eorumdem divinorum suppositorum distinctio <!-- again compare with instances of "dico" above or in other files--> 
+          <lb ed="#L"/>personalis omni alteri distinctioni est improportionalis prima patet dicta quia nulla plura 
+          <lb ed="#L"/>creata sunt tam idem essentialiter quam haec supposita divina sunt idem essentialiter <g ref="#slash"/>2a pars 
+          <lb ed="#L"/>probatur tum quia illa distinctio personalis in linea distinctionum non est alicuius quantitatis cum sit 
+          <lb ed="#L"/>minima possibilis tum 2o quia nulla distinctio inter creata reperibiles est eiusdem rationis cum 
+          <lb ed="#L"/>ista igitur ipsa cuilibet est improportionalis alteri</p>
+        
+        <p xml:id="pgb1q20-d1e3500"><g ref="#pilcrow"/>primum corollarium sicut duo supposita 
+          <lb ed="#L"/>divina non sunt uno aliquid maius sic unum illorum non minus distinguitur ab uno 
+          <lb ed="#L"/>quam a reliquis duobus patet quia quodlibet distinguitur se ipso a quolibet alio</p>
+        
+        <p xml:id="pgb1q20-d1e3509"><g ref="#pilcrow"/>2m corollarium licet 
+          <lb ed="#L"/>inter quoslibet duos homines sit reperire proprie distinctionem personalem tamen non proprie 
+          <lb ed="#L"/>dicimus illam distinctionem distinctioni divinae <unclear>fore</unclear> maiorem minorem vel aequalem 
+          <lb ed="#L"/>patet quia sunt diversarum rationum et improportionales infinite <unclear>incompossibliter</unclear> quia infinite 
+          <lb ed="#L"/>est impossibile quod una persona sit alia non tamen infinite impossibile infinite differenter 
+          <pb ed="#L" n="64v"/><lb ed="#L"/>distinguitur ita quod persona distinguitur infinite incompossibiliter et distanter et tamen distinguitur indivisi<lb ed="#L"/>biliter 
+          quia minima distinctio possibilis est</p>
+        
+        <p xml:id="pgb1q20-d1e3533"><g ref="#pilcrow"/>3m corollarium est pars affirmativa <unclear>quaestionis</unclear> sumendo supposita 
+          <lb ed="#L"/>cum inclusione originis eorum</p>
+        
+        <p xml:id="pgb1q20-d1e3542"><g ref="#pilcrow"/>Contra primam conclusionem sequitur quod esset in divinis tria per<lb ed="#L"/>fecta 
+        summe consequens falsum quia tantum est unum summe perfectum consequentia patet quia quodlibet aequalium 
+          <lb ed="#L"/>ut aequale est alteri est <unclear cert="high">aliquod</unclear> perfectum sed suppositum divinum non est alteri aequale nisi <unclear cert="high">qua<lb ed="#L"/>tinus</unclear> 
+        est contra illud distinctum aliqualiter ergo quodlibet divinum suppositum ut ab alio distinctum erit 
+          <lb ed="#L"/>summe perfectum et sic erunt tria summe perfectam</p>
+        
+        <p xml:id="pgb1q20-d1e3560"><g ref="#pilcrow"/>2o sequitur quod erunt infinita in deo aequa<lb ed="#L"/>lia 
+        patet quia quaelibet perfectio attributalis erit alteri aequalis</p>
+        
+        <p xml:id="pgb1q20-d1e3566"><g ref="#pilcrow"/>3o contra 2m corollarium subiectum 
+          <lb ed="#L"/>et accidens eius sunt tantum una quantitate quantum ergo una quantitate quantum possunt esse aequalia 
+          <lb ed="#L"/>patet consequentia quia quantitas est secundum <corr><add place="belowLine">ae</add>quales</corr> vel inaequales esse dicimur secundum <name ref="#Aristotle">philosophum</name></p>
+        
+        <p xml:id="pgb1q20-d1e3581"><lb ed="#L"/><g ref="#pilcrow"/>4o contra 3m corollarium sequitur quod maior <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> esset filii et patris in divinis quam hominis 
+          <lb ed="#L"/>ad se ipsum consequens est falsum quia sicut verum est dicere<!-- compare this abbrev to other expansions to differe or differunt --> <name ref="#Plato">plato</name> est <name ref="#Plato">plato</name> sic verum foret 
+          <lb ed="#L"/>patrem esse filium quod non est dicendum sed probatur consequentia quia <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> hominis ad se 
+          <lb ed="#L"/>ipsum videtur esse <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> <unclear>plurium</unclear> quia homo est materia et forma suae quae sunt eius 
+          <lb ed="#L"/>partes et sunt plures</p>
+        
+        <p xml:id="pgb1q20-d1e3626"><g ref="#pilcrow"/>contra 2am conclusionem sequeretur quod pater una relatione et eadem referretur 
+          <lb ed="#L"/>ad filium et spiritum sanctum consequens est falsum quia tunc econverso filius et spiritus sanctus una relatione 
+          <lb ed="#L"/>referentur ad patrem et sic tantum esset una persona prima consequentia nota et 2a probatur quia impossibile 
+          <lb ed="#L"/>est quod unum et idem correspondeat duabus relationibus secundum speciem</p>
+        
+        <p xml:id="pgb1q20-d1e3636"><g ref="#pilcrow"/>2o contra primum corollarium 
+          <lb ed="#L"/>sapientia et iustitia formaliter distinguitur et ex rationibus eorum <unclear>formativus</unclear> in creaturis ergo 
+          <lb ed="#L"/>ubicumque inveniuntur earum formalitates ibi et distinctiones quia infinitas non tollit 
+          <lb ed="#L"/>distinctionem in re</p>
+        
+        <p xml:id="pgb1q20-d1e3649"><g ref="#pilcrow"/>3o contra 2m corollarium si attributa non esset distincta in deo sequitur quod potentia 
+          <lb ed="#L"/>iustitia bonitas et huiusmodi essent nomina <unclear>synomina</unclear> falsitas consequentis patet quia non idem 
+          <lb ed="#L"/>nec eodem modo videntur significare</p>
+        
+        <p xml:id="pgb1q20-d1e3660"><g ref="#pilcrow"/>4o contra 3m corollarium illa distinguitur quarum unum plurificatur 
+          <lb ed="#L"/>alio non plurificato sed essentia non plurificatur attributa vero sic alias <unclear>m?</unclear> intellectus <unclear>si<lb ed="#L"/>gnificeret</unclear> 
+          vel deciperetur antecedens patet nam alium conceptum habemus de iustitia alium de 
+          <lb ed="#L"/>bonitate alium de clementia</p>
+        
+        <p xml:id="pgb1q20-d1e3676"><g ref="#pilcrow"/>contra 3am conclusionem divina supposita distinguitur suis proprietatibus 
+          <lb ed="#L"/>ergo unum suppositum plures habet proprietates quam aliud ergo in <unclear>li?a</unclear> distinctionis certa quantitatis 
+          <lb ed="#L"/>huic distinctioni correspondet igitur una distinctio adintra est proportionalis vel comparabilis alteri distinctioni</p>
+        
+        <p xml:id="pgb1q20-d1e3687"><lb ed="#L"/><g ref="#pilcrow"/>2o cuilibet proprietati tantum correspondet de ratione <unclear>d?va</unclear> quantum ei correspondet de ratione entitativa 
+          <lb ed="#L"/>sed cuilibet proprietati divinae correspondet propria ratio entitativa ergo propria ratio <unclear>di?va</unclear> et per consequens 
+          <lb ed="#L"/>quaelibet proprietas addit propriam distinctionem super aliam</p>
+        
+        <p xml:id="pgb1q20-d1e3703"><g ref="#pilcrow"/>3o contra primum corollarium et primam conclusionem 
+          <lb ed="#L"/>si pater distinguitur se ipso a filio sequitur quod pater nullo sui convenit cum filio vel quod pater 
+          <lb ed="#L"/>non convenit <choice><orig>alico</orig><reg>aliquo</reg></choice> sui cum filio consequens est falsum quia tunc non esset summe unum et 
+          <lb ed="#L"/>idem essentialiter patet consequentia quia illa quae se ipsis distinguitur non convenit <choice><orig>alico</orig><reg>aliquo</reg></choice> sui</p>
+        
+        <p xml:id="pgb1q20-d1e3725"><g ref="#pilcrow"/>4o contra 
+          <lb ed="#L"/>corollarium responsivum divinae personae sunt summe simplices ita quod nec essentia est simplicior 
+          <lb ed="#L"/>personis nec aliqua proprietas cogitabilis in personis est simplicior quam persona ergo a quocumque<!-- compare this with "quoque"--> 
+          <lb ed="#L"/>talis persona distinguitur se ipsa ab illo distinguitur secluso quocumque alio ergo seclusa 
+          <lb ed="#L"/>origine distinguitur a se invicem divinae personae haec ratio est <ref><name ref="#Rimini">gregorii</name> distinctione 26 
+          <lb ed="#L"/>articulo primo quaestione 2a</ref></p>
+        
+        <p xml:id="pgb1q20-d1e3746"><g ref="#pilcrow"/>Ad primum negatur consequentia et ad probationem conceditur maior quia licet 
+          <pb ed="#L" n="65r"/><lb ed="#L"/>perfectione incomplexa quodlibet divinum suppositum sit immense perfectum non tamen sequitur quod sint tria 
+          <lb ed="#L"/>supposita perfecta <name ref="#HugolinoOfOrvieto">hugolinus</name> Aliter potest dici quod consequens est verum quia paciones <unclear>con?ae</unclear> 
+          <lb ed="#L"/>conveniunt tribus personis conveniunt per nomina adiectiva vel participia si 
+          <lb ed="#L"/>pure adiective tenentur semper <unclear>dnr[?]</unclear> de pluribus scilicet de tribus pluraliter et secundum illam 
+          <lb ed="#L"/>relatam possunt dici tres beati tres aeterni et sic de similibus <ref><name ref="#HenryOfGhent">henricus gandevensis</name> parte prima 
+          <lb ed="#L"/>articulo 49 quaestione 3a</ref></p>
+        
+        <p xml:id="pgb1q20-d1e3777"><g ref="#pilcrow"/>Ad 2m negatur consequentia et ad probationem dicitur quod inter attributa nullam est 
+          <lb ed="#L"/>distinctio ex natura rei ut patet ex 3o corollario 2ae conclusionis</p>
+        
+        <p xml:id="pgb1q20-d1e3783"><g ref="#pilcrow"/>Ad 4m primo posset negari antecedens quia 
+          <lb ed="#L"/>quodlibet illorum est quantitas vel propria quantitate quantum 2o posset dici quod ratio non est contra corollarium 
+          <lb ed="#L"/>quia quantitas non est de ratione essentiali ipsorum <unclear>quantorum</unclear></p>
+        
+        <p xml:id="pgb1q20-d1e3793"><g ref="#pilcrow"/>Ad 5m posset primo dici consequens 
+          <lb ed="#L"/>admittendo et cum ultra infertur ergo sicut est concedenda ista <name ref="#Plato">plato</name> est <name ref="#Plato">plato</name> etc negatur haec consequentia 
+          <lb ed="#L"/>2o et melius potest dici negando consequentiam primam quia <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> hominis ad se ipsum non 
+          <lb ed="#L"/>est proprie <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> plurium sed unius tantum hominis</p>
+        
+        <p xml:id="pgb1q20-d1e3823"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem conceditur consequens 
+          <lb ed="#L"/>et ad improbationem quia tunc filius et spiritus sanctus etc negatur consequentia quia sicut <name ref="#Sortes">sortes</name> eadem albedine numero 
+          <lb ed="#L"/>potest esse similis <name ref="#Plato">platoni</name> et dissimilis <name ref="#Cicero">ciceroni</name> sic unica relatio duabus relationibus co<lb ed="#L"/>rrespondere 
+        potest</p>
+        
+        <p xml:id="pgb1q20-d1e3843"><g ref="#pilcrow"/>Ad 2m negatur consequentia et ad probationem conceditur quod infinitas divina non tollit 
+          <lb ed="#L"/>distinctionem formalem attributorum simpliciter sed tollit distinctionem formalem in deo</p>
+        
+        <p xml:id="pgb1q20-d1e3849"><g ref="#pilcrow"/>Ad 3m 
+          <lb ed="#L"/>negatur consequentia ad probationem dicitur quod licet illa nomina penitus significent idem in divinis non tamen 
+          <lb ed="#L"/>significant idem in creaturis et ideo non dicuntur synomina quia synomina significant idem 
+          <lb ed="#L"/>penitus in quocumque significatum ipsorum reperiatur</p>
+        
+        <p xml:id="pgb1q20-d1e3859"><g ref="#pilcrow"/>Ad 4m negatur minor ad probationem dico <!-- compare this dico with other instances of "distinctio" --> quod sicut 
+          <lb ed="#L"/>essentia non plurificatur sic nec attributa plurificantur ex natura rei in deo licet per 
+          <lb ed="#L"/>diversos terminos exprimamus idem significatum et hoc est propter debilitatem nostri intellectus <!-- "debilitas intellectus" could be a subject key word under "intellectus" also visible in plaoul -->
+          <lb ed="#L"/>quia aliter capere nec intelligere potest</p>
+        
+        <p xml:id="pgb1q20-d1e3873"><g ref="#pilcrow"/>Ad primum contra 3am conclusionem conceditur maior sed negatur minor 
+          <lb ed="#L"/>quia si pater et generans filius est genitus et spiritus sanctus non genitus et sic de <unclear>singulis</unclear> 2o dicitur 
+          <lb ed="#L"/>quod non sunt plures proprietates incomplexe in uno quam in alio quia quodlibet suppositum 
+          <lb ed="#L"/>est sua proprietas loquendo intransitive <g ref="#slash"/>3o dato quod esset plures proprietates 
+          <lb ed="#L"/>complexe tamen quia consurgunt ex unica et prima ratione <unclear>d??va</unclear> ideo <choice><orig>nichil</orig><reg>nihil</reg></choice> addunt</p>
+        
+        <p xml:id="pgb1q20-d1e3900"><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>2m diceret <name ref="#HugolinoOfOrvieto">hugolinus</name> quod non est verum assumptum quia dicit in <ref>ista distinctione quaesitone prima 
+          <lb ed="#L"/>conclusione 4a</ref> quod quaelibet distinctio <!-- compare this "distinctio" to above "dico" --> in divinis est infinite modica et tamen est entitas infinite 
+          <lb ed="#L"/>magna <g ref="#slash"/>2o et aliter potest concedi illud assumptum scilicet quod tantum correspondet etc sed non 
+          <lb ed="#L"/>tantae et sic non valet illa consequentia distinctio inter patrem et filium est infinita ergo infinite distinguitur 
+          <lb ed="#L"/>nisi in sensu dato et expresso in corollario ultimo</p>
+        
+        <p xml:id="pgb1q20-d1e3926"><g ref="#pilcrow"/>Ad 3m dicitur quod debet intelligi se ipsis 
+          <lb ed="#L"/>distinguitur id est nulla alia entitate incomplexa si tamen consequens intelligitur quod pater non communi<lb ed="#L"/>ret 
+        in essentia cum filio negaretur quia utrique est essentia Item circa illud dicit <name ref="#HugolinoOfOrvieto">hugolinus</name> 
+          <lb ed="#L"/>quod personae divinae se ipsis in gradu distinctionis distinguitur cum quaelibet persona tota 
+          <lb ed="#L"/>sui entitate est essentialiter idem quod alia persona quia sunt summe unum essentialiter et 
+          <lb ed="#L"/>dicit ultra quod non <unclear>convenit</unclear> aliquo sui quasi <choice><orig>alica</orig><reg>aliqua</reg></choice> parte sed se totis essentialiter unum sunt</p>
+        
+        <p xml:id="pgb1q20-d1e3953"><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur primo quod illa pluralitas non repugnat simplicitati sicut nec multiplicitas 
+          <lb ed="#L"/>personarum simplicitati essentiae <g ref="#slash"/>2o posset dici quod corollarium non dicit quod absolute per<pb ed="#L" n="65v"/><lb ed="#L"/>sonae 
+        distinguuntur sed dicit quod non distinguuntur se ipsis sine inclusione originis ideo non 
+          <lb ed="#L"/>concludit ratio</p>
+        
+        <p xml:id="pgb1q20-d1e3967"><g ref="#pilcrow"/>Ad primam rationem in oppositum negatur consequentia quia una est perfectio trium personarum 
+          <lb ed="#L"/>in <unclear>plurficabilis</unclear> <g ref="#slash"/>et ad confirmationem quia perfectum dicitur quasi perfecte factum verum est secundum in 
+          <lb ed="#L"/>positionem nominis non autem secundum proprietatem significationis</p>
+        
+        <p xml:id="pgb1q20-d1e3980"><g ref="#pilcrow"/>Ad 2m patet ex conclusione quod 
+          <lb ed="#L"/>supposita divina sunt suae proprietates et perfectiones attributabiles</p>
+        
+        <p xml:id="pgb1q20-d1e3986">Ad 3m patet per 3am 
+          <lb ed="#L"/>conclusionem et corollaria qualiter et quanta sit distinctio divinorum suppositorum</p>
+        
+        <p xml:id="pgb1q20-d1e3991"><g ref="#pilcrow"/>nunc postquam 
+          <lb ed="#L"/>prima conclusio quod secundum fidem catholicam tres personae divinae sunt coaeternae atque co<lb ed="#L"/>aequales</p>
+        
+        <p xml:id="pgb1q20-d1e4000"><g ref="#pilcrow"/>2a conclusio quod nulla divinarum personarum aliam praecedit aeternitate aut excedit 
+          <lb ed="#L"/>magnitudine aut superat potestate</p> 
+        
+        <p xml:id="pgb1q20-tcqsei"><g ref="#slash"/>3a conclusio quod licet ista tria scilicet aeternitas magnitudo 
+          <lb ed="#L"/>potestas quasi diversa numerentur in deo tamen unum et idem sunt scilicet divina essentia simplex 
+          <lb ed="#L"/>et incommutabilis</p>
+        
+        <p xml:id="pgb1q20-d1e4012"><g ref="#pilcrow"/>4a conclusio quod pater non est maior filio nec pater et filius maiores 
+          <lb ed="#L"/>spiritu sancto nec maius aliquid duae personae sunt simul quam una necque tres maius 
+          <lb ed="#L"/>aliquid quam duae nec maior est essentia in duabus quam vel tribus quam in una quia tota est 
+          <lb ed="#L"/>in singulis</p>
+        
+        <p xml:id="pgb1q20-d1e4022"><g ref="#pilcrow"/>5a conclusio quod filius est in patre et pater in filio et spiritus sanctus in utroque et singuli 
+          <lb ed="#L"/>in singulis propter naturae divinae unitatem</p>
+        
+        <p xml:id="pgb1q20-d1e4028"><g ref="#pilcrow"/>6a conclusio quod nulla divinarum personarum trium 
+          <lb ed="#L"/>est pars divini esse vel divinae essentiae quia singula harum verus et plus deus est 
+          <lb ed="#L"/>et tota etiam plena essentia divina est et ideo nulla istarum in trinitate pars est</p>
+        
+        <p xml:id="pgb1q20-d1e4036"><g ref="#pilcrow"/>7a conclusio est 
+          <lb ed="#L"/>quod tres divinae personae dicuntur una essentia non secundum materialem causam ut tres 
+          <lb ed="#L"/>statuae dicuntur unum aurum nec secundum complexionis similitudinem ut tres hominis 
+          <lb ed="#L"/>dicuntur unus naturae vel sexus nec divina essentia praedicatur de divinis personis ut genus 
+          <lb ed="#L"/>de speciebus nec species de individuis nec ut continens de contentis nec ut 
+          <lb ed="#L"/>maius de <unclear cert="medium">numeribus</unclear></p>
+        
+        <p xml:id="pgb1q20-d1e4053">8a conclusio deus dicitur trinus seu trinitas non autem dicitur triplex 
+          <lb ed="#L"/>ibi enim non est triplicitas ubi summa est unitas et <unclear>indifferens</unclear> aequalitas 
+          <lb ed="#L"/>in rebus autem corporeis non tantum est una quantum sunt tres simul et plus sunt 
+          <lb ed="#L"/>duae res quam una in trinitate vero summa tantum est una persona quantum tres simul 
+          <lb ed="#L"/>et tantum duae quantum una et ipse infinite sunt quia non est finis magnitudinis earum</p>
+      </div>  
+    </body>
+  </text>
+</TEI>
