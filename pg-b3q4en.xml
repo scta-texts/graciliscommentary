@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book III, Question 4</title>
+        <author>Peter Gracilis</author>
+        <editor>Natalie Tsottles</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.01-dev-master">
+          <title>Book III, Question 4</title>
+          <date when="2014-01-27">January 27, 2013</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-01-27">January 27, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b3q4">
+        <head>Book 3, Question 4</head>
+        <div>
+          <head>Quaestio</head>
+        <p xml:id="pgb3q4-usfnev"><pb ed="#L" n="211v"/>Whether hope, faith, and love, which are required for final salvation, are really distinct gifts from the holy spirit and from one another?</p>
+        </div>
+        <div>
+          <head>Videtur quod non</head>
+          <div>
+            <head>Prima ratio</head>
+        <p>It seems that not because faith, hope, and love are not required for the salvation of any pilgrim, therefore. The antecedent is proved because if faith were required, this would only be the case because it is virtue and means of earning merit. But this is known to be false <!-- think about patet as "it is clear" --> false, since it is a habit of the intellect and to believe is an act of the will. Then secondly because Christ had all virtues, nevertheless he did not have faith, therefore faith is not a virtue.</p>
+        
+        <p>Secondly, it is argued about hope because, since hope according to Boethius is a consoling passion, it follows that it is not a virtue required for salvation.</p>
+        
+        <p>Thirdly, it is proven about love because love is not one virtue, therefore it is not a virtue. The consequence holds through Boethius saying, "All that exists therefore exists because it is one in number." The antecedent is proven because since love is the form of all virtues, it is necessary that it be multiplied according to the multiplication of all virtues.</p>
+          </div>
+          <div>
+            <head>Secunda ratio</head>
+        <p>Secondly, principally, it is the case that someone is saved without infused virtue, therefore. The antecedent is proven because some people being ignorant, from no fault of their own, of the law and Christ will be saved, nevertheless they do not have infused virtue, therefore. The assumption is clear because it happens that men of some sect<!-- is there a better word for this --> do whatever they can for God and believe themselves to be accomplishing<!-- find a better word --> obedience to God, indeed they suffer every type of hardship not just patiently but joyously on account of God. Therefore, despite the fact that they acted badly, nevertheless it seems like they are excused on account of unavoidable ignorance, and as a consequence, since no one is damned unless on account of guilt, it follows that they will be saved.</p>
+         </div>
+          <div>
+            <head>Tertia ratio</head>
+        <p>Thirdly, there are no gifts of the Holy Spirit, therefore these are not distinguished from the aforementioned virtues. The antecedent is proven because if this was the case either such gifts would be as many [in number] as there are gifts, or there would be one habit of all gifts, but <unclear>neither</unclear> are able to be allowed, therefore. Secondly, because moreover the habit of a gift would be the habit of charity, either lesser or greater and more perfect degree than [the habit of charity]. If it is the same, then it follows that the one having charity has all gifts, which is false because a newly baptized boy does not have the gift of knowledge, wisdom, or ideas. If the more perfect, it follows that charity is not the most excellent gift of God which is contrary to Augustine in the third book <title>De trinitate</title>, chapter 19. Nor can it be inferior, because gifts [of the Holy Spirit] are superior to the virtues themselves.</p>
+          </div>
+        </div>
+        <div>
+          <head>Ad oppositum</head>
+       
+          <p>The opposite is [found] in Lombard in the mentioned distinctions.</p>
+          
+        </div>
+        <div>
+          <head>Prima conclusio</head>
+          <p>The first conclusion: 
+            just as faith is a theological virtue exclusive of every falsehood, 
+            
+            so [faith] is a theological virtue distinct from the virtues of hope and love. </p> 
+          
+          <p>That faith is a virtue is shown through Lombard, distinction 23. 
+            
+            Secondly it is proven by reason because <seg xml:id="aphiav" type="major">a praiseworthy habit inclining a power to a praiseworthy and meritorious act is a virtue.</seg> <seg xml:id="bfiott" type="minor">But faith is of this type,</seg> <seg xml:id="theore" type="conclusion">therefore.</seg> The <ref target="#aphiav">major</ref> premise is clear through the description of virtue. The <ref target="#bfiott">minor</ref> is clear because the assent of faith is necessary for salvation. This kind of assent is, by itself, laudable and meritorious by reason of the accompanying act of will preceding from charity.</p> 
+          
+          <p>But that it is exclusive of every falsity is apparent because otherwise God would deceive someone and would make him assent to something false which is false. Confirmation: since hope does not disappoint, therefore nor does faith mislead or deceive. The consequence is shown by similar things, and the antecedent is [found] in the Apostle Paul. But that hope is a virtue, indeed a theological virtue, is clear because every virtue whose principle object is the divine good is theological. But hope is this way, therefore. This is confirmed through <title>Gregory the Great</title> in his work <title>On Job</title> in the first chapter where he says that three daughters of Job signify the three theological virtues, namely, faith, hope, and love.</p> 
+        
+       <p>But because those are distinct between each other it is clear according to Corinthians I, chapter 13, "now moreover there remains faith, hope, and love, these three, the greater of these however is love." This is confirmed because faith and hope are evacuated and not love, therefore. The antecedent is clear through Corinthians I, chapter 13, "when that which is perfect comes, then that which is from a part will be evacuated."</p>
+        <div>
+          <head>Corollaria</head>
+        <div>
+          <head>Primum Corollarium</head>
+          <p>The first corollary though "to believe" is not formally a meritorious act or an elicitive act of the will, nevertheless "to believe" is indeed a meritorious act and an imperative act of the will. First is clear because "to believe" is neither to want nor to not want nor an intermediate act of the will. The second is proven from the proof of the first part because when the will commands an act of believing on account of God and from love, then a man earns merit by believing.</p>
+        </div>
+        <div>
+          <head>Secundum Corollarium</head>
+        <p>The second corollary: just as no faith is a virtue or meritorious unless formed faith, so faith infallibly directs the mind only into objects of faith. The first part is proven because if it not, then it follows that someone, while the law[current order] stands, would be able to merit a eternal reward without love, which is false. Consequence is clear because there are some who have faith without love. The second is clear because if faith directed[?] into the objects other than infallibily, then it would follows that faith is able to be about something  which is repugnant to the conclusion.</p>
+        </div>
+        <div> 
+          <head>Tertium Corollarium</head>
+        <p>The third corollary: though it is not the case that faith infused faith is able to be about something false, nevertheless from acquired faith the pilgrim is able to assent to something false and be deceived. The first part is clear through what has been said. The second is clear from the heretics who believe many falsities and stubbornly defend them.</p>
+        </div>
+          <div>
+            <head>Ex dictis sequitur primo</head>
+        <p>From what has been said, in the first place it follows that the identity of the virtues or the created habits ought not to be taken/understood according to the material identity of the objects. This is clear because then aforementioned virtues would not be distinct which opposes the things already said. The consequence is clear because the same thing is material identity of those virtues, namely God in whom faith tends under aspect (ratio) of the true, hope under the aspect of the difficult, and love under the aspect of the loveable good, but their formal aspect is understood through their formal identity. </p>
+          </div>
+          <div>
+            <head>Ex dictis sequitur secundo</head>
+        <p>Secondly, it follows that, though hope is be a virtue differing formally from faith, nevertheless secluded[?] this is not powerful or authentic, known and evident. <!-- ask Trent to look at distinction 36, book 3. --> The first is clear through what is said. The second is proved by Scotus in  distinction 36 of book 3, where he solved the arguments of Henry of Ghent who held the opposite.</p>
+          </div>
+          <div>
+            <head>Ex dictis sequitur tertio</head>
+        <p>Thirdly, it follows that hope is not naturally innate in humans since it is a quality of the mind graciously infused by God. This is clear.</p>
+          </div>
+        </div>
+        </div>
+        <div>
+          <head>Secunda conclusio</head>
+        <p>The second conclusion: though someone, without the virtues, hope and love, is able to licitly hope to be saved in the end, nevertheless without the aforementioned virtues, while the current order stands[?], no one would be able to earn merit or to profit salvifically[?]. The first part is clear because otherwise it would follow that anyone existing outside of grace ought to give up hope of eternal salvation, the consequent is false. The second part is proven through that Apostle Paul in I Corinthians, chapter 13, "If I speak in the tongues of men and angels, but do not have love, I gain nothing."</p>
+        
+        <p>It is confirmed from the virtue of hope because according to Lombard in those distinctions moral virtues are connected in such a way that he who has one, has all of them. Therefore, since no pilgrim is able to succeed without love, it follows that none will be able to succeed without the virtue of hope.</p>
+          
+          <div>
+            <head>Corollaria</head>
+            <div>
+              <head>Primum Corollarium</head>
+              <p>The first corollary: though one lacking virtue and grace is licitly able to hope for eternal salvation, nevertheless no one without grace and virtue ought to hope for eternal salvation or beatitude. The first part is in a divided sense, just as the first part of the conclusion which is clear from itself. <!-- check what conclusion in order to help make this clear --></p>
+        
+              <p><pb ed="#L" n="212v"/>The second part is proven because such an expectation would not be hope, but a presumption, which is not licit for anyone according to what Lombard says in distinction 26, of book 3. For he is says that, "without merits, to hope for beatitude is not but ought to be called presumption." </p>
+
+              <p>This is confirmed because then the unfaithful, while remaining in infidelity, would licitly and in an ordered way expect eternal salvation, which is false. The consequence is clear because the same reason is in both instances. <!-- review last phrase --> </p>
+             
+            </div>
+            <div>
+              <head>Secundum Corollarium</head>
+        <p>The second corollary: though not every true apprehension of faith is meritorious of an eternal reward, nevertheless without a true apprehension of the object of the Catholic faith the reason<!-- think about other possible translations of ratio here --> of meriting is not in the pilgrim. The first part is clear because unformed faith is not meritorious of glory, since it stands without love. The second is clear because "without faith it is impossible to please God." This is confirmed because the reason of meriting does not stand without love, therefore it does not stand without infused formed faith. The consequence holds because those virtues are connected.</p>
+            </div>
+            <div>
+              <head>Tertium Corollarium</head>
+              <p>The third corollary: though love is a distinct virtue exceeding every other virtue, nevertheless in terms of perfection, inclination, as in instrument, effectively and causally it is able to be called every virtue universally. <!-- review translation of list --> The first part is clear through what is has been said, especially from the deduction of the Apostle Paul in First Corinthians 13. But that it exceeds every other virtue is clearly through the Gospel of Matthew 23, "this is the first and principal commandment," namely, "love…", therefore from where virtue proceeds (or the habit corresponding to it), it is most perfect. <!-- translation difficult in last sentence --> This is confirmed through Augustine, Book 15 De Trinitate, chapter 18, saying that no gift of God is more excellent than love. Likewise the Apostle Paul says, "however the greater of these is love."</p>
+        
+              <p>But that love causally and in terms of motivation is able to be called any virtue is clear through Blessed Augustine in <title>On the praise of love</title>, saying: he follows everything which is contained in the divine words who serves love in all things. Similarly, Gregory says: "whatever is commanded in love alone is made firm," it follows "the precepts of the Lord are many and one," etc. Also this is deduced by the Apostle Paul in First Corinthians 13, where he numbers all the effects of every virtue both affirmative and negative and he makes clear that those proceed from love, saying "love is patient, love is good" and so on, and it follows that "love believes all thins, love hopes all things," and so on.</p> 
+            
+                
+            
+            </div>
+            </div>
+        </div>
+        <div>
+          <head>Tertia conclusio</head>
+        <p>The third conclusion: just as a rational nature in charitable loving is held to a set order from the necessity of salvation, so gifts of the holy spirit according to their[?] material being[?] are infused habits of the virtues themselves. The first is clear through Lombard, distinction 29, book 3, chapter 1, <!-- look this up --> where he posits an order of things that ought to be loved. Consequently, in fact, ignorance of the order confuses the form of merits, and he who is going in the wrong order, sins, therefore. See also the account of Augustine. The second part is proven because, if gifts of the Holy Spirit were [in]distinct <!-- sense is difficult here; sense seems to demand "indistinct" --> infused habits, then love would not be the greatest of all gifts, the opposite of which was made clear above.</p>
+        <div>
+          <head>Corollaria</head>
+          <div>
+            <head>Primum Corollarium</head>
+        <p>The first corollary: God, through his valor and immense goodness, absolutely obligates a rational nature to love God above all things equally. This is clear because [he is to be loved] infinitely and immensely. Confirmation: because otherwise God would not be something that ought to be loved infinitely more than one's neighbor, which is false.</p>
+          </div>
+          <div>
+            <head>Secundum Corollarium</head>
+        <p>The second corollary: just as no one is obliged to love just anything, so <unclear>in comparison</unclear> one should desire his own spiritual good more than that of his neighbor. The first part is clear because otherwise there would not be an order of things that ought to be loved. The second part is proven because anyone ought to avoid<!-- flee --> his own evil infinitely more than that of another.</p>
+        
+            <p>From this it is also clear that no one should sin venially <!-- look up venial vs mortal sins --> so that their neighbor might not sin mortally. This is clear in the same way as the preceding because I am infinitely more obliged to avoid sin in me than in another.</p>
+           
+            
+          </div>
+          <div>
+            <head>Tertium Corollarium</head>
+            <p>The third corollary: though no pilgrim is obliged to love another that is an enemy to himself or another, nevertheless from divine law every pilgrim is obliged to love his enemy and to benefit[?] <supplied>[the enemy]</supplied> by wishing salvation for him. 
+              
+              <unclear>The first is clear because I am not obliged to love the neighbor for his "malum culpae/evil of fault" therefore I am not obliged to love an enemy [aliter??].</unclear> 
+              
+              The second is clear in the epistles and gospels in many places where love of the enemy is commanded. 
+              
+              The third is clear because any affective benevolence ought to wish salvation for the enemy.</p> 
+              
+               
+          </div>
+          
+          <div>
+            <head>Subcorollaries from the second part of the third conclusion</head>
+            <p>From the second part of the third conclusion, other subcorollaries are able to be inferred.</p>
+            
+        <p>First: though gifts according to their material being are infused habits of the virtues, nevertheless according to their formal being they are not [infused habits of the virtues] but special motions of the Holy Spirit. The first part is clear through the things said in the [third] conclusion. The second part is proven because there is some kind of difference among the virtues and gifts and that is not in their habitual and material being/existence, therefore, in their formal being. But this is not able to be reduced[attributed] into a created agent, therefore this should be reduced into an uncreated agent. Thomas of Argentina, in distinction 34, book III puts the opposite of this.</p>
+            <!-- Start corrections here -->
+        <p>Second: although gifts and beatitudes are not habits distinct from virtues, nevertheless their modes of acting, according to their formal natures (rationes), are able to be diverse. The first part is clear through what has been said: <!-- keep an eye out for where this may have already been said --> there is the same nature (ratio) concerning gifts and beatitudes [and the virtues] because, according to many, beatitudes are posited only in act, not in habit. Th second part is proven because, according to the diverse formal natures (rationes) of causes, diverse causal modes or modes or modes of causing are able to follow.</p>
+        
+        <p>Third, though gifts of the Holy Spirit are not distinguished from virtues, yet the minds of the faithful are elevated in a more perfect way by the formal nature (ratio) of the gifts [of the Holy Spirit] than by the formal nature of the virtues. The first [part] is clear through what has been said. The second is clear because the assistance of the Holy Spirit is a more perfect motion, which is communicated to the gifts, therefore.</p> 
+        
+        <p>Fourth: though gifts of the Holy Spirit, according to the same[?] material and habitual being, are specifically distinct, nevertheless, in a rational substance informed by charity of this type, the gifts are as one (unitively) connected. The first part is clear because virtues are distinct among themselves, therefore gifts are also distinct. The second part is put expressly by Gregory the Great in his first book of morals, treating the first book of Job "his sons and they shall make convivance through homes ? in his house." <!-- get translation from english version --> 
+        </p> 
+          </div>
+        </div>
+        </div>
+        <div>
+          <head>Response to the main question</head>
+        <p>From all these things, the response of the questions follows, namely the affirmative part. The first is clear because no one will be saved without these [gifts] according to (in the context of) the ordered law of God. The second part is clear through what was said, how they are and how they are not distinguished. 
+        </p> 
+        </div>
+          
+        <div>
+          <head>Contra Primam Conclusionem</head>
+          <div>
+            <head>Contra Primam 1o</head>
+        <p>Against the first conclusion it is argued that by prophetic light, it is able to be false, therefore. The consequence is clear because prophetic light is more clear and more perfect than the light of faith. The antecedent is clear through what was said by the prophet King Hezekiah, "set your house in order because you will die and you will not live," and still he conquered 15 years after. Also in Jonah, "yet forty days, and Nineveh shall be overthrown," and still the town was not overthrown, therefore.
+        </p>
+          </div>
+        
+        <div>
+          <head>Contra Primam 2o</head>
+          <p>Secondly, because someone of faith existing at the time of Christ's concepts, after the hour of the incarnation believed He himself was incarnated and this same person which by faith believed He himself was incarnated before he would be incarnated? because the truth itself was hidden ???
+          </p> 
+        </div>
+        <div>
+          <head>Contra Primam 3o</head>
+        <p>Thirdly, acts of worship, faith conquers and is able to be false, therefore the consequence of faith is good. The antecedent is clear because faith is able to adore a host not sacred itself believing ??
+        </p> 
+        </div>
+        <div>
+          <head>Contra Primam 4o</head>
+        <p>Fourthly, it follows that it had been necessary for Christ to be incarnate, to have suffered, etc. Consequently it is false, therefore. The consequence is clear because Abraham believed in infused faith through the passion of human Christ, the type of freedom?, therefore. If his faith was not able to be false, it follows that the proposition and thus what is believed about the future is able to be argued. 
+        </p> 
+        </div>
+        <div>
+          <head>Contra Primam 5o</head>
+        <p>Fifthly, no more opposes apparent faith and ...? but from love it is able to love, appearing and not existing good just as it is clear about the hypocrite who is loved because it appears good but internally is bad. 
+        </p> 
+        </div>
+        </div>
+        <div>
+          <head>Contra Secundum Conclusionem</head>
+          <div>
+            <head>Contra Secundum 1o</head> 
+        <p>Against the third corollary of the second conclusion it is argued firstly thus because one other part seems to oppose that which is clear, the way and reason of acting? follows the way and reason of being, therefore. If love is one distinct virtue, it follows that the (virtue?) itself is not effective of every virtue causally.
+        </p> 
+          </div>
+        <div>
+          <head>Contra Secundum 2o</head>
+        <p>Secondly, to believe is equally good or better than to love, therefore love does not exceed faith, but faith (esceeds?) itself. The antecedent is clear through that according to Hebrews 11, "blessed kings conquer through faith." Also, first in John Book 5, "he who believes that Christ is the son of God, is born from God," and again, "everyone who is born from God conquers the world." John book 1?, "he gave them, those who believe, the power to become the sons of God," etc. Also the Apostle Paul, "justice lives from faith," also, from Luke chapter 7, "your faith will create your salvation." Additionally, according to Romans chapter 5, "justification (comes) from faith," from these it follows that faith is more perfect than love.
+        </p>
+        </div>
+        <div>
+          <head>Contra Secundum 3o</head>
+        <p> Thirdly, against what is said, principle reasons are in the base of the question.
+        </p> 
+        </div>
+        </div>
+        <div> 
+          <head>Contra Tertium </head>
+          <div>
+            <head>Contra tertium 1o</head>
+        <p>Contra primam partem tertiae conclusionis: homo non tenetur ordinem servare in diligendo, ergo. Antecedens probatur quia ex vi Domini praecepti, homo tenetur quamlibet aequaliter diligere, probatia quia homo tenetur diligere quamlibet proximum sicut se ipsum, sed quilibet est aequaliter proximus, ergo. 
+        
+        <note>Against the first part of the third conclusion: man is not held to save the order of things to be love, therefore. The antecedent is proven because from the anticipated? power of the Lord, a man is held to love anyone equally, (there is) proof because a man is held to love any neighbor like he (loves) himself, but anyone is equally a neighbor, therefore.</note>
+        </p> 
+          </div>
+          <div>
+            <head>Contra tertium 2o</head>
+        <p>Secundo: per <ref><name>Bernardus</name> libro <title>de diligendo deum</title></ref> dicentem, amor nescit gradum, dignitatem non desiderat, sed si amor nescit gradum, nullus ordo erit in amore. 
+        
+        <note>Second: through what is said in Bernard's book about loving God, love does not know ranking, and does not desire dignity, but if love does not know ranking, then there will be no order in love. </note>
+        </p> 
+          </div>
+          <div>
+            <head>Contra tertium 3o</head>
+        <p>Tertio: sic se habet fides ad credibilia, sic caritas ad diligibilia, sed omne fidei aequaliter credendum est, ergo omne diligendum caritate aequaliter diligitur, maior et minor patent.
+        
+        <note>Third: thus faith c=holds itself as credible, thus love holds itself as lovable, but every part of faith must be equally believed, therefore everything loved by love is loved equally, the major and minor are clear. </note>
+        </p>  
+          </div>
+          <div>
+            <head>Contra tertium 4o</head>
+          <p>Quarto: secundum <name ref="#Aristotle">Philosophum</name> amator sui vituperandus est, ergo homo non tenetur se plus quam omne ad a Deo<!-- aliquid a deo? --> diligere. 
+          
+          <note>Fourth: according to Aristotle, his lover should be blamed, therefore a man is not held himself more than ??</note>
+          </p>    
+          </div>
+          <div>
+            <head>Contra tertium 5o</head>
+        <p>Quinto probatur quod non debeamus diligere inimicum quia, si sicut aut foret magis meriotrium diligere amicum vel inimicum, non amicum, quia virtus est circa difficile et ethnici amicos diligunt nec inimicum quia tunc foret magis demeritorium odire inimicum quam amicum, quod est falsum. Patet consequentia quia quam unum oppositorum est diligendum et bonum tam alterum est fugiendum et malum. 
+        
+        <note>Fifth: it is proven that we shoudl not love our enemy because if just as? either it is meritorious to love a friend more (than?) an enemy, not a friend, because ...? because then it is not meritorious to hate an enemy more than a friend, which is false. The consequence is clear because one of the opposite is as loving and good as another is fleeing? and bad. </note>
+        </p>
+          </div>
+        </div>
+        <div>
+        <p>Ad primum negatur antecedens ad probationem dicitur quod propheta dicens regere moriturum loquebatur secundum cursum naturae secundum dispositionem quam vidit in lumine prophetico nec ars nec natura posset ipsum liberare a morte et hoc etiam ex parte Dei revelantis ipsi regi denuntiavit vicem[?] cum postea propheta <pb ed="#L" n="214r"/>praenunciavit ei vitam prolongatam annis 15. Hoc fuit de divina potentia non secundum naturalem influentiam et ideo utrumque dictum fuit verum suo modo. Item <name>Ezechiae</name> fuit mortuus peccatis ut viveret vita iustitiae, similiter de <name>iona</name> dicitur quod prophetia sua fuit condicionalis saltim conditione sub intellecta, scilicet si ninivitae[?] manent in suis peccatis civitas subverteretur et quia condicio non fuit impleta ideo prophetia non fuit falsa. Secundo posset dici quod civitas fuit subversa moraliter et spiritualiter non subversione minoris sed peccatoris, quia scilicet per puniam[?] habitantes fuerunt conversi a peccatis et sic de versione illud fuit impletum. 
+        
+        <note>In the first place, the antecedent is disproved according to the probatio, it is said that the prophet saying to rule the dead?, was saying according to the path of nature, according to the arraignment quam? he sees in light by the prophet, neither art nor nature would be able to free itself from death and also from this part, God showing himself announcing to the king?...?... This happened concerning divine ability not according to natural influence, and also whether what was said was true in his way?. Also, Ezekiel was dead having sinned with the result that he lived a life of righteousness?. It is similarly said about Iona that his prophecy was saved conditionally, by a condition below intellect, certainly if a Ninivite (from Ninevah) stayed in his sin, the city would be overturned and because the condition was not fulfilled, therefore the prophecy was not false. Secondly, it can be said that the city was morally and spiritually overturned, not a minor destruction, but one of sin, because certainly through punishing the inhabitants were turned from sin and so concerning this turning, it was fulfilled. </note>
+        </p> 
+        
+        <p>Ad secundum dicitur quod tam in veteri quam in novo testamento credere in liberatorem fuit actus fidei, sed credere Christum venturum vel venisse non erat actus fidei in veteri testamento quia nullus credulitatem suam tenebatur, ad hoc determinare scilicet ad certam horam vel tempus nisi hoc eis fuisset revelatum mediate vel immediate sed in novo testamento specialiter tenemur credere eum iam venisse propter scripturas hoc asserentes et propter ecclesiae determinacionem et auctoritatem huiusmodi scripturas approbantem. 
+        
+        <note>In the second place it is said that in both the old and new testament, to believe in the savior was an act of faith, but to believe Christ will come or had come was not an act of faith in the old testament because no one had his credibility, this is determined? certainly at a certain hour or time unless this was revealed to him mediately or immediately, but in the new testament especially, we are held to believe he now has come beacuse of the scriptures this is asserted and because of the determinationa nd authority of the church, in this way the scriptures are approved.</note>
+        </p>
+        
+        <p>Ad tertium negatur antecedens ad probacionem de adorante hostiam. Dictum fuit prius primo quod fides imperat adoracionem illam condicionaliter puta si hostia sit consecrata ita quod actui latriae ut a fide est imperatus, numquam potest subesse falsum sicut dicit <name>thomas de argentis[?ia]</name>. Secundo dicit <name>Hugolinus</name> quod cermiomen[?] exteriores bene terminatur ad rem visam sed adoratio interior semper dirigitur ad ipsum deum non ad hoc. Quod videtur ideo dato quod non sit fictam consecratio tamen cor non errat nec fides fallit.
+        
+        <note>In the third place, the antecedent is disproved from the evidence about worshiping the sacrifice. It was said earlier, first that faith conquers adoration itself conditionally pure? if the host would be consecrated, thus that acts of service ut? from faith is conquered, never can be under somethign false, just as Thomas de Argentina says. Also Hugolinus says that ?? are ended well outside? to the thing seen?, but interior adoration is always aligned to God himself not to this. Its seems that therefore it is given that consecration would not be fake, yet the heart does not err nor does faith deceive. </note>
+        </p> 
+        
+        <p>Ad quartum dicit <name>Thomas de Argentina</name> quod reducendo Christi passionem ad legem Dei ordinatam. Fuit neccessarium Christum pati et incarnari. Ideo fidei <name>Abrahae</name> potuit subesse falsum quia talis fides <name>Abrahae</name> non fuit de materia liberationis ut reducitur in Dei potentiam absolutam, sed eciam ut reducitur inordinatam. Sed illud non videtur vallere quia secundum ipsum non fuit Christum pati neccessarium de absoluta Dei potentia, ergo. Sequitur quod fidei <name>Abrahae</name> potuit subesse falsum de potentia absoluta Dei, quod videtur falsum. Ideo aliter respondetur negando consequentiam rationis et ad probationem quia potuit aliter esse, etc. Hic dicitur dicendo quod si sint revelatio vel potuit aliter esse quam verba revelationis significabant ad mentem recipientis vel aliter quam significabant ad mentem revelantis primo modo adhuc dupliciter quia vel recipiebat verba revelationis sicut debebat vel non sed sicut volebat. Primo modo secundae distinctionis et secundo modo primae distinctionis impossibile est aliter evenire quam fuit a deo revelatum, quia non potuit aliter esse quam verba revelationis significabat ad modum revelantis et si ille cui fit revelatio capit verba sicut debet non potest aliter esse. Sed secundo modo secundae distinctionis tunc potest aliter esse et tunc error non procedit ex fide infusa sed acquisita elicita et temaria. 
+        
+        <note>In the fourth place, Thomas of Argentina says that the passion of Christ will be restored to the ordinate law of God. It was necessary that Christ suffer and become incarnate. Therefore the faith of Abraham was able to appear? false because such faith of Abraham was not concerning material deliverance so as the absolute power in God is reduced but also so that inordinance is reduced. But that does not seem to fortify because according to himself it was not necessary for Christ to suffer concerning the absolute power of God, therefore. It follows that the faith of Abraham was able to appear? false concerning the absolute power of God, that semms false. Therefore otherwise it is responded disproving the consequence of the reason/nature? and to the evidence because it is able to be otherwise, etc. This is said saying that if they? are a revelation or were otherwise able to be words of a revelation, just as it should have or but not just as it was wishing??. The first way of the second distinction and the second way of the first distinction, it is impossible to otherwise come about than if it was a revelation from God, because it is not able to exist otherwise than having meant words of a revelation to a way of revealing and if ??? a revelation captured words just as it should, it is not otherwise able to exist. But the second way of the second distinction then is able to exist otherwise and then error does not proceed from infused faith, but elliciting? and violating? acquisition?. </note>
+        </p> 
+        
+          <p>Ad quintum negatur maior quia in dilectione innitimur directioni nostrae cogitationis quae est lumen et directorium fallibile sed in fide infusa innitimur directioni divino <pb ed="#L" n="214v"/>et lumini increato principaliter motivo[?] et ideo non est similem. 
+          
+          <note>In the fifth place the major premise is disproved because in love we are supported by the direction of our thought which light and the fallible director?, but in infused faith we are supported by divine direction and by uncreated light principally by motive? and therefore it is not similar. </note>
+          </p> 
+        </div>
+        <div>
+        <p>Secundo potest negari minor quia caritas infusa non diligit nisi quod debet sed si homo errat in diligendo, hoc non provenit ex caritate infusa, sed ex habitu in nato naturali vel ex caritate sponte elicita affectionali. Nam caritas vera non quaerit quae sua sunt sed quae <name>ihesu christi</name> nec agit per peram[?]. 
+        
+        <note>Secondly, the minor premise can be disproved because infused love does not love except that it should but if man errs in loving, this does not come forth from infused love, but from habit in natural birth or from free will love of an elicited feeling?. For love truly does not question things of its which are but which are from? Jesus Christ, not done through ??</note>
+        </p> 
+        
+        <p>Tertio licet hypocrita sit dilectus et homo fictus sit nec ut sic est diligendus tamen ut caritative diligitur[?] non est quidam fictum sed creatura bona seu existens bonum. 
+        
+        <note>Thirdly, though the hypocrite might be loved and a false man would not? ?? thus he must be loved, yet as he is loved charitably, he is not a certain falsity, but a good creature existing well?. </note>
+        </p> 
+        
+        <p>pro ista materia fidei nota <name>thomas de argentina</name> 24 distinctione 3ii articulo 3o ubi ponit triplex simbolum quod legitur in ecclesia primum est apostolorum quia ab eis compositum 2m dicitur nicenum quia in consilio niceno compositum fuit 3m est athanasii quia ipsum composuit contra haereticos primum dicitur in prima et complecto modo 2m dicitur in missa 3m dicitur de <name>marie</name> tamen devorsimodo secundum diversos usus et ponit ibi rationes </p> 
+       
+          <p>Item vide quia primo sunt 12 articuli primum dicit <name>petrus</name> scilicet credo in deum patrem omnipotentem creatorem caeli et terrae 2m <name>iohannes</name> et in <name>ihesum christum</name> filius eius unicum dominum nostrum 3m <name>iacobus zebedei</name> qui conceptus est de spiritu sancto <corr>nat<add>us</add><del>to</del></corr> ex materia virgine 4m <name>andreas</name> passus sub <name>poncio pillato</name> 5m <name>philippus</name> descendit ad inferna 6m <name>thomas</name> 3a die<!-- or diem? --> resurrexit a mortuis 7m <name>bartholomeus</name> ascendit ad caelos sedet ad dexteram patris 8m <name>mathaeus</name> inde venturus iudicare vivos et mortuos 9m <name>iacobus alphae</name> credo in spiritum sanctum 10m sanctam ecclesiam catholicam sanctorum communionem <name>iudas</name> 11m remissionem peccatorem 12m carnis resurrectionem vitam aeternam amen </p>
+        
+        <p>Ad primam responsionem in pede conclusionis dicitur ut supra quod licet credere non sit actus voluntatis elicitive est tamen ab ea imperative ideo dicit <name ref="#Augustine">augustinus</name> cetera potest homo nolens credere vero non nisi volens </p> 
+        
+        <p>Ad aliud dicit <name>thomas de argentina</name> quod christus habuit fidem secundum habitum sed non secundum actum 2o potest dici quod christus non habuit fidem nec omnes virtutes formaliter sed supereminentur et superaequivalenter 4o posset dici quod fides et scientia non <corr><del>sr</del></corr> repugnant sed possunt simul stare in eodem respectu eiusdem 4o posset dici quod christus habuit veram scientiam et scivit omnia quae vidit in verbo scientia infusa ut comprehensor sed tamen habuit fidem et credidit multa secundum habitum experi?lem et acquisitum ut supra patuit declaratum </p> 
+        
+        <p>Ad primum contra corollarium 3m 2ae conclusionis dicitur quod ratio agendi caritatis potest sumi dupliciter uno modo elicitive alio modo imperative primo modo[?] caritas habet unicum et singularem modum agendi sicut essendi sed 2o modo non ymmo generale ut dictum est </p> 
+        
+        <p>Ad 2m negatur antecedens sumptam[?] credere cum exclusione dilectionis ad auctoritates quae videntur oppositum sonare dicitur quod loquuntur de fide formata caritate seu informata per caritatem et non de fide simpliciter </p> 
+        
+        <p>Ad 2m argumentum principale conclusionis quod videtur facere contra dicta in 2a conclusione negatur antecedens et cum probatur quia aliqui invincibiliter etc dicitur primo quod si tales infideles facerent quod in se est illuminarentur a deo et virtutes eis infunderentur <pb ed="#L" n="215r"/>et ideo tales non ignorant christum ininvincibiliter et quando dicitur quod omem genus tormenti etc dicitur quod illi stante eorum infidelitate non faciunt aliquid propter deum unde potest dici quod si facerent talia propter deum superficialiter aestimative optando non tamen libere affective taliter vere virtuose sicut debent opera sua in deum dirigenda </p>  
+        
+        <p>Ex hiis patet quod alterius <corr><del rend="expunctuated">rationis</del></corr> legis quam nostrae sectatores non possunt facere quae agunt finaliter propter deum principaliter nam extra <title>de summa trinitate et fide catholica</title> capitulo firmiter dicitur quod extra romanam ecclesiam nulla est vita salutis et per consequens nec habitus vere virtutis et ideo cum deus dat talibus salutem dat eis ecclesiae unionem et virtutum infusionem </p> 
+        
+        <p>Ad primum contra 3am conclusionem negatur antecedens ad probationem quia ex vi praecepti etc dicitur quod li sicut est nova similitudinis non aequaliter </p> 
+        
+        <p>Ad 2m quod est dictum <name>bernardi</name> dicitur quod gradum in amore scire potest esse dupliciter uno modo inter diligibile et diligibile alio modo inter diligens et dilectum primo modo amor considerat dignitatem et ponit gradum et ordinem quia magis bonum magis notum sibi diligit magis sed 2o modo non ponit gradum quia amor non sit amatorem sui ipsius sed amati secundum <name>hugo[hugolinus?]</name> de arra animae ymmo transformat amantem in amatum secundum <name>dyonisium</name> <title>de divinis nominibus</title> ideo dicit <name>tullius</name> amor aut parem concipit aut facit </p> 
+        
+        <p>Ad 3m dico ad amorem quod non est similem de fide et caritate quia ratio credendi est veritas fidei perscripturam revelata et <choice><orig>anunciata</orig><reg>annuntiata</reg></choice> ideo aequaliter sunt credenda sed ratio diligiendi est bonitas vel ut in se plena vel in aliis perticipata et quia talis participatio non est aequalis ideo talia diligibilia non sunt aequaliter diligenda </p> 
+        
+        <p>Ad qm dicitur quod quilibet se moderate diligens et ordinante est commandandus sed vituperabile[?] est habere in moderatum amorem sui et sic ipsemet <name>aristoteles</name> se exponit </p> 
+        
+        <p>Ad 5m communiter dicitur quod ceteris paribus melior est dilectio inimici quam amici 2o potest dici quod ad hoc quod dilectio inimici sit magis meritoria quam amici non requiritur quod actus sit aeque intensus intentionem[?] individui in specie sed sufficit maior intensio spei in genere </p> 
+        
+        <p>Ad rationem <sic>rationem</sic> in pede conclusionis factam patet per dictam solucio circa 3am conclusionem et sic finitur 3us liber </p> 
+        </div>
+
+        
+      </div>  
+    </body>
+  </text>
+</TEI>

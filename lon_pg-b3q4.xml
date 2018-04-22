@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book III, Question 4</title>
+        <author>Peter Gracilis</author>
+        <editor>Natalie Tsottles</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.01-dev-master">
+          <title>Book III, Question 4</title>
+          <date when="2014-01-27">January 27, 2013</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-01-27">January 27, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b3q4">
+        <head>Book 3, Question 4</head>
+        <p><pb ed="#L" n="211v"/><lb ed="#L"/>Utrum spes fides caritas quae ad salutem finaliter 
+          <lb ed="#L"/>requiruntur a spiritus sancti donis ac inter se realiter distinguuntur <g ref="#slash"/> pro non quia 
+          <lb ed="#L"/><sic>quia</sic> fides spes caritas non requiruntur ad salutem cuiuslibet viatores ergo 
+          <lb ed="#L"/>antecedens probatur quia si fides requireretur hoc esset quia esset virtus et medium merendi sed hoc posset 
+          <lb ed="#L"/>falsum cum <corr>sit<del>i</del></corr> habitus intellectus et credere actus voluntatis <g ref="#slash"/> tum 2o quia <name ref="#Christ">Christus</name> habuit 
+          <lb ed="#L"/>omnes virtutes non tamen habuit fidem ergo <sic>fideus</sic> non est virtus </p>
+        
+        <p><g ref="#pilcrow"/> 2o arguitur de 
+          <lb ed="#L"/>spe quia cum spes secundum <name ref="#Boethius">Boetium</name> sit passio consolatiam[?] sequitur quod non sit virtus ad 
+          <lb ed="#L"/>salutem requisita </p>
+        
+        <p><g ref="#pilcrow"/> 3o probatur de caritate quia caritas non est una virtus ergo non 
+          <lb ed="#L"/>est virtus consequentiam tenet per <name ref="#Boethius">Boetium</name> dicentem <quote>omnem quod est ideo est quia unum numero est</quote> 
+          <lb ed="#L"/>antecedens probatur quia cum caritas sit forma omnium virtutum oportet eam multiplicari secundum 
+          <lb ed="#L"/>multiplicationem omnem virtutum </p>
+        
+        <p><g ref="#pilcrow"/> 2o principaliter stat aliquem salvari sine virtute 
+          <lb ed="#L"/>infusa ergo antecedens probatur quia aliqui invincibilem <name ref="#Christ">christum</name> et legem ignorantes salvabunt 
+          <lb ed="#L"/>et tamen non habent virtutem infusam ergo assumptum patet quia stat homines alicuius sectae 
+          <lb ed="#L"/>facere quidquid faciunt pro deo et in omnibus credere se obsequium prante[?] 
+          <lb ed="#L"/>deo <choice><orig>ymo</orig><reg>immo</reg></choice> omnem genus supplicorum[?] non solum patienter <choice><orig>ymo</orig><reg>immo</reg></choice> etiam pati 
+          <lb ed="#L"/>gaudentur propter deum ergo dato quod illi male agant tamen videntur excusari 
+          <lb ed="#L"/>propter ignorantiam invincibilem et per consequens cum nullus dampnetur nisi propter culpam 
+          <lb ed="#L"/>sequitur quod illi salvabuntur </p>
+        
+        <p><g ref="#pilcrow"/>3o nulla sunt spiritus sancti dona ergo illa non 
+          <lb ed="#L"/>dicitur a virtutibus per dictis antecedens probatur quia si sic aut talia essent tot 
+          <lb ed="#L"/>distincti quot sunt dona vel esset unus habitus omnium donorum sed nullum 
+          <lb ed="#L"/>potest dari ergo <g ref="#slash"/> 2o quia autem[?] habitus doni esset habitus caritatis vel inferior vel 
+          <lb ed="#L"/>superior et perfectior illo <g ref="#slash"/> si est idem sequitur quod habens caritatem habet omnia dona <g ref="#dot"/> 
+          <lb ed="#L"/>quod est falsum quia puer baptizatus noviter non habet donum scientiae sapientiae consilii 
+          <lb ed="#L"/>si perfectior sequitur quod caritas non est excellentissimum donum dei contra <name ref="#Augustine">augustinum</name> 3o <title ref="#deTrinitate">de trinitate</title> 
+          <lb ed="#L"/>capitulo 19o nec inferior quia dona sunt super ipsas virtutes </p>
+        
+        <p><g ref="#pilcrow"/>Ad oppositum est 
+          <lb ed="#L"/><name>magister</name> in dictis distinctionibus </p>
+        
+        <p> <g ref="#pilcrow"/>prima conclusio sicut fides est virtus theologica ex<lb ed="#L"/>clusiva 
+          omnis falsitatis sic spes est virtus theologica distincta a virtutibus spei et 
+          <lb ed="#L"/>caritatis <g ref="#slash"/> quod fides sit virtus patet per <name ref="#Lombard">magistrum</name> distinctione 23a <g ref="#slash"/> 2o probatur ratione quia 
+          <lb ed="#L"/>habitus laudabilis inclinans potentiam ad actum laudabilem et meritorium est 
+          <lb ed="#L"/>virtus sed fides est huiusmodi ergo <g ref="#slash"/> mairo patet per descriptionem virtutis <g ref="#slash"/> minor patet quia 
+          <lb ed="#L"/>cuius assensus est ad falsam naturalis talem de se est laudabilis et meritorius 
+          <lb ed="#L"/>ratione actus concomitantis voluntatis a caritate procedentis <g ref="#slash"/> sed quod sit exclu<lb ed="#L"/>siva 
+          omnis falsitatis apparet quia alias deus deciperet aliquem et eum faceret falso 
+          <lb ed="#L"/>assentire quod est falsum <g ref="#slash"/> confirmatio quia spes non confundit ergo nec fides fallit 
+          <lb ed="#L"/>aut decipit consequentia patet a simili et antecedens est <name ref="#Paul">apostoli</name> <g ref="#slash"/> sed quod spes sit virtus etsi 
+          <lb ed="#L"/>theologica patet quia omnis virtus cuius principale obiectum est bonum divinum est theologica 
+          <lb ed="#L"/>sed spes est huiusmodi ergo <g ref="#slash"/> confirmatur per <ref><name ref="#GregoryGreat">gregorium</name> <title>super iob</title> capitulo primo</ref> ubi tres filias 
+          <lb ed="#L"/>ipsius <name ref="#Job">iob</name> dicit significare tres virtutes theologicas scilicet fidem spem et caritatem</p> 
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Sed quod illae sint distincte inter se patet prime[?] ad corporum[?] 13o nunc autem manent 
+          <pb ed="#L" n="#212r"/><lb ed="#L"/>fides spes caritas tria haec maior autem horum est caritas <g ref="#slash"/> confirmatur quia fi<lb ed="#L"/>des 
+          et spes evacuabuntur et non caritas ergo antecedens patet primae[?] coi[?] 13o cum 
+          <lb ed="#L"/>venerit quod perfectum est tunc evacuabitur quod ex parte est </p>
+        
+        <p><g ref="#pilcrow"/>primum corollarium licet cre<lb ed="#L"/>dere 
+          non sit actus meritorius formaliter aut actus voluntatis elicitive 
+          <lb ed="#L"/>tamen credere debite est actus meritorius et actus voluntatis imperative 
+          <lb ed="#L"/>prima patet quia credere nec est velle nec nolle nec actus medius voluntatis 
+          <lb ed="#L"/>2a probatur ex probatione primae partis quia cum voluntas imperat propter deum et ex 
+          <lb ed="#L"/>caritate actum credendi tunc homo credendo meretur </p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium sicut nulla 
+          <lb ed="#L"/>fides est virtus aut meritoria nisi fides formata sic fides dirigit 
+          <lb ed="#L"/>mentem solum infallibilem in fidei obiecta prima pars probatur quia si non sequitur 
+          <lb ed="#L"/>quod quis lege stante posset mereri praemium aeternum sine caritate quod est falsum 
+          <lb ed="#L"/>patet consequentia quia stat aliquem habere fidem sine caritate 2a patet quia si aliter 
+          <lb ed="#L"/>quam infallibilem fides dirigeret in obiecta fidei sequeretur quod fidei posset 
+          <lb ed="#L"/>sub esse falsum quod repugnat conclusioni </p>
+        
+        <p><g ref="#pilcrow"/>3m corollarium licet non stet fidei infuse 
+          <lb ed="#L"/>sub esse falsum seu fallere aut falli tamen ex fide acquisita viator potest 
+          <lb ed="#L"/>falso assentire et decipi prima pars patet per dicta 2a patet de haereticis quod[?] 
+          <lb ed="#L"/>qui multa falsa credunt et pertinaciter deffendunt </p>
+        
+        <p><g ref="#pilcrow"/>Ex dictis 
+          <lb ed="#L"/>primo sequitur quod non secundum ydemptitatem materialem obiectorum debet sumi ydemptitas virtutum 
+          <lb ed="#L"/>seu habituum creatoris patet quia tunc praedictae virtutes non essent distinctae 
+          <lb ed="#L"/>quod repugnat dictis et patet consequentia quia eadem est materialis ydemptitas illarum 
+          <lb ed="#L"/>virtutum scilicet <corr><del rend="strikethrough">s</del></corr> deus in quem tendit fides sub ratione veri ardui spes 
+          <lb ed="#L"/>et caritas sub ratione diligibilis boni sed per formalem ydemptitatem virtutum 
+          <lb ed="#L"/>intellegitur ratio formalis ipsarum </p>
+       
+        <p><g ref="#pilcrow"/>2o sequitur quod licet spes sit virtus a fide formaliter 
+          <lb ed="#L"/>differens tamen seclusa hoc non est auctoritate vel autentice notum et 
+          <lb ed="#L"/>evidens prima patet per dicta 2a probatur a <name ref="#Scotus">scoto</name> distinctione 36 3ii ubi solvit 
+          <lb ed="#L"/>rationes <name ref="#HenryOfGhent">gavandensi</name> oppositum tenentis </p>
+        
+        <p><g ref="#pilcrow"/>3o sequitur quod spes non est homini 
+          <lb ed="#L"/>naturaliter innata cum sit qualitas mentis a deo gratuite infusa <g ref="#dot"/> patet </p> 
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>2a conclusio licet sine virtutibus spe et caritate quis possit licite spe<lb ed="#L"/>rare 
+          salvari finaliter tamen sine praedictis virtutibus lege stante nullus 
+           <lb ed="#L"/>posset mereri seu proficere salubriter prima pars patet quia aliter sequeretur quod quilibet 
+          <lb ed="#L"/>existens extra gratiam deberet desperare de salute aeterna consequens est falsum 
+          <lb ed="#L"/>2a pars probatur per illud <ref corresp="#pgb3q4-slhmpd"><name ref="#Paul">apostoli</name> primae <title ref="#Icor">ad Corinthios</title> 130 </ref> <quote xml:id="pgb3q4-slhmpd" ana="#Icor13_1">si linguis hominum loquar 
+          <lb ed="#L"/>et angelorum caritatem autem non habeam nihil mihi prodest</quote> </p>
+        
+        <p><g ref="#pilcrow"/>confirmatur de virtute 
+          <lb ed="#L"/>spei quia secundum <name ref="#Lombard">magistrum</name> in hiis distinctionibus virtutes morales sunt sic 
+          <lb ed="#L"/>connexae quod qui unam habet omnes habet igitur cum nullus viator possit 
+          <lb ed="#L"/>proficere sine caritate sequitur quod nullus proficere poterit sine virtute spei<g ref="#pilcrow"/> </p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium licet carens virtute et gratia possit licite sperare aeternam 
+          <lb ed="#L"/>salutem tamen nullus sine gratia et virtute debet sperare aeternam salutem 
+          <lb ed="#L"/>seu beatitudinem prima pars est in sensu diviso sicut prima pars conclusionis quae patet de se </p>
+        
+        <p><pb ed="#L" n="212v"/><lb ed="#L"/><g ref="#pilcrow"/>2a pars probatur quia talis expectatio non foret spes sed praesumptio quae non est alicui 
+          <lb ed="#L"/>licita secundum quod dicit <name ref="#Lombard">magister</name> 26 distinctione 3ii nam dicit quod sine meritis bea<lb ed="#L"/>tudinem 
+          sperare non spes sed praesumptio dici potest </p>
+
+        
+        <p><g ref="#pilcrow"/>confirmatur quia tunc infidelis 
+          <lb ed="#L"/>durante infidelitate licite et ordinate expectaret aeternam salutem quod est 
+          <lb ed="#L"/>falsum consequentia patet quia eadem est ratio utrobique </p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium libet non omnis vera 
+          <lb ed="#L"/>apprehensio fidei sit meritoria primii aeternii tamen sine vera apprehensione 
+          <lb ed="#L"/>obiecti catholicae fidei non est in viatore ratio merendi prima pars patet quia fides 
+          <lb ed="#L"/>informis non est meritoria<!-- you said meriotria? --> gloriae cum stet sine caritate 2a patetque sine 
+          <lb ed="#L"/>fide impossibile est placere deo <g ref="#slash"/> confirmatur quia ratio merendi non stat sine 
+          <lb ed="#L"/>caritate ergo non stat sine fide infusa formata tenet consequentia quia illae virtutes 
+          <lb ed="#L"/>sunt connexae </p>
+        
+        <p><g ref="#pilcorw"/>3m corollarium licet caritas sit virtus distincta omnem aliam 
+          <lb ed="#L"/>excedens perfectionaliter tamen inclinative instrumentaliter[?] effective taliter[?] ipsam 
+          <lb ed="#L"/>potest dici omnis virtus universaliter prima pars patet per dicta maxime ex deductione 
+          <lb ed="#L"/><ref><name ref="#Paul">apostoli</name> <title ref="#Icor">ad corinthios</title> 13o</ref> sed quod omnem aliam virtutem excedat patet per illud <ref><title ref="#mt">matthaeum</title> 
+          <lb ed="#L"/>23</ref> <quote ana="#mt22_38">hoc est primum et principale mandatum</quote> scilicet diliges ergo virtus unde procedit 
+          <lb ed="#L"/>seu habitus sibi correspondens sibi est perfectissimus </p>
+        
+        <p><g ref="#pilcrow"/>confirmatur per <ref><name ref="#Augustine">augustinum</name> 15o 
+          <lb ed="#L"/><title ref="#deTrinitate">de trinitate</title> capitulo 18o</ref> dicentem quod millum dei donum est caritate excellentius 
+          <lb ed="#L"/>item dicit <name ref="#Paul">apostolis</name> <quote ana="#Icor13_13">maior autem horum est caritas</quote> <g ref="#slash"/> sed quod caritas taliter[?] 
+          <lb ed="#L"/>et motive[?] potest dici quaelibet virtus patet per <name ref="#Augustine">beatum augustinum</name> in <title>de laude ca<lb ed="#L"/>ritatis</title> 
+          dicentem ille servat totum quod continetur in dictis sermonibus qui servat 
+          <lb ed="#L"/>caritatem in omnibus <g ref="#slash"/> item <name>gregorius</name> quidquid praecipiter[?] insola caritate solidatur 
+          <lb ed="#L"/>et sequitur praecepta ddmtatur[?] multa sunt et unum et cetera <g ref="#slash"/> item ad hoc est <name ref="#Paul">apostoli</name> 
+          <lb ed="#L"/>deducitur <ref><title ref="Icor">ad corinthios</title> 13o</ref> ubi enumerat omnes effectus virtutum omnium tam 
+          <lb ed="#L"/>affirmativos quam negativos et ostendit illos procedere a caritate dicens caritas 
+          <lb ed="#L"/>patiens est benigna est et cetera et sequitur omnia credit omnia sperat et cetera </p> 
+        
+        <p><g ref="#pilcrow"/>3a conclusio
+          <lb ed="#L"/>sicut natura rationalis in suo caritativo deligere de necessitate salutis tenetur  
+          <lb ed="#L"/>ad ordinem statutum sic dona spiritus sancti secundum esse materiale sunt habitus 
+          <lb ed="#L"/>infusi ipsarum virtutum prima patet per <ref><name ref="#Lombard">magistrum</name> distinctione 29 3ii capitulo primo</ref> ubi 
+          <lb ed="#L"/>ponit ordinem diligendorum consequenter namque ordinis ignoratia conturbat 
+          <lb ed="#L"/>meritorum formam et qui praepostere agit peccat ergo <g ref="slash"/> vide ibi dictum <name ref="#Augustine">augustini</name> 
+          <lb ed="#L"/>allegatum 2a pars probatur quia si dona spiritus sancti essent habitus infusi distincti 
+          <lb ed="#L"/>tunc caritas non esset magnum[?] omnium donorum cuius oppositum patuit supra </p>
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium deus per suum valorem et bonitatem immensam simpliciter quodlibet 
+          <lb ed="#L"/>rationalem naturam obligat ad diligendum eum super omnia aequalem patet quia 
+          <lb ed="#L"/>infinite et immense <g ref="#slash"/> confirmatio quia aliter deus non esset infinite plus diligendus quam pro<lb ed="#L"/>ximus 
+          quod est falsum </p>
+        
+        <p><g ref="#pilcrow"/>2m corollarium sicut non quilibet quamlibet tenetur diligere sic 
+          <lb ed="#L"/>inconparabiliter[?] debet suum bonum spirituale plus quam proximi appetere prima pars 
+          <lb ed="#L"/>patet quia aliter non esset ordo diligendorum in caritate <g ref="#slash"/> 2a pars probatur quia quilibet debet 
+          <pb ed="#L" n="213r"/><lb ed="#L"/>in infinitum plus suum malum fugere quam cuiuscumque alterius </p> 
+        
+        <p><g ref="#pilcrow"/>Ex quo patet eciam quod nullus 
+          <lb ed="#L"/>debet peccare venialiter ne proximus peccet mortaliter patet sicut praecedens 
+          <lb ed="#L"/>quia infinite plus teneor fugere in me peccatum quam in alio </p> 
+        
+        <p><g ref="#pilcrow"/>3m corollarium licet nullus 
+          <lb ed="#L"/>viator teneatur alium diligere sibi vel alteri inimicum esse<!-- esset? --> tamen ex le<lb ed="#L"/>ge 
+          divina tenetur quilibet viator inimicum diligere et salutem sibi optan<lb ed="#L"/>do 
+          prodesse <g ref="#slash"/>  prima patet quia non teneor proximum diligere ad suum malum culpae 
+          <lb ed="#L"/>ergo non teneor <corr><del rend="strikethrough">ali</del></corr> diligere aliter inimicum esse 2a patet in epistolis et evan<lb ed="#L"/>geliis 
+          in multis locis ubi dilectio inimici praecipitur <g ref="slash"/> 3a patet quia quilibet 
+          <lb ed="#L"/>affectiva benivolentia tenetur inimico optare salutem <g ref="slash"/> ex 2a parte  
+          <lb ed="#L"/>3ae conclusionis possunt aliqua sub corollaria inferri </p> 
+        
+        <p><g ref="#pilcrow"/>primum licet dona secundum eorum esse
+          <lb ed="#L"/>materiale sint habitus virtutum infusi tamen secundum esse formale non sunt nisi  
+          <lb ed="#L"/>speciales motiones spiritus sancti prima pars patet dicta in conclusione 2a pars probatur quia ali<lb ed="#L"/>qualis
+          est dir?a[?] virtutum et donorum et illa non est in eorum esse habituali 
+          <lb ed="#L"/>et materiali ergo in eorum esse formali sed non potest hoc reduci in agens
+          <lb ed="#L"/>creatum ergo reducendum est in increatum oppositum huius ponit <name>thomas  
+          <lb ed="#L"/> de argentina</name> distinctione 34a 3ii </p>
+        
+        <p><g ref="#pilcrow"/>2um quamvis dona et beatitudines non sint habitus a<g ref="#dot"/> 
+          <lb ed="#L"/>virtutibus distincti tamen modi eorum agendi secundum rationes eorum formales possunt 
+          <lb ed="#L"/>esse diversi prima pars patet per dicta eadem erit[?] ratio de donis et beatitudinibus quia 
+          <lb ed="#L"/>secundum multos beatitudines ponuntur tantum in actu non in habitu 2a pars probatur 
+          <lb ed="#L"/>quia secundum diversas rationes formales causarum sequi possunt deversi modi causa<lb ed="#L"/>les 
+          seu causandi </p>
+        
+        <p><g ref="#pilcrow"/>3m licet dona spiritus sancti a virtutibus non distinguuntur tamen <corr><del rend="strikethrough">nullo modo</del></corr> 
+          <lb ed="#L"/>modo perfectiori mentes fidelium secundum rationem formalem donorum quam virtutum 
+          <lb ed="#L"/>elevantur prima patet per dictam 2a patet quia perfectior <choice><orig>mocio</orig><reg>motio</reg></choice> est assistentia spiritus 
+          <lb ed="#L"/>sanci quae donis communitatur[?] ergo </p> 
+        
+        <p><g ref="#pilcrow"/>4m licet spiritus sancti dona secundum eodem esse materiale 
+          <lb ed="#L"/>et habituale specifice sint distincta tamen in substantia rationali caritate informata huiusmodi 
+          <lb ed="#L"/>dona unitive sunt connexa <g ref="#dot"/> prima pars patet quia virtutes inter se sunt distinctae 
+          <lb ed="#L"/>ergo etiam dona sunt distincta 2am partem ponit expresse <name ref="#GregoryGreat">gregorius</name> primo <title>moralium</title> 
+          <lb ed="#L"/>tractans illud <title>iob</title> primo <quote ana="#io1_4"><sic>ibam</sic> filii eius et faciebant convivia per domos 
+          <lb ed="#L"/>unusquisque  in <sic>domo sua</sic></quote> </p> 
+        
+        <p><g ref="#pilcrow"/>Ex hiis omnibus sequitur quaestionis responsio scilicet pars 
+          <lb ed="#L"/>affirmativa prima patet quia nullus salvabitur sine illis de lege dei ordinata 
+          <lb ed="#L"/>2a pars patet per dicta quomodo et quomodo non distinguuntur </p> 
+        
+        <p><g ref="pilcrow"/>Contra primam conclusionem arguitur 
+          <lb ed="#L"/>lumini prophetico potest subesse falsum ergo patet consequentia quia lumen propheticum est cla<lb ed="#L"/>rius 
+          et perfectius lumine fidei antecedens patet de propheta dicente regi <name ref="#Hezekiah">ezechiae</name> <!-- this is King Hezekiah --> 
+          <lb ed="#L"/><quote ana="#is38_1">dispone domui tuae quia morieris et non vives</quote> et tamen post vixit 
+          <lb ed="#L"/>annis 15<g ref="#dot"/> <g ref="#slash"/> Item <title ref="#ion">iona</title> <quote ana="ion3_4">adhuc 40 dies et <name>ninive</name> subvertetur</quote> 
+          <lb ed="#L"/>et tamen civitas non fuit subversa ergo </p>
+        
+        <p><g ref="#pilcrow"/>2o quia aliquis fidelis existens tempore 
+          <lb ed="#L"/><choice><orig>concepcionis</orig><reg>conceptionis</reg></choice> christi post horam incarnationis credidit ipsum incarnandum 
+          <lb ed="#L"/>et hoc eadem fide qua credidit ipsum incarnandum antequam esset incarnatus quia vera[?] 
+          <pb ed="#L" n="213v"/><lb ed="#L"/>ipsum latuit momentum <choice><orig>incarnacionis</orig><reg>incarnationis</reg></choice> hoc posito talis falsum credidit <g ref="#slash"/> ergo </p> 
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>3o actui latriae quam fides imperat potest subesse falsum ergo fidei consequentia bona 
+          <lb ed="#L"/>patet antecedens quia fidelis potest adorare hostiam non sacratam ipsam credens 
+          <lb ed="#L"/>consecratam </p> 
+        
+        <p><g ref="#pilcrow"/>4o sequeretur quod christus neccessario fuisset incarnatus passus etc consequens est falsum 
+          <lb ed="#L"/>ergo patet consequentia quia <name ref="#Abraham">abraham</name> credidit fide infusa per christi passionem humani 
+          <lb ed="#L"/>genus liberandum ergo si eius fidei non potuit subesse falsum sequitur propositum et sic 
+          <lb ed="#L"/>de quolibet futuro credito posset argui </p> 
+        
+        <p><g ref="#pilcrow"/>5o non plus repugnat fidei 
+          <lb ed="#L"/>apparens et non existens bonum quam caritati sed ex caritate potest diligi apparens 
+          <lb ed="#L"/>et non existens bonum sicut patet de <choice><orig>ypocrita</orig><reg>hypocrita</reg></choice> qui diligitur quia apparet bonus et in<lb ed="#L"/>trinsece 
+          est malus</p> 
+
+        <p><g ref="#pilcrow"/>contra 3m corollarium conclusionis 2ae arguitur primo sic quia una pars 
+          <lb ed="#L"/>alteri videtur repugnare quod patet qui modus et ratio agendi sequitur modum et 
+          <lb ed="#L"/>rationem essendi ergo si caritas est una distincta virtus sequitur quod ipsa non est 
+          <lb ed="#L"/>effectiva omnis virtus causaliter </p> 
+        
+        <p><g ref="#pilcrow"/>2o credere est aeque bonum vel melius quam diligere 
+          <lb ed="#L"/>ergo caritas non excedit fidem sed fides ipsam antecedens patet per illud <ref><title ref="#heb">ad hebraeos</title> 
+          <lb ed="#L"/>11o</ref> <quote ana="#heb11_33">sancti per fidem vicerunt regna <g ref="#slash"/> item <ref>prima <title ref="Iio">Iohannis</title> 5o</ref> <quote ana="#Iio5_1">qui credit quoniam 
+          <lb ed="#L"/>christus est filius dei ex deo natus est</quote> et ibidem <quote ana="Iio5_4">omne quod natum est ex deo 
+          <lb ed="#L"/>vincit mundum</quote> etc <g ref="#slash"/>item <ref><title ref="io">iohannis</title> primo</ref> <quote ana="#io1_12">dedit eis potestatem filios dei fieri 
+            <lb ed="#L"/>hiis qui credunt</quote> etc <g ref="#slash"/> item <name ref="#Paul">apostolus</name> <quote ana="#gal3_11"><!-- #ro1_17 #heb10_38"-->iustus ex fide vivit</quote> <g ref="#slash"/> item <ref><title ref="#lc">lucae</title> 
+          <lb ed="#L"/>7o</ref> <quote>fides tua te <sic>salvum</sic> fecit</quote> <g ref="#slash"/> item ad <ref><title>romanos</title> 5o</ref> iustificati ex 
+          <lb ed="#L"/>fide</quote> ex quibus sequitur quod fides perfectior est caritate </p> 
+        
+        <p><g ref="#pilcrow"/>3o contra dictam sunt rationes 
+          <lb ed="#L"/>principales in pede quaestionis </p> 
+          
+        <p><g ref="#pilcrow"/>contra primam partem 3ae conclusionis homo non tenetur ordinem 
+          <lb ed="#L"/>servare in diligendo ergo antecedens probatur quia ex vi domini praecepti homo tenetur quamlibet 
+          <lb ed="#L"/>aequaliter diligere probatia quia homo tenetur diligere quamlibet proximum sicut se ipsum sed 
+          <lb ed="#L"/>quilibet est aequaliter proximus ergo </p> 
+        
+        <p><g ref="#pilcrow"/>2o per <ref><name>bernardus</name> libro <title>de diligendo deum</title></ref> dicentem  
+          <lb ed="#L"/>amor nescit gradum dignitatem non desiderat sed si amor nescit 
+          <lb ed="#L"/>gradum nullus ordo erit <g ref="#slash"/> in amore </p> 
+        
+        <p><g ref="#pilcrow"/>3o sic se habet fides ad credibilia 
+          <lb ed="#L"/>sic caritas ad diligibilia sed omne fidei aequaliter credendum est ergo omne 
+          <lb ed="#L"/>diligendum caritate aequaliter diligitur maior et minor patent </p>  
+        
+          <p><g ref="#pilcrow"/>4o secundum <name ref="#Aristotle">philosophum</name> ama<lb ed="#L"/>tor 
+          sui vituperandus est ergo homo non tenetur se plus quam omne ad a deo 
+          <lb ed="#L"/>diligere </p>    
+        
+        <p><g ref="#pilcrow"/>5o probatur quod non debeamus diligere inimicum quia si sicut aut foret 
+          <lb ed="#L"/>magis meriotrium diligere amicum vel inimicum non amicum quia virtus 
+          <lb ed="#L"/>est circa difficile et ethnici amicos diligunt nec inimicum quia tunc 
+          <lb ed="#L"/>foret magis demeritorium odire inimicum quam amicum quod est falsum 
+          <lb ed="#L"/>patet consequentia quia quam unum oppositorum est diligendum et bonum tam alterum est fugiendum 
+          <lb ed="#L"/>et malum </p> 
+        
+        <p><g ref="#pilcrow"/>Ad primum negatur antecedens ad probationem dicitur quod propheta dicens regere 
+          <lb ed="#L"/>moriturum loquebatur secundum cursum naturae secundum dispositionem quam vidit in lumine 
+          <lb ed="#L"/>prophetico nec ars nec natura posset ipsum liberare a morte et hoc eciam ex 
+          <lb ed="#L"/>parte dei revelantis ipsi regi denuntiavit vicem[?] cum postea propheta 
+          <pb ed="#L" n="214r"/><lb ed="#L"/>praenunciavit ei vitam prolongatam annis 15 <g ref="#dot"/> hoc fuit de divina potentia 
+          <lb ed="#L"/>non secundum naturalem influentiam et ideo utrumque dictum fuit verum suo modo <g ref="#slash"/> Item 
+          <lb ed="#L"/><name>ezechiae</name> fuit mortuus peccatis ut viveret vita iustitiae <g ref="#slash"/> similiter de <name>iona</name> 
+          <lb ed="#L"/>dicitur quod prophetia sua fuit condicionalis saltim conditione sub intellecta scilicet si 
+          <lb ed="#L"/>ninivitae[?] manent in suis peccatis civitas subverteretur et quia condicio 
+          <lb ed="#L"/>non fuit impleta ideo prophetia non fuit falsa <g ref="#slash"/> 2o posset dici quod civitas 
+          <lb ed="#L"/>fuit subversa moraliter et spiritualiter non subversione minoris sed peccatoris 
+          <lb ed="#L"/>quia scilicet per puniam[?] habitantes fuerunt conversi a peccatis et sic de versione illud fuit 
+          <lb ed="#L"/>impletum </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 2m dicitur quod tam in veteri quam in novo testamento credere 
+          <lb ed="#L"/>in liberatorem fuit actus fidei sed credere christum venturum vel venisse 
+          <lb ed="#L"/>non erat actus fidei in veteri testamento quia nullus credulitatem suam 
+          <lb ed="#L"/>tenebatur ad hoc determinare scilicet ad certam horam vel tempus nisi hoc eis 
+          <lb ed="#L"/>fuisset revelatum mediate vel immediate sed in novo testamento specialiter tene<lb ed="#L"/>mur 
+          credere eum iam venisse propter scripturas hoc asserentes et propter ecclesiae de<lb ed="#L"/>terminacionem 
+          et auctoritatem huiusmodi scripturas approbantem </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 3m negatur antecedens ad 
+          <lb ed="#L"/>probacionem de adorante hostiam dictum fuit prius <g ref="#slash"/> primo quod fides imperat 
+          <lb ed="#L"/>adoracionem illam condicionaliter puta si hostia sit consecrata ita quod 
+          <lb ed="#L"/>actui latriae ut a fide est imperatus numquam potest subesse falsum sicut dicit 
+          <lb ed="#L"/><name>thomas de argentis[?ia]</name> <g ref="#slash"/> 2o dicit <name>hugolinus</name> quod cermiomen[?] exteriores bene 
+          <lb ed="#L"/>terminatur ad rem visam sed adoratio interior semper dirigitur ad ipsum deum non ad 
+          <lb ed="#L"/>hoc quod videtur ideo dato quod non sit fictam consecratio tamen cor non errat <g ref="#slash"/> nec 
+          <lb ed="#L"/>fides fallit </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 4m dicit <name>thomas de argentina</name> quod reducendo christi passionem 
+          <lb ed="#L"/>ad legem dei ordinatam fuit neccessarium christum pati et incarnari ideo fidei 
+          <lb ed="#L"/><name>abrahae</name> potuit subesse falsum quia talis fides <name>abrahae</name> non fuit de materia  
+          <lb ed="#L"/>liberationis ut reducitur in dei potentiam absolutam sed eciam ut reducitur 
+          <lb ed="#L"/>inordinatam <g ref="#slash"/> sed illud non videtur vallere quia secundum ipsum non fuit christum pati 
+          <lb ed="#L"/>neccessarium de absoluta dei potentia ergo sequitur quod fidei <name>abrahae</name> potuit sub<lb ed="#L"/>esse 
+          falsum de potentia absoluta dei quod videtur falsum <g ref="#slash"/> ideo aliter respondetur negando consequentiam 
+          <lb ed="#L"/>rationis et ad probationem quia potuit aliter esse etc <g ref="#slash"/> hic dicitur dicendo quod si sint reve<lb ed="#L"/>latio 
+          vel potuit aliter esse quam verba revelationis significabant ad mentem reci<lb ed="#L"/>pientis 
+          vel aliter quam significabant ad mentem revelantis <g ref="#slash"/> primo modo adhuc dupliciter 
+          <lb ed="#L"/>quia vel recipiebat verba revelationis sicut debebat vel non sed sicut vo<lb ed="#L"/>lebat 
+          <g ref="#slash"/>primo modo 2ae distinctionis et 2o modo primae distinctionis impossibile est aliter evenire quam fuit 
+          <lb ed="#L"/>a deo revelatum quia non potuit aliter esse quam verba revelationis 
+          <lb ed="#L"/>significabat ad modum revelantis et si ille cui fit revelatio capit verba 
+          <lb ed="#L"/>sicut debet non potest aliter esse <g ref="#slash"/> sed 2o modo 2ae distinctionis tunc potest aliter esse et tunc er<lb ed="#L"/>ror 
+          non procedit ex fide infusa sed acquisita elicita et temaria </p> 
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad 5m negatur maior quia in dilectione innitimur directioni nostrae cogitationis 
+          <lb ed="#L"/>quae est lumen et directorium fallibile sed in fide infusa innitimur directioni divino  
+          <pb ed="#L" n="214v"/><lb ed="#L"/>et lumini increato principaliter motivo[?] et ideo non est similem </p> 
+        
+        <p><g ref="#pilcrow"/>2o potest negari minor 
+          <lb ed="#L"/>quia caritas infusa non diligit nisi quod debet sed si homo errat in di<lb ed="#L"/>ligendo 
+          hoc non provenit ex caritate infusa sed ex habitu in nato naturali 
+          <lb ed="#L"/>vel ex caritate sponte elicita affectionali nam caritas vera non quaerit 
+          <lb ed="#L"/>quae sua sunt sed quae <name>ihesu christi</name> nec agit per peram[?] </p> 
+        
+        <p><g ref="#pilcrow"/>3o licet <choice><orig>ypocrita</orig><reg>hypocrita</reg></choice> sit 
+          <lb ed="#L"/>dilectus et homo fictus sit nec ut sic est diligendus tamen ut caritative di<lb ed="#L"/>ligitur[?] 
+          non est quidam fictum sed creatura bona seu existens bonum </p> 
+        
+        <p><g ref="#pilcrow"/>pro 
+          <lb ed="#L"/>ista materia fidei nota <name>thomas de argentina</name> 24 distinctione 3ii articulo 3o ubi po<lb ed="#L"/>nit 
+          triplex simbolum quod legitur in ecclesia <g ref="#slash"/> primum est apostolorum quia ab eis 
+          <lb ed="#L"/>compositum <g ref="#slash"/> 2m dicitur nicenum quia in consilio niceno compositum fuit <g ref="#slash"/> 3m est 
+          <lb ed="#L"/>athanasii quia ipsum composuit contra haereticos <g ref="#slash"/> primum dicitur in prima et complecto modo 
+          <lb ed="#L"/>2m dicitur in missa 3m dicitur de <name>marie</name> tamen devorsimodo secundum diversos usus 
+          <lb ed="#L"/>et ponit ibi rationes </p> 
+        
+        <p><g ref="#pilcrow"/>Item vide quia primo sunt 12 articuli <g ref="#slash"/> primum dicit <name>petrus</name> scilicet 
+          <lb ed="#L"/>credo in deum patrem omnipotentem creatorem caeli et terrae <g ref="#slash"/> 2m <name>iohannes</name> et in <name>ihesum 
+          <lb ed="#L"/>christum</name> filius eius unicum dominum nostrum <g ref="#slash"/> 3m <name>iacobus zebedei</name> qui concep<lb ed="#L"/>tus 
+          est de spiritu sancto <corr>nat<add>us</add><del>to</del></corr> ex materia virgine <g ref="#slash"/> 4m <name>andreas</name> passus 
+          <lb ed="#L"/>sub <name>poncio pillato</name> <g ref="#slash"/> 5m <name>philippus</name> descendit ad inferna <g ref="#slash"/> 6m <name>thomas</name> 
+          <lb ed="#L"/>3a die<!-- or diem? --> resurrexit a mortuis <g ref="#slash"/> 7m <name>bartholomeus</name> ascendit ad caelos se<lb ed="#L"/>det 
+          ad dexteram patris <g ref="#slash"/> 8m <name>mathaeus</name> inde venturus iudicare 
+          <lb ed="#L"/>vivos et mortuos <g ref="#slash"/> 9m <name>iacobus alphae</name> credo in spiritum sanctum <g ref="#slash"/> 10m 
+          <lb ed="#L"/>sanctam ecclesiam catholicam sanctorum communionem <g ref="#slash"/> <name>iudas</name> 11m remissionem peccatorem 
+          <lb ed="#L"/><g ref="#slash"/>12m carnis resurrectionem vitam aeternam amen </p> 
+        
+        <p><g ref="#pilcrow"/>Ad primam responsionem in pede conclusionis 
+          <lb ed="#L"/>dicitur ut supra quod licet credere non sit actus voluntatis elicitive est tamen ab ea im<lb ed="#L"/>perative 
+          ideo dicit <name ref="#Augustine">augustinus</name> cetera potest homo nolens credere vero non nisi volens </p> 
+        
+        <p><lb ed="#L"/><g ref="#pilcrow"/>Ad aliud dicit <name>thomas de argentina</name> quod christus habuit fidem secundum habitum sed non secundum 
+          <lb ed="#L"/>actum <g ref="#slash"/> 2o potest dici quod christus non habuit fidem nec omnes virtutes formaliter 
+          <lb ed="#L"/>sed supereminentur et superaequivalenter <g ref="#slash"/> 4o posset dici quod fides et scientia non <corr><del>sr</del></corr> 
+          <lb ed="#L"/>repugnant sed possunt simul stare in eodem respectu eiusdem <g ref="#slash"/> 4o posset dici quod christus 
+          <lb ed="#L"/>habuit veram scientiam et scivit omnia quae vidit in verbo scientia infusa ut compre<lb ed="#L"/>hensor 
+          sed tamen habuit fidem et credidit multa secundum habitum experi?lem et 
+          <lb ed="#L"/>acquisitum ut supra patuit declaratum </p> 
+        
+        <p><g ref="#pilcrow"/>Ad primum contra corollarium 3m 2ae 
+          <lb ed="#L"/>conclusionis <g ref="#slash"/> dicitur quod ratio agendi caritatis potest sumi dupliciter <g ref="#slash"/> uno modo elicitive <g ref="#slash"/> alio modo  
+          <lb ed="#L"/>imperative <g ref="#slash"/> primo modo[?] caritas habet unicum et singularem modum agendi sicut essendi 
+          <lb ed="#L"/>sed 2o modo non ymmo generale ut dictum est </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 2m negatur antecedens sumptam[?] credere 
+          <lb ed="#L"/>cum exclusione dilectionis ad auctoritates quae videntur oppositum sonare dicitur quod 
+          <lb ed="#L"/>loquuntur de fide formata caritate seu informata per caritatem et non 
+          <lb ed="#L"/>de fide simpliciter </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 2m argumentum principale conclusionis quod videtur facere contra dicta in 
+          <lb ed="#L"/>2a conclusione negatur antecedens et cum probatur quia aliqui invincibiliter etc <g ref="#slash"/> dicitur primo quod si tales 
+          <lb ed="#L"/>infideles facerent quod in se est illuminarentur a deo et virtutes eis infunderentur  
+          <pb ed="#L" n="215r"/><lb ed="#L"/>et ideo tales non ignorant christum ininvincibiliter et quando dicitur quod omem genus 
+          <lb ed="#L"/>tormenti etc dicitur quod illi stante eorum infidelitate non faciunt aliquid propter deum 
+          <lb ed="#L"/>unde potest dici quod si facerent talia propter deum superficialiter aestimative optando 
+          <lb ed="#L"/>non tamen libere affective taliter vere virtuose sicut debent opera sua in deum 
+          <lb ed="#L"/>dirigenda </p>  
+        
+        <p><g ref="#pilcrow"/>Ex hiis patet quod alterius <corr><del rend="expunctuated">rationis</del></corr> legis quam nostrae sectatores 
+          <lb ed="#L"/>non possunt facere quae agunt finaliter propter deum principaliter nam extra <title>de summa 
+          <lb ed="#L"/>trinitate et fide catholica</title> capitulo firmiter dicitur quod extra romanam ecclesiam nulla est 
+          <lb ed="#L"/>vita salutis et per consequens nec habitus vere virtutis et ideo cum deus dat 
+          <lb ed="#L"/>talibus salutem dat eis ecclesiae unionem et virtutum infusionem </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>primum contra 3am conclusionem negatur antecedens ad probationem quia ex vi praecepti etc dicitur quod li sicut est 
+          <lb ed="#L"/>nova similitudinis non aequaliter </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 2m quod est dictum <name>bernardi</name> dicitur quod gradum 
+          <lb ed="#L"/>in amore scire potest esse dupliciter <g ref="#slash"/> uno modo inter diligibile et diligibile <g ref="#slash"/> alio modo in<lb ed="#L"/>ter 
+          diligens et dilectum <g ref="#slash"/> primo modo amor considerat dignitatem et ponit 
+          <lb ed="#L"/>gradum et ordinem quia magis bonum magis notum sibi diligit magis 
+          <lb ed="#L"/><g ref="#slash"/>sed 2o modo non ponit gradum quia amor non sit amatorem sui ipsius sed amati<g ref="#dot"/> 
+          <lb ed="#L"/>secundum <name>hugo[hugolinus?]</name> de arra animae ymmo transformat amantem in amatum secundum 
+          <lb ed="#L"/><name>dyonisium</name> <title>de divinis nominibus</title> ideo dicit <name>tullius</name> amor aut parem concipit aut 
+          <lb ed="#L"/>facit </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 3m dico ad amorem quod non est similem de fide et caritate quia ratio 
+          <lb ed="#L"/>credendi est veritas fidei perscripturam revelata et <choice><orig>anunciata</orig><reg>annuntiata</reg></choice> ideo 
+          <lb ed="#L"/>aequaliter sunt credenda sed ratio diligiendi est bonitas vel ut in se plena<g ref="#dot"/> 
+          <lb ed="#L"/>vel in aliis perticipata et quia talis participatio non est aequalis ideo talia 
+          <lb ed="#L"/>diligibilia non sunt aequaliter diligenda </p> 
+        
+        <p><g ref="#pilcrow"/>Ad qm dicitur quod quilibet se moderate 
+          <lb ed="#L"/>diligens et ordinante est commandandus sed vituperabile[?] est habere in modera<lb ed="#L"/>tum 
+          amorem sui et sic ipsemet <name>aristoteles</name> se exponit  </p> 
+        
+        <p><g ref="#pilcrow"/>Ad 5m communiter dicitur quod 
+          <lb ed="#L"/>ceteris paribus melior est dilectio inimici quam amici <g ref="#slash"/> 2o potest dici quod ad 
+          <lb ed="#L"/>hoc quod dilectio inimici sit magis meritoria quam amici non requiritur 
+          <lb ed="#L"/>quod actus sit aeque intensus intentionem[?] individui in specie sed sufficit maior 
+          <lb ed="#L"/>intensio spei in genere </p> 
+        
+        <p><g ref="#pilcrow"/>Ad rationem <sic>rationem</sic> in pede conclusionis factam patet per dictam 
+          <lb ed="#L"/>solucio circa 3am conclusionem et sic finitur 3us liber  </p> 
+
+
+        
+      </div>  
+    </body>
+  </text>
+</TEI>

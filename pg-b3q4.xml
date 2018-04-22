@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum III, Quaestio 4</title>
+        <author>Peter Gracilis</author>
+        <editor>Natalie Tsottles</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.01-dev-master">
+          <title>Librum III, Questio 4</title>
+          <date when="2014-01-27">January 27, 2013</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-01-27">January 27, 2013</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="status">
+        <note type="status">Draft</note>
+        <note type="collobaration">Yes</note>
+      </div>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body xml:lang="la">
+      <div xml:id="pg-b3q4">
+        <head>Librum 3, Questio 4</head>
+        <div>
+          <head>Quaestio</head>
+        <p xml:id="pgb3q4-usfnev"><pb ed="#L" n="211v"/>Utrum spes, fides, caritas, quae ad salutem finaliter requiruntur, a Spiritus Sancti donis ac inter se realiter distinguuntur?</p>
+        </div>
+        <div>
+          <head>Videtur quod non</head>
+          <div>
+            <head>Prima ratio</head>
+        <p>Quod non <app><lem>quia</lem><rdg wit="#L" type="intextu" cause="repetitio">quia</rdg></app> fides, spes, caritas non requiruntur ad salutem cuiuslibet viatoris, ergo. Antecedens probatur quia, si fides requireretur, hoc esset quia esset virtus et medium merendi. Sed hoc patet falsum, cum sit habitus intellectus et credere actus voluntatis. Tum secundo quia <name ref="#Christ">Christus</name> habuit omnes virtutes, non tamen habuit fidem, ergo <app><lem>fides</lem><rdg wit="#L">fideus</rdg></app> non est virtus.</p>
+        
+        
+        <p>Secundo arguitur de spe quia cum spes secundum <name ref="#Boethius">Boetium</name> sit passio consolativa, sequitur quod non sit virtus ad salutem requisita.</p>
+        
+        <p>Tertio probatur de caritate quia caritas non est una virtus, ergo non est virtus. Consequentia tenet per <name ref="#Boethius">Boetium</name> dicentem, <cit><quote>omne quod est ideo est, quia unum numero est.</quote><bibl>Boethius, <title>In Isagogen Porphyrii</title>, I, c. 10; ed. S. Brandt, Wien Leipzig 1906, (CSEL 48), p. 162, l. 2</bibl></cit> Antecedens probatur quia cum caritas sit forma omnium virtutum, oportet eam multiplicari secundum multiplicationem omnium virtutum.</p>
+          </div>
+          <div>
+            <head>Secunda ratio</head>
+        <p>Secundo principaliter stat aliquem salvari sine virtute infusa, ergo. Antecedens probatur quia, aliqui invincibiliter <name ref="#Christ">Christum</name> et legem ignorantes salvabuntur, et tamen non habent virtutem infusam, ergo. Assumptum patet quia stat homines alicuius sectae facere quidquid faciunt pro Deo et in omnibus credere se obsequium patrare Deo immo omnem genus suppliciorum non solum patienter, immo etiam pati gaudenter propter Deum, ergo dato quod illi male agant tamen videntur excusari propter ignorantiam invincibilem et per consequens cum nullus dampnetur, nisi propter culpam sequitur quod illi salvabuntur. </p>
+         </div>
+          <div>
+            <head>Tertia ratio</head>
+        <p>Tertio, nulla sunt Spiritus Sancti dona, ergo illa non distinguuntur a virtutibus praedictis. Antecedens probatur quia si sic, aut talia essent tot distincti quot sunt dona vel esset unus habitus omnium donorum, sed <unclear cert="medium">neutrum</unclear> potest dari, ergo. Secundo quia autem habitus doni esset habitus caritatis, vel inferior vel superior et perfectior illo. Si est idem, sequitur quod habens caritatem, habet omnia dona, quod est falsum quia puer baptizatus noviter non habet donum scientiae sapientiae consilii. Si perfectior, sequitur quod caritas non est excellentissimum donum Dei, contra <ref><name>Augustinum</name> III <title ref="#deTrinitate">De trinitate</title>, capitulo undevicesimo.</ref> Nec inferior quia dona sunt super ipsas virtutes. </p>
+          </div>
+        </div>
+        <div>
+          <head>Ad oppositum</head>
+       
+          <p>Ad oppositum est <ref><name>magister</name></ref> in dictis distinctionibus.</p>
+          
+        </div>
+        <div>
+          <head>Prima conclusio</head>
+          <p>Prima conclusio: sicut fides est virtus theologica exclusiva omnis falsitatis, sic <app><lem><supplied>fides</supplied></lem><rdg wit="#L">spes</rdg></app> est virtus theologica distincta a virtutibus spei et caritatis.</p> 
+          
+          <p>Quod fides sit virtus patet per <ref ana="#pl-b3d23c2"><seg><name ref="#Lombard">magistrum</name> distinctione vicesima tertia</seg><bibl><author>Lombard</author>, <title>Sententia</title>, III, d. 23, c. 2 (II, 655)</bibl></ref>. Secundo probatur ratione quia habitus laudabilis inclinans potentiam ad actum laudabilem et meritorium est virtus. Sed fides est huiusmodi ergo. Maior patet per descriptionem virtutis. Minor patet quia cuius assensus est ad salutem necessarius. Talis de se est laudabilis et meritorius ratione actus concomitantis voluntatis a caritate procedentis.</p> 
+          
+          <p>Sed quod sit exclusiva omnis falsitatis apparet quia alias Deus deciperet aliquem et eum faceret falso assentire quod est falsum. Confirmatio quia spes non confundit ergo, nec fides fallit aut decipit. Consequentia patet a simili et antecedens est <name ref="#Paul">Apostoli</name>. Sed quod spes sit virtus etiam theologica patet quia omnis virtus cuius principale obiectum est bonum divinum est theologica. Sed spes est huiusmodi ergo confirmatur per <ref><seg><name ref="#GregoryGreat">Gregorium</name> <title>Super Iob</title>, capitulo primo,</seg><bibl>Gregory the Great, On Job, Book I, c. 33 (PL, column 548)</bibl></ref> ubi tres filias ipsius <name ref="#Job">iob</name> dicit significare tres virtutes theologicas scilicet fidem spem et caritatem.
+        </p> 
+        
+          <p>Sed quod illae sint distinctae inter se patet <ref><title ref="#Icor">I ad Corinthios</title> decimo tertio,</ref> <cit><quote ana="#Icor13_13">nunc autem manent <pb ed="#L" n="212r"/> fides spes caritas tria haec, maior autem horum est caritas.</quote><bibl><title>I Corinthios</title>13:13</bibl></cit> Confirmatur quia fides et spes evacuabuntur et non caritas, ergo. Antecedens patet <ref><title>I Corinthios</title> decimo tertio,</ref> <cit><quote ana="#Icor13_10">cum venerit quod perfectum est tunc evacuabitur quod ex parte est.</quote><bibl><title>I Corinthios</title> 13:10</bibl></cit> 
+       </p>
+        <div>
+          <head>Corollaria</head>
+        <div>
+          <head>Primum Corollarium</head>
+          <p>Primum corollarium: licet credere non sit actus meritorius formaliter aut actus voluntatis elicitive tamen credere debite est actus meritorius et actus voluntatis imperative. Prima patet quia credere nec est velle nec nolle nec actus medius voluntatis. Secunda probatur ex probatione primae partis quia cum voluntas imperat propter Deum et ex caritate actum credendi, tunc homo credendo meretur. 
+          </p>
+        </div>
+        <div>
+          <head>Secundum Corollarium</head>
+        <p>Secundum corollarium: sicut nulla fides est virtus aut meritoria nisi fides formata, sic fides dirigit mentem solum infallibiliter in fidei obiecta. Prima pars probatur quia si non, sequitur quod quis lege stante posset mereri praemium aeternum sine caritate, quod est falsum. Patet consequentia quia stat aliquem habere fidem sine caritate. Secunda patet quia si aliter quam infallibiliter fides dirigeret in obiecta fidei sequeretur, quod fidei posset subesse falsum quod repugnat conclusioni. 
+        </p>
+        </div>
+        <div> 
+          <head>Tertium Corollarium</head>
+        <p>Tertiam corollarium: licet non stet fidei infusae subesse falsum seu fallere aut falli, tamen ex fide acquisita viator potest falso assentire et decipi. Prima pars patet per dicta. Secunda patet de haereticis <!-- extra qui in ms witness --> qui multa falsa credunt et pertinaciter defendunt. </p>
+        </div>
+          <div>
+            <head>Ex dictis sequitur primo</head>
+        <p>Ex dictis, primo sequitur quod non secundum identitatem materialem obiectorum debet sumi identitas virtutum seu habituum creatoris. Patet quia tunc praedictae virtutes non essent distinctae, quod repugnat dictis. Et patet consequentia quia eadem est materialis identitas illarum virtutum, scilicet Deus in quem tendit fides sub ratione veri, ardui spes, et caritas sub ratione diligibilis boni sed per formalem identitatem virtutum intellegitur ratio formalis ipsarum. 
+        </p>
+          </div>
+          <div>
+            <head>Ex dictis sequitur secundo</head>
+        <p>Secundo, sequitur quod licet spes sit virtus a fide formaliter differens, tamen seclusa hoc non est auctoritate vel autentice, notum et evidens. 
+          Prima patet per dicta. Secunda probatur a <name ref="#Scotus">Scoto</name> distinctione 36, tertii, ubi solvit rationes <name ref="#HenryOfGhent">Gavandensi</name> oppositum tenentis.
+        </p>
+          </div>
+          <div>
+            <head>Ex dictis sequitur tertio</head>
+        <p>Tertio, sequitur quod spes non est homini naturaliter innata, cum sit qualitas mentis a Deo gratuite infusa. Patet. 
+        </p>
+          </div>
+        </div>
+        </div>
+        <div>
+          <head>Secunda conclusio</head>
+          <p>Secunda conclusio: licet sine virtutibus spe et caritate, quis possit licite sperare salvari finaliter. Tamen sine praedictis virtutibus lege stante, nullus posset mereri, seu proficere salubriter. Prima pars patet quia aliter sequeretur quod quilibet existens extra gratiam deberet desperare de salute aeterna, consequens est falsum. Secunda pars probatur per illud <ref corresp="#pgb3q4-slhmpd"><name ref="#Paul">apostoli</name> <title ref="#Icor">I ad Corinthios</title> decimo tertio,</ref> <cit><quote xml:id="pgb3q4-Qslhmpd" ana="#Icor13_1">si linguis hominum loquar et angelorum caritatem, autem non habeam nihil mihi prodest.</quote><bibl corresp="#pgb3q4-slhmpd"><title>I Corinthios</title> 13:1</bibl></cit> 
+        </p>
+        
+        <p>Confirmatur de virtute spei quia secundum <name ref="#Lombard">Magistrum</name> in hiis distinctionibus, virtutes morales sunt sic connexae quod qui unam habet, omnes habet. Igitur cum nullus viator possit proficere sine caritate, sequitur quod nullus proficere poterit sine virtute spei. 
+        </p>
+          
+          <div>
+            <head>Corollaria</head>
+            <div>
+              <head>Primum Corollarium</head>
+        <p>Primum corollarium: licet carens virtute et gratia possit licite sperare aeternam salutem, tamen nullus sine gratia et virtute debet sperare aeternam salutem seu beatitudinem. Prima pars est in sensu diviso, sicut prima pars conclusionis, quae patet de se. </p>
+        
+              <p><pb ed="#L" n="212v"/>Secunda pars probatur quia talis expectatio non foret spes sed praesumptio quae non est alicui licita, secundum quod dicit <name ref="#Lombard">Magister</name> 26 distinctione tertii, nam dicit quod, <cit><quote ana="#pl-b3d26c1-a">sine meritis beatitudinem sperare non spes sed praesumptio dici potest.</quote><bibl>Lombard, III, d. 26, c. 1 [II:671]</bibl></cit> </p>
+
+        <p>Confirmatur quia tunc infidelis durante infidelitate licite et ordinate expectaret aeternam salutem, quod est falsum. Consequentia patet quia eadem est ratio utrobique. </p>
+            </div>
+            <div>
+              <head>Secundum Corollarium</head>
+        <p>Secundum corollarium: licet non omnis vera apprehensio fidei sit meritoria praemii aeterni, tamen sine vera apprehensione obiecti Catholicae fidei non est in viatore ratio merendi. Prima pars patet quia fides informis non est meritoria gloriae cum stet sine caritate. Secunda patet quia <cit><quote>sine fide impossibile est placere Deo.</quote><bibl>Hebrews 11:6</bibl></cit> Confirmatur quia ratio merendi non stat sine caritate, ergo non stat sine fide infusa formata. Tenet consequentia quia illae virtutes sunt connexae. </p>
+            </div>
+            <div>
+              <head>Tertium Corollarium</head>
+              <p>Tertium corollarium: licet caritas sit virtus distincta omnem aliam excedens <unclear cert="high">perfectionaliter</unclear>, tamen inclinative, instrumentaliter, effective, causaliter ipsa potest dici omnis virtus universaliter. 
+                
+                Prima pars patet per dicta, maxime ex deductione <ref><name ref="#Paul">Apostoli</name> <title ref="#Icor"><supplied>I</supplied> Ad Corinthios</title> 13</ref>. 
+                
+                Sed quod omnem aliam virtutem excedat patet per illud <ref><title ref="#mt">Matthaeum</title> <supplied>22</supplied></ref>, <cit><quote ana="#mt22_38">hoc est primum et principale mandatum,</quote><bibl>Mat 22:38</bibl></cit> scilicet, diliges, ergo virtus unde procedit seu habitus sibi correspondens sibi est perfectissimus. Confirmatur per <ref><seg><name ref="#Augustine">Augustinum</name> decimo quinto <title>De trinitate</title> capitulo decimo octavo</seg><bibl><author>Augustinus</author> <title>De Trinitate</title> XV, c. 18</bibl></ref> dicentem quod nullum Dei donum est caritate excellentius. Item dicit <ref><name ref="#Paul">Apostolus</name>,</ref> <cit><quote ana="#Icor13_13">maior autem horum est caritas.</quote><bibl><title>I Corinthios</title> 13:13</bibl></cit>
+        </p>
+        
+              <p>Sed quod caritas causaliter et motive potest dici quaelibet virtus patet per <ref><name ref="#Augustine">Beatum Augustinum</name> in <title>De laude caritatis</title>,</ref> dicentem <cit><quote>ille servat totum quod continetur in divinis sermonibus qui servat caritatem in omnibus.</quote><bibl>Cf. PL 39:1534 <!-- probably not a direct quote --></bibl></cit> Item <ref><name ref="#GregoryGreat">Gregorius</name></ref>, <cit><quote>quidquid praecipitur in sola caritate solidatur,</quote><bibl>Gregory the Great, Homily 27 on the Gospels on friendship, chapter 1.<!-- homilies on the Gospel of John, homily 27 http://books.google.com/books?id=8OFAyNEfPbsC&pg=PA207 --> </bibl></cit> et sequitur <quote>praecepta dominica multa sunt et unum</quote> etc. Item ad hoc est <ref><name ref="#Paul">Apostoli</name> deducitur <title ref="Icor"><supplied>I</supplied> Ad corinthios</title> decimo tertio</ref>, ubi enumerat omnes effectus virtutum omnium tam affirmativos quam negativos et ostendit illos procedere a caritate, dicens <cit><quote ana="#Icor13_4">caritas patiens est benigna est</quote><bibl><title>I Corinthians</title> 13:4</bibl></cit> etc., et sequitur <cit><quote ana="#Icor13_7">omnia credit omnia sperat</quote><bibl><title>I Corinthios</title>, 13:7</bibl></cit> etc. 
+        
+        </p> 
+            
+                
+            
+            </div>
+            </div>
+        </div>
+        <div>
+          <head>Tertia conclusio</head>
+        <p>Tertia conclusio: sicut natura rationalis in suo caritativo <mentioned>diligere</mentioned> de necessitate salutis tenetur ad ordinem statutum, sic dona Spiritus Sancti secundum esse materiale sunt habitus infusi ipsarum virtutum. Prima patet per <ref><seg><name ref="#Lombard">Magistrum</name> distinctione 29 tertii, capitulo primo</seg><bibl>Lombard, Sent. III, d. 29, ch. 1 p.681-2</bibl></ref> ubi ponit ordinem diligendorum. Consequenter namque ordinis ignorata conturbat meritorum formam et qui praepostere agit, peccat, ergo. <ref><seg>Vide ibi dictum <name ref="#Augustine">Augustini</name> allegatum.</seg><bibl>Augustinus, <title>non invenimus</title></bibl></ref> Secunda pars probatur quia, si dona Spiritus Sancti essent habitus infusi [in]distincti, tunc caritas non esset maximum omnium donorum cuius oppositum patuit supra.</p>
+        <div>
+          <head>Corollaria</head>
+          <div>
+            <head>Primum corollarium</head>
+        <p>Primum corollarium: Deus, per suum valorem et bonitatem immensam, simpliciter quodlibet rationalem naturam obligat ad diligendum eum super omnia aequalem. Patet quia infinite et immense. Confirmatio: quia aliter deus non esset infinite plus diligendus quam proximus quod est falsum.</p>
+          </div>
+          <div>
+            <head>Secundum corollarium</head>
+        <p>Secundum corollarium: sicut non quilibet quamlibet tenetur diligere sic <unclear cert="high">incompabiliter</unclear> debet suum bonum spirituale plus quam proximi appetere. Prima pars patet quia aliter non esset ordo diligendorum in caritate. Secunda pars probatur quia quilibet debet <pb ed="#L" n="213r"/> in infinitum plus suum malum fugere quam cuiuscumque alterius. </p> 
+          
+            <p>Ex quo patet etiam quod nullus debet peccare venialiter ne proximus peccet mortaliter. Patet sicut praecedens quia infinite plus teneor fugere in me peccatum quam in alio. </p> 
+
+          </div>
+          <div>
+            <head>Tertium corollarium</head>
+            <p>Tertium corollarium: licet nullus viator teneatur alium diligere sibi vel alteri inimicum esse, tamen ex lege divina tenetur quilibet viator inimicum diligere et salutem sibi optando prodesse. Prima patet quia non teneor proximum diligere ad suum malum culpae, <!-- pick up here 7/7 --> ergo non teneor diligere aliter inimicum esse. Secunda patet in epistolis et evangeliis in multis locis ubi dilectio inimici praecipitur. Tertia patet quia quilibet affectiva benivolentia tenetur inimico optare salutem.</p>
+          </div>
+          <div>
+            <head>Subcorollaria ex secunda parte</head>
+            
+            <p>Ex secunda parte tertiae conclusionis, possunt aliqua subcorollaria inferri.</p>
+          
+        <p>Primum: licet dona secundum eorum esse materiale sint habitus virtutum infusi tamen secundum esse formale non sunt nisi speciales motiones Spiritus Sancti. Prima pars patet dicta in conclusione. Secunda pars probatur quia aliqualis est <unclear cert="high">differentia</unclear> virtutum et donorum, et illa non est in eorum esse habituali et materiali, ergo, in eorum esse formali. Sed non potest hoc reduci in agens creatum, ergo reducendum est in increatum. Oppositum huius ponit <name>thomas de argentina</name> distinctione 34, tertii. </p>
+        
+      <p>Secundum: quamvis dona et beatitudines non sint habitus a virtutibus distincti, tamen modi eorum agendi secundum rationes eorum formales possunt esse diversi. Prima pars patet per dicta: eadem <unclear cert="medium">est</unclear> ratio de donis et beatitudinibus quia, secundum multos, beatitudines ponuntur tantum in actu non in habitu. Secunda pars probatur quia secundum diversas rationes formales causarum sequi possunt diversi modi causales seu causandi.</p>
+        
+        <p>Tertium: licet dona Spiritus Sancti a virtutibus non distinguuntur, tamen modo perfectiori, mentes fidelium, secundum rationem formalem donorum quam virtutum elevantur. Prima patet per dicta. Secunda patet quia perfectior motio est assistentia Spiritus Sanci, quae donis communicatur, ergo. </p> 
+        
+            <p>Quartam: licet Spiritus Sancti dona, secundum eodem esse materiale et habituale, specifice sint distincta, tamen in substantia rationali caritate informata huiusmodi dona unitive sunt connexa. Prima pars patet quia virtutes inter se sunt distinctae, ergo etiam dona sunt distincta. Secundam partem ponit expresse <ref><name ref="#GregoryGreat">Gregorius</name> primo <title>moralium</title>,</ref> tractans illud <title>Iob</title> primo <cit><quote ana="#io1_4"><sic>ibam</sic> filii eius et faciebant convivia per domos unusquisque in <sic>domo sua.</sic></quote><bibl>Iob 1:4</bibl></cit> </p> 
+          </div>
+        </div>
+        </div>
+        <div>
+          <head>Responsio quaestionis</head>
+            <p>Ex his omnibus sequitur quaestionis responsio, scilicet pars affirmativa. Prima patet quia nullus salvabitur sine illis de lege Dei ordinata. Secunda pars patet per dicta quomodo et quomodo non distinguuntur. </p>
+        </div>  
+        
+        <div>
+          <head>Contra primam conclusionem</head>
+          <div>
+            <head>Primo</head>
+            <p>Contra primam conclusionem arguitur lumini prophetico potest subesse falsum, ergo. Patet consequentia quia lumen propheticum est clarius et perfectius lumine fidei. Antecedens patet de propheta dicente Regi <name ref="#Hezekiah">Ezechiae,</name> <!-- this is King Hezekiah --> <cit><quote ana="#is38_1">dispone domui tuae quia morieris et non vives,</quote><bibl>Isaiah 38:1</bibl></cit> et tamen post vixit annis 15. Item <title ref="#ion">iona</title> <cit><quote ana="ion3_4">adhuc 40 dies et <name>ninive</name> subvertetur,</quote><bibl>Iona 3:4</bibl></cit> et tamen civitas non fuit subversa, ergo.  </p>
+          </div>
+        
+        <div>
+          <head>Secundo</head>
+          <p>Secundo, quia aliquis fidelis existens tempore conceptionis <name ref="#Christ">Christi</name>, post horam incarnationis credidit ipsum incarnandum et hoc eadem fide qua credidit ipsum incarnandum antequam esset incarnatus quia <unclear cert="medium">vera</unclear> <pb ed="#L" n="213v"/> ipsum latuit momentum incarnationis hoc posito talis falsum credidit, ergo.  </p> 
+        </div>
+        <div>
+          <head>Tertio</head>
+          <p>Tertio, actui latriae quam fides imperat potest subesse falsum, ergo, fidei consequentia bona. Patet antecedens quia fidelis potest adorare hostiam non sacratam ipsam credens consecratam. </p> 
+        </div>
+        <div>
+          <head>Quarto</head>
+          <p>Quarto, sequeretur quod <name ref="#Christ">Christus</name> neccessario fuisset incarnatus, passus, etc. Consequens est falsum, ergo. Patet consequentia quia <name ref="#Abraham">Abraham</name> credidit fide infusa per <name ref="#Christ">Christi</name> passionem humani, genus liberandum, ergo. Si eius fidei non potuit subesse falsum sequitur propositum et sic de quolibet futuro credito posset argui. </p> 
+        </div>
+        <div>
+          <head>Quinto</head>
+          <p>Quinto, non plus repugnat fidei apparens et non existens bonum quam caritati sed ex caritate potest diligi apparens et non existens bonum sicut patet de hypocrita qui diligitur quia apparet bonus et intrinsece est malus.</p> 
+        </div>
+        </div>
+        <div>
+          <head>Contra secundum conclusionem</head>
+          <div>
+            <head>Primo</head> 
+            <p>Contra tertium corollarium conclusionis secundae, arguitur primo sic quia una pars alteri videtur repugnare quod patet qui, modus et ratio agendi sequitur modum et rationem essendi, ergo. Si caritas est una distincta virtus sequitur, quod ipsa non est effectiva omnis virtus causaliter. </p> 
+          </div>
+        <div>
+          <head>Secundo</head>
+          <p>Secundo, credere est aeque bonum vel melius quam diligere, ergo caritas non excedit fidem, sed fides ipsam. Antecedens patet per illud <ref><title ref="#hebr">Ad hebraeos</title> undecimo,</ref> <cit><quote ana="#hebr11_33">sancti per fidem vicerunt regna.</quote><bibl>Heb 11:33</bibl></cit> Item <ref><title ref="Iio">prima Iohannis</title> quinto,</ref> <cit><quote ana="#Iio5_1">qui credit quoniam <name ref="#Christ">Christus</name> est filius Dei, ex Deo natus est,</quote><bibl>I Iohannes 5:1</bibl></cit> et ibidem, <cit><quote ana="Iio5_4">omne quod natum est ex Deo vincit mundum,</quote><bibl>I Iohannes 5:4</bibl></cit> etc. Item <ref><title ref="io">Iohannis</title> primo,</ref> <cit><quote ana="#io1_12">dedit eis potestatem filios Dei fieri hiis qui credunt,</quote><bibl>Iohannes 1:12</bibl></cit> etc. Item <name ref="#Paul">Apostolus,</name> <cit><quote ana="#gal3_11"><!-- #ro1_17 #heb10_38" -->iustus ex fide vivit,</quote><bibl>Gal 3:11, Rom 1:7, Heb 10:38</bibl></cit> item <ref><title ref="#lc">Lucae</title> septimo,</ref> <cit><quote ana="#lc7_50">fides tua te <sic>salvum</sic> fecit.</quote><bibl>Luca 7:50</bibl></cit> Item ad <ref><title>Romanos</title> quinto,</ref> <cit><quote ana="#ro5_1">iustificati ex fide,</quote><bibl>Rom 5:1</bibl></cit> ex quibus sequitur quod fides perfectior est caritate. </p>
+        </div>
+        <div>
+          <head>Tertio</head>
+          <p>Tertio, contra dictam sunt rationes principales in pede quaestionis.</p> 
+        </div>
+        </div>
+        <div> 
+          <head>Contra tertiam conclusionem </head>
+          <div>
+            <head>Primo contra primam partem tertiae conclusionis</head>
+            <p>Contra primam partem tertiae conclusionis: homo non tenetur ordinem servare in diligendo, ergo. Antecedens probatur quia ex vi Domini praecepti, homo tenetur quamlibet aequaliter diligere. Probatio: quia homo tenetur diligere quamlibet proximum sicut se ipsum, sed quilibet est aequaliter proximus, ergo.  </p> 
+          </div>
+          <div>
+            <head>Secundo</head>
+            <p>Secundo: per <ref><name ref="#Bernard">Bernardus</name> libro <title>De diligendo Deo</title></ref> dicentem, <cit><quote>amor nescit gradum, dignitatem non desiderat,</quote><bibl>Bernardus, <title>non invenimus</title></bibl></cit> sed si amor nescit gradum, nullus ordo erit in amore. </p> 
+          </div>
+          <div>
+            <head>Tertio</head>
+            <p>Tertio: sic se habet fides ad credibilia, sic caritas ad diligibilia, sed omne fidei aequaliter credendum est, ergo omne diligendum caritate aequaliter diligitur. Maior et minor patent.</p>  
+          </div>
+          <div>
+            <head>Quarto</head>
+            <p>Quarto: secundum <name ref="#Aristotle">Philosophum</name> amator sui vituperandus est, ergo homo non tenetur se plus quam omne aliud adeo diligere.</p>    
+          </div>
+          <div>
+            <head>Quinto</head>
+            <p>Quinto probatur quod non debeamus diligere inimicum quia, si sicut aut foret magis meritorium diligere amicum vel inimicum, non amicum, quia virtus est circa difficile et ethnici amicos diligunt nec inimicum quia tunc foret magis demeritorium odire inimicum quam amicum, quod est falsum. Patet consequentia quia quam unum oppositorum est diligendum et bonum tam alterum est fugiendum et malum.</p>
+          </div>
+        </div>
+        <div>
+        <p>Ad primum negatur antecedens ad probationem dicitur quod propheta dicens regere moriturum loquebatur secundum cursum naturae secundum dispositionem quam vidit in lumine prophetico, nec ars nec natura posset ipsum liberare a morte et hoc eciam ex parte dei revelantis ipsi regi denuntiavit <unclear cert="medium">vicem</unclear> cum postea propheta <pb ed="#L" n="214r"/> praenunciavit ei vitam prolongatam annis quindecimus hoc fuit de divina potentia non secundum naturalem influentiam et ideo utrumque dictum fuit verum suo modo. Item <name>Hezechiae</name> fuit mortuus peccatis ut viveret vita iustitiae similiter de <name>Iona</name> dicitur quod prophetia sua fuit condicionalis saltim conditione sub intellecta scilicet, si <unclear cert="medium">ninivitae</unclear> manent in suis peccatis civitas subverteretur et quia condicio non fuit impleta, ideo prophetia non fuit falsa. Secundo posset dici quod civitas fuit subversa moraliter et spiritualiter non subversione minoris sed peccatoris quia scilicet per <unclear cert="high">puniam</unclear> habitantes fuerunt conversi a peccatis et sic de <unclear cert="high">versione</unclear> illud fuit impletum. </p> 
+        
+          <p>Ad secundum dicitur quod tam in veteri quam in novo testamento credere in liberatorem fuit actus fidei, sed credere <name ref="#Christ">Christum</name> venturum vel venisse non erat actus fidei in veteri testamento quia nullus credulitatem suam tenebatur, ad hoc determinare scilicet ad certam horam vel tempus nisi hoc eis fuisset revelatum mediate vel immediate sed in novo testamento specialiter tenemur credere eum iam venisse propter scripturas hoc asserentes et propter ecclesiae determinacionem et auctoritatem huiusmodi scripturas approbantem.  </p>
+        
+          <p>Ad tertium negatur antecedens ad probacionem de adorante hostiam. Dictum fuit prius primo quod fides imperat adoracionem illam condicionaliter puta si hostia sit consecrata ita quod actui latriae ut a fide est imperatus, numquam potest subesse falsum sicut dicit <name ref="#ThomasStrasbourg">Thomas de Argentia</name>. Secundo dicit <name>Hugolinus</name> quod <unclear cert="high">cermiomen</unclear> exteriores bene terminatur ad rem visam sed adoratio interior semper dirigitur ad ipsum deum non ad hoc. Quod videtur ideo dato quod non sit fictam consecratio tamen cor non errat nec fides fallit. </p> 
+        
+          <p>Ad quartum dicit <name ref="#ThomasStrasbourg">Thomas de Argentina</name> quod reducendo <name ref="#Christ">Christi</name> passionem ad legem Dei ordinatam. Fuit necessarium <name ref="#Christ">Christum</name> pati et incarnari. Ideo fidei <name>Abrahae</name> potuit subesse falsum quia talis fides <name>Abrahae</name> non fuit de materia liberationis ut reducitur in Dei potentiam absolutam, sed eciam ut reducitur inordinatam. Sed illud non videtur vallere quia secundum ipsum non fuit <name ref="#Christ">Christum</name> pati necessarium de absoluta Dei potentia, ergo. Sequitur quod fidei <name>Abrahae</name> potuit subesse falsum de potentia absoluta Dei, quod videtur falsum. Ideo aliter respondetur negando consequentiam rationis et ad probationem quia potuit aliter esse, etc. Hic dicitur dicendo quod si sint revelatio vel potuit aliter esse quam verba revelationis significabant ad mentem recipientis vel aliter quam significabant ad mentem revelantis primo modo adhuc dupliciter quia vel recipiebat verba revelationis sicut debebat vel non sed sicut volebat. Primo modo secundae distinctionis et secundo modo primae distinctionis impossibile est aliter evenire quam fuit a deo revelatum, quia non potuit aliter esse quam verba revelationis significabat ad modum revelantis et si ille cui fit revelatio capit verba sicut debet non potest aliter esse. Sed secundo modo secundae distinctionis tunc potest aliter esse et tunc error non procedit ex fide infusa sed acquisita elicita et temaria.</p>
+          
+          <p>Ad quintum negatur maior quia in dilectione innitimur directioni nostrae cogitationis quae est lumen et directorium fallibile sed in fide infusa innitimur directioni divino <pb ed="#L" n="214v"/>et lumini increato principaliter <unclear cert="high">motivo</unclear> et ideo non est similem.</p> 
+        </div>
+        <div>
+          <head>Responsio ad obiectionem contra secundam conclusionem</head>
+        <p>Secundo potest negari minor quia caritas infusa non diligit nisi quod debet, sed si homo errat in diligendo hoc non provenit ex caritate infusa, sed ex habitu in nato naturali vel ex caritate sponte elicita affectionali, nam caritas vera non quaerit quae sua sunt, sed quae <name ref="#Christ">Jesu Christi</name> nec agit per <unclear cert="high">peram</unclear>. </p> 
+        
+          <p>Tertio licet hypocrita sit dilectus et homo fictus sit nec ut sic est diligendus tamen ut caritative <unclear cert="medium">diligitur</unclear>. Non est quidam fictum, sed creatura bona seu existens bonum. </p> 
+        
+        <p>Pro ista materia fidei nota <ref><name>Thomas de Argentina</name> 24 distinctione tertii articulo tertio</ref> ubi ponit triplex simbolum quod legitur in ecclesia. Primum est apostolorum quia ab eis compositum secundum dicitur nicenum quia in consilio niceno compositum fuit. Tertium est athanasii quia ipsum composuit contra haereticos primum dicitur in prima et complecto modo secundum dicitur in missa, tertium dicitur de <name>marie</name> tamen devorsimodo secundum diversos usus et ponit ibi rationes. </p> 
+        
+          <p>Item vide quia primo sunt duodecim articuli primum dicit <name>Petrus</name> scilicet credo in deum patrem omnipotentem creatorem caeli et terrae. Secundum <name>Iohannes</name> et in <name ref="#Christ">Ihesum Christum</name> filius eius unicum dominum nostrum. Tertium <name>iacobus zebedei</name> qui conceptus est de spiritu sancto <corr>nat<add>us</add><del>to</del></corr> ex materia virgine. Quartum <name>andreas</name> passus sub <name>poncio pillato</name>. Quintum <name>philippus</name> descendit ad inferna. Sextum <name>Thomas</name> tertia die<!-- or diem? --> resurrexit a mortuis. Setimum <name>Bartholomeus</name> ascendit ad caelos sedet ad dexteram patris. Octavum <name>Mathaeus</name> inde venturus iudicare vivos et mortuos. Novum <name>Iacobus Alphae</name> credo in spiritum sanctum. Decimum sanctam ecclesiam catholicam sanctorum communionem <name>Iudas</name>. Undecimum remissionem peccatorem. Duodecimum carnis resurrectionem vitam aeternam, amen. </p>
+        
+        <p>Ad primam responsionem in pede conclusionis dicitur ut supra quod licet credere non sit actus voluntatis elicitive est tamen ab ea imperative. Ideo dicit <name ref="#Augustine">Augustinus</name> cetera potest homo nolens credere vero non nisi volens. </p> 
+        
+        <p>Ad aliud dicit <name>Thomas de Argentina</name> quod <name ref="#Christ">Christus</name> habuit fidem secundum habitum sed non secundum actum. Secundo potest dici quod <name ref="#Christ">Christus</name> non habuit fidem nec omnes virtutes formaliter sed supereminentur et superaequivalenter. Quarto<!-- tertio? --> posset dici quod fides et scientia non repugnant sed possunt simul stare in eodem respectu eiusdem. Quarto posset dici quod <name ref="#Christ">Christus</name> habuit veram scientiam et scivit omnia quae vidit in verbo scientia infusa ut comprehensor sed tamen habuit fidem et credidit multa secundum habitum <unclear cert="medium">experialem</unclear> et acquisitum ut supra patuit declaratum. </p> 
+        
+        <p>Ad primum contra corollarium tertium secundae conclusionis dicitur quod ratio agendi caritatis potest sumi dupliciter uno modo elicitive, alio modo imperative. Primo <unclear cert="high">modo</unclear> caritas habet unicum et singularem modum agendi sicut essendi. Sed secundo modo non immo generale ut dictum est. </p> 
+        
+        <p>Ad secundum negatur antecedens <unclear cert="high">sumptam</unclear> credere cum exclusione dilectionis ad auctoritates quae videntur oppositum sonare dicitur quod loquuntur de fide formata caritate seu informata per caritatem et non de fide simpliciter. </p> 
+        
+        <p>Ad secundum argumentum principale conclusionis quod videtur facere contra dicta in secunda conclusione. Negatur antecedens et cum probatur quia aliqui invincibiliter, etc. Dicitur primo quod si tales infideles facerent quod in se est illuminarentur a deo et virtutes eis infunderentur <pb ed="#L" n="215r"/>et ideo tales non ignorant <name ref="#Christ">Christum</name> ininvincibiliter et quando dicitur quod omem genus tormenti, etc. Dicitur quod illi stante eorum infidelitate non faciunt aliquid propter deum unde potest dici quod si facerent talia propter deum superficialiter aestimative optando non tamen libere affective taliter vere virtuose sicut debent opera sua in deum dirigenda. </p>  
+        
+        <p>Ex his patet quod alterius legis quam nostrae sectatores non possunt facere quae agunt finaliter propter deum principaliter, nam extra <title>De summa trinitate et fide catholica</title> capitulo firmiter dicitur quod extra Romanam ecclesiam nulla est vita salutis et per consequens nec habitus vere virtutis. Et ideo cum deus dat talibus salutem dat eis ecclesiae unionem et virtutum infusionem. </p>
+        </div>
+          <div>
+            <head>Responsio ad obiectionem contra tertiam conclusionem</head>
+        
+        <p>Ad primum contra tertiam conclusionem, negatur antecedens ad probationem quia ex vi praecepti, etc. Dicitur quod li sicut est nova similitudinis non aequaliter. </p> 
+        
+        <p>Ad secundum quod est dictum <name>Bernardi</name> dicitur quod gradum in amore scire potest esse dupliciter uno modo inter diligibile et diligibile, alio modo inter diligens et dilectum. Primo modo amor considerat dignitatem et ponit gradum et ordinem quia magis bonum magis notum sibi diligit magis. Sed secundo modo non ponit gradum quia amor non sit amatorem sui ipsius sed amati secundum <name ref="#HughOfStVictor">Hugo</name> de arra animae immo transformat amantem in amatum secundum <name ref="#Dionysius">Dionysium</name> <title ref="#deDivinisNominibus">De divinis nominibus</title>. Ideo dicit <name ref="#Cicero">Tullius</name> amor aut parem concipit aut facit. </p> 
+        
+        <p>Ad tertium dico ad amorem quod non est similem de fide et caritate, quia ratio credendi est veritas fidei perscripturam revelata et annuntiata. Ideo aequaliter sunt credenda, sed ratio diligendi est bonitas vel ut in se plena vel in aliis participata et quia talis participatio non est aequalis. Ideo talia diligibilia non sunt aequaliter diligenda. </p> 
+        
+        <p>Ad quartum dicitur quod quilibet se moderate diligens et ordinante est <unclear>commandandus</unclear> sed <unclear cert="high">vituperabile</unclear> est habere in moderatum amorem sui et sic ipsemet <name ref="#Aristotle">Aristoteles</name> se exponit. </p> 
+        
+        <p>Ad quintum communiter dicitur quod ceteris paribus melior est dilectio inimici quam amici. Secundo potest dici quod ad hoc quod dilectio inimici sit magis meritoria quam amici non requiritur quod actus sit aeque intensus <unclear cert="high">intentionem</unclear> individui in specie sed sufficit maior intensio spei in genere. </p> 
+        
+        <p>Ad rationem in pede conclusionis factam patet per dictam solutio circa tertiam conclusionem et sic finitur tertius liber. </p> 
+        </div>
+
+        
+      
+        </div> 
+
+    </body>
+  </text>
+</TEI>
