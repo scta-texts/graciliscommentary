@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 14</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 14</title>
+          <date when="2015-11-21">November 21, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-21" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="47-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q14">
+        <head xml:id="pg-b1q14-Hd1e95">Quaestio 14</head>
+          <div xml:id="pg-b1q14-Dd1e98">
+            <head xml:id="pg-b1q14-Hd1e100"><supplied>Circa textum</supplied></head>
+            <p xml:id="pgb1q14-d1e92">
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e108" source="http://scta.info/resource/pll1d15c1-d1e3477">Hic considerandum est</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3477">Lombardus, I, d. 15, c. 1, n. 1</ref></bibl>
+              </cit>.
+              Haec est distinctio 15 
+              quae ad praecedentes sic continuatur, 
+              nam postquam <name ref="#Lombard">Magister</name> ostendit 
+              Spiritum Sanctum a Patre et Filio procedere, 
+              nunc inquirit an Spiritus Sanctus possit se ipsum dare aut mittere. 
+              Et dividitur in tres partes 
+              quia primo ostendit Spiritum Sanctum 
+              quandoque se ipsum mittere, 
+              secundo ex missione Filii hoc vult concludere, 
+              tertio quaerit an nunc possumus Patrem missum dicere. 
+              Secunda ibi 
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e124" source="http://scta.info/resource/pll1d15c1-d1e3514">ne autem 
+                  <app>
+                    <lem type="conjecture-corrected"><corr>mireris</corr></lem>
+                    <rdg wit="#L">mitteris</rdg> <!-- my lombard text has "mireris"; dbcheck -->
+                  </app>
+                </quote>
+                <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3514">Lombardus, I, d. 15, c. 1, n. 5</ref></bibl>
+              </cit>. 
+              Tertia ibi 
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e146" source="http://scta.info/resource/pll1d15c9-d1e3477">hic quaeritur, cur Pater</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, I, d. 15, c. 9, n. 1</ref></bibl>
+              </cit>.
+              Prima manet indivisa, 
+              sed secunda dividitur in duas 
+              quia primo ostendit missionis Filii multiplex esse principium, 
+              secundo ostendit eiusdem missionis modum varium. 
+              Secunda 
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e157" source="http://scta.info/resource/pll1d15c6-d1e3477">hic quaeritur, tantum semel</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d15c6-d1e3477">Lombardus, I, d. 15, c. 6, n. 1</ref></bibl>
+              </cit>.
+              Et haec est divisio in generali primae 
+              partis huius distinctionis.
+            </p>
+            <p xml:id="pgb1q14-d1e125">
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e170" source="http://scta.info/resource/pll1d15c6-d1e3477">Hic quaeritur utrum semel tantum</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d15c6-d1e3477">Lombardus, I, d. 15, c. 6, n. 1</ref></bibl>
+              </cit>.
+              Ista est secunda pars huius distinctionis principalis, 
+              ubi postquam <name ref="#Lombard">Magister</name> 
+              missionem Spiritus Sancti ex missione conclusit Filii, 
+              nunc de multiplici missione Filii inquirit et dividitur in duas 
+              quia primo ostendit 
+              <name ref="#Lombard">Magister</name> missionis Filii diversum esse modum, 
+              secundo <name ref="#Lombard">Magister</name> concludit 
+              Patrem non esse nec fuisse missum. 
+              Secunda ibi 
+              <cit>
+               <quote xml:id="pg-b1q14-Qd1e189">hic quaeritur cur</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, I, d. 15, c. 9, n. 1</ref></bibl>
+              </cit>.
+              Prima indivisa manet 
+              sed secunda pars dividitur in duas 
+              quia primo <name ref="#Lombard">Magister</name> 
+              excludit a Patre omnem passivam missionem, 
+              secundo circa hoc recitat unam falsam opinionem. 
+              Secunda ibi 
+              <cit>
+                <quote xml:id="pg-b1q14-Qd1e203" source="http://scta.info/resource/pll1d15c10-d1e3477">ideoque putaverunt quidam haeretici</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d15c10-d1e3477">Lombardus, I, d. 15, c. 10 [n. 1]</ref></bibl>
+              </cit> 
+              etc. 
+              Et haec est divisio in generali 
+              et sententia praesentis distinctionis 
+              circa quam movetur.
+            </p>
+          </div>
+          <div xml:id="pg-b1q14-Dd1e212">
+            <head xml:id="pg-b1q14-Hd1e214"><supplied>Quaestio</supplied></head>
+            <p xml:id="pgb1q14-d1e165">
+              Utrum quodlibet suppositum divinum mitti 
+              <app>
+                <lem n="mitti"/>
+                <rdg wit="#L" type="variation-present">q</rdg>
+              </app> 
+              quolibet theologo debeat admitti; 
+              utrum Spiritus Sancti missio temporalis 
+              sit in mente creata perceptio vitalis; 
+              utrum stet Spiritum Sanctum ab aliquo recipi 
+              et ipsum a recipiente nullo modo percipi; 
+              utrum stet Spiritum Sanctum realiter recipere 
+              et eundem in se habendo non vitaliter percipere.
+            </p> 
+            <div xml:id="pg-b1q14-Dd1e218" type="rationes-principales">
+              <head xml:id="pg-b1q14-Hd1e220"><supplied>Rationes principales</supplied></head>
+              <p xml:id="pgb1q14-aqsqpp">
+                Arguitur quod sic 
+                quia recipere est purum passivum 
+                et percipere activum, 
+                ergo unum sine alio stare potest. 
+                Tenet consequentia 
+                quia respectu eiusdem termini 
+                mens creata non potest simul se habere pure passive et active, 
+                cum percipere non sit formaliter 
+                <pb ed="#L" n="48-r"/>
+                pati, 
+                tum etiam quia posse perceptivum est 
+                universaliter perfectius quam posse passivum.
+              </p>
+              <p xml:id="pgb1q14-d1e211">
+                Secundo, 
+                si quaestio esset vera, sequeretur 
+                quod cuicumque personae divinae 
+                competeret percipi eidem competeret mitti. 
+                Consequens est falsum 
+                quia Patri convenit percipi, 
+                et tamen sibi non competit mitti, 
+                ut patet 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e236" target="http://scta.info/resource/pll1d15c9-d1e3477">in hac distinctione capitulo penultimo</ref>
+                  <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, Sent., I, d. 15, c. 9 [n. 1]</ref></bibl>
+                </cit>. 
+                Consequentia patet quia, 
+                si missio et perceptio sunt idem, 
+                sequitur quod percipi 
+                et mitti sunt idem.
+              </p>
+              <p xml:id="pgb1q14-d1e223">
+                Tertio, 
+                si quaestio esset vera, 
+                sequeretur quod quilibet existens 
+                in gratia evidenter perciperet. 
+                Consequens est falsum 
+                quia nemo scit an amore vel odio dignus sit. 
+                Et consequentia patet 
+                quia percipere aliquid est cognoscere illud. 
+                Secundo, sequitur quod noviter 
+                baptizatus haberet mentalem perceptionem 
+                gratiae vel Spiritus Sancti. 
+                Tertio, sequitur quod quilibet 
+                quam intense gratiam reciperet 
+                tam intense ipsam perciperet. 
+                Consequens est falsum 
+                quia tunc virgo habuisset intentiorem perceptionem aliquo, 
+                immo omnibus angelis, 
+                quia maiorem gratiam recepit 
+                quam quicumque angelus.
+              </p>
+              <p xml:id="pgb1q14-d1e254">
+                In oppositum sunt 
+                <ref xml:id="pg-b1q14-Rd1e250" corresp="#pg-b1q14-Qd1e257">
+                  verba praesentis distinctionis capitulo 10
+                </ref> 
+                ubi dicit, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e257" source="http://scta.info/resource/pll1d15c7-d1e3489">
+                    tunc unicuique Spiritus Sanctus 
+                    mittitur cum a quocumque cognoscitur atque 
+                    percipitur quantum cognosci et percipi 
+                    potest secundum capacitatem animae rationalis
+                  </quote>
+                  <bibl><ref target="http://scta.info/resource/pll1d15c7-d1e3489">Lombardus, I, d. 15, c. 7, n. 2</ref></bibl>
+                </cit>.
+                Item,
+                <cit>
+                  <ref xml:id="pg-b1q14-Ric1ic2" corresp="#pg-b1q14-Qd1e270" target="http://scta.info/resource/pll1d15c7-d1e3489">ibidem capitulo 12</ref>
+                  <bibl><ref target="http://scta.info/resource/pll1d15c7-d1e3489">Lombardus, I, d. 15, c. 7, n. 2</ref></bibl>
+                </cit>, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e270" source="http://scta.info/resource/adc-l4">
+                    cum ex tempore mente percipitur <mentioned>mitti</mentioned> dicitur
+                  </quote>
+                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28</bibl>
+                </cit>. 
+              </p>
+            </div>
+            <div xml:id="pg-b1q14-Dd1e280">
+              <head xml:id="pg-b1q14-Hd1e282">
+                <supplied>Prima conclusio</supplied>
+              </head>
+              <p xml:id="pgb1q14-d1e267">
+                Prima conclusio: 
+                licet potentia creata 
+                intellectiva sit aliqualiter activa 
+                respectu alicuius missionis seu visionis divinae, 
+                tamen nulla creatura active se potest 
+                respectu expressionis Verbi increati 
+                per modum dicentis habere. 
+                Prima pars patet quia in patria 
+                creata intellectiva respectu 
+                fruitionis se habet active. 
+                Consequentia tenet, 
+                et antecedens patet per <title ref="#Decretals">Decretalem</title> Deum benedicti 
+                quia in duobus actus 
+                intellectus et voluntatis 
+                stat nostra fruitio seu beatitudo formalis consistit 
+                quae est tota latitudo formalis gloriae. 
+                Secunda pars patet quia sequitur 
+                quod Verbum increatum esset terminus productus 
+                a potentia creata intellectiva. 
+                Consequens est falsum, 
+                et consequentia patet 
+                quia non videtur possibile 
+                quin dictum cuiuslibet dicentis ipsum sit 
+                eiusdem dicere terminus productus, 
+                et sic dicere creatum haberet terminum increatum, 
+                quod est falsum.
+              </p>
+              <p xml:id="pgb1q14-d1e299">
+                Primum corollarium: 
+                licet anima beata ad suam 
+                fruitionem possit effective concurrere, 
+                tamen ipsa non potest lumen gloriae 
+                quovis modo producere. 
+                Prima pars patet ex conclusione 
+                quia tale lumen a solo Deo est producibile.
+              </p>
+              <p xml:id="pgb1q14-d1e308">
+                Secundum corollarium: 
+                memoria creata licet possit 
+                per divinam essentiam 
+                tamquam per speciem intellective beatifice elevari, 
+                tamen non stat realiter ab ipsa Verbum increatum proprie formari. 
+                Patet quia tunc potentia finita produceret 
+                terminum immensum oppositum huius corollarii ponit 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e315">
+                    <name ref="#Ripa">Iohannes de Marchia</name> in suis <title>Determinationibus</title>
+                  </ref>
+                  <!-- uncertain; ref needs dbheck-->
+                  <bibl>Ripa, Determinationibus, Q. 3, a. 2, concl. 3</bibl>
+                </cit>.
+                Prima pars patet quia Deus potest supplere duae 
+                causae efficientis vicem.
+              </p>
+              <p xml:id="pgb1q14-d1e328">
+                Tertium corollarium: 
+                licet anima beata se habeat passive respectu fruitionis, 
+                tamen eadem potest se habere simul active 
+                respectu suae cognitionis et dilectionis. 
+                Prima pars patet 
+                quia est illorum actuum receptiva. 
+                Secunda patet 
+                per dictam 
+                in conclusione et corollaria.
+              </p>
+            </div>
+            <div xml:id="pg-b1q14-Dd1e329">
+              <head xml:id="pg-b1q14-Hd1e331">Secunda conclusio</head>
+              <!-- where I left off -->
+              <p xml:id="pgb1q14-d1e336">
+                Secunda conclusio: 
+                licet mitti tantum competat Spiritui Sancto et Filio, 
+                tamen cuilibet personae divinae competit activa missio. 
+                Prima pars patet quia mitti non convenit Patri, 
+                sed Filio et Spiritui Sancto, ergo. 
+                Prima pars antecedentis est 
+                <ref xml:id="pg-b1q14-Rd1e338" corresp="#pg-b1q14-Qd1e348">
+                  <name ref="#Augustine">Augustini</name> 
+                  IV 
+                  <title ref="#deTrinitate">De Trinitate</title>,
+                  capitulo ultimo
+                </ref>, 
+                dicentis quod Pater 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e348" source="http://scta.info/resource/adt-l4">
+                    non dicitur missus
+                  </quote>
+                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28 (PL 42:xxx)</bibl>
+                </cit>.
+                Secunda pars antecedentis patet per 
+                <ref xml:id="pg-b1q14-Rd1e355" corresp="#pg-b1q14-Qd1e365">
+                  <name ref="#Augustine">Augustinum</name> 
+                  II 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 5
+                </ref> 
+                dicentem 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e365" source="http://scta.info/resource/adt-l2">
+                    mitti 
+                    a Patre Filius sine Spiritu Sancto 
+                    non ponit nam Pater intelligitur eum misisse 
+                    <pb ed="#L" n="48-v"/> 
+                    quia ex femina eum fecit 
+                    quia non utique eum sine Spiritu Sancto fecit
+                  </quote>
+                  <bibl>Augustinus, De Trinitate, II, c. 5, 8 (PL42:xxx)</bibl>
+                </cit> 
+                quod autem Spiritus Sanctus 
+                mittatur per eundem 
+                <ref xml:id="pg-b1q14-Rd1e374" corresp="#pg-b1q14-Qd1e385">
+                  <name ref="#Augustine">Augustinum</name> 
+                  patet in IV 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 19
+                </ref>,
+                ubi expresse dicit quod 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e385" source="http://scta.info/resource/adt-l4">
+                    Spiritus Sanctus dat et mittit se ipsum
+                  </quote>
+                  <bibl>Augustinus, XXX</bibl>
+                </cit>.
+                Item 
+                <ref xml:id="pg-b1q14-Rd1e392" corresp="#pg-b1q14-Qd1e399">
+                  <title ref="#io">Iohannis</title> 15
+                </ref> 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e399" ana="#io15_26">
+                    mittam vobis spiritum veritatis
+                  </quote>
+                  <bibl>Ioannes 15:26</bibl>
+                </cit>.
+                Secunda pars probatur quia opera Trinitatis 
+                adextra sunt indivisa, 
+                sed mittere aliquam personam, 
+                etc., ergo. 
+                Haec est ratio 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e408">
+                    <name ref="#Lombard">Magistri</name> in 15 distinctione
+                  </ref>
+                  <bibl>Lombard, I, d. 15, XXX</bibl>
+                </cit>.
+              </p>
+              <p xml:id="pgb1q14-d1e403">
+                Primum corollarium: 
+                non plus repugnat Filium a Spiritu 
+                Sancto 
+                <app>
+                  <lem>mitti</lem>
+                  <rdg wit="#L" type="correction-substitution">
+                    <subst>
+                      <del>mittit</del>
+                      <add>mitti</add>
+                    </subst>
+                  </rdg>
+                </app> 
+                quam Filium spiratorem esse Spiritus Sancti. 
+                Patet ex dictis quia utrumque est 
+                verum et non repugnans.
+              </p>
+              <p xml:id="pgb1q14-d1e417">
+                Secundum corollarium: cuicumque personae convenit mitti eandem se mittere 
+                debet admitti. Patet quia mittere est agere adextra.
+              </p>
+              <p xml:id="pgb1q14-d1e424">
+                Tertium corollarium: 
+                non cuiuslibet 
+                personae divinae sub corporali 
+                specie perceptio est eiusdem personae 
+                talis passiva missio. 
+                Patet quia Pater non mittitur, 
+                et tamen sub corporali specie apparuit in transfiguratione quando 
+                vox eius audita fuit dicens,
+                <cit>
+                  <quote xml:id="pg-b1q14-Qheffmd" ana="#mt17_5 #lc15_24 #mc9_6">hic est Filius meus dilectus</quote>
+                  <bibl>Matthaeus 17:5; Lucas 15:24; Marcus 9:6</bibl>
+                </cit>, 
+                etc. 
+                Ex dictis patet quod 
+                mitti non est mere absolutum, 
+                sed aliquae originis connotat respectum. 
+                Patet quia, 
+                si esset 
+                mere absolutum posset convenire 
+                sicut Filio et Spiritui Sancto. 
+                Unde 
+                <ref xml:id="pg-b1q14-Rd1e445" corresp="pg-b1q14-Qd1e455">
+                  <name ref="#Augustine">Augustinus</name> 
+                  IV
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 30
+                </ref> 
+                dicit, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e455" source="http://scta.info/resource/adt-l4">
+                    mitti filium est cognoscere quod ab alio sit
+                  </quote>
+                  <bibl>
+                    Augustinus, De Trinitate, IV, c. 20, n. 29 (PL 42:xx) 
+                    <!-- ita mitti est Filio cognosci quod ab illo sit -->
+                  </bibl>
+                </cit>
+              </p>
+            </div>
+            <div xml:id="pg-b1q14-Dd1e465">
+              <head xml:id="pg-b1q14-Hd1e467">
+                <supplied>Tertia conclusio</supplied>
+              </head>
+              <p xml:id="pgb1q14-d1e449">
+                Tertia conclusio: 
+                licet non stet Spiritum Sanctum 
+                ab aliquo recipi 
+                et ipsum a recipiente nullo modo percipi, 
+                tamen de communi lege 
+                nullus potest scienter percipere 
+                se meritorie Deum diligere. 
+                Prima pars patet 
+                quia Spiritus Sancti missio 
+                temporalis est 
+                in mente creata perceptio vitalis, 
+                ergo. 
+                Antecedens est 
+                <ref xml:id="pg-b1q14-Rdaidai" corresp="#pg-b1q14-Qcsspmd">
+                  dictum <name ref="#Augustine">Augustini</name>
+                </ref> 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rsamsam" target="http://scta.info/resource/pgb1q14-d1e254">superius allegatum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e254">Vide supra</ref></bibl>
+                </cit> 
+                quo dicitur,  
+                <cit>
+                  <quote xml:id="pg-b1q14-Qcsspmd" source="http://scta.info/resource/adt-l4">
+                    cum Spiritus Sanctus ex tempore mente percipitur 
+                    <mentioned>mitti</mentioned> dicitur
+                  </quote>
+                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28</bibl>
+                </cit>.
+                Secunda pars patet per illud 
+                <ref xml:id="pg-b1q14-Rd1e476" corresp="#pg-b1q14-Qd1e490">
+                  <name ref="#Paul">Apostoli</name> 
+                  <title ref="#Icor"><supplied>I</supplied> 
+                    Ad Corinthios</title> 
+                  <sic>13</sic>
+                </ref> 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e490" ana="#Icor4_4">
+                    nihil mihi conscimus sum 
+                    sed non in hoc iustificatus sum
+                  </quote>
+                  <bibl>I Corinthios 4:4</bibl>
+                </cit>.
+                Item 
+                <ref xml:id="pg-b1q14-Rd1e497" corresp="#pg-b1q14-Qd1e506">
+                  <title ref="io"><sic>2ae</sic> Iohannis</title> capitulo 3
+                </ref> 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e506" ana="#io3_8">Ubi Spiritus vult spirat sed nescis unde veniat.</quote>
+                  <bibl>Ioannes 3:8</bibl>
+                </cit> 
+                aut conclusio vadat. 
+                Item, negatio sit an odio, etc.
+              </p>
+              <p xml:id="pgb1q14-d1e501">
+                Primum corollarium: 
+                lege stante, 
+                licet nullus potest se scire 
+                habere ordinatam dilectionem, 
+                tamen aliquis tenetur 
+                credere se habere Spiritus Sancti missionem. 
+                Prima patet ex dictis. 
+                Secunda probatur 
+                quia aliquis tenetur 
+                credere se habere caritatem, 
+                ergo. 
+                Consequentia tenet 
+                quia Spiritum Sanctum mitti in mente 
+                est menti caritatem infundi, 
+                ut dicit conclusio. 
+                Et antecedens patet de adulto accedente ad sacramentum quo gratia confertur 
+                sicut est baptismus et eucharistia.
+              </p>
+              <p xml:id="pgb1q14-d1e515">
+                Secundum corollarium: 
+                non stat fructum missionis divinae in 
+                mente augeri et vitalem Dei perceptionem 
+                in eadem non intendi. 
+                Patet quia, si non, sequitur 
+                quod non quilibet recipiens personae divinae missionem 
+                haberet eius vitalem perceptionem,
+                quod est contra conclusionem.
+              </p>
+              <p xml:id="pgb1q14-d1e525">
+                Tertium corollarium: 
+                non semper intelligimus nos uniformiter cognoscere. 
+                Patet quia aliter habens talem perceptionem 
+                haberet evidentem et experimentalem cognitionem, 
+                quod est contra dictam. 
+                Ex dictis 
+                patet responsio quod stat aliquae, etc.
+              </p>
+            </div>
+            <div xml:id="pg-b1q14-Dd1e534">
+              <head xml:id="pg-b1q14-Hd1e536">Obiectiones et responsiones</head>
+              <p xml:id="pgb1q14-d1e533">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e585" target="http://scta.info/resource/pgb1q14-d1e267">primam conclusio</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e267">Vide supra</ref></bibl>
+                </cit>, 
+                sequitur quod 
+                memoria creata posset concurrere 
+                per suum posse essentiale active 
+                ad claritatem luminis gloriae. 
+                Consequens est falsum. 
+                Probatur consequentia 
+                quia non plus potest intelligentia creata 
+                ad dispositionem supernaturale 
+                et unionem vitalem divinae essentiae 
+                quam ad lumen gloriae.
+              </p>
+              <p xml:id="pgb1q14-d1e544">
+                Secundo, 
+                contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e598" target="http://scta.info/resource/pgb1q14-d1e299">primum corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e299">Vide supra</ref></bibl>
+                </cit> 
+                repugnat potentiam naturalem supernaturaliter 
+                agere per suum essentiale posse, 
+                ergo repugnat intellectum creatum 
+                ad fruitionem patriae effective concurrere.
+              </p>
+              <p xml:id="pgb1q14-d1e552">
+                Tertio contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e614" target="http://scta.info/resource/pgb1q14-d1e308">secundum corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e308">Vide supra</ref></bibl>
+                </cit> 
+                intelligentia creata concurrit 
+                effective ad motum visionis 
+                quo verum increatum redditur 
+                praesens vitaliter tali intelligentiae. 
+                Sed hoc est verbum increatum dicere, 
+                ergo.
+              </p>
+              <p xml:id="pgb1q14-d1e560">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e630" target="http://scta.info/resource/pgb1q14-d1e328">tertium corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e328">Vide supra</ref></bibl>
+                </cit>, 
+                <pb ed="#L" n="49-r"/> 
+                sequitur quod perfectiori in naturalibus 
+                semper correspondebit caeteris paribus intentior beatitudo, 
+                et per consequens stante aequalitate meritorum stabit 
+                inaequalitas primorum propter priora essentialia, 
+                quod est falsum. 
+                Et patet consequentia 
+                quia puriora essentialia plus possunt 
+                quam minus pura et imperfecta.
+              </p>
+              <p xml:id="pgb1q14-d1e577">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e646" target="http://scta.info/resource/pgb1q14-d1e336">secundam conclusionem</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e336">Vide supra</ref></bibl>
+                </cit>,
+                mitti et mittere sunt correlativa, 
+                ergo cum mitti cognoscet relatum originis 
+                sequitur quod mittere dicit eundum relatum. 
+                Sed Spiritus Sanctus nihil originat adintra, 
+                ergo nullam personam potest mittere. 
+                Consequentia patet 
+                quia secundum <name ref="#Augustine">Augustinum</name> 
+                mitti est originari igitur mittere est originare.
+              </p>
+              <!-- 2 through 4 should get info file assertions, so we know these are also objections to the second conclusion
+              slightly unclear if these could line up with corollaries. the numbers match up, but the connection is not obvious 
+              -->
+              <p xml:id="pgb1q14-d1e589">
+                Secundo, 
+                quia ille relatus 
+                quem dicit mitti 
+                vel erit ad eum quam sit missio, 
+                et tunc erit communis tribus personis, 
+                et sic Pater mittetur. 
+                Consequentia patet 
+                quia est relatus rationis adextra. 
+                Vel dicit relatum ad ipsum mittentem, 
+                et si sic, 
+                vel ergo erit rationis tantum, 
+                et tunc poterit esse in Patre vel realis, 
+                et tunc etiam mittere non erit essentiale, 
+                et per consequens non commune tribus personis, 
+                quod repugnat secundae parti illius conclusionis.
+              </p>
+              <p xml:id="pgb1q14-d1e605">
+                Tertio, 
+                mitti dicit relatum originis, 
+                ergo nulla persona potest se ipsam mittere. 
+                Patet consequentia 
+                quia nulla potest se ipsam originare.
+              </p>
+              <p xml:id="pgb1q14-d1e612">
+                Quarto, 
+                mitti dicit imperfectionem et indignitatem, 
+                ergo nulli personae divinae competit. 
+                Consequentia bona, 
+                sed antecedens probatur 
+                quia secundum 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e576">
+                    <name ref="#Dionysius">Dionysium</name> 
+                    in 
+                    <title ref="#deCoelestiHierarchia">De angelica hierarchia</title>
+                  </ref>
+                  <bibl>Dionysius, De angelica hierarchia, XXX</bibl>
+                </cit> 
+                angeli superiores semper assistunt Deo et 
+                non mittuntur propter sui dignitatem, 
+                sed persona divina est 
+                improportionaliter dignior omni angelo, 
+                ergo propter sui dignitatem non debet mitti.
+              </p>
+              <p xml:id="pgb1q14-d1e631">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e686" target="http://scta.info/resource/pgb1q14-d1e449">tertiam conclusionem</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e449">Vide supra</ref></bibl>
+                </cit>, 
+                aliquis potest scire se 
+                esse dignum vita aeterna, 
+                ergo aliquis potest scire se Deum meritorie diligere, 
+                saltim habitualiter. 
+                Consequentia bona, 
+                et antecedens probatur 
+                quia aliquis potest scire se habere timorem filialem, 
+                ergo et caritatem. 
+                Consequentia tenet per 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e590">
+                    <title>Glosam</title> super illo 
+                    <title ref="#Iio">Primae Iohannis</title>
+                  </ref>
+                  <bibl>Glossa ordinaria, xxxx</bibl>
+                </cit>, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e599" ana="#Iio4_18">
+                    perfecta caritas foras 
+                    mittit timorem</quote>
+                  <bibl>I Iohannes 4:18</bibl>
+                </cit>. 
+                Antecedens patet 
+                <ref xml:id="pg-b1q14-Rd1e606" corresp="#pg-b1q14-Qd1e613"><title ref="#gen">Genesis</title> 22</ref> 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e613" ana="#gen22_12">cognovi quia timeas deum</quote>
+                  <bibl>Genesis 22:12</bibl>
+                </cit>, 
+                id est cognoscere te feci. 
+                Item, 
+                <ref xml:id="pg-b1q14-Rd1e620" corresp="#pg-b1q14-Qd1e630">
+                  <title ref="#phil">Philippenses</title> <sic>2</sic>
+                </ref> 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e630" ana="#phil4_6">
+                    petitiones vestrae innotescant apud Deum
+                  </quote>
+                  <bibl>Phil. 4:6</bibl>
+                </cit>.
+              </p>
+              <p xml:id="pgb1q14-d1e671">
+                Item, 
+                quis potest scire 
+                se omnia propter Deum diligere 
+                et omnia reliquisse, 
+                ergo scire se esse 
+                dignum vita aeterna. 
+                Consequentia tenet
+                <ref xml:id="pg-b1q14-Rd1e642" corresp="#pg-b1q14-Qoqrvap">
+                  <title ref="#mt">Matthaeus</title> 19
+                </ref>
+                <cit>
+                  <quote xml:id="pg-b1q14-Qoqrvap" ana="#mt19_29">
+                    omnis qui reliquerit etc. vitam aeternam possidebit
+                  </quote>
+                  <bibl>Matthaeus 19:29</bibl>
+                </cit>.
+              </p> 
+              <p xml:id="pgb1q14-iappce">
+                Item, 
+                aliquis potest scire nullum 
+                timorem servilem se habere, 
+                ergo potest scire se habere caritatem. 
+                Consequentia tenet per 
+                <ref xml:id="pg-b1q14-Rd1e651" corresp="#pg-b1q14-Qd1e659">
+                  illud <title ref="#Iio">Primae Ioannes</title> 4
+                </ref>,
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e659" ana="#io4_18">perfecta caritas</quote>
+                  <bibl>I Ioannes 4:18</bibl>
+                </cit>, 
+                etc.
+              </p>
+              <p xml:id="pgb1q14-d1e690">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e779" target="http://scta.info/resource/pgb1q14-d1e501">primum corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e501">Vide supra</ref></bibl>
+                </cit>, 
+                nullus articulus cogit aliquem credere 
+                se esse in caritate, ergo. 
+                Antecedens patet 
+                quia, 
+                si aliquis esset, 
+                inderetur ille 
+                <mentioned>credo in sanctam ecclesiam catholicam</mentioned>. 
+                Sed hoc non 
+                quia ecclesia nullibi hoc praecipit, 
+                immo videtur hypocrisis iudicare se in caritate, 
+                immo iudicare se esse extra caritatem videtur meritorium, 
+                ut patet de publicano 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e670"><title ref="#lc">luce</title> 18</ref>
+                  <bibl>Lucas 18:9</bibl>
+                </cit>.
+              </p>
+              <p xml:id="pgb1q14-d1e720">
+                Secundo contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e797" target="http://scta.info/resource/pgb1q14-d1e515">secundum corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e515">Vide supra</ref></bibl>
+                </cit> 
+                peccator tenetur 
+                conteri de peccato, 
+                ergo tenetur credere se esse in caritate. 
+                Et ultra omnis adultus 
+                vel est in caritate vel extra, 
+                ergo omnis tenetur se credere esse in caritate,
+                quod est primum.
+              </p>
+              <p xml:id="pgb1q14-cacicf">
+                Contra 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e810" target="http://scta.info/resource/pgb1q14-d1e525">alia corollaria</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e525">Vide supra</ref></bibl>
+                </cit> 
+                omnis perceptio est cognitio aliqualis, 
+                et ad intentionem perceptionis, 
+                sequitur intensio cognitionis, 
+                ergo illa corollaria falsa.
+              </p>
+              <p xml:id="pgb1q14-d1e732">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e823" target="http://scta.info/resource/pgb1q14-d1e533">Ad primum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e533">Vide supra</ref></bibl>
+                </cit>, 
+                negatur consequentia, 
+                et dicitur ad probationem quod 
+                non omnis missio personae divinae 
+                est supernaturalis dispositio 
+                ut praetendit argumentum 
+                loqui de dispositione. 
+                Secundo, 
+                posset antecedens negari 
+                <app>
+                  <lem type="conjecture-removed"><surplus>antecedens</surplus></lem>
+                  <rdg wit="#L">antecedens</rdg>
+                </app> 
+                generaliter. 
+                Tertio, 
+                posset concedi consequentia, 
+                iam negata, 
+                scilicet quod memoria, etc., 
+                non quidem agendo 
+                ipsum in ipso et circa ipsum.
+              </p>
+              <p xml:id="pgb1q14-asdiaa">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e837" target="http://scta.info/resource/pgb1q14-d1e544">Ad secundum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e544">Vide supra</ref></bibl>
+                </cit>, 
+                dicitur quod antecedens est verum 
+                si per suum naturale posse praecise 
+                non repugnat 
+                <pb ed="#L" n="49-v"/> 
+                ipsum sic agere cum adiunctione 
+                alterius potentiae. 
+                Modo in proposito 
+                non est solum naturale agens 
+                sed etiam supernaturale elevans potentiam 
+                seu ipsum posse naturale et actuans 
+                ipsum ad agendum.
+              </p>
+              <p xml:id="pgb1q14-d1e755">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e852" target="http://scta.info/resource/pgb1q14-d1e552">Ad tertium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e552">Vide supra</ref></bibl>
+                </cit>, 
+                negatur minor 
+                quia ad talem motum concurrere 
+                non est dicere Verbum incarnatum.
+              </p>
+              <p xml:id="pgb1q14-d1e761">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e865" target="http://scta.info/resource/pgb1q14-d1e560">Ad quartum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e560">Vide supra</ref></bibl>
+                </cit>, 
+                dicitur primo negando consequentiam 
+                quia ad intensionem causae partialis 
+                non semper intenditur effectus actionis. 
+                Secundo, 
+                posset dici quod non secundum 
+                proportionem meritorum stabit 
+                retributio primorum 
+                quia tunc nullum primum daretur 
+                pro gratia baptismali, 
+                quod est falsum. 
+                Tertio, 
+                posset concedi consequens 
+                Dei tamen voluntate concurrente 
+                quae potest distribuere praemia 
+                prout sibi placet.
+              </p>
+              <p xml:id="pgb1q14-d1e784">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e878" target="http://scta.info/resource/pgb1q14-d1e577">Ad primum contra secundam</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e577">Vide supra</ref></bibl>
+                </cit> 
+                conclusio distinguitur de <mentioned>mittere</mentioned> 
+                quia uno modo accipitur principaliter auctorative, 
+                alio modo consequenter determinative. 
+                Primo modo,
+                tantum convenit Patri et Filio, 
+                secundo modo, 
+                tribus. 
+                Ideo, si antecedens sumitur primo modo, 
+                conceditur. 
+                Si secundo modo, 
+                negatur consequentia 
+                nec antecedens est verum.
+              </p>
+              <p xml:id="pgb1q14-d1e794">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e891" target="http://scta.info/resource/pgb1q14-d1e589">Ad secundum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e589">Vide supra</ref></bibl>
+                </cit>, 
+                dicitur quod <mentioned>mitti</mentioned> 
+                dicit relatum non quidem 
+                ad mittentem determinative consequenter 
+                sed auctoritative principaliter. 
+                Similiter posset dici de <mentioned>mittere</mentioned> quod, 
+                si sumitur auctoritative, tunc nulla persona se ipsam mittit 
+                nec aliam nisi illam quam producit, 
+                sed bene secundo modo patet.
+              </p>
+              <p xml:id="pgb1q14-hpaata">
+                Hoc patet 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e904" target="http://scta.info/resource/pgb1q14-d1e605">ad tertium argumentum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e605">Vide supra</ref></bibl>
+                </cit>, 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e698">vide de hoc <name ref="#ThomasStrasbourg">Thomam Argentis</name></ref>
+                  <bibl>Thomas de Argentina, XXX</bibl>
+                </cit>.
+              </p>
+              <p xml:id="pgb1q14-d1e806">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e929" target="http://scta.info/resource/pgb1q14-d1e612">Ad quartum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e612">Vide supra</ref></bibl>
+                </cit> 
+                dicitur quod alias 
+                est verum in creatura 
+                quia cum creatura mitti mutatur et movetur alicubi 
+                ubi prius non erat. 
+                Sed quia Deus est ubique, 
+                ideo sine mutatione et imperfectione 
+                mitti potest divina persona 
+                quia non mittitur ubi non erat, 
+                sed qualiter non erat novum effectum, 
+                scilicet causans in creatura sine sui mutatione, 
+                non tamen sine mutatione creaturae.
+              </p>
+              <p xml:id="pgb1q14-d1e837">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e942" target="http://scta.info/resource/pgb1q14-d1e631">Ad primum contra tertiam conclusionem</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e631">Vide supra</ref></bibl>
+                </cit>, 
+                negatur antecedens, 
+                et ad probationem dicitur loquendo 
+                de timore formato caritate. 
+                Negatur illud, 
+                et ad probationem dicendum 
+                quod illud cognovit 
+                <name ref="#Abraham">Abraham</name> 
+                ex divina revelatione sibi illud indicante, 
+                et ad aliam probationem, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e719" ana="#phil4_6">petitiones vestrae</quote>
+                  <bibl>Phil. 4:6</bibl>
+                </cit> 
+                etc., 
+                dicitur quod ex <title>Glossa</title> non habetur 
+                nisi quod in aliquibus credimus 
+                nos a Deo esse ex auditos et forte scimus 
+                effectum operatum evenisse. 
+                Sed ex hoc non sequitur contra conclusionem.
+              </p>
+              <p xml:id="pgb1q14-d1e865">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e970" target="http://scta.info/resource/pgb1q14-d1e671">Ad aliud</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e671">Vide supra</ref></bibl>
+                </cit>, 
+                negatur consequentia 
+                quia non ex operibus iustificatur 
+                quia <name ref="#Socrates">Socrates</name> divitias contempsit 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rsimsim">secundum <name ref="#Jerome">Ieromum</name></ref>
+                  <bibl>Jerome, XXX</bibl>
+                </cit>, 
+                et tamen non iustificatus est.
+              </p>
+              <p xml:id="pgb1q14-iaanth">
+                Item 
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e989" target="http://scta.info/resource/pgb1q14-iappce">ad aliud</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-iappce">Vide supra</ref></bibl>
+                </cit>, 
+                negatur consequentia 
+                quia ex puris naturalibus potest aliquis 
+                nullum timorem habere.
+              </p>
+              <p xml:id="pgb1q14-d1e884">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e1002" target="http://scta.info/resource/pgb1q14-d1e690">Ad primum contra corollarium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e690">Vide supra</ref></bibl>
+                </cit>, 
+                negatur antecedens 
+                quia continetur sub praenominato 
+                articulo vel quod idem est ille articulus dicit. 
+                Etiam hoc ecclesia dicit 
+                de accipientibus sacramentum eucharistiae, 
+                ut patet 
+                <ref xml:id="pg-b1q14-Rd1e741" corresp="#pg-b1q14-Qd1e751">
+                  <title ref="Icor">Ad Corinthios</title> <sic>2o <!-- 11 --></sic>
+                </ref>, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e751" ana="#Icor11_28">probet autem se ipsum homo</quote>
+                  <bibl>I Corinthios 11:28</bibl>
+                </cit> 
+                etc. 
+                Et hoc potest fieri sine 
+                hypocrisi et iactantia.
+              </p>
+              <p xml:id="pgb1q14-d1e914">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e1032" target="http://scta.info/resource/pgb1q14-d1e720">Ad tertium</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e720">Vide supra</ref></bibl>
+                </cit>, 
+                conceditur consequentia et consequens, 
+                et negatur ulterior consequentia, 
+                sed bene sequitur quod tenetur esse in tali statu 
+                in quo credat se esse in caritate, 
+                contra <name ref="#MonachusNiger">Monachum Nigrum</name>.
+              </p>
+              <p xml:id="pgb1q14-d1e924">
+                <cit>
+                  <ref xml:id="pg-b1q14-Rd1e1049" target="http://scta.info/resource/pgb1q14-cacicf">Ad quartum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-cacicf">Vide supra</ref></bibl>
+                </cit>, 
+                posset concedi consequens 
+                de cogitatione habituali, 
+                non actuali, 
+                de qua loquor in conclusione et corollario. 
+                Item, posset dici quod 
+                talis cognitio intenditur, 
+                non tamen in esse cognitionis, 
+                sed solum in esse experimentalis perceptionis. 
+                Ex dictis patet.
+              </p>
+            </div>
+          </div>
+        <div xml:id="pg-b1q14-Dd1e771">
+          <head xml:id="pg-b1q14-Hd1e773"><supplied>Conclusiones</supplied></head>
+          <p xml:id="pgb1q14-d1e934">
+            <cit>
+              <quote xml:id="pg-b1q14-Qd1e781">Hic considerandum est</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3477">Lombardus, I, d. 15, c. 1, n. 1</ref></bibl>
+            </cit>.
+            Haec distinctio continetur 7 conclusiones. 
+            Prima: 
+            quod Spiritus Sanctus est Deus et donum, 
+            et ideo dat et datur. 
+            Dat inquantum Deus, 
+            datur inquantum donum, 
+            nec ex hoc est minor Patre vel Filio.
+          </p>
+          <p xml:id="pgb1q14-d1e953">
+            Secunda conclusio: 
+            si Spiritus Sanctus non posset dare se ipsum, 
+            Pater et Filius aliquid posset 
+            quod non posset Spiritus Sanctus 
+            et aliquid operarentur Pater 
+            et Filius quod non operaretur Spiritus Sanctus, 
+            quae sunt inconvenientia 
+            quia opera Trinitatis adextra 
+            <pb ed="#L" n="50-r"/> 
+            sunt indivisa. 
+            Ergo sequitur 
+            quod Spiritus Sanctus procedit temporaliter, 
+            mittatur, et datur 
+            a se ipso.
+          </p>
+          <p xml:id="pgb1q14-d1e965">
+            Tertia conclusio: 
+            quod Pater numquam legitur missus 
+            sed solum Filius et Spiritus Sanctus. 
+            Filius autem mittitur 
+            a Patre et se ipso et a Spiritu Sancto, 
+            et illa missio fuit incarnatio, 
+            quod fuit opus commune tribus personis.
+          </p>
+          <p xml:id="pgb1q14-d1e974">
+            Quarta conclusio: 
+            quod cum Filius dicit, 
+            <ref xml:id="pg-b1q14-Rd1e803" corresp="#pg-b1q14-Qd1e812">
+              <title ref="io">Iohannes</title> <sic>8</sic>
+            </ref>,
+            <cit>
+              <quote xml:id="pg-b1q14-Qd1e812" ana="#io7_28">a me ipso non veni</quote>
+              <bibl>Ioannes 7:28</bibl>
+            </cit>,
+            hoc dictum fuit secundum formam servi 
+            secundum quam non est operatus incarnationem 
+            sed secundum formam Dei.
+          </p>
+          <p xml:id="pgb1q14-d1e988">
+            Quinta conclusio: 
+            Filius Dei praeter aeterna genitura, 
+            secundum quam missus dicitur, 
+            sed melius et verius secundum eam dicitur genitus. 
+            Duobus modis mitti dicitur, 
+            vel cum visibiliter 
+            mundo apparuit in carne, 
+            vel invisibiliter in animas pias transfert, 
+            ut ab eis percipiatur et cognoscatur. 
+            Primo modo semel est missus. 
+            Secundo modo mittitur omnidie, 
+            non ut sit homo sed ut sit cum homine.
+          </p>
+          <p xml:id="pgb1q14-d1e1002">
+            Sexta conclusio: 
+            licet Pater ex tempore cognoscatur, 
+            sicut Filius, 
+            non tamen dicitur missus 
+            quia in Patre est auctoritas principii 
+            quia est principium Filii et Spiritus Sancti, 
+            et non habet a quo sit.
+          </p>
+          <p xml:id="pgb1q14-d1e1010">
+            Septima conclusio: 
+            Pater non ideo dicitur 
+            misisse Filium et Spiritum Sanctum 
+            quia ille maior est et illi minores, 
+            sicut quidam haeretici putarunt, 
+            sed propter commodi auctoritatem principii 
+            et quia Pater non apparuit in creatura visibili, 
+            sicut Filius et Spiritus Sanctus, 
+            quia tantum in voce, 
+            quae non est visibilis, 
+            sed audibilis, 
+            etc.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>

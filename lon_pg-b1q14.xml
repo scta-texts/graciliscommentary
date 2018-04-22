@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 14 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Quaestio 14 [London Transcription]</title>
+          <date when="2014-05-09">May 09, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-05-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="47-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q14">
+        <head>Quaestio 14 [London Transcription]</head>
+         <p xml:id="pgb1q14-d1e92"><lb ed="#L"/><hi rend="dropCapThreeLiens">h</hi><hi rend="largeFont">ic considerandum est</hi> haec est distinctio 15 quae ad praecedentes sic <unclear>continuatur</unclear> 
+           <lb ed="#L"/>nam postquam <name ref="#Lombard">magister</name> ostendit spiritum sanctum a patre et filio procedere nunc inquirit 
+           <lb ed="#L"/>an spiritus sanctus possit se ipsum dare aut mittere <g ref="#slash"/>et dividitur in tres 
+           <lb ed="#L"/>partes quia primo ostendit spiritum sanctum quandoque se ipsum mittere 2o ex missione filii hoc 
+           <lb ed="#L"/>vult concludere 3o quaerit an nunc possumus patrem missum dicere 2a ibi ne 
+           <lb ed="#L"/>autem mitteris 3a ibi hic quaeretur cur pater prima manet indivisa sed 2a dividitur 
+           <lb ed="#L"/>in duas quia primo ostendit missionis filii multiplex esse principium 2o ostendit eiusdem mis<lb ed="#L"/>sionis 
+           modum varium <g ref="#slash"/>2a hic quaeritur tantum semel et haec est divisio in generali primae 
+           <lb ed="#L"/>partis huius distinctionis</p>
+        
+        <p xml:id="pgb1q14-d1e125"><g ref="#pilcrow"/>hic quaeritur utrum semel tantum Ista est 2a pars huius distinctionis 
+          <lb ed="#L"/>principalis ubi postquam <name ref="#Lombard">magister</name> missionem spiritus sancti ex missione conclusit filii 
+          <lb ed="#L"/>nunc de multiplici missione filii inquirit <g ref="#slash"/>et dividitur in duas quia primo ostendit 
+          <lb ed="#L"/><name ref="#Lombard">magister</name> missionis filii diversum esse modum <g ref="#slash"/>2o <name ref="#Lombard">magister</name> concludit patrem non 
+          <lb ed="#L"/>esse nec fuisse missum 2a ibi hic quaeritur cur prima indivisa manet <g ref="#pilcrow"/>sed 2a 
+          <lb ed="#L"/>pars dividitur in duas quia primo <name ref="#Lombard">magister</name> excludit a patre omnem passivam 
+          <lb ed="#L"/>missionem 2o circa hoc recitat unam falsam opinionem 2a ibi ideoque putaverunt quidam 
+          <lb ed="#L"/>haeretici etc et haec est divisio in generali et sententia praesentis distinctionis <g ref="#slash"/>circa quam movetur</p>
+        
+        <p xml:id="pgb1q14-d1e165"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> quodlibet suppositum divinum mitti <sic>q</sic> quolibet theologo debeat ad<lb ed="#L"/>mitti 
+          <g ref="#slash"/>utrum spiritus sancti missio temporalis sit in mente creata perceptio 
+          <lb ed="#L"/>vitalis <g ref="#slash"/>utrum stet spiritum sanctum ab <choice><orig>alico</orig><reg>aliquo</reg></choice> recipi et ipsum a recipiente 
+          <lb ed="#L"/>nullo modo percipi <g ref="#slash"/>utrum stet spiritum sanctum realiter recipere et eundem in se habendo 
+          <lb ed="#L"/>non vitaliter percipere</p> 
+        
+        <p xml:id="pgb1q14-aqsqpp"><g ref="#slash"/>arguitur quod sic quia recipere est purum passivum et percipere 
+          <lb ed="#L"/>activum ergo unum sine alio stare potest tenet consequentia quia respectu eiusdem termini mens creata 
+          <lb ed="#L"/>non potest simul se habere pure passive et active cum percipere non sit formaliter 
+          <pb ed="#L" n="48-r"/><lb ed="#L"/>pati tum etiam quia posse perceptivum est universaliter <choice><orig>perfeccius</orig><reg>perfectius</reg></choice> quam posse passivum</p>
+        
+        <p xml:id="pgb1q14-d1e211"><g ref="#pilcrow"/>2o si 
+          <lb ed="#L"/>quaestio esset vera sequeretur quod cuicumque personae divinae competeret percipi eidem competent mitti 
+          <lb ed="#L"/>consequens est falsum quia patri convenit percipi et tamen sibi non competiti mitti ut patet 
+          <lb ed="#L"/>in hac distinctione capitulo penultimo consequentia patet quia si missio et perceptio sunt idem sequitur quod per<lb ed="#L"/>cipi 
+          et mitti sunt idem</p>
+        
+        <p xml:id="pgb1q14-d1e223"><g ref="#pilcrow"/>3o si quaestio esset vera sequeretur quod quilibet existens in gratia 
+          <lb ed="#L"/>evidenter perciperet consequens est falsum quia nemo scit an amore vel odio 
+          <lb ed="#L"/>dignus sit et consequentia patet quia percipere aliquid est cognoscere illud 2o sequitur quod no<lb ed="#L"/>viter 
+          baptizatus haberet mentalem perceptionem gratiae vel spiritus sancti <g ref="#slash"/>3o sequitur quod quilibet 
+          <lb ed="#L"/>quam intense gratiam reciperet tam intense ipsam perciperet consequens est falsum quia 
+          <lb ed="#L"/>tunc virgo habuisset intentiorem perceptionem <choice><orig>alico</orig><reg>aliquo</reg></choice> <choice><orig>ymo</orig><reg>immo</reg></choice> omnibus angelis 
+          <lb ed="#L"/>quia maiorem gratiam recepit quam quicumque angelus</p>
+        
+        <p xml:id="pgb1q14-d1e254"><g ref="#pilcrow"/>In oppositum sunt verba praesentis distinctionis 
+          <lb ed="#L"/>capitulo 10 ubi dicit <quote xml:id="pg-b1q14-Qd1e257">tunc unicuique spiritus sanctus mittitur cum a quocumque cognoscitur atque 
+          <lb ed="#L"/>percipitur quantum cognosci et percipi potest secundum capacitatem animae rationalis</quote> Item ibidem 
+          <lb ed="#L"/>capitulo 12o <quote xml:id="pg-b1q14-Qd1e270">cum ex tempore mente percipitur mitti dicitur</quote></p>
+        
+        <p xml:id="pgb1q14-d1e267"><g ref="#pilcrow"/>prima conclusio licet potentia creata 
+          <lb ed="#L"/>intellectiva sit aliqualiter activa respectu alicuius missionis seu visionis divinae 
+          <lb ed="#L"/>tamen nulla creatura active se potest respectu expressionis verbi increati per modum di<lb ed="#L"/>centis 
+          habere prima pars patet quia in patria creata intellectiva respectu fruitionis se habet 
+          <lb ed="#L"/>active consequentia tenet et antecedens patet per <title ref="#Decretals">decretalem</title> deum benedicti quia in duobus actus 
+          <lb ed="#L"/>intellectus et voluntatis stat nostra fruitio seu beatitudo formalis consistit quae est 
+          <lb ed="#L"/>tota latitudo formalis gloriae 2a pars patet quia sequitur quod verbum increatum esset terminus pro<lb ed="#L"/>ductus 
+          a potentia creata intellectiva consequens est falsum et consequentia patet quia non videtur possibile 
+          <lb ed="#L"/>quin dictum cuiuslibet dicentis ipsum sit eiusdem dicere terminus productus et sic dicere 
+          <lb ed="#L"/>creatum haberet terminum increatum quod est falsum</p>
+        
+        <p xml:id="pgb1q14-d1e299"><g ref="#pilcrow"/>primum corollarium licet anima beata ad suam 
+          <lb ed="#L"/>fruitionem possit effective concurrere tamen ipsa non potest lumen gloriae quovis modo pro<lb ed="#L"/>ducere 
+        prima pars patet ex conclusione quia tale lumen a solo deo est producibile</p>
+        
+        <p xml:id="pgb1q14-d1e308"><g ref="#pilcrow"/>2m 
+          <lb ed="#L"/>corollarium memoria creata licet possit per divinam essentiam tamquam per speciem intellective 
+          <lb ed="#L"/>beatifice elevari tamen non stat realiter ab ipsa verbum increatum proprie formari 
+          <lb ed="#L"/>patet quia tunc potentia finita produceret terminum immensum <g ref="#slash"/>oppositum huius corolarii ponit <name ref="#Ripa">Iohannes 
+          <lb ed="#L"/>de marchia</name> in suis determinationibus prima pars patet quia deus potest supplere 2ae 
+          <lb ed="#L"/>causae efficientis vicem</p>
+        
+        <p xml:id="pgb1q14-d1e328"><g ref="#pilcrow"/>3m corollarium licet anima beata se habeat passive respectu fru<lb ed="#L"/>itionis 
+          tamen eadem potest se habere simul active respectu suae cognitionis et dilectionis 
+          <lb ed="#L"/>prima pars patet quia est illorum actuum receptiva 2a patet per dictam in conclusione et corollaria</p>
+        
+        <p xml:id="pgb1q14-d1e336"><lb ed="#L"/><g ref="#pilcrow"/>2a conclusio licet mitti tantum competat spiritui sancto et filio tamen cuilibet personae divinae com<lb ed="#L"/>petit 
+          activa missio prima pars patet quia mitti non convenit patri sed filio et spiritui 
+          <lb ed="#L"/>sancto ergo prima pars antecedentis est <ref><name ref="#Augustine">augustini</name> 4o <title ref="#deTrinitate">de trinitate</title> capitulo ultimo</ref> dicentis quod pater <quote xml:id="pg-b1q14-Qd1e348">non 
+          <lb ed="#L"/>dicitur missus</quote> 2a pars antecedentis patet per <ref><name ref="#Augustine">augustinum</name> 2o <title ref="#deTrinitate">de trinitate</title> capitulo 5o</ref> dicentem <quote xml:id="pg-b1q14-Qd1e365">mitti 
+          <lb ed="#L"/>a patre filius sine spiritu sancto non posuit nam pater intelligitur eum misisse 
+          <pb ed="#L" n="48-v"/><lb ed="#L"/>quia ex femina eum fecit quia non utique eum sine spiritu sancto fecit</quote> <g ref="#pilcrow"/>quod autem spiritus sanctus 
+          <lb ed="#L"/>mittatur per eundem <ref><name ref="#Augustine">augustinum</name> patet in 4o <title ref="#deTrinitate">de trinitate</title> capitulo 19</ref> ubi expresse dicit quod <quote xml:id="pg-b1q14-Qd1e385">spiritus 
+            <lb ed="#L"/>sanctus dat et mittit se ipsum</quote> <g ref="#slash"/>Item <ref><title ref="#io">Iohannis</title> 15</ref> <quote xml:id="pg-b1q14-Qd1e399" ana="#io15_26">mittam vobis spiritum veritatis</quote> 
+          <lb ed="#L"/>2a pars probatur quia opera trinitatis adextra sunt indivisa sed mittere aliquam personam etc ergo 
+          <lb ed="#L"/>haec est ratio <name ref="#Lombard">magistri</name> in 15 distinctione</p>
+        
+        <p xml:id="pgb1q14-d1e403"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium non plus repugnat filium a spiritu 
+          <lb ed="#L"/>sancto <corr>mitti<del rend="strikethrough">t</del></corr> quam filium spiratorem esse spiritus sancti patet ex dictis quia utrumque est 
+          <lb ed="#L"/>verum et non repugnans</p>
+        
+        <p xml:id="pgb1q14-d1e417"><g ref="#pilcrow"/>2m corollarium cuicumque personae convenit mitti eandem se mit<lb ed="#L"/>tere 
+        debet admitti patet quia mittere est agere adextra</p>
+        
+        <p xml:id="pgb1q14-d1e424"><g ref="#pilcrow"/>3m corollarium non cuiuslibet 
+          <lb ed="#L"/>personae divinae sub corporali specie perceptio est eiusdem personae talis passiva missio 
+          <lb ed="#L"/>patet quia pater non mittitur et tamen sub corporali specie apparuit in transfiguratione quando 
+          <lb ed="#L"/>vox eius audita fuit dicens <quote xml:id="pg-b1q14-Qheffmd">hic est filius meus dilectus</quote> etc ex dictis patet quod 
+          <lb ed="#L"/>mitti non est mere absolutum sed aliquae originis connotat respectum patet quia si esset 
+          <lb ed="#L"/>mere absolutum posset convenire sicut filio et spiritui sancto unde <ref><name ref="#Augustine">augustinus</name> 4 <title ref="#deTrinitate">de trinitate</title> capitulo 30</ref> 
+          <lb ed="#L"/>dicit mitti filium est cognoscere quod ab alio sit</p>
+        
+        <p xml:id="pgb1q14-d1e449"><g ref="#pilcrow"/>3a conclusio licet non stet spiritum sanctum 
+          <lb ed="#L"/>ab <choice><orig>alico</orig><reg>aliquo</reg></choice> recipi et ipsum a recipiente nullo modo percipi tamen de communi lege nullus potest 
+          <lb ed="#L"/>scienter percipere se meritorie deum diligere prima pars patet quia spiritus sancti missio 
+          <lb ed="#L"/>temporalis est in mente creata perceptio vitalis ergo antecedens est dictum <name ref="#Augustine">augustini</name> superius 
+          <lb ed="#L"/>allegatum quo dicitur <quote xml:id="pg-b1q14-Qcsspmd">cum spiritus sanctus ex tempore mente percipitur mitti dicitur</quote> <g ref="#slash"/>2a pars 
+          <lb ed="#L"/>patet per illud <ref><name ref="#Paul">apostoli</name> <title ref="#Icor">ad corinthios</title> <sic>13o</sic></ref> <quote ana="#Icor4_4">nihil mihi conscimus sum sed non in hoc iustificatus sum</quote> 
+          <lb ed="#L"/>Item <sic>2ae</sic> <ref><title ref="io">Iohannis</title> capitulo 3o</ref> <quote ana="#io3_8">ubi spiritus vult spirat sed nescis unde veniat</quote> 
+          <lb ed="#L"/>aut conclusio vadat Item negatio sit an odio etc</p>
+        
+        <p xml:id="pgb1q14-d1e501"><g ref="#pilcrow"/>primum corollarium lege stante licet 
+          <lb ed="#L"/>nullus potest se scire habere ordinatam dilectionem tamen aliquis tenetur credere se habere spiritus 
+          <lb ed="#L"/>sancti missionem prima patet ex dictis 2a probatur quia aliquis tenetur credere se habere ca<lb ed="#L"/>ritatem 
+          ergo consequentia tenet quia spiritum sanctum mitti in mente est menti caritatem infundi 
+          <lb ed="#L"/>ut dicit conclusio et antecedens patet de adulto accedente ad sacramentum quo gratia confertur 
+          <lb ed="#L"/>sicut est baptismus et <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice></p>
+        
+        <p xml:id="pgb1q14-d1e515"><g ref="#pilcrow"/>2m corollarium non stat fructum missionis divinae in 
+          <lb ed="#L"/>mente augeri et vitalem dei perceptionem in eadem non intendi patet quia si non sequitur 
+          <lb ed="#L"/>quod non quilibet recipiens personae divinae missionem haberet eius vitalem perceptionem 
+          <lb ed="#L"/>quod est contra conclusionem</p>
+        
+        <p xml:id="pgb1q14-d1e525"><g ref="#pilcrow"/>3m corollarium non semper intelligimus nos uniformiter cognoscere patet quia 
+          <lb ed="#L"/>aliter habens talem perceptionem haberet evidentem et experimentalem cognitionem quod est contra 
+          <lb ed="#L"/>dictam ex dictis patet responsio quod stat aliquae etc</p>
+        
+        <p xml:id="pgb1q14-d1e533"><g ref="#pilcrow"/>contra primam conclusio sequitur quod memoria 
+          <lb ed="#L"/>creata posset concurrere per suum posse essentiale active ad claritatem luminis gloriae 
+          <lb ed="#L"/>consequens est falsum probatur consequentia quia non plus potest intelligentia creata ad dispositionem super<lb ed="#L"/>naturale 
+          et unionem vitalem divinae essentiae quam ad lumen gloriae</p>
+        
+        <p xml:id="pgb1q14-d1e544"><g ref="#pilcrow"/>2o contra primum 
+          <lb ed="#L"/>corollarium repugnat potentiam naturalem supernaturaliter agere per suum essentiale posse ergo re<lb ed="#L"/>pugnat 
+        intellectum creatum ad fruitionem patriae effective concurrere</p>
+        
+        <p xml:id="pgb1q14-d1e552"><g ref="#pilcrow"/>3o contra 2m corollarium 
+          <lb ed="#L"/>intelligentia creata concurrit effective ad motum visionis quo verbum increatum red<lb ed="#L"/>ditur 
+          praesens vitaliter tali intelligentiae sed hoc est verbum increatum dicere ergo</p>
+        
+        <p xml:id="pgb1q14-d1e560"><g ref="#pilcrow"/>contra 3m corollarium 
+          <pb ed="#L" n="49-r"/><lb ed="#L"/>sequitur quod perfectiori in naturalibus semper correspondebit caeteris paribus <choice><orig>intencior</orig><reg>intentior</reg></choice> beatitudo et per consequens 
+          <lb ed="#L"/>stante aequalitate meritorum stabit inaequalitas primorum propter priora essentialia quod 
+          <lb ed="#L"/>est falsum et patet consequentia quia puriora essentialia plus possunt quam minus pura et imperfecta</p>
+        
+        <p xml:id="pgb1q14-d1e577"><lb ed="#L"/><g ref="#pilcrow"/>contra 2am conclusionem mitti et mittere sunt correlativa ergo cum mitti cognoscet relatum originis 
+          <lb ed="#L"/>sequitur quod mittere dicit eundum relatum sed spiritus sanctus nihil originat adintra ergo nullam personam 
+          <lb ed="#L"/>potest mittere consequentia patet quia secundum <name ref="#Augustine">augustinum</name> mitti est originari igitur mittere est originare</p>
+        
+        <p xml:id="pgb1q14-d1e589"><lb ed="#L"/><g ref="#pilcrow"/>2o quia ille relatus quem dicit mitti vel erit ad eum quam sit missio et tunc 
+          <lb ed="#L"/>erit communis tribus personis et sic pater mittetur consequentia patet quia est relatus rationis adextra <g ref="#slash"/>vel 
+          <lb ed="#L"/>dicit relatum ad ipsum mittentem et si sic vel ergo erit rationis tantum et tunc poterit esse 
+          <lb ed="#L"/>in patre vel realis et tunc etiam mittere non erit essentiale et per consequens non commune tribus per<lb ed="#L"/>sonis 
+          quod repugnat 2ae parti illius conclusionis</p>
+        
+        <p xml:id="pgb1q14-d1e605"><g ref="#pilcrow"/>3o mitti dicit relatum originis ergo nulla 
+          <lb ed="#L"/>persona potest se ipsam mittere patet consequentia quia nulla potest se ipsam originare</p>
+        
+        <p xml:id="pgb1q14-d1e612"><g ref="#pilcrow"/>4o mitti 
+          <lb ed="#L"/>dicit imperfectionem et indignitatem ergo nulli personae divinae competit consequentia bona sed antecedens 
+          <lb ed="#L"/>probatur quia secundum <name ref="#Dionysius">dyonisium</name> in <title ref="#deCoelestiHierarchia">de angelica ierarchia</title> angeli superiores semper assistunt deo et 
+          <lb ed="#L"/>non mittuntur propter sui dignitatem sed persona divina est improportionaliter dignior 
+          <lb ed="#L"/>omni angelo ergo propter sui dignitatem non debet mitti</p>
+        
+        <p xml:id="pgb1q14-d1e631"><g ref="#pilcrow"/>contra 3am conclusionem aliquis potest scire se 
+          <lb ed="#L"/>esse dignum vita aeterna ergo aliquis potest scire se deum meritorie diligere saltim habi<lb ed="#L"/>tualiter 
+          consequentia bona et antecedens probatur quia aliquis potest scire se habere timorem filialem ergo 
+          <lb ed="#L"/>et caritatem consequentia tenet per glosam super illo <title ref="#Iio">primae Iohannis</title> <quote xml:id="pg-b1q14-Qd1e599">perfecta caritas foras 
+          <lb ed="#L"/>mittit timorem</quote> antecedens patet <title ref="#gen">genesis</title> 22o <quote xml:id="pg-b1q14-Qd1e613" ana="#gen22_12">cognovi quia timeas deum</quote> id est cognoscere 
+          <lb ed="#L"/>te feci <g ref="#slash"/>Item <ref><title ref="#phil">philippenses</title> <sic>2o</sic></ref> <quote xml:id="pg-b1q14-Qd1e630" ana="#phil4_6"><choice><orig>peticiones</orig><reg>petitiones</reg></choice> vestrae innotescant apud deum</quote></p>
+        
+        <p xml:id="pgb1q14-d1e671">Item quis potest scire se omnia propter deum di<lb ed="#L"/>ligere 
+          et omnia reliquisse ergo scire se esse dignum vita aeterna consequentia tenet <name ref="#Lombard">matthaeus</name> 
+          <lb ed="#L"/>19 <quote xml:id="pg-b1q14-Qoqrvap">omnis qui reliquerit etc vitam aeternam possidebit</quote>
+        </p>
+        <p xml:id="pgb1q14-iappce">
+          <g ref="#slash"/>Item aliquis potest scire nullum 
+          <lb ed="#L"/>timorem servilem se habere ergo potest scire se habere caritatem consequentia tenet per illud <ref><title>primae ioannes</title> <g ref="#dot"/> 
+          <lb ed="#L"/>4o</ref> <quote ana="#io4_18">perfecta caritas</quote> etc</p>
+        
+        <p xml:id="pgb1q14-d1e690">contra primum corollarium nullus articulus cogit aliquem credere 
+          <lb ed="#L"/>se esse in caritate ergo antecedens patet quia si aliquis esset inderetur ille credo <mentioned>in sanctam 
+          <lb ed="#L"/>ecclesiam catholicam</mentioned> sed hoc non quia ecclesia nullibi hoc praecipit <choice><orig>ymmo</orig><reg>immo</reg></choice> videtur 
+          <lb ed="#L"/><choice><orig>ypocrisis</orig><reg>hypocrisis</reg></choice> iudicare se in caritate <choice><orig>ymmo</orig><reg>immo</reg></choice> iudicare se esse extra caritatem 
+          <lb ed="#L"/>videtur meritorium ut patet de publicano <ref xml:id="pg-b1q14-Rd1e670">luce 18</ref> <g ref="#dot"/></p>
+        
+        <p xml:id="pgb1q14-d1e720"><g ref="#pilcrow"/>2o contra 2m corollarium peccator te<lb ed="#L"/>netur 
+          conteri de peccato ergo tenetur credere se esse in caritate et ultra omnis 
+          <lb ed="#L"/>adultus vel est in caritate vel extra ergo omnis tenetur se credere esse in caritate 
+          <lb ed="#L"/>quod est primum
+        </p>
+        <p xml:id="pgb1q14-cacicf">
+          contra alia corollaria omnis perceptio est cognitio aliqualis et ad intentionem perceptionis 
+          <lb ed="#L"/>sequitur intensio cognitionis ergo illa corollaria falsa</p>
+        
+        <p xml:id="pgb1q14-d1e732"><g ref="#slash"/>Ad primum negatur consequentia et dicitur ad probationem quod 
+          <lb ed="#L"/>non omnis missio personae divinae est supernaturalis dispositio ut praetendit argumentum 
+          <lb ed="#L"/>loqui de dispositione <g ref="#slash"/>2o posset antecedens negari <sic>antecedens</sic> generaliter 3o posset concedi consequentia 
+          <lb ed="#L"/>iam negata scilicet quod memoria etc non quidem agendo ipsum in ipso et circa ipsum
+        </p>
+        <p xml:id="pgb1q14-asdiaa">
+          <lb ed="#L"/>Ad 2m dicitur quod antecedens est verum si per suum naturale posse praecise non repugnat 
+          <pb ed="#L" n="49-v"/><lb ed="#L"/>ipsum sic agere cum adiunctione alterius potentiae modo in proposito non est solum naturale 
+          <lb ed="#L"/>agens sed etiam supernaturale elevans potentiam seu ipsum posse naturale et actuans 
+          <lb ed="#L"/>ipsum ad agendum</p>
+        
+        <p xml:id="pgb1q14-d1e755"><g ref="#pilcrow"/>Ad 3m negatur minor quia ad talem motum concurrere non 
+          <lb ed="#L"/>est dicere verbum incarnatum</p>
+        
+        <p xml:id="pgb1q14-d1e761"><g ref="#pilcrow"/>Ad 4m dicitur primo negando consequentiam quia ad intensionem 
+          <lb ed="#L"/>causae partialis non semper intenditur effectus <choice><orig>accionis</orig><reg>actionis</reg></choice> <g ref="#slash"/>2o posset dici quod non secundum 
+          <lb ed="#L"/>proportionem meritorum stabit retributio primorum quia tunc nullum primum da<lb ed="#L"/>retur 
+          pro gratia baptismali quod est falsum <g ref="#slash"/>3o posset concedi consequens dei tamen voluntate con<lb ed="#L"/>currente 
+          quae potest distribuere praemia prout sibi placet</p>
+        
+        <p xml:id="pgb1q14-d1e784"><g ref="#pilcrow"/>Ad primum contra 2am conclusio 
+          <lb ed="#L"/>distinguitur de <mentioned>mittere</mentioned> quia uno modo accipitur principaliter auctorative alio modo consequenter determinative primo modo 
+          <lb ed="#L"/>tantum convenit patri et filio 2o modo tribus ideo si antecedens sumitur primo modo conceditur si 2o modo negatur consequentia 
+          <lb ed="#L"/>nec antecedens est verum</p>
+        
+        <p xml:id="pgb1q14-d1e794"><g ref="#pilcrow"/>Ad 2m dicitur quod <mentioned>mitti</mentioned> dicit relatum non quidem ad mittentem 
+          <lb ed="#L"/>determinative consequenter sed auctoritative principaliter similiter posset dici de <mentioned>mittere</mentioned> quod si sumitur 
+          <lb ed="#L"/>auctoritative tunc nulla persona se ipsam mittit nec aliam nisi illam quam producit sed bene 
+          <lb ed="#L"/>2o modo patet
+        </p>
+        <p xml:id="pgb1q14-hpaata">
+          hoc patet ad 3m argumentum vide de hoc <name ref="#ThomasStrasbourg">thomam argentis</name>
+        </p>
+        
+        <p xml:id="pgb1q14-d1e806"><g ref="#pilcrow"/>Ad 4m dicitur quod alias 
+          <lb ed="#L"/>est verum in creatura quia cum creatura mitti mutatur et movetur alicubi ubi prius 
+          <lb ed="#L"/>non erat sed quia deus est ubique ideo sine <choice><orig>mutacione</orig><reg>mutatione</reg></choice> et imperfectione mitti potest divina 
+          <lb ed="#L"/>persona quia non mittitur ubi non erat sed qualiter non erat novum effectum scilicet 
+          <lb ed="#L"/>causans in creatura sine sui <choice><orig>mutacione</orig><reg>mutatione</reg></choice> non tamen sine <choice><orig>mutacione</orig><reg>mutatione</reg></choice> creaturae</p>
+        
+        <p xml:id="pgb1q14-d1e837"><g ref="#pilcrow"/>Ad primum contra 
+          <lb ed="#L"/>3am conclusionem negatur antecedens et ad probationem dicitur loquendo de timore formato caritate negatur illud 
+          <lb ed="#L"/><g ref="#slash"/>et ad probationem dicendum quod illud cognovit <name ref="#Abraham">abraham</name> ex divina revelatione sibi illud 
+          <lb ed="#L"/>indicante et ad aliam probationem <quote ana="#phil4_6"><choice><orig>peticiones</orig><reg>petitiones</reg></choice> vestrae</quote> etc dicitur quod ex glossa non habetur 
+          <lb ed="#L"/>nisi quod in aliquibus credimus nos a deo esse ex auditos et forte scimus 
+          <lb ed="#L"/>effectum operatum evenisse sed ex hoc non sequitur contra conclusionem</p>
+        
+        <p xml:id="pgb1q14-d1e865"><g ref="#pilcrow"/>Ad aliud negatur consequentia quia 
+          <lb ed="#L"/>non ex operibus iustificatur quia <name ref="#Socrates">socrates</name> divitias contempsit secundum <name ref="#Jerome">Ieromum</name> et 
+          <lb ed="#L"/>tamen non iustificatus est
+        </p>
+        <p xml:id="pgb1q14-iaanth">
+          <g ref="#slash"/>Item ad aliud negatur consequentia quia ex puris naturalibus potest aliquis 
+          <lb ed="#L"/>nullum timorem habere</p>
+        
+        <p xml:id="pgb1q14-d1e884"><g ref="#pilcrow"/>Ad primum contra corollarium negatur antecedens quia continetur sub praenominato 
+          <lb ed="#L"/>articulo vel quod idem est ille articulus dicit etiam hoc ecclesia dicit de accipientibus sacramentum 
+          <lb ed="#L"/><choice><orig>eukaristiae</orig><reg>eucharistiae</reg></choice> ut patet <title ref="Icor">ad corinthios</title> <sic>2o</sic> <quote ana="#Icor11_28">probet autem se ipsum homo</quote> etc et hoc potest fieri sine 
+          <lb ed="#L"/><choice><orig>ypocrisi</orig><reg>hypocrisi</reg></choice> et iactantia</p>
+        
+        <p xml:id="pgb1q14-d1e914"><g ref="#pilcrow"/>Ad 3m conceditur consequentia et consequens et negatur ulterior consequentia sed bene 
+          <lb ed="#L"/>sequitur quod tenetur esse in tali statu in quo credat se esse in caritate contra <name ref="#MonachusNiger">monachum 
+            <lb ed="#L"/>nigrum</name></p>
+        
+        <p xml:id="pgb1q14-d1e924"><g ref="#pilcrow"/>Ad 4m posset concedi consequens de cogitatione habituali non actuali 
+          <lb ed="#L"/>de qua loquor in conclusione et corollario <g ref="#slash"/>Item posset dici quod talis cognitio intenditur non 
+          <lb ed="#L"/>tamen in esse cognitionis sed solum in esse experimentalis perceptionis ex dictis patet</p>
+        
+        <p xml:id="pgb1q14-d1e934"><lb ed="#L"/><g ref="#pilcrow"/><hi rend="largeFont">hic considerandum est</hi> haec distinctio continetur 7 conclusiones <g ref="#slash"/>prima quod spiritus sanctus 
+          <lb ed="#L"/>est deus et donum et ideo dat et datur dat inquantum deus datur inquantum donum 
+          <lb ed="#L"/>nec ex hoc est minor patre vel filio</p>
+        
+        <p xml:id="pgb1q14-d1e953"><g ref="#pilcrow"/>2a conclusio si spiritus sanctus non posset dare se 
+          <lb ed="#L"/>ipsum pater et filius aliquid posset quod non posset spiritus sanctus et aliquid operarentur pater 
+          <lb ed="#L"/>et filius quod non operaretur spiritus sanctus quae sunt inconvenientia quia opera trinitatis adextra 
+          <pb ed="#L" n="50-r"/><lb ed="#L"/>sunt indivisa ergo sequitur quod spiritus sanctus procedit temporaliter mittatur et datur a se ipso</p>
+        
+        <p xml:id="pgb1q14-d1e965"><lb ed="#L"/><g ref="#pilcrow"/>3a conclusio quod pater numquam legitur missus sed solum filius et spiritus sanctus filius autem mittitur 
+          <lb ed="#L"/>a patre et se ipso et a spiritu sancto et illa missio fuit incarnatio quod fuit opus 
+          <lb ed="#L"/>commune tribus personis</p>
+        
+        <p xml:id="pgb1q14-d1e974"><g ref="#pilcrow"/>4a conclusio quod cum filius dicit <title ref="io">iohannes</title> 8o <quote xml:id="pg-b1q14-Qd1e812" ana="#io7_28">a me ipso non veni</quote> 
+          <lb ed="#L"/>hoc dictum fuit secundum formam servi secundum quam non est operatus incarnationem sed secundum 
+          <lb ed="#L"/>formam dei</p>
+        
+        <p xml:id="pgb1q14-d1e988"><g ref="#pilcrow"/>5a conclusio filius dei praeter aeterna genitura secundum quam missus dicitur sed 
+          <lb ed="#L"/>melius et verius secundum eam dicitur genitus <g ref="#slash"/>duobus modis mitti dicitur vel cum vi<lb ed="#L"/>sibiliter 
+          mundo apparuit in carne vel invisibiliter in animas pias transfert 
+          <lb ed="#L"/>ut ab eis percipiatur et cognoscatur primo modo semel est missus 2o modo mittitur omnidie 
+          <lb ed="#L"/>non ut sit homo sed ut sit cum homine</p>
+        
+        <p xml:id="pgb1q14-d1e1002"><g ref="#plcrow"/>6a conclusio licet pater ex tempore cognoscatur 
+          <lb ed="#L"/>sicut filius non tamen dicitur missus quia in patre est auctoritas principii quia est principium 
+          <lb ed="#L"/>filii et spiritus sancti et non habet a quo sit</p>
+        
+        <p xml:id="pgb1q14-d1e1010"><g ref="#pilcrow"/>7a conclusio pater non ideo dicitur misisse filium 
+          <lb ed="#L"/>et spiritum sanctum quia ille maior est et illi minores sicut quidam haeretici puta<lb ed="#L"/>runt 
+          sed propter commodi auctoritatem principii et quia pater non apparuit in creatura visibili 
+          <lb ed="#L"/>sicut filius et spiritus sanctus quia tantum in voce quae non est visibilis sed audibilis etc</p>
+          
+      </div>  
+    </body>
+  </text>
+</TEI>
