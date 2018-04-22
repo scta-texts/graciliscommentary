@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Quaestio 23 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2014.12-dev-master">
+          <title>Librum I, Quaestio 23 [London Transcription]</title>
+          <date when="2014-12-16">December 16, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2014-12-16">December 16, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-12-16" who="#JW" status="draft" n="2014.12">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q23">
+        <head>Quaestio 23 [London Transcription]</head>
+        <p xml:id="pgb1q23-d1e3115"><hi rend="dropCapThreeLines">N</hi>unc de proprietatibus personarum Ista est 26 distinctio quae ad praecedentibus 
+          <lb ed="#L"/>sicut continuatur nam postquam determinavit <name ref="#Lombard">magister</name> de nominibus quae de deo extrinsece 
+          <lb ed="#L"/>dici possunt <g ref="#slash"/>nunc consequenter determinat de proprietatibus quae deo intrinsece conveniunt 
+          <lb ed="#L"/>et dividitur in duas quia primo tractat de hiis proprietatibus secundum earum esse proprium <g ref="#slash"/>2o 
+          <lb ed="#L"/>secundum esse comparatum 2a est in principio 27 distinctionis ibi hic quaeri potest</p>
+        
+        <p xml:id="pgb1q23-d1e3136"><g ref="#pilcrow"/>prima dividitur in tres 
+          <lb ed="#L"/>quia primo ostendit qualiter hoc nomen ypostasis in divinis debet admitti 2o quibus nominibus 
+          <lb ed="#L"/>quaelibet ypostasis debet nominari <g ref="#slash"/>3o movet quaestiones et eas docet solvi secundam 
+          <lb ed="#L"/>incipit ibi iam de proprietatibus 3a ibi hic quaeritur quomodo</p>
+        
+        <p xml:id="pgb1q23-d1e3148"><g ref="#pilcrow"/>2a pars principalis scilicet distinctio 
+          <lb ed="#L"/>27a dividitur in tres nam primo ostendit quomodo se habeant iste proprietates ad nomina 
+          <lb ed="#L"/>personalia 2o quomodo se habeant ad non personalia 3o dat relatam generalem quantum 
+          <lb ed="#L"/>ad substantialia et notionalia 3a ibi est hic advertenda 2a ibi hic non est <unclear>praetermittendum</unclear> etc</p>
+        
+        <p xml:id="pgb1q23-d1e3161"><hi rend="dropCapThreeLines">U</hi>trum tot sint divina supposita praecisive quot sunt proprietates eorumdem 
+          <lb ed="#L"/>relative</p> 
+        
+        <p xml:id="pgb1q23-qnqpni"><g ref="#slash"/>quod non quia in divinis est aliquod suppositum absolutum ergo sunt plura supposita 
+          <lb ed="#L"/>quam proprietates tenet consequentia quia praecise sunt tot proprietates relative quod sunt relativa 
+          <lb ed="#L"/>antecedens probatur quia actiones sunt suppositarum sed essentiae divinae formaliter conventi actio 
+          <lb ed="#L"/>ergo et suppositabilis ratio <g ref="#slash"/>tum 2o quia intelligere solum suppositis competit sed essentia intel<lb ed="#L"/>ligit 
+          formaliter <choice><orig>ymmo</orig><reg>immo</reg></choice> intelligere essentiale ut videtur praecedit notionale igitur</p>
+        
+        <p xml:id="pgb1q23-d1e3188"><lb ed="#L"/><g ref="#pilcrow"/>2o supposita divina distinguitur ab essentia ergo patet consequentia quia distinctio in divinis infert oppositionem 
+          <lb ed="#L"/>relativam secundum <name ref="#Anselm">anselmum</name> et per consequens arguit proprietatem relativam in utroque distinctorum ergo in essentia 
+          <lb ed="#L"/>divina est proprietas relativa distincta <unclear>approrietibus</unclear> suppositorum <g ref="#slash"/>antecedens probatur quia de essentia et per<lb ed="#L"/>sona 
+          vere dicuntur contraria ut puta communicabilis et non communicabilis <g ref="#slash"/>2o probatur antecedens 
+          <lb ed="#L"/>quia filius est aliquid quod non est pater igitur filius est aliquid quod non est essentia patet consequentia quia quidquid 
+          <lb ed="#L"/>est essentia est pater antecedens probatur quia filius est suppositum filii quod non est pater <g ref="#slash"/>3o probatur idem 
+          <lb ed="#L"/>antecedens quia essentia est perfectio simpliciter sed nullum suppositum est perfectio simpliciter ergo</p>
+        
+        <p xml:id="pgb1q23-d1e3219"><g ref="#pilcrow"/>3o principaliter 
+          <lb ed="#L"/>arguitur plures sunt proprietates relative quam supposita ergo probatur antecedens quia quaelibet proprietatis 
+          <lb ed="#L"/>relativa constituit suppositum <unclear>2o <!-- possibily corrected --></unclear> quia tot sunt res reales adintra quot 
+          <lb ed="#L"/>sunt relationes <g ref="#slash"/>3o quia proprietas personalis seu persona et essentia formaliter distinguuntur prout 
+          <lb ed="#L"/>tenet <ref><name ref="#Scotus">scotus</name> libro primo distinctione 33a</ref> igitur</p>
+        
+        <p xml:id="pgb1q23-d1e3239"><g ref="#pilcrow"/>Ad oppositum est <name ref="#Lombard">magister</name> in distinctionibus istis Item 
+          <lb ed="#L"/><ref><name ref="#RichardOfStVictor">ricardus</name> 4o <title ref="#RichardOfStVictor_deTrinitate">de trinitate</title> capitulo 17</ref> dicit <quote>in illa trinitate tot sunt personales 
+          <lb ed="#L"/>proprietates quot sunt personae</quote> igitur</p>
+          
+        <p xml:id="pgb1q23-d1e3260"><g ref="#pilcrow"/>prima conclusio sicut quodlibet divinum suppositum 
+          <pb ed="#L" n="72r"/><lb ed="#L"/>est summe simplex et <choice><orig>neccesse</orig><reg>necesse</reg></choice> sic nullum divinum suppositum aliqua proprietate proprie constituitur 
+          <lb ed="#L"/>inesse probatur prima pars quia non minus est simplex quodlibet divinum suppositum quam essentia divina 
+          <lb ed="#L"/>sed ipsam esse summe simplicem est <choice><orig>neccesse</orig><reg>necesse</reg></choice> ergo suppositum</p>
+        
+        <p xml:id="pgb1q23-d1e3284"><g ref="#pilcrow"/>2a pars probatur quia si pater constitueretur 
+          <lb ed="#L"/>inesse sua proprietate sequitur quod pater aliquo modo haberet causam seu principium consequens est falsum quia 
+          <lb ed="#L"/>pater est principium sine principio et consequentia patet quia quodlibet constitutivum est aliquo modo causa et principium 
+          <lb ed="#L"/>illius quod constituit</p>
+        
+        <p xml:id="pgb1q23-d1e3294"><g ref="#pilcrow"/>primum corollarium si aliquod divinum suppositum sua proprietate inesse constitueretur 
+          <lb ed="#L"/>quodlibet suppositum a sua proprietate distingueretur patet quia omne constituens distinguitur a suo constituto 
+          <lb ed="#L"/>cum omne constituens sit principium et causa sui constituti ut dicit conclusionis probatio</p>
+        
+        <p xml:id="pgb1q23-d1e3303"><g ref="#pilcrow"/>2m corollarium 
+          <lb ed="#L"/>quam repugnat patrem a paternitate cum distingui tam ei repugnat ipsum paternitate 
+          <lb ed="#L"/>inesse constitui patet quia aliter idem inesse se ipsum constitueret quod non videtur <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice></p>
+        
+        <p xml:id="pgb1q23-d1e3316"><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium sicut non stat in divinis esse aliquod suppositum constitutum sic non stat in divinis 
+          <lb ed="#L"/>esse aliquod suppositum absolutum probatur quia tunc non tantum trinitas esset in divinis <choice><orig>ymmo</orig><reg>immo</reg></choice> quaternitas 
+          <lb ed="#L"/>sicut <name>abbas ioachim</name> imposuit <ref><name ref="#Lombard">magistro</name> <title ref="#Sentences">sententiarum</title> illud corollarium probat <name ref="#ThomasStrasbourg">thomas de argentina</name> 
+          <lb ed="#L"/>libro primo distinctione 26 articulo 4o</ref></p>
+        
+        <p xml:id="pgb1q23-d1e3347"><g ref="#pilcrow"/>2a conclusio sicut personalis <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> repugnat immense trinitati 
+          <lb ed="#L"/>sic distinctionis <unclear>distinctiva</unclear> formalitas repugnat summae simplicitati probatur primo conclusio tota per regulam vul<lb ed="#L"/>gatam 
+          <ref><name ref="#Anselm">anselmus</name> in <title ref="#DeProcessioneSpiritusSancti">de processione spiritus sancti</title> capitulo 2o</ref> qua dicitur <quote ana="#Anselm_DeProcessioneSpiritusSancti_7_a">omnia sunt idem ubi non obviat 
+          <lb ed="#L"/>relationis oppositio</quote> sed solum inter personas est huiusmodi oppositio relativa ergo in divinis distinctio 
+          <lb ed="#L"/>sola personalis est ponenda</p>
+        
+        <p xml:id="pgb1q23-d1e3377"><g ref="#pilcrow"/>primum corollarium sicut in divinis nulla est ratio constitutiva sic inter 
+          <lb ed="#L"/>personam et essentiam nulla est ratio <unclear>distinctiva</unclear> patet quia inter personas et essentiam nulla est oppositio 
+          <lb ed="#L"/>relativa ergo nec distinctio consequentia patet per conclusionem et probationem</p>
+        
+        <p xml:id="pgb1q23-d1e3388"><g ref="#pilcrow"/>2m corollarium sicut persona sua proprietate 
+          <lb ed="#L"/>non constituitur sic essentia divina ex tribus personis non <corr><del rend="strikethrough">conferturetur</del> <add place="inLine">componitur</add></corr>  
+          <lb ed="#L"/>patet tum quia summe simplex tum quia compositio importat potentialitatem et imperfectionem sicut et con<lb ed="#L"/>stitutionem</p>
+        
+        <p xml:id="pgb1q23-d1e3402"><g ref="#pilcrow"/>3m corollarium licet essentia divina dicatur de <choice><orig>alico</orig><reg>aliquo</reg></choice> de quo non dicitur pater et econverso 
+          <lb ed="#L"/>tamen inter patrem et essentiam divinam non est ponenda distinctio prima patet quia essentia dicitur de filio 
+          <lb ed="#L"/>de quo tamen non dicitur pater 2a pars patet per conclusionem</p>
+        
+        <p xml:id="pgb1q23-d1e3417"><g ref="#pilcrow"/>3a conclusio quod divina essentia persona et 
+          <lb ed="#L"/>relativa proprietas sunt formaliter eadem res seu eadem formalitas vel <choice><orig>ydemp<lb ed="#L"/>titas</orig><reg>iden<lb ed="#L"/>titas</reg></choice> 
+          patet ex conclusione 2a quia inter illa non est oppositio relativa</p>
+        
+        <p xml:id="pgb1q23-d1e3433"><g ref="#pilcrow"/>primum corollarium quod ab<lb ed="#L"/>stracta 
+        per intellectum personali proprietate non remanet essentia in communi patet quia illa 
+          <lb ed="#L"/>sunt immense <unclear>id</unclear> ut patet ex dictis oppositum huius <unclear>cor</unclear> ponit <ref><name ref="#Aquinas">sanctus thomas</name> 
+          <lb ed="#L"/>parte prima quaestione 44a</ref></p>
+        
+        <p xml:id="pgb1q23-d1e3453"><g ref="#pilcrow"/>2m corollarium proprietas relativa in divinis non assistit nec 
+          <lb ed="#L"/>insistit in personis contra modum loquendi quorumdam doctorum antiquorum patet quia 
+          <lb ed="#L"/>tam assistentia quam insistentia notat <choice><orig>alicam</orig><reg>aliquam</reg></choice> distinctionem</p>
+        
+        <p xml:id="pgb1q23-d1e3467"><g ref="#pilcrow"/>3m corollarium est <unclear>responsivum</unclear> 
+          <lb ed="#L"/><unclear>a?ve</unclear> ad quaesitum</p>
+        
+        <p xml:id="pgb1q23-d1e3478"><g ref="#pilcrow"/>contra primam conclusionem illud constituit personam inesse per quod illa 
+          <lb ed="#L"/>persona habet esse et sine quo persona non intelligi potest esse sed filius habet 
+          <lb ed="#L"/>esse per generari et sine illo non potest filius intelligi ergo per generari filius con<lb ed="#L"/>stituitur 
+        inesse</p>
+        
+        <p xml:id="pgb1q23-d1e3488">2o illud quod personas divinas multiplicat ipsas inesse 
+          <lb ed="#L"/>constituit sed relatio multiplicat trinitatem ergo relatio personas inesse constituit <g ref="#slash"/>maior 
+          <lb ed="#L"/>nota videtur et minor et <name ref="#Boethius">boetii</name> libro <title ref="#deTrinitateBoethius">de trinitate</title> dicentis quod essentia continet unitatem et 
+          <lb ed="#L"/>relatio multiplicat trinitatem</p>
+        
+        <p xml:id="pgb1q23-d1e3507"><g ref="#pilcrow"/>3o contra 3m corollarium illud quod competit creaturis ratione 
+          <pb ed="#L" n="72v"/><lb ed="#L"/>suae perfectionis videtur deo attribuendum sed in separatis a materia suppositum et <unclear>n?aster</unclear> 
+          <lb ed="#L"/>idem ergo divinam essentia se ipsa erit suppositum et non relativum ergo absolutum</p>
+        
+        <p xml:id="pgb1q23-d1e3519"><g ref="#slash"/>4o 
+          <lb ed="#L"/>contra idem actus dicendi praesupponit personam dicentem et non relativam ergo absolutam 
+          <lb ed="#L"/>quod non relativam ostenditur quia cum relativa simul se ponant sequitur quod actus dicendi prae<lb ed="#L"/>supponeret 
+        personam dictam et sic esset dicta antequam diceretur quod implicat</p>
+        
+        <p xml:id="pgb1q23-d1e3529"><g ref="#pilcrow"/>
+          <lb ed="#L"/>contra 2am conclusionem et corollarium primum <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> maior est inter patrem et paternitatem quam 
+          <lb ed="#L"/>inter patrem et essentiam ergo <choice><orig>alica</orig><reg>aliqua</reg></choice> distinctio est ponenda inter patrem et essentiam tenet consequentia quia distinctio 
+          <lb ed="#L"/><choice><orig>ydemptitas</orig><reg>identitas</reg></choice> videntur se habere per modum oppositarum latitudinum</p> 
+        
+        <p xml:id="pgb1q23-d1e3557"><g ref="#slash"/>2o potest argui 
+          <lb ed="#L"/>per rationem 2am in oppositum <unclear>f?ctam</unclear> quia de persona et essentia verificantur contradictoria praedicata <g ref="#dot"/> Item 
+          <lb ed="#L"/>quia filius est aliquid quod non est pater vel essentia quia est suppositum filii <g ref="#slash"/>Item quia essentia divina 
+          <lb ed="#L"/>est in <unclear>in?sa</unclear> perfectio simpliciter et non persona ergo inter illa cadit distinctio</p> 
+        
+        <p xml:id="pgb1q23-d1e3578"><g ref="#slash"/>3o contra 3m corollarium 
+          <lb ed="#L"/>sequeretur quod haec forma non valet haec res est communis et haec res non est communis eadem re 
+          <lb ed="#L"/>demonstrata igitur eadem res est a se distincta formaliter vel aliqualiter</p>
+        
+        <p xml:id="pgb1q23-d1e3586"><g ref="#pilcrow"/>contra 3am conclusionem 
+          <lb ed="#L"/>arguitur auctoritate <ref><name ref="#Augustine">augustini</name> 7o <title ref="#deTrinitate">de trinitate</title> capitulo primo</ref> dicentis <quote ana="#Augustine_DeTrinitate_7_1_2_a">omnis essentia quae relatio dicitur est etiam 
+            <lb ed="#L"/>aliquid excepto relativa</quote> sed non esset nisi <choice><orig>alica</orig><reg>aliqua</reg></choice> distinctio esset inter essentiam et personam et 
+            <lb ed="#L"/>proprietatem igitur conclusio falsa</p>
+        
+        <p xml:id="pgb1q23-d1e3614"><g ref="#slash"/>2o contra primum corollarium videtur <ref><name ref="#Augustine">augustinus</name> <corr><del rend="strikethrough">primo</del><add place="aboveLine">7o</add></corr> <title ref="#deTrinitate">de trinitate</title> capitulo 2o</ref> 
+          <lb ed="#L"/><quote ana="#Augustine_DeTrinitate_7_2_3_a">filius non eo verbum quo sapientia quia verbum non a?d? se dicitur sed tantum relative sapientia 
+          <lb ed="#L"/>vero intelligitur</quote></p>
+          
+          <p xml:id="pgb1q23-d1e3637">3o contra 2m corollarium videtur dictum <ref><name ref="#Avicenna">avicennae</name> 3o <title ref="#MetaphysicsCommentary">metaphysicae</title> suae capitulo de relatione</ref> 
+            <lb ed="#L"/>ubi dicit quod paternitas est dispositio habens esse in solo patre ergo videtur quod paternitas 
+            <lb ed="#L"/>quae est proprietas patris insistat patri cuius oppositum dicit corollarium</p>
+        
+        <p xml:id="pgb1q23-d1e3652"><g ref="#pilcrow"/>contra 3m corollarium si essent 
+          <lb ed="#L"/>praecise toto supposita sequitur quod spiratio activa non esset vera res consequentia patet quia non est 
+          <lb ed="#L"/>proprietas relativa cum sit in patre et filio sed falsitas consequentis patet cum talis spiratio 
+          <lb ed="#L"/>activa sit relatio realis quae non videtur posse poni nisi ponatur differentia rei 
+          <lb ed="#L"/>cum omnis realis relatio vel distinctio requirat duo extrema realiter distincta ergo sequitur quod 
+          <lb ed="#L"/>illa est vera res</p>
+        
+        <p xml:id="pgb1q23-d1e3666">5o multiplicato inferiori multiplicatur superius sed res quid superius 
+          <lb ed="#L"/>ad relationem ergo toto erunt res in divinis quod erunt relationes sed 4or sunt ibi relationes 
+          <lb ed="#L"/>scilicet genero activa et passiva et spiratio activa et passiva ergo ibi erunt 4or res 
+          <lb ed="#L"/>reales</p>
+        
+        <p xml:id="pgb1q23-d1e3675"><g ref="#pilcrow"/>Ad primum negatur maior quia nulla constitutio proprie ponenda est in divinis propter 
+          <lb ed="#L"/>compositionem et potentialitatem quam tales termini cognoscant</p> 
+        
+        <p xml:id="pgb1q23-asnsnm"><g ref="#slash"/>similiter ad 2m negatur maior</p>
+        
+        <p xml:id="pgb1q23-d1e3683"><g ref="#pilcrow"/>Ad 3m 
+          <lb ed="#L"/>dicitur quod licet sit perfectionis quod suppositum non differat a natura tamen non est perfectionis quod unius 
+          <lb ed="#L"/>naturae sit unum suppositum tantum quia perfectior esset essentia si ipsa <unclear>ma?te</unclear> in distincta haberet 
+          <lb ed="#L"/>plura supposita et esset idem realiter sicut est in divinis <g ref="#slash"/>2o posset negari minor quia in 
+          <lb ed="#L"/>creaturis suppositum addit aliquid ultra naturam vel aliqualiter esse et est aliqua 
+          <lb ed="#L"/>differentia inter illa et non sunt idem convertibiliter ut patebit alias</p>
+        
+        <p xml:id="pgb1q23-d1e3704"><g ref="#pilcrow"/>Ad 4m 
+          <lb ed="#L"/>dicitur quod persona dicens actus dicendi et persona dicta quantum ad rem sunt simul 
+          <lb ed="#L"/>nec est inter illa praecessio vel praesuppositio nisi forte secundum nostrum modum intelligendi 
+          <lb ed="#L"/>qui nihil variat in re</p>
+        
+        <p xml:id="pgb1q23-d1e3714"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur antecedens quidquid sit de 
+          <lb ed="#L"/>consequentia quia nec plus nec minus <choice><orig>ydemptificatur</orig><reg>identificatur</reg></choice> vel distinguitur pater ab essentia quam a paternitate 
+          <lb ed="#L"/>vel econverso</p>
+        
+        <p xml:id="pgb1q23-d1e3728"><g ref="#pilcrow"/>Ad 2m posset primo negari antecedens quia non praedicantur respectu eiusdem <g ref="#slash"/>2o etiam 
+          <pb ed="#L" n="#73r"/><lb ed="#L"/>posset negari consequentia quia secundum aliquos possibile est quod unus terminus pro eo supponat quod est 
+          <lb ed="#L"/>illud pro quo supponit alter non tamen pro omni supponit pro quo supponit alter</p>
+        
+        <p xml:id="pgb1q23-d1e3739"><g ref="#pilcrow"/>Ad 
+          <lb ed="#L"/>3m posset negari consequentia et ad probationem quia quidquid est pater est essentia et econverso <unclear>haec</unclear> potest habere duplicem 
+          <lb ed="#L"/>sensum primus quod de quocumque dicitur essentia de eo dicitur pater et iste est falsus quia sic filius esset 
+          <lb ed="#L"/>pater 2us quod omne ens incomplexum quod est essentia est illa entitas quae est pater et ille est 
+          <lb ed="#L"/>verus</p>
+        
+        <p xml:id="pgb1q23-d1e3754"><g ref="#pilcrow"/>2o posset negari antecedens quia esse <unclear>filium</unclear> non est aliquid sed ad aliquid</p> 
+        
+        <p xml:id="pgb1q23-d1e3761"><g ref="#slash"/>3o posset dici 
+          <lb ed="#L"/>quod filius nihil est quod non est pater et ad probationem quia filius non est suppositum filii quod non 
+          <lb ed="#L"/>est pater ergo etc negatur consequentia quia ibi potest multiplex assignari fallam scilicet <unclear>amphi?e</unclear> <g ref="#slash"/><unclear>con?ts</unclear> 
+          <lb ed="#L"/>et assensum quid ad simpliciter</p>
+        
+        <p xml:id="pgb1q23-d1e3780"><g ref="#pilcrow"/>Ad 4m negatur 2a pars antecedentis quia quodlibet divinum suppositum 
+          <lb ed="#L"/>est eadem immensa perfectio quae est essentia</p>
+        
+        <p xml:id="pgb1q23-d1e3786"><g ref="#pilcrow"/>Ad 5m conceditur consequens scilicet quod illa forma non valet</p>
+        
+        <p xml:id="pgb1q23-d1e3790"><lb ed="#L"/>Ad primum contra 3am conclusionem dicitur quod <name ref="#Augustine">augustinus</name> vult dicere quod essentia quae dicitur ad aliquid dicitur etiam 
+          <lb ed="#L"/>a se sicut explicat ibidem nec hoc est contra conclusionem</p>
+        
+        <p xml:id="pgb1q23-d1e3799"><g ref="#pilcrow"/>Ad aliam ipsius auctoritatis dicitur quod ipse 
+          <lb ed="#L"/>vult dicere quod filius non est verbum inquantum sapientia tenendo eo vel inquantum 
+          <lb ed="#L"/>reduplicative et hoc conceditur tamquam verum quia aliter pater esset verbum cum sit sapientia 
+          <lb ed="#L"/>et similiter spiritus santus etiam</p>
+        
+        <p xml:id="pgb1q23-d1e3809"><g ref="#slash"/>ad 3m primo potest dici quod <name ref="#Avicenna">avicenna</name> non loquitur de deo seu 
+          <lb ed="#L"/>de divinis ideo nihil concludit <g ref="#slash"/>2o posset negari simpliciter si vellet dicere quod genero distingueretur 
+          <lb ed="#L"/>realiter a suo fundamento</p>
+        
+        <p xml:id="pgb1q23-d1e3822"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia licet non sit res distincta ab 
+          <lb ed="#L"/>aliis tribus rebus quae sunt pater filius et spiritus sanctus tamen est vera res vide <ref><name ref="#ThomasStrasbourg">thomam 
+          <lb ed="#L"/>de argentina</name> distinctione 28 primi articulo 2o</ref></p>
+        
+        <p xml:id="pgb1q23-d1e3835"><g ref="#pilcrow"/>Ad 5m conceditur antecedens et cum ultra arguitur quod in 
+          <lb ed="#L"/>uno supposito etc dicitur quod in eodem supposito non plurificantur relationes quantum 
+          <lb ed="#L"/>ad realitatem convenientem ipsi intrinsece et in recto sed solum quantum ad realitatem 
+          <lb ed="#L"/>terminorum cogitatorum per tales relationes <g ref="#slash"/>unde pater refertur ad filium et spiritum sanctum 
+          <lb ed="#L"/>unica relatione secundum rem quae tamen correspondet duabus aliis relationibus oppositis 
+          <lb ed="#L"/>et sibi conveniunt relationes plurimum specierum secundum quod correspondet pluribus <g ref="#slash"/>nam <name ref="#Sortes">sortes</name> 
+          <lb ed="#L"/>eadem albedine est similis <name ref="#Plato">platoni</name> albo et dissimilis <name>iohanni</name> nigro etc eadem 
+          <lb ed="#L"/>relatio secundum rem correspondet similitudini et dissimilitudini quae sunt opposita 
+          <lb ed="#L"/>et sic etiam eadem res simplicissima quae est pater est spiratio et paternitas quae correspondet 
+          <lb ed="#L"/>filiationi in filio et spirationi in spiritu sancto haec <ref><name ref="#Rimini">gregorius</name> distinctionibus 26a et 27a</ref></p>
+        
+        <p xml:id="pgb1q23-d1e3876"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum argumentum in oppositum negatur antecedens ut patet per dicta et ad probationem dicitur quod circumscriptis 
+          <lb ed="#L"/>suppositis essentia divina nec ageret nec intelligeret nec <choice><orig>alica</orig><reg>aliqua</reg></choice> actio sibi competeret</p>
+        
+          <p xml:id="pgb1q23-d1e3889"><lb ed="#L"/><g ref="#slash"/>2o dico quod antecedens non est verum universaliter quia in sacramento altaris accidentia agunt 
+          <lb ed="#L"/>et patiuntur et tamen nullum accidens est suppositum <g ref="#slash"/>ex quo patet quia ad hoc quod 
+          <lb ed="#L"/>ratio activitatis <unclear>alicui</unclear> competat <unclear>quodquod</unclear> sufficit quod illud per se esse habeat</p>
+        
+        <p xml:id="pgb1q23-d1e3907"><g ref="#slash"/>3o 
+          <lb ed="#L"/>dico quod intelligere essentiale non praecedit notionale quia quodlibet intelligere divinum 
+          <lb ed="#L"/>est a persona relativa quod intelligere in patre est notionale</p>
+        
+        <p xml:id="pgb1q23-d1e3915"><g ref="#pilcrow"/>Ad 3m patet per dicta 
+          <lb ed="#L"/>antecedens est falsum et ad probationem patet ex dictis quod illud nomen constitutivo in divinis 
+          <lb ed="#L"/>admitti non debet <unclear>prop[?]</unclear> compositionem et potentialitatem quam importat</p>
+        
+        <p xml:id="pgb1q23-d1e3926"><g ref="#slash"/>2o dico quod pater<lb ed="#L"/>nitas 
+        et spiratio activa licet non constituant personam patris sunt <unclear>tam[?]</unclear> 
+        <pb ed="#L" n="73v"/><lb ed="#L"/>eadem res simplicissima quae est pater nec sunt plures res reales</p>
+        
+        <p xml:id="pgb1q23-d1e3939"><g ref="#pilcrow"/>3o dico quod proprie<lb ed="#L"/>tas 
+        personalis et essentia non distinguitur formaliter sed sunt idem formaliter ut patet ex 3a conclusione</p>
+        
+        <p xml:id="pgb1q23-d1e3945"><lb ed="#L"/>Nunc de proprietatibus personarum prima conclusio 26 distinctionis quod <unclear>nomine</unclear> 
+        <lb ed="#L"/><mentioned>ypostasis</mentioned> <name ref="#Jerome">ieromus</name> dicit non esse utendum propter haereticos quia eo male ute<lb ed="#L"/>bantur 
+        quia tunc non erat in usu sed nunc dicimus tres ypostases id est 
+        <lb ed="#L"/>tres personas</p>
+        
+        <p xml:id="pgb1q23-d1e3964"><g ref="#pilcrow"/>2a conclusio quod tres sunt proprietates seu notiones trium personarum quarum 
+          <lb ed="#L"/>una non est alia scilicet genero seu paternitas nativitas seu filiatio et prcessio 
+          <lb ed="#L"/>quas proprietates ista nomina personarum designant scilicet pater filius et spiritus sanctus</p>
+        
+        <p xml:id="pgb1q23-d1e3972"><g ref="#pilcrow"/>3a 
+          <lb ed="#L"/>conclusio quod illa nomina pater filius et spiritus sanctus sunt relativa et relative dicuntur ad se in<lb ed="#L"/>vicem 
+          quia notant relationes quae non sunt deo accidentales sed sunt in ipsis personis 
+          <lb ed="#L"/>ab aeterno et immutabiliter</p>
+        
+        <p xml:id="pgb1q23-d1e3982"><g ref="#pilcrow"/>4a conclusio non omnia quae de deo dicuntur secundum substantiam dicuntur 
+          <lb ed="#L"/>quemdam dicuntur secundum substantiam quaedam secundum relationem nihil autem ibi dicitur secundum accidens</p>
+        
+        <p xml:id="pgb1q23-d1e3988"><g ref="#pilcrow"/>
+          <lb ed="#L"/>5a conclusio quod proprium est nato deo quod est dei filius origine non ad optione 
+          <lb ed="#L"/>cuius oppositum dicebant <name ref="#Nestorius">nestorius</name> et <name ref="#Photinus">fotinus</name> haeretici <g ref="#slash"/>est etiam filius veritate non solum 
+          <lb ed="#L"/>nuncupatione ut dicit <name ref="#Sabellius">sabellius</name> asserens quod eadem persona quandoque pater 
+          <lb ed="#L"/>nuncupatur quando filius quandoque spiritus sanctus <g ref="#slash"/>est etiam filius nativitate non creatione ut 
+          <lb ed="#L"/>dicit <name ref="#Arius">arius</name> ponens filium creaturam esse sed homines dicuntur filii ei <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+          <lb ed="#L"/>trinitatis <unclear>s[?]ecura</unclear> vel adoptione non proprietatis nativitate</p>
+        
+        <p xml:id="pgb1q23-d1e4032"><g ref="#pilcrow"/>6a conclusio licet sicut mul<lb ed="#L"/>ta 
+          dona dei tamen spiritus sanctus ita proprietate immutabili et aeterna est donum 
+          <lb ed="#L"/>sicut filius proprietate filius sed <corr>eo dicitur<!-- quotaiton marks present, not sure what the correction is --></corr> non donum quod spiritus sanctus et utroque nomine re<lb ed="#L"/>lative 
+          dicitur licet ipsa relatio non ita appareat in hoc nomine spiritus sanctus sicut in hoc 
+          <lb ed="#L"/>nomine donum</p>
+        
+        <p xml:id="pgb1q23-d1e4048"><g ref="#pilcrow"/>7a conclusio quod trinitas potest dici spiritus sanctus quia est spiritus et est sanctus 
+          <lb ed="#L"/>et tunc spiritus sanctus non dicitur relative sed secundum essentiam quia proprie spiritus sanctus qui non 
+          <lb ed="#L"/>est trinitas sed in trinitate dicitur relative</p>
+        
+        <p xml:id="pgb1q23-d1e4056"><g ref="#pilcrow"/>8a conclusio licet spiritus sanctus dicatur relative ad 
+          <lb ed="#L"/>patrem et ad filium tamen pater non dicitur pater spiritus sancti licet spiritus sanctus sit spiritus 
+          <lb ed="#L"/>patris similiter filius non dicitur filius spiritus sancti licet spiritus sanctus sit spiritus filii 
+          <lb ed="#L"/>potest tamen dici donum donatorum et donator doni</p>
+        
+        <p xml:id="pgb1q23-d1e4066"><g ref="#pilcrow"/>contra conclusio licet dominator 
+          <lb ed="#L"/>et donum dicantur adinvicem relative tamen deus non dicitur donator nisi ex 
+          <lb ed="#L"/>tempore licet enim donum sit ab aeterno quia spiritus sanctus est vel potest dici donator 
+          <lb ed="#L"/>quod fuit ab aeterno</p>
+        
+        <p xml:id="pgb1q23-d1e4076"><g ref="#pilcrow"/>hic quaeri potest prima conclusio 27 distinctionis quod 
+          <lb ed="#L"/>secundum <name ref="#Augustine">augustinum</name> <unclear>proprium</unclear> est patris quod genuit filium filii autem quod sit genitus a
+          <lb ed="#L"/>patre et spiritus sancti quod procedat ab utroque secundum vero <name ref="#HilaryOfPoitiers">hylarium</name> <unclear>proprium</unclear> 
+          <lb ed="#L"/>patris est quod semper pater est <g ref="#slash"/>filii quod semper filius est spiritus sancti <corr><del>s</del></corr> quod semper spiritus sanctus est 
+          <lb ed="#L"/>seu donum <g ref="#slash"/>secundum alios proprietas patris est paternitas filii filatio et 
+          <lb ed="#L"/>spiritus sancti processio et eaedem proprietates significantur in dictis locutionibus</p>
+        
+        <p xml:id="pgb1q23-d1e4112"><g ref="#pilcrow"/>2a conclusio 
+          <lb ed="#L"/>quod nomen patris non tantum notat relationem <g ref="#dot"/> sed etiam ypostasim id est substantia significat 
+          <lb ed="#L"/>ita et filius et spiritus sanctus <g ref="#slash"/>relationum vero vocabula scilicet paternitas filiatio pro<lb ed="#L"/>cessio 
+          sive gignere gigni procedere ipsas relationes significant non ypostasis</p>
+        
+        <p xml:id="pgb1q23-d1e4127"><pb ed="#L" n="74r"/><lb ed="#L"/><g ref="#pilcrow"/>3a conclusio quod cum dicitur deus est pater nomine patris relationem notamus et divinam ypostasim 
+          <lb ed="#L"/>significamus cum vero nomina relationum ponimus in praedicatis notiones ipsas tantum significamus 
+          <lb ed="#L"/>non ypostases sicut quando dicimus deus genuit id est habet filium</p>
+        
+        <p xml:id="pgb1q23-d1e4137"><g ref="#pilcrow"/>4a conclusio quod sin<lb ed="#L"/>gulae 
+        proprietates conveniunt proprie simul personis et per eas personae determinantur et ad 
+          <lb ed="#L"/>se invicem <unclear cert="high">differunt</unclear> et a se non recedunt</p>
+        
+        <p xml:id="pgb1q23-d1e4148"><g ref="#pilcrow"/>5a conclusio nomina sunt alia quae personas 
+          <lb ed="#L"/>significant et proprietates eorum denotant scilicet genitor genitus verbum <choice><orig>ymago</orig><reg>imago</reg></choice> unde verbum 
+          <lb ed="#L"/>dicitur relative ad illud cuius est <choice><orig>ymago</orig><reg>imago</reg></choice></p>
+        
+        <p xml:id="pgb1q23-d1e4167"><g ref="#pilcrow"/>6a conclusio quod filius eadem proprietate seu notione 
+          <lb ed="#L"/>dicitur verbum et <choice><orig>ymago</orig><reg>imago</reg></choice> quia filius sed eo quo verbum dicitur sapientia vel essentia quia sapientia vel 
+          <lb ed="#L"/>essentia ambo dicuntur relative sicut verbum</p>
+        
+        <p xml:id="pgb1q23-d1e4181"><g ref="#pilcrow"/>7a conclusio quod licet deus secundum substantiam dicatur lumen 
+          <lb ed="#L"/>sapientia et huiusmodi et numquam relative tamen aliquando pro relatis id est pro personis sed non relative ac<lb ed="#L"/>cipiuntur 
+        ut cum dicitur deus de deo lumen de lumine alterum pro patre et alterum 
+          <lb ed="#L"/>pro filio ponitur</p>
+        
+        <p xml:id="pgb1q23-d1e4191"><g ref="#pilcrow"/>8a conclusio quod verbum de verbo dici non potest quia non simul ambo verbum 
+          <lb ed="#L"/>quia pater non est verbum nec <choice><orig>ymago</orig><reg>imago</reg></choice> de <choice><orig>ymagine</orig><reg>imagine</reg></choice> et verbum est</p>
+        
+        <p xml:id="pgb1q23-d1e4210"><g ref="#pilcrow"/>9a conclusio quod aliquando nomina substantiae per<lb ed="#L"/>sonas 
+        significant ut cum dicitur deus genuit deum interdum significant totam trinitatem 
+          <lb ed="#L"/>ut patet cum dicitur nemo bonus nisi solum deus et haec praesenti lectione sufficiant</p>
+      </div>  
+    </body>
+  </text>
+</TEI>
