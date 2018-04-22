@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/jcwitt/Projects/scta/tdf-schema/src/tdf-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="file:/Users/jcwitt/Projects/scta/tdf-schema/src/tdf-0.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<transcriptions next-version="0.1.0">
+  <!-- hash is used to form the transcription url, if not present it will default to "transcription" -->
+  <!-- type will default to critical if filename is identical to repo  name, otherwise it will default to diplomatic-->
+  <!-- isTranscription of will default to "critical" if filename is identical to repo name, otherwise it will default to filename prefix -->
+  <transcription  
+    hash="head"
+    name="transcription"
+    type="critical"
+    isTranscriptionOf="critical"
+    canonical="true"
+    use-for-extraction="true">pg-b1q1.xml</transcription>
+  <transcription 
+    hash="QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz"
+    name="QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz"
+    versionNo="0.0.0"
+    type="critical"
+    isTranscriptionOf="critical"
+    hasSuccessor="http://scta.info/resource/pg-b1q1/critical/transcription">pg-b1q1.xml</transcription>
+  <transcription 
+    hash="head"
+    name="translation1"
+    type="translation"
+    language="en"
+    canonical="true"
+    isTranscriptionOf="en">en_pg-b1q1.xml</transcription>
+  <transcription 
+    hash="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
+    name="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
+    type="translation"
+    language="en"
+    isTranscriptionOf="en"
+    hasSuccessor="http://scta.info/resource/pg-b1q1/en/translation1">en_pg-b1q1.xml</transcription>
+  <translationManifestations>
+    <manifestation name="en" lang="en" title="English"/>
+  </translationManifestations>
+  
+</transcriptions>
