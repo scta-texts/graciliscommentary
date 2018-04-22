@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Book I, Question 5</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Book I, Question 5</title>
+          <date when="2017-08-11">August 08, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a translated edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-06-16" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="24-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q5">
+        <head xml:id="pg-b1q5-Hd1e3724">Question 5</head>
+        <div xml:id="pg-b1q5-Dd1e3727">
+          <head xml:id="pg-b1q5-Hd1e3729">
+            <supplied>Regarding the Text</supplied>
+          </head>
+          <p xml:id="pgb1q5-d1e283">
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3737" source="http://scta.info/resource/pll1d4c1-d1e3476">Hic oritur quaestio</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3476">Lombardus, Sent. I, d. 4, c. 1, [n.1], (I, 77, ll. 22-23).</ref></bibl>
+            </cit>.
+            This is the fourth distinction, which continues the preceding 
+            because, after the <name ref="#Lombard">Master</name> determined about the unity of the essence 
+            and the trinity of persons, then in this part he determines about their origin and their difference. 
+            And it is divided into four parts according to which the <name ref="#Lombard">Master</name> does four things.
+            In the first place he introduces the question, 
+            in the second place he argues through reason, 
+            in the third place responds to a doubt, 
+            and in the fourth place he puts the solution of the argument. 
+            The second begins at  
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3758" source="http://scta.info/resource/pll1d4c1-d1e3476">si enim Deus genuit Deum</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3476">Lombardus, Sent. I, d. 4, c. 1, [n.1], (I, 77, ll. 24).</ref></bibl>
+            </cit>. 
+            The third at
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3767" source="http://scta.info/resource/pll1d4c1-d1e3481">ad quod respondentes dicimus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3481">Lombardus, Sent. I, d. 4, c. 1, [n.1/2], (I, 78, ll. 3).</ref></bibl>
+            </cit>.
+            The fourth at 
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3776" source=" http://scta.info/resource/pll1d4c2-d1e3535">nunc ad praemissam 
+              dubitationem seu quaestionem</quote>
+              <!-- bibl still needs paragraph, page and line numbers from most recent brady edition -->
+              <bibl><ref target=" http://scta.info/resource/pll1d4c2-d1e3535">Lombardus, Sent. I, d. 4, c. 2, [n. 5], (XXX).</ref></bibl> 
+            </cit>.
+            And this is the division of the distinction in general.
+          </p>
+        </div>
+        <div xml:id="pg-b1q5-Dd1e3785">
+          <head xml:id="pg-b1q5-Hd1e3787">
+            <supplied>Question: whether God eternally generated God before he produced a dependent bodily being?</supplied>
+          </head>
+          <p xml:id="pgb1q5-d1e310">Whether God eternally generated God before he produced a dependent bodily being?
+          </p>
+          <div xml:id="pg-b1q5-Dd1e3791">
+            <head xml:id="pg-b1q5-Hd1e3793">
+              <supplied>Principal arguments</supplied>
+            </head>
+            <!-- add new paragraph here in image coordinates-->
+            <p xml:id="pgb1q5-qnqdie">
+              That not because God did not generate God, therefore. 
+              The consequence is clear, 
+              and the antecedent is proved because God did not generate another God different from himself, 
+              therefore he did not generate God.
+              The consequence holds because <unclear>nothing</unclear> <!-- ms seems to have "nihil" but the sense is unclear --> is able to generate itself nor another 
+              because then there would be many gods, therefore etc. 
+            </p>
+            <p xml:id="pgb1q5-ssaidi">
+              In the second place, if he generated a God different than himself, it follows that 
+              there would be some reason signaling why one would generate another distinct from itself rather than the other.
+              The consequent is false because there is no such 
+              reason discoverable of giveable for one that does not equally apply to the other, 
+              even in the case of an infinity of things.
+            </p>
+            <p xml:id="pgb1q5-tfiqef">
+              In the third place, the Son in the divine began to be, therefore hew was not before etc.
+              The consequence holds and the antecedent is proved because 
+              the Son is in some instant and was never before that instant, 
+              therefore in this instant he began to be. This is confirmed because the Son 
+              began to be in some instant because, if did not begin to be etc., 
+              it follows that he did not begin to be in this instant, which is false.
+            </p>
+            <p xml:id="pgb1q5-d1e375">
+              In opposition is 
+              <cit>
+                <ref target="http://scta.info/resource/pll1d4c1-d1e3481">
+                  the <name ref="#Lombard">Master</name> in this distinction
+                </ref>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d4c1-d1e3481">Lombardus, Sent. I, d. 4, c. 1, [n.2], (I, 78, ll. 15-33).</ref>
+                </bibl>
+              </cit>
+              because 
+              <ref corresp="#pg-b1q5-Qd1e3830">
+                <name ref="#Athanasius">Athansius</name> in <title>Symbolo</title>
+              </ref> 
+              says
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3830">eternal Father eternal Son</quote>
+                <bibl>Symbolum S. Athansii</bibl>
+              </cit> 
+              etc.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3842">
+            <head xml:id="pg-b1q5-Hd1e3844"><supplied>First conclusion</supplied></head>
+            <p xml:id="pgb1q5-d1e391">
+              First conclusion: though <name ref="#Mary">the Virgin Maria</name> 
+              conceived the same son temporally 
+              which God the Father generated eternally, 
+              nevertheless the <name ref="#Mary">Virgin Mother</name> conceived something 
+              that God the Father did not generate.
+              The first is clear because the son of God the Father and of the 
+              <name ref="#Mary">Virgin Mary</name> is the same thing. 
+              The second is clear because the <name ref="#Mary">Virgin</name> conceived the body of Christ 
+              and God the Father did not generate this.
+            </p>
+            <p xml:id="pgb1q5-d1e403">
+              The first corollary: though Christ was eternally, nevertheless he temporally 
+              <pb ed="#L" n="24-v"/> 
+              began to be Christ.
+              The first part is clear because the Son was eternally. 
+              The second part is clear because he began to be man temporally,
+              therefore he temporally began to be Christ. 
+              The consequence holds because, just as the rational soul
+              and the body are one man, so God and man are one Christ.
+            </p>
+            <p xml:id="pgb1q5-d1e414">
+              The second corollary: though there was some man eternally, 
+              nevertheless whatever is a man came to be a man temporally.
+            </p>
+            <p xml:id="pgb1q5-d1e420">
+              Third corollary: 
+              this demonstration does not follow, <mentioned>he was in Christ eteranlly, 
+              therefore he did not begin to be man temporally</mentioned>. 
+              This is clear from the same means <!-- need better translatin for "medio" --> 
+              because the humanity of Christ began to be temporally.
+            </p>
+            <p xml:id="pgb1q5-d1e430">
+              Another corollary: though Christ is necessarily as much the Son, as he is God, 
+              nevertheless Christ is contingently the son of someone. 
+              The first is clear because as the Father is necessarily the Father, so
+              the Son is necessarily the Son and both are God. 
+              The second is clear because he is contingently the son of the <name ref="#Mary">Virgin</name>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3882">
+            <head xml:id="pg-b1q5-Hd1e3884"><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q5-d1e438">
+              Second conclusion: though with respect to us 
+              it is not evidently probable that ther eare not many sons in the divine, 
+              nevertheless it is necessary that God the Father begets a single Son 
+              coeternal and consubstantial with himself.
+              The first is clear because every means
+              evident to us for inferring that <mentioned>the father generates one son</mentioned> is able to 
+              infer equally <mentioned>the Son produces another Son</mentioned> 
+              because all three persons are of the same perfection, 
+              omnipotence, and activity. 
+              The second is clear in the present distinction.
+              Again, it is clear through 
+              <ref><name ref="#Augustine">Augusine</name> in book VI <title ref="#deTrinitate">De Trinitate</title>, in the secon chapter</ref>, 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3906">the Son is God from God but not except through generation</quote>
+                <bibl>Augustinus, De Trinitate VI, 2 (PL ??)</bibl>
+              </cit>, 
+              therefore etc. 
+              This is confirmed because de facto God 
+              the Father produced or beget only one Son equal to himself in every respect, 
+              therefore it necessary that this is so. 
+              The consequence is clear from what has been said above. 
+              The antecedent is a catholic truth.
+            </p>
+            <p xml:id="pgb1q5-pcqgpc">
+              The first corollary: that it is not able to be demonstrated to us in this life 
+              that there is one Son any more than it is an infinity are generated.
+              The conclusion is clear.
+            </p>
+            <p xml:id="pgb1q5-d1e472">
+              Second corollary: it is not evidently probable 
+              that there are productions of diverse types in the divine.
+              This is clear because by faith alone it is held that there are only two, 
+              namely generation and spiration.
+            </p> 
+            <p xml:id="pgb1q5-tcsado">
+              Third corollary: just as there are many necessary things 
+              which are not demonstrably necessarily evident, 
+              so many things are impossible 
+              which even imply a contradiction to which no one is able to be led 
+              through natural reason alone.
+              The first part is clear from the articles of faith that are signifying the Trinity. 
+              The second is clear because the statement that <mentioned>Father does not generate the Son </mentioned> 
+              includes a hidden contradiction which no one in the natural light
+              is able to illuminate or show demonstratively to another.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3944">
+            <head xml:id="pg-b1q5-Hd1e3946"><supplied>Third conclusion</supplied></head>
+            <p xml:id="pgb1q5-d1e501">
+              Third conclusion: thought God the Father eternally generated 
+              God the Son, it is nevertheless not properly said that after his generation 
+              he produced something temporally.
+              The first is clear through what has been said 
+              and it is able to be confirmed through  
+              <ref><title ref="#ps">Psalm</title> 2</ref> 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3965" ana="#ps2_7">Dominus dixit ad me 
+                  Filius meus est tu, ego hodie genui te</quote>
+                <bibl>Psalmus 2:7</bibl>
+              </cit>. 
+              The second is proved because any divine act internal to itself 
+              is measured in an instant of eternity, therefore terms conveying a lapse 
+              or difference of time are no properly said about the divine.
+              The consequence holds because <mentioned>after</mentioned>, 
+              <mentioned>before</mentioned>, <mentioned>when</mentioned>, 
+              and similar terms deal with differences of time. 
+              The antecedent is clear through 
+              <name ref="#Augustine">Augustine</name> in <ref><title ref="#ps">Psalm</title> 101</ref> 
+              where he says: 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3999">Aeternitas ipsa dei substantia 
+                  est, quae nihil habet mutabile; ibi nihil est praeteritum quasi <sic>iam <!-- dbcheck --></sic> non sit, nihil est futurum quasi 
+                  nondum sit; non est ibi, nisi est; non est ibi, fuit vel erit</quote>
+                <bibl>Augustine, Commentary on Ps. 25 <!-- db check --></bibl>
+              </cit>.
+              Again, 
+              Item, <ref>the same author in book XII <title ref="#CityOfGod">De 
+                civitate <supplied>Dei</supplied></title>, in chapter 15</ref>: 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4023">Istae divisiones seu dimensiones temporalium spatiorum quae 
+                  usitate et proprie dicuntur <unclear>tempora</unclear> a motu siderum ceperunt unde etiam Deus, cum instituit, 
+                  dixit: 
+                  <mentioned>Et sint in signa et tempora et dies et annos</mentioned>
+                </quote>
+                <bibl>Augustine, De civitate Dei, XII, capitulo 15</bibl>
+              </cit>. 
+              Again,
+              <ref corresp="pg-b1q5-Qfddspe">the same author in <title ref="#deDiversisQuaestionibus">83 questions</title></ref>,
+              <cit>
+                <quote xml:id="pg-b1q5-Qfddspe" type="paraphrase">Filius Dei debet 
+                dici natus, quia semper nascitur, quia eius nativitas seu generatio numquam praeteriit, 
+                sed semper praesens est
+                </quote>
+                <bibl>Augustinus, De diversis quaestionibus octoginta tribus, q.37 (CCSL 44A, 59, ll. 6-7).</bibl>
+                <note>Note that Gracilis explicitly identifies this quotation as rough paraphrase. See his note that immedieately follows.</note>
+              </cit>. 
+              See the text because these words are not the precise words. 
+              Nevertheless not that there it is not always taken for a temporal difference, 
+              but for an eternal measure or instant.
+            </p>
+            <p xml:id="pgb1q5-d1e579">
+              The first corollary: though God the Father before the creation of things 
+              did not generate his son, 
+              nevertheless no
+              <pb ed="#L" n="25-r"/>
+              created thing was coeternal with him. 
+              The first is clear like the conclusion because, just as there is not after in eternity, 
+              so there is not before. 
+              The second is clear because otherwise God would not have produced from the beginning of time, 
+              which is false because 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4195" ana="#gen1_1">God created</quote>
+                <bibl>Gensis 1:1</bibl>
+              </cit> etc.
+            </p>
+            <p xml:id="pgb1q5-d1e605">
+              The second corollary: in some sign or instant the Father generates 
+              and he never generates before that moment. 
+              And nevertheless the Father does not begin to generate because the Father 
+              generates in an instant of eternity 
+              and never before that moment because before that moment there was not instant.
+            </p>
+            <p xml:id="pgb1q5-d1e619">
+              Third corollary: though the Father in some 
+              instant generates the son and will never generate him after that moment, 
+              nevertheless he will not cease to generate and does not cease.
+              This is clear from nature <!-- took some liberty here with translation of fundamento --> 
+              of the instant of eternity because after that instant 
+              nothing is or will be. 
+              From these things the negative part of the title is clear, 
+              namely that before corporeal being was made temporally made 
+              God generated God the Son eternally. 
+              This is clear when taking <mentioned>before</mentioned> in the matter stated.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e4068">
+            <head xml:id="pg-b1q5-Hd1e4070"><supplied>Objections and responses</supplied></head>
+            <p xml:id="pgb1q5-d1e633">
+              Against the first conclusion: in the divine there is no motion, 
+              therefore there is no generation.
+              The consequence holds because every motion 
+              is a generation. The antecedent is clear 
+              <cit>
+                <ref>in first book of <title ref="#iac">James</title></ref>
+                <bibl>Iacobus 1:? <!-- could be a cryptic james of viterbo reference --></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q5-d1e644">
+              In the second place, 
+              the <name ref="#Mary">Virgin</name> did not 
+              beget anything except a creature, but the Son of God is not a creature, 
+              therefore etc.
+              The major premise is from 
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name>, <title ref="#Enchiridion">Enchiridion</title>, chapter 34</ref>
+                <bibl>Augustinus, Enchiridion, 34 (PL ??)</bibl>
+              </cit> 
+              The minor is clear
+              <cit>
+                <ref target="http://scta.info/resource/pl-l3d2">in book 3 of the <title ref="#Sentences">Sentences</title>, distinction 11</ref>
+                <bibl><ref target="http://scta.info/resource/pl-l3d2">Lombard, Sententia, III, d. 2 (II, 27-31) <!-- dbcheck this is might need to be distinction 11 -->.</ref></bibl>
+              </cit>.
+              Again, the argument made before the opposition is against this conclusion.
+            </p>
+            <p xml:id="pgb1q5-d1e665">
+              In the third place against its corollaries, 
+              some act of understanding of the Father precedes the act of generating, 
+              therefore the Son was not etenrally. The consequence is clear because the Father was knowing 
+              not only in the Son, but also in himself as is clear through
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> III <title ref="#deTrinitate">De Trinitate</title></ref>
+                <bibl>Augustinus, De Trinitate, III, ?? (PL ??)</bibl>
+              </cit>.
+              Therefore it seems that the Father had the knowledge of 
+              understanding before the expression of the word.
+            </p>
+            <p xml:id="pgb1q5-d1e685">
+              Against the second conclusion is 
+              <cit>
+                <ref>the second argument made in the opposing arguments</ref>
+                <bibl>Vide supra <!-- second principle argument --></bibl>
+              </cit>.
+            </p> 
+            <p xml:id="pgb1q5-d1e689">
+              In the second place, 
+              if God generates God, 
+              therefore he either generates with wisdom or without wisdom. 
+              If the first, then the same thing is the terminus from which it was produced 
+              and the terminus to which it was produced, which does not seem to be true. 
+              If without wisdom, then the Father produces the Son in ingorance, 
+              which is false.
+            </p>
+            <p xml:id="pgb1q5-d1e699">
+              Against the third conclusion is  
+              <cit>
+                <ref>the third argument in the opposition</ref>
+                <bibl>Vide supra <!-- third principle argument --></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q5-d1e703">
+              In the second place, every ratio different from the being in God 
+              is posterior to the being itself. However to generate the Son 
+              is a denomination or ratio different from the being of God, therefore it is posterior. 
+              Therefore it is both prior and posterior. 
+              The major premise is proved because in the divine essence there is an order of essential reasons
+              according to  
+              <cit>
+                <ref><name ref="#Dionysius">Dionysius</name>, <title ref="#deDivinisNominibus">De divinis nominibus</title>, chapter 3</ref>
+                <bibl>Pseudo-Dionysius, De divinis nominibus, c. 3 (PG ??)</bibl>
+              </cit>. 
+              Again, it seems that God is living prior to understanding, 
+              and understanding prior to willing. But these by nature
+              precede the generation of the Son, therefore.
+            </p> 
+            <p xml:id="pgb1q5-d1e725">
+              In the third place, that which has the ratio of the beginning in some way precedes what it begins. 
+              But the Father with respect to the Son and the understanding of the Father with respect to the 
+              his speaking has the ratio of the beginning, therefore in some way he precedes
+              This is confirmed because to understand is common to the three suposites but to speak, 
+              therefore understanding is prior to speaking. 
+            </p>
+            <p xml:id="pgb1q5-d1e740">
+              To the first: the consequence is denied. 
+              With respect to the proof I say that not every generation is motion, just as is clear from this.
+              In the second place, it is said according to 
+              <cit>
+                <ref><name ref="#JamesViterbo">James of Viterbo</name>, in the second question of <title>de Divinis Praedicamentis</title></ref>
+                <bibl>Iacobus de Viterbo</bibl>
+              </cit> 
+              that sometimes a genus indicates an imperfection 
+              and a species indicates a perfection, 
+              and in such a case the genus is not said about God but the species is appropriately said about God, 
+              just as it is clear in the proposed about generation and motion. 
+              Sometimes it the converse, 
+              and in such a case the genus is said about God but the species is not, 
+              just as the universal whole is said about God 
+              and the integral whole is not because God does not have parts.
+              Sometimes bot the genus and species speak a perfection and then each is suitable to God. 
+              For this it is clear that, granted there is motion superior to generation and the genus, 
+              it nevertheless does not follow that since generation is said of God, 
+              therefore this is also true of motion.
+            </p> 
+            <p xml:id="pgb1q5-d1e768">
+              To the second it is said that 
+              <name ref="#Augustine">Augustine</name>
+              wishes to says that the <name ref="#Mary">Virgin</name> did 
+              not beget anything except Christ, who according to his humanity is called a creature, 
+              as 
+              genuit nisi Christum, qui secundum humanitatem potest dici creatura, ut dicit 
+              <cit>
+                <ref><name ref="#Lombard">Lombard</name> says in distinction 11 of the book III</ref>
+                <bibl>Lombardus, Sent. III, d. 11, c. 2, [n.4], (II, 79, ll. 25-26).</bibl>
+              </cit>.
+              This is addressed in a different way in the following.
+            </p>
+            <p xml:id="pgb1q5-d1e784">
+              To the third: the antecedent is denied. 
+              With respect to the proof it is said that 
+              the knowledge of the Father in himself is not prior to the knowledge of the Son, 
+              indeed they are essentially the same. 
+            </p>
+            <p xml:id="pgb1q5-d1e790">
+              To the first argument in the opposition: the antecedent is denied, 
+              and with respect to the proof the consequence is denied 
+              because, though God does not generate another God, 
+              nevertheless he generates God the Son, 
+              who is different in personhood, but is nevertheless not another God.
+            </p>
+            <p xml:id="pgb1q5-apcess">
+              To the first argument against the second conclusion, which is the second argument 
+              in the opposition,  
+              <ref>
+                <name ref="#HugolinoOfOrvieto">Hugolinus</name>
+              </ref>
+              would say:
+              <pb ed="#L" n="25-v"/> 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4301">
+                  I concede the consequence, while assigning the ratio of it 
+                  to this. that the Father produces the entire breadth of his cognition into being 
+                  by saying one word. Therefore therefore there are not many words nor many sons
+                </quote>
+                <bibl>Hugolinus de Urbi Veteri, ??</bibl>
+              </cit>.
+              But this does not seem to be a sufficient reason because 
+              could still be objected, why through this total immense breadth of cognition
+              did he produce this Son and not a different one. 
+              In the second place 
+              <ref><name ref="#JohannesBrakel">Brinkel</name></ref> 
+              would say to this that 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4317">he produced this Son and not another 
+                  because in God there is only this productive memory and there it is not possible for there to be another.</quote>
+                <bibl>Johannes Brinkel, ?? <!--check for correct spelling and correct unique ID --></bibl>
+              </cit>.
+              But this is similarly not sufficient because it would thus be possible to say 
+              anything about any man becuase in him there is only one productive memory
+              and nevertheless he has many words. 
+              Again he solves the same through the same and thus does not return an argument, 
+              since memory, intelligence, and cognition are in the Son just as in the Father. 
+              Therefore I say otherwise that no argument is known to us for why the Father generated this Son and not another, 
+              an argument in which the antecedent is known to us from the consequent can be inferred because, 
+              given any such reason, 
+              it is equally able to be inferred about the Son and the Holy Spirit.
+            </p>
+            <p xml:id="pgb1q5-d1e855">
+              To the second it is said that he generated with wisdom to good sense,
+              ad for the disproof the consequence is denied.
+              Again, it is said that, if the same thing is taken essentially, 
+              the consequent is conceded. If personally, then the consequence is denied.
+            </p>
+            <p xml:id="pgb1q5-d1e862">
+              To the third it is said that God generated God, and here this stands for a person.
+              Therefore, in the argument that just as it is conceded that there are three persons, so there are three Gods,  
+              the consequence is denied because the Church does not admit that these things are equal.
+            </p>
+            <p xml:id="pgb1q5-d1e870">
+              To the first argument against the third conclusion: 
+              the antecedent is denied, and with respect to the proof 
+              the consequence is denied. From this it follows that 
+              this is not well or sufficiently explained. The third begins through these 
+              propositions, 
+              <mentioned><c>a</c> is in the present instant and never was before this</mentioned>, 
+              therefore <c>a</c> begins to be, 
+              But it ought to be said: 
+              <mentioned><c>a</c> is in this instant of time</mentioned>, etc. 
+              And thus it is able to be said about <mentioned>he ceases</mentioned> in its own unique way. 
+              To the confirmation, the consequence is denied because
+              he argues from the inferior to the superior with the negation placed before the part of the predicate. <!-- transl unclear here -->
+            </p>
+            <p xml:id="pgb1q5-d1e893">
+              To the second: the major premise is denied. With respect to the confirmation 
+              <mentioned>it is said that in the divine essence there is an order of essential reasons</mentioned>, 
+              it is said that such order intrinsically should not be admitted in any way, and
+              does not put such an order in the Trinity.
+            </p>
+            <p xml:id="pgb1q5-d1e901">
+              To the third: the antecedent is univerally conceded, but denied in the divine. 
+              With respect to the confirmation: whatever is the case regarding the consequent, 
+              the consequence is denied because living does not precede understanding, 
+              nor does understanding precede willing, and nor does willing precede speaking because, as it was said, 
+              there is no priority or posteriority.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q5-Dd1e4375">
+          <head xml:id="pg-b1q5-Hd1e4377"><supplied>Conclusions</supplied></head>
+          <p xml:id="pgb1q5-d1e912">
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e4385">Hic oritur quaestio</quote>
+              <bibl>Lombardus, I, d. 4</bibl>
+            </cit>.
+            This distinction I say contains four conclusions.
+            First: it should be conceded that God generated God and one generated one, 
+            nevertheless it should not be conceeded that God generated God himself or another God. 
+          </p>
+          <p xml:id="pgb1q5-d1e923">
+            Second conclusion: it is able to be conceded that 
+            God the Father generated God which is not the Father.
+          </p>
+          <p xml:id="pgb1q5-d1e929">
+            Third conclusion: faith holds that the three 
+            persons are one God, one substance, one essence, 
+            and conversely that one essence is three persons. 
+            And 
+            <cit>
+              <ref target="http://scta.info/resource/pll1d4c2-d1e3487">the <name ref="#Lombard">Master</name></ref>
+              <bibl><ref target="http://scta.info/resource/pll1d4c2-d1e3487">Lombard, Sent. I, d. 4, c. 2, [nn. 1-3], (I, 79-80).</ref></bibl>
+              <!-- this target url only points to the paragraph containing the augustine quote. 
+                I'm not yet sure the best way to refernece a sequence of resources, i.e. paragraphs 1-3, etc. -->
+            </cit>
+            proves this through 
+            <cit>
+              <ref>
+                <name ref="#Augustine">Augustine</name> I <title ref="#deTrinitate">De Trinitate</title>
+              </ref>
+              <bibl>Augustinus, De Trinitate, I, c. 6, n. 10</bibl>
+            </cit> 
+            to which according to the
+            <name ref="#Lombard">Master</name> 
+            in this matter above all else faith should be consulted.
+            Nevertheless it should be known that some authorities of scripture seem to be against the third conclusion, 
+            where uncreated wisdom says about itself,
+            <cit>
+              <quote xml:id="pg-b1q5-Qaaescs" ana="#sir24_14">I am from eternity and before the created age</quote>
+              <bibl>Ecclesiasticus 24:13</bibl>
+            </cit>.
+            Item, 
+            <cit>
+              <quote xml:id="pg-b1q5-Qfcmpmf" ana="io17_5">Father clarify me the Son with the clarity which I had before the world came to be</quote>
+              <bibl>John 17:5</bibl>
+            </cit>,
+            and all the other similar passages that are able to found. 
+            From these passages it is clear that the terms said are signifying about the divine. 
+            To the first of these it is said that this authority is understood thus: <mentioned>before the age</mentioned>, that 
+            is, if there had been time before the age was in these things or while 
+            these things were because, though God co-exists with each part of time, 
+            nevertheless properly God is not in time, but in eternity or in an instant of eternity. 
+            Thus in the same way the author authorities are able to be solved. 
+            From what has been said it is clear that it does not follow: God is not prior because it was not, 
+            therefore he begins or began to be.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

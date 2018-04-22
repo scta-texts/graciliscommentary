@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 5</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 5</title>
+          <date when="2015-06-16">June 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-06-16" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#L" n="24-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q5">
+        <head xml:id="pg-b1q5-Hd1e3724">Liber I, Quaestio 5</head>
+        <div xml:id="pg-b1q5-Dd1e3727">
+          <head xml:id="pg-b1q5-Hd1e3729">
+            <supplied>Circa textum</supplied>
+          </head>
+          <p xml:id="pgb1q5-d1e283">
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3737" source="http://scta.info/resource/pll1d4c1-d1e3476">Hic oritur quaestio</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3476">Lombardus, Sent. I, d. 4, c. 1, [n.1], (I, 77, ll. 22-23).</ref></bibl>
+            </cit>.
+            Ista est distinctio quarta, 
+            quae sic continuatur ad praecedentem 
+            quia, postquam <name ref="#Lombard">Magister</name> determinavit de essentiae unitate et personarum Trinitate, 
+            consequenter in hac parte determinat de earum origine et alienitate. 
+            Et dividitur in quattuor partes secundum quod quattuor facit <name ref="#Lombard">Magister</name>. 
+            Primo movet quaestionem, 
+            secundo arguit per rationem, 
+            tertio respondet ad dubitationem, 
+            et quarto ponit argumenti solutionem. Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3758" source="http://scta.info/resource/pll1d4c1-d1e3476">si enim Deus genuit Deum</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3476">Lombardus, Sent. I, d. 4, c. 1, [n.1], (I, 77, ll. 24).</ref></bibl>
+            </cit>.
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3767" source="http://scta.info/resource/pll1d4c1-d1e3481">ad quod respondentes dicimus</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3481">Lombardus, Sent. I, d. 4, c. 1, [n.1/2], (I, 78, ll. 3).</ref></bibl>
+            </cit>.
+            Quarta ibi 
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e3776" source=" http://scta.info/resource/pll1d4c2-d1e3535">nunc ad praemissam 
+              dubitationem seu quaestionem</quote>
+              <!-- bibl still needs paragraph, page and line numbers from most recent brady edition -->
+              <bibl><ref target=" http://scta.info/resource/pll1d4c2-d1e3535">Lombardus, Sent. I, d. 4, c. 2, [n. 5], (XXX).</ref></bibl> 
+            </cit>.
+            Et hoc sit in generali divisio istius distinctionis.
+          </p>
+        </div>
+        <div xml:id="pg-b1q5-Dd1e3785">
+          <head xml:id="pg-b1q5-Hd1e3787">
+            <supplied>Quaestio: utrum prius aeternaliter Deus genuit Deum quam produxit temporaliter ens dependens corporeum</supplied>
+          </head>
+          <p xml:id="pgb1q5-d1e310">Utrum prius aeternaliter Deus genuit Deum quam produxit temporaliter 
+            ens dependens corporeum.
+          </p>
+          <div xml:id="pg-b1q5-Dd1e3791" type="rationes-principales">
+            <head xml:id="pg-b1q5-Hd1e3793">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <!-- add new paragraph here in image coordinates-->
+            <p xml:id="pgb1q5-qnqdie">
+              Quod non quia Deus non genuit Deum, ergo. Consequentia tenet, 
+              et antecedens probatur quia non genuit alium Deum a se, ergo non genuit Deum. Tenet 
+              consequentia quia nihil se ipsum potest generare nec alium quia tunc essent plures dii, igitur etc.
+            </p>
+            <p xml:id="pgb1q5-ssaidi">
+              Secundo, si alium a se Deum genuit, sequitur quod aliqua esset ratio assignalis quare potius 
+              istum alium a se gigneret quam alterum. Consequens est falsum quia nulla talis est 
+              ratio reperibilis nec dabilis pro uno quin aeque concludat de altero, immo de infinitis.
+            </p>
+            <p xml:id="pgb1q5-tfiqef">
+              Tertio, Filius in divinis incepit esse, ergo non prius, etc. Consequentia tenet et antecedens probatur, 
+              quia Filius est in aliquo instanti et numquam ante illud instans fuit, ergo in illo 
+              incepit esse. Confirmatur quia Filius incepit esse in aliquo instanti quia, si non incepit 
+              esse etc., sequitur quod non incepit esse in hoc instanti, quod est falsum.
+            </p>
+            <p xml:id="pgb1q5-d1e375">
+              In oppositum est 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e3832" target="http://scta.info/resource/pll1d4c1-d1e3481">
+                  <name ref="#Lombard">Magister</name> in hac distinctione
+                </ref>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d4c1-d1e3481">Lombardus, Sent. I, d. 4, c. 1, [n.2], (I, 78, ll. 15-33).</ref>
+                </bibl>
+              </cit>,
+              quia 
+              <ref xml:id="pg-b1q5-Rd1e3845" corresp="#pg-b1q5-Qd1e3830">
+                <name ref="#Athanasius">Athansius</name> in <title>Symbolo</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3830">aeternus Pater aeternus Filius</quote>
+                <bibl>Symbolum S. Athansii</bibl>
+              </cit> 
+              etc.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3842">
+            <head xml:id="pg-b1q5-Hd1e3844"><supplied>Prima conclusio</supplied></head>
+            <p xml:id="pgb1q5-d1e391">
+              Prima conclusio: licet <name ref="#Mary">Virgo Maria</name> 
+              eundem Filium concepit temporaliter 
+              quem Deus Pater genuit aeternaliter, 
+              aliquid tamen concepit <name ref="#Mary">Virgo Mater</name> 
+              quod non genuit Deus Pater. 
+              Prima patet 
+              quia idem est Filius 
+              Dei Patris et <name ref="#Mary">Virginis Matris</name>. 
+              Secunda patet 
+              quia carnem Christi <name ref="#Mary">Virgo</name> 
+              concepit et illam non genuit Deus Pater.
+            </p>
+            <p xml:id="pgb1q5-d1e403">
+              Primum corollarium: 
+              licet Christus fuerit aeternaliter, 
+              tamen temporaliter 
+              <pb ed="#L" n="24-v"/> 
+              incepit esse Christus. 
+              Prima pars patet 
+              quia Filius fuit aeternaliter. 
+              Secunda patet quia temporaliter 
+              incepit homo, ergo temporaliter incepit esse Christus. 
+              Tenet consequentia quia, 
+              sicut anima rationalis et caro unus est homo, 
+              ita Deus et homo unus est Christus.
+            </p>
+            <p xml:id="pgb1q5-d1e414">
+              Secundum corollarium: licet aliquis 
+              homo fuerit aeternaliter, tamen quidquid est homo incepit esse homo temporaliter.
+            </p>
+            <p xml:id="pgb1q5-d1e420">
+              Tertium corollarium: 
+              non sequitur demonstratio, 
+              <mentioned>Christo hoc fuit aeternaliter, ergo non incepit esse homo temporaliter</mentioned>. 
+              Patet ex eodem medio, 
+              quia humanitas Christi incepit esse temporaliter.
+            </p>
+            <p xml:id="pgb1q5-d1e430">
+              Aliud corollarium: licet Christus tam necessario sit Filius sicut Deus, 
+              tamen Christus alicuius contingenter 
+              est Filius. Prima patet quia quam necessario Pater est Pater, 
+              tam necessario Filius est Filius et sunt Deus. 
+              Secunda patet quia contingenter est <name ref="#Mary">Virginis</name> Filius.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3882">
+            <head xml:id="pg-b1q5-Hd1e3884"><supplied>Secunda conclusio</supplied></head>
+            <p xml:id="pgb1q5-d1e438">
+              Secunda conclusio: licet quoad nos non sit evidenter 
+              probabile in divinis plures filios non esse, tamen solum Deum Patrem 
+              gignere unicum Filium sibi coaeternum et consubstantialem est necesse. 
+              Prima patet quia omne 
+              medium nobis evidens <mentioned>Patrem gignere unum Filium</mentioned> inferens potest inferre 
+              aequaliter <mentioned>Filium producere alium Filium</mentioned> 
+              quia omnes tres personae 
+              sunt eiusdem perfectionis, omnipotentiae, et activitatis. 
+              Secunda patet in distinctione praesenti. 
+              Item patet per 
+              <ref xml:id="pg-b1q5-Rd1e3922"><name ref="#Augustine">Augustinum</name> VI <title ref="#deTrinitate">De Trinitate</title>, capitulo secundo</ref>, 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3906" source="http://scta.info/resource/adt-l6">Filius est Deus de Deo sed non nisi per generationem</quote>
+                <bibl>Augustinus, De Trinitate VI, 2 (PL ??)</bibl>
+              </cit>, 
+              ergo etc. 
+              Confirmatur 
+              quia de facto Deus 
+              Pater produxit seu gignit unum solum Filium sibi per omnia aequalem, ergo sic 
+              esse est necesse. 
+              Patet consequentia ex supra dictis. 
+              Antecedens est catholicum.
+            </p>
+            <p xml:id="pgb1q5-pcqgpc">
+              Primum corollarium quod 
+              non plus potest hic in via nobis demonstrari unum Filium quam infinitos generari. 
+              Patet conclusio.
+            </p>
+            <p xml:id="pgb1q5-d1e472">
+              Secundum <supplied>corollarium</supplied>: 
+              non est evidenter probabile 
+              productiones diversarum rationum in divinis esse. 
+              Patet quia sola fide tenetur quod sint tantum duae, 
+              scilicet generatio et spiratio.
+            </p> 
+            <p xml:id="pgb1q5-tcsado">
+              Tertium corollarium: 
+              sicut multa sunt necessaria 
+              quae a nobis non sunt demonstrabilia nec evidentia,
+              sic multa sunt impossibilia quae et contradictionem implicantia ad quam nullus potest reduci 
+              per solam rationem naturalem. 
+              Patet prima pars de articulis fidei 
+              <app>
+                <lem type="conjecture-corrected">
+                  <corr>significantibus</corr>
+                </lem>
+                <rdg wit="#L">significantes</rdg>
+              </app> 
+              Trinitatem. 
+              Secunda patet quia <mentioned>Patrem non generare Filium</mentioned> 
+              includit contradictionem latentem quam nullus in solo lumine 
+              naturali potest alteri illustrare aut demonstrative ostendere.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e3944">
+            <head xml:id="pg-b1q5-Hd1e3946"><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q5-d1e501">
+              Tertia conclusio: licet Deus Pater Deum 
+              Filium aeternaliter genuerit, tamen non proprie dicitur quod post eius generationem aliquam rem temporaliter 
+              produxerit. Prima patet per dictam et potest confirmari per illud 
+              <ref xml:id="pg-b1q5-Rd1e3977"><title ref="#ps">Psalmus</title> 2</ref> 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3965" ana="#ps2_7">Dominus dixit ad me 
+                  Filius meus est tu, ego hodie genui te</quote>
+                <bibl>Psalmus 2:7</bibl>
+              </cit>. 
+              Secunda probatur 
+              quia quodlibet agere divinum 
+              ad intra mensuratur instanti aeternitatis, 
+              ergo termini importantes lapsum seu differentias temporis 
+              non proprie dicuntur de divinis. 
+              Tenet consequentia 
+              quia <mentioned>post</mentioned>, <mentioned>ante</mentioned>, <mentioned>quando</mentioned>, 
+              et similes termini concernunt 
+              temporis differentias. 
+              Antecedens patet per 
+              <ref xml:id="pg-b1q5-Rd1e4004"><name ref="#Augustine">Augustinum</name> <title ref="#ps">Psalmo</title> 101</ref> ubi dicit: 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e3999">Aeternitas ipsa dei substantia 
+                  est, quae nihil habet mutabile; ibi nihil est praeteritum quasi <sic>iam <!-- dbcheck --></sic> non sit, nihil est futurum quasi 
+                  nondum sit; non est ibi, nisi est; non est ibi, fuit vel erit</quote>
+                <bibl>Augustine, Commentary on Ps. 25 <!-- db check --></bibl>
+              </cit>.
+              Item, <ref xml:id="pg-b1q5-Rd1e4023">idem XII <title ref="#CityOfGod">De 
+                civitate <supplied>Dei</supplied></title>, capitulo 15</ref>: 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4023">Istae divisiones seu dimensiones temporalium spatiorum quae 
+                  usitate et proprie dicuntur <unclear>tempora</unclear> a motu siderum ceperunt unde etiam Deus, cum instituit, 
+                  dixit: 
+                  <mentioned>Et sint in signa et tempora et dies et annos</mentioned>
+                </quote>
+                <bibl>Augustine, De civitate Dei, XII, capitulo 15</bibl>
+              </cit>.
+              Item,
+              <ref xml:id="pg-b1q5-Rd1e4046" corresp="#pg-b1q5-Qfddspe">idem <title ref="#deDiversisQuaestionibus">83 quaestiones</title></ref>,
+              <cit>
+                <quote xml:id="pg-b1q5-Qfddspe" type="paraphrase">Filius Dei debet 
+                dici natus, quia semper nascitur, quia eius nativitas seu generatio numquam praeteriit, 
+                sed semper praesens est
+                </quote>
+                <bibl>Augustinus, De diversis quaestionibus octoginta tribus, q.37 (CCSL 44A, 59, ll. 6-7).</bibl>
+                <note xml:lang="en">Note that Gracilis explicitly identifies this quotation as rough paraphrase. See his note that immedieately follows.</note>
+              </cit>. 
+              Vide ibi quia illa non sunt verba formalia. Nota tamen quod ibi 
+              non sumitur semper pro differentia temporalia, sed pro mensura vel instanti aeternali.
+            </p>
+            <p xml:id="pgb1q5-d1e579">
+              Primum corollarium: 
+              licet Deus Pater ante rerum creationem suum Filium non genuerit, 
+              tamen nulla 
+              <pb ed="#L" n="25-r"/> 
+              res creata sibi coeterna fuit. 
+              Prima patet sicut conclusio 
+              quia, sicut in aeternitate non est post, sic nec 
+              ante. Secunda patet, quia aliter Deus non produxisset ab initio temporis, 
+              quod est falsum quia 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4195" ana="#gen1_1">Deus creavit</quote>
+                <bibl>Genesis 1:1</bibl>
+              </cit> 
+              etc.
+            </p>
+            <p xml:id="pgb1q5-d1e605">
+              Secundum corollarium: 
+              in aliquo signo vel instanti Pater generat et numquam ante illud 
+              genuit. 
+              Et tamen generare non incepit Pater 
+              quia in instanti aeternitatis Pater generat et 
+              numquam ante illud 
+              quia ante illud nullum fuit aliquid instans.
+            </p>
+            <p xml:id="pgb1q5-d1e619">
+              Tertium corollarium: 
+              licet Pater in aliquo 
+              instanti Filium generat et numquam post illud generabit, 
+              tamen ipsum generare non desinet 
+              nec desinit. 
+              Patet ex eodem fundamento de instanti aeternitatis 
+              quia post illud instans 
+              nihil est vel erit. 
+              Ex istis patet pars negativa tituli, 
+              videlicet quod non ante corporeum ens 
+              factum temporaliter Deus genuit Deum Filium aeternaliter. 
+              Patet sumendo <mentioned>ante</mentioned> dicto modo.
+            </p>
+          </div>
+          <div xml:id="pg-b1q5-Dd1e4068">
+            <head xml:id="pg-b1q5-Hd1e4070"><supplied>Obiectiones et responsiones</supplied></head>
+            <p xml:id="pgb1q5-d1e633">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4090" target="http://scta.info/resource/pgb1q5-d1e391">primam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e391">Vide supra</ref></bibl>
+              </cit>: 
+              in divinis nullus est motus, ergo nec generatio. Tenet consequentia quia omnis motus 
+              est generatio. Antecedens patet 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4100"><title ref="#iac">Iacobi</title> primo</ref>
+                <bibl>Iacobus 1:?</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q5-d1e644">
+              <!-- second argument is till a "response" to conclusion 1; needs to be recorded in an external link relation; same for "tertio" below -->
+              Secundo, 
+              <name ref="#Mary">Virgo</name> non genuit nisi creaturam, 
+              sed Filius Dei non est creatura, 
+              ergo etc. 
+              Maior est 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4119"><name ref="#Augustine">Augustini</name>, <title ref="#Enchiridion">Enchiridion</title>, 34 capitulo</ref>
+                <bibl>Augustinus, Enchiridion, 34 (PL ??)</bibl>
+              </cit>. 
+              Minor patet 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4139" target="http://scta.info/resource/pl-l3d2">III <title ref="#Sentences">Sententiarum</title>, distinctione 11</ref>
+                <bibl><ref target="http://scta.info/resource/pl-l3d2">Lombard, Sententia, III, d. 11 (XXX).</ref></bibl>
+              </cit>.
+              Item, contra 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4153" target="http://scta.info/resource/pgb1q5-d1e391">istam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e391">Vide supra</ref></bibl>
+              </cit> 
+              est 
+              <cit>
+                <!-- dbcheck if target is correct -->
+                <ref xml:id="pg-b1q5-Rd1e4165" target="http://scta.info/resource/pgb1q5-tfiqef">ratio facta ante oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-tfiqef">Vide supra</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q5-d1e665">
+              Tertio contra 
+              <cit>
+                <!-- ref target should take four values one for each corollary
+                  scta the build script doesn't support this yet. 
+                -->
+                <ref xml:id="pg-b1q5-Rd1e4180" target="http://scta.info/resource/pgb1q5-d1e403">corollaria eius</ref>
+                <bibl>
+                  <ref target="http://scta.info/resource/pgb1q5-d1e403">Vide supra, primum corollarium</ref>,
+                  <ref target="http://scta.info/resource/pgb1q5-d1e414">Vide supra, secundum corollarium</ref>,
+                  <ref target="http://scta.info/resource/pgb1q5-d1e420">Vide supra, tertium corollarium</ref>,
+                  <ref target="http://scta.info/resource/pgb1q5-d1e430">Vide supra, quartum corollarium</ref>,
+                </bibl>
+              </cit>, 
+              aliquis actus intelligendi Patris praecedit actum generandi, 
+              ergo Filius non fuit aeternaliter. Patet consequentia quia Pater 
+              <supplied>non</supplied> solum novit in Filio
+              sed etiam in se ipso ut patet per 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4224"><name ref="#Augustine">Augustinum</name> III <title ref="#deTrinitate">De Trinitate</title></ref>
+                <bibl>Augustinus, De Trinitate, III, ?? (PL ??)</bibl>
+              </cit>. 
+              Ergo videtur quod Pater ante verbi expressionem habeat intelligendi 
+              cognitionem.
+            </p>
+            <p xml:id="pgb1q5-d1e685">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4241" target="http://scta.info/resource/pgb1q5-d1e438">secundam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e438">Vide supra</ref></bibl>
+              </cit> 
+              est 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4251" target="http://scta.info/resource/pgb1q5-ssaidi">ratio secunda facta in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-ssaidi">Vide supra</ref></bibl>
+              </cit>.
+            </p> 
+            <p xml:id="pgb1q5-d1e689">
+              Secundo, si Deus Deum generat, aut 
+              ergo generat cum sapientia aut sine sapientia. Si primum, ergo idem est terminus a quo producit et terminus 
+              ad quem producit, quod non videtur verum. Si sine sapientia, ergo Pater ignoranter producit 
+              Filium, quod est falsum.
+            </p>
+            <p xml:id="pgb1q5-d1e699">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4268" target="http://scta.info/resource/pgb1q5-d1e501">tertiam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e501">Vide supra</ref></bibl>
+              </cit> 
+              est 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4278" target="http://scta.info/resource/pgb1q5-tfiqef">ratio tertia in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-tfiqef">Vide supra</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q5-d1e703">
+              Secundo, omnis ratio alia ab esse in Deo est posterior ipso 
+              esse. Sed generare Filium est denominatio vel ratio alia ab esse Dei, ergo posterior. 
+              Igitur est ibi prius et posterius. Maior probatur quia in divina essentia est ordo quidam rationum 
+              <app>
+                <lem n="rationum"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">e</del>
+                </rdg>
+              </app> 
+              essentialium secundum 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4291"><name ref="#Dionysius">Dionysium</name>, <title ref="#deDivinisNominibus">De divinis nominibus</title>, capitulo tertio</ref>
+                <bibl>Pseudo-Dionysius, De divinis nominibus, c. 3 (PG ??)</bibl>
+              </cit>. 
+              Item, prius est, ut videtur, Deum vivere quam intelligere, 
+              et intelligere quam velle. Sed haec natura generationem Filii praecedunt, 
+              ergo.
+            </p> 
+            <p xml:id="pgb1q5-d1e725">
+              Tertio, illud quod habet rationem principii aliquo modo praecedit suum principatum. 
+              Sed Pater respectu Filii et intelligere 
+              Patris respectu dicere eius habet rationem principii, 
+              ergo aliquo modo praecedit. 
+              Confirmatur 
+              quia intelligere est commune tribus suppositis et non dicere, 
+              ergo prius est intelligere ipso dicere.
+            </p>
+            <p xml:id="pgb1q5-d1e740">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4328" target="http://scta.info/resource/pgb1q5-d1e633">Ad primum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e633">Vide supra</ref></bibl>
+              </cit>: 
+              negatur consequentia. 
+              Ad probationem dico quod non omnis generatio est motus, 
+              sicut patet de ista. 
+              Secundo, dicitur secundum 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4338"><name ref="#JamesViterbo">Iacobum de Viterbio</name>, quaestione secunda, <title>de Divinis Praedicamentis</title></ref>
+                <bibl>Iacobus de Viterbo</bibl>
+              </cit> 
+              quod quandoque genus dicit imperfectionem 
+              et species perfectionem, 
+              et tunc genus illud non dicitur de Deo, 
+              sed bene species, 
+              sicut in proposito patet de generatione et motu. 
+              Quandoque e converso, 
+              et tunc genus dicitur de Deo sed species 
+              non, sicut totum universale dicitur de Deo et totum integrale non 
+              quia Deus non habet partes.
+              Quandoque tam genus quam species dicunt perfectionem, 
+              et tunc utrumque convenit Deo. 
+              Ex quo patet quod, 
+              dato quod motus sit superius ad generationem et genus, 
+              tamen non sequitur generatio dicitur de Deo, 
+              igitur motus.
+            </p> 
+            <p xml:id="pgb1q5-d1e768">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4357" target="http://scta.info/resource/pgb1q5-d1e644">Ad secundum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e644">Vide supra</ref></bibl>
+              </cit> 
+              dicitur quod <name ref="#Augustine">Augustinus</name> vult dicere quod <name ref="#Mary">Virgo</name> non 
+              genuit nisi Christum, qui secundum humanitatem potest dici creatura, ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4373"><name ref="#Lombard">Magister</name>, 11 distinctione, III</ref>
+                <bibl>Lombardus, Sent. III, d. 11, c. 2, [n.4], (II, 79, ll. 25-26).</bibl>
+              </cit>.
+              Aliter dicetur ad hoc insequentibus.
+            </p>
+            <p xml:id="pgb1q5-d1e784">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4391" target="http://scta.info/resource/pgb1q5-d1e665">Ad tertium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e665">Vide supra</ref></bibl>
+              </cit>: 
+              negatur antecedens. Ad probationem dicitur 
+              quod notitia Patris in se ipso non est prior notitia in Filio, immo est eadem essentialiter.
+            </p>
+            <p xml:id="pgb1q5-d1e790">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4404" target="http://scta.info/resource/pgb1q5-qnqdie">Ad primam rationem in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-qnqdie">Vide supra</ref></bibl>
+              </cit>: 
+              negatur antecedens, et ad probationem negatur consequentia, 
+              quia, licet non generet 
+              alium Deum, tamen generat Deum Filium, qui est alius personaliter, 
+              tamen non est alius Deus.
+            </p>
+            <p xml:id="pgb1q5-apcess">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4424" target="http://scta.info/resource/pgb1q5-d1e685">Ad primam contra secundam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e685">Vide supra</ref></bibl>
+              </cit>, 
+              quae est 
+              <cit>
+                <ref xml:id="pg-b1q5-Rsririo" target="http://scta.info/resource/pgb1q5-ssaidi">secunda ratio in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-ssaidi">Vide supra</ref></bibl>
+              </cit>, 
+              diceret 
+              <ref xml:id="pg-b1q5-Rd1e4432">
+                <name ref="#HugolinoOfOrvieto">Hugolinus</name>:
+              </ref>
+              <pb ed="#L" n="25-v"/> 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4301">Concedo consequentiam, 
+                  rationem huius assignificando per hoc, 
+                  quod Pater totam latitudinem cognitionis 
+                  in esse producit dicendo unum verbum. 
+                  Ideo non sunt plura verba nec plures filii</quote>
+                <bibl>Hugolinus de Urbi Veteri, ??</bibl>
+              </cit>. 
+              Sed hoc non videtur ratio sufficiens 
+              quia adhuc contravenitur, 
+              quare potius per istam totam latitudinem 
+              immensam cognitionis produxerit Filium istum quam alium. 
+              Secundo diceret 
+              <ref xml:id="pg-b1q5-Rd1e4452"><name ref="#JohannesBrakel">Brinkel</name></ref> ad hoc quod 
+              <cit>
+                <quote xml:id="pg-b1q5-Qd1e4317">producit hunc Filium et non alium quia in Deo est tantum 
+                  hoc memoria fecunda et non alia potest esse fecunda</quote>
+                <bibl>Johannes Brinkel, ?? <!--check for correct spelling and correct unique ID --></bibl>
+              </cit>. 
+              Sed similiter non sufficit 
+              quia sic posset dicere quilibet de quolibet homine quod in ipso est tantum una memoria fecunda 
+              et tamen eius sunt plura verba. Item ipse solvit idem per idem et sic non reddit 
+              rationem, cum memoria, intelligentia, et cognitio sint in Filio sicut in Patre. Ideo dico aliter 
+              quod nulla ratio est nobis nota quare Pater generat istum et non alium, quae ratio se 
+              habeat tamquam antecedens nobis notum ad inferendum illud consequens quia, data quacumque ratione 
+              tali, aequaliter inferretur de Filio et Spiritu Sancto.
+            </p>
+            <p xml:id="pgb1q5-d1e855">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4471" target="http://scta.info/resource/pgb1q5-d1e689">Ad secundum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e689">Vide supra</ref></bibl>
+              </cit> 
+              dicitur quod generat cum sapientia 
+              ad bonum sensum, 
+              et ad improbationem negatur consequentia. Item, dicitur quod, si idem sumitur essentialiter, 
+              conceditur consequens. Si personaliter, negatur consequentia.
+            </p>
+            <p xml:id="pgb1q5-d1e862">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4484">Ad tertium</ref>
+                <bibl>Non invenimus</bibl>
+              </cit> 
+              dicitur quod Deus generat Deum, ibi stat 
+              pro persona. Ergo, sicut conceditur tres esse personas, ita tres deos, 
+              negatur consequentia quia non admittit illas ecclesia aequaliter.
+            </p>
+            <p xml:id="pgb1q5-d1e870">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4502" target="http://scta.info/resource/pgb1q5-d1e699">Ad primum contra tertiam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e699">Vide supra</ref></bibl>
+              </cit>: 
+              negatur antecedens, et ad probationem 
+              negatur consequentia. Ex quo sequitur quod non bene nec sufficienter exponitur. Iste tertius incipit per istas 
+              propositiones <mentioned><c>a</c> est in instanti praesenti et numquam ante hoc fuit</mentioned>, ergo <c>a</c> esse incipit. 
+              Sed debet dici <mentioned><c>a</c> est in isto instanti temporis</mentioned> etc, et ita potest dici de <mentioned>desinit</mentioned> suo modo. 
+              Ad confirmationem: negatur consequentia quia arguitur ab inferiori ad superius negatione praeposita a parte praedicati.
+            </p>
+            <p xml:id="pgb1q5-d1e893">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4532" target="http://scta.info/resource/pgb1q5-d1e703">Ad secundum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e703">Vide supra</ref></bibl>
+              </cit>: 
+              negatur maior. Ad confirmationem, <mentioned>dicitur quod in divina essentia est ordo 
+              rationum essentialium</mentioned>, dicitur quod talis ordo intrinsece nullo modo est amittendus, 
+              nec <name ref="#Dionysius">Dionysius</name> sic ponit in Trinitate.
+            </p>
+            <p xml:id="pgb1q5-d1e901">
+              <cit>
+                <ref xml:id="pg-b1q5-Rd1e4551">Ad tertium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q5-d1e725">Vide supra</ref></bibl>
+              </cit>: 
+              conceditur universaliter antecedens, sed negatur in divinis. 
+              Ad confirmationem: quidquid sit de consequente, negatur consequentia 
+              quia nec vivere praecedit intelligere, 
+              nec intelligere velle, nec velle praecedit dicere 
+              quia, ut dictum est, nulla est ibi prioritas nec posterioritas.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q5-Dd1e4375">
+          <head xml:id="pg-b1q5-Hd1e4377"><supplied>Conclusiones</supplied></head>
+          <p xml:id="pgb1q5-d1e912">
+            <cit>
+              <quote xml:id="pg-b1q5-Qd1e4385" source="http://scta.info/resource/pll1d4c1-d1e3476">Hic oritur quaestio</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d4c1-d1e3476">Lombardus, Sent. I, d. 4, c. 1, [n.1], (I, 77, ll. 22-23).</ref></bibl>
+            </cit>.
+            Haec dico continet quattuor conclusiones. 
+            Prima: concedendum est quod Deus genuit Deum et unus genuit unum, tamen non est 
+            concedendum quod Deus genuit se Deum vel alium Deum.
+          </p>
+          <p xml:id="pgb1q5-d1e923">
+            Secunda conclusio: potest concedi quod 
+            Deus Pater genuit Deum quod non est Pater.
+          </p>
+          <p xml:id="pgb1q5-d1e929">
+            Tertia conclusio: fides tenet tres personas 
+            esse unum Deum, unam substantiam, unam essentiam, et e converso unam essentiam esse tres 
+            personas. Et hoc probat
+            <cit>
+              <ref xml:id="pg-b1q5-Rd1e4591" target="http://scta.info/resource/pll1d4c2-d1e3487"><name ref="#Lombard">Magister</name></ref>
+              <bibl><ref target="http://scta.info/resource/pll1d4c2-d1e3487">Lombard, Sent. I, d. 4, c. 2, [nn. 1-3], (I, 79-80).</ref></bibl>
+              <!-- this target url only points to the paragraph containing the augustine quote. 
+                I'm not yet sure the best way to refernece a sequence of resources, i.e. paragraphs 1-3, etc. -->
+            </cit>
+            per 
+            <cit>
+              <ref xml:id="pg-b1q5-Rd1e4604">
+                <name ref="#Augustine">Augustinum</name> I <title ref="#deTrinitate">De Trinitate</title>
+              </ref>
+              <bibl>Augustinus, De Trinitate, I, c. 6, n. 10</bibl>
+            </cit> 
+            cui secundum <name ref="#Lombard">Magistrum</name> 
+            in hac 
+            materia prae ceteris fides est adhibenda. 
+            Sciendum tamen quod contra tertiam conclusionem videntur 
+            esse auctoritates Scripturae ubi sapientia increata de se dicit 
+            <cit>
+              <quote xml:id="pg-b1q5-Qaaescs" ana="#sir24_14">ab aeterno et ante secula creata sum</quote>
+              <bibl>Ecclesiasticus 24:13</bibl>
+            </cit>. 
+            Item, 
+            <cit>
+              <quote xml:id="pg-b1q5-Qfcmpmf" ana="io17_5">Filius clarifica me Pater claritate quam habui priusquam 
+                mundus fieret</quote>
+              <bibl>Iohannes 17:5</bibl>
+            </cit>, 
+            et cunctae aliae similes possunt adduci.
+            Ex quibus patet quod termini 
+            lapsum significantes dicuntur de divinis. 
+            Ad primum horum dicitur quod illa auctoritas sic: 
+            intelligitur <mentioned>ante secula</mentioned>, id est, si tempora fuissent ante secula fuisse in illis vel dum 
+            illa fuissent quia, licet Deus coexistat cuilibet parti temporis, tamen proprie Deus non 
+            est in tempore, sed in aeternitate vel in eius instanti, et sic possunt solvi aliae auctoritates. Ex 
+            dictis patet quod non sequitur: Deus non est prius quia non fuit, ergo esse incipit vel incepit.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
