@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 7</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+        <respStmt>
+          <name>Stefano Menegatti</name>
+          <resp>Proof reader and collaborater</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 7</title>
+          <date when="2014-04-14">April 04, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-04-14" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="28-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q7">
+        <head xml:id="pg-b1q7-Hd1e3724">Quaestio 7</head>
+         <div xml:id="pg-b1q7-Dd1e3727">
+           <head xml:id="pg-b1q7-Hd1e3729"><supplied>Circum Textum</supplied></head>
+           <p xml:id="pgb1q7-d1e83">
+             <pb ed="#L" n="28-v"/>
+             <cit>
+               <quote xml:id="pg-b1q7-Qd1e3739" source="http://scta.info/resource/pll1d6c1-d1e3476">Praeterea quaeri solet</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3476">Lombardus, Sent. I, d. 6, c. 1 [n.1], (I, 89, ll. 4).</ref></bibl>
+              </cit>.
+             This is the sixth distinction, 
+             which is a continuation of the preceding. 
+             For after the <name ref="#Lombard">Master</name> determined 
+             about divine generation with respect to the thing generating 
+             and the thing generated, now he begins to treat this matter 
+             with respect to the mode of generation, and this is divided into three parts.
+             For in the first place he proposes the question, 
+             in the second place he offers a solution, 
+             and in the third place he explains 
+             the declaration of the response. 
+             The second begins at
+             <cit>
+               <quote xml:id="pg-b1q7-Qd1e3751" source="http://scta.info/resource/pll1d6c1-d1e3479">nec voluntate nec necessitate</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3479">Lombardus, Sent. I, d. 6, c. 1, [n.1/2], (I, 89, ll. 6).</ref></bibl>
+             </cit>.
+             The third begins at 
+             <cit>
+               <quote xml:id="pg-b1q7-Qd1e3760" source="http://scta.info/resource/pll1d6c1-d1e3551">praedicta tamen verba</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3551">Lombardus, Sent. I, d. 6, c. 1, [n.4/7], (I, 90, ll. 24).</ref></bibl>
+             </cit>.
+           </p>
+           <p xml:id="pgb1q7-d1e112">
+             The second is divided into two parts 
+             because in the first place regarding the solution 
+             he puts his intention, 
+             in the second place he introduces and solves an objection.
+             The second begins at
+             <cit>
+               <quote xml:id="pg-b1q7-Qd1e3772" source="http://scta.info/resource/pll1d6c1-d1e3543">sed contra hoc opponitur</quote>
+               <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3543">Lombardus, Sent. I, d. 6, c. 1, [n.2/5], (I, 90, ll. 6).</ref></bibl>
+             </cit>.
+           </p>
+            <p xml:id="pgb1q7-d1e118">
+              The third is also divided into two parts. 
+              For in the first place regarding the declaration 
+              he puts forward his intention, 
+              in the second place he concludes 
+              that the declaration is true.
+              The second begins at
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e3784" source="http://scta.info/resource/pll1d6c1-d1e3551">dicamus ergo</quote>
+                <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3551">Lombardus, Sent. I, d. 6, c. 1, [n.4/7], (I, 91, ll. 1).</ref></bibl>
+                <!-- there are two instances of "dicamus ergo" , paragraph 4 and and paragraph 7 in the old edition. Are we sure we have the right one?
+                  We should leave a note for disambiguation -->
+              </cit>. 
+              etc.
+            </p>
+         </div>
+        <div xml:id="pg-b1q7-Dd1e3793">
+          <head xml:id="pg-b1q7-Hd1e3795"><supplied>Quaestio</supplied></head>
+          <p xml:id="pgb1q7-d1e127">
+            Regarding this distinction it is asked whether 
+            the fecund memory of the Father willing and freely determined 
+            to beget the Son who is the second person.
+          </p>
+          <div xml:id="pg-b1q7-Dd1e3799">
+            <head xml:id="pg-b1q7-Hd1e3801">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q7-qnqeon">
+              That not because the Father 
+              produces naturally, 
+              therefore not freely.
+              The consequence holds 
+              and the antecedent is proved through
+              <ref><name ref="#JohnDamascenus">Damascene</name> in book one, chapter eight</ref>
+              saying
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e3830">generation is a work of nature</quote>
+                <bibl>Iohannes Damascenus, De Fide Orthodoxa, I, 8 (PL XXX)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q7-d1e146">
+              In the second place, it follows that 
+              the generation of the Son would be an operation of the will.
+              The consequent seems false 
+              because it is an act of the memory of the Father.
+              The consequence is clear because complacence or to please 
+              is an act of the will according to
+              <cit>
+                <ref>
+                  <name ref="#Anselm">Anselm</name> in <title ref="#deConceptuVirginali">De Conceptu Virginali</title>, 
+                  in chapter two</ref>
+                <bibl>Anselmus, De Conceptu Virginali, 3, (II, 143, ll. 16-21)</bibl>
+              </cit>. 
+              This is confirmed 
+              because the act of the eternal supposite is 
+              an essential act, 
+              therefore no more determined to begetting the Son 
+              than the Son is determined to this, therefore.
+              The conclusion is false, 
+              the consequences valid, 
+              and the antecedent apparent 
+              because every internal act of the Father is 
+              an immanent act 
+              and therefore essential and common to the whole.
+            </p>
+            <p xml:id="pgb1q7-d1e170">
+              In the third place, 
+              The Father is determined for begetting the Son 
+              in no way, therefore. 
+              The antecedent is proved because 
+              to be determined indicates an imperfection, 
+              therefore it should not be attributed to the Father or 
+              any other divine supposite. 
+              The proof of the antecedent is <!-- translation difficult here; needs review --> 
+              because for something to be determined by something 
+              is effectively to have been produced by that, or produced, or at least moved.
+            </p> 
+            <p xml:id="pgb1q7-d1e180">
+              In opposition, there is the 
+              position of  
+              <ref>
+                <name ref="#Augustinus">Augustine</name> IX 
+                <title ref="#deTrinitate">De Trinitate</title>, chapter 8
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e3886">the Word is conceived in love</quote>
+                <bibl>Augustinus, De Trinitate, IX, c. 8 (XXX)</bibl>
+              </cit>.
+              With respect to the same position there is position of
+              <cit>
+                <ref target="http://scta.info/resource/pll1d6c1-d1e3551">the <name ref="#Lombard">Master</name> at the end of this sixth distinction</ref>
+                <bibl><ref target="http://scta.info/resource/pll1d6c1-d1e3551">Lombardus, Sent. I, d. 6, c. 1, [n.4/7], (I, 91, ll. 3-6).</ref></bibl>
+              </cit>, 
+              where lays out the position of
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> in <title>Super Epistolam ad Ephesios</title></ref>
+                <bibl>Augustine, XXX</bibl>
+              </cit>.
+              This is confirmed by reason in the following way: 
+              the eternal generation of the word is the most perfect operation, 
+              there it is a pleasing and free operation. 
+              The consequences holds because according to the  
+              <cit>
+                <ref><name ref="#Aristotle">Philosopher</name> in book II and X of the <title ref="#Ethics">Ethics</title></ref>
+                <bibl>Aristotles, Ethics, X (1174b31-33) <!-- note from stefano: Here, however, Peter is actually copying from Thomas of Strasburg, I Sent., d. 6, q. 2: “Contra, delectabilissima operatio non potest esse sine actu voluntatis, sed generare divinum est delectabilissima operatio, ergo etc. Maior patet, quia nulla potest esse delectation absue complacentia voluntatis; minore probo, quia operatio perfectissima est delectabilisissima; patet, 1 et 10 Ethicorum..." --></bibl>
+              </cit>, 
+              the most perfect operation is the most pleasant.
+              The antecedent is proved because in whatever degree 
+              the produced term is of a greater perfection, 
+              the operation or production is more perfect in the same degree. 
+              But the Son in the divine is of an infinite perfection, 
+              therefore also his production. 
+              But for this the Father is not undetermined, 
+              therefore he is determined 
+            </p>
+          </div>
+          <div xml:id="pg-b1q7-Dd1e3934">
+            <head xml:id="pg-b1q7-Hd1e3936"><supplied>First conclusion</supplied></head>
+            <p xml:id="pgb1q7-d1e228">
+              The first conclusion: 
+              though the infallible Word is beget immutably 
+              with the necessity of exigence, 
+              nevertheless without perfection 
+              the Father generates it with delight 
+              and for the sake of pleasure.
+              The first part is proved 
+              because the same thing which is pure act 
+              necessarily drives forward such 
+              that it exists in three supposits. 
+              But these three things would not be 
+              unless the Father were to generate the Son, 
+              and the Father and the Son spirated the Holy Spirit. 
+              Therefore, from the necessity of natural exigence, 
+              The Son is beget from the Father. 
+              And this is confirmed because the Father 
+              is not able not to beget the Word, 
+              therefore he necessarily generates it.
+            </p>
+            <p xml:id="pgb1q7-pclpca">
+              The first corollary: 
+              though the Father begets with the necessity of exigence, 
+              nevertheless this necessity excludes both 
+              the necessity of co-action or indigence.
+              The first part is clear through the conclusion. 
+              The second is clear because contra 
+              <cit>
+                <ref><name ref="#Aureoli">Aureolum</name></ref>
+                <bibl>Aureoli, XXX</bibl>
+              </cit> 
+              omnipotence is not able to be compelled.
+            </p>
+            <p xml:id="pgb1q7-d1e289">
+              The second corollary: 
+              just as it is repugnant that the Holy Spirit is not spirated from the Word, 
+              so necessarily essential love concurs for the generation of the Word. 
+              This is clear through the second part of the conclusion, 
+              which is proved through 
+              <ref corresp="#pg-b1q7-Qd1e3961">
+                <name ref="#RichardOfStVictor">Richard</name>, <title ref="#RichardOfStVictor_deTrinitate">De Trinitate</title>, in the sixth book, in chapter 17,
+              </ref> 
+              who says 
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e3961">ingenitum velle de se habere conformem atque condignum idem videtur mihi quod gignere</quote>
+                <bibl>Richardus de Sancto Victore, De Trinitate, VI, c. 17 (252, ll. 52-53)</bibl>
+              </cit>.
+              <pb ed="#L" n="29-r"/>
+              To the same
+              <ref corresp="#pg-b1q7-Qd1e3981">
+                <name ref="#Dionysius">Dionysius</name> in his book <title ref="#deDivinisNominibus">On the Divine Names</title>
+              </ref> 
+              says
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e3981">amor divinus non dimisit Deum esse sine 
+                  <sic>gignitione germinis. <!-- actual text of Dionysius has "sine germine" --></sic></quote>
+                <bibl>Pseudo-Dionysius, De divinis nominibus, c. 4 (XXX)</bibl>
+              </cit> 
+              Whence  
+              <ref>
+                <title ref="#mt">Matthew</title> in chapter,
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4000" ana="#mt3_17">Here is my beloved son with whom I am well</quote>
+                <bibl>Matthaeus 3:17</bibl>
+              </cit> 
+              etc.
+            </p>
+            <p xml:id="pgb1q7-d1e344">
+              The third corollary: 
+              the Father, 
+              or the fecundity of paternal memory, 
+              in no way, after he has produced the Word, 
+              was able or wished to produce the Word. 
+              This is clear because otherwise 
+              he would have generated it with the antecedent will, 
+              in opposition to  
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> <title>ad Orosium</title>, quaestionem 8</ref>
+                <bibl>Augustinus, Ad Orosium, XXX</bibl>
+              </cit>, 
+              and against 
+              <cit>
+                <ref target="http://scta.info/resource/pl-l1d1c1">the <name ref="#Lombard">Master</name> in his text</ref>
+                <bibl><ref target="http://scta.info/resource/pl-l1d1c1">Lombardus, Sent. I, d. 6, c. 1, (I, 89-91).</ref></bibl>
+              </cit>. 
+              Again, then there would be a priority in the divine, 
+              which is against what was said in 
+              <cit>
+                <ref>another question</ref>
+                <bibl>Cross-Reference, XXX</bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q7-Dd1e4049">
+            <head xml:id="pg-b1q7-Hd1e4051"><supplied>Second Conclusion</supplied></head>
+            <p xml:id="pgb1q7-d1e370">
+              The second conclusion: 
+              just as it is repugnant that the paternal memory 
+              produced a fallible word from eternity, 
+              so it is repugnant that every aeternal act is or was notional. 
+              The first part is clear through what was said in 
+              <cit>
+                <ref>another conclusion</ref>
+                <bibl>Cross-Reference</bibl>
+              </cit>
+              Nevertheless this is confirmed 
+              because it is repugnant that something 
+              fallible exists but is not measured by time. 
+              Therefore he did not produce, does not produce, 
+              such a thing without time. <!-- dbcheck translation; text seems a bit corrupted here -->
+              The second part is proved because the act of 
+              predestination of Peter or another is an eternal act 
+              and is not notional, indeed it is common to three persons, 
+              therefore.
+            </p>
+            <p xml:id="pgb1q7-d1e387">
+              The first corollary: 
+              the futurition or the privation of no-thing either absolutely  
+              lacks a beginning in time or always was or was eternally. 
+              This is clear because futurition and privation are similar things 
+              either are something or nothing. 
+              If nothing, then they were neither temporally nor eternally. 
+              If they are something, then they are either a creator or creature. 
+              Not the first,
+              because this is a pure act that is always present. 
+              If it is different from God, then it follows 
+              that they were not from eternity, 
+              as is clear through the first part of the conclusion and its proof.
+              From what has been said it seems to follow that 
+              contradictories would not would not be able to be at the same time,
+              that <mentioned>the judgement or the antichrist will be</mentioned> was not able to be true from eternity 
+              because it was not from eternity. 
+              In the second place it would be able to be inferred 
+              that to the negation of things to have eternally existed, 
+              it follows that produced something outside of himself eternally.
+              This is clear because, if God eternally produced nothing outside himself, 
+              then the negation of nothing thing existed from eternity, which is against 
+              <cit>
+                <ref>
+                  <name ref="#HugolinoOfOrvieto">Hugolino</name>, in book two, question two, 
+                  article four
+                </ref>
+                <bibl>Hugolinus de Urbe Veteri, II, q. 2, a. 4 (XXX)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q7-d1e427">
+              The second principle corollary: 
+              not every eternal act of the Father is appropriate or notional.
+              This is clear through the second part of the conclusion 
+              because the act by which the Father foreknows some future 
+              is common to the three suppositions 
+              and as a consequence is not notional.
+            </p>
+            <p xml:id="pgb1q7-d1e435">
+              The third corollary: 
+              not every cognitive act of the Father 
+              is productive of an infallible Word. 
+              This is clear because some act of the Father 
+              is productive of no term.
+              This is clear from the act by which 
+              he predestined <name ref="#Peter">Peter</name>.
+            </p> 
+          </div>
+          <div xml:id="pg-b1q7-Dd1e4110">
+            <head xml:id="pg-b1q7-Hd1e4112"><supplied>Third Conclusion</supplied></head>
+            <p xml:id="pgb1q7-d1e446">
+              The third conclusion: 
+              though the paternal memory is fecund with freely and with pleasure, 
+              nevertheless the generation of the Word 
+              is not properly and formally determined.
+              The first part is clear through the first conclusion. 
+              The second part is proved because to be determined properly in this way 
+              suggests imperfection, therefore it should not be attributed to the paternal memory.
+              The antecedent is clear 
+              because a potency is determined with respect to something, 
+              with respect to that act for which it was previously a potency, <!-- dbcheck translation -->  
+              but this sounds like an imperfection.
+            </p>
+            <p xml:id="pgb1q7-d1e467">
+              The first corollary: 
+              just as it is necessary that the Father is enjoying the highest beatitude, 
+              so it is necessary that the infallible Word is beget by the same fruition. 
+              This is clear 
+              because it is just as pleasing to himself in the Word 
+              as it is in his very self. 
+              Therefore, in
+              <ref corresp="#pg-b1q7-Qd1e4129">
+                <title ref="#mt">Matthew</title>, chapter 3
+              </ref>, 
+              he says: 
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4129" ana="#mt3_17">This is my beloved son</quote>
+                <bibl>Matthaeus 3:17</bibl>
+              </cit>,
+              etc.
+            </p>
+            <p xml:id="pgb1q7-scqese">
+              The second corollary: 
+              just as it is repugnant to the Father not to be, 
+              so it is necessary that he beget.
+              This is clear both because his action is connatural to himself, 
+              and also because his action is his being.
+              patet tum quia sua actio est sibi connaturalis tum etiam quia suum agere est suum esse.
+            </p>
+            <p xml:id="pgb1q7-d1e495">
+              The third corollary: 
+              though the eternal Word is said by the paternal memory freely, with pleaure, and naturally, 
+              nevertheless it is not properly or formally predetermined to do this. 
+              This is clear through what has been said, 
+              from which the negative part of the conclusion is able to be inferred
+              
+            </p>
+          </div>
+          <div xml:id="pg-b1q7-Dd1e4158">
+            <head xml:id="pg-b1q7-Hd1e4160"><supplied>Objections and Responses</supplied></head>
+            <p xml:id="pgb1q7-d1e505">
+              Against the first conclusion it is argued: 
+              the eternal Word is not able to be and not be indifferently, 
+              therefore it does not produce freely and for its own pleasure. 
+              The antecedent is known. 
+              <pb ed="#L" n="29-v"/> 
+              The consequence is clear 
+              because only those things are produced freely
+              which are able to be in different ways, 
+              or which are able to be and not be.
+            </p>
+            <p xml:id="pgb1q7-d1e516">
+              In the second place, 
+              it is argued through the saying of
+              <ref corresp="#pg-b1q7-Qd1e4182">
+                <name ref="#RichardOfStVictor">Richard</name> II <title ref="#RichardOfStVictor_deTrinitate">De Trinitate</title>, at the end of chapter seven
+              </ref>,
+              where he says,
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4182">
+                  although each one, namely the Father and the Holy Spirit, is from the father, 
+                  nevertheless each has its own mode of proceeding
+                </quote>
+                <bibl>Richardus de Sancto Victore, De Trinitate, II, c. 7 (235, ll.33-37).</bibl>
+                <note>Cf. III, c. 1 (135, ll. 17-21), and VI, c. 17 (250-252).</note>
+              </cit>, 
+              <supplied>and</supplied> 
+              in 
+              <ref corresp="#pg-b1q7-Qd1e4182">the sixth</ref> and <ref>in another place</ref>. 
+              But it is certain that, if the Son is produced freely and with pleasure, 
+              since the Holy Spirit also proceeds in this way, 
+              it would follow that there would not be 
+              one mode of proceeding in one 
+              and another mode in the other.
+            </p> 
+            <p xml:id="pgb1q7-tctdsp">
+              In the third place against the third conclusion:
+              there seems to be the position of 
+              <ref corresp="#pg-b1q7-Qd1e4214">
+                <name ref="#Augustine">Augustine</name> IX <title ref="#deTrinitate">De Trinitate</title>, in the last chapter
+              </ref>, 
+              where he says that
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4214">some appetite precedes a part of the mind</quote>
+                <bibl>Augustine, De Trinitate II, c.12, n.18 (CCSL 50, 310, ll. 69-73).<!-- Stefanso notes: The actual quote is: “ Partum mentis praecedit appetitus, quo id quod nosse volumus quaerendo, nascitur proles ipsa notitia”, Book 2, c. 12, n. 18. --></bibl>
+              </cit>.
+              Again, against this, see
+              Item, contra hoc, vide 
+              <cit>
+                <ref><name ref="#Scotus">Scotus</name>, distinction 6 of the first book</ref>
+                <bibl>Scotus, Ordinatio, I, d. 6 (XXX)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q7-d1e548">
+              Against the second part of the second conclusion 
+              and its corollaries:
+              if there were some eternal non-notional act, 
+              it would follow that there would be many gods. 
+              This is clear 
+              because any eternal act is God himself.
+              Therefore, if there are posited a multitude of eternal acts, 
+              it is necessary to posit a multitude of gods, which is nonsense.
+              This is confirmed because in the divine 
+              it is the same to know and to understand and to will 
+              and so for similar things.
+            </p>
+            <p xml:id="pgb1q7-d1e562">
+              Against the second corollary:
+              the Holy Spirit loves itself 
+              by the same love by which the Father and the Son love themselves.
+              But the act of love in the Father and the Son, 
+              therefore also in the Holy Spirit. 
+              By the same reason, any eternal act of the Father 
+              will be notional.
+            </p>
+            <p xml:id="pgb1q7-d1e572">
+              Against the third corollary: 
+              if God does something internally 
+              through an essential act, 
+              then something non-notional is produced internally. 
+              The consequence is clear 
+              because from active to passion is a good consequence, 
+              just as it follows, God creates, therefore something is created.
+              Thus it follows that God acts, therefore something is acted upon.
+            </p>
+            <p xml:id="pgb1q7-d1e585">
+              Against the third conclusion:
+              the paternal memory is not able not to produce the Son, 
+              therefore it produces the Son necessarily, 
+              therefore not freely. 
+              The consequence holds 
+              because free and necessary 
+              are opposed. 
+            </p>
+            <p xml:id="pgb1q7-d1e604">
+              In the second place, 
+              it would follow that the will would have the ratio of a principle, 
+              as is the case in this kind of generation.
+              The consequent is false
+              because the will would either be following, 
+              preceding, or at the same time.
+              Not the first because this was the error of 
+              <name ref="#EunomiusOfCyzicus">Eunomius</name> who says that 
+              it is false that the Son is of an antecedent will as says 
+              <cit>
+                <ref><name ref="#Augustine">Augustine</name> III <title ref="#deTrinitate">De Trinitate</title>, in chapter 20</ref>
+                <bibl>Augustinius, De Trinitate, III, c. 20 (XXX)</bibl>
+              </cit>. 
+              Not the second on account of the third corollary of the first conclusion.
+              Not the third 
+              because then Son would not be said to be from the Holy Spirit, 
+              which is an error.
+            </p>
+            <p xml:id="pgb1q7-d1e628">
+              In the third place against the second corollary:
+              it is just as repugnant 
+              <mentioned>that the Father is and is not</mentioned>, 
+              as it is that 
+              <mentioned>that He does not beget the Son</mentioned>. 
+              Therefore this kind of contradiction or repugnance 
+              is able to be shown by way of the first principle, 
+              and thus it follows that 
+              the diversity or plurality of the divine persons 
+              would be able to be demonstrated evidently, 
+              against what was said above.
+              The first consequence is clear because 
+              <mentioned>that the Father is and is not</mentioned> includes a contradiction so formally 
+              that such a contradiction is able to be shown evidently from the first principle. 
+              Therefore that from <mentioned>the Father does not produce the Son</mentioned>
+              a contradiction follows is able to be shown 
+              from the truth of the first principle, 
+              which is false. 
+            </p>
+            <p xml:id="pgb1q7-d1e645">
+              To the first 
+              it is said: that the will concurs in the production of the Word 
+              or the will is the productive principle of the Son 
+              is able to be understood in an antecedent mode principally, 
+              or in another pleasant or delightful mode coexigitively. 
+              In this way the principle antecedent is conceded to the argument 
+              and the consequence is denied, 
+              when taking <mentioned>concurrence of the will</mentioned>
+              in the second mode. 
+              But if taken in the first mode,
+              then the entire argument is conceded, 
+              and this is not contra to what has been said.
+            </p>
+            <p xml:id="pgb1q7-d1e662">
+              To the second: that is the authority of 
+              Ad secundum: quod est auctoritas 
+              Richard 
+              with  
+              <cit>
+                <ref><name ref="#Rimini">our Doctor Gregory</name>, in book one, distinction six, article two</ref>
+                <bibl>Gregorius Ariminiensis, Lectura, I, d. 6, a. 2</bibl>
+              </cit>, 
+              that there is a single mode of proceeding for each, 
+              and the authority of this Doctor in this part should not be believed.
+            </p>
+            <p xml:id="pgb1q7-d1e676">
+              To the third it is said 
+              that in this place Augustine speaks about part of our mind, 
+              not about the divine mind, 
+              as is clearly seen in following text.
+            </p>
+            <p xml:id="pgb1q7-d1e688">
+              To the first against the second conclusion, 
+              the consequence is denied. 
+              To the proof it is said, regarding the position of  
+              <ref corresp="#pg-b1q7-Qd1e4360">
+                <name ref="#Anselm">Anselm</name> <title ref="#Monologion">Monologion</title>,  
+                  from chapter 62 up to 65,
+              </ref>, 
+              where he treats this material saying,  
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4360">
+                  <!-- need translation help -->
+                  dubium esse non debet quod 
+                  Pater et Filius et eorum unus quisque se ipsum et alios ambos dicit sicut se et alios</quote>
+                <bibl>Anselmus, Monologion, 62 (I, 72, ll. 6-8)<!-- stef identifies the actual quote as: The quote is: "Sed ne forte repugnet, huic assertion quid intueor. Nam dubium esse non debet quia pater et filius et eorum spiritus unus quisque seipsum et alios ambos dicit, sicut se et alios intelligit. Quod si ita est" --></bibl>
+              </cit>,
+              <pb ed="#L" n="30-r"/> 
+              he understand that if it is thus, how are there as man words are there sayings in the highest essence? 
+              And he adds
+              <ref corresp="#pg-b1q7-Qd1e4375">capitulo 63</ref>, 
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4375">sicut singulus eorum est sciens et intelligens ita singulus 
+                  quisque dicens, nec tamen omnes simul sunt tres dicentes sed unus solus 
+                  dicens</quote>
+                <bibl>Anselmus, Monologion, 63 (I, 73, ll. 18-22) <!-- stef gives the full quotation as: The quote is "Cum ergo constet quia sicut pertinent ad eius essentiam, scientia et intelligentia, sic eius scire et intelligere non est aliquam dicere, id est, semper praesens intueri quod scit et intelligit: necesse est, ut quemadmodum singulus pater, singulus filius et singulus eorum spiritus, est sciens et intelligens; et tamen hi tres simul, non sunt plures scientes aut intelligentes, sed unus scient, et unus intelligens, ita singulus quisque sit dicens, nec tamen sint tres dicentes simul, sed unus dicens." --></bibl>
+              </cit>. 
+              For what is said there except the essence of those things? 
+              If therefore there is only one thing, one thing alone is said, 
+              therefore if one thing alone is said, then there is also only one thing which says and is said. 
+              It follows there that there are not many words.
+              See the place beginning with <quote xml:id="pg-b1q7-Qd1e4384">process</quote>.
+            </p>
+            
+            <p xml:id="pgb1q7-d1e718">
+              To the same is the process of 
+              <ref>
+                <name ref="#HenryOfGhent">Henry of Ghent</name>, 
+                in the first part, article 42
+              </ref>, 
+              where he asks,
+              <cit>
+                <quote xml:id="pg-b1q7-Qd1e4396">whether there is no understanding 
+                  except when the essential part corresponds to the some essential word in God</quote>
+                <bibl>Cf. Henricus de Gandavo, I, a. 40, q. 7</bibl>
+              </cit>, 
+              where he shows that this is not sufficiently explained <!--? prolixe ? -->.
+              For whoever wishes, let him see through this that two other arguments are able to be solved 
+              and there is a confirmation of the first. <!-- possible reference here -->
+            </p>
+            <p xml:id="pgb1q7-d1e731">
+              To the first against the third conclusion: 
+              the antecedent and the first consequent are conceded, 
+              and the second consequence is denied, 
+              and to the proof because liberty is opposed to necessity it is said that this is true about
+              the liberty of coaction and indigence, 
+              but it is not opposed to the necessity of pleasure and immutability.
+            </p>
+            <p xml:id="pgb1q7-d1e753">
+              To the second it is able to be said 
+              just as it is said to the first argument against the first conclusion
+              because, if it is understood that the will 
+              produces the Son antecedently principative, 
+              then the consequent and the consequence is denied. 
+              If indeed with pleasure and coexigitive, 
+              then the consequent is able to be conceded. 
+              And it is said further to the 
+              arguments against that 
+              it is produced by a coeval will, and when it is inferred 
+              that therefore the Son is not distinct from the Holy Spirit, 
+              the consequence is denied 
+              when understanding the will or to produce voluntarily uniformily 
+              Ad secundum potest dici sicut ad primum 
+              contra primam conclusionem, quia, si intelligitur quod voluntas producat Filium antecedenter principative, negatur consequens 
+              et consequentia; si vero complacenter et coexigitive, sic potest concedi consequens et dicitur ultra ad 
+              improbationes quod voluntate coaeva producitur et cum infertur <mentioned>ergo Filius a Spiritu Sancto non 
+              distincta</mentioned> negatur consequentia sumendo uniformiter voluntatem seu voluntarie producere.
+            </p>
+            <p xml:id="pgb1q7-d1e770">
+              To the third, 
+              the consequence is denied because, 
+              though one is just as repugnant as the other, 
+              nevertheless that one is a contradiction which does not stand 
+              and nor does it appear to us just as the other. 
+              Therefore it does not follow that, 
+              if one repugnance is able to be demonstrated to us by the truth of the first principle, 
+              that also the other is able to be shown to us evidently.
+            </p>
+            <p xml:id="pgb1q7-d1e788">
+              To the arguments in opposition, 
+              it is clear from what has been said how 
+              the will concurs in the generation of the Son. 
+              Again, it is clear why paternal memory is not properly determined, 
+              as the arguments proved, 
+              although it is perhaps able to be said 
+              to be determined when speaking improperly.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q7-Dd1e4448">
+          <head xml:id="pg-b1q7-Hd1e4450">Conclusions</head> <!-- shouldn't this be "septima -->
+          <p xml:id="pgb1q7-d1e797">
+            <cit>
+              <quote xml:id="pg-b1q7-Qd1e4459">
+                <app>
+                  <lem type="conjecture-supplied"><supplied>Praeterea</supplied></lem>
+                  <rdg wit="#L">Hic</rdg>
+                  <note xml:lang="en">
+                    Gracilis appears to make a mistake here in the citation of this incipit. 
+                    The incipit of d. 6 reads, as stated at the outset of this question, "praeterea quaeri solet". 
+                    This incipit stated here actually mirrors the incipit of <ref target="http://scta.info/resource/pll1d7c1-d1e3476">distinction 7, c. 1</ref>. 
+                    This similarity of the incipits likely accounts for the accidental reference to distinction 7, when actually referring to distinction 6.
+                  </note>
+                </app> 
+                quaeri solet
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d6c1-d1e3476">Lombardus, Sent. I, d. 6, c. 1 [n.1], (I, 89, ll. 4).</ref>
+              </bibl>
+            </cit>.
+            This distinction contains 
+            three conclusions. 
+            First that just as God the Father is God neither by necessity or by will, 
+            neither by not-willing or willing, 
+            so God the Father beget the Son neither by necessity or by will, 
+            he begin him neither by not-willing or willing, 
+            contrary to the understanding of the heretic.
+          </p>
+          <p xml:id="pgb1q7-d1e819">
+            The second conclusion that, 
+            though in God nature and will are the same thing, 
+            nevertheless it does not follow that, 
+            if the Word of God is the Son by nature, 
+            that on account of this he is the Son by will, 
+            just as it does not follows that 
+            the foreknowledge and the divine will are the same, 
+            therefore whatever is said about one is said about the other. 
+            For foreknowledge is about the good and the bad, 
+            but the will is truly only about the good 
+            or with respect to the good.
+          </p>
+          <p xml:id="pgb1q7-d1e831">
+            Third conclusion that the Father begat the Son willingly just as he was able,
+            and the good begat him and also wisdom, 
+            nevertheless not by a preceding or following will, 
+            nor did he beget the Son by a necessitated natural coactions or leading. 
+            And therefore not by unwillingly, but willingly he generated him, 
+            namely by an approving will and pleasing will, 
+            as was said about, etc
+            Tertia conclusio quod Pater genuit Filium volens sicut et potens, 
+            et bonus ipsum genuit et sapiens, non tamen voluntate praecedente vel <unclear>accedente <!-- stef suggests changing this and earlier instances to antecedente --></unclear>, 
+            nec naturali coactus necessitate vel ductus genuit Filium, et ideo non nolens sed volens 
+            genuit ipsum scilicet voluntate approbante vel complacente, ut supra est dictum etc.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
