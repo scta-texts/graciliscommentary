@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 9</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Liber I, Quaestio 9</title>
+          <date when="2014-04-29">April 29, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-11-20" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="33-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q9">
+        <head xml:id="pg-b1q9-Hd1e95">Liber I, Quaestio 9</head>
+        <div xml:id="pg-b1q9-Dd1e98">
+          <head xml:id="pg-b1q9-Hd1e100">Circa Textum</head>
+          <p xml:id="pgb1q9-d1e83">
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e107" source="http://scta.info/resource/pll1d8c1-d1e3476">Nunc de veritate sive proprietate</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d8c1-d1e3476">Lombardus, Sent. I, d. 8, c. 1 [n.1], (I, 95, ll. 4).</ref></bibl>
+            </cit> 
+            etc. 
+            Haec distinctio 8. 
+            Ad praecedentem sic continatur 
+            quia postquam <name ref="#Lombard">Magister</name> 
+            ostendit in divinis esse veram generationem, 
+            nunc 
+            <app>
+              <lem>in</lem>
+              <rdg wit="#L" type="correction-addition">
+                <add place="above-line">in</add>
+              </rdg>
+            </app>
+            ista distinctione ponit 
+            multitudinem proprietatum significantem eius perfectionem. 
+            Et dividitur in tres partes 
+            quia primo determinat <name ref="#Lombard">Magister</name> de Dei aeterna entitate, 
+            secundo de eius incommutabilitate, 
+            tertio de eius simplicitate. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e134" source="http://scta.info/resource/pll1d8c2-d1e3477"><sic>Deus <!-- actual Lombard text has "dei" --></sic> in solius essentia</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d8c2-d1e3477">Lombardus, Sent. I, d. 8, c. 2 [n.1], (I, 97, ll.2).</ref></bibl>
+            </cit>,
+            tertia ibi 
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e149" source="http://scta.info/resource/pll1d8c3-d1e3475">
+                <app>
+                  <lem type="conjecture-corrected"><corr>eademque</corr></lem>
+                  <rdg wit="#L">eadem quo</rdg>
+                </app>
+              </quote>
+              <bibl><ref target="http://scta.info/resource/pll1d8c3-d1e3475">Lombardus, Sent. I, d. 8, c. 3 [n.1], (I, 98, ll. 20).</ref></bibl>
+            </cit>. 
+            Prima in tres, 
+            nam primo ostendit 
+            quomodo hoc nomen <mentioned>esse</mentioned> 
+            vel <mentioned>essentia</mentioned> est Deo proprium, 
+            secundo ex dictis movet dubium, 
+            et tertio respondet ad ipsum. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e167" source="http://scta.info/resource/pll1d8c1-d1e3533">hic diligenter</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d8c1-d1e3533">Lombardus, Sent. I, d. 8, c. 1 [n.4], (I, 95, ll. 21-22).</ref></bibl>
+            </cit>.
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e177" source="http://scta.info/resource/pll1d8c1-d1e3586">illud ergo quod</quote>
+              <bibl><ref type="commentary" target="http://scta.info/resource/pll1d8c1-d1e3586">Lombardus, Sent. I, d. 8, c. 1 [n.6], (I, 96, ll. 20).</ref></bibl>
+            </cit>.
+            Secunda pars principalis manet indivisa, 
+            sed tertia dividitur in duas 
+            quia primo <name ref="#Lombard">Magister</name> 
+            ostendit divinae naturae simplicitatem 
+            per comparationem et relatum ad extra, 
+            secundo per relatum ad intra. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q9-Qd1e197" source="http://scta.info/resource/pll1d8c5-d1e3477">hic diligenter
+                <app>
+                  <lem n="diligenter"/>
+                  <rdg wit="#L" type="correction-deletion">
+                    <del rend="strikethrough">3a ibi</del>
+                  </rdg>
+                </app> 
+              </quote>
+              <bibl>
+                <bibl><ref target="http://scta.info/resource/pll1d8c5-d1e3477">Lombardus, Sent. I, d. 8, c. 5 [n.1], (XXX).</ref></bibl>
+              </bibl>
+            </cit>.
+            Et haec est divisio praesentis distinctionis.
+          </p>
+        </div>
+        <div xml:id="pg-b1q9-Dd1e222">
+          <head xml:id="pg-b1q9-Hd1e224">Quaestio</head>
+          <p xml:id="pgb1q9-d1e143">
+            Utrum sola prima causa entis producibilis sit simplex, 
+            <app>
+              <lem n="simplex"/>
+              <rdg wit="#L" type="variation-present" cause="repetitio">simplex</rdg>
+            </app> 
+            necessaria, 
+            et incommutabilis seu invariabilis?
+          </p>
+          <div xml:id="pg-b1q9-Dd1e240" type="rationes-principales">
+            <head xml:id="pg-b1q9-Hd1e242">Rationes principales</head>
+            <p xml:id="pgb1q9-qnasne">
+              Quod non aliqua creatura est 
+              indivisibiliter simplex, 
+              ergo etc.
+              Antecedens probatur tum quia cuilibet gradui 
+              specifico cuiuscumque rei correspondet 
+              esse punctale et indivisibile. 
+              Patet quia, 
+              quantumcumque parvus gradus adderetur aut demeretur, 
+              non maneret in illa specie 
+              igitur talis res indivisibiliter est.
+            </p> 
+            <p xml:id="pgb1q9-sacsne">
+              <pb ed="#L" n="33-v"/>
+              Secundo, 
+              aliud citra primam causam est necesse esse, ergo. 
+              Antecedens patet per 
+              <ref xml:id="pg-b1q9-Rd1e4002">
+                <name ref="#Aquinas">Doctorem Sanctum</name> 
+                <title ref="#SummaContraGentiles">Contra Gentiles</title>, 
+                libro secundo, capitulo 29
+              </ref>, 
+              ubi ex dictis concludit 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e4013">
+                  ille ergo res in quibus non est 
+                  materia, vel, si est, non est potentialis ad aliam formam, non habent 
+                  potentiam ad non esse, 
+                  ergo necesse est simpliciter eas esse
+                </quote>
+                <bibl>Aquinas, <title>Summa contra gentiles</title>, II, c. 29 (13, 335).</bibl>
+                <!-- seems like a repeated quote; also appears on p. 805 of Paris 1892, Petri Lombardi episcopi Parisiensis sententiarum libri quaturo: ad calcem,  https://books.google.com/books?id=JwhDAQAAMAAJ&pg=PP815&lpg=PP815&dq=res+in+quibus+non+est+materia,+vel,+si+est,+non+est+potentialis+ad+aliam+formam,+non+habent+potentiam+ad+non+esse&source=bl&ots=rW_3YpcYa4&sig=84IlhukgCdey_O4GaFp6IRCm0PA&hl=en&sa=X&ved=0ahUKEwiQ0u_X8ujWAhWi8oMKHf_lDF0Q6AEIKzAA#v=onepage&q=res%20in%20quibus%20non%20est%20materia%2C%20vel%2C%20si%20est%2C%20non%20est%20potentialis%20ad%20aliam%20formam%2C%20non%20habent%20potentiam%20ad%20non%20esse&f=false -->
+              </cit>. 
+              Sed certum est quod angelus nec anima habent materiam, ergo. 
+              Confirmatur quia angelus et anima non habent 
+              in se principium deducens ea ad non esse, 
+              ergo illa non habent potentiam ad non esse, 
+              ergo de se sunt necesse esse.
+            </p>
+            <p xml:id="pgb1q9-d1e217">
+              Tertio,
+              in causa prima est distinctio absoluta modalis
+              et distinctio conceptualis seu virtualis, 
+              ergo. 
+              Antecedens 
+              pro prima parte est 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4030"><name ref="#JamesViterbo">Iacobi de Viterbio</name></ref>
+                <bibl>Iacobus de Viterbo, XXX</bibl>
+              </cit> 
+              et secunda 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4040"><name ref="#AlphonsusVargas">Alphonsi</name>, 
+                  octava distinctione primi, 
+                  articulo secundo, 
+                  conclusione quarta</ref>
+                <bibl>Alphonsus Toletanus Vargas, I, d. 8, a. 1, conc. 4</bibl>
+              </cit>. 
+              Patet consequentia 
+              quia quaelibet talis distinctio summae simplicitati repugnat.
+            </p>
+            <p xml:id="pgb1q9-d1e235">
+              In oppositum est 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4054" target="http://scta.info/resource/pl-l1d8c3"><!-- http://scta.info/resource/pl-l1d8c6" should be added when build script is capable of tokenizing these --><name ref="#Lombard">Magister</name> in hac distinctione</ref>
+                <bibl><ref target="http://scta.info/resource/pl-l1d8c3">Lombardus, Sent. I, d.8, c. 3 (I, 98)</ref> et <ref target="http://scta.info/resource/pl-l1d8c6">6, (I, 100).</ref></bibl>
+              </cit>.
+              Item 
+              <ref xml:id="pg-b1q9-Rd1e4068">
+                <name ref="#Paul">Apostolus</name> <title ref="#Itim">Primae ad Timotheum</title> 6
+              </ref> 
+              dicit quod 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e318" ana="#Itim6_16">solus Deus 
+                  immortalitatem habet</quote>
+                <bibl>I Timotheum 6:16</bibl>
+              </cit>. 
+              Item <ref xml:id="pg-b1q9-Rd1e4086"><name ref="#Augustine">Augustinus</name> III <title ref="#deTrinitate">De Trinitate</title></ref> 
+              dicit 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e334" source="http://scta.info/resource/adt-l3">solus Deus non mutatur 
+                  nec potest mutari</quote>
+                <bibl>Augustinus, De Trinitate, III, XXX</bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q9-Dd1e343">
+            <head xml:id="pg-b1q9-Hd1e345">Prima conclusio</head> 
+            <p xml:id="pgb1q9-d1e273">
+              Prima conclusio: 
+              tam necesse est primam causam esse 
+              quam necesse est creaturam esse posset. 
+              Probatur quia quanta necessitate Deus est Deus et omnipotens,
+              tanta necessitate est ad extra productivus,
+              et tanta necessitate ad extra aliquid potest produci 
+              et potest habere esse, 
+              ergo etc.
+            </p>
+            <p xml:id="pgb1q9-d1e314">
+              Confirmatur quia, 
+              si prima causa nihil posset ad extra producere, 
+              hoc videretur ex eo quod quodlibet producibile esset productum, 
+              sed hoc est impossibile. 
+              Nec etiam obstat hoc 
+              quia adhuc posset hoc totum corrumpere et iterum recreare, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q9-d1e322">
+              Primum corollarium: 
+              licet non stet creaturam non posse non esse, 
+              tamen si prima causa ageret ad extra per modum naturae, 
+              quodlibet producibile esse esset necesse. 
+              Prima pars patet 
+              quia quodlibet creatum a Deo contingenter producitur 
+              et in esse conservatur. 
+              Secunda patet quia, 
+              si unum produceret et aliud non, 
+              aut hoc esset 
+              quia esset determinatus ad producendum illud et non aliud, 
+              et hoc non 
+              quia illud est libere producere cum aeque possit unum sicut aliud, 
+              aut hoc esset 
+              quia unum posset produci et aliud non, 
+              sed hoc non 
+              quia sic esset producibile et non producibile.
+            </p>
+            <p xml:id="pgb1q9-d1e345">
+              Secundum corollarium: si prima causa 
+              ageret ad extra necessario et naturaliter omnia producibilia et corruptibilia produceret 
+              et corrumpet simul et aequaliter. Patet quia si <c>a</c> ignis se solo posset producere 
+              <c>b</c> calorem et corrumpere <c>b</c> calorem, simul ipsum corrumperet et produceret. Ergo 
+              cum prima causa se sola potest quidquid cum alio potest in genere efficientis, sequitur propositum 
+              quod si ageret naturaliter, etc.
+            </p>
+            <p xml:id="pgb1q9-d1e370">
+              Tertium corollarium: 
+              non stat primam causam esse productiva 
+              omnis producibilis creaturae et ad ipsam ad extra agere de necessitate naturae. 
+              Patet ad eam 
+              producere naturaliter, 
+              sequitur omnia producibilia produci et corrumpi simul et aequaliter. 
+              Sed hoc implicat <supplied>contradictionem</supplied>, ergo.
+            </p>
+          </div>
+          <div xml:id="pg-b1q9-Dd1e377">
+            <head xml:id="pg-b1q9-Hd1e379">Secunda conclusio</head>
+            <p xml:id="pgb1q9-d1e378">
+              Secunda conclusio: 
+              licet tantum tria supposita distinguuntur in super simplici essentia, 
+              tamen ibi non proprie dicitur esse diversitas seu differentia. 
+              Prima pars patet per fidem 
+              quia alius Pater, alius Filius, alius Spiritus Sanctus, 
+              ergo tantum tria supposita distinguuntur in divina essentia. 
+              Confirmatur quia distinctio vel differentia nihil est, 
+              igitur non sunt ponendae in Deo. 
+              Patet quia quidquid est in Deo est aliquid. 
+              Antecedens patet 
+              quia si solus Deus et homo essent et nihil aliud, 
+              adhuc Deus et homo differrent, 
+              ergo distinctio vel differentia non sunt aliquid vel aliqua. 
+              Pro ista 
+              <pb ed="#L" n="34-r"/>
+              conclusione est processus 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4149"><name ref="#Augustine">Augustini</name> VI <title ref="#deTrinitate">De Trinitate</title>, capitulo 4, de magnis</ref>
+                <bibl>Augustinus, De Trinitate, VI, c. 4</bibl>
+              </cit> 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4163">capitulo 14, de parvis</ref>
+                <bibl>Augustinus, De Trinitate, VI, c. 14</bibl>
+              </cit>.
+              Ex secunda parte conclusionis, 
+              sequitur quod licet posset vere dici et proprie 
+              quod aliquae res distinguuntur re, et intentione, et ratione, 
+              non tamen proprie dicitur quod sit distinctio intentionalis, realis, et rationis. 
+              Patet quia distinctio nihil est, 
+              ergo non est. 
+              Patet consequentia quia quod simpliciter nihil est non est.
+            </p>
+            <p xml:id="pgb1q9-d1e425">
+              Primum corollarium: 
+              omnis perfectio 
+              quae Deus est realiter 
+              est qualibet perfectio Dei formaliter. 
+              Patet quia, 
+              si divinae perfectiones 
+              aliquo modo differret vel differentur, 
+              sequeretur quod non tantum divina supposita 
+              differentur in divina essentia. 
+              Consequentia <supplied>patet in</supplied> 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4178" target="http://scta.info/resource/pgb1q9-d1e378">primam partem conclusionis secundae</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e378">Vide supra</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q9-d1e435">
+              Secundum corollarium: 
+              quod sicut inter perfectiones divinas non stat 
+              distinctio formalis, 
+              sic eis repugnat distinctio rationis aut modalis. 
+              Vel sic, sicut non stat 
+              divinas perfectiones distingui formaliter, 
+              sic repugnat eas distingui ratione ac formaliter. 
+              Patet quia aliter in eis 
+              non esset summa simplicitas et indifferentia.
+            </p>
+            <p xml:id="pgb1q9-d1e447">
+              Tertium corollarium: 
+              quam repugnat ex parte deorum pluralitas, 
+              tam repugnat in Deo formalis perfectionum diversitas. 
+              Patet quia, si talis formalitatum pluralitas esset possibilis in Deo, 
+              sequitur aliquid esse Deum simpliciter formaliter quod non est omnis Deus. 
+              Item, sequeretur quod aliquid esset 
+              Deus realiter quod est mere contingenter, 
+              sed ista tantum repugnat quantum repugnat esse plures deos, ergo. 
+              Prima consequentia probatur quia, si iustitia divina est Deus formaliter, tunc divina 
+              sapientia, si formaliter non sit iustitia, tunc 
+              <app>
+                <lem>non</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="above-line">non</add>
+                </rdg>
+              </app> 
+              erit Deus formaliter. 
+              Secunda patet consequentia 
+              quia <mentioned>Deum velle beatificare <name ref="#Peter">Petrum</name></mentioned> est Deus realiter, 
+              et tamen per ponentes huiusmodi formalitates 
+              est Deus contingenter
+              <app>
+                <lem n="contingenter"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="blackout">g</del>
+                </rdg>
+              </app>.
+            </p>
+            <p xml:id="pgb1q9-itcpci">Ista tria corollaria videntur de mente <ref xml:id="pg-b1q9-Rd1e4224"><name ref="#Anselm">Anselmi</name> <title ref="#Monologion">Monologion</title> 17 <!-- check all "universaliter"'s for "videnter" --> 
+              capitulo</ref> dicens 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e480">
+                  <app>
+                    <lem type="conjecture-corrected"><corr>quemadmodum</corr></lem>
+                    <rdg wit="#L">quamadmodum</rdg>
+                  </app> 
+                  unum est quod de essentia summa dicitur essentialiter, 
+                  ita ipsa uno modo una consideratione est quidquid essentialiter est. 
+                  Cum enim aliquis homo dicatur et corpus et rationalis et homo, 
+                  non uno modum nec una consideratione haec tria dicuntur. 
+                  Ita vero essentia divina summa nullo modo dicitur sic aliquid 
+                  ut illud idem secundum aliam et aliam considerationem non sit illud
+                </quote>
+                <bibl>Anselmus, Monologion, 17, (I, 31, ll. 25-32)</bibl>
+              </cit>, 
+              haec ille. 
+              Ex his videntur patere corollaria illa.
+            </p>
+          </div>
+          <div xml:id="pg-b1q9-Dd1e494">
+            <head xml:id="pg-b1q9-Hd1e496">Tertio conclusio</head>
+            <p xml:id="pgb1q9-d1e511">
+              Tertio conclusio: 
+              sicut prima causa sola est omnem perfectionem 
+              habens simpliciter et in se includens, 
+              sic est omni modo compositionis formaliter, totaliter 
+              carens et a se excludens. 
+              Prima pars probatur quia secundum <name ref="#Anselm">Anselmum</name> Deus est 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e506">illud quo maius 
+                  vel melius cogitari non potest</quote>
+                <bibl>Anselmus, Proslogion 3 (I, 103, ll. 1-2)</bibl>
+              </cit>. 
+              Secunda pars probatur quia simplex praeponendum est composito 
+              secundum 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4277"><name ref="#Augustine">Augustinum</name> <title ref="#DeQuantitateAnimae">De quantitate animae</title>, capitulo 12</ref>
+                <bibl>Augustinus, De quantitate, XXX</bibl>
+              </cit>, 
+              ergo. 
+              Sed sola prima causa summe sit simplex. 
+              Patet quia de ratione simplicitatis sunt indivisibilitas, 
+              immutabilitatis, et per se actualitas, 
+              sed haec tantum competunt Deo nec creaturae convenire possunt.
+            </p>
+            <p xml:id="pgb1q9-d1e539">
+              Primum corollarium: quaecumque species 
+              vel formae datae vel dabiles 
+              in superiorem formam vel speciem perfecte sunt confluibiles. 
+              Patet quia nulla talis species est immutabiliter suum esse, 
+              ergo Deus potest facere eas in superiorem unitive confluere.
+            </p>
+            <p xml:id="pgb1q9-d1e549">
+              Secundum corollarium: non stat aliquod 
+              individuum a primo dependere et omnem perfectionis gradum unitive continere. Patet 
+              quia tunc tale individuum non posset cum alio individuo in speciem superiorem vel 
+              in aliquod individuum perfectius unitive confluere.
+            </p>
+            <p xml:id="pgb1q9-d1e572">
+              Tertium corollarium: non stat aliquod 
+              individuum quam repugnat quodlibet dependens creatum accidenti non posse subesse 
+              subiective tam repugnat omnem simplicitatis gradum ipsum creatum 
+              <app>
+                <lem>vere</lem>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
+                    <del rend="strikethrough">videre</del>
+                    <add>vere</add>
+                  </subst>
+                </rdg>
+              </app> 
+              posset 
+              continere unitive. Patet quia nullum individuum cuiuscumque speciei datae aut 
+              <pb ed="#L" n="34v"/> 
+              dabilis potest esse tam simplex quin illud posset 
+              <app>
+                <lem wit="#L">esse</lem>
+                <rdg wit="#L">est</rdg>
+              </app> 
+              subiectum actus eliciti vel alicuius 
+              habitus a Deo infusi, ergo. 
+              Antecedens patet quia huiusmodi simplicitas soli Deo competit. 
+              Ex dictis sequitur pars affirmativa conclusionis.
+            </p>
+          </div>
+          <div xml:id="pg-b1q9-Dd1e561">
+            <head xml:id="pg-b1q9-Hd1e563">Obiectiones et Responsiones</head>
+            <p xml:id="pgb1q9-d1e600">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4338" target="http://scta.info/resource/pgb1q9-d1e273">primam conclusionem </ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e273">Vide supra</ref></bibl>
+              </cit> 
+              et eius corollaria: 
+              aliud a Deo est necesse esse, ergo. 
+              Probatur antecedens quia divina perfectio exigit 
+              quod producatur sibi simile 
+              quantum non repugnat creaturae. 
+              Sed necesse esse non repugnat creaturae, 
+              ergo divina bonitas sic eam producit. 
+              Maior nota videtur. 
+              Minor patet quia, 
+              si necesse esse creaturae repugnaret, 
+              videretur esse eo quod est ab alio. 
+              Sed hoc non obstat quia Filius habet ab alio esse, 
+              et tamen non habet esse contingenter, ergo.
+            </p>
+            <p xml:id="pgb1q9-d1e632">
+              Secundo: si angelus vel anima possent non esse, hoc ideo esset 
+              quia Deus suam influentiam eis subtraheret. Sed hoc est impossibile quia sua bonitas 
+              tunc mutaretur, ergo talia non possunt non esse.
+            </p>
+            <p xml:id="pgb1q9-d1e646">
+              Tertio: substantiae separatae a materia non habent 
+              potentiam passivam privationi vel corruptioni subiectivam, 
+              ergo non possunt non esse. 
+              Consequentia tenet 
+              cum materia sit ratio continentiae et corruptionis in creaturis. 
+              Istae sunt rationes 
+              <cit>
+                <ref><name ref="#Aquinas">Sancti Doctoris</name></ref>
+                <bibl>Cf. Aquinas, Summa contra gentiles, II, c. 29 (13, 335).</bibl>
+              </cit>, 
+              <cit>
+                <ref target="http://scta.info/resource/pgb1q9-sacsne">ubi prius fuit allegatum in principio quaestionis</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-sacsne">Vide supra</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q9-d1e665">
+              Quarto: quia aut illi necesse esse correspondet 
+              praecise esse punctale vel quantitivum. 
+              Si primum, ergo non est immensae perfectionis. 
+              Si secundum, ergo potest imaginari in illa specie maius et minus necesse esse 
+              quia, sicut omni quanto 
+              potest dari minus, 
+              sic illi necessitati potest dari minor quantitas, 
+              et sic erunt plura necesse.
+            </p>
+            <p xml:id="pgb1q9-d1e706">
+              Quinto: si tota linea producibilium se haberet contingenter ad esse et non esse, 
+              sequitur quod tota et totaliter posset poni inesse. 
+              Consequens est falsum per dictam 
+              quia tunc prima causa non posset agere ad extra. 
+              Patet consequentia quia ipsa tota potest non esse ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4367" target="http://scta.info/resource/pgb1q9-d1e322">primum corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e322">Vide supra</ref></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q9-d1e715">
+              Sexto: 
+              nullum individuum speciei inferioris potest continere totam perfectionem suae speciei, 
+              ergo unum necesse esse non potest continere totam latitudinem necessitatis, 
+              ergo non est tantum unum individuum in illa specie. 
+              Antecedens patet per  
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4379" target="http://scta.info/resource/pgb1q9-d1e549">secundum corollarium tertiae conclusionis</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e549">Vide supra</ref></bibl>
+              </cit>, 
+              et consequentiae patent.
+            </p>
+            <p xml:id="pgb1q9-d1e736">
+              Confirmatur 
+              quia sic <mentioned>esse</mentioned>, 
+              sicut propositio <mentioned>homo est animal</mentioned> significat, 
+              est necesse esse, 
+              ergo plura sunt necesse esse. 
+              Tenet consequentia quia illud non est Deus.
+            </p>
+            <p xml:id="pgb1q9-d1e756">
+              Item, 
+              ad istam propositionem <mentioned>nihil est</mentioned>, 
+              non sequitur contradictio, 
+              ergo ipsa potest esse vera, 
+              ergo nullum est necesse necesse esse. 
+              Tenent consequentiae, 
+              et antecedens probatur 
+              quia ad nullam negativam sequitur affirmativa, 
+              ergo nec aliqua contradictio 
+              quia omnis contradictio componitur ex affirmativa et negativa 
+              vel saltim includit ipsam.
+            </p>
+            <p xml:id="pgb1q9-d1e791">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4400" target="http://scta.info/resource/pgb1q9-d1e378">secunda conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e378">Vide supra</ref></bibl>
+              </cit>: 
+              primo 
+              arguitur auctoritas 
+              <ref xml:id="pg-b1q9-Rd1e4408" corresp="#pg-b1q9-Qd1e627"><name ref="#JohnDamascenus">Damasceni</name>, libro primo, capitulo tertio</ref> 
+              ubi dicit 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e627" ana="#JohnDamescenus_DeFide_I_4_a">quaecumque dicimus de Deo affirmative non 
+                  naturam ipsius sed ea, quae sunt circa naturam eius, ostendit. 
+                  Etenim <supplied>si</supplied> bonum, si iustum, et si 
+                  sapiens, et si quaecumque dixeris, non naturam dicis</quote>
+                <bibl>Ioannes Damascenus, De fide orthodoxa, I, c. 4, (PG 94.799BC); Burgundionis versio 4,5, p. 21, 41-45)</bibl> <!-- quote also in Marsilius of Inghen, q. 12, p. 83,  and Rimini 1, d. 8, q. 1, p. 25-->
+              </cit>.
+            </p>
+            <p xml:id="pgb1q9-d1e806">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4427" target="http://scta.info/resource/pgb1q9-d1e425">primum corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e425">Vide supra</ref></bibl>
+              </cit>: 
+              si Deus esset 
+              immense simplex, 
+              aut divisibiliter aut indivisibiliter. 
+              Non primum quia tunc haberet partes. 
+              Nec secundum quia tunc solum 
+              per indivisibilem staret a nihilo, 
+              et sic infinite minus 
+              distaret divina essentia angelo 
+              quam quaecumque creatura, 
+              quod est falsum.
+            </p>
+            <p xml:id="pgb1q9-d1e816">
+              Secundo: sapientia in communi 
+              non est iustitia in communi, 
+              ergo nec infinita sapientia infinita iustitia. 
+              Tenet consequentia quia infinitas 
+              non tollit rationem propriam alicuius rei, ut videtur.
+            </p>
+            <p xml:id="pgb1q9-d1e825">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4444" target="http://scta.info/resource/pgb1q9-d1e435">secundum corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e435">Vide supra</ref></bibl>
+              </cit>: 
+              illa 
+              quae non sunt synonyma significant diversas res vel eandem diversis rationibus. 
+              Sed bonitas, et iustitia, misericordia, et aeternitas non sunt synonyma in Deo, ergo. 
+              Sed non 
+              <pb ed="#L" n="35-r"/> 
+              significant diversas res, ergo diversos modos. 
+              Ergo in Deo est distinctio modalis 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4456"><name ref="#JamesViterbo">Iacobus de Viterbio</name>, <title>Quodlibet</title> tertio, quaestione septima</ref>
+                <bibl>Iacobus de Viterbio, Quodlibet III, q. 7, 2, XXX</bibl>
+              </cit>
+            </p>
+            <p xml:id="pgb1q9-ssqnmv">
+              Secundo sequitur quod 
+              volitiva divina formaliter esset intellectiva divina 
+              et econverso. 
+              Consequens est falsum quia tunc, 
+              quidquid esset obiectum, 
+              unus esset obiectum alterius. 
+              Modo hoc est falsum 
+              quia Deus intelligit malum culpae 
+              quod tamen nullo modo vult.
+            </p>
+            <p xml:id="pgb1q9-d1e849">
+              Tertia: illa quae 
+              necessitat intellectum ad actus distinctos essentialiter 
+              secundum rationem vel conceptibiliter distinguitur. 
+              Sed perfectiones divinae necessitant 
+              ad actus distinctos essentialiter intellectum, 
+              ergo huiusmodi perfectiones divinae 
+              conceptibiliter seu virtualiter sunt distinctae. 
+              Maior patet ubi una res necessitat 
+              ad actus distinctos essentialiter facit illud idem quod facerent 
+              <app>
+                <lem n="facerent"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">s</del>
+                </rdg>
+              </app> 
+              res diversae realiter distinctae. 
+              Minor patet 
+              quia sapientia divina necessitat intellectum ad conceptum sapientiae 
+              et bonitas ad conceptum bonitatis, 
+              et tales conceptus sunt realiter et essentialiter distincti, ergo. 
+              <name ref="#AlphonsusVargas">Alphonsus</name>.
+            </p>
+            <p xml:id="pgb1q9-d1e892">
+              Quarto contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4496" target="http://scta.info/resource/pgb1q9-d1e447">tertium corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e447">Vide supra</ref></bibl>
+              </cit>: 
+              sapientiae divinae ut sic non repugnat non iustitia, 
+              ergo sapientia aliquo modo non est eadem cum iustitia. 
+              Sed sapientiae divinae non repugnat simpliciter alius 
+              deus, ergo.
+            </p>
+            <p xml:id="pgb1q9-d1e901">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4509" target="http://scta.info/resource/pgb1q9-d1e511">tertiam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e511">Vide supra</ref></bibl>
+              </cit> 
+              est propositio alia <title ref="#deCausis">De causis</title> qua dicitur quod 
+              <cit>
+                <quote xml:id="pg-b1q9-Qiesqnd" source="http://scta.info/resource/ldc-p6">intelligentia est substantia quae non dividitur</quote>
+                <bibl>De causis, VI(VII), 64</bibl>
+              </cit>, 
+              ergo non solus Deus.
+            </p>
+            <p xml:id="pgb1q9-pdaiei">
+              Secundo
+              <ref xml:id="pg-b1q9-Rd1e4521" corresp="#pg-b1q9-Qd1e4530"><name ref="#Aristotle">Philosophus</name> II <title ref="#deAnima">De anima</title></ref>
+              dicit 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e4530" source="http://scta.info/resource/aristda-l3">intellectus simpliciter est impermixtus et immaterialis</quote>
+                <bibl>Aristotles, De anima III, (4.429a18-20)</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q9-d1e918">
+              Tertio, contra 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4542" target="http://scta.info/resource/pgb1q9-d1e511">primum corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e511">Vide supra</ref></bibl>
+              </cit> 
+              est 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4552" target="http://scta.info/resource/pgb1q9-d1e511">prima ratio in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e511">Vide supra</ref></bibl>
+              </cit> 
+              quia quaelibet simplex est tam simplex 
+              quod ei correspondet unicus gradus et esse punctuale, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q9-d1e930">
+              Quarto, 
+              autoritate 
+              <ref xml:id="pg-b1q9-Rd1e4563">
+                <name ref="#Averroes">Commentatoris</name>, 
+                XII <title ref="#Metaphysics">Metaphysicae</title>
+              </ref>, 
+              dicentis quod 
+              <cit>
+                <quote xml:id="pg-b1q9-Qd1e724">omnes formae 
+                  <app>
+                    <lem>sunt</lem>
+                    <rdg wit="#L" type="correction-addition">
+                      <add place="aboveLine">sunt</add>
+                    </rdg>
+                  </app> 
+                  actu existentes in primo motore quae in potentia sunt 
+                  in materia prima</quote>
+                <bibl>Averroes, XXX</bibl>
+              </cit>,
+              ergo in Deo non est omnimoda simplicitas.
+            </p>
+            <p xml:id="pgb1q9-d1e949">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4598" target="http://scta.info/resource/pgb1q9-d1e600">Ad primum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e600">Vide supra</ref></bibl>
+              </cit>, 
+              negatur antecedens. Ad probationem, 
+              negatur maior et minor. Et ad probationem minoris, dico quod necesse esse repugnat creaturae non solum 
+              ex eo quod est ab alio, sed quia etiam libere contingenter producitur de nihilo et contingenter conservatur.
+            </p>
+            <p xml:id="pgb1q9-d1e957">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4611" target="http://scta.info/resource/pgb1q9-d1e632">Ad secundum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e632">Vide supra</ref></bibl>
+              </cit>, 
+              conceditur assumptum et negatur quod illud sit impossibile 
+              quia nec sequitur voluntatem divinam mutari vel esse mutabilem, 
+              aliter posset probari quod necessario omne futurum eveniret.
+            </p>
+            <p xml:id="pgb1q9-d1e972">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4624" target="http://scta.info/resource/pgb1q9-d1e646">Ad tertium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e646">Vide supra</ref></bibl>
+              </cit>, 
+              negatur consequentia 
+              quia tunc accidentia et lumen productum 
+              in medio aliquo modo non possent non esse. 
+              Secundo, dico quod licet non habeant materiam, 
+              habent tamen suum nihil quasi materiam et hoc sufficit.
+            </p>
+            <p xml:id="pgb1q9-d1e981">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4638" target="http://scta.info/resource/pgb1q9-d1e665">Ad quartum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e665">Vide supra</ref></bibl>
+              </cit>, 
+              dici potest esse punctuale sibi correspondet et indivisibile, 
+              et negatur consequentia, ergo non est immensae perfectionis 
+              quia simul est indivisibilis, super simplex, et immensus, non habens in 
+              se formaliter latitudinem gradualem, 
+              quamvis supereminenter contineat omnem perfectionis latitudinem.
+            </p>
+            <p xml:id="pgb1q9-d1e999">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4651" target="http://scta.info/resource/pgb1q9-d1e706">Ad quintum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e706">Vide supra</ref></bibl>
+              </cit>, 
+              conceditur consequens 
+              quia quaelibet pars illius latitudinis potest poni in esse, 
+              et si infertur igitur potest poni in esse tota simul. 
+              Negatur consequentia quia, 
+              sicut etiam non sequitur quaelibet pars illius latitudinis potest poni in esse, 
+              ergo possibile est poni in esse quamlibet eius partem, 
+              sic non sequitur quaelibet pars <c>a</c> continui a <name ref="#Sortes">Sorte</name> potest videri, 
+              ergo <name ref="#Sortes">Sortes</name> potest videre <c>a</c> continui quamlibet partem. 
+              Nec sequitur quilibet gradus perfectionis possibilis potest poni in esse. 
+              Ergo possibile est quod ponatur in esse quilibet gradus perfectionis possibilis, 
+              licet consequens tenuerim probabiliter 
+              in 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4670">meo principio</ref>
+                <bibl>Supra vide</bibl>
+              </cit> 
+              contra praedicatorem.
+            </p>
+            <p xml:id="pgb1q9-d1e1027">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4686" target="http://scta.info/resource/pgb1q9-d1e715">Ad sextum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e715">Vide supra</ref></bibl>
+              </cit>, 
+              negatur consequentia 
+              quia deitas non se habet per modum speciei creatae personae 
+              nec divinae personae per modum individuorum 
+              quia, 
+              licet duos homines sunt aliquod unum maius quam unus solus, 
+              tamen duae personae divinae non sunt maius quam una sola, 
+              ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4696" target="http://scta.info/resource/adt-l8"><name ref="#Augustine">Augustinus</name> VIII <title ref="#deTrinitate">De Trinitate</title>, capitulo primo</ref>
+                <bibl>Augustinus, De Trinitate, VIII, c. 1 (XXX)</bibl>
+              </cit>
+            </p> 
+            <p xml:id="pgb1q9-d1e1045"> <!-- cross ref unclear -->
+              Ad aliud, 
+              negatur consequentia 
+              quia conclusio et corollaria intelliguntur 
+              de entitatibus realibus et non de complexe  
+              <pb ed="#L" n="35-v"/> 
+              significantibus.
+            </p>
+            <p xml:id="pgb1q9-aanesa"> <!-- cross ref unclear -->
+              Ad aliam, 
+              negatur antecedens 
+              quia ad illam, 
+              sequitur necesse esse non esse necesse esse. 
+              Et ad improbationem, 
+              dico quod ad impossibile, 
+              sequitur quodlibet, 
+              et per consequens ex negativa, 
+              sequitur affirmativa.
+            </p> 
+            <p xml:id="pgb1q9-apcesa">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4725" target="http://scta.info/resource/pgb1q9-d1e791">Ad primum contra secundam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e791">Vide supra</ref></bibl>
+              </cit>, 
+              dicitur quod 
+              <name ref="#JohnDamascenus">Damascenus</name> 
+              non loquitur de perfectionibus 
+              quod non realiter sint in Deo, 
+              sed de nominibus quae de Deo praedicantur, 
+              quorum aliqua secundum eum non praedicantur naturam, 
+              sed ea quae sunt circa naturam 
+              quod non est intelligendum quantum ad rem significatum 
+              quia, 
+              si res quae est sapientia divina non esset divina natura, 
+              sed aliquid circa naturam, 
+              non solum distingueretur formaliter, 
+              sed realiter et simpliciter, 
+              quod est falsum. 
+              Sed intelligitur quoad modum praedicandi 
+              quia talia nomina praedicantur de Deo denominative. 
+              Et quae sic praedicantur de Deo 
+              quantum ad modum praedicandi non dicunt naturam, 
+              sed aliquid circa naturam. 
+              Haec est solutio <name ref="#AlphonsusVargas">Alphonsi</name>.
+            </p>
+            <p xml:id="pgb1q9-d1e1101">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4745" target="http://scta.info/resource/pgb1q9-d1e806">Ad secundum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e806">Vide supra</ref></bibl>
+              </cit>, 
+              primo posset dici 
+              quod divisibiliter seu per divisibile distat angelo 
+              quia distat per totam perfectionem omnium creaturarum actualium et possibilium. 
+              Et negatur consequentia, 
+              igitur partes 
+              quia illa divisibilitas non est Deo intrinseca 
+              sed extrinseca.
+            </p>
+            <p xml:id="pgb1q9-d1e1110">
+              Secundo, posset dici hanc negando 
+              consequentiam distat indivisibiliter, 
+              ergo infinite minus quam quaecumque citra quia illud indivisibile per 
+              quid distat est immensum quia est Deus.
+            </p>
+            <p xml:id="pgb1q9-d1e1118">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4764" target="http://scta.info/resource/pgb1q9-d1e816">Ad aliud</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e816">Vide supra</ref></bibl>
+              </cit>, 
+              negatur consequentia. 
+              Ratio <supplied>est</supplied> 
+              quia sapientia infinita 
+              et bonitas infinita in re sunt 
+              aliquid circumscripta omni ratione intellectus, 
+              sapientia vero in communi 
+              et bonitas in communi non <supplied>sunt</supplied> sic 
+              quia non sunt nisi quidam conceptus vel entia rationis. 
+              Et ad probationem 
+              quia infinitas non tollit rationem formalem alicuius conceditur, 
+              sed hoc non probat intentum 
+              quia sapientia et bonitas in communi 
+              non solum praedicantur de sapientia et bonitate infinita, 
+              sed etiam de finita. 
+              De hoc vide <name ref="#AlphonsusVargas">Alphonsum</name>.
+            </p>
+            <p xml:id="pgb1q9-d1e1143">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4783" target="http://scta.info/resource/pgb1q9-d1e825">Ad aliud contra tertium corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e825">Vide supra</ref></bibl>
+              </cit>, 
+              concesso antecedente, 
+              negatur consequentia, 
+              nam non sequitur haec res diversimode est 
+              quia possibile est quod propositum idem significatum 
+              una sit vera et alia falsa, 
+              non tamen sequitur quod significatum sit verum et falsum.
+            </p>
+            <p xml:id="pgb1q9-d1e1151">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4796" target="http://scta.info/resource/pgb1q9-ssqnmv">Ad aliud</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-ssqnmv">Vide supra</ref></bibl>
+              </cit>, 
+              conceditur consequens. 
+              Et ad improbationem, 
+              <mentioned>quia tunc obiectum unius</mentioned>, etc., 
+              conceditur. 
+              Et cum improbatur, 
+              <mentioned>quia Deus intelligit malum</mentioned> etc., 
+              conceditur, 
+              sed non sequitur quod infertur.
+            </p>
+            <p xml:id="pgb1q9-d1e1160">
+              Secundo 
+              dico quod voluntas divina intelligit omnem malum 
+              quia intellectus divinus 
+              qui intelligit 
+              est formaliter voluntas divina. 
+              Malum ergo est obiectum voluntatis, 
+              non ut volitum, 
+              sed ut cognitum et intellectum.
+            </p>
+            <p xml:id="pgb1q9-d1e1168">
+              Tertio posset negari illa consequentia, 
+              voluntas divina et intellectus sunt idem, 
+              igitur quidquid intellectus intelligit, 
+              voluntas vult.
+            </p>
+            <p xml:id="pgb1q9-d1e1174">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4822" target="http://scta.info/resource/pgb1q9-d1e849">Ad aliud</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e849">Vide supra</ref></bibl>
+              </cit>, 
+              negatur maior et minor 
+              quia non oportet
+              quod omnem illud quod necessitat ad conceptus 
+              distinctos sit conceptibiliter distinctum 
+              nisi velimus ab uti vocabulo. 
+              Nec etiam perfectio 
+              divina necessitat ad distinctionem actuum diversorum 
+              ut assumit ratio.
+            </p>
+            <p xml:id="pgb1q9-d1e1195">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4835" target="http://scta.info/resource/pgb1q9-d1e892">Ad rationem contra tertium corollarium</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e892">Vide supra</ref></bibl>
+              </cit>, 
+              negatur maior 
+              quia sapientia divina est omnis perfectio formaliter, 
+              et omne quod est melius esse 
+              quam non esse simpliciter sub bono intellectu.
+            </p>
+            <p xml:id="pgb1q9-d1e1203">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4848" target="http://scta.info/resource/pgb1q9-d1e901">Ad primam auctoritatem contra tertiam conclusionem</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e901">Vide supra</ref></bibl>
+              </cit>, 
+              intelligentia est substantia quae non dividitur. 
+              Hoc est verum quantum ad partes naturae vel 
+              quantum ad durationem, quae est tota simul.
+            </p>
+            <p xml:id="pgb1q9-d1e1211">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4861" target="http://scta.info/resource/pgb1q9-pdaiei">Ad aliam</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-pdaiei">Vide supra</ref></bibl>
+              </cit>, 
+              dicitur quod intellectus est virtus simplex, 
+              id est, non organica. 
+              Hoc voluit <name ref="#Aristotle">Philosophus</name>. 
+              Secundo dicitur simplex aliquo modo non simpliciter 
+              quia omnis creatura 
+              aliquo modo est composita et potentialitati subiecta.
+            </p>
+            <p xml:id="pgb1q9-d1e1225">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4877" target="http://scta.info/resource/pgb1q9-qnasne">Ad prima rationem in oppositum</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-qnasne">Vide supra</ref></bibl>
+              </cit>, 
+              dicitur quod, 
+              si antecedens intelligitur de simpliciter simplici,
+              est falsum. 
+              Et ad probationem dicitur 
+              quod non valet consequentia. 
+              Et si ultra inferretur 
+              anima non est simplex, 
+              igitur habet partes, 
+              consequentia negatur.
+            </p>
+            <p xml:id="pgb1q9-d1e1233">
+              <cit>
+                <ref xml:id="pg-b1q9-Rd1e4891" target="http://scta.info/resource/pgb1q9-d1e930">Ad aliud</ref>
+                <bibl><ref target="http://scta.info/resource/pgb1q9-d1e930">Vide supra</ref></bibl>
+              </cit>,
+              dicitur huiusmodi formas 
+              in primo motore esse indistinctas actu 
+              quia creatura in Deo non est aliud quam divina natura 
+              <pb ed="#L" n="36-r"/>
+              penitus indistincta.
+            </p> 
+            <p xml:id="pgb1q9-aarspd">
+              Ad alias rationes in oppositum, 
+              patet solutio per dictam.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q9-Dd1e884">
+          <head xml:id="pg-b1q9-Hd1e886">
+            <supplied>Conclusiones pro distinctione octava</supplied>
+          </head>
+          <p xml:id="pgb1q9-d1e1250">
+            <cit>
+              <quote xml:id="pg-b1q9-Qndvvsp" source="http://scta.info/resource/pll1d8c1-d1e3476">Nunc de veritate seu proprietate</quote>
+              <bibl><ref target="http://scta.info/resource/pll1d8c1-d1e3476">Lombardus, Sent. I, d. 8, c. 1 [n.1], (I, 95, ll. 4).</ref></bibl>
+            </cit>. 
+            Haec distinctio continet nona conclusiones. 
+            Prima quod solus Deus 
+            vere et proprie est quia eius essentia 
+            non novit praeteritum vel futurum, 
+            hoc est non subest 
+            praeteritioni aut futuritioni, 
+            sicut cetera creata.
+          </p>
+          <p xml:id="pgb1q9-d1e1264">
+            Secunda conclusio: 
+            ideo dicit Deus semper fuit vel erit, 
+            ut intelligatur quod non incepit esse nec desinet.
+          </p>
+          <p xml:id="pgb1q9-d1e1270">
+            Tertia conclusio: 
+            quod licet verba substantiva 
+            diversorum temporum dicantur de Deo, 
+            scilicet fuit, erit, est, et erat, 
+            non tamen de Deo dicuntur 
+            quia esse divinum praeteritioni aut
+            <app>
+              <lem n="aut"/>
+              <rdg wit="#L" type="correction-deletion">
+                <del rend="strikethrough">subiectio</del>
+              </rdg>
+            </app> 
+            futuritioni subiaceat 
+            cum temporalis motus Deo repugnet, 
+            sed dicuntur ad denotandum Deum esse 
+            aeternitatem et permanentiae ipsius proprietatem.
+          </p>
+          <p xml:id="pgb1q9-d1e1286">
+            Quarta conclusio: 
+            solius Dei essentia incommutabilis proprie dicitur 
+            quia nec mutatur nec mutari potest. 
+            Omnis autem creatura mutari potest, 
+            Deus autem non nec loco nec tempore nec affectione, 
+            et ita sine sui mutatione cunctas condidit creaturas. 
+            Et per consequens solus Deus proprie habet immortalitatem. 
+            Omnis autem creatura est mortalis ex sua natura 
+            quia sua mutatio mors appellatur.
+          </p>
+          <p xml:id="pgb1q9-d1e1299">
+            Quinta conclusio: 
+            Deus solus est vere ac proprie simplex 
+            quia in eo nec partium nec accidentium sive formarum 
+            est diversitas vel vario modo sive multitudo. 
+            Omnis creatura est multiplex, 
+            quamvis spiritualis creatura respectu corporalis dicitur simplex. 
+            Non tamen est vere simplex 
+            quia in tali est diversitas accidentium sive formarum accidentalium, 
+            ut in animalibus humanis et angelis, 
+            nullum enim quod est vere simplex est mutabile.
+          </p>
+          <p xml:id="pgb1q9-d1e1311">
+            Sexta conclusio: 
+            quod anima respectu corporis simplex dicitur 
+            quia molae non diffunditur per 
+            <app>
+              <lem type="conjecture-supplied"><supplied>spatium</supplied></lem>
+              <rdg wit="#L">saptium</rdg>
+            </app> 
+            loci, 
+            sed in unoquoque corpore est in toto tota 
+            et in qualibet eius parte tota.
+          </p>
+          <p xml:id="pgb1q9-d1e1318">
+            Septima conclusio: 
+            quod licet Deus dicatur multipliciter, 
+            scilicet bonus, iustus, sapiens, et magnus, 
+            tamen hoc non est propter diversitatem accidentium, 
+            sed propter multitudinem nominum quae, 
+            licet multa sint et diversa, 
+            unum tamen significant, 
+            scilicet naturam divinam.
+          </p>
+          <p xml:id="pgb1q9-d1e1328">
+            Octava conclusio: 
+            quod proprie Deus non dicitur substantia 
+            quasi sit subiectum suae bonitatis vel alicuius accidentis, 
+            sicut substantia corporalis, 
+            quae ideo dicitur substantia 
+            quia subsistit et est multorum accidentium subiectum, 
+            sed Deus proprie et vere dicitur essentia.
+          </p>
+          <p xml:id="pgb1q9-d1e1336">
+            Nona conclusio: 
+            Deus ideo simplex dicitur 
+            quia ipse est quidquid habet, 
+            excepto quod persona dicitur relative 
+            ad alteram, nec tamen una est altera. 
+            Nam Pater habet Filium ad quem relative dicitur, 
+            et tamen Pater non est Filius, 
+            et Filius habet Patrem, 
+            nec tamen est Pater in quo vero ad semet ipsum 
+            dicitur non ad alteram, 
+            hoc est quod habet. 
+            Unde ipse Deus est unus et habet vitam 
+            et est ipse una vita 
+            nec aliud est habens 
+            et aliud quod habetur, 
+            sicut in ceteris rebus 
+            ubi semper sequitur aliqua distinctio.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>

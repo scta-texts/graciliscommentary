@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Quaestio 9 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 9 [London Transcription]</title>
+          <date when="2014-04-29">April 29, 2014</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+        <date when="2014-04-29">April 29, 2014</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-04-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="33-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q9">
+        <head>Librum I, Quaestio 9 [London Transcription]</head>
+        <p xml:id="pgb1q9-d1e83">
+          <lb ed="#L"/><hi rend="dropCapThreeLines">n</hi><hi rend="largeFont">unc de veritate sive proprietate etc</hi> <g ref="#slash"/>haec distinctio 8 ad prae<lb ed="#L"/>cedentem 
+          sic continatur quia post quam <name ref="#Lombard">magister</name> ostendit in divinis esse veram generationem 
+          <lb ed="#L"/>nunc <corr><add place="aboveLine">in</add></corr> ista distinctione ponit multitudinem proprietatum significantem eius perfectionem <g ref="#slash"/>et 
+          <lb ed="#L"/>dividitur in tres partes quia primo determinat <name ref="#Lombard">magister</name> de dei aeterna entitate 2o de eius in<lb ed="#L"/>commutabilitate 
+          3o de eius simplicitate 2a ibi deus in solius essentia 3a ibi 
+          <lb ed="#L"/><quote xml:id="pg-b1q9-Qd1e149">eadem <sic>quo</sic></quote> <g ref="#slash"/>prima in tres nam primo ostendit quomodo hoc nomen esse vel essentia est deo 
+          <lb ed="#L"/>proprium 2o ex dictis movet dubium et 3o respondet ad ipsum 2a ibi hic diligenter 
+          <lb ed="#L"/>3a ibi illud ergo quod <g ref="#slash"/>2a pars principalis manet indivisa sed 3a dividitur in duas 
+          <lb ed="#L"/>quia primo <name ref="#Lombard">magister</name> ostendit divinae naturae simplicitatem per <choice><orig>comparacionem</orig><reg>comparationem</reg></choice> et <unclear cert="high">respectum</unclear> ad extra 2o per <unclear cert="high">respectum</unclear> 
+          <lb ed="#L"/>ad intra 2a ibi hic diligenter <del rend="strikethrough">3a ibi</del> et haec est divisio praesentis distinctionis</p>
+        
+        <p xml:id="pgb1q9-d1e143"><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> sola prima causa entis producibilis sit simplex <sic>simplex</sic> <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> 
+          <lb ed="#L"/>et incommutabilis seu invariabilis</p> 
+        
+        <p xml:id="pgb1q9-qnasne"><g ref="#slash"/>quod non <choice><orig>alica</orig><reg>aliqua</reg></choice> creatura est indivisibiliter 
+          <lb ed="#L"/>simplex ergo etc antecedens probatur <choice><orig>tumquia</orig><reg>tum quia</reg></choice>  cuilibet gradui specifico cuiuscumque rei co<lb ed="#L"/>rrespondet 
+          esse punctale et indivisibile patet quia quantumcumque parvus gradus adderetur 
+          <lb ed="#L"/>aut demeretur non maneret in illa specie igitur talis res indivisibiliter est</p>
+        
+        <p><pb ed="#L" n="33v"/><lb ed="#L"/>2o aliud citra primam causam est <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse ergo antecedens patet per <ref><name ref="#Aquinas">doctorem sanctum</name> <title ref="#SummaContraGentiles">contra genti<lb ed="#L"/>les</title> 
+          libro 2o capitulo 29</ref> ubi ex dictis concludit ille ergo res in quibus non est 
+          <lb ed="#L"/>materia vel si est non est potentialis ad aliam formam non habent potentiam ad non esse 
+          <lb ed="#L"/>ergo <choice><orig>neccesse</orig><reg>necesse</reg></choice> est simpliciter eas esse sed certum est quod angelus nec anima habent materiam ergo 
+          <lb ed="#L"/>confirmatur quia angelus et anima non habent in se principium deducens ea ad non 
+          <lb ed="#L"/>esse ergo illa non habent potentiam ad non esse ergo de se sunt <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse</p>
+        
+        <p xml:id="pgb1q9-d1e217"><g ref="#pilcrow"/>3o 
+          <lb ed="#L"/>in causa prima est distinctio absoluta modalis et distinctio conceptualis seu virtualis ergo antecedens 
+          <lb ed="#L"/>pro prima parte est <name ref="#JamesViterbo">iacobi de viterbio</name> et 2a <ref><name ref="#AlphonsusVargas">alphonsi</name> 8 distinctione primi articulo 2o conclusione 
+          <lb ed="#L"/>4a</ref> patet consequentia quia quaelibet talis distinctio summae simplicitati repugnat</p>
+        
+        <p xml:id="pgb1q9-d1e235"><g ref="#pilcrow"/>In oppositum est 
+          <lb ed="#L"/><name ref="#Lombard">magister</name> in hac distinctione <g ref="#slash"/>Item <ref><name ref="#Paul">apostolus</name> <title ref="#Itim">primae ad thymot</title> 6</ref> dicit quod <quote ana="#Itim6_16">solus deus 
+          <lb ed="#L"/>immortalitatem habet</quote> <g ref="#slash"/>Item <ref><name ref="#Augustine">augustinus</name> 3o <title ref="#deTrinitate">de trinitate</title></ref> dicit <quote>solus deus non mutatur 
+          <lb ed="#L"/>nec potest mutari</quote></p>
+        
+        <p xml:id="pgb1q9-d1e273"><g ref="#pilcrow"/>prima conclusio tam <choice><orig>neccesse</orig><reg>necesse</reg></choice> est primam causam esse quam <choice><orig>neccesse</orig><reg>necesse</reg></choice> est creaturam 
+          <lb ed="#L"/>esse posset probatur quia quanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> deus est deus et omnipotens tanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> est 
+          <lb ed="#L"/>ad extra productivus et tanta <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> ad extra aliquid potest produci et potest habere 
+          <lb ed="#L"/>esse ergo etc</p>
+        
+        <p xml:id="pgb1q9-d1e314"><g ref="#pilcrow"/>confirmatur quia si prima causa nihil posset ad extra producere hoc videretur 
+          <lb ed="#L"/>ex eo quod quodlibet producibile esset productum sed hoc est impossibile nec etiam ob<lb ed="#L"/>stat 
+          hoc quia adhuc posset hoc totum corrumpere et iterum recreare ergo</p>
+        
+        <p xml:id="pgb1q9-d1e322"><g ref="#pilcrow"/>primum corollarium licet non stet creaturam non posse non esse tamen si prima causa 
+          <lb ed="#L"/>ageret ad extra per modum naturae quodlibet producibile esse esset <choice><orig>neccesse</orig><reg>necesse</reg></choice> prima pars patet 
+          <lb ed="#L"/>quia quodlibet creatum a deo contingenter producitur et in esse conservatur 2a patet quia 
+          <lb ed="#L"/>si unum produceret et aliud non aut hoc esset quia esset determinatus ad pro<lb ed="#L"/>ducendum 
+          illud et non aliud et hoc non quia illud est libere producere cum aeque pos<lb ed="#L"/>sit 
+          unum sicut aliud aut hoc esset quia unum posset produci et aliud non sed 
+          <lb ed="#L"/>hoc non quia sic esset producibile et non producibile</p>
+        
+        <p xml:id="pgb1q9-d1e345"><g ref="#pilcrow"/>2m corollarium si prima causa 
+          <lb ed="#L"/>ageret ad extra neccessario et naturaliter omnia producibilia et corruptibilia produceret 
+          <lb ed="#L"/>et corrumpet simul et aequaliter patet quia si <c>a</c><g ref="#dot"/> ignis se solo posset producere 
+          <lb ed="#L"/><c>b</c><g ref="#dot"/> calorem et corrumpere <c>b</c> calorem simul ipsum corrumperet et produceret ergo 
+          <lb ed="#L"/>cum prima causa se sola potest quidquid cum alio potest in genere efficientis sequitur propositum 
+          <lb ed="#L"/>quod si ageret naturaliter etc</p>
+        
+        <p xml:id="pgb1q9-d1e370"><g ref="#pilcrow"/>3m corollarium non stat primam causam esse productiva
+          <lb ed="#L"/>omnis producibilis creaturae et ad ipsam ad extra agere de necessitate naturae patet ad eam 
+          <lb ed="#L"/>producere naturaliter sequitur omnia producibilia produci et corrumpi simul et aequaliter sed 
+          <lb ed="#L"/>hoc implicat ergo</p>
+        
+        <p xml:id="pgb1q9-d1e378"><g ref="#pilcrow"/>2a conclusio licet tantum tria supposita distinguuntur in <sic>supersimplici</sic> essentia 
+          <lb ed="#L"/>tamen ibi non proprie dicitur esse diversitas seu differentia prima pars patet per fidem quia 
+          <lb ed="#L"/>alius pater alius filius alius spiritus sanctus ergo tantum tria supposita distinguuntur in divina essentia 
+          <lb ed="#L"/>confirmatur quia distinctio vel differentia nihil est igitur non sunt ponendae in deo patet quia quidquid 
+          <lb ed="#L"/>est in deo est aliquid antecedens patet quia si solus deus et homo essent et nihil aliud adhuc 
+          <lb ed="#L"/>deus et homo differrent ergo distinctio vel differentia non sunt aliquid vel <choice><orig>alica</orig><reg>aliqua</reg></choice> <g ref="#slash"/>pro ista 
+          <pb ed="#L" n="34r"/><lb ed="#L"/>conclusione est processus <ref><name ref="#Augustine">augustini</name> 6o <title ref="#deTrinitate">de trinitate</title> capitulo 4o</ref> de magnis et <ref>capitulo 14</ref> de parvis <g ref="#dbslash"/> 
+          <lb ed="#L"/>ex 2a parte conclusionis sequitur quod licet posset vere dici et proprie quod aliquae res distinguuntur re et 
+          <lb ed="#L"/>intentione et ratione non tamen proprie dicitur quod sit distinctio intentionalis realis et rationis patet 
+          <lb ed="#L"/>quia distinctio nihil est ergo non est patet consequentia quia quod simpliciter nihil est non est</p>
+        
+        <p xml:id="pgb1q9-d1e425"><g ref="#pilcrow"/>primum corollarium omnis per<lb ed="#L"/>fectio 
+          quae deus est realiter est qualibet perfectio dei formaliter patet quia si divinae perfectiones 
+          <lb ed="#L"/>aliquo modo differret vel differentur sequeretur quod non tantum divina supposita differentur in divina essentia 
+          <lb ed="#L"/>consequentia primam partem conclusionis 2ae</p>
+        
+        <p xml:id="pgb1q9-d1e435"><g ref="#pilcrow"/>2m corollarium quod sicut inter perfectiones divinas non stat 
+          <lb ed="#L"/>distinctio formalis sic eis repugnat distinctio rationis aut modalis <g ref="#slash"/>vel sic sicut non stat 
+          <lb ed="#L"/>divinas perfectiones distingui formaliter sic repugnat eas distingui ratione ac formaliter 
+          <lb ed="#L"/>patet quia aliter in eis non esset summa simplicitas et indifferentia</p>
+        
+        <p xml:id="pgb1q9-d1e447"><g ref="#pilcrow"/>3m corollarium quam 
+          <lb ed="#L"/>repugnat ex parte deorum pluralitas tam repugnat in deo formalis perfec<lb ed="#L"/>tionum 
+          diversitas patet quia si talis formalitatum pluralitas esset possibilis in deo 
+          <lb ed="#L"/>sequitur aliquid esse deum simpliciter formaliter quod non est omnis deus <g ref="#slash"/>Item sequeretur quod aliquid esset 
+          <lb ed="#L"/>deus realiter quod est mere contingenter sed ista tantum repugnat quantum repugnat esse 
+          <lb ed="#L"/>plures deos ergo <g ref="#slash"/>prima consequentia probatur quia si iustitia divina est deus formaliter tunc divina 
+          <lb ed="#L"/>sapientia si formaliter non sit iustitia tunc <corr><add place="aboveLine">non</add></corr> erit deus formaliter <g ref="#slash"/>2a patet consequentia quia 
+          <lb ed="#L"/>deum velle beatificare <name ref="#Peter">petrum</name> est deus realiter et tamen per ponentes huiusmodi formalitates 
+          <lb ed="#L"/>est deus contingenter <corr><del rend="blackout">g</del></corr></p> 
+        
+        <p xml:id="pgb1q9-itcpci">Ista tria corollaria videntur de mente <ref><name ref="#Anselm">anselmi</name> <title ref="#Monologion">monologion</title> 17o <!-- check all "universaliter"'s for "videnter" --> 
+          <lb ed="#L"/>capitulo</ref> dicens <quote xml:id="pg-b1q9-Qd1e480">quamadmodum unum est quod de essentia summa dicitur essentialiter ita ipsa uno modo 
+          <lb ed="#L"/>una consideratione est quidquid essentialiter est <g ref="#slash"/>cum enim aliquis homo dicatur et corpus et rationalis 
+          <lb ed="#L"/>et homo non uno modo nec una consideratione haec tria dicuntur ita vero essentia divina 
+          <lb ed="#L"/>summa nullo modo dicitur sic aliquid ut illud idem secundum aliam et aliam considerationem non sit illud</quote> haec ille <!-- anselm quote might end here --> 
+          <lb ed="#L"/>ex <choice><orig>hiis</orig><reg>his</reg></choice> videntur patere corollaria illa</p>
+        
+        <p xml:id="pgb1q9-d1e511"><g ref="#pilcrow"/>3a conclusio sicut prima causa sola est omnem perfectionem 
+          <lb ed="#L"/>habens simpliciter et in se includens sic est omni modo compositionis formaliter totaliter 
+          <lb ed="#L"/>carens et a se excludens prima pars probatur quia secundum <name ref="#Anselm">anselmum</name> <quote xml:id="pg-b1q9-Qd1e506">deus est illud quo maius 
+          <lb ed="#L"/>vel melius cogitari</quote> non potest 2a pars probatur quia simplex praeponendum est composito 
+          <lb ed="#L"/>secundum <ref><name ref="#Augustine">augustinum</name> <title ref="#DeQuantitateAnimae">de quantitate animae</title> capitulo 12</ref> ergo sed sola prima causa summe sit simplex 
+          <lb ed="#L"/>patet quia de ratione simplicitatis sunt indivisibilitas immutabilitatis et per se actualitas 
+          <lb ed="#L"/>sed haec tantum competunt deo nec creaturae convenire possunt</p>
+        
+        <p xml:id="pgb1q9-d1e539"><g ref="#pilcrow"/>primum corollarium quaecumque species 
+          <lb ed="#L"/>vel formae datae vel dabiles in superiorem formam vel speciem perfecte sunt 
+          <lb ed="#L"/>confluibiles patet quia nulla talis species est immutabiliter suum esse ergo deus 
+          <lb ed="#L"/>potest facere eas in superiorem unitive confluere</p>
+        
+        <p xml:id="pgb1q9-d1e549"><g ref="#pilcrow"/>2m corollarium non stat aliquod 
+          <lb ed="#L"/>individuum a primo <choice><orig>deppendere</orig><reg>dependere</reg></choice> et omnem perfectionis gradum unitive continere patet 
+          <lb ed="#L"/>quia tunc tale individuum non posset cum alio individuo in speciem superiorem vel 
+          <lb ed="#L"/>in aliquod individuum <choice><orig>perfeccius</orig><reg>perfectius</reg></choice> unitive confluere</p>
+        
+        <p xml:id="pgb1q9-d1e572"><g ref="#pilcrow"/>3m corollarium non stat aliquod 
+          <lb ed="#L"/>individuum quam repugnat quodlibet <choice><orig>deppendens</orig><reg>dependens</reg></choice> creatum <unclear cert="low">accidenti</unclear> non posse subesse 
+          <lb ed="#L"/>subiective tam repugnat omnem simplicitatis gradum ipsum creatum <corr><del rend="strikethrough">videre</del><add place="inLine">vere</add></corr> posset 
+          <lb ed="#L"/>continere unitive patet quia nullum individuum cuiuscumque speciei datae aut 
+          <pb ed="#L" n="34v"/><lb ed="#L"/>dabilis potest esse tam simplex quin illud posset <sic>est</sic> subiectum actus eliciti vel alicuius 
+          <lb ed="#L"/>habitus a deo infusi ergo antecedens patet quia huiusmodi simplicitas soli deo competit ex 
+          <lb ed="#L"/>dictis sequitur pars affirmativa conclusionis</p>
+        
+        <p xml:id="pgb1q9-d1e600"><g ref="#pilcrow"/>Contra primam conclusionem et eius corollaria aliud a deo est 
+          <lb ed="#L"/><choice><orig>neccesse</orig><reg>necesse</reg></choice> esse ergo probatur antecedens quia divina perfectio exigit quod producatur sibi simile 
+          <lb ed="#L"/>quantum non repugnat creaturae sed <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse non repugnat creaturae ergo divina boni<lb ed="#L"/>tas 
+          sic eam producit maior nota videtur minor patet quia si <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse creaturae repugnaretur 
+          <lb ed="#L"/>videretur esse eo quod est ab alio sed hoc non obstat quia filius habet ab alio esse et 
+          <lb ed="#L"/>tamen non habet esse contingenter ergo</p>
+        
+        <p xml:id="pgb1q9-d1e632"><g ref="#pilcrow"/>2o si angelus vel anima possent non esse hoc ideo esset 
+          <lb ed="#L"/>quia deus suam <choice><orig>influenciam</orig><reg>influentiam</reg></choice> eis substraheret sed hoc est impossibile quia sua bonitas 
+          <lb ed="#L"/>tunc mutaretur ergo talia non possunt non esse</p>
+        
+        <p xml:id="pgb1q9-d1e646"><g ref="#pilcrow"/>3o substantiae separatae a materia non habent 
+          <lb ed="#L"/>potentiam passivam privationi vel corruptioni subiectivam ergo non possunt non esse consequentia tenet 
+          <lb ed="#L"/>cum materia sit ratio <choice><orig>continenciae</orig><reg>continentiae</reg></choice> et corruptionis in creaturis istae sunt rationes <name ref="#Aquinas">sancti doctoris</name> 
+          <lb ed="#L"/>ubi prius fuit allegatum in principio quaestionis</p>
+        
+        <p xml:id="pgb1q9-d1e665"><g ref="#pilcrow"/>4o quia aut illi <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse correspondet 
+          <lb ed="#L"/>praecise esse punctale vel quantitivum si primum ergo non est immensae perfectionis 
+          <lb ed="#L"/>si 2m ergo potest <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> in illa specie maius et minus <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse quia sicut omni quanto 
+          <lb ed="#L"/>potest dari minus sic illi <choice><orig>neccessitati</orig><reg>necessitati</reg></choice> potest dari minor quantitas et sic erunt plura 
+          <lb ed="#L"/><choice><orig>neccesse</orig><reg>necesse</reg></choice></p>
+        
+        <p xml:id="pgb1q9-d1e706"><g ref="#pilcrow"/>5o si tota linea producibilium se haberet contingenter ad esse et non esse sequitur 
+          <lb ed="#L"/>quod tota et totaliter posset poni inesse consequens est falsum per dictam quia tunc prima causa non 
+          <lb ed="#L"/>posset agere ad extra patet consequentia quia ipsa tota potest non esse ut dicit primum corollarium</p>
+        
+        <p xml:id="pgb1q9-d1e715"><g ref="#pilcrow"/>6o 
+          <lb ed="#L"/>nullum individuum speciei inferioris potest continere totam perfectionem suae speciei ergo unum 
+          <lb ed="#L"/><choice><orig>neccesse</orig><reg>necesse</reg></choice> esse non potest continere totam latitudinem <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> ergo non est tantum unum 
+          <lb ed="#L"/>individuum in illa specie antecedens patet per 2m corollarium 3ae conclusionis et consequentiae patent</p>
+        
+        <p xml:id="pgb1q9-d1e736"><g ref="#pilcrow"/>confirmatur 
+          <lb ed="#L"/>quia sic esse sicut propositio homo est animal significat est <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse ergo plura sunt <choice><orig>neccesse</orig><reg>necesse</reg></choice> 
+          <lb ed="#L"/>esse tenet consequentia quia illud non est deus</p>
+        
+        <p xml:id="pgb1q9-d1e756"><g ref="#pilcrow"/>Item ad istam propositionem nihil est non sequitur contradictio 
+          <lb ed="#L"/>ergo ipsa potest esse vera ergo nullum est <choice><orig>neccesse</orig><reg>necesse</reg></choice> <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse tenent consequentiae et antecedens probatur 
+          <lb ed="#L"/>quia ad nullam negativam sequitur affirmativa ergo nec <choice><orig>alica</orig><reg>aliqua</reg></choice> contradictio quia omnis <choice><orig>contradiccio</orig><reg>contradictio</reg></choice> 
+          <lb ed="#L"/>componitur ex affirmativa et negativa vel saltim includit ipsam</p>
+        
+        <p xml:id="pgb1q9-d1e791"><g ref="#pilcrow"/>contra 2a conclusionem primo 
+          <lb ed="#L"/>arguitur auctoritas <ref><name ref="#JohnDamascenus">damasceni</name> libro primo capitulo 3o</ref> ubi dicit <quote xml:id="pg-b1q9-Qd1e627">quaecumque dicimus de deo affirmative non 
+          <lb ed="#L"/>naturam ipsius sed ea quae sunt circa naturam eius ostendit et enim bonum si iustum et si 
+          <lb ed="#L"/>sapiens et si quaecumque dixeris non naturam dicis</quote></p>
+        
+        <p xml:id="pgb1q9-d1e806"><g ref="#pilcrow"/>contra primum corollarium si deus esset 
+          <lb ed="#L"/>immense simplex aut divisibiliter aut indivisibiliter non primum quia tunc haberet partes 
+          <lb ed="#L"/>nec 2m quia tunc solum per indivisibilem staret a nihilo et sic infinite minus 
+          <lb ed="#L"/>distaret divina essentia angelo quam quaecumque creatura quod est falsum</p>
+        
+        <p xml:id="pgb1q9-d1e816"><g ref="#pilcrow"/>2o sapientia in communi 
+          <lb ed="#L"/>non est iustitia in communi ergo nec infinita sapientia infinita iustitia tenet consequentia quia infini<lb ed="#L"/>tas 
+          non tollit rationem propriam alicuius rei ut videtur</p>
+        
+        <p xml:id="pgb1q9-d1e825"><g ref="#pilcrow"/>contra 2m corollarium illa 
+          <lb ed="#L"/>quae non sunt synonyma significant diversas res vel eandem diversis rationibus sed 
+          <lb ed="#L"/>bonitas et iustitia misericordia et aeternitas non sunt synonyma in deo ergo sed non 
+          <pb ed="#L" n="35r"/><lb ed="#L"/>significant diversas res ergo diversos modos ergo in deo est distinctio modalis <name ref="#JamesViterbo">iacobus 
+          <lb ed="#L"/>de viterbio</name> <title>quodlibet</title> 3o quaestione 7a
+        </p> 
+        <p xml:id="pgb1q9-ssqnmv">
+          2o sequitur quod volitiva divina formaliter esset intellectiva divina 
+          <lb ed="#L"/>et econverso consequens est falsum quia tunc quidquid esset obiectum unus esset obiectum alterius modo hoc 
+          <lb ed="#L"/>est falsum quia deus intelligit malum culpae quod tamen nullo modo <unclear cert="high">vult</unclear></p>
+        
+        <p xml:id="pgb1q9-d1e849"><g ref="#pilcrow"/>3a illa quae 
+          <lb ed="#L"/><choice><orig>neccessitat</orig><reg>necessitat</reg></choice> intellectum ad actus distinctos essentialiter secundum rationem vel conceptibiliter distinguitur sed 
+          <lb ed="#L"/>perfectiones divinae neccessitant ad actus distinctos essentialiter intellectum ergo huiusmodi perfectiones 
+          <lb ed="#L"/>divinae conceptibiliter seu virtualiter sunt distinctae maior patet ubi una res <choice><orig>neccessitat</orig><reg>necessitat</reg></choice> 
+          <lb ed="#L"/>ad actus distinctos essentialiter facit illud idem quod facerent <corr><del rend="strikethrough">s</del></corr> res diversae realiter distinctae 
+          <lb ed="#L"/>minor patet quia sapientia divina <choice><orig>neccessitat</orig><reg>necessitat</reg></choice> intellectum ad conceptum sapientiae et bonitas ad 
+          <lb ed="#L"/>conceptum bonitatis et tales conceptus sunt realiter et essentialiter distincti ergo <name ref="#AlphonsusVargas">alphonsus</name> <g ref="#dbslash"/></p>
+        
+        <p xml:id="pgb1q9-d1e892"><lb ed="#L"/><g ref="#pilcrow"/>4o contra 3m corollarium sapientiae divinae ut sic non repugnat non iustitia ergo sapientia 
+          <lb ed="#L"/>aliquo modo non est eadem cum iustitia sed sapientiae divinae non repugnat simpliciter alius 
+          <lb ed="#L"/>deus ergo</p>
+        
+        <p xml:id="pgb1q9-d1e901"><g ref="#pilcrow"/>contra 3am conclusionem est propositio alia de causis qua dicitur quod <quote xml:id="pg-b1q9-Qiesqnd">intelligentia est substantia quae non 
+          <lb ed="#L"/>dividitur</quote> ergo non solus deus
+        </p> 
+        <p xml:id="pgb1q9-pdaiei">
+          <g ref="#slash"/>2o <ref><name ref="#Aristotle">philosophus</name> 2o <title ref="#deAnima">de anima</title></ref> dicit <quote xml:id="pg-b1q9-Qd1e4530">intellectus simpliciter est impermixtus 
+          <lb ed="#L"/>et immaterialis</quote>
+        </p>
+        
+        <p xml:id="pgb1q9-d1e918"><g ref="#pilcrow"/>3o contra primum corollarium est prima ratio in oppositum quia quaelibet simplex est tam simplex 
+          <lb ed="#L"/>quod ei correspondet unicus gradus et esse <choice><orig>punctale</orig><reg>punctuale</reg></choice> ergo</p>
+        
+        <p xml:id="pgb1q9-d1e930"><g ref="#pilcrow"/>4o autoritate <name ref="#Averroes">commentatoris</name> 
+          <lb ed="#L"/>12o <title ref="#Metaphysics">metaphysicae</title> dicentis quod omnes formae <corr><add place="aboveLine">sunt</add></corr> actu existentes in primo motore quae in potentia sunt 
+          <lb ed="#L"/>in materia prima ergo in deo non est omnimoda simplicitas.</p>
+        
+        <p xml:id="pgb1q9-d1e949"><g ref="#pilcrow"/>Ad primum negatur antecedens ad probationem 
+          <lb ed="#L"/>negatur maior et minor et ad probationem minoris dico quod <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse repugnat creaturae non solum 
+          <lb ed="#L"/>ex eo quod est ab alio sed quia etiam libere contingenter producitur de nihilo et contingenter conservatur</p>
+        
+        <p xml:id="pgb1q9-d1e957"><g ref="#pilcrow"/><lb ed="#L"/>Ad 2m conceditur assumptum et negatur quod illud sit impossibile quia nec sequitur voluntatem divinam mutari 
+          <lb ed="#L"/>vel esse mutabilem <g ref="#slash"/>aliter posset probari quod <choice><orig>neccessario</orig><reg>necessario</reg></choice> omne futurum eveniret</p>
+        
+        <p xml:id="pgb1q9-d1e972"><g ref="#pilcrow"/>Ad 3m 
+          <lb ed="#L"/>negatur consequentia quia tunc accidentia et lumen productum in medio aliquo modo non possent non esse 
+          <lb ed="#L"/><g ref="#slash"/>2o dico quod licet non habeant materiam habent tamen suum nihil quasi materiam et hoc sufficit</p>
+        
+        <p xml:id="pgb1q9-d1e981"><g ref="#pilctow"/>Ad 
+          <lb ed="#L"/>4m dici potest esse <choice><orig>punctale</orig><reg>punctuale</reg></choice> sibi correspondet et indivisibile et negatur consequentia ergo non 
+          <lb ed="#L"/>est immensae perfectionis quia simul est indivisibilis super simplex et immensus non habens in 
+          <lb ed="#L"/>se formaliter latitudinem gradualem quamvis supereminenter contineat omnem perfectionis 
+          <lb ed="#L"/>latitudinem</p>
+        
+        <p xml:id="pgb1q9-d1e999">
+          <!-- review all inesse, and consider whether they are "inesse" or in esse and should be normalized one way or the other -->
+          <g ref="#pilcrow"/>Ad 5m conceditur consequens quia quaelibet pars illius latitudinis potest poni 
+          <lb ed="#L"/>in esse et si infertur igitur potest poni inesse tota simul negatur consequentia quia sicut etiam non sequitur 
+          <lb ed="#L"/>quaelibet pars illius latitudinis potest poni inesse ergo possibile est poni inesse quamlibet eius partem 
+          <lb ed="#L"/>sic non sequitur quaelibet pars <c>a</c> continui a <name ref="#Sortes">sorte</name> potest videri ergo <name ref="#Sortes">sortes</name> potest videre <g ref="#dot"/><c>a</c><g ref="#dot"/> 
+          <lb ed="#L"/>continui quamlibet partem nec sequitur quilibet gradus perfectionis possibilis potest poni inesse ergo possibile 
+          <lb ed="#L"/>est quod ponatur inesse quilibet gradus perfectionis possibilis licet consequens tenuerim probabiliter 
+          <lb ed="#L"/>in meo principio contra praedicatorem.</p>
+        
+        <p xml:id="pgb1q9-d1e1027"><g ref="#pilcrow"/>Ad 6m negatur consequentia quia deitas non se habet per 
+          <lb ed="#L"/>modum speciei creatae personae nec divinae personae per modum individuorum quia licet 
+          <lb ed="#L"/>duos homines sunt aliquod unum maius quam unus solus tamen duae personae divinae 
+          <lb ed="#L"/>non sunt maius quam una sola ut dicit <ref><name ref="#Augustine">augustinus</name> 8 <title ref="#deTrinitate">de trinitate</title> capitulo primo</ref></p> 
+        
+        <p xml:id="pgb1q9-d1e1045"><g ref="#L"/><g ref="#pilcrow"/>Ad aliud negatur 
+          <lb ed="#L"/>consequentia quia conclusio et corollaria intelliguntur de entitatibus realibus et non de complexe 
+          <pb ed="#L" n="35v"/><lb ed="#L"/>significantibus</p> 
+        
+        <p xml:id="pgb1q9-aanesa"><g ref="#slash"/>Ad aliam negatur antecedens quia ad illam sequitur <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse non esse <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse et 
+          <lb ed="#L"/>ad improbationem dico quod ad impossibile sequitur quodlibet et per consequens ex negativa sequitur affirmativa</p> 
+        
+        <p xml:id="pgb1q9-apcesa"><g ref="#dbslash"/>Ad 
+          <lb ed="#L"/>primum contra 2am conclusionem dicitur quod <name ref="#JohnDamascenus">damascenus</name> non loquitur de perfectionibus quod non realiter sint in 
+          <lb ed="#L"/>deo sed de nominibus quae de deo praedicantur quorum <choice><orig>alica</orig><reg>aliqua</reg></choice> secundum eum non praedicantur naturam 
+          <lb ed="#L"/>sed ea quae sunt circa naturam quod non est intelligendum quantum ad rem significatum quia si res 
+          <lb ed="#L"/>quae est sapientia divina non esset divina natura sed aliquid circa naturam non solum distingueretur  
+          <lb ed="#L"/>formaliter sed realiter et simpliciter quod est falsum sed intelligitur quo ad modum praedicandi quia 
+          <lb ed="#L"/>talia nomina praedicantur de deo denominative et quae sic praedicantur de deo quantum ad 
+          <lb ed="#L"/>modum praedicandi non dicunt naturam sed aliquid circa naturam haec est solutio <name ref="#AlphonsusVargas">alphonsi</name></p>
+        
+        <p xml:id="pgb1q9-d1e1101"><lb ed="#L"/><g ref="#slash"/>Ad 2m primo posset dici quod divisibiliter seu per divisibile distat angelo quia distat 
+          <lb ed="#L"/>per totam perfectionem omnium creaturarum actualium et possibilium et negatur consequentia igitur <unclear cert="low">partes</unclear> 
+          <lb ed="#L"/>quia illa divisibilitas non est deo intrinseca sed extrinseca</p>
+        
+        <p xml:id="pgb1q9-d1e1110"><g ref="#pilcrow"/>2o posset dici hanc negando 
+          <lb ed="#L"/>consequentiam distat indivisibiliter ergo infinite minus quam quaecumque citra quia illud indivisibile per 
+          <lb ed="#L"/>quid distat est immensum quia est deus</p>
+        
+        <p xml:id="pgb1q9-d1e1118"><g ref="#pilcrow"/>Ad aliud negatur consequentia ratio quia sapientia infinita 
+          <lb ed="#L"/>et bonitas infinita in re sunt aliquid circumscripta omni ratione intellectus sapientia vero in communi 
+          <lb ed="#L"/>et bonitas in communi non sic quia non sunt nisi quidam conceptus vel <choice><orig>encia</orig><reg>entia</reg></choice> rationis <g ref="#slash"/>et ad 
+          <lb ed="#L"/>probationem quia infinitas non tollit rationem formalem alicuius conceditur sed hoc non probat intentum 
+          <lb ed="#L"/>quia sapientia et bonitas in communi non solum praedicantur de sapientia et bonitate infinita sed 
+          <lb ed="#L"/>etiam de finita de hoc vide <name ref="#AlphonsusVargas">alphonsum</name></p>
+        
+        <p xml:id="pgb1q9-d1e1143"><g ref="#pilcrow"/>Ad aliud contra 3m corollarium concesso antecedente 
+          <lb ed="#L"/>negatur consequentia nam non sequitur haec res diversimode est quia possibile est quod propositum idem significatum 
+          <lb ed="#L"/>una sit vera et alia falsa non tamen sequitur quod significatum sit verum et falsum</p>
+        
+        <p xml:id="pgb1q9-d1e1151"><g ref="#pilcrow"/>Ad aliud 
+          <lb ed="#L"/>conceditur consequens et ad improbationem quia tunc obiectum unius etc conceditur et cum improbatur quia deus intelligit 
+          <lb ed="#L"/>malum etc conceditur sed non sequitur quod infertur</p>
+        
+        <p xml:id="pgb1q9-d1e1160"><g ref="#pilcrow"/>2o dico quod voluntas divina intelligit omnem 
+          <lb ed="#L"/>malum quia intellectus divinus qui intelligit est formaliter voluntas divina malum ergo 
+          <lb ed="#L"/>est obiectum voluntatis non ut volitum sed ut cognitum et intellectum</p>
+        
+        <p xml:id="pgb1q9-d1e1168"><g ref="#slash"/>3o posset negari illa 
+          <lb ed="#L"/>consequentia voluntas divina et intellectus sunt idem igitur quidquid intellectus intelligit voluntas vult</p>
+        
+        <p xml:id="pgb1q9-d1e1174"><lb ed="#L"/><g ref="#pilcrow"/>Ad aliud negatur maior et minor quia non oportet quod omnem illud quod <choice><orig>neccessitat</orig><reg>necessitat</reg></choice> ad conceptus 
+          <lb ed="#L"/>distinctos sit conceptibiliter distinctum nisi velimus ab uti vocabulo nec etiam per<lb ed="#L"/>fectio 
+          divina <choice><orig>neccessitat</orig><reg>necessitat</reg></choice> ad distinctionem actuum diversorum ut assumit ratio</p>
+        
+        <p xml:id="pgb1q9-d1e1195"><g ref="#pilcrow"/>Ad rationem 
+          <lb ed="#L"/>contra 3m corollarium negatur maior quia sapientia divina est omnis perfectio formaliter et omne quod 
+          <lb ed="#L"/>est melius esse quam non esse simpliciter sub bono intellectu</p>
+        
+        <p xml:id="pgb1q9-d1e1203"><g ref="#pilcrow"/>Ad primam auctoritatem contra 
+          <lb ed="#L"/>3am conclusionem intelligentia est substantia quae non dividitur hoc est verum quantum ad partes naturae vel 
+          <lb ed="#L"/>quantum ad durationem quae est tota simul</p>
+        
+        <p xml:id="pgb1q9-d1e1211"><g ref="#pilcrow"/>Ad aliam dicitur quod intellectus est virtus simplex 
+          <lb ed="#L"/>id est non organica hoc voluit <name ref="#Aristotle">philosophus</name> <g ref="#slash"/>2o dicitur simplex aliquo modo non simpliciter quia omnis creatura 
+          <lb ed="#L"/>aliquo modo est composita et potentialitati subiecta</p>
+        
+        <p xml:id="pgb1q9-d1e1225"><g ref="#pilcrow"/>Ad prima rationem in oppositum dicitur quod si antecedens 
+          <lb ed="#L"/>intelligitur de simpliciter simplici est falsum et ad probationem dicitur quod non valet consequentia et si ultra in<lb ed="#L"/>ferretur 
+          anima non est simplex igitur habet partes consequentia negatur</p>
+        
+        <p xml:id="pgb1q9-d1e1233"><g ref="#pilcrow"/>Ad aliud dicitur huiusmodi formas 
+          <lb ed="#L"/>in primo motore esse indistinctas actu quia creatura in deo non est aliud quam divina natura 
+          <pb ed="#L" n="36r"/><lb ed="#L"/>penitus indistincta</p> 
+        
+        <p xml:id="pgb1q9-aarspd"><g ref="#slash"/>Ad alias rationes in oppositum patet <choice><orig>solucio</orig><reg>solutio</reg></choice> per dictam</p> 
+        
+        <p xml:id="pgb1q9-d1e1250"><g ref="#pilcrow"/><hi rend="largeFont">Nunc de 
+          <lb ed="#L"/>veritate seu proprietate</hi> haec distinctio continet 9 conclusiones <g ref="#slash"/>prima quod solus deus 
+          <lb ed="#L"/>vere et proprie est quia eius essentia non novit praeteritum vel futurum hoc est non <unclear cert="low">subest</unclear> 
+          <lb ed="#L"/>praeteritioni aut futuritioni sicut cetera creata</p>
+        
+        <p xml:id="pgb1q9-d1e1264"><g ref="#pilcrow"/>2a conclusio ideo dicit deus semper fuit vel erit 
+          <lb ed="#L"/>ut intelligatur quod non incepit esse nec desinet</p>
+        
+        <p xml:id="pgb1q9-d1e1270"><g ref="#slash"/>3a conclusio quod licet verba sub<lb ed="#L"/>stantiva 
+          diversorum temporum dicantur de deo scilicet fuit erit est et erat non 
+          <lb ed="#L"/>tamen de deo dicuntur quia esse divinum praeteritioni aut <corr><del rend="strikethrough">subiectio</del></corr> futuritioni subiaceat 
+          <lb ed="#L"/>cum temporalis motus deo repugnet sed dicuntur ad denotandum deum esse 
+          <lb ed="#L"/>aeternitatem et permanentiae ipsius proprietatem</p>
+        
+        <p xml:id="pgb1q9-d1e1286"><g ref="#pilcrow"/>4a conclusio solius dei essentia incommutabilis 
+          <lb ed="#L"/>proprie dicitur quia nec mutatur nec mutari potest omnis autem creatura mutari potest deus 
+          <lb ed="#L"/>autem non nec loco nec tempore nec affectione et ita sine sui mutatione cunctas condidit 
+          <lb ed="#L"/>creaturas et per consequens solus deus proprie habet immortalitatem omnis autem creatura est mortalis 
+          <lb ed="#L"/>ex sua natura quia sua mutatio mors appellatur</p>
+        
+        <p xml:id="pgb1q9-d1e1299"><g ref="#pilcrow"/>5a conclusio deus solus est vere ac 
+          <lb ed="#L"/>proprie simplex quia in eo nec partium nec accidentium sive formarum est diversitas vel va<lb ed="#L"/>rio 
+          modo sive multitudo omnis creatura est multiplex quamvis spiritualis creatura respectu corporalis 
+          <lb ed="#L"/>dicitur simplex non tamen est vere simplex quia in tali est diversitas accidentium sive formarum 
+          <lb ed="#L"/>accidentalium ut in animalibus humanis et angelis nullum enim quod est vere simplex est mutabile</p>
+        
+        <p xml:id="pgb1q9-d1e1311"><lb ed="#L"/><g ref="#pilcrow"/>6a conclusio quod anima respectu corporis simplex dicitur quia <unclear cert="medium">molae</unclear> non diffunditur per <sic>saptium <!-- probably meant to be spatium --></sic> 
+          <lb ed="#L"/>loci sed in <choice><sic>uno quoque</sic><corr>unoquoque</corr></choice> corpore est in toto tota et in qualibet eius parte tota</p>
+        
+        <p xml:id="pgb1q9-d1e1318"><g ref="#pilcrow"/>7a conclusio quod licet 
+          <lb ed="#L"/>deus dicatur multipliciter scilicet bonus iustus sapiens et magnus tamen hoc non est 
+          <lb ed="#L"/>propter diversitatem accidentium sed propter multitudinem nominum quae licet multa sint et diversa 
+          <lb ed="#L"/>unum tamen significant scilicet naturam divinam</p>
+        
+        <p xml:id="pgb1q9-d1e1328"><g ref="#pilcrow"/>8a conclusio quod proprie deus non dicitur substantia quasi sit 
+          <lb ed="#L"/>subiectum suae bonitatis vel alicuius accidentis sicut substantia corporalis quae ideo dicitur substantia 
+          <lb ed="#L"/>quia subsistit et est multorum accidentium subiectum sed deus proprie et vere dicitur essentia</p>
+        
+        <p xml:id="pgb1q9-d1e1336"><lb ed="#L"/><g ref="#pilcrow"/>9a conclusio deus ideo simplex dicitur quia ipse est quidquid habet excepto quod persona dicitur relative 
+          <lb ed="#L"/>ad alteram nec tamen una est altera nam pater habet filium ad quem relative dicitur et 
+          <lb ed="#L"/>tamen pater non est filius et filius habet patrem nec tamen est pater in quo vero ad semet ipsum 
+          <lb ed="#L"/>dicitur non ad alteram hoc est quod habet unde ipse deus est unus et habet vitam et est ipse 
+          <lb ed="#L"/>una vita nec aliud est habens et aliud quod habetur sicut in ceteris rebus ubi semper sequitur <choice><orig>alica</orig><reg>aliqua</reg></choice> distinctio</p>
+          
+      </div>  
+    </body>
+  </text>
+</TEI>
