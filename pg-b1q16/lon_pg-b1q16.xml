@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 16 [London Transcription]</title>
+        <title>Liber I, Quaestio 16 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="2014.11-dev-master">
-          <title>Librum I, Quaestio 16 [London Transcription]</title>
+          <title>Liber I, Quaestio 16 [London Transcription]</title>
           <date when="2014-11-05">November 5, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-11-05">November 5, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-11-05" who="#JW" status="draft" n="2014.11">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        
       </div>
     </front>
     <body>
@@ -91,7 +92,7 @@
           <lb ed="#L"/>vel habitualiter quodlibet meritum creaturae cum <unclear>causans</unclear> partialiter <g ref="#slash"/>probatur primo quod sit habitus supernaturaliter 
           <lb ed="#L"/>infusus patet extra de haereticis in clementinis <g ref="#slash"/>2o quod sit a deo mentem etc patet quia deus 
           <lb ed="#L"/>est vita animae ergo actuat eam in esse spirituali et agere consequentia bona antecedens est <ref><name ref="#GregoryGreat">gregorius</name> <title>super ezechialem</title> 
-            <pb ed="#L" n="53r"/><lb ed="#L"/>parte 2a omelia 5a</ref> <g ref="#slash"/>3o quod carificet mentem patet ex verbo christi <quote xml:id="pg-b1q16-Qd1e329" ana="#io10_27">ego cognosco oves meas</quote> 
+            <pb ed="#L" n="53-r"/><lb ed="#L"/>parte 2a omelia 5a</ref> <g ref="#slash"/>3o quod carificet mentem patet ex verbo christi <quote xml:id="pg-b1q16-Qd1e329" ana="#io10_27">ego cognosco oves meas</quote> 
           <lb ed="#L"/>vel <quote xml:id="pg-b1q16-Qd1e341" ana="#io13_18">ego scio quod elegerim</quote> Item <ref><title ref="#io">iohannis</title> 13o</ref> <quote xml:id="pg-b1q16-Qd1e356" ana="#io13_1">in finem dilexit eos</quote> <g ref="#slash"/>sed quod caritas 
           <lb ed="#L"/><unclear>carismet</unclear> deum menti patet per <ref><name ref="#Augustine">augustinum</name> in <title ref="#MoralsOfCatholicChurch">moribus ecclesiae</title> capitulo 14o</ref> <quote xml:id="pg-b1q16-Qd1e377">per caritatem inquit 
             <lb ed="#L"/>fit ut formemur deo</quote> <g ref="#slash"/>Item <title ref="#deDoctrinaChristiana">de doctrina christiana</title> <quote xml:id="pg-b1q16-Qd1e392" ana="#Augustine_DeDoctrinaChristiana_3_10_a">caritatem vocat motum 
@@ -148,7 +149,7 @@
         
         <p xml:id="pgb1q16-d1e545"><g ref="#pilcrow"/>pro 3a quaestione sunt verba <ref><name ref="#Augustine">augustini</name> 
           <lb ed="#L"/>15o de trinitate capitulo 5o de parvis</ref> <quote>dilectio quae ex deo et deus est <g ref="#slash"/>est proprie spiritus sanctus 
-          <pb ed="#L" n="53v"/><lb ed="#L"/>per quem diffunditur in cordibus nostris caritas per quam nos inhabitat tota caritas</quote> et 
+          <pb ed="#L" n="53-v"/><lb ed="#L"/>per quem diffunditur in cordibus nostris caritas per quam nos inhabitat tota caritas</quote> et 
           <lb ed="#L"/>plura ibi dicit ad propositum nostrum</p>
         
         <p xml:id="pgb1q16-d1e566"><g ref="#pilcrow"/>primum corollarium aliquid esse formam alterius elicitive 
@@ -195,14 +196,14 @@
         <p xml:id="pgb1q16-d1e737"><g ref="#pilcrow"/>contra 2am conclusionem et eius corollaria sequeretur quod deus haberet 
           <lb ed="#L"/>aliam volitionem secundum rationem de aliquo <unclear>oso</unclear> ipso in nullo <unclear>vari?to</unclear> consequens falsum et consequentia probatur 
           <lb ed="#L"/>quia peccator ante poenitentiam est indignus vita aeterna ergo non est acceptus ad vitam 
-          <lb ed="#L"/>aeternam et post <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> est dignus et acceptus ergo <corr><g ref="#carrot"/><add place="aboveLine">vel</add></corr> per aliquod inhaerens et si sic haberetur 
+          <lb ed="#L"/>aeternam et post <choice><orig>penitentiam</orig><reg>poenitentiam</reg></choice> est dignus et acceptus ergo <g ref="#carrot"/><add place="aboveLine">vel</add> per aliquod inhaerens et si sic haberetur 
           <lb ed="#L"/>contra conclusionem quia oportebit ponere formam creatam <g ref="#slash"/>vel per nihil et si sic haberetur consequentia probata quod 
           <lb ed="#L"/>nulla mutatione facta in mente deus habebit respectu eius volitionem aliam quam prius</p>
         
         <p xml:id="pgb1q16-d1e771"><g ref="#pilcrow"/>2o 
           <lb ed="#L"/>si deus acceptaret <choice><orig>penitentem</orig><reg>poenitentem</reg></choice> ad vitam aeternam vel est velle beatificare voluntate 
           <lb ed="#L"/>beneplaciti pro tunc et hoc non quia tunc statim beatificaret vel est velle istum secundum 
-          <pb ed="#L" n="54r"/><lb ed="#L"/>dispositionem quam nunc habet esse dignum tali praemio quali non voluit prius esse dignum 
+          <pb ed="#L" n="54-r"/><lb ed="#L"/>dispositionem quam nunc habet esse dignum tali praemio quali non voluit prius esse dignum 
           <lb ed="#L"/>sed talis diversitas non potest poni in divina voluntate nisi propter diversitatem creaturae 
           <lb ed="#L"/>vel propter alium et alium modum essendi creaturae</p>
         
@@ -237,7 +238,7 @@
             <lb ed="#L"/>voluntas igitur haec est ratio <name ref="#ThomasStrasbourg">thomae de argentis</name></p>
         
         <p xml:id="pgb1q16-d1e921"><g ref="#pilcrow"/>Ad primum dicitur quod pondus semper actu vel habitu 
-          <lb ed="#L"/>inclinat et sic videtur <name ref="#Augustine">augustinus</name> intellexisse dicens <quote ana="#Augustine_Confessionum_13_9_10_a">eo feror quocumque feror</quote> 
+          <lb ed="#L"/>inclinat et sic videtur <name ref="#Augustine">augustinus</name> intellexisse dicens <quote xml:id="pg-b1q16-Qd1e946" ana="#Augustine_Confessionum_13_9_10_a">eo feror quocumque feror</quote> non dicit semper
           <lb ed="#L"/>eo feror nec est simile de ponderibus rerum naturalium gravium quia caritas est 
           <lb ed="#L"/>pondus supernaturale quod actualiter inclinat tantum quantum spiritus sanctus vult ipsam inclinare 
           <lb ed="#L"/>et agere</p>
@@ -256,8 +257,9 @@
         <p xml:id="pgb1q16-d1e982"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 2am conclusionem dico quod omnes illae rationes tres fundantur super falso scilicet quod 
           <lb ed="#L"/>praedestinatus existens in peccato mortali non sit deo acceptus et postea sit acceptus 
           <lb ed="#L"/>quod non concedo <choice><orig>ymmo</orig><reg>immo</reg></choice> dico quod praedestinatus quantumcumque peccator semper est et ab aeterno fuit 
-          <lb ed="#L"/>acceptus deo ad vitam aeternam habendam et hoc etiam habet dicere <name ref="#Scotus">doctor subtilis</name> 
-          <lb ed="#L"/>contra quem ponuntur illa corollaria ut patet in 2a quaestione sua gratia eandem distinctionem ipse tamen in eadem distinctione 
+          <lb ed="#L"/>acceptus deo ad vitam aeternam habendam et hoc etiam habet dicere <name ref="#Scotus">doctor subtilis</name>
+          <pb ed="#L" n="54-v"/>
+          <lb ed="#L"/>contra quem ponuntur illa corollaria ut patet in 2a quaestione sua contra eandem distinctionem ipse tamen in eadem distinctione 
           <lb ed="#L"/>ponit triplicem acceptationem prima est simplex complacentia qua deus acceptat omnem rem 
           <lb ed="#L"/>possibilem vel futuram <g ref="#slash"/>2a est efficax et illa est qua vult rem esse in effectu et 
           <lb ed="#L"/>media <choice><orig>neccessario</orig><reg>necessario</reg></choice> requisita ad eam et sic acceptat omne existens 3a est quaedam specialis 
@@ -270,9 +272,9 @@
           <lb ed="#L"/>menti informative inhaerente sed intrinsece et actuative <g ref="#slash"/>utrum autem <name ref="#Lombard">magister</name> 
           <lb ed="#L"/>habitum creatum negaverit dicit <name ref="#Scotus">scotus</name> etiam <name ref="#ThomasStrasbourg">thomas de argentia</name> quod non sicut patet <ref>distinctione 
           <lb ed="#L"/><g ref="#slash"/>3a primi</ref> et <ref>26 2i libri</ref> <g ref="#slash"/>2o dico quod illa inconvenientia illata non secuntur ex 
-          <lb ed="#L"/>dictis <name ref="#Lombard">magistri</name> probat de tribus <unclear>prius</unclear> ostendit <name ref="#GilesOfRome">aegidius noster</name> in hac distinctione parte prima quaestione 2a 
+          <lb ed="#L"/>dictis <name ref="#Lombard">magistri</name> prout de tribus prius ostendit <name ref="#GilesOfRome">aegidius noster</name> in hac distinctione parte prima quaestione 2a 
           <lb ed="#L"/>de aliis tribus ostendit <name ref="#ThomasStrasbourg">thomas de argentia</name> in eadem distinctione quaestione prima articulo ubi vide eius 
-          <lb ed="#L"/>responsiones et rationes probantes habitum caritatis <unclear>causatae</unclear> non esse in <unclear>veritate</unclear></p>
+          <lb ed="#L"/>responsiones et rationes probantes habitum caritatis causatae non esse in virtute</p>
         
         <p xml:id="pgb1q16-d1e1091"><g ref="#pilcrow"/>Ad 2m dicitur 
           <lb ed="#L"/>quod antecedens est verum de forma constitutiva intrinseca vel informativa non autem spiritus sanctus 
@@ -281,11 +283,11 @@
           <lb ed="#L"/>salus et alia hominis salus licet aliter sit dei salus et aliter hominis</p>
         
         <p xml:id="pgb1q16-d1e1108"><g ref="#pilcrow"/>Ad 3m dico quod non 
-          <lb ed="#L"/>semper <name ref="#Paul">apostolus</name> loquitur conformiter ut patet ex dictis <name ref="#Augustine">augustini</name> in 3a conclusione addutis <g ref="#slash"/>ad auctoritatem 
+          <lb ed="#L"/>semper <name ref="#Paul">apostolus</name> loquitur conformiter ut patet ex dictis <name ref="#Augustine">augustini</name> in 3a conclusione adductis <g ref="#slash"/>ad auctoritatem 
           <lb ed="#L"/><name ref="#Augustine">augustini</name> dicentis <quote>quid est spiritus sanctus nisi ipsa caritas <unclear>vitae</unclear> per spiritum sanctum <unclear>focam</unclear></quote> <g ref="#slash"/>dico primo quod 
           <lb ed="#L"/>auctoritas in forma est contra <name ref="#Rimini">gregorium nostrum</name> et pro <name ref="#Lombard">magistro</name> quia <name ref="#Augustine">augustinus</name> dicit <quote>nihil est spiritus sanctus 
           <lb ed="#L"/>nisi ipsa caritas vitae</quote> <g ref="#dot"/> <g ref="#slash"/>2o dico quod non dicit quod spiritus sanctus sit factus vel quod 
-          <lb ed="#L"/>caritas sit facta simpliciter sed quod <corr><del>per</del>facta</corr> est caritas vel quod spiritus sanctus factus 
+          <lb ed="#L"/>caritas sit facta simpliciter sed quod <del>per</del> facta est caritas vel quod spiritus sanctus factus 
           <lb ed="#L"/>est <unclear>in mente</unclear> quia incepit esse caritas <unclear>in mente</unclear> et incepit esse in mente 
           <lb ed="#L"/>sicut deus incepit esse in mundo tamen deus numquam incepit esse multum ergo 
           <lb ed="#L"/>refert dicere spiritus sanctus est facta caritas et dicere caritas facta est in te 
@@ -295,27 +297,33 @@
           <lb ed="#L"/>negatur antecedens quia voluntas non distinguitur ab essentia animae saltem realiter <g ref="#slash"/>2o dico quod consequentia 
           <lb ed="#L"/>non valet etiam apud <name ref="#ThomasStrasbourg">thomam de argentia</name> quia ipse habet concedere quod aliquod accidens potest habere 
           <lb ed="#L"/>plura <unclear>subiecta</unclear> et tamen erunt unum numero quia secundum eum subiectum <unclear>immediatum</unclear> accidentium est 
-          <lb ed="#L"/>ipsa quantitas et subiectum principale est <unclear>substantia</unclear> et illa intellectus se distinguitur sic similiter posito 
+          <lb ed="#L"/>ipsa quantitas et subiectum principale est substantia et illa inter se distinguuntur sic similiter posito 
           <lb ed="#L"/>quod voluntas distingueretur ab anima ad hoc voluntas potest esse subiectum immediatum gratiae et essentia 
-          <lb ed="#L"/>animae subiectum principale et sic posset nuncupari utroque nomine <g ref="#slash"/>ad rationes in oppositum patet ex dictis</p>
+          <lb ed="#L"/>animae subiectum principale et sic posset nuncupari utroque nomine
+        </p>
+        <p xml:id="pgb1q16-ariped">
+          <g ref="#slash"/>ad rationes in oppositum patet ex dictis
+        </p>
         
-        <p xml:id="pgb1q16-d1e1215"><lb ed="#L"/><g ref="#pilcrow"/>Iam nunc accedamus <g ref="#slash"/>prima conclusio quod spiritus sanctus quid deus est ac 3a intrinsece 
+        
+        <p xml:id="pgb1q16-d1e1215"><lb ed="#L"/><g ref="#pilcrow"/>Iam nunc accedamus <g ref="#slash"/>prima conclusio quod spiritus sanctus qui deus est ac 3a intrinsece 
           <lb ed="#L"/>persona a patre et filio ac a se ipso temporaliter procedit seu mittitur fidelibus 
           <lb ed="#L"/>ac donatur</p>
         
         <p xml:id="pgb1q16-d1e1226"><g ref="#pilcrow"/>2a conclusio quod spiritus sanctus est amor seu caritas qua nos di<lb ed="#L"/>ligimus 
-          deum et proximum quae caritas est ita in nobis ut faciat diligere <unclear>nos</unclear> 
+          deum et proximum quae caritas est ita in nobis ut faciat diligere nos 
           <lb ed="#L"/>deum et proximum tunc spiritus sanctus dicitur mitti vel dari nobis et qui diligit ipsam 
-          <pb ed="#L" n="55r"/><lb ed="#L"/>dilectionem qua diligit proximum diligit deum quia ipsa dilectio dei spiritus sanctus eset 
+          <pb ed="#L" n="55-r"/>
+          <lb ed="#L"/>dilectionem qua diligit proximum diligit deum quia ipsa dilectio dei spiritus sanctus eset 
           <lb ed="#L"/>ut probat auctoritatibus <name ref="#Augustine">augustini</name></p>
         
-        <p xml:id="pgb1q16-d1e1245"><g ref="#pilcrow"/>3a conclusio quod spiritus sanctus est amor puris et filii quo 
+        <p xml:id="pgb1q16-d1e1245"><g ref="#pilcrow"/>3a conclusio quod spiritus sanctus est amor patris et filii quo 
           <lb ed="#L"/>se invicem amant et nos</p>
         
-        <p xml:id="pgb1q16-d1e1251"><g ref="#pilcrow"/>4a conclusio quod deus dicitur spes nostra et <unclear>patiam</unclear> nostra 
-          <lb ed="#L"/>non quod ipse deus sit ista sed quia ista sunt non tamen deus dicitur caritas <unclear>illo modo</unclear> 
-          <lb ed="#L"/>qui ipse est caritas ipsa potest ergo dici quod deus seu spiritus sanctus est caritas 
-          <lb ed="#L"/>qui diligimus deum ut ille <unclear>ablativus</unclear> qua dicit habitudinem causae efficientis et formalis 
+        <p xml:id="pgb1q16-d1e1251"><g ref="#pilcrow"/>4a conclusio quod deus dicitur spes nostra et patientia nostra 
+          <lb ed="#L"/>non quod ipse deus sit ista sed quia ista sunt a deo non tamen deus dicitur caritas <unclear>illo modo</unclear> 
+          <lb ed="#L"/>quia ipse est caritas ipsa potest ergo dici quod deus seu spiritus sanctus est caritas 
+          <lb ed="#L"/>qua diligimus deum ut ille <unclear>ablativus</unclear> qua dicit habitudinem causae efficientis et formalis 
           <lb ed="#L"/>non perficientis et inhaerentis sed exemplantis et elevantis <g ref="#slash"/>sequitur distinctionis huius 2a pars</p>
         
         
