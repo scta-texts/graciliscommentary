@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber I, Quaestio 17</title>
+        <title>Book I, Question 17</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Liber I, Quaestio 17</title>
+          <title>Book I, Question 17</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
@@ -40,7 +42,7 @@
       </listChange>
     </revisionDesc>
   </teiHeader>
-  <text xml:lang="la">
+  <text xml:lang="en">
     <front>
       <div xml:id="starts-on">
         <pb ed="#L" n="55-r"/> 
@@ -48,7 +50,7 @@
     </front>
     <body>
       <div xml:id="pg-b1q17">
-        <head xml:id="pg-b1q17-Hd1e95">Quaestio 17</head>
+        <head xml:id="pg-b1q17-Hd1e95">Question 17</head>
         <div xml:id="pg-b1q17-Dd1e98">
           <head xml:id="pg-b1q17-Hd1e100">
             <supplied>Circa textum</supplied>
@@ -384,7 +386,7 @@
             <p xml:id="pgb1q17-d1e529">
               Secundo, contra conclusionem et corollarium primum 
               <app>
-                <lem type="conjecture-corrected"><corr>arguitur</corr></lem>
+                <lem><supplied>arguitur</supplied></lem>
                 <rdg wit="#L">arguit</rdg>
               </app> 
               sic quia sequitur quod tam intense Spiritus Sanctus 
@@ -548,8 +550,10 @@
               bonum quod 
               <app>
                 <lem>in</lem>
-                <rdg wit="#L" type="correction-addition">
-                  <add place="above-line">in</add>
+                <rdg wit="#L" type="corrAddition">
+                  <corr>
+                    <add place="aboveLine">in</add>
+                  </corr>
                 </rdg>
               </app> 
               est vel bonum quod inesset si committens <unclear>talem</unclear> peccatum non committeret 
@@ -643,8 +647,10 @@
               non omne agens producti aliquid. Tertio dicitur quod non oporteret quod 
               <app>
                 <lem>talis</lem>
-                <rdg wit="#L" type="correction-deletion">
-                  <del rend="strikethrough">caritas</del>
+                <rdg wit="#L" type="corrDeletion">
+                  <corr>
+                    <del rend="strikethrough">caritas</del>
+                  </corr>
                 </rdg>
               </app> 
               concursus 
