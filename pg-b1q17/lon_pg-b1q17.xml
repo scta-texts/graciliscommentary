@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,42 +10,43 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.11-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber I, Quaestio 17 [London Transcription]</title>
           <date when="2014-11-13">November 13, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-11-13">November 13, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-11-13" who="#JW" status="draft" n="2014.11">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="55-r"/> 
       </div>
     </front>
     <body>
@@ -94,7 +95,7 @@
         
         <p xml:id="pgb1q17-d1e239"><g ref="#pilcrow"/>prima conclusio licet 
           <lb ed="#L"/>spiritus sanctus non possit mentem creatam immense formare et actuare <g ref="#dot"/> tamen spiritus 
-          <pb ed="#L" n="55v"/><lb ed="#L"/>sanctus est iustae mentis posse <unclear>actuativum</unclear> formale ac salutare prima pars patet quia finitae 
+          <pb ed="#L" n="55-v"/><lb ed="#L"/>sanctus est iustae mentis posse <unclear>actuativum</unclear> formale ac salutare prima pars patet quia finitae 
           <lb ed="#L"/>et mensae repugnat immense actuari et formari in quocumque agere suo <g ref="#slash"/>2a pars 
           <lb ed="#L"/>probatur per <ref><name ref="#Augustine">augustinum</name> libro <title>de gratia et libero arbitrio</title></ref> dicentem formamur et creamur a deo in omnibus 
           <lb ed="#L"/>operibus bonis Item <title>sermone 44 super Iohannem</title> et habentur verba in hac distinctione ubi dicitur 
@@ -148,7 +149,7 @@
           <lb ed="#L"/>venenum</quote> secundum <name ref="#Augustine">augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione 36</p>
         
         <p xml:id="pgb1q17-d1e419"><g ref="#pilcrow"/>3a conclusio absque caritatis creatae intensione 
-          <pb ed="#L" n="56r"/><lb ed="#L"/>vel remissione stat viatorem esse meliorem et perfectiorem morali perfectione 
+          <pb ed="#L" n="56-r"/><lb ed="#L"/>vel remissione stat viatorem esse meliorem et perfectiorem morali perfectione 
           <lb ed="#L"/>aliter ponitur conclusio sine novi gradus vel abiectione in viatoris mente stat 
           <lb ed="#L"/>caritatem intendi et viatorem esse meliorem nunc quam ante probatur conclusio quia 
           <lb ed="#L"/>spiritus sanctus cum quacumque caritate potest aequaliter mentem inclinare ad firmius deo amore 
@@ -157,7 +158,7 @@
           <lb ed="#L"/>consequentia patet quia mentem deum diligere ferventius est viatorem meliorari et caritatem in<lb ed="#L"/>tendi 
         <g ref="#slash"/>hanc conclusionem videtur probare <ref><name ref="#GilesOfRome">dominus aegidius</name> distinctione 17</ref> et <ref>2o quolibet quaestione 14</ref> 
           <lb ed="#L"/>ubi ostendit quod quando caritas intenditur essentia caritatis quo ad gradum essentialem 
-          <lb ed="#L"/>non variatur nolo tamen dicere quod intensio caritatis sic fiat de facto <corr><g ref="#carrot"/><add place="belowLine">sed</add></corr> de possibili</p>
+          <lb ed="#L"/>non variatur nolo tamen dicere quod intensio caritatis sic fiat de facto <seg type="correction"><g ref="#carrot"/><add place="belowLine">sed</add></seg> de possibili</p>
         
         <p xml:id="pgb1q17-d1e461"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium non penes remissionem cupiditatis quantificanda est intensio creatae 
           <lb ed="#L"/>caritatis patet ex conclusione contra <ref><name ref="#HugolinoOfOrvieto">hugolinum</name> distinctione 17</ref> <g ref="#slash"/>confirmatur quia tunc caritas virginis 
@@ -202,7 +203,7 @@
         
         <p xml:id="pgb1q17-d1e582"><g ref="#pilcrow"/>2o contra primum corollarium venialia peccata 
           <lb ed="#L"/>indisponunt hominem ad eliciendum opus bonum ergo remittunt caritatis 
-          <pb ed="#L" n="56v"/><lb ed="#L"/>fervorem patet consequentia quia si idem fervor manet post commissionem talem ergo aeque promp<lb ed="#L"/>te 
+          <pb ed="#L" n="56-v"/><lb ed="#L"/>fervorem patet consequentia quia si idem fervor manet post commissionem talem ergo aeque promp<lb ed="#L"/>te 
         faciliter et delectabiliter peccator operatur sicut ante contra experientiam quia habitus 
           <lb ed="#L"/>oppositus bonis quandoque generatur ex peccatis veniabilibus replicatis</p>
         
@@ -261,7 +262,7 @@
           <lb ed="#L"/>latitudine suae speciei quae est infra latitudinem alterius perfectioris et similiter quantumcumque 
           <lb ed="#L"/>influxus perfectioris agentis remitteretur numquam deveniret ad aequalitatem inferioris</p> 
           
-        <p xml:id="pgb1q17-d1e800"><pb ed="#L" n="57r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 2am conclusionem dicitur quod <name ref="#Augustine">augustinus</name> voluit dicere quod malum adimit vel 
+        <p xml:id="pgb1q17-d1e800"><pb ed="#L" n="57-r"/><lb ed="#L"/><g ref="#pilcrow"/>Ad primum contra 2am conclusionem dicitur quod <name ref="#Augustine">augustinus</name> voluit dicere quod malum adimit vel 
           <lb ed="#L"/>bonum quod <add place="aboveLine">in</add> est vel bonum quod inesset si committens <unclear>talem</unclear> peccatum non committeret 
           <lb ed="#L"/>sic dicitur in proposito quia licet peccatum veniale bonum caritatis non remittat vel 
           <lb ed="#L"/>adimat tamen privat mentem aliquo bono quod haberet si illud non committeret</p>
@@ -323,8 +324,8 @@
           <lb ed="#L"/>consequentia ad probationem dicitur quod deus sine motu et sine productione quacumque potest inten<lb ed="#L"/>dere 
           caritatem sicut sibi placet <g ref="#slash"/>2o dicitur quod dato quod concurreret caritas 
           <lb ed="#L"/>ad sui intensionem active non tamen productive quia non omnis est productio quia 
-          <lb ed="#L"/>non omne agens producti aliquid <g ref="#slash"/>3o dicitur quod non oporteret quod talis <corr><del rend="strikethrough">caritas</del></corr> concursus 
-          <lb ed="#L"/><unclear>terminetur</unclear> ad aliquam entitatem sed ad aliqualiter esse ad qualiter non erat prius</p>
+          <lb ed="#L"/>non omne agens producit aliquid <g ref="#slash"/>3o dicitur quod non oporteret quod talis <del rend="strikethrough">caritas</del> concursus 
+          <lb ed="#L"/>terminetur ad aliquam entitatem sed ad aliqualiter esse ad qualiter non erat prius</p>
         
         <p xml:id="pgb1q17-d1e1023"><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m posset concedi consequens quia aliqua rem esse infinitam non claudit contra dictionem 
           <lb ed="#L"/>secundum aliquos 2o posset negari consequentia</p>
@@ -335,19 +336,22 @@
           <lb ed="#L"/>intensionem caritatis sed non econverso <g ref="#slash"/>2o posset dici quod intendit dicere quod istae sunt 
           <lb ed="#L"/>causae solum partiales et non totales</p>
         
-        <p xml:id="pgb1q17-d1e1052"><g ref="#pilcrow"/>Ad aliam <ref><title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione</ref> dicitur quod caritatis <unclear>vene??m</unclear> 
-          <lb ed="#L"/>licet sit cupiditas non tamen <unclear>s?ois</unclear> <g ref="#slash"/>sicut est venialis cupiditatis ideo per talem <unclear>d<lb ed="#L"/>tantiam</unclear> 
-          non potest <unclear>mensurari</unclear> caritas</p>
+        <p xml:id="pgb1q17-d1e1052"><g ref="#pilcrow"/>Ad aliam <ref><title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione</ref> dicitur quod caritatis venenum 
+          <lb ed="#L"/>licet sit cupiditas non tamen <unclear>s?ois</unclear> <g ref="#slash"/>sicut est venialis cupiditatis ideo per talem dis<lb ed="#L"/>tantiam 
+          non potest mensurari caritas</p>
         
         <p xml:id="pgb1q17-d1e1080"><g ref="#pilcrow"/>2o posset dici quod non omnis cupiditas 
           <lb ed="#L"/>est amor temporalium rerum sicut patet de invidia et blasphemia et multis aliis 
           <lb ed="#L"/>consimilibus Ad auctoritatem <name ref="#Aristotle">philosophi</name> dicitur quod loquitur de motu temporali corporalium ideo 
-          <lb ed="#L"/>non est ad propositum de caritate <g ref="#slash"/> Ad duas <unclear>p?as</unclear> rationes in oppositum patet quid dicendum 
-          <lb ed="#L"/>ex dictis</p>
-        
+          <lb ed="#L"/>non est ad propositum de caritate
+        </p>
+        <p xml:id="pgb1q17-adpded">
+          <g ref="#slash"/> Ad duas primas rationes in oppositum patet quid dicendum 
+          <lb ed="#L"/>ex dictis
+        </p>
         <p xml:id="pgb1q17-d1e1101"><g ref="#pilcrow"/>Ad 3m potest dici quod illae duae caritates facerent unam unitate 
-          <lb ed="#L"/>aggregationis sicut daue aequae faciunt unum per se <g ref="#slash"/>Item una est unitate compositionis 
-          <lb ed="#L"/>et <unclear>homogeneitatis</unclear> ideo non sequitur quod sicut duo habitus in anima solo numero differentes <g ref="#slash"/>ad 
+          <lb ed="#L"/>aggregationis sicut duae aequae faciunt unum per se <g ref="#slash"/>Item una est unitate compositionis 
+          <lb ed="#L"/>et <unclear>homogeneitatis</unclear> ideo non sequitur quod sunt duo habitus in anima solo numero differentes <g ref="#slash"/>ad 
           <lb ed="#L"/>confirmationem dicitur quod gradus postquam est acquisitus est sibi essentialis quia talis gradus cum 
           <lb ed="#L"/>praecedentibus faciunt unam formam per se et constituunt et cum dicitur ergo praeexistens caritas 
           <lb ed="#L"/>haec consequentia negatur quia nihil requisitum a tali specie in esse prius sibi defficiebat 
@@ -355,19 +359,23 @@
           <lb ed="#L"/>erit simul cara pluribus caritativus scilicet intensa et remissa et sic erit intense 
           <lb ed="#L"/>cara et remisse quod patet quia quaelibet forma nata est denominare subiectum et per consequens 
           <lb ed="#L"/>gradus intensus et remissus denominabunt subiectum intensum et remissum <g ref="#slash"/>hic 
-          <lb ed="#L"/>dicitur negando consequentiam quia licet caritas intensa et remissa non contrarientur tamen quia <unclear>re<lb ed="#L"/>missae 
-          carum</unclear> importat negationem intensae caritatis ideo simul non potest esse idem 
-          <lb ed="#L"/>carum <unclear>intensae et remissae</unclear> et cum dicitur quia quaelibet forma etc conceditur quod denomina<lb ed="#L"/>bit 
+          <lb ed="#L"/>dicitur negando consequentiam quia licet caritas intensa et remissa non contrarientur tamen quia re<lb ed="#L"/>misse 
+          carum importat negationem intensae caritatis ideo simul non potest esse idem 
+          <lb ed="#L"/>carum intense et remisse et cum dicitur quia quaelibet forma etc conceditur quod denomina<lb ed="#L"/>bit 
           subiectum sic hoc est tanta caritate carum et tanta etc non autem dicendo 
-          <lb ed="#L"/>hoc est <unclear>remissae</unclear> carum</p>
+          <lb ed="#L"/>hoc est remisse carum</p>
         
         <p xml:id="pgb1q17-d1e1156"><g ref="#pilcrow"/>Hic quaeritur si caritas haec 2a pars 
-          <lb ed="#L"/>distinctionis 17 continet 3 conclusiones <g ref="#slash"/>prima quam ponit <name ref="#Lombard">magister</name> quod caritas quae est spiritus sanctus 
+          <lb ed="#L"/>distinctionis 17 continet 3 conclusiones <g ref="#slash"/>prima quam ponit <name ref="#Lombard">magister</name> quod  <quote xml:id="pg-b1q17-Qcqeenm">caritas quae est spiritus sanctus 
           <lb ed="#L"/>in se non proficit nec <choice><orig>defficit</orig><reg>deficit</reg></choice> nec augetur nec minuitur quia immutabilis est 
-          <lb ed="#L"/>in se sed in corde hominis <unclear>gratia descit</unclear></p>
+          <lb ed="#L"/>in se homo aliquando in ea proficit et defficit sicut deus dicitur magnificari in nobis 
+          <lb ed="#L"/>et exaltari qui tamen in se ipso non exaltatur nec magnificatur</quote> probat per <name ref="#Cassiodorus">cassiodorum</name> 
+          <lb ed="#L"/>super illud psalmum <quote xml:id="pg-b1q17-Qahaeed">accedat homo ad cor altum et exaltabitur deus</quote> dicens <quote xml:id="pg-b1q17-Qdnichg">deus non 
+          <lb ed="#L"/>in se sed in corde hominis grandescit</quote></p>
         
         <p xml:id="pgb1q17-d1e1180"><g ref="#pilcrow"/>2a conclusio quod licet spiritus sanctus sit ubique et 
-          <lb ed="#L"/>in omni creatura tamen non omnis creatura habet ipsum quia aliter bruta et insensibilia ipsum 
+          <lb ed="#L"/>in omni creatura tamen non omnis creatura habet ipsum quia aliter bruta et insensibilia ipsum
+          <pb ed="#L" n="58-r"/>
           <lb ed="#L"/>haberent quod non est dicendum</p>
         
         <p xml:id="pgb1q17-d1e1188"><g ref="#pilcrow"/>3a conclusio quod spiritus sanctus est caritas quae non habenti datur etiam 
