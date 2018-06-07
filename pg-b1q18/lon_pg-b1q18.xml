@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 18 [London Transcription]</title>
+        <title>Liber I, Quaestio 18 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.11-dev-master">
-          <title>Librum I, Quaestio 18 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 18 [London Transcription]</title>
           <date when="2014-11-15">November 15, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-11-15">November 15, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-11-15" who="#JW" status="draft" n="2014.11">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="58-r"/>
       </div>
     </front>
     <body>
@@ -102,7 +103,7 @@
           <lb ed="#L"/>quaelibet mens creata eliciens actum dilectionis meritorium infinite plus diligit 
           <lb ed="#L"/>deum quam sit absolute <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> probatur <unclear>tum</unclear> quia non est absolute <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> quod mens creata 
           <lb ed="#L"/>diligat deum <unclear>tum</unclear> 2o quia infinite minori caritate vel dilectione posset mens deum 
-          <pb ed="#L" n="58v"/><lb ed="#L"/>diligere meritorie</p>
+          <pb ed="#L" n="58-v"/><lb ed="#L"/>diligere meritorie</p>
         
         <p xml:id="pgb1q18-d1e277"><g ref="#pilcrow"/>3m corollarium maior est <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> inter albedinem et esse al<lb ed="#L"/>bum 
           quam inter caritatem creatam et esse carum patet quia nihil potest esse sine albedine album sed 
@@ -158,7 +159,7 @@
         
         <p xml:id="pgb1q18-d1e467"><g ref="#pilcrow"/>contra primam conclusionem 
           <lb ed="#L"/>arguitur si non esset simpliciter <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> aliquam creaturam esse iustam sequeretur quod deus oppositum illius 
-          <pb ed="#L" n="59r"/><lb ed="#L"/>quod aeternaliter ordinavit posset facere consequens est falsum quia tunc deus esset mutabilis 
+          <pb ed="#L" n="59-r"/><lb ed="#L"/>quod aeternaliter ordinavit posset facere consequens est falsum quia tunc deus esset mutabilis 
           <lb ed="#L"/>et consequentia patet quia si non <choice><orig>neccessario</orig><reg>necessario</reg></choice> sic est sicut ordinavit oppositum poterit evenire <g ref="#slash"/> 
           <lb ed="#L"/>confirmatur quia aeternaliter praedestinando <c>a</c><g ref="#dot"/> voluit ipsum fore iustum
         </p>
@@ -224,7 +225,7 @@
           <lb ed="#L"/>est quia quod ab aeterno voluit potest numquam voluisse</p>
         
         <p xml:id="pgb1q18-d1e711"><g ref="#pilcrow"/>Ad 2m conceditur antecedens quia lex illa 
-          <pb ed="#L" n="59v"/><lb ed="#L"/>est deus sed negatur consequentia quia tunc omnia evenirent de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quod est falsum <g ref="#slash"/>2o potest dici quod 
+          <pb ed="#L" n="59-v"/><lb ed="#L"/>est deus sed negatur consequentia quia tunc omnia evenirent de <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> quod est falsum <g ref="#slash"/>2o potest dici quod 
           <lb ed="#L"/>lex potest sumi dupliciter <g ref="#slash"/>uno modo pro aliquo in christo quod est deus alio modo pro <choice><orig>alico</orig><reg>aliquo</reg></choice> complexo quod est dictum 
           <lb ed="#L"/>aliquod aeternaliter ordinasse primo modo conceditur antecedens et negatur consequentia 2o modo negatur antecedens et conceditur consequentia <g ref="#dbslash"/></p>
         
@@ -280,18 +281,17 @@
           <lb ed="#L"/>rectitudine sua sine sue peccato Ad rationes in oppositum patet solutio per dicta superius</p>
         
         <p xml:id="pgb1q18-d1e904"><lb ed="#L"/><hi>s</hi>upra dictum est prima conclusio quod spiritus sanctus operatur in nobis actum credendi 
-          <lb ed="#L"/>est spirandi <unclear>me?bus</unclear> virtutibus scilicet fide et spe actum vero diligendi doctores ponunt 
-          <lb ed="#L"/>quod operatur in nobis sine alicuius virtutis medio vel sine habitu creato</p>
-        
-        <p xml:id="pgb1q18-d1e917"><g ref="#pilcrow"/>Et nota 
+          <lb ed="#L"/>et spirandi mediantibus virtutibus scilicet fide et spe actum vero diligendi doctores ponunt 
+          <lb ed="#L"/>quod operatur in nobis sine alicuius virtutis medio vel sine habitu creato <g ref="#pilcrow"/>Et nota 
           <lb ed="#L"/>quod <ref><name ref="#Lombard">magister</name> hic</ref> videtur negare caritatem creatam ideo communiter hic non tenetur quia praeter actum 
-          <lb ed="#L"/>diligendi ponunt doctores habitum creatum caritatis <g ref="#slash"/>Alii vero sunt quid volunt 
-          <pb ed="#L" n="60r"/><lb ed="#L"/>salvare <name ref="#Lombard">magistrum</name> dicens quod <name ref="#Lombard">magister</name> non intendit huiusmodi habitum negare haec aut 
-          <lb ed="#L"/>relinquo iudicio legentis</p>
+          <lb ed="#L"/>diligendi ponunt doctores habitum creatum caritatis <g ref="#slash"/>Alii vero sunt qui volunt 
+          <pb ed="#L" n="60-r"/><lb ed="#L"/>salvare <name ref="#Lombard">magistrum</name> dicens quod <name ref="#Lombard">magister</name> non intendit huiusmodi habitum negare haec aut 
+          <lb ed="#L"/>relinquo iudicio legentis
+        </p>
         
         <p xml:id="pgb1q18-d1e944"><g ref="#pilcrow"/>2a conclusio quod per donum quod est spiritus sanctus dantur 
-          <lb ed="#L"/>dona et dividuntur non enim singuli habent omnia dona sed hii illa alii alia quamvis 
-          <lb ed="#L"/>omnes habeant ipsum donum scilicet spiritum sanctum a quo omnia dona <unclear>cuiusquamque</unclear> dividuntur</p>
+          <lb ed="#L"/>dona et dividuntur non enim singuli habent omnia dona sed <sic>hii</sic> illa alii alia quamvis 
+          <lb ed="#L"/>omnes habeant ipsum donum scilicet spiritum sanctum a quo omnia dona <unclear>cuiusquaque</unclear> dividuntur</p>
         
       </div>  
     </body>
