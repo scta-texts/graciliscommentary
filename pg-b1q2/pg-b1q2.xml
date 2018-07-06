@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,7 +22,7 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
         <date when="2013-10-10">October 10, 2013</date>
       </publicationStmt>
@@ -31,7 +33,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a critical edition.
@@ -67,7 +69,8 @@
                 <ref target="http://scta.info/resource/pll1d1c1-vanspv">
                 <name ref="#Lombard">Lombardus</name>, 
                 <title>Sent.</title> 
-                I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).</ref>
+                I, d. 1, c. 1, [n. 1] (I, 55, ll. 5).
+                </ref>
               </bibl>
             </cit> 
             etc. 
@@ -90,13 +93,21 @@
                 <ref target="http://scta.info/resource/pll1d1c3-d1e3612">
                   <name ref="#Lombard">Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 1, c. 3, [n. 4/8], (I, 58, ll. 13).</ref>
+                  I, d. 1, c. 3, [n. 4/8] (I, 58, ll. 13).
+                </ref>
               </bibl>
             </cit>.
             Tertia ibi: 
             <cit>
               <quote xml:id="pg-b1q2-Qd1e3766" source="http://scta.info/resource/pll1d1c3-d1e3874" type="lemma">ergo omnium quae dicta sunt</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d1c3-d1e3874">Lombard, Sent. I, d. 1, c. 3, [n. 11/24], (I, 61, ll. 3).</ref></bibl>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d1c3-d1e3874">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 1, c. 3, [n. 11/24] 
+                  (I, 61, ll. 3).
+                </ref>
+              </bibl>
             </cit>.
             Prima pars adhuc dividitur in duas 
             quia primo <name ref="#Lombard">Magister</name> inquirit materias librorum divisive, 
@@ -110,7 +121,8 @@
                 <ref target="http://scta.info/resource/pll1d1c2-faeand">
                   <name ref="#Lombard">Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 1, c. 2, [n. 3/2], (I, 56, ll. 10).</ref>
+                  I, d. 1, c. 2, [n. 3/2] (I, 56, ll. 10).
+                </ref>
               </bibl>
             </cit> 
             etc. 
@@ -128,7 +140,7 @@
                 <ref target="http://scta.info/resource/pll1d1c3-d1e3728">
                   <name ref="#Lombard">Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 1, c. 3, [n. 6/12], (I, 58, ll. 30).
+                  I, d. 1, c. 3, [n. 6/12] (I, 58, ll. 30).
                 </ref>
               </bibl>
             </cit>.
@@ -141,7 +153,7 @@
                 <ref target="http://scta.info/resource/pll1d1c3-d1e3760">
                   <name ref="#Lombard">Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 1, c. 3, [n. 7/14], (I, 59, ll. 20).
+                  I, d. 1, c. 3, [n. 7/14] (I, 59, ll. 20).
                 </ref>
               </bibl>
             </cit>. 
@@ -153,7 +165,7 @@
               <note xml:lang="en">
                 L has "ponit movet" which doesn't make a lot of sense. 
                 Best conjecture here is that the scribe is offering two options, 
-                we've chosen movet over ponit
+                we've chosen "movet" over "ponit".
               </note>
             </app> 
             movet quaestionem, 
@@ -1236,7 +1248,7 @@
                 <bibl>
                   <name ref="#Holcot">Holcot</name>, 
                   <title>Super Sententias</title>, 
-                  q. 4, a. 3, concl. 2, 
+                  q. 4, a. 3, concl. 2 
                   (Lyon 1518, f. e4vb, T).
                 </bibl>
                 <!-- also referenced by Plaoul in http://scta.info/resource/l44-icesod -->
@@ -1282,7 +1294,7 @@
                 <ref target="http://scta.info/resource/pll1d1c1-vanspv">
                 <name>Lombardus</name>, 
                 <title>Sent.</title> 
-                  I, d. 1, c. 1, [n. 1], (I, 55, ll. 5).
+                  I, d. 1, c. 1, [n. 1] (I, 55, ll. 5).
                 </ref>
               </bibl>
             </cit> 
@@ -1307,8 +1319,10 @@
               </ref>
               <bibl>
                 <ref target="http://scta.info/resource/pll1d1c3-d1e3874">
-                  <name>Lombardus</name>, <title>Sent.</title> 
-                  I, d. 1, c. 3, [n. 11/24], (I, 61, ll. 7-9).
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 1, c. 3, [n. 11/24] 
+                  (I, 61, ll. 7-9).
                 </ref>
               </bibl>
             </cit>
