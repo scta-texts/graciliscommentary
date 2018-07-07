@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -18,7 +19,7 @@
       <publicationStmt>
         <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
@@ -28,7 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a critical edition.
@@ -57,8 +58,17 @@
           <head xml:id="pg-b1q10-Hd1e99"><supplied>Circa textum</supplied></head>
           <p xml:id="pgb1q10-d1e83">
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e107" source="http://scta.info/resource/pll1d9c1-d1e3477">Nunc ad distinctionem personarum</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c1-d1e3477">Lombardus, Sent. I, d. 9, c. 1 [n.1], (I, 103, ll. 6).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e107" source="http://scta.info/resource/pll1d9c1-d1e3477" type="lemma">
+                Nunc ad distinctionem personarum
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c1-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 1 [n.1] 
+                  (I, 103, ll. 6).
+                </ref>
+              </bibl>
             </cit>.
             Haec est nona distinctio huius primi in 
             qua postquam <name ref="#Lombard">Magister</name> determinavit de generatione divina, 
@@ -69,8 +79,17 @@
             secundo quantum ad modum dicendi vel significandi extrinsecum. 
             Secunda ibi
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e120" source="http://scta.info/resource/pll1d9c4-d1e3477">hic quaeri potest</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c4-d1e3477">Lombardus, Sent. I, d. 9, c. 4 [n.1], (I, 106, ll. 3).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e120" source="http://scta.info/resource/pll1d9c4-d1e3477" type="lemma">
+                hic quaeri potest
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c4-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 4 [n.1] 
+                  (I, 106, ll. 3).
+                </ref>
+              </bibl>
             </cit>.
           </p>
           <p xml:id="pgb1q10-d1e104">
@@ -82,21 +101,46 @@
             quarto fefellit oppositis praesumptionem. 
             Secunda ibi 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e133" source="http://scta.info/resource/pll1d9c2-d1e3477">genitus est enim</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c2-d1e3477">Lombardus, Sent. I, d. 9, c. 2 [n.1], (I, 103, ll. 15).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e133" source="http://scta.info/resource/pll1d9c2-d1e3477" type="lemma">
+                genitus est enim
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c2-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 2 [n.1]
+                  (I, 103, ll. 15).
+                </ref>
+              </bibl>
             </cit>.
             Tertia 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e143" source="http://scta.info/resource/pll1d9c2-d1e3480">sed contra hoc</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c2-d1e3480">Lombardus, Sent. I, d. 9, c. 2 [n.2], (I, 103, ll. 18).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e143" source="http://scta.info/resource/pll1d9c2-d1e3480" type="lemma">sed contra hoc</quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c2-d1e3480">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 2 [n.2] 
+                  (I, 103, ll. 18).
+                </ref>
+              </bibl>
             </cit>.
             <app>
               <lem type="conjecture-corrected"><corr>Quarta</corr></lem>
               <rdg wit="#L">Quarto</rdg>
             </app> 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e153" source="http://scta.info/resource/pll1d9c3-d1e3477">sed quaeris</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c3-d1e3477">Lombardus, Sent. I, d. 9, c. 3 [n.1], (I, 105, ll. 3).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e153" source="http://scta.info/resource/pll1d9c3-d1e3477" type="lemma">
+                sed quaeris
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c3-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 3 [n.1] 
+                  (I, 105, ll. 3).
+                </ref>
+              </bibl>
             </cit>.
           </p>
           <p xml:id="pgb1q10-d1e116">
@@ -106,32 +150,51 @@
             tertio infert conclusionem circa hoc tenendam. 
             Secunda ibi 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e166" source="http://scta.info/resource/pll1d9c4-d1e3781">dicamus ergo Filium</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c4-d1e3781">Lombardus, Sent. I, d. 9, c. 4 [n.8/13], (I, 109, ll. 6).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e166" source="http://scta.info/resource/pll1d9c4-d1e3781" type="lemma">
+                dicamus ergo Filium
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c4-d1e3781">
+                  <name>Lombardus</name>, 
+                  Sent. I, d. 9, c. 4 [n.8/13] 
+                  (I, 109, ll. 6).
+                </ref>
+              </bibl>
             </cit>. 
             Tertia ibi 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e176" source="http://scta.info/resource/pll1d9c5-d1e3477">
+              <quote xml:id="pg-b1q10-Qd1e176" source="http://scta.info/resource/pll1d9c5-d1e3477" type="lemma">
                 <app>
                   <lem type="conjecture-supplied"><supplied>Sed inquiet haeretics<!-- london leaves this blank. current refernce is a guess--></supplied></lem>
                   <rdg wit="#L" type="variation-absent"/>
                   <note>L leaves a blank here, and the supplied incipit "sed inquiet haereticis" is a likely suggestion of the likely referenced intended by Gracilis.</note>
                 </app>
               </quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c5-d1e3477">Lombardus, Sent. I, d. 9, c. 5 [n.1], (I, 109, ll. 29).</ref></bibl>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c5-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 5 [n.1] 
+                  (I, 109, ll. 29).
+                </ref>
+              </bibl>
             </cit>.
             Et haec est divisio huius lectionis.
           </p>
           </div>
           <div xml:id="pg-b1q10-Dd1e189">
-            <head xml:id="pg-b1q10-Hd1e191"><supplied>Quaestio</supplied></head>
+            <head xml:id="pg-b1q10-Hd1e191">
+              <supplied>Quaestio</supplied>
+            </head>
             <p xml:id="pgb1q10-d1e126">
               <pb ed="#L" n="36-v"/>
               Utrum cuilibet supposito seu personae divinae naturae repugnet prioritas cuiuscumque 
               durativae mensurae?
             </p>
             <div xml:id="pg-b1q10-Dd1e195" type="rationes-principales">
-              <head xml:id="pg-b1q10-Hd1e197"><supplied>Rationes principales</supplied></head> 
+              <head xml:id="pg-b1q10-Hd1e197">
+                <supplied>Rationes principales</supplied>
+              </head> 
               <p xml:id="pgb1q10-qnqsmp">
                 Quod non quia Verbum est mensura creaturae, 
                 ergo Verbum non est Patri coaeternum. 
@@ -160,29 +223,64 @@
                 ergo Verbum non est aeternitas, 
                 nec ea mensuratur. 
                 Antecedens patet per 
-                <ref xml:id="pg-b1q10-Rd1e4006" corresp="#pg-b1q10-Qd1e240"><name ref="#Augustine">Augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title></ref> 
+                <ref xml:id="pg-b1q10-Rd1e4006" corresp="#pg-b1q10-Qd1e240">
+                  <name ref="#Augustine">Augustinum</name>, 
+                  <title ref="#deDiversisQuaestionibus">83 quaestionibus</title>
+                </ref> 
                 ubi dicit: 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e240">Deus est auctor aeternitatis</quote>
-                  <bibl>Augustinus, <title>De diversis quaestionibus octoginta tribus</title>, q.23 (CCSL 44A, 27, ll. 11-12)</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e240" source="http://scta.info/resource/a83-q23">
+                    Deus est auctor aeternitatis
+                  </quote>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De diversis quaestionibus octoginta tribus</title>, 
+                    q. 23 
+                    (CCSL 44A, 27, ll. 11-12).
+                  </bibl>
                 </cit>.
                 Item 
-                <ref xml:id="pg-b1q10-Rd1e4025"><name ref="#Boethius">Boetius</name></ref> 
+                <ref xml:id="pg-b1q10-Rd1e4025">
+                  <name ref="#Boethius">Boetius</name>
+                </ref> 
                 dicit quod 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e253">sicut nunc fluens facit temporis sic nunc 
-                    stans et permanens facit aeternitatem</quote>
-                  <bibl>Boetius, XXX</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e253">
+                    sicut nunc fluens facit temporis sic nunc 
+                    stans et permanens facit aeternitatem
+                  </quote>
+                  <bibl>
+                    <name>Boethius</name>, 
+                    <title>De Trinitate</title> 
+                    4 
+                    (176, ll. 242-245).
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e188">
                 In oppositum est 
-                <ref xml:id="pg-b1q10-Rd1e4041"><name ref="#Lombard">Magister</name> <title ref="#Sentences">Sententiarum</title> in hac distinctione</ref>. 
-                Item, in simile, in hac Trinitate nihil prius aut posterius, etc.
+                <cit>
+                  <ref xml:id="pg-b1q10-Rd1e4041">
+                    <name ref="#Lombard">Magister</name> 
+                    <title ref="#Sentences">Sententiarum</title> 
+                     in hac distinctione
+                 </ref>
+                 <bibl>
+                   <name>Lombardus</name>, 
+                   <title>Sent.</title>, 
+                   XXX.
+                   
+                 </bibl>
+                </cit>. 
+                Item, 
+                in simile, 
+                in hac Trinitate nihil prius aut posterius, etc.
               </p>
             </div>
             <div xml:id="pg-b1q10-Dd1e274">
-              <head xml:id="pg-b1q10-Hd1e276"><supplied>Prima conclusio</supplied></head>
+              <head xml:id="pg-b1q10-Hd1e276">
+                <supplied>Prima conclusio</supplied>
+              </head>
               <p xml:id="pgb1q10-d1e200">
                 Prima conclusio: 
                 licet aeternaliter seu aeternitatis 
@@ -196,8 +294,20 @@
                 quia Deo respectu creaturae conveniunt proprietates mensurae proprie 
                 et non transumptive solum, ergo. 
                 Antecedens ostendit 
-                <ref xml:id="pg-b1q10-Rd1e4059"><name ref="#GilesOfRome">Aegidius</name>, libro secundo, distinctione octava, questione tertia, parte secunda</ref> 
-                quoniam sibi competit ratio numeri temporaliter, uniformiter, simpliciter, et indivisibiliter. 
+                <cit>
+                  <ref xml:id="pg-b1q10-Rd1e4059">
+                    <name ref="#GilesOfRome">Aegidius</name>, 
+                    libro secundo, distinctione octava, questione tertia, parte secunda
+                  </ref>
+                  <bibl>
+                    <name>Aegidius Romanus</name>
+                    <title>Sent.</title>,
+                    II, d. 8, q. 3, p. 2, 
+                    XXX
+                  </bibl>
+                </cit> 
+                quoniam sibi competit 
+                ratio numeri temporaliter, uniformiter, simpliciter, et indivisibiliter. 
                 Secundo, quia creaturae competit ratio 
                 adaequationis dupliciter, 
                 scilicet per conformitatem et imitationem, 
@@ -210,21 +320,39 @@
                 Patet consequentia 
                 quia illae sunt proprietates aeternitatis 
                 ut post patebit. 
-                Et antecedens patet quia secundum <name ref="#GregoryGreat">Gregorium</name> 
+                Et antecedens patet quia secundum 
+                <ref xml:id="pg-b1q10-Rd1e411" corresp="#pg-b1q10-Qeiqvmh">
+                  <name ref="#GregoryGreat">Gregorium</name>
+                </ref> 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qeiqvmh">eo ipso quo creatura est vicissitudinem mutabilitatis habet</quote>
-                  <bibl>Gregorius Magnus, Moralia, V, c. 37, 4</bibl>
+                  <quote xml:id="pg-b1q10-Qeiqvmh">
+                    eo ipso quo creatura est vicissitudinem mutabilitatis habet
+                  </quote>
+                  <bibl>
+                    <name>Gregorius Magnus</name>,
+                    <title>Moralia</title>, 
+                    V, c. 38, 68 
+                    (CCSL 143, 267, ll. 6-7).
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e236">
                 Primum corollarium: 
-                immensitas et aeternitas mensurae non infert immensitatem mensuratae naturae, 
+                immensitas et aeternitas mensurae 
+                non infert immensitatem mensuratae naturae, 
                 contra 
-                <ref xml:id="pg-b1q10-Rd1e4079">
-                  <name ref="#Ripa">Iohannem de Marchia</name> 
-                  quaestione prima <title ref="#SentencesRipa">Sententiarum</title>, 
-                  determinationi in responsione primae contra secundam conclusionem
-                </ref>. 
+                <cit>
+                  <ref xml:id="pg-b1q10-Rd1e4079">
+                    <name ref="#Ripa">Iohannem de Marchia</name> 
+                    quaestione prima 
+                    <title ref="#SentencesRipa">Sententiarum</title>, 
+                    determinationi in responsione primae contra secundam conclusionem
+                  </ref>
+                  <bibl>
+                    <name>Iohannes de Ripa</name>, 
+                    XXX
+                  </bibl>
+                </cit>. 
                 Patet quia 
                 Deus immensus est formalis mensura creaturae, 
                 et tamen creatura non est immensa, 
@@ -273,32 +401,62 @@
                 Secunda conclusio: 
                 sicut summa bonitas est sua supersimplex natura, 
                 sic sua aeternitas est eius omnis mensura. 
-                Probatur per <ref xml:id="pg-b1q10-Rd1e4129"><name ref="#Anselm">Anselmum</name> <title ref="#Monologion">Monologii</title> 24</ref> 
+                Probatur per 
+                <ref xml:id="pg-b1q10-Rd1e4129" corresp="#pg-b1q10-Qd1e356">
+                  <name ref="#Anselm">Anselmum</name>, 
+                  <title ref="#Monologion">Monologii</title> 
+                  24
+                </ref> 
                 ubi ait 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e356">summam substantiam constat sine 
-                    principio et sine fine esse, nec habere praesens, praeteritum, nec futurum</quote>
-                  <bibl>Anselmus, <title>Monologion</title>, 24,(I, 42, ll. 11-12).</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e356" source="http://scta.info/resource/adcmon-c24">
+                    summam substantiam constat sine 
+                    principio et sine fine esse, 
+                    nec habere praesens, praeteritum, nec futurum
+                  </quote>
+                  <bibl>
+                    <name>Anselmus</name>, 
+                    <title>Monologion</title>, 
+                    24 
+                    (I, 42, ll. 11-12).
+                  </bibl>
                 </cit>.
               </p> 
               <p xml:id="pgb1q10-d1e309">
-                Item <ref xml:id="pg-b1q10-Rd1e4152" corresp="#pg-b1q10-Qd1e376"><name ref="#AlexanderDeAlexandria">Alexander</name>  
-                libro <title>De memoria rerum difficilium</title> propositione 52</ref>, 
+                Item, 
+                <ref xml:id="pg-b1q10-Rd1e4152" corresp="#pg-b1q10-Qd1e376">
+                  <name ref="#AlexanderDeAlexandria">Alexander</name>, 
+                  libro <title>De memoria rerum difficilium</title>, 
+                  propositione 52
+                </ref>, 
                 dicit 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e376">tempus rem a suo principio 
-                    distare facit aeternitas vero rem suae causae continuat et coniungit in aeternitate 
-                    non est pars neque prius aut posterius</quote>
-                  <bibl>Alexander de Alexandria, De memoria rerum difficilium, prop. 52 
+                  <quote xml:id="pg-b1q10-Qd1e376">
+                    tempus rem a suo principio distare facit, 
+                    aeternitas vero rem suae causae continuat et coniungit, 
+                    in aeternitate 
+                    non est pars neque prius aut posterius
+                  </quote>
+                  <bibl>
+                    <name>Adam Pulchrae Mulieris</name>, 
+                    <title>Liber de intelligentiis (vel, Memoriale rerum difficilium)</title>, 
+                    54 
+                    (Baeumker, 64, ll. 21-24).
                     <!-- see https://books.google.com/books?id=Am0-AAAAYAAJ&lpg=PA68&ots=7QyImf9WiQ&dq=nullum%20immutabile%20mensuratur&pg=PA64#v=onepage&q=tempus%20rem%20a%20suo%20principio&f=false --></bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e328">Item <ref xml:id="pg-b1q10-Rd1e4173">propositione 44</ref> dicit quod 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e4178">nullum immutabile mensuratur 
+                  <quote xml:id="pg-b1q10-Qd1e4178">
+                    nullum immutabile mensuratur 
                     <pb ed="#L" n="37-r"/> 
-                    mensura successiva aut succedente sed aeterna</quote>
-                  <bibl>Alexander de Alexandria, De memoria rerum difficilium, prop. 44 
+                    mensura successiva aut succedente sed aeterna
+                  </quote>
+                  <bibl>
+                    <name>Adam Pulchrae Mulieris</name>, 
+                    <title>Liber de intelligentiis (vel, Memoriale rerum difficilium)</title>, 
+                    56 
+                    (Baeumker, 68, ll. 13-17). 
                     <!-- see https://books.google.com/books?id=Am0-AAAAYAAJ&lpg=PA68&ots=7QyImf9WiQ&dq=nullum%20immutabile%20mensuratur&pg=PA68#v=onepage&q=nullum%20immutabile%20mensuratur&f=false --></bibl>
                 </cit>.
               </p>
@@ -326,7 +484,15 @@
                 sicut aeternitas est 
                 pluralitatem signorum mensura intrinsece excludens, 
                 sic instans aeternitatis est omnem successionem durativam contentive includens. 
-                Prima pars est contra <ref xml:id="pg-b1q10-Rd1e4201"><name ref="#Scotus">Scotum</name> in locis pluribus</ref> 
+                Prima pars est contra 
+                <cit>
+                  <ref xml:id="pg-b1q10-Rd1e4201">
+                    <name ref="#Scotus">Scotum</name> in locis pluribus
+                  </ref>
+                  <bibl>
+                    <name>Scotus</name>
+                  </bibl>
+                </cit> 
                 quae probatur sic quia aliter tota Trinitas foret multiplicior eius 
                 <app>
                   <lem type="conjecture-corrected"><corr>significatione</corr></lem>
@@ -335,9 +501,11 @@
                 quod est falsum et contra
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4218" target="http://scta.info/resource/pgb1q10-d1e375">secundum corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e375">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e375">Vide supra.</ref></bibl>
                 </cit>. 
-                Item illud signum esset simplicius eius aeternitate, quod est falsum.
+                Item, 
+                illud signum esset simplicius eius aeternitate, 
+                quod est falsum.
               </p>
               <p xml:id="pgb1q10-d1e390">
                 Secunda pars est contra 
@@ -370,45 +538,82 @@
                 aeterni verbi generatio seu aeternum 
                 generari instanti aeternitatis censendum est mensurari. 
                 Haec patet per 
-                <ref xml:id="pg-b1q10-Rd1e4263" corresp="#pg-b1q10-Qgdenoe"><name ref="#JohnDamascenus">Damescenus</name>, libro primo, capitulo octavo</ref> 
+                <ref xml:id="pg-b1q10-Rd1e4263" corresp="#pg-b1q10-Qgdenoe">
+                  <name ref="#JohnDamascenus">Damescenus</name>, 
+                  libro primo, 
+                  capitulo octavo
+                </ref> 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qgdenoe" source="http://scta.info/resource/jddfo-l1c8">generatio divina est sine initio et 
+                  <quote xml:id="pg-b1q10-Qgdenoe" source="http://scta.info/resource/jddfo-l1c8">
+                    generatio divina est sine initio et 
                     <app>
                       <lem type="conjecture-corrected"><corr>aeterna</corr></lem>
                       <rdg wit="#L">aeternae</rdg>
                     </app>, 
-                    naturae opus existens</quote>
-                  <bibl>Ioannes Damascenus, De fide orthodoxa, I, 8, (PG 94, 813: Buytaert 32, 77-80)</bibl>
+                    naturae opus existens
+                  </quote>
+                  <bibl>
+                    <name>Ioannes Damascenus</name>, 
+                    <title>De fide orthodoxa</title>, 
+                    I, 8 
+                    (Buytaert 32, ll. 77-80)</bibl>
                 </cit>.
-                Item probatur ratione quia haec generatio 
+                Item, 
+                probatur ratione quia haec generatio 
                 est invariabilis, incorruptibilis, simultanea absque successione, 
-                sed istae sunt proprietates aeternitatis, ergo. 
+                sed istae sunt proprietates aeternitatis, 
+                ergo. 
                 Prima pars antecedentis patet, 
                 et secunda per 
                 <ref xml:id="pg-b1q10-Rd1e4287" corresp="#pg-b1q10-Qd1e464">
-                  <name ref="#Augustine">Augustinum</name> 
-                  III <title ref="#deTrinitate">De Trinitate</title>, capitulo tertio
+                  <name ref="#Augustine">Augustinum</name>,
+                  III 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo tertio
                 </ref> 
                 dicentem quod 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e464" source="http://scta.info/resource/adcd-l11">Deus est 
-                    vera aeternitas</quote>
-                  <bibl>Augustinus, De Civitate Dei, XI, 28</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e464" source="http://scta.info/resource/adcd-l11">
+                    Deus est vera aeternitas
+                  </quote>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De civitate Dei</title>, 
+                    XI, 28 
+                    (XXX)
+                  </bibl>
                   <note xml:lang="en">Not found in De Trinitate</note>
                 </cit>.
-                Item 
-                <ref xml:id="pg-b1q10-Rd1e4308" corresp="#pg-b1q10-Qviiiea">IV <title ref="#deTrinitate">De Trinitate</title>, capitulo 19</ref> 
+                Item, 
+                <ref xml:id="pg-b1q10-Rd1e4308" corresp="#pg-b1q10-Qviiiea">
+                  IV <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 19
+                </ref> 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qviiiea" source="http://scta.info/resource/adt-l4">vera illius incommunicabilis ipsa est aeternitas</quote>
-                  <bibl>Augustinus, De Trinitate, IV, 18, 24</bibl>
+                  <quote xml:id="pg-b1q10-Qviiiea" source="http://scta.info/resource/adt-l4">
+                    vera illius incommunicabilis ipsa est aeternitas
+                  </quote>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    IV, 18, 24
+                  </bibl>
                 </cit>. 
                 Ad idem est dicens 
-                <ref xml:id="pg-b1q10-Rd1e4324">
-                  <name ref="#GilesOfRome">Aegidius</name>, 
-                  distinctione 8 primi, 
-                  parte secunda, 
-                  quaestione secunda
-                </ref> 
+                <cit>
+                  <ref xml:id="pg-b1q10-Rd1e4324">
+                    <name ref="#GilesOfRome">Aegidius</name>, 
+                    distinctione 8 primi, 
+                    parte secunda, 
+                    quaestione secunda
+                  </ref>
+                  <bibl>
+                    <name>Aegidius Romanus</name>,
+                    <title>Sent.</title> 
+                    I, d. 8, p. 2, q. 2
+                    (XXX)
+                  </bibl>
+                </cit> 
                 ubi ponit has proprietates 
                 <unclear>inforam</unclear>.
               </p>
@@ -417,8 +622,17 @@
                 non stat Verbum pro aliquo signo posse dici 
                 et in illo ipsum per generationem non produci contra 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4338"><name ref="#Scotus">Scotum</name>, distinctione 22 primi, quaestione secunda</ref>
-                  <bibl>Scotus, Ordinatio, I, d. 22, q. 2</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4338">
+                    <name ref="#Scotus">Scotum</name>, 
+                    distinctione 22 primi, 
+                    quaestione secunda
+                  </ref>
+                  <bibl>
+                    <name>Scotus</name>, 
+                    <title>Ordinatio</title>, 
+                    I, d. 12, q. 2 
+                    (Vatican V, 60, ll. 1-12).
+                  </bibl>
                 </cit>.
                 Probatur quia, 
                 si in aliquo signo Pater posset generare Filium 
@@ -455,8 +669,15 @@
               <p xml:id="pgb1q10-d1e569">
                 Tertium corollarium est titulus quaestionis affirmativus quod probat  
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4392"><name ref="#AlphonsusVargas">Dominus Alphonsus</name>, distinctione prima</ref>
-                  <bibl>Alphonsus Vargas, I, d. 1, xxx</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4392">
+                    <name ref="#AlphonsusVargas">Dominus Alphonsus</name>, 
+                    distinctione prima
+                  </ref>
+                  <bibl>
+                    <name>Alphonsus Vargas Toletanus</name>, 
+                    <title>Sent.</title>
+                    I, d. 1, xxx
+                  </bibl>
                 </cit>, 
                 vide ibi. 
                 Confirmatur quia in divinis non est aliqua prioritas praeter originis 
@@ -475,8 +696,15 @@
                 Pater prius origine spirat Spiritum Sanctum quam Filius, 
                 vide 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4408"><name ref="#AlphonsusVargas">Alphonsum</name>, distinctione 9 primi</ref>
-                  <bibl>Alphonsus Vargas, I, d. 9, ??</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4408">
+                    <name ref="#AlphonsusVargas">Alphonsum</name>, 
+                    distinctione 9 primi
+                  </ref>
+                  <bibl>
+                    <name>Alphonsus Vargas Toletanus</name>,
+                    <title>Sent.</title> 
+                    I, d. 9, XXX
+                  </bibl>
                 </cit>.
                 Corollarium responsivum probat <name ref="#AlphonsusVargas">Alphonsus</name> sic, 
                 virtualiter Filio et cuilibet personae divinae 
@@ -496,12 +724,14 @@
               </p>
             </div>
             <div xml:id="pg-b1q10-Dd1e572">
-              <head xml:id="pg-b1q10-Hd1e574">Obiectiones et Responsiones</head> 
+              <head xml:id="pg-b1q10-Hd1e574">
+                <supplied>Obiectiones et Responsiones</supplied>
+              </head> 
               <p xml:id="pgb1q10-d1e651">
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4431" target="http://scta.info/resource/pgb1q10-d1e200">primam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e200">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e200">Vide supra.</ref></bibl>
                 </cit>: 
                 Deus non est eiusdem generis cum creatis, ergo earum non est mensura. 
                 Haec 
@@ -510,14 +740,16 @@
                   <rdg wit="#L">consequentiam</rdg>
                 </app> 
                 patet per 
-                <ref xml:id="pg-b1q10-Rd1e4449" corresp="#pg-b1q10-Qd1e598">
+                <ref xml:id="pg-b1q10-Rd1e4449" corresp="#pg-b1q10-Qd1e598" target="http://scta.info/resource/aristmet-10">
                   <name ref="#Aristotle">Philosophum</name> X <title ref="#Metaphysics">Metaphysicae</title>
+                  <bibl>
+                    <name>Aristoteles</name>, 
+                    <title>Metaphysicae</title> 
+                    X, 1 
+                    (1053a15-23).
+                  </bibl>
                 </ref> 
-                dicentem 
-                <cit>
-                  <quote xml:id="pg-b1q10-Qd1e598" source="http://scta.info/resource/aristmet-l10">mensura debet esse unigena</quote>
-                  <bibl>Augustinus, Metaphysicae, X</bibl>
-                </cit>, 
+                dicentem mensura debet esse unigena
                 id est, unius generis cum mensurato.
               </p>
               <p xml:id="pgb1q10-sdnmpe">
@@ -535,7 +767,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4482" target="http://scta.info/resource/pgb1q10-d1e291">secundam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e291">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e291">Vide supra.</ref></bibl>
                 </cit> 
                 et corollaria eius: 
                 si mensura aeterna foret propria cuilibet operationi divinae intrinsece, 
@@ -582,24 +814,28 @@
                 Quinto, 
                 contra secundum et tertium corollarium 
                 videtur esse illud 
-                <ref xml:id="pg-b1q10-Rd1e4502"><title ref="#io">Iohannis</title> 16</ref>, 
+                <ref xml:id="pg-b1q10-Rd1e4502" corresp="#pg-b1q10-Qd1e628"><title ref="#io">Iohannis</title> 16</ref>, 
                 ubi dicitur 
                 de spiritu 
                 <cit>
                   <quote xml:id="pg-b1q10-Qd1e628" ana="#io16_13">quaecumque audiet loquetur</quote>
-                  <bibl>Ioannes 16:13</bibl>
+                  <bibl>Ioannes 16:13.</bibl>
                 </cit>. 
                 Sed certum est quod illud futurum non potest referri 
                 nisi ad aliquod signum aeternale 
                 et sic erunt plura in aeternitate signa. 
                 Item 
-                <ref xml:id="pg-b1q10-Rd1e4516"><title ref="#io">Iohannis</title> <sic>12</sic></ref> 
+                <ref xml:id="pg-b1q10-Rd1e4516" corresp="#pg-b1q10-Qd1e644">
+                  <title ref="#io">Iohannis</title> <sic>12</sic>
+                </ref> 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e644" ana="#io17_5">clarifica me pater claritate 
+                  <quote xml:id="pg-b1q10-Qd1e644" ana="#io17_5">
+                    clarifica me pater claritate 
                     quam habui priusquam mundus fient</quote>
-                  <bibl>Ioannes 17:5</bibl>
+                  <bibl>Ioannes 17:5.</bibl>
                 </cit>. 
-                Item contra conclusionem 
+                Item, 
+                contra conclusionem 
                 est dictum 
                 <app>
                   <lem><name ref="#Boethius">Boetii</name></lem>
@@ -611,35 +847,39 @@
                   </rdg>
                 </app> 
                 <cit>
-                  <ref target="http://scta.info/resource/pgb1q10-d1e168">superius allegati</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra</ref></bibl>
+                  <ref xml:id="pg-b1q10-Rd1e1001" target="http://scta.info/resource/pgb1q10-d1e168">superius allegati</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra.</ref></bibl>
                 </cit> 
                 quia si aeternitas est facta, 
                 sequitur quod non sit Deus. 
-                Item auctoritas <name ref="#Augustine">Augustini</name>.
+                Item, 
+                auctoritas <name ref="#Augustine">Augustini</name>.
               </p>
               <p xml:id="pgb1q10-d1e766">
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4563" target="http://scta.info/resource/pgb1q10-d1e417">tertiam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e417">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e417">Vide supra.</ref></bibl>
                 </cit> 
                 est 
                 <cit>
-                  <ref target="http://scta.info/resource/pgb1q10-d1e142">ratio facta in oppositum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e142">Vide Supra</ref></bibl>
+                  <ref xml:id="pg-b1q10-Rd1e1027" target="http://scta.info/resource/pgb1q10-d1e142">ratio facta in oppositum</ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e142">Vide Supra.</ref></bibl>
                 </cit> 
-                quia <mentioned>verbum divinum</mentioned>, etc.
+                quia <mentioned>verbum divinum</mentioned>, 
+                etc.
               </p>
               <!-- this is also related to http://scta.info/resource/pgb1q10-d1e142 though there is no explicit ref. isRelatedTo should be added in info.xml file-->
               <p xml:id="pgb1q10-d1e770">
                 Secundo, per illud 
-                <ref xml:id="pg-b1q10-Rd1e4575">
+                <ref xml:id="pg-b1q10-Rd1e4575" corresp="#pg-b1q10-Qd1e687">
                   <title ref="#ex">Exodi</title> 3
                 </ref>
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e687" ana="#ex15_18">Dominus regnabit et ultra</quote>
-                  <bibl>Exodus 15:18</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e687" ana="#ex15_18">
+                    Dominus regnabit et ultra
+                  </quote>
+                  <bibl>Exodus 15:18.</bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e782">
@@ -647,17 +887,30 @@
                 generatio passiva et Filius habet principium, 
                 ergo eius duratio habet principium. 
                 Patet consequentia quia sunt idem. 
-                Antecedens patet 
-                per <ref xml:id="pg-b1q10-Rd1e4593"><name ref="#Augustine">Augustinum</name> V <title ref="#deTrinitate">De Trinitate</title> 14</ref> 
+                Antecedens patet per 
+                <ref xml:id="pg-b1q10-Rd1e4593">
+                  <name ref="#Augustine">Augustinum</name> 
+                  V 
+                  <title ref="#deTrinitate">De Trinitate</title> 
+                  14
+                </ref> 
                 dicentem 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e707" source="http://scta.info/resource/adt-l5">Pater est principium Filii</quote>
-                  <bibl>Augustinus, De Trinitate, V</bibl>
+                  <quote xml:id="pg-b1q10-Qd1e707" source="http://scta.info/resource/adt-l5">
+                    Pater est principium Filii
+                  </quote>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    V, 13, 14 (CCSL 50, 220-221, ll. 1-15).
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e799">
                 Quarto, in divinis est numerus. 
-                Antecedens patet quia Trinitas. Et consequentia patet quia in quolibet numero dualitas sequitur unitatem 
+                Antecedens patet quia Trinitas. 
+                Et consequentia patet 
+                quia in quolibet numero dualitas sequitur unitatem 
                 et unitas praecedit eam.
               </p>
               <p xml:id="pgb1q10-d1e806">
@@ -672,16 +925,26 @@
               </p>
               <p xml:id="pgb1q10-d1e820">
                 <pb ed="#L" n="38-r"/>
-                Pro solutione rationum contra primam conclusionem, notandum quod mensura dicitur multipliciter. Uno modo per ipsius 
-                mensurae replicationem, et sic sumitur 
+                Pro solutione rationum contra primam conclusionem, 
+                notandum quod mensura dicitur multipliciter. 
+                Uno modo per ipsius mensurae replicationem, 
+                et sic sumitur 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4623">X <title ref="#Metaphysics">Metaphysicae</title></ref>
-                  <bibl>Aristoteles, Metaphysicae, X, xxx</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4623" source="http://scta.info/resource/aristmet-l10">
+                    X 
+                    <title ref="#Metaphysics">Metaphysicae</title>
+                  </ref>
+                  <bibl>
+                    <name>Aristoteles</name>, 
+                    <title>Metaphysicae</title>, 
+                    X, 1 (1053a15-23).
+                  </bibl>
                 </cit> 
                 de ponderibus.
               </p>
               <p xml:id="pgb1q10-d1e841">
-                Secundo modo per assimulationem et approximationem aliorum ad ipsum et imitationem. 
+                Secundo modo per assimulationem et approximationem 
+                aliorum ad ipsum et imitationem. 
               </p> 
               <p xml:id="pgb1q10-d1e852">
                 Tertio sumitur secundum 
@@ -689,8 +952,19 @@
                 et sic dicitur ars mensura artificienti, 
                 sic dicitur 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4644">V <title ref="#Metaphysics">Metaphysicae</title></ref>
-                  <bibl>Aristoteles, Metaphysicase, V, xxx</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4644" source="http://scta.info/resource/aristmet-l5">
+                    V <title ref="#Metaphysics">Metaphysicae</title>
+                  </ref>
+                  <bibl>
+                    <name>Aristoteles</name>, 
+                    <title>Metaphysicae</title>, 
+                    V, 24-27 (1023a26-1024a29) 
+                  </bibl>
+                  <note>Cf. 
+                    <name>Aristoteles</name>, 
+                    <title>Metaphysicae</title>, 
+                    X, 1 (1052b1-1053b8).
+                  </note>
                 </cit> 
                 de intelligibili.
               </p>
@@ -855,33 +1129,56 @@
                 temporis de Deo dici possunt. 
                 Haec responsio trahitur ex dictis 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4822"><name ref="#GilesOfRome">Aegidi</name> libro primo, distinctione 
-                    hac, parte tertia, quaestione quarta</ref>
-                  <bibl>Aegidius Romanos, I, d. 9, p. 3, q. 4</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4822">
+                    <name ref="#GilesOfRome">Aegidi</name>, 
+                    libro primo, 
+                    distinctione hac, 
+                    parte tertia, 
+                    quaestione quarta
+                  </ref>
+                  <bibl>
+                    <name>Aegidius Romanus</name>,
+                    <title>Sent.</title>,
+                    d. 8, par. 1, prin. 2, q. 2, a. 4 
+                    (Venice 1521, 50rbE-F).
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-tpdcii">
-                Tertio, potest dici quod 
-                li <mentioned>antequam mundus fieret</mentioned> potest se habere habitualiter, 
+                Tertio, 
+                potest dici quod 
+                li <mentioned>antequam mundus fieret</mentioned> 
+                potest se habere habitualiter, 
                 hoc est, 
-                si fuisset tempus ante mundum, habuisset claritatem in illo.
+                si fuisset tempus ante mundum, 
+                habuisset claritatem in illo.
               </p>
               <p xml:id="pgb1q10-d1e1048">
-                Quarto, posset dici quod, si 
-                recipitur tempus pro quacumque imaginaria successione possibili positiva vel privativa, tunc infinitum tempus 
-                fuit ante mundum quia talia possunt capi pro talibus signis illius imaginarii successus.
+                Quarto, 
+                posset dici quod, 
+                si recipitur tempus
+                pro quacumque imaginaria successione possibili positiva vel privativa, 
+                tunc infinitum tempus 
+                fuit ante mundum quia talia possunt capi 
+                pro talibus signis illius imaginarii successus.
               </p> 
               <p xml:id="pgb1q10-abdapp">
                 <cit>
-                  <ref target="http://scta.info/resource/pgb1q10-d1e168">Ad <name ref="#Boethius">Boetium</name></ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra</ref></bibl>
+                  <ref xml:id="pg-b1q10-Rd1e1342" target="http://scta.info/resource/pgb1q10-d1e168">
+                    Ad <name ref="#Boethius">Boetium</name>
+                  </ref>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra.</ref></bibl>
                 </cit> 
                 dicentem quod <mentioned>nunc stans</mentioned> etc., 
                 conceditur quantum ad nostrae mentis apprehensionem sive 
                 quantum ad nostri intellectus cogitationem. 
                 <cit>
-                  <ref target="http://scta.info/resource/pgb1q10-d1e168">Ad <name ref="#Augustine">Augustini</name></ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra</ref></bibl>
+                  <ref xml:id="pg-b1q10-Rd1e1357" target="http://scta.info/resource/pgb1q10-d1e168">
+                    Ad <name ref="#Augustine">Augustini</name>
+                  </ref>
+                  <bibl>
+                    <ref target="http://scta.info/resource/pgb1q10-d1e168">Vide supra.</ref>
+                  </bibl>
                 </cit> 
                 dicitur quod 
                 loquitur de aeternitate participata et secundum quid, 
@@ -895,7 +1192,7 @@
                     <pb ed="#L" n="38-v"/> 
                     conclusionem
                   </ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e766">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e766">Vide supra.</ref></bibl>
                 </cit>, 
                 dicitur quod, 
                 licet Verbum divinum sit immensum mensura ab eo distincta, 
@@ -903,19 +1200,27 @@
                 quae est sua aeternitas, 
                 prout ostendit 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4869"><name ref="#GilesOfRome">Aegidius</name>, 
-                    distinctione 8 primi, parte tertia, quaestione tertia</ref>
-                  <bibl>Aegidius Romanos, I, d. 8, p. 3, q. 3</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4869">
+                    <name ref="#GilesOfRome">Aegidius</name>, 
+                    distinctione 8 primi, 
+                    parte tertia, 
+                    quaestione tertia
+                  </ref>
+                  <bibl>
+                    <name>Aegidius Romanus</name>, 
+                    d. 8, par. 1, prin. 2, q. 2, a. 3 
+                    (Venice 1521, 50raC).
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e1099">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4884" target="http://scta.info/resource/pgb1q10-d1e770">Ad illud</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e770">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e770">Vide supra.</ref></bibl>
                 </cit>
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4894" ana="#ex15_18"><title ref="#ex">Exodi</title> 3</ref>
-                  <bibl>Exodus 15:18</bibl>
+                  <bibl>Exodus 15:18.</bibl>
                 </cit>
                 dicitur quod sumitur <mentioned>aeternitas</mentioned> dupliciter, 
                 uno modo primo per pro periodo unius cuiusque vitae naturalis, 
@@ -923,20 +1228,33 @@
                 sed secundo modo negatur. 
                 Secundo, 
                 posset dici secundum
-                <ref xml:id="pg-b1q10-Rd1e4905" corresp="#pg-b1q10-Quiqdvn"><name ref="#Anselm">Anselmum</name> <title ref="#Proslogion">Prosologion</title> capitulo tertio</ref>
+                <ref xml:id="pg-b1q10-Rd1e4905" corresp="#pg-b1q10-Quiqdvn">
+                  <name ref="#Anselm">Anselmum</name>, 
+                  <title ref="#Proslogion">Prosologion</title>, 
+                  capitulo tertio
+                </ref>
                 quod Deus est 
                 <cit>
-                  <quote xml:id="pg-b1q10-Quiqdvn" source="http://scta.info/resoruce/adcpros-c20">ultra illa  
-                  quae etiam finem non habebunt tum quia illa nullatenus sine eo esse possunt ipse autem 
-                  non minus esse si omnia in nihilum irent tum secundo quia illa possunt cogitari habere finem Deus 
-                  vero nequaquam tum etiam quia Dei et eorum aeternitas est Deo tota sed eis non.</quote>
-                  <bibl>Anselmus, <title>Prosologion</title>, c. 20</bibl>
+                  <quote xml:id="pg-b1q10-Quiqdvn" source="http://scta.info/resoruce/adcpros-c20">
+                    ultra illa  
+                    quae etiam finem non habebunt tum 
+                    quia illa nullatenus sine eo esse possunt ipse autem 
+                    non minus esse si omnia in nihilum irent tum secundo 
+                    quia illa possunt cogitari habere finem Deus 
+                    vero nequaquam tum etiam 
+                    quia Dei et eorum aeternitas est Deo tota sed eis non
+                  </quote>
+                  <bibl>
+                    <name>Anselmus</name>, 
+                    <title>Prosologion</title>, 
+                    c. 20
+                  </bibl>
                 </cit>. 
               </p>
               <p xml:id="pgb1q10-d1e1145">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4925" target="http://scta.info/resource/pgb1q10-d1e782">Ad tertium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e782">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e782">Vide supra.</ref></bibl>
                 </cit> 
                 primo 
                 negatur consequentia 
@@ -953,7 +1271,7 @@
               <p xml:id="pgb1q10-d1e1178">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4938" target="http://scta.info/resource/pgb1q10-d1e799">Ad quartum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e799">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e799">Vide supra.</ref></bibl>
                 </cit> 
                 de numero, 
                 dicitur quod 
@@ -966,7 +1284,7 @@
               <p xml:id="pgb1q10-d1e1186">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4951" target="http://scta.info/resource/pgb1q10-d1e806">Ad quintum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e806">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q10-d1e806">Vide supra.</ref></bibl>
                 </cit> 
                 negatur minor 
                 quia non ideo dicitur quod 
@@ -974,14 +1292,23 @@
                 quia Pater non immediate producit ipsum, 
                 sed quia Filius habet a Patre virtutem spirativam. 
                 Sed contra hoc obicitur per 
-                <ref xml:id="pg-b1q10-Ralddth" corresp="#pg-b1q10-Qiipnso"><name ref="#Augustine">Augustinum</name> libro <title>de triplici habitaculo</title></ref> 
+                <ref xml:id="pg-b1q10-Ralddth" corresp="#pg-b1q10-Qiipnso">
+                  <name ref="#Augustine">Augustinum</name>, 
+                  libro <title>de triplici habitaculo</title>
+                </ref> 
                 ubi dicit 
                 <cit>
-                  <quote xml:id="pg-b1q10-Qiipnso">iusti in patria videbunt 
+                  <quote xml:id="pg-b1q10-Qiipnso">
+                    iusti in patria videbunt 
                     quid interest inter generationem et spirationem 
                     et videbunt quod Pater praecedit Filium, 
-                    non natura, sed origine</quote>
-                  <bibl>Ps-Augustinus, De triplic habitaculo, cap. 6 (PL 40,996)</bibl>
+                    non natura, sed origine
+                  </quote>
+                  <bibl>
+                    <name>Ps-Augustinus</name>, 
+                    <title>De triplici habitaculo</title>, 
+                    cap. 6 (PL 40, 996).
+                  </bibl>
                   <!-- this is quote in Marsilius of Inghen, p. 140, q. 13, second conclusion, 
                     and Thomas de Argentina In I Sent, d. 9, q. 1 (Venice 1564, fo. 56va) -->
                 </cit>.
@@ -998,19 +1325,37 @@
                 ut <name ref="#Scotus">Scotus</name> et sequaces sui nituntur probare, 
                 quorum rationes solvit 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e4974"><name ref="#AlphonsusVargas">Alphonsus</name> in hac distinctione nona</ref>
-                  <bibl>Alphonsus, In Sent. I, d. 9 (XXX)</bibl>
+                  <ref xml:id="pg-b1q10-Rd1e4974">
+                    <name ref="#AlphonsusVargas">Alphonsus</name> 
+                    in hac distinctione nona
+                  </ref>
+                  <bibl>
+                    <name>Alphonsus Vargas Toletanus</name>, 
+                    <title>Sent.</title> 
+                    I, d. 9 (XXX)
+                  </bibl>
                 </cit>. 
                 Vide ibi.
               </p>
             </div>
           </div>
         <div xml:id="pg-b1q10-Dd1e943">
-          <head xml:id="pg-b1q10-Hd1e945">Conclusiones pro distinctione nona</head>
+          <head xml:id="pg-b1q10-Hd1e945">
+            <supplied>Conclusiones pro distinctione nona</supplied>
+          </head>
           <p xml:id="pgb1q10-d1e1229">
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e952" source="http://scta.info/resource/pll1d9c1-d1e3477">Nunc ad distinctionem personarum</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d9c1-d1e3477">Lombardus, Sent. I, d. 9, c. 1 [n.1], (I, 103, ll. 6).</ref></bibl>
+              <quote xml:id="pg-b1q10-Qd1e952" source="http://scta.info/resource/pll1d9c1-d1e3477" type="lemma">
+                Nunc ad distinctionem personarum
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d9c1-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 9, c. 1 [n.1]
+                  (I, 103, ll. 6).
+                </ref>
+              </bibl>
             </cit>. 
             Haec distinctio continet nona conclusiones. 
             Prima quod Pater, et Filius, et Spiritus Sanctus sunt unus Deus, 
