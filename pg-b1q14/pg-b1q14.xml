@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -28,7 +28,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a critical edition.
@@ -53,11 +53,21 @@
       <div xml:id="pg-b1q14">
         <head xml:id="pg-b1q14-Hd1e95">Quaestio 14</head>
           <div xml:id="pg-b1q14-Dd1e98">
-            <head xml:id="pg-b1q14-Hd1e100"><supplied>Circa textum</supplied></head>
+            <head xml:id="pg-b1q14-Hd1e100">
+              <supplied>Circa textum</supplied>
+            </head>
             <p xml:id="pgb1q14-d1e92">
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e108" source="http://scta.info/resource/pll1d15c1-d1e3477">Hic considerandum est</quote>
-                <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3477">Lombardus, I, d. 15, c. 1, n. 1</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e108" source="http://scta.info/resource/pll1d15c1-d1e3477" type="lemma">
+                  Hic considerandum est
+                </quote>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d15c1-d1e3477">
+                    <name>Lombardus</name>, 
+                    <title>Sent.</title> 
+                    I, d. 15, c. 1, [n. 1].
+                  </ref>
+                </bibl>
               </cit>.
               Haec est distinctio 15 
               quae ad praecedentes sic continuatur, 
@@ -71,18 +81,33 @@
               tertio quaerit an nunc possumus Patrem missum dicere. 
               Secunda ibi 
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e124" source="http://scta.info/resource/pll1d15c1-d1e3514">ne autem 
+                <quote xml:id="pg-b1q14-Qd1e124" source="http://scta.info/resource/pll1d15c1-d1e3514" type="lemma">
+                  ne autem 
                   <app>
                     <lem type="conjecture-corrected"><corr>mireris</corr></lem>
                     <rdg wit="#L">mitteris</rdg> <!-- my lombard text has "mireris"; dbcheck -->
                   </app>
                 </quote>
-                <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3514">Lombardus, I, d. 15, c. 1, n. 5</ref></bibl>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d15c1-d1e3514">
+                    <name>Lombardus</name>, 
+                    <title>Sent.</title> 
+                    I, d. 15, c. 1, [n. 5].
+                  </ref>
+                </bibl>
               </cit>. 
               Tertia ibi 
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e146" source="http://scta.info/resource/pll1d15c9-d1e3477">hic quaeritur, cur Pater</quote>
-                <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, I, d. 15, c. 9, n. 1</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e146" source="http://scta.info/resource/pll1d15c9-d1e3477" type="lemma">
+                  hic quaeritur, cur Pater
+                </quote>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d15c9-d1e3477">
+                    <name>Lombardus</name>, 
+                    <title>Sent.</title> 
+                    I, d. 15, c. 9, n. 1
+                  </ref>
+                </bibl>
               </cit>.
               Prima manet indivisa, 
               sed secunda dividitur in duas 
@@ -90,16 +115,32 @@
               secundo ostendit eiusdem missionis modum varium. 
               Secunda 
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e157" source="http://scta.info/resource/pll1d15c6-d1e3477">hic quaeritur, tantum semel</quote>
-                <bibl><ref target="http://scta.info/resource/pll1d15c6-d1e3477">Lombardus, I, d. 15, c. 6, n. 1</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e157" source="http://scta.info/resource/pll1d15c6-d1e3477" type="lemma">
+                  hic quaeritur, tantum semel
+                </quote>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d15c6-d1e3477">
+                    <name>Lombardus</name>, 
+                    <title>Sent.</title> 
+                    I, d. 15, c. 6, n. 1
+                  </ref>
+                </bibl>
               </cit>.
               Et haec est divisio in generali primae 
               partis huius distinctionis.
             </p>
             <p xml:id="pgb1q14-d1e125">
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e170" source="http://scta.info/resource/pll1d15c6-d1e3477">Hic quaeritur utrum semel tantum</quote>
-               <bibl><ref target="http://scta.info/resource/pll1d15c6-d1e3477">Lombardus, I, d. 15, c. 6, n. 1</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e170" source="http://scta.info/resource/pll1d15c6-d1e3477" type="lemma">
+                  Hic quaeritur utrum semel tantum.
+                </quote>
+               <bibl>
+                 <ref target="http://scta.info/resource/pll1d15c6-d1e3477">
+                   <name>Lombardus</name>, 
+                   <title>Sent.</title> 
+                   I, d. 15, c. 6, n. 1
+                 </ref>
+               </bibl>
               </cit>.
               Ista est secunda pars huius distinctionis principalis, 
               ubi postquam <name ref="#Lombard">Magister</name> 
@@ -111,8 +152,14 @@
               Patrem non esse nec fuisse missum. 
               Secunda ibi 
               <cit>
-               <quote xml:id="pg-b1q14-Qd1e189">hic quaeritur cur</quote>
-               <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, I, d. 15, c. 9, n. 1</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e189" source="http://scta.info/resource/pll1d15c9-d1e3477" type="lemma">hic quaeritur cur</quote>
+               <bibl>
+                 <ref target="http://scta.info/resource/pll1d15c9-d1e3477">
+                   <name>Lombardus</name>, 
+                   <title>Sent.</title>
+                   I, d. 15, c. 9, [n. 1].
+                 </ref>
+               </bibl>
               </cit>.
               Prima indivisa manet 
               sed secunda pars dividitur in duas 
@@ -121,8 +168,16 @@
               secundo circa hoc recitat unam falsam opinionem. 
               Secunda ibi 
               <cit>
-                <quote xml:id="pg-b1q14-Qd1e203" source="http://scta.info/resource/pll1d15c10-d1e3477">ideoque putaverunt quidam haeretici</quote>
-                <bibl><ref target="http://scta.info/resource/pll1d15c10-d1e3477">Lombardus, I, d. 15, c. 10 [n. 1]</ref></bibl>
+                <quote xml:id="pg-b1q14-Qd1e203" source="http://scta.info/resource/pll1d15c10-d1e3477" type="lemma">
+                  ideoque putaverunt quidam haeretici
+                </quote>
+                <bibl>
+                  <ref target="http://scta.info/resource/pll1d15c10-d1e3477">
+                    <name>Lombardus</name>,
+                    <title>Sent.</title>
+                    I, d. 15, c. 10 [n. 1].
+                  </ref>
+                </bibl>
               </cit> 
               etc. 
               Et haec est divisio in generali 
@@ -131,7 +186,9 @@
             </p>
           </div>
           <div xml:id="pg-b1q14-Dd1e212">
-            <head xml:id="pg-b1q14-Hd1e214"><supplied>Quaestio</supplied></head>
+            <head xml:id="pg-b1q14-Hd1e214">
+              <supplied>Quaestio</supplied>
+            </head>
             <p xml:id="pgb1q14-d1e165">
               Utrum quodlibet suppositum divinum mitti 
               <app>
@@ -147,7 +204,9 @@
               et eundem in se habendo non vitaliter percipere.
             </p> 
             <div xml:id="pg-b1q14-Dd1e218" type="rationes-principales">
-              <head xml:id="pg-b1q14-Hd1e220"><supplied>Rationes principales</supplied></head>
+              <head xml:id="pg-b1q14-Hd1e220">
+                <supplied>Rationes principales</supplied>
+              </head>
               <p xml:id="pgb1q14-aqsqpp">
                 Arguitur quod sic 
                 quia recipere est purum passivum 
@@ -172,8 +231,16 @@
                 et tamen sibi non competit mitti, 
                 ut patet 
                 <cit>
-                  <ref xml:id="pg-b1q14-Rd1e236" target="http://scta.info/resource/pll1d15c9-d1e3477">in hac distinctione capitulo penultimo</ref>
-                  <bibl><ref target="http://scta.info/resource/pll1d15c9-d1e3477">Lombardus, Sent., I, d. 15, c. 9 [n. 1]</ref></bibl>
+                  <ref xml:id="pg-b1q14-Rd1e236" target="http://scta.info/resource/pll1d15c9-d1e3477">
+                    in hac distinctione capitulo penultimo
+                  </ref>
+                  <bibl>
+                    <ref target="http://scta.info/resource/pll1d15c9-d1e3477">
+                      <name>Lombardus</name>, 
+                      <title>Sent.</title> 
+                      I, d. 15, c. 9 [n. 1].
+                    </ref>
+                  </bibl>
                 </cit>. 
                 Consequentia patet quia, 
                 si missio et perceptio sunt idem, 
@@ -214,18 +281,36 @@
                     percipitur quantum cognosci et percipi 
                     potest secundum capacitatem animae rationalis
                   </quote>
-                  <bibl><ref target="http://scta.info/resource/pll1d15c7-d1e3489">Lombardus, I, d. 15, c. 7, n. 2</ref></bibl>
+                  <bibl>
+                    <ref target="http://scta.info/resource/pll1d15c7-d1e3489">
+                      <name>Lombardus</name>,
+                      <title>Sent.</title>
+                      I, d. 15, c. 7, [n. 2].
+                    </ref>
+                  </bibl>
                 </cit>.
                 Item,
                 <cit>
-                  <ref xml:id="pg-b1q14-Ric1ic2" corresp="#pg-b1q14-Qd1e270" target="http://scta.info/resource/pll1d15c7-d1e3489">ibidem capitulo 12</ref>
-                  <bibl><ref target="http://scta.info/resource/pll1d15c7-d1e3489">Lombardus, I, d. 15, c. 7, n. 2</ref></bibl>
+                  <ref xml:id="pg-b1q14-Ric1ic2" corresp="#pg-b1q14-Qd1e270" target="http://scta.info/resource/pll1d15c7-d1e3489">
+                    ibidem capitulo 12
+                  </ref>
+                  <bibl>
+                    <ref target="http://scta.info/resource/pll1d15c7-d1e3489">
+                      <name>Lombardus</name>, 
+                      <title>Sent.</title>, 
+                      I, d. 15, c. 7, [n. 2].
+                    </ref>
+                  </bibl>
                 </cit>, 
                 <cit>
                   <quote xml:id="pg-b1q14-Qd1e270" source="http://scta.info/resource/adc-l4">
                     cum ex tempore mente percipitur <mentioned>mitti</mentioned> dicitur
                   </quote>
-                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28</bibl>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>
+                    IV, c. 20, n. 28
+                  </bibl>
                 </cit>. 
               </p>
             </div>
@@ -245,7 +330,7 @@
                 creata intellectiva respectu 
                 fruitionis se habet active. 
                 Consequentia tenet, 
-                et antecedens patet per <title ref="#Decretals">Decretalem</title> Deum benedicti 
+                et antecedens patet per <title ref="#Decretals">Decretalem</title> Deum benedicti <!-- ref here ?? -->
                 quia in duobus actus 
                 intellectus et voluntatis 
                 stat nostra fruitio seu beatitudo formalis consistit 
@@ -280,10 +365,15 @@
                 terminum immensum oppositum huius corollarii ponit 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e315">
-                    <name ref="#Ripa">Iohannes de Marchia</name> in suis <title>Determinationibus</title>
+                    <name ref="#Ripa">Iohannes de Marchia</name> 
+                    in suis <title>Determinationibus</title>
                   </ref>
                   <!-- uncertain; ref needs dbheck-->
-                  <bibl>Ripa, Determinationibus, Q. 3, a. 2, concl. 3</bibl>
+                  <bibl>
+                    <name>Iohannes de Ripa</name>, 
+                    <title>Determinationibus</title>, 
+                    Q. 3, a. 2, concl. 3
+                  </bibl>
                 </cit>.
                 Prima pars patet quia Deus potest supplere duae 
                 causae efficientis vicem.
@@ -302,7 +392,6 @@
             </div>
             <div xml:id="pg-b1q14-Dd1e329">
               <head xml:id="pg-b1q14-Hd1e331">Secunda conclusio</head>
-              <!-- where I left off -->
               <p xml:id="pgb1q14-d1e336">
                 Secunda conclusio: 
                 licet mitti tantum competat Spiritui Sancto et Filio, 
@@ -321,7 +410,12 @@
                   <quote xml:id="pg-b1q14-Qd1e348" source="http://scta.info/resource/adt-l4">
                     non dicitur missus
                   </quote>
-                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28 (PL 42:xxx)</bibl>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    IV, c. 20, n. 28 
+                    (PL 42:xxx)
+                  </bibl>
                 </cit>.
                 Secunda pars antecedentis patet per 
                 <ref xml:id="pg-b1q14-Rd1e355" corresp="#pg-b1q14-Qd1e365">
@@ -340,7 +434,12 @@
                     quia ex femina eum fecit 
                     quia non utique eum sine Spiritu Sancto fecit
                   </quote>
-                  <bibl>Augustinus, De Trinitate, II, c. 5, 8 (PL42:xxx)</bibl>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    II, c. 5, 8 
+                    (PL42:xxx)
+                  </bibl>
                 </cit> 
                 quod autem Spiritus Sanctus 
                 mittatur per eundem 
@@ -355,9 +454,13 @@
                   <quote xml:id="pg-b1q14-Qd1e385" source="http://scta.info/resource/adt-l4">
                     Spiritus Sanctus dat et mittit se ipsum
                   </quote>
-                  <bibl>Augustinus, XXX</bibl>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>
+                    XXX.
+                  </bibl>
                 </cit>.
-                Item 
+                Item, 
                 <ref xml:id="pg-b1q14-Rd1e392" corresp="#pg-b1q14-Qd1e399">
                   <title ref="#io">Iohannis</title> 15
                 </ref> 
@@ -365,7 +468,7 @@
                   <quote xml:id="pg-b1q14-Qd1e399" ana="#io15_26">
                     mittam vobis spiritum veritatis
                   </quote>
-                  <bibl>Ioannes 15:26</bibl>
+                  <bibl>Ioannes 15:26.</bibl>
                 </cit>.
                 Secunda pars probatur quia opera Trinitatis 
                 adextra sunt indivisa, 
@@ -374,9 +477,14 @@
                 Haec est ratio 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e408">
-                    <name ref="#Lombard">Magistri</name> in 15 distinctione
+                    <name ref="#Lombard">Magistri</name> 
+                    in 15 distinctione
                   </ref>
-                  <bibl>Lombard, I, d. 15, XXX</bibl>
+                  <bibl>
+                    <name>Lombardus</name>,
+                    <title>Sent.</title>
+                    I, d. 15, XXX.
+                  </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q14-d1e403">
@@ -410,8 +518,10 @@
                 et tamen sub corporali specie apparuit in transfiguratione quando 
                 vox eius audita fuit dicens,
                 <cit>
-                  <quote xml:id="pg-b1q14-Qheffmd" ana="#mt17_5 #lc15_24 #mc9_6">hic est Filius meus dilectus</quote>
-                  <bibl>Matthaeus 17:5; Lucas 15:24; Marcus 9:6</bibl>
+                  <quote xml:id="pg-b1q14-Qheffmd" ana="#mt17_5 #lc15_24 #mc9_6">
+                    hic est Filius meus dilectus
+                  </quote>
+                  <bibl>Matthaeus 17:5; Lucas 15:24; Marcus 9:6.</bibl>
                 </cit>, 
                 etc. 
                 Ex dictis patet quod 
@@ -434,7 +544,10 @@
                     mitti filium est cognoscere quod ab alio sit
                   </quote>
                   <bibl>
-                    Augustinus, De Trinitate, IV, c. 20, n. 29 (PL 42:xx) 
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    IV, c. 20, n. 29 
+                    (PL 42:xx). 
                     <!-- ita mitti est Filio cognosci quod ab illo sit -->
                   </bibl>
                 </cit>
@@ -463,7 +576,7 @@
                 </ref> 
                 <cit>
                   <ref xml:id="pg-b1q14-Rsamsam" target="http://scta.info/resource/pgb1q14-d1e254">superius allegatum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e254">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e254">Vide supra.</ref></bibl>
                 </cit> 
                 quo dicitur,  
                 <cit>
@@ -471,13 +584,17 @@
                     cum Spiritus Sanctus ex tempore mente percipitur 
                     <mentioned>mitti</mentioned> dicitur
                   </quote>
-                  <bibl>Augustinus, De Trinitate, IV, c. 20, n. 28</bibl>
+                  <bibl>
+                    <name>Augustinus</name>, 
+                    <title>De Trinitate</title>, 
+                    IV, c. 20, n. 28
+                  </bibl>
                 </cit>.
                 Secunda pars patet per illud 
                 <ref xml:id="pg-b1q14-Rd1e476" corresp="#pg-b1q14-Qd1e490">
                   <name ref="#Paul">Apostoli</name> 
-                  <title ref="#Icor"><supplied>I</supplied> 
-                    Ad Corinthios</title> 
+                  <title ref="#Icor">
+                  <supplied>I</supplied> Ad Corinthios</title> 
                   <sic>13</sic>
                 </ref> 
                 <cit>
@@ -485,15 +602,17 @@
                     nihil mihi conscimus sum 
                     sed non in hoc iustificatus sum
                   </quote>
-                  <bibl>I Corinthios 4:4</bibl>
+                  <bibl>I Corinthios 4:4.</bibl>
                 </cit>.
-                Item 
+                Item,
                 <ref xml:id="pg-b1q14-Rd1e497" corresp="#pg-b1q14-Qd1e506">
                   <title ref="io"><sic>2ae</sic> Iohannis</title> capitulo 3
-                </ref> 
+                </ref>,
                 <cit>
-                  <quote xml:id="pg-b1q14-Qd1e506" ana="#io3_8">Ubi Spiritus vult spirat sed nescis unde veniat.</quote>
-                  <bibl>Ioannes 3:8</bibl>
+                  <quote xml:id="pg-b1q14-Qd1e506" ana="#io3_8">
+                    Ubi Spiritus vult spirat sed nescis unde veniat
+                  </quote>
+                  <bibl>Ioannes 3:8.</bibl>
                 </cit> 
                 aut conclusio vadat. 
                 Item, negatio sit an odio, etc.
@@ -538,12 +657,14 @@
               </p>
             </div>
             <div xml:id="pg-b1q14-Dd1e534">
-              <head xml:id="pg-b1q14-Hd1e536">Obiectiones et responsiones</head>
+              <head xml:id="pg-b1q14-Hd1e536">
+                <supplied>Obiectiones et responsiones</supplied>
+              </head>
               <p xml:id="pgb1q14-d1e533">
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e585" target="http://scta.info/resource/pgb1q14-d1e267">primam conclusio</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e267">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e267">Vide supra.</ref></bibl>
                 </cit>, 
                 sequitur quod 
                 memoria creata posset concurrere 
@@ -561,7 +682,7 @@
                 contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e598" target="http://scta.info/resource/pgb1q14-d1e299">primum corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e299">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e299">Vide supra.</ref></bibl>
                 </cit> 
                 repugnat potentiam naturalem supernaturaliter 
                 agere per suum essentiale posse, 
@@ -572,7 +693,7 @@
                 Tertio contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e614" target="http://scta.info/resource/pgb1q14-d1e308">secundum corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e308">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e308">Vide supra.</ref></bibl>
                 </cit> 
                 intelligentia creata concurrit 
                 effective ad motum visionis 
@@ -585,7 +706,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e630" target="http://scta.info/resource/pgb1q14-d1e328">tertium corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e328">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e328">Vide supra.</ref></bibl>
                 </cit>, 
                 <pb ed="#L" n="49-r"/> 
                 sequitur quod perfectiori in naturalibus 
@@ -601,7 +722,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e646" target="http://scta.info/resource/pgb1q14-d1e336">secundam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e336">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e336">Vide supra.</ref></bibl>
                 </cit>,
                 mitti et mittere sunt correlativa, 
                 ergo cum mitti cognoscet relatum originis 
@@ -652,7 +773,11 @@
                     in 
                     <title ref="#deCoelestiHierarchia">De angelica hierarchia</title>
                   </ref>
-                  <bibl>Dionysius, De angelica hierarchia, XXX</bibl>
+                  <bibl>
+                    <name>Ps. Dionysius</name>, 
+                    <title>De angelica hierarchia</title>, 
+                    XXX
+                  </bibl>
                 </cit> 
                 angeli superiores semper assistunt Deo et 
                 non mittuntur propter sui dignitatem, 
@@ -664,7 +789,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e686" target="http://scta.info/resource/pgb1q14-d1e449">tertiam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e449">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e449">Vide supra.</ref></bibl>
                 </cit>, 
                 aliquis potest scire se 
                 esse dignum vita aeterna, 
@@ -680,19 +805,23 @@
                     <title>Glosam</title> super illo 
                     <title ref="#Iio">Primae Iohannis</title>
                   </ref>
-                  <bibl>Glossa ordinaria, xxxx</bibl>
+                  <bibl><title>Glossa ordinaria</title>, xxxx</bibl>
                 </cit>, 
                 <cit>
                   <quote xml:id="pg-b1q14-Qd1e599" ana="#Iio4_18">
                     perfecta caritas foras 
                     mittit timorem</quote>
-                  <bibl>I Iohannes 4:18</bibl>
+                  <bibl>I Iohannes 4:18.</bibl>
                 </cit>. 
                 Antecedens patet 
-                <ref xml:id="pg-b1q14-Rd1e606" corresp="#pg-b1q14-Qd1e613"><title ref="#gen">Genesis</title> 22</ref> 
+                <ref xml:id="pg-b1q14-Rd1e606" corresp="#pg-b1q14-Qd1e613">
+                  <title ref="#gen">Genesis</title> 22
+                </ref> 
                 <cit>
-                  <quote xml:id="pg-b1q14-Qd1e613" ana="#gen22_12">cognovi quia timeas deum</quote>
-                  <bibl>Genesis 22:12</bibl>
+                  <quote xml:id="pg-b1q14-Qd1e613" ana="#gen22_12">
+                    cognovi quia timeas Deum
+                  </quote>
+                  <bibl>Genesis 22:12.</bibl>
                 </cit>, 
                 id est cognoscere te feci. 
                 Item, 
@@ -703,7 +832,7 @@
                   <quote xml:id="pg-b1q14-Qd1e630" ana="#phil4_6">
                     petitiones vestrae innotescant apud Deum
                   </quote>
-                  <bibl>Phil. 4:6</bibl>
+                  <bibl>Phil. 4:6.</bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q14-d1e671">
@@ -721,7 +850,7 @@
                   <quote xml:id="pg-b1q14-Qoqrvap" ana="#mt19_29">
                     omnis qui reliquerit etc. vitam aeternam possidebit
                   </quote>
-                  <bibl>Matthaeus 19:29</bibl>
+                  <bibl>Matthaeus 19:29.</bibl>
                 </cit>.
               </p> 
               <p xml:id="pgb1q14-iappce">
@@ -735,7 +864,7 @@
                 </ref>,
                 <cit>
                   <quote xml:id="pg-b1q14-Qd1e659" ana="#io4_18">perfecta caritas</quote>
-                  <bibl>I Ioannes 4:18</bibl>
+                  <bibl>I Ioannes 4:18.</bibl>
                 </cit>, 
                 etc.
               </p>
@@ -743,7 +872,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e779" target="http://scta.info/resource/pgb1q14-d1e501">primum corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e501">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e501">Vide supra.</ref></bibl>
                 </cit>, 
                 nullus articulus cogit aliquem credere 
                 se esse in caritate, ergo. 
@@ -766,7 +895,7 @@
                 Secundo contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e797" target="http://scta.info/resource/pgb1q14-d1e515">secundum corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e515">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e515">Vide supra.</ref></bibl>
                 </cit> 
                 peccator tenetur 
                 conteri de peccato, 
@@ -780,7 +909,7 @@
                 Contra 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e810" target="http://scta.info/resource/pgb1q14-d1e525">alia corollaria</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e525">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e525">Vide supra.</ref></bibl>
                 </cit> 
                 omnis perceptio est cognitio aliqualis, 
                 et ad intentionem perceptionis, 
@@ -790,7 +919,7 @@
               <p xml:id="pgb1q14-d1e732">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e823" target="http://scta.info/resource/pgb1q14-d1e533">Ad primum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e533">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e533">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur consequentia, 
                 et dicitur ad probationem quod 
@@ -815,7 +944,7 @@
               <p xml:id="pgb1q14-asdiaa">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e837" target="http://scta.info/resource/pgb1q14-d1e544">Ad secundum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e544">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e544">Vide supra.</ref></bibl>
                 </cit>, 
                 dicitur quod antecedens est verum 
                 si per suum naturale posse praecise 
@@ -832,7 +961,7 @@
               <p xml:id="pgb1q14-d1e755">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e852" target="http://scta.info/resource/pgb1q14-d1e552">Ad tertium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e552">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e552">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur minor 
                 quia ad talem motum concurrere 
@@ -841,7 +970,7 @@
               <p xml:id="pgb1q14-d1e761">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e865" target="http://scta.info/resource/pgb1q14-d1e560">Ad quartum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e560">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e560">Vide supra.</ref></bibl>
                 </cit>, 
                 dicitur primo negando consequentiam 
                 quia ad intensionem causae partialis 
@@ -862,7 +991,7 @@
               <p xml:id="pgb1q14-d1e784">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e878" target="http://scta.info/resource/pgb1q14-d1e577">Ad primum contra secundam</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e577">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e577">Vide supra.</ref></bibl>
                 </cit> 
                 conclusio distinguitur de <mentioned>mittere</mentioned> 
                 quia uno modo accipitur principaliter auctorative, 
@@ -880,7 +1009,7 @@
               <p xml:id="pgb1q14-d1e794">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e891" target="http://scta.info/resource/pgb1q14-d1e589">Ad secundum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e589">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e589">Vide supra.</ref></bibl>
                 </cit>, 
                 dicitur quod <mentioned>mitti</mentioned> 
                 dicit relatum non quidem 
@@ -895,17 +1024,17 @@
                 Hoc patet 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e904" target="http://scta.info/resource/pgb1q14-d1e605">ad tertium argumentum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e605">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e605">Vide supra.</ref></bibl>
                 </cit>, 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e698">vide de hoc <name ref="#ThomasStrasbourg">Thomam Argentis</name></ref>
-                  <bibl>Thomas de Argentina, XXX</bibl>
+                  <bibl><name>Thomas de Argentina</name>, XXX.</bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q14-d1e806">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e929" target="http://scta.info/resource/pgb1q14-d1e612">Ad quartum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e612">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e612">Vide supra.</ref></bibl>
                 </cit> 
                 dicitur quod alias 
                 est verum in creatura 
@@ -922,7 +1051,7 @@
               <p xml:id="pgb1q14-d1e837">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e942" target="http://scta.info/resource/pgb1q14-d1e631">Ad primum contra tertiam conclusionem</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e631">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e631">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur antecedens, 
                 et ad probationem dicitur loquendo 
@@ -947,14 +1076,14 @@
               <p xml:id="pgb1q14-d1e865">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e970" target="http://scta.info/resource/pgb1q14-d1e671">Ad aliud</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e671">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e671">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur consequentia 
                 quia non ex operibus iustificatur 
                 quia <name ref="#Socrates">Socrates</name> divitias contempsit 
                 <cit>
                   <ref xml:id="pg-b1q14-Rsimsim">secundum <name ref="#Jerome">Ieromum</name></ref>
-                  <bibl>Jerome, XXX</bibl>
+                  <bibl><name>Jerome</name>, XXX</bibl>
                 </cit>, 
                 et tamen non iustificatus est.
               </p>
@@ -962,7 +1091,7 @@
                 Item 
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e989" target="http://scta.info/resource/pgb1q14-iappce">ad aliud</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-iappce">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-iappce">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur consequentia 
                 quia ex puris naturalibus potest aliquis 
@@ -971,7 +1100,7 @@
               <p xml:id="pgb1q14-d1e884">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e1002" target="http://scta.info/resource/pgb1q14-d1e690">Ad primum contra corollarium</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e690">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-d1e690">Vide supra.</ref></bibl>
                 </cit>, 
                 negatur antecedens 
                 quia continetur sub praenominato 
@@ -984,7 +1113,7 @@
                 </ref>, 
                 <cit>
                   <quote xml:id="pg-b1q14-Qd1e751" ana="#Icor11_28">probet autem se ipsum homo</quote>
-                  <bibl>I Corinthios 11:28</bibl>
+                  <bibl>I Corinthios 11:28.</bibl>
                 </cit> 
                 etc. 
                 Et hoc potest fieri sine 
@@ -1004,7 +1133,7 @@
               <p xml:id="pgb1q14-d1e924">
                 <cit>
                   <ref xml:id="pg-b1q14-Rd1e1049" target="http://scta.info/resource/pgb1q14-cacicf">Ad quartum</ref>
-                  <bibl><ref target="http://scta.info/resource/pgb1q14-cacicf">Vide supra</ref></bibl>
+                  <bibl><ref target="http://scta.info/resource/pgb1q14-cacicf">Vide supra.</ref></bibl>
                 </cit>, 
                 posset concedi consequens 
                 de cogitatione habituali, 
@@ -1019,11 +1148,21 @@
             </div>
           </div>
         <div xml:id="pg-b1q14-Dd1e771">
-          <head xml:id="pg-b1q14-Hd1e773"><supplied>Conclusiones</supplied></head>
+          <head xml:id="pg-b1q14-Hd1e773">
+            <supplied>Conclusiones</supplied>
+          </head>
           <p xml:id="pgb1q14-d1e934">
             <cit>
-              <quote xml:id="pg-b1q14-Qd1e781">Hic considerandum est</quote>
-              <bibl><ref target="http://scta.info/resource/pll1d15c1-d1e3477">Lombardus, I, d. 15, c. 1, n. 1</ref></bibl>
+              <quote xml:id="pg-b1q14-Qd1e781" source="http://scta.info/resource/pll1d15c1-d1e3477" type="lemma">
+                Hic considerandum est
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d15c1-d1e3477">
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 15, c. 1, n. 1
+                </ref>
+              </bibl>
             </cit>.
             Haec distinctio continetur 7 conclusiones. 
             Prima: 
@@ -1066,7 +1205,7 @@
             </ref>,
             <cit>
               <quote xml:id="pg-b1q14-Qd1e812" ana="#io7_28">a me ipso non veni</quote>
-              <bibl>Ioannes 7:28</bibl>
+              <bibl>Ioannes 7:28.</bibl>
             </cit>,
             hoc dictum fuit secundum formam servi 
             secundum quam non est operatus incarnationem 
