@@ -208,7 +208,16 @@
             </p>
             <p xml:id="pgb1q20-d1e3288">
               Tertium corollarium: 
-              licet aequalitas seu identitas quorumlibet aequalium creatoris 
+              licet aequalitas seu identitas quorumlibet aequalium 
+              <sic>
+                creatoris
+                <!-- We would have expected something like "creatura" here, 
+                  but the manuscript clear has "creatoris", and so we have decided to leave it as it is 
+                  with the understanding that the genitive "creatoris" is indicating the "created" status of the 
+                  equal things 
+                  (in lbp-1.1, this could be put in a formal <note> element contained within the <sic> element.) 
+                -->
+              </sic> 
               sit infinite minor identitate 
               identitate divinorum suppositorum, 
               tamen non repugnat secundum aliquam denominationem 
@@ -306,8 +315,14 @@
             </p>
             <p xml:id="pgb1q20-d1e3423">
               Primum corollarium: 
-              quod voluntas intellectus bonitas 
-              et <unclear>huius <!-- shouldn't this be corrected to "huiusmodi" --></unclear> 
+              quod voluntas, intellectus, bonitas 
+              et 
+              <app>
+                <lem type="conjecture-corrected">
+                  <corr>huiusmodi</corr>
+                </lem>
+                <rdg wit="#L">huius</rdg>
+              </app>
               perfectiones attributales non sunt 
               nec dicunt in Deo distinctas formalitates. 
               Patet quia aliter esset processus infinitus in formalitatibus, 
@@ -393,7 +408,7 @@
               quia minima distinctio possibilis est.
             </p>
             <p xml:id="pgb1q20-d1e3533">
-              Tertium corollarium est pars affirmativa conclusion 
+              Tertium corollarium est pars affirmativa conclusionis 
               sumendo <mentioned>supposita</mentioned> 
               cum inclusione originis eorum.
             </p>
@@ -451,7 +466,9 @@
               vel inaequales esse dicimur 
               secundum 
               <cit>
-                <ref xml:id="pg-b1q20-Rphihum"><name ref="#Aristotle">Philosophum</name></ref>
+                <ref xml:id="pg-b1q20-Rphihum">
+                  <name ref="#Aristotle">Philosophum</name>
+                </ref>
                 <bibl>Aristoteles, XXX</bibl>
               </cit>.
             </p>
@@ -503,7 +520,15 @@
                 <bibl><ref target="http://scta.info/resource/pgb1q20-d1e3423">Vide supra</ref></bibl>
               </cit>, 
               sapientia et iustitia formaliter distinguuntur 
-              et ex rationibus eorum formativus in creaturis, 
+              et ex rationibus 
+              <sic>eorum
+                <!-- The manuscripts clearly has a masculine/neuter pronoun 
+                  that does not have a clear antecedent. 
+                  Nevertheless we've left it as is, 
+                  but alert the reader to the ambiguity. 
+                  -->
+              </sic> 
+              formalitatibus in creaturis, 
               ergo ubicumque inveniuntur earum formalitates, 
               ibi et distinctiones 
               quia infinitas non tollit distinctionem in re.
@@ -545,7 +570,7 @@
               </cit>, 
               divina supposita distinguuntur suis proprietatibus, 
               ergo unum suppositum plures habet proprietates quam aliud, 
-              ergo in <unclear>li?a</unclear> distinctionis certa quantitatis 
+              ergo in linea distinctionis certa quantitas 
               huic distinctioni correspondet, 
               igitur una distinctio adintra est 
               proportionalis vel comparabilis alteri distinctioni.
@@ -749,7 +774,7 @@
               sic nec attributa plurificantur ex natura rei in Deo, 
               licet per diversos terminos exprimamus idem significatum. 
               Et hoc est propter debilitatem nostri intellectus 
-              quia aliter capere nec intelligere potest.
+              quia aliter <supplied>nec</supplied> capere nec intelligere potest.
             </p>
             <p xml:id="pgb1q20-d1e3873">
               <cit>
@@ -909,7 +934,12 @@
             nec Pater et Filius maiores Spiritu Sancto, 
             nec maius aliquid duae personae sunt simul quam una, 
             necque tres maius aliquid quam duae, 
-            nec maior est essentia in duabus quam vel tribus quam in una 
+            nec maior est essentia in duabus quam vel tribus 
+            <app>
+              <lem type="conjecture-corrected"><corr>vel</corr></lem>
+              <rdg wit="#L">quam</rdg>
+            </app> 
+            in una 
             quia tota est in singulis.
           </p>
           <p xml:id="pgb1q20-d1e4022">
