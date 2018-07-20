@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -526,10 +523,10 @@
                 etc. 
                 Ex dictis patet quod 
                 mitti non est mere absolutum, 
-                sed aliquae originis connotat respectum. 
+                sed aliquae originis connotat relatum. 
                 Patet quia, 
                 si esset 
-                mere absolutum posset convenire 
+                mere absolutum posset convenire, 
                 sicut Filio et Spiritui Sancto. 
                 Unde 
                 <ref xml:id="pg-b1q14-Rd1e445" corresp="pg-b1q14-Qd1e455">
@@ -610,12 +607,16 @@
                 </ref>,
                 <cit>
                   <quote xml:id="pg-b1q14-Qd1e506" ana="#io3_8">
-                    Ubi Spiritus vult spirat sed nescis unde veniat
+                    Ubi Spiritus vult spirat sed nescis unde veniat aut quo vadat
                   </quote>
                   <bibl>Ioannes 3:8.</bibl>
-                </cit> 
-                aut conclusio vadat. 
-                Item, negatio sit an odio, etc.
+                </cit>.
+                Item, 
+                <cit>
+                  <quote xml:id="pg-b1q14-Qd1e699" ana="#quoh9_1">nescio sit an odio</quote>
+                  <bibl>Ecclesiastes 9:1</bibl>
+                </cit>, 
+                etc.
               </p>
               <p xml:id="pgb1q14-d1e501">
                 Primum corollarium: 
@@ -990,10 +991,15 @@
               </p>
               <p xml:id="pgb1q14-d1e784">
                 <cit>
-                  <ref xml:id="pg-b1q14-Rd1e878" target="http://scta.info/resource/pgb1q14-d1e577">Ad primum contra secundam</ref>
+                  <ref xml:id="pg-b1q14-Rd1e878" target="http://scta.info/resource/pgb1q14-d1e577">Ad primum contra secundam 
+                    <app>
+                      <lem type="conjecture-corrected"><corr>conclusionem</corr></lem>
+                      <rdg wit="#L">conclusio</rdg>
+                    </app>
+                  </ref>
                   <bibl><ref target="http://scta.info/resource/pgb1q14-d1e577">Vide supra.</ref></bibl>
-                </cit> 
-                conclusio distinguitur de <mentioned>mittere</mentioned> 
+                </cit>,
+                distinguitur de <mentioned>mittere</mentioned> 
                 quia uno modo accipitur principaliter auctorative, 
                 alio modo consequenter determinative. 
                 Primo modo,
