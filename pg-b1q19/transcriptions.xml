@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<transcriptions>
-  <transcription use-for-extraction="true">pg-b1q19.xml</transcription>
-  <transcription 
-    hash="head"
-    name="transcription"
-    type="translation"
-    language="en"
-    canonical="true"
-    isTranscriptionOf="en">en_pg-b1q19.xml</transcription>
-  <translationManifestations>
-    <manifestation name="en" lang="en" title="English"/>
-  </translationManifestations>
-</transcriptions>
+<?xml-model href="../../../tdf-schema/src/tdf-1-alt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<list>
+  <manifestation>
+    <name>en</name>
+    <title>English</title>
+    <language>en</language>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>translation</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="0.0.0-dev">Version 0.0.0-dev</versionNo>
+          <url>en_pg-b1q19.xml</url>
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>  
+</list>

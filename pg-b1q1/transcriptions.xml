@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/Users/jcwitt/Projects/scta/tdf-schema/src/tdf-0.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="file:/Users/jcwitt/Projects/scta/tdf-schema/src/tdf-0.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<transcriptions next-version="0.1.0">
-  <!-- hash is used to form the transcription url, if not present it will default to "transcription" -->
-  <!-- type will default to critical if filename is identical to repo  name, otherwise it will default to diplomatic-->
-  <!-- isTranscription of will default to "critical" if filename is identical to repo name, otherwise it will default to filename prefix -->
-  <transcription  
-    hash="head"
-    name="transcription"
-    type="critical"
-    isTranscriptionOf="critical"
-    canonical="true"
-    use-for-extraction="true">pg-b1q1.xml</transcription>
-  <transcription 
-    hash="QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz"
-    name="QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz"
-    versionNo="0.0.0"
-    type="critical"
-    isTranscriptionOf="critical"
-    hasSuccessor="http://scta.info/resource/pg-b1q1/critical/transcription">pg-b1q1.xml</transcription>
-  <transcription 
-    hash="head"
-    name="translation1"
-    type="translation"
-    language="en"
-    canonical="true"
-    isTranscriptionOf="en">en_pg-b1q1.xml</transcription>
-  <transcription 
-    hash="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
-    name="QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8"
-    type="translation"
-    language="en"
-    isTranscriptionOf="en"
-    hasSuccessor="http://scta.info/resource/pg-b1q1/en/translation1">en_pg-b1q1.xml</transcription>
-  <translationManifestations>
-    <manifestation name="en" lang="en" title="English"/>
-  </translationManifestations>
-  
-</transcriptions>
+<?xml-model href="../../../tdf-schema/src/tdf-1-alt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<list>
+  <manifestation manifestationDefault="true">
+    <name>critical</name>
+    <title>Critical</title>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>critical</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev</versionNo>
+          <url>pg-b1q1.xml</url>
+        </version>
+        <version>
+          <hash>QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev</versionNo>
+          <url>https://gateway.scta.info/ipfs/QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz</url>
+        </version>
+      </transcription>
+      <transcription>
+        <type>critical 2</type>
+        <version versionDefault="true">
+          <hash>transcription2</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev-t2</versionNo>
+          <url>pg-b1q1.xml</url>
+        </version>
+        <version>
+          <hash>QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz-t2</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev-tw</versionNo>
+          <url>https://gateway.scta.info/ipfs/QmT6MXgMLCgXVehKQn76vc2hMAYS4yn5n1h48VRe81A3Rz</url>
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>
+  <manifestation>
+    <name>en</name>
+    <title>English</title>
+    <language>en</language>
+    <transcriptions>
+      <transcription transcriptionDefault="true">
+        <type>translation</type>
+        <version versionDefault="true">
+          <hash>transcription</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev</versionNo>
+          <url>en_pg-b1q1.xml</url>
+        </version>
+        <version>
+          <hash>QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8</hash>
+          <versionNo n="1.0.0-dev">Version 1.0.0-dev</versionNo>
+          <url>https://gateway.scta.info/ipfs/QmP4FPs1fhvTHDkbuRgEsYuKdSUXG1Dr2ApSCiDBYFW7K8</url>
+        </version>
+      </transcription>
+    </transcriptions>
+  </manifestation>  
+</list>
