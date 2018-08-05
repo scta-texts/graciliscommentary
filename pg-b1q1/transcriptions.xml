@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../../tdf-schema/src/tdf-1-alt.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-1.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <list>
   <manifestation manifestationDefault="true">
     <name>critical</name>
     <title>Critical</title>
     <transcriptions>
       <transcription transcriptionDefault="true">
+        <title>Critical 1</title>
         <type>critical</type>
         <version versionDefault="true">
           <hash>transcription</hash>
@@ -19,7 +20,8 @@
         </version>
       </transcription>
       <transcription>
-        <type>critical 2</type>
+        <title>Critical 2</title>
+        <type>critical</type>
         <version versionDefault="true">
           <hash>transcription2</hash>
           <versionNo n="1.0.0-dev">Version 1.0.0-dev-t2</versionNo>
