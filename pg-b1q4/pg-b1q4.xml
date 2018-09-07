@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -476,15 +474,26 @@
               Sed nullum tale videtur ponendum praeter animam, ergo. 
               Confirmatur, voluntas est causa volitionis, ergo et anima. 
               Probatur consequentia 
-              quia voluntas est una mens, 
-              una substantia, una vita, 
+              quia voluntas est 
               <cit>
-                <ref xml:id="pg-b1q4-Rd1e4190">secundum <name ref="#Augustine">Augustinum</name></ref>
-                <bibl>Augustinus, ??</bibl>
-              </cit> 
+                <quote xml:id="pg-b1q4-Qd1e529" source="http://scta.info/resource/adt-l10">
+                  una mens, 
+                  una substantia, 
+                  una vita
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  X, c. 11, n. 18 
+                  (CCSL 50, 331, ll. 63).
+                </bibl>
+              </cit>,
+              <ref xml:id="pg-b1q4-Rd1e4190" corresp="#pg-b1q4-Qd1e529">
+                secundum <name ref="#Augustine">Augustinum</name>
+              </ref>
               et 
               <cit>
-                <ref xml:id="pg-b1q4-Rd1e4201" target="http://scta.info/resource/pll1d3c2-d1e3524">
+                <ref xml:id="pg-b1q4-Rd1e4201" corresp="#pg-b1q4-Qd1e529" target="http://scta.info/resource/pll1d3c2-d1e3524">
                   allegatur a <name ref="#Lombard">Magistro</name> in hac distinctione
                 </ref>
                 <bibl>
@@ -494,7 +503,7 @@
                     I, d. 3, c. 2, [n.4/3] 
                     (I, 73, ll. 8-12).
                   </ref>
-                </bibl> <!-- target needs double check -->
+                </bibl> 
               </cit>.
               Antecedens patet per 
               <ref xml:id="pg-b1q4-Rd1e4214" corresp="#pg-b1q4-Qd1e4097">
@@ -554,7 +563,7 @@
                   <name>Anselmus</name>, 
                   <title>De conceptu Virginali</title>, 
                   c. 4 
-                  (II, 145, ll. 23-26) <!-- not sure if line below is a quote or not -->
+                  (II, 145, ll. 23-26). <!-- not sure if line below is a quote or not -->
                 </bibl>
               </cit>, 
               in membris corporis 
@@ -567,7 +576,7 @@
               causa effectiva partialis, 
               ut patet per 
               <ref xml:id="pg-b1q4-Rd1e4287" corresp="pg-b1q4-Qd1e4173">
-                <name  ref="#Augustine">Augustinum</name> 
+                <name ref="#Augustine">Augustinum</name> 
                 IX 
                 <title ref="#deTrinitate">De Trinitate</title>, 
                 capitulo 13
@@ -614,8 +623,7 @@
               ergo. 
               Consequentia et antecedens patent 
               <cit>
-                <ref xml:id="pg-b1q4-Rd1e4336" 
-                  target="http://scta.info/resource/adt-l9 http://scta.info/resource/adt-l10 http://scta.info/resource/adt-l14">
+                <ref xml:id="pg-b1q4-Rd1e4336" target="http://scta.info/resource/adt-l9 http://scta.info/resource/adt-l10 http://scta.info/resource/adt-l14">
                   ex dictis <name ref="#Augustine">Augustini</name>
                 </ref>
                 <bibl>
@@ -1217,7 +1225,7 @@
           <p xml:id="pgb1q4-d1e90">
             Secunda conclusio: 
             <cit>
-              <quote type="paraphrase">
+              <quote xml:id="pg-b1q4-Qd1e1431" type="paraphrase">
                 Deus, qui est natura incomprehensibilis seu invisibilis per creaturas, 
                 ab homine potest sciri
               </quote>
@@ -1230,11 +1238,15 @@
             </cit>. 
             Et 
             <cit>
-              <ref><name ref="#Lombard">Magister</name> ad hoc probandum addunt quattuor rationes</ref>
-              <bibl><name>Lombardus</name>, 
+              <ref xml:id="pg-b1q4-Rd1e1446">
+                <name ref="#Lombard">Magister</name> ad hoc probandum addunt quattuor rationes
+              </ref>
+              <bibl>
+                <name>Lombardus</name>, 
                 <title>Sent.</title> 
                 I, d. 3, c. 1, nn. 2-5 
-                (I, 69-70).</bibl>
+                (I, 69-70).
+              </bibl>
             </cit>. 
             Prima sic potest formari: 
             illud est super omnem creaturam et est Deus 
