@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,12 +55,16 @@
          <p xml:id="pgb1q12-d1e92">
            <pb ed="#L" n="42-v"/>
            <cit>
-             <quote xml:id="pg-b1q12-Qd1e3509" source="http://scta.info/resource/pll1d12c1-d1e3477">Item quaeritur</quote>
-             <bibl><ref target="http://scta.info/resource/pll1d12c1-d1e3477">
-               <name>Lombardus</name>,
-               <title>Sent.</title> 
-               I, d. 12, c. 1, n. 1.
-             </ref>
+             <quote xml:id="pg-b1q12-Qd1e3509" source="http://scta.info/resource/pll1d12c1-d1e3477" type="lemma">
+               Item quaeritur
+             </quote>
+             <bibl>
+               <ref target="http://scta.info/resource/pll1d12c1-d1e3477">
+                <name>Lombardus</name>,
+                <title>Sent.</title> 
+                I, d. 12, c. 1, [n. 1]
+                (I, 118, ll. 4).
+              </ref>
              </bibl>
            </cit> 
            etc. 
@@ -75,12 +77,15 @@
            secundo ostendit differentiam generationis et spirationis. 
            Secunda in principio 13 distinctionis ibi 
            <cit>
-             <quote xml:id="pg-b1q12-Qd1e3526" source="http://scta.info/resource/pll1d13c1-d1e3477">post haec</quote>
+             <quote xml:id="pg-b1q12-Qd1e3526" source="http://scta.info/resource/pll1d13c1-d1e3477" type="lemma">
+               post haec
+             </quote>
              <bibl>
                <ref target="http://scta.info/resource/pll1d13c1-d1e3477">
                <name>Lombardus</name>,
                <title>Sent.</title> 
-                 I, d. 13, c. 1, n. 1.
+                 I, d. 13, c. 1, n. 1
+                 (I, 121, ll. 5).
                </ref>
              </bibl>
            </cit> 
@@ -92,12 +97,15 @@
             secundo ponit ad eas responsiones. 
             Secunda ibi 
             <cit>
-              <quote xml:id="pg-b1q12-Qd1e3539" source="http://scta.info/resource/pll1d12c1-d1e3480">his et huius quaestionibus</quote>
+              <quote xml:id="pg-b1q12-Qd1e3539" source="http://scta.info/resource/pll1d12c1-d1e3480" type="lemma">
+                his et huius quaestionibus
+              </quote>
               <bibl>
                 <ref target="http://scta.info/resource/pll1d12c1-d1e3480">
                   <name>Lombardus</name>, 
                   <title>Sent.</title>
-                  I, d. 12, c. 1 [n. 2]
+                  I, d. 12, c. 1, [n. 3/2]
+                  (I, 118, ll. 13).
                 </ref>
               </bibl>
             </cit>.
@@ -108,25 +116,29 @@
             tertio ponit aliquarum auctoritatum intellectum in sensu vario. 
             Secunda ibi 
             <cit>
-              <quote xml:id="pg-b1q12-Qd1e3548" source="http://scta.info/resource/pll1d12c2-d1e3477">nunc autem tractandum</quote>
+              <quote xml:id="pg-b1q12-Qd1e3548" source="http://scta.info/resource/pll1d12c2-d1e3477" type="lema">
+                nunc autem tractandum
+              </quote>
               <bibl>
                 <ref target="http://scta.info/resource/pll1d12c2-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 12, c. 2 [n. 1].
+                  I, d. 12, c. 2, [n. 1]
+                  (I, 119, ll. 3)
                 </ref>
               </bibl>
             </cit>.
             Tertia ibi 
             <cit>
-              <quote xml:id="pg-b1q12-Qd1e3557" source="http://scta.info/resource/pll1d12c2-d1e3480">
+              <quote xml:id="pg-b1q12-Qd1e3557" source="http://scta.info/resource/pll1d12c2-d1e3480" type="lemma">
                 <name ref="#Augustine">Augustinus</name> tamen
               </quote>
               <bibl>
-                  <ref target="http://scta.info/resource/pll1d12c2-d1e3480" type="lemma">
+                  <ref target="http://scta.info/resource/pll1d12c2-d1e3480">
                   <name>Lombardus</name>, 
                   <title>Sent.</title>, 
-                  I, d. 12, c. 2 [n. 2]
+                  I, d. 12, c. 2 [n. 2],
+                  (I, 119, ll. 8)
                 </ref>
               </bibl>
             </cit>.
@@ -134,11 +146,14 @@
           <p xml:id="pgb1q12-d1e138">
             Tunc sequitur distinctio 13 
             <cit>
-              <quote xml:id="pg-b1q12-Qd1e3571" type="lemma">post haec</quote>
+              <quote xml:id="pg-b1q12-Qd1e3571" source="http://scta.info/resource/pll1d13c1-d1e3477" type="lemma">
+                post haec
+              </quote>
               <bibl>
                 <name>Lombardus</name>,
                 <title>Sent.</title>
-                I, d. 13, c. 1, n. 1.
+                I, d. 13, c. 1, n. 1
+                (I, 121, ll. 25)
               </bibl>
             </cit> 
             etc., 
@@ -155,7 +170,8 @@
                   <ref target="http://scta.info/resource/pll1d13c4-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 13, c. 4, n. 1
+                  I, d. 13, c. 4, [n. 1]
+                  (I, 124, ll. 2)
                 </ref>
               </bibl>
             </cit>.
@@ -173,7 +189,8 @@
                 <ref target="http://scta.info/resource/pll1d13c2-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 13, c. 2, [n. 1].
+                  I, d. 13, c. 2, [n. 1]
+                  (I, 122, ll. 14-15).
                 </ref>
               </bibl>
             </cit>. 
@@ -186,7 +203,8 @@
                 <ref target="http://scta.info/resource/pll1d13c3-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 13, c. 3, [n. 1].
+                  I, d. 13, c. 3, [n. 1]
+                  (I, 122, ll. 29).
                 </ref>
               </bibl>
             </cit>. 
@@ -210,7 +228,8 @@
                 <ref target="http://scta.info/resource/pll1d13c4-d1e3526">
                   <name>Lombardus</name>, 
                   <title>Sent.</title>
-                  I, d. 13, c. 4, [n. 5].
+                  I, d. 13, c. 4, [n. 3/5]
+                  (I, 124, 20).
                 </ref>
               </bibl>
             </cit>. 
@@ -223,7 +242,8 @@
                 <ref target="http://scta.info/resource/pll1d13c4-d1e3552">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 13, c. 4, [n. 7].
+                  I, d. 13, c. 4, [n. 4/7]
+                  (I, 124, ll. 27-28).
                 </ref>
               </bibl>
             </cit> 
@@ -258,20 +278,31 @@
                 <ref xml:id="pg-b1q12-Ragmagm">
                   <name ref="#Augustine">Augustinum</name>
                 </ref>
-                <bibl>XXX, <!-- Augustinus, Ad Maximinum , II, c. 14, n. 1 (PL 42:770) which is what Lombard cites after the quote below --></bibl>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Contra Maximinum</title> 
+                  2, 14, 1 
+                  (PL 42, 770-71).
+                </bibl>
               </cit> 
               et 
               <ref xml:id="pg-b1q12-Rd1e3649" corresp="#pg-b1q12-Qd1e3656">
-                <name ref="#Lombard">Magistrum</name> in litera huius distinctionis 13
+                <name ref="#Lombard">Magistrum</name> 
+                in litera huius distinctionis 13
               </ref> 
               dicentem: 
               <cit>
-                <quote xml:id="pg-b1q12-Qd1e3656">inter generationem et processionem, dum hic vivimus, distinguere non possumus</quote>
+                <quote xml:id="pg-b1q12-Qd1e3656">
+                  inter generationem et processionem, 
+                  dum hic vivimus, 
+                  distinguere non possumus
+                </quote>
                 <bibl>
                   <ref target="http://scta.info/resource/pll1d13c3-d1e3477">
                     <name>Lombard</name>, 
                     <title>Sent.</title>
-                    I, d. 13, c. 3, [n. 1].
+                    I, d. 13, c. 3, [n. 1-4/1]
+                    (I, 122, ll. 29-123, ll. 32).
                   </ref>
                 </bibl>
               </cit>.
@@ -326,12 +357,13 @@
                 <bibl>
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 13, XXX.
+                  I, d. 13, c. 3-4 
+                  (I, 122, ll. 29- 125, ll. 25).
                 </bibl>
               </cit> 
               et 
               <cit>
-                <ref xml:id="pg-b1q12-Rd1e3694" target="http://scta.info/resource/adt-l1">
+                <ref xml:id="pg-b1q12-Rd1e3694" target="http://scta.info/resource/adt-l5">
                   <name ref="#Augustine">Augustinus</name>, 
                   primo <title ref="#deTrinitate">De Trinitate</title>, 
                   capitulo sexto
@@ -339,13 +371,16 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title> 
-                  I, XXX.
+                  V, 6-7 
+                  (CCSL 50, 211, ll. 1- 215, ll. 66).
                 </bibl>
               </cit>.
             </p>
           </div>
           <div xml:id="pg-b1q12-Dd1e3703">
-            <head xml:id="pg-b1q12-Hd1e3705"><supplied>Prima conclusio</supplied></head>
+            <head xml:id="pg-b1q12-Hd1e3705">
+              <supplied>Prima conclusio</supplied>
+            </head>
             <p xml:id="pgb1q12-d1e287">
               Prima conclusio: 
               licet sit impossibile non distingui 
@@ -357,11 +392,8 @@
               quam nunc de facto sit 
               si illae productiones non distinguerentur. 
               Sed hoc est impossibile, ergo. 
-              Impossibilitas patet 
-              <cit>
-                <ref xml:id="pg-b1q12-Rpsdpsd">per superius dictam</ref>
-                <bibl>XXX</bibl>
-              </cit> 
+              Impossibilitas patet
+              per superius dictam
               quia qualitercumque est 
               ad intra taliter necesse est esse. 
               Secunda pars patet per 
@@ -372,7 +404,8 @@
                 <bibl>
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, XXX
+                  I, d. 13, c. 3, n. 4 
+                  (I, 123, ll. 21-32). 
                 </bibl>
               </cit>. 
               Item, per 
@@ -384,15 +417,15 @@
               </ref>, 
               dicentem quod 
               <cit>
-                <quote xml:id="pg-b1q12-Qd1e3726" source="http://scta.info/resource/adt-l13">
+                <quote xml:id="pg-b1q12-Qd1e3726" source="http://scta.info/resource/adt-l15">
                   illam trinitatem in hac 
                   luce videbimus ubi nulla ratio erit
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  XIII, 
-                  c. 13, xxx
+                  XV, 25, 45 
+                  (CCSL 50A, 523, ll. 17- 524, ll. 21)
                 </bibl>
               </cit>. 
               Et confirmatur tota conclusio per 
@@ -403,13 +436,15 @@
               </ref>
               dicentem 
               <cit>
-                <quote xml:id="pg-b1q12-Qd1e3740">
+                <quote xml:id="pg-b1q12-Qd1e3740" source="http://scta.info/resource/jddfo-l1c8">
                   quomodo est quaedam differentia 
                   generationis et processionis dicimus
                 </quote> <!-- confirm quote -->
                 <bibl>
                   <name>Damascenus</name>, 
-                  XXX.
+                  <title>De fide orthodoxa</title> 
+                  I, 8 
+                  (Buytaert, 40, ll. 216-217).
                 </bibl>
               </cit>.
               Quis autem 
@@ -522,7 +557,12 @@
                   numero et non specie seu natura 
                   differre dicimus hypostases
                 </quote>
-                <bibl><name>Damascenus</name>, XXX</bibl>
+                <bibl>
+                  <name>Damascenus</name>, 
+                  <title>De fide orthodoxa</title> 
+                  3, 6 
+                  (Buytaert, 186, ll. 9-10)
+                </bibl>
               </cit>, 
               igitur.
             </p> 
@@ -555,14 +595,15 @@
                   libro primo, 
                   distinctione 
                   <app>
-                    <lem type="conjecture-supplied"><supplied>12?</supplied></lem> <!-- 12 is a guess and needs to be confirmed -->
+                    <lem type="conjecture-supplied"><supplied>13</supplied></lem> 
                     <rdg wit="#L"><space unit="chars" extent="1"/></rdg>
                   </app>
                 </ref>
                 <bibl>
                   <name>Thomas Argentina</name>, 
                   <title>Sent.</title>, 
-                  I, d. XXXXXX
+                  I, d. 12-13, q. 1, a. 3 
+                  (Venice 1564, 64ra-rb).
                 </bibl>
                 <!-- possible quote below -->
               </cit>, 
@@ -591,9 +632,17 @@
               et esse ingentium est esse Patrem, 
               ergo etc. 
               Antecedens patet 
-              <ref xml:id="pg-b1q12-Rd1e3861" corresp="#pg-b1q12-Qsssitp" target="http://scta.info/resource/pll1d13c4-d1e3486">
-                in hac 13 distinctione
-              </ref>, 
+              <cit>
+                <ref xml:id="pg-b1q12-Rd1e3861" corresp="#pg-b1q12-Qsssitp" target="http://scta.info/resource/pll1d13c4-d1e3486">
+                  in hac 13 distinctione
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> I, 
+                  d. 13, c. 4, [n. 2/3] 
+                  (I, 124, ll. 5-8).
+                </bibl>
+              </cit>, 
               ubi dicitur quod, 
               <cit>
                 <quote xml:id="pg-b1q12-Qsssitp">
@@ -603,14 +652,19 @@
                   duos patres in Trinitate poneremus
                 </quote>
                 <bibl>
-                  <name>Augustinus</name>, 
-                  <title>Ad Orosium</title>, 
-                  q. 2 (PL 40:734)
+                  <title>Dialogus quaestionum</title> 
+                  65, q. 2
+                  (PL 40:734)
+                  <!-- 
+                    old ref <name>Augustinus</name>, 
+                  <title>Ad Orosium</title>, q. 2 
+                  -->
                 </bibl>
-                <note>Cf. <name>Lombardus</name>, <title>Sent.</title> I, d. 13, c. 4 [n. 3] <!-- http://scta.info/resource/pll1d13c4-d1e3486 --></note>
               </cit>,
               ut dicit 
-              <ref xml:id="pg-b1q12-Ragsags" corresp="#pg-b1q12-Qsssitp"><name ref="#Augustine">Augustinus</name></ref>, 
+              <ref xml:id="pg-b1q12-Ragsags" corresp="#pg-b1q12-Qsssitp">
+                <name ref="#Augustine">Augustinus</name>
+              </ref>, 
               ergo.
             </p>
             <p xml:id="pgb1q12-d1e531">
@@ -644,6 +698,7 @@
                   <name>Damescenus</name>,
                   <title>De Fide Orthodoxa</title>, 
                   I, c. 9
+                  (Buytaert 36, ll. 154-157).
                 </bibl>
               </cit>.
             </p>
@@ -682,17 +737,46 @@
                   contra <name ref="#Rimini">Gregorium</name> 
                   arguentis libro primo, distinctione 10 usque ad 14
                 </ref>
-                <bibl><name>Hugolinus</name>, XXX</bibl>
+                <bibl>
+                  <name>Hugolinus</name>
+                  <title>Sent</title> 
+                  I, d. 10-13, q. 1, dub. 4.
+                  (Eckermann II, 224)
+                </bibl>
               </cit> 
               quia Filius est ab uno, 
               Spiritus Sanctus a duobus, 
               ergo ex modo procedendi 
               inter generationem et processionem 
               potest distinctio haberi. 
-              Sed <name ref="#Rimini">Magister Gregorius</name> dicit quod non sufficit, 
-              ideo <name ref="#HugolinoOfOrvieto">Hugolinus</name> 
-              replicat contra ubi est productio Verbi 
-              non requiritur duplex producens vel productivum,
+              Sed 
+              <cit>
+                <ref xml:id="pg-b1q12-Rd1e798"><name ref="#Rimini">Magister Gregorius</name> dicit quod non sufficit</ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>,
+                  <title>Sent.</title> 
+                  I, d. 13, q. 1, ad resp. 
+                  (Trapp II, 198, ll. 8-20).
+                </bibl>
+              </cit>, 
+              ideo 
+              <ref xml:id="pg-b1q12-Rd1e813" corresp="#pg-b1q12-Qd1e820">
+                <name ref="#HugolinoOfOrvieto">Hugolinus</name> replicat contra
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q12-Qd1e820">
+                  ubi est productio Verbi 
+                  non requiritur duplex producens
+                </quote>
+                <bibl>
+                  <name>Hugolinus</name>
+                  <title>Sent</title> 
+                  I, d. 10-13, q. 1, dub. 4 
+                  (Eckermann II, 224, ll. 11-12). 
+                  
+                </bibl>
+              </cit> 
+              vel productivum,
               ergo ratio distinctionis 
               inter generationem et processionem potest assignari. 
               Antecedens patet quia unum producens sufficit.
@@ -734,7 +818,8 @@
                 <bibl>
                   <name>Hugolinus</name>,
                   <title>Sent.</title>
-                  I, d. 10 et 11, a. 4 <!-- ref to both 10 and 11 is unclear -->
+                  I, d. 10-13, q. 1, dub. 4 
+                  (Eckermann II, 224, ll. 19-225, ll. 42).
                 </bibl>
               </cit>, 
               vide ibi arguit contra <name ref="#Rimini">Gregorium</name>.
@@ -804,7 +889,7 @@
                 <bibl>
                   <name>Aristoteles</name>, 
                   <title>De caelo</title>, 
-                  I (XXX).
+                  I, 4 (271a33).
                 </bibl>
               </cit> 
               <ref xml:id="pg-b1q12-Rd1e3970" corresp="#pg-b1q12-Qd1e3967">
@@ -876,7 +961,8 @@
                   <ref target="http://scta.info/resource/pll1d13c4-d1e3526">
                     <name>Lombard</name>, 
                     <title>Sent.</title> 
-                    I, d. 13, c. 4 [n. 5]
+                    I, d. 13, c. 4 [n. 3/5]
+                    (I, 124, ll. 21-24).
                   </ref>
                 </bibl>
               </cit>, 
@@ -888,22 +974,32 @@
                   tamen Pater non est quia Patris est
                 </quote>
                 <bibl>
-                  <name>Hieronymus</name>, 
-                  <title>Regulis definitionum</title>, 
-                  XXX
+                  <name>Syagrius</name>, 
+                  <title>Regulae definitionum contra haereticos</title> 
+                  8 (PLS 3, 136).
                 </bibl>
               </cit>, 
               ergo Spiritus Sanctus est ingenitus.
             </p>
             
-            <p xml:id="pgb1q12-d1e778">Contra 
+            <p xml:id="pgb1q12-d1e778">
+              Contra 
               <cit>
                 <ref xml:id="pg-b1q12-Rd1e781" target="http://scta.info/resource/pgb1q12-d1e531">primum corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q12-d1e531">Vide supra.</ref></bibl>
               </cit>, 
-              unicus est modus communicandi naturam, 
+              <cit>
+                <quote xml:id="pg-b1q12-Qd1e1006">unicus est modus communicandi naturam</quote>
+                <bibl>
+                  <name>Averroes</name>, 
+                  <title>In Physica</title> 
+                  8, 
+                  comm. 46 
+                  (Iunta IV, 387rbD-vaH).
+                </bibl>
+              </cit>, 
               ut dicit 
-              <ref xml:id="pg-b1q12-Rd1e4021">
+              <ref xml:id="pg-b1q12-Rd1e4021" corresp="#pg-b1q12-Qd1e1006">
                 <name ref="#Averroes">Commentator</name> 
                 VIII 
                 <title ref="#PhysicsCommentary">Physicorum</title>
@@ -1159,15 +1255,19 @@
               </ref>
               cum dicit quod 
               <cit>
-                <quote xml:id="pg-b1q12-Qnsiped" source="http://scta.info/resource/adt-l7">
-                  non singulus in divinis sed Pater est dicens
+                <quote xml:id="pg-b1q12-Qnsiped" source="http://scta.info/resource/adt-l7" type="paraphrase">
+                  non singulus in divinis, 
+                  sed <supplied>solus</supplied> Pater est dicens
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  VII, c. 1.
+                  VII, 1, 1 (CCSL 50, 244, ll. 20- 245, ll. 55)
                 </bibl>
-                <!-- actual quote found in Augustine "dicens ergo illo coaeterno uerbo non singulus intellegitur sed cum ipso uerbo sine quo non est utique dicens" -->
+                <!-- actual quote found in Augustine 
+                  "dicens ergo illo coaeterno uerbo non singulus intellegitur 
+                  sed cum ipso uerbo sine quo non est utique dicens" 
+                -->
               </cit>. 
               Et sic conceditur illae maior 
               et negatur minor seu secunda pars antecedentis. 
@@ -1224,7 +1324,7 @@
                 </ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q12-d1e758">Vide supra.</ref></bibl>
               </cit> 
-              dicitur ad <name ref="#Jerome">Ieromium</name> 
+              dicitur ad <name ref="#Jerome">Hieronymum</name> 
               quod <mentioned>ingenitum</mentioned> potest accipi tripliciter. 
               Primo, 
               pro illo qui non habet in se 
@@ -1240,7 +1340,7 @@
               Primo modo Spiritus Sanctus dicitur ingenitus 
               quia non genitus 
               et secundum hunc modum loquitur 
-              <name ref="#Jerome">Ieromus</name>. 
+              <name ref="#Jerome">Hieronymus</name>. 
               Secundo essentia divina dicitur ingenita. 
               Tertio modo, 
               solus Pater, 
@@ -1335,6 +1435,7 @@
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
                   I, d. 12, c. 1, n. 1
+                  (I, 118, ll. 4).
                 </ref>
               </bibl>
             </cit>.
@@ -1373,21 +1474,22 @@
               <bibl>
                 <name>Augustinus</name>, 
                 <title>De Trinitate</title> 
-                XV, 26, 47 (XXX)
+                XV, 17, 29 
+                (CCSL 50A, 503, ll. 56-58)
               </bibl>
             </cit> 
             et 
             <ref xml:id="pgb1q12-Rpapapp" corresp="#pgb1q12-Qpapapp">
-              <name ref="#Jerome">Ieromus</name>
+              <name ref="#Jerome">Hieronymus</name>
             </ref> 
             dicit quod 
             <cit>
               <quote xml:id="pgb1q12-Qpapapp">procedit a Patre proprie</quote>
               <bibl>
-                <name>Hieronymus</name>, 
-                <title>Ad Cyrillum</title>, 
-                Epist. 17, c. 1 et 3 
-                (PL 30:176)
+                <name>Pelagius</name>, 
+                <title>Libellus fidei</title> 
+                3 
+                (PL 45, 1716)
               </bibl>
             </cit> 
             et 
@@ -1400,7 +1502,8 @@
                 Spiritus Sanctus 
                 mittitur a Patre per Filium et a Patre esse habet per Filium
               </quote>
-              <bibl>XXX</bibl>
+              <bibl>Bonaventura, Sent. I, d. 12, divisio textus (Ad claras aquas I, 220)</bibl>
+              <note>Cf. Lombardus, Sent. I, d. 12, c.2, n. 5 (I, 120, ll. 7-27)</note>
             </cit>,
             debet sic intelligi quod Spiritus 
             <pb ed="#L" n="45-r"/> 
@@ -1418,6 +1521,7 @@
                   <name>Lombardus</name>, 
                   <title>Sent.</title>
                   I, d. 13, c. 1, n. 1
+                  (I, 121, ll. 25-26)
                 </ref>
               </bibl>
             </cit>.
