@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,13 +56,14 @@
           <p xml:id="pgb1q11-d1e92">
             <cit>
               <quote xml:id="pg-b1q11-Qd1e108" source="http://scta.info/resource/pll1d10c1-d1e3477" type="lemma">
-                Nunc post Filii aeternitatem
+                Nunc, post Filii aeternitatem
               </quote>
               <bibl>
                 <ref target="http://scta.info/resource/pll1d10c1-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title>, 
-                  I, d. 10, c. 1, [n. 1].
+                  I, d. 10, c. 1, [n. 1] 
+                  (I, 110, ll. 16).
                 </ref>
               </bibl>
             </cit>.
@@ -89,7 +87,8 @@
                 <ref target="http://scta.info/resource/pll1d11c1-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 11, c. 1, [n. 1].
+                  I, d. 11, c. 1, [n. 1]
+                  (I, 114, ll. 12).
                 </ref>
               </bibl>
             </cit>.
@@ -108,7 +107,8 @@
                 <ref target="http://scta.info/resource/pll1d10c3-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.,</title> 
-                  I, d. 10, c. 3, [n. 1].
+                  I, d. 10, c. 3, [n. 1] 
+                  (I, 113, ll. 21).
                 </ref>
               </bibl>
             </cit>.
@@ -124,7 +124,8 @@
                 <ref target="http://scta.info/resource/pll1d10c2-d1e3583">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 10, c. XXX.
+                  I, d. 10, c. 2, [n. 4] 
+                  (I, 112, ll. 27-28).
                 </ref>
               </bibl>
             </cit>. 
@@ -152,7 +153,8 @@
                 <ref target="http://scta.info/resource/pll1d11c1-d1e3568">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 11, c. 1, [n. 6].
+                  I, d. 11, c. 1, [n. 3/6]
+                  (I, 115, ll. 5).
                 </ref>
               </bibl>
             </cit>. 
@@ -167,7 +169,8 @@
                 <ref target="http://scta.info/resource/pll1d11c1-d1e3480">
                   <name>Lombardus</name>, 
                   <title>Sent.</title>
-                  I, d. 11, c. 1, n. 2.
+                  I, d. 11, c. 1, [n. 2]
+                  (I, 114, ll. 15).
                 </ref>
               </bibl>
             </cit>.
@@ -186,7 +189,8 @@
                 <ref target="http://scta.info/resource/pll1d11c1-d1e3624">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 11, c. 1, n. 9.
+                  I, d. 11, c. 1, [n. 4/9] 
+                  (I, 116, ll. 3-4).
                 </ref>
               </bibl>
             </cit>.
@@ -248,7 +252,9 @@
                 <bibl>
                   <name>Damescenus</name>, 
                   <title>De fide orthodoxa</title> 
-                  I, c. 8</bibl>
+                  I, c. 8
+                  (Buytaert 47, ll. 326-329).
+                </bibl>
               </cit>.
               Ergo, si nota est ex Filio, 
               non videtur procedere ab eo.
@@ -276,28 +282,25 @@
                 <bibl>
                   <name>Lombardus</name>,
                   <title>Sent.</title>
-                  I, d. 11, XXX.
+                  I, d. 11, c. 1 
+                  (I, 114-115).
                 </bibl>
               </cit>, 
               et 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e291">
-                  <title>Extra</title>, de summa trinitatem
-                </ref>
-                <bibl>
-                  <title>Liber extra</title>, 
-                  XXX.
-                </bibl>
-              </cit>,
-              et 
-              <cit>
-                <ref xml:id="pg-b1q11-Rd1e302">
-                  <title>Fide catholica</title>, 
+                  <title>Extra</title>, 
+                  de summa trinitatem et fide catholica, 
                   libro 6
                 </ref>
                 <bibl>
-                  <title>Fide catholica</title>, VI, xxx.
+                  <title>Liber extra</title>, 
+                  VI, 1, 1, 1 (CIC, II, 937). 
                 </bibl>
+                <!-- not to self chpater 1 of Liber extra Book 1 
+                  and chapter 1 of Liber extra Book 6 (which is not part of the original liber extra)
+                  have the same title 
+                -->
               </cit>.
             </p>
           </div>
@@ -349,16 +352,15 @@
               sicut fuit dictum de generatione Filii.
               Sed quod fidei medio ostendi potest patet 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e332"><title>Extra</title>, 
+                <ref xml:id="pg-b1q11-Rd1e332">
+                  <title>Extra</title>, 
                   de summa trinitate et fide catholica, 
-                  libro sexto, capitulo fidei
+                  libro sexto, 
+                  capitulo fideli
                 </ref>
                 <bibl>
                   <title>Liber Extra</title>, 
-                  Liber 6, 
-                  Titulus Primus, 
-                  De Summa Trinitate et Fide Catholica, 
-                  c. 1 (Friedberg 1879 v. 11, col. 937).
+                  VI, 1, 1, 1 (CIC, II, 937).
                 </bibl>
                 <note>Concile de Lyon II (oecum. XIV), 7 mai - 17 juillet 1274 (sous
                   le Bienheureux Grégoire X); Session II, 18 mai 1274:
@@ -367,17 +369,20 @@
                   <!-- see http://catho.org/9.php?d=bxx -->
                 </note>
               </cit>.
-              Item, per 
+              Item, 
+              per 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e354" target="http://scta.info/resource/adt-l4">
                   <name ref="#Augustine">Augustinum</name>, 
                   IV 
                   <title ref="#deTrinitate">De Trinitate</title>, 
-                  capitulo 53 de parvis</ref>
+                  capitulo 53 de parvis
+                </ref>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  IV, c. 53, xxx. 
+                  IV, 20, 29 
+                  (CCSL 50, 119, ll. 105-200, ll. 114). 
                 </bibl>
               </cit>, 
               ubi deducit hoc multis auctoritatibus Sacrae Scripturae.
@@ -443,8 +448,6 @@
               sequitur quod Filius non esset summe simplex. 
               Patet consequentia 
               quia plures entitates incomplexae essent in eo.
-            </p> 
-            <p xml:id="pgb1q11-d1e377">
               Secunda pars probatur 
               quia Filius non praecise distinguitur a Spiritu Sancto 
               quia praecise ipsum spirat, 
@@ -462,32 +465,37 @@
                 <name ref="#Augustine">Augustini</name>, 
                 V <title ref="#deTrinitate">De Trinitate</title>, 
                 capitulo 14
-              </ref> 
+              </ref>, 
               ideo 
+              Spiritus Sanctus non est Filius cum uterque a Patre exeat
+              quia ipse
               <cit>
                 <quote xml:id="pg-b1q11-Qd1e409" ana="#Augustine_DeTrinitate_5_14_15_a">
-                  Spiritus Sanctus non est Filius cum uterque a Patre exeat 
-                  quia ipse exit non quomodo natus sed quomodo datus
+                  exit non quomodo natus sed quomodo datus
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  V, c. 14, n. 15 
-                  (PL 42:XX)
+                  V, 14, 15 
+                  (CCSL 50, 222, ll. 9-10).
                 </bibl>
               </cit>.
-              Item 
+              Item,
               <ref xml:id="pg-b1q11-Rd1e416" corresp="#pg-b1q11-Qd1e423">
                 <title>De Fide Catholica</title>, 
                 capitulo 2
               </ref>, 
               <cit>
                 <quote xml:id="pg-b1q11-Qd1e423">
-                  aliud est natum esse, aliud procedere, ideo alius Filius, 
-                  alius Spiritus Sanctus</quote>
+                  aliud est natum esse, aliud procedere, 
+                  ideo alius Filius, 
+                  alius Spiritus Sanctus
+                </quote>
                 <bibl>
-                  <title>De Fide Catholica</title>, 
-                  XXX.
+                  <name>Fulgentius of Ruspe</name>, 
+                  <title>De fide ad Petrum</title> 
+                  I, 6 (CCSL 91A, 716, ll. 144-147).
+                  <!-- THIS IS THE REF. MARCOLINO GIVES FOR THIS QUOTE.  WE NEED TO CHECK IT! -->
                 </bibl>
               </cit>.
             </p>
@@ -510,9 +518,10 @@
                   articulo 2
                 </ref>
                  <bibl>
-                   <name>Thomas de Argentinaa</name>,
+                   <name>Thomas de Argentina</name>,
                    <title>Sent.</title>
-                   I, c. 11, q. 2, a. 2.
+                   I, c. 11, q. 2, a. 2
+                   (Venice 1564, 61ra).
                  </bibl>
               </cit>.
             </p>
@@ -532,46 +541,66 @@
                 <bibl>
                   <name>Aegidius Romanus</name>, 
                   <title>Quodlibet</title> 
-                  I, q. 6.
+                  I, q. 6
+                  (Louvain 1646, 13a-15a).
                 </bibl>
               </cit>.
-              Item contra
+              Item, 
+              contra
               <cit>
                 <ref xml:id="pg-b1q11-Rd1f3df">
-               <name ref="#Ockham">Ockham</name></ref>
-               <bibl><name>Ockham</name>, XXX.</bibl>
+                  <name ref="#Ockham">Ockham</name>
+                </ref>
+                <bibl>
+                  <name>Ockham</name>, 
+                  <title>Sent</title> 
+                  I, d. 11, q. 2 
+                  (OTh III, 369, ll. 16-371, ll. 8).
+                </bibl>
               </cit> 
               et
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e478">
                   <name ref="#Aureoli">Aureolus</name>
                 </ref>
-                <bibl><name>Aureolus</name>, XXX.</bibl>
+                <bibl>
+                  <name>Aureolus</name>, 
+                  <title>Sent.</title>, 
+                  I, d. 11, q. 1, a. 2 
+                  (Rome 1596, 356aD-E).
+                </bibl>
               </cit>.
               Probatur 
               quia illo casu posito, 
               adhuc sufficienter personae productae distinguentur 
               abinvicem ut dicit 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e489" target="http://scta.info/resource/pgb1q11-d1e377">secunda conclusionis pars</ref>
+                <ref xml:id="pg-b1q11-Rd1e489" target="http://scta.info/resource/pgb1q11-d1e377">
+                  secunda conclusionis pars
+                </ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q11-d1e377">Vide supra</ref></bibl>
               </cit>
             </p>
             <p xml:id="pgb1q11-d1e460">
               Tertium corollarium: 
               haec consequentia non est evidens nec formalis, 
-              <mentioned>Spiritus Sanctus a Filio non procedit, 
+              <mentioned>
+                Spiritus Sanctus a Filio non procedit, 
                 ergo Spiritus Sanctus non est nec existat
               </mentioned>, 
               contra 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e505">
-                  <name ref="#Rimini">Gregorium</name>, libro primo, distinctione 11, articulo 2
+                  <name ref="#Rimini">Gregorium</name>, 
+                  libro primo, 
+                  distinctione 11, 
+                  articulo 2
                 </ref>
                 <bibl>
                   <name>Gregorius Ariminiensis</name>,
                   <title>Sent.</title>
-                  I, d. 11, a. 2.
+                  I, d. 11, q. 1, a. 2 
+                  (Trapp II, 186, ll. 11-12).
                 </bibl>
               </cit>.
               Patet corollarium 
@@ -605,7 +634,9 @@
             </p>
           </div>
           <div xml:id="pg-b1q11-Dd1e530">
-            <head xml:id="pg-b1q11-Hd1e532"><supplied>Tertia conclusio</supplied></head>
+            <head xml:id="pg-b1q11-Hd1e532">
+              <supplied>Tertia conclusio</supplied>
+            </head>
             <p xml:id="pgb1q11-d1e486">
               Tertia conclusio: 
               licet Pater spirare activum communicet Filio, 
@@ -618,7 +649,8 @@
                 <bibl>
                   <name>Lombardus</name>,
                   <title>Sent.</title> 
-                  I, d. 12, XXX.
+                  I, d. 12 c. 1, [n. 3] 
+                  (I, 118, ll. 12-25).
                 </bibl>
               </cit> 
               in qua dicitur 
@@ -628,15 +660,21 @@
               patet auctoritate 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e544">
-                <name ref="#HilaryOfPoitiers">Hilarii</name> V <title ref="#HilaryOfPoitiers_DeTrinitate">De trinitate</title></ref>
+                <name ref="#HilaryOfPoitiers">Hilarii</name> 
+                  V 
+                  <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>
+                </ref>
                 <bibl>
                   <name>Hilarius</name>, 
                   <title>De Trinitate</title>, 
-                  V, XXX.
+                  V, 37 
+                  (CCSL 62, 191, ll. 6-7).
                 </bibl>
               </cit>,
               et eum allegat
-              <ref xml:id="pg-b1q11-Rd1e557" corresp="#pg-b1q11-Qevnsss"><name ref="#Lombard">Magister</name> in textu</ref>,
+              <ref xml:id="pg-b1q11-Rd1e557" corresp="#pg-b1q11-Qevnsss">
+                <name ref="#Lombard">Magister</name> in textu
+              </ref>,
               ubi dicit 
               <cit>
                 <quote xml:id="pg-b1q11-Qevnsss" source="http://scta.info/resource/pll1d18c3-d1e3541">
@@ -648,7 +686,8 @@
                   <ref target="http://scta.info/resource/pll1d18c3-d1e3541">
                     <name>Lombardus</name>, 
                     <title>Sent.</title>
-                    I, d. 18, c. 3 [n. 6].
+                    I, d. 18, c. 3, [n. 2/6] 
+                    (I, 156, ll. 18-20).
                   </ref>
                 </bibl>
               </cit>.
@@ -657,12 +696,15 @@
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e571" target="http://scta.info/resource/adt-l15">
                 <name ref="#Augustine">Augustinus</name> 
-                  XV <title ref="#deTrinitate">De Trinitate</title>, 
-                  capitulo 17</ref>
+                  XV 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 17
+                </ref>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  XV, c. 17, XXX.
+                  XV, 27, 50 
+                  (CCSL 50A, 553, ll. 103-107).
                 </bibl>
               </cit>.
               Vide in fonte. 
@@ -679,26 +721,30 @@
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e588">
                 <name ref="#Scotus">Scotum</name>, 
-                  libro primo, distinctione 18, 
-                  quaestione prima, articulo primo
+                  libro primo, 
+                  distinctione 18, 
+                  quaestione prima, 
+                  articulo primo
                 </ref>
                 <bibl>
                   <name>Scotus</name>, 
-                  <title>Sent.</title>
-                  I, d. 18, q. 1, a. 1.
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 342, ll. 4-18).
                 </bibl>
               </cit>
               et contra
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e599">
-                <name ref="#Ockham">Ockham</name>, eadem 
-                  distinctione, 
+                <name ref="#Ockham">Ockham</name>, 
+                  eadem distinctione, 
                   quaestione prima
                 </ref>
                 <bibl>
                   <name>Ockham</name>, 
                   <title>Sent.</title> 
-                  I, d. 18, q. 1.
+                  I, d. 10, q. 1 
+                  (OTh III, 326, ll. 8-327, ll. 6).
                 </bibl>
               </cit>.
               Probatur 
@@ -712,25 +758,41 @@
               <ref xml:id="pg-b1q11-Rd1e610" corresp="#pg-b1q11-Qvdpcqm">
                 <name ref="#Augustine">Augustinum</name> 15 
                 <title ref="#deTrinitate">De Trinitate</title>, 
-                capitulo 3 de magnis, et 16 de parvis
+                capitulo 3 de magnis, 
+                et 16 de parvis
               </ref>
               dicentem 
               <cit>
                 <quote xml:id="pg-b1q11-Qvdpcqm" source="http://scta.info/resource/adt-l15">
                   voluntas Dei, 
-                  proprie si dicenda, est aliquid in Trinitate persona, 
+                  proprie si dicenda est 
+                  <unclear>aliquid <!-- might need editorial correction to aliqua --></unclear> in Trinitate persona, 
                   magis hoc nomen Spiritui Sancto convenit sicut caritas. 
                   Nam quid est aliud caritas quam voluntas?
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title> 
-                  XV, 20, 38.
+                  XV, 20, 38
+                  (CCSL 50A, 516, ll. 36-39).
                 </bibl>
               </cit>.
               Per hanc rationem 
-              arguit <name ref="#Augustine">Augustinus</name> 
-              contra <name ref="#EunomiusOfCyzicus">Eunomium</name> haereticum 
+              arguit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e819" target="http://scta.info/resource/adt-l15">
+                  <name ref="#Augustine">Augustinus</name> 
+                  contra 
+                  <name ref="#EunomiusOfCyzicus">Eunomium</name> 
+                  haereticum
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 20, 38 
+                  (CCSL 50A. 515, ll. 1- 516, ll. 39).
+                </bibl>
+              </cit> 
               quod Filius non sit Filius voluntatis seu voluntate.
             </p>
             <p xml:id="pgb1q11-d1e586">
@@ -744,8 +806,30 @@
               libere et naturaliter productus et necessario per spirationem. 
               Nota tamen quod haec libertas non est contradictionis 
               sed complacentiae et naturalis dilectionis, 
-              contra <name ref="#Rimini">Gregorium</name> 
-              improbantem <name ref="#Scotus">Scotum</name>.
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e843">
+                  <name ref="#Rimini">Gregorium</name>
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminiensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 10, q. 1, a. 2 
+                  (Trapp II, 167, ll. 2 - 175, ll. 15).
+                </bibl>
+              </cit> 
+              improbantem 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e861">
+                  <name ref="#Scotus">Scotum</name>
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 348, ll. 9- 349, ll. 14).
+                </bibl>
+              </cit>.
             </p> 
             <p xml:id="pgb1q11-d1e618">
               Tertium corollarium est pars quaesiti affirmativa.
@@ -758,8 +842,12 @@
             <p xml:id="pgb1q11-d1e624">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e697" target="http://scta.info/resource/pgb1q11-d1e244">primam conclusionem</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q11-d1e244">Vide supra</ref></bibl>
+                <ref xml:id="pg-b1q11-Rd1e697" target="http://scta.info/resource/pgb1q11-d1e244">
+                  primam conclusionem
+                </ref>
+                <bibl>
+                  <ref target="http://scta.info/resource/pgb1q11-d1e244">Vide supra</ref>
+                </bibl>
               </cit> 
               arguitur primo sic auctoritate 
               <ref xml:id="pg-b1q11-Rd1e666" corresp="#pg-b1q11-Qd1e675">
@@ -769,14 +857,15 @@
               </ref> 
               dicentis 
               <cit>
-                <quote xml:id="pg-b1q11-Qd1e675">non est audendum de Spiritu Sancto dicere 
+                <quote xml:id="pg-b1q11-Qd1e675" type="paraphrase">non est audendum de Spiritu Sancto dicere 
                   et occulta divinitate praeter ea quae divinitus 
                   nobis ex sacris litteris sunt expressa
                 </quote>
                 <bibl>
                   <name>Ps. Dionysius</name>, 
-                  <title>De divinis nominibus</title>, 
-                  I (PG 3, 587).
+                  <title>De divinis nominibus</title>,
+                  I et II (Dionysiaca, 12-14 et 57).
+                  <!-- see also I (PG 3, 587). -->
                 </bibl>
               </cit>.
               Sed in sacris litteris canonis non videtur haec 
@@ -902,8 +991,9 @@
                 <ref xml:id="pg-b1q11-Rd1e729"><name ref="#Scotus">Scoti</name>, 11 distinctione, quaestione 2</ref>
                 <bibl>
                   <name>Scotus</name>,
-                  <title>Sent.</title>
-                  I, d. 11, q. 2.
+                  <title>Ordinatio</title> 
+                  I, d. 11, q. 2 
+                  (Vatican V, 16, ll. 5-17, ll. 7).
                 </bibl>
               </cit>.
             </p>
@@ -922,12 +1012,15 @@
                 <ref xml:id="pg-b1q11-Rd1e745">
                 <name ref="#Aquinas">Doctor Sanctus</name> 
                   in <title ref="#SummaTheologica">Summa</title>, 
-                  parte prima, quaestione 36, articulo 2
+                  parte prima, 
+                  quaestione 36, 
+                  articulo 2
                 </ref>
                 <bibl>
                   <name>Aquinas</name>, 
-                  <title>Summa</title>
-                  I, q. 36, a. 2
+                  <title>Summa theologiae</title> 
+                  I, q. 36, a. 2 
+                  (Leonine IV, 337a-b).
                 </bibl>
               </cit>.
             </p>
@@ -956,10 +1049,14 @@
               genita et spirata. 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e777">
-                <name ref="#Aquinas">Thomas</name> ubi supra
+                  <name ref="#ThomasStrasbourg">Thomas</name> 
+                  ubi supra
                 </ref>
                 <bibl>
-                  <name>Aquinas</name>, XXX
+                  <name>Thomas de Argentina</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, q. 2, a. 2 
+                  (Venice 1564, 61ra).
                 </bibl>
               </cit>.
             </p>
@@ -997,18 +1094,22 @@
                 <ref xml:id="pg-b1q11-Rd1e794">
                   <name ref="#Rimini">Doctoris Nostri Gregorii</name>, 
                   11 distinctione primi, 
-                  articulo 2</ref>
+                  articulo 2
+                </ref>
                 <bibl>
                   <name>Gregorius Ariminiensis</name>,
                   <title>Sent.</title> 
-                  I, d. 11, a. 2.
+                  I, d. 11, q. 1, a. 2 
+                  (Trapp II, 186, ll. 6-7).
                 </bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q11-d1e865">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e880" target="http://scta.info/resource/pgb1q11-d1e486">tertiam conclusionem</ref>
+                <ref xml:id="pg-b1q11-Rd1e880" target="http://scta.info/resource/pgb1q11-d1e486">
+                  tertiam conclusionem
+                </ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q11-d1e486">Vide supra</ref></bibl>
               </cit>: 
               Pater sufficienter producit Spiritum Sanctum, 
@@ -1060,8 +1161,9 @@
                 </ref>
                 <bibl>
                   <name>Scotus</name>,
-                  <title>Sent.</title>
-                  I, d. 10.
+                  <title>Ordinatio</title> 
+                  I, d. 10 
+                  (Vatican IV, 341, ll. 21- 342, ll. 18).
                 </bibl>
               </cit>.
               <app>
@@ -1083,13 +1185,16 @@
               non esset differentia, 
               contra 
               <cit>
-                <ref xml:id="pg-b1q11-Rpnmpnm" target="http://scta.info/resource/aristmet-l9">
-                  <name ref="#Aristotle">Philosophum</name> IX <title ref="#Metaphysics">Metaphysicae</title>
+                <ref xml:id="pg-b1q11-Rpnmpnm" target="http://scta.info/resource/aristmet-l8">
+                  <name ref="#Aristotle">Philosophum</name> 
+                  IX 
+                  <title ref="#Metaphysics">Metaphysicae</title>
                 </ref>
                 <bibl>
                   <name>Aristoteles</name>, 
                   <title>Metaphysicae</title>, 
-                  IX.
+                  8, 5 
+                  (1048a5-8).
                 </bibl>
               </cit>.
               Et consequens probat 
@@ -1103,7 +1208,8 @@
                 <bibl>
                   <name>Gregorius Ariminiensis</name>, 
                   <title>Sent.</title> 
-                  I, d. 10, a. 2, c. 2
+                  Sent. I, d. 10, q. 1, a. 2 
+                  (Trapp II, 167, ll. 14-169, ll. 34).
                 </bibl>
               </cit>.
             </p>
@@ -1113,44 +1219,52 @@
                 <ref xml:id="pg-b1q11-Rd1e986" target="http://scta.info/resource/pgb1q11-d1e618">tertium corollarium</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q11-d1e618">Vide supra.</ref></bibl>
               </cit>: 
-              principium productivum Spiritus Sancti est voluntas, 
-              ergo libere producitur et non naturaliter seu necessario. 
-              Patet consequentia 
-              quia, 
-              sicut intellectus non habet modum liberum agendi, 
-              sic nec voluntas modum naturalem. 
-              Antecedens patet quia Spiritus Sanctus est amor, 
-              ergo producitur a voluntate. 
-              Haec ratio est
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e884" target="http://scta.info/resource/atv-l1d11et12q1-d1e3938">
-                  <name ref="#AlphonsusVargas">Alphonsi</name>, 
-                  distinctione 11 primi, 
-                  articulo 2, 
-                  conclusione 3
-                </ref>
+                <quote xml:id="pg-b1q11-Qd1e1289" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3938">
+                  principium productivum Spiritus Sancti est voluntas, 
+                  ergo libere producitur et non naturaliter seu necessario. 
+                  Patet consequentia 
+                  quia, 
+                  sicut intellectus non habet modum liberum agendi, 
+                  sic nec voluntas modum naturalem. 
+                  Antecedens patet quia Spiritus Sanctus est amor, 
+                  ergo producitur a voluntate
+                </quote>
                 <bibl>
                   <name>Alphonsus Vargas</name>, 
                   <title>Sent.</title>, 
                   I, d. 11, a. 2, concl. 3 
-                  (BSB 110ra, BnF 102ra).
+                  (Venice 1490, 405-406).
                 </bibl>
-              </cit>
+              </cit>.
+              Haec ratio est
+              <ref xml:id="pg-b1q11-Rd1e884" corresp="#pg-b1q11-Qd1e1289">
+                <name ref="#AlphonsusVargas">Alphonsi</name>, 
+                distinctione 11 primi, 
+                articulo 2, 
+                conclusione 3
+              </ref>.
             </p>
             <p xml:id="pgb1q11-d1e966">
               Secundo, 
-              Spiritus Sanctus non producitur quomodo natus, 
-              ergo non naturaliter. 
-              Antecedens est 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e902">
-                <name ref="#Augustine">Augustini</name>, libro <title ref="#deTrinitate">De Trinitate</title>, capitulo 12</ref>
+                <quote xml:id="pg-b1q11-Qd1e1313" source="http://scta.info/resource/adt-l5">
+                  Spiritus Sanctus non producitur quomodo natus
+                </quote>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  xxx, c. 12, xxx.
+                  V, 14, 15
+                  (CCSL 50, 222, ll. 9-12).
                 </bibl>
-              </cit>.
+              </cit>, 
+              ergo non naturaliter. 
+              Antecedens est 
+              <ref xml:id="pg-b1q11-Rd1e902" corresp="#pg-b1q11-Qd1e1313">
+                <name ref="#Augustine">Augustini</name>, 
+                libro <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 12
+              </ref>.
               Consequentia probatur 
               quia quidquid producitur naturaliter in eadem natura 
               cum producente producitur ut natum, 
@@ -1200,8 +1314,9 @@
                 </ref>
                 <bibl>
                   <name>Aquinas</name>, 
-                  <title>Summa Theologica</title>, 
-                  I, q. 36, a. 4.
+                  <title>Summa theologiae</title>, 
+                  I, q. 36, a. 4 
+                  (Leonine IV, 384b).
                 </bibl>
               </cit>.
               Sed non videtur conformiter loqui in 
@@ -1217,7 +1332,8 @@
                 <bibl>
                   <name>Aquinas</name>, 
                   <title>Scriptum</title>, 
-                  I, d. 12, q. 1 [n. 25].
+                  I, d. 11, q. 1, a. 4
+                  (Mandonnet I, 284).
                 </bibl>
               </cit>, 
               et in 
@@ -1273,11 +1389,14 @@
                   Patre et Filio tamquam non ex duobus principis sed tamquam ex uno principio non duabus 
                   spirationibus sed una spiratione procedit
                 </quote>
-                <bibl><title>Liber Extra</title>, Liber 6, Titulus Primus, De Summa Trinitate et Fide Catholica, c. 1 (Friedberg 1879 v. 11, col. 937)</bibl>
+                <bibl>
+                  <title>Liber Extra</title>,
+                  VI, 1, 1, 1 
+                  (CIC, II, 937).
+                </bibl>
                 <note>Concile de Lyon II (oecum. XIV), 7 mai - 17 juillet 1274 (sous
                   le Bienheureux Grégoire X); Session II, 18 mai 1274:
                   Constitution "de summa Trinitate et fide catholica", (Enchiridion Symbolorum, Denzinger. 850 460) 
-                  <!-- Gracilis may have confused "de summa trinitate et fide catholica" with the first section of the liber extra by the same title -->
                   <!-- see http://catho.org/9.php?d=bxx -->
                 </note>
               </cit>,
@@ -1316,20 +1435,42 @@
             <p xml:id="pgb1q11-d1e1133">
               Sexto, 
               notandum quod habetur in 
-              <cit>
-                <ref xml:id="pg-b1q11-Rd1e1020" corresp="#pg-b1q11-Qsspass #pg-b1q11-Quspepa">glosa cardinalis <title>Extra</title>, de summa trinitate</ref>
-                <bibl>Cardinalis glossa in libro extra, xxx.</bibl>
-              </cit>,
+              <ref xml:id="pg-b1q11-Rd1e1020" corresp="#pg-b1q11-Qsspass #pg-b1q11-Quspepa">
+                glosa cardinalis <title>Extra</title>, 
+                de summa trinitate
+              </ref>,
               ubi supra super illo verbo <mentioned>unica spiratione</mentioned>, 
-              ubi obicit glossa dicens, 
-              <quote xml:id="pg-b1q11-Qsspass">supposita sunt plura, 
-              ergo plures erunt actiones 
-              quia actiones sunt suppositorum</quote>. 
+              ubi obicit glosa dicens, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qsspass">
+                supposita sunt plura, 
+                ergo plures erunt actiones 
+                quia actiones sunt suppositorum
+                </quote>
+                <bibl>
+                  <name>Iohannes Monachus</name>,
+                  <title>Glossa aurea super Sexto</title> 
+                  I, 1, 1 (Paris 1535, 11r-v).
+                </bibl>
+                <note>
+                  Cf. Iohannes Andreae, Novella super Sexto I, 1, 1, (Lyon 1527, 3va).
+                </note>
+              </cit>. 
               Respondet glosa dicens, 
-              <quote xml:id="pg-b1q11-Quspepa">ubi sint plura supposita et plures rationes agendi, 
-              ibi sunt plures actiones, 
-              ubi sunt plura supposita et unica ratio agendi, 
-              non oportet ibi esse plures actiones</quote>, 
+              <cit>
+                <quote xml:id="pg-b1q11-Quspepa">
+                  ubi sint plura supposita et plures rationes agendi, 
+                  ibi sunt plures actiones, 
+                  ubi sunt plura supposita et unica ratio agendi, 
+                  non oportet ibi esse plures actiones
+                </quote>
+                <bibl>
+                  <name>Iohannes Monachus</name>,
+                  <title>Glossa aurea super Sexto</title> 
+                  I, 1, 1 (Paris 1535, 11r-v).
+                </bibl>
+                <!-- dbcheck and comapre to above; I can't find this -->
+              </cit>, 
               sicut est in proposito 
               quia, licet Pater et Filius spirent, 
               tamen quia est una ratio, 
@@ -1380,7 +1521,16 @@
               prout 
               <cit>
                 <ref xml:id="pg-b1q11-Ratsats"><name ref="#Augustine">Augustinus</name> testatur superius</ref>
-                <bibl>XXX</bibl>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  IV, 20, 29 
+                  (CCSL 50, 199, ll. 95- 200, ll. 114); 
+                  V, 17, 27 
+                  (CCSL 50A, 501, ll. 2-5); 
+                  XV, 27, 48 
+                  (CCSL 50A, 529, ll. 1- 530, ll. 37).
+                </bibl>
               </cit> 
               et 
               <cit>
@@ -1388,10 +1538,15 @@
                 <bibl>
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 10[?]
+                  I, d. 11, c. 1, n. 1-3 
+                  (I, 114, ll. 15- 115, ll. 3). 
                 </bibl>
               </cit> 
-              adducens ad hoc plures auctoritates Novi Testamenti quae patent in littera. 
+              adducens 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1649">ad hoc plures auctoritates Novi Testamenti quae patent in littera</ref>
+                <bibl>Johannis 5:19, 15:26, 16:7, 20:22; Lucas 24:49; Ad Titum 3:3-5.</bibl>
+              </cit>. 
               Et quando dicitur 
               <cit>
                 <ref xml:id="pg-b1q11-Rqmeqme"><seg type="incipit">quomodo doctor</seg> etc.</ref>
@@ -1465,30 +1620,39 @@
               </cit>, 
               negatur consequentia quia 
               illa non est ratio 
-              quare paternitas et spiratio activa 
-              non constituit duas personas 
-              quia non sunt relationes oppositae, 
-              sed quia spiratio activa est communicabilis Filio, 
-              ideo non est constitutiva suppositi. 
-              Et patet quia, 
-              si illa esset ratio de facto, 
-              Filius et Spiritus Sanctus non essent duae personae 
-              quia Filius et Spiritus Sanctus non 
-              constituuntur diversis relationibus oppositis 
-              quia Filio non opponitur spirationi passivae. 
-              Haec est responsio 
               <cit>
-                <ref xml:id="pg-b1q11-Rd1e1094" target="http://scta.info/resource/atv-l1d11et12q1-d1e3661">
-                  <name ref="#AlphonsusVargas">Alphonsi</name>, 
-                  distinctione 11 primi, articulo secundo.</ref>
+                <quote xml:id="pg-b1q11-Qd1e1737" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3661">
+                  quare paternitas et spiratio activa 
+                  non constituit duas personas 
+                  quia non sunt relationes oppositae, 
+                  sed quia spiratio activa est communicabilis Filio, 
+                  ideo non est constitutiva suppositi. 
+                  Et patet quia, 
+                  si illa esset ratio de facto, 
+                  Filius et Spiritus Sanctus non essent duae personae 
+                  quia Filius et Spiritus Sanctus non 
+                  constituuntur diversis relationibus oppositis
+                </quote>
                 <bibl>
                   <ref target="http://scta.info/resource/atv-l1d11et12q1-d1e3661">
-                    <name>Alphonsus Vargas</name>, 
+                    <name>Alphonsus Vargas Toletanus</name>, 
                     <title>Sent.</title> 
                     I, d. 11, a. 2, c. 1 [n. 21]
+                    <!-- John has
+                    I, d. 11, q. 2, a. 3 (Venice 1564, 61ra-va).
+                    but there is no question 2 here 
+                    something is off
+                    -->
                   </ref>
                 </bibl>
-              </cit>.
+              </cit> 
+              quia Filio non opponitur spirationi passivae. 
+              Haec est responsio
+              <ref xml:id="pg-b1q11-Rd1e1094" corresp="#pg-b1q11-Qd1e1737">
+                <name ref="#AlphonsusVargas">Alphonsi</name>, 
+                distinctione 11 primi, 
+                articulo secundo
+              </ref>.
               Aliter, 
               dico quod ratio fundatur super falso 
               quia imaginatur constitutionem et distinctionem personarum 
@@ -1568,7 +1732,8 @@
                 </ref>
                 <bibl>
                   <title>Liber Extra</title> 
-                  I, c. 1 [n. 3].
+                  I, 1, 1 
+                  (CIC II, 5).
                 </bibl>
               </cit> 
               qui dicit quod aequaliter et pariter producunt, 
@@ -1643,7 +1808,7 @@
             </p>
             <p xml:id="pgb1q11-d1e1444">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q11-d1e937">Ad aliud</ref>
+                <ref xml:id="pg-b1q11-Rd1e1840" target="http://scta.info/resource/pgb1q11-d1e937">Ad aliud</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q11-d1e937">Vide supra.</ref></bibl>
               </cit>, 
               negatur antecedens. 
@@ -1669,20 +1834,25 @@
                 </ref>
                 <bibl>
                   <name>Scotus</name>, 
-                  <title>Sent.</title> 
-                  I, d. 10, xxx
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 344, ll. 7- 345, ll. 14).
                 </bibl>
               </cit>,
               et similiter 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e1174">
                 <name ref="#BonsemblantesBaduarius">Bonsemblantes</name></ref>
-                <bibl><name>Bonsemblantes</name>, xxxx.</bibl>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Sent.</title> I, d. 10, dub. 1 
+                  (non extat).
+                </bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q11-d1e1466">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q11-d1e966">Ad aliud</ref>
+                <ref xml:id="pg-b1q11-Rd1e1897" target="http://scta.info/resource/pgb1q11-d1e966">Ad aliud</ref>
                 <bibl><ref target="http://scta.info/resource/pgb1q11-d1e966">Vide supra.</ref></bibl>
               </cit>, 
               negatur consequentia. 
@@ -1709,7 +1879,9 @@
                   <ref target="http://scta.info/resource/pll1d6c1-d1e3551">
                     <name>Lombardus</name>, 
                     <title>Sent.</title> 
-                    I, d. 6, c. 1, n. 7.
+                    I, d. 6,
+                    c. 1, [n. 4/7] 
+                    (I, 91, ll. 1-2). 
                   </ref>
                 </bibl>
               </cit>, 
@@ -1737,7 +1909,12 @@
                 <ref xml:id="pg-b1q11-Rdnadna">
                   <name ref="#GilesOfRome">Doctor Noster Aegidius</name>
                 </ref>
-                <bibl>XXX</bibl>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, prin. 1, q. 1 
+                  (Venice 1521, 64rb-va).
+                </bibl>
               </cit> 
               primo quod non est standum 
               sententiae <name ref="#JohnDamascenus">Damasceni</name> 
@@ -1750,7 +1927,15 @@
                 <ref xml:id="pg-b1q11-Rtatata">
                   <name ref="#ThomasStrasbourg">Thomas Argentis</name>
                 </ref>
-                <bibl>XXX</bibl>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, princ. 1, q. 1 
+                  (Venice 1521, 64rb-va).
+                </bibl>
+                <note xml:lang="en">
+                  Gracilis appears to have made a mistake in his attribution to Thomas of Argentina.
+                </note>
               </cit>, 
               salvando dictum <name ref="#JohnDamascenus">Damesceni</name>, 
               quod Graeci bene crediderunt et credidissent hunc articulum, 
@@ -1767,12 +1952,19 @@
             </p>
             <p xml:id="pgb1q11-d1e1536">
               Aliter respondet 
-              <ref xml:id="pg-b1q11-Rd1e1235">
-                <name ref="#RichardFitzRalph">Armicanus</name> 
-                in <title>Summa</title> sua in 
-                <title ref="#deQuaestionibusArmenorum">Quaesitionibus Armenorum</title>, 
-                libro 6, capitulo 2
-              </ref> 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1235">
+                  <name ref="#RichardFitzRalph">Armicanus</name> 
+                  in <title>Summa</title> sua in 
+                  <title ref="#deQuaestionibusArmenorum">Quaesitionibus Armenorum</title>, 
+                  libro 6, capitulo 2
+                </ref>
+                <bibl>
+                  <name>Ricardus FitzRalph</name>, 
+                  <title>Summa</title> 6, 11 
+                  (Paris 1512, 43rb).
+                </bibl>
+              </cit> 
               dicens quod 
               <name ref="#JohnDamascenus">Damscenus</name> 
               solum tractat de his 
@@ -1796,7 +1988,8 @@
                   <ref target="http://scta.info/resource/pl-l3d5c1-d1e289">
                     <name>Lombardus</name>, 
                     <title>Sent.</title> 
-                    III, d. 5, c. 1 [n. 24].
+                    III, d. 5, c. 1 [n. 10/24] 
+                    (II, 45, ll. 13).
                   </ref>
                 </bibl>
               </cit>, 
@@ -1821,7 +2014,8 @@
               <bibl><ref target="http://scta.info/resource/pll1d10c1-d1e3477">
                 <name>Lombardus</name>, 
                 <title>Sent.</title>
-                I, d. 10, c. 1, [n. 1].
+                I, d. 10, c. 1, [n. 1]
+                (I, 110, ll. 16).
               </ref>
               </bibl>
             </cit>.
@@ -1858,7 +2052,8 @@
               <bibl><ref target="http://scta.info/resource/pll1d11c1-d1e3477">
                 <name>Lombardus</name>, 
                 <title>Sent.</title>
-                I, d. 11, c. 1, [n. 1].
+                I, d. 11, c. 1, [n. 1]
+                (I, 114, ll. 12).
               </ref>
               </bibl>
             </cit> 
@@ -1892,9 +2087,11 @@
                 <ref target="http://scta.info/resource/pll1d11c1-d1e3592">
                 <name>Lombardus</name>,
                 <title>Sent.</title>
-                I, d. 11, c. 1, n. 8
+                I, d. 11, c. 1, n. 4/8
+                (I, 116, ll. 4). 
                 </ref>
               </bibl>
+              <note>Cf. Symbolum Leonis III (PL 102, 1052B).</note>
             </cit>, 
             hoc est intelligendum est, 
             qui oppositum vel contrarium 
@@ -1922,7 +2119,12 @@
             <cit>
               <quote xml:id="pg-b1q11-Qd1e1334">inter Latinos et Graecos 
                 non esse discordiam realem sed vocalem</quote>
-              <bibl><name>Scotus</name>, XXX.</bibl>
+              <bibl>
+                <name>Scotus</name>,
+                <title>Ordinatio</title> 
+                I, d. 11, q. 1 
+                (Vatican V, 2, ll. 16- 3, ll. 18).
+              </bibl>
             </cit>.
           </p>
         </div>
