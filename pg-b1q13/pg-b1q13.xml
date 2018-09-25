@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +61,8 @@
                 <ref target="http://scta.info/resource/pll1d14c1-d1e3477">
                   <name>Lombardus</name>,
                   <title>Sent.</title>,
-                  I, d. 14, c. 1, [n. 1].
+                  I, d. 14, c. 1, [n. 1]
+                  (I, 126, ll. 3)
                 </ref>
               </bibl>
             </cit>.
@@ -86,7 +84,8 @@
               <bibl><ref target="http://scta.info/resource/pll1d14c3-d1e3477">
                 <name>Lombardus</name>,
                 <title>Sent.</title>
-                I, d. 14, c. 3, [n. 1].
+                I, d. 14, c. 3, [n. 1],
+                (I, 129, ll. 10)
               </ref>
               </bibl>
             </cit>. 
@@ -103,7 +102,8 @@
                 <ref target="http://scta.info/resource/pll1d14c2-d1e3477">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 14, c. 2, [n. 1].
+                  I, d. 14, c. 2, [n. 1]
+                  (I, 127, ll. 13)
                 </ref>
               </bibl>
             </cit>.
@@ -125,7 +125,8 @@
                 <ref target="http://scta.info/resource/pll1d14c3-d1e3557">
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 14, c. 3, [n. 4].
+                  I, d. 14, c. 3, [n. 3/4]
+                  (I, 130, ll. 8)
                 </ref>
               </bibl>
             </cit>. 
@@ -138,7 +139,8 @@
                 <ref target="http://scta.info/resource/pll1d14c3-d1e3557" type="lemma">
                   <name>Lombardus</name>,
                   <title>Sent.</title>
-                  I, d. 14, c. 3, [n. 4].
+                  I, d. 14, c. 3, [n. 4]
+                  (I, 130, ll. 11)
                 </ref>
               </bibl>
             </cit>, 
@@ -229,33 +231,37 @@
               est mutabile, 
               ut inquit 
               <cit>
-                <ref xml:id="pg-b1q13-Rd1e208" source="http://scta.info/resource/adt-l4">
+                <ref xml:id="pg-b1q13-Rd1e208" source="http://scta.info/resource/adcd-l4">
                   <name ref="#Augustine">Augustinus</name>, 
                   IV <title ref="#deTrinitate">De Trinitate</title>, 
                   capitulo 2
                 </ref>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>De Trinitate</title>, 
-                  IV, c. 2, xxx.
+                  <title>De civitate Dei</title> 
+                  IV, 1 
+                  (CCSL 47, 99, ll. 21-22).
                 </bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q13-d1e235">
               In oppositum est 
               <cit>
-                <ref xml:id="pg-b1q13-Rd1e226">
+                <ref xml:id="pg-b1q13-Rd1e226" target="http://scta.info/resource/pll1d14c1-d1e3477">
                   <name ref="#Lombard">Magister</name> in hac distinctione
                 </ref>
                 <bibl>
-                  <name>Lombardus</name>, 
-                  <title>Sent.</title>
-                  I, d. 14, xxx
+                  <ref target="http://scta.info/resource/pll1d14c1-d1e3477">
+                    <name>Lombardus</name>, 
+                    <title>Sent.</title>
+                    I, d. 14 c. 1, n. 1 
+                    (I, 126, ll. 3-13).
+                  </ref>
                 </bibl>
               </cit>.
               Et confirmatur 
               quia quae solum ratione differunt idem sunt realiter. 
-              Bed missio Spiritus Sancti temporalis et processio 
+              Sed missio Spiritus Sancti temporalis et processio 
               aeternalis sunt huiusmodi, 
               ergo. 
               Minor patet 
@@ -378,26 +384,31 @@
               inquit 
               <cit>
                 <quote xml:id="pg-b1q13-Qd1e304">
-                  non utique illa creatione qua homines facti 
+                  non utique illa creatione, 
+                  qua homines facti 
                   <app>
-                    <lem>summus</lem>
+                    <lem>sumus</lem>
                     <rdg wit="#L" type="correction-substitution">
                       <subst>
                         <del>sunt</del>
                         <add>sumus</add>
                       </subst>
                     </rdg>
-                  </app> 
-                  sed de ea ipse dicebat qui iam homo erat: 
+                  </app>, 
+                  sed de ea ipse dicebat, 
+                  qui iam homo erat: 
                   <cit>
-                    <quote xml:id="pg-b1q13-Qcmccmd" ana="#ps50_12">cor mundum crea in me Deus</quote>
+                    <quote xml:id="pg-b1q13-Qcmccmd" ana="#ps50_12">
+                      cor mundum crea in me Deus
+                    </quote>
                     <bibl>Psalmus 50:12</bibl>
                   </cit>
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>De Gratia et Libro Arbitrio</title>, 
-                  I, 8, 20.
+                  <title>De gratia et libero arbitrio</title>, 
+                  VIII, 20 
+                  (PL 44, 893).
                 </bibl>
               </cit>. 
               Secunda pars probatur 
@@ -417,8 +428,8 @@
                 <name ref="#Paul">Apostolum</name> 
                 <title ref="#Icor">I Corinthios</title>, primo
               </ref>,
-              dicentem divisiones Graecarum sunt 
-              et sequitur 
+              dicentem divisiones gratiarum sunt. 
+              Et sequitur 
               <cit>
                 <quote xml:id="pg-b1q13-Qd1e335" ana="#Icor12_11">
                   omnia autem haec operatur unus atque idem Spiritus dividens 
@@ -436,7 +447,7 @@
               incomplexum ei communicari. 
               Patet quia inter 
               illa non est necessaria 
-              et absoluta connexio per communicationem. <!-- dbheck communicationem --> 
+              et absoluta connexio per <unclear>communicationem</unclear>. <!-- dbheck communicationem / conclusionem ?? --> 
               Confirmatur quia Spiritus Sanctus 
               liberrime dona sua communicat, 
               non solum quae vult, 
@@ -514,14 +525,15 @@
               </ref> 
               ubi dicit 
               <cit>
-                <quote xml:id="pg-b1q13-Qd1e375" source="http://scta.info/resource/pll1d14c1-d1e3517">
+                <quote xml:id="pg-b1q13-Qd1e375" source="http://scta.info/resource/pll1d14c1-d1e3477" type="paraphrase">
                   hanc productionem esse temporalem
                 </quote>
                 <bibl>
-                  <ref target="http://scta.info/resource/pll1d14c1-d1e3517">
+                  <ref target="http://scta.info/resource/pll1d14c1-d1e3477">
                     <name>Lombardus</name>, 
                     <title>Sent.</title>, 
-                    I, d. 14, c. 1, n. 5.
+                    I, d. 14, c. 1, n. 1.
+                    (I, 126, ll. 5-6)
                   </ref>
                 </bibl>
               </cit>. 
@@ -764,7 +776,8 @@
                 <bibl>
                   <name>Lombardus</name>, 
                   <title>Sent.</title> 
-                  I, d. 37
+                  Sent. I, d. 37, c. 1 
+                  (I, 263, ll. 16 - 265 ll. 4).
                 </bibl>
               </cit>.
               Consequentia patet 
@@ -909,7 +922,12 @@
                     <rdg wit="#L">dilectio</rdg>
                   </app>
                   et ad me conversio eius</quote>
-                <bibl><name>Hermanus de Schildesche</name>, xxx</bibl>
+                <bibl>
+                  <name>Hermanus de Schildesche</name>, 
+                  <title>Postilla super Cantica</title>,
+                  c. 7, coll. 16 
+                  (Ms. Brno, Univerzitní Kniovna, 36, f. 230va-vb)
+                </bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q13-d1e779">
@@ -969,24 +987,26 @@
                 <bibl><ref target="http://scta.info/resource/pgb1q13-d1e456">Vide supra.</ref></bibl>
               </cit> 
               arguitur, primo sic 
-              <quote xml:id="pg-b1q13-Qgesssp" source="http://scta.info/resource/pll1d14c1-d1e3477">
-                gemina est Spiritus Sancti processio
-              </quote>, 
-              ergo una ab alia est distincta. 
-              Consequentia patet ex terminis, 
-              et antecedens est 
               <cit>
-                <ref xml:id="pg-b1q13-Rd1e578" target="http://scta.info/resource/pll1d14c1-d1e3477">
-                  <name ref="#Lombard">Magistri</name> 
-                  in hac distinctione
-                </ref>
+                <quote xml:id="pg-b1q13-Qgesssp" source="http://scta.info/resource/pll1d14c1-d1e3477">
+                  gemina est Spiritus Sancti processio
+                </quote>
                 <bibl>
                   <ref target="http://scta.info/resource/pll1d14c1-d1e3477">
                     <name>Lombardus</name>, 
                     <title>Sent.</title> 
-                    I, d. 14, c. 1 [n. 1].
-                  </ref></bibl>
-              </cit>
+                    I, d. 14, c. 1 [n. 1]
+                    (I, 126, ll. 4-5)
+                  </ref>
+                </bibl>
+              </cit>, 
+              ergo una ab alia est distincta. 
+              Consequentia patet ex terminis, 
+              et antecedens est
+              <ref xml:id="pg-b1q13-Rd1e578" corresp="#pg-b1q13-Qgesssp">
+                <name ref="#Lombard">Magistri</name> 
+                in hac distinctione
+              </ref>.
               Confirmatur 
               quia processiones penes terminos numerantur 
               sicut potest trahi ex 
@@ -994,26 +1014,34 @@
                 <ref xml:id="pg-b1q13-Rd1e592">IV <title ref="#Physics">Physicorum</title></ref>
                 <bibl>
                   <name>Aristoteles</name>, 
-                  <title>Physicorum</title>,
-                  IV, xxx
+                  <title>Physica</title>,
+                  III, 2 
+                  (200b26-201a9)
                 </bibl>
               </cit> 
-              de motibus, 
-              sed processionis temporalis et aeternalis 
-              est alius et alius terminus <!-- still unsure about terminus; dbcheck --> 
+              de motibus.
+              Sed processionis temporalis et aeternalis 
+              est alius et alius terminus 
               secundum 
+              <ref xml:id="pg-b1q13-Rd1e603" corresp="#pg-b1q13-Qd1e1016">
+                <name ref="#Averroes">Commentatorem</name> X 
+                <title ref="#MetaphysicsCommentary">Metaphysicae</title>
+              </ref>
               <cit>
-                <ref xml:id="pg-b1q13-Rd1e603">
-                  <name ref="#Averroes">Commentatorem</name> X 
-                  <title ref="#MetaphysicsCommentary">Metaphysicae</title>
-                </ref>
+                <quote xml:id="pg-b1q13-Qd1e1016">
+                  corruptibile et incorruptibile 
+                  differunt <supplied>specie</supplied> 
+                  plus quam genere
+                </quote>
                 <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>Metaphysica</title> 
+                  9, 10 (1058b26-29); 
                   <name>Averroes</name>, 
-                  <title>Metaphysicae</title>, X.
+                  <title>In Metaphysicam</title> 
+                  10, comm. 26 (Iunta VIII, 276rbE-vaH)
                 </bibl>
-              </cit> 
-              corruptibile et incorruptibile 
-              differunt plus quam genere, 
+              </cit>, 
               ergo conclusio falsa.
             </p>
             <p xml:id="pgb1q13-d1e852">
