@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -193,7 +190,7 @@
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
                   XV, 18, 32 
-                  (CCL 50A, 507).
+                  (CCSL 50A, 507, ll. 1-2).
                 </bibl>
               </cit>, 
               ut dicit
@@ -296,10 +293,18 @@
               supernaturaliter infusus. 
               Patet 
               <cit>
-                <ref xml:id="pg-b1q16-Rd1e299"><title>Extra</title> de haereticis in clementinis</ref>
-                <bibl><title>Liber Extra</title>, XXX</bibl>
+                <ref xml:id="pg-b1q16-Rd1e299">
+                  <title>Extra</title> 
+                  de haereticis in Clementinis
+                </ref>
+                <bibl>
+                  <title>Clementinae</title> 
+                  5, 3, 3 
+                  (CIC II, 1183).
+                </bibl>
               </cit>. 
-              Secundo, quod sit a Deo mentem etc., 
+              Secundo, 
+              quod sit a Deo mentem etc., 
               patet 
               quia Deus 
               est vita animae, 
@@ -315,10 +320,13 @@
                 </ref>
                 <bibl>
                   <name>Gregorius Magnus</name>, 
-                  Super Ezechialem
+                  <title>Homiliae in Ezechielem</title> 
+                  2, 5, 9 
+                  (CCSL 142, 282, ll. 254-255).
                 </bibl>
               </cit>.
-              Tertio, quod <sic>carificet</sic> mentem, 
+              Tertio, 
+              quod <sic>carificet</sic> mentem, 
               patet ex verbo Christi 
               <cit>
                 <quote xml:id="pg-b1q16-Qd1e329" ana="#io10_27">
@@ -358,7 +366,9 @@
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>Moribus Ecclesiae</title>, c. 14
+                  <title>De moribus ecclesiae</title>
+                   1, 13, 23 
+                   (CSEL 90, 27, ll. 16).
                 </bibl>
               </cit>.
               Item, 
@@ -372,7 +382,8 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Doctrina Christiana</title>, 
-                  3, 10.
+                  3, 10, 16 
+                  (CCSL 32, 87, ll. 32).
                 </bibl>
               </cit>. 
               Item, 
@@ -380,11 +391,14 @@
                 libro <title ref="#Confessions">Confessionum</title>
               </ref>, 
               <cit>
-                <quote xml:id="pg-b1q16-Qd1e407" ana="#Augustine_Confessionum_13_9_10_a">pondus meum amore meus eo</quote>
+                <quote xml:id="pg-b1q16-Qd1e407" ana="#Augustine_Confessionum_13_9_10_a">
+                  pondus meum, amor meus, eo
+                </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>Confessionum</title>, 
-                  13, 9, 10.
+                  <title>Confessiones</title> 
+                  13, 9, 10 
+                  (CCSL 27, 246, ll. 16).
                 </bibl>
               </cit> 
               etc. 
@@ -412,7 +426,8 @@
                 <bibl>
                   <name>Hugolinus</name>, 
                   <title>Sent.</title> 
-                  XXX
+                  <title>Sent</title> I, d. 14-18, q. 1, a. 1 
+                  (Eckermann II, 231, ll. 76 - 232, ll. 102).
                 </bibl>
               </cit>.
               Patet caritas creata non inclinat 
@@ -451,13 +466,14 @@
               <cit>
                 <quote xml:id="pg-b1q16-Qd1e460">
                   bonum quod facit hominem bonum non 
-                  nisi Deus est 
+                  nisi Deus est, 
                   non enim reddit hominem bonum nisi 
                   qui semper bonus est
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  XXX.
+                  <title>Sermo</title> 
+                  61, 3, 3 (PL 38, 410)
                 </bibl>
               </cit>,
               contra 
@@ -510,7 +526,9 @@
                   <name ref="#Augustine">Augustinum</name>, 
                   libro <title>De haeresibus</title>, capitulo 8</ref>
                 <bibl>
-                  <name>Augustinus</name>, XXX.
+                  <name>Augustinus</name>, 
+                  <title>De haeresibus</title> 88, 2 
+                  (CCSL 46, 340, ll. 5 -342, ll. 27).
                 </bibl>
               </cit>,
               ubi ostendit 
@@ -530,10 +548,11 @@
                 </ref>
                 <bibl>
                   <name>Scotus</name>, 
-                  <title>Sent.</title>, 
-                  I, d. 17, q. 2
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 1, q. 1-2 
+                  (Vatican V, 202, ll. 9 - 203, ll. 12)
                 </bibl>
-              </cit> 
+              </cit>, 
               quia sola gratia praedestinationis 
               est medium conveniens faciens 
               actum bonum esse Deo acceptum 
@@ -633,8 +652,6 @@
               <unclear>notionaliter</unclear> 
               dicit <name ref="#Paul">Apostolus</name> spiritu 
               et non per Spiritum Sanctum.
-            </p>
-            <p xml:id="pgb1q16-d1e545">
               Pro tertia quaestione sunt verba 
               <ref xml:id="pg-b1q16-Rd1e604">
                 <name ref="#Augustine">Augustini</name> 
@@ -646,7 +663,7 @@
                 <quote xml:id="pg-b1q16-Qd1e614" source="http://scta.info/resource/adt-l15">
                   dilectio, 
                   quae ex Deo et Deus est, 
-                  est proprie Spiritus Sanctus 
+                  est proprie Spiritus Sanctus, 
                   <pb ed="#L" n="53-v"/> 
                   per quem diffunditur in cordibus nostris caritas 
                   per quam nos inhabitat tota caritas
@@ -654,7 +671,8 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title>, 
-                  XV, c. 5.
+                  XV, 18, 32 
+                  (CCSL 50A, 508, ll. 26-32).
                 </bibl>
               </cit>, 
               et plura ibi dicit 
@@ -673,7 +691,9 @@
                 </ref>
                 <bibl>
                   <name>Fastinus de Asti</name>,
-                  III, q. 2
+                  <title>Sent.</title> 
+                  III, q. 2 
+                  (Ms. Erfurt, Universitätsbibliothek, CA 2 115, f. 169rb).
                 </bibl>
               </cit>.
               Patet 
@@ -689,7 +709,8 @@
                 <bibl>
                   <name>Iacobus de Viterbo</name>, 
                   <title>Qudodlibet</title>, 
-                  xxx.
+                  2, q. 6 
+                  (Ypma 97, ll. 1 - 104, ll. 253)
                 </bibl>
               </cit>.
             </p>
@@ -712,7 +733,8 @@
                 <bibl>
                   <name>Gregorius Ariminiensis</name>,
                   <title>Sent.</title>
-                  I, d. 17, q. 1, a. 1. 
+                  I, d. 17, q. 1, a. 1
+                  (Trapp/Marcolino II, 220, ll. 19-30).
                 </bibl>
               </cit>. 
               Patet 
@@ -723,13 +745,18 @@
               Confirmatur 
               quia Spiritus Sanctus <sic>intrinsecatur</sic> 
               menti personaliter sine suis donis 
-              <unclear>interiatione</unclear> tali 
+              <unclear>intimatione</unclear> tali, 
               quae sufficeret ad gratuitum esse. 
               Patet ex dictis,
               et prout ipse etiam concedit in 
               <cit>
                 <ref xml:id="pg-b1q16-Rd1e682">illa distinctione, articulo 2</ref>
-                <bibl>XXX, I, d. 17, a. 2</bibl>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 17, q. 1, a. 2 
+                  (Trapp/Marcolino II, 222, ll. 12-23)
+                </bibl>
               </cit>.
               Item, 
               si Spiritus Sanctus daretur menti creatae 
@@ -746,7 +773,12 @@
                 <ref xml:id="pg-b1q16-Rd1e691">
                   eundum, libro primo, distinctio 14
                 </ref>
-                <bibl>XXX, I, d. 14</bibl>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 14-16, q. 1, a. 1 
+                  (Trapp/Marcolino II, 205, ll. 5-33)
+                </bibl>
               </cit>.
             </p>
             <p xml:id="pgb1q16-d1e639">
@@ -762,7 +794,8 @@
                 <bibl>
                   <name>Thomas Aquinas</name>,
                   <title>Summa theologica</title>
-                  I-IIae, q. 2, a. 3.
+                  I-IIae, q. 110, a. 3 
+                  (Leonine VII, 312a-b)
                 </bibl>
               </cit>, 
               et contra 
@@ -775,7 +808,8 @@
                 <bibl>
                   <name>Thomas de Argentina</name>,
                   <title>Sent.</title>
-                  I, d. 17, q. 1, a. 4.
+                  I, d. 17, q. 1, a. 4 
+                  (Venice 1564, 71va).
                 </bibl>
               </cit>. 
               Patet corollarium 
@@ -839,7 +873,7 @@
                 <quote xml:id="pg-b1q16-Qd1e758" ana="#rom5_5">
                   gratia Dei seu caritas diffusa est
                 </quote>
-                <bibl>Romanos 5:5</bibl>
+                <bibl>Romanos 5:5.</bibl>
               </cit> 
               etc.
             </p>
@@ -854,18 +888,25 @@
               vel posterius, 
               et hoc non per 
               <cit>
-                <ref xml:id="pg-b1q16-Rd1e773">
+                <ref xml:id="pg-b1q16-Rd1e773" corresp="#pg-b1q16-Qd1e1069">
                   <name ref="#Anselm">Anselmus</name>, 
                   <title ref="#Monologion">Monologion</title> 5
                 </ref>
-                <bibl>
-                  <name>Anselmus</name>, 
-                  <title>Monologion</title>, 
-                  5, xxx.</bibl>
               </cit>, 
-              ubi comparat gratiam sessori 
-              et voluntatem iumento, 
-              vel prius, 
+              ubi comparat 
+              <cit>
+                <quote xml:id="pg-b1q16-Qd1e1069">
+                  gratiam sessori 
+                  et voluntatem iumento
+                </quote>
+                <bibl>
+                  <name>Ps. Augustinus</name>, 
+                  <title>Hypomnesticon</title> 
+                  3, 11, 20 
+                  (Chisholm, 140, ll. 549-550).
+                </bibl>
+              </cit>. 
+              Vel prius, 
               et hoc non 
               quia tunc habitus 
               uteretur potentia 
@@ -976,7 +1017,8 @@
                 <bibl>
                   <name>Lombard</name>, 
                   <title>Sent.</title> 
-                  I, d. 17, xxx
+                  I, d. 17, c. 1, n. 2 
+                  (I, 142, ll. 4-14)
                 </bibl>
               </cit>, 
               quae non tenetur ad quam 
@@ -1009,14 +1051,16 @@
               contra 
               <cit>
                 <ref xml:id="pg-b1q16-Rd1e853">
-                  <name ref="#Augustine">Beatum Augustinum</name> 
+                  <name ref="#Augustine">Beatum Augustinum</name>,
                   <title>De quaestionibus novi et veteris testamenti</title>
                 </ref>
                 <bibl>
-                  <name>Augustinus</name>, 
-                  <title>De quaestionibus novi et veteris</title>, 
-                  xxx.
+                  <name>Ambrosiaster</name>, 
+                  <title>Quaestiones veteris et novi testamenti</title>, 
+                  c. 125, 21 
+                  (CSEL 50, 391, ll. 16-25.
                 </bibl>
+                <!-- citation needs review -->
               </cit>.
             </p>
             <p xml:id="pgb1q16-d1e866">
@@ -1036,7 +1080,8 @@
                 <ref xml:id="pg-b1q16-Rd1e869">ex dictis <name ref="#Rimini">Gregorii</name> ubi supra</ref>
                 <bibl>
                   <name>Gregorius Ariminiensis</name>, 
-                  XXX
+                  <title>Sent.</title> I, d. 17, q. 1, a. 1 
+                  (Trapp/Marcolino II, 217, ll. 6 - 219, ll. 25)
                 </bibl>
               </cit> 
               primo
@@ -1068,12 +1113,13 @@
                       <bibl>Romanos 8:27</bibl>
                     </cit>, 
                     nisi ipsa caritas quae in te per Spiritum 
-                  Sanctum facta?</seg>
+                    Sanctum facta?</seg>
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>In epistolam Iohannis</title>, 
-                  Tractatus 6, 8.
+                  <title>In epistulam Iohannis</title>, 
+                  6, 8 
+                  (PL 35, 2024).
                 </bibl>
                 <!-- see http://www.augustinus.it/latino/commento_lsg/omelia_06_testo.htm -->
               </cit>,
@@ -1113,12 +1159,14 @@
               dicens, 
               <cit>
                 <quote xml:id="pg-b1q16-Qd1e946" ana="#Augustine_Confessionum_13_9_10_a">
-                  eo feror quocumque feror
+                  eo feror, 
+                  quocumque feror
                 </quote>
                 <bibl>
                   <name>Augustinus</name>, 
-                  <title>Confessionum</title>, 
-                  XIII, 9, 10.
+                  <title>Confessiones</title> 
+                  13, 9, 10 
+                  (CCSL 27, 246, ll. 16 -247, ll, 17)
                 </bibl>
               </cit>. 
               Non dicit 
@@ -1166,7 +1214,12 @@
                 <ref xml:id="pg-b1q16-Rd1e959">
                   <name ref="#HugolinoOfOrvieto">Hugolinus</name>
                 </ref>
-                <bibl><name>Hugolinus</name>, XXX</bibl>
+                <bibl>
+                  <name>Hugolinus</name>, 
+                  <title>Sent.</title> 
+                  II, d. 27, q. 1, a. 1 
+                  (Eckermann III, 428, ll. 113 - 429, ll. 125)
+                </bibl>
               </cit> 
               quod nec gratia 
               nec voluntas habent latitudinem 
@@ -1178,8 +1231,9 @@
                   in distinctione 17</ref>
                 <bibl>
                   <name>Scotus</name>, 
-                  <title>Sent.</title> 
-                  I, d. 17
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 1, qq. 1-2 
+                  (Vatican V, 153, ll. 23 -156, ll. 15; et 206, ll. 1- 215, ll. 7)
                 </bibl>
               </cit>, 
               dicit quod sic est principaliter a Deo, 
@@ -1194,8 +1248,9 @@
                 <ref xml:id="pg-b1q16-Rd1e987">libro secundo circa distinctionem 27</ref>
                 <bibl>
                   <name>Scotus</name>, 
-                  <title>Sent.</title> 
-                  II, d. 27. <!-- ??? -->
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 1, q. 1-2 
+                  (Vatican V, 152, ll. 9-17; et 206, ll. 1- 215, ll. 7)
                 </bibl>
               </cit> 
               quia reputo illam bonam.
@@ -1219,7 +1274,16 @@
                 <ref xml:id="pg-b1q16-Rd1e998">
                   in secunda quaestione sua contra eandem distinctionem
                 </ref>
-                <bibl><name>Scotus</name>, XXX</bibl>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 1, q. 1-2 
+                  (Vatican V, 202, ll. 14-19); 
+                  <name>Scotus</name>, 
+                  <title>Reportata</title> 
+                  I, d. 17, q. 2 
+                  (Wadding XI/1, 96b, n. 4)
+                </bibl>
               </cit>, 
               ipse tamen 
               <cit>
@@ -1270,12 +1334,25 @@
               sicut patet 
               <cit>
                 <ref xml:id="pg-b1q16-Rd1e1024">distinctione 3 primi</ref>
-                <bibl>Scotus, XXX, I, d. 3; Thamas de Argentina, XXX, I, d. 3</bibl>
+                <bibl>
+                  <name>Scotus</name>
+                  <title>Ordinatio</title> I, d. 17, p. 1, q. 1-2 
+                  (Vatican V, 217, ll. 10-21); 
+                  <name>Scotus</name>
+                  <title>Reportata</title> I, d. 17, q. 1 
+                  (Wadding XI/1, 95a, n. 8)
+                </bibl>
               </cit> 
               et 
               <cit>
                 <ref xml:id="pg-b1q16-Rd1e1034">26 secundi libri</ref>
-                <bibl>Scotus XXX,  II, d. 26; Thamas de Argentina, XXX,  II, d. 26</bibl>
+                <bibl>
+                  <name>Thomas de Argentina</name>, 
+                  <title>Sent</title> 
+                  I, d. 17, q. 1, a. 1 
+                  (Venice 1564, 70va).
+                </bibl>
+                <!--needs dbcheck -->
               </cit>.
               Secundo, 
               dico quod illa inconvenientia illata 
@@ -1291,7 +1368,8 @@
                 <bibl>
                   <name>Aegidius Romanus</name>, 
                   <title>Sent.</title>
-                  I, d. 17, pars 1, q. 2.
+                  I, d. 17, p. 1, princ. 1, q. 2 
+                  (Venice 1521, 90raD-rbH).
                 </bibl>
               </cit>. 
               De aliis tribus ostendit 
@@ -1305,7 +1383,8 @@
                 <bibl>
                   <name>Thomas de Argentina</name>, 
                   <title>Sent.</title> 
-                  I, d. 17, q. 1, a. XX
+                  I, d. 17, q. 1, a. 1 
+                  (Venice 1564, 70va-vb)
                 </bibl>
               </cit>, 
               vide eius 
@@ -1355,7 +1434,7 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>In epistolam Iohannis</title>, 
-                  Tractatus 6, 8.
+                  6, 8 (PL 35, 2024).
                 </bibl>
               </cit>. 
               Dico primo quod 
@@ -1375,7 +1454,7 @@
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>In epistolam Iohannis</title>, 
-                  Tractatus 6, 8
+                  6, 8 (PL 35, 2024).
                 </bibl>
               </cit>.
               Secundo, 
@@ -1448,6 +1527,7 @@
                   <name>Lombardus</name>, 
                   <title>Sent.</title>
                   I, d. 17, c. 1, n. 1
+                  (I, 141, ll. 25-26).
                 </ref>
               </bibl>
             </cit>. 
