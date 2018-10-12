@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 3 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Liber 2, Quaestio 3 [London Transcription]</title>
+          <date when="2018-10-04">October 04, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-10-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="141-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q3">
+        <head>Liber 2, Quaestio 3 [London Transcription]</head>
+        <p>
+          <lb ed="#L"/>Utrum angeli mali per suae visionis claritatem vide<lb ed="#L"/>ant 
+          in humana mente conceptam parvitatem <pc type="virgula">/</pc> vel sic <pc type="virgula">/</pc> utrum angeli 
+          <lb ed="#L"/>mali per sui intellectus vivacem notitiam videant mentis human<lb ed="#L"/>ae 
+          intrinsecam seu occultam malitiam 
+        </p>
+        <p>
+          <pc type="virgula">/</pc> arguitur primo quod sic quia si non hoc esset quia 
+          <lb ed="#L"/>indigeret speciebus creatis ad videndum illas vel ergo tales species essent finitae 
+          <lb ed="#L"/>vel infinitae neutrum esse dicendum ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>2o sic angelus potest per motum localem 
+          <lb ed="#L"/>illabi humanae menti ergo antecedens probatur quia plures homines leguntur fuisse 
+          <lb ed="#L"/>ab angeli mali obcessi et hoc filius non potest nisi per illapsum in corpus 
+          <lb ed="#L"/>hominis quia non homo sed corpus homini deberet dici obcessum ergo illapsus 
+          <lb ed="#L"/>factus est in animam et corpus obcessorum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3o sic angelus habet notitiam cuiuslibet co<lb ed="#L"/>gitationis 
+          pro qua animam debet punire ergo habet notitiam talium cognitionum 
+          <lb ed="#L"/>occultarum tenet consequentiam quia quilibet pumens debet scire pro quo punit <pc type="virgula">/</pc> tum 
+          <lb ed="#L"/>quia habens notitiam subiecti perfectam habet notitiam accidentium eius
+        </p>
+        <p>
+          <pc type="#pilcrow"/> In oppositum arguitur 
+          <lb ed="#L"/>unus angelus non potest videre naturaliter conceptum alterius ergo angelus ex clairtate 
+          <lb ed="#L"/>et vivacitate sui intellectus non videt nostras intrinsecas et occultas co<lb ed="#L"/>gitationes 
+          <pc type="virgula">/</pc> confirmatur per illud actuum 2o tu solus nosci corda homini
+        </p>
+        <p>
+          <lb ed="#L"/><pc type="#pilcrow"/> prima conclusio non stet <del rend="strikethrough">actum</del> intellectum agnelicum habere notitiam rei per 
+          <lb ed="#L"/><sic>per</sic> solam praesentiam obiecti cognoscibilis tamen in angelo non sunt species ab 
+          <lb ed="#L"/>initio creatae per quas possit videre naturam cuiuslibet rei producibilis <pc type="virgula">/</pc> prima 
+          <lb ed="#L"/>pars probatur quia si sola obiecti praesentia sufficieret ad hoc quod angelus cognosceret 
+          <lb ed="#L"/>aliquid sequeretur eadem foret notitia actualis et habitualis intensa et remissa 
+          <pb ed="#L" n="142-r"/>
+          <lb ed="#L"/>consequens est falsum patet consequentia quia lumen intellectus angelici semper manet uniforme
+          <lb ed="#L"/><pc type="#pilcrow"/> Item sequeretur quod obiecto sibi praesente semper ipsum intelligeret aeque intensae sicut 
+          <lb ed="#L"/>prius consequens est falsum quia voluntas angeli potest avertere intellectum a con<lb ed="#L"/>sideratione 
+          actuali talis obiecti <pc type="#pilcrow"/> Item a simili sequeretur quod homo posset videre 
+          <lb ed="#L"/>tantum vel aliud sine quocumque actu distincto a se consequens est falsum tum quia beatitudo 
+          <lb ed="#L"/>non consisteret in duobus accidentibus tum quia accidens relativum sicut est 
+          <lb ed="#L"/>videre staret sine suo fundamento quod est impossibile tenet consequentia quia eodem modo 
+          <lb ed="#L"/>beatificatur homo et angelus patet etiam consequentia quia intellectus angeli non ex<lb ed="#L"/>cedit 
+          infinite in cognoscendo humanum intellectum <pc type="#pilcrow"/> 2a pars probatur quia 
+          <lb ed="#L"/>si in angelo essent species concreatae per quas videret aut videre posset 
+          <lb ed="#L"/>obiectum sibi cognoscibile quodlibet sequeretur quod tam boni quam mali scirent omnia 
+          <lb ed="#L"/>futura consequens est falsum quia tunc nullus superior angelus posset aliquod 
+          <lb ed="#L"/>futurum inferiori revelare patet consequentia quia ex quo haberent speciem 
+          <lb ed="#L"/>futuri cuiuslibet et intellectum sufficienter dispositum sequitur quod illud fu<lb ed="#L"/>turum 
+          intelligeret <pc type="#pilcrow"/> Item autem huiusmodi species essent finite aut infinite 
+          <lb ed="#L"/>non infinite quia tunc sequeretur quod infinite res distinctae non communicantes 
+          <lb ed="#L"/>sed disparatae essent in angelo quolibet consequens est falsum patet consequentia quia sicut 
+          <lb ed="#L"/>una res distinguitur ab alia vel distingueretur si esset sic species responsiva unius 
+          <lb ed="#L"/>a specie alterius distinguitur <pc type="#pilcrow"/> Item angelus non posset proficere in cognitione contra 
+          <lb ed="#L"/><name>magistrum</name> libro 2o distinctione 2a nec unus alium illuminare contra <name>dionysium</name> <title>de 
+          <lb ed="#L"/>caelesti ierarchia</title> patet consequentia quia omnis nova illuminatio arguit speciei 
+          <lb ed="#L"/>novae productionem et novum conceptum <pc type="#pilcrow"/> Item una similitudo naturalis 
+          <lb ed="#L"/>non potest repraesentare dissimilia ut sunt dissimilia ergo oportet quod angelus habeat 
+          <lb ed="#L"/>toto similitudines quot res in se cognosceret et sic fuisseret sibi 
+          <lb ed="#L"/>concreatae infinitae cum infinitae sint conclusiones scibiles de numeriis 
+          <lb ed="#L"/>et figuris et de omnibus producibilibus et productis <pc type="virgula">/</pc> si autem dicitur quod illae 
+          <lb ed="#L"/>species finitae sint sequitur quod aliquae species finitae creatae sunt ymagines 
+          <lb ed="#L"/>et similitudines <del>respectu</del> repraesentativae infinitorum producibilium consequens est falsum 
+          <lb ed="#L"/>quia tunc illae infinitae aequipollerent infinitis repraesentativis et sic 
+          <lb ed="#L"/>toto repraesentaret quot deus <pc type="#pilcrow"/> Item eadem res esset ymago repraesentativa 
+          <lb ed="#L"/>proprie et perfecte repraesentas simul caliditatem et frigiditatem gaudium et 
+          <lb ed="#L"/>dolorem dulcedine et amaritudinem sed ista sunt falsa ergo 
+          <lb ed="#L"/><pc type="virgula">/</pc> Item per illas species non posset discernere inter <unclear>intense et remisse <!-- intensae et remissae??? --></unclear> 
+          <lb ed="#L"/>calida
+        </p>
+        <p>
+          <lb ed="#L"/><pc type="#pilcrow"/>primum corollarium sicut intellectus angeli non sufficit se solo rem 
+          <lb ed="#L"/>aliquam cognoscere sic voluntas angeli non sufficit se sola sine 
+          <lb ed="#L"/>quocumque afficiente posse dolere aut gaudio se afficere patet 
+        </p>
+        <p>
+          <pb ed="#L" n="142-v"/>
+          <lb ed="#L"/>2m corollarium sicut species creata requiritur ad angelum ad aliquod creatum 
+          <lb ed="#L"/>videre sic quodlibet obiectum ab angelo cognoscibile potest <unclear>in intellectu</unclear> angeli sui 
+          <lb ed="#L"/>notitiam communicare patet quia aliter angelus viderent intuitive non existentia 
+          <lb ed="#L"/>quod est falsum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3m corollarium licet angelus plura cognoscat per species creatas 
+          <lb ed="#L"/>a rebus tamen angelus aliquam cognoscit sine huiusmodi speciebus <pc type="virgula">/</pc> prima pars patet 
+          <lb ed="#L"/>quia angeli naturaliter cognoscunt aliqua praeterita et distincte de ipsis recor<lb ed="#L"/>dantur 
+          <pc type="virgula">/</pc> 2a pars patet quia distincte videret se intuitive et non per aliam speciem 
+          <lb ed="#L"/>ergo corollarium verum totum <pc type="virgula">/</pc> ex quibus patet falsitas operationis dicentis quod in 
+          <lb ed="#L"/>creatione animae communicantur sibi quidam habitus per quod quando erit separata 
+          <lb ed="#L"/>poterit cognoscere cognoscibilia et videre patet quia aliter sequeretur quod animae in inferno 
+          <lb ed="#L"/>existentes viderent omnia quae sunt in paradiso et econtra quaelibet anima existens 
+          <lb ed="#L"/>in paradiso omnia quae sunt in inferno et in mundo et sic nullus posset aliquid 
+          <lb ed="#L"/>cogitare quin alius videret et sciret quod est falsum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Ex hiis etiam videtur 
+          <lb ed="#L"/>sequi quod sicut in nobis sunt quinque corporis sensus per quos distincta 
+          <lb ed="#L"/>obiecta nata sunt a nobis praecipi sic aequipolenter in angelo sunt 
+          <lb ed="#L"/>quinque virtute quibus diversa obiecta nata sunt ab eo cognosci patet 
+          <lb ed="#L"/>quia angelus potest percipiere albedinem dulcedinem et amaritudinem in 
+          <lb ed="#L"/>propriis speciebus ergo mediate aliquibus virtutibus patet consequentia sed antecedens apparet quia 
+          <lb ed="#L"/>aliter angelus nesciret discernere inter amarum et dulce quod est falsum <pc type="virgula">/</pc>
+          <lb ed="#L"/><pc type="virgula">/</pc> per hoc tamen dicere nolo quod angelus sic percipiat dulcedinem quod <unclear>sentiat</unclear> 
+          <lb ed="#L"/>delectationem in se sicut et nos sed solum habet illam perceptionem dulcedinis 
+          <lb ed="#L"/>in intellectu quam nos habemus in materiali sensu etc dicendum est de obiectis aliis 
+          <lb ed="#L"/>potentiarum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>2a conclusio sicut stat angelum esse simul quiesceretur in pluribus 
+          <lb ed="#L"/>locis distinctis totaliter ita non repugnat angelum se movere in tempore 
+          <lb ed="#L"/>successive localiter <pc type="virgula">/</pc> prima pars probatur quia anima simul est in pluribus partibus corporis 
+          <lb ed="#L"/>distantibus et distinctis et non videtur magis impossibile quod angelus sit in partibus 
+          <lb ed="#L"/>distinctis et divisis a toto quam in partibus unitis simul ergo <pc type="#pilcrow"/> Item deus 
+          <lb ed="#L"/>posset ponere idem corpus in pluribus locis ergo spiritum angelicum <pc type="#pilcrow"/> 2a pars 
+          <lb ed="#L"/>probatur per illud luce primo ingressus angelus ad eam <pc type="virgula">/</pc> confirmatur per illud <title>ysa</title> 
+          <lb ed="#L"/>6o <quote ana="#is6_6">volavit ad me unus de seraphim</quote> <pc type="virgula">/</pc> Item <title>actuum</title> 2o dicit angelus 
+          <lb ed="#L"/><name>petro</name> <quote><!-- I can't find this -->sequare me</quote> et sequitur quod processerunt vitum unum ubi manifeste 
+          <lb ed="#L"/>innuitur motus successivus angeli <pc type="virgula">/</pc> Item anima humana potest se movere localiter 
+          <lb ed="#L"/>successive ergo angelus tenet consequentia quia aequae indivisibilis est et aeque libera <pc type="#punctus"/> confirmatur 
+          <lb ed="#L"/>prima pars quia plures angeli possunt esse in eodem loco ergo unus in pluribus 
+          <lb ed="#L"/>locis antecedens patet <unclear>maiti</unclear> 5o ubi dicitur quod legio erat in corpore cuiusdam 
+          <lb ed="#L"/>obcessi
+        </p>
+        <p>
+          <pc type="#pilcrow"/>primum corollarium sicut angelus non est limitatus ad certam quantitatem
+          <pb ed="#L" n="143-r"/>
+          <lb ed="#L"/>corporis quam possit assumere sic non est naturaliter limitatus ad certam quantitatem 
+          <lb ed="#L"/>loci cui possit coexistere <pc type="virgula">/</pc> prima pars patet quia anima humana potest nunc 
+          <lb ed="#L"/>maius nunc minus corpus informare ergo angelus potest nunc maius nunc 
+          <lb ed="#L"/>minus corpus assumere tenet consequentia patet antecedens quia secundum quod corpus augetur 
+          <lb ed="#L"/>ac maius efficitur sic eadem anima informat ipsum in iuventute dum 
+          <lb ed="#L"/>est minus et in aetate perfecta dum est maius <pc type="virgula">/</pc> 2a pars probatur quia maior est unio 
+          <lb ed="#L"/>inter animam et corpus quam inter angelum et locum in quo est vel esse potest 
+          <lb ed="#L"/>sed non obstante unione animae ad corpus adhuc non determinat sibi illam 
+          <lb ed="#L"/>quantitatem corporis quin possit informare corpus maius si augeatur 
+          <lb ed="#L"/>et minus si <unclear>determinatur?</unclear> vel membrum praescindatur ergo sic est possibile de angelo 
+          <lb ed="#L"/>respectu sui loci
+        </p>
+        <p>
+          <pc type="#pilcrow"/>2m corollarium ad angelum cum corpore assumpto successive 
+          <lb ed="#L"/>localiter moveri non sequitur aliquod continuum ex in divisibilibus componi patet quia 
+          <lb ed="#L"/>est in loco quanto et divisibili sic quod totus est in toto in qualibus 
+          <lb ed="#L"/>parte illius loci divisiblis non autem pars in parte sicut corpus quia partibus caret
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3m corollarium sicut non omne quod movetur partim est in termino a quo et partim in termino 
+          <lb ed="#L"/>ad quem sic semper in motu locali successivo oportet ponere medii vel mobilis 
+          <lb ed="#L"/>resistentiam prima pars patet quia angelus non habet partem et partem et tamen movetur localiter 
+          <lb ed="#L"/>sed sufficit quod angelus in suo motu habeat partem de primo termino totaliter 
+          <lb ed="#L"/>distincto a loco in quo prius erat et partem de loco ad quem tendit <pc type="virgula">/</pc> 2a pars 
+          <lb ed="#L"/>patet quia libertas viventis moventis sufficit ad causandum successionem 
+          <lb ed="#L"/>in motu ergo stat angelum nullam habere resistentiam extrinsecam in 
+          <lb ed="#L"/>modo et tamen se movere localiter successive velociter vel tarde secundum 
+          <lb ed="#L"/>suae voluntatis libertatem
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Ex quibus sequitur aliqua sub corollaria <pc type="virgula">/</pc> primum 
+          <lb ed="#L"/>licet unus angelus possit esse in pluribus locis naturaliter partialibus quiesceretur 
+          <lb ed="#L"/>tamen nullus locus est angelo connaturalis et proprius totaliter ac simpliciter prima pars 
+          <lb ed="#L"/>patet quia est in qualibet parte totalis loci cui coexistit 2a patet quia si aliquis 
+          <lb ed="#L"/>locus connaturalis esset angelo et proprius tunc sicut lapidem gravius locus eset 
+          <lb ed="#L"/>deorsum vel centrum sic sequitur quod omnis locus ab illo esset angelo violentus 
+          <lb ed="#L"/>et sic violenter et non libere moveretur ad illum locum alium quod est falsum
+        </p>
+        <p>
+          <lb ed="#L"/><pc type="#pilcrow"/>2m sub corollarium stat angelum habere nunc a priore alium locum et ipsum 
+          <lb ed="#L"/>angelum numquam fuisse localiter motum <pc type="virgula">/</pc> vel sic stat angelum habere successive 
+          <lb ed="#L"/>multiplicem locum et ipsum numquam fuisse vel esse localiter motum patet quia 
+          <lb ed="#L"/>si deus adnihilaret luciferum in loco ubi nunc est et post iterum recrearet 
+          <lb ed="#L"/>ipsum in alio loco constat quod lucifer non esset localiter motus sed bis 
+          <lb ed="#L"/>fuisset mutatus de non esse ad esse <pc type="virgula">/</pc> Item non sequitur sortes est nunc in loco 
+          <lb ed="#L"/>et post fuit in alio loco ergo sortes est vel fuit localiter motus vel 
+          <lb ed="#L"/>mutatus patet quia oppositum consequentis potest stare cum antecedente si ponatur 
+          <lb ed="#L"/>quod sortes in primo loco fuerit ad nullatenus et in 2o loco de novo 
+          <pb ed="#L" n="143-v"/>
+          <lb ed="#L"/>creatus ut patet in casu priori <pc type="virgula">/</pc>
+        </p>
+        <!-- unclear where "primo" begins -->
+        <p>
+          2o sequitur quod stat aliquid velocius moveri 
+          <lb ed="#L"/>cum resistentia alio mobili moto sine quacumque extrinseca resistentia 
+          <lb ed="#L"/>patet quia angelus potest se movere tarde et velociter sicut sibi placet 
+          <lb ed="#L"/>sed lapis ex se non habet quin moveatur cum resistentia
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3o sequitur quod 
+          <lb ed="#L"/>licet angelus sit in loco praecise per suum agere vel operari tamen angelus non 
+          <lb ed="#L"/>potest naturaliter quantolibet in agno loco existere vel commensurari prima patet 
+          <lb ed="#L"/>per articulum parisiensis 100 inter antiquos 2a pars patet per <name>damascenus</name> libro 2o et 3o 
+          <lb ed="#L"/>cum angeli sunt in caelo non sunt in terra et cum ad homines mittuntur 
+          <lb ed="#L"/>in terra non remanent in caelo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>4o sequitur quod si angelus non esset in loco nisi 
+          <lb ed="#L"/>ubi operaretur sequitur quod saepe angelus in nullo loco esset nec continentur 
+          <lb ed="#L"/>patet quia dum angelus descendit de caelo ad terram angelus non operatur 
+          <lb ed="#L"/>in caelo nec in medio nec in terra ergo de novo nihil operatur et per consequens 
+          <lb ed="#L"/>nullibi est quod est falsum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>5o sequitur quod stat sine assertione recitative 
+          <lb ed="#L"/>angelum virtute propria in extremis distantibus existere et tamen nullo modo 
+          <lb ed="#L"/>partibus vel locis mediis praesentem assistere patet si angelus aliquod corpus 
+          <lb ed="#L"/>assumeret sic quod in qualibet parte assisteret et ponendo ultra quod illud 
+          <lb ed="#L"/>corpus divideretur tunc sic angelus erat in omnibus illis partibus unitis 
+          <lb ed="#L"/>et non est neccesse angelum desinere esse in illis propter earum divisionem 
+          <lb ed="#L"/>ergo eadem virtute qua prius in illis erat facta divisione partium erit
+          <lb ed="#L"/>in ipsis
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3a conclusio licet angelus malus <del rend="expunctuation">non</del> noscat cogitationes nostras 
+          <lb ed="#L"/>quantum ad terminorum in complexam significationem tamen non cognoscit eas quantum ad 
+          <lb ed="#L"/>divisionis et compositionis determinationem prima patet quia angelus videt animam humanam 
+          <lb ed="#L"/>ergo quodlibet accidens ut est qualitas <sic>in complexa</sic> <pc type="#pilcrow"/> confirmatur quia angelus cognoscit 
+          <lb ed="#L"/>omnes causas cogitationum nostrarum ergo patet consequentia quia scire est rem per causam 
+          <lb ed="#L"/>cognoscere antecedens patet quia cognoscit intellectum obiectum et speciem obiecti praesentatam 
+          <lb ed="#L"/>potentiae 2a pars probatur quia per easdem species non variatas potest homo cogitare 
+          <lb ed="#L"/>aliquid velle nolle facere et non facere ergo stat angelum scire quod homo 
+          <lb ed="#L"/>cogitat de aliqua re cuius speciem vidit gigni in intellectu 
+          <lb ed="#L"/>et tamen nescire determinate utrum habeat conceptum affirmativum vel negativum vel 
+          <lb ed="#L"/>utrum illud vellit prosequi autem fugere antecedens patet quia secundum <name>augustinum</name> 12o 
+          <lb ed="#L"/>de civitate dei capitulo 18 illa quae privative dicuntur non impropria speciei sed in 
+          <lb ed="#L"/>speciei privatione sciuntur et per consequens per eandem speciem quis potest elicere 
+          <lb ed="#L"/>negativum assensum vel affirmativum circa idem seu dissensum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>primum corollarium licet angelus 
+          <lb ed="#L"/>non videat modo dicto nostras cogitationes naturaliter et perfecte potest 
+          <lb ed="#L"/>saepe tamen illas cognoscit per signa extrinseca coniecturative et indirecte 
+          <lb ed="#L"/>prima patet per conclusionem 2a probatur quia ratio quare homo cogitat si fortis fuerit eius cognitio 
+          <pb ed="#L" n="144-r"/>
+          <lb ed="#L"/>non potest esse quin aliquo modo appareat iudicium vel signum in aliqua parte 
+          <lb ed="#L"/>corporis aut per verba aut per manus aut corporis gestus modo 
+          <lb ed="#L"/>angelus malus videt <seg type="correction">tali<subst><del>a</del><add>u</add></subst>m<!-- corrected from taliam ?? --></seg> signata per talia signa sicut medicus 
+          <lb ed="#L"/>per urinam videt qua infirmitate aeger laborat ergo angelus potest 
+          <lb ed="#L"/>absque revelatione scire saepe determinate cogitationes nostras quo 
+          <lb ed="#L"/>ad affirmationem vel negationem prosecutionem vel fugam
+        </p>
+        <p>
+          <pc type="#pilcrow"/>2m corollarium sicud 
+          <lb ed="#L"/>angelus non cognoscit proprie secreta et naturaliter in mente humana existentia 
+          <lb ed="#L"/>sic etiam angelus non scit naturaliter et certitudinaliter futura contingentia patet quia 
+          <lb ed="#L"/>tunc perirent revelationes
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3m corollarium sicut angelus potest scire ex communi 
+          <lb ed="#L"/>cursu et notitia causarum aliquod futuros effectus sic potest ex aliquibus 
+          <lb ed="#L"/>signis et coniecturis scientiae et praedicere aliquibus suos futuros 
+          <lb ed="#L"/>deffectus prima pars patet quia bonus astrologus per artem astrologiae potest 
+          <lb ed="#L"/>scire <del rend="strikethrough">eo</del> futura secundum communem cursum 2arum causarum naturalium ergo et anglus 
+          <lb ed="#L"/>hoc potest consequentia tenet quia quilibet angelus quantumcumque malus habet notitiam minorem 
+          <lb ed="#L"/>talium arcium quam quicumque astrologus <pc type="#pilcrow"/> Item angelus melius cognoscit 
+          <lb ed="#L"/>causas 2as et earum concursus quam ex quarum notitia tales artes de<lb ed="#L"/>pendent 
+          ergo etc <pc type="#pilcrow"/> Item angeli mali propter diuturnitatem temporis et viva<lb ed="#L"/>titatem 
+          memoriae et aliorum sensuum magis <unclear>vigent</unclear> experientia 
+          <lb ed="#L"/>quibuscumque hominibus igitur antecedens patet per <name>ysidorum</name> primo de summo bono capitulo 
+          <lb ed="#L"/>10 dicentem praevaricatores angeli <unclear>sanctitate</unclear> admissa non a<lb ed="#L"/>miserunt 
+          vivacitatem sensuum sed <unclear>vigent</unclear> subtilitate naturae ex<lb ed="#L"/>perientia 
+          temporum et revelatione summarum potestatum scilicet bonorum 
+          <lb ed="#L"/>spirituum et illa sunt eis media quaedam sciendi futura <pc type="#pilcrow"/> ex 
+          <lb ed="#L"/>quibus quid dicendum sit ad quaestionem patet
+        </p>
+        <p>
+          <pc type="#pilcrow"/>Contra primam conclusionem et eius corollaria 
+          <lb ed="#L"/>arguitur primo sic omnis angelus fuit creatus cum habitibus scientificis ergo non 
+          <lb ed="#L"/>intelligit mediantibus speciebus a rebus acquisitis visibilibus causatas tenet consequentia
+          <lb ed="#L"/>quia talis habitus <del rend="strikethrough">ficf</del> scientialis sufficenter ducit intellectum in notitiam 
+          <lb ed="#L"/>rei et antecedens patet per <name>magistrum</name> in 2o aliter angelus fuisset sicut tabula 
+          <lb ed="#L"/>rasa in qua nichil est depictum sicut <name>philosophus</name> dicit de intellectu hu<lb ed="#L"/>mano
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 2o si res creatae sui speciem et notitiam in angelo imprimeret tunc 
+          <lb ed="#L"/>res materialis ageret in spiritum quod est falsum ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 3o aut res concausantes 
+          <lb ed="#L"/>suas species in intellectu angeli prius neccessario illas species in medio pro<lb ed="#L"/>duxerunt 
+          aut non si sic sequitur quod si esset vacuum inter illam rem et an<lb ed="#L"/>gelum 
+          angelus non poset intelligere illam ymmo si duo angeli essent in 
+          <lb ed="#L"/>vacuo non possent se videre <pc type="virgula">/</pc> Item sequitur quod angelus non posset intelligere 
+          <lb ed="#L"/>colorem in nocte sicut nec nos corporaliter videre patet consequentia quia co<lb ed="#L"/>lor 
+          existens in tenebris non causat sui speciem in medio sed illa sunt 
+          <lb ed="#L"/>falsa ergo <pc type="virgula">/</pc> nec potest dici 2m quia tunc angelus per quantamcumque dispositionem posset 
+          <pb ed="#L" n="144-v"/>
+          <lb ed="#L"/>videre rem et sic angelus existens parisius posset videre quidquid sit romae 
+          <lb ed="#L"/>quod est falsum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>4o sequitur quod angelus non posset intensius videre rem quam 
+          <lb ed="#L"/>res possit visionem sui causare sed consequens est falsum quia unus angelus in<lb ed="#L"/>tensius 
+          videt et clarius alio et cognoscit patet consequentia quia res materialis 
+          <lb ed="#L"/>quantum est ex parte sui uniformiter causat speciem
+        </p>
+        <p>
+          <pc type="#pilcrow"/>5o sequitur quod ad aliquam 
+          <lb ed="#L"/>certam distantiam posset videre colorem per quam non posset cognoscere calo<lb ed="#L"/>rem 
+          vel dulcedinem patet consequentia quia color multiplicat suam speciem 
+          <lb ed="#L"/>per maiorem distantiam quam calor vel dulcedo
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 6o angelus videt se et 
+          <lb ed="#L"/>alium angelum et non per species aliquas ab ipsis concausatas ergo tenet consequentia quia 
+          <lb ed="#L"/>non videtur maior ratio de uno visibili quam alio antecedens patet per unum corollarium 
+          <lb ed="#L"/>etiam probatur tum quia angelus sufficienter est sib praesens <pc type="virgula">/</pc> tum etiam quia potentia intellectiva 
+          <lb ed="#L"/>sufficienter videtur praesens alteri angelo ad videndum <pc type="virgula">/</pc> tum 3o quia medium 
+          <lb ed="#L"/>corporale non est susceptivum specierum spiritualium rerum et immaterialium sicut 
+          <lb ed="#L"/>sunt anima et angelus 
+        </p>
+        <p>
+          <pc type="virgula">/</pc>7o sequitur quod visiones quibus angelus et homo videret albedinem 
+          <lb ed="#L"/>non essent diversarum rationum consequens est falsum quia potentia distinguitur specifice patet consequentia 
+          <lb ed="#L"/>quia ibi est partialitas obiecti causantis partialiter visionem in utroque
+        </p>
+        <p>
+          <pc type="#pilcrow"/>8o 
+          <lb ed="#L"/>sequitur quod angelus sentiret calorem frigus dulcedinem amaritudinem 
+          <lb ed="#L"/>et sic non minus delectaretur in sentiendo dulcedinem quam delec<lb ed="#L"/>tetur 
+          gustus noster quod est falsum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>9o si talis species esset ponenda <pc type="#punctus"/> hoc 
+          <lb ed="#L"/>esset propter <unclear>repraesentationem</unclear> obiecit sed hoc non quia obiectum est actus cognitivus sufficienter 
+          <lb ed="#L"/>repraesentat illud cognoscibile ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>10 sic probatur quod non est ponenda huiusmodi species 
+          <lb ed="#L"/>propter repraesentationem quia hoc esset pro tanto quia distans non potest agere in dis<lb ed="#L"/>tans 
+          sed hoc est falsum quia aliter obiectum distans non potest causare speciem in 
+          <lb ed="#L"/>intellectu nisi ponendo aliud speciem ipsam praecedens per quod obiectum fieret 
+          <lb ed="#L"/>praesens intellectui et sic ante illud oporteret ponere aliam speciem et sic 
+          <lb ed="#L"/>esset processus in infinitum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>XIo vel talis species esset eiusdem rationis 
+          <lb ed="#L"/>cum obiecto vel alterius si primum sequitur quod in angelo esset verus calor verus 
+          <lb ed="#L"/>sapor et verus sonus quod est falsum si secundum sequitur quod quilibet sciret dis<lb ed="#L"/>cernere 
+          inter illam speciem et obiectum cuius est illa species ymago praesentativa 
+          <lb ed="#L"/>consequens est falsum patet consequentia quia talis potentia scit discernere inter duos 
+          <lb ed="#L"/>homines qui sunt minus dissimiles cum solo numero differant <pc type="#pilcrow"/>Item si sicut 
+          <lb ed="#L"/>alterius rationis sequitur quod non possint distincte cognosci unica simplici cognitione 
+          <lb ed="#L"/>quae sit propria et distincta utriusque
+        </p>
+        <p>
+          <pc type="#pilcrow"/>12o sequitur quod huiusmodi species est similis obiecto 
+          <lb ed="#L"/>materiali et per consequens esset quanta et divisibilis sed nullum indivisibile potest esse 
+          <lb ed="#L"/>subiectum divisibilis alicuius ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>13o in audiente cantum ex pluribus vo<lb ed="#L"/>cibus 
+          proportionatum non videtur posse remanere aliqua species simlis 
+          <lb ed="#L"/>illi cantui quem audivit ergo nullus de cantu habet recordationem 
+          <lb ed="#L"/>per aliquam speciem a cantu relictam
+        </p>
+        <p>
+          <pc type="#pilcrow"/>14o sequitur quod cogitans de 
+          <pb ed="#L" n="145-r"/>
+          <lb ed="#L"/>umbra haberet aliquam speciem eius in mente consequens est falsum quia umbra 
+          <lb ed="#L"/>non est nisi lucis privatio et quod pure privativum est non potest speciem 
+          <lb ed="#L"/>causaliter efficere
+        </p>
+        <p>
+          <pc type="#pilcrow"/>15o sequeretur quod in eadem potentia esset eiusdem rei duae 
+          <lb ed="#L"/>similitudines solo numero differentes consequens est falsum quia duo accidentia 
+          <lb ed="#L"/>solo numero differentia essent simul in eodem subiecto consequentia patet quia illa <add place="margin-right">species</add> simili<lb ed="#L"/>tuod 
+          rei est <pc type="virgula">/</pc> similiter illa visio rei est eiusdem similitudo
+        </p>
+      
+      </div>
+    </body>
+  </text>
+</TEI>
