@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 4 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev-master">
+          <title>Liber 2, Quaestio 4 [London Transcription]</title>
+          <date when="2018-10-28">October 28, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-10-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="141-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q4">
+        <head>Liber 2, Quaestio 4 [London Transcription]</head>
+        <p>
+          <lb ed="#L"/>Utrum quilibet angelus missus pro homini 
+          <lb ed="#L"/>custodia continue mereatur per impensa eis obsequia 
+          <lb ed="#L"/>utrum boni angeli missi ut nos ad bonum alliciant 
+          <lb ed="#L"/>vel ne mali nos inficiat per talia obsequia continue in merito 
+          <lb ed="#L"/>proficiat 
+        </p>
+        <p>
+          <pc type="virgula">/</pc> quod non quia nullus angelus <del rend="strikethrough">malus</del> ad hominum custodiam mit<lb ed="#L"/>titur 
+          ergo probatur antecedens quia angelus custos hominis praesciti quem scit finaliter 
+          <lb ed="#L"/>dampnandum aut tales custos vult quod tales praescitus finaliter per<lb ed="#L"/>dat 
+          <unclear>gratiam</unclear> vel non si sic sequitur quod vult custoditum peccare et 
+          <lb ed="#L"/>non iuvare ut perseveret in gratia si non sequitur quod voluntas angeli 
+          <lb ed="#L"/>beati non est divinae voluntati conformis <pc type="virgula">/</pc> cum videat in verbo ipsum finaliter 
+          <pb ed="#L" n="149-v"/>
+          <lb ed="#L"/>gratiam amissurum et deum hoc velle <pc type="#pilcrow"/> Item deus est sufficiens cus<lb ed="#L"/>todia 
+          creaturae intimior et praesentalior sibi quam quicumque angelus 
+        </p>
+        <p>
+          <lb ed="#L"/><pc type="#pilcrow"/>2o principaliter arguitur angelus non potest homini loqui nec ipsum illu<lb ed="#L"/>minare 
+          ergo nec debite custodire <pc type="virgula">/</pc> tenet consequentia sed antecedens probatur quia si sic 
+          <lb ed="#L"/>sequitur quod angelus alium angelum minus perfectum posset illuminare consequens 
+          <lb ed="#L"/>est falsum tum quia nullus angelus potest aliquod summe spirituale producere aut alteri 
+          <lb ed="#L"/>infundere <pc type="virgula">/</pc> tum 2o quia illuminare aliquem est ygnorantiam vel tenebras ab 
+          <lb ed="#L"/>illuminato expellere sed in angelis non sunt tenebrae ignorantiae ergo
+        </p>
+        <p>
+          <lb ed="#L"/> <pc type="#pilcrow"/> 3o angeli beati non sunt viatores ergo nec in statu merendi tenet consequentia quia 
+          <lb ed="#L"/>mereri actualiter est voluntatem viatricem non dum finaliter commentatam 
+          <lb ed="#L"/>moveri per dilectionem caritativam in deum antecedens probatur quia repugnat idem 
+          <lb ed="#L"/>mobile per se simul moveri ad aliquam tantum et simul in eodem termino esse 
+          <lb ed="#L"/>quietativum sed beati angeli non sunt in deo sicut in via sed sicut in fine ultimo 
+          <lb ed="#L"/>perfecte commentati ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>In oppositum arguitur angeli proficiunt in praemio ergo 
+          <lb ed="#L"/>in merito et non nisi pro obsequia nobis impensa ergo quo vera consequentia 
+          <lb ed="#L"/>bona quia primum et meritum correspondenter se habent <pc type="virgula">/</pc> antecedens probatur quia angeli 
+          <lb ed="#L"/>proficiunt in cognoscendo ergo et in diligendo tenet consequentia quia partes ymaginis 
+          <lb ed="#L"/>sunt aequales in patria ut quantum quisque cognoscit tantum etiam diligit secundum 
+          <lb ed="#L"/><name>beatum augustinum</name> et antecedens probationis patet quoniam angeli superiores illuminant 
+          <lb ed="#L"/>inferiores et docent
+        </p>
+        <p>
+          <pc type="#pilcrow"/>prima conclusio stat angelum scire praescitum suae custo<lb ed="#L"/>diae 
+          deputatum finaliter gratiam amissurum et tamen angelum velle 
+          <lb ed="#L"/>talem praescitum finaliter gratiam servaturum et gloriam habiturum <pc type="virgula">/</pc> prima 
+          <lb ed="#L"/>pars patet quia ad hoc quod bonus angelus valeat debite se ordinare 
+          <lb ed="#L"/>ad illum homine quem custodit verisimile est quod videt in verbo si est 
+          <lb ed="#L"/>dampnandus vel salvandus <pc type="#pilcrow"/> 2a patet quia si angelus bonus non vellet 
+          <lb ed="#L"/>salvationem et salutem custoditi sequitur quod non esset custos fidelis 
+          <lb ed="#L"/>et dilector hominis sibi commissi consequens non est dicendum ergo
+        </p>
+        <p>
+          <pc type="#pilcrow"/>primum corollarium licet 
+          <lb ed="#L"/>angelus vellit sub conditione praescitum custoditum salvari tamen angelus 
+          <lb ed="#L"/>custos videns eius futuram dampnationem non potest de hoc dolere 
+          <lb ed="#L"/>aut tristari prima pars patet quia vult praescitum salvari si deo placet 
+          <lb ed="#L"/>2a pars probatur quia nullus dolor aut tristitia stat cum beatitudine per<lb ed="#L"/>fecta 
+          angelorum
+        </p>
+        <p>
+          <pc type="#pilcrow"/>2m corollarium licet aliquis <add place="above-line">quem</add> angelus bonus vult salvari 
+          <lb ed="#L"/>non salvabitur tamen intensio vel desiderium boni angeli non frustra<lb ed="#L"/>bitur 
+          patet quia angelus habet circa praesciti salvationem velle <unclear>contradictoria</unclear> 
+          <lb ed="#L"/>tum non absolutum
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
