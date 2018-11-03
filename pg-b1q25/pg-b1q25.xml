@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 25</title>
+        <title>Liber I, Quaestio 25</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.12-dev-master">
-          <title>Librum I, Quaestio 25</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 25</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,448 +24,709 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-12-25" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="76-v"/> 
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q25">
-        <head>Quaestio 25</head>
-        <div>
-          <head><supplied>Circa textum</supplied></head>
+        <head xml:id="pg-b1q25-Hd1e95">Quaestio 25</head>
+        <div xml:id="pg-b1q25-Dd1e98">
+          <head xml:id="pg-b1q25-Hd1e100"><supplied>Circa textum</supplied></head>
           <p xml:id="pgb1q25-d1e3115">
             <cit>
-              <quote>Sunt enim quaedam.</quote>
-              <bibl>Lombardus, XXX</bibl>
-            </cit> 
+              <quote xml:id="pg-b1q25-Qd1e108" type="lemma">Sunt enim quaedam</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
+            </cit>.
             Postquam <name ref="#Lombard">Magister</name> tractavit de 
             notionibus aeternis personis intrinsecis, nunc incipit tractare de relationibus 
             temporalibus et extrinsecis. Et dividitur in duas quia primo tractat de 
             his quae de quibusdam personis dicuntur extrinsece ex tempore, secundo de his quae personis 
             conveniunt communiter appropriate. Secunda incipit in <unclear>principii <!-- dbcheck and collect in lon --></unclear> 31 distinctionis ibi 
             <cit>
-              <quote>praeterea considerare oportet.</quote>
-              <bibl>Lombardus, XXX</bibl>
-            </cit>
+              <quote xml:id="pg-b1q25-Qd1e130">praeterea considerare oportet</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
+            </cit>.
           </p>
-          
-          <p xml:id="pgb1q25-d1e3141">Prima dividitur in tres quia primo ponit de relationibus temporalibus veritatem, 
-            secundo qualiter possunt Deo communire ostendit possibilitatem, et tertio ex his solvit quamdam difficultatem. 
+          <p xml:id="pgb1q25-d1e3141">
+            Prima dividitur in tres quia primo ponit de relationibus temporalibus veritatem, 
+            secundo qualiter possunt Deo communire ostendit possibilitatem, 
+            et tertio ex his solvit quamdam difficultatem. 
             Secunda ibi 
             <cit>
-              <quote>quomodo ergo obtinebimus.</quote>
-              <bibl>Lombardus, XXX</bibl>
-            </cit> 
+              <quote xml:id="pg-b1q25-Qd1e148">quomodo ergo obtinebimus</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
+            </cit>.
             Tertia ibi 
             <cit>
-              <quote>hic potest solvi conclusio</quote>
-              <bibl>Lombardus, XXX</bibl>
+              <quote xml:id="pg-b1q25-Qd1e163">hic potest solvi conclusio</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
             </cit>
           </p>
           
-          <p xml:id="pgb1q25-d1e3149">Secunda pars 
-            <pb ed="#L" n="77r"/>
-            principalis quae est distinctio 31 dividitur in tres quia, primo ponit de aequalitate 
-            divina cum <unclear>responsionibus</unclear> <unclear>quaestionibus</unclear>, secundo ostendit <sic>similitudinarias</sic> quaestionibus fieri posse de 
+          <p xml:id="pgb1q25-d1e3149">
+            Secunda pars 
+            <pb ed="#L" n="77-r"/>
+            principalis quae est distinctio 31 dividitur in tres quia, 
+            primo ponit de aequalitate 
+            divina cum <unclear>responsionibus</unclear> <unclear>quaestionibus</unclear>, 
+            secundo ostendit <sic>similitudinarias</sic> quaestionibus fieri posse de 
             similitudine et aequales posse dari solutiones, tertio exsequitur de his secundum 
-            duorum sanctorum opiniones et traditiones. Secunda ibi 
+            duorum sanctorum opiniones et traditiones. 
+            Secunda ibi 
             <cit>
-              <quote>hoc idem dicimus</quote>
-              <bibl>Lombardus, XXX</bibl>
+              <quote xml:id="pg-b1q25-Qd1e192">hoc idem dicimus</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>non est praetermittendum</quote>
-            </cit> 
-            etc.</p>
+              <quote xml:id="pg-b1q25-Qd1e208">non est praetermittendum</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
+            </cit>, 
+            etc.
+          </p>
         </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            <p xml:id="pgb1q25-d1e3180">Circa hac duas distinctiones quaeritur, utrum summum independens referatur ad <unclear>contingens</unclear>; utrum trinum 
-              simplex invariabile referatur ad contingens seu producibile; utrum per producta 
-              possit formaliter inferre Deum ad creata vere realiter referri.</p>
-            
-            <p xml:id="pgb1q25-qndaid">Quod non Deus non dependet ab aliquo contingenti producibile vel producto temporaliter, 
-              igitur ad nullum talem refertur realiter. Antecedens est notum, et patet consequentia quia quod ad aliud 
-              refertur ab illo dependet.</p> 
-            
-            <p xml:id="pgb1q25-d1e3228">Secundo, si sic, aut hoc esset relatione distincta a se 
+        <div xml:id="pg-b1q25-Dd1e223">
+          <head xml:id="pg-b1q25-Hd1e225">
+            <supplied>Quaestio</supplied>
+          </head>
+          <p xml:id="pgb1q25-d1e3180">
+            Circa hac duas distinctiones quaeritur, utrum summum independens referatur ad <unclear>contingens</unclear>; utrum trinum 
+            simplex invariabile referatur ad contingens seu producibile; utrum per producta 
+            possit formaliter inferre Deum ad creata vere realiter referri.
+          </p>
+          <div xml:id="pg-b1q25-Dd1e237" type="rationes-principales">
+            <head xml:id="pg-b1q25-Hd1e239">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q25-qndaid">
+              Quod non Deus non dependet ab aliquo contingenti producibile 
+              vel producto temporaliter, 
+              igitur ad nullum talem refertur realiter. 
+              Antecedens est notum, 
+              et patet consequentia quia quod ad aliud 
+              refertur ab illo dependet.
+            </p> 
+            <p xml:id="pgb1q25-d1e3228">
+              Secundo, 
+              si sic, aut hoc esset relatione distincta a se 
               <app>
                 <lem>et</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="aboveLine">et</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="above-line">et</add>
                 </rdg>
               </app> 
               a qualibet 
-              re absoluta aut referretur se ipso. Primo non quia cum relatio referatur ad deum sequitur 
-              quod relationis est relatio, et sic esset processus in infinitum in relationibus quod est falsum. Item sequitur quod 
-              illud quo mediante Deus referretur ad producibile esset in Deo. Consequens est falsum quia nullius 
-              accidentis Deus est subiectum, et patet consequentia quia non ens non potest esse subiectum accidentis. 
-              Nec secundum quia eadem ratione quaelibet res creata referretur ad aliam se ipsa quod est falsum 
-              quia quodlibet relatum est res distincta a re absoluta.</p> 
-            
-            <p xml:id="pgb1q25-d1e3253">Tertio, vel Deus ad ea referretur 
-              relatione temporali vel aeterna. Non primum quia tunc Deus mutaretur patet per 
-              <ref>
-                <seg><name ref="#Averroes">Commentatorem</name> V <title ref="#PhysicsCommentary">Physicorum</title> commento 10</seg>
-                <bibl>Averroes, Physica, V, commento 10, xxx</bibl>
-              </ref> 
-              ubi vult quod quando aliquid fit de novo relatum per mutationem alterius 
-              utrumque transmutatur per accidens seu transmutatione <unclear>relati?va</unclear>. Nec potest dici secundum quia 
-              quia nulla creatura fuit aeternaliter sed realis relatio non potest esse inter duo extrema 
-              nisi sint realia positiva, ergo.</p> 
-            
-            <p xml:id="pgb1q25-d1e3279">In oppositum, arguitur Deus ab aeterno scivit se producturum 
-              creaturam, ergo <unclear>conclusio <!-- quaestio --></unclear> vera. Tenet consequentia quia sciens et <unclear>scibile</unclear> et seu scitum ad 
-              invicem referuntur. Et antecedens non est dubium quia Deus nihil incepit scire ex 
-              tempore.</p>
+              re absoluta aut referretur se ipso. 
+              Primo non quia cum relatio referatur ad deum sequitur 
+              quod relationis est relatio,
+              et sic esset processus in infinitum 
+              in relationibus quod est falsum. 
+              Item sequitur quod 
+              illud quo mediante Deus referretur ad producibile esset in Deo. 
+              Consequens est falsum quia nullius 
+              accidentis Deus est subiectum, 
+              et patet consequentia 
+              quia non ens non potest esse subiectum accidentis. 
+              Nec secundum quia eadem ratione quaelibet res creata referretur 
+              ad aliam se ipsa quod est falsum 
+              quia quodlibet relatum est res distincta a re absoluta.
+            </p> 
+            <p xml:id="pgb1q25-d1e3253">
+              Tertio, vel Deus ad ea referretur 
+              relatione temporali vel aeterna. 
+              Non primum quia tunc Deus mutaretur patet per 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e267">
+                  <name ref="#Averroes">Commentatorem</name> V 
+                  <title ref="#PhysicsCommentary">Physicorum</title> commento 10
+                </ref>
+                <bibl>
+                  <name>Averroes</name>, 
+                  <title>Physica</title>, 
+                  V, commento 10, xxx
+                </bibl>
+              </cit> 
+              ubi vult quod quando aliquid fit de novo 
+              relatum per mutationem alterius 
+              utrumque transmutatur per accidens seu 
+              transmutatione <unclear>relati?va</unclear>. 
+              Nec potest dici secundum quia 
+              quia nulla creatura fuit aeternaliter 
+              sed realis relatio non potest esse inter duo extrema 
+              nisi sint realia positiva, ergo.
+            </p> 
+            <p xml:id="pgb1q25-d1e3279">
+              In oppositum, 
+              arguitur Deus ab aeterno scivit se producturum 
+              creaturam, ergo <unclear>conclusio <!-- quaestio --></unclear> vera. 
+              Tenet consequentia quia sciens et <unclear>scibile</unclear> et seu scitum ad 
+              invicem referuntur. 
+              Et antecedens non est dubium 
+              quia Deus nihil incepit scire ex tempore.
+            </p>
           </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head> 
-            <p xml:id="pgb1q25-d1e3293">Prima conclusio: licet Deus referatur ad creata ex tempore seu temporaliter. Prima pars <unclear>patet <!-- dbcheck --></unclear> 
-              quia Deus ex tempore est creator et dominus creaturae realiter, ergo. Antecedens patet per 
-              <ref>
-                <seg><name ref="#Lombard">Magistrum</name> 
-                distinctio 30.</seg>
-                <bibl>Lombardus, I, d. 30, xxx</bibl>
-              </ref> 
+          <div xml:id="pg-b1q25-Dd1e301">
+            <head xml:id="pg-b1q25-Hd1e303">
+              <supplied>Prima conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q25-d1e3293">
+              Prima conclusio: licet Deus referatur ad creata ex tempore seu temporaliter. 
+              Prima pars <unclear>patet <!-- dbcheck --></unclear> 
+              quia Deus ex tempore est creator et dominus creaturae realiter, ergo. 
+              Antecedens patet per 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e317">
+                  <name ref="#Lombard">Magistrum</name> 
+                  distinctio 30
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 30, xxx
+                </bibl>
+              </cit>.
               Et patet consequentia quia dominus refertur ad servum nec prius dominus et dominus quam sit 
               eius servus. Secunda pars probatur quia Deus fuit aeternaliter praescius et productivus producibilium, 
               ergo aeternaliter referebatur ad ens creabile et scibile. Consequentia patet cum creativum 
               et creabile sciens et scibile sint <unclear>cor?va<!-- correlativa? --></unclear> sed quod sit relatio realis et non rationis 
               tantum quia circumscripta omni operatione intellectus cuiuscumque creati stat Deum esse creantem 
-              et dominum creaturae et ipsum referri ad quodlibet producibile.</p> 
-            
-            <p xml:id="pgb1q25-d1e3327">primum corollarium sicut non repugnat 
+              et dominum creaturae et ipsum referri ad quodlibet producibile.
+            </p> 
+            <p xml:id="pgb1q25-d1e3327">
+              Primum corollarium sicut non repugnat 
               ens reale referri ad aliquid quod caret actuali esse sic non repugnat 
               non ens posse referri ad summe necesse. Prima patet quia memoria est absentium et 
-              praeteritorum ergo ens refertur ad non ens. Consequentia tenet quia memoria dicitur memoria ut patet 
+              praeteritorum ergo ens refertur ad non ens. 
+              Consequentia tenet quia memoria dicitur memoria ut patet 
               per 
-              <ref>
-                <seg><name ref="#Augustine">Augustinum</name> X <title ref="#deTrinitate">De Trinitate</title> capitulo 10.</seg>
-                <bibl>Augustinus, De Trinitate, X, c. 10</bibl>
-              </ref> 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e342">
+                  <name ref="#Augustine">Augustinum</name> 
+                  X 
+                  <title ref="#deTrinitate">De Trinitate</title> capitulo 10
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title>, 
+                  X, c. 10
+                </bibl>
+              </cit>. 
               Antecedens est 
-              <ref>
-                <seg><name ref="#Aristotle">Philosophi</name> in <title>de memoria et reminiscentia</title>.</seg>
-                <bibl>Aristoteles, De memoria, xxx</bibl>
-              </ref> 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e363">
+                  <name ref="#Aristotle">Philosophi</name> 
+                  in 
+                  <title>de memoria et reminiscentia</title>
+                </ref>
+                <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>De memoria</title>, 
+                  xxx
+                </bibl>
+              </cit> 
               Confirmatur 
-              haec pars quia imago rosae existens in pariete vel in potentia memorativa aeque est imago 
-              rosae dum rosa non est sicut quando est ergo ens refertur ad non ens. Patet consequentia quia 
-              <pb ed="#L" n="77v"/> 
-              imago inquantum imago est quid relatum. Secunda pars probatur quia ens refertur ad non ens 
-              igitur. Tenet consequentia quia <unclear>relativa</unclear> dicuntur <unclear>convertentiam</unclear>, et antecedens patet ex conclusione et ex probatione primae 
-              partis eius.</p>
-        
-            <p xml:id="pgb1q25-d1e3413">Secundum corollarium: licet sit 
+              haec pars quia imago rosae existens in pariete 
+              vel in potentia memorativa aeque est imago 
+              rosae dum rosa non est sicut quando est 
+              ergo ens refertur ad non ens. Patet consequentia quia 
+              <pb ed="#L" n="77-v"/> 
+              imago inquantum imago est quid relatum. 
+              Secunda pars probatur quia ens refertur ad non ens 
+              igitur. 
+              Tenet consequentia 
+              quia <unclear>relativa</unclear> dicuntur <unclear>convertentiam</unclear>, 
+              et antecedens patet ex conclusione 
+              et ex probatione primae 
+              partis eius.
+            </p>
+            <p xml:id="pgb1q25-d1e3413">
+              Secundum corollarium: 
+              licet sit 
               <app>
                 <lem>impossibile</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <add>impossibile</add>
                     <del>possibile</del>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
               creata entia existentia non habere dependentia, 
-              tamen non quodlibet terminans dependentiam alicuius rei est ens reale per existentiam. Prima 
-              patet quia implicat aliquod creatum esse et ipsum non dependere a Deo quia sequitur ipsum 
-              esse et non esse. Secunda pars probatur sumendo <mentioned>dependentiam</mentioned> pro <unclear>quacumque</unclear> habitudine unius rei 
-              ad aliam quia non ens terminat entis dependentiam relativam ut patet per dicta.</p>
-            
-            <p xml:id="pgb1q25-d1e3469">Tertium corollarium: licet pater ut pater et dominus et dominus non possit referri nisi ad aliquam 
-              essentiam prout dicunt <unclear>relationem</unclear> actualem et non habitualem, tamen aliqua sunt <sic>relatia</sic> quibus 
-              repugnat referri ad ens reale seu ad aliquam existentem substantiam. Prima pars est 
-              determinatio 
-              <ref>
-                <seg><name ref="#Augustine">Augustini</name> VII <title ref="#deTrinitate">De Trinitate</title>.</seg>
-                <bibl>Augustinus, De Trinitate, VII, xxx</bibl>
-              </ref> 
-              Primo quia nihil est pater nisi habeat filium nec dominus 
-              nisi habeat servum. Secunda pars patet quia factivum seu productivum non refertur proprie 
-              ad aliquod existens ens reale sed ad illud quod non est et potest esse vel quod est producibile 
-              nota hic tenet <name ref="#Rimini">Gregorius</name> quod divina res est absoluta <unclear>relatia</unclear> aliquo modo.</p> 
+              tamen non quodlibet terminans dependentiam alicuius rei 
+              est ens reale per existentiam. 
+              Prima patet quia implicat aliquod creatum esse 
+              et ipsum non dependere a Deo quia sequitur ipsum 
+              esse et non esse. 
+              Secunda pars probatur sumendo <mentioned>dependentiam</mentioned> 
+              pro <unclear>quacumque</unclear> habitudine unius rei 
+              ad aliam quia non ens terminat entis dependentiam relativam ut patet per dicta.
+            </p>
+            <p xml:id="pgb1q25-d1e3469">
+              Tertium corollarium: 
+              licet pater ut pater et dominus et dominus non possit referri nisi ad aliquam 
+              essentiam prout dicunt <unclear>relationem</unclear> actualem et non habitualem, 
+              tamen aliqua sunt <sic>relatia</sic> quibus 
+              repugnat referri ad ens reale seu ad aliquam existentem substantiam. 
+              Prima pars est determinatio 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e428">
+                  <name ref="#Augustine">Augustini</name> 
+                  VII 
+                  <title ref="#deTrinitate">De Trinitate</title>.
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title>, 
+                  VII, 
+                  xxx
+                </bibl>
+              </cit> 
+              Primo quia nihil est pater 
+              nisi habeat filium nec dominus 
+              nisi habeat servum. 
+              Secunda pars patet 
+              quia factivum seu productivum non refertur proprie 
+              ad aliquod existens ens reale 
+              sed ad illud quod non est et potest esse vel quod est producibile 
+              nota hic tenet <name ref="#Rimini">Gregorius</name> 
+              quod divina res est absoluta <unclear>relatia</unclear> aliquo modo.</p> 
           </div>
-          <div>
-            <head><supplied>Secunda conclusio</supplied></head> 
-            <p xml:id="pgb1q25-d1e3513">Secunda conclusio: licet quaelibet 
-              relatio reperibilis inter entia creata sit ab omni re absoluta aliqualiter realiter distincta, 
-              nulla tamen talis relatio absque re absoluta potest esse distincte intellecta. Prima pars probatur 
-              quia relatio realis et res absoluta seu <unclear>realtivi</unclear> et absolutum ut sic reponuntur 
-              in diversis praedicamentis realiter cum differant non solum numero et specie sed etiam genere, ergo. 
-              Antecedens probatur quod relatio est praedicamentum distinctum ab alio a se. Secunda pars probatur quia si relatio patris 
-              ad filium posset concipi sine quacumque re absoluta distincte, sequitur quod aliquis posset 
-              distincte se scire aliquid esse patrem et nescire ipsum habere filium. Item posset 
-              scire <name ref="#Sortes">Sortem</name> esse similem et ignorare an alicui sit similis, immo nesciret 
-              <name ref="#Sortes">Sortem</name> cum <name ref="#Sortes">Sortes</name> sit res absoluta, sed ista non sunt concedenda, igitur.</p>
-        
-            <p xml:id="pgb1q25-d1e3562">Primum 
+          <div xml:id="pg-b1q25-Dd1e455">
+            <head xml:id="pg-b1q25-Hd1e457">
+              <supplied>Secunda conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q25-d1e3513">
+              Secunda conclusio: 
+              licet quaelibet 
+              relatio reperibilis inter entia creata sit ab 
+              omni re absoluta aliqualiter realiter distincta, 
+              nulla tamen talis relatio absque re absoluta 
+              potest esse distincte intellecta. 
+              Prima pars probatur 
+              quia relatio realis et res absoluta seu 
+              <unclear>realtivi</unclear> et absolutum 
+              ut sic reponuntur 
+              in diversis praedicamentis realiter 
+              cum differant non solum numero 
+              et specie sed etiam genere, 
+              ergo. 
+              Antecedens probatur 
+              quod relatio est praedicamentum distinctum ab alio a se. 
+              Secunda pars probatur quia si relatio patris 
+              ad filium posset concipi sine quacumque re absoluta distincte, 
+              sequitur quod aliquis posset 
+              distincte se scire aliquid esse patrem et nescire ipsum habere filium. 
+              Item, 
+              posset scire <name ref="#Sortes">Sortem</name> esse similem 
+              et ignorare an alicui sit similis, 
+              immo nesciret 
+              <name ref="#Sortes">Sortem</name> cum <name ref="#Sortes">Sortes</name> 
+              sit res absoluta, sed ista non sunt concedenda, 
+              igitur.
+            </p>
+            <p xml:id="pgb1q25-d1e3562">
+              Primum 
               corollarium quod quilibet creatorum realis respectus est ab utroque termino realiter distinctus. Patet quia fundamentum 
-              seu terminus relationis est res absoluta ut sic.</p>
-        
-            <p xml:id="pgb1q25-d1e3570">Secundum corollarium: non quaelibet 
+              seu terminus relationis est res absoluta ut sic.
+            </p>
+            <p xml:id="pgb1q25-d1e3570">
+              Secundum corollarium: non quaelibet 
               res ad aliam relata a sua relatione est res realiter distincta. Patet quia tunc sequeretur 
               quod in relationibus relationum esset procedere in infinitum ut superius sint argutum. Consequentia 
               patet quia omnis relatio habet habitudinem aliquam ad aliud, et tunc quaeritur vel talis relatio refertur 
               se ipsa vel alia. Si primum habetur intentum. Si secundum quaeretur de illo per quid 
-              referretur sicut prius et sequitur consequens illatum quod erit processus sine fine.</p>
-            
-            <p xml:id="pgb1q25-d1e3584">Tertium corollarium: 
-              eadem relatione reali quis potest ad plura referri quia aliter sequeretur quod essent tot paternitates 
-              in Patre uno quot ipse haberet filios. Consequens est falsum et consequentia patet.</p> 
+              referretur sicut prius et sequitur consequens illatum quod erit processus sine fine.
+            </p>
+            <p xml:id="pgb1q25-d1e3584">
+              Tertium corollarium: 
+              eadem relatione reali quis potest ad plura referri 
+              quia aliter sequeretur quod essent tot paternitates 
+              in Patre uno quot ipse haberet filios. 
+              Consequens est falsum et consequentia patet.
+            </p> 
           </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head>
-            <p xml:id="pgb1q25-d1e3592">Tertia conclusio quod 
-              relatio entis increati ad ens creatum non est prior relatione entis creati ad ens increatum 
-              probatur quia <unclear>aeque</unclear>. Primo creatura refertur ad Deum et Deus ad creaturam probatio quia ab aeterno 
-              creatura producibilis <unclear>referebatur</unclear> ad Deum ut patet per primam conclusionem.</p>
-        
-            <p xml:id="pgb1q25-d1e3609">Primum corollarium non quodlibet 
+          <div xml:id="pg-b1q25-Dd1e489">
+            <head xml:id="pg-b1q25-Hd1e491">
+              <supplied>Tertia conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q25-d1e3592">
+              Tertia conclusio quod 
+              relatio entis increati ad ens creatum 
+              non est prior relatione entis creati ad ens increatum 
+              probatur quia <unclear>aeque</unclear>. 
+              Primo creatura refertur ad Deum et Deus ad creaturam probatio quia ab aeterno 
+              creatura producibilis <unclear>referebatur</unclear> 
+              ad Deum ut patet per primam conclusionem.
+            </p>
+            <p xml:id="pgb1q25-d1e3609">
+              Primum corollarium non quodlibet 
               ad aliud relatum est ad illud finaliter ordinatum. Patet quia Deus realiter refertur 
               ad creaturam, et tamen deus finaliter non ordinatur ad ipsam sed potius <unclear>econverso <!-- compare to "aeque" in previous paragraph --></unclear> creatura 
-              ad ipsum.</p>
-            
-            <p xml:id="pgb1q25-d1e3623">Secundum corollarium: stat aliquid nova relatione ad aliud referri 
+              ad ipsum.
+            </p>
+            <p xml:id="pgb1q25-d1e3623">
+              Secundum corollarium: stat aliquid nova relatione ad aliud referri 
               et nihil novi relato conferri seu ipsum relatum in nullo mutari. Patet 
-              <pb ed="#L" n="78r"/> 
+              <pb ed="#L" n="78-r"/> 
               quia creator ex tempore refertur ad creaturam existentem sed creator non est alicuius 
-              novitatis vel accidentis susceptibilis intrinsece, ergo.</p>
-            
-            <p xml:id="pgb1q25-d1e3636">Tertium corollarium: non stat 
+              novitatis vel accidentis susceptibilis intrinsece, ergo.
+            </p>
+            <p xml:id="pgb1q25-d1e3636">
+              Tertium corollarium: non stat 
               quamlibet relationem accidens esse et ipsam cuilibet relativorum formaliter inesse. Patet quia 
               si quaelibet relatio esset accidens inhaerens formaliter cuilibet relativorum sequitur quod in Deo 
               esset accidens quod est falsum. Et consequentia patet cum realiter referatur ad creata ut patet per 
-              dicta.</p> 
-            
-            <p xml:id="pgb1q25-d1e3648">Ex dictis patet quod, licet illud quo Deus se habet ad creata relative non dependeat 
-              ex solo opere 
+              dicta.
+            </p> 
+            <p xml:id="pgb1q25-d1e3648">
+              Ex dictis patet quod, 
+              licet illud quo Deus se habet 
+              ad creata relative non dependeat 
+              ex solo opere intellectus
               <app>
-                <lem>intellectus,</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del>s</del>
-                  </corr>
+                <lem n="intellectus"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del>s</del>
                 </rdg>
-              </app> 
+              </app>,
               effective tamen illud non est ponendum esse in Deo 
-              subiective vel inhaesive. Prima pars patet quia nullo creato intellectu existente <unclear>ad hoc <!-- adhuc --></unclear> 
-              Deus se haberet ad lignum <unclear>relativ[?]e</unclear>. Secunda pars patet quia quidquid est in Deo est Deus. Ex 
-              omnibus sequitur pars affirmativa conclusionis.</p>
+              subiective vel inhaesive. 
+              Prima pars patet quia nullo creato intellectu existente <unclear>ad hoc <!-- adhuc --></unclear> 
+              Deus se haberet ad lignum <unclear>relativ[?]e</unclear>. 
+              Secunda pars patet quia quidquid est in Deo est Deus. 
+              Ex omnibus sequitur pars affirmativa conclusionis.
+            </p>
           </div>
-          <div>
-            <head><supplied>Obiectione et responsiones</supplied></head> 
-            <p xml:id="pgb1q25-d1e3682">Contra primam conclusionem: Deus est extra ordinem creaturae nec 
-              ordinatur ad ipsam. ergo nec ad eam refertur realiter. Patet consequentia quoniam qui realiter 
-              adinvicem referuntur illa videntur esse eiusdem ordinis.</p> 
-            
-            <p xml:id="pgb1q25-d1e3690">Secundo, sequeretur quod Deus non esset 
-              summe simplex. Probo, quia si realiter refertur sequitur quod in ipso sit aliqua realitas 
-              quae necessario coexigat ad suum esse alterum terminum.</p> 
-            
-            <p xml:id="pgb1q25-d1e3705">Tertio, contra hoc est <name ref="#Lombard">Magister</name> in hac 
+          <div xml:id="pg-b1q25-Dd1e544">
+            <head xml:id="pg-b1q25-Hd1e546">
+              <supplied>Obiectione et responsiones</supplied>
+            </head> 
+            <p xml:id="pgb1q25-d1e3682">
+              Contra primam conclusionem: Deus est extra ordinem creaturae nec 
+              ordinatur ad ipsam. ergo nec ad eam refertur realiter. 
+              Patet consequentia quoniam qui realiter 
+              adinvicem referuntur illa videntur esse eiusdem ordinis.
+            </p> 
+            <p xml:id="pgb1q25-d1e3690">
+              Secundo, sequeretur quod Deus non esset 
+              summe simplex. 
+              Probo, quia si realiter refertur sequitur quod in ipso sit aliqua realitas 
+              quae necessario coexigat ad suum esse alterum terminum.
+            </p> 
+            <p xml:id="pgb1q25-d1e3705">
+              Tertio, 
+              contra hoc est <name ref="#Lombard">Magister</name> in hac 
               distinctione dicens 
               <cit>
-                <quote ana="#pl-b1d30c1-a">appellatio qua creatura dicitur ad creatorem relativa est et relationem notat quae est 
-                in creatura appellatio vero illa qua creator relative dicitur ad creaturam relative 
-                relativa quidem est sed non notat relationem quae sit in creatore.</quote><!-- Lib I, d. 30 -->
-                <bibl>Lombardus, XXX</bibl>
+                <quote xml:id="pg-b1q25-Qd1e565" ana="#pl-b1d30c1-a">
+                  appellatio qua creatura dicitur ad creatorem relativa est et relationem notat quae est 
+                  in creatura appellatio vero illa qua creator relative dicitur ad creaturam relative 
+                  relativa quidem est sed non notat relationem quae sit in creatore.
+                </quote><!-- Lib I, d. 30 -->
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>,
+                  XXX
+                </bibl>
               </cit>
             </p>
-            
-            <p xml:id="pgb1q25-d1e3721">Quarto contra primum corollarium, omne 
+            <p xml:id="pgb1q25-d1e3721">
+              Quarto contra primum corollarium, omne 
               quod refertur 
               <app>
                 <lem>est</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="aboveLine">est</add><!-- possible deletion as well --></corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="aboveline">est</add>
                 </rdg>
               </app> 
-              nullum non ens est, igitur. Maior patet quia relativa haec ipsa quot sunt 
+              nullum non ens est, igitur. 
+              Maior patet quia relativa haec ipsa quot sunt 
               ut patet in <title ref="#Categories">Praedicamentis</title> 
-              sed quod non est non est hac ipsum quo est nec sui nec alterius.</p> 
-            
-            <p xml:id="pgb1q25-d1e3734">Quinto, 
-              omne quod est aliud est aliquid et ens sed omnis terminus relationis realis est aliud a relativo, ergo 
-              quodlibet tale est ens. Minor patet quia <unclear>relativi <!-- ?? --></unclear> est id quod alterius est.</p> 
-            
-            <p xml:id="pgb1q25-d1e3746">Sexto contra secundum corollarium, 
-              sequeretur quod a non ente dependeret aliquod ens. Probo quia quaelibet relatio dependentia quaedam 
-              in aliud.</p>
-            
-            <p xml:id="pgb1q25-d1e3766">Contra secundam conclusionem, si relatio in creatura esset res distincta ab <unclear>asso?ta</unclear>, sequitur quod Deus 
-              posset facere creaturam esse sine dependentia. Consequens est falsum. Probo <unclear>consequentem <!-- consequentiam --></unclear> 
-              quia Deus potest absolvere subiectum a quocumque accidente realiter distincto ab ipso cum ponit  
-              accidens separare a subiecto a quo distinguitur realiter.</p> 
-            
-            <p xml:id="pgb1q25-d1e3791">Secundo, quaeritur a quo talis dependentia 
-              causatur effectiva aut a fundamento vel non. Si sic, cum Deus possit 
-              suspendere omnem actionem creaturae, sequitur quod fundamentum esse poterit 
-              sine tali dependentia quod repugnat dictis. Si non a creatura causatur 
-              sed a Deo, sequitur idem consequens quia Deus causando effectum priorem non necessitatur producere 
-              posteriorem ab illo priori realiter distinctum.</p>
-            
-            <p xml:id="pgb1q25-d1e3829">Tertio, eadem productione producitur creatura 
-              et eius dependentia ergo. Tenet consequentia quia eadem productio non potest terminari ad diversas 
-              res realiter distinctas. Antecedens probatur quia, si producuntur diversis productionibus, sequitur quod prima 
-              posset esse sine secunda, et sic creatura esset sine dependentia.</p> 
-            
-            <p xml:id="pgb1q25-d1e3850">Quarto, creatura dependet 
-              a Deo circumscripto omni eo quod non est ipsa, ergo. Tenet consequentia. Antecedens probatur quia posita una 
-              sola creatura et circumscripto omni eo quod non est ipsa <unclear>adhuc</unclear> talis est effectus Dei. 
-              Secundo, probatur antecedens quia si creatura dependeret per aliud a se sequitur quod non dependeret 
-              simpliciter sed tantum secundum quid. Patet consequentia quia quod per aliud dependet solum dependet 
-              secundum quid.</p> 
-            
-            <p xml:id="pgb1q25-d1e3902">Tertio, idem antecedens probatur quis, si lapis dependeret a se distincta dependentia, 
-              <pb ed="#L" n="78v"/> 
-              sequeretur quod dependentia lapidis quae se ipsa dependet magis dependeret 
-              a Deo quam lapis. Consequens est falsum quia utrumque dependet causaliter. Consequentia probatur 
-              quia quod dependet se ipso dependet primo et principaliter, quod <unclear>autem</unclear> dependet alio 
-              non dependet primo, sed ex consequenti.</p> 
-            
-            <p xml:id="pgb1q25-d1e3984">Quinto, contra secundam partem eiusdem conclusionis effectus potest 
-              intelligi sine causa, ergo relatio sine quacumque re absoluta. Tenet consequentia quia non plus dependent 
-              intellectio unius rei disparatae ab alia distincta quam intellectio effectus ab intellectione 
-              causae suae. Antecedens patet quia aliquis potest scire aliquem esse patrem et nescire 
-              an filium habeat et econverso aliquis potest scire <name ref="#Sortes">Sortem</name> esse Filium et ignorare an habet 
-              Patrem.</p> 
-            
-            <p xml:id="pgb1q25-d1e4008">Contra tertiam conclusionem sunt tres rationes factae in oppositum, aliter tamen contra eam arguitur 
-              sicut se habet fundamentum 
-              <app>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="marginLeft">ad fundamentum</add>
-                  </corr>
+              sed quod non est non est hac ipsum quo est nec sui nec alterius.
+            </p> 
+            <p xml:id="pgb1q25-d1e3734">
+              Quinto, 
+              omne quod est aliud est aliquid et ens 
+              sed omnis terminus relationis realis est aliud a relativo, 
+              ergo quodlibet tale est ens. 
+              Minor patet quia <unclear>relativi <!-- ?? --></unclear> est id quod alterius est.
+            </p> 
+            <p xml:id="pgb1q25-d1e3746">
+              Sexto contra secundum corollarium, 
+              sequeretur quod a non ente dependeret aliquod ens. 
+              Probo quia quaelibet relatio dependentia quaedam 
+              in aliud.
+            </p>
+            <p xml:id="pgb1q25-d1e3766">
+              Contra secundam conclusionem, 
+              si relatio in creatura esset res distincta ab <unclear>asso?ta</unclear>, 
+              sequitur quod Deus 
+              posset facere creaturam esse sine dependentia. 
+              Consequens est falsum. 
+              Probo <unclear>consequentem <!-- consequentiam --></unclear> 
+              quia Deus potest absolvere subiectum a quocumque accidente 
+              realiter distincto ab ipso cum ponit  
+              accidens separare a subiecto a quo distinguitur realiter.
+            </p> 
+            <p xml:id="pgb1q25-d1e3791">
+              Secundo, quaeritur a quo talis dependentia 
+              causatur effectiva aut a fundamento vel non. 
+              Si sic, cum Deus possit 
+              suspendere omnem actionem creaturae, 
+              sequitur quod fundamentum esse poterit 
+              sine tali dependentia quod repugnat dictis. 
+              Si non a creatura causatur 
+              sed a Deo, sequitur idem consequens 
+              quia Deus causando effectum priorem non necessitatur producere 
+              posteriorem ab illo priori realiter distinctum.
+            </p>
+            <p xml:id="pgb1q25-d1e3829">
+              Tertio, eadem productione producitur creatura 
+              et eius dependentia ergo. 
+              Tenet consequentia quia eadem productio 
+              non potest terminari ad diversas 
+              res realiter distinctas. 
+              Antecedens probatur quia, 
+              si producuntur diversis productionibus, 
+              sequitur quod prima 
+              posset esse sine secunda, 
+              et sic creatura esset sine dependentia.
+            </p> 
+            <p xml:id="pgb1q25-d1e3850">
+              Quarto, creatura dependet 
+              a Deo circumscripto omni eo quod non est ipsa, ergo. 
+              Tenet consequentia. 
+              Antecedens probatur quia posita una 
+              sola creatura et circumscripto omni eo 
+              quod non est ipsa <unclear>adhuc</unclear> talis est effectus Dei. 
+              Secundo, probatur antecedens 
+              quia si creatura dependeret per aliud a se sequitur quod non dependeret 
+              simpliciter sed tantum secundum quid. 
+              Patet consequentia quia quod per aliud dependet solum dependet 
+              secundum quid.
+            </p> 
+            <p xml:id="pgb1q25-d1e3902">
+              Tertio, idem antecedens probatur quis, 
+              si lapis dependeret a se distincta dependentia, 
+              <pb ed="#L" n="78-v"/> 
+              sequeretur quod dependentia lapidis 
+              quae se ipsa dependet magis dependeret 
+              a Deo quam lapis. 
+              Consequens est falsum quia utrumque dependet causaliter.
+              Consequentia probatur 
+              quia quod dependet se ipso dependet primo et principaliter, 
+              quod <unclear>autem</unclear> dependet alio 
+              non dependet primo, sed ex consequenti.
+            </p> 
+            <p xml:id="pgb1q25-d1e3984">
+              Quinto, 
+              contra secundam partem eiusdem conclusionis effectus potest 
+              intelligi sine causa, ergo relatio sine quacumque re absoluta. 
+              Tenet consequentia quia non plus dependent 
+              intellectio unius rei disparatae ab alia distincta 
+              quam intellectio effectus ab intellectione causae suae. 
+              Antecedens patet quia aliquis potest scire aliquem esse patrem et nescire 
+              an filium habeat et econverso aliquis potest scire 
+              <name ref="#Sortes">Sortem</name> esse Filium 
+              et ignorare an habet Patrem.
+            </p> 
+            <p xml:id="pgb1q25-d1e4008">
+              Contra tertiam conclusionem sunt tres rationes factae in oppositum, 
+              aliter tamen contra eam arguitur sicut se habet fundamentum 
+              <app> <!-- dbcheck -->
+                <lem>ad fundamentum</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="margin-left">ad fundamentum</add>
                 </rdg>
               </app> 
-              sic relatio ad relationem, sed Deus prior est creatura, ergo relatio Dei 
-              ad creaturam est prior relatione creaturae ad deum. Item relatio Dei ad creaturam est 
-              rationis tantum, ergo posterior relatione creaturae ad deum. Patet consequentia quia omnis relatio realis praecedit 
-              relationem rationis.</p>
-            
-            <p xml:id="pgb1q25-d1e4029">Ad primum, negatur consequentia quia similiter probaretur quod creatura non referretur 
-              ad ipsum Deum cum non sit eiusdem ordinis cum Deo.</p>
-            
-            <p xml:id="pgb1q25-d1e4036">Ad secundum, negatur consequentia 
+              sic relatio ad relationem, 
+              sed Deus prior est creatura, ergo relatio Dei 
+              ad creaturam est prior relatione creaturae ad deum. 
+              Item relatio Dei ad creaturam est 
+              rationis tantum, ergo posterior relatione creaturae ad deum. 
+              Patet consequentia quia omnis relatio realis praecedit 
+              relationem rationis.
+            </p>
+            <p xml:id="pgb1q25-d1e4029">
+              Ad primam, negatur consequentia quia similiter probaretur quod creatura non referretur 
+              ad ipsum Deum cum non sit eiusdem ordinis cum Deo.
+            </p>
+            <p xml:id="pgb1q25-d1e4036">
+              Ad secundam, negatur consequentia 
               et similiter eius probatio. Secundo, dico quod non quaelibet relatio exigit ad suum esse quod eius terminus 
-              sit in rerum natura existens.</p> 
-            
-            <p xml:id="pgb1q25-d1e4046">Ad verba <name ref="#Lombard">Magistri</name> dicitur quod intendit quod cum 
+              sit in rerum natura existens.
+            </p> 
+            <p xml:id="pgb1q25-d1e4046">
+              Ad verba <name ref="#Lombard">Magistri</name> dicitur quod intendit quod cum 
               Deus refertur ad creaturam de novo nullam novitas vel mutatio est 
               in eo sed solum in creatura propter quam mutationem et ad Deum ipsa et ad ipsam 
-              Deus noviter refertur.</p>
-            
-            <p xml:id="pgb1q25-d1e4059">Ad quartum, negatur maior et ad probationem dicitur quod isti termini aliquid 
+              Deus noviter refertur.
+            </p>
+            <p xml:id="pgb1q25-d1e4059">
+              Ad quartam, negatur maior et ad probationem dicitur quod isti termini aliquid 
               aliud sumuntur quandoque pro his quae non sunt entitates reales nec existunt, 
               et sic conceditur quod relativa dicuntur esse aliorum generaliter et communissime sumendo istum 
-              terminum aliorum prout dicitur tam de existentibus quam non existentibus.</p> 
-            
-            <p xml:id="pgb1q25-ppiiaq">Patet per <unclear>idem</unclear> ad quintum.</p> 
-            
-            <p xml:id="pgb1q25-d1e4077">Ad sextum, negatur consequentia et ad probationem dicitur quod non quaelibet relatio proprie est dependentia 
+              terminum aliorum prout dicitur tam de existentibus quam non existentibus.
+            </p> 
+            <p xml:id="pgb1q25-ppiiaq">
+              Patet per <unclear>idem</unclear> ad quintam.
+            </p> 
+            <p xml:id="pgb1q25-d1e4077">
+              Ad sextam, negatur consequentia et ad probationem dicitur quod non quaelibet relatio proprie est dependentia 
               quia tunc pater dependeret a filio, et filius a patre, immo quaelibet persona dependeret 
               ab alia cum quaelibet referatur ad aliam quod non est dicendum. Item dominus non 
               dependet a servo nec causa a creato, licet nullus possit esse dominus nisi servus sit 
-              nec causa nisi causatum sit.</p>
-            
-            <p xml:id="pgb1q25-d1e4122">Ad primum contra 2am conclusionem, negatur consequentia quia relatio non est nisi 
+              nec causa nisi causatum sit.
+            </p>
+            <p xml:id="pgb1q25-d1e4122">
+              Ad primam contra secundam conclusionem, negatur consequentia quia relatio non est nisi 
               habitudo fundamenti ad terminum ad probationem dicitur quod licet Deus posset separare accidens 
               <unclear>relativum</unclear> a suo subiecto, non tamen sequitur quod possit facere creaturam independentem 
-              quia implicat.</p>
-            
-            <p xml:id="pgb1q25-d1e4143">Ad secundum, dicitur quod talis dependentia per accidens a Deo producitur 
+              quia implicat.
+            </p>
+            <p xml:id="pgb1q25-d1e4143">
+              Ad secundam, dicitur quod talis dependentia per accidens a Deo producitur 
               quia ad productionem necessario ponitur talis <unclear>respectus</unclear> dependentiae et ad probationem 
               quia tunc Deus necessitaretur etc., dicitur quod Deus non simpliciter necessitatur aliquid producere 
               adextra, sed secundum quid et ex suppositione alterius rei productae et illa vocatur necessitatis 
-              conditionata vel ex supposito.</p>
-            
-            <p xml:id="pgb1q25-d1e4196">Ad tertium, negatur consequentia quia, licet eadem actione producantur, 
-              tamen creatura producitur per se sed dependentia per accidens.</p>
-            
-            <p xml:id="pgb1q25-d1e4208">Ad 
-              quartum, dicitur quod aliquid dependere ab alio potest esse dupliciter, scilicet formaliter vel fundamentaliter. 
+              conditionata vel ex supposito.
+            </p>
+            <p xml:id="pgb1q25-d1e4196">
+              Ad tertiam, negatur consequentia quia, licet eadem actione producantur, 
+              tamen creatura producitur per se sed dependentia per accidens.
+            </p>
+            <p xml:id="pgb1q25-d1e4208">
+              Ad 
+              quartam, dicitur quod aliquid dependere ab alio potest esse dupliciter, scilicet formaliter vel fundamentaliter. 
               Primo modo dicitur quod creatura non dependet se ipsa formaliter a Deo circumscripto 
               omni alio. Secundo modo, vero creatura se ipsa dependet quolibet alio secluso modo. 
-              <pb ed="#L" n="79r"/> 
-              Hic loquimur de dependentia formali <unclear>relativa</unclear> et ideo negatur antecedens.</p>
-            
-            <p xml:id="pgb1q25-d1e4242">Ad 
-              primam probationem dicitur quod casus est impossibilis. Secundo dicitur quod si admitteretur, tunc illa creatura 
-              dependeret fundamentaliter et non formaliter.</p>
-            
-            <p xml:id="pgb1q25-d1e4257">Ad secundam probationem, negatur consequentia quia talis se 
-              ipsa dependet fundamentaliter simpliciter.</p>
-            
-            <p xml:id="pgb1q25-d1e4269">Ad tertiam probationem, similiter negatur consequentia quia, licet dependentia 
-              se ipsa dependeat formaliter a Deo, tamen lapis se ipso dependet 
-              fundamentaliter.</p>
-            
-            <p xml:id="pgb1q25-d1e4298">Ad quintum principale, dicitur quod, si antecedens intelligitur de intellectione distincta 
-              et perfecta ipsum negatur. Si de confusa conceditur, sed sic ratio non facit contra conclusionem.</p>
-            
-            <p xml:id="pgb1q25-d1e4304">Secundo, dicitur 
+              <pb ed="#L" n="79-r"/> 
+              Hic loquimur de dependentia formali <unclear>relativa</unclear> 
+              et ideo negatur antecedens.
+            </p>
+            <p xml:id="pgb1q25-d1e4242">
+              Ad primam probationem dicitur quod casus est impossibilis. 
+              Secundo dicitur quod si admitteretur, tunc illa creatura 
+              dependeret fundamentaliter et non formaliter.
+            </p>
+            <p xml:id="pgb1q25-d1e4257">
+              Ad secundam probationem, negatur consequentia quia talis se 
+              ipsa dependet fundamentaliter simpliciter.
+            </p>
+            <p xml:id="pgb1q25-d1e4269">
+              Ad tertiam probationem, similiter negatur consequentia quia, 
+              licet dependentia se ipsa dependeat formaliter a Deo, 
+              tamen lapis se ipso dependet fundamentaliter.
+            </p>
+            <p xml:id="pgb1q25-d1e4298">
+              Ad quintam principale, dicitur quod, 
+              si antecedens intelligitur de intellectione distincta 
+              et perfecta ipsum negatur. 
+              Si de confusa conceditur, 
+              sed sic ratio non facit contra conclusionem.
+            </p>
+            <p xml:id="pgb1q25-d1e4304">
+              Secundo, 
+              dicitur 
               concesso antecedente negando consequentiam quia qui distincte cognoscit unum relativorum cognoscit 
               reliquum quia esse relationis et relati est esse ad aliud esse vero lapidis non est 
               esse ad aliud sed ad se licet esse effectus ut effectus est sit ad aliud et sic non 
-              potest intelligi sine intellectione, etc.</p>
-            
-            <p xml:id="pgb1q25-d1e4316">Ad primum in oppositum, negatur consequentia quia, licet Deus non ponit 
-              esse creaturus quin aliquid sit creabilem, tamen proprie loquendo de dependentia Deus a nullo 
-              dependet.</p>
-            
-            <p xml:id="pgb1q25-d1e4334">Ad secundum, dicitur secundum 
-              <ref>
-                <seg><name ref="#Rimini">Gregorium</name></seg>
-                <bibl>Gregorius, XXX</bibl>
-              </ref> 
-              quod relatio Dei est Deus, sed aliter dici 
-              <ref>
-                <seg><name ref="#AlphonsusVargas">alphonsus</name></seg>
-                <bibl>Alphonsus Vargas, XXX</bibl>
-              </ref>
+              potest intelligi sine intellectione, etc.
             </p>
-            
-            <p xml:id="pgb1q25-d1e4343">Ad tertium, dicitur quod Deum referri relatione aeterna potest intelligi dupliciter. Primo modo sic quod res 
-              quae 
+            <p xml:id="pgb1q25-d1e4316">
+              Ad primam in oppositum, negatur consequentia quia, licet Deus non ponit 
+              esse creaturus quin aliquid sit creabilem, tamen proprie loquendo de dependentia Deus a nullo 
+              dependet.
+            </p>
+            <p xml:id="pgb1q25-d1e4334">
+              Ad secundam, dicitur secundum 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e735">
+                  <name ref="#Rimini">Gregorium</name>
+                </ref>
+                <bibl>
+                  <name>Gregorius</name>, XXX
+                </bibl>
+              </cit> 
+              quod relatio Dei est Deus, sed aliter dici 
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e745">
+                  <name ref="#AlphonsusVargas">Alphonsus</name>
+                </ref>
+                <bibl>
+                  <name>Alphonsus Vargas</name>, XXX
+                </bibl>
+              </cit>
+            </p>
+            <p xml:id="pgb1q25-d1e4343">
+              Ad tertiam, 
+              dicitur quod Deum referri relatione aeterna potest intelligi dupliciter. 
+              Primo modo sic quod res quae 
               <app>
                 <lem>relatio</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="marginLeft">relatio</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="margin-left">relatio</add>
                 </rdg>
               </app> 
-              est aeterna sit et sit Deus, ita quod Deus ad omnem rem refertur relatione aeterna  
-              quia se ipso. Secundo modo relatione aeterna, id est aeternaliter refertur et temporali, id est temporaliter refertur 
-              ex tempore vel postquam non taliter referebatur sic dicitur quod Deus refertur aeternaliter 
-              ad aliqua quae non erant eo quia ipse praecognoscebat ipsa et ad aliqua temporaliter refertur 
-              inquantum est eorum creator et dominus quia, licet illud fuerit, tamen non fuit <unclear>dominum</unclear>.</p>
-            
-            <p xml:id="pgb1q25-d1e4368">Et ad 
-              probationem, quia si temporaliter, tunc sequitur mutatio in Deo. Negatur consequentia sumendo <mentioned>mutationem</mentioned> proprie 
+              est aeterna sit et sit Deus, 
+              ita quod Deus ad omnem rem refertur relatione aeterna  
+              quia se ipso. Secundo modo relatione aeterna, id est aeternaliter refertur et temporali, 
+              id est temporaliter refertur 
+              ex tempore vel postquam non taliter referebatur 
+              sic dicitur quod Deus refertur aeternaliter 
+              ad aliqua quae non erant eo quia ipse praecognoscebat ipsa 
+              et ad aliqua temporaliter refertur 
+              inquantum est eorum creator et dominus quia, 
+              licet illud fuerit, 
+              tamen non fuit <unclear>dominum</unclear>.
+            </p>
+            <p xml:id="pgb1q25-d1e4368">
+              Et ad probationem, quia si temporaliter, 
+              tunc sequitur mutatio in Deo. 
+              Negatur consequentia sumendo <mentioned>mutationem</mentioned> proprie 
               et ad <name ref="#Averroes">Commentatorem</name> dicitur quod aliquid transmutari potest dupliciter intelligi. Primo modo proprie et stricte, 
               et sic illud transmutatur relative quod <unclear>movetur</unclear> secundum illam rem secundum quam est <unclear>relativi</unclear> sicut si 
               <name ref="#Sortes">Sortes</name> efficeretur magis similis <name ref="#Plato">Platoni</name> albo per intentionem albedinis in <name ref="#Sortes">Sorte</name> 
@@ -480,105 +736,160 @@
               quae prius fuit sinistra. Nota quod <name ref="#Rimini">Gregorius</name> tenet quod omnis entitas est absoluta et 
               relativa et quod nulla relatio est res distincta ab omni re absoluta contra opinionem <name ref="#AlphonsusVargas">Alphonsi</name>. 
               Vide 
-              <ref>
-                <seg><name ref="#Rimini">gregorium</name> circa distinctionem 28 et sequentes</seg>
-                <bibl>Gregorius Ariminiensis, I, d. 28</bibl>
-              </ref>
+              <cit>
+                <ref xml:id="pg-b1q25-Rd1e820">
+                  <name ref="#Rimini">Gregorium</name> 
+                  circa distinctionem 28 et sequentes
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminiensis</name>,
+                  <title>Sent.</title>,
+                  I, d. 28
+                </bibl>
+              </cit>.
             </p>
           </div>
         </div>
-          <div>
-            <head><supplied>Conclusiones</supplied></head> 
-            <p xml:id="pgb1q25-d1e4450">
-              <cit>
-                <quote>Sunt enim quaedam.</quote>
-                <bibl>Lombardus, I, d. 30, xxx</bibl>
-              </cit> 
-              Prima conclusio distinctionis 30 quod quaedam nomina ex tempore de Deo dicuntur ei <unclear>quae</unclear> temporaliter <unclear>conveniunt</unclear> 
-              sine sui mutatione et relative dicuntur secundum accidens non quod accidat Deo, sed 
-              accidit creaturis sicut creator <unclear>dicens <!-- dominus --></unclear> refugium etc.</p>
-            
-            <p xml:id="pgb1q25-d1e4472">Secunda conclusio: licet Deus ex 
-              tempore non ceperit esse dominus temporis, tamen Deus cepit esse dominus temporis. Prima 
-              patet 
-              <app>
-                <lem>quia</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del rend="strikethrough">d</del>
-                  </corr>
-                </rdg>
-              </app> 
-              tempus non cepit ex tempore quia li <mentioned>ex</mentioned> dicit ordinem et praesupponit 
-              tempus, et sic tempus fuisset antequam cepisset esse. Secunda pars probatur quia non semper fuit tempus.</p> 
-            
-            <p xml:id="pgb1q25-d1e4492">Tertia conclusio: quaedam dicuntur de Deo temporaliter et relative ad creaturas sine mutatione 
-              deitatis, sed non sine mutatione creaturae et sic accidens est in creatura non 
-              in creatore.</p> 
-            
-            <p xml:id="pgb1q25-d1e4500">Quarta conclusio: quod appellatio qua creatura relative dicitur ad creatorem relativa est 
-              <pb ed="#L" n="79v"/> 
-              et relationem notat quae est in ipsa creatura.</p> 
-            
-            <p xml:id="pgb1q25-d1e4507">Quinta conclusio: appellatio qua creator relative 
-              dicitur ad creaturam relativa est sed nullam relationem notat quae sit in creatore.</p> 
-            
-            <p xml:id="pgb1q25-d1e4513">Sexta conclusio: 
-              quod cum dicimus Spiritum Sanctum datum vel donatum relative dicitur ad dantem et ad illum 
-              cui donatur, tamen non dicimus Spiritum Sanctum referri ad se, licet a se detur.</p> 
-            
-            <p xml:id="pgb1q25-d1e4522">
-              <cit>
-                <quote>Praeterea considerare</quote>
-                <bibl>Lombardus, I, d. 31, xx</bibl>
-              </cit> 
-              etc. 
-              Prima conclusio distinctionis 31 quod nihil sibi ipsi dicitur 
-              simile aut aequale tres autem divinae personae dicuntur aequales sibi invicem et 
-              similes <unclear>quae</unclear> relative quia aequalitas vel similitudo tantum est appellatio relativa sed non relatio.</p> 
-            
-            <p xml:id="pgb1q25-d1e4539">Secunda conclusio: Pater, Filius, et Spiritus Sanctus dicuntur aequales et similes non secundum proprietates relativas 
-              secundum unitatem essentiae filius tamen non est patri aequalis ex eo quod filius sed secundum illud 
-              quod ad se dicitur id est substantiam et virtutem et naturam aequalitas enim est virtutis identitas</p> 
-            
-            <p xml:id="pgb1q25-d1e4553">Tertia conclusio: quod secundum aliquos nomine aequalitatis vel similitudinis non ponitur aliquid, sed removetur 
-              ita quod pater ideo dicitur filio aequalis quia non est maior nec minor patre, et hoc 
-              propter essentiae unitatem similiter dicitur similis quia non est diversus nec alienus nec in aliquo 
-              dissimilis et hoc propter essentiae simplicitatem et sic aequalitas in divinis non ponit aliquam rem 
-              sed solum dicitur secundum rationem vel remotionem.</p> 
-            
-            <p xml:id="pgb1q25-d1e4566">Quarta conclusio quod secundum <name ref="#HilaryOfPoitiers">Hilarium</name> aequalitas Patri 
-              appropriatur qui a nullo est Filium vero vocat imaginem cui attribuit speciem seu 
-              pulcritudinem propter perfectam Patris repraesentationem spiritum vero sanctum vocat <unclear>munus <!-- minus --></unclear> 
-              eo quod est donum Patris et Filii cui attribuit usum quia ab ipso ad nostram 
-              utilitatem omnia dona nobis infunduntur.</p> 
-            
-            <p xml:id="pgb1q25-d1e4590">Quinta conclusio: quod aeternitas et species seu pulcritudo 
-              et usus seu dilectio non proprietates personarum distinguunt, sed hypostases 
-              ostendunt, et ideo appropiate de eis dicuntur.</p> 
-            
-            <p xml:id="pgb1q25-d1e4605">Sexta conclusio: quod imago quae est Filius coaequaliter 
-              Patri, non autem Filio quia quod Filius sit aequalis Patri hoc Filius habet a Patre, Pater autem 
-              non habet a Filio quod sit ei aequalis.</p> 
-            
-            <p xml:id="pgb1q25-d1e4619">Septima conclusio: quod secundum <name ref="#Augustine">Augustinum</name> Patri appropriatur unitas 
-              quia sicut unitas non habet principium a quo sit sed est aliorum principium, sic pater est sine 
-              principio et est aliarum personarum principium Filio vero appropriatur aequalitas quia in eo primo invenitur 
-              in divinis aequalitas, Spiritui Sancto autem appropriatur utriusque concordia quia procedit a Patre 
-              et Filio ut amor et dilectio.</p> 
-            
-            <p xml:id="pgb1q25-d1e4639">Octava conclusio quod Pater Filius et Spiritus Sanctus recte dicuntur esse 
-              unum et unus Deus sed non debent dici unius.</p> 
-            
-            <p xml:id="pgb1q25-d1e4645">Nona conclusio quod quando veritas dicit 
-              <cit>
-                <quote ana="#io10_30">ego et pater unum sumus</quote>
-                <bibl>Ioannes 10:30</bibl>
-              </cit> 
-              in hoc quod dicit unum excludit errorem <name ref="#Arius">Arrii</name> qui 
-              tres personas nolebat esse unius eiusdemque substantiae in hoc quod dicit sumus excludit 
-              haeresim <name ref="#Sabellius">Sabelii</name> qui trinitatem ponebat <unclear cert="low">nominem<!--??--></unclear> tantum sine subsistentia personarum.</p>
-          </div>
+        <div xml:id="pg-b1q25-Dd1e839">
+          <head xml:id="pg-b1q25-Hd1e841">
+            <supplied>Conclusiones</supplied>
+          </head> 
+          <p xml:id="pgb1q25-d1e4450">
+            <cit>
+              <quote xml:id="pg-b1q25-Qd1e851" type="lemma">
+                Sunt enim quaedam
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 30, xxx
+              </bibl>
+            </cit>.
+            Prima conclusio distinctionis 30 
+            quod quaedam nomina ex tempore de Deo dicuntur ei 
+            <unclear>quae</unclear> temporaliter <unclear>conveniunt</unclear> 
+            sine sui mutatione et relative dicuntur secundum accidens non quod accidat Deo, 
+            sed accidit creaturis sicut creator 
+            <unclear>dicens <!-- dominus --></unclear> refugium etc.
+          </p>
+          <p xml:id="pgb1q25-d1e4472">
+            Secunda conclusio: 
+            licet Deus ex 
+            tempore non ceperit esse dominus temporis, 
+            tamen Deus cepit esse dominus temporis. 
+            Prima patet quia
+            <app>
+              <lem n="quia"/>
+              <rdg wit="#L" type="correction-deletion">
+                <del rend="strikethrough">d</del>
+              </rdg>
+            </app> 
+            tempus non cepit ex tempore 
+            quia li <mentioned>ex</mentioned> dicit ordinem et praesupponit 
+            tempus, et sic tempus fuisset antequam cepisset esse. 
+            Secunda pars probatur quia non semper fuit tempus.
+          </p> 
+          <p xml:id="pgb1q25-d1e4492">
+            Tertia conclusio: quaedam dicuntur de Deo temporaliter et relative ad creaturas sine mutatione 
+            deitatis, sed non sine mutatione creaturae et sic accidens est in creatura non 
+            in creatore.
+          </p> 
+          <p xml:id="pgb1q25-d1e4500">
+            Quarta conclusio: 
+            quod appellatio qua creatura relative dicitur ad creatorem relativa est 
+            <pb ed="#L" n="79-v"/> 
+            et relationem notat quae est in ipsa creatura.
+          </p> 
+          <p xml:id="pgb1q25-d1e4507">
+            Quinta conclusio: appellatio qua creator relative 
+            dicitur ad creaturam relativa est 
+            sed nullam relationem notat quae sit in creatore.
+          </p> 
+          <p xml:id="pgb1q25-d1e4513">
+            Sexta conclusio: 
+            quod cum dicimus Spiritum Sanctum datum 
+            vel donatum relative dicitur 
+            ad dantem et ad illum cui donatur, 
+            tamen non dicimus Spiritum Sanctum referri ad se, 
+            licet a se detur.
+          </p> 
+          <p xml:id="pgb1q25-d1e4522">
+            <cit>
+              <quote xml:id="pg-b1q25-Qd1e908" type="lemma">Praeterea considerare</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 31, xx
+              </bibl>
+            </cit> 
+            etc. 
+            Prima conclusio distinctionis 31 
+            quod nihil sibi ipsi dicitur 
+            simile aut aequale tres autem divinae personae 
+            dicuntur aequales sibi invicem et 
+            similes <unclear>quae</unclear> relative 
+            quia aequalitas vel similitudo tantum est 
+            appellatio relativa sed non relatio.
+          </p> 
+          <p xml:id="pgb1q25-d1e4539">
+            Secunda conclusio: 
+            Pater, Filius, et Spiritus Sanctus dicuntur aequales et similes non secundum proprietates relativas 
+            secundum unitatem essentiae filius tamen non est patri aequalis ex eo quod filius sed secundum illud 
+            quod ad se dicitur id est substantiam et virtutem et naturam aequalitas enim est virtutis identitas.
+          </p> 
+          <p xml:id="pgb1q25-d1e4553">Tertia conclusio: 
+            quod secundum aliquos nomine aequalitatis vel similitudinis non ponitur aliquid, sed removetur 
+            ita quod pater ideo dicitur filio aequalis quia non est maior nec minor patre, et hoc 
+            propter essentiae unitatem similiter dicitur similis quia non est diversus nec alienus nec in aliquo 
+            dissimilis et hoc propter essentiae simplicitatem et sic aequalitas in divinis non ponit aliquam rem 
+            sed solum dicitur secundum rationem vel remotionem.
+          </p> 
+          <p xml:id="pgb1q25-d1e4566">
+            Quarta conclusio quod secundum <name ref="#HilaryOfPoitiers">Hilarium</name> aequalitas Patri 
+            appropriatur qui a nullo est Filium vero vocat imaginem cui attribuit speciem seu 
+            pulcritudinem propter perfectam Patris repraesentationem spiritum vero sanctum vocat <unclear>munus <!-- minus --></unclear> 
+            eo quod est donum Patris et Filii cui attribuit usum quia ab ipso ad nostram 
+            utilitatem omnia dona nobis infunduntur.
+          </p> 
+          <p xml:id="pgb1q25-d1e4590">
+            Quinta conclusio: quod aeternitas et species seu pulcritudo 
+            et usus seu dilectio non proprietates personarum distinguunt, sed hypostases 
+            ostendunt, et ideo appropiate de eis dicuntur.
+          </p> 
+          <p xml:id="pgb1q25-d1e4605">
+            Sexta conclusio: quod imago quae est Filius coaequaliter 
+            Patri, non autem Filio quia quod Filius sit aequalis Patri 
+            hoc Filius habet a Patre, Pater autem 
+            non habet a Filio quod sit ei aequalis.
+          </p> 
+          <p xml:id="pgb1q25-d1e4619">
+            Septima conclusio: quod secundum 
+            <name ref="#Augustine">Augustinum</name> Patri appropriatur unitas 
+            quia sicut unitas non habet principium a quo sit sed est aliorum principium, 
+            sic Pater est sine principio et est aliarum personarum principium Filio 
+            vero appropriatur aequalitas quia in eo primo invenitur 
+            in divinis aequalitas, 
+            Spiritui Sancto autem appropriatur utriusque concordia 
+            quia procedit a Patre et Filio ut amor et dilectio.
+          </p> 
+          <p xml:id="pgb1q25-d1e4639">
+            Octava conclusio: 
+            quod Pater Filius et Spiritus Sanctus recte dicuntur esse 
+            unum et unus Deus sed non debent dici unius.
+          </p> 
+          <p xml:id="pgb1q25-d1e4645">
+            Nona conclusio quod quando veritas dicit 
+            <cit>
+              <quote xml:id="pg-b1q25-Qd1e961" ana="#io10_30">ego et pater unum sumus</quote>
+              <bibl>Ioannes 10:30</bibl>
+            </cit> 
+            in hoc quod dicit unum excludit errorem <name ref="#Arius">Arrii</name> qui 
+            tres personas nolebat esse unius eiusdemque substantiae in hoc quod dicit sumus excludit 
+            haeresim <name ref="#Sabellius">Sabelii</name> 
+            qui trinitatem ponebat <unclear cert="low">nominem<!--??--></unclear> 
+            tantum sine subsistentia personarum.
+          </p>
+        </div>
       </div>  
     </body>
   </text>
