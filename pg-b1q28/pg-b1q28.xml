@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 28</title>
+        <title>Liber I, Quaestio 28</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01-dev-master">
-          <title>Librum I, Quaestio 28</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 28</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,595 +24,1131 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-07" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="85-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q28">
-        <head>Quaestio 28</head>
-        <div>
-          <head><supplied>Circa textum</supplied></head>
-        <p xml:id="pgb1q28-d1e3115">
-          <cit>
-            <quote>Solet hic quaeri.</quote>
-            <bibl>Lombardus, I, d. 36</bibl>
-          </cit> 
-          Haec est distinctio 36 quae ad praecedentes sic continuatur, nam 
-          postquam <name ref="#Lombard">Magister</name> tractavit de Dei scientia secundum se et absolute, nunc tractare 
-          incipit de ipsa per <unclear cert="low">relatam</unclear> ad scita et <unclear>comparatae</unclear>, et dividitur in tres, nam primo 
-          <app>
-            <lem>movet</lem>
-            <rdg wit="#L" type="corrDeletion">
-              <corr>
+        <head xml:id="pg-b1q28-Hd1e95">Quaestio 28</head>
+        <div xml:id="pg-b1q28-Dd1e98">
+          <head xml:id="pg-b1q28-Hd1e100">
+            <supplied>Circa textum</supplied>
+          </head>
+          <p xml:id="pgb1q28-d1e3115">
+            <cit>
+              <quote xml:id="pg-b1q28-Qd1e110" type="lemma">Solet hic quaeri</quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 36
+              </bibl>
+            </cit>.
+            Haec est distinctio 36 quae ad praecedentes sic continuatur, 
+            nam postquam <name ref="#Lombard">Magister</name> 
+            tractavit de Dei scientia secundum se et absolute, 
+            nunc tractare 
+            incipit de ipsa per <unclear cert="low">relatam</unclear> 
+            ad scita et <unclear>comparatae</unclear>, 
+            et dividitur in tres, nam primo movet
+            <app>
+              <lem n="movet"/>
+              <rdg wit="#L" type="correction-deletion">
                 <del rend="strikethrough">quaestionem</del> 
-              </corr>
-            </rdg>
-          </app> 
-          duplicem cum solutionibus quaestionem, secundo ponit suae responsionis declarationem, 
-          tertio circa dicta facit quamdam recapitulationem. Secunda ibi 
-          <cit>
-            <quote>proinde si diligenter.</quote>
-            <bibl>Lombardus, I, xxx</bibl>
-          </cit> 
-          Tertia ibi 
-          <cit>
-            <quote><unclear>impr?ssis</unclear> apertum est.</quote>
-            <bibl>XXX</bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q28-d1e3156">Prima dividitur in duas quia 
-          <app>
-            <lem>primo utrum omnia quae deus scit sint in eo, 
-              secundo quaerit utrum mala sint in Deo.</lem>
-            <rdg wit="#L" type="corrReplace">
-              <corr>
-                <del>secundo quaerit utrum mala sint in Deo, primo utrum omnia quae deus scit sint in eo</del>
-                <add>primo utrum omnia quae deus scit sint in eo, secundo quaerit utrum mala sint in Deo</add>
-              </corr>
-            </rdg>
-          </app>
-        </p>
-        
-        <p xml:id="pgb1q28-d1e3169">Secunda pars principalis in qua 
-          ponit solutionum declarationem dividitur in duas quia primo illud quod <name ref="Lombard">Magister</name> praemisit 
-          explanat, secundo dicta sua <unclear>epylogat</unclear>. Secunda 
-          <cit>
-            <quote><unclear>impr?sset</unclear> apertum est.</quote>
-            <bibl>Lombardus, I, d. xxx</bibl>
-          </cit> 
-          Et haec est divisio etc</p>
+              </rdg>
+            </app> 
+            duplicem cum solutionibus quaestionem, 
+            secundo ponit suae responsionis declarationem, 
+            tertio circa dicta facit quamdam recapitulationem. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q28-Qd1e146" type="lemma">proinde si diligenter.</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, xxx
+              </bibl>
+            </cit> 
+            Tertia ibi 
+            <cit>
+              <quote xml:id="pg-b1q28-Qd1e161" type="lemma"><unclear>impr?ssis</unclear> apertum est</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, xxx
+              </bibl>
+            </cit>.
+          </p>
+          
+          <p xml:id="pgb1q28-d1e3156">
+            Prima dividitur in duas 
+            quia 
+            <app>
+              <lem>
+                primo utrum omnia quae deus scit sint in eo, 
+                secundo quaerit utrum mala sint in Deo
+              </lem>
+              <rdg wit="#L" type="correction-substitution">
+                <subst>
+                  <del>secundo quaerit utrum mala sint in Deo, primo utrum omnia quae deus scit sint in eo</del>
+                  <add>primo utrum omnia quae deus scit sint in eo, secundo quaerit utrum mala sint in Deo</add>
+                </subst>
+              </rdg>
+            </app>.
+          </p>
+          <p xml:id="pgb1q28-d1e3169">Secunda pars principalis in qua 
+            ponit solutionum declarationem dividitur in duas 
+            quia primo illud quod <name ref="Lombard">Magister</name> praemisit 
+            explanat, secundo dicta sua <unclear>epylogat</unclear>. 
+            Secunda 
+            <cit>
+              <quote xml:id="pg-b1q28-Qd1e208" type="lemma"><unclear>impr?sset</unclear> apertum est</quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. xxx
+              </bibl>
+            </cit>. 
+            Et haec est divisio, etc.
+          </p>
         </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            <p xml:id="pgb1q28-d1e3186">Utrum in suprema scientia cuiuslibet entitatis possibilis cognitiva ideetur culpae 
-              malitia cuiuslibet voluntatis vertibilis infectiva; utrum per verbum entis 
-              cognitivum ideetur malum mentis infectivum.</p> 
-            
-            <p xml:id="pgb1q28-qsqper">Quod sic quia malum 
-              culpae a Deo cognoscitur, ergo tale in verbo ideatur. Tenet consequentia quia quidquid Deus cognoscit 
-              illud per propriam ideam cognoscit <unclear>repraesentem</unclear>. Antecedens probatur quia culpam iuste scienter 
-              punit et remittit.</p> 
-            
-            <p xml:id="pgb1q28-d1e3245">Secundo, verbum divinum potest revelare alicui peccatum futurum, 
-              ergo verbum divinum est peccati idealis ratio cogitativa seu ideatim. Patet consequentia quia verbum 
-              divinum nullum sibi ignotum potest revelare. Antecedens patet quia de facto revelavit 
-              pecto et vide ut patet 
-              <ref>
-                <seg>in euvangelio.</seg>
-                <bibl>XXX</bibl>
-              </ref>
-            </p>
-            
-            <p xml:id="pgb1q28-d1e3267">Tertio, quodlibet peccatum participat illud quod est 
-              perfectionis simpliciter, ergo quodlibet talem aliqualiter participat ens summe perfectum, et per consequens 
-              ideatur in Deo commune sunt bonae. Et antecedens probatur quia peccatum participat esse et de 
-              illo vere dicitur quod est.</p>
-            
-            <p xml:id="pgb1q28-d1e3282">In oppositum, arguitur cui repugnat ratio entitatis <unclear>positivae</unclear> eidem repugnat 
-              ratio ideabilitatis ostensive, sed male mentis infectivo repugnat 
-              ratio entitatis, ergo etiam ratio ideabilitatis.</p>
-          </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head> 
-            <p xml:id="pgb1q28-d1e3304">Prima conclusio: licet in verbo seu in divina essentia continetur 
-              omnia creata continentia et distincta entia, tamen illa ut sunt in Deo contenta non 
-              sunt inter se differentia. Prima patet per 
-              <ref><name ref="#Augustine">Augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione 46</ref> ubi dicit quod 
+        <div xml:id="pg-b1q28-Dd1e225">
+          <head xml:id="pg-b1q28-Hd1e227">
+            <supplied>Quaestio</supplied>
+          </head>
+          <p xml:id="pgb1q28-d1e3186">
+            Utrum in suprema scientia cuiuslibet entitatis possibilis cognitiva ideetur culpae 
+            malitia cuiuslibet voluntatis vertibilis infectiva; utrum per verbum entis 
+            cognitivum ideetur malum mentis infectivum.
+          </p> 
+          <div xml:id="pg-b1q28-Dd1e236" type="rationes-principales">
+            <head xml:id="pg-b1q28-Hd1e238">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q28-qsqper">
+              Quod sic quia malum 
+              culpae a Deo cognoscitur, ergo tale in verbo ideatur. 
+              Tenet consequentia quia quidquid Deus cognoscit 
+              illud per propriam ideam cognoscit <unclear>repraesentem</unclear>. 
+              Antecedens probatur quia culpam iuste scienter 
+              punit et remittit.
+            </p> 
+            <p xml:id="pgb1q28-d1e3245">
+              Secundo, 
+              verbum divinum potest revelare alicui peccatum futurum, 
+              ergo verbum divinum est peccati idealis ratio cogitativa seu ideatim. 
+              Patet consequentia quia verbum 
+              divinum nullum sibi ignotum potest revelare. 
+              Antecedens patet quia de facto revelavit 
+              pecto, 
+              et vide, ut patet, 
               <cit>
-                <quote ana="#Augustine_DeDiversisQuaestionibus_46_2_a">ideae sunt 
-                  formae exemplares aeternae incommutabiles</quote>
-                <bibl>Augustinus, De Diversis Quaesitionibus, 46, 2</bibl>
+                <ref xml:id="pg-b1q28-Rd1e254">in euvangelio</ref>
+                <bibl>XXX</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q28-d1e3267">
+              Tertio, 
+              quodlibet peccatum participat illud quod est 
+              perfectionis simpliciter, 
+              ergo quodlibet talem aliqualiter participat ens summe perfectum, 
+              et per consequens 
+              ideatur in Deo commune sunt bonae. 
+              Et antecedens probatur 
+              quia peccatum participat esse 
+              et de illo vere dicitur quod est.
+            </p>
+            <p xml:id="pgb1q28-d1e3282">
+              In oppositum, 
+              arguitur cui repugnat 
+              ratio entitatis <unclear>positivae</unclear> eidem repugnat 
+              ratio ideabilitatis ostensive, 
+              sed male mentis infectivo repugnat 
+              ratio entitatis, 
+              ergo etiam ratio ideabilitatis.
+            </p>
+          </div>
+          <div xml:id="pg-b1q28-Dd1e272">
+            <head xml:id="pg-b1q28-Hd1e274">
+              <supplied>Prima conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q28-d1e3304">
+              Prima conclusio: 
+              licet in verbo seu in divina essentia continetur 
+              omnia creata continentia et distincta entia, 
+              tamen illa ut sunt in Deo contenta non 
+              sunt inter se differentia. 
+              Prima patet per 
+              <ref xml:id="pg-b1q28-Rd1e282" corresp="#pg-b1q28-Qd1e293">
+                <name ref="#Augustine">Augustinum</name> 
+                <title ref="#deDiversisQuaestionibus">83 quaestiones</title> 
+                quaestione 46
+              </ref> 
+              ubi dicit quod 
+              <cit>
+                <quote xml:id="pg-b1q28-Qd1e293" ana="#Augustine_DeDiversisQuaestionibus_46_2_a">
+                  ideae sunt 
+                  formae exemplares aeternae incommutabiles
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Diversis Quaesitionibus</title>, 
+                  46, 2
+                </bibl>
               </cit> 
               secundum quas Deus cognoscit et producti ea  
-              <pb ed="#L" n="85v"/> 
-              quae oriuntur in creaturis quae etiam in divina intelligentia continentur. Item 
-              <ref>VI <title ref="#deTrinitate">De Trinitate</title></ref> 
-              <cit>
-                <quote ana="#Augustine_DeTrinitate_6_10_11_a">verbum divinum est ars plena omnium rationum viventium.</quote>
-                <bibl>Augustinus, De Trinitate, VI, 10, 11</bibl>
-              </cit> 
-              Item 
-              <ref>V <title ref="#DeGenesiAdLitteram">Super genesim</title>
+              <pb ed="#L" n="85-v"/> 
+              quae oriuntur in creaturis 
+              quae etiam in divina intelligentia continentur. 
+              Item, 
+              <ref xml:id="pg-b1q28-Rd1e308" corresp="#pg-b1q28-Qd1e316">
+                VI 
+                <title ref="#deTrinitate">De Trinitate</title>
               </ref> 
               <cit>
-                <quote ana="#Augustine_onGenesis_5_16_34_a">nec deus 
-                  aliquid faceret nisi illud cognosceret antequam faceret nec cognosceret nisi videret nec videret 
-                  nisi haberet ea quae nondum facta erant modus autem quem factus non est</quote>
-                <bibl>Augustinus, De Genesi xxx, V, 16, 34, xxx</bibl>
+                <quote xml:id="pg-b1q28-Qd1e316" ana="#Augustine_DeTrinitate_6_10_11_a">
+                  verbum divinum est ars plena omnium rationum viventium
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title>, 
+                  VI, 10, 11
+                </bibl>
+              </cit>. 
+              Item,
+              <ref xml:id="pg-b1q28-Rd1e330" corresp="#pg-b1q28-Qd1e338">
+                V 
+                <title ref="#DeGenesiAdLitteram">Super genesim</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q28-Qd1e338" ana="#Augustine_onGenesis_5_16_34_a">
+                  nec Deus 
+                  aliquid faceret 
+                  nisi illud cognosceret 
+                  antequam faceret nec cognosceret 
+                  nisi videret nec videret 
+                  nisi haberet ea 
+                  quae nondum facta erant modus 
+                  autem quem factus non est
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Genesi</title> 
+                  xxx, V, 16, 34, xxx
+                </bibl>
               </cit> 
               est modus 
-              suae perfectionis infinite qua continet omnes perfectiones omnium generum, ergo.</p>
-            
-            <p xml:id="pgb1q28-d1e3368">Secunda pars probatur quia 
-              si creata <corr><unclear>ut</unclear></corr> sunt contenta in divina essentia haberent esse distinctum, sequeretur quod creatura 
-              ante suam creationem habuisset aliquod esse reale distinctum a Deo. Consequens istud est falsum, igitur 
-              confirmatur quia sequeretur quod in divinis esset distinctio formalis seu essentialis. Probo quia res creatae ut sunt 
-              in Deo contentae essent distinctae ab eo non solum personaliter, sed et numeraliter sed essentialiter. 
-              Item patet per 
-              <ref><name ref="#Dionysius">Dionysium</name> VII libro <title ref="#deDivinisNominibus">De divinis nominibus</title> capitulo 5</ref> 
-              dicentem 
-              <cit>
-                <quote>omnia continentur in Deo unitive 
-                  per unam virtutem, sicut variae qualitates continentur in una vi productiva 
-                  solis.</quote>
-                <bibl>Ps-Dionysius, VII, c. 5, xxx<!-- unclear if direct quote --></bibl>
-              </cit>
+              suae perfectionis infinite 
+              qua continet omnes perfectiones omnium generum, 
+              ergo.
             </p>
             
-            <p xml:id="pgb1q28-d1e3400">Primum corollarium: omne ens continebatur aeternaliter in Deo, ut in causa productiva, ut 
-              in arte exemplativa, et ut in finali causa consummativa et conservativa. Patet quia 
-              Deus continet omnia creata cum excellentia effectiva, sicut causa prima continet 
-              inferiores cum excellentia formali seu perfectiva, sicut intellectivum continet sensitivum. 
-              Item 
-              <ref>
-                <seg><name ref="#Dionysius">Dionysius</name> VII <title ref="#deDivinisNominibus">De divinis nominibus</title> capitulo 7</seg>
-                <bibl>Ps-Dionysius, De divinibus nominibus, VII, c. 7, xxx</bibl>
-              </ref> <!-- possible direct quote here --> 
+            <p xml:id="pgb1q28-d1e3368">
+              Secunda pars probatur quia 
+              si creata 
+              <unclear>ut</unclear> 
+              sunt contenta in divina essentia haberent esse distinctum, 
+              sequeretur quod creatura 
+              ante suam creationem habuisset aliquod esse reale distinctum a Deo. 
+              Consequens istud est falsum, 
+              igitur. 
+              Confirmatur 
+              quia sequeretur 
+              quod in divinis 
+              esset distinctio formalis seu essentialis. 
+              Probo 
+              quia res creatae 
+              ut sunt in Deo contentae essent distinctae ab eo non solum personaliter, 
+              sed et numeraliter sed essentialiter. 
+              Item, 
+              patet per 
+              <ref xml:id="pg-b1q28-Rd1e357" corresp="#pg-b1q28-Qd1e368">
+                <name ref="#Dionysius">Dionysium</name> 
+                VII libro 
+                <title ref="#deDivinisNominibus">De divinis nominibus</title>, 
+                capitulo 5
+              </ref>,
+              dicentem, 
+              <cit>
+                <quote xml:id="pg-b1q28-Qd1e368">
+                  omnia continentur in Deo unitive 
+                  per unam virtutem, 
+                  sicut variae qualitates continentur in una vi productiva 
+                  solis
+                </quote>
+                <bibl>Ps-Dionysius, VII, c. 5, xxx<!-- unclear if direct quote --></bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q28-d1e3400">
+              Primum corollarium: 
+              omne ens continebatur aeternaliter in Deo, 
+              ut in causa productiva, ut 
+              in arte exemplativa, 
+              et ut in finali causa consummativa et conservativa. 
+              Patet quia 
+              Deus continet omnia creata cum excellentia effectiva, 
+              sicut causa prima continet 
+              inferiores cum excellentia formali seu perfectiva, 
+              sicut intellectivum continet sensitivum. 
+              Item,
+              <cit>
+                <ref xml:id="pg-b1q28-Rd1e381">
+                  <name ref="#Dionysius">Dionysius</name> 
+                  VII <title ref="#deDivinisNominibus">De divinis nominibus</title>, 
+                  capitulo 7
+                </ref>
+                <bibl>
+                  <name>Ps-Dionysius</name>, 
+                  <title>De divinibus nominibus</title>, 
+                  VII, c. 7, xxx</bibl>
+              </cit> 
+              <!-- possible direct quote here --> 
               intellectus divinus cognoscit omnia non secundum 
-              aliam et aliam ideam, sed per unam excellentiae <unclear>tam</unclear> secundum quam est omnia praehabens, sed 
-              illa est essentia divina, ergo. Item cum excessu finali consummativo, sicut beatitudo continet 
-              omnem alium finem.</p>
-            
-            <p xml:id="pgb1q28-d1e3437">Secundum corollarium: quod omnia contraria et <unclear>difformia</unclear> difformiter 
-              continet divina essentia unitive et conformiter. Patet tam ex conclusione quam dicto 
-              <ref><name ref="#Dionysius">Dionysii</name> libro <title ref="#deDivinisNominibus">De divinis nominibus</title> capitulo 5</ref> 
+              aliam et aliam ideam, 
+              sed per unam excellentiae <unclear>tam</unclear> 
+              secundum quam est omnia praehabens, sed 
+              illa est essentia divina, 
+              ergo. 
+              Item, 
+              cum excessu finali consummativo, 
+              sicut beatitudo continet 
+              omnem alium finem.
+            </p>
+            <p xml:id="pgb1q28-d1e3437">
+              Secundum corollarium: 
+              quod omnia contraria et 
+              <unclear>difformia</unclear> difformiter 
+              continet divina essentia unitive et conformiter. 
+              Patet tam ex conclusione quam dicto 
+              <ref xml:id="pg-b1q28-Rd1e411" corresp="#pg-b1q28-Qd1e422">
+                <name ref="#Dionysius">Dionysii</name> 
+                libro 
+                <title ref="#deDivinisNominibus">De divinis nominibus</title>, 
+                capitulo 5.
+              </ref> 
               dicentis 
               <cit>
-                <quote>omnia in se ipsis diversa et quae sibi invicem 
-                  contraria sunt <sic>sunt</sic> in Deo</quote>
-                <bibl>Ps-Dionysius, De divinis nominibus, xxx, c. 5</bibl>
+                <quote xml:id="pg-b1q28-Qd1e422">
+                  omnia in se ipsis diversa et quae sibi invicem 
+                  contraria sunt <sic>sunt</sic> in Deo
+                </quote>
+                <bibl>
+                  <name>Ps-Dionysius</name>, 
+                  <title>De divinis nominibus</title>, 
+                  xxx, c. 5.
+                </bibl>
               </cit>
             </p>
-            
-            <p xml:id="pgb1q28-d1e3465">Tertium corollarium: licet divinum verbum seu immensa essentia omnes 
-              perfectiones simpliciter contineat formaliter, tamen perfectiones secundum quid et limitates continet 
-              solum virtualiter et eminenter. Prima patet quia Deus est quidquid melius est ipsum quam 
-              non ipsum aliter non esset immensa perfectio. Secunda probatur quia, si sic sequeretur quod Deus esset 
-              lapis vel lapideitas quod est falsum.</p>
+            <p xml:id="pgb1q28-d1e3465">
+              Tertium corollarium: 
+              licet divinum verbum seu immensa essentia omnes 
+              perfectiones simpliciter contineat formaliter, 
+              tamen perfectiones secundum quid et limitates continet 
+              solum virtualiter et eminenter. 
+              Prima patet quia Deus est quidquid melius est ipsum quam 
+              non ipsum aliter non esset immensa perfectio. 
+              Secunda probatur quia, 
+              si sic sequeretur quod Deus esset 
+              lapis vel lapideitas quod est falsum.
+            </p>
           </div>
-          <div>
-            <head><supplied>Secunda conclusio</supplied></head> 
-            <p xml:id="pgb1q28-d1e3479">Secunda conclusio tam necessario divina essentia est 
+          <div xml:id="pg-b1q28-Dd1e444">
+            <head xml:id="pg-b1q28-Hd1e446">
+              <supplied>Secunda conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q28-d1e3479">
+              Secunda conclusio tam necessario divina essentia est 
               formaliter idealis quam necessario ipsa est sui et aliorum notitia clara aeternalis 
               patet per 
-              <ref><name ref="#Aquinas">Sanctum Thomam</name>, distinctione 3, <title ref="#Aquinas_deVeritate">De veritate</title> articulo 3</ref> 
+              <ref xml:id="pg-b1q28-Rd1e454" corresp="#pg-b1q28-Qd1e465">
+                <name ref="#Aquinas">Sanctum Thomam</name>, 
+                distinctione 3, 
+                <title ref="#Aquinas_deVeritate">De veritate</title>, 
+                articulo 3
+              </ref> 
               dicentem 
               <cit>
-                <quote>essentia dei est idea rerum non 
-                  quid ut essentia sed ut intellecta seu intellectiva.</quote>
-                <bibl>Sanctus Thomas, De veritate, d. 3, a. 3</bibl>
-              </cit> 
-              Item 
-              <ref>articulo primo eadem quaestione</ref> 
+                <quote xml:id="pg-b1q28-Qd1e465">
+                  essentia dei est idea rerum non 
+                  quid ut essentia sed ut intellecta seu intellectiva
+                </quote>
+                <bibl>
+                  <name>Sanctus Thomas</name>, 
+                  <title>De veritate</title>, 
+                  d. 3, a. 3.
+                </bibl>
+              </cit>. 
+              Item,
+              <ref xml:id="pg-b1q28-Rd1e478" corresp="#pg-b1q28-Qd1e483">
+                articulo primo eadem quaestione
+              </ref> 
               <cit>
-                <quote>idea 
-                  est formam quam aliquid imitatur ex intentione agentis qui determinat sibi finem.</quote>
-                <bibl>Sanctus Thomas, De veritate, d. 3, a. 1</bibl>
-              </cit>
+                <quote xml:id="pg-b1q28-Qd1e483">
+                  idea 
+                  est formam quam aliquid imitatur 
+                  ex intentione agentis 
+                  qui determinat sibi finem
+                </quote>
+                <bibl>
+                  <name>Sanctus Thomas</name>, 
+                  <title>De veritate</title>, 
+                  d. 3, a. 1.
+                </bibl>
+              </cit>.
             </p>
           <!-- consider paragraph collapse -->  
-            <p xml:id="pgb1q28-d1e3529">Item <ref><title ref="#HenryOfGhent">Doctor Solemnis</title> quaestione prima, II <title>quodlibet</title></ref> dicit 
+            <p xml:id="pgb1q28-d1e3529">
+              Item, 
+              <ref xml:id="pg-b1q28-Rd1e501" corresp="#pg-b1q28-Qd1e512">
+                <title ref="#HenryOfGhent">Doctor Solemnis</title>, 
+                quaestione prima, 
+                II 
+                <title>quodlibet</title>
+              </ref> 
+              dicit 
               <cit>
-                <quote>oportet quod Deus cognoscit suam essentiam 
-                  ut imitabilem a creaturis et secundum hoc sua essentia habet rationem ideae ut idea 
-                  nihil aliud sit quam ipsa divina essentia sub ratione respectus <unclear>imitabilitatis</unclear> quam alia ab ea 
-                  nata sunt imitari.</quote>
-                <bibl>Henricus Gandavensis, Quodlibet II, q. 1 <!-- need to confirm this is close to direct quote. --></bibl>
-              </cit>
+                <quote xml:id="pg-b1q28-Qd1e512">
+                  oportet quod Deus cognoscit suam essentiam 
+                  ut imitabilem a creaturis 
+                  et secundum hoc sua essentia habet rationem ideae ut idea 
+                  nihil aliud sit quam ipsa divina essentia 
+                  sub ratione respectus <unclear>imitabilitatis</unclear> 
+                  quam alia ab ea nata sunt imitari
+                </quote>
+                <bibl>
+                  <name>Henricus Gandavensis</name>, 
+                  <title>Quodlibet</title> 
+                  II, q. 1 <!-- need to confirm this is close to direct quote. -->
+                </bibl>
+              </cit>.
             </p>
-        
-          <p xml:id="pgb1q28-d1e3560">Primum corollarium: sicut in divina essentia est unica ratio virtualis 
-            continentiae, sic in divina scientia est unica ratio idealis relucentiae. Patet quia Deus 
-            cognoscit omnia per unam rationem inquantum habet <unclear>vim plurium</unclear>, ergo. Antecedens patet quia Deus 
-            per idem cognoscit continet et repraesentat quia non magis nec minus est in Deo ratio 
-            cognoscendi creaturas formaliter quam sit ratio continendi eas virtualiter, et antecedens 
-            probatur 
-            <app>
-              <lem>quia</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
+            <p xml:id="pgb1q28-d1e3560">
+              Primum corollarium: 
+              sicut in divina essentia est unica ratio virtualis 
+              continentiae, 
+              sic in divina scientia est unica ratio idealis relucentiae. 
+              Patet quia Deus 
+              cognoscit omnia per unam rationem inquantum habet <unclear>vim plurium</unclear>, 
+              ergo. 
+              Antecedens patet quia Deus 
+              per idem cognoscit continet et repraesentat 
+              quia non magis nec minus est in Deo ratio 
+              cognoscendi creaturas formaliter 
+              quam sit ratio continendi eas virtualiter, 
+              et antecedens probatur quia
+              <app>
+                <lem n="quia"/>
+                <rdg wit="#L" type="correction-deletion">
                   <del rend="strikethrough">per idem deus</del>
-                </corr>
-              </rdg>
-            </app> 
-            quanta est identitas et unitas 
-            <app>
-              <lem>in</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
+                </rdg>
+              </app> 
+              quanta est identitas et unitas in
+              <app>
+                <lem n="in"/>
+                <rdg wit="#L" type="correction-deletion">
                   <del>principio</del>
-                </corr>
-              </rdg>
-            </app> 
-            actu intelligendi 
-            <pb ed="#L" n="86r"/> 
-            terminata est unitas in principio et ratione intelligendi, sed in actu divino intelligendi est 
-            formalis unitas, ergo. Probatio <!-- good evidence that all previous "probo" shoudl be "probatio" --> minoris quia uno actu formaliter in distincto omnia distincte intelligit 
-            alias non haberet unicum verbum. Ad hoc est <ref><name ref="#Augustine">Augustinus</name> XV <title ref="#deTrinitate">de Trinitate</title> 
-            capitulo 8</ref> dicens 
-            <cit>
-              <quote ana="#Augustine_DeTrinitate_15_7_13_a">una aeterna incommutabili atque ineffabili visione complectitur 
-                cuncta quae novit.</quote>
-            </cit> 
-            Secunda pars probatur quia limitatum repraesentativum potest repraesentare 
-            distincte aliquod obiectum, ergo divina essentia continens eminenter illud repraesentativum potest 
-            repraesentare illud obiectum aeque distincte sicut 
-            <app>
-              <lem>si</lem>
-              <rdg wit="#L" type="corrAddition">
-                <corr>
-                  <add place="aboveLine">si</add>
-                </corr>
-              </rdg>
-            </app> 
-            non esset repraesentativum alterius. Tenet consequentia quia ipsa 
-            est immensa et immense repraesentativa aequivalens virtualiter 
-            <app>
-              <lem>infinitis</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
-                  <del rend="strikethrough">bene</del>
-                </corr>
-              </rdg>
-            </app> 
-            limitatis 
-            repraesentativis, ergo. Secunda pars patet per <name ref="#Dionysius">Dionysium</name> ubi supra.</p>
-          
-          <p xml:id="pgb1q28-d1e3648">Secundum corollarium: si per impossibile intellectus 
-            divinus separaretur ab essentia suprema, non esset ipse divinus intellectus rerum exemplar 
-            vel idea. Patet quia sicut ratio idea consistit in intellectu divino formative seu 
-            formaliter et exemplariter, sic etiam ratio ideae consistit in divina essentia subiective seu fundamentaliter 
-            et obiectaliter.</p>
-          
-          <p xml:id="pgb1q28-d1e3686">Tertium corollarium: sicut quodlibet creatum perfectius continetur in Deo 
-            quam in genere proprio sic quodlibet talem verius et clarius reluctet in divina arte quam in 
-            suae speciei vel generis esse. Prima patet quia in propria natura habet esse limitatum finitum et 
-            dependens, sed in Deo simpliciter est independens et illicitum. Secunda patet ex eodem fundamento 
-            quia sicut habent esse ita relucere.</p>
-          
-          <p xml:id="pgb1q28-d1e3712">Et confirmatur quia nullum creatum potest tam 
-            perfectam repraesentationem sui imprimere quin divina ratio idealis <unclear>cognitiva</unclear> infinite perfectius 
-            repraesentet illud. Tum secundo quia omnis similitudo creata a re creata fallax est et diminuta 
-            non adaequans esse rei, sed idea est perfecta et certa similitudo cuiuslibet rei. Tum 3o 
-            quia antequam illud produceretur cognosci poterat quando et qualiter et omne eius aliqualiter esse 
-            per ipsam ideam et non in proprio genere vel specie, ergo.</p>
-          
-          <p xml:id="pgb1q28-d1e3750">Ex dictis sequitur quod sicut divina 
-            in essentia ratio rerum contentiva non est secundum prius et posterius ordinabilis, sic in divina scientia 
-            ratio idealis non est intrinsece plurificabilis. Patet quia pluralitas poneretur, sequeretur quod in Deo essent 
-            plures rationes seu plura principia intelligendi et operandi. Consequens est falsum quia sicut 
-            unicus est actus, ita unica est ratio ut probatum est. Et patet consequentia <unclear>quoniam</unclear> idea est principium 
-            seu ratio cognoscendi.</p>
-          </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head>
-            <p xml:id="pgb1q28-d1e3780">Tertia conclusio: quaelibet res in divina scientia <unclear>pntalis</unclear> idealiter seu exemplabilis 
-              est a divina essentia producibilis. Probatur quia idea est exemplar secundum quod aliquid est producibile, 
-              sed omne ens producibile est a Deo producibile, ergo solum talis Deus est idea exemplativa. 
-              Maior patet per 
-              <ref><name ref="#Augustine">Augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione <sic>36</sic><!-- probably an actual reference to 46 --></ref> 
-              ut fuit allegatum ubi dicit 
+                </rdg>
+              </app> 
+              actu intelligendi 
+              <pb ed="#L" n="86-r"/> 
+              terminata est unitas in principio et ratione intelligendi, 
+              sed in actu divino intelligendi est 
+              formalis unitas, ergo. 
+              Probatio <!-- good evidence that all previous "probo" shoudl be "probatio" --> 
+              minoris quia uno actu formaliter in distincto omnia distincte intelligit 
+              alias non haberet unicum verbum. 
+              Ad hoc est 
+              <ref xml:id="pg-b1q28-Rd1e563" corresp="#pg-b1q28-Qd1e574">
+                <name ref="#Augustine">Augustinus</name> 
+                XV 
+                <title ref="#deTrinitate">de Trinitate</title> 
+                capitulo 8
+              </ref>, 
+              dicens 
               <cit>
-                <quote>ideae sunt secundum quas Dominus 
-                  Deus producit quae oriuntur in creaturis.</quote>
-                <bibl>Augustinus, De diversis quaestionibus, xxx</bibl>
+                <quote xml:id="pg-b1q28-Qd1e574" ana="#Augustine_DeTrinitate_15_7_13_a">
+                  una aeterna incommutabili atque ineffabili visione complectitur 
+                  cuncta quae novit
+                </quote>
+              </cit> 
+              Secunda pars probatur 
+              quia limitatum repraesentativum 
+              potest repraesentare 
+              distincte aliquod obiectum, 
+              ergo divina essentia continens eminenter illud repraesentativum potest 
+              repraesentare illud obiectum aeque distincte sicut 
+              <app>
+                <lem>si</lem>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="aboveLine">si</add>
+                </rdg>
+              </app> 
+              non esset repraesentativum alterius. 
+              Tenet consequentia quia ipsa 
+              est immensa et immense repraesentativa 
+              aequivalens virtualiter 
+              <app>
+                <lem>infinitis</lem>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">bene</del>
+                </rdg>
+              </app> 
+              limitatis repraesentativis, 
+              ergo. 
+              Secunda pars patet per 
+              <name ref="#Dionysius">Dionysium</name>, 
+              ubi supra.
+            </p>
+            <p xml:id="pgb1q28-d1e3648">
+              Secundum corollarium: 
+              si per impossibile intellectus 
+              divinus separaretur ab essentia suprema, 
+              non esset ipse divinus intellectus rerum exemplar 
+              vel idea. 
+              Patet quia sicut ratio 
+              idea consistit in intellectu divino formative seu 
+              formaliter et exemplariter, 
+              sic etiam ratio ideae consistit in divina 
+              essentia subiective seu fundamentaliter 
+              et obiectaliter.
+            </p>
+            <p xml:id="pgb1q28-d1e3686">
+              Tertium corollarium: 
+              sicut quodlibet creatum perfectius continetur in Deo 
+              quam in genere proprio sic 
+              quodlibet talem verius 
+              et clarius reluctet in divina arte quam in 
+              suae speciei vel generis esse. 
+              Prima patet quia in propria natura habet esse limitatum finitum et 
+              dependens, sed in Deo simpliciter est independens et illicitum. 
+              Secunda patet ex eodem fundamento 
+              quia sicut habent esse ita relucere.
+            </p>
+            <!-- collapse paragraphs -->
+            <p xml:id="pgb1q28-d1e3712">
+              Et confirmatur quia nullum creatum potest tam 
+              perfectam repraesentationem sui imprimere 
+              quin divina ratio idealis <unclear>cognitiva</unclear> infinite perfectius 
+              repraesentet illud. 
+              Tum secundo quia omnis similitudo creata a re creata fallax est et diminuta 
+              non adaequans esse rei, sed idea est perfecta et certa similitudo cuiuslibet rei. 
+              Tum tertio 
+              quia antequam illud produceretur cognosci poterat 
+              quando et qualiter et omne eius aliqualiter esse 
+              per ipsam ideam et non in proprio genere vel specie, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q28-d1e3750">
+              Ex dictis 
+              sequitur quod sicut divina 
+              in essentia ratio rerum contentiva 
+              non est secundum prius et posterius ordinabilis, 
+              sic in divina scientia 
+              ratio idealis non est intrinsece plurificabilis. 
+              Patet quia pluralitas poneretur, 
+              sequeretur quod in Deo essent 
+              plures rationes seu plura principia intelligendi et operandi. 
+              Consequens est falsum quia sicut 
+              unicus est actus, ita unica est ratio ut probatum est. 
+              Et patet consequentia <unclear>quoniam</unclear> 
+              idea est principium seu ratio cognoscendi.
+            </p>
+          </div>
+          <div xml:id="pg-b1q28-Dd1e629">
+            <head xml:id="pg-b1q28-Hd1e631">
+              <supplied>Tertia conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q28-d1e3780">
+              Tertia conclusio: 
+              quaelibet res in divina scientia <unclear>pntalis</unclear> 
+              idealiter seu exemplabilis 
+              est a divina essentia producibilis. 
+              Probatur 
+              quia idea est exemplar 
+              secundum quod aliquid est producibile, 
+              sed omne ens producibile est a Deo producibile, 
+              ergo solum talis Deus est idea exemplativa. 
+              Maior patet per 
+              <ref xml:id="pg-b1q28-Rd1e642" corresp="#pg-b1q28-Qd1e657">
+                <name ref="#Augustine">Augustinum</name> 
+                <title ref="#deDiversisQuaestionibus">83 quaestiones</title> 
+                quaestione <sic>36</sic><!-- probably an actual reference to 46 -->
+              </ref>, 
+              ut fuit allegatum, 
+              ubi dicit, 
+              <cit>
+                <quote xml:id="pg-b1q28-Qd1e657">
+                  ideae sunt secundum quas Dominus 
+                  Deus producit quae oriuntur in creaturis
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus</title>, 
+                  xxx.
+                </bibl>
               </cit>
             </p>
-            
-            <p xml:id="pgb1q28-d1e3831">Confirmatur quia idea est exemplar ad quod artifex 
-              respiciens operatur quidquid operatur, ergo. Antecedens est 
-              <ref>
-                <seg><name ref="#Seneca">Senecae</name> in quadam epistola <title>Ad Lucillum</title>.</seg>
-                <bibl>Seneca, Ad Lucillum, xxx</bibl>
-              </ref>
-            </p> <!-- see reference to ad Lucillum in Holcot, Wisdom commentary, Lectio 164, p. 542, "Placeat homini quidquid Deo placet, ob hoc ipsum quod Deo placet" -->
-            
-            <p xml:id="pgb1q28-d1e3852">Primum corollarium: quam repugnat malum culpae a Deo causaliter dependere tam repugnat 
-              ipsum in Deo per se idealiter relucere. Patet per conclusionem quia cuius Deus proprie est 
-              repraesentativus idealiter illius est productivus causaliter.</p>
-            
-            <p xml:id="pgb1q28-d1e3880">Secundum corollarium: licet Deus deformitates 
-              culpae non cognoscat per propriam rationem exemplativa talium privativorum, tamen quodlibet 
-              privativum cognoscit distincte per ideam suorum positivorum. Patet prima ex dictis. 
-              Secunda patet quia privatio cognoscitur per habitum. Item cognoscens se non habere florenem 
-              vertit imaginationem suam ad speciem floreni, unde nullus sciret se privari  
-              <pb ed="#L" n="86v"/> 
-              floreno nisi haberet notitiam floreni vel in se vel in specie repraesentante.</p>
-            
-            <p xml:id="pgb1q28-d1e3910">Tertium corollarium: 
-              licet Deus noscat culpam notitia simplicis intelligentiae ac visionis non tamen malum 
-              culpae noscit notitia acceptatae seu approbationis. Prima pars patet quia Deus notitia 
-              simplicitatis intelligentiae noscit tam possibilia quam impossibilia bona et mala, sed notitia 
-              visionis solum praeterita praesentia et futura. Secunda pars probatur quia notitia approbationis solum cognoscit 
-              bona et non malae culpae alias Deus esset causa culpae cum quilibet videatur 
-              velle positive illud respectu cuius se habet approbative de hac notitia dicitur 
-              <ref><title ref="#Icor">Primae ad Corinthios</title> 8,</ref> 
+            <!-- collapse paragraph -->
+            <p xml:id="pgb1q28-d1e3831">
+              Confirmatur 
+              quia idea est exemplar ad quod artifex 
+              respiciens operatur quidquid operatur, ergo. 
+              Antecedens est 
               <cit>
-                <quote ana="#Icor8_3">qui diligit deum hic cognitus est.</quote>
+                <ref xml:id="pg-b1q28-Rd1e677">
+                  <name ref="#Seneca">Senecae</name> 
+                  in quadam epistola <title>Ad Lucillum</title>
+                </ref>
+                <bibl>
+                  <name>Seneca</name>, 
+                  <title>Ad Lucillum</title>, 
+                  xxx
+                </bibl>
+              </cit>.
+            </p> 
+            <!-- see reference to ad Lucillum in Holcot, Wisdom commentary, 
+              Lectio 164, p. 542, 
+              "Placeat homini quidquid Deo placet, ob hoc ipsum quod Deo placet" 
+            -->
+            <p xml:id="pgb1q28-d1e3852">
+              Primum corollarium: 
+              quam repugnat malum culpae a Deo causaliter 
+              dependere tam repugnat 
+              ipsum in Deo per se idealiter relucere. 
+              Patet per conclusionem quia cuius Deus proprie est 
+              repraesentativus idealiter illius est productivus causaliter.
+            </p>
+            <p xml:id="pgb1q28-d1e3880">
+              Secundum corollarium: 
+              licet Deus deformitates 
+              culpae non cognoscat 
+              per propriam rationem exemplativa talium privativorum, 
+              tamen quodlibet 
+              privativum cognoscit distincte 
+              per ideam suorum positivorum. 
+              Patet prima ex dictis. 
+              Secunda patet quia privatio cognoscitur per habitum. 
+              Item, 
+              cognoscens se non habere florenem 
+              vertit imaginationem suam ad speciem floreni, 
+              unde nullus sciret se privari  
+              <pb ed="#L" n="86-v"/> 
+              floreno nisi haberet notitiam floreni 
+              vel in se vel in specie repraesentante.
+            </p>
+            <p xml:id="pgb1q28-d1e3910">
+              Tertium corollarium: 
+              licet Deus noscat culpam notitia simplicis intelligentiae 
+              ac visionis non tamen malum 
+              culpae noscit notitia acceptatae seu approbationis. 
+              Prima pars patet quia Deus notitia 
+              simplicitatis intelligentiae noscit 
+              tam possibilia quam impossibilia bona et mala, 
+              sed notitia visionis solum praeterita praesentia et futura. 
+              Secunda pars probatur 
+              quia notitia approbationis solum cognoscit 
+              bona et non malae culpae alias Deus 
+              esset causa culpae cum quilibet videatur 
+              velle positive illud respectu cuius se habet approbative 
+              de hac notitia dicitur 
+              <ref xml:id="pg-b1q28-Rd1e710" corresp="#pg-b1q28-Qd1e718">
+                <title ref="#Icor">Primae ad Corinthios</title> 8
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q28-Qd1e718" ana="#Icor8_3">
+                  qui diligit deum hic cognitus est
+                </quote>
                 <bibl>I Corinthios 8:3</bibl>
-              </cit> 
-              Item 
-              <ref><title ref="#mt">Matthaeus</title> 25</ref> 
+              </cit>. 
+              Item, 
+              <ref xml:id="pg-b1q28-Rd1e725" corresp="#pg-b1q28-Qd1e733">
+                <title ref="#mt">Matthaeus</title> 25
+              </ref> 
               <cit>
-                <quote ana="#mt25_12">amen dico vobis nescio vos,</quote>
+                <quote xml:id="pg-b1q28-Qd1e733" ana="#mt25_12">
+                  amen dico vobis nescio vos</quote>
                 <bibl>Matthaeus 25:12</bibl>
-              </cit> 
-              ex 
-              quibus sequitur <unclear cert="high">conclusionis <!-- quaestionis --></unclear> pars negativa.</p>
+              </cit>,
+              ex quibus sequitur 
+              <unclear cert="high">conclusionis <!-- quaestionis --></unclear> 
+              pars negativa.
+            </p>
           </div>
-          <div>
-            <head><supplied>Obiectiones et responsiones</supplied></head> 
-            <p xml:id="pgb1q28-d1e3959">Contra primam conclusionem: sequeretur quod essentia divina posset simul producere 
-              omnia possibilia consequens est falsum quia tunc Deus posset se facere nulli potentem. Patet consequentia 
-              quia non plus potest incognoscendo quam in producendo et continendo.</p> 
-            
-            <p xml:id="pgb1q28-d1e3967">Secundo, Deus non omnia distincte 
-              cognoscit, igitur nec continet. Patet consequentia quia Deus distincte cognoscit quidquid continet, sed 
-              antecedens probatur per 
-              <ref>Glossam <name ref="#Jerome">Hieronymi</name></ref> 
+          <div xml:id="pg-b1q28-Dd1e746">
+            <head xml:id="pg-b1q28-Hd1e748">
+              <supplied>Obiectiones et responsiones</supplied>
+            </head> 
+            <p xml:id="pgb1q28-d1e3959">
+              Contra primam conclusionem: 
+              sequeretur quod essentia divina posset simul producere 
+              omnia possibilia consequens est falsum 
+              quia tunc Deus posset se facere nulli potentem. 
+              Patet consequentia 
+              quia non plus potest incognoscendo 
+              quam in producendo et continendo.
+            </p> 
+            <p xml:id="pgb1q28-d1e3967">
+              Secundo, 
+              Deus non omnia distincte 
+              cognoscit, igitur nec continet. 
+              Patet consequentia 
+              quia Deus distincte cognoscit quidquid continet, 
+              sed antecedens probatur per 
+              <ref xml:id="pg-b1q28-Rd1e759" corresp="#pg-b1q28-Qd1e786">
+                Glossam <name ref="#Jerome">Hieronymi</name>
+              </ref> 
               super illud 
-              <ref><title ref="#hab">Habacuc</title> primo</ref> 
+              <ref xml:id="pg-b1q28-Rd1e765" corresp="#pg-b1q28-Qd1e773">
+                <title ref="#hab">Habacuc</title> primo
+              </ref> 
               <cit>
-                <quote ana="#hab1_14">facies <sic>hominis <!-- should actually be homines in critical text --></sic> quasi piscis</quote>
+                <quote xml:id="pg-b1q28-Qd1e773" ana="#hab1_14">
+                  facies <sic>hominis <!-- should actually be homines in critical text --></sic> quasi piscis
+                </quote>
                 <bibl>Habacuc 1:14</bibl>
               </cit> 
               etc. 
               <cit>
-                <quote><!-- likely quote from Jerome gloss -->absurdum est inquit glossa ad hoc deducere divinam maiestatem ut sciat per 
+                <quote xml:id="pg-b1q28-Qd1e786">
+                  <!-- likely quote from Jerome gloss -->absurdum est 
+                  inquit glossa 
+                  ad hoc deducere divinam maiestatem ut sciat per 
                   momenta singula quot pulices nascuntur quot pulicum et muscarum 
-                  sit multitudo quotque natant in aliquis et similia.</quote>
+                  sit multitudo quotque natant in aliquis et similia
+                </quote>
                 <bibl>Hieronymus, Glossa, xxx</bibl>
-              </cit> 
+              </cit>. 
             </p>
-            <p xml:id="pgb1q28-d1e4003">Tertio, sequitur quod idem esset continens 
-              et contentum respectu eiusdem. Consequens non videtur verum, sed patet consequentia quia Deus est in quolibet creato et 
-              per consequens quodlibet creatum continet Deum et continetur a Deo per conclusionem, ergo antecedens verum.</p> 
-            
-            <p xml:id="pgb1q28-d1e4012">Contra 
-              secundam conclusionem et eiusdem <unclear>corollaria</unclear> si secundum unicam rationem <!-- not sure if "si secundum unicam rationem" should be <quote>, <mentioned>, or <ref> or <incipit> --> etc., sequeretur quod <c>a</c> et <c>b</c> distincta intelligibilia 
-              distincte non intelligerentur nec distincte relucerent in divina arte probatur consequentia quia <unclear>sit</unclear> 
-              illa unica ratio repraesentans illa duo <c>c</c> tunc sic intellectus non plus cognoscit 
-              per <c>c</c> <c>a</c> distingui ab ipso <c>b</c> quam <c>a</c> ab <c>a</c> sed <c>c</c> non repraesentat <c>a</c> distingui ab <c>a</c> 
-              cum sic false repraesentaret, ergo. Antecedens probatur quia <c>c</c> non repraesentat <c>a</c> plus distingui <c>a</c> <c>b</c> 
-              quam ab <c>a</c> quia est ita indistinctum repraesentativum <c>a</c> et <c>b</c> sicut est respectu <c>a</c>, ergo etc.</p>
-            
-            <p xml:id="pgb1q28-d1e4109">Secundo, sequeretur 
-              quod intellectus creatus videns clare divinam essentiam videret quodlibet repraesentatum in 
-              ipsa. Consequens est falsum quia tunc non videret plus unus beatus quam alius. Patet consequentia quia 
-              videns rationem formalem cognoscendi aliquod cognoscibile videt illud, sed divina essentia est 
-              formale medium cognoscendi quodlibet et ratio idealis cognoscitiva.</p>
-            
-            <p xml:id="pgb1q28-d1e4127">Tertio, videns clare 
-              Filium videt Patrem nec stat videri Filius ut sic quin videatur Pater, 
-              ergo videns unum relucens in essentia videt quodlibet. Patet consequentia cum sit unica 
-              ratio repraesentativa. Antecedens probatur quia videns clare Filium esse Filium videt eius 
-              emanationem, sed illud non potest videre quin videat Patrem aliquo emanat, igitur.</p> 
-            
-            <p xml:id="pgb1q28-d1e4139">Confirmatur quia inter Patrem et Filium est distinctio realis personalis, sed inter repraesentata 
-              ut sunt in Deo nulla est distinctio nec personalis nec alia, ergo.</p> 
-            
-            <p xml:id="pgb1q28-d1e4146">Quarto, si <c>a</c> perfectius relucet 
-              in Deo etc., sequeretur quod ibi non vere, sed false <unclear>relucet<!-- reluceret? --></unclear>. Consequens est falsum. Patet 
-              consequentia quia <c>a</c> aliter praesentaretur in Deo quam esset in se.</p> 
-            
-            <p xml:id="pgb1q28-d1e4169">Contra tertiam conclusionem et corollaria, si 
-              Deus cognosceret culpam, sequeretur quod notitia illa creata esset a culpa vel quod 
-              causat culpam. Consequens est falsum tum quia Dei notitia est aeterna nec potest habere causam. 
+            <p xml:id="pgb1q28-d1e4003">
+              Tertio, 
+              sequitur quod idem esset continens 
+              et contentum respectu eiusdem. 
+              Consequens non videtur verum, 
+              sed patet consequentia quia Deus est in quolibet creato et 
+              per consequens quodlibet creatum continet Deum 
+              et continetur a Deo per conclusionem, 
+              ergo antecedens verum.
+            </p> 
+            <p xml:id="pgb1q28-d1e4012">
+              Contra secundam conclusionem et eiusdem <unclear>corollaria</unclear> 
+              si secundum unicam rationem <!-- not sure if "si secundum unicam rationem" should be <quote>, <mentioned>, or <ref> or <incipit> --> etc., 
+              sequeretur quod <c>a</c> et <c>b</c> distincta intelligibilia 
+              distincte non intelligerentur 
+              nec distincte relucerent in divina arte. 
+              Probatur consequentia quia <unclear>sit</unclear> 
+              illa unica ratio repraesentans illa duo <c>c</c>, 
+              tunc sic intellectus non plus cognoscit 
+              per <c>c</c> <c>a</c> distingui ab ipso <c>b</c> 
+              quam <c>a</c> ab <c>a</c> sed <c>c</c> non repraesentat <c>a</c> distingui ab <c>a</c> 
+              cum sic false repraesentaret, ergo. 
+              Antecedens probatur quia <c>c</c> 
+              non repraesentat <c>a</c> 
+              plus distingui <c>a</c> <c>b</c> 
+              quam ab <c>a</c> 
+              quia est ita indistinctum repraesentativum 
+              <c>a</c> et <c>b</c> sicut est respectu <c>a</c>, 
+              ergo etc.
+            </p>
+            <p xml:id="pgb1q28-d1e4109">
+              Secundo, 
+              sequeretur quod intellectus creatus videns 
+              clare divinam essentiam videret quodlibet repraesentatum in ipsa. 
+              Consequens est falsum 
+              quia tunc non videret plus unus beatus quam alius. 
+              Patet consequentia 
+              quia videns rationem formalem cognoscendi 
+              aliquod cognoscibile videt illud, 
+              sed divina essentia est 
+              formale medium cognoscendi quodlibet 
+              et ratio idealis cognoscitiva.
+            </p>
+            <p xml:id="pgb1q28-d1e4127">
+              Tertio, videns clare 
+              Filium videt Patrem 
+              nec stat videri Filius 
+              ut sic quin videatur Pater, 
+              ergo videns unum relucens in essentia videt quodlibet. 
+              Patet consequentia cum sit unica 
+              ratio repraesentativa. 
+              Antecedens probatur 
+              quia videns clare Filium esse Filium videt eius emanationem, 
+              sed illud non potest videre 
+              quin videat Patrem aliquo emanat, 
+              igitur.
+            </p> 
+            <!-- collapse paragraph -->
+            <p xml:id="pgb1q28-d1e4139">
+              Confirmatur quia inter Patrem et Filium est distinctio realis personalis, 
+              sed inter repraesentata 
+              ut sunt in Deo nulla est distinctio 
+              nec personalis nec alia, ergo.
+            </p> 
+            <p xml:id="pgb1q28-d1e4146">
+              Quarto, 
+              si <c>a</c> perfectius relucet 
+              in Deo etc., sequeretur quod ibi non vere, 
+              sed false <unclear>relucet<!-- reluceret? --></unclear>. 
+              Consequens est falsum. Patet 
+              consequentia quia <c>a</c> aliter praesentaretur in Deo quam esset in se.
+            </p> 
+            <p xml:id="pgb1q28-d1e4169">
+              Contra tertiam conclusionem et corollaria, 
+              si Deus cognosceret culpam, 
+              sequeretur quod notitia illa creata esset a culpa vel quod 
+              causat culpam. 
+              Consequens est falsum tum 
+              quia Dei notitia est aeterna nec potest habere causam. 
               <pb ed="#L" n="87r"/> 
-              Tum secundo, quia Deo auctore nemo fit deterior, sed consequentia patet per 
-              <ref><name ref="#Aristotle">Philosophum</name> 12 <title ref="#Metaphysics">Metaphysicae</title></ref> 
+              Tum secundo, 
+              quia Deo auctore nemo fit deterior, 
+              sed consequentia patet 
+              per 
+              <ref xml:id="pg-b1q28-Rd1e899" corresp="#pg-b1q28-Qd1e910">
+                <name ref="#Aristotle">Philosophum</name> 
+                12 
+                <title ref="#Metaphysics">Metaphysicae</title>
+              </ref>, 
               dicentem quod 
               <cit>
-                <quote>omnis scientia vel est causa rerum vel est causat a rebus. <!-- see potentially XII, 8, around 1074b 23 --></quote>
-                <bibl>Philosophus, Metaphysica, XII, xxx</bibl>
-              </cit>
+                <quote xml:id="pg-b1q28-Qd1e910">
+                  omnis scientia vel est causa rerum 
+                  vel est causat a rebus. <!-- see potentially XII, 8, around 1074b 23 -->
+                </quote>
+                <bibl>
+                  <name>Philosophus</name>, 
+                  <title>Metaphysica</title>, 
+                  XII, xxx
+                </bibl>
+              </cit>.
             </p>
-            
-            <p xml:id="pgb1q28-d1e4194">Secundo, sequeretur quod Deus approbaret 
-              mala culpae. Consequens est falsum, sed apparet consequentia quia omne illud quod <unclear>quis<!--communis--></unclear> prohibere potest et non 
-              prohibet hoc approbare videtur, sed omne peccatum Deus posset impedire et prohibere 
-              nefieret, ergo.</p>
-            
-            <p xml:id="pgb1q28-d1e4208">Tertio, privatio seu peccatum est aliquod intelligibile distinctum totaliter ab 
-              omni positivo, ergo per se et proprie habet ideam in Deo. Patet consequentia quia omne per se intelligibile 
-              est per se ideabile. Sed antecedens probatur quia aliter non esset formaliter privatio, sed ens positivum. 
-              Confirmatur quia talis privatio cognoscitur formaliter per formalem conceptum privationis, ergo.</p> 
-            
-            <p xml:id="pgb1q28-d1e4230">Ad primum 
-              dicitur quod Deus potest omnia simul producibilia producere sic quod li <mentioned>simul</mentioned> determinet li <mentioned>potest</mentioned> 
-              et non ipsum producere quia non prius potest <c>a</c> producibile producere quam <c>b</c>. Secundo, dico quod 
-              non potest omnia producibilia producere simul quia li <mentioned>simul</mentioned> determinat li <mentioned>producere</mentioned> quia 
-              non potest totum tempus producere simul cum omnibus suis partibus qui totum tempus non 
-              potest simul esse cum eis. Et ideo, licet Deus totum tempus simul potest producere, non tamen 
-              producere simul similiter. Licet possit simul contradictoria <unclear>verificare</unclear>, tamen non potest illa verificare 
-              simul. Et per hoc ad formam rationis si li <mentioned>simul</mentioned> determinet li <mentioned>producere</mentioned> 
+            <p xml:id="pgb1q28-d1e4194">
+              Secundo, 
+              sequeretur quod Deus approbaret mala culpae. 
+              Consequens est falsum, 
+              sed apparet consequentia 
+              quia omne illud quod <unclear>quis<!--communis--></unclear> 
+              prohibere potest et non 
+              prohibet hoc approbare videtur, 
+              sed omne peccatum Deus posset impedire et prohibere nefieret, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q28-d1e4208">
+              Tertio, privatio seu peccatum est 
+              aliquod intelligibile distinctum totaliter ab omni positivo, 
+              ergo per se et proprie habet ideam in Deo. 
+              Patet consequentia 
+              quia omne per se intelligibile 
+              est per se ideabile. 
+              Sed antecedens probatur quia aliter non esset formaliter privatio, 
+              sed ens positivum. 
+              Confirmatur quia talis privatio cognoscitur formaliter 
+              per formalem conceptum privationis, 
+              ergo.
+            </p> 
+            <p xml:id="pgb1q28-d1e4230">
+              Ad primam dicitur 
+              quod Deus potest omnia simul producibilia producere 
+              sic quod li <mentioned>simul</mentioned> 
+              determinet li <mentioned>potest</mentioned> 
+              et non ipsum producere 
+              quia non prius potest <c>a</c> producibile producere 
+              quam <c>b</c>. 
+              <!-- para break -->
+              Secundo, 
+              dico quod non potest omnia producibilia producere simul 
+              quia li <mentioned>simul</mentioned> determinat li <mentioned>producere</mentioned> 
+              quia non potest totum tempus producere 
+              simul cum omnibus suis partibus 
+              qui totum tempus non potest simul esse cum eis. 
+              Et ideo, 
+              licet Deus totum tempus simul potest producere, 
+              non tamen producere simul similiter. 
+              Licet possit simul contradictoria <unclear>verificare</unclear>, 
+              tamen non potest illa verificare simul. 
+              Et per hoc ad formam rationis 
+              si li <mentioned>simul</mentioned> determinet li <mentioned>producere</mentioned> 
               <app>
                 <lem>consequentia</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del>conceditur</del>
                     <add>consequentia</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
               negatur 
-              quia Deus non potest facere quod non potest esse.</p>
-            
-            <p xml:id="pgb1q28-d1e4293">Ad secundum, potest dici quod illa glosa 
+              quia Deus non potest facere 
+              quod non potest esse.
+            </p>
+            <p xml:id="pgb1q28-d1e4293">
+              Ad secundum, potest dici quod illa glosa 
               intendit dicere quod non tam speciali modo Deus scit nec dirigit muscas 
               et huiusmodi alia sicut homines. 
-              <ref>
-                <seg>Vide aliam solutionem.</seg>
+              <cit>
+                <ref xml:id="pg-b1q28-Rd1e992">Vide aliam solutionem</ref>
                 <bibl>Vide alia.</bibl>
-              </ref>
+              </cit>.
             </p>
-        
-            <p xml:id="pgb1q28-d1e4303">Ad tertium, conceditur consequens, sed non 
-              eodem modo continet et continetur quia Deus continet res supereminenter ut ars vel 
-              principium ut exemplar repraesentativum et ut summum bonum finale quietativum, 
-              sed creatura non sic continet Deum, sed imperfecte ut effectus suam causam.</p>
-            
-            <p xml:id="pgb1q28-d1e4313">Ad primum contra secundam conclusionem, negatur consequentia, et ad probationem negatur antecedens quia illa ratio ita perfecte 
-              repraesentat et distincte <c>a</c> et <c>b</c> sicut si non repraesentaret nisi ipsum <c>a</c>, et sic intellectus potest percipere 
+            <p xml:id="pgb1q28-d1e4303">
+              Ad tertium, conceditur consequens, 
+              sed non eodem modo continet et continetur 
+              quia Deus continet res supereminenter 
+              ut ars vel principium ut exemplar repraesentativum 
+              et ut summum bonum finale quietativum, 
+              sed creatura non sic continet Deum, 
+              sed imperfecte ut effectus suam causam.
+            </p>
+            <p xml:id="pgb1q28-d1e4313">
+              Ad primum contra secundam conclusionem, 
+              negatur consequentia, 
+              et ad probationem negatur antecedens 
+              quia illa ratio ita perfecte 
+              repraesentat et distincte <c>a</c> et <c>b</c> 
+              sicut si non repraesentaret nisi ipsum <c>a</c>, 
+              et sic intellectus potest percipere 
               <app>
                 <lem>per</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="aboveLine">per</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                    <add place="above-line">per</add>
                 </rdg>
               </app> 
-              illam rationem et intelligere distincte <c>a</c> et <c>b</c> et videre distinctionem inter illa.</p>
-            
-            <p xml:id="pgb1q28-d1e4349">Ad secundum, 
-              negatur consequentia et ad probationem dicitur quod quia essentia non naturaliter sed voluntarie et libere adextra 
-              repraesentat, ideo stat intellectum creatum videre rationem formalem cognoscendi quodlibet 
-              repraesentatum, et tamen percipere quodlibet, sed solum tot quot vult. Et si naturaliter 
-              repraesentaret forte adhuc plus, videret unus quam alius secundum quod melius 
-              esset dispositus per lumen gloriae quam alius.</p>
-            
-            <p xml:id="pgb1q28-d1e4366">Ad tertium, negatur consequentia quia, licet videat 
-              divinam essentiam esse ideam omnium, tamen non videt eam ut est idea huius et 
-              illius etc. de quibuscumque aliis.</p>
-            
-            <p xml:id="pgb1q28-d1e4386">Secundo, dicitur quod visio omnium personarum trium est de essentia 
-              beatitudinis quod non est visio cuiuslibet ideati relucentis in essentia.</p>
-            
-            <p xml:id="pgb1q28-d1e4398">Ad confirmationem 
-              dicitur quod non sola identitas est ratio quare Filius non potest videri clare sine visione 
-              patris, sed etiam quia clare videns Filium necessitate <unclear>consequentiae <!-- commune --></unclear> videt ipsum esse Filium 
-              et videt eius emanationem seu relationem et per consequens videt illum a quo emanat 
-              et ad quam refertur, et sic aliquis conceptus complexus est de essentia beatitudinis et 
-              non potest separari ab actu simplici quo intellectus videt essentiam stante beatitudine 
-              illius intellectus nam dato quo Deus est iudicium quo cognitio 
-              <pb ed="#L" n="87v"/> 
-              stat sic complexe Filium emanare a Patre et Spiritum Sanctum ab utroque, tamen non prius 
-              est beatus quam videat complexe salva reverentia illius qui 
-              <ref>
-                <seg>prius respondebat in vesperis.</seg>
+              illam rationem et intelligere 
+              distincte <c>a</c> et <c>b</c> et videre distinctionem inter illa.
+            </p>
+            <p xml:id="pgb1q28-d1e4349">
+              Ad secundum, 
+              negatur consequentia 
+              et ad probationem dicitur quod quia essentia non naturaliter 
+              sed voluntarie et libere adextra 
+              repraesentat, 
+              ideo stat intellectum creatum videre 
+              rationem formalem cognoscendi quodlibet 
+              repraesentatum, et tamen percipere quodlibet, 
+              sed solum tot quot vult. 
+              Et si naturaliter 
+              repraesentaret forte adhuc plus, 
+              videret unus quam alius secundum quod melius 
+              esset dispositus per lumen gloriae quam alius.
+            </p>
+            <p xml:id="pgb1q28-d1e4366">
+              Ad tertium, negatur consequentia 
+              quia, 
+              licet videat 
+              divinam essentiam esse ideam omnium, 
+              tamen non videt eam, 
+              ut est idea huius et illius, etc. 
+              de quibuscumque aliis.
+            </p>
+            <p xml:id="pgb1q28-d1e4386">
+              Secundo, dicitur quod visio omnium personarum trium est de essentia 
+              beatitudinis quod non est visio cuiuslibet ideati relucentis in essentia.
+            </p>
+            <p xml:id="pgb1q28-d1e4398">
+              Ad confirmationem 
+              dicitur quod non sola identitas est 
+              ratio quare Filius non potest videri 
+              clare sine visione patris, 
+              sed etiam 
+              quia clare videns Filium necessitate 
+              <unclear>consequentiae <!-- commune --></unclear> 
+              videt ipsum esse Filium 
+              et videt eius emanationem seu relationem, 
+              et per consequens videt illum a quo emanat et ad quam refertur, 
+              et sic aliquis conceptus complexus est de essentia beatitudinis 
+              et non potest separari ab actu simplici 
+              quo intellectus videt essentiam stante beatitudine 
+              illius intellectus nam dato quo 
+              Deus est iudicium quo cognitio 
+              <pb ed="#L" n="87-v"/> 
+              stat sic complexe Filium emanare a Patre 
+              et Spiritum Sanctum ab utroque, 
+              tamen non prius est beatus 
+              quam videat complexe salva reverentia illius qui 
+              <cit>
+                <ref xml:id="pg-b1q28-Rd1e1054">prius respondebat in vesperis</ref>
                 <bibl>XXX</bibl><!-- reference to vesper disputation -->
-              </ref>
+              </cit>.
             </p> 
-            
-            <p xml:id="pgb1q28-d1e4444">Ad quartum, negatur consequentia et ad probationem dicitur quod non aliter relucet ex parte <unclear>repraesentatis</unclear> 
-              quam sit in ipsomet <unclear>repraesentate</unclear>, sed eodem modo relucet et est in Deo.</p>
-            
-            <p xml:id="pgb1q28-d1e4458">Ad primum contra tertiam 
-              conclusionem, negatur consequentia. Ad <name ref="#Aristotle">Philosophum</name> dicitur quod intelligit de his quae per se cognoscuntur, sed 
-              privationes et peccata non sic per se directe cognoscuntur.</p>
-            
-            <p xml:id="pgb1q28-d1e4469">Ad secundum, negatur consequentia. Ad 
-              probationem dicitur quod sufficienter Deus prohibet peccata per decem praecepta.</p>
-            
-            <p xml:id="pgb1q28-d1e4475">Ad tertium, negatur antecedens 
-              quia privatio importat subiectum aptum natum suscipere illud quo privatur et illud 
-              est positivum intelligibile. Secundo, dicitur quod subiectum carens formam quam debet habere est carentia 
-              seu privatio formae secundum quam est privatum, et sic anima ignorans est sua privatio 
-              seu sua ignorantia, sed hoc est contingenter et per accidens quia anima potest non esse ignorans, 
-              sicut enim Deus est sua scientia quia scientia non dicit formam simplicem additam divinae 
-              essentiae, anima vero humana dicitur sciens et non dicitur sua scientia quia scientia est forma 
-              sibi addita, <unclear>sicque</unclear> ignorantia non est forma addita animae, sed est subiectum cum 
-              negationem scientiae. Ideo anima potest dici sua ignorantia, licet magis propria <unclear>p?atio?</unclear> sit in 
-              <unclear>conc?to</unclear>. Si tamen <unclear>conc?tum</unclear> verificatur de aliquo, etiam abstractum verificari potest de eodem 
-              nisi abstracto correspondeat aliqua formam simplex addita illi subiecto vel alteri.</p>
-            
-            <p xml:id="pgb1q28-d1e4514">Ad primum in oppositum, negatur consequentia. Ad probationem dicitur quod cognoscit per ideam oppositorum 
-              positivorum.</p>
-            
-            <p xml:id="pgb1q28-d1e4528">Ad secundum, negatur consequentia, quidquid sit de antecedente. Ad probationem conceditur quod nullum 
-              Deo ignotum potest Deus revelare, sed non probat consequentiam.</p>
-            
-            <p xml:id="pgb1q28-d1e4534">Ad tertium, negatur 
-              antecedens sumendo <mentioned>participationem</mentioned> pro quadam mutatione divinae perfectionis quia peccatum 
-              non habet verum esse quia nulla essentia est.</p>
+            <p xml:id="pgb1q28-d1e4444">
+              Ad quartum, 
+              negatur consequentia et ad probationem dicitur 
+              quod non aliter relucet ex parte <unclear>repraesentatis</unclear> 
+              quam sit in ipsomet <unclear>repraesentate</unclear>, 
+              sed eodem modo relucet et est in Deo.
+            </p>
+            <p xml:id="pgb1q28-d1e4458">
+              Ad primum contra tertiam 
+              conclusionem, negatur consequentia. 
+              Ad <name ref="#Aristotle">Philosophum</name> dicitur 
+              quod intelligit de his quae per se cognoscuntur, sed 
+              privationes et peccata non sic per se directe cognoscuntur.
+            </p>
+            <p xml:id="pgb1q28-d1e4469">
+              Ad secundum, 
+              negatur consequentia. 
+              Ad probationem dicitur quod sufficienter 
+              Deus prohibet peccata per decem praecepta.
+            </p>
+            <p xml:id="pgb1q28-d1e4475">
+              Ad tertium, 
+              negatur antecedens 
+              quia privatio importat subiectum aptum natum 
+              suscipere illud quo privatur et illud 
+              est positivum intelligibile. 
+              Secundo, dicitur quod subiectum carens formam 
+              quam debet habere est carentia 
+              seu privatio formae secundum quam est privatum, 
+              et sic anima ignorans est sua privatio 
+              seu sua ignorantia, 
+              sed hoc est contingenter 
+              et per accidens quia anima potest non esse ignorans, 
+              sicut enim Deus est sua scientia 
+              quia scientia non dicit formam simplicem additam divinae essentiae,
+              anima vero humana dicitur sciens 
+              et non dicitur sua scientia 
+              quia scientia est forma sibi addita, 
+              <unclear>sicque</unclear> ignorantia non est forma addita animae, 
+              sed est subiectum cum 
+              negationem scientiae. 
+              Ideo anima potest dici sua ignorantia, 
+              licet magis propria <unclear>p?atio?</unclear> sit in 
+              <unclear>conc?to</unclear>. 
+              Si tamen <unclear>conc?tum</unclear> verificatur de aliquo, 
+              etiam abstractum verificari potest de eodem 
+              nisi abstracto correspondeat aliqua formam simplex 
+              addita illi subiecto vel alteri.
+            </p>
+            <p xml:id="pgb1q28-d1e4514">
+              Ad primum in oppositum, negatur consequentia. 
+              Ad probationem dicitur quod cognoscit per ideam oppositorum 
+              positivorum.
+            </p>
+            <p xml:id="pgb1q28-d1e4528">
+              Ad secundum, negatur consequentia, 
+              quidquid sit de antecedente. 
+              Ad probationem conceditur quod nullum 
+              Deo ignotum potest Deus revelare, sed non probat consequentiam.
+            </p>
+            <p xml:id="pgb1q28-d1e4534">
+              Ad tertium, negatur 
+              antecedens sumendo 
+              <mentioned>participationem</mentioned> 
+              pro quadam mutatione divinae perfectionis quia peccatum 
+              non habet verum esse quia nulla essentia est.
+            </p>
           </div>
         </div>
-        <div>
-          <head><supplied>Conclusiones</supplied></head> 
-          <p xml:id="pgb1q28-d1e4543">Solet hic quaeri etc. Prima conclusio huius distinctionis 36: quod, licet Deo dicantur praesentia omnia quia omnia sunt 
-            in eius cogitatione seu scientia et scientia Dei sit idem quod essentia divina, non debet dici quod 
-            omnia sunt in divina essentia ne intelligatur esse eiusdem essentiae cum Deo quia, licet 
-            divina essentia et scientia sint idem re, tamen differunt in modo significandi propter <unclear>r??tum</unclear> 
-            quem importat scientia.</p>
-        
-          <p xml:id="pgb1q28-d1e4564">Secunda conclusio: quod licet Deus omnia bona et mala cognoscat 
-            bona, tamen cognoscit per approbationem et bene placitum et quia eorum est auctor, non 
-            autem sic mala cognoscit, ideo bona dicuntur esse in Deo mala vero non.</p>
-          
-          <p xml:id="pgb1q28-d1e4573">Tertia conclusio: quod omnia dicuntur 
+        <div xml:id="pg-b1q28-Dd1e1111">
+          <head xml:id="pg-b1q28-Hd1e1113">
+            <supplied>Conclusiones</supplied>
+          </head> 
+          <p xml:id="pgb1q28-d1e4543">
             <cit>
-              <quote ana="#rom11_36">esse per ipsum Deum et in ipso et ex ipso</quote>
+              <quote xml:id="pg-b1q28-Qd1e1123" type="lemma">Solet hic quaeri</quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>,
+                XXX
+              </bibl>
+            </cit> etc. 
+            Prima conclusio huius distinctionis 36: 
+            quod, licet Deo dicantur praesentia omnia quia omnia sunt 
+            in eius cogitatione seu scientia et scientia Dei 
+            sit idem quod essentia divina, 
+            non debet dici quod 
+            omnia sunt in divina essentia 
+            ne intelligatur esse eiusdem essentiae cum Deo 
+            quia, 
+            licet divina essentia et scientia sint idem re, 
+            tamen differunt in modo significandi propter <unclear>r??tum</unclear> 
+            quem importat scientia.
+          </p>
+          <p xml:id="pgb1q28-d1e4564">
+            Secunda conclusio: 
+            quod licet Deus omnia bona et mala cognoscat 
+            bona, 
+            tamen cognoscit per approbationem 
+            et bene placitum et quia eorum est auctor, 
+            non autem sic mala cognoscit, 
+            ideo bona dicuntur esse in Deo mala vero non.
+          </p>
+          <p xml:id="pgb1q28-d1e4573">
+            Tertia conclusio: 
+            quod omnia dicuntur 
+            <cit>
+              <quote xml:id="pg-b1q28-Qd1e1147" ana="#rom11_36">
+                esse per ipsum Deum et in ipso et ex ipso
+              </quote>
               <bibl>Romanos 11:36</bibl>
             </cit> 
             quia scit ea et 
-            est auctor eorum et intelligitur omnia, id est omnis natura et qui naturaliter sunt non peccata 
-            ut vicia quae naturam non servant sed <unclear>viciant</unclear>, sic etiam dicitur quod 
+            est auctor eorum et intelligitur omnia, 
+            id est omnis natura et qui naturaliter sunt non peccata 
+            ut vicia quae naturam non servant sed <unclear>viciant</unclear>, 
+            sic etiam dicitur quod 
             <cit>
-              <quote ana="#hebr17_28">in ipso movemur 
-                sumus vivimus et movemur.</quote>
+              <quote xml:id="pg-b1q28-Qd1e1159" ana="#hebr17_28">
+                in ipso movemur 
+                sumus vivimus et movemur
+              </quote>
               <bibl>Hebraeos 17:28</bibl>
-            </cit>
+            </cit>.
           </p>
-          
-          <p xml:id="pgb1q28-d1e4589">Quarta conclusio: licet numerus personarum et distinctio iudicetur cum 
-            dicitur 
+          <p xml:id="pgb1q28-d1e4589">
+            Quarta conclusio: 
+            licet numerus personarum et distinctio iudicetur 
+            cum dicitur 
             <cit>
-              <quote ana="#rom11_36">ex ipso, per ipsum, et in ipso,</quote>
+              <quote xml:id="pg-b1q28-Qd1e1171" ana="#rom11_36">
+                ex ipso, per ipsum, et in ipso
+              </quote>
               <bibl>Romanos 11:36</bibl>
-            </cit> 
-            sunt omnia ex ipso propter Patrem, per ipsum propter 
-            Filium, et in ipso propter Spiritum Sanctum, tamen cuilibet personae convenit quia ex Patre et per 
-            Patrem et in Patrem sunt omnia, et similiter de Filio et Spiritu Sancto potest dici.</p> 
-          
-          <p xml:id="pgb1q28-d1e4602">Quinta conclusio: 
-            quod non omne quod est ex Deo est de ipso Deo quia caelum est ex ipso sed non de ipso 
-            quia caelum non est de natura Dei. Omne autem quod est de ipso ex ipso est, sed non econverso. 
-            <pb ed="#L" n="88r"/> 
-            Unde Filius est de Patre et ex Patre quia forte li <mentioned>ex</mentioned> notat causam producentem, li 
-            <mentioned>de</mentioned> autem importat causam materialem vel se habentem causae materialis.</p>
-          
-          <p xml:id="pgb1q28-d1e4624">Sexta conclusio: 
-            quod in Dei cognitione seu scientia sunt omnia bona et mala, sed non eodem modo quia bona 
-            sunt in Deo sicut ex ipso et per ipsum non autem mala. Et haec de lectione.</p>
+            </cit>, 
+            sunt omnia ex ipso propter Patrem, 
+            per ipsum propter 
+            Filium, et in ipso propter Spiritum Sanctum, 
+            tamen cuilibet personae convenit quia ex Patre et per 
+            Patrem et in Patrem sunt omnia, 
+            et similiter de Filio et Spiritu Sancto potest dici.
+          </p> 
+          <p xml:id="pgb1q28-d1e4602">
+            Quinta conclusio: 
+            quod non omne quod est ex Deo est de ipso Deo 
+            quia caelum est ex ipso sed non de ipso 
+            quia caelum non est de natura Dei. 
+            Omne autem quod est de ipso ex ipso est, sed non econverso. 
+            <pb ed="#L" n="88-r"/> 
+            Unde Filius est de Patre et ex Patre 
+            quia forte li <mentioned>ex</mentioned> 
+            notat causam producentem, 
+            li <mentioned>de</mentioned> autem importat causam materialem 
+            vel se habentem causae materialis.
+          </p>
+          <p xml:id="pgb1q28-d1e4624">
+            Sexta conclusio: 
+            quod in Dei cognitione seu scientia sunt omnia bona et mala, 
+            sed non eodem modo quia bona 
+            sunt in Deo sicut ex ipso et per ipsum non autem mala. 
+            Et haec de lectione.
+          </p>
         </div>
       </div>  
     </body>

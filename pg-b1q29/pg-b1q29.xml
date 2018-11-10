@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 29</title>
+        <title>Liber I, Quaestio 29</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01-dev-master">
-          <title>Librum I, Quaestio 29</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 29</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,525 +24,1003 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-12" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="88-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q29">
-        <head>Quaestio 29</head>
-        <div>
-          <head><supplied>Circa textum</supplied></head>
+        <head xml:id="pg-b1q29-Hd1e95">Quaestio 29</head>
+        <div xml:id="pg-b1q29-Dd1e98">
+          <head xml:id="pg-b1q29-Hd1e100">
+            <supplied>Circa textum</supplied>
+          </head>
           <p xml:id="pgb1q29-d1e3115">
             <cit>
-              <quote>Ex quoniam demonstratum est</quote>
-              <bibl>Lombardus, I, d. 37</bibl>
+              <quote xml:id="pg-b1q29-Qd1e110" type="lemma">
+                Ex quoniam demonstratum est
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 37
+              </bibl>
             </cit> 
-            etc. Haec est distinctio 37 in qua postquam <name ref="#Lombard">Magister</name> 
-            tractavit qualiter res sunt in divina scientia, nunc autem ostendit qualiter Deus est in 
-            essentia cuiuslibet creaturae et dividitur in tres quia primo circa esse Dei in rebus quosdam 
-            modos recitat et veros modos approbat, secundo modos falsos reprobat, tertio quod dicit 
-            manifeste confirmat. Secunda ibi 
+            etc. 
+            Haec est distinctio 37 
+            in qua postquam 
+            <name ref="#Lombard">Magister</name> 
+            tractavit qualiter res sunt in divina scientia, 
+            nunc autem ostendit qualiter Deus est in 
+            essentia cuiuslibet creaturae et dividitur in tres 
+            quia primo circa esse Dei in rebus quosdam 
+            modos recitat et veros modos approbat, 
+            secundo modos falsos reprobat, 
+            tertio quod dicit 
+            manifeste confirmat. 
+            Secunda ibi 
             <cit>
-              <quote>cumque divina natura</quote>
-              <bibl>Lombardus, I, xxx</bibl>
+              <quote xml:id="pg-b1q29-Qd1e128" type="lemma">cumque divina natura</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>, 
+                I, xxx
+              </bibl>
             </cit> 
             Tertia ibi 
             <cit>
-              <quote>fateamur itaque.</quote>
-              <bibl>Lombardus, I, xxx</bibl>
-            </cit>
+              <quote xml:id="pg-b1q29-Qd1e143">fateamur itaque</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title> I, xxx
+              </bibl>
+            </cit>.
           </p>
-        
-          <p xml:id="pgb1q29-d1e3138">Circa 
-            primum, duo facit quia primo ostendit quomodo Deus est in aliquibus rebus per gratiam specialiter.</p>
-          
-          <p xml:id="pgb1q29-d1e3144">Secundo, qualiter est in aliquibus per naturam et generaliter. Secunda ibi 
-            <cit>
-              <quote>ex praedictis patet.</quote>
-              <bibl>Lombardus, I, xxx</bibl>
-            </cit>
+          <p xml:id="pgb1q29-d1e3138">
+            Circa primum, 
+            duo facit quia primo ostendit 
+            quomodo Deus est in aliquibus rebus 
+            per gratiam specialiter.
           </p>
-          
-          <p xml:id="pgb1q29-d1e3147">Prima Dei 
-            dicitur in duas quia primo ostendit quod Deus habitat <unclear>insci?s</unclear> hominibus, secundo respondet dubiis 
-            aliquibus. Secunda ibi 
+          <p xml:id="pgb1q29-d1e3144">
+            Secundo, 
+            qualiter est in aliquibus per naturam et generaliter. 
+            Secunda ibi 
             <cit>
-              <quote>ex praedictis patet si autem quaeris</quote>
-              <bibl>XXX</bibl>
-            </cit> 
-            etc.</p>
+              <quote xml:id="pg-b1q29-Qd1e164">ex praedictis patet</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title> 
+                I, xxx
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q29-d1e3147">
+            Prima Dei 
+            dicitur in duas 
+            quia primo ostendit 
+            quod Deus habitat <unclear>insci?s</unclear> hominibus, 
+            secundo respondet dubiis 
+            aliquibus. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q29-Qd1e185">
+                ex praedictis patet si autem quaeris
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                XXX
+              </bibl>
+            </cit>, 
+            etc.
+          </p>
         </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            <p xml:id="pgb1q29-d1e3163">Movetur talis quaestio, utrum divinum seu principium necesse in quolibet ente necesse sit esse; utrum sicut 
-              Deus cuiuslibet rei est idea vera et infallibilis sic et quaelibet res sit ipsius 
-              Dei locus capax licet mutabilis.</p>
-            
-            <p xml:id="pgb1q29-qnqsee">Quod non quia sequeretur quod Deus non posset in 
-              aliquo passo situaliter agere distante. Consequens est falsum tum quia agens citius agit 
-              in partem propinquam quam remotam supposita dispositione. Consequentia patet, si Deus est ubique, 
-              sequitur quod nulla res a Deo distat localiter. Confirmatur quia stat Deum esse ubique 
-              secundum potentiam et non secundum essentiam, ergo.</p>
-            
-            <p xml:id="pgb1q29-d1e3213">Secundo, Deus potest certum locum acquirere, ergo Deus 
-              non est immutabiliter in omni loco. Tenet consequentia, et antecedens patet, tum quia Deus potest esse in 
-              loco seu in creatura in qua non, tum etiam quia possibile est aliquod ens locum Dei 
-              non esse quia nullum creatum est necesse esse.</p>
-            
-            <p xml:id="pgb1q29-d1e3229">Tertio, Deus non est praesens ubique, ergo. 
-              Antecedens patet, tum primo quia Deus potest ubique incipere esse, supposito enim quod Deus 
-              destrueret omnem locum creatum et post ipsum <unclear>recrearet</unclear> ipse inciperet esse 
-              ubique, tum secundo quia Deus non est inspiratio seu vacuo imaginato, tum tertio quia 
-              <unclear>deus homo <!-- should this be hyphenated --></unclear> non est ubique, ergo Deus non est ubique. Tenet consequentia quia omnis Deus est homo. 
-              Et antecedens probatur quia Deus non est ubique homo alias aliquod corpus de facto esset in 
-              infinitis locis.</p>
-            
-            <p xml:id="pgb1q29-d1e3257">In oppositum est 
-              <ref><name ref="#Lombard">Magister</name> in hac distinctione,</ref> 
-              et confirmatur quia ubique esse 
-              est perfectionis, ergo Deo attribuendum. Consequentia bona. Antecedens videtur <name ref="#Lombard">magistri</name> in littera.</p>
+        <div xml:id="pg-b1q29-Dd1e200">
+          <head xml:id="pg-b1q29-Hd1e202">
+            <supplied>Quaestio</supplied>
+          </head>
+          <p xml:id="pgb1q29-d1e3163">
+            Movetur talis quaestio, 
+            utrum divinum seu principium necesse 
+            in quolibet ente necesse sit esse; 
+            utrum sicut 
+            Deus cuiuslibet rei est idea vera et infallibilis 
+            sic et quaelibet res sit ipsius 
+            Dei locus capax licet mutabilis.
+          </p>
+          <div xml:id="pg-b1q29-Dd1e211" type="rationes-principales">
+            <head xml:id="pg-b1q29-Hd1e213">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q29-qnqsee">
+              Quod non quia sequeretur 
+              quod Deus non posset in 
+              aliquo passo situaliter agere distante. 
+              Consequens est falsum 
+              tum quia agens citius agit 
+              in partem propinquam
+              quam remotam supposita dispositione. 
+              Consequentia patet, 
+              si Deus est ubique, 
+              sequitur quod nulla res a Deo distat localiter. 
+              Confirmatur quia stat Deum esse ubique 
+              secundum potentiam et non secundum essentiam, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q29-d1e3213">
+              Secundo, 
+              Deus potest certum locum acquirere, 
+              ergo Deus non est immutabiliter in omni loco. 
+              Tenet consequentia, 
+              et antecedens patet, 
+              tum quia Deus potest esse in 
+              loco seu in creatura in qua non, 
+              tum etiam quia possibile est aliquod ens locum Dei non esse 
+              quia nullum creatum est necesse esse.
+            </p>
+            <p xml:id="pgb1q29-d1e3229">
+              Tertio, 
+              Deus non est praesens ubique, ergo. 
+              Antecedens patet, 
+              tum primo 
+              quia Deus potest ubique incipere esse, 
+              supposito enim quod Deus 
+              destrueret omnem locum creatum 
+              et post ipsum <unclear>recrearet</unclear> ipse inciperet esse 
+              ubique, 
+              tum secundo 
+              quia Deus non est inspiratio seu vacuo imaginato, 
+              tum tertio 
+              quia <unclear>deus homo <!-- should this be hyphenated --></unclear> non est ubique,
+              ergo Deus non est ubique. 
+              Tenet consequentia 
+              quia omnis Deus est homo. 
+              Et antecedens probatur 
+              quia Deus non est ubique homo 
+              alias aliquod corpus de facto esset in 
+              infinitis locis.
+            </p>
+            <p xml:id="pgb1q29-d1e3257">
+              In oppositum est 
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e239">
+                  <name ref="#Lombard">Magister</name> 
+                  in hac distinctione
+                </ref>
+                <bibl>
+                  XXX
+                </bibl>
+              </cit>, 
+              et confirmatur 
+              quia ubique esse 
+              est perfectionis, 
+              ergo Deo attribuendum. 
+              Consequentia bona. 
+              Antecedens videtur <name ref="#Lombard">Magistri</name> in littera.
+            </p>
           </div>
-          <div>
-            <head>Prima conclusio</head> 
-            <p xml:id="pgb1q29-d1e3271">Prima conclusio: non stat Deum esse in aliquo creato per suam potentiam et ipsum in eodem non 
+          <div xml:id="pg-b1q29-Dd1e254">
+            <head xml:id="pg-b1q29-Hd1e256">Prima conclusio</head> 
+            <p xml:id="pgb1q29-d1e3271">
+              Prima conclusio: 
+              non stat Deum esse in aliquo creato 
+              per suam potentiam et ipsum in eodem non 
               esse per suam essentiam probatur per 
-              <ref><name ref="#Lombard">Magistrum</name> in hac distinctione 37 capitulo 2</ref> 
+              <ref xml:id="pg-b1q29-Rd1e261" corresp="#pg-b1q29-Qd1e269">
+                <name ref="#Lombard">Magistrum</name> 
+                in hac distinctione 37 capitulo 2
+              </ref> 
               dicentem 
               <cit>
-                <quote>Deus est in 
-                  omnibus et ubique semper est quia ubique deitatis <unclear>proprium</unclear> est. <!-- possible quote here, but I can't find it --></quote>
+                <quote xml:id="pg-b1q29-Qd1e269">
+                  Deus est in 
+                  omnibus et ubique semper est 
+                  quia ubique deitatis <unclear>proprium</unclear> est 
+                  <!-- possible quote here, but I can't find it -->
+                </quote>
                 <bibl>Lombardus, XXX</bibl>
-              </cit> 
+              </cit>.
               Nota tamen secundum 
-              <ref><name ref="#GilesOfRome">Aegidium</name> in 
-              tractatu de corpore Christi <unclear>theoremate</unclear> 5</ref>
+              <ref xml:id="pg-b1q29-Rd1e281" corresp="#pg-b1q29-Qd1e292">
+                <name ref="#GilesOfRome">Aegidium</name> 
+                in tractatu de corpore Christi <unclear>theoremate</unclear> 5
+              </ref>
               dicit:
               <cit>
-                <quote>licet deitatis sit in omni loco, non 
-                  tamen determinatur ad locum nec diffinitur loco nec circumscribitur.</quote>
+                <quote xml:id="pg-b1q29-Qd1e292">
+                  licet deitatis sit in omni loco, non 
+                  tamen determinatur ad locum 
+                  nec diffinitur loco nec circumscribitur
+                </quote>
                 <bibl>Aegidius Romanus, xxx</bibl>
-              </cit> 
-              Hoc idem ponit <name ref="#Lombard">Magister</name>.</p> <!-- is there another reference here --> 
+              </cit>. 
+              Hoc idem ponit 
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e301">
+                  <name ref="#Lombard">Magister</name>
+                </ref>
+                <bibl>XXX</bibl>
+              </cit>.
+            </p> <!-- is there another reference here --> 
             
-            <p xml:id="pgb1q29-d1e3309">Primum corollarium: quod si divina potentia nulli enti vel loco ab est sufficienter infertur 
+            <p xml:id="pgb1q29-d1e3309">
+              Primum corollarium: 
+              quod si divina potentia nulli enti 
+              vel loco ab est sufficienter infertur 
               quod divina essentia ubique est contra 
-              <ref>
-                <seg><name ref="#Scotus">Scotum</name> in hac distinctione.</seg>
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e318">
+                  <name ref="#Scotus">Scotum</name> in hac distinctione
+                </ref>
                 <bibl>Scotus, I, d. xxx</bibl>
-              </ref> 
-              Patet quia divina essentia et potentia 
-              sunt idem.</p>
-            
-            <p xml:id="pgb1q29-d1e3321">Secundum corollarium: licet agens creatum possit agere in aliquo passo a se 
-              <pb ed="#L" n="88v"/> 
-              remoto per certam distantiam, tamen agens in creatum in nullo a se distante vel 
-              remoto potest agere vel aliquid producere per suam omnipotentiam. Prima pars patet de sole illuminante 
-              partes aeris a se distantis et in ipsis producente calorem. Secunda pars 
-              probatur quia Deus est intime praesens cuilibet enti et situi cum hoc sibi sit proprium 
-              <ref>
-                <seg>secundum <name ref="#Lombard">Magistrum</name>.</seg>
-                <bibl>Lombardus, I, d. xxx</bibl>
-              </ref>
+              </cit> 
+              Patet 
+              quia divina essentia et potentia sunt idem.
             </p>
-            
-            <p xml:id="pgb1q29-d1e3339">Tertium corollarium: licet de facto nulli creato proprie <unclear>conveniat</unclear> esse praesens omni loco attinctive, 
-              tamen aliquod creatum mutabile potest esse ubique localiter contentive. Prima patet quia esse 
-              ubique attinctive per potentiam et essentiam convenit proprie deitati, ergo. Secunda pars probatur quia stat 
-              omnem locum creatum alium a loco in quo ego sum <unclear>adnihilari</unclear> quo facto sequitur me 
-              esse ubique et in omni loco.</p>
+            <p xml:id="pgb1q29-d1e3321">
+              Secundum corollarium: 
+              licet agens creatum possit agere in aliquo passo a se 
+              <pb ed="#L" n="88-v"/> 
+              remoto per certam distantiam, 
+              tamen agens in creatum in nullo a se distante vel 
+              remoto potest agere vel aliquid producere per suam omnipotentiam. 
+              Prima pars patet de sole illuminante 
+              partes aeris a se distantis et in ipsis producente calorem. 
+              Secunda pars probatur 
+              quia Deus est intime praesens cuilibet enti 
+              et situi cum hoc sibi sit proprium 
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e335">secundum <name ref="#Lombard">Magistrum</name></ref>
+                <bibl>Lombardus, I, d. xxx</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q29-d1e3339">
+              Tertium corollarium: 
+              licet de facto nulli creato proprie <unclear>conveniat</unclear> 
+              esse praesens omni loco attinctive, 
+              tamen aliquod creatum mutabile potest esse ubique localiter contentive. 
+              Prima patet quia esse 
+              ubique attinctive per potentiam 
+              et essentiam convenit proprie deitati, 
+              ergo. 
+              Secunda pars probatur quia stat 
+              omnem locum creatum alium a loco in quo 
+              ego sum <unclear>adnihilari</unclear> q
+              uo facto sequitur me esse ubique et in omni loco.
+            </p>
           </div>
-          <div>
-            <head>Secunda conclusio</head>
-            <p xml:id="pgb1q29-d1e3363">Secunda conclusio: sicut Deus nullo creato loco ad sui esse 
-              indiget, sic Deus nullum locum determinate continet. Probatur quia indigere loco est 
-              propria habitudo seu conditio locati, ergo Deus proprie in nullo loco continetur 
-              seu est locabilis. Consequentia tenet et antecedens patet. Secunda pars probatur quia proprie contineri loco est terminari 
-              et excedi a loco sed nullus locus Deum terminat vel excedere potest, ergo.</p>
-            
-            <p xml:id="pgb1q29-d1e3375">Primum corollarium: licet 
-              locus tempus et situs de Deo translative affirmentur vel dicantur tamen modi 
-              quibus Deus est in creaturis aliqualiter distinguitur. Prima patet per 
-              <ref><name ref="#Augustine">augustinum</name> V <title ref="#deTrinitate">de Trinitate</title> 
-              capitulo 8</ref> 
+          <div xml:id="pg-b1q29-Dd1e356">
+            <head xml:id="pg-b1q29-Hd1e358">
+              <supplied>Secunda conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q29-d1e3363">
+              Secunda conclusio: 
+              sicut Deus nullo creato loco ad sui esse 
+              indiget, sic Deus nullum locum determinate continet. 
+              Probatur quia indigere loco est 
+              propria habitudo seu conditio locati, 
+              ergo Deus proprie in nullo loco continetur 
+              seu est locabilis. 
+              Consequentia tenet et antecedens patet. 
+              Secunda pars probatur quia proprie contineri loco est terminari 
+              et excedi a loco sed nullus locus Deum terminat vel excedere potest, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q29-d1e3375">
+              Primum corollarium: 
+              licet 
+              locus tempus et situs de Deo translative affirmentur 
+              vel dicantur tamen modi 
+              quibus Deus est in creaturis aliqualiter distinguitur. 
+              Prima patet per 
+              <ref xml:id="pg-b1q29-Rd1e369" corresp="#pg-b1q29-Qd1e380">
+                <name ref="#Augustine">Augustinum</name> 
+                V 
+                <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 8
+              </ref>, 
               dicentem 
               <cit>
-                <quote ana="#Augustine_DeTrinitate_5_8_9_a">situs vero et habitus loca et tempora non proprie, sed translative per similitudines 
-                  dicuntur de Deo.</quote>
-                <bibl>Augustinus, De Trinitate, V, 8, 9</bibl>
+                <quote xml:id="pg-b1q29-Qd1e380" ana="#Augustine_DeTrinitate_5_8_9_a">
+                  situs vero et habitus loca et tempora non proprie, 
+                  sed translative per similitudines 
+                  dicuntur de Deo
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title>, V, 8, 9
+                </bibl>
+              </cit>. 
+              Secunda pars probatur 
+              per 
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e395">
+                  <name ref="#GerardusDeSiena">Gerardum de Senis</name>, 
+                  libro primo, 
+                  distinctione 37, 
+                  articulo 2
+                </ref>
+                <bibl>
+                  <name>Gerardus de Senis</name>,
+                  <title>Sent.</title>
+                  I, d. 37, a. 2
+                </bibl>
               </cit> 
-              Secunda pars probatur per 
-              <ref>
-                <seg><name ref="#GerardusDeSiena">Gerardum de Senis</name> libro primo, distinctione 37, articulo 2.</seg>
-                <bibl>Gerardus de Senis, I, d. 37, a. 2</bibl>
-              </ref> 
-              quia esse in secundum essentiam nihil aliud est quam attingere illud aliud secundum essentiam suam sic quod 
-              inter essentiam unius et essentiam alterius non interveniat distantia medians inter 
-              essentias illorum, et hoc facit pro secundo corollario primae conclusionis esse vero secundum praesentiam est attingere 
-              aliquid secundum notitiam et <unclear>perinsci?am</unclear> sed esse in secundum potentiam est esse in aliquo modo secundum 
-              operationem conservativam.</p> 
-            
-            <p xml:id="pgb1q29-d1e3420">Secundum corollarium: quam repugnat Deum loco diffiniri moveri 
+              quia esse in secundum essentiam nihil aliud est quam attingere illud 
+              aliud secundum essentiam suam sic quod 
+              inter essentiam unius et essentiam alterius 
+              non interveniat distantia medians inter 
+              essentias illorum, 
+              et hoc facit pro secundo corollario primae conclusionis 
+              esse vero secundum praesentiam est attingere 
+              aliquid secundum notitiam et <unclear>perinsci?am</unclear>, 
+              sed esse in secundum potentiam est esse in aliquo modo secundum 
+              operationem conservativam.
+            </p> 
+            <p xml:id="pgb1q29-d1e3420">
+              Secundum corollarium: 
+              quam repugnat Deum loco diffiniri moveri 
               vel mutari tam repugnat aliquod creatum esse 
               <app>
                 <lem>et</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="aboveLine">et</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="above-line">et</add>
                 </rdg>
               </app> 
               Deum sibi praesentialiter non intimari. 
               Patet quia secundum 
-              <ref><name ref="#Augustine">Augustinum</name> <sic>5o <!-- actually 8 --></sic> <title ref="#deTrinitate">De Trinitate</title> capitulo 3</ref> 
-              dicentem 
+              <ref xml:id="pg-b1q29-Rd1e429" corresp="#pg-b1q29-Qd1e444">
+                <name ref="#Augustine">Augustinum</name>,
+                <sic>5o <!-- actually 8 --></sic> 
+                <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 3
+              </ref>, 
+              dicentem, 
               <cit>
-                <quote ana="#Augustine_DeTrinitate_8_3_5_b">nulla <sic>esset <!-- dbcheck; actual is essent --></sic> mutabilia bona 
-                  nisi esset incommutabile bonum.</quote>
-              </cit> 
+                <quote xml:id="pg-b1q29-Qd1e444" ana="#Augustine_DeTrinitate_8_3_5_b">
+                  nulla <sic>esset <!-- dbcheck; actual is essent --></sic> 
+                  mutabilia bona 
+                  nisi esset incommutabile bonum
+                </quote>
+                <bibl>XXX</bibl>
+              </cit>.
               Confirmatur quia loco diffiniri vel circumscribi dicit 
-              locum terminare vel excedere locatum.</p> 
-            
-            <p xml:id="pgb1q29-d1e3451">Tertium corollarium: stat Deum esse uno modo 
-              tantum in se immutabiliter et ipsum esse in creaturis pluribus modis seu multipliciter. 
-              Patet quia Deus in diversis creatis diversos et multiplices effectus producit, 
-              ergo. Tenet consequentia et antecedens probatur quia alium effectum producit in creatura rationali quam 
-              brutali. Patet consequentia quia Deum esse in creaturis connotat effectus Dei ipsis pro 
+              locum terminare vel excedere locatum.
+            </p> 
+            <p xml:id="pgb1q29-d1e3451">
+              Tertium corollarium: 
+              stat Deum esse uno modo 
+              tantum in se immutabiliter 
+              et ipsum esse in creaturis pluribus modis seu multipliciter. 
+              Patet 
+              quia Deus in diversis creatis diversos 
+              et multiplices effectus producit, 
+              ergo. 
+              Tenet consequentia et antecedens probatur 
+              quia alium effectum producit in creatura rationali quam brutali. 
+              Patet consequentia 
+              quia Deum esse in creaturis connotat effectus Dei ipsis pro 
               illa conclusione et corollariis est 
-              <ref>
-                <seg><name ref="#AlanusDeInsulis">Alanus</name> in <title ref="#DeMaximisTheologiae">de maximis theologiae</title> regula 38</seg>
-                <bibl>Alanus de Insulis, De Maximis Theologiae, regula 38</bibl>
-              </ref>  
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e460">
+                  <name ref="#AlanusDeInsulis">Alanus</name> 
+                  in <title ref="#DeMaximisTheologiae">de maximis theologiae</title>, 
+                  regula 38
+                </ref>
+                <bibl>
+                  <name>Alanus de Insulis</name>, 
+                  <title>De Maximis Theologiae</title>, 
+                  regula 38
+                </bibl>
+              </cit>,
               ubi dicit <!-- possible quote here --> 
               collectionem creatoris ad creaturas secundum quod creator est in creaturis tamquam causa 
               efficiens in suis effectibus, ubi dicitur in commento, cum enim dicitur Deus est ubique hoc 
               non ita dicitur ut tamquam circumscriptus loco intelligatur, sed potius Dei immensitas 
               praedicatur et potius omnia intra eius immensitatem contineri quam ipsum in locis intelligatur. 
-              <ref>
-                <seg>Idem regula 39:</seg>
-                <bibl>Alanus de Insulis, De Maximis Theologiae, regula 39</bibl>
-              </ref> <!-- possible quote here -->
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e483">Idem regula 39</ref>
+                <bibl>
+                  <name>Alanus de Insulis</name>, 
+                  <title>De Maximis Theologiae</title>, 
+                  regula 39
+                </bibl>
+              </cit>, <!-- possible quote here -->
               cum localiter circumlocutiones de Deo praedicatur aut immensitas divina 
-              aut gratiae collatio aut unio intelligitur, ubi conceptum dicit cum Deus est in omni 
-              loco hic praedicatur divina immensitas, cum dicitur Deus est <unclear>inscis <!-- this word is used above, also unclear --></unclear> collatio divinae 
-              gratiae significatur <unclear>inscis?</unclear>, enim dicitur esse per gratiam, cum autem dicitur esse in homine assumptio hic 
-              <pb ed="#L" n="89r"/> 
-              <unclear>hic <!-- should this repeat be here --></unclear> praedicatur unio ut sit sensus humana natura est unita christo haec <unclear>ibi <!-- ille --></unclear> <!-- possible end of quotation here --></p>
+              aut gratiae collatio aut unio intelligitur, 
+              ubi conceptum dicit cum Deus est in omni 
+              loco hic praedicatur divina immensitas, 
+              cum dicitur Deus est <unclear>inscis <!-- this word is used above, also unclear --></unclear> collatio divinae 
+              gratiae significatur <unclear>inscis?</unclear>, 
+              enim dicitur esse per gratiam, 
+              cum autem dicitur esse in homine assumptio hic 
+              <pb ed="#L" n="89-r"/> 
+              <unclear>hic <!-- should this repeat be here --></unclear> 
+              praedicatur unio ut sit sensus humana natura est unita christo 
+              haec <unclear>ibi <!-- ille --></unclear>/ <!-- possible end of quotation here -->
+            </p>
           </div>
-          <div>
-            <head><supplied>Tertia conclusio</supplied></head> 
-            <p xml:id="pgb1q29-d1e3520">Tertia conclusio: licet 
+          <div xml:id="pg-b1q29-Dd1e521">
+            <head xml:id="pg-b1q29-Hd1e523">
+              <supplied>Tertia conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q29-d1e3520">
+              Tertia conclusio: licet 
               sit necesse Deum esse in 
+              quolibet
               <app>
-                <lem>quolibet</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
+                <lem n="quolibet"/>
+                <rdg wit="#L" type="correction-deletion">
                     <del rend="strikethrough">loco</del>
-                  </corr>
                 </rdg>
               </app> 
-              creato, tamen Deus contingenter habet esse in hoc corpore 
-              seu loco. Prima pars patet quia non stat aliquod creatum esse et illud a Deo non conservari 
-              vel sibi Deum praesentialiter non intimari. Secunda probatur quia hic locus potes adnihilari, 
-              ergo in hoc loco Deus contingenter habet esse.</p>
+              creato, 
+              tamen Deus contingenter habet esse in hoc corpore seu loco. 
+              Prima pars patet 
+              quia non stat aliquod creatum esse et illud a Deo non conservari 
+              vel sibi Deum praesentialiter non intimari. 
+              Secunda probatur quia hic locus potes adnihilari, 
+              ergo in hoc loco Deus contingenter habet esse.
+            </p>
+            <p xml:id="pgb1q29-d1e3545">
+              Primum corollarium: 
+              sicut Deum in quolibet 
+              quod est dum est necesse, 
+              sic Deus in nullo quod non est vere habet esse. Prima 
+              pars patet per dicta. 
+              Secunda probatur quia, 
+              si sic, sequeretur quod illud esset et non esset. 
+              Consequens implicat 
+              patet consequentia 
+              quia Deum esse in quolibet 
+              vel in aliquo est illud attingere per suam essentia scientiam 
+              et operationem ut patet per dicta.
+            </p>
+            <p xml:id="pgb1q29-d1e3563">
+              Secundum corollarium: 
+              sicut non stat locum esse et dum illi 
+              ab esse sic non stat aliquid non esse 
+              et <unclear>Deum <!-- dum --></unclear> illi adesse 
+              vel in illo esse. 
+              Prima pars patet 
+              quia Deum esse in aliquo est illud attingere per operationem, 
+              sed non operatur 
+              aut conservat aliquod non ens, 
+              ergo.
+            </p>
             
-            <p xml:id="pgb1q29-d1e3545">Primum corollarium: sicut Deum in quolibet 
-              quod est dum est necesse, sic Deus in nullo quod non est vere habet esse. Prima 
-              pars patet per dicta. Secunda probatur quia, si sic, sequeretur quod illud esset et non esset. Consequens implicat 
-              patet consequentia quia Deum esse in quolibet vel in aliquo est illud attingere per suam essentia scientiam 
-              et operationem ut patet per dicta.</p>
-            
-            <p xml:id="pgb1q29-d1e3563">Secundum corollarium: sicut non stat locum esse et dum illi 
-              ab esse sic non stat aliquid non esse et <unclear>Deum <!-- dum --></unclear> illi adesse vel in illo esse. 
-              Prima pars patet quia Deum esse in aliquo est illud attingere per operationem, sed non operatur 
-              aut conservat aliquod non ens, ergo.</p>
-            
-            <p xml:id="pgb1q29-d1e3573">Secundum corollarium: licet necessario Deus sit ubique 
-              seu in quolibet loco, tamen Deus non est extra caelum in vacuo imaginario. Patet 
-              ex corporo praecedente confirmatur quia deus non est in illo quod est purum nihil sed vacuum 
-              est huiusmodi aliter non esset vacuum ergo.</p>
-            
-            <p xml:id="pgb1q29-d1e3598">Tertium corollarium: sicut stat Deum desinere esse 
-              ubique sic non repugnat Deum incipere esse ubique. Patet quia Deus potest omnem 
-              locum et omne creatum destruere et iterum creare, quo posito sequitur propositum <unclear>ex</unclear> 
-              patet quod Deus seu primum necesse pluries potest esse ubique. Patet quia ab aeterno Deus 
-              non erat ubique, ergo. Patet consequentia quia sicut Deus incepit esse ubique per creationem 
-              ita potest adnihilare ubique et iterum creare.</p>
+            <p xml:id="pgb1q29-d1e3573">
+              Secundum corollarium: 
+              licet necessario Deus sit ubique 
+              seu in quolibet loco, tamen Deus non est extra caelum in vacuo imaginario. 
+              Patet 
+              ex corporo praecedente confirmatur 
+              quia Deus non est in illo quod est purum nihil sed vacuum 
+              est huiusmodi aliter non esset vacuum, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q29-d1e3598">
+              Tertium corollarium: 
+              sicut stat Deum desinere esse 
+              ubique sic non repugnat Deum incipere esse ubique. 
+              Patet quia Deus potest omnem 
+              locum et omne creatum destruere et iterum creare, 
+              quo posito sequitur propositum <unclear>ex</unclear> 
+              patet quod Deus seu primum necesse pluries potest esse ubique. 
+              Patet quia ab aeterno Deus 
+              non erat ubique, ergo. 
+              Patet consequentia 
+              quia sicut Deus incepit esse ubique per creationem 
+              ita potest adnihilare ubique et iterum creare.
+            </p>
           </div>
-          <div>
-            <head><supplied>Obiectiones et responsiones</supplied></head> 
-            <p xml:id="pgb1q29-d1e3621">Ad corollarium, sicut Deum esse pluries 
-              ubique non infert ipsum esse compositum aut <unclear>componibilem</unclear>, sic Deum transire 
-              de loco ad locum de tempore ad tempus non infert ipsum variabilem. Patet quia 
-              eadem est ratio utrobique ex quibus sequitur pars affirmativa conclusionis.</p> 
-            
-            <p xml:id="pgb1q29-d1e3637">Contra primam conclusionem, 
-              arguitur quia Deus potest aliquid producere extra caelum, ergo est ibi per potentiam, sed non est ibidem 
-              per essentiam, ergo stat Deum esse alicubi per potentiam et non per essentiam.</p>
-            
-            <p xml:id="pgb1q29-d1e3645">Contra secundum corollarium, 
-              sequeretur quod Deus esset minoris perfectionis quam agens creatum <unclear>probo<!-- probatio? --></unclear> quia posse agere <unclear>in 
-              distans<!-- shoul this be one word? --></unclear> perfectionis est.</p>
-            
-            <p xml:id="pgb1q29-d1e3661">Contra idem, voluntas divina potest velle aliquod distans a se, ergo 
-              potentia divina potest producere aliquod distans a se. Consequentia tenet quia voluntas et potentia sunt idem 
-              formaliter et antecedens patet.</p>
-            
-            <p xml:id="pgb1q29-d1e3669">Contra secundam conclusionem et corollaria, Deus potest esse in aliquo modo loco ubi 
-              prius non erat et potest etiam non esse ubi prius erat, ergo Deus est mobilis seu 
-              mutabilis. Patet consequentia, et antecedens probatur quia si <c>b</c> destruatur Deus ibi non est amplius, 
-              sic etiam si novus locus creatur Deus illi erit noviter praesens. Confirmatur quia si 
-              Deus nunc destrueret ultimum caelum, Deus non esset ubi nunc est ultimum 
-              caelum, potest ergo non esse in loco ubi est. Item, si Deus causaret aliquod corpus 
-              extra caelum, Deus esset ibidem, et nunc non est ergo, sed statim posset hic dici quod hoc 
-              non erit per mutationem ipsius Dei sed per mutationem corporis extra caelum <unclear>noviter</unclear> 
-              creati.</p>
-            
-            <p xml:id="pgb1q29-d1e3700">Contra hoc, arguitur quia moveri localiter est esse nunc alicubi et prius alibi et 
+          <div xml:id="pg-b1q29-Dd1e564">
+            <head xml:id="pg-b1q29-Hd1e566">
+              <supplied>Obiectiones et responsiones</supplied>
+            </head> 
+            <p xml:id="pgb1q29-d1e3621">
+              Ad corollarium, 
+              sicut Deum esse pluries 
+              ubique non infert ipsum esse compositum aut <unclear>componibilem</unclear>, 
+              sic Deum transire 
+              de loco ad locum de tempore ad tempus 
+              non infert ipsum variabilem. 
+              Patet quia 
+              eadem est ratio utrobique. 
+              Ex quibus sequitur pars affirmativa conclusionis.
+            </p> 
+            <p xml:id="pgb1q29-d1e3637">
+              Contra primam conclusionem, 
+              arguitur 
+              quia Deus potest aliquid producere extra caelum, 
+              ergo est ibi per potentiam. 
+              Sed non est ibidem per essentiam, 
+              ergo stat Deum esse alicubi 
+              per potentiam et non per essentiam.
+            </p>
+            <p xml:id="pgb1q29-d1e3645">
+              Contra secundum corollarium, 
+              sequeretur quod Deus esset minoris perfectionis 
+              quam agens creatum <unclear>probo<!-- probatio? --></unclear> 
+              quia posse agere <unclear>in distans<!-- shoul this be one word? --></unclear> perfectionis est.
+            </p>
+            <p xml:id="pgb1q29-d1e3661">
+              Contra idem, 
+              voluntas divina potest velle aliquod distans a se, 
+              ergo 
+              potentia divina potest producere aliquod distans a se. 
+              Consequentia tenet quia voluntas et potentia sunt idem 
+              formaliter et antecedens patet.
+            </p>
+            <p xml:id="pgb1q29-d1e3669">
+              Contra secundam conclusionem et corollaria, 
+              Deus potest esse in aliquo modo loco ubi 
+              prius non erat et potest etiam non esse ubi prius erat, 
+              ergo Deus est mobilis seu mutabilis. 
+              Patet consequentia, 
+              et antecedens probatur 
+              quia si <c>b</c> destruatur Deus ibi non est amplius, 
+              sic etiam si novus locus creatur Deus illi erit noviter praesens. 
+              Confirmatur quia, 
+              si Deus nunc destrueret ultimum caelum, 
+              Deus non esset ubi nunc est ultimum 
+              caelum, potest ergo non esse in loco ubi est. 
+              Item, 
+              si Deus causaret aliquod corpus extra caelum, 
+              Deus esset ibidem, 
+              et nunc non est ergo, 
+              sed statim posset hic dici quod hoc 
+              non erit per mutationem ipsius Dei, 
+              sed per mutationem corporis extra caelum <unclear>noviter</unclear> creati.
+            </p>
+            <p xml:id="pgb1q29-d1e3700">
+              Contra hoc, 
+              arguitur quia moveri localiter est esse nunc alicubi et prius alibi et 
               alibi, sed tale corpus cum prius nihil esset nec erat prius in aliquo loco nec advenit 
-              <pb ed="#L" n="89v"/> 
-              noviter in illo loco extra caelum, ergo Deus est motus localiter ad illum locum determinate 
-              quod est propositum. Confirmatur quia, si Deus non sit ibi nisi per corpus ibi noviter 
-              creatum, sequitur quod corpus creatum prius est ibi naturaliter quam Deus. Consequens est falsum quia sequitur 
-              quod corpus posset ibi creari absque hoc quod Deus esset ibi quia naturaliter prius potest esse 
-              sine posteriori. Item Deus prius est naturaliter est alicubi quam agat ibi.</p> 
-            
-            <p xml:id="pgb1q29-d1e3726">Contra primam 
-              partem tertiae conclusionis et eius corollaria arguitur si Deus non est in spatio vacuo extra caelum 
-              et ibi possit esse sine potentiae novi corporis, sequitur quod Deus sit mutabilis et mobilis 
-              localiter. Consequens est falsum. Patet consequentia quia talis transitus de non esse ibi ad esse ibi 
-              non potest esse sine mutatione in Deo vel in alio, sed quod Deus sine nova potentiae etc.
+              <pb ed="#L" n="89-v"/> 
+              noviter in illo loco extra caelum, 
+              ergo Deus est motus localiter ad illum locum determinate 
+              quod est propositum. 
+              Confirmatur quia, 
+              si Deus non sit ibi nisi per corpus ibi noviter creatum, 
+              sequitur quod corpus creatum prius est ibi naturaliter quam Deus. 
+              Consequens est falsum 
+              quia sequitur 
+              quod corpus posset ibi creari absque hoc 
+              quod Deus esset ibi 
+              quia naturaliter prius potest esse sine posteriori. 
+              Item, 
+              Deus prius est naturaliter est alicubi quam agat ibi.
+            </p> 
+            <p xml:id="pgb1q29-d1e3726">
+              Contra primam partem tertiae conclusionis et eius corollaria, 
+              arguitur, 
+              si Deus non est in spatio vacuo extra caelum 
+              et ibi possit esse sine potentiae novi corporis, 
+              sequitur quod Deus sit mutabilis et mobilis localiter. 
+              Consequens est falsum. 
+              Patet consequentia 
+              quia talis transitus de non esse ibi ad esse ibi 
+              non potest esse sine mutatione in Deo vel in alio, 
+              sed quod Deus sine nova potentiae, etc.
               Probatur quia in tali 
               <app>
-                <lem><supplied>spatio</supplied></lem>
+                <lem type="conjecture-corrected"><corr>spatio</corr></lem>
                 <rdg wit="#L"><sic>sapatio <!-- probably needs to be corrected in critical to "spatio" --></sic></rdg>
               </app> 
-              <unclear>imaginatio</unclear> Deus potest ponere angelum cum corpore creato 
-              et potest adnihilare illud corpus conservando angelum sicut si Deus adnihilaret aerem in ista 
-              domo existentem nos hic conservando.</p>
-            
-            <p xml:id="pgb1q29-d1e3769">Secundo, ante mundi creationem Deus erat 
-              praesens alicui spatio imaginabili extra caelum, ergo. Antecedens probatur quia Deum agere in aliquo 
-              spatio creato praesupponit Deum ibi esse cum prius ibi Deus potuerit creare 
-              mundum quam creaverit similiter extra caelum ultimum potest creare alium mundum, ergo.</p> 
-              
-            <p xml:id="pgb1q29-d1e3785">Tertio, Deus cognoscit distincte et intuitive spatium infinitum extra caelum, ergo est praesens 
-              tali spatio. Patet consequentia quia omne intellectum a Deo est actualiter praesens Deo nisi 
-              sit in potentia tantum, sed tale spatium de facto est extra caelum, ergo.</p>
-            
-            <p xml:id="pgb1q29-d1e3794">Quarto, per 
-              <ref>
-                <seg><name ref="#Augustine">Beatum Augustinum</name> 
-                V <title ref="#CityOfGod">De Civitate Dei</title> capitulo 
+              <unclear>imaginatio</unclear> 
+              Deus potest ponere angelum cum corpore creato 
+              et potest adnihilare illud corpus conservando angelum 
+              sicut si Deus adnihilaret aerem in ista 
+              domo existentem nos hic conservando.
+            </p>
+            <p xml:id="pgb1q29-d1e3769">
+              Secundo, 
+              ante mundi creationem 
+              Deus erat praesens alicui spatio imaginabili extra caelum, 
+              ergo. 
+              Antecedens probatur 
+              quia Deum agere in aliquo spatio creato 
+              praesupponit Deum 
+              ibi esse cum prius 
+              ibi Deus potuerit creare mundum quam creaverit. 
+              Similiter extra caelum ultimum 
+              potest creare alium mundum, 
+              ergo.
+            </p> 
+            <p xml:id="pgb1q29-d1e3785">
+              Tertio, 
+              Deus cognoscit distincte 
+              et intuitive spatium infinitum extra caelum, 
+              ergo est praesens tali spatio. 
+              Patet consequentia 
+              quia omne intellectum a Deo 
+              est actualiter praesens Deo nisi 
+              sit in potentia tantum, 
+              sed tale spatium de facto est extra caelum, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q29-d1e3794">
+              Quarto, 
+              per 
+              <cit>
+                <ref xml:id="pg-b1q29-Rd1e638">
+                  <name ref="#Augustine">Beatum Augustinum</name> 
+                  V 
+                  <title ref="#CityOfGod">De Civitate Dei</title>, 
+                  capitulo 5
                   <app>
-                    <lem>5</lem>
-                    <rdg wit="#L" type="corrDeletion">
-                      <corr>
-                        <del rend="strikethrough">u</del>
-                      </corr>
+                    <lem n="5"/>
+                    <rdg wit="#L" type="correction-deletion">
+                      <del rend="strikethrough">u</del>
                     </rdg>
                   </app>
-                </seg>
-                <bibl>Augustinus, De Civitate Dei V, 5</bibl> <!-- possible quote below -->
-            </ref> 
-              ubi contra quaerentes quare Deus cepit creare mundum 
-              in hoc tempore determinato cum prius per temporaliter infinita cessasset et per modum <sic>is</sic> 
-              instantiae respondet dicens quod eodem modo potest ab eis quaeri quare in hoc spatio 
-              mundi determinate creavit mundum cum extra mundum pateant circumquaque 
-              infinita spatia et subdit quod si ipsi dicant substantiam Dei esse absentem 
-              tantis locorum spatiis extra mundum et uno tantum tam exiguo loco <!-- probably not a direct quote but I think I found this in Book XI, c. 5 -->
-              in quo nunc mundus ex occupatam inconveniens et vaniloquium est. Haec <name ref="#Augustine"><unclear>Augustini <!-- should probabably be "augustinus" --></unclear></name>, 
-              ex quibus sequi videtur propositum.</p> 
-            
-            <p xml:id="pgb1q29-d1e3836">Quinto, ponatur quod <c>a</c> sit situs mundi et <c>b</c> situs 
-              imaginarius similis extra caelum distans ab ipso et moveat Deus mundum 
-              ab <c>a</c> ad <c>b</c> situans mundum in <c>b</c>, tunc quaeritur aut Deus prius fuit in <c>b</c> 
-              vel non. Si sic, habetur propositum. Si non, igitur eadem ratione Deus non est nunc in 
-              ipso <c>a</c>, ergo Deus recessit ab <c>a</c> et accessit ad <c>b</c>, ergo Deus localiter 
-              est motus, quod est falsum. Ergo sequitur quod sicut Deus nunc est in <c>a</c> sic prius in <c>b</c> situ.</p>
-            
-            <p xml:id="pgb1q29-d1e3901">Ad primum dividitur quod in proprie dicitur quod Deus potest agere in aliquo ubi extra caelum quia 
-              extra caelum non est aliquod ubi nec ibi vel locus. Secundo posset fieri differentia inter 
-              has species Deus potest agere ibi et Deus potest agere. Tertio, posset dici quod ubicumque 
-              Deus est potens agere ibi est praesentia divinae essentiae.</p>
-            
-            <p xml:id="pgb1q29-d1e3917">Ad secundum, negatur consequentia quia, 
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Civitate Dei</title> 
+                  V, 5
+                </bibl> <!-- possible quote below -->
+              </cit> 
+              ubi contra quaerentes 
+              quare Deus cepit creare mundum 
+              in hoc tempore determinato 
+              cum prius per temporaliter infinita cessasset 
+              et per modum <sic>is</sic> instantiae respondet 
+              dicens quod eodem modo potest ab eis quaeri 
+              quare in hoc spatio mundi determinate creavit mundum 
+              cum extra mundum pateant circumquaque 
+              infinita spatia et subdit 
+              quod si ipsi dicant substantiam Dei esse absentem 
+              tantis locorum spatiis extra mundum 
+              et uno tantum tam exiguo loco <!-- probably not a direct quote but I think I found this in Book XI, c. 5 -->
+              in quo nunc mundus ex occupatam inconveniens et vaniloquium est. 
+              Haec 
+              <name ref="#Augustine"><unclear>Augustini <!-- should probabably be "augustinus" --></unclear></name>, 
+              ex quibus sequi videtur propositum.
+            </p> 
+            <p xml:id="pgb1q29-d1e3836">
+              Quinto, 
+              ponatur quod <c>a</c> sit situs mundi 
+              et <c>b</c> situs imaginarius similis extra caelum 
+              distans ab ipso et moveat Deus mundum 
+              ab <c>a</c> ad <c>b</c> situans mundum in <c>b</c>, 
+              tunc quaeritur
+              aut Deus prius fuit in <c>b</c> vel non. 
+              Si sic, habetur propositum. 
+              Si non, igitur eadem ratione Deus non est nunc in ipso <c>a</c>, 
+              ergo Deus recessit ab <c>a</c> et accessit ad <c>b</c>, 
+              ergo Deus localiter est motus, 
+              quod est falsum. 
+              Ergo sequitur quod sicut Deus 
+              nunc est in <c>a</c> sic prius in <c>b</c> situ.
+            </p>
+            <p xml:id="pgb1q29-d1e3901">
+              Ad primam dividitur 
+              quod in proprie dicitur 
+              quod Deus potest agere in aliquo 
+              ubi extra caelum 
+              quia extra caelum non est aliquod 
+              ubi nec ibi vel locus. 
+              Secundo posset fieri differentia inter 
+              has species Deus potest agere ibi et Deus potest agere. 
+              Tertio, posset dici quod ubicumque 
+              Deus est potens agere ibi est praesentia divinae essentiae.
+            </p>
+            <p xml:id="pgb1q29-d1e3917">
+              Ad secundam, 
+              negatur consequentia quia, 
               licet in causis limitatis non posse agere indistans procedat ex imperfectione, 
-              tamen in causa illimitata ex perfectione procedit, scilicet ex immensitate et simplicitate 
-              et immobilitate divina.</p>
-            
-            <p xml:id="pgb1q29-d1e3928">Ad tertium, dicitur quod divina voluntas non potest velle 
-              aliquod distans a se propter eius immensitatem et simplicitatem et immobilitatem ut 
-              <pb ed="#L" n="90r"/> 
-              supra dictum est.</p>
-            
-            <p xml:id="pgb1q29-d1e3937">Ad primum contra secundam conclusionem, negatur consequentia ut prius et ad probationem dicitur quod aliquid esse 
-              ubi prius non erat potest dupliciter fieri. Primo modo per adventum illius rei ad locum 
-              praeexistentem. Secundo per novam 
+              tamen in causa illimitata ex perfectione procedit, 
+              scilicet ex immensitate et simplicitate 
+              et immobilitate divina.
+            </p>
+            <p xml:id="pgb1q29-d1e3928">
+              Ad tertiam, 
+              dicitur quod divina voluntas non potest velle 
+              aliquod distans a se propter eius immensitatem 
+              et simplicitatem et immobilitatem ut 
+              <pb ed="#L" n="90-r"/> 
+              supra dictum est.
+            </p>
+            <p xml:id="pgb1q29-d1e3937">
+              Ad primam contra secundam conclusionem, 
+              negatur consequentia ut prius, 
+              et ad probationem dicitur 
+              quod aliquid esse 
+              ubi prius non erat potest dupliciter fieri. 
+              Primo modo per adventum illius rei ad locum 
+              praeexistentem. 
+              Secundo per novam 
               <app>
                 <lem>positionem</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del rend="strikethrough/expunctuated">impositionem</del>
                     <add>positionem</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
               rei in esse vel creationem rei quae est locus. 
-              Secundo modo, Deus potest fieri praesens noviter loco et desinere esse in loco non per mutationem 
-              Dei sed rei quae est locus, et sic patet quod nec Deus proprie recedit a loco nec deservit 
-              locum, sed locus deservit Deum quia desinit esse.</p>
-            
-            <p xml:id="pgb1q29-d1e3959">Ad <unclear>replicam</unclear>, dicitur quod, licet illud 
-              corpus non mutetur de loco ad locum, tamen mutatur quia transiit de non esse 
-              ad esse simpliciter et hoc sufficit.</p>
-            
-            <p xml:id="pgb1q29-d1e3967">Ad secundam <unclear>replicam</unclear> dicitur quod Deus non est ibi per corpus 
-              nec ratione corporis si notetur aliqua causalitas in corpore respectu Dei, si autem notetur 
-              necessarias <unclear>commune</unclear> dicitur quod non prius nec posterius est Deum esse ibi quam corpus, licet secundum 
-              naturalem intelligentiam prius sit corpus esse et Deum esse quam Deum esse praesentem corpori 
-              vel loco.</p>
-            
-            <p xml:id="pgb1q29-d1e3988">Pro quo notandum quod in illo spatio imaginatio extra caelum non est 
-              ibi vere alibi nisi potentialiter quia possibile est magnitudinem ibi esse in qua esset formaliter 
-              aliud et aliud ibi.</p>
-            
-            <p xml:id="pgb1q29-d1e4002">Ad primum contra tertiam conclusionem, dicitur quod si intelligatur sine nova 
+              Secundo modo, Deus potest fieri praesens noviter loco 
+              et desinere esse in loco non per mutationem 
+              Dei sed rei quae est locus, et sic patet quod 
+              nec Deus proprie recedit a loco nec deservit 
+              locum, sed locus deservit Deum quia desinit esse.
+            </p>
+            <p xml:id="pgb1q29-d1e3959">
+              Ad <unclear>replicam</unclear>, 
+              dicitur quod, licet illud 
+              corpus non mutetur de loco ad locum, 
+              tamen mutatur quia transiit de non esse 
+              ad esse simpliciter et hoc sufficit.
+            </p>
+            <p xml:id="pgb1q29-d1e3967">
+              Ad secundam <unclear>replicam</unclear> 
+              dicitur quod Deus non est ibi per corpus 
+              nec ratione corporis si notetur aliqua causalitas in corpore respectu Dei, 
+              si autem notetur 
+              necessarias <unclear>commune</unclear> dicitur 
+              quod non prius nec posterius est Deum esse ibi quam corpus, 
+              licet secundum 
+              naturalem intelligentiam prius sit corpus esse 
+              et Deum esse quam Deum esse praesentem corpori vel loco.
+            </p>
+            <p xml:id="pgb1q29-d1e3988">
+              Pro quo notandum quod in illo spatio imaginatio extra caelum non est 
+              ibi vere alibi nisi potentialiter 
+              quia possibile est magnitudinem ibi esse in qua esset formaliter 
+              aliud et aliud ibi.
+            </p>
+            <p xml:id="pgb1q29-d1e4002">
+              Ad primam contra tertiam conclusionem, 
+              dicitur quod si intelligatur sine nova 
               <app>
                 <lem>positione</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del rend="strikethrough/expunctuated">impositione</del>
                     <add>positione</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
-              praesenti vel praeterita, tunc secunda pars. Antecedens est neganda si vero intelligatur sine nova 
-              positione praesentis corporis existentis. Negatur consequentia et ad probationem dicitur quod si Deus fiat ibi 
-              praesens ibi erit aliqua mutatio praesens vel praeterita respectu corporis sed ad probationem secundae 
-              partis antecedentis cum dicitur ponat ibi Deus, angelum, etc., dicitur quod solum probat quod Deus 
-              potest ibi esse posito extra caelum aliquo ente creato sine illud maneat sine 
-              non, sed non sequitur ex hoc quod possit esse nunc extra caelum nullo ente creato 
-              ibi posito simul vel prius, licet angelus possit ibi poni immediate a Deo quia 
-              mutatio potest fieri circa angelum non circa Deum sicut Deus non potest fieri de non diligente 
-              <c>b</c> diligens <c>b</c> sine mutatione ipsius <c>b</c>, et hoc non est imperfectionis in 
-              Deo sed perfectionis quia hoc provenit ex immutante Dei propter quam talis transitus 
-              contradictionis non potest fieri circa ipsum sine mutatione facta in alio.</p>
-            
-            <p xml:id="pgb1q29-d1e4056">Secundo, dicitur quod Deus 
-              non dicitur esse extra caelum in spatio imaginabili quia ibi nihil est nec fuit nec erit 
-              et frustra poneretur Deum esse 
+              praesenti vel praeterita, tunc secunda pars. 
+              Antecedens est neganda si vero intelligatur sine nova 
+              positione praesentis corporis existentis. 
+              Negatur consequentia et ad probationem dicitur 
+              quod si Deus fiat ibi 
+              praesens ibi erit aliqua mutatio praesens 
+              vel praeterita respectu corporis 
+              sed ad probationem secundae 
+              partis antecedentis cum dicitur ponat ibi Deus, angelum, etc., 
+              dicitur quod solum probat quod Deus 
+              potest ibi esse posito extra caelum aliquo ente creato 
+              sine illud maneat sine non, 
+              sed non sequitur ex hoc quod possit esse 
+              nunc extra caelum nullo ente creato 
+              ibi posito simul vel prius, 
+              licet angelus possit ibi poni immediate a Deo 
+              quia mutatio potest fieri 
+              circa angelum non circa Deum sicut Deus 
+              non potest fieri de non diligente 
+              <c>b</c> diligens <c>b</c> sine mutatione ipsius <c>b</c>, 
+              et hoc non est imperfectionis in 
+              Deo sed perfectionis 
+              quia hoc provenit ex immutante Dei 
+              propter quam talis transitus 
+              contradictionis non potest fieri 
+              circa ipsum sine mutatione facta in alio.
+            </p>
+            <p xml:id="pgb1q29-d1e4056">
+              Secundo, 
+              dicitur quod Deus 
+              non dicitur esse extra caelum in spatio imaginabili 
+              quia ibi nihil est nec fuit nec erit 
+              et frustra poneretur Deum esse per 
               <app>
-                <lem>per</lem> 
-                <rdg wit="#L" type="corrDeletion"> 
-                  <corr>
+                <lem n="per"/> 
+                <rdg wit="#L" type="correction-deletion">
                     <del>s</del>
-                  </corr>
                 </rdg>
               </app>
-              spatium infinitum in quo nihil operatur unquam.</p>
-            
-            <p xml:id="pgb1q29-d1e4074">Ad 
-              secundum, negatur antecedens quia illud spatium erat purum nihil ut dictum sed erat 
-              Deus in se ipso.</p>
-            
-            <p xml:id="pgb1q29-d1e4082">Secundo, dicitur quod Deum agere actu extra caelum non est ponendum nisi 
-              ratio vel auctoritas cogat nec eius immensitas hoc exigit sed exigit 
-              quod impossibile est esse locum vel rem quacumque extra deum et distantem ab eo quin 
-              deus sit illi praesens secundum essentiam potentiam et intuitionem et hoc habet deus ex se</p>
-            
-            <p xml:id="pgb1q29-d1e4092">Tertio, dicitur quod, licet aliquod ens per Dei potentiam posset esse ubique tamen illud ens posset 
-              abesse <unclear cert="high">alicui</unclear> loco existenti nec habet ex se quod possit esse ubique praesens 
-              sicut Deus qui ex sua immensitate habet quod non possit abesse <unclear>alicui</unclear> dum illud 
-              habet esse.</p>
-            
-            <p xml:id="pgb1q29-d1e4110">Ad tertium, posset negari consequentia quia sicut Deus non erat actu praesens tempori 
-              quia nihil erat sic nec spatio <unclear>tali</unclear> quod nihil est.</p>
-            
-            <p xml:id="pgb1q29-d1e4119">Ad quartum, dicitur quod <name ref="#Augustine">Augustinus</name> loquitur 
-              contra illos qui imaginatur ab aeterno usque ad initium creationis mundi 
-              in finita spatia temporis pertransita, et consequenter quaerit quare Deus in illis temporibus 
-              in finitis cessavit et post modum in hoc tempore determinato incepit et quaerit 
-              <pb ed="#L" n="90v"/> 
-              de illis imaginando extra mundum proportionaliter esse locorum spatia secundum omnem dimensionem 
-              circumquaque protensam et secundum hoc quaerit quare mundus conditus est in hac 
-              determinata parte illius spatii magis quam in alia, ideo infert contra illos quod 
-              habent ponere infinitatem mundorum per idem argumentum quo arguunt infinitatem seu 
-              aeternitatem mundi, <name ref="#Augustine">Augustinus</name> ergo loquatur contra imaginantes spatium actu quantum est 
-              realiter receptaculum corporum coexistentibus corporibus secundum suas partes realiter 
-              quod tamen secundum rei veritatem nihil est plus quam chimera.</p>
-            
-            <p xml:id="pgb1q29-d1e4179">Ad quintum, admittitur 
-              primum positum, sed dicitur quod <c>b</c> non est similis ipsi <c>a</c> quia <c>a</c> est verum ens et reale <c>b</c> non. 
+              spatium infinitum in quo nihil operatur unquam.
+            </p>
+            <p xml:id="pgb1q29-d1e4074">
+              Ad secundam, 
+              negatur antecedens 
+              quia illud spatium erat purum nihil, 
+              ut dictum sed erat 
+              Deus in se ipso.
+            </p>
+            <p xml:id="pgb1q29-d1e4082">
+              Secundo, 
+              dicitur quod Deum agere actu extra caelum non est ponendum 
+              nisi ratio vel auctoritas cogat 
+              nec eius immensitas hoc exigit 
+              sed exigit quod impossibile est esse locum 
+              vel rem quacumque extra deum et distantem 
+              ab eo quin Deus sit illi praesens 
+              secundum essentiam potentiam et intuitionem 
+              et hoc habet deus ex se.
+            </p>
+            <p xml:id="pgb1q29-d1e4092">
+              Tertio, 
+              dicitur quod, 
+              licet aliquod ens per Dei potentiam posset esse ubique, 
+              tamen illud ens posset 
+              abesse <unclear cert="high">alicui</unclear> 
+              loco existenti nec habet ex se quod possit esse ubique praesens 
+              sicut Deus qui ex sua immensitate habet 
+              quod non possit abesse <unclear>alicui</unclear> dum illud 
+              habet esse.
+            </p>
+            <p xml:id="pgb1q29-d1e4110">
+              Ad tertiam, 
+              posset negari consequentia 
+              quia sicut Deus non erat actu praesens tempori 
+              quia nihil erat 
+              sic nec spatio <unclear>tali</unclear> quod nihil est.
+            </p>
+            <p xml:id="pgb1q29-d1e4119">
+              Ad quartam, 
+              dicitur quod <name ref="#Augustine">Augustinus</name> loquitur contra illos 
+              qui imaginatur ab aeterno usque ad initium creationis mundi 
+              in finita spatia temporis pertransita, 
+              et consequenter quaerit quare Deus in illis temporibus 
+              in finitis cessavit et post modum 
+              in hoc tempore determinato incepit et quaerit 
+              <pb ed="#L" n="90-v"/> 
+              de illis imaginando extra mundum proportionaliter 
+              esse locorum spatia secundum omnem dimensionem 
+              circumquaque protensam 
+              et secundum hoc quaerit 
+              quare mundus conditus est 
+              in hac determinata parte illius spatii magis quam in alia, 
+              ideo infert contra illos quod 
+              habent ponere infinitatem mundorum 
+              per idem argumentum quo arguunt infinitatem seu aeternitatem mundi, 
+              <name ref="#Augustine">Augustinus</name> ergo loquatur contra imaginantes 
+              spatium actu quantum est realiter receptaculum 
+              corporum coexistentibus corporibus secundum suas partes realiter 
+              quod tamen secundum rei veritatem nihil est plus quam chimera.
+            </p>
+            <p xml:id="pgb1q29-d1e4179">
+              Ad quintam, admittitur 
+              primum positum, 
+              sed dicitur quod <c>b</c> non est similis ipsi <c>a</c> 
+              quia <c>a</c> est verum ens et reale <c>b</c> non.
+              <!-- para break -->
+              Secundo
               <app>
-                <lem>Secundo</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del>dist</del>
-                  </corr>
+                <lem n="Secundo"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del>dist</del>
                 </rdg>
               </app> 
-              dico quod <c>b</c> non distat ab <c>a</c> quia inter ens et non ens nulla est distantia. 
-              Tertio, dico quod Deus non posset movere mundum de situ in quo est ad illum 
-              situm imaginarium ratio quia impossibile est motum fieri acquisitum loci in vacuo seu 
-              ad terminum quod non est ens.</p> 
-            
-            <p xml:id="pgb1q29-d1e4233">Ad rationes in oppositum patet per dicta in conclusionibus solutio.</p>
+              dico quod <c>b</c> non distat ab <c>a</c> 
+              quia inter ens et non ens nulla est distantia.
+              <!-- para break ? -->
+              Tertio, 
+              dico quod Deus non posset movere mundum 
+              de situ in quo est ad illum 
+              situm imaginarium ratio 
+              quia impossibile est motum fieri acquisitum loci 
+              in vacuo seu 
+              ad terminum quod non est ens.
+            </p> 
+            <p xml:id="pgb1q29-d1e4233">
+              Ad rationes in oppositum patet 
+              per dicta in conclusionibus solutio.
+            </p>
           </div>
         </div>
-        <div>
-          <head><supplied>Conclusiones</supplied></head>
-          
-          <p xml:id="pgb1q29-d1e4237">Et quin demonstratum est prima conclusio distinctionis 37 quod Deus <unclear>incommutabiliter<!-- incommunicabiliter?--></unclear> semper 
-          in se existens est in omni natura seu essentia praesentialiter potentialiter et essentialiter sine sui diffinitione, 
-          etiam omni loco sine circumscriptione, et omni tempore sine mutabilitate, et etiam <unclear>in sanctis<!-- this word has been used several times before --></unclear> <unclear>speritibus[?]</unclear>, et in 
-          animalibus habitans per gratiam in homine vero Christus est excellentissime quia in eo plenitudo deitatis 
-          inhabitat corporaliter.</p>
-        
-        <p xml:id="pgb1q29-d1e4263">Secunda conclusio: quod ubi Deus habitat ibi Deus est, non tamen 
-          ubicumque est ibi habitat, nam sicut anima tota simul <unclear>a?dem</unclear> omnibus partibus corporis nec 
-          est minor in minoribus tamen in aliis intensius in aliis remissius operatur, ita 
-          Deus ubique est sed <unclear>in sanctis</unclear> specialiter dicitur esse per gratiam et in eis habitat sicut <unclear>in templo</unclear> 
-          mali vero et si ibi sit ubi deus qui nusquam deest, non tamen sunt cum eo ideo dicitur 
-          <quote>Pater Noster qui est in caelis,</quote> id est <unclear>in sanctis<!--?--></unclear> in quibus est specialiori modo, scilicet per gratiam, non autem 
-          dicitur ubique.</p>
-        
-        <p xml:id="pgb1q29-d1e4292">Tertia conclusio: quod Deus antequam res essent in se erat bene Deus in se est et in 
-          rebus, non enim sancti dicuntur domus Dei, ita ut ipsa subtracta cadat Deus sed 
-          dicitur quod Deus in sanctis habitat ut si ipse discesserit cadant et deficiant.</p> 
-        
-        <p xml:id="pgb1q29-d1e4305">Quarta conclusio: quod Deus est habitator quorumdam non cognoscentium Deum, sicut parvulorum per 
-          baptismum renatorum et habitator quorumdam cognoscentium Deum, sicut beatorum Deum diligentium 
-          quorumdam aut cognoscentium non est habitator, sicut malorum qui eum 
-          cognoscunt sed non diligunt, illi enim ad templum Dei non pertinent qui Deum 
-          cognoscentes non sicut Deum glorificant.</p>
-        
-        <p xml:id="pgb1q29-d1e4319">Quinta conclusio: sicut radii solis non contaminantur 
-          sordibus ita divina essentia ubique existens nullis sordibus maculatur.</p>
-        
-        <p xml:id="pgb1q29-d1e4325">Sexta conclusio: quod omne corpus est locale et <unclear cert="low">divisive</unclear> in loco et mobile secundum locum 
-          et secundum tempus spiritus vero creatus localis est, sed non <unclear cert="low">divisive</unclear>, sed determinative, nam 
-          ita est hic quod non alibi invenitur et movetur secundum locum et secundum tempus quoniam suscepit 
-          vicissitudinem gaudii doloris scientiae et oblivionis, Deus autem in localis est et incircumscriptabilis 
-          ubique totus existens quia nec secundum tempus nec secundum locum movetur, sed est 
-          omnino immobilis.</p>
+        <div xml:id="pg-b1q29-Dd1e889">
+          <head xml:id="pg-b1q29-Hd1e891">
+            <supplied>Conclusiones</supplied>
+          </head>
+          <p xml:id="pgb1q29-d1e4237">
+            <cit>
+              <quote xml:id="pg-b1q29-Qd1e901" type="lemma">Et <unclear>quoniam <!-- dbcheck against "quin" and change in lon"--></unclear> 
+                demonstratum est
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>,
+                XXX
+              </bibl>
+            </cit> 
+            prima conclusio distinctionis 37: 
+            quod Deus <unclear>incommutabiliter<!-- incommunicabiliter?--></unclear> semper 
+            in se existens est in omni natura 
+            seu essentia praesentialiter potentialiter 
+            et essentialiter sine sui diffinitione, 
+            etiam omni loco sine circumscriptione,
+            et omni tempore sine mutabilitate, 
+            et etiam <unclear>in sanctis<!-- this word has been used several times before --></unclear> <unclear>speritibus[?]</unclear>, 
+            et in animalibus habitans per gratiam in homine, 
+            vero Christus est excellentissime 
+            quia in eo plenitudo deitatis inhabitat corporaliter.
+          </p>
+          <p xml:id="pgb1q29-d1e4263">
+            Secunda conclusio: 
+            quod ubi Deus habitat ibi Deus est, 
+            non tamen ubicumque est ibi habitat, 
+            nam sicut anima tota simul <unclear>a?dem</unclear> 
+            omnibus partibus corporis nec 
+            est minor in minoribus, 
+            tamen in aliis intensius in aliis remissius operatur, 
+            ita Deus ubique est sed <unclear>in sanctis</unclear> 
+            specialiter dicitur esse per gratiam 
+            et in eis habitat sicut <unclear>in templo</unclear> 
+            mali vero et si ibi sit ubi Deus qui nusquam deest, 
+            non tamen sunt cum eo ideo dicitur 
+            <quote xml:id="pg-b1q29-Qd1e941">Pater Noster qui est in caelis</quote>, 
+            id est <unclear>in sanctis<!--?--></unclear> 
+            in quibus est specialiori modo, 
+            scilicet per gratiam, 
+            non autem dicitur ubique.
+          </p>
+          <p xml:id="pgb1q29-d1e4292">
+            Tertia conclusio: 
+            quod Deus antequam res essent 
+            in se erat bene Deus in se est 
+            et in rebus, 
+            non enim sancti dicuntur domus Dei, 
+            ita ut ipsa subtracta cadat Deus, 
+            sed dicitur quod Deus in sanctis habitat, 
+            ut si ipse discesserit cadant et deficiant.
+          </p> 
+          <p xml:id="pgb1q29-d1e4305">
+            Quarta conclusio: 
+            quod Deus est habitator quorumdam non cognoscentium Deum, 
+            sicut parvulorum per 
+            baptismum renatorum et habitator quorumdam cognoscentium Deum, 
+            sicut beatorum Deum diligentium 
+            quorumdam aut cognoscentium non est habitator, 
+            sicut malorum qui eum 
+            cognoscunt sed non diligunt, 
+            illi enim ad templum Dei non pertinent 
+            qui Deum cognoscentes non sicut Deum glorificant.
+          </p>
+          <p xml:id="pgb1q29-d1e4319">
+            Quinta conclusio: 
+            sicut radii solis non contaminantur 
+            sordibus ita divina essentia ubique existens nullis sordibus maculatur.
+          </p>
+          <p xml:id="pgb1q29-d1e4325">
+            Sexta conclusio: 
+            quod omne corpus est locale 
+            et <unclear cert="low">divisive</unclear> 
+            in loco et mobile secundum locum 
+            et secundum tempus spiritus vero creatus localis est, 
+            sed non <unclear cert="low">divisive</unclear>, 
+            sed determinative, nam 
+            ita est hic quod non alibi invenitur et movetur secundum locum 
+            et secundum tempus quoniam suscepit 
+            vicissitudinem gaudii doloris scientiae et oblivionis, 
+            Deus autem in localis est et incircumscriptabilis 
+            ubique totus existens quia nec secundum tempus nec secundum locum movetur, 
+            sed est omnino immobilis.
+          </p>
         </div>
       </div>  
     </body>

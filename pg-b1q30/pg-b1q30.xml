@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 30</title>
+        <title>Liber I, Quaestio 30</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 30</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 30</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,134 +25,327 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-15" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="90-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q30">
         <head>Quaestio 30</head>
         <div>
-          <head><supplied>Circa textum</supplied></head>
-        <p xml:id="pgb1q30-d1e3127">
-          <cit>
-            <quote>Nunc igitur ad propositum</quote>
-            <bibl>Lombard, I, d. 38</bibl>
-          </cit> etc. Postquam <name ref="#Lombard">magister</name> tractavit de scientia dei et rebus <unclear>scibilis</unclear> quantum ad eorum 
-          <unclear>praesentialitatem</unclear> et intimitatem in hac vero 38a distinctione tractat de ipsis quantum 
-          <pb ed="#L" n="91r"/> 
-          ad earum causalitatem et dividitur in duas nam in primo quaerit utrum scientia respectu 
-          scitorum habeat talem rationem et huius quaestionis ponit solutionem 2o ex illa solutione 
-          movet aliam dubitationem 2a ibi ad hoc autem quod supra dictum est</p>
-        
-        <p xml:id="pgb1q30-d1e3163">prima dividitur 
-          in duas quia primo circa quaestionem procedit opinative ad utrumque partem arguendo 2o procedit 
-          determinative veritatem asserendo 2a ibi hanc ergo quae videtur etc</p>
+          <head>
+            <supplied>Circa textum</supplied>
+          </head>
+          <p xml:id="pgb1q30-d1e3127">
+            <cit>
+              <quote source="http://scta.info/resource/pll1d38c1-d1e3501" type="lemma">
+                Nunc igitur ad propositum
+              </quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d38c1-d1e3501">
+                  <name>Lombard</name>,
+                  <title>Sent.</title>
+                  I, d. 38, c. 1, [n. 1].
+                </ref>
+              </bibl>
+            </cit>
+            etc. 
+            Postquam 
+            <name ref="#Lombard">Magister</name> 
+            tractavit de scientia Dei et rebus <unclear>scibilis</unclear> 
+            quantum ad eorum 
+            <unclear>praesentialitatem</unclear> 
+            et intimitatem, 
+            in hac vero 38 distinctione tractat de ipsis quantum
+            <pb ed="#L" n="91-r"/> 
+            ad earum causalitatem et dividitur in duas, 
+            nam in primo quaerit utrum scientia respectu 
+            scitorum habeat talem rationem 
+            et huius quaestionis ponit solutionem, 
+            secundo ex illa solutione 
+            movet aliam dubitationem. 
+            Secunda ibi 
+            <cit>
+              <quote source="http://scta.info/resource/pll1d38c2-d1e3501" type="lemma">ad hoc autem quod supra dictum est</quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d38c2-d1e3501">
+                  <name>Lombard</name>,
+                  <title>Sent.</title>
+                  I, d. 38, c. 2, [n. 1].
+                </ref>
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q30-d1e3163">
+            Prima dividitur 
+            in duas quia primo circa quaestionem procedit opinative 
+            ad utrumque partem arguendo, 
+            secundo procedit 
+            determinative veritatem asserendo. 
+            Secunda ibi 
+            <cit>
+              <quote source="http://scta.info/resource/pll1d38c1-d1e3610" type="lemma">hanc ergo quae videtur</quote>
+              <bibl>
+                <ref target="http://scta.info/resource/pll1d38c1-d1e3610">
+                  <name>Lombard</name>,
+                  <title>Sent.</title>
+                  I, d. 38, c. 1 [n. 10].
+                </ref>
+              </bibl>
+            </cit>
+            etc.
+          </p>
         </div>
         <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Quaestio</supplied></head>
-            <p xml:id="pgb1q30-d1e3170"><hi rend="dropCapThreeLines"/>Utrum certitudini divinae praescientiae utrum <unclear>cum</unclear> divina praescientia certa 
-          et infallibili stet m?a continentia in re producibili  quod sic quia respectu alicuius futuri 
-          scientia dei non potest non esse respectu eiusdem scientia ergo nullum futurum potest non evenire 
-          et per consequens quo falsa consequentiae bonae et antecedens probatur quia praescientia dei respectu antichristi aut a se est 
-          praescientia futuri aut ab alio aliquo si ex se ergo non potest non esse praescientia sicut illud quod ex 
-          se habet tres angulos aequales duobus rectis non potest esse et non habere huius tres etc 
-          si ab alio sequitur quod res futurae sunt causae praescientiae dei contra <name ref="#Lombard">magistrum</name> et <name ref="#Augustine">augustinum</name> 15 <title ref="#deTrinitate">de 
-          trinitate</title> capitulo 14o dicentem <quote>non ideo deus scivit quia creavit sed quia scivit creavit</quote></p>
-        
-        <p xml:id="pgb1q30-d1e3208">2o nihil 
-          est futurum ergo antecedens probatur per conversionem quia nihil futurum est ergo nihil est futurum</p>
-        
-        <p xml:id="pgb1q30-d1e3215">3o deus praescit 
-        <c>a</c> ergo <c>a</c> erit consequentia est necessaria et antecedens similiter ergo consequens ergo a necessario erit 
-          <unclear>probatio</unclear> autem necessitatis antecedentis quia est verum aeternum</p>
-        
-        <p xml:id="pgb1q30-d1e3252">In oppositum est <name ref="#Augustine">augustinus</name> 11o <title ref="#CityOfGod">de civitate</title> 
-          capitulo 9o dicentem conclusive ex multis praemissis ibidem qui negat deum <sic>omnepraescitum</sic> 
-          futurorum negat eum esse deum sed talis praescientia numquam necessitatem imponit 
-          praescito eventui aliter nullus esset <unclear>lau?dus</unclear> vel vituperandus propter meritum vel 
-          demeritum suum quod est falsum ergo</p>
+          <head>
+            <supplied>Quaestio</supplied>
+          </head>
+          <p xml:id="pgb1q30-d1e3170">
+            Utrum certitudini divinae praescientiae utrum <unclear>cum</unclear> divina praescientia certa 
+            et infallibili stet <unclear>m?a</unclear> continentia in re producibili
+          </p>
+          <div type="rationes-principales">
+            <head>
+              <supplied>Quaestio</supplied>
+            </head>
+            <!-- paragraph needs to be added in lon -->
+            <p>
+              Quod sic quia respectu alicuius futuri 
+              scientia dei non potest non esse respectu eiusdem scientia 
+              ergo nullum futurum potest non evenire 
+              et per consequens quo falsa consequentiae bonae 
+              et antecedens probatur 
+              quia praescientia Dei respectu antichristi 
+              aut a se est praescientia futuri 
+              aut ab alio aliquo. 
+              Si ex se ergo non potest non esse praescientia 
+              sicut illud quod ex se habet tres angulos aequales duobus rectis 
+              non potest esse et non habere huius tres etc. 
+              Si ab alio, 
+              sequitur quod res futurae sunt causae praescientiae Dei 
+              contra 
+              <cit>
+                <ref><name ref="#Lombard">Magistrum</name></ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  XXX.
+                </bibl>
+              </cit> 
+              et 
+              <ref>
+                <name ref="#Augustine">Augustinum</name> 15 
+                <title ref="#deTrinitate">De Trinitate</title>
+              </ref> 
+              capitulo 14 dicentem 
+              <cit>
+                <quote source="http://scta.info/resource/adt-l15">
+                  non ideo deus scivit quia creavit sed quia scivit creavit
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>,
+                  <title>De Trinitate</title>, 
+                  xxx
+                </bibl>
+              </cit>
+            </p>
+            <p xml:id="pgb1q30-d1e3208">
+              Secundo, 
+              nihil 
+              est futurum ergo antecedens probatur 
+              per conversionem 
+              quia nihil futurum est 
+              ergo nihil est futurum.
+            </p>
+            <p xml:id="pgb1q30-d1e3215">
+              Tertio, 
+              Deus praescit <c>a</c>, 
+              ergo <c>a</c> erit consequentia est necessaria 
+              et antecedens similiter 
+              ergo consequens 
+              ergo a necessario erit 
+              <unclear>probatio</unclear> autem necessitatis antecedentis 
+              quia est verum aeternum
+            </p>
+            <p xml:id="pgb1q30-d1e3252"> 
+              In oppositum est 
+              <ref>
+                <name ref="#Augustine">Augustinus</name> 11 
+                <title ref="#CityOfGod">de civitate</title> 
+                capitulo 9
+              </ref>
+              <!-- quote following ??? -->
+              dicentem conclusive ex multis praemissis ibidem 
+              qui negat Deum <sic>omnepraescitum</sic> 
+              futurorum negat eum esse Deum sed talis praescientia 
+              numquam necessitatem imponit 
+              praescito eventui aliter nullus esset <unclear>lau?dus</unclear> 
+              vel vituperandus propter meritum vel 
+              demeritum suum, 
+              quod est falsum, 
+              ergo.
+            </p>
           </div>
           <div>
-            <head><supplied>Prima conclusio</supplied></head>
-        <p xml:id="pgb1q30-d1e3283">prima conclusio licet repugnet divinam essentiam non esse 
-          cuiuslibet rei cognoscibilis certam scientiam tamen non repugnat divinam essentiam nullius rei 
-          cognoscibilis esse praescientiam prima pars patet per dicta quia secundum <name ref="#Paul">apostolum</name> <quote ana="#hebr4_13">nulla est creatura 
-          invisibilis in conspectu eius sed omnia nuda et aperta sunt oculis eius</quote></p>
-        
-        <p xml:id="pgb1q30-d1e3298">2a pars 
-          probatur quoniam possibile est nihil esse futurum ergo patet consequentia quia <corr><del rend="strikethrough">possibile est nihil</del></corr> divina praescientia nihil 
-          est aliud quam divina essentia ut est evidens et infallibilis notitia seu certum 
-          iudicium respectu futuri comprehendens ipsum fore in se ipso et in re extra qualitercumque 
-          erit ut potest trahi ex dictis <ref><name ref="#Lombard">magistri</name> distinctionibus 38 et 39 primi</ref> patet ergo quod 
-          si nulla essent futura nulla esset praescientia vel saltim divina essentia nullius esset 
-          praescientia cum praescientia sit solum respectu futuri sed antecedens patet quia quodlibet futurum contingenter et 
-          non necessario erit ut patebit infra et per consequens quodlibet poterit non fore</p>
-        
-        <p xml:id="pgb1q30-d1e3331">notandum 
-          quod cum dicitur praescientia li <mentioned>prae</mentioned> denotat infinitam moram durationis imaginarie 
-          praecedentem realem existentiam rei futurae quia deus omnia intuetur tamquam praesentia 
-          in praesenti aeternitatis et ideo apud deum nihil est futurum vel futuritio</p>
-        
-        <p xml:id="pgb1q30-d1e3350">primum corollarium licet 
-          deus non possit non esse futurorum scientia  tamen deus praeteritorum potest non esse praescientia 
-          paret conclusionem confirmatur quia aliquando erit praesens et post praeteritum et tunc non praescietur sed scietur</p>
-        
-        <p xml:id="pgb1q30-d1e3363">2m corollarium licet divina praescientia sit divina essentia formaliter tamen divinam essentiam esse 
-          praescientiam non est perfectionis simpliciter patet quia potest non esse praescientia respectu cuiuscumque futuri 
-          licet non potest non esse perfectio simpliciter</p>
-        
-        <p xml:id="pgb1q30-d1e3372">3m corollarium licet deum esse praescium inferat 
-          <pb ed="#L" n="91v"/>aliquid esse futurum tamen deum esse praescium non infert deum illud futurum patet quia 
-          non est effectivus culpae futurae et futuritionis eiusdem cum nihil sit</p>
-        
-        
-        <p xml:id="pgb1q30-d1e3387">corollarlium stat aliquam rem esse et simul dum est non esse posse vel sic conclusio cum quolibet 
-          contingenti rei esse stat eandem non esse posse probatur qui quodlibet creatum contingentur est 
-          et numquam contingenter eset nisi dum est quia dum non est contingenter non est nec necessario est ergo 
-          contingenter est ergo dum est potest non esse 2o probatur corollarium quia esse creaturae et posse non 
-          esse eiusdem non se habent contradictorie ergo stat eandem rem simul esse et posse 
-          non esse ergo</p>
+            <head>
+              <supplied>Prima conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q30-d1e3283">
+              Prima conclusio: 
+              licet repugnet divinam essentiam non esse 
+              cuiuslibet rei cognoscibilis certam scientiam tamen non repugnat divinam essentiam nullius rei 
+              cognoscibilis esse praescientiam prima pars patet per dicta quia secundum 
+              <name ref="#Paul">apostolum</name> 
+              <quote ana="#hebr4_13">
+                nulla est creatura invisibilis in conspectu eius 
+                sed omnia nuda et aperta sunt oculis eius
+              </quote>
+            </p>
+            <p xml:id="pgb1q30-d1e3298">
+              Secunda pars probatur 
+              quoniam possibile est nihil esse futurum, ergo. 
+              Patet consequentia 
+              quia
+              <app>
+                <lem n="quia"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">possibile est nihil</del>
+                </rdg>
+              </app>
+              divina praescientia nihil 
+              est aliud quam divina essentia 
+              ut est evidens et infallibilis 
+              notitia seu certum iudicium respectu futuri 
+              comprehendens ipsum fore 
+              in se ipso et in re extra qualitercumque 
+              erit ut potest trahi ex dictis 
+              <ref>
+                <name ref="#Lombard">Magistri</name>, 
+                distinctionibus 38 et 39 primi
+              </ref>. 
+              Patet ergo quod 
+              si nulla essent futura nulla esset praescientia 
+              vel saltim divina essentia nullius esset 
+              praescientia cum praescientia sit solum respectu futuri, 
+              sed antecedens patet 
+              quia quodlibet futurum contingenter et 
+              non necessario erit ut patebit infra 
+              et per consequens quodlibet poterit non fore.
+            </p>
+            <!-- collapse paragraph -->
+            <p xml:id="pgb1q30-d1e3331">
+              Notandum 
+              quod cum dicitur praescientia 
+              li <mentioned>prae</mentioned> 
+              denotat infinitam moram durationis imaginarie 
+              praecedentem realem existentiam rei futurae 
+              quia Deus omnia intuetur tamquam praesentia 
+              in praesenti aeternitatis, 
+              et ideo apud deum nihil est futurum vel futuritio.
+            </p>
+            <p xml:id="pgb1q30-d1e3350">
+              Primum corollarium: 
+              licet Deus non possit non esse futurorum scientia, 
+              tamen Deus praeteritorum potest non esse praescientia 
+              <unclear>patet per <!-- was paret, dbcheck and change in lon --></unclear> 
+              conclusionem. 
+              Confirmatur 
+              quia aliquando erit praesens 
+              et post praeteritum 
+              et tunc non praescietur sed scietur.
+            </p>
+            <p xml:id="pgb1q30-d1e3363">
+              Secundum corollarium: 
+              licet divina praescientia sit divina essentia formaliter, 
+              tamen divinam essentiam esse praescientiam non est perfectionis simpliciter. 
+              Patet quia potest non esse praescientia respectu cuiuscumque futuri, 
+              licet non potest non esse perfectio simpliciter.
+            </p>
+            <p xml:id="pgb1q30-d1e3372">
+              Tertium corollarium: 
+              licet deum esse praescium inferat 
+              <pb ed="#L" n="91-v"/>
+              aliquid esse futurum, 
+              tamen Deum esse praescium non infert 
+              Deum illud futurum patet 
+              quia non est effectivus culpae futurae 
+              et futuritionis eiusdem cum nihil sit.
+            </p>
+            <!-- review para break -->
+            <p xml:id="pgb1q30-d1e3387">
+              <unclear>corollarlium</unclear> stat aliquam rem esse et simul 
+              dum est non esse posse vel sic conclusio cum quolibet 
+              contingenti rei esse stat eandem non esse posse probatur qui quodlibet creatum contingentur est 
+              et numquam contingenter <unclear>eset</unclear> nisi dum est quia dum non est contingenter non est nec necessario est ergo 
+              contingenter est ergo dum est potest non esse 2o probatur corollarium quia esse creaturae et posse non 
+              esse eiusdem non se habent contradictorie ergo stat eandem rem simul esse et posse 
+              non esse ergo.
+            </p>
           </div>
           <div>
-            <head><supplied>Secunda conclusio</supplied></head>
-        <p xml:id="pgb1q30-d1e3412">2a conclusio licet nihil futurum ossit incipere esse futurum tamen quodlibet futurum 
-          potest non esse futurm prima pars probatur quia quidquid est vel unquam erit futurum 
-          ab aeterno fuit futurm ergo nihil furturum potest incipere esse futurum patet consequentia quia si 
-          detur quod <c>a</c> futurum incipiat esse futurum sequitur quod ab aeterno <c>a</c> non erat 
-          futurum quod est oppositum antecedentis antecedens probatur quia ab aeterno fuit verum saltim 
-          veritate increata quod antichristus erit et de quolibet alio quod erit</p>
-        
-        <p xml:id="pgb1q30-d1e3437">primum corollarium 
-          sicut quodlibet futurum contingenter est futurum sic quodlibet futurum contingenter scitur a deo esse 
-          futurum prima pars patet quia quodlibet futurum contingenter erit ergo etc probatur antecedens quia quodlibet 
-          tale dependet vel dependebit a libertate voluntatis 2a pars probatur quia sequitur 
-          a futurum non contingenter a deo scitur esse futurum ergo <c>a</c> necessario erit vel est futurum 
-          quod repugnat dictis confirmatur quia sequitur a futurum potest non fore non obstante 
-          quod <c>a</c> erit ergo deus potest scire quod <c>a</c> non erit non obstante quod sciat <c>a</c> 
-          fore</p>
-        
-        <p xml:id="pgb1q30-d1e3496">2m corollarium licet haec sit vera antichristus erit tamen nullum creatum vel creabile 
-          antichristus erit patet quia aeternaliter fuit verum dicere antichristus erit sed nihil creatum 
-          fuit aeternaliter ergo ex quo patet quod nulla futuritio vel praeteritio est causabilis a 
-          deo probatur quia praeteritio vel futuritio nihil est <unclear>ergo</unclear> nullum tale est creabile vel producibile</p>
+            <head>
+              <supplied>Secunda conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q30-d1e3412">
+              Secunda conclusio: 
+              licet nihil futurum possit incipere esse futurum, 
+              tamen quodlibet futurum potest non esse futurum. 
+              Prima pars probatur quia quidquid est vel unquam erit futurum 
+              ab aeterno fuit futurum ergo nihil futurum potest incipere esse futurum. 
+              Patet consequentia quia, 
+              si detur quod <c>a</c> futurum incipiat esse futurum 
+              sequitur quod ab aeterno <c>a</c> non erat futurum 
+              quod est oppositum antecedentis. 
+              Antecedens probatur 
+              quia ab aeterno fuit verum saltim 
+              veritate increata quod antichristus erit 
+              et de quolibet alio quod erit.
+            </p>
+            <p xml:id="pgb1q30-d1e3437">
+              Primum corollarium 
+              sicut quodlibet futurum contingenter est futurum, 
+              sic quodlibet futurum contingenter scitur a Deo esse futurum. 
+              Prima pars patet 
+              quia quodlibet futurum contingenter erit, ergo etc. 
+              Probatur antecedens 
+              quia quodlibet 
+              tale dependet vel dependebit a libertate voluntatis. 
+              Secunda pars probatur 
+              quia sequitur a futurum non contingenter a Deo 
+              scitur esse futurum ergo <c>a</c> necessario erit vel est futurum 
+              quod repugnat dictis confirmatur 
+              quia sequitur a futurum potest non fore non obstante 
+              quod <c>a</c> erit ergo Deus potest scire 
+              quod <c>a</c> non erit non obstante quod sciat <c>a</c> fore.
+            </p>
+            <p xml:id="pgb1q30-d1e3496">
+              Secundum corollarium: 
+              licet haec sit vera antichristus erit, 
+              tamen nullum creatum vel creabile antichristus erit. 
+              Patet quia aeternaliter fuit verum dicere antichristus erit, 
+              sed nihil creatum fuit aeternaliter ergo ex quo. 
+              Patet quod nulla futuritio vel praeteritio est causabilis a Deo. 
+              Probatur quia praeteritio vel futuritio 
+              nihil est <unclear>ergo</unclear> nullum tale est creabile vel producibile.
+            </p>
         
         <p xml:id="pgb1q30-d1e3512">3m corollarium quodlibet scitum a deo esse futurum potest deus numquam scivisse 
           esse futurum patet corollarium <unclear>dividendo</unclear> futurum contra praesens et sumendo in sensu diviso quia 
@@ -173,200 +362,333 @@
           est futurum</p>
           </div>
           <div>
-            <head><supplied>Tertia conclusio</supplied></head>
-        <p xml:id="pgb1q30-d1e3597">3a conclusio cum divina praescientia <corr><del rend="strikethrough">stat</del></corr> certa et infallibili stat de 
-          facto contingentia in re producibili probatur quia sicut ille non repugnant <name ref="#Sortes">sortes</name> potest peccabit 
-          in <c>a</c> et <name ref="#Sortes">sortes</name> potest non peccare in <c>a</c> sic etiam ille simul stant sine repugnantia 
-          <name ref="#Sortes">sortem</name> deus praescit peccaturum in <c>a</c> et <name ref="#Sortes">sortes</name> potest non peccare in <c>a</c> patet 
-          quia praescientia nullam necessitatem imponit vel addit praescito confirmatur quia omne 
-          <pb ed="#L" n="92r"/>futurum dependet vel dependebit a libertate voluntatis contradictionis et deus praesciit 
-          qualitercumque illud futurum erit ergo simul stat deum praescire infallibiliter et futura 
-          fore contingenter</p>
-        
-        <p xml:id="pgb1q30-d1e3672">primum corollarium quod non sequitur deus immutabiliter praescit <c>a</c> ergo deus 
-          necessario praescit <c>a</c></p>
-        
-        <p xml:id="pgb1q30-d1e3690">2m corollarium taliter deus praescit contingenter futurum esse futurum et non 
-          contingenter sed necessario potest futurum esse futurum immo quanta necessitate deus potest aliquid producere 
-          adextra causata necessitate potest esse futurum</p>
-        
-        <p xml:id="pgb1q30-d1e3723">3m corollarium licet a fore fuerit aeternaliter 
-          verum tamen a non fore non fuit aeternaliter falsum prima patet quia omne verum ab aeterno 
-          fuit verum veritate increata licet non veritate signi vel rei ergo prima pars antecedentis patet per 
-          <ref><name ref="#Augustine">augustinum</name> libro <title ref="#Soliloquiorum">soliloquiorum</title></ref> 2a pars probatur quia nulla falsitas fuit ab aeterno ergo etc</p>
-        
-        <p xml:id="pgb1q30-d1e3740">antecedens probatur quia falsitas non est nisi in signis subordinatis vel in aestimatione intellectus 
-        creati ex hoc potest inferri quod haec consequentia nulla est unum contradictoriorum complexe 
-          significabilium est verum igitur reliquum est falsum patet quia ante mundi creationem verum fuit 
-          quod mundus creabitur et tamen eius oppositum non erat falsum ex dictis se pars 
-          affirmativa conclusionis</p>
-        
-        <p xml:id="pgb1q30-d1e3753">notandum quod per velle divinum vel non velle consurgit libertas 
-          et contingentia et ex immensitate divini intellectus praescientia nam respectu futurorum bonorum 
-          est velle cum determinare respectu vero futurorum malorum est non velle cum determinare respectu 
-          suorum oppositorum respectu autem signorum negativorum est vel divinum velle vel divinum 
-          nolle non dico praedeterminans sicut <sic>sicut</sic> <name ref="#Scotus">scotus</name> et sui sequaces sed determinans hic 
-          nota <name ref="#FascinusOfAsti">fastinum</name> circa necessario est praescientia etc consequentia bona et antecedens probatur capiendo a futurum et arguendo 
-          sic haec est necessaria <c>a</c> est futurum ergo impossibile est a non fore consequentia patet et antecedens probatur 
-          quia si non est necessaria sed contingens seequitur quod eius opposita potest esse vera scilicet ista a non est futurum 
-          tunc sic haec non est vera  et potest esse vera potest ergo incipere esse vera consequens est falsum quia 
-          quia sicut illud quod est futurum non potest incipere esse futurum ita illud quod fuit semper non 
-          futurum non potest incipere esse non futurum consequentia probatur quia si habet potentiam ut sit vera et 
-          nunc non est vera sequitur quod possit incipere esse vera  quia omne quod potest esse post non esse 
-          nihil post aliud esse potest incipere esse post aliud</p>
-        
-        <p xml:id="pgb1q30-d1e3821">2o arguitur et ponatur quod deus vellit a futurum 
-          fore in <c>d</c> instanti et <c>b</c> futurum post instans <c>d</c> vellit aequaliter tunc sic adveniente <c>d</c> 
-          instanti deus aequaliter vult <c>a</c> in <c>d</c> et <c>b</c> post <c>d</c> sed non potest non velle vel voluisse 
-          <c>a</c> in <c>d</c> ergo non potest non velle <c>b</c> post <c>d</c> patet quia ante <c>d</c> aequaliter vult 
-          <c>a</c> et <c>b</c> ut ponit casus et per positionem <c>a</c> inesse in <c>d</c> instanti non variatur volitio 
-          divina</p>
-        
-        <p xml:id="pgb1q30-d1e3907">3o ponatur quod deus velit <c>a</c> esse in <c>b</c> instanti futuro tunc veniente 
-          <c>b</c> sicut necessariam est in <c>b</c> et post <c>b</c> <c>a</c> esse ita impossibile est deum non esse causam eius 
-          quod est <c>b</c> fore sicut ergo divina voluntas est neccessarias respectu <c>a</c> esse sic est necessarias respectu <c>b</c>fore</p>
-        
-        <p xml:id="pgb1q30-d1e3966">4o ponatur quod nihil sit nisi deus et velit a fore in <c>b</c> instanti per creationem tunc sic <c>a</c> 
-          non esse futurum in <c>b</c> non est compossible cum omnibus hiis quae ponuntur nunc esse ergo ad 
-          hoc quod <c>a</c> non sit futurum oportet aliquam mutationem fieri in hiis quae ponuntur inesse sed nihil 
-          est nisi divina voluntas vel praescientia per casum sed mutationem fieri in divina praescientia vel voluntate 
-          est impossibile ergo quod <c>a</c> non sti nec aliquando fuerit futurum implicat contradictionem ergo quodlibet 
-          futurum praescitum necessario erit</p>
+            <head>
+              <supplied>Tertia conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q30-d1e3597">
+              Tertia conclusio: 
+              cum divina praescientia 
+              <app>
+                <lem n="praescientia"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">stat</del>
+                </rdg>
+              </app>
+              certa et infallibili stat de 
+              facto contingentia in re producibili. 
+              Probatur quia sicut ille non repugnant 
+              <name ref="#Sortes">sortes</name> potest peccabit 
+              in <c>a</c> et <name ref="#Sortes">sortes</name> 
+              potest non peccare in <c>a</c> 
+              sic etiam ille simul stant sine repugnantia 
+              <name ref="#Sortes">sortem</name> Deus praescit peccaturum in <c>a</c> 
+              et <name ref="#Sortes">sortes</name> potest non peccare in <c>a</c>. 
+              Patet 
+              quia praescientia nullam necessitatem imponit 
+              vel addit praescito confirmatur 
+              quia omne 
+              <pb ed="#L" n="92-r"/>
+              futurum dependet vel dependebit a libertate voluntatis contradictionis 
+              et Deus praesciit qualitercumque 
+              illud futurum erit 
+              ergo simul stat Deum praescire infallibiliter et futura 
+              fore contingenter.
+            </p>
+            <p xml:id="pgb1q30-d1e3672">
+              Primum corollarium: 
+              quod non sequitur Deus immutabiliter praescit <c>a</c>, 
+              ergo Deus necessario praescit <c>a</c>.
+            </p>
+            <p xml:id="pgb1q30-d1e3690">
+              Secundum corollarium: 
+              taliter Deus praescit contingenter futurum esse futurum 
+              et non contingenter, 
+              sed necessario potest futurum esse futurum 
+              immo quanta necessitate deus potest aliquid producere 
+              adextra causata necessitate potest esse futurum.
+            </p>
+            <p xml:id="pgb1q30-d1e3723">
+              Tertium corollarium:
+              licet a fore fuerit aeternaliter 
+              verum tamen a non fore non fuit aeternaliter falsum. 
+              Prima patet 
+              quia omne verum ab aeterno 
+              fuit verum veritate increata, 
+              licet non veritate signi vel rei, ergo. 
+              Prima pars antecedentis patet per 
+              <cit>
+                <ref>
+                  <name ref="#Augustine">Augustinum</name>, 
+                  libro <title ref="#Soliloquiorum">soliloquiorum</title>
+                </ref>
+                <bibl></bibl>
+              </cit>.
+              Secunda pars probatur 
+              quia nulla falsitas fuit ab aeterno, 
+              ergo etc.
+            </p>
+            <!-- remove paragraph break -->
+            <p xml:id="pgb1q30-d1e3740">
+              Antecedens probatur 
+              quia falsitas non est nisi in signis subordinatis 
+              vel in aestimatione intellectus 
+              creati ex hoc potest inferri 
+              quod haec consequentia nulla est unum contradictoriorum complexe 
+              significabilium est verum igitur reliquum est falsum. 
+              Patet quia ante mundi creationem verum fuit 
+              quod mundus creabitur, 
+              et tamen eius oppositum non erat falsum <!-- dbcheck ms here --> 
+              ex dictis se pars affirmativa conclusionis.
+            </p>
+            <p xml:id="pgb1q30-d1e3753">
+              Notandum quod per velle divinum vel non velle consurgit libertas 
+              et contingentia et ex immensitate divini intellectus praescientia nam respectu futurorum bonorum 
+              est velle cum determinare respectu vero futurorum malorum est non velle cum determinare respectu 
+              suorum oppositorum respectu autem signorum negativorum est vel divinum velle vel divinum 
+              nolle non dico praedeterminans sicut <sic>sicut</sic> 
+              <name ref="#Scotus">Scotus</name> et sui sequaces sed determinans. 
+              Hic nota <name ref="#FascinusOfAsti">Fastinum</name> 
+              circa necessario est praescientia etc. 
+              Consequentia bona 
+              et antecedens probatur capiendo a futurum 
+              et arguendo sic haec est necessaria 
+              <c>a</c> est futurum 
+              ergo impossibile est a non fore. 
+              Consequentia patet 
+              et antecedens probatur 
+              quia 
+              si non est necessaria sed contingens 
+              sequitur quod eius opposita potest esse vera, 
+              scilicet ista a non est futurum 
+              tunc sic haec non est vera et potest esse vera potest, 
+              ergo incipere esse vera consequens est falsum 
+              <unclear>quia quia <!-- dbcheck repetition --></unclear> 
+              sicut illud quod est futurum non potest incipere esse futurum 
+              ita illud quod fuit semper non 
+              futurum non potest incipere esse non futurum. 
+              Consequentia probatur 
+              quia si habet potentiam ut sit vera et 
+              nunc non est vera 
+              sequitur quod possit incipere esse vera 
+              quia omne quod potest esse post non esse 
+              nihil post aliud esse potest incipere esse post aliud.
+            </p>
+            <p xml:id="pgb1q30-d1e3821">
+              Secundo, 
+              arguitur et ponatur 
+              quod Deus vellit a futurum 
+              fore in <c>d</c> instanti et <c>b</c> futurum 
+              post instans <c>d</c> vellit aequaliter 
+              tunc sic adveniente <c>d</c> 
+              instanti Deus aequaliter vult 
+              <c>a</c> in <c>d</c> et <c>b</c> post <c>d</c> 
+              sed non potest non velle vel voluisse 
+              <c>a</c> in <c>d</c> ergo non potest non velle <c>b</c> post <c>d</c> patet quia ante <c>d</c> aequaliter vult 
+              <c>a</c> et <c>b</c> ut ponit casus et per positionem <c>a</c> inesse in <c>d</c> instanti non variatur volitio 
+              divina.
+            </p>
+            <p xml:id="pgb1q30-d1e3907">
+              Tertio, 
+              ponatur quod Deus velit 
+              <c>a</c> esse in <c>b</c> instanti futuro tunc veniente 
+              <c>b</c> sicut necessariam est in <c>b</c> 
+              et post <c>b</c> <c>a</c> esse ita impossibile est 
+              Deum non esse causam eius 
+              quod est <c>b</c> fore sicut 
+              ergo divina voluntas est neccessarias respectu <c>a</c> esse 
+              sic est necessarias respectu <c>b</c> fore.
+            </p>
+            <p xml:id="pgb1q30-d1e3966">
+              Quarto, 
+              ponatur quod nihil sit 
+              nisi Deus et velit a fore in <c>b</c> instanti per creationem 
+              tunc sic <c>a</c> non esse futurum in <c>b</c> non est compossible 
+              cum omnibus hiis quae ponuntur nunc esse ergo ad 
+              hoc quod <c>a</c> non sit futurum oportet aliquam mutationem fieri in hiis quae ponuntur inesse sed nihil 
+              est nisi divina voluntas vel praescientia per casum sed mutationem fieri in divina praescientia vel voluntate 
+              est impossibile ergo quod <c>a</c> non sit 
+              nec aliquando fuerit futurum implicat contradictionem 
+              ergo quodlibet futurum praescitum necessario erit.
+            </p>
           </div>
           <div>
-            <head><supplied>Obiectiones et responsiones</supplied></head>
-        <p xml:id="pgb1q30-d1e4007">contra 2am conclusione a futurum non fore necessario est 
-          futurum igitur aliquod necessario est futurum consequentia bona et antecedens probatur quia antichristum non fore cras 
-          <pb ed="#L" n="92v"/>neccessario est futurum 2o antichristum fore repraesentatum est in divina essentia ergo antichristus necessario erit 
-          patet antecedens quia antichristum fore est a deo praevolitum et praescitum et consequentia probatur quia quidquid in 
-          divina praesentatur essentia ibi naturaliter praesentatur et per consequens necessario</p>
-        
-        <p xml:id="pgb1q30-d1e4052">3o arguitur per <name ref="#Augustine">augustinum</name> <title ref="#DeGenesiAdLitteram">super 
-          genesim</title> 6 libro capitulo 22 et 23o ubi ostendens quomodo homo factus sit <unclear>limo[?]</unclear> dicens quod in illa 
-          materia erat hominem sic posse fieri sed in illa non erat hominem necesse sic fieri 
-          hoc enim non erat in contradictione creaturae sed in beneplacito creatoris cuius voluntas est 
-          necessarias ex quibus sequi videtur quod divina voluntas respectu futurorum est necessarias antecedentis 
-          in eodem capitulo dicit hoc autem necessario futurum est quod vult et ea futura sunt quae praescit</p>
-        
-        <p xml:id="pgb1q30-d1e4099">contra 3am conclusionem arguitur sequeretur quod staret simul deum praescire <c>a</c> fore et <c>a</c> posse non 
-          fore consequens est falsum quia sequitur <c>a</c> non erit ergo deus non praescit a fore et ponatur 
-          quod sit a principio argumenti et sequitur quod deus praesciens a fore praescit a non fore quod implicit 
-          similiter posset argui de voluntate deus sicut vult a fore potest non velle <c>a</c> fore et 
-          ponatur inesse ergo deus vult a fore et non fore</p>
-        
-        <p xml:id="pgb1q30-d1e4128">2o de facto deus vult antichristum 
-        futurum ponatur ergo quod <corr><del rend="strikethrough">deus</del></corr> <c>a</c> significet voluntatem dei cum habitudinem quam 
-          habet ad antichristum futurum tunc quaeritur aut <c>a</c> esse est mere dependens ab hiis 
-          quae nunc sunt autem aliquo modo dependent a futuro si primum a est nunc de praesenti et per 
-          consequens non potest esse quin <c>a</c> sit vel fuerit sicut non potest facere praeteritum non esse praeteritum 
-          secundum <ref><name ref="#Anselm">anselmum</name> <title ref="#deConcordia">de concordia</title> capitulo 4o</ref> si 2m sequitur quod aliquod ens actu dependet 
-          a non ente quod non videtur verum</p>
-        
-        <p xml:id="pgb1q30-d1e4182">3o si futura eveniret <corr><del rend="strikethrough">d</del></corr> contingenter stante divina 
-          volitione sequitur quod esset in potestate creaturae facere <sic>facere</sic> deum velle consequens est falsum 
-          tum quia non est in potestate hominis facere alium hominem velle ergo nec deum cum 2o 
-          quia temporale esset causa aeterni consequens est contra <ref><name ref="#Lombard">magistrum</name> distinctione 25 primo capitulo 4o</ref> et patet consequentia 
-          quia quidquid deus vult aeternaliter voluit</p>
-        
-        <p xml:id="pgb1q30-d1e4209">Ad primum negatur antecedens et ad probatione negatur 
-          antecedens similiter et dicitur quod eius opposita est contingens et potest incipere esse vera et cum arguitur 
-          ultra <unclear>haec</unclear> incepti esse vera <c>a</c> est futurum ergo a recipit esse futurum negatur consequentia haec 
-          et si arguatur a non est futurum et potest esse futurum ergo potest incipere esse futurum 
-          <unclear>hic</unclear> negatur consequentia et ultra dicitur quod illa stant simul <c>a</c> potest esse futurum et a nullam habet 
-          potentiam ut sit futurum li <c>a</c>  non supponit pro illo quod est sed quod potest esse et non est</p>
-        
-        <p xml:id="pgb1q30-d1e4244">Ad 2m admissio casu dicitur quod instanti <c>d</c> adhuc erit contingentur vera <c>b</c> erit post 
-          <c>d</c> et cum dicitur aequaliter etc dicitur quod si intelligitur aequaliter id est aequali volitione vel eadem 
-          intrinsece conceditur quia eadem volitione vult a fuisse et <c>b</c> fore et contingentur vult 
-          <c>a</c> esse in <c>d</c> sicut <c>b</c> post <c>d</c> 2o dicitur quod <c>b</c> fore vult contingenter sed <c>a</c> fuisse vult 
-          necessario et vult esse necessariam <c>a</c> fuisse et vult esse contingens <c>b</c> fore 3o dicitur quod 
-          ante <c>d</c> aequaliter vult <c>a</c> et <c>b</c> quia utrumque vult contingenter fore sed altero eorum 
-          praeterito et altero futuro scit esse sicut significat ista a fuit contingenter et incepit 
-          esse necessariam sicut contingenter praeteriit sed non est sic de illa <c>b</c> erit</p>
-        
-        <p xml:id="pgb1q30-d1e4345">Ad 3m primo dicitur 
-          quod sicut <c>a</c> contingenter ante <c>b</c> erat futurum ita contingenter in <c>b</c> est praesens et contingenter praeteriit 
-          sed postquam praeteriit non potest non praeterisse 2o dicitur quod non sequitur post <c>b</c> necesse est 
-          a fuisse ergo ante <c>b</c> necesse est <c>a</c> fore patet consequentiam non valere</p>
-        
-        <p xml:id="pgb1q30-d1e4392">Ad 4m admisso 
-          <pb ed="#L" n="93r"/>casu dicitur ad rationem quod <c>a</c> potest non esse futurum sine omni mutatione quia ista infert aliquam 
-        mutationem esse futuram <c>a</c> est et ideo si nulla sit futura sequitur <c>a</c> non esse futurum 
-          per hoc ad formam negatur antecedens illud a non esse futurum in <c>b</c> non est compossibile etc</p>
-        
-        <p xml:id="pgb1q30-d1e4418">Ad 
-          primum contra 2am conclusionem posset primo negari antecedens nec sequitur a non fore cras necessario nihil est 
-          futurum ergo <c>a</c> etc  2o dicitur negando consequentiam quia a non fore cras necessario nihil est 
-          proprie loquendo</p>
-        
-        <p xml:id="pgb1q30-d1e4447">Ad 2m negatur consequentia et ad probationem similiter negatur consequentia sicut non sequitur hoc complexum 
-          summus pontifex naturaliter significat illum qui est papa ergo naturaliter significat illum necessario 
-          quia antequam ille esset papa non significabat eum similiter dicitur quod licet deus naturaliter repraesentet 
-          antichristum fore dum est futuris non tamen necessario bene sicut idem signum creatum significat 
-          distincte plura successive sic eodem actu simplici cognoscit deus res futuras quando 
-          sunt futurae et easdem praesentes quando sunt praesentes sine mutatione suae scientiae sed solum 
-          secundum mutationem scitorum vel scibilium Ad <name ref="#Augustine">augustinum</name> dicitur quod solum loquitur de <corr><del rend="strikethrough">mutatione</del></corr> 
-          necessitate consequentiae non consequentis intendit enim quod non stat simul deum velle ex 
-          <unclear>cuto?e</unclear> vel efficaciter aliquid fore vel esse et illud pro mensura pro qua est volitum 
-          non esse 2o dicitur quod in talibus contingentiis consequens est contingens sicut antecedens quia deus potest facere 
-          et velle quae non vult nec facit et non velle quae vult ut ostendit <name ref="#Augustine">augustinus</name> et 
-          <name ref="#Lombard">magister</name> distinctione 43 primi nec etiam sequitur deum voluisse me legere est aeternum ergo necessariam 
-          quia a futuro dependet</p>
-        
-        <p xml:id="pgb1q30-d1e4520">Ad primum contra 3am conclusionem conceditur consequens et consequentia 2o dicitur quod ista 
-          deus praesciens <c>a</c> fore potest non praescire <c>a</c> fore non debet sic ponit in esse 
-          deus praesciens <c>a</c> fore non praescit <c>a</c> fore quia implicat sed sic deus non praescit 
-          <c>a</c> fore et potest scire <c>a</c> fore et ita potest dici de velle et ad illam non sequitur 
-          aliquod falsum vel impossibile sed solum sequitur quod deus numquam praescivit <c>a</c> fore vel voluit 
-          quod est possibile</p>
-        
-        <p xml:id="pgb1q30-d1e4563">Ad 4m dicitur quod aliquo modo dependet a futuro non inquantum voluntas 
-          sed inquantum sic se habens ad antichristum fore nec sequitur quod aliquod ens actu dependeat 
-          a non ente quia voluntatem dei esse aliquid sed ad aliquid relative 2o dicitur quod voluntate 
-          dei sic se habere ad tale futurum licet sit voluntas ipsa dei voluntas non tamen sequitur quod 
-          aliquod ens dependeat actu in esse ab eo quod non est sed bene sequitur quod voluntate 
-          dei se habere respectu illius futuri relative dependet ab eo quod non est sed non est 
-          inconveniens</p>
-        
-        <p xml:id="pgb1q30-d1e4603">Ad ultimum negatur consequentia licet illative et <unclear>con[?]naturaliter</unclear> ad hominem velle 
-          sequitur deum velle non tamen <unclear>potestative</unclear> et causaliter me velle est causa quare deus 
-          vult vel agit adextra</p>
-        
-        <p xml:id="pgb1q30-d1e4617">Ad primum in oppositum negatur angecedens et ad probatonem dicitur quod ex se 
-          habet quod sit praescientia et cum infertur ergo non potest non esse praescientia negatur ista consequentia sicut 
-          non sequitur voluntas ex se habet quod vult illud obiectum ergo non potest non velle illud</p>
-        
-        <p xml:id="pgb1q30-d1e4625">2o dicitur quod praescientia dei non taliter habet ex se quod sit praescientia sic quod essentialiter 
-          ipsa sit praescientia talis futuri sicut triangulus ex se habet tres</p>
-        
-        <p xml:id="pgb1q30-d1e4632">Ad 2m negatur antecedens 
-          et ad probationem negatur consequentia</p>
-        
-        <p xml:id="pgb1q30-d1e4638">Ad 3m dico quod consequentia est necessaria sed dico quod consequens sicut eset 
-          contingens sic antecedens etiam nec sequitur est aeternum ergo necessariam quia ipsum fuisse ab aeterno 
-          quodammodo dependet a futuro ideo possibile est ipsum numquam fuisse quia sicut potest non 
-          fore similiter potest numquam fuisse praescitum vel etiam praevolitum</p>
-          </div>
-        </div>
-        <div>
-          <head><supplied>Conclusio</supplied></head>
-        <p xml:id="pgb1q30-d1e4660"><pb ed="#L" n="93v"/>Nunc igitur ad propositum prima conclusio praescientia et 
-          scientia dei quae est bonorum et malorum non sunt causa rerum nisi causa sine qua non 
-          nec econverso res sunt causa scientiae dei nisi causa sine qua non quia non stat rem esse et deum 
-          ipsam nescire vel non scire</p>
-        
-        <p xml:id="pgb1q30-d1e4671">2a conclusio quod si nomen scientiae includit beneplacitum 
-          dei tunc scientiae dei est causa omnium bonorum sed non malorum quia respectu illorum non habet 
-          beneplacitum sed scientiam vel praescientiam</p>
-        
-        <p xml:id="pgb1q30-d1e4679">3a conclusio quod praescientia dei non potest falli unde 
-          cum dicitur non possunt aliter esse vel evenire quam sit praescitum a deo si coniunctim intelligitur 
-          verum est simul enim stare non possunt quod aliter res eveniat et aliter deus praescierit 
-          si disiunctim falsum est quia nullum contingens futurum de necessitate eveniet</p>
-        
-        <p xml:id="pgb1q30-d1e4695">notandum quod 
-          si aliter notat <unclear>alienetatem</unclear> cognitionis divinae sic non aliter cognoscit unam quam 
-          aliam si notat rerum <unclear>alienetatem</unclear> sic noscit aliter res diversas et haec sufficiant</p>
+            <head>
+              <supplied>Obiectiones et responsiones</supplied>
+            </head>
+            <!-- why are objections starting with conclusion 2; are objections to conclusion 1 missing -->
+            <p xml:id="pgb1q30-d1e4007">
+              Contra secundam <unclear>conclusionem <!-- correct from conclusione to conclusionem; dbcheck correction --></unclear> 
+              a futurum non fore necessario est 
+              futurum igitur aliquod necessario est futurum. 
+              Consequentia bona 
+              et antecedens probatur quia antichristum non fore cras 
+              <pb ed="#L" n="92-v"/>
+              neccessario est futurum. 
+              Secundo, antichristum fore repraesentatum est in divina essentia, 
+              ergo antichristus necessario erit. 
+              Patet antecedens 
+              quia antichristum fore est a Deo praevolitum et praescitum. 
+              Et consequentia probatur 
+              quia quidquid in divina praesentatur essentia 
+              ibi naturaliter praesentatur 
+              et per consequens necessario.
+            </p>
+            <p xml:id="pgb1q30-d1e4052">
+              3o arguitur per 
+              <cit>
+                <ref><name ref="#Augustine">Augustinum</name> 
+                <title ref="#DeGenesiAdLitteram">Super Genesim</title> 
+                6 libro capitulo 22 et 23o</ref>
+                <bibl>
+                  <name>Augustinus</name>
+                  XXX
+                </bibl>
+              </cit> 
+              ubi ostendens quomodo 
+              homo factus sit <unclear>limo[?]</unclear> 
+              dicens quod in illa materia erat hominem sic posse fieri 
+              sed in illa non erat hominem necesse sic fieri 
+              hoc enim non erat in contradictione creaturae sed in beneplacito creatoris 
+              cuius voluntas est 
+              necessarias ex quibus sequi 
+              videtur quod divina voluntas respectu futurorum est necessarias antecedentis 
+              in eodem capitulo dicit hoc autem necessario futurum est 
+              quod vult et ea futura sunt quae praescit.
+            </p>
+            <p xml:id="pgb1q30-d1e4099">
+              Contra tertiam conclusionem,
+              arguitur sequeretur quod staret simul 
+              Deum praescire <c>a</c> fore et <c>a</c> posse non 
+              fore consequens est falsum quia sequitur <c>a</c> non erit, 
+              ergo Deus non praescit a fore et ponatur 
+              quod sit a principio argumenti 
+              et sequitur quod Deus praesciens a fore praescit a non fore quod implicit. 
+              Similiter posset argui de voluntate Deus 
+              sicut vult a fore potest non velle <c>a</c> fore et ponatur inesse 
+              ergo deus vult a fore et non fore.
+            </p>
+            <p xml:id="pgb1q30-d1e4128">
+              Secundo, 
+              de facto Deus vult antichristum 
+              futurum ponatur ergo quod 
+              <app>
+                <lem n="quod"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">deus</del>
+                </rdg>
+              </app>
+               <c>a</c> significet voluntatem dei cum habitudinem quam 
+              habet ad antichristum futurum tunc quaeritur aut <c>a</c> esse est mere dependens ab hiis 
+              quae nunc sunt autem aliquo modo dependent a futuro si primum a est nunc de praesenti et per 
+              consequens non potest esse quin <c>a</c> sit vel fuerit sicut non potest facere praeteritum non esse praeteritum 
+              secundum <ref><name ref="#Anselm">anselmum</name> <title ref="#deConcordia">de concordia</title> capitulo 4o</ref> si 2m sequitur quod aliquod ens actu dependet 
+              a non ente quod non videtur verum</p>
+            
+            <p xml:id="pgb1q30-d1e4182">3o si futura eveniret <corr><del rend="strikethrough">d</del></corr> contingenter stante divina 
+              volitione sequitur quod esset in potestate creaturae facere <sic>facere</sic> deum velle consequens est falsum 
+              tum quia non est in potestate hominis facere alium hominem velle ergo nec deum cum 2o 
+              quia temporale esset causa aeterni consequens est contra <ref><name ref="#Lombard">magistrum</name> distinctione 25 primo capitulo 4o</ref> et patet consequentia 
+              quia quidquid deus vult aeternaliter voluit</p>
+            
+            <p xml:id="pgb1q30-d1e4209">Ad primum negatur antecedens et ad probatione negatur 
+              antecedens similiter et dicitur quod eius opposita est contingens et potest incipere esse vera et cum arguitur 
+              ultra <unclear>haec</unclear> incepti esse vera <c>a</c> est futurum ergo a recipit esse futurum negatur consequentia haec 
+              et si arguatur a non est futurum et potest esse futurum ergo potest incipere esse futurum 
+              <unclear>hic</unclear> negatur consequentia et ultra dicitur quod illa stant simul <c>a</c> potest esse futurum et a nullam habet 
+              potentiam ut sit futurum li <c>a</c>  non supponit pro illo quod est sed quod potest esse et non est</p>
+            
+            <p xml:id="pgb1q30-d1e4244">Ad 2m admissio casu dicitur quod instanti <c>d</c> adhuc erit contingentur vera <c>b</c> erit post 
+              <c>d</c> et cum dicitur aequaliter etc dicitur quod si intelligitur aequaliter id est aequali volitione vel eadem 
+              intrinsece conceditur quia eadem volitione vult a fuisse et <c>b</c> fore et contingentur vult 
+              <c>a</c> esse in <c>d</c> sicut <c>b</c> post <c>d</c> 2o dicitur quod <c>b</c> fore vult contingenter sed <c>a</c> fuisse vult 
+              necessario et vult esse necessariam <c>a</c> fuisse et vult esse contingens <c>b</c> fore 3o dicitur quod 
+              ante <c>d</c> aequaliter vult <c>a</c> et <c>b</c> quia utrumque vult contingenter fore sed altero eorum 
+              praeterito et altero futuro scit esse sicut significat ista a fuit contingenter et incepit 
+              esse necessariam sicut contingenter praeteriit sed non est sic de illa <c>b</c> erit</p>
+            
+            <p xml:id="pgb1q30-d1e4345">Ad 3m primo dicitur 
+              quod sicut <c>a</c> contingenter ante <c>b</c> erat futurum ita contingenter in <c>b</c> est praesens et contingenter praeteriit 
+              sed postquam praeteriit non potest non praeterisse 2o dicitur quod non sequitur post <c>b</c> necesse est 
+              a fuisse ergo ante <c>b</c> necesse est <c>a</c> fore patet consequentiam non valere</p>
+            
+            <p xml:id="pgb1q30-d1e4392">Ad 4m admisso 
+              <pb ed="#L" n="93r"/>casu dicitur ad rationem quod <c>a</c> potest non esse futurum sine omni mutatione quia ista infert aliquam 
+            mutationem esse futuram <c>a</c> est et ideo si nulla sit futura sequitur <c>a</c> non esse futurum 
+              per hoc ad formam negatur antecedens illud a non esse futurum in <c>b</c> non est compossibile etc</p>
+            
+            <p xml:id="pgb1q30-d1e4418">Ad 
+              primum contra 2am conclusionem posset primo negari antecedens nec sequitur a non fore cras necessario nihil est 
+              futurum ergo <c>a</c> etc  2o dicitur negando consequentiam quia a non fore cras necessario nihil est 
+              proprie loquendo</p>
+            
+            <p xml:id="pgb1q30-d1e4447">Ad 2m negatur consequentia et ad probationem similiter negatur consequentia sicut non sequitur hoc complexum 
+              summus pontifex naturaliter significat illum qui est papa ergo naturaliter significat illum necessario 
+              quia antequam ille esset papa non significabat eum similiter dicitur quod licet deus naturaliter repraesentet 
+              antichristum fore dum est futuris non tamen necessario bene sicut idem signum creatum significat 
+              distincte plura successive sic eodem actu simplici cognoscit deus res futuras quando 
+              sunt futurae et easdem praesentes quando sunt praesentes sine mutatione suae scientiae sed solum 
+              secundum mutationem scitorum vel scibilium Ad <name ref="#Augustine">augustinum</name> dicitur quod solum loquitur de <corr><del rend="strikethrough">mutatione</del></corr> 
+              necessitate consequentiae non consequentis intendit enim quod non stat simul deum velle ex 
+              <unclear>cuto?e</unclear> vel efficaciter aliquid fore vel esse et illud pro mensura pro qua est volitum 
+              non esse 2o dicitur quod in talibus contingentiis consequens est contingens sicut antecedens quia deus potest facere 
+              et velle quae non vult nec facit et non velle quae vult ut ostendit <name ref="#Augustine">augustinus</name> et 
+              <name ref="#Lombard">magister</name> distinctione 43 primi nec etiam sequitur deum voluisse me legere est aeternum ergo necessariam 
+              quia a futuro dependet</p>
+            
+            <p xml:id="pgb1q30-d1e4520">Ad primum contra 3am conclusionem conceditur consequens et consequentia 2o dicitur quod ista 
+              deus praesciens <c>a</c> fore potest non praescire <c>a</c> fore non debet sic ponit in esse 
+              deus praesciens <c>a</c> fore non praescit <c>a</c> fore quia implicat sed sic deus non praescit 
+              <c>a</c> fore et potest scire <c>a</c> fore et ita potest dici de velle et ad illam non sequitur 
+              aliquod falsum vel impossibile sed solum sequitur quod deus numquam praescivit <c>a</c> fore vel voluit 
+              quod est possibile</p>
+            
+            <p xml:id="pgb1q30-d1e4563">Ad 4m dicitur quod aliquo modo dependet a futuro non inquantum voluntas 
+              sed inquantum sic se habens ad antichristum fore nec sequitur quod aliquod ens actu dependeat 
+              a non ente quia voluntatem dei esse aliquid sed ad aliquid relative 2o dicitur quod voluntate 
+              dei sic se habere ad tale futurum licet sit voluntas ipsa dei voluntas non tamen sequitur quod 
+              aliquod ens dependeat actu in esse ab eo quod non est sed bene sequitur quod voluntate 
+              dei se habere respectu illius futuri relative dependet ab eo quod non est sed non est 
+              inconveniens</p>
+            
+            <p xml:id="pgb1q30-d1e4603">Ad ultimum negatur consequentia licet illative et <unclear>con[?]naturaliter</unclear> ad hominem velle 
+              sequitur deum velle non tamen <unclear>potestative</unclear> et causaliter me velle est causa quare deus 
+              vult vel agit adextra</p>
+            
+            <p xml:id="pgb1q30-d1e4617">Ad primum in oppositum negatur angecedens et ad probatonem dicitur quod ex se 
+              habet quod sit praescientia et cum infertur ergo non potest non esse praescientia negatur ista consequentia sicut 
+              non sequitur voluntas ex se habet quod vult illud obiectum ergo non potest non velle illud</p>
+            
+            <p xml:id="pgb1q30-d1e4625">2o dicitur quod praescientia dei non taliter habet ex se quod sit praescientia sic quod essentialiter 
+              ipsa sit praescientia talis futuri sicut triangulus ex se habet tres</p>
+            
+            <p xml:id="pgb1q30-d1e4632">Ad 2m negatur antecedens 
+              et ad probationem negatur consequentia</p>
+            
+            <p xml:id="pgb1q30-d1e4638">Ad 3m dico quod consequentia est necessaria sed dico quod consequens sicut eset 
+              contingens sic antecedens etiam nec sequitur est aeternum ergo necessariam quia ipsum fuisse ab aeterno 
+              quodammodo dependet a futuro ideo possibile est ipsum numquam fuisse quia sicut potest non 
+              fore similiter potest numquam fuisse praescitum vel etiam praevolitum</p>
+              </div>
+            </div>
+            <div>
+              <head><supplied>Conclusio</supplied></head>
+            <p xml:id="pgb1q30-d1e4660"><pb ed="#L" n="93v"/>Nunc igitur ad propositum prima conclusio praescientia et 
+              scientia dei quae est bonorum et malorum non sunt causa rerum nisi causa sine qua non 
+              nec econverso res sunt causa scientiae dei nisi causa sine qua non quia non stat rem esse et deum 
+              ipsam nescire vel non scire</p>
+            
+            <p xml:id="pgb1q30-d1e4671">2a conclusio quod si nomen scientiae includit beneplacitum 
+              dei tunc scientiae dei est causa omnium bonorum sed non malorum quia respectu illorum non habet 
+              beneplacitum sed scientiam vel praescientiam</p>
+            
+            <p xml:id="pgb1q30-d1e4679">3a conclusio quod praescientia dei non potest falli unde 
+              cum dicitur non possunt aliter esse vel evenire quam sit praescitum a deo si coniunctim intelligitur 
+              verum est simul enim stare non possunt quod aliter res eveniat et aliter deus praescierit 
+              si disiunctim falsum est quia nullum contingens futurum de necessitate eveniet</p>
+            
+            <p xml:id="pgb1q30-d1e4695">notandum quod 
+              si aliter notat <unclear>alienetatem</unclear> cognitionis divinae sic non aliter cognoscit unam quam 
+              aliam si notat rerum <unclear>alienetatem</unclear> sic noscit aliter res diversas et haec sufficiant</p>
         </div>
       </div>  
     </body>
