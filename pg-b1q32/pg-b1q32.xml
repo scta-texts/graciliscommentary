@@ -1,616 +1,1248 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 32</title>
+        <title>Liber I, Quaestio 32</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 32</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 32</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-21" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="95-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q32">
-        <head>Quaestio 32</head>
-        <p xml:id="pgb1q32-d1e3130">
-          <cit>
-            <quote>Praedestinatio vero</quote>
-            <bibl>Lombardus, I, d. 40</bibl>
-          </cit> 
-          etc. Ista est 40 distinctio in qua postquam 
-          determinavit <name ref="#Lombard">Magister</name> de scientia et praescientia Dei in generali, nunc incipit 
-          determinare de quadam eius parte in speciali. Et dividitur in duas quia primo 
-          tractat de praedestinatione, secundo de reprobatione. Secunda incipit ibi 
-          <cit>
-            <quote>cumque praedestinatio.</quote>
-            <bibl>Lombardus, I, d. 40, xxx</bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q32-d1e3152">Prima pars dividitur in duas quia primo agit de praedestinationis 
-          <app>
-            <lem><unclear>diffinitiva</unclear></lem>
-            <rdg wit="#L" type="corrReplace">
-              <corr>
-                <del rend="strikethrough">effectiva</del>
-                <add place="inline"><unclear>diffinitiva</unclear></add>
-              </corr>
-            </rdg>
-          </app> 
-          ratione. Secundo, de eius effectu permansive et fixa per duratione. Secunda ibi 
-          <cit>
-            <quote>praedestinatorum nullus videtur</quote>
-            <bibl>Lombardus, I, d. 40, xxx</bibl>
-          </cit>
-        </p>
-        
-        <p xml:id="pgb1q32-d1e3169">Secunda principalis pars dividitur etiam in duas quia primo <name ref="#Lombard">Magister</name> ponit effectum 
-          reprobationis positivum, secundo eius effectum privativum. Secunda incipit ibi 
-          <cit>
-            <quote>et sicut praedestinatio.</quote>
-            <bibl>Lombardus, I, d. 40, xxx</bibl>
-          </cit> 
-          Et haec sufficiant pro divisione praesentis distinctionis circa quam quaeritur.</p>
-      </div>
-      <div>
-        <head><supplied>Quaestio</supplied></head>
-        <div>
-          <head><supplied>Rationes principales</supplied></head>
-          <p xml:id="pgb1q32-d1e3180">Utrum praedestinatio aeternaliter ac existenti in caritate Deus possit certitudinaliter 
-            suam damnationem revelare; utrum existenti in caritate 
-            ac praedestinato aeternaliter Deus possit revelare suam damnationem 
-            certitudinaliter.</p>
-          
-          <p xml:id="pgb1q32-d1e3195">Quod non quia nullus praedestinatur aeternaliter, ergo. Antecedens probatur tum quia potest aliquis incipere 
-            esse praedestinatus, tum quia sequitur quod numerus praedestinatorum oportet auctus non posset, 
-            tum quia sequitur quod quilibet praedestinatus esse scriptus in libro vitae indelebiliter. Patet consequentis 
-            falsitas per illud 
-            <ref><title ref="#ps">Psalmus</title> <sic>64</sic></ref> 
+        <head xml:id="pg-b1q32-Hd1e95">Quaestio 32</head>
+        <div xml:id="pg-b1q32-Dd1e98">
+          <head xml:id="pg-b1q32-Hd1e100">Circa textum</head>
+          <p xml:id="pgb1q32-d1e3130">
             <cit>
-              <quote ana="#ps68_29">deleantur de libro viventium</quote>
-              <bibl>Psalmus 68:29</bibl>
+              <quote xml:id="pg-b1q32-Qd1e107" type="lemma">Praedestinatio vero</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>,
+                I, d. 40
+              </bibl>
             </cit> 
-            Consequentia patet quia omne 
-            aeternum est immutabile.</p>
-        
-          <p xml:id="pgb1q32-d1e3218">Secundo, 
+            etc. 
+            Ista est 40 distinctio in qua postquam 
+            determinavit 
+            <name ref="#Lombard">Magister</name> 
+            de scientia et praescientia Dei in generali, 
+            nunc incipit determinare de quadam eius parte in speciali. 
+            Et dividitur in duas quia primo 
+            tractat de praedestinatione, 
+            secundo de reprobatione. 
+            Secunda incipit ibi 
+            <cit>
+              <quote xml:id="pg-b1q32-Qd1e125" type="lemma">cumque praedestinatio</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 40, xxx
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q32-d1e3152">
+            Prima pars dividitur in duas 
+            quia primo agit de praedestinationis 
             <app>
-              <lem>principaliter</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
+              <lem><unclear>diffinitiva</unclear></lem>
+              <rdg wit="#L" type="correction-substitution">
+                <subst>
+                  <del rend="strikethrough">effectiva</del>
+                  <add place="inline"><unclear>diffinitiva</unclear></add>
+                </subst>
+              </rdg>
+            </app> 
+            ratione. 
+            Secundo, 
+            de eius effectu permansive 
+            et fixa per duratione. 
+            Secunda ibi 
+            <cit>
+              <quote xml:id="pg-b1q32-Qd1e163" type="lemma">praedestinatorum nullus videtur</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 40, xxx
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q32-d1e3169">
+            Secunda principalis 
+            pars dividitur etiam in duas 
+            quia primo <name ref="#Lombard">Magister</name> ponit effectum 
+            reprobationis positivum, 
+            secundo eius effectum privativum. 
+            Secunda incipit ibi 
+            <cit>
+              <quote xml:id="pg-b1q32-Qd1e184" type="lemma">et sicut praedestinatio</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 40, xxx
+              </bibl>
+            </cit>.
+            Et haec sufficiant pro divisione 
+            praesentis distinctionis circa quam quaeritur:
+          </p>
+        </div>
+        <div xml:id="pg-b1q32-Dd1e199">
+          <head xml:id="pg-b1q32-Hd1e201">
+            <supplied>Quaestio</supplied>
+          </head>
+          <div xml:id="pg-b1q32-Dd1e207" type="rationes-principales">
+            <head xml:id="pg-b1q32-Hd1e209">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q32-d1e3180">
+              Utrum praedestinatio aeternaliter 
+              ac existenti in caritate Deus possit certitudinaliter 
+              suam damnationem revelare; utrum existenti in caritate 
+              ac praedestinato aeternaliter 
+              Deus possit revelare suam damnationem 
+              certitudinaliter.
+            </p>
+            <p xml:id="pgb1q32-d1e3195">
+              Quod non quia nullus praedestinatur aeternaliter, ergo. 
+              Antecedens probatur 
+              tum quia potest aliquis incipere esse praedestinatus, 
+              tum quia sequitur 
+              quod numerus praedestinatorum oportet auctus non posset, 
+              tum quia sequitur 
+              quod quilibet praedestinatus esse scriptus 
+              in libro vitae indelebiliter. 
+              Patet consequentis falsitas per illud 
+              <ref xml:id="pg-b1q32-Rd1e220" corresp="#pg-b1q32-Qd1e231">
+                <title ref="#ps">Psalmus</title> <sic>64</sic>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e231" ana="#ps68_29">deleantur de libro viventium</quote>
+                <bibl>Psalmus 68:29</bibl>
+              </cit> 
+              Consequentia patet quia omne 
+              aeternum est immutabile.
+            </p>
+            <p xml:id="pgb1q32-d1e3218">
+              Secundo, 
+              principaliter
+              <app>
+                <lem n="principaliter"/>
+                <rdg wit="#L" type="correction-deletion">
                   <del>non</del>
-                </corr>
-              </rdg>
-            </app> 
-            repugnat praedestinatum dampnari finaliter, 
-            ergo. Antecedens probatur quia sequeretur quod talis esset praedestinatus et non praedestinatus. Tum secundo quia Deus esse 
-            videretur mutatus cum voluerit eum salvare et non salvat. <unclear>Tum <!-- dbcheck and correct in lon --></unclear> tertio quia sequitur quod 
-            Scriptura Sacra foret falsa quae dicit praedestinatum fore salvandum.</p>
-          
-          <p xml:id="pgb1q32-d1e3234">Confirmatur per 
-            <ref><name ref="#Augustine">Augustinum</name> VIII 
-            <title ref="#CityOfGod">De civitate Dei</title> capitulo 51</ref> dicentem 
-            <cit>
-              <quote ana="#Augustine_DeCivitateDei_18_51_2_a">
-                <cit>
-                  <quote ana="#rom8_29">quos enim praescivit et praedestinavit fieri conformes 
-                    imagini filii sui</quote>
-                  <bibl>Romanos 8:29</bibl>
-                </cit> 
-                ex eis perire nullus potest</quote>
-              <bibl>Augustinus, De civitate Dei, XVIII, 51, 2</bibl>
-            </cit>
-          </p>
-          <p xml:id="pgb1q32-d1e3259">Tertio, principaliter existenti in caritate ac 
-            praedestinato non potest fieri talis revelatio, ergo. Antecedens probatur tum quia tunc sua aeterna dam<pb ed="#L" n="96r"/>natio 
-            necessario eveniret tum quia Deus desperandi materiam et occasionem sibi daret, 
-            tamen quia tunc clare videns Deum summum bonum doleret seu dolere posset.</p> 
-          
-          <p xml:id="pgb1q32-d1e3287">In oppositum arguitur quia praedestinatus potest dampnari ergo eius damnatio sibi potest 
-            revelari et clare ostendi. Consequentia tenet et antecedens patet per 
-            <ref>
-              <seg><name ref="#Lombard">Magistrum</name> distinctione 40 primi</seg>
-              <bibl>Lombardus, I, d. 40, xxx</bibl>
-            </ref>
-          </p>
-        </div>
-        <div>
-          <head><supplied>Prima conclusio</supplied></head>
-          <p xml:id="pgb1q32-d1e3298">Prima conclusio: quaelibet a Deo praedestinative et gratuite electum Deus aeternaliter praeparavit 
-            multiplicem gratiae et gloriae effectum. Patet per 
-            <ref><name ref="#Paul">Apostolum</name> <title ref="#eph">Ephesios</title> primo</ref> 
-            <cit>
-              <quote ana="#eph1_5"> <!-- also eph1_5 -->praedestinavit 
-                in adoptionem filiorum secundum propositum voluntatis suae in laudem gloriosae 
-                gratiae suae. <!-- this quotation extends into eph 1:6 --></quote>
-              <bibl>Ephesios 1:5-6</bibl>
-            </cit> 
-            Item per 
-            <ref><name ref="#Augustine">Augustinum</name> in <title ref="#DePraedestinationeSanctorum">Praedestinatione</title> capitulo 12,</ref> 
-            <cit>
-              <quote>praedestinatio est gratiae 
-                praeparatio.</quote>
-              <bibl>Augustinus, De Praedestinatione Sanctorum, c. 12, xxx</bibl>
-            </cit> 
-            Item, confirmatur quia praedestinatio divina est causa salvationis praedestinati, 
-            ergo est causa eorum quae sunt requisita ad illum finem consequendum, sed praedestinatio est 
-            et praeparatio seu volitio aeternalis ut praedestinatus in tempore iustificetur praeservetur 
-            obediat credat et perseveret, et hoc maxime verum est de adultis.</p>
-          
-          <p xml:id="pgb1q32-d1e3343">Primum corollarium: sicut impossibile est Deum aliquid ad esse futurum, nunc primo determinare 
-            sic est impossibile Deum incipere praedestinare. Patet quia aeternaliter praedestinat. 
-            Confirmatur quia si inciperet etc., sequitur quod erat <c>a</c> ante illud <unclear>instans</unclear>, et per consequens 
-            est futurum in hoc instanti, immo in quolibet praecedenti.</p>
-          
-          <p xml:id="pgb1q32-d1e3379">Secundum corollarium: licet Deus 
-            possit plura futura praescire quam praescit futura esse, non tamen potest plura 
-            quam scit scire nec proprie potest numerum scitorum praescitorum vel praedestinatorum 
-            augere. Prima patet supposito quod numerus futurorum sit certus et finitus quia potest 
-            ultra praescita aliqua futura velle esse futura et scire esse futura. 
-            Secunda pars probatur quia Deus est omnium scibilium notitia comprehensiva acutalis, ergo non 
-            potest plura scire. Tertia pars probatur quia si sic haec copulativa posset verificari simul 
-            hic numerus salvandorum continet plures unitates quid prior et prior non 
-            continet pauciores quod est falsum. Patet consequentia quia illud est proprie numerum augeri, 
-            ergo patet quod sicut numerus scibilium non potest augeri sic nec numerus electorum 
-            potest intendi.</p>
-          
-          <p xml:id="pgb1q32-d1e3406">Tertium corollarium: liber rite infallibilis est scripturae indelebilis. 
-            Patet 
-            <ref><title ref="#dan">Daniel</title> 12</ref> 
-            <cit>
-              <quote ana="#dan12_1">salvabitur meus omnis qui scriptus fuerit in libro vitae.</quote>
-              <bibl>Danielis 12:1</bibl>
-            </cit> 
-            Item 
-            <title ref="#is">Isaias</title> 
-            <cit>
-              <quote ana="#is4_3">sanctus vocabitur omnis qui scriptus est in vita in Ierusalem.</quote>
-              <bibl>Isaias 4:3</bibl>
-            </cit>
-          </p>
-        </div>
-        <div>
-          <head><supplied>Secunda conclusio</supplied></head> 
-          <p xml:id="pgb1q32-d1e3427"><unclear>Secunda <!-- check to see if lon accidentally wrote 3a --></unclear> conclusio: licet 
-            omnis reprobatus possit finaliter salvari, tamen non omnis praedestinatus 
-            potest finaliter dampnari seu poenae aeternae deputari. Prima pars patet 
-            quia in sensu diviso est concedenda secundum <name ref="#Lombard">Magistrum</name>. Confirmatur quia Deus 
-            <app>
-              <lem>contingenter</lem>
-              <rdg wit="#L" type="corrDeletion">
-                <corr>
-                  <del rend="strikethrough/expunctuated">d</del>
-                </corr>
-              </rdg>
-            </app> 
-            reprobat reprobatos, ergo potest eos non reprobare vel reprobasse. Secunda pars 
-            probat quia Christus est praedestinatus, et tamen non potest dampnari seu <unclear>in aeterna</unclear> 
-            poena deputari, ergo. Antecedens probatur per <name ref="#Paul">Apostolum</name> 
-            <cit>
-              <quote ana="#ro1_4">praedestinatus est Filius Dei 
-                in virtute.</quote>
-              <bibl>Romanos 1:4</bibl>
-            </cit> 
-            Ex quo patet quod nisi dictum <unclear><name ref="#HughOfStVictor">Hugonis</name></unclear> restringeretur ad supposita 
-            creata non haberet veritatem, ubi dicit quod quilibet qui est beatus potest non 
-            esse electus constat enim quod Christus est electus sicut praedestinatus iuxta 
-            illud <title ref="#cant">Canticum</title> 
-            <cit>
-              <quote ana="#cant5_10">electus ex milibus</quote>
-              <bibl>Canticos 5:10</bibl>
-            </cit> 
-            quod secundum glossam de Christo intelligitur.</p>
-          
-          <p xml:id="pgb1q32-d1e3497">
-            <pb ed="#L" n="96v"/>
-            Primum corollarium aliquid quod Deus nunc vult potest numquam velle vel volusse sine sui 
-            mutatione intrinsece. Patet quia nunc praedestinatur elective potest numquam ipsum praedestinasse.</p>
-          
-          <p xml:id="pgb1q32-d1e3505">Secundum corollarium: verba diversorum temporum dicta de Deo non notant tempus <unclear>mensurans <!-- dbcheck --></unclear> 
-            Dei actum, sed significat in <unclear>dis?tem</unclear> praesentiam aeternitatis ad omnem temporis fluxum. 
-            Patet quia aliter in divino actu electivo vel praedestinativo ac reprobativo foret 
-            praeteritio aut futuritio quod est falsum.</p>
-          
-          <p xml:id="pgb1q32-d1e3520">Tertium corollarium: quod verum est aliquem hominem praedestinatum 
-            esse quem Deus non potest non praedestinasse. Patet de supposito Christi.</p>
-        </div>
-        <div>
-          <head><supplied>Tertia conclusio</supplied></head> 
-          <p xml:id="pgb1q32-d1e3526">Tertia conclusio: sicut 
-            praedestinatio est bonorum electiva ad perpetuae gloriae felicitatem sic praedestinatio 
-            est malorum reprobativa ad perpetuae miseriae calamitatem. Prima patet de se et 
-            per <name ref="#Lombard">Magistrum</name>. Secunda per 
-            <ref><name ref="#Augustine">Augustinum</name> 22 vel 21 <title ref="#CityOfGod">De Civitate</title> capitulo 24</ref> 
-            dicentem quod 
-            <cit>
-              <quote ana="#Augustine_DeCivitateDei_21_24_1_a">aliqui in hac 
-                vita praedestinati sunt in ignem aeternum ire cum diabolo.</quote>
-              <bibl>Augustinus, De Civitate Dei, XXI, 24, 1</bibl>
-            </cit> 
-            Item <name ref="#Anselm">Anselmus</name> 
-            <cit>
-              <quote>non solum praedestinatio 
-              bonorum, sed etiam malorum dici potest.</quote>
-              <bibl>Anselmus, xxx</bibl>
-            </cit> 
-            Item 
-            <ref><name ref="#Augustine">Augustinus</name> <title ref="#Enchiridion">Enchiridion</title> capitulo 80</ref> 
-            dicit 
-            <cit>
-              <quote ana="#Augustine_Enchiridion_1_26_100_a">deus 
-                aliquos iuste praedestinavit ad poenam et aliquos benigne ad gratiam</quote>
-              <bibl>Augustinus, Enchiridion, I, 26, 100</bibl>
-            </cit>
-          </p>
-          <p xml:id="pgb1q32-d1e3585">Primum corollarium: licet praedestinatus possit videre in verbo se dampnandum finaliter, tamen 
-            si hoc sibi reveletur contingentur dampnabitur et non aliter. Prima patet quia ex conclusione aliquis 
-            praedestinatus dampnabitur sumendo <mentioned>praedestinationem</mentioned> large. Secundo, probatur illa pars in sensu 
-            diviso quia praedestinatus ad gloriam potest dampnari cum eius salvari sit contingens 
-            sed quod posset revelari. Patet quia non repugnat praedestinato plus revelari poenam 
-            suam quam culpam sed de facto <name>Christus</name> <name ref="#JudasIscariot">Iude</name> et <name ref="#Peter">Petro</name> suam culpam, 
-            ergo in de potuit revelare suam poenam, et per consequens suam aeternam 
-            damnationem, sed posset dici quod non est simile quia damnatio non repugnat praedestinationi, 
-            licet repugnet alicui effectum damnationis, scilicet gratiae sed poena 
-            infernalis repugnat propter eius proprietatem non solum effectui praedestinationis sed 
-            <unclear>sed <!-- is the repetition a mistak on my part? dbcheck --></unclear> etiam ipsi praedestinationi quia istae sunt incompossibiles <name ref="#Sortes">Sortes</name> est praedestinatus et <name ref="#Sortes">sortes</name> 
-            aeternaliter cruciabitur, ideo forte diceretur quod non sequitur Deus potest revelare 
-            culpam ergo poenam. Sed contra hoc arguitur quod perserverantia finalis in peccato mortali 
-            de directo repugnat praedestinationi, et Deus tamen illam revelavit <name ref="#Jews">Iudaeis</name>, 
-            scilicet dicens 
-            <cit>
-              <quote ana="#io8_24">in peccatis vestris moriemini</quote>
-              <bibl>Ioannes 8:24</bibl>
-            </cit> 
-            <ref><title ref="#io">Iohannis</title> VIII.</ref> 
-            Item <ref><title ref="#io">Iohannis</title> 6</ref> 
-            <cit>
-              <quote ana="#io6_71">unus ex vobis diabolus est.</quote>
-              <bibl>Ioannes 6:71</bibl>
-            </cit> 
-            Item 
-            <cit>
-              <quote ana="#mt26_25">bonum erat ei si natus non fuisset</quote>
-              <bibl>Matthaeus 26:25</bibl>
-            </cit> etc. 
-            confirmatur desertio Dei finalis est nolle <unclear>nolle <!-- is this a mistake, dbcheck --></unclear> misereri vel non velle 
-            misereri, sed decedere finaliter in culpa est maxima pars damnationis, sed 
-            illam potest Deus revelare, ut patet per textus <unclear>praemissos</unclear>.</p>
-        
-          <p xml:id="pgb1q32-d1e3725">Secunda pars: corollarii probatur 
-            quia Dei dicere seu revelare evidens adextra non plus necessitat eventum 
-            rei futurum, ergo quam eius dicere adintra immense evidens et certum, sed tale 
-            dicere adintra non necessitate, ut patet per <name ref="#Lombard">Magistrum</name>, ergo. Maior nota et minor 
-            <ref>
-              <seg>distinctione 38.</seg>
-              <bibl>Lombardus, I, d. 38, xxx</bibl>
-            </ref>
-          </p>
-          
-          <p xml:id="pgb1q32-d1e3740">Secundum corollarium: Deus non potest solum damnationem alicui revelare conditionaliter, 
-          sed etiam potest hoc cuilibet dampnando revelare absolute simpliciter. Patet per corollarium.</p>
-          
-        <p xml:id="pgb1q32-d1e3752">
-          <pb ed="#L" n="97r"/>Tertium corollarium: sicut cum revelati <unclear>s[?]</unclear> evidentia stat eiusdem continentiae, sic sine 
-          dolore et tristitia potest haberi huius revelationis evidentia vel sic stat 
-          aliquam suam damnationem videre et de ipsa nullam displicentiam habere. Prima patet 
-          quia cum clara visione beati damnationis futurae stat ipsam contingenter 
-          evenire et posse numquam evenire. Secunda pars probatur quia ille cui fiet talis 
-          revelatio etiam videret quod illud posset non evenire saltim deberet hoc 
-          credere et sic posset gratiam Dei sperare nec deberet desperare, ex quo patet 
-          quod si talis certitudinaliter se dampnandum, licet Deus concurreret aliquid entitatem 
-          actus credendi, non tamen concurreret ad talis credere effective, licet forte 
-          improprie et obiective. Ex dictis patet responsio ad quaestionem quia, licet Deus praedestinatum 
-          non possit de damnatione in verbo certificare, tamen potest in verbo suam 
-          damnationem clare et certitudinaliter videre. Prima pars quia tunc Deus certitudinaliter 
-          faceret credere se esse damnandum, et sic Deus facere posset 
-          ipsum peccare quod est falsum. Secunda pars probatur quia sibi potest ostendere dignitatem 
-          vitae aeternae et condignam poenae imputabilitatem, ergo etc.</p>
-        </div>
-        <div>
-          <head><supplied>Obiectiones et responsiones</supplied></head>
-          <p xml:id="pgb1q32-d1e3824">Contra primam conclusionem, arguitur per 
-            <ref><name ref="#Augustine">Beatum Augustinum</name> super illo <title ref="#io">Iohannis</title> 14</ref> 
-            <cit>
-              <quote ana="#io14_2">vado 
-                vobis parare locum</quote>
-            </cit> 
-            dicentem non praedestinatos praedestinando, 
-            ergo sequitur quod talis gratiae et gloriae praeparatio fieri potest ex tempore et non solum 
-            aeternaliter contra conclusionem.</p>
-        
-          <p xml:id="pgb1q32-d1e3845">Secundo, contra primum corollarium aliquis non est praedestinatus et potest 
-            esse praedestinatus, ergo potest incipere ese praedestinatus. Similiter posset sic 
-            argui aliquid non est futurum et potest esse futurum, ergo potest incipere esse futurum.</p>
-          
-          <p xml:id="pgb1q32-d1e3855">Tertio contra tertium corollarium, si Deus posset plura scire vel praescire, sequitur <unclear>et?</unclear> 
-            quod pauciora et sic sequitur quod mere contingenter et non necessario praesciret futura, 
-            cuius oppositum nititur probare 
-            <ref>
-              <seg><name ref="#AlphonsusVargas">Alphonsus</name> 38 distinctione,</seg>
-              <bibl>Alphsonsu Vargas, I, d. 39, xxx</bibl>
-            </ref> 
-            ubi arguit sic 
-            non minori necessitate futurum est futurum quam praeteritum sit praeteritum sed necesse 
-            est praeteritum esse praeteritum, ergo. Maior patet quia non est maior repugnantia hic 
-            quam ibi cum utrobique idem praedicetur de se ipso et minor et nota.</p>
-          <!-- consider collapsing paragraphs -->
-          <p xml:id="pgb1q32-d1e3891">Item 
-            <ref><name ref="#Augustine">Augustinus</name> II <title ref="#ContraFaustum">Contra Faustum</title> responsione 14</ref> dicit 
-            <cit>
-              <quote>tam non possunt futura non fieri 
-                quam non fuisse facta praeterita.</quote>
-              <bibl>Augustinus, Contra Faustum, II, resp. 14, xxx</bibl>
-            </cit>
-          </p>
-          
-          <p xml:id="pgb1q32-d1e3905">Contra secundam conclusionem, si praedestinatus 
-            posset damnari et finaliter peccare, et similiter praescitus salvari, 
-            sequitur quod voluntas creata posset esse causa suae praedestinationis. Consequens est 
-            falsum, et patet consequentia quia talis variationis, nulla potest esse causa nisi voluntas 
-            creata. Item, si sic, nullus posset per quamcumque revelationem de sua salute certificari. 
-            Consequens est falsum ut patet per dicta superius. Aliunde patet quia tunc nulla 
-            esset prophetia quia secundum <name ref="#Cassiodorus">Cassiodorus</name> 
-            <cit>
-              <quote ana="#Cassiodorus_ExpositioPsalmorum_prol_a">prophetia est inspiratio vel revelatio divina rerum
-                eventus immobili veritate denuntians. <!-- Exposition of the Psalter, Prol., PL 70, 12 --></quote>
-              <bibl>Cassiodorus, Expositio Psalmorum, Prol. (PL 70:12)</bibl>
-            </cit> 
-            Si enim aliter posset evenire quam 
-            <unclear>proph?antum</unclear> sit non denuntiaret immobiliter talem veritatem.</p>
-          
-          <p xml:id="pgb1q32-d1e3940">Tertio contra 
-            <pb ed="#L" n="97v"/> 
-            primum corollarium, voluntas Dei et aeterna et immutabilis, ergo nihil quod vult potest non velle. 
-            Tenet consequentia quia, si Deus vult <c>a</c> fore et aliquid aliud a Deo potest facere quod 
-            <c>a</c> non erit, sequitur quod aliud a Deo potest frustrare voluntatem Dei.</p>
-          
-          <p xml:id="pgb1q32-d1e3959">Quarto, si posset non velle quod vult, sequitur a simili quod posset facere <name ref="#Abraham">Abraham</name> 
-            non fuisse virginem non peperisse Christum genus humanum non redemisse. 
-            Consequens est falsum quia hoc solo privatur Deus ut faciat de praeterito non 
-            praeteritum secundum <name ref="#Anselm">Anselmum</name>.</p>
-          
-          <p xml:id="pgb1q32-d1e3976">Contra tertiam conclusionem, arguitur per 
-            <ref><name ref="#Lombard">Magistrum</name> distinctione 40,</ref> 
-            ubi dicit quod 
-            <cit>
-              <quote>praedestinatio tantum de bonis est,</quote>
-              <bibl>Lombardus, I, d. 40, xxx <!-- unclear if direct quote --></bibl>
-            </cit> 
-            ergo non dicitur respectu malorum 
-            seu praescitorum.</p>
-          
-          <p xml:id="pgb1q32-d1e3989">Secundo contra primam partem primi corollarii, Deus potest absolute revelare 
-            praescito suam damnationem finalem existenti in gratia, ergo etiam potest praedestinato 
-            elective damnationem revelare. Consequentia tenet quia revelatio plus 
-            repugnat praedestinationi ut sic quam <unclear>habitio<!-- possibily "abitio" --></unclear> gratiae.</p>
-          
-          <p xml:id="pgb1q32-d1e4016">Tertio, aut talis revelatio 
-            licite potest orare pro aut non. Si sic sequitur quod licite posset contra Dei 
-            voluntatem sibi notam. Si non sequitur quod Deus erit causa suae desperationis et 
-            peccati sui.</p>
-          
-          <p xml:id="pgb1q32-d1e4026">Quarto, sequitur quod Deus posset aliquem decipere. Consequens est falsum. Patet consequentia 
-            quia si Deus revelet alicui suam damnationem vel aliquam futuram veritatem 
-            ipse causabit in illo assensum et credulitatem illius, et tamen oppositum poterit 
-            evenire quo facto, sequitur ipsum deceptum esse et non nisi a Deo revelante et 
-            assensum causante, ergo.</p>
-          
-          <p xml:id="pgb1q32-d1e4044">Ad primum, dicitur quod praedestinatio sumitur dupliciter. Uno modo 
-            inquantum est in se aeterna praeparatio. Secundo modo inquantum huius praeparationis effectus 
-            et operatio et sic <name ref="#Augustine">Augustinus</name> loquitur primo modo non secundo.</p>
-          
-          <p xml:id="pgb1q32-d1e4058">Ad secundum, negatur consequentia</p> 
+                </rdg>
+              </app> 
+              repugnat praedestinatum dampnari finaliter, 
+              ergo. Antecedens probatur quia sequeretur 
+              quod talis esset praedestinatus et non praedestinatus. 
+              Tum secundo quia Deus esse 
+              videretur mutatus cum voluerit eum salvare et non salvat. 
+              <unclear>Tum <!-- dbcheck and correct in lon --></unclear> tertio 
+              quia sequitur quod Scriptura Sacra foret falsa 
+              quae dicit praedestinatum fore salvandum.
+            </p>
+            <p xml:id="pgb1q32-d1e3234">
+              Confirmatur 
+              per 
+              <ref xml:id="pg-b1q32-Rd1e259" corresp="#pg-b1q32-Qd1e270">
+                <name ref="#Augustine">Augustinum</name> 
+                VIII 
+                <title ref="#CityOfGod">De civitate Dei</title>, 
+                capitulo 51
+              </ref> 
+              dicentem 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e270" ana="#Augustine_DeCivitateDei_18_51_2_a">
+                  <cit>
+                    <quote xml:id="pg-b1q32-Qd1e274" ana="#rom8_29">
+                      quos enim praescivit 
+                      et praedestinavit fieri conformes 
+                      imagini filii sui
+                    </quote>
+                    <bibl>Romanos 8:29</bibl>
+                  </cit> 
+                  ex eis perire nullus potest
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  De civitate Dei, 
+                  XVIII, 51, 2.
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q32-d1e3259">
+              Tertio, 
+              principaliter existenti in caritate ac 
+              praedestinato non potest fieri talis revelatio, ergo. 
+              Antecedens probatur 
+              tum quia tunc sua aeterna dam<pb ed="#L" n="96-r"/>natio 
+              necessario eveniret 
+              tum quia Deus desperandi 
+              materiam et occasionem sibi daret, 
+              tamen quia tunc clare 
+              videns Deum summum bonum 
+              doleret seu dolere posset.
+            </p> 
+            <p xml:id="pgb1q32-d1e3287">
+              In oppositum arguitur 
+              quia praedestinatus potest dampnari, 
+              ergo eius damnatio sibi potest 
+              revelari et clare ostendi. 
+              Consequentia tenet 
+              et antecedens patet per 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e300">
+                  <name ref="#Lombard">Magistrum</name>, 
+                  distinctione 40 primi
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 40, xxx
+                </bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q32-Dd1e318">
+            <head xml:id="pg-b1q32-Hd1e320">
+              <supplied>Prima conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q32-d1e3298">
+              Prima conclusio: 
+              quaelibet a Deo praedestinative 
+              et gratuite electum Deus aeternaliter praeparavit 
+              multiplicem gratiae et gloriae effectum. 
+              Patet per 
+              <ref xml:id="pg-b1q32-Rd1e328" corresp="#pg-b1q32-Qd1e339">
+                <name ref="#Paul">Apostolum</name>
+                <title ref="#eph">Ephesios</title> 
+                primo
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e339" ana="#eph1_5 #eph1_6"> <!-- also eph1_5 -->praedestinavit 
+                  in adoptionem filiorum secundum propositum voluntatis suae in laudem gloriosae 
+                  gratiae suae. <!-- this quotation extends into eph 1:6 --></quote>
+                <bibl>Ephesios 1:5-6</bibl>
+              </cit> 
+              Item, 
+              per 
+              <ref xml:id="pg-b1q32-Rd1e349" corresp="#pg-b1q32-Qd1e360">
+                <name ref="#Augustine">Augustinum</name> 
+                in <title ref="#DePraedestinationeSanctorum">Praedestinatione</title>, 
+                capitulo 12
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e360">
+                  praedestinatio est gratiae 
+                  praeparatio
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Praedestinatione Sanctorum</title>, 
+                  c. 12, xxx
+                </bibl>
+              </cit>. 
+              Item, 
+              confirmatur quia praedestinatio divina est 
+              causa salvationis praedestinati, 
+              ergo est causa eorum 
+              quae sunt requisita ad illum finem consequendum. 
+              Sed praedestinatio est 
+              et praeparatio seu volitio aeternalis 
+              ut praedestinatus in tempore iustificetur praeservetur 
+              obediat credat et perseveret, 
+              et hoc maxime verum est de adultis.
+            </p>
+            <p xml:id="pgb1q32-d1e3343">
+              Primum corollarium: 
+              sicut impossibile est Deum 
+              aliquid ad esse futurum, 
+              nunc primo determinare 
+              sic est impossibile Deum incipere praedestinare. 
+              Patet quia aeternaliter praedestinat. 
+              Confirmatur quia si inciperet etc., 
+              sequitur quod erat <c>a</c> ante illud <unclear>instans</unclear>, 
+              et per consequens 
+              est futurum in hoc instanti, 
+              immo in quolibet praecedenti.
+            </p>
+            <p xml:id="pgb1q32-d1e3379">
+              Secundum corollarium: 
+              licet Deus possit plura futura praescire 
+              quam praescit futura esse, 
+              non tamen potest plura 
+              quam scit scire nec proprie 
+              potest numerum scitorum praescitorum vel praedestinatorum augere. 
+              Prima patet supposito 
+              quod numerus futurorum sit certus 
+              et finitus quia potest ultra praescita 
+              aliqua futura velle esse futura 
+              et scire esse futura. 
+              Secunda pars probatur 
+              quia Deus est omnium scibilium 
+              notitia comprehensiva acutalis, 
+              ergo non potest plura scire. 
+              Tertia pars probatur 
+              quia si sic haec copulativa posset verificari simul 
+              hic numerus salvandorum continet plures unitates 
+              quid prior et prior non 
+              continet pauciores quod est falsum. 
+              Patet consequentia quia illud est proprie numerum augeri, 
+              ergo patet quod sicut numerus scibilium non potest augeri 
+              sic nec numerus electorum potest intendi.
+            </p>
+            <p xml:id="pgb1q32-d1e3406">
+              Tertium corollarium: 
+              liber rite infallibilis est scripturae indelebilis. 
+              Patet 
+              <ref xml:id="pg-b1q32-Rd1e388" corresp="#pg-b1q32-Qd1e396">
+                <title ref="#dan">Daniel</title> 12
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e396" ana="#dan12_1">
+                  salvabitur meus omnis 
+                  qui scriptus fuerit in libro vitae
+                </quote>
+                <bibl>Danielis 12:1</bibl>
+              </cit>.
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e403" corresp="#pg-b1q32-Qd1e408">
+                <title ref="#is">Isaias</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e408" ana="#is4_3">
+                  sanctus vocabitur omnis 
+                  qui scriptus est in vita in Ierusalem
+                </quote>
+                <bibl>Isaias 4:3</bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q32-Dd1e417">
+            <head xml:id="pg-b1q32-Hd1e419">
+              <supplied>Secunda conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q32-d1e3427">
+              <unclear>Secunda <!-- check to see if lon accidentally wrote 3a --></unclear> conclusio: 
+              licet omnis reprobatus possit finaliter salvari, 
+              tamen non omnis praedestinatus 
+              potest finaliter dampnari seu poenae aeternae deputari. 
+              Prima pars patet 
+              quia in sensu diviso est concedenda 
+              secundum <name ref="#Lombard">Magistrum</name>. 
+              Confirmatur 
+              quia Deus contingenter
+              <app>
+                <lem n="contingenter"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough expunctuation">d</del>
+                </rdg>
+              </app> 
+              reprobat reprobatos, 
+              ergo potest eos non reprobare vel reprobasse. 
+              Secunda pars probat 
+              quia Christus est praedestinatus, 
+              et tamen non potest dampnari seu <unclear>in aeterna</unclear> 
+              poena deputari, ergo. 
+              Antecedens probatur 
+              per 
+              <ref xml:id="pg-b1q32-Rd1e448" corresp="#pg-b1q32-Qd1e457">
+                <name ref="#Paul">Apostolum</name>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e457" ana="#ro1_4">
+                  praedestinatus est Filius Dei 
+                  in virtute
+                </quote>
+                <bibl>Romanos 1:4</bibl>
+              </cit>.
+              Ex quo patet 
+              quod nisi dictum <unclear><name ref="#HughOfStVictor">Hugonis</name></unclear> 
+              restringeretur ad supposita 
+              creata non haberet veritatem, 
+              ubi dicit quod quilibet 
+              qui est beatus potest non 
+              esse electus constat enim 
+              quod Christus est electus 
+              sicut praedestinatus iuxta 
+              <ref xml:id="pg-b1q32-Rd1e468" corresp="#pg-b1q32-Qd1e476">
+                illud <title ref="#cant">Canticum</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e476" ana="#cant5_10">
+                  electus ex milibus
+                </quote>
+                <bibl>Canticos 5:10</bibl>
+              </cit> 
+              quod secundum glossam de Christo intelligitur.</p>
             
-          <p xml:id="pgb1q32-d1e4062">Ad tertium, conceditur consequens et consequentia, et ad probationem negatur maior si intelligitur 
-            de re dicti quia praeteritum necessario est praeteritum necessitate consequentiae et illa non est 
-            tanta sicut alia. Secundo dicitur quod, si illa propositio sit de dicto adhuc negatur 
-            quia tunc valeret illam sicut haec est necessaria praeteritum est praeteritum ita haec futurum 
-            est futurum et hoc est falsum quia ipsa est simpliciter contingens. Et cum probatur quia non est 
-            maior repugnantia etc., dicitur quod arguitur a pluribus causis veritatis ad 
-            unam, ideo consequentia non valet, nam haec propositio <mentioned>futurum non est futurum</mentioned> potest habere 
-            duas causas veritatis, una est <mentioned>futurum est et non est futurum,</mentioned> et haec est falsa. 
-            Alia causa est <mentioned>ista futurum non est nec aliquid est futurum,</mentioned> et potest haec esse.</p>
-          
-          <p xml:id="pgb1q32-d1e4108">Ad <name ref="#Augustine">Augustinum</name> 
-            dicitur quod loquitur in sensu composito non diviso ibi et in similibus, unde vult 
-            dicere quod sicut impossibile est praeteritum non fuisse, sic impossibile est Deum velle futurum 
-            et illud non evenire. Ad illud <title ref="#ps">Psalmus</title> 
-            <cit>
-              <quote ana="#ps68_29">deleantur de libro viventium</quote>
-              <bibl>Psalmus 68:29</bibl>
-            </cit> 
-            Illud est 
-            numquam scripti ostendantur quia scripti in hac vita videbantur.</p>
-          
-          <p xml:id="pgb1q32-d1e4132">Ad aliud 
-            dicitur quod, licet illud <name ref="#Moses">Moyses</name> <unclear>pecierit</unclear>, tamen non sequitur quod illud possibile fuerit 
-            quia etiam secundum <name ref="#Aristotle">Philosophum</name> voluntas est impossibilium, hoc tamen non voluit absolute.</p>
-          
-          <p xml:id="pgb1q32-d1e4151">Ad primum contra secundam conclusionem, dicitur primo quod sumendo <mentioned>praedestinationem</mentioned> pro praescientia et praeparatione 
-            beneficii futuri, sic negatur consequens et consequentia. Si autem sumeretur <mentioned>praedestinatio</mentioned> per 
-            <pb ed="#L" n="98r"/> 
-            effectu praedestinationis, sic conceditur consequens et consequentia quia voluntas creata potest mereri aliquem 
-            effectum suae praedestinationis et reprobationis <!-- punctuation here ?? --> et eadem distinctio in virtute posita  
-            est superius.</p>
-          
-          <p xml:id="pgb1q32-d1e4168">Ad secundum, negatur consequentia quia, licet posset creare illud vel aliud futurum 
-            et ostendere, tamen non potest effective certificare de illo.</p>
-          
-          <p xml:id="pgb1q32-d1e4175">Secundo, dicitur pro materia argumenti 
-            quod talis erit certificatus per talem revelationem, ita quod talis certitudo adhaesionis 
-            excludet omnem dubitationem, tamen non erit certus certitudine demonstrationis 
-            vel necessitatis, et quando dicitur quod tunc prophetia non enuntiaret veritate immobili 
-            futura, hic dicitur quod, si sumatur <mentioned>immobile</mentioned> pro eo quod nullo modo potest moveri, 
-            <app>
-              <lem>conceditur</lem>
-              <rdg wit="#L" type="intextu" cause="repetitio"><sic>conceditur</sic></rdg>
-            </app> 
-            sic consequens si vero pro eo quod non movebitur, sic negatur consequentia et sic loquitur 
-            <name ref="#Cassiodorus">Cassiodorus</name>. Nota tamen quod quaedam est prophetia secundum praescientiam quaedam secundum <unclear>comm?ationem</unclear> <unclear>q?e</unclear> 
-            non semper impletur secundum sonum verborum <name ref="#RichardKilvington">Clienton</name>.</p>
-          
-          <p xml:id="pgb1q32-d1e4226">Ad tertium, negatur consequentia quia volitio Dei 
-            respectu futuri contingentis est quaedam relatio quae potest fieri non relatio nulla mutatione 
-            in Deo facta sed per solam mutationem in alio sicut columna potest fieri dextra et sinistra.</p>
-          
-          <p xml:id="pgb1q32-d1e4240">Ad quartum, dicere <name ref="#RichardKilvington">Clienton</name> quod possibile est per divinam potentiam quod <name ref="#Abraham">Abraham</name> et alia praeterita 
-            non fuerit quia apud Deum nihil praeteriit. Vide eius rationes, sed posset negari 
-            consequentia quia non est simile eo quod veritas aliquorum dependet a futuro.</p>
-          
-          <p xml:id="pgb1q32-d1e4262"><unclear>Ad primum 
-            consequentia 3am conclusionem <!-- is there some sort of mistake here --></unclear> primo, dicitur quod magis est assentiendum <name ref="#Augustine">Augustino</name> quam <name ref="#Lombard">Magistro</name>. Secundo, dici potest 
-            quid ibi <name ref="#Lombard">Magister</name> sumit stricte praedestinationem et proprie, et sic non est contra corollarium nec 
-            <name ref="#Augustine">Augustinum</name> quia sumit large praedestinationem.</p>
-          
-          <p xml:id="pgb1q32-d1e4284">Pro quo nota quod <mentioned>praedestinatio</mentioned> 
-            quandoque sumitur large et generaliter pro <unclear>rodinatione</unclear> vel praeparatione seu praevisione 
-            cuiuscumque futuri sic capit 
-            <ref>
-              <seg><name ref="#Augustine">Augustinus</name> <title ref="#ContraDuasEpistolasPelagianorum">Contra Pelagium<!-- not 100% about identification dbcheck --></title> libro 2, capitulo 9.</seg>
-              <bibl>Augustinus, Contra Pelagium, II, c. 9, xxx</bibl>
-            </ref> 
-            Secundo, sumitur 
-            praedestinatio specialiter pro praeordinatione divinae voluntatis aut praescientiae aut praevisione 
-            in ordine ad creaturas rationales humanas vel angelicas, et sic 
-            sumit eam <name ref="#Augustine">Augustinus</name> ubi fuit allegatus supra. Item 
-            <ref>capitulo 8</ref> 
-            <cit>
-              <quote ana="#Augustine_Enchiridion_1_26_100_a">deus aliquos iuste 
-                praedestinavit ad poenam et aliquos benigne ad gratiam.</quote>
-              <bibl>Augustinus, Enchridion, I, 26, 100, xxx</bibl>
-            </cit> 
-            Item 
-            <ref><name ref="#IsidoreOfSeville">Isidorus</name> libro 
-            2, 6 capitulo</ref> 
-            <cit>
-              <quote><unclear>gemina</unclear> est praedestinatio scilicet electorum ad requiem et reproborum 
-                ad mortem.</quote>
-              <bibl>Isidorus, XXX, II, c. 6, xxx</bibl>
-            </cit>
-          </p>
-          <!-- if this paragraph break persists, the "secundo" above nees to become a new paragraph -->
-          <p xml:id="pgb1q32-d1e4338">Tertio modo sumitur <mentioned>praedestinatio</mentioned> proprie pro praeordinatione bonorum 
-            respectu creaturae rationalis, et sic describitur praedestinatio est aeterna praeparatio a 
-            divina voluntate gratiae finalis in via et gloriae perennis in patria. Patet per 
-            <ref><name ref="#Augustine">Augustinum</name> 
-            in <title>Praedestinatione sanctorum</title> capitulo 12</ref> 
-            dicentem 
-            <cit>
-              <quote>praedestinatio est gloriae praeparatio 
-                quod debet intelligit de gratia finali quia multi habent gratiam qui finaliter 
-                cadunt ab ea.</quote>
-              <bibl>Augustinus, Praedestinatio Sanctorum, c. 12, xxx</bibl>
-            </cit> 
-            Ex quo patet quod non quaelibet gratia gratificans est divinas praedestinationis 
-            effectus sumendo primo vel secundo in omnis praedestinationem. Patet 
-            quia omne tale procedit a divina voluntate aeternaliter praeoridinate illud se dare 
-            etc.</p>
-          
-          <p xml:id="pgb1q32-d1e4378">Notandum in super quod revelatio quandoque sumitur pro ostensione facta alicuius 
-            rei futurae tantum, et sic loquitur hic et talis revelatio fit quinque per visionem 
-            corporalem quandoque vero fit per spiritualem sicut fuit visio <name ref="#Paul">Pauli</name> in 
-            raptu. Item notandum quod revelare aliquid proprie est intellectum creatum in 
-            assentiendo alicui vero de futuro inducere cui talis intellectus non 
-            assentit. <unclear>Ex <!-- missing "quo" ?? --> patet</unclear> quod nulla creatura potest revelare alteri nisi illud quod eidem 
-            <pb ed="#L" n="98v"/> 
-            revelatum. Patet quia nulla creatura potest scire futura nisi deus ei revelaverit.</p> 
+            <p xml:id="pgb1q32-d1e3497">
+              <pb ed="#L" n="96-v"/>
+              Primum corollarium aliquid 
+              quod Deus nunc vult 
+              potest numquam velle vel volusse sine sui 
+              mutatione intrinsece. 
+              Patet quia nunc praedestinatur elective 
+              potest numquam ipsum praedestinasse.
+            </p>
+            <p xml:id="pgb1q32-d1e3505">
+              Secundum corollarium: 
+              verba diversorum temporum dicta 
+              de Deo non notant tempus <unclear>mensurans <!-- dbcheck --></unclear> Dei actum, 
+              sed significat in <unclear>dis?tem</unclear> 
+              praesentiam aeternitatis ad omnem temporis fluxum. 
+              Patet quia aliter in divino actu 
+              electivo vel praedestinativo ac reprobativo foret 
+              praeteritio aut futuritio, 
+              quod est falsum.
+            </p>
             
-          <p xml:id="pgb1q32-d1e4403">Ad secundum, negatur consequentia sumpto consequente in sensu composito ratio est quia damnatio non 
-            tam formaliter repugnat gratiae sicut praedestinationem propter perpetuitatem miseriae 
-            et gloriae quae sunt incompossibilia.</p>
-          
-          <p xml:id="pgb1q32-d1e4418">Ad tertium, dicitur quod sic quia, licet Deus vellit ipsum, tamen 
-            damnari, tamen potest hoc numquam voluisse nec vult istum hoc velle. Secundo, 
-            dicitur quod talis debet hoc <unclear>si?mter</unclear> quod propter istam revelationem Deus non obligat 
-            ipsum ad volendum suam damnationem. Tertio, dicitur quod numquam videt suam 
-            damnationem ita clare quin videat oppositum Deum facere posse, et tamen licite 
-            potest credere se finaliter damnandum.</p>
-          
-          <p xml:id="pgb1q32-d1e4462">Ad ultimum negatur consequentia. Secundo, posset dici quod 
-            est impossibile quod Deus causet omnem assensum in illo respectu revelati et quod oppositum 
-            eveniat stante <unclear>tai <!-- typo here --></unclear> revelatione. Tertio, dicitur quod causare aliquem assensum Deus posset 
-            respectu alicuius revelati quo assensu stante habens potest causare alium assensum 
-            circa idem propter quod esset deceptus et talis deceptio non esset a Deo nec propter Deum.</p>
-          
-          <p xml:id="pgb1q32-ariest">Ad rationes in oppositum patet quid sit dicendum ex supra dictis etc sequitur textus</p>
+            <p xml:id="pgb1q32-d1e3520">Tertium corollarium: quod verum est aliquem hominem praedestinatum 
+              esse quem Deus non potest non praedestinasse. Patet de supposito Christi.</p>
+          </div>
+          <div xml:id="pg-b1q32-Dd1e503">
+            <head xml:id="pg-b1q32-Hd1e505">
+              <supplied>Tertia conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q32-d1e3526">
+              Tertia conclusio: sicut 
+              praedestinatio est bonorum electiva ad perpetuae gloriae 
+              felicitatem sic praedestinatio 
+              est malorum reprobativa ad perpetuae miseriae calamitatem. 
+              Prima patet de se 
+              et per 
+              <name ref="#Lombard">Magistrum</name>. 
+              Secunda per 
+              <ref xml:id="pg-b1q32-Rd1e514" corresp="#pg-b1q32-Qd1e525">
+                <name ref="#Augustine">Augustinum</name>, 
+                22 vel 21 
+                <title ref="#CityOfGod">De Civitate</title>, 
+                capitulo 24
+              </ref>,
+              dicentem quod 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e525" ana="#Augustine_DeCivitateDei_21_24_1_a">
+                  aliqui in hac 
+                  vita praedestinati sunt 
+                  in ignem aeternum ire cum diabolo
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Civitate Dei</title>, 
+                  XXI, 24, 1
+                </bibl>
+              </cit>. 
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e538" corresp="#pg-b1q32-Qd1e546">
+                <name ref="#Anselm">Anselmus</name>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e546">
+                  non solum praedestinatio 
+                  bonorum, sed etiam malorum dici potest
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, xxx
+                </bibl>
+              </cit>. 
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e557" corresp="#pg-b1q32-Qd1e568">
+                <name ref="#Augustine">Augustinus</name>, 
+                <title ref="#Enchiridion">Enchiridion</title>, 
+                capitulo 80.
+              </ref> 
+              dicit 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e568" ana="#Augustine_Enchiridion_1_26_100_a">
+                  Deus aliquos iuste praedestinavit 
+                  ad poenam et aliquos benigne ad gratiam
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Enchiridion</title> 
+                  I, 26, 100
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q32-d1e3585">
+              Primum corollarium: 
+              licet praedestinatus possit 
+              videre in verbo se dampnandum finaliter, 
+              tamen si hoc sibi reveletur <unclear>contingentur <!-- contingenter ??? --></unclear> 
+              dampnabitur et non aliter. 
+              Prima patet quia ex conclusione aliquis 
+              praedestinatus dampnabitur sumendo 
+              <mentioned>praedestinationem</mentioned> large. 
+              Secundo, 
+              probatur illa pars in sensu diviso 
+              quia praedestinatus ad gloriam 
+              potest dampnari cum eius salvari sit contingens 
+              sed quod posset revelari. 
+              Patet quia non repugnat praedestinato plus revelari poenam 
+              suam quam culpam sed de facto 
+              <name>Christus</name> 
+              <name ref="#JudasIscariot">Iude</name> 
+              et <name ref="#Peter">Petro</name> suam culpam, 
+              ergo in de potuit revelare suam poenam, 
+              et per consequens suam aeternam damnationem, 
+              sed posset dici quod non est simile 
+              quia damnatio non repugnat praedestinationi, 
+              licet repugnet alicui effectum damnationis, 
+              scilicet gratiae sed poena infernalis repugnat 
+              propter eius proprietatem non solum effectui praedestinationis 
+              sed <unclear>sed <!-- is the repetition a mistak on my part? dbcheck --></unclear> 
+              etiam ipsi praedestinationi 
+              quia istae sunt incompossibiles 
+              <name ref="#Sortes">Sortes</name> est praedestinatus 
+              et <name ref="#Sortes">sortes</name> aeternaliter cruciabitur, 
+              ideo forte diceretur 
+              quod non sequitur Deus potest revelare culpam ergo poenam. 
+              Sed contra hoc arguitur 
+              quod perserverantia finalis in peccato mortali 
+              de directo repugnat praedestinationi, 
+              et Deus tamen illam revelavit <name ref="#Jews">Iudaeis</name>, 
+              scilicet dicens 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e616" ana="#io8_24">
+                  in peccatis vestris moriemini
+                </quote>
+                <bibl>Ioannes 8:24</bibl>
+              </cit>,
+              <ref xml:id="pg-b1q32-Rd1e623" corresp="#pg-b1q32-Qd1e616">
+                <title ref="#io">Iohannis</title> VIII
+              </ref>. 
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e630" corresp="#pg-b1q32-Qd1e638">
+                <title ref="#io">Iohannis</title> 6
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e638" ana="#io6_71">
+                  unus ex vobis diabolus est
+                </quote>
+                <bibl>Ioannes 6:71</bibl>
+              </cit>. 
+              Item,
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e647" ana="#mt26_25">
+                  bonum erat ei si natus non fuisset
+                </quote>
+                <bibl>Matthaeus 26:25</bibl>
+              </cit>, 
+              etc. 
+              Confirmatur desertio Dei finalis 
+              est nolle <unclear>nolle <!-- is this a mistake, dbcheck --></unclear> 
+              misereri vel non velle misereri, 
+              sed decedere finaliter in culpa est maxima pars damnationis, 
+              sed illam potest Deus revelare, 
+              ut patet per textus <unclear>praemissos</unclear>.
+            </p>
+            <p xml:id="pgb1q32-d1e3725">
+              Secunda pars: 
+              corollarii probatur 
+              quia Dei dicere seu revelare evidens 
+              adextra non plus necessitat eventum rei futurum, 
+              ergo quam eius dicere adintra immense evidens et certum, 
+              sed tale dicere adintra non necessitate, 
+              ut patet per <name ref="#Lombard">Magistrum</name>, 
+              ergo. 
+              Maior nota et minor 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e669">distinctione 38</ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 38, xxx
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q32-d1e3740">
+              Secundum corollarium: 
+              Deus non potest solum damnationem 
+              alicui revelare conditionaliter, 
+              sed etiam potest hoc cuilibet dampnando 
+              revelare absolute simpliciter. 
+              Patet per corollarium.
+            </p>
+            <p xml:id="pgb1q32-d1e3752">
+              <pb ed="#L" n="97-r"/>
+              Tertium corollarium: 
+              sicut cum revelati <unclear>s[?]</unclear> 
+              evidentia stat eiusdem continentiae, 
+              sic sine dolore et tristitia 
+              potest haberi huius revelationis evidentia 
+              vel sic stat aliquam suam damnationem videre 
+              et de ipsa nullam displicentiam habere. 
+              Prima patet 
+              quia cum clara visione beati damnationis futurae 
+              stat ipsam contingenter evenire et posse numquam evenire. 
+              Secunda pars probatur 
+              quia ille cui fiet talis 
+              revelatio etiam videret 
+              quod illud posset non evenire 
+              saltim deberet hoc credere 
+              et sic posset gratiam Dei sperare 
+              nec deberet desperare, 
+              ex quo patet quod si talis certitudinaliter se dampnandum, 
+              licet Deus concurreret aliquid entitatem actus credendi, 
+              non tamen concurreret ad talis credere effective, 
+              licet forte improprie et obiective. 
+              Ex dictis patet responsio ad quaestionem quia, 
+              licet Deus praedestinatum 
+              non possit de damnatione in verbo certificare, 
+              tamen potest in verbo suam 
+              damnationem clare et certitudinaliter videre. 
+              Prima pars quia tunc Deus certitudinaliter 
+              faceret credere se esse damnandum, 
+              et sic Deus facere posset ipsum peccare quod est falsum. 
+              Secunda pars probatur 
+              quia sibi potest ostendere dignitatem 
+              vitae aeternae et condignam poenae imputabilitatem, 
+              ergo etc.
+            </p>
+          </div>
+          <div xml:id="pg-b1q32-Dd1e697">
+            <head xml:id="pg-b1q32-Hd1e699">
+              <supplied>Obiectiones et responsiones</supplied>
+            </head>
+            <p xml:id="pgb1q32-d1e3824">
+              Contra primam conclusionem, 
+              arguitur per 
+              <ref xml:id="pg-b1q32-Rd1e707" corresp="#pg-b1q32-Qd1e718">
+                <name ref="#Augustine">Beatum Augustinum</name> 
+                super illo <title ref="#io">Iohannis</title> 14
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e718" ana="#io14_2">
+                  vado vobis parare locum
+                </quote>
+              </cit>,
+              dicentem non praedestinatos praedestinando, 
+              ergo sequitur quod talis gratiae 
+              et gloriae praeparatio fieri potest 
+              ex tempore et non solum 
+              aeternaliter contra conclusionem.
+            </p>
+            <p xml:id="pgb1q32-d1e3845">
+              Secundo, 
+              contra primum corollarium aliquis 
+              non est praedestinatus et potest esse praedestinatus, 
+              ergo potest incipere ese praedestinatus. 
+              Similiter posset sic 
+              argui aliquid non est futurum et potest esse futurum, 
+              ergo potest incipere esse futurum.
+            </p>
+            <p xml:id="pgb1q32-d1e3855">
+              Tertio contra tertium corollarium, 
+              si Deus posset plura scire vel praescire, 
+              sequitur <unclear>et?</unclear> quod pauciora, 
+              et sic sequitur quod mere contingenter 
+              et non necessario praesciret futura, 
+              cuius oppositum nititur probare 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e733">
+                  <name ref="#AlphonsusVargas">Alphonsus</name> 
+                  38 distinctione
+                </ref>
+                <bibl>
+                  <name>Alphsonsu Vargas</name>,
+                  <title>Sent.</title>
+                  I, d. 39, xxx
+                </bibl>
+              </cit>,
+              ubi arguit sic 
+              non minori necessitate futurum est futurum 
+              quam praeteritum sit praeteritum sed necesse 
+              est praeteritum esse praeteritum, 
+              ergo. 
+              Maior patet 
+              quia non est maior repugnantia hic 
+              quam ibi cum utrobique idem praedicetur 
+              de se ipso et minor et nota.
+            </p>
+            <!-- consider collapsing paragraphs -->
+            <p xml:id="pgb1q32-d1e3891">
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e755" corresp="#pg-b1q32-Qd1e766">
+                <name ref="#Augustine">Augustinus</name> 
+                II 
+                <title ref="#ContraFaustum">Contra Faustum</title> 
+                responsione 14
+              </ref> 
+              dicit 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e766">
+                  tam non possunt futura non fieri 
+                  quam non fuisse facta praeterita
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Contra Faustum</title>, 
+                  II, resp. 14, xxx
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q32-d1e3905">
+              Contra secundam conclusionem, 
+              si praedestinatus 
+              posset damnari et finaliter peccare, 
+              et similiter praescitus salvari, 
+              sequitur quod voluntas creata 
+              posset esse causa suae praedestinationis. 
+              Consequens est falsum, 
+              et patet consequentia 
+              quia talis variationis, 
+              nulla potest esse causa nisi voluntas creata. 
+              Item, si sic, 
+              nullus posset per quamcumque revelationem 
+              de sua salute certificari. 
+              Consequens est falsum 
+              ut patet per dicta superius. 
+              Aliunde patet quia tunc nulla 
+              esset prophetia 
+              quia secundum 
+              <ref xml:id="pg-b1q32-Rd1e787" corresp="#pg-b1q32-Qd1e787">
+                <name ref="#Cassiodorus">Cassiodorus</name>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e787" ana="#Cassiodorus_ExpositioPsalmorum_prol_a">
+                  prophetia est inspiratio vel revelatio divina rerum
+                  eventus immobili veritate denuntians. 
+                  <!-- Exposition of the Psalter, Prol., PL 70, 12 -->
+                </quote>
+                <bibl>
+                  <name>Cassiodorus</name>, 
+                  <title>Expositio Psalmorum</title>, 
+                  Prol. 
+                  (PL 70:12)
+                </bibl>
+              </cit> 
+              Si enim aliter posset evenire quam 
+              <unclear>proph?antum</unclear> 
+              sit non denuntiaret immobiliter talem veritatem.
+            </p>
+            <p xml:id="pgb1q32-d1e3940">
+              Tertio contra 
+              <pb ed="#L" n="97-v"/> 
+              primum corollarium, 
+              voluntas Dei et aeterna et immutabilis, 
+              ergo nihil quod vult potest non velle. 
+              Tenet consequentia 
+              quia, 
+              si Deus vult <c>a</c> fore et aliquid 
+              aliud a Deo potest facere quod 
+              <c>a</c> non erit, 
+              sequitur quod aliud a Deo 
+              potest frustrare voluntatem Dei.
+            </p>
+            <p xml:id="pgb1q32-d1e3959">
+              Quarto, 
+              si posset non velle quod vult, 
+              sequitur a simili 
+              quod posset facere <name ref="#Abraham">Abraham</name> 
+              non fuisse virginem 
+              non peperisse Christum genus humanum non redemisse. 
+              Consequens est falsum 
+              quia hoc solo privatur Deus 
+              ut faciat de praeterito non praeteritum 
+              secundum <name ref="#Anselm">Anselmum</name>.
+            </p>
+            <p xml:id="pgb1q32-d1e3976">
+              Contra tertiam conclusionem, 
+              arguitur per 
+              <ref xml:id="pg-b1q32-Rd1e828" corresp="#pg-b1q32-Qd1e836">
+                <name ref="#Lombard">Magistrum</name>, 
+                distinctione 40
+              </ref>, 
+              ubi dicit quod 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e836">
+                  praedestinatio tantum de bonis est
+                </quote>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 40, xxx <!-- unclear if direct quote -->
+                </bibl>
+              </cit>,
+              ergo non dicitur respectu malorum 
+              seu praescitorum.
+            </p>
+            <p xml:id="pgb1q32-d1e3989">
+              Secundo contra primam partem primi corollarii, 
+              Deus potest absolute revelare 
+              praescito suam damnationem finalem existenti in gratia, 
+              ergo etiam potest praedestinato 
+              elective damnationem revelare. 
+              Consequentia tenet 
+              quia revelatio plus 
+              repugnat praedestinationi 
+              ut sic quam <unclear>habitio<!-- possibily "abitio" --></unclear> gratiae.
+            </p>
+            <p xml:id="pgb1q32-d1e4016">
+              Tertio, 
+              aut talis revelatio 
+              licite potest orare pro aut non. 
+              Si sic, 
+              sequitur quod licite posset contra Dei 
+              voluntatem sibi notam. 
+              Si non sequitur quod Deus erit causa suae desperationis 
+              et peccati sui.
+            </p>
+            <p xml:id="pgb1q32-d1e4026">
+              Quarto, 
+              sequitur quod Deus posset aliquem decipere. 
+              Consequens est falsum. 
+              Patet consequentia 
+              quia si Deus revelet alicui suam damnationem 
+              vel aliquam futuram veritatem 
+              ipse causabit in illo assensum et credulitatem illius, 
+              et tamen oppositum poterit evenire quo facto, 
+              sequitur ipsum deceptum esse 
+              et non nisi a Deo revelante 
+              et assensum causante, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q32-d1e4044">
+              Ad primam, 
+              dicitur quod praedestinatio sumitur dupliciter. 
+              Uno modo inquantum est in se aeterna praeparatio. 
+              Secundo modo inquantum huius praeparationis 
+              effectus et operatio 
+              et sic <name ref="#Augustine">Augustinus</name> 
+              loquitur primo modo non secundo.
+            </p>
+            <p xml:id="pgb1q32-d1e4058">
+              Ad secundam, 
+              negatur consequentia.
+            </p> 
+            <p xml:id="pgb1q32-d1e4062">
+              Ad tertiam, 
+              conceditur consequens et consequentia, 
+              et ad probationem negatur maior si intelligitur de re dicti 
+              quia praeteritum necessario est praeteritum necessitate consequentiae 
+              et illa non est tanta sicut alia. 
+              Secundo, 
+              dicitur quod, 
+              si illa propositio sit de dicto adhuc negatur 
+              quia tunc valeret illam, 
+              sicut haec est necessaria praeteritum est praeteritum, 
+              ita haec futurum est futurum 
+              et hoc est falsum 
+              quia ipsa est simpliciter contingens. 
+              Et cum probatur 
+              quia non est maior repugnantia etc.,
+              dicitur quod arguitur a pluribus causis veritatis ad unam, 
+              ideo consequentia non valet, 
+              nam haec propositio 
+              <mentioned>futurum non est futurum</mentioned>
+              potest habere duas causas veritatis, 
+              una est 
+              <mentioned>futurum est et non est futurum</mentioned>, 
+              et haec est falsa. 
+              Alia causa est 
+              <mentioned>ista futurum non est nec aliquid est futurum</mentioned>, 
+              et potest haec esse.
+            </p>
+            <p xml:id="pgb1q32-d1e4108">
+              Ad <name ref="#Augustine">Augustinum</name> 
+              dicitur quod loquitur in sensu composito 
+              non diviso ibi et in similibus, 
+              unde vult dicere quod 
+              sicut impossibile est praeteritum non fuisse, 
+              sic impossibile est Deum velle futurum 
+              et illud non evenire. 
+              Ad illud 
+              <ref xml:id="pg-b1q32-Rd1e892" corresp="#pg-b1q32-Qd1e898">
+                <title ref="#ps">Psalmus</title>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e898" ana="#ps68_29">
+                  deleantur de libro viventium
+                </quote>
+                <bibl>Psalmus 68:29</bibl>
+              </cit>.
+              Illud est numquam scripti ostendantur 
+              quia scripti in hac vita videbantur.
+            </p>
+            <p xml:id="pgb1q32-d1e4132">
+              Ad aliud 
+              dicitur quod, 
+              licet illud 
+              <name ref="#Moses">Moyses</name> 
+              <unclear>pecierit</unclear>, 
+              tamen non sequitur 
+              quod illud possibile fuerit 
+              quia etiam secundum 
+              <name ref="#Aristotle">Philosophum</name> 
+              voluntas est impossibilium, 
+              hoc tamen non voluit absolute.
+            </p>
+            <p xml:id="pgb1q32-d1e4151">
+              Ad primam contra secundam conclusionem, 
+              dicitur primo quod sumendo <mentioned>praedestinationem</mentioned> 
+              pro praescientia et praeparatione beneficii futuri, 
+              sic negatur consequens et consequentia. 
+              Si autem sumeretur <mentioned>praedestinatio</mentioned> per 
+              <pb ed="#L" n="98-r"/> 
+              effectu praedestinationis, 
+              sic conceditur consequens 
+              et consequentia 
+              quia voluntas creata potest mereri aliquem 
+              effectum suae praedestinationis 
+              et reprobationis <!-- punctuation here ?? --> 
+              et eadem distinctio in virtute posita est superius.
+            </p>
+            <p xml:id="pgb1q32-d1e4168">
+              Ad secundam, 
+              negatur consequentia quia, 
+              licet posset creare illud vel aliud futurum et ostendere, 
+              tamen non potest effective certificare de illo.
+            </p>
+            <p xml:id="pgb1q32-d1e4175">
+              Secundo, 
+              dicitur pro materia argumenti 
+              quod talis erit certificatus 
+              per talem revelationem, 
+              ita quod talis certitudo adhaesionis 
+              excludet omnem dubitationem, 
+              tamen non erit certus certitudine demonstrationis vel necessitatis, 
+              et quando dicitur quod 
+              tunc prophetia non enuntiaret veritate immobili futura, 
+              hic dicitur quod, 
+              si sumatur 
+              <mentioned>immobile</mentioned> 
+              pro eo quod nullo modo potest moveri,
+              conceditur
+              <app>
+                <lem n="conceditur"/>
+                <rdg wit="#L" type="variation-present" cause="repetitio">
+                  conceditur
+                </rdg>
+              </app>, 
+              sic consequens, 
+              si vero pro eo quod non movebitur, 
+              sic negatur consequentia, 
+              et sic loquitur 
+              <name ref="#Cassiodorus">Cassiodorus</name>. 
+              Nota tamen quod quaedam est prophetia 
+              secundum praescientiam quaedam 
+              secundum <unclear>comm?ationem</unclear> <unclear>q?e</unclear> 
+              non semper impletur 
+              secundum sonum verborum 
+              <name ref="#RichardKilvington">Clienton</name>.
+            </p>
+            <p xml:id="pgb1q32-d1e4226">
+              Ad tertiam, 
+              negatur consequentia quia volitio Dei 
+              respectu futuri contingentis est 
+              quaedam relatio quae potest fieri 
+              non relatio nulla mutatione 
+              in Deo facta sed per solam mutationem in alio 
+              sicut columna potest fieri dextra et sinistra.
+            </p>
+            <p xml:id="pgb1q32-d1e4240">
+              Ad quartam, 
+              dicere <name ref="#RichardKilvington">Clienton</name> 
+              quod possibile est per divinam potentiam 
+              quod <name ref="#Abraham">Abraham</name> 
+              et alia praeterita non fuerit quia apud Deum nihil praeteriit. 
+              Vide eius rationes, 
+              sed posset negari consequentia 
+              quia non est simile eo quod veritas aliquorum dependet a futuro.
+            </p>
+            <p xml:id="pgb1q32-d1e4262">
+              <unclear>Ad primam consequentia 3am conclusionem <!-- is there some sort of mistake here --></unclear> 
+              primo, 
+              dicitur quod magis est assentiendum 
+              <name ref="#Augustine">Augustino</name> 
+              quam <name ref="#Lombard">Magistro</name>. 
+              Secundo, 
+              dici potest quid ibi 
+              <name ref="#Lombard">Magister</name> 
+              sumit stricte praedestinationem et proprie, 
+              et sic non est contra corollarium nec 
+              <name ref="#Augustine">Augustinum</name> 
+              quia sumit large praedestinationem.
+            </p>
+            <p xml:id="pgb1q32-d1e4284">
+              Pro quo nota quod 
+              <mentioned>praedestinatio</mentioned> 
+              quandoque sumitur large et generaliter 
+              pro <unclear>rodinatione</unclear> 
+              vel praeparatione seu praevisione 
+              cuiuscumque futuri sic capit 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e1004">
+                  <name ref="#Augustine">Augustinus</name>, 
+                  <title ref="#ContraDuasEpistolasPelagianorum">Contra Pelagium<!-- not 100% about identification dbcheck --></title>, 
+                  libro 2, capitulo 9
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Contra Pelagium</title>, 
+                  II, c. 9, xxx
+                </bibl>
+              </cit>.
+              Secundo, 
+              sumitur praedestinatio specialiter 
+              pro praeordinatione divinae voluntatis 
+              aut praescientiae aut praevisione 
+              in ordine ad creaturas rationales humanas vel angelicas, 
+              et sic sumit eam 
+              <name ref="#Augustine">Augustinus</name> 
+              ubi fuit allegatus supra. 
+              Item, 
+              <ref xml:id="pg-b1q32-Rd1e1027" corresp="#pg-b1q32-Qd1e1033">capitulo 8</ref> 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e1033" ana="#Augustine_Enchiridion_1_26_100_a">
+                  Deus aliquos iuste 
+                  praedestinavit ad poenam 
+                  et aliquos benigne ad gratiam
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Enchridion</title>, 
+                  I, 26, 100, xxx
+                </bibl>
+              </cit>. 
+              Item,
+              <ref xml:id="pg-b1q32-Rd1e1046" corresp="#pg-b1q32-Qd1e1054">
+                <name ref="#IsidoreOfSeville">Isidorus</name> 
+                libro 2, 6 capitulo
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e1054">
+                  <unclear>gemina</unclear> est praedestinatio 
+                  scilicet electorum ad requiem et reproborum ad mortem
+                </quote>
+                <bibl>
+                  <name>Isidorus</name>, 
+                  XXX, II, c. 6, xxx
+                </bibl>
+              </cit>.
+            </p>
+            <!-- if this paragraph break persists, the "secundo" above needs to become a new paragraph -->
+            <p xml:id="pgb1q32-d1e4338">
+              Tertio, 
+              modo sumitur <mentioned>praedestinatio</mentioned> proprie 
+              pro praeordinatione bonorum 
+              respectu creaturae rationalis, 
+              et sic describitur praedestinatio est aeterna praeparatio a 
+              divina voluntate gratiae finalis in via 
+              et gloriae perennis in patria. 
+              Patet per 
+              <ref xml:id="pg-b1q32-Rd1e1075" corresp="#pg-b1q32-Qd1e1086">
+                <name ref="#Augustine">Augustinum</name> 
+                in 
+                <title>Praedestinatione sanctorum</title>, 
+                capitulo 12
+              </ref>, 
+              dicentem 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e1086">
+                  praedestinatio est gloriae praeparatio 
+                  quod debet intelligit de gratia finali 
+                  quia multi habent gratiam qui finaliter cadunt ab ea
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Praedestinatio Sanctorum</title>, 
+                  c. 12, xxx
+                </bibl>
+              </cit>. 
+              Ex quo patet 
+              quod non quaelibet gratia gratificans 
+              est divinas praedestinationis 
+              effectus sumendo primo vel secundo 
+              in omnis praedestinationem. 
+              Patet quia omne tale procedit 
+              a divina voluntate aeternaliter
+              praeoridinate illud se dare, etc.
+            </p>
+            <p xml:id="pgb1q32-d1e4378">
+              Notandum in super quod revelatio 
+              quandoque sumitur pro ostensione facta alicuius 
+              rei futurae tantum, 
+              et sic loquitur hic 
+              et talis revelatio fit quinque per visionem 
+              corporalem quandoque 
+              vero fit per spiritualem 
+              sicut fuit visio <name ref="#Paul">Pauli</name> 
+              in raptu. 
+              Item, 
+              notandum quod revelare 
+              aliquid proprie est intellectum creatum in 
+              assentiendo alicui vero de futuro inducere 
+              cui talis intellectus non assentit. 
+              <unclear>Ex <!-- missing "quo" ?? --> patet</unclear> 
+              quod nulla creatura potest revelare alteri 
+              nisi illud quod eidem 
+              <pb ed="#L" n="98-v"/> 
+              revelatum. 
+              Patet 
+              quia nulla creatura potest scire 
+              futura nisi Deus ei revelaverit.
+            </p> 
+            <p xml:id="pgb1q32-d1e4403">
+              Ad secundam, 
+              negatur consequentia sumpto consequente 
+              in sensu composito ratio est 
+              quia damnatio non tam formaliter 
+              repugnat gratiae sicut praedestinationem 
+              propter perpetuitatem miseriae 
+              et gloriae quae sunt incompossibilia.
+            </p>
+            <p xml:id="pgb1q32-d1e4418">
+              Ad tertiam, 
+              dicitur quod sic quia, 
+              licet Deus vellit ipsum, 
+              tamen damnari, 
+              tamen potest hoc numquam voluisse
+              nec vult istum hoc velle. 
+              Secundo, 
+              dicitur quod talis debet 
+              hoc <unclear>si?mter</unclear> 
+              quod propter istam revelationem Deus non obligat 
+              ipsum ad volendum suam damnationem. 
+              Tertio, 
+              dicitur quod numquam videt suam 
+              damnationem ita clare 
+              quin videat oppositum Deum facere posse, 
+              et tamen licite potest credere se finaliter damnandum.
+            </p>
+            <p xml:id="pgb1q32-d1e4462">
+              Ad ultimam, 
+              negatur consequentia. 
+              Secundo, 
+              posset dici quod 
+              est impossibile quod Deus causet omnem assensum 
+              in illo respectu revelati et 
+              quod oppositum eveniat stante <unclear>tai <!-- typo here --></unclear> revelatione. 
+              Tertio, 
+              dicitur quod causare aliquem assensum 
+              Deus posset respectu alicuius revelati 
+              quo assensu stante habens potest causare alium assensum 
+              circa idem propter quod esset deceptus 
+              et talis deceptio non esset 
+              a Deo nec propter Deum.
+            </p>
+            <p xml:id="pgb1q32-ariest">
+              Ad rationes in oppositum, 
+              patet quid sit dicendum 
+              ex supra dictis, etc. Sequitur textus.
+            </p>
+          </div>
         </div>
-        <div>
-          <head>Conclusiones</head>
+        <div xml:id="pg-b1q32-Dd1e1135">
+          <head xml:id="pg-b1q32-Hd1e1137">Conclusiones</head>
           <p xml:id="pgb1q32-d1e4481">
             <cit>
-              <quote>Praedestinatio vero.</quote>
-              <bibl>Lombardus, I, d. 40, c. xxx</bibl>
-            </cit> 
-            Prima conclusio huius distinctionis 40: praedestinatio 
-            est praeparatio gratiae ad salutem consequendam, unde praedestinationis effectus duplex 
-            est unus temporalis in via, scilicet infusio gratiae, alius in patria aeternalis, 
-            scilicet collatio gloriae.</p>
-          
-          <p xml:id="pgb1q32-d1e4494">Secunda conclusio, cum dicitur praedestinatus non potest damnari verum est si 
-            coniunctim sumatur. Si autem divisim falsum quia praedestinatus potest non 
-            esse praedestinatus et sic damnari.</p>
-          
-          <p xml:id="pgb1q32-d1e4514">Tertia conclusio: quod sicut Deus potuit ab 
-            aeterno aliquem non praedestinare, ita conceditur a quibusdam quod modo 
-            etiam potest Deus illum non praedestinasse, ideo ille potest non fuisse praedestinatus 
-            nec modo esset praedestinatus si vero non fuisset praedestinatus nec 
-            nec modo esset praedestinatus, et per consequens potest modo non esse non esse praedestinatus, 
-            et conformiter potest dici de praescientia et praescitis. Hoc tamen in 
-            impossibile est non fuisse factum vel dictum referendo possibilitatem vel impossibilitatem 
-            rei existentis ad naturam, cum vero agitur de Dei praescientia vel praedestinatione 
-            possibilitas vel impossibilitas ad Dei poenam refertur quae semper idem est et semper 
-            idem fuit.</p>
-          
-          <p xml:id="pgb1q32-d1e4545">Quarta conclusio: reprobatio est praescientia iniquitatis quorumdam et praeparatio 
-            damnationis eorumdem, ita tamen quod iniquitatem praescit, sed non praeparat poenam 
-            vero aeternam praescit et praeparat.</p>
-          
-          <p xml:id="pgb1q32-d1e4568">Quinta conclusio: quod sicut effectus praedestinationis 
-            est gratiae operatio, ita effectus reprobationis aeternae est quodammodo seu esse 
-            videtur obduratio, nec tamen Deus aliquem obdurat impartive vel immittendo 
-            malitiam, sed non impartiendo gratiam et haec sufficiant.</p>     
+              <quote xml:id="pg-b1q32-Qd1e1144" type="lemma">
+                Praedestinatio vero
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 40, c. xxx.
+              </bibl>
+            </cit>. 
+            Prima conclusio huius distinctionis 40: 
+            praedestinatio est praeparatio 
+            gratiae ad salutem consequendam, 
+            unde praedestinationis effectus duplex 
+            est unus temporalis in via, 
+            scilicet infusio gratiae, 
+            alius in patria aeternalis, 
+            scilicet collatio gloriae.
+          </p>
+          <p xml:id="pgb1q32-d1e4494">
+            Secunda conclusio, 
+            cum dicitur praedestinatus 
+            non potest damnari verum est si coniunctim sumatur. 
+            Si autem divisim falsum 
+            quia praedestinatus potest non 
+            esse praedestinatus et sic damnari.
+          </p>
+          <p xml:id="pgb1q32-d1e4514">
+            Tertia conclusio: 
+            quod sicut Deus potuit ab 
+            aeterno aliquem non praedestinare, 
+            ita conceditur a quibusdam quod modo 
+            etiam potest Deus illum non praedestinasse, 
+            ideo ille potest non fuisse praedestinatus 
+            nec modo esset praedestinatus 
+            si vero non fuisset praedestinatus nec 
+            nec modo esset praedestinatus, 
+            et per consequens potest modo 
+            non esse non esse praedestinatus, 
+            et conformiter potest dici 
+            de praescientia et praescitis. 
+            Hoc tamen in impossibile est non fuisse factum 
+            vel dictum referendo possibilitatem vel impossibilitatem 
+            rei existentis ad naturam, 
+            cum vero agitur de Dei praescientia vel praedestinatione 
+            possibilitas vel impossibilitas 
+            ad Dei poenam refertur 
+            quae semper idem est et semper idem fuit.
+          </p>
+          <p xml:id="pgb1q32-d1e4545">
+            Quarta conclusio: 
+            reprobatio est praescientia iniquitatis 
+            quorumdam et praeparatio 
+            damnationis eorumdem, 
+            ita tamen quod iniquitatem praescit, 
+            sed non praeparat poenam 
+            vero aeternam praescit et praeparat.
+          </p>
+          <p xml:id="pgb1q32-d1e4568">
+            Quinta conclusio: 
+            quod sicut effectus praedestinationis 
+            est gratiae operatio, 
+            ita effectus reprobationis aeternae est 
+            quodammodo seu esse videtur obduratio, 
+            nec tamen Deus aliquem obdurat 
+            impartive vel immittendo malitiam, 
+            sed non impartiendo gratiam et haec sufficiant.
+          </p>
         </div>
-      </div>  
+      </div>
     </body>
   </text>
 </TEI>
