@@ -1,27 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 35</title>
+        <title>Liber I, Quaestio 35</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 35</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 35</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-11-22">November 22, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
@@ -29,257 +24,443 @@
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-01" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="103-v"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b1q35">
-        <head>Quaestio 35</head>
-        <div>
-          <head><supplied>Circa textum</supplied></head>
+        <head xml:id="pg-b1q35-Hd1e95">Quaestio 35</head>
+        <div xml:id="pg-b1q35-Dd1e98">
+          <head xml:id="pg-b1q35-Hd1e100">
+            <supplied>Circa textum</supplied>
+          </head>
           <p xml:id="pgb1q35-d1e3237">
             <cit>
-              <quote><unclear>Quidam</unclear> tamen de suo sensu gloriantes</quote>
-              <bibl>Lombardus, I, d. 43</bibl>
+              <quote xml:id="pg-b1q35-Qd1e110" type="lemma">
+                <unclear>Quidam</unclear> tamen de suo sensu gloriantes
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 43
+              </bibl>
             </cit> 
             postquam 
-            <name ref="#Lombard">Magister</name> superius determinavit de Dei omnipotentia per respectum ad 
-            <sic>ad</sic> productorum entitatem, nunc vero in hac 43 distinctione tractat de 
-            ipsam per respectum ad ipsorum quantitatem seu numerositatem.</p> 
-          
-          <p xml:id="pgb1q35-d1e3254">Et dividitur in tres 
-            quia primo refellit unam opinionem <unclear>falsidam[?]</unclear>, secundo adducit et solvit eius 
-            rationem sophisticam, tertio ponit determinationem propriam veridicam. Secunda incipit ibi 
+            <name ref="#Lombard">Magister</name> 
+            superius determinavit de Dei omnipotentia per respectum ad 
+            <sic>ad</sic> productorum entitatem, 
+            nunc vero in hac 43 distinctione tractat de 
+            ipsam per respectum ad ipsorum quantitatem seu numerositatem.
+          </p> 
+          <p xml:id="pgb1q35-d1e3254">
+            Et dividitur in tres 
+            quia primo refellit unam opinionem <unclear>falsidam[?]</unclear>, 
+            secundo adducit et solvit eius 
+            rationem sophisticam, 
+            tertio ponit determinationem propriam veridicam. 
+            Secunda incipit ibi 
             <cit>
-              <quote>non potest Deus.</quote>
-              <bibl>Lombardus, I, d. 43, xxx</bibl>
-            </cit> 
+              <quote xml:id="pg-b1q35-Qd1e140" type="lemma">non potest Deus</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 43
+              </bibl>
+            </cit>.
             Tertia 
             <cit>
-              <quote>fateamur itaque Deum.</quote>
-              <bibl>Lombardus, I, d. 43, xxx</bibl>
-            </cit>
+              <quote xml:id="pg-b1q35-Qd1e155" type="lemma">fateamur itaque Deum</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 43
+              </bibl>
+            </cit>.
           </p>
-        
-        <p xml:id="pgb1q35-d1e3267">Secunda pars habet septem partes quas adducit 
-          pro illa falsa opinione partes patebunt legendo, et haec est in generali divisio, etc.</p>
+          <p xml:id="pgb1q35-d1e3267">
+            Secunda pars 
+            habet septem partes quas adducit 
+            pro illa falsa opinione partes patebunt legendo, 
+            et haec est in generali divisio, etc.
+          </p>
         </div>
-        <div>
-          <head><supplied>Quaestio</supplied></head>
-          <div>
-            <head><supplied>Rationes principales</supplied></head>
-            <p xml:id="pgb1q35-d1e3275">Utrum eam quae Deus praeordinavit immediate se facturum possit 
-              libere numquam facere in futurum.</p> 
-            
-            <p xml:id="pgb1q35-qnqpsf">Quod non quia nihil potest a Deo fieri, ergo. Consequentia 
-              bona quia conclusio supponit oppositum. Antecedens probatur quia, si sic, sequitur omnem creaturam 
-              esse possibilem quia Deus potest facere quod talis creatura potest fieri quia Deus potest facere 
-              illam sicut ideo domus potest fieri ab homine quia homo est artifex sciens et potens 
-              facere donum. Et consequentia patet a simili quia ideo <c>a</c> impossibile non potest a Deo fieri quia 
-              tale impossibile non potest <sic>possibiliari</sic> seu fieri.</p>
-            
-            <p xml:id="pgb1q35-d1e3308">Secundo, si quaestio esset vera, sequeretur quod etiam 
-              illud quod Deus non praeordinavit se facturum posset facere. Consequentia patet a simili, 
-              sed consequens falsum. <unclear>Probatio <!-- probo ?? --></unclear> quia tunc Deus posset producere aliquid infinitum, cum non 
-              videatur maior ratio de uno non praeordinato quam alio ad esse vel fore.</p>
-            
-            <p xml:id="pgb1q35-d1e3324">Tertio, inconveniens est non fieri ab homine prudente quia praeordinavit et praedixit 
-              se facturum et quod si faceret iuste et decenter faceret ergo inconveniens esset Deum 
-              non facere quae praeordinavit se facturum, et per consequens illud est impossibile. Ultima 
-              consequentia patet per <name ref="#Anselm">Anselmum</name> quia minimum inconveniens in Deo est impossibile.</p>
-            
-            <p xml:id="pgb1q35-d1e3338">In oppositum est 
+        <div xml:id="pg-b1q35-Dd1e173">
+          <head xml:id="pg-b1q35-Hd1e175">
+            <supplied>Quaestio</supplied>
+          </head>
+          <p xml:id="pgb1q35-d1e3275">
+            Utrum eam quae Deus praeordinavit immediate se facturum possit 
+            libere numquam facere in futurum.
+          </p>
+          <div xml:id="pg-b1q35-Dd1e184" type="rationes-principales">
+            <head xml:id="pg-b1q35-Hd1e186">
+              <supplied>Rationes principales</supplied>
+            </head>
+            <p xml:id="pgb1q35-qnqpsf">
+              Quod non quia nihil potest a Deo fieri, ergo. 
+              Consequentia 
+              bona quia conclusio supponit oppositum. 
+              Antecedens probatur quia, 
+              si sic, 
+              sequitur omnem creaturam 
+              esse possibilem 
+              quia Deus potest facere 
+              quod talis creatura potest fieri 
+              quia Deus potest facere 
+              illam sicut ideo domus potest fieri 
+              ab homine quia homo est artifex sciens et potens facere donum. 
+              Et consequentia patet a simili 
+              quia ideo <c>a</c> impossibile non potest a Deo fieri quia 
+              tale impossibile non potest <sic>possibiliari</sic> seu fieri.
+            </p>
+            <p xml:id="pgb1q35-d1e3308">
+              Secundo, 
+              si quaestio esset vera, 
+              sequeretur quod etiam 
+              illud quod Deus non praeordinavit se facturum posset facere. 
+              Consequentia patet a simili, 
+              sed consequens falsum. 
+              <unclear>Probatio <!-- probo ?? --></unclear> 
+              quia tunc Deus posset producere aliquid infinitum, 
+              cum non videatur maior ratio de uno 
+              non praeordinato quam alio ad esse vel fore.
+            </p>
+            <p xml:id="pgb1q35-d1e3324">
+              Tertio, 
+              inconveniens est non fieri ab homine prudente 
+              quia praeordinavit et praedixit 
+              se facturum et quod si faceret iuste et decenter faceret 
+              ergo inconveniens esset Deum 
+              non facere quae praeordinavit se facturum, 
+              et per consequens illud est impossibile. 
+              Ultima consequentia patet 
+              per <name ref="#Anselm">Anselmum</name> 
+              quia minimum inconveniens in Deo est impossibile.
+            </p>
+            <p xml:id="pgb1q35-d1e3338">
+              In oppositum est 
               dictum Christi potestate habeo ponendi animam meam et iterum sumendi eam, 
               sed praeordinaverat animam suam pro omnibus ponere et potuit illam libere 
-              a dolore et morte <unclear>exipere</unclear> et praeservare, ergo quod praeordinavit se facturum 
-              potest non facere.</p>
-            
-            <p xml:id="pgb1q35-d1e3353">Confirmatur quia quidquid Deus praeordinavit se facturum illud prae<pb ed="#L" n="104r"/>ordinavit  
+              a dolore et morte <unclear>exipere</unclear> et praeservare, 
+              ergo quod praeordinavit se facturum 
+              potest non facere. 
+              Confirmatur quia quidquid Deus praeordinavit se facturum illud prae<pb ed="#L" n="104r"/>ordinavit  
               contingenter et libere, ergo illud faciet contingenter et libere, ergo posset 
-              illud numquam facere, ergo quaestio vera.</p>
+              illud numquam facere, ergo quaestio vera.
+            </p>
           </div>
-          <div>
-            <head><supplied>Prima conclusio</supplied></head>
-            <p xml:id="pgb1q35-d1e3362">Prima conclusio: licet Deus ideo non 
-              possit <c>a</c> impossibile inesse producere quia impossibile est <c>a</c> produci inesse, tamen ideo 
-              <c>b</c> producibile potest esse quia Deus potest <c>b</c> inesse producere. Prima pars probatur quia, 
-              si non sequitur quod econverso, ideo <c>a</c> non potest esse quia Deus non potest <c>a</c> producere, sed hoc 
-              est falsum quia illud importaret insufficientiam et de factum potentiae in Deo, igitur. 
-              Patet consequentia ultima quia per illud designatur quod prima causa et ratio huius impossibilitatis 
-              esset negatio potentiae in Deo et defectus potentiae requisitae sufficienter ad illud 
-              producendum exemplum, si ideo sol non potest illuminare extra caelum vel infra 
-              clausam donum quia ibi non est locus illuminabilis vel quia est impeditum 
-              propter corpus opacum propter hoc non notatur defectus potentiae insolubile. Confirmatur 
-              quia, si ideo visus non potest videre sonum quia sonus non est visibilis et non 
-              econverso, ergo a simili, ideo Deus non potest, etc.</p>
-        
-            <p xml:id="pgb1q35-d1e3436">Secunda pars conclusionis probatur quia dicit <c>b</c> est 
+          <div xml:id="pg-b1q35-Dd1e223">
+            <head xml:id="pg-b1q35-Hd1e225">
+              <supplied>Prima conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q35-d1e3362">
+              Prima conclusio: 
+              licet Deus ideo non 
+              possit <c>a</c> impossibile inesse producere 
+              quia impossibile est <c>a</c> produci inesse, 
+              tamen ideo <c>b</c> producibile potest esse 
+              quia Deus potest <c>b</c> inesse producere. 
+              Prima pars probatur quia, 
+              si non sequitur quod econverso, 
+              ideo <c>a</c> non potest esse 
+              quia Deus non potest <c>a</c> producere, 
+              sed hoc est falsum 
+              quia illud importaret insufficientiam 
+              et de factum potentiae in Deo, 
+              igitur. 
+              Patet consequentia ultima 
+              quia per illud designatur 
+              quod prima causa et ratio huius impossibilitatis 
+              esset negatio potentiae in Deo 
+              et defectus potentiae requisitae sufficienter ad illud producendum exemplum, 
+              si ideo sol non potest illuminare extra caelum vel infra clausam donum 
+              quia ibi non est locus illuminabilis 
+              vel quia est impeditum propter corpus opacum propter 
+              hoc non notatur defectus potentiae insolubile. 
+              Confirmatur quia, 
+              si ideo visus non potest videre sonum 
+              quia sonus non est visibilis et non 
+              econverso, ergo a simili, 
+              ideo Deus non potest, etc. 
+              Secunda pars conclusionis probatur quia dicit <c>b</c> est 
               ideo est quia Deus dat sibi esse ergo dum <c>b</c> potest esse, ideo potest esse quia Deus 
               potest sibi dare ess,e ergo tota conclusio vera. Confirmatur per 
-              <ref><name ref="#Anselm">Anselmus</name> in <title ref="#DeCasuDiaboli">De casu diaboli</title> 
-                dicentem capitulo 12</ref> 
+              <ref xml:id="pg-b1q35-Rd1e258" corresp="#pg-b1q35-Qd1e268">
+                <name ref="#Anselm">Anselmus</name> 
+                in 
+                <title ref="#DeCasuDiaboli">De casu diaboli</title> 
+                dicentem capitulo 12
+              </ref> 
               <cit>
-                <quote>ideo mundus est quia Deus potuit facere mundum antequam fieret 
-                  non quia mundus ipse prius potuit esse,</quote>
-              </cit> 
+                <quote xml:id="pg-b1q35-Qd1e268">
+                  ideo mundus est quia Deus potuit facere mundum antequam fieret 
+                  non quia mundus ipse prius potuit esse
+                </quote>
+              </cit>, 
               ex quibus verbis patere potest illa 
-              pars secunda.</p>
-            
-            <p xml:id="pgb1q35-d1e3470">Primum corollarium: licet omnis res factibilis possit a Deo solo produci 
+              pars secunda.
+            </p>
+            <p xml:id="pgb1q35-d1e3470">
+              Primum corollarium: licet omnis res factibilis possit a Deo solo produci 
               effective, tamen non omnem rem factibilem secundum qualibet suam conditionem et denominationem 
-              Deus potest se solo <corr><unclear>effective</unclear></corr> productive. Prima pars patuit in praecedenti 
-              conclusione. Secunda pars probatur quia actum meritorium cum conditionem <unclear>relatus</unclear> et relationis quem 
-              importat non potest producere, ergo. Antecedens patet quia esse meritorium est conditio actus 
+              Deus potest se solo <unclear>effective <!-- possibily corrected --></unclear> productive. 
+              Prima pars patuit in praecedenti conclusione. 
+              Secunda pars probatur 
+              quia actum meritorium cum conditionem <unclear>relatus</unclear> et relationis quem 
+              importat non potest producere, 
+              ergo. 
+              Antecedens patet 
+              quia esse meritorium est conditio actus 
               ut relati ad aliquam causam relatabilem conformiter agentem relative divinae. 
-              Item actus meritorius dicit relatum ad aliquod gratis acceptans talem actum 
-              ad aliquod certum praemium, ergo ut sic a solo Deo non potest produci.</p>
-            
-            <p xml:id="pgb1q35-d1e3498">Secundum 
-              corollarium: quod ideo Deus non potest simul verificare contradictoria quia illa ex suis 
-              propriis rationibus formaliter sunt repugnantia. Patet quia frustra eius repugnantiae 
+              Item, 
+              actus meritorius dicit relatum 
+              ad aliquod gratis acceptans talem actum 
+              ad aliquod certum praemium, 
+              ergo ut sic a solo Deo non potest produci.
+            </p>
+            <p xml:id="pgb1q35-d1e3498">
+              Secundum corollarium: 
+              quod ideo Deus non potest simul verificare contradictoria 
+              quia illa ex suis 
+              propriis rationibus formaliter sunt repugnantia. 
+              Patet quia frustra eius repugnantiae 
               et impossibilitatis assignaretur causa extrinseca ex quo per proprias quidditates 
-              sunt impossibilia et repugnantia.</p>
-            
-            <p xml:id="pgb1q35-d1e3510">Tertium corollarium: licet impossibilitas producendi 
-              <c>a</c> impossibile se teneat ex parte rei producibilis seu impossibilis, tamen impossibilitatis 
-              peccandi non se tenet ex parte peccati sed ex parte Dei impeccabilis. 
-              Prima patet per dicta. Secunda pars probatur quia peccatum fieri est possibile a creatura, ergo 
-              ex parte peccati non est assignanda impossibilitas illius qua impossibile est Deum 
-              peccare, sed ideo non potest peccare quia est summa perfectio a necessaria bonitas 
-              sine malitia. Ex quibus posset inferri quod, licet <c>a</c> possibile ideo possit 
-              esse quia deus est omnipotens, tamen <c>b</c> impossibile non ideo potest esse quia Deus non est 
-              omnipotens. Item sequitur quod convenientius dicitur ideo hominem non posse asinum quia 
-              Deus non vult sic esse quam quia Deus illud non potest facere. Patet quia secundum 
-              <pb ed="#L" n="104v"/> 
-              notat imperfectionem in Deo et primum non.</p>
+              sunt impossibilia et repugnantia.
+            </p>
+            <p xml:id="pgb1q35-d1e3510">
+              Tertium corollarium: 
+              licet impossibilitas producendi 
+              <c>a</c> impossibile se teneat 
+              ex parte rei producibilis seu impossibilis, 
+              tamen impossibilitatis 
+              peccandi non se 
+              tenet ex parte peccati sed ex parte Dei impeccabilis. 
+              Prima patet per dicta. 
+              Secunda pars probatur 
+              quia peccatum fieri est possibile a creatura, 
+              ergo ex parte peccati non est assignanda impossibilitas illius 
+              qua impossibile est Deum peccare, 
+              sed ideo non potest peccare 
+              quia est summa perfectio a necessaria bonitas sine malitia. 
+              Ex quibus posset inferri quod, 
+              licet <c>a</c> possibile ideo possit 
+              esse quia deus est omnipotens, 
+              tamen <c>b</c> impossibile non ideo potest esse 
+              quia Deus non est omnipotens. 
+              Item, 
+              sequitur quod convenientius dicitur 
+              ideo hominem non posse asinum 
+              quia Deus non vult sic esse quam 
+              quia Deus illud non potest facere. 
+              Patet quia secundum 
+              <pb ed="#L" n="104-v"/> 
+              notat imperfectionem in Deo 
+              et primum non.
+            </p>
           </div>
-          <div>
-            <head><supplied>Secunda conclusio</supplied></head> 
-            <p xml:id="pgb1q35-d1e3554">Secunda conclusio: licet Deus per suum immensum 
-              posse possit producere aliquid infinite perfectum in accidentis genere, tamen non 
-              potest aliquid infinitae perfectionis simpliciter in genere substantiae producere seu facere. Prima pars 
-              probatur quia Deus potest producere albedinem quae esset infinite perfecta albedo, 
-              et tamen non esset infinite perfectum accidens nec infinite 
+          <div xml:id="pg-b1q35-Dd1e301">
+            <head xml:id="pg-b1q35-Hd1e303">
+              <supplied>Secunda conclusio</supplied>
+            </head> 
+            <p xml:id="pgb1q35-d1e3554">
+              Secunda conclusio: 
+              licet Deus per suum immensum 
+              posse possit producere aliquid infinite perfectum 
+              in accidentis genere, 
+              tamen non potest aliquid infinitae perfectionis 
+              simpliciter in genere substantiae producere seu facere. 
+              Prima pars probatur 
+              quia Deus potest producere albedinem 
+              quae esset infinite perfecta albedo, 
+              et tamen non esset infinite perfectum accidens nec infinite perfectum
               <app>
-                <lem>perfectum</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del rend="expunctuated">accidens</del>
-                  </corr>
+                <lem n="perfectum"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="expunctuated">accidens</del>
                 </rdg>
               </app> 
-              ens 
-              simpliciter, ergo. Antecedens probatur quia illud non videtur claudem contradictionem sicut fuit 
-              supra probatum de productionem caritatis per partes proportionales etc. in praecedenti 
-              conclusione arguendo contra secundam conclusionem. Secunda pars probatur quia substantia infinitae perfectionis simpliciter esset 
-              simpliciter independens, et per consequens esset Deus, sed Deus adextra non potest alium producere 
-              Deum, ergo.</p>
-            
-            <p xml:id="pgb1q35-d1e3594">Primum corollarium: stat <c>a</c> esse infinite perfectam albedinem et <c>a</c> 
-              non esse infinite perfectam qualitatem. Patet quia si <c>a</c> esset infinita albedo 
-              adhuc in genere aequalitatis <c>b</c> caritas esset perfectior qualitas quam <c>a</c> quia esset 
-              speciei superioris.</p> 
-            
-            <p xml:id="pgb1q35-sccppi">Secundum corollarium: cum intentionem perfectionis in specie stat in eodem 
-              remissa perfectio in genere. Patet per idem.</p>
-            
-            <p xml:id="pgb1q35-d1e3630">Tertium corollarium: stat aliquid distare plus 
-              a non gradu suae speciei quam a non gradu perfectionis simpliciter seu a non 
-              gradu essendi. Patet quia, si <c>a</c> esset albedo infinita, ipsa distaret infinite 
-              a non esse albedinis, et tamen infinite sed finite distaret <c>a</c> non 
-              gradu entitatis vel perfectionis simpliciter. Ex 
+              ens simpliciter, 
+              ergo. 
+              Antecedens probatur 
+              quia illud non videtur claudem contradictionem 
+              sicut fuit supra probatum de productionem caritatis 
+              per partes proportionales, etc. 
+              in praecedenti conclusione arguendo 
+              contra secundam conclusionem. 
+              Secunda pars probatur 
+              quia substantia infinitae perfectionis simpliciter esset 
+              simpliciter independens, 
+              et per consequens esset Deus, 
+              sed Deus adextra non potest alium producere Deum, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q35-d1e3594">
+              Primum corollarium: 
+              stat <c>a</c> esse infinite perfectam albedinem et <c>a</c> 
+              non esse infinite perfectam qualitatem. 
+              Patet quia, 
+              si <c>a</c>, 
+              esset infinita albedo 
+              adhuc in genere aequalitatis <c>b</c> 
+              caritas esset perfectior qualitas quam <c>a</c> 
+              quia esset speciei superioris.
+            </p> 
+            <p xml:id="pgb1q35-sccppi">
+              Secundum corollarium: 
+              cum intentionem perfectionis in specie stat in eodem 
+              remissa perfectio in genere. 
+              Patet per idem.
+            </p>
+            <p xml:id="pgb1q35-d1e3630">
+              Tertium corollarium: 
+              stat aliquid distare plus 
+              a non gradu suae speciei 
+              quam a non gradu perfectionis 
+              simpliciter seu a non gradu essendi. 
+              Patet quia, 
+              si <c>a</c> esset albedo infinita, 
+              ipsa distaret infinite 
+              a non esse albedinis, 
+              et tamen infinite sed finite distaret <c>a</c> non 
+              gradu entitatis vel perfectionis simpliciter. 
+              Ex hoc
               <app>
-                <lem>hoc</lem>
-                <rdg wit="#L" type="intextu" cause="repetitio"><sic>hoc</sic></rdg>
+                <lem n="hoc"/>
+                <rdg wit="#L" type="variation-present" cause="repetitio">
+                  <sic>hoc</sic>
+                </rdg>
               </app>  
               patet quod illae perfectiones 
-              non possunt simul uniformiter remitti per certam mensuram usque ad non 
-              gradum. Patet quia tunc una posset esse sine altera quod est impossibile. Et patet deductio.</p>
-              </div>
-              <div>
-                <head><supplied>Tertia conclusio</supplied></head>
-                <p xml:id="pgb1q35-d1e3659">Tertia conclusio: sicut Deus illud quod ab aeterno voluit potest numquam voluisse, 
-                  sic Deus illud quod se facturum ordinavit potest numquam producere. 
-                  Prima pars patet per dicta in alii quaestionibus. Confirmatur quia libere et contingenter vult, ergo 
-                  potest non velle, sed ad Deum posse non velle, sequitur ipsum posse numquam voluisse, 
-                  ergo.</p>
-                
-                <p xml:id="pgb1q35-d1e3673">Secunda pars conclusionis probatur ex prima parte quia suum velle efficax est 
-                  suum facere, igitur sicut illud quod vult potest non velle, sic illud quod praeordinavit 
-                  se facturum possit numquam producere.</p>
-                
-                <p xml:id="pgb1q35-d1e3681">Confirmatur voluntas creata libere 
-                  et contingenter produxit actum suum ergo divina voluntas adextra. Patet consequentia cum rationali 
-                  veritatis et cotingentiae creaturae radicetur et fundetur in libertate divina. 
-                  Et antecedens experimur quia percipimus nos posse velle quod volumus vel quod 
-                  non volumus et econverso posse non velle quod volumus vel quod nolumus.</p>
-                
-                <p xml:id="pgb1q35-d1e3693">Primum 
-                  corollarium: ad Deum velle necessario antichristum fore, sequitur omnia evenire non contingenter 
-                  sed de necessitate. Patet quia secundum <name ref="#Lombard">Magistrum</name> cum eius voluntas sit omnipotens, sequitur quod si 
-                  vult <c>a</c> necessario fore, <c>a</c> necessario erit, sed eadem ratio est de quolibet futuro, igitur etc. 
-                  Confirmatur quia si <c>a</c> futurum <unclear>contingenter</unclear> evenire supposito quod Deus vellet ipsum 
-                  necessario fore hoc videretur esse, ideo quia causae secundae libere et contingenter <c>a</c> producerent 
-                  in esse, sed hoc est falsum quia eadem necessitate illas causas ad illius productionem influere 
-                  vel concurrere. Item, si libere illae causae producunt, sequitur etiam quod Deus libere producit 
-                  <pb ed="#L" n="105r"/> 
-                  et vult. Patet consequentia ex dictis quoniam libertas causae secundae dependet ex libertate 
-                  primae et voluntatis divinae.</p>
-                
-                <p xml:id="pgb1q35-d1e3779">Secundum corollarium: sicut cum Deus efficitur agens 
-                  vel creans de non creante ipse non mutatur sic cum vult necessario illud 
-                  quod voluit contingenter in nullo variatur. Patet quia modo deum velle <c>a</c> libere 
-                  libertate contradictionis, et postea propter lapsum temporis idem necessario velle non est 
-                  Deum aliter se habere intrinsece, sed solum quadam denominationem extrinseca sicut 
-                  supra patuit in exemplo statuae nam secundum 
-                  <ref>
-                    <seg><name ref="#Lombard">Magistrum</name> distinctione 41 primi</seg>
-                    <bibl>Lombardus, I, d. 41, xxx</bibl>
-                  </ref> 
-                  Deus 
-                  sibi retinuit diversas denominationes propter mutationes extrinsecas. <!-- ?quote? --></p>
-                
-                <p xml:id="pgb1q35-d1e3822">Tertium corollarium: 
-                  licet ad positionem seu praeteritionem rei inesse sequatur necessario Deum illam 
-                  rem velle fuisse, tamen per huius rei positionem vel praeteritionem non infertur 
-                  Deum ad illam necessitatum esse. Patet quia tunc creatura haberet respectu Dei
-                  prioritatem et causalitatem sicut necessarias respectu necessitati quod non est dicendum.</p>
-                
-                <p xml:id="pgb1q35-d1e3860">Ex dictis 
-                  patet affirmativa pars quaestionis <!-- compare this to the "conclusionis" that follows; go back and reconsider all "affirmativa pars conclusionis" --> quae patet ex tertia conclusionis.</p>
-              </div>
-          <div>
-            <head><supplied>Obiectiones et principales</supplied></head>
-            
-            <p xml:id="pgb1q35-d1e3868">Contra primam conclusionem, arguitur 
-              primo sic illud quod potest esse, ideo potest esse quia Deus vel aliqua tam potest illud 
-              facere, ergo. Ideo <c>a</c> impossibile non potest esse quia Deus non potest illud facere esse. 
-              antecedens est secunda pars primae conclusionis. Et patet consequentia quia in causis <unclear cert="high">convertibilibus</unclear> si affirmativa 
-              est causa affirmationis et negatio negationis ut habetur 
-              <ref>
-                <seg>primo <title ref="#PosteriorAnalytics">Posteriorum</title>.</seg>
-                <bibl>Aristoteles, Posteriora Analytica, I, xxx</bibl>
-              </ref>
+              non possunt simul uniformiter remitti 
+              per certam mensuram usque ad non gradum. 
+              Patet quia tunc una posset esse sine altera quod est impossibile. 
+              Et patet deductio.
             </p>
-            
-            <p xml:id="pgb1q35-d1e3892">Secundo, illud 
+          </div>
+          <div xml:id="pg-b1q35-Dd1e366">
+            <head xml:id="pg-b1q35-Hd1e368"><supplied>Tertia conclusio</supplied></head>
+            <p xml:id="pgb1q35-d1e3659">
+              Tertia conclusio: 
+              sicut Deus illud quod ab aeterno voluit potest numquam voluisse, 
+              sic Deus illud quod se facturum ordinavit potest numquam producere. 
+              Prima pars patet per dicta in alii quaestionibus. 
+              Confirmatur quia libere et contingenter vult, ergo 
+              potest non velle, sed ad Deum posse non velle, 
+              sequitur ipsum posse numquam voluisse, 
+              ergo.
+              Secunda pars conclusionis probatur ex prima parte quia suum velle efficax est 
+              suum facere, igitur sicut illud quod vult potest non velle, sic illud quod praeordinavit 
+              se facturum possit numquam producere.
+              Confirmatur voluntas creata libere 
+              et contingenter produxit actum suum ergo divina voluntas adextra. Patet consequentia cum rationali 
+              veritatis et cotingentiae creaturae radicetur et fundetur in libertate divina. 
+              Et antecedens experimur quia percipimus nos posse velle quod volumus vel quod 
+              non volumus et econverso posse non velle quod volumus vel quod nolumus.
+            </p>
+            <p xml:id="pgb1q35-d1e3693">
+              Primum corollarium: 
+              ad Deum velle necessario antichristum fore, 
+              sequitur omnia evenire non contingenter sed de necessitate. 
+              Patet quia secundum <name ref="#Lombard">Magistrum</name> cum eius voluntas sit omnipotens, 
+              sequitur quod si vult <c>a</c> necessario fore, 
+              <c>a</c> necessario erit, 
+              sed eadem ratio est de quolibet futuro, 
+              igitur etc. 
+              Confirmatur 
+              quia si <c>a</c> futurum <unclear>contingenter</unclear> 
+              evenire supposito quod Deus vellet ipsum 
+              necessario fore hoc videretur esse, 
+              ideo quia causae secundae libere et contingenter <c>a</c> producerent in esse, 
+              sed hoc est falsum 
+              quia eadem necessitate illas causas ad illius productionem influere 
+              vel concurrere. 
+              Item, si libere illae causae producunt, sequitur etiam quod Deus libere producit 
+              <pb ed="#L" n="105-r"/> 
+              et vult. 
+              Patet consequentia 
+              ex dictis quoniam libertas causae secundae dependet ex libertate 
+              primae et voluntatis divinae.
+            </p>
+            <p xml:id="pgb1q35-d1e3779">
+              Secundum corollarium: 
+              sicut cum Deus efficitur agens 
+              vel creans de non creante ipse non mutatur sic cum vult necessario illud 
+              quod voluit contingenter in nullo variatur. Patet quia modo deum velle <c>a</c> libere 
+              libertate contradictionis, et postea propter lapsum temporis idem necessario velle non est 
+              Deum aliter se habere intrinsece, sed solum quadam denominationem extrinseca sicut 
+              supra patuit in exemplo statuae nam secundum 
+              <cit>
+                <ref xml:id="pg-b1q35-Rd1e406">
+                  <name ref="#Lombard">Magistrum</name>, distinctione 41 primi
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>,
+                  I, d. 41, xxx
+                </bibl>
+              </cit> 
+              Deus sibi retinuit diversas denominationes 
+              propter mutationes extrinsecas. <!-- ?quote? -->
+            </p>
+            <p xml:id="pgb1q35-d1e3822">
+              Tertium corollarium: 
+              licet ad positionem seu praeteritionem rei inesse 
+              sequatur necessario Deum illam rem velle fuisse, 
+              tamen per huius rei positionem vel praeteritionem non infertur 
+              Deum ad illam necessitatum esse. 
+              Patet quia tunc creatura haberet respectu Dei
+              prioritatem et causalitatem 
+              sicut necessarias respectu necessitati quod non est dicendum.
+            </p>
+            <p xml:id="pgb1q35-d1e3860">
+              Ex dictis 
+              patet affirmativa pars quaestionis <!-- compare this to the "conclusionis" that follows; go back and reconsider all "affirmativa pars conclusionis" --> quae patet ex tertia conclusionis.
+            </p>
+          </div>
+          <div xml:id="pg-b1q35-Dd1e435">
+            <head xml:id="pg-b1q35-Hd1e437">
+              <supplied>Obiectiones et principales</supplied>
+            </head>
+            <p xml:id="pgb1q35-d1e3868">
+              Contra primam conclusionem, 
+              arguitur primo sic illud quod potest esse, 
+              ideo potest esse quia Deus vel aliqua tam potest illud 
+              facere, ergo.
+              Ideo <c>a</c> impossibile non potest esse 
+              quia Deus non potest illud facere esse. 
+              Antecedens est secunda pars primae conclusionis. 
+              Et patet consequentia quia in causis <unclear cert="high">convertibilibus</unclear> si affirmativa 
+              est causa affirmationis et negatio negationis ut habetur 
+              <cit>
+                <ref xml:id="pg-b1q35-Rd1e453">primo <title ref="#PosteriorAnalytics">Posteriorum</title></ref>
+                <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>Posteriora Analytica</title>, 
+                  I, xxx
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q35-d1e3892">
+              Secundo, illud 
               quod <unclear>Deo</unclear> convenit ab aeterno et necessario non conventi sibi quia convenit creaturae sed Deum 
               non producere <c>b</c> impossibile convenit sibi ab aeterno 
               <app>
@@ -292,109 +473,209 @@
                 </rdg>
               </app> 
               necessario, ergo non per creaturam 
-              nec per aliquod sibi extrinsecum. Maior probatur quia vel illud est imperfectionis vel perfectionis. 
-              Si primum, non convenit Deo. Si secundum, sequitur quod sibi non conveniat per creaturam 
-              nec per aliquod intelligibile sibi extrinsecum. Minor rationis est nota.</p>
+              nec per aliquod sibi extrinsecum. 
+              Maior probatur quia vel illud est imperfectionis vel perfectionis. 
+              Si primum, non convenit Deo. 
+              Si secundum, 
+              sequitur quod sibi non conveniat per creaturam 
+              nec per aliquod intelligibile sibi extrinsecum. 
+              Minor rationis est nota.
+            </p>
             
-            <p xml:id="pgb1q35-d1e3931">Tertio, ideo 
-              creatura non potest Deum corrumpere quia Deus non potest corrumpi, ergo. Ideo impossibile 
-              non potest esse quia Deus non potest illud producere inesse. Tenet consequentia quia eodem modo 
-              videtur dicendum de omnibus impossibilibus. Antecedens probatur quia necessarias essendi formaliter 
-              ex parte Dei est ratio quare creatura non potest ipsum corrumpere et non defectus 
-              potentiae creaturae.</p>
-            
-            <p xml:id="pgb1q35-d1e3958">Quarto, aeque impossibile est Deum facere peccatum sicut <unclear>chymeram</unclear> 
-              vel aliud impossibile sed ratio impossibilitatis primi se tenet ex parte Dei, ut dicit 
-              corollarium unum, ergo ratio impossibilitatis cuiuslibet alterius etiam se tenebit ex parte 
+            <p xml:id="pgb1q35-d1e3931">
+              Tertio, ideo 
+              creatura non potest Deum corrumpere 
+              quia Deus non potest corrumpi, ergo. 
+              Ideo impossibile 
+              non potest esse quia Deus non potest illud producere inesse. 
+              Tenet consequentia quia eodem modo 
+              videtur dicendum de omnibus impossibilibus. 
+              Antecedens probatur 
+              quia necessarias essendi formaliter 
+              ex parte Dei est ratio 
+              quare creatura non potest ipsum corrumpere et non defectus 
+              potentiae creaturae.
+            </p>
+            <p xml:id="pgb1q35-d1e3958">
+              Quarto, 
+              aeque impossibile est Deum facere peccatum 
+              sicut <unclear>chymeram</unclear> 
+              vel aliud impossibile sed ratio impossibilitatis primi 
+              se tenet ex parte Dei, 
+              ut dicit corollarium unum, 
+              ergo ratio impossibilitatis cuiuslibet alterius 
+              etiam se tenebit ex parte 
               Dei non creaturae seu impossibilitatis 
               <app>
-                <lem>rei.</lem>
-                  <rdg wit="#L" type="corrReplace">
-                    <corr>
+                <lem>rei</lem>
+                  <rdg wit="#L" type="correction-substitution">
+                    <subst>
                       <del rend="strikethrough">dei</del>
                       <add place="inLine">rei</add>
-                    </corr>
+                    </subst>
                   </rdg>
-              </app> Secunda pars antecedentis prius est concessa.  
-              Confirmatur quia Deus est causa omnium causarum causantium repugnantiam et impossibilitatem, 
-              igitur illa impossibilitas se tenet ex parte Dei.</p>
-            
-            <p xml:id="pgb1q35-d1e3982">Contra secundam partem istius conclusionis, 
-              si ideo <c>a</c> possibile potest esse etc., sequitur quod ab aeterno et necessario Deus ageret et 
-              vellet adextra. Consequens est falsum. Et patet consequentia quia ab aeterno quodlibet possibile fuit 
-              possibile et etiam necessariam est Deum posset producere <c>a</c> possibile, immo Deus vult 
-              necessario <c>a</c> possibile posse esse.</p>
-            
-            <p xml:id="pgb1q35-d1e4026">Secundo, creaturam esse producibilem a Deo et Deum 
-              esse productivum ipsius sunt simul natura quia corruptiva, ergo unum non est causa alterius. 
-              Consequentia patet quia causa naturaliter est prior causato. Et antecedens patet de se.</p>
-            
-            <p xml:id="pgb1q35-d1e4034">Tertio, aliquid est possibile formaliter 
-              <pb ed="#L" n="105v"/> 
-              et non est possibile Deo, ergo non, ideo etc. Antecedens patet quia posse errare decipi 
-              fallere sunt in se possibilia et non Deo, ergo.</p>
-            
-            <p xml:id="pgb1q35-d1e4042">Quarto, <c>a</c> non ideo potest esse 
+              </app>. 
+              Secunda pars antecedentis 
+              prius est concessa. 
+              Confirmatur 
+              quia Deus est causa omnium causarum causantium 
+              repugnantiam et impossibilitatem, 
+              igitur illa impossibilitas se tenet ex parte Dei.
+            </p>
+            <p xml:id="pgb1q35-d1e3982">
+              Contra secundam partem istius conclusionis, 
+              si ideo <c>a</c> possibile potest esse etc., 
+              sequitur quod ab aeterno et necessario Deus ageret et 
+              vellet adextra. Consequens est falsum. 
+              Et patet consequentia quia ab aeterno quodlibet possibile fuit 
+              possibile et etiam necessariam est Deum posset producere <c>a</c> possibile, 
+              immo Deus vult necessario <c>a</c> possibile posse esse.
+            </p>
+            <p xml:id="pgb1q35-d1e4026">
+              Secundo, 
+              creaturam esse producibilem a Deo et Deum 
+              esse productivum ipsius sunt simul natura quia corruptiva, 
+              ergo unum non est causa alterius. 
+              Consequentia patet quia causa naturaliter est prior causato. 
+              Et antecedens patet de se.
+            </p>
+            <p xml:id="pgb1q35-d1e4034"> 
+              Tertio, aliquid est possibile formaliter 
+              <pb ed="#L" n="105-v"/> 
+              et non est possibile Deo, ergo non, ideo etc. 
+              Antecedens patet quia posse errare decipi 
+              fallere sunt in se possibilia et non Deo, ergo.
+            </p>
+            <p xml:id="pgb1q35-d1e4042">
+              Quarto, 
+              <c>a</c> non ideo potest esse 
               <unclear>talle</unclear> vel taliter se habens quia Deus potest ipsum facere tale vel taliter 
               se habens, ergo non, ideo quia Deus potest ipsum facere esse est possibile. Tenet consequentia 
               quia ratio negandi. Consequens est quia omnis possibilitas est a Deo. Antecedens patet quia actus 
               non potest esse a Deo deformis vituperalis nec demeritorius, immo nec 
-              meritorius denominative.</p>
-            
-            <p xml:id="pgb1q35-d1e4067">Contra prima partem secundae conclusionis, arguitur quia de ratione cuiuslibet ad 
-              extra producto repugnat infinitas quaelibet. Consequentia patet quia qua ratione 
-              sibi conveniret unus modus infinitatis eadem ratione nullus sibi repugnaret. 
-              Antecedens patet per 
-              <ref>
-                <seg><name ref="#Augustine">Augustinum</name> VI <title ref="#deTrinitate">De Trinitate</title> capitulo 5o.</seg>
-                <bibl>Augustinus, De Trinitate, VI, c. 5, xxx</bibl>
-              </ref> 
-              Item <ref><title ref="#sap">Sapientiae</title> <sic>7<!-- actually 11 --></sic></ref> 
-              <cit>
-                <quote ana="#sap11_21">omnia 
-                  constituisti <unclear>domine</unclear> in numero pondere et mensura.</quote>
-                <bibl>Sapientia 11:21</bibl>
-              </cit>
+              meritorius denominative.
             </p>
-              
-            <p xml:id="pgb1q35-d1e4102">Secundo sequitur quod Deus respectu 
-              alicuius producibilis adextra posset se reddere impotentem. Consequens est falsum. Et patet 
-              consequentia quia si produceret infinitum non posset aliud illius rationis postea producere. 
-              Patet quia quodlibet quod esset illius speciei includeretur in illo aliter non esset 
-              infinitum.</p>
-            
-            <p xml:id="pgb1q35-d1e4114">Tertio, si Deus produceret caritatem vel albedinem infinitam, 
-              sequitur quod illa continent infinitos gradus, et per consequens esset infinitus numerus. 
-              Consequens est impossibile, ut patet per supra dicta, omnis numerus est par aut impar et potest 
-              augeri per additionem unitatis, et per consequens nullus infinitus est numerus possibilis 
-              vel dabilis.</p>
-            
-            <p xml:id="pgb1q35-d1e4127">Contra tertiam conclusionem: qualitercumque divina voluntas se habebit intrinsece respectu <c>a</c> 
+            <p xml:id="pgb1q35-d1e4067">
+              Contra prima partem secundae conclusionis, 
+              arguitur quia de ratione cuiuslibet ad 
+              extra producto repugnat infinitas quaelibet. 
+              Consequentia patet quia qua ratione 
+              sibi conveniret unus modus infinitatis 
+              eadem ratione nullus sibi repugnaret. 
+              Antecedens patet per 
+              <cit>
+                <ref xml:id="pg-b1q35-Rd1e557">
+                  <name ref="#Augustine">Augustinum</name> 
+                  VI <title ref="#deTrinitate">De Trinitate</title> 
+                  capitulo 5
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title>, 
+                  VI, c. 5, xxx</bibl>
+              </cit>. 
+              Item, 
+              <ref xml:id="pg-b1q35-Rd1e576" corresp="#pg-b1q35-Qd1e588">
+                <title ref="#sap">Sapientiae</title> <sic>7<!-- actually 11 --></sic>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q35-Qd1e588" ana="#sap11_21">
+                  omnia 
+                  constituisti <unclear>domine</unclear> 
+                  in numero pondere et mensura
+                </quote>
+                <bibl>
+                  Sapientia 11:21
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q35-d1e4102">
+              Secundo, 
+              sequitur quod Deus respectu 
+              alicuius producibilis adextra posset se reddere impotentem. 
+              Consequens est falsum. 
+              Et patet consequentia 
+              quia si produceret infinitum 
+              non posset aliud illius rationis postea producere. 
+              Patet quia quodlibet 
+              quod esset illius speciei includeretur 
+              in illo aliter non esset infinitum.
+            </p>
+            <p xml:id="pgb1q35-d1e4114">
+              Tertio, 
+              si Deus produceret caritatem vel albedinem infinitam, 
+              sequitur quod illa continent infinitos gradus, 
+              et per consequens esset infinitus numerus. 
+              Consequens est impossibile, 
+              ut patet per supra dicta, 
+              omnis numerus est par aut impar et potest 
+              augeri per additionem unitatis, 
+              et per consequens nullus infinitus est numerus possibilis vel dabilis.
+            </p>
+            <p xml:id="pgb1q35-d1e4127">
+              Contra tertiam conclusionem: 
+              qualitercumque divina voluntas se habebit intrinsece respectu <c>a</c> 
               futuri taliter nunc se habet respectu illius sed quandoque se habebit respectu illius necessario 
-              ergo et nunc necessario vult <c>a</c> fore. Minor est nota quia quandocumque a futurum erit 
-              praeteritum necessario Deus volet <c>a</c> fuisse. Sed maior probatur multipliciter, primo quia, si non, 
-              sequitur quod Deus esset hodie minus liber quam heri. Consequens est falsum. Patet consequentia 
-              de aliquo futuro quod hodie transivit in praeteritum quia hodie necessario Deus 
-              vult ipsum fuisse et heri non necessario sed libere illud voluit, ergo etc. 
-              Secundo, quia si non sequitur quod aliqua creatura necessitabit divinum velle ad volendum. 
-              Consequens est falsum, et patet consequentia quia ex positione creaturae in esse necessitaretur Deus 
-              ad volendum talem creaturam. Item novae necessitatis illius est causa aliqua, 
-              ergo quia non nisi creatura. Tertio, sequitur quod pura privatio et purum nihil divinam 
-              necessitabit voluntatem. Consequens non est dicendum, et patet consequentia quia res praeterita nihil 
-              est, et tamen ducit Deum ad impossibilitatem et necessitatem volendi, igitur. Quarto, 
+              ergo et nunc necessario vult <c>a</c> fore. 
+              Minor est nota quia quandocumque a futurum erit 
+              praeteritum necessario Deus volet <c>a</c> fuisse. 
+              Sed maior probatur multipliciter, primo quia, si non, 
+              sequitur quod Deus esset hodie minus liber quam heri. 
+              Consequens est falsum. 
+              Patet consequentia 
+              de aliquo futuro 
+              quod hodie transivit in praeteritum 
+              quia hodie necessario Deus 
+              vult ipsum fuisse 
+              et heri non necessario 
+              sed libere illud voluit, 
+              ergo etc.
+            </p>
+            <p xml:id="pg-b1q35-d1e618">
+              Secundo, 
+              quia si non sequitur quod aliqua creatura necessitabit divinum velle ad volendum. 
+              Consequens est falsum, 
+              et patet consequentia 
+              quia ex positione creaturae in esse necessitaretur Deus 
+              ad volendum talem creaturam.
+              Item, 
+              novae necessitatis illius est causa aliqua, 
+              ergo quia non nisi creatura.
+            </p>
+            <p xml:id="pg-b1q35-d1e621">
+              Tertio, sequitur quod pura privatio et purum nihil divinam 
+              necessitabit voluntatem. 
+              Consequens non est dicendum, 
+              et patet consequentia 
+              quia res praeterita nihil est, 
+              et tamen ducit Deum ad impossibilitatem et necessitatem volendi, 
+              igitur. 
+            </p>
+            <p xml:id="pg-b1q35-d1e624">
+              Quarto, 
               voluntas divina ex se necessitatur respectu praeteriti, ergo etiam respectu futuri. Tenet consequentia quia non 
               videtur ratio diversitatis quin si necessitet se ipsum respectu praeteriti quin posset 
-              respectu futuri.</p>
-            
-            <p xml:id="pgb1q35-d1e4255">Ad primum, negatur consequentia, et ad probationem dicitur quod regula illa non 
-              tenet secundum quamlibet formam et in diversis materiebus, nam non sequitur <unclear cert="low">corruptibile</unclear> 
-              ideo immediate potest a Deo destrui quia Deus est virtus destructiva opus, 
-              ergo quod non est corruptibile, ideo non potest destrui vel corrupi quia Deus non est 
-              virtus destructiva opus. Patet consequentiam non valere quia Spiritus Sanctus non potest des<pb ed="#L" n="106r"/>trui 
-              non quia Deus non sit virtus destructiva omnipotens, sed quia Spiritus Sanctus est formaliter 
-              necesse esse.</p>
-            
-            <p xml:id="pgb1q35-d1e4287">Item, non sequitur omne ab aeterno cognitum fore, ideo est ab aeterno cognitum 
+              respectu futuri.
+            </p>
+            <p xml:id="pgb1q35-d1e4255">
+              Ad primam, negatur consequentia, 
+              et ad probationem dicitur quod regula illa non 
+              tenet secundum quamlibet formam et in diversis materiebus, 
+              nam non sequitur <unclear cert="low">corruptibile</unclear> 
+              ideo immediate potest a Deo destrui 
+              quia Deus est virtus destructiva opus, 
+              ergo quod non est corruptibile, 
+              ideo non potest destrui vel corrupi quia Deus non est 
+              virtus destructiva opus. 
+              Patet consequentiam non valere quia Spiritus Sanctus 
+              non potest des<pb ed="#L" n="106r"/>trui 
+              non quia Deus non sit virtus destructiva omnipotens, 
+              sed quia Spiritus Sanctus est formaliter 
+              necesse esse.
+            </p>
+            <!-- should this be a para break -->
+            <p xml:id="pgb1q35-d1e4287">
+              Item, non sequitur omne ab aeterno cognitum fore, ideo est ab aeterno cognitum 
               fore quia Deus videt ab aeterno omnia futura ergo quod non est ab aeterno 
               cognitam, ideo non est cognitum fore quia Deus non videt omnia futura. 
               Item, non sequitur omnis avis potest volare quia animal alatum alis. Potet volare ergo 
@@ -404,64 +685,84 @@
               in proposito autem denotaret defectum potentiae in Deo qui staret ex parte 
               Dei et non ex parte obiecti denotaret, etiam illa negatio quod causa <unclear>praecisiva</unclear> vel 
               potior se tenent ex parte Dei, sicut in affirmativa notatur talis causalitas 
-              praecisiva vel potior ex parte Dei.</p>
-            
-            <p xml:id="pgb1q35-d1e4321">Ad secundum, conceditur maior si li <mentioned>quia</mentioned> denotet 
+              praecisiva vel potior ex parte Dei.
+            </p>
+            <p xml:id="pgb1q35-d1e4321">
+              Ad secundam, 
+              conceditur maior si li <mentioned>quia</mentioned> denotet 
               causalitatem, si autem sumatur large ut magis negetur causalitas quam ponatur, 
               sic negatur maior et maxime capiendo <mentioned>convenire</mentioned> large pro quocumque de 
               Deo dicibili sine per modum affirmationis sive negationis sive per enuntiationem 
-              de praesenti de esse seu de possibili.</p>
-            
-            <p xml:id="pgb1q35-d1e4333">Ad probationem, dicitur quod non est perfectionis 
+              de praesenti de esse seu de possibili.
+            </p>
+            <p xml:id="pgb1q35-d1e4333">
+              Ad probationem, 
+              dicitur quod non est perfectionis 
               nec imperfectionis non posse facere impossibile, sed quia nihil ponit in affirmativa sed tantum 
-              negat.</p>
-            
-            <p xml:id="pgb1q35-d1e4341">Ad tertium, negatur consequentia quia aliqua dicuntur de Deo cum modo impossibilitatis 
-              quae non denotant nec <unclear>connotant</unclear> imperfectionem in Deo sed potius realiter et implicite 
-              dicunt perfectionem potentiae in ipso sic quod illa possibilitas aequivalet necessitati 
-              perfectionis, sicut est non posset corrupi non posse impedire non posse non influere 
+              negat.
+            </p>
+            <p xml:id="pgb1q35-d1e4341">
+              Ad tertium, 
+              negatur consequentia 
+              quia aliqua dicuntur de Deo cum modo impossibilitatis 
+              quae non denotant nec <unclear>connotant</unclear> imperfectionem in Deo 
+              sed potius realiter et implicite 
+              dicunt perfectionem potentiae in ipso sic 
+              quod illa possibilitas aequivalet necessitati perfectionis, 
+              sicut est non posset corrupi non posse impedire non posse non influere 
               causae secundae agenti quaedam vero cum negatione potentiae dicta de ipso denotarent 
               imperfectionem, ut dictum non posse se solo producere <c>b</c> modo impossibilitas 
-              faciendi <unclear>chymeram</unclear> non provenit ex imperfectione potentiae absolutae.</p>
-            
-            <p xml:id="pgb1q35-d1e4377">Ad tertium, dicitur 
-              quod non est simile de quolibet impossibili quia non posse peccare convenit deo ratione 
-              necessariae 
+              faciendi <unclear>chymeram</unclear> non provenit ex imperfectione potentiae absolutae.
+            </p>
+            <p xml:id="pgb1q35-d1e4377">
+              Ad tertium, dicitur 
+              quod non est simile de quolibet impossibili 
+              quia non posse peccare convenit deo ratione necessariae bonitatis,
               <app>
-                <lem>bonitatis,</lem>
-                <rdg wit="#L" type="corrDeletion">
-                  <corr>
-                    <del>ita</del>
-                  </corr>
+                <lem n="bonitatis"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del>ita</del>
                 </rdg>
               </app> 
               ideo tam convenienter sumitur ex parte Dei sed impossibilitas 
               producendi chymeram non sic denotat 
               <app>
                 <lem>imperfectionem</lem>
-                <rdg wit="#L" type="corrReplace">
-                  <corr>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
                     <del>perfectionem</del>
                     <add place="aboveLine">imperfectionem</add>
-                  </corr>
+                  </subst>
                 </rdg>
               </app> 
-              in Deo sed 
-              potius videretur denotare imperfectionem si se teneret ex parte Dei et non 
-              principaliter ex parte chymerae improducibils.</p>
-            
-            <p xml:id="pgb1q35-d1e4406">Ad confirmationem, dicitur quod licet Deus sit causa 
-              remota et per accidens indirecte illius impossibilitatis eo quod est causa actu vel 
-              potentia naturarum ex formalibus rationibus repugnantium, tamen non sequitur propter hoc propositum</p>
-            
-            <p xml:id="pgb1q35-d1e4416">Ad primum contra secundam partem, negatur consequens quia, licet propositio causalis proprie si sit 
-              de inesse affirmativa de praesenti veram habeat causalitatem in re correspondentem, tamen 
-              hoc universaliter non requiritur ad veritatem cuiuslibet causalis <unclear>hypostaticae</unclear>, unde in proposito 
-              illa causalis non significat causam et propter quid nec est de inesse, sed de possibili nec 
-              significat causam causare sed posse causare.</p>
-            
-            <p xml:id="pgb1q35-d1e4432">Ad secundum, posset concedi consequens et consequentia loquendo 
-              de propria et vera causalitate. Si tamen 
+              in Deo sed potius videretur denotare imperfectionem 
+              si se teneret ex parte Dei et non 
+              principaliter ex parte chymerae improducibils.
+            </p>
+            <p xml:id="pgb1q35-d1e4406">
+              Ad confirmationem, 
+              dicitur quod licet Deus sit causa 
+              remota et per accidens indirecte illius impossibilitatis 
+              eo quod est causa actu vel 
+              potentia naturarum ex formalibus rationibus repugnantium, 
+              tamen non sequitur propter hoc propositum.
+            </p>
+            <p xml:id="pgb1q35-d1e4416">
+              Ad primam contra secundam partem, 
+              negatur consequens quia, 
+              licet propositio causalis proprie si sit 
+              de inesse affirmativa de praesenti veram habeat causalitatem in re correspondentem, 
+              tamen hoc universaliter non requiritur ad veritatem 
+              cuiuslibet causalis <unclear>hypostaticae</unclear>, 
+              unde in proposito illa causalis non significat causam 
+              et propter quid nec est de inesse, 
+              sed de possibili nec significat causam causare sed posse causare.
+            </p>
+            <p xml:id="pgb1q35-d1e4432">
+              Ad secundam, 
+              posset concedi consequens et consequentia loquendo 
+              de propria et vera causalitate. 
+              Si tamen 
               <app>
                 <lem>intelligeretur</lem>
                 <rdg wit="#L" type="corrDeletion">
@@ -471,92 +772,145 @@
                 </rdg>
               </app> 
               inconveniente vel inferetur 
-              ex ipso quod talis <unclear>hypostatica</unclear> causalis esset falsa, sic negatur consequentia.</p>
-            
-            <p xml:id="pgb1q35-d1e4447">Ad tertium, 
-              negatur antecedens sumendo <mentioned>possibile</mentioned> proprie pro aliquo producibili per se. Ad probationem 
-              <pb ed="#L" n="106v"/> 
+              ex ipso quod talis <unclear>hypostatica</unclear> causalis esset falsa, 
+              sic negatur consequentia.
+            </p>
+            <p xml:id="pgb1q35-d1e4447">
+              Ad tertiam, 
+              negatur antecedens 
+              sumendo <mentioned>possibile</mentioned> 
+              proprie pro aliquo producibili per se. 
+              Ad probationem 
+              <pb ed="#L" n="106-v"/> 
               dicitur quod peccatum posse esse a Deo non tantum importaret aliquod ens posse esse 
               a Deo effective, sed aliquid importaret posse fieri a Deo vel omitti  
               contra dictamen rectae rationis et contra regulam divinae iustitiae cui debet Deus 
-              conformari.</p>
-            
-            <p xml:id="pgb1q35-d1e4471">Ad quartum, dicitur quod, si per <mentioned>esse</mentioned> intelligitur esse tale per formam 
-              positivam, sic negatur antecedens. Si vero intelligitur esse tale generaliter positive 
-              privative absolute relative, sic negatur consequentia quia quandoque rem posse esse talem 
-              vel taliter non est proprie rem habere potentiam sed defectum potentiae vel potentiam 
-              defectivam. Secundo, dicitur conformiter ad quoddam corollarium quod sicut a solo Deo non 
-              potest effici meritorius actus propter conditionem relativam ad causam secundam sub habitudine 
-              determinata, sic etiam nec in consensu compositionis effectus causae secundae potest esse a solo 
-              Deo, et sic potest dici quod solus deus, licet actum meritorium possit producere, 
-              non tamen potest producere actum meritorium.</p>
-            
-            <p xml:id="pgb1q35-d1e4505">Ad primum contra secundam conclusionem, negatur 
-              consequentia quia si Deus produceret aliquod infinitam caritatem adhuc posset 
-              creare aliam quia posset <unclear>corrumpere</unclear> <unclear cert="low">aliam</unclear> et producere aliam infinitam, immo 
-              posset conservare primum in eodem locoque ponere cum prima et secundam et tertiam secundum 
-              sui beneplacitum.</p> 
-            
-            <p xml:id="pgb1q35-d1e4546">Ad tertium, negatur consequentia quia forte, licet Deus posset 
-              infinita producere, non tamen infinitum numerum. Primum patet de productione angelorum 
-              per partes proportionales horae. Secundum patet quia par vel impar est <unclear>passio</unclear> 
-              numero ab eo inseparabilis et per unitatem posse augeri.</p>
-            
-            <p xml:id="pgb1q35-d1e4559">Ad primum contra tertiam 
-              conclusionem, negatur consequentia, ad probationem primam similiter negatur consequentia quia idem eodem modo vult hodie 
-              et heri intrinsece.</p>
-            
-            <p xml:id="pgb1q35-d1e4568">Ad secundum, negatur consequentia et consequens, ad probationem dicitur quod si li <mentioned>ex</mentioned> denotet 
-              connaturalem illationem, conditur, si vero causalitatem, negatur quia talis necessaris 
+              conformari.
+            </p>
+            <p xml:id="pgb1q35-d1e4471">
+              Ad quartam, 
+              dicitur quod, 
+              si per <mentioned>esse</mentioned> intelligitur esse tale per formam 
+              positivam, sic negatur antecedens. 
+              Si vero intelligitur esse tale generaliter positive 
+              privative absolute relative, 
+              sic negatur consequentia 
+              quia quandoque rem posse esse talem 
+              vel taliter non est proprie rem habere potentiam 
+              sed defectum potentiae vel potentiam 
+              defectivam.
+            </p>
+            <p xml:id="pg-b1q35-d1e745">
+              Secundo, dicitur conformiter ad quoddam corollarium 
+              quod sicut a solo Deo non 
+              potest effici meritorius actus propter conditionem relativam 
+              ad causam secundam sub habitudine determinata, 
+              sic etiam nec in consensu compositionis effectus 
+              causae secundae potest esse a solo Deo, 
+              et sic potest dici quod solus Deus, 
+              licet actum meritorium possit producere, 
+              non tamen potest producere actum meritorium.
+            </p>
+            <p xml:id="pgb1q35-d1e4505">
+              Ad primam contra secundam conclusionem, 
+              negatur consequentia 
+              quia si Deus produceret aliquod infinitam caritatem adhuc posset 
+              creare aliam quia posset <unclear>corrumpere</unclear> <unclear cert="low">aliam</unclear>
+              et producere aliam infinitam, 
+              immo posset conservare primum in eodem locoque ponere 
+              cum prima et secundam et tertiam secundum 
+              sui beneplacitum.
+            </p> 
+            <p xml:id="pgb1q35-d1e4546">
+              Ad tertiam, 
+              negatur consequentia quia forte, 
+              licet Deus posset infinita producere, 
+              non tamen infinitum numerum. 
+              Primum patet de productione angelorum 
+              per partes proportionales horae. 
+              Secundum patet quia par vel impar est <unclear>passio</unclear> 
+              numero ab eo inseparabilis et per unitatem posse augeri.
+            </p>
+            <p xml:id="pgb1q35-d1e4559">
+              Ad primam contra tertiam 
+              conclusionem, negatur consequentia, 
+              ad probationem primam similiter negatur consequentia 
+              quia idem eodem modo vult hodie 
+              et heri intrinsece.
+            </p>
+            <p xml:id="pgb1q35-d1e4568">
+              Ad secundam, 
+              negatur consequentia et consequens, 
+              ad probationem dicitur 
+              quod si li <mentioned>ex</mentioned> denotet 
+              connaturalem illationem, conditur, 
+              si vero causalitatem, 
+              negatur quia talis necessaris 
               <app>
                 <lem>non</lem>
-                <rdg wit="#L" type="corrAddition">
-                  <corr>
-                    <add place="marginRight">non</add>
-                  </corr>
+                <rdg wit="#L" type="correction-addition">
+                  <add place="margin-right">non</add>
                 </rdg>
               </app> 
-              proprie habet causam.</p>
-            
-            <p xml:id="pgb1q35-d1e4589">Ad tertium, negatur consequentia quia solum est illa necessaris connaturalis.</p>
-            
-            <p xml:id="pgb1q35-d1e4599">Ad quartum, negatur consequentia quia ex se eo 
+              proprie habet causam.
+            </p>
+            <p xml:id="pgb1q35-d1e4589">
+              Ad tertiam, 
+              negatur consequentia quia solum est illa necessaris connaturalis.
+            </p>
+            <p xml:id="pgb1q35-d1e4599">
+              Ad quartam, 
+              negatur consequentia 
+              quia ex se eo necessitatur
               <app>
-                <lem>necessitatur</lem>
-                <rdg type="corrDeletion">
-                  <corr>
-                    <del rend="strikethrough">spiritus sanctus</del>
-                  </corr>
+                <lem n="necessitatur"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">spiritus sanctus</del>
                 </rdg>
               </app> 
               ad productionem 
-              Spiritus Sancti et non alterius rei.</p>
+              Spiritus Sancti 
+              et non alterius rei.
+            </p>
           </div>
         </div>
-        <div>
-          <head><supplied>Conclusiones</supplied></head>
+        <div xml:id="pg-b1q35-Dd1e804">
+          <head xml:id="pg-b1q35-Hd1e806">
+            <supplied>Conclusiones</supplied>
+          </head>
           <p xml:id="pgb1q35-d1e4615">
             <cit>
-              <quote>Fateamur itaque Deum,</quote>
-              <bibl>Lombardus, I, d. xxx</bibl>
-            </cit> 
+              <quote xml:id="pg-b1q35-Qd1e816" type="lemma">Fateamur itaque Deum</quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent</title>
+                I, d. xxx
+              </bibl>
+            </cit>, 
             etc. 
-            Prima conclusio quod Deus potest facere plura quam facit et alia velle quam vellit de 
-            facto vide textum ibi et lege rationes et solutiones ibidem.</p>
-          
-          <p xml:id="pgb1q35-d1e4626">Secunda conclusio: quod <unclear>quae</unclear> 
+            Prima conclusio:
+            quod Deus potest facere plura 
+            quam facit et alia velle quam vellit de facto. 
+            Vide textum ibi et lege rationes et solutiones ibidem.
+          </p>
+          <p xml:id="pgb1q35-d1e4626">
+            Secunda conclusio: 
+            quod <unclear>quae</unclear> 
             <app>
               <lem>facit</lem>
-              <rdg wit="#L" type="corrAddition">
-                <corr>
-                  <add place="marginRight">facit</add>
-                </corr>
+              <rdg wit="#L" type="correction-addition">
+                <add place="margin-right">facit</add>
               </rdg>
             </app> 
-            Deus decet eum facere, et si alia faceret deceret eum faceret, et tamen eius 
-            voluntas non est alia nec nova nec immutabilis aliquo modo esse potest, licet enim 
-            possit velle quod numquam voluit, hoc tamen non potest velle nova voluntate, 
-            sed aeterna quod ostendit pluribus rationibus et auctoribus lege textum illum.</p>
+            Deus decet eum facere, 
+            et si alia faceret deceret eum faceret, 
+            et tamen eius 
+            voluntas non est alia nec nova nec immutabilis aliquo modo esse potest, 
+            licet enim possit velle quod numquam voluit, 
+            hoc tamen non potest velle nova voluntate, 
+            sed aeterna quod ostendit pluribus rationibus 
+            et auctoribus lege textum illum.
+          </p>
         </div>
       </div>  
     </body>
