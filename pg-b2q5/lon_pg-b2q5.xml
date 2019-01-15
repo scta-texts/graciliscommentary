@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 5 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Quaestio 5 [London Transcription]</title>
+          <date when="2019-01-04">January 04, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-01-04" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="157-r"/>
+        <lb ed="#L" n="12"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q5">
+        <head>Liber 2, Quaestio 5 [London Transcription]</head>
+        <p>
+          <lb ed="#L" n="12"/>Utrum liberum arbitrium creatum 
+          <lb ed="#L"/>fuerit diminutum propter peccatum
+        </p>
+        <p>
+          <pc type="virgula">/</pc> quod non quia nullum est arbitrium humanum 
+          <lb ed="#L"/>igitur probatur antecedens quia si possemus concludere hominem habere liberum 
+          <lb ed="#L"/>arbitrium hoc esset quia idem homo successive potest velle et non velle seu 
+          <lb ed="#L"/>nolle vel nihil operari circa idem obiectum eodem modo dispositum sed tales actus 
+          <lb ed="#L"/>contrarii aut contradictorii reperiuntur in brutis et naturalibus ergo antecedens patet 
+          <lb ed="#L"/>de cane qui videns baculum renuit panem patet etiam de igne in 
+          <lb ed="#L"/>camino <unclear>nabugode</unclear> qui non egit in damelem igitur
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 2o quodlibet 
+          <lb ed="#L"/>liberum arbitrium est per naturam impeccabile igitur nullum talem per peccatum 
+          <lb ed="#L"/>est minoratum antecedens probatur si sic enim sequitur quod peccabilitas in esset sibi 
+          <lb ed="#L"/>a deo quia omnem contradictionem quam habet natura in primo instanti sui esse recipit 
+          <lb ed="#L"/>a deo creante igitur
+        </p>
+        <p>
+          <pc type="#pilcrow"/>3o si <unclear>quaestio</unclear> foret vera sequeretur quod homo nunc esset alterius 
+          <lb ed="#L"/>speciei ab <name>adam</name> antequam peccaret patet consequentia quia cum liberum arbitrium sit 
+          <lb ed="#L"/>voluntas creata quae est essentia et perfectio animae humanae sequitur quod si aliquis gradus 
+          <lb ed="#L"/>illius esset remissus quod perfectio humana esset remissa et consistit in indivisibili 
+          <lb ed="#L"/>sequitur quod species humana fuerit mutata per peccatum
+        </p>
+        <p>
+          <pc type="#pilcrow"/> In oppositum arguitur 
+          <lb ed="#L"/>homo propter peccatum fuit spoliatus gratuitis et vulneratus igitur naturalibus veribus 
+          <lb ed="#L"/>et potentiis igitur libertas fuit per peccatum diminuta tenet consequentia quia humana 
+          <lb ed="#L"/>libertas est potentia naturalis et antecedens patet per parabolam christi de samaritano etc
+        </p>
+        <p>
+          <pc type="#pilcrow"/>prima conclusio licet libertas arbitrii non sit ponenda in brutis 
+          <lb ed="#L"/>tamen arbitrii libertas est in aequalis in multis prima pars probaru quia si sic 
+          <lb ed="#L"/>sequeretur quod possent iudicare complexe consiliari et spontanea sibi no<lb ed="#L"/>tiva 
+          non fugere et convenientia non appetere consequens est falsum et patet consequentia 
+          <lb ed="#L"/>quia talia potest homo per liberum arbitrium ut patet <unclear>ins?atis</unclear> viris et 
+          <lb ed="#L"/>matribus voluntarie et libere honores et divitias contempnentibus 
+          <lb ed="#L"/>et tribulationes pro christo <sic>substinentibus</sic> 2a pars probatur quia una liber<lb ed="#L"/>tas 
+          est alia potentior et perfectior igitur probatur antecedens quia libertas divina 
+          <lb ed="#L"/>est immensa sed creata est finita et mensa
+        </p>
+        <p>
+          <pc type="#pilcrow"/> 2o aliquae duae libertates 
+          <pb ed="#L" n="157-v"/>
+          <lb ed="#L"/>creatae differunt specie ergo sunt inaequales patet consequentia et antecedens probatur quia humana 
+          <lb ed="#L"/>angelica
+        </p>
+          
+        
+      </div>
+    </body>
+  </text>
+</TEI>
