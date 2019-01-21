@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 24 [London Transcription]</title>
+        <title>Liber I, Quaestio 24 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.12-dev-master">
-          <title>Librum I, Quaestio 24 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 24 [London Transcription]</title>
           <date when="2014-12-22">December 22, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-12-22">December 22, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-12-22" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-12-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="74-r"/> 
       </div>
     </front>
     <body>
@@ -84,7 +85,7 @@
           <lb ed="#L"/>nulla causa in divinis es ponenda per respectum adintra ergo <g ref="#slash"/>nec quia aeque perfecte vel perfectius 
           <lb ed="#L"/>producitur adintra sicut adextra <g ref="#slash"/>tum 2o quia tunc sicut tria supposita res creatas 
           <lb ed="#L"/>producunt sic tria principia res principitas principiarent quod est falsum et patet consequentia 
-          <pb ed="#L" n="74v"/><lb ed="#L"/>cum quodlibet illorum suppositorum sit principium respectu creabilium</p> 
+          <pb ed="#L" n="74-v"/><lb ed="#L"/>cum quodlibet illorum suppositorum sit principium respectu creabilium</p> 
         
         <p xml:id="pgb1q24-ioephp"><g ref="#slash"/>In oppositum est <name ref="#Lombard">magister</name> 
           <lb ed="#L"/>in hiis distinctionibus ubi allegat <name ref="#Augustine">augustinum</name> pro hac parte</p>
@@ -142,7 +143,7 @@
           <lb ed="#L"/><title ref="#HomiliesOnJohn">super iohannem</title> in principio</ref></p>
         
         <p xml:id="pgb1q24-d1e3477"><g ref="#pilcrow"/>2m corollarium solus pater verbum tam perfecte producit <corr><del rend="strikethrough">quam</del></corr> 
-          <pb ed="#L" n="75r"/><lb ed="#L"/>seu exprimit quod omnem gradum similitudinis consubstantialis sibi imprimit <g ref="#slash"/>vel sic ver<lb ed="#L"/>bum 
+          <pb ed="#L" n="75-r"/><lb ed="#L"/>seu exprimit quod omnem gradum similitudinis consubstantialis sibi imprimit <g ref="#slash"/>vel sic ver<lb ed="#L"/>bum 
           divinum suo dicenti tam similem existit quod omnem gradum similitudinis dis<lb ed="#L"/>substantialis 
         excludit patet per <ref><name ref="#Anselmum">anselmum</name> <title ref="#Monologion">monologion</title> 40</ref> ubi ex pluribus dictis sic 
           <lb ed="#L"/>concludit verbum ergo summum patris sic est sibi simile ut nulla proles sic sit 
@@ -195,7 +196,7 @@
         
         <p xml:id="pgb1q24-d1e3643"><g ref="#pilcrow"/>3o contra 3m 
           <lb ed="#L"/>corollarium si verbum exprimitur etc vel ergo aeque primo exprimitur de divina essentia 
-          <lb ed="#L"/>sicut de aliis intelligentibus vel secundum prius et posterius si primum sequitur quo aeque primo divinus in<pb ed="#L" n="75v"/><lb ed="#L"/>tellectus 
+          <lb ed="#L"/>sicut de aliis intelligentibus vel secundum prius et posterius si primum sequitur quo aeque primo divinus in<pb ed="#L" n="75-v"/><lb ed="#L"/>tellectus 
           beatifice intuetur pro obiecto quaecumque intellecta sicut essentiam divinam quod non videtur 
           <lb ed="#L"/>verum si detur 2m sequitur quod in divinis erit prioritas et posterioritas quod supra fuit 
           <lb ed="#L"/>negatum</p>
@@ -262,7 +263,7 @@
           <lb ed="#L"/><choice><orig>2ario</orig><reg>secundario</reg></choice></p>
         
         <p xml:id="pgb1q24-d1e3863"><g ref="#pilcrow"/>Ad 3m negatur consequentia et ad probationem quando dicitur quia ad intra non est volitio 
-          <pb ed="#L" n="76r"/><lb ed="#L"/>non est sine amore dicitur quod si li <mentioned>est</mentioned> sit copulativa vel nota originis et non formalitatis 
+          <pb ed="#L" n="76-r"/><lb ed="#L"/>non est sine amore dicitur quod si li <mentioned>est</mentioned> sit copulativa vel nota originis et non formalitatis 
           <lb ed="#L"/>conceditur et sic non est contra dicta <g ref="#slash"/>2o dico quod sumendo large amorem concedi 
           <lb ed="#L"/>potest quod volitio est amor productus vel producens non tamen oportet quod sit productus 
           <lb ed="#L"/>per illud id suppositum quod est amor unde spiritus sanctus est amor productus non tamen 
@@ -325,7 +326,7 @@
         
         <p xml:id="pgb1q24-d1e4068"><g ref="#slash"/>6o conclusio licet 
         diversum sit esse patrem  et esse filium non tamen est diversa substantia quia haec non secundum substantiam 
-          <pb ed="#L" n="76v"/><lb ed="#L"/>dicuntur sed secundum relationem quod tamen relatum non est accidens quia non est mutabile</p>
+          <pb ed="#L" n="76-v"/><lb ed="#L"/>dicuntur sed secundum relationem quod tamen relatum non est accidens quia non est mutabile</p>
         
         <p xml:id="pgb1q24-d1e4075"><g ref="#pilcrow"/>7a conclusio 
           <lb ed="#L"/>sicut solus filius dicitur verbum et <choice><orig>ymago</orig><reg>imago</reg></choice> ita etiam solus dicitur sapientia nata vel genita 

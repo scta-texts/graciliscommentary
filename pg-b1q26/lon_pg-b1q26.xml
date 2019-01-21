@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 26 [London Transcription]</title>
+        <title>Liber I, Quaestio 26 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.12-dev-master">
-          <title>Librum I, Quaestio 26 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 26 [London Transcription]</title>
           <date when="2014-12-31">December 31, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-12-31">December 31, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-12-31" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-12-31" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="79-v"/> 
       </div>
     </front>
     <body>
@@ -63,7 +64,7 @@
         
         <p xml:id="pgb1q26-d1e3158"><g ref="#pilcrow"/>2a pars principalis 
           <lb ed="#L"/>quae est distinctio 33a dividitur in tres quia primo personarum et proprietatum comparationem ponit <g ref="#slash"/>2o obiectionem 
-          <pb ed="#L" n="80r"/><lb ed="#L"/>recitat et solvit 3o ex dictis suis quamdam difficilem <unclear>quaestionem</unclear> ostendit 2a ibi 
+          <pb ed="#L" n="80-r"/><lb ed="#L"/>recitat et solvit 3o ex dictis suis quamdam difficilem <unclear>quaestionem</unclear> ostendit 2a ibi 
           <lb ed="#L"/>hoc autem aliqui 3a ibi sed forte quaeres et haec sit divisio in generali lectionis</p>
         
         <p xml:id="pgb1q26-d1e3175"><hi>U</hi>trum patris et filii amor seu nexus indissolubilis sit quo 
@@ -124,7 +125,7 @@
         <p xml:id="pgb1q26-d1e3336"><g ref="#pilcrow"/>3m corollarium licet deus in 
           <lb ed="#L"/>casu plus diligat peccantem quam certum amantem tamen non minori sed aequali 
           <lb ed="#L"/>amore diligit tam amantem quam peccantem prima pars patet quia in casu peccans 
-          <pb ed="#L" n="80v"/><lb ed="#L"/>venialiter est in maiori gratia quam alius carens venialibus</p>
+          <pb ed="#L" n="80-v"/><lb ed="#L"/>venialiter est in maiori gratia quam alius carens venialibus</p>
         
         <p xml:id="pgb1q26-d1e3347"><g ref="#pilcrow"/>confirmatur quia stat pec<lb ed="#L"/>cantem 
         esse praedestinatum et existentem sine peccato esse praestitum sed omnem 
@@ -190,7 +191,7 @@
         
         <p xml:id="pgb1q26-d1e3534"><g ref="#pilcrow"/>6o veniale peccatum est infinitum 
           <lb ed="#L"/>malum ergo non stat cum gratia tenet consequentia et antecedens probatur quia coniungens peccatum <!-- bottom margin read veniale; and the "codex 5us" --> 
-          <pb ed="#L" n="81r"/>veniale cum merito vitae aeternae aut facit quod actus est minus meritorius quam 
+          <pb ed="#L" n="81-r"/>veniale cum merito vitae aeternae aut facit quod actus est minus meritorius quam 
           <lb ed="#L"/>alias esset si non coniungeretur aut non si non contra quia sic peccans aliquod cum 
           <lb ed="#L"/>deo amat non propter deum et per consequens deum minus amat tenet consequentia per <ref><name ref="#Augustine">augustinum</name> 
           <lb ed="#L"/>10 <title ref="#Confessions">confessionum</title></ref> dicentem <quote ana="#Augustine_Confessions_10_29_40_a">minus te <!-- amat --> qui tecum aliquid amat</quote> etc si sic 
@@ -249,7 +250,7 @@
         
         <p xml:id="pgb1q26-d1e3738"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia 
           <lb ed="#L"/>licet facilius sit homini datae denarium quam <unclear cert="high">floris</unclear> tamen non quilibet potens 
-          <pb ed="#L" n="81v"/><lb ed="#L"/>florenum potest dare denarium quia aliquis habet florenum qui nullum habet denarium</p>
+          <pb ed="#L" n="81-v"/><lb ed="#L"/>florenum potest dare denarium quia aliquis habet florenum qui nullum habet denarium</p>
         
         <p xml:id="pgb1q26-d1e3751"><lb ed="#L"/><g ref="#pilcrow"/>2o posset negari antecedens et cum dicitur quod minus bonum etc ergo negatur consequentia quia minus bonum 
           <lb ed="#L"/>saepe cum maiori difficultate acquiritur quam maius bonum nam non sequitur <name ref="#Sortes">sortes</name> 
@@ -304,7 +305,7 @@
         
         <p xml:id="pgb1q26-d1e3906"><g ref="#pilcrow"/>Ad 3m negatur 
           <lb ed="#L"/>minor quia lux veritas sapientia deus et similia nomina quandoque sumuntur 
-          <pb ed="#L" n="82r"/><lb ed="#L"/>essentialiter quandoque personaliter et illa tantum in singulari et non in plurali aliter a simili 
+          <pb ed="#L" n="82-r"/><lb ed="#L"/>essentialiter quandoque personaliter et illa tantum in singulari et non in plurali aliter a simili 
           <lb ed="#L"/>probaretur pluralitas deorum quia in divinis est deus genitus sed nullus <unclear>vincus</unclear> est genitus 
           <lb ed="#L"/>et ingenitus ergo etc patet quod ratio non valet</p>
         
@@ -364,7 +365,7 @@
           
         <p xml:id="pgb1q26-d1e4077"><lb ed="#L"/>post supradicta <g ref="#slash"/>prima conclusio quod proprietates personarum distinguunt et determinant 
           <lb ed="#L"/>personas et sunt in ipsis personis et in divina essentia suntque ipse divinae personae et sunt divina 
-          <pb ed="#L" n="82v"/><lb ed="#L"/>essentia et ratio est quia omne illud quod habet deus est illud excepto eo quod relative dicitur 
+          <pb ed="#L" n="82-v"/><lb ed="#L"/>essentia et ratio est quia omne illud quod habet deus est illud excepto eo quod relative dicitur 
           <lb ed="#L"/>nam pater habet filium non tamen est filius</p>
         
         <p xml:id="pgb1q26-d1e4090"><g ref="#pilcrow"/>2a conclusio quod proprietates aliter sunt in divinis personis 

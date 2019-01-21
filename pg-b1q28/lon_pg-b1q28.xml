@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 28 [London Transcription]</title>
+        <title>Liber I, Quaestio 28 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01-dev-master">
-          <title>Librum I, Quaestio 28 [London Transcription]</title>
-          <date when="2015-01-07">January 07, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 28 [London Transcription]</title>
+          <date when="2015-01-07">January 07, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-07">January 07, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-07" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-01-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="85-r"/>
       </div>
     </front>
     <body>
@@ -92,7 +93,7 @@
           <lb ed="#L"/>omnia creata continentia et distincta entia tamen illa ut sunt in deo contenta non 
           <lb ed="#L"/>sunt inter se differentia <g ref="#slash"/>prima patet per <ref><name ref="#Augustine">augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestiones</title> quaestione 46</ref> ubi dicit quod <quote ana="#Augustine_DeDiversisQuaestionibus_46_2_a"><choice><orig>ydeae</orig><reg>ideae</reg></choice> sunt 
           <lb ed="#L"/>formae exemplares aeternae incommutabiles</quote> secundum quas deus cognoscit et producti ea <g ref="#dot"/> 
-          <pb ed="#L" n="85v"/><lb ed="#L"/>quae oriuntur in creaturis quae etiam in divina intelligentia continentur <g ref="#slash"/>Item <ref>6o <title ref="#deTrinitate">de trinitate</title></ref> 
+          <pb ed="#L" n="85-v"/><lb ed="#L"/>quae oriuntur in creaturis quae etiam in divina intelligentia continentur <g ref="#slash"/>Item <ref>6o <title ref="#deTrinitate">de trinitate</title></ref> 
           <lb ed="#L"/><quote ana="#Augustine_DeTrinitate_6_10_11_a">verbum divinum est ars plena omnium rationum viventium</quote> <g ref="#slash"/>Item <ref>5o <title ref="#DeGenesiAdLitteram">super genesim</title></ref> <quote ana="#Augustine_onGenesis_5_16_34_a">nec deus 
           <lb ed="#L"/>aliquid faceret nisi illud cognosceret antequam faceret nec cognosceret nisi videret nec videret 
           <lb ed="#L"/>nisi haberet ea quae nondum facta erant modus autem quem factus non est</quote> <g ref="#slash"/>est modus 
@@ -144,7 +145,7 @@
           <lb ed="#L"/>per idem cognoscit continet et repraesentat quia non magis nec minus est in deo ratio 
           <lb ed="#L"/>cognoscendi creaturas formaliter quam sit ratio continendi eas virtualiter et antecedens 
           <lb ed="#L"/>probatur quia <corr><del rend="strikethrough">per idem deus</del></corr> quanta est <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> et unitas in <corr><del>principio</del></corr> actu intelligendi 
-          <pb ed="#L" n="86r"/><lb ed="#L"/>terminata est unitas in principio et ratione intelligendi sed in actu divino intelligendi est 
+          <pb ed="#L" n="86-r"/><lb ed="#L"/>terminata est unitas in principio et ratione intelligendi sed in actu divino intelligendi est 
           <lb ed="#L"/>formalis unitas ergo probatio <!-- good evidence that all previous "probo" shoudl be "probatio" --> minoris quia uno actu formaliter in distincto omnia distincte in<lb ed="#L"/>telligit 
         alias non haberet unicum verbum <g ref="#slash"/>Ad hoc est <ref><name ref="#Augustine">augustinus</name> 15o <title ref="#deTrinitate">de trinitate</title> 
           <lb ed="#L"/>capitulo 8o</ref> dicens <quote ana="#Augustine_DeTrinitate_15_7_13_a">una aeterna incommutabili atque ineffabili visione com<lb ed="#L"/>plectitur 
@@ -198,7 +199,7 @@
           <lb ed="#L"/>privativum cognoscit distincte per <choice><orig>ydeam</orig><reg>ideam</reg></choice> suorum positivorum patet prima ex dictis 
           <lb ed="#L"/>2a patet quia privatio cognoscitur per habitum Item cognoscens se non habere florenem 
           <lb ed="#L"/>vertit <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> suam ad speciem floreni unde nullus sciret se privari <g ref="#dot"/> 
-          <pb ed="#L" n="86v"/><lb ed="#L"/>floreno nisi haberet notitiam floreni vel in se vel in specie repraesentante</p>
+          <pb ed="#L" n="86-v"/><lb ed="#L"/>floreno nisi haberet notitiam floreni vel in se vel in specie repraesentante</p>
         
         <p xml:id="pgb1q28-d1e3910"><g ref="#pilcrow"/>3m corollarium 
           <lb ed="#L"/>licet deus noscat culpam notitia simplicis intelligentiae ac visionis non tamen malum 
@@ -255,7 +256,7 @@
         <p xml:id="pgb1q28-d1e4169"><g ref="#pilcrow"/>contra 3am conclusionem et corollaria si 
           <lb ed="#L"/>deus cognosceret culpam sequeretur quod notitia illa creata esset a culpa vel quod 
           <lb ed="#L"/>causat culpam consequens est falsum tum quia dei notitia est aeterna nec potest habere causam 
-          <pb ed="#L" n="87r"/><lb ed="#L"/>tum 2o quia deo auctore nemo fit deterior sed consequentia patet per <ref><name ref="#Aristotle">philosophum</name> 12 <title ref="#Metaphysics">metaphysicae</title></ref> 
+          <pb ed="#L" n="87-r"/><lb ed="#L"/>tum 2o quia deo auctore nemo fit deterior sed consequentia patet per <ref><name ref="#Aristotle">philosophum</name> 12 <title ref="#Metaphysics">metaphysicae</title></ref> 
           <lb ed="#L"/>dicentem quod <quote>omnis scientia vel est causa rerum vel est causat a rebus <!-- see potentially XII, 8, around 1074b 23 --></quote></p>
         
         <p xml:id="pgb1q28-d1e4194"><g ref="#pilcrow"/>2o sequeretur quod deus approbaret 
@@ -313,7 +314,7 @@
           et ad quam refertur et sic aliquis conceptus complexus est de essentia beatitudinis et 
           <lb ed="#L"/>non potest separari ab actu simplici quo intellectus videt essentiam stante beat<lb ed="#L"/>itudine 
           illius intellectus nam dato quo deus est iudicium quo cognitio 
-          <pb ed="#L" n="87v"/><lb ed="#L"/>stat sic complexe filium emanare a patre et spiritum sanctum ab utroque tamen non prius 
+          <pb ed="#L" n="87-v"/><lb ed="#L"/>stat sic complexe filium emanare a patre et spiritum sanctum ab utroque tamen non prius 
           <lb ed="#L"/>est beatus quam videat complexe salva reverentia illius qui prius respondebat in <choice><orig>vesperiis</orig><reg>vesperis</reg></choice></p> <!-- reference to vesper disputation -->
         
         <p xml:id="pgb1q28-d1e4444"><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m negatur consequentia et ad probationem dicitur quod non aliter relucet ex parte <unclear>repraesentatis</unclear> 
@@ -372,7 +373,7 @@
         <p xml:id="pgb1q28-d1e4602"><g ref="#pilcrow"/>5a conclusio 
           <lb ed="#L"/>quod non omne quod est ex deo est de ipso deo quia caelum est ex ipso sed non de ipso 
           <lb ed="#L"/>quia caelum non est de natura dei omne autem quod est de ipso ex ipso est sed non econverso 
-          <pb ed="#L" n="88r"/><lb ed="#L"/>unde filius est de patre et ex patre quia forte li <mentioned>ex</mentioned> notat causam producentem <g ref="#dot"/> li 
+          <pb ed="#L" n="88-r"/><lb ed="#L"/>unde filius est de patre et ex patre quia forte li <mentioned>ex</mentioned> notat causam producentem <g ref="#dot"/> li 
           <lb ed="#L"/><mentioned>de</mentioned> autem importat causam materialem vel se habentem causae materialis</p>
         
         <p xml:id="pgb1q28-d1e4624"><g ref="#pilcrow"/>6a conclusio 

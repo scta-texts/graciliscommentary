@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 36 [London Transcription]</title>
+        <title>Liber I, Quaestio 36 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 36 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 36 [London Transcription]</title>
           <date when="2015-02-07">February 07, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-07">February 07, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-07" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-07" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="106-v"/>
       </div>
     </front>
     <body>
@@ -60,7 +60,7 @@
           <lb ed="#L"/>dividitur in tres quia primo quaerit utrum deus posset facere res in gradu per<lb ed="#L"/>fectiori 
           2o utrum modo meliori 3o utrum omnem quod potuit semper possit 
           <lb ed="#L"/>statu uniformi 2a ibi post haec considerandum 3a ibi praeterea quaeri solet 
-          <pb ed="#L" n="107r"/><lb ed="#L"/>prima dividitur in duas quia primo errorem quorumdam recitat et eundem recitat 
+          <pb ed="#L" n="107-r"/><lb ed="#L"/>prima dividitur in duas quia primo errorem quorumdam recitat et eundem recitat 
           <lb ed="#L"/>2o veritatem determinat et approbat ibi verum hic ab eis</p>
         
         <p xml:id="pgb1q36-d1e3265"><g ref="#pilcrow"/>3a pars principalis scilicet 
@@ -121,7 +121,7 @@
           a deo patet primum</p>
         
         <p xml:id="pgb1q36-d1e3441"><g ref="#pilcrow"/>3m corollarium si species <choice><orig>alica</orig><reg>aliqua</reg></choice> contineret <g ref="#slash"/>individua 
-          <pb ed="#L" n="107v"/><lb ed="#L"/>infinita non propter hoc esset tunc plus quam nunc perfecta <g ref="#slash"/>vel <unclear>sit</unclear> istud corollarium 3m 
+          <pb ed="#L" n="107-v"/><lb ed="#L"/>infinita non propter hoc esset tunc plus quam nunc perfecta <g ref="#slash"/>vel <unclear>sit</unclear> istud corollarium 3m 
           <lb ed="#L"/>quod quaelibet species latitudinis adextra producibilis est cuilibet aliquo modo alteri comparabilis 
           <lb ed="#L"/>patet quia quodlibet finitum alteri finito est aliquo modo comparabile <g ref="#slash"/>aliud corollarium quam repugnat 
           <lb ed="#L"/>duas species imperfectione similiter aequari tam repugnat illas in aliqua specifica per<lb ed="#L"/>fectione 
@@ -172,7 +172,7 @@
           <lb ed="#L"/>producere potest igitur</p>
         
         <p xml:id="pgb1q36-d1e3631"><g ref="#slash"/>primum corollarium licet ab omnipotenti posse non sit factibile <choice><orig>suppremum</orig><reg>supremum</reg></choice> 
-          <pb ed="#L" n="108r"/><lb ed="#L"/>creabile tamen infinitum creabile ab ipso est factibile patet utraque pars per <ref><name ref="#JamesViterbo">iacobum 
+          <pb ed="#L" n="108-r"/><lb ed="#L"/>creabile tamen infinitum creabile ab ipso est factibile patet utraque pars per <ref><name ref="#JamesViterbo">iacobum 
           <lb ed="#L"/>de viterbio</name> primo quolibet quaestione 2a articulo primo</ref> ubi innuit lineam perfectionalem 
           <lb ed="#L"/>universi per purum actuale secundum <unclear>sursum</unclear> et purum potentiale secundum deorsum terminari 
           <lb ed="#L"/>et quemlibet gradum intermedium mixtum <unclear>ex</unclear> actuali et potentiali <g ref="#slash"/>ex quo patet quod 
@@ -229,7 +229,7 @@
         <p xml:id="pgb1q36-d1e3855"><g ref="#pilcrow"/>3o contra idem quia si perfectiones specificae non 
           <lb ed="#L"/>attendentur penes replicationem unitatis divinae hoc esset quia rationes constitutivae 
           <lb ed="#L"/>non possunt communicari aliis consequens est falsum quia rationale quae est ratio constitutiva 
-          <pb ed="#L" n="108v"/><lb ed="#L"/>hominis communicatur angelis</p>
+          <pb ed="#L" n="108-v"/><lb ed="#L"/>hominis communicatur angelis</p>
         
         <p xml:id="pgb1q36-d1e3866"><g ref="#pilcrow"/>4o contra 3m corollarium linea perfectionalis est divisibilis ergo componitur 
           <lb ed="#L"/>ex divisibilibus ergo quaelibet species est divisibilis quantitate ergo non consistit in in<lb ed="#L"/>divisibili 
@@ -286,7 +286,7 @@
           <g ref="#slash"/>2o cum dicitur quod non est repugnantia ex parte communicationis etc dicitur 
           <lb ed="#L"/>quod ex parte creaturae est incompossibilitas quia ei repugnat esse omnipotentem 
           <lb ed="#L"/>esse per se simpliciter esse <choice><orig>neccesse</orig><reg>necesse</reg></choice> esse et <choice><orig>in dependentem</orig><reg>independentem</reg></choice> esse Item talis creatura 
-          <pb ed="#L" n="109r"/><lb ed="#L"/>esset essentialiter iustitia cognitio gratia dilectio et sic ipsa non posset decipi 
+          <pb ed="#L" n="109-r"/><lb ed="#L"/>esset essentialiter iustitia cognitio gratia dilectio et sic ipsa non posset decipi 
           <lb ed="#L"/>obliquae agere vel peccare <choice><orig>ymmo</orig><reg>immo</reg></choice> deus eam non posset destruere et <choice><orig>damp<lb ed="#L"/>nare</orig><reg>dam<lb ed="#L"/>nare</reg></choice> 
           patet ergo quod est repugnantia ex parte creaturae et ex parte talis denomina<lb ed="#L"/>tionis 
           cui repugnat communicari creaturae
@@ -338,7 +338,7 @@
           <lb ed="#L"/>punctalis Infinita etiam est duplex quia quaedam est in qua quodlibet extre<lb ed="#L"/>mum 
           dicit aliquam essentiam sicut deus et creatura distant <g ref="#slash"/>2a in propria in 
           <lb ed="#L"/>qua unum <unclear>termen <!-- looks like "tantum" --></unclear> extremum dicit essentiam et sic distant prima materia et <choice><orig>nichil</orig><reg>nihil</reg></choice> 
-          <pb ed="#L" n="109v"/><lb ed="#L"/>et sic dicuntur distare infinite quia inter ipsa nulla est proportio et sic posset 
+          <pb ed="#L" n="109-v"/><lb ed="#L"/>et sic dicuntur distare infinite quia inter ipsa nulla est proportio et sic posset 
           <lb ed="#L"/>dici ad illud sapientiae omnia in numero pondere et mensura constituisti <!-- quote here --> 
           <lb ed="#L"/>omnis entitas creatur in certo numero partium organicarum et partium eiusdem 
           <lb ed="#L"/>quantitatis et certi generis ac specie <g ref="#slash"/> 2o quod perfectiones et qualitates cuiuslibet entis sunt 
@@ -407,7 +407,7 @@
           <lb ed="#L"/><choice><orig>ymmo</orig><reg>immo</reg></choice> eis corresponderent diversa puncta in linea perfectionis</p>
         
         <p xml:id="pgb1q36-d1e4400"><g ref="#pilcrow"/>Ad 6m 
-          <pb ed="#L" n="110r"/><lb ed="#L"/>primo dicitur quod anima non communicat corpori quodlibet suum esse perfectum perfectione simpliciter quia anima 
+          <pb ed="#L" n="110-r"/><lb ed="#L"/>primo dicitur quod anima non communicat corpori quodlibet suum esse perfectum perfectione simpliciter quia anima 
           <lb ed="#L"/>est formaliter vita formaliter indivisibilis formaliter forma intellectiva unde 
           <lb ed="#L"/><unclear>principium</unclear> modus et constat quod nullum istorum formaliter communicat corpori 
           <lb ed="#L"/>seu homini cum homo non sit formaliter vita nec intellectus</p>
@@ -460,7 +460,7 @@
         
         <p xml:id="pgb1q36-d1e4535"><lb ed="#L"/><g ref="#pilcrow"/>3a conclusio quod deus potest quidquid semel potuit et semper vult quidquid semel vo<lb ed="#L"/>luit 
           id est eam habet potentiam et voluntatem quam semel habuit unde potuit <sic>in</sic> 
-          <pb ed="#L" n="110v"/><lb ed="#L"/><choice><orig>in carnari</orig><reg>incarnari</reg></choice> est incarnatus eadem potentia sicut eadem est scientia qua scivit se 
+          <pb ed="#L" n="110-v"/><lb ed="#L"/><choice><orig>in carnari</orig><reg>incarnari</reg></choice> est incarnatus eadem potentia sicut eadem est scientia qua scivit se 
           <lb ed="#L"/>resurrecturum et sic se <choice><orig>resurexisse</orig><reg>resurrexisse</reg></choice> non tamen potest facere omne illud semper 
           <lb ed="#L"/>quod aliquando potuit nec vult esse vel fieri sed fuisse vel factum esse <g ref="#slash"/>ita et 
           <lb ed="#L"/>de scientia dicendum est eodem modo conformiter</p>

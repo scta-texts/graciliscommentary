@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 37 [London Transcription]</title>
+        <title>Liber I, Quaestio 37 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 37 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 37 [London Transcription]</title>
           <date when="2015-02-12">February 12, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-12">February 12, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-12" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="110-v"/>
       </div>
     </front>
     <body>
@@ -98,7 +98,7 @@
           <lb ed="#L"/>est <ref><name ref="#Augustine">augustinus</name> <sic>2o<!-- actually book 11 (this scribe seems to confiuse 2 and 11; see above) --></sic> <title ref="#CityOfGod">de civitate dei</title> capitulo 18o et 23o</ref> ubi declarat <!-- does not seem like a direct quote but the general point is found in Book 11 chapter 18 --> <unclear>existentis</unclear> multis 
           <lb ed="#L"/>quomodo pulchritudo alicuius totius resultat ex contrariis et multis differentibus 
           <lb ed="#L"/>convenienter ordinatis ut nigredo pupillae in <choice><orig>ymagine</orig><reg>imagine</reg></choice> si per se consideretur habere 
-          <pb ed="#L" n="111r"/><lb ed="#L"/>videtur turpitudinem potius quam pulcritudinem tamen relata ad alias partes 
+          <pb ed="#L" n="111-r"/><lb ed="#L"/>videtur turpitudinem potius quam pulcritudinem tamen relata ad alias partes 
           <lb ed="#L"/>oculi et vultus <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> decorat <g ref="#pilcrow"/>Item vox grossa et rudis secundum se <!-- no paragraph break because this is just offering another exmaple --> 
           <lb ed="#L"/>considerata non est dulcis nec delectabilis tamen relata ad aliam per modum 
           <lb ed="#L"/>tenoris constituit armoniam et dulcem melodiam ergo</p>
@@ -150,7 +150,7 @@
           <lb ed="#L"/>divina voluntas vult <choice><orig>in mensa</orig><reg>immensa</reg></choice> in differentia prima pars apparet de peccato de quo si 
           <lb ed="#L"/>verum est quod fiat tamen respectu illius deus non habet beneplacitum nec velle efficax 
           <lb ed="#L"/>positivum sed tantum velle <corr>permissu<del rend="strikethrough">i</del>um</corr> 2a pars probatur quia deus immense libere 
-          <pb ed="#L" n="111v"/><lb ed="#L"/>vult adextra ergo immense <choice><orig>in differenter</orig><reg>indifferenter</reg></choice> consequentia patet quia si non immense indifferenter sequitur quod 
+          <pb ed="#L" n="111-v"/><lb ed="#L"/>vult adextra ergo immense <choice><orig>in differenter</orig><reg>indifferenter</reg></choice> consequentia patet quia si non immense indifferenter sequitur quod 
           <lb ed="#L"/>volendo adextra perderet aliquem gradum libertatis quod non est dicendum</p>
         
         <p xml:id="pgb1q37-d1e3627"><g ref="#pilcrow"/>primum 
@@ -203,7 +203,7 @@
           <lb ed="#L"/>dicit notanter ratione status in se quia universum et eius status est nunc perfectior 
           <lb ed="#L"/>propter deum hominem factum sed hoc non est ratione status in se <g ref="#slash"/>2a pars probatur per 
           <lb ed="#L"/><ref><name ref="#Augustine">augustinum</name> 12o <title ref="#CityOfGod">de civitate</title> capitulo 7o vel vel 6o usque 24m</ref> <g ref="#slash"/>confirmatur quia iusto dei 
-          <pb ed="#L" n="112r"/><lb ed="#L"/>iudicio unum peccatum erit alterius <choice><orig>pena</orig><reg>poena</reg></choice> perpetua</p>
+          <pb ed="#L" n="112-r"/><lb ed="#L"/>iudicio unum peccatum erit alterius <choice><orig>pena</orig><reg>poena</reg></choice> perpetua</p>
         
         <p xml:id="pgb1q37-d1e3825"><g ref="#pilcrow"/>3m corollarium est <unclear>responsivum</unclear> 
           <lb ed="#L"/>scilicet pars affirmativa <unclear>quaestionis <!-- again ambiguous, seems like it has to be "questionis" considering the reference to the third conclusionis that follows  --></unclear> patet per dicta in 3a conclusione</p>
@@ -259,7 +259,7 @@
         <p xml:id="pg-b1q37-d1e730">
           <g ref="#slash"/>4o sequitur quod velle intrinseco nulla 
           <lb ed="#L"/>omnino causalitas adextra corresponderet consequens est falsum et patet consequentia quia nulla 
-          <pb ed="#L" n="112v"/><lb ed="#L"/>perfectio correspondet divino velle adextra sed causalitas adextra est <choice><orig>in mense</orig><reg>immense</reg></choice> per<lb ed="#L"/>fectionis 
+          <pb ed="#L" n="112-v"/><lb ed="#L"/>perfectio correspondet divino velle adextra sed causalitas adextra est <choice><orig>in mense</orig><reg>immense</reg></choice> per<lb ed="#L"/>fectionis 
           in deo ergo velle divino non correspondet causalitas adextra <g ref="#slash"/> minor patet 
           <lb ed="#L"/>maior probatur quia quodlibet dei velle adextra cum possit non esse si diceret perfec<lb ed="#L"/>tionem 
           in deo intrinsecam ut sic <unclear>posset <!-- dbcheck --></unclear> infinita perfectio deo de esse 
@@ -309,7 +309,7 @@
           <lb ed="#L"/>ille non possunt esse vel fieri patet consequentia quia volens aliquem finem 
           <lb ed="#L"/>vult illa quae requiruntur ad illum finem sicut est prosecutio illorum 
           <lb ed="#L"/>Item vult antecedens <unclear>quod</unclear> est sanctos mereri per huius passiones ergo consequens <!-- probably the end of a quire here -->
-          <pb ed="#L" n="113r"/><lb ed="#L"/>vult quod est sanctorum in iusta persecutio quia illud consequens includitur in antecedente</p>
+          <pb ed="#L" n="113-r"/><lb ed="#L"/>vult quod est sanctorum in iusta persecutio quia illud consequens includitur in antecedente</p>
         
         <p xml:id="pgb1q37-d1e4198"><lb ed="#L"/><g ref="#pilcrow"/>Ad primum posset concedi consequens quia non est inconveniens de potentia <unclear>illicita</unclear> et 
           <lb ed="#L"/>resistentia sine audiotorio influentiae generalis quae idem iuvat et 
@@ -363,7 +363,7 @@
         
         <p xml:id="pgb1q37-d1e4359"><g ref="#pilcrow"/>Ad 3m dicitur quod consequens potest dupliciter sumi <g ref="#slash"/>uno modo in<lb ed="#L"/>trinsece 
           et entitative et sic negatur consequentia Alio modo extrinsece per habitudinem denotativam 
-          <pb ed="#L" n="113v"/><lb ed="#L"/>et sic conceditur antecedens nec hoc est ponere proprie contingentia deo intrinsecam nisi 
+          <pb ed="#L" n="113-v"/><lb ed="#L"/>et sic conceditur antecedens nec hoc est ponere proprie contingentia deo intrinsecam nisi 
           <lb ed="#L"/>sumeretur contingentia indifferenter libertatis sicut forte sumunt illi qui 
           <lb ed="#L"/>ipsam in deo ponunt</p>
         
@@ -417,7 +417,7 @@
         <p xml:id="pg-b1q37-d1e1018">
           <g ref="#slash"/>3o respectu quorumdam habet velle 
           <lb ed="#L"/>approbationis et acceptationis specialis et complacentiae et sic vult 
-          <pb ed="#L" n="114r"/><lb ed="#L"/>bona et merita quae fiunt <ref><title ref="#rom">ad Romanos</title> 12o</ref> <quote ana="#rom12_2">ut probetis quae sit voluntas dei 
+          <pb ed="#L" n="114-r"/><lb ed="#L"/>bona et merita quae fiunt <ref><title ref="#rom">ad Romanos</title> 12o</ref> <quote ana="#rom12_2">ut probetis quae sit voluntas dei 
           <lb ed="#L"/>bona et beneplacens et perfecta</quote> et potest dici velle beneplaciti simpliciter</p>
         
         <p xml:id="pgb1q37-d1e4515"><lb ed="#L"/><g ref="#pilcrow"/>4o respectu quorumdam habet velle concessionis et licentiae et sic vult quaecumque 
@@ -470,7 +470,7 @@
         
         <p xml:id="pgb1q37-d1e4677"><g ref="#pilcrow"/>Ad confirmationem negatur consequentia et dicitur quod ad duplationem motoris 
           <lb ed="#L"/>non oportet duplare causam universalem quae influentia generali in omnibus causis 
-          <pb ed="#L" n="114v"/><lb ed="#L"/><choice><orig>in fluit</orig><reg>influit</reg></choice> nec proportio velocitatis motus sumitur secundum proportionem <unclear>resistere</unclear> 
+          <pb ed="#L" n="114-v"/><lb ed="#L"/><choice><orig>in fluit</orig><reg>influit</reg></choice> nec proportio velocitatis motus sumitur secundum proportionem <unclear>resistere</unclear> 
           <lb ed="#L"/>ad talem potentiam sed sufficit duplatio totalis causae particularis creatae
         </p>
         <p xml:id="pg-b1q37-d1e1158">
@@ -527,7 +527,7 @@
           <lb ed="#L"/>prohibere permittere consulem operari <g ref="#slash"/>sive praeceptio prohibitio permissio <g ref="#dot"/> 
           <lb ed="#L"/>consilium et operatio unde illud quod deus praecipit potest dici eius voluntatis 
           <lb ed="#L"/>et sic de aliis signis et contra huiusmodi signa potest aliquid fieri quia multa 
-          <lb ed="#L"/>et plura deus praecipit quae non fiunt sicut <name ref="#Abraham">abrahae</name> praecepit filium im<pb ed="#L" n="115r"/><lb ed="#L"/>molare 
+          <lb ed="#L"/>et plura deus praecipit quae non fiunt sicut <name ref="#Abraham">abrahae</name> praecepit filium im<pb ed="#L" n="115-r"/><lb ed="#L"/>molare 
           et tamen non voluit actum immolationis sed voluntatem et obe<lb ed="#L"/>dientiam 
           <name ref="#Abraham">abrahae</name> et fidem eius probare voluit et ostendere <g ref="#slash"/>versus 
           <lb ed="#L"/>Praecipit et prohibet permittit consulit implet etc</p>

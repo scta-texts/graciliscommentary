@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 34 [London Transcription]</title>
+        <title>Liber I, Quaestio 34 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 34 [London Transcription]</title>
-          <date when="2015-01-30">January 30, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 34 [London Transcription]</title>
+          <date when="2015-01-30">January 30, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-30">January 30, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-30" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-01-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="101-r"/>
       </div>
     </front>
     <body>
@@ -70,7 +70,7 @@
           <lb ed="#L"/>expositionem illarum obicit 2a ibi sed adhuc <g ref="#slash"/>3a ibi se <unclear>de</unclear> forte di<lb ed="#L"/>ces 
           etc et haec est <choice><orig><sic>divusio</sic></orig><reg>divisio</reg></choice> etc</p>
         
-        <p xml:id="pgb1q34-d1e3198"><pb ed="#L" n="101v"/><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum Ratio adaequata omnipotentiae sit immensa activitas divinae essentiae</p> 
+        <p xml:id="pgb1q34-d1e3198"><pb ed="#L" n="101-v"/><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum Ratio adaequata omnipotentiae sit immensa activitas divinae essentiae</p> 
           
         <p xml:id="pgb1q34-pqnraa"><lb ed="#L"/>primo quod non arguitur quia si esset aliqua omnipotentia illa esset reducibilis ad actum 
           <lb ed="#L"/>sed hoc falsum quia tunc esset aliqua potentia passiva infinita sibi correspondens <g ref="#dot"/> 
@@ -127,7 +127,7 @@
           <lb ed="#L"/>prima pars probatur nam non stat aliquod ens esse tale et ipsum non esse deum omnipo<lb ed="#L"/>tentem 
           ergo antecedens probatur <ref><title ref="#sap">sapientiae</title> 7o</ref> quae <quote ana="#sap7_27">cum sit una omnia potest</quote> <g ref="#slash"/>Item <ref><title ref="#lc">luce</title> <sic>2o<!-- actually c. 1 --></sic></ref>
           <lb ed="#L"/><quote ana="#lc1_37">non est impossibile apud deum omne verbum</quote> <g ref="#slash"/>Item patet per <ref><name ref="#Dionysius">dyonisium</name> <title ref="#deDivinisNominibus">de divinis nominibus</title> 
-          <pb ed="#L" n="102r"/><lb ed="#L"/>capitulo 8o</ref> dicentem virtutem dei esse infinitam quia potest producere infinita <g ref="#slash"/>Item patet per <name ref="#AlanusDeInsulis">alanum</name> 
+          <pb ed="#L" n="102-r"/><lb ed="#L"/>capitulo 8o</ref> dicentem virtutem dei esse infinitam quia potest producere infinita <g ref="#slash"/>Item patet per <name ref="#AlanusDeInsulis">alanum</name> 
           <lb ed="#L"/><title ref="#DeMaximisTheologiae">de maximis theologiae</title> regula 51 ubi dicit <quote>solus ille est omnipotens qui potest omnia quae 
           <lb ed="#L"/>posse est aliquid posse</quote> <g ref="#slash"/>Item nota quod de ratione omnipotentiae est quod sit libera <g ref="#slash"/>ex quo patet 
           <lb ed="#L"/>quod plus est dicere omnipotens quam infinita potentia unde si esset infinita potentia et non libera 
@@ -259,7 +259,7 @@
         </p>
         <p xml:id="pg-b1q34-d1e729">
           <pc type="#pilcrow"/>Ad 3m neganda
-          <pb ed="#L" n="103r"/><lb ed="#L"/>consequentia et ad probationem dicitur quod posse peccare non est posse nec efficere si sic de<lb ed="#L"/>ficere
+          <pb ed="#L" n="103-r"/><lb ed="#L"/>consequentia et ad probationem dicitur quod posse peccare non est posse nec efficere si sic de<lb ed="#L"/>ficere
           <g ref="#slash"/>Item peccare dicit imperfectionem ideo non cadit sub obiecto omnipotente</p>
         
         <p xml:id="pgb1q34-d1e3703"><g ref="#pilcrow"/>Ad 
@@ -325,7 +325,7 @@
         
         <p xml:id="pgb1q34-d1e3869"><g ref="#pilcrow"/>Nunc vero de omni<lb ed="#L"/>potentia 
         <g ref="#slash"/>prima conclusio quod deus trinitas est opus quia potest omnia quae possibilia sunt 
-        <pb ed="#L" n="103v"/><lb ed="#L"/>posse vel quae convenit ei posse</p>
+        <pb ed="#L" n="103-v"/><lb ed="#L"/>posse vel quae convenit ei posse</p>
         
         <p xml:id="pgb1q34-d1e3880"><g ref="#pilcrow"/>2a conclusio quod deus potest quaedam per se facere ut 
           <lb ed="#L"/>creare caelum quaedam potest facere non in se sed in creaturis ut motum quaedam 

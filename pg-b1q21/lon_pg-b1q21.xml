@@ -1,49 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 21 [London Transcription]</title>
+        <title>Liber I, Quaestio 21 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.11-dev-master">
-          <title>Librum I, Quaestio 21 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 21 [London Transcription]</title>
           <date when="2014-11-29">November 29, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-11-29">November 29, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-11-29" who="#JW" status="draft" n="2014.11">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-29" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      
+      <div xml:id="starts-on">
+        <pb ed="#L" n="65-v"/> 
+      </div>
     </front>
     <body>
       <div xml:id="pg-b1q21">
@@ -68,10 +72,10 @@
           <lb ed="#L"/>postquam determinavit de hiis quae sunt de <seg type="correction"><del>ex</del> intrinseca</seg> <g ref="#slash"/>hic tractat de nominibus 
           <lb ed="#L"/>huius perfectiones intrinsecas exprimentibus ut sunt <unclear>vo?lia</unclear> nomina et dividitur in 
           <lb ed="#L"/>duas quia primo ostendit circa huius nomina duplicem ordinem <g ref="#slash"/>2o ponit regulam 
-          <pb ed="#L" n="66r"/><lb ed="#L"/>utilem 2a ibi sciendum ergo et hoc et distinctionis huius divisio et sententia in generali</p>
+          <pb ed="#L" n="66-r"/><lb ed="#L"/>utilem 2a ibi sciendum ergo et hoc et distinctionis huius divisio et sententia in generali</p>
         
         <p xml:id="pgb1q21-d1e3195"><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi>trum quodlibet divinum suppositum propter suum aequale posse quodlibet contingentiae 
-          <pb ed="#L" n="66r"/><lb ed="#L"/>expositum aeque possit facere esse</p> <!-- check for contingentiae below -->
+          <lb ed="#L"/>expositum aeque possit facere esse</p> <!-- check for contingentiae below -->
         
         <p xml:id="pgb1q21-d1e3206">quod non quia inter divina supposita non 
           <lb ed="#L"/>est aequalitas proprie dicta nec summa ergo non habent aequale posse antecedens probatur tum quia 
@@ -125,7 +129,7 @@
         sed realiter et positive quia filius est patri aequalis secundum substantiam ut dicit 
           <lb ed="#L"/><name ref="#Augustine">augustinus</name> Item si non differentur positive non aliter differentur personae divinae aequales 
           <lb ed="#L"/>quam non entia et impossibilia tenet consequentia quia chimera non est maior nec minor <unclear>yncornuo</unclear> 
-          <pb ed="#L" n="66v"/><lb ed="#L"/>si igitur talis remotio sufficit ad aequalitatem sequitur consequens illatum</p>
+          <pb ed="#L" n="66-v"/><lb ed="#L"/>si igitur talis remotio sufficit ad aequalitatem sequitur consequens illatum</p>
         
         <p xml:id="pgb1q21-d1e3409"><g ref="#pilcrow"/>2a conclusio licet solum 
           <lb ed="#L"/>patrem producere aliquem omnipotentem sit <choice><orig>neccesse</orig><reg>necesse</reg></choice> tamen solus pater ullum <unclear>contingens<!--contingens--></unclear> potest pro<lb ed="#L"/>ducere 
@@ -181,7 +185,7 @@
           <lb ed="#L"/>in divinis quam sit distinctio personalis consequens est falsum nec 2m quia secundum <name ref="#Scotus">scotum</name> fundamenta 
           <lb ed="#L"/>talium relationum non sunt eadem ex natura rei nam essentia fundat <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> 
           <lb ed="#L"/>infinitas aequalitatem sapientia similitudinem sed haec ex natura rei distinguuntur ut tenet <ref><name ref="#Scotus">scotus</name> 
-          <pb ed="#L" n="67r"/><lb ed="#L"/>distinctione 19a primi quaestione 12 distinctione 13a</ref></p>
+          <pb ed="#L" n="67-r"/><lb ed="#L"/>distinctione 19a primi quaestione 12 distinctione 13a</ref></p>
         
         <p xml:id="pgb1q21-d1e3636">3o contra 3m corollarium esse completum aequalitatis <choice><orig>deppendet</orig><reg>dependet</reg></choice> ab 
           <lb ed="#L"/>intellecta ergo non est relatio realis sed rationis consequentia patet et antecedens probatur quia pater non potest 
@@ -245,7 +249,7 @@
           <lb ed="#L"/><choice><orig>ydemptitas</orig><reg>identitas</reg></choice> sed si responsio valeret divina <choice><orig>ydemptitas</orig><reg>identitas</reg></choice> posset dici aequalis sibi ipsi <g ref="#slash"/> <unclear>Ideo</unclear> 
           <lb ed="#L"/>aliter dico quod antecedens est verum quia non videtur bene <choice><orig>ymaginabile</orig><reg>imaginabile</reg></choice> quod aequalitas in divinis 
           <lb ed="#L"/>concipiatur nisi bis essentia <del>bit</del> recipiatur sed non sequitur pater non potest concipi filio 
-          <pb ed="#L" n="67v"/><lb ed="#L"/>aequalis nisi essentia bis capiatur ab intellectu ergo pater non est potest esse aequalis 
+          <pb ed="#L" n="67-v"/><lb ed="#L"/>aequalis nisi essentia bis capiatur ab intellectu ergo pater non est potest esse aequalis 
           <lb ed="#L"/>filio nisi essentia bis sumatur quia stat sic esse et nullum intellectum creatum sic concipere</p>
         
         <p xml:id="pgb1q21-d1e3890"><lb ed="#L"/>Ad 4m dicitur quod aequalitas in divinis habet extrema distincta sufficienter quia non dico <choice><orig>ydemptitatem</orig><reg>identitatem</reg></choice> 
@@ -309,7 +313,7 @@
           <lb ed="#L"/>patris in divinis est deus et ista est concedenda tamquam vera</p>
         
         <p xml:id="pgb1q21-d1e4069"><g ref="#pilcrow"/><hi rend="largeScript">nunc restat</hi> 
-          <pb ed="#L" n="68r"/><lb ed="#L"/><g ref="#pilcrow"/>prima conclusio quod sicut trium personarum divinarum una est magnitudo ita una est ipsarum 
+          <pb ed="#L" n="68-r"/><lb ed="#L"/><g ref="#pilcrow"/>prima conclusio quod sicut trium personarum divinarum una est magnitudo ita una est ipsarum 
             <lb ed="#L"/>potentia</p>
         
         <p xml:id="pgb1q21-d1e4083"><g ref="#pilcrow"/>2a conclusio quod pater non est potentior filio vel spiritu sancto nec una persona 
@@ -373,7 +377,7 @@
           substantive sed sumendo adiective possunt dici tres magni</p>
         
         <p xml:id="pgb1q21-d1e4276"><g ref="#pilcrow"/>4a conclusio quod 
-          <pb ed="#L" n="68v"/><lb ed="#L"/>nomina quae proprietatibus personalibus imponuntur non substantialiter sed relative</p>
+          <pb ed="#L" n="68-v"/><lb ed="#L"/>nomina quae proprietatibus personalibus imponuntur non substantialiter sed relative</p>
       </div>  
     </body>
   </text>

@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 31 [London Transcription]</title>
+        <title>Liber I, Quaestio 31 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 31 [London Transcription]</title>
-          <date when="2015-01-18">January 18, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 31 [London Transcription]</title>
+          <date when="2015-01-18">January 18, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-18">January 18, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-18" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-01-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="93-v"/>
       </div>
     </front>
     <body>
@@ -91,7 +92,7 @@
           <lb ed="#L"/>certa praescientia et perfecta</p>
         
         <p xml:id="pgb1q31-d1e3286"><g ref="#pilcrow"/>prima conclusio licet divina essentia secundum nullam perfectionem simpliciter 
-          <pb ed="#L" n="94r"/><lb ed="#L"/>futuri contingentis ut sic sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> notitia actualis seu claritudo tamen ipsa 
+          <pb ed="#L" n="94-r"/><lb ed="#L"/>futuri contingentis ut sic sit <choice><orig>neccessaria</orig><reg>necessaria</reg></choice> notitia actualis seu claritudo tamen ipsa 
           <lb ed="#L"/>respectu cuiuslibet talis est ratio libere repraesentativa et infallibilis ac immensa certitudo 
           <lb ed="#L"/>prima probatur quia si sic sequitur quod <choice><orig>neccessario</orig><reg>necessario</reg></choice> tale verum sic se habere divina scientia cognosceret 
           <lb ed="#L"/>vel quod aliqua perfectione simpliciter carere posset consequens utrumque est falsum et patet consequentia quia 
@@ -152,7 +153,7 @@
         
         <p xml:id="pgb1q31-d1e3498"><g ref="#pilcrow"/>3m corollarium supposito quod omne possibile esse esset 
           <lb ed="#L"/>non tamen futurum praesens existeret nec toti latitudini contingentiae ratio commensurativa 
-          <pb ed="#L" n="94v"/><lb ed="#L"/>contingens correspondere posset prima patet quia non sequitur quodlibet quod potest esse <unclear>e[?]</unclear> futurum potest esse ergo est 
+          <pb ed="#L" n="94-v"/><lb ed="#L"/>contingens correspondere posset prima patet quia non sequitur quodlibet quod potest esse <unclear>e[?]</unclear> futurum potest esse ergo est 
           <lb ed="#L"/>sed deberet dici in minori futurum est quod potest esse quod non dicitur ibi 2a pars probatur quia 
           <lb ed="#L"/>tunc talis ratio commensurativa latitudinis contingentiae deo conveniret consequens est falsum 
           <lb ed="#L"/>et patet consequentia quia nulli creaturae convenire posset <g ref="#slash"/>ex quo patet quod licet in deo non 
@@ -208,7 +209,7 @@
           <lb ed="#L"/>unum quoque se habet ad entitatem ita ad veritatem <ref>2o <title ref="#Metaphysics">metaphysicae</title></ref></p>
         
         <p xml:id="pgb1q31-d1e3708"><g ref="#pilcrow"/>3o omne contingens 
-          <pb ed="#L" n="95r"/><lb ed="#L"/>potest aliter se habere ergo de nullo tali est scientia seu praescientia consequentia patet scientia enim est in 
+          <pb ed="#L" n="95-r"/><lb ed="#L"/>potest aliter se habere ergo de nullo tali est scientia seu praescientia consequentia patet scientia enim est in 
           <lb ed="#L"/>impossibilium aliter se habere primo <title ref="#PosteriorAnalytics">posteriorum</title> antecedens de se</p>
         
         <p xml:id="pgb1q31-d1e3720"><g ref="#pilcrow"/>4o si quodlibet futurum esset praesci<lb ed="#L"/>tum 
@@ -272,7 +273,7 @@
         
         <p xml:id="pgb1q31-d1e3920"><g ref="#pilcrow"/>Ad primum contra 3am conclusionem dicitur primo quod <name>alexander</name> ibi 
           <lb ed="#L"/>accipit scientiam cum inclusione divinae voluntatis et beneplaciti dei et sic praescientia 
-          <pb ed="#L" n="95v"/><lb ed="#L"/>dei est causa rerum sed non futuritionis quia illa non est res nec aliquid sicut supra 
+          <pb ed="#L" n="95-v"/><lb ed="#L"/>dei est causa rerum sed non futuritionis quia illa non est res nec aliquid sicut supra 
           <lb ed="#L"/>fuit dictum</p>
         
         <p xml:id="pgb1q31-d1e3934"><g ref="#pilcrow"/>Ad 2m negatur consequentia quia licet voluntas dei sit aeterna tamen ipsa vo<lb ed="#L"/>luit 

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 35 [London Transcription]</title>
+        <title>Liber I, Quaestio 35 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 35 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 35 [London Transcription]</title>
           <date when="2015-02-01">February 01, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-01">February 01, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-01" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-01" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="103-v"/>
       </div>
     </front>
     <body>
@@ -89,7 +89,7 @@
           <lb ed="#L"/>dictum christi potestate habeo ponendi animam meam et iterum sumendi eam 
           <lb ed="#L"/>sed praeordinaverat animam suam pro omnibus ponere et potuit illam libere 
           <lb ed="#L"/>a dolore et morte <unclear>exipere</unclear> et praeservare ergo quod praeordinavit se facturum 
-          <lb ed="#L"/>potest non facere <g ref="#pilcrow"/>confirmatur quia quidquid deus praeordinavit se facturum illud prae<pb ed="#L" n="104r"/><lb ed="#L"/>ordinavit  
+          <lb ed="#L"/>potest non facere <g ref="#pilcrow"/>confirmatur quia quidquid deus praeordinavit se facturum illud prae<pb ed="#L" n="104-r"/><lb ed="#L"/>ordinavit  
           contingenter et libere ergo illud faciet contingenter et libere ergo posset 
           <lb ed="#L"/>illud numquam facere ergo quaestio vera</p>
         
@@ -137,7 +137,7 @@
           <lb ed="#L"/>esse quia deus est omnipotens tamen <g ref="#dot"/><c>b</c><g ref="#dot"/> impossibile non ideo potest esse quia deus non est 
           <lb ed="#L"/>omnipotens Item sequitur quod convenientius dicitur ideo hominem non posse asinum quia 
           <lb ed="#L"/>deus non vult sic esse quam quia deus illud non potest facere patet quia secundum 
-          <pb ed="#L" n="104v"/><lb ed="#L"/>notat imperfectionem in deo et primum non</p>
+          <pb ed="#L" n="104-v"/><lb ed="#L"/>notat imperfectionem in deo et primum non</p>
         
         <p xml:id="pgb1q35-d1e3554"><g ref="#pilcrow"/>2a conclusio licet deus per suum immensum 
           <lb ed="#L"/>posse possit producere aliquid infinite perfectum in accidentis genere <g ref="#slash"/>tamen non 
@@ -187,7 +187,7 @@
           <lb ed="#L"/><choice><orig>neccessario</orig><reg>necessario</reg></choice> fore hoc videretur esse ideo quia causae secundae libere et contingenter <c>a</c> producerent 
           <lb ed="#L"/>in esse sed hoc est falsum quia eadem <choice><orig>neccessitate</orig><reg>necessitate</reg></choice> illas causas ad illius productionem influere 
           <lb ed="#L"/>vel concurrere Item si libere illae causae producunt sequitur etiam quod deus libere producit 
-          <pb ed="#L" n="105r"/><lb ed="#L"/>et vult patet consequentia ex dictis quoniam libertas causae 2ae <choice><orig>deppendet</orig><reg>dependet</reg></choice> ex libertate 
+          <pb ed="#L" n="105-r"/><lb ed="#L"/>et vult patet consequentia ex dictis quoniam libertas causae 2ae <choice><orig>deppendet</orig><reg>dependet</reg></choice> ex libertate 
           <lb ed="#L"/>primae et <g ref="#slash"/>voluntatis divinae</p>
         
         <p xml:id="pgb1q35-d1e3779"><g ref="#pilcrow"/>2m corollarium sicut cum deus efficitur agens 
@@ -245,7 +245,7 @@
           <lb ed="#L"/>consequentia patet quia causa naturaliter est prior causato et antecedens patet de se</p>
         
         <p xml:id="pgb1q35-d1e4034"><g ref="#pilcrow"/>3o aliquid est possibile formaliter 
-        <pb ed="#L" n="105v"/>et non est possibile deo ergo non ideo etc antecedens patet quia posse errare decipi 
+        <pb ed="#L" n="105-v"/>et non est possibile deo ergo non ideo etc antecedens patet quia posse errare decipi 
         <lb ed="#L"/>fallere sunt in se possibilia et non deo ergo</p>
         
         <p xml:id="pgb1q35-d1e4042"><g ref="#pilcrow"/>4o <c>a</c><g ref="#dot"/> non ideo potest esse 
@@ -303,7 +303,7 @@
           <lb ed="#L"/>tenet secundum quamlibet formam et in diversis materiebus nam non sequitur <unclear cert="low">corruptibile</unclear> 
           <lb ed="#L"/>ideo immediate potest a deo destrui quia deus est virtus destructiva opus 
           <lb ed="#L"/>ergo quod non est corruptibile ideo non potest destrui vel <choice><orig>corrumpi</orig><reg>corrupi</reg></choice> quia deus non est 
-          <lb ed="#L"/>virtus destructiva opus patet consequentiam non valere quia spiritus sanctus non potest des<pb ed="#L" n="106r"/><lb ed="#L"/>trui 
+          <lb ed="#L"/>virtus destructiva opus patet consequentiam non valere quia spiritus sanctus non potest des<pb ed="#L" n="106-r"/><lb ed="#L"/>trui 
           non quia deus non sit virtus destructiva omnipotens sed quia spiritus sanctus est formaliter 
           <lb ed="#L"/><choice><orig>neccesse</orig><reg>necesse</reg></choice> esse</p>
         
@@ -360,7 +360,7 @@
         
         <p xml:id="pgb1q35-d1e4447"><g ref="#pilcrow"/>Ad 3m 
           <lb ed="#L"/>negatur antecedens sumendo possibile proprie pro aliquo producibili per se <g ref="#slash"/>ad probationem 
-          <pb ed="#L" n="106v"/><lb ed="#L"/>dicitur quod peccatum posse esse a deo non tantum importaret aliquod ens posse esse 
+          <pb ed="#L" n="106-v"/><lb ed="#L"/>dicitur quod peccatum posse esse a deo non tantum importaret aliquod ens posse esse 
           <lb ed="#L"/>a deo effective sed aliquid importaret posse fieri a deo vel <choice><orig>obmitti</orig><reg>omitti</reg></choice>  
           <lb ed="#L"/>contra dictamen rectae rationis et contra regulam divinae iustitiae cui debet deus 
           <lb ed="#L"/>conformari</p>

@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 29 [London Transcription]</title>
+        <title>Liber I, Quaestio 29 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01-dev-master">
-          <title>Librum I, Quaestio 29 [London Transcription]</title>
-          <date when="2015-01-12">January 12, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 29 [London Transcription]</title>
+          <date when="2015-01-12">January 12, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-12">January 12, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-12" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-01-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="88-r"/>
       </div>
     </front>
     <body>
@@ -104,7 +105,7 @@
           <lb ed="#L"/>sunt idem</p>
         
         <p xml:id="pgb1q29-d1e3321"><g ref="#pilcrow"/>2m corollarium licet agens creatum possit agere in aliquo passo a se 
-          <pb ed="#L" n="88v"/><lb ed="#L"/>remoto per certam distantiam tamen agens in creatum in nullo a se distante vel 
+          <pb ed="#L" n="88-v"/><lb ed="#L"/>remoto per certam distantiam tamen agens in creatum in nullo a se distante vel 
           <lb ed="#L"/>remoto potest agere vel aliquid producere per suam omnipotentiam prima pars patet de sole il<lb ed="#L"/>luminante 
           partes aeris a se distantis et in ipsis producente calorem <g ref="#slash"/>2a pars 
           <lb ed="#L"/>probatur quia deus est intime praesens cuilibet enti et situi cum hoc sibi sit proprium secundum <name ref="#Lombard">magistrum</name></p>
@@ -152,7 +153,7 @@
           <lb ed="#L"/>aut gratiae collatio aut unio intelligitur <g ref="#slash"/>ubi conceptum dicit cum deus est in omni 
           <lb ed="#L"/>loco hic praedicatur divina immensitas cum dicitur deus est <unclear>inscis <!-- this word is used above, also unclear --></unclear> collatio divinae 
           <lb ed="#L"/>gratiae significatur <unclear>inscis?</unclear> enim dicitur esse per gratiam <g ref="#slash"/>cum autem dicitur esse in homine assumptio hic 
-          <pb ed="#L" n="89r"/><lb ed="#L"/>hic praedicatur unio ut sit sensus humana natura est unita christo haec ibi</p>
+          <pb ed="#L" n="89-r"/><lb ed="#L"/>hic praedicatur unio ut sit sensus humana natura est unita christo haec ibi</p>
         
         <p xml:id="pgb1q29-d1e3520"><g ref="#pilcrow"/>3a conclusio licet 
           <lb ed="#L"/>sit <choice><orig>neccesse</orig><reg>necesse</reg></choice> deum esse in quolibet <corr><del rend="strikethrough">loco</del></corr> creato tamen deus contingenter habet esse in hoc corpore 
@@ -212,7 +213,7 @@
         
         <p xml:id="pgb1q29-d1e3700"><g ref="#pilcrow"/>contra hoc arguitur quia moveri localiter est esse nunc alicubi et prius alibi et 
           <lb ed="#L"/>alibi sed tale corpus cum prius nihil esset nec erat prius in <choice><orig>alico</orig><reg>aliquo</reg></choice> loco nec advenit 
-          <pb ed="#L" n="89v"/><lb ed="#L"/>noviter in illo loco extra caelum ergo deus est motus localiter ad illum locum de<lb ed="#L"/>terminate 
+          <pb ed="#L" n="89-v"/><lb ed="#L"/>noviter in illo loco extra caelum ergo deus est motus localiter ad illum locum de<lb ed="#L"/>terminate 
           quod est propositum <g ref="#slash"/>confirmatur quia si deus non sit ibi nisi per corpus ibi noviter 
           <lb ed="#L"/>creatum sequitur quod corpus creatum prius est ibi naturaliter quam deus consequens est falsum quia sequitur 
           <lb ed="#L"/>quod corpus posset ibi creari absque hoc quod deus esset ibi quia naturaliter prius potest esse 
@@ -265,7 +266,7 @@
         
         <p xml:id="pgb1q29-d1e3928"><g ref="#pilcrow"/>Ad 3m dicitur quod divina voluntas non potest velle 
           <lb ed="#L"/>aliquod distans a se propter eius immensitatem et simplicitatem et immobilitatem ut 
-          <pb ed="#L" n="90r"/><lb ed="#L"/>supra dictum est</p>
+          <pb ed="#L" n="90-r"/><lb ed="#L"/>supra dictum est</p>
         
         <p xml:id="pgb1q29-d1e3937"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem negatur consequentia ut prius et ad probationem dicitur quod aliquid esse 
           <lb ed="#L"/>ubi prius non erat potest dupliciter fieri primo modo per adventum illius rei ad locum 
@@ -326,7 +327,7 @@
           <lb ed="#L"/>contra illos qui <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> ab aeterno usque ad initium creationis mundi 
           <lb ed="#L"/>in finita spatia temporis pertransita et consequenter quaerit quare deus in illis temporibus 
           <lb ed="#L"/>in finitis cessavit et post modum in hoc tempore determinato incepit et quaerit 
-          <pb ed="#L" n="90v"/><lb ed="#L"/>de illis <choice><orig>ymaginando</orig><reg>imaginando</reg></choice> extra mundum proportionaliter esse locorum spatia secundum omnem di<lb ed="#L"/>mensionem 
+          <pb ed="#L" n="90-v"/><lb ed="#L"/>de illis <choice><orig>ymaginando</orig><reg>imaginando</reg></choice> extra mundum proportionaliter esse locorum spatia secundum omnem di<lb ed="#L"/>mensionem 
           circumquaque protensam et secundum hoc quaerit quare mundus conditus est in hac 
           <lb ed="#L"/>determinata parte illius spatii magis quam in alia ideo infert contra illos quod 
           <lb ed="#L"/>habent ponere infinitatem mundorum per idem argumentum quo arguunt infinitatem seu 

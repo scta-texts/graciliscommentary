@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 40 [London Transcription]</title>
+        <title>Liber I, Quaestio 40 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 40 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 40 [London Transcription]</title>
           <date when="2015-02-21">February 21, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-21">February 21, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-21" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="122-v"/>
       </div>
     </front>
     <body>
@@ -76,7 +76,7 @@
         
         <p xml:id="pgb1q40-d1e3573">quod non quia non stat intellectum creatum esse 
           <lb ed="#L"/>rectum et ipsum non esse conformem divino intellectui ergo actus voluntatis etc 
-          <pb ed="#L" n="123r"/><lb ed="#L"/>consequentia patet per simile quia intellectus divinus est regula cuiuslibet veri et recti alias in<lb ed="#L"/>tellectus 
+          <pb ed="#L" n="123-r"/><lb ed="#L"/>consequentia patet per simile quia intellectus divinus est regula cuiuslibet veri et recti alias in<lb ed="#L"/>tellectus 
           assentiens opinioni falsae non erraret quod est falsum</p>
         
         <p xml:id="pgb1q40-d1e3583"><g ref="#pilcrow"/>2o nullus actus est 
@@ -128,7 +128,7 @@
           conformari nec <choice><orig>difformari</orig><reg>deformari</reg></choice> actualiter primum patet nam <name ref="#Jews">iudaei</name> vo<lb ed="#L"/>lebant 
           mortem christi mala voluntate quam deus volebat bona patet sicut 
           <lb ed="#L"/>praecedens 2m patet quia stat aliquem habere gratiae seu caritatis habitum et non 
-          <pb ed="#L" n="123v"/><lb ed="#L"/>exire in actum meritorium</p>
+          <pb ed="#L" n="123-v"/><lb ed="#L"/>exire in actum meritorium</p>
         
         <p xml:id="pgb1q40-d1e3788"><g ref="#pilcrow"/>2a conclusio stat aliqua duo velle inter se <choice><orig>difformari</orig><reg>deformari</reg></choice> 
           <lb ed="#L"/>et illa simul uni et eidem conformari patet quia angelus <unclear>parsarum</unclear> volebat re<lb ed="#L"/>sistere 
@@ -177,7 +177,7 @@
         
         <p xml:id="pgb1q40-d1e3975"><g ref="#pilcrow"/>primum corollarium non semper requiritur ad creatae voluntatis 
           <lb ed="#L"/>moralem et iustam rectitudinem ipsam velle quod sine ambiguitate scit 
-          <pb ed="#L" n="124r"/><lb ed="#L"/>velle summam pulcritudinem et certitudinem contra <name ref="#ThomasStrasbourg">thomam de argentina</name> 
+          <pb ed="#L" n="124-r"/><lb ed="#L"/>velle summam pulcritudinem et certitudinem contra <name ref="#ThomasStrasbourg">thomam de argentina</name> 
           <lb ed="#L"/>hoc patet quia amisso breviario scio sine dubio quod deus vult me 
           <lb ed="#L"/>eum perdere et tamen potest deus me non velle illud minor probatur quia licite 
           <lb ed="#L"/>possum me velle habere breviarium et non amisisse vel amitere 
@@ -238,7 +238,7 @@
           <lb ed="#L"/>ipsum occidi iniuste et male vult</p>
         
         <p xml:id="pgb1q40-d1e4141"><g ref="#pilcrow"/>3o contra 3m corollarium arguitur ex de<lb ed="#L"/>terminatione 
-          consilii ubi dicitur donum utrumque dei est et scire quid facere de<pb ed="#L" n="124v"/><lb ed="#L"/>beamus 
+          consilii ubi dicitur donum utrumque dei est et scire quid facere de<pb ed="#L" n="124-v"/><lb ed="#L"/>beamus 
           et diligere ut sciamus</p>
         
         <p xml:id="pgb1q40-d1e4150"><g ref="#pilcrow"/>4o per <ref><name ref="#Augustine">beatum augustinum</name> 3o <title ref="#DeLiberoArbitrio">de libero arbitrio</title> 
@@ -299,7 +299,7 @@
           <lb ed="#L"/>extrinseco cui magis et magis possit conformari sicut dictamen 
           <lb ed="#L"/>rectum ideo non est simile ideo neganda est consequentia Item notat quod sicut ternarius in<lb ed="#L"/>divisibiliter 
           non est ternarius et similiter binarius tamen ternarius excedit binarium
-          <pb ed="#L" n="116r"/><lb ed="#L"/>sic quaelibet rectitudo consistit in indivisibili tamen una excedit aliam et 
+          <pb ed="#L" n="116-r"/><lb ed="#L"/>sic quaelibet rectitudo consistit in indivisibili tamen una excedit aliam et 
           <lb ed="#L"/>una est perfectio alia</p>
         
         <p xml:id="pgb1q40-d1e4345"><g ref="#pilcrow"/>Ad 4m conceditur consequens quia circa deformitatem <name>sortis</name> deus 
@@ -417,7 +417,7 @@
           quid sit dicendum</p>
         
         <p xml:id="pgb1q40-d1e4686"><g ref="#pilcrow"/><hi>Sciendum quoque et cetera</hi> 
-          <pb ed="#L" n="126r"/><lb ed="#L"/><g ref="#slash"/>prima conclusio huius distinctionis 48 et ultime primi libri sententiarum quod voluntas hominis 
+          <pb ed="#L" n="126-r"/><lb ed="#L"/><g ref="#slash"/>prima conclusio huius distinctionis 48 et ultime primi libri sententiarum quod voluntas hominis 
           <lb ed="#L"/>volentis hoc fieri quod deus vult aliquando est mala volentis aliud 
           <lb ed="#L"/>quam illud quandoque est bona exempla patent in textu</p>
         

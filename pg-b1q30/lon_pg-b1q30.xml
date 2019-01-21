@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 30 [London Transcription]</title>
+        <title>Liber I, Quaestio 30 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 30 [London Transcription]</title>
-          <date when="2015-01-15">January 15, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 30 [London Transcription]</title>
+          <date when="2015-01-15">January 15, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-15">January 15, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-15" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-01-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="90-v"/>
       </div>
     </front>
     <body>
@@ -54,7 +55,7 @@
         <p xml:id="pgb1q30-d1e3127"><lb ed="#L"/><quote><hi rend="threeLineDropCap">N</hi>unc igitur ad propositum<!-- quote from Lombard --></quote> et cetera 
           <lb ed="#L"/><choice><orig>Post quam</orig><reg>Postquam</reg></choice> <name ref="#Lombard">magister</name> tractavit de scientia dei et rebus <unclear>scibilis</unclear> quantum ad eorum 
           <lb ed="#L"/><unclear>praesentialitatem</unclear> et intimitatem in hac vero 38a distinctione tractat de ipsis quantum 
-          <pb ed="#L" n="91r"/><lb ed="#L"/>ad earum causalitatem et dividitur in duas nam in primo quaerit utrum scientia respectu 
+          <pb ed="#L" n="91-r"/><lb ed="#L"/>ad earum causalitatem et dividitur in duas nam in primo quaerit utrum scientia respectu 
           <lb ed="#L"/>scitorum habeat talem rationem et huius quaestionis ponit solutionem <g ref="#slash"/>2o ex illa solu<lb ed="#L"/>tione 
           movet aliam dubitationem 2a ibi ad hoc autem quod supra dictum est</p>
         
@@ -112,7 +113,7 @@
           <lb ed="#L"/>licet non potest non esse perfectio simpliciter</p>
         
         <p xml:id="pgb1q30-d1e3372"><g ref="#pilcrow"/>3m corollarium licet deum esse praescium inferat 
-          <pb ed="#L" n="91v"/><lb ed="#L"/>aliquid esse futurum tamen deum esse praescium non infert deum illud futurum patet quia 
+          <pb ed="#L" n="91-v"/><lb ed="#L"/>aliquid esse futurum tamen deum esse praescium non infert deum illud futurum patet quia 
           <lb ed="#L"/>non est effectivus culpae futurae et futuritionis eiusdem cum <choice><orig>nichil</orig><reg>nihil</reg></choice> sit</p>
         
         
@@ -163,7 +164,7 @@
           in <c>a</c><g ref="#dot"/> et <name ref="#Sortes">sortes</name> potest non peccare in <c>a</c><g ref="#dot"/> sic etiam ille simul stant sine repu<lb ed="#L"/>gnantia 
           <name ref="#Sortes">sortem</name> deus praescit peccaturum in <c>a</c><g ref="#dot"/> et <name ref="#Sortes">sortes</name> potest non peccare in <c>a</c><g ref="#dot"/> patet 
           <lb ed="#L"/>quia praescientia nullam <choice><orig>neccessitatem</orig><reg>necessitatem</reg></choice> imponit vel addit praescito <g ref="#slash"/>confirmatur quia omne 
-          <pb ed="#L" n="92r"/><lb ed="#L"/>futurum <choice><orig>deppendet</orig><reg>dependet</reg></choice> vel <choice><orig>deppendebit</orig><reg>dependebit</reg></choice> a libertate voluntatis contradictionis et deus praesciit 
+          <pb ed="#L" n="92-r"/><lb ed="#L"/>futurum <choice><orig>deppendet</orig><reg>dependet</reg></choice> vel <choice><orig>deppendebit</orig><reg>dependebit</reg></choice> a libertate voluntatis contradictionis et deus praesciit 
           <lb ed="#L"/>qualitercumque illud futurum erit ergo simul stat deum praescire infallibiliter et fu<lb ed="#L"/>tura 
           fore contingenter</p>
         
@@ -219,7 +220,7 @@
         
         <p xml:id="pgb1q30-d1e4007"><g ref="#pilcrow"/>contra 2am <unclear>conclusionem <!-- correct from conclusione to conclusionem; dbcheck correction --></unclear> a futurum non fore <choice><orig>neccessario</orig><reg>necessario</reg></choice> est 
           <lb ed="#L"/>futurum igitur aliquod <choice><orig>neccessario</orig><reg>necessario</reg></choice> est futurum consequentia bona et antecedens probatur quia antichristum non fore cras 
-          <pb ed="#L" n="92v"/><lb ed="#L"/><choice><orig>neccessario</orig><reg>neccessario</reg></choice> est futurum <g ref="#slash"/>2o antichristum fore repraesentatum est in divina essentia ergo antichristus <choice><orig>neccessario</orig><reg>necessario</reg></choice> erit 
+          <pb ed="#L" n="92-v"/><lb ed="#L"/><choice><orig>neccessario</orig><reg>neccessario</reg></choice> est futurum <g ref="#slash"/>2o antichristum fore repraesentatum est in divina essentia ergo antichristus <choice><orig>neccessario</orig><reg>necessario</reg></choice> erit 
           <lb ed="#L"/>patet antecedens quia antichristum fore est a deo praevolitum et praescitum et consequentia probatur quia quidquid in 
           <lb ed="#L"/>divina praesentatur essentia ibi naturaliter praesentatur et per consequens <choice><orig>neccessario</orig><reg>necessario</reg></choice></p>
         
@@ -272,7 +273,7 @@
           <lb ed="#L"/>a fuisse ergo ante <c>b</c> <choice><orig>neccesse</orig><reg>necesse</reg></choice> est <g ref="#dot"/><c>a</c><g ref="#dot"/> fore patet consequentiam non valere</p>
         
         <p xml:id="pgb1q30-d1e4392"><g ref="#pilcrow"/>Ad 4m admisso 
-          <pb ed="#L" n="93r"/><lb ed="#L"/>casu dicitur ad rationem quod <c>a</c><g ref="#dot"/> potest non esse futurum sine omni mutatione quia ista infert ali<lb ed="#L"/>quam 
+          <pb ed="#L" n="93-r"/><lb ed="#L"/>casu dicitur ad rationem quod <c>a</c><g ref="#dot"/> potest non esse futurum sine omni mutatione quia ista infert ali<lb ed="#L"/>quam 
         mutationem esse futuram <c>a</c> est et ideo si nulla sit futura sequitur <c>a</c><g ref="#dot"/> non esse futurum 
           <lb ed="#L"/>per hoc ad formam negatur antecedens illud a non esse futurum in <c>b</c> non est compossibile etc</p>
         
@@ -329,7 +330,7 @@
           <lb ed="#L"/>quodammodo dependet a futuro ideo possibile est ipsum numquam fuisse quia sicut potest non 
           <lb ed="#L"/>fore similiter potest numquam fuisse praescitum vel etiam praevolitum</p>
         
-        <p xml:id="pgb1q30-d1e4660"><pb ed="#L" n="93v"/>Nunc igitur ad propositum prima conclusio praescientia et 
+        <p xml:id="pgb1q30-d1e4660"><pb ed="#L" n="93-v"/>Nunc igitur ad propositum prima conclusio praescientia et 
           <lb ed="#L"/>scientia dei quae est bonorum et malorum non sunt causa rerum nisi causa sine qua non 
           <lb ed="#L"/>nec econverso res sunt causa scientiae dei nisi causa sine qua non quia non stat rem esse et deum 
           <lb ed="#L"/>ipsam nescire vel non scire</p>

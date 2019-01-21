@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 27 [London Transcription]</title>
+        <title>Liber I, Quaestio 27 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01-dev-master">
-          <title>Librum I, Quaestio 27 [London Transcription]</title>
-          <date when="2015-01-02">January 02, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 27 [London Transcription]</title>
+          <date when="2015-01-02">January 02, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-02">January 02, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-02" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2015-01-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="82-v"/> 
       </div>
     </front>
     <body>
@@ -101,7 +102,7 @@
         <p xml:id="pgb1q27-d1e3278"><g ref="#pilcrow"/>2m corollarium 
           <lb ed="#L"/>sicut divinam scientiam nihil potest praecedere sic divinae scientiae nihil potest causa existere 
           <lb ed="#L"/>patet tum quia aeterna tum quia in divinis non admittitur nomen causae <g ref="#slash"/>tum quia dei scientia est 
-          <pb ed="#L" n="83r"/><lb ed="#L"/>instanti aeternitatis mensurata</p>
+          <pb ed="#L" n="83-r"/><lb ed="#L"/>instanti aeternitatis mensurata</p>
         
         <p xml:id="pgb1q27-d1e3292"><g ref="#pilcrow"/>3m corollarium licet scientia divina ad omne intelligibile 
           <lb ed="#L"/>terminetur cogitive tamen non omne intelligibile a deo <choice><orig>deppendet</orig><reg>dependet</reg></choice> effective patet quia 
@@ -154,7 +155,7 @@
           <lb ed="#L"/>essentia super simplex immense perfectionis respectu creaturarum non debet dici obiectum 
           <lb ed="#L"/>primarium divinae cognitionis contra <ref><name ref="#ThomasStrasbourg">thomam argentia</name> distinctione 35</ref> qui dicit essentiam divinam 
           <lb ed="#L"/>ut obiectum primarium divinae cognitionis et etiam creata ut obiecta <choice><orig>2aria</orig><reg>secondaria</reg></choice> eiusdem <g ref="#slash"/>corollarium 
-          <pb ed="#L" n="83v"/><lb ed="#L"/>patet quia aeque primo deus cognoscit omnia ut dictum est tum 2o quia divina essentia 
+          <pb ed="#L" n="83-v"/><lb ed="#L"/>patet quia aeque primo deus cognoscit omnia ut dictum est tum 2o quia divina essentia 
           <lb ed="#L"/>non prius obicitur intellectui divino ut infinita perfectio quam ut creativa et 
           <lb ed="#L"/>exemplativa rerum ex quibus patet quid dicendum est ad quaestionem</p>
         
@@ -214,7 +215,7 @@
         <p xml:id="pgb1q27-d1e3748"><g ref="#pilcrow"/>3o sic multitudo 
           <lb ed="#L"/>omnium punctorum cognoscibilium et simpliciter infinita ergo adaequat totam capacitatem 
           <lb ed="#L"/>intellectus divini et per consequens nihil aliud potest cognoscere antecedens probatur quia si illi multitudini 
-          <pb ed="#L" n="84r"/><lb ed="#L"/>punctorum adderetur unus punctus iam illa non fuisset multitudo tota punctorum 
+          <pb ed="#L" n="84-r"/><lb ed="#L"/>punctorum adderetur unus punctus iam illa non fuisset multitudo tota punctorum 
           <lb ed="#L"/>cognoscibilium et patet consequentia quia unum infinitum simpliciter non est alio infinito simpliciter maius</p>
         
         <p xml:id="pgb1q27-d1e3761"><lb ed="#L"/><g ref="#pilcrow"/>4o si omnia distincte deus intelligeret sequeretur quod esset magis intelligens quam potens 
@@ -272,7 +273,7 @@
           <lb ed="#L"/>negatur consequentia capiendo li <mentioned>minus</mentioned> distinctive sic quod <g ref="#dot"/><c>b</c><g ref="#dot"/> sit multitudo pauciora con<lb ed="#L"/>tinens 
           quam <g ref="#dot"/><c>d</c><g ref="#dot"/> licet <c>d</c><g ref="#dot"/> contineat aliqua quae non continent <g ref="#dot"/><c>a</c><g ref="#dot"/> nec <c>c</c> nec <c>b</c><g ref="#dot"/> cum 
           <lb ed="#L"/>hoc tamen stat quod tot sunt partes in <c>a</c><g ref="#dot"/> quot in <c>d</c><g ref="#dot"/> nec plures nec pauciores 
-          <pb ed="#L" n="84v"/><lb ed="#L"/>Sed contra posset instari sic <c>b</c> est pars <c>d</c><g ref="#dot"/> et <c>d</c> est aliquod quantum ergo <c>d</c><g ref="#dot"/> est maius <c>b</c> 
+          <pb ed="#L" n="84-v"/><lb ed="#L"/>Sed contra posset instari sic <c>b</c> est pars <c>d</c><g ref="#dot"/> et <c>d</c> est aliquod quantum ergo <c>d</c><g ref="#dot"/> est maius <c>b</c> 
           <lb ed="#L"/>patet consequentia quia omne totum est maius sua parte</p>
         
         <p xml:id="pgb1q27-d1e4055"><g ref="#pilcrow"/>hic respondet <name ref="#Rimini">gregorius</name> quod unum infinitum 
@@ -342,7 +343,7 @@
         <p xml:id="pgb1q27-d1e4207"><g ref="#pilcrow"/>cumque supra <unclear>disser?mur[?]</unclear> prima conclusio distinctionis 35 quod scientia 
           <lb ed="#L"/>divina cum sit una et simplex tamen propter varios rerum status et diversos effectus 
           <lb ed="#L"/>diversa sortitur vocabula quia quandoque dicitur praescientia dispositio providentia praedestinatio 
-          <pb ed="#L" n="85r"/><lb ed="#L"/>et providentia</p>
+          <pb ed="#L" n="85-r"/><lb ed="#L"/>et providentia</p>
         
         <p xml:id="pgb1q27-d1e4221"><g ref="#pilcrow"/>2a conclusio quod providentia seu praescientia est tantum respectu futurorum sed tam de bonis 
           <lb ed="#L"/>quam de malis dispositio est tantum de faciendis praedestinatio de hominibus salvandis et 

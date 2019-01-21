@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 38 [London Transcription]</title>
+        <title>Liber I, Quaestio 38 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 38 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 38 [London Transcription]</title>
           <date when="2015-02-15">February 15, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-15">February 15, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-15" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="115-r"/>
       </div>
     </front>
     <body>
@@ -102,7 +102,7 @@
          <p xml:id="pgb1q38-d1e3369">primum corollarium sicut 
            <lb ed="#L"/>non repugnat creaturam secundum varios sensus finite et infinite deum 
            <lb ed="#L"/>diligere sic non repugnat deum secundum varios respectus adextra finite et 
-           <pb ed="#L" n="115v"/><lb ed="#L"/>infinite influere prima pars quia creatura finite diligit deum referendo finite 
+           <pb ed="#L" n="115-v"/><lb ed="#L"/>infinite influere prima pars quia creatura finite diligit deum referendo finite 
            <lb ed="#L"/>ad potentiam et ad actum diligendi et tamen cum hoc diligit deum infinite 
            <lb ed="#L"/>secundum <sic>appraeciabilitatem</sic> et propositionem quia praeponit eum infinitis bonis aliis 
            <lb ed="#L"/>creatis si essent 2a pars patet per conclusionem et eius probationem</p>
@@ -148,7 +148,7 @@
         
         <p xml:id="pgb1q38-d1e3513"><g ref="#pilcrow"/>primum corollarium licet respectu bonorum actuum 
           <lb ed="#L"/>moraliter divinum velle praecedat creatum velle causaliter tamen in actibus
-          <pb ed="#L" n="125r"/><lb ed="#L"/>voluntatis qui sunt mali <unclear>defective</unclear> divinum velle non prius concurrit 
+          <pb ed="#L" n="125-r"/><lb ed="#L"/>voluntatis qui sunt mali <unclear>defective</unclear> divinum velle non prius concurrit 
           <lb ed="#L"/>quam creatum effective patet per <ref><name>beatum augustinum</name> 13o <title ref="#CityOfGod">de civitate dei</title> capitulo 15o</ref> dicentem 
           <lb ed="#L"/>ad malum <choice><orig>quipe</orig><reg>quippe</reg></choice> prior est voluntas hominis posterior vero voluntas dei 
           <lb ed="#L"/>sed econverso est in bonis</p>
@@ -200,7 +200,7 @@
           <lb ed="#L"/>alicuius effectus prima patet quia sic esse causam esset nota insufficientiae et impotentiae 
           <lb ed="#L"/>vel carentiae circumstantiae debitae et convenientis deo quod non est dicendum <g ref="#slash"/>2a 
           <lb ed="#L"/>pars probatur quia ideo perfectio talis naturalis ex parte <unclear>effectus</unclear> <unclear>de est</unclear> et deficit tali 
-          <pb ed="#L" n="125v"/><lb ed="#L"/>rei productae quia deus <corr><add place="aboveLine">non</add></corr> produxit illam vel non influxit ad esse illius et sic 
+          <pb ed="#L" n="125-v"/><lb ed="#L"/>rei productae quia deus <corr><add place="aboveLine">non</add></corr> produxit illam vel non influxit ad esse illius et sic 
           <lb ed="#L"/>deus potest dici causa negativa improprie defectus naturalis et secundum quid</p>
         
         <p xml:id="pgb1q38-d1e4551"><g ref="#pilcrow"/>3m corollarium 
@@ -251,7 +251,7 @@
           <lb ed="#L"/>minus acceptare quod est falsum</p>
         
         <p xml:id="pgb1q38-d1e4675"><g ref="#pilcrow"/>contra primam partem 2ae conclusionis deus speciali in<lb ed="#L"/>stinctum 
-          facit hominem loqui perversa cogitatione intentione <g ref="#slash"/> et vo<pb ed="#L" n="117r"/><lb ed="#L"/>??ione ergo deo actore homo fit malus tenet consequentia et antecedens patet <ref><title ref="#io">ioannis</title> <sic>13o<!-- should actually be 11o --></sic></ref> 
+          facit hominem loqui perversa cogitatione intentione <g ref="#slash"/> et vo<pb ed="#L" n="117-r"/><lb ed="#L"/>??ione ergo deo actore homo fit malus tenet consequentia et antecedens patet <ref><title ref="#io">ioannis</title> <sic>13o<!-- should actually be 11o --></sic></ref> 
           <lb ed="#L"/>ubi <name ref="#Caiaphas">cayphas</name> consulens christum occidi ne <name ref="#Jews">iudaei</name> perderent locum ait 
           <lb ed="#L"/><quote ana="#io11_50">expedit nobis ut unus moriatur homo</quote> etc hoc aut dicit perversa co<lb ed="#L"/>gitatione 
           christi mortem ne perderent bona eorum temporalia inducens alios 
@@ -303,7 +303,7 @@
           <lb ed="#L"/>peccato ideo non surrexit quia hunc deus non erexit</p>
         
         <p xml:id="pgb1q38-d1e3704"><g ref="#pilcrow"/>2o ideo voluntas 
-          <pb ed="#L" n="117v"/><lb ed="#L"/>agit bonum quia deus coagit ergo obmittit quia deus non coagit tenet consequentia 
+          <pb ed="#L" n="117-v"/><lb ed="#L"/>agit bonum quia deus coagit ergo obmittit quia deus non coagit tenet consequentia 
           <lb ed="#L"/>quia negatio est causa negationis ubi affirmatio affirmationis</p>
         
         <p xml:id="pgb1q38-d1e3713"><g ref="#pilcrow"/>3o ideo iste est in 
@@ -359,7 +359,7 @@
           <lb ed="#L"/>talem effectum quod secundum ordinem institutum regulariter et communem cursum 
           <lb ed="#L"/>causarum <unclear>2arum</unclear> ad actionem illarum non sequitur talis et tantus effectus <g ref="#slash"/>3o 
           <lb ed="#L"/>dicitur quod cum deus agit speciali influentia potest dici quod perfectius agit non 
-          <pb ed="#L" n="118r"/><lb ed="#L"/>formaliter nec realiter ex parte sui sed virtualiter et quasi interpretative quia tunc 
+          <pb ed="#L" n="118-r"/><lb ed="#L"/>formaliter nec realiter ex parte sui sed virtualiter et quasi interpretative quia tunc 
           <lb ed="#L"/>agit mediante aliquo dono supernaturali prius dato quod virtus dei licet 
           <lb ed="#L"/>sit simplex et indivisibilis tamen ratione libertatis suae potest producere extra se 
           <lb ed="#L"/>inaequalia ac si virtus eius esset divisibilis et quasi ageret actione sibi formaliter 
@@ -409,7 +409,7 @@
         <p xml:id="pgb1q38-d1e4021"><g ref="#pilcrow"/>Item inclinat ad malum quandoque per accidens et in<lb ed="#L"/>directe 
           scilicet quandoque conferendo beneficia homini quibus abutitur et occasionem 
           <lb ed="#L"/>accipit peccati ex benficio aliquo accipere debuisset occasionem bene 
-          <pb ed="#L" n="118v"/><lb ed="#L"/>agendi Item quandoque administrat vel <choice><orig>ad ministrari</orig><reg>administrari</reg></choice> permittit homini malo 
+          <pb ed="#L" n="118-v"/><lb ed="#L"/>agendi Item quandoque administrat vel <choice><orig>ad ministrari</orig><reg>administrari</reg></choice> permittit homini malo 
           <lb ed="#L"/>aliquod quod potest eum inclinare occasionaliter ad peccandum salva tamen hominis 
           <lb ed="#L"/>libertate <g ref="#slash"/>exemplum ponit <name ref="#JohnChrysostom">chrisostus</name> <title>super matthaeum</title> de domino ponente ante servum sac<lb ed="#L"/>cum 
           <choice><orig>peccuniae</orig><reg>pecuniae</reg></choice> ut probet eius fidelitatem sic deus quandoque dat homini oc<lb ed="#L"/>casionem 
@@ -457,7 +457,7 @@
           involuntarii ut dictum est</p>
         
         <p xml:id="pgb1q38-d1e4186"><g ref="#pilcrow"/>Ad 5m negatur consequentia quia procedit 
-          <pb ed="#L" n="119r"/><lb ed="#L"/>de velle conditionaliter primo modo non 2o</p>
+          <pb ed="#L" n="119-r"/><lb ed="#L"/>de velle conditionaliter primo modo non 2o</p>
         
         <p xml:id="pgb1q38-d1e4194"><g ref="#pilcrow"/>Ad 6m negatur consequentia propter idem et 
           <lb ed="#L"/>ad probationem quod nunc et prius et semper volet sub conditione modo dicto 
@@ -510,7 +510,7 @@
           <lb ed="#L"/>esse causam <corr><add place="marginLeft">non esse</add></corr> potest dupliciter intelligi <g ref="#slash"/>primo modo tamquam illud quod impedit illam rem 
           <lb ed="#L"/>esse et expellit illam ab esse et quo circumscripto vel non impediente 
           <lb ed="#L"/>illa res staret in esse ex se vel ab alia causa et sic deus nulli 
-          <pb ed="#L" n="119v"/><lb ed="#L"/>creaturae possibili est causa non essendi et sic intelligunt <name ref="#Anselm">anselmus</name> et <name ref="#Augustine">augustinus</name> <g ref="#slash"/> 2o modo tam<lb ed="#L"/>quam 
+          <pb ed="#L" n="119-v"/><lb ed="#L"/>creaturae possibili est causa non essendi et sic intelligunt <name ref="#Anselm">anselmus</name> et <name ref="#Augustine">augustinus</name> <g ref="#slash"/> 2o modo tam<lb ed="#L"/>quam 
           illud quo dante esse illa res est nec manutenente quocumque alio posito 
           <lb ed="#L"/>non est sic deus est causa non essendi rerum</p>
         
@@ -555,7 +555,7 @@
           <lb ed="#L"/>pauperibus non propter bonum <g ref="#dot"/> aliquid est bonum in se et facienti sed non ei cui fit 
           <lb ed="#L"/>sicut cum veritas alicui non obiecti praedicatur et aliquid est quod nec est bonum in se 
           <lb ed="#L"/>nec facienti sed valet ad aliquid ut ad decorem universi et hoc est malum ma<lb ed="#L"/>la 
-          enim poenae valent ad <sic>emendenda</sic> peccata vel ad probandam seu de<pb ed="#L" n="120ra"/><lb ed="#L"/>monstrandam 
+          enim poenae valent ad <sic>emendenda</sic> peccata vel ad probandam seu de<pb ed="#L" n="120-r"/><lb ed="#L"/>monstrandam 
           huius vitae miseriam</p>
         
         <p xml:id="pgb1q38-d1e4611"><g ref="#pilcrow"/>4a conclusio licet omne verum sit a deo et 

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 33 [London Transcription]</title>
+        <title>Liber I, Quaestio 33 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 33 [London Transcription]</title>
-          <date when="2015-01-27">January 27, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 33 [London Transcription]</title>
+          <date when="2015-01-27">January 27, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-27">January 27, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-27" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-01-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="98-v"/>
       </div>
     </front>
     <body>
@@ -57,7 +57,7 @@
           et reprobatione quantum ad eorum <corr><del>rationem causalem</del></corr> certi<lb ed="#L"/>tudinem 
           infallibilem in hac 43 distinctione incipit tractare de ipsis 
           <lb ed="#L"/>quantum ad eorum rationem causalem Et dividitur in duas nam primo 
-          <pb ed="#L" n="99r"/><lb ed="#L"/>quaerit an praedestinato vel reprobatio tenetur ex humana operatione <g ref="#pilcrow"/>2o in<lb ed="#L"/>cidenter 
+          <pb ed="#L" n="99-r"/><lb ed="#L"/>quaerit an praedestinato vel reprobatio tenetur ex humana operatione <g ref="#pilcrow"/>2o in<lb ed="#L"/>cidenter 
           quaerit utrum dei scientia varietur ex creaturarum mutatione 
           <lb ed="#L"/>2a ibi praeterea considerare oportet</p>
         
@@ -118,7 +118,7 @@
           <lb ed="#L"/>electivam tamquam fructus meritorii effectivam <g ref="#slash"/>etiam patet per <name ref="#Lombard">magistrum</name> de ista <g ref="#dot"/></p>
         
         <p xml:id="pgb1q33-d1e3731"><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium nullus praesciti actus proprie est meritorius gloriae patet quia praedestinatio 
-          <pb ed="#L" n="99v"/><lb ed="#L"/>divina ut sic non est illius causa</p>
+          <pb ed="#L" n="99-v"/><lb ed="#L"/>divina ut sic non est illius causa</p>
         
         <p xml:id="pgb1q33-d1e3736"><g ref="#pilcrow"/>2m corollarium non quilibet usus <choice><orig><sic>liberii</sic></orig><reg><sic>liberi</sic></reg></choice> <choice><orig>arbitri</orig><reg>arbitrii</reg></choice> 
           <lb ed="#L"/>est productivus actus meritorii patet de arbitrio praesciti</p>
@@ -176,7 +176,7 @@
         
         <p xml:id="pgb1q33-d1e3839"><g ref="#pilcrow"/>2m corollarium 
           <lb ed="#L"/>sicut divina praedestinatio est causa meritoriae operationis sic liberi arbitrii usus 
-          <pb ed="#L" n="100r"/><lb ed="#L"/>non est causa praedestinatonis patet quia est posterior illa ergo</p>
+          <pb ed="#L" n="100-r"/><lb ed="#L"/>non est causa praedestinatonis patet quia est posterior illa ergo</p>
         
         <p xml:id="pgb1q33-d1e3844"><g ref="#pilcrow"/>3m corollarium licet possit aliquis 
           <lb ed="#L"/>aliquo modo esse causa suae obdurationis tamen nullus potest esse causa suae aeternae repro<lb ed="#L"/>bationis 
@@ -231,7 +231,7 @@
         <p xml:id="pgb1q33-d1e3949"><g ref="#pilcrow"/>3o contra 2m corollarium quia dato quod nulla esset 
           <lb ed="#L"/>culpa et quod deus nollet misereri stat aliquem esset indignum vita 
           <lb ed="#L"/>ergo ad esse reprobatum non sequitur aliquem culpa maculandum prima consequentia patet 
-          <pb ed="#L" n="100v"/>
+          <pb ed="#L" n="100-v"/>
           <lb ed="#L"/>et antecedens probatur quia deus posset praeservare vide <name>hugolinum</name> quaestione 2a huius distinctionis
           <lb ed="#L"/>articulo 2o
         </p>
@@ -323,7 +323,7 @@
           <lb ed="#L"/><pc type="virgula">/</pc> ad primam contra 3am conclusionem dicitur quod illud et similia dicta intelliguntur de exe<lb ed="#L"/>cutione 
           effectus partialis praedestinationis non de totali nec de principali 
           <lb ed="#L"/>ratione praedestinationis nam effectus praedestinationis quantum ad positionem ipsorum
-          <pb ed="#L" n="101r"/><lb ed="#L"/>in esse possunt iuvari sanctorum precibus et orationibus deus enim ordinavit ut sanctorum 
+          <pb ed="#L" n="101-r"/><lb ed="#L"/>in esse possunt iuvari sanctorum precibus et orationibus deus enim ordinavit ut sanctorum 
           <lb ed="#L"/>mediantibus precibus hii pro quibus orant recipiant gratiam in praesenti et gloriam 
           <lb ed="#L"/>in futuro ideo glosa non loquitur ibi de praedestinatione in se et secundum se 
           <lb ed="#L"/>considerata sed in ordine ad <choice><orig><sic>exceutionem</sic></orig><reg>executionem</reg></choice> et effectuum in esse positionem</p>

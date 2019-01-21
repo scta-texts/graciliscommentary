@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 39 [London Transcription]</title>
+        <title>Liber I, Quaestio 39 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.02">
-          <title>Librum I, Quaestio 39 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 39 [London Transcription]</title>
           <date when="2015-02-19">February 19, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-02-19">February 19, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-02-19" who="#JW" status="draft" n="2015.02">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-02-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="120-r"/>
       </div>
     </front>
     <body>
@@ -102,7 +102,7 @@
           <lb ed="#L"/>igitur illa pars est vera consequentia bona et antecedens apparet de scienter in vido contra 
           <lb ed="#L"/>illum cui scit se non posse nocere et tamen invidet et vellet nocere 
           <lb ed="#L"/>Item aliquis potest appetere <choice><orig>ymmo</orig><reg>immo</reg></choice> de facto appetit facere quod non est in se 
-          <pb ed="#L" n="120v"/><lb ed="#L"/>existens nec apparens ergo antecedens patet de mentientibus sola mentiendi libidine 
+          <pb ed="#L" n="120-v"/><lb ed="#L"/>existens nec apparens ergo antecedens patet de mentientibus sola mentiendi libidine 
           <lb ed="#L"/>et habetur in <ref><title>canone</title> 22a quaestione 2a</ref> et <ref>3o <title ref="#Sentences">sententiarum</title> distinctionem 35</ref> <g ref="#slash"/>Item obstinati 
           <lb ed="#L"/>voluit malum sub ratione mali ergo 2a pars in sensu praemisso in alia quaestione patet 
           <lb ed="#L"/>per <ref><name>magistrum</name> distinctione 46a</ref> <g ref="#slash"/>Item patet per <ref>articulum dampnatum <unclear>7m</unclear> in ordine no<lb ed="#L"/>vellorum</ref> 
@@ -150,7 +150,7 @@
           <lb ed="#L"/>est peccator seu agens contra legem vel contra rationis dictamen</p>
         
         <p xml:id="pgb1q39-d1e3598"><g ref="#pilcrow"/>2m corollarium 
-          <pb ed="#L" n="121r"/><lb ed="#L"/>licet illud quod deus prohibet quandoque aliquo modo vellit et faciat nullum tamen ho<lb ed="#L"/>minem 
+          <pb ed="#L" n="121-r"/><lb ed="#L"/>licet illud quod deus prohibet quandoque aliquo modo vellit et faciat nullum tamen ho<lb ed="#L"/>minem 
           vult facere oppositum praecepti seu aliud quam praecipiat prima patet 
           <lb ed="#L"/>quia actum qui est odium prohibet fieri et tamen illud coefficit cum voluntate 
           <lb ed="#L"/>creata cui tamen antecedenter prohibuit illud facere ut patuit supra <g ref="#slash"/>2a 
@@ -205,7 +205,7 @@
         <p xml:id="pgb1q39-d1e3774"><g ref="#slash"/>4o omnis boni 
           <lb ed="#L"/>deus est causa peccatum est bonum ergo maior patet minor probatur per <ref><name ref="#Augustine">beatum augustinum</name> <title ref="#Enchiridion">enchiridion</title> 
           <lb ed="#L"/>26</ref> deus iudicat melius de malis benefacere quam nulla mala 
-          <pb ed="#L" n="121v"/><lb ed="#L"/>esse</p>
+          <pb ed="#L" n="121-v"/><lb ed="#L"/>esse</p>
         
         <p xml:id="pgb1q39-d1e3793"><g ref="#pilcrow"/>5o omnis iusti deus est causa peccatum est huius ergo minor patet per dicta 
           <lb ed="#L"/><name ref="#Augustine">augustini</name> <title ref="#ContraIulianum">contra iulianum</title> 45 <g ref="#slash"/>Item per <ref><name ref="#GregoryGreat">gregorium</name> super <title>ezechiel</title> 3a omelia</ref> 
@@ -283,7 +283,7 @@
         
         <p xml:id="pgb1q39-d1e4035"><lb ed="#L"/>Ad <sic>5m et 4m</sic> dicitur simul quod si intelligitur quod peccatum in se sit aliquod bonum 
           <lb ed="#L"/>hoc est falsum si vero intelligitur quod aliquod iustum et bonum vel utile quandoque sequitur 
-          <pb ed="#L" n="122r"/><lb ed="#L"/>per accidens ad peccatum sicut est verum et tunc si sic uniformiter sumeretur maior 
+          <pb ed="#L" n="122-r"/><lb ed="#L"/>per accidens ad peccatum sicut est verum et tunc si sic uniformiter sumeretur maior 
           <lb ed="#L"/>neganda est quia non omne ad quod sequitur per accidens aliquod iustum vel bonum deus 
           <lb ed="#L"/>vult</p>
         
@@ -355,7 +355,7 @@
         <p xml:id="pgb1q39-d1e4224"><g ref="#pilcrow"/>Ad 4m negatur antecedens de voluntate 
           <lb ed="#L"/>efficaci quia si sic vellet illa non esse non fierent et ad probationem negatur 
           <lb ed="#L"/>consequentia quia aliquando deus aliquid vult <g ref="#slash"/>voluntate signi quod tamen non vult voluntate 
-          <pb ed="#L" n="122v"/><lb ed="#L"/>beneplaciti ut patet de immolatione <name ref="#Isaac">ysaac</name> quam praecepit quae sibi non placuit 
+          <pb ed="#L" n="122-v"/><lb ed="#L"/>beneplaciti ut patet de immolatione <name ref="#Isaac">ysaac</name> quam praecepit quae sibi non placuit 
           <lb ed="#L"/>sed tantum manifestatio obiective fuit et <name ref="#Abraham">abraham</name> in volendo facere prae<lb ed="#L"/>ceptum 
           deo placuit</p>
         

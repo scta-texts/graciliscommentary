@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,42 +10,43 @@
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.12-dev-master">
+        <edition n="0.0.0-dev">
           <title>Liber I, Quaestio 22 [London Transcription]</title>
           <date when="2014-12-03">December 03, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-12-03">December 29, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-12-03" who="#JW" status="draft" n="2014.12">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-12-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="68-v"/> 
       </div>
     </front>
     <body>
@@ -109,7 +110,7 @@
         <p xml:id="pgb1q22-d1e3312"><g ref="#pilcrow"/>primum corollarium quod sumendo numerum pro pluralitate quacumque distinctorum re<lb ed="#L"/>aliter 
           sic in divinis est ponendus numerus simpliciter si autem sumeretur pro pluralitate 
           <lb ed="#L"/>aliquorum <unclear>nullum</unclear> per se unum existentium nec constituentium sic a divinis 
-          <pb ed="#L" n="69r"/><lb ed="#L"/>personis est numerus removendus totaliter prima patet quia beata trinitas est vera pluralitas 
+          <pb ed="#L" n="69-r"/><lb ed="#L"/>personis est numerus removendus totaliter prima patet quia beata trinitas est vera pluralitas 
           <lb ed="#L"/>personarum abinvicem distinctarum 2a probatur quia illae personae sunt unum per se essentialiter 
           <lb ed="#L"/>quia compositum habens partes simul non dicitur numerus quia sunt unum hoc aliquid igitur a fortiori 
           <lb ed="#L"/>trinitas increata cum sit una simplicissima essentia non est numerus illo modo sumptus 
@@ -154,7 +155,7 @@
             in quo est melius est illi quam si in illo non esset</quote> <g ref="#slash"/>sed hoc non sufficit 
           <lb ed="#L"/>quia tunc habere <choice><orig>caliditatem</orig><reg>calliditatem</reg></choice> decem graduum non esset perfectionis simpliciter consequens est falsum 
           <lb ed="#L"/>et consequentia patet quia si illa caritas auferetur a me et si daretur mihi alia caritas 
-          <pb ed="#L" n="69v"/><lb ed="#L"/>mille graduum melius esset mihi quam prius et tamen non haberem illam quam prius et per 
+          <pb ed="#L" n="69-v"/><lb ed="#L"/>mille graduum melius esset mihi quam prius et tamen non haberem illam quam prius et per 
           <lb ed="#L"/>consequens illam habere non esset perfectionis simpliciter quod erat consequens illatum
         </p>
         
@@ -213,7 +214,7 @@
         
         <p xml:id="pgb1q22-d1e3698"><g ref="#pilcrow"/>3o sequitur quod aliqua substantia esset quantitas patet consequentia cum 
           <lb ed="#L"/>omnis numerus sit quantitas et res numeratae sunt substantiae consequens est falsum cum quia 
-          <pb ed="#L" n="70r"/><lb ed="#L"/>omnis quantitas est accidens tum quia substantia et quantitas diversa sunt praedicamenta et distincta</p>
+          <pb ed="#L" n="70-r"/><lb ed="#L"/>omnis quantitas est accidens tum quia substantia et quantitas diversa sunt praedicamenta et distincta</p>
         
         <p xml:id="pgb1q22-d1e3707"><g ref="#pilcrow"/>4o 
           <lb ed="#L"/>sequeretur quod videns exercitum hominum sciret numerum ipsorum quia numerus illorum et illi 
@@ -269,7 +270,7 @@
           <lb ed="#L"/><g ref="#slash"/>eodem modo dicitur ad secundum concedendo consequens nam duo homines et duo equi et quaecumque alia <corr><del rend="strikethrough">alia</del></corr> 
           <lb ed="#L"/>duo sunt in eadem specie numeri inquantum duo sed inquantum homines sunt alii equi 
           <lb ed="#L"/>sunt diversarum specierum nec hoc est inconveniens quod eadem res diversis modis sit in praedicamentis 
-          <pb ed="#L" n="70v"/><lb ed="#L"/>diversis</p>
+          <pb ed="#L" n="70-v"/><lb ed="#L"/>diversis</p>
         
         <p xml:id="pgb1q22-d1e3917">Ad 3m conceditur consequens et dico ulterius cum <name ref="#Rimini">gregorio</name> quod non omnis quantitas est accidens 
           <lb ed="#L"/>2o dicitur quod licet substantia et quantitas sint distincta praedicamenta tamen de eodem possunt praedicari</p>
@@ -329,7 +330,7 @@
         
         <p xml:id="pgb1q22-d1e4161"><g ref="#pilcrow"/>Ad <sic>3m</sic> dicitur quod facit pro conclusione 3a</p> 
           
-        <p xml:id="pgb1q22-atpehs"><pb ed="#L" n="71r"/><lb ed="#L"/>Ad 3m patet qualiter deus est a nobis imperfecte nominabilis et aliqualiter cognoscibilis 
+        <p xml:id="pgb1q22-atpehs"><pb ed="#L" n="71-r"/><lb ed="#L"/>Ad 3m patet qualiter deus est a nobis imperfecte nominabilis et aliqualiter cognoscibilis 
           <lb ed="#L"/>et hoc sufficit</p>
         
         <p xml:id="pgb1q22-d1e4171"><g ref="#pilcrow"/>praedictis adiciendum est prima conclusio quod 
@@ -398,7 +399,7 @@
         
         <p xml:id="pgb1q22-d1e4338"><lb ed="#L"/><g ref="#pilcrow"/>9a conclusio quod cum <name ref="#IsidoreOfSeville">ysidorus</name> dicit quod veritas est singularis accipit singulare pro eo quod alii unum 
           <lb ed="#L"/>accipiunt cum vero dicit quod trinitas est multiplex et numeralis accipit multiplicitatem et numerositatem 
-          <pb ed="#L" n="71v"/><lb ed="#L"/>sicut alii accipiunt trinum</p>
+          <pb ed="#L" n="71-v"/><lb ed="#L"/>sicut alii accipiunt trinum</p>
         <!-- begin expositio of distinction 25 -->
         <p xml:id="pgb1q22-d1e4354"><g ref="#pilcrow"/>praeterea considerandum est etc 
           <lb ed="#L"/>Ista distinctio 25a continet tres conclusiones <g ref="#slash"/>prima quod nomen personae in divinis triplicem 

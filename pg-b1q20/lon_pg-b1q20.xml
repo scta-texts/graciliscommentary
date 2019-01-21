@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 20 [London Transcription]</title>
+        <title>Liber I, Quaestio 20 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.11-dev-master">
-          <title>Librum I, Quaestio 20 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 20 [London Transcription]</title>
           <date when="2014-11-25">November 25, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-11-25">November 25, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-11-25" who="#JW" status="draft" n="2014.11">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-25" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="63-r"/> 
       </div>
     </front>
     <body>
@@ -56,7 +57,7 @@
           <lb ed="#L"/>ac duratione aeternali nunc incipit tractare de earum perfectione coaequali</p>
         
         <p xml:id="pgb1q20-d1e3134"><lb ed="#L"/><g ref="#pilcrow"/>Et dividitur in 3 quia primo ostendit in quibus consistit et penes quid attenditur earum aequalitas in 
-          <pb ed="#L" n="63v"/><lb ed="#L"/>generali 2o ostendit illa in quibus sunt aequales in speciali non de differentia reali 3o prosequitur 
+          <pb ed="#L" n="63-v"/><lb ed="#L"/>generali 2o ostendit illa in quibus sunt aequales in speciali non de differentia reali 3o prosequitur 
           <lb ed="#L"/>de unoquoque praedictorum in speciali 2a ibi cumque enumeratur ista quasi diversa etc 
           <lb ed="#L"/>3a ibi quod autem aeternitate etc et haec est in generali divisio praesentis distinctionis</p>
         
@@ -110,7 +111,7 @@
           <lb ed="#L"/>id est personas vel ut <name>graeci</name> exponunt <choice><orig>ypostases</orig><reg>hypostases</reg></choice> et subsistentias confi<lb ed="#L"/>temur 
           ex quibus verbis</quote> patet conclusio et habentur haec verba infra <ref>distinctione 35 capitulo ultimo</ref> 
           <lb ed="#L"/>2a pars probatur quia perfectio attributalis est ipsa met essentia in multiplici importata 
-          <pb ed="#L" n="64r"/><lb ed="#L"/>per terminem generaliter importantem perfectionem simpliciter communem creatori et creaturae secundum quam<lb ed="#L"/>dam 
+          <pb ed="#L" n="64-r"/><lb ed="#L"/>per terminem generaliter importantem perfectionem simpliciter communem creatori et creaturae secundum quam<lb ed="#L"/>dam 
           <unclear>anologiam</unclear> ex notescentia creaturarum investigata in creatore sicut 
           <lb ed="#L"/>est sapientia iustitia bonitas etc huiusmodi sed quodlibet divinum suppositum est formaliter 
           <lb ed="#L"/>et realiter iustitia bonitas sapientia et huiusmodi ergo nullum divinum suppositum 
@@ -160,7 +161,7 @@
           <lb ed="#L"/>dicimus illam distinctionem distinctioni divinae <unclear>fore</unclear> maiorem minorem vel aequalem 
           <lb ed="#L"/>patet quia sunt diversarum rationum et improportionales infinite <unclear>incompossibliter</unclear> quia infinite 
           <lb ed="#L"/>est impossibile quod una persona sit alia non tamen infinite impossibile infinite differenter 
-          <pb ed="#L" n="64v"/><lb ed="#L"/>distinguitur ita quod persona distinguitur infinite incompossibiliter et distanter et tamen distinguitur indivisi<lb ed="#L"/>biliter 
+          <pb ed="#L" n="64-v"/><lb ed="#L"/>distinguitur ita quod persona distinguitur infinite incompossibiliter et distanter et tamen distinguitur indivisi<lb ed="#L"/>biliter 
           quia minima distinctio possibilis est</p>
         
         <p xml:id="pgb1q20-d1e3533"><g ref="#pilcrow"/>3m corollarium est pars affirmativa conclusionis sumendo supposita 
@@ -225,7 +226,7 @@
           <lb ed="#L"/>articulo primo quaestione 2a</ref></p>
         
         <p xml:id="pgb1q20-d1e3746"><g ref="#pilcrow"/>Ad primum negatur consequentia et ad probationem conceditur maior quia licet 
-          <pb ed="#L" n="65r"/><lb ed="#L"/>perfectione incomplexa quodlibet divinum suppositum sit immense perfectum non tamen sequitur quod sint tria 
+          <pb ed="#L" n="65-r"/><lb ed="#L"/>perfectione incomplexa quodlibet divinum suppositum sit immense perfectum non tamen sequitur quod sint tria 
           <lb ed="#L"/>supposita perfecta <name ref="#HugolinoOfOrvieto">hugolinus</name> Aliter potest dici quod consequens est verum quia praedicationes commune 
           <lb ed="#L"/>conveniunt tribus personis conveniunt per nomina adiectiva vel participia si 
           <lb ed="#L"/>purae adiectivae tenentur semper dicuntur de pluribus scilicet de tribus pluraliter et secundum illam 
@@ -283,7 +284,7 @@
           <lb ed="#L"/>dicit ultra quod non convenit aliquo sui quasi <choice><orig>alica</orig><reg>aliqua</reg></choice> parte sed se totis essentialiter unum sunt</p>
         
         <p xml:id="pgb1q20-d1e3953"><lb ed="#L"/><g ref="#pilcrow"/>Ad 4m dicitur primo quod illa pluralitas non repugnat simplicitati sicut nec multiplicitas 
-          <lb ed="#L"/>personarum simplicitati essentiae <g ref="#slash"/>2o posset dici quod corollarium non dicit quod absolute per<pb ed="#L" n="65v"/><lb ed="#L"/>sonae 
+          <lb ed="#L"/>personarum simplicitati essentiae <g ref="#slash"/>2o posset dici quod corollarium non dicit quod absolute per<pb ed="#L" n="65-v"/><lb ed="#L"/>sonae 
         distinguuntur sed dicit quod non distinguuntur se ipsis sine inclusione originis ideo non 
           <lb ed="#L"/>concludit ratio</p>
         

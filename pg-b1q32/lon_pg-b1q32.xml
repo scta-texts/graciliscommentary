@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 32 [London Transcription]</title>
+        <title>Liber I, Quaestio 32 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.01">
-          <title>Librum I, Quaestio 32 [London Transcription]</title>
-          <date when="2015-01-21">January 21, 2014</date>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 32 [London Transcription]</title>
+          <date when="2015-01-21">January 21, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-01-21">January 21, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-01-21" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-01-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="95-v"/>
       </div>
     </front>
     <body>
@@ -86,7 +86,7 @@
           <lb ed="#L"/><choice><orig>ymagini</orig><reg>imagini</reg></choice> filii sui</quote> ex eis perire nullus potest</quote><!-- careful quote with quote here --></p>
         
         <p xml:id="pgb1q32-d1e3259"><g ref="#slash"/>3o principaliter existenti in caritate ac 
-          <lb ed="#L"/>praedestinato non potest fieri talis <g ref="#slash"/> revelatio ergo antecedens probatur tum quia tunc sua aeterna <choice><orig>damp<pb ed="#L" n="#96r"/><lb ed="#L"/>natio</orig><reg>dam<pb ed="#L" n="#96r"/><lb ed="#L"/>natio</reg></choice> 
+          <lb ed="#L"/>praedestinato non potest fieri talis <g ref="#slash"/> revelatio ergo antecedens probatur tum quia tunc sua aeterna <choice><orig>damp<pb ed="#L" n="96-r"/><lb ed="#L"/>natio</orig><reg>damnatio</reg></choice> 
           <choice><orig>neccessario</orig><reg>necessario</reg></choice> eveniret tum quia deus desperandi materiam et occasionem sibi daret 
           <lb ed="#L"/>tamen quia tunc clare videns deum summum bonum doleret seu dolere posset</p>
         
@@ -135,7 +135,7 @@
           <lb ed="#L"/>esse electus constat enim quod christus est electus sicut praedestinatus iuxta 
           <lb ed="#L"/>illud <title ref="#cant">canticum</title> <quote ana="#cant5_10">electus ex milibus</quote> quod secundum glossam de christo intelligitur<lb ed="#L"/></p>
         
-        <p xml:id="pgb1q32-d1e3497"><pb ed="#L" n="96v"/><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium aliquid quod deus nunc vult potest numquam velle vel volusse sine sui 
+        <p xml:id="pgb1q32-d1e3497"><pb ed="#L" n="96-v"/><lb ed="#L"/><g ref="#pilcrow"/>primum corollarium aliquid quod deus nunc vult potest numquam velle vel volusse sine sui 
           <lb ed="#L"/>mutatione intrinsece patet quia nunc praedestinatur elective potest numquam ipsum praedestinasse</p>
         
         <p xml:id="pgb1q32-d1e3505"><lb ed="#L"/><g ref="#pilcrow"/>2m corollarium verba diversorum temporum dicta de deo non notant tempus <unclear>mensurans <!-- dbcheck --></unclear> 
@@ -182,7 +182,7 @@
         <p xml:id="pgb1q32-d1e3740"><g ref="#pilcrow"/>2m corollarium deus non potest solum <choice><orig>dampnationem</orig><reg>damnationem</reg></choice> alicui revelare conditionaliter 
           <lb ed="#L"/>sed etiam potest hoc cuilibet dampnando revelare absolute simpliciter patet per corollarium</p>
           
-        <p xml:id="pgb1q32-d1e3752"><pb ed="#L" n="97r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium sicut cum revelati <unclear>s[?]</unclear> evidentia stat eiusdem continentiae sic sine 
+        <p xml:id="pgb1q32-d1e3752"><pb ed="#L" n="97-r"/><lb ed="#L"/><g ref="#pilcrow"/>3m corollarium sicut cum revelati <unclear>s[?]</unclear> evidentia stat eiusdem continentiae sic sine 
           <lb ed="#L"/>dolore et tristitia potest haberi huius revelationis evidentia <g ref="#slash"/>vel sic stat 
           <lb ed="#L"/>aliquam suam <choice><orig>dampnationem</orig><reg>damnationem</reg></choice> videre et de ipsa nullam displicentiam habere <g ref="#slash"/>prima patet 
           <lb ed="#L"/>quia cum clara visione beati <choice><orig>dampnationis</orig><reg>damnationis</reg></choice> futurae stat ipsam contingenter 
@@ -229,7 +229,7 @@
           <lb ed="#L"/><unclear>proph?antum</unclear> sit non denuntiaret immobiliter talem veritatem</p>
         
         <p xml:id="pgb1q32-d1e3940"><g ref="#pilcrow"/>3o contra 
-          <pb ed="#L" n="97v"/><lb ed="#L"/>primum corollarium voluntas dei et aeterna et immutabilis ergo nihil quod vult potest non vel<lb ed="#L"/>le 
+          <pb ed="#L" n="97-v"/><lb ed="#L"/>primum corollarium voluntas dei et aeterna et immutabilis ergo nihil quod vult potest non vel<lb ed="#L"/>le 
         <g ref="#slash"/>tenet consequentia quia si deus vult <c>a</c> fore et aliquid aliud a deo potest facere quod 
           <lb ed="#L"/>a non erit sequitur quod aliud a deo potest frustrare voluntatem dei <g ref="#pilcrow"/></p>
         
@@ -286,7 +286,7 @@
         
         <p xml:id="pgb1q32-d1e4151"><lb ed="#L"/><g ref="#pilcrow"/>ad primum contra 2am conclusionem dicitur primo quod sumendo praedestinationem pro praescientia et praeparatione 
           <lb ed="#L"/>beneficii futuri sic negatur consequens et consequentia si autem sumeretur praedestinatio per 
-          <pb ed="#L" n="98r"/><lb ed="#L"/>effectu praedestinationis sic conceditur consequens et consequentia quia voluntas creata potest mereri aliquem 
+          <pb ed="#L" n="98-r"/><lb ed="#L"/>effectu praedestinationis sic conceditur consequens et consequentia quia voluntas creata potest mereri aliquem 
           <lb ed="#L"/>effectum suae praedestinationis et reprobationis et eadem distinctio in virtute posita <g ref="#dot"/> 
           <lb ed="#L"/>est superius</p>
         
@@ -341,7 +341,7 @@
           <lb ed="#L"/>raptu <g ref="#slash"/>Item notandum quod revelare aliquid proprie est intellectum creatum in 
           <lb ed="#L"/>assentiendo alicui vero de futuro inducere cui talis intellectus non 
           <lb ed="#L"/>assentit <g ref="#slash"/>ex patet quod nulla creatura potest revelare alteri nisi illud quod eidem 
-          <pb ed="#L" n="98v"/><lb ed="#L"/>revelatum patet quia nulla creatura potest scire futura nisi deus ei revelaverit</p> 
+          <pb ed="#L" n="98-v"/><lb ed="#L"/>revelatum patet quia nulla creatura potest scire futura nisi deus ei revelaverit</p> 
           
         <p xml:id="pgb1q32-d1e4403"><lb ed="#L"/><g ref="#pilcrow"/>Ad 2m negatur consequentia sumpto consequente in sensu composito ratio est quia <choice><orig>dampnatio</orig><reg>damnatio</reg></choice> non 
           <lb ed="#L"/>tam formaliter repugnat gratiae sicut praedestinationem propter perpetuitatem mi<lb ed="#L"/>seriae 
