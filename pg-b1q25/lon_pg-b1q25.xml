@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Quaestio 25 [London Transcription]</title>
+        <title>Liber I, Quaestio 25 [London Transcription]</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.12-dev-master">
-          <title>Librum I, Quaestio 25 [London Transcription]</title>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Quaestio 25 [London Transcription]</title>
           <date when="2014-12-25">December 25, 2014</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-12-25">December 25, 2014</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2014-12-25" who="#JW" status="draft" n="2015.01">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-          </note>
+        <change when="2014-11-13" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="76-v"/> 
       </div>
     </front>
     <body>
@@ -63,7 +64,7 @@
         2a ibi quomodo ergo obtinebimus 3a ibi hic potest solvi quaestio</p>
         
         <p xml:id="pgb1q25-d1e3149"><g ref="#pilcrow"/>2a pars 
-          <pb ed="#L" n="77r"/><lb ed="#L"/>principalis quae est distinctio 31 dividitur in tres quia primo ponit de aequalitate 
+          <pb ed="#L" n="77-r"/><lb ed="#L"/>principalis quae est distinctio 31 dividitur in tres quia primo ponit de aequalitate 
           <lb ed="#L"/>divina cum <unclear>responsionibus</unclear> <unclear>quaestionibus</unclear> 2o ostendit <sic>similitudinarias</sic> quaestionibus fieri posse de 
           <lb ed="#L"/>similitudine et aequales posse dari solutiones 3o exsequitur de hiis secundum 
           <lb ed="#L"/>duorum sanctorum opiniones et traditiones 2a ibi hoc idem dicimus 3a ibi 
@@ -114,7 +115,7 @@
           <lb ed="#L"/>per <ref><name ref="#Augustine">augustinum</name> 10 <title ref="#deTrinitate">de trinitate</title> capitulo 10</ref> antecedens est <ref><name ref="#Aristotle">philosophi</name> in <title>de memoria et reminiscentia</title></ref> <g ref="#slash"/>confirmatur 
           <lb ed="#L"/>haec pars quia <choice><orig>ymago</orig><reg>imago</reg></choice> rosae existens in pariete vel in potentia memorativa aeque est <choice><orig>ymago</orig><reg>imago</reg></choice> 
           <lb ed="#L"/>rosae dum rosa non est sicut quando est ergo ens refertur ad non ens patet consequentia quia 
-          <pb ed="#L" n="77v"/><lb ed="#L"/><choice><orig>ymago</orig><reg>imago</reg></choice> inquantum <choice><orig>ymago</orig><reg>imago</reg></choice> est quid relatum <g ref="#slash"/>2a pars probatur quia ens refertur ad non ens 
+          <pb ed="#L" n="77-v"/><lb ed="#L"/><choice><orig>ymago</orig><reg>imago</reg></choice> inquantum <choice><orig>ymago</orig><reg>imago</reg></choice> est quid relatum <g ref="#slash"/>2a pars probatur quia ens refertur ad non ens 
           <lb ed="#L"/>igitur tenet consequentia quia <unclear>relativa</unclear> dicuntur <unclear>convertentiam</unclear> et antecedens patet ex conclusione et ex probatione primae 
           partis eius</p>
         
@@ -170,7 +171,7 @@
         
         <p xml:id="pgb1q25-d1e3623"><g ref="#pilcrow"/>2m corollarium stat aliquid nova relatione ad aliud referri 
           <lb ed="#L"/>et nihil novi relato conferri seu ipsum relatum in nullo mutari <g ref="#slash"/>patet 
-          <pb ed="#L" n="78r"/><lb ed="#L"/>quia creator ex tempore refertur ad creaturam existentem sed creator non est alicuius 
+          <pb ed="#L" n="78-r"/><lb ed="#L"/>quia creator ex tempore refertur ad creaturam existentem sed creator non est alicuius 
           <lb ed="#L"/>novitatis vel accidentis susceptibilis intrinsece ergo</p>
         
         <p xml:id="pgb1q25-d1e3636"><g ref="#pilcrow"/>3m corollarium non stat 
@@ -235,7 +236,7 @@
           <lb ed="#L"/>secundum quid</p>
         
         <p xml:id="pgb1q25-d1e3902"><g ref="#pilcrow"/>3o idem antecedens probatur quis si lapis <choice><orig>deppenderet</orig><reg>dependeret</reg></choice> <g ref="#slash"/> a se distincta <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> 
-          <pb ed="#L" n="78v"/><lb ed="#L"/>sequeretur quod <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> lapidis quae se ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> magis <choice><orig>deppen<lb ed="#L"/>deret</orig><reg>depen<lb ed="#L"/>deret</reg></choice> 
+          <pb ed="#L" n="78-v"/><lb ed="#L"/>sequeretur quod <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> lapidis quae se ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> magis <choice><orig>deppen<lb ed="#L"/>deret</orig><reg>depen<lb ed="#L"/>deret</reg></choice> 
           a deo quam lapis consequens est falsum quia utrumque <choice><orig>deppendet</orig><reg>dependet</reg></choice> causaliter consequentia probatur 
           <lb ed="#L"/>quia quod <choice><orig>deppendet</orig><reg>dependet</reg></choice> se ipso <choice><orig>deppendet</orig><reg>dependet</reg></choice> primo et principaliter quod <unclear>autem</unclear> <choice><orig>deppendet</orig><reg>dependet</reg></choice> alio 
           <lb ed="#L"/>non <choice><orig>deppendet</orig><reg>dependet</reg></choice> primo sed ex consequenti</p>
@@ -296,7 +297,7 @@
           <lb ed="#L"/>4m dicitur quod aliquid deppendere ab alio potest esse dupliciter scilicet formaliter vel fundamentaliter 
           <lb ed="#L"/><g ref="#pilcrow"/>primo modo dicitur quod creatura non deppendet se ipsa formaliter a deo circumscripto 
           <lb ed="#L"/>omni alio 2o modo vero creatura se ipsa <choice><orig>deppendet</orig><reg>dependet</reg></choice> quolibet alio secluso <g ref="#slash"/> modo 
-          <pb ed="#L" n="79r"/><lb ed="#L"/>hic loquimur de <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> formali <unclear>relativa</unclear> et ideo negatur antecedens</p>
+          <pb ed="#L" n="79-r"/><lb ed="#L"/>hic loquimur de <choice><orig>deppendentia</orig><reg>dependentia</reg></choice> formali <unclear>relativa</unclear> et ideo negatur antecedens</p>
         
         <p xml:id="pgb1q25-d1e4242"><g ref="#dbslash"/>Ad 
           <lb ed="#L"/>primam probationem dicitur quod casus est impossibilis <g ref="#slash"/>2o dicitur quod si admitteretur tunc illa creatura 
@@ -358,7 +359,7 @@
           <lb ed="#L"/>in creatore</p>
         
         <p xml:id="pgb1q25-d1e4500"><g ref="#pilcrow"/>4a conclusio quod appellatio qua creatura relative dicitur ad creatorem relativa est 
-          <pb ed="#L" n="79v"/><lb ed="#L"/>et relationem notat quae est in ipsa creatura</p>
+          <pb ed="#L" n="79-v"/><lb ed="#L"/>et relationem notat quae est in ipsa creatura</p>
         
         <p xml:id="pgb1q25-d1e4507"><g ref="#pilcrow"/>5a conclusio appellatio qua creator relative 
           <lb ed="#L"/>dicitur ad creaturam relativa est sed nullam relationem notat quae sit in creatore</p>
