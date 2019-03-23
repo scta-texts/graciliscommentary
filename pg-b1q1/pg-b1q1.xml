@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -11,9 +11,9 @@
         <editor>John T. Slotemaker</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="0.1.0-dev">
+        <edition n="1.0.0">
           <title>Liber I, Quaestio 1</title>
-          <date when="2015-12-24">December 24, 2015</date>
+          <date when="2019-02-06">February 26, 2019</date>
         </edition>
       </editionStmt>
       <publicationStmt>
@@ -30,24 +30,46 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng"/>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
           guidelines for a critical edition.
         </p>
+        <p>
+          <!--Associated editorial articles at time of peer review-->
+          <ref target="https://scta.info/resource/PetrusGracilis_Bio/QmPiFh2Y9jM1KXZ57g8B9kjWH3C5xG9tQd5jQCuqZT6iG3"
+            n="QmPiFh2Y9jM1KXZ57g8B9kjWH3C5xG9tQd5jQCuqZT6iG3">
+            Biography</ref>
+          <ref target="https://scta.info/resource/PetrusGracilis_ep/QmUocFTou1BTwKs8n9bobydtx5DR315b7eM2FVUo8968hD"
+            n="QmUocFTou1BTwKs8n9bobydtx5DR315b7eM2FVUo8968hD">
+            Editorial Principles</ref>
+          <ref 
+            target="https://scta.info/resource/PetrusGracilis_msdesc_lon/QmSHFu1TqcSPUJCSHm2SABfWdRbHzLi8HM6XutZT6X9YwH"
+            n="QmSHFu1TqcSPUJCSHm2SABfWdRbHzLi8HM6XutZT6X9YwH">
+            Manuscript Description
+          </ref>
+          <ref 
+            target="https://scta.info/resource/PetrusGracilis_pg-b1q1_intro/QmNYoEby8c359BNaBEwepFbhJHLdEUWMqm5q6hKK3Qyh61"
+            n="QmSHFu1TqcSPUJCSHm2SABfWdRbHzLi8HM6XutZT6X9YwH">
+            Introduction to Question 1
+          </ref>
+        </p>
       </editorialDecl>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
     </encodingDesc>
-    <revisionDesc status="draft">
+    <revisionDesc status="peer-reviewed">
       <listChange>
-        <change when="2015-12-24" status="draft" n="0.1.0" corresp="versionlog.xml#v0.1.0">
-          <note type="validating-schema">lbp-0.0.1</note>
+        <change when="2018-07-20" status="peer-review-submission" n="1.0.0-rc">
+          <p>Improved file in preparation for peer review</p>
+        </change>
+        <change when="2013-10-10" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text>
     <front>
-      
       <div xml:id="starts-on">
         <pb ed="#L" n="11-v"/>
       </div>
@@ -56,7 +78,9 @@
       <div xml:id="pg-b1q1">
         <head xml:id="pg-b1q1-Hliq1li">Liber I, Quaestio 1</head>
         <div xml:id="pg-b1q1-Dd1e3724">
-          <head xml:id="pg-b1q1-Hd1e3726"><supplied>Circa textum</supplied></head>
+          <head xml:id="pg-b1q1-Hd1e3726">
+            <supplied>Circa textum</supplied>
+          </head>
           <p xml:id="pgb1q1-cadanl">
             <cit>
               <quote xml:id="pg-b1q1-Qd1e3733" source="http://scta.info/resource/pll1prol-cadzdd" type="lemma">
