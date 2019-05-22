@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 8 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Quaestio 8 [London Transcription]</title>
+          <date when="2019-05-18">May 18, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-05-18" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="175-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q8">
+        <head xml:id="pg-b2q8-Hd1e95">Liber 2, Quaestio 8 [London Transcription]</head>
+        <p xml:id="pg-b2q8-d1e98">
+          <lb ed="#L" n="6"/>Utrum quilibet descendens ad <name>adam</name>
+          <lb ed="#L"/><del>ab</del> per propagationem naturalem seu seminalem contraxerit in conceptione 
+          <lb ed="#L"/>macularm originalem 
+        </p>
+        <p xml:id="pg-b2q8-d1e112">
+          <pc type="virgula">/</pc> quod non quia virgo materia non contraxit illam 
+          <lb ed="#L"/>maculam ergo et tamen fuit concepta modo naturale ergo mairo patet per dicta sanctorum 
+          <lb ed="#L"/>augustini anselmi et aliorum qui communiter ad hoc solent allegari
+        </p>
+        <p xml:id="pg-b2q8-d1e122">
+          <pc type="#pilcrow"/>2o omnem 
+          <lb ed="#L"/>conditionem actum vel habitum quam habet creatura in primo instanti sui esse habet <c>a</c> 
+          <lb ed="#L"/>deo ergo si homo non prius habet esse quam habeat talem maculum sequitur quod ipsam habet 
+          <lb ed="#L"/>a deo et sic deus hominem faceret malum
+        </p>
+        <p xml:id="pg-b2q8-d1e136">
+          <pc type="#pilcrow"/>3o si esset aliquod originale peccatum 
+          <lb ed="#L"/>aut illud mereretur puniri poena sensus aeterna aut non <pc type="virgula">/</pc> non primum quia hoc videtur 
+          <lb ed="#L"/>contra <ref xml:id="pg-b2q8-Rd1e147"><title>decratelis</title> determinationem capitulo maiores</ref> nec 2m quia cum puer sciat pro originali 
+          <lb ed="#L"/>se privatum gloria ad quam erat creatus sequitur quod dolore <unclear>affungetur</unclear> de amissione 
+          <lb ed="#L"/>beatitudinis quae est poena sensus ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e162">
+          <pc type="#pilcrow"/>In oppositum est scriptura dicens ecce 
+          <lb ed="#L"/>in iniquitatibus conceptus <unclear>suum</unclear> 
+        </p>
+        <p xml:id="pg-b2q8-d1e172">
+          <pc type="virgula">/</pc> Item ad hoc sunt sanctorum plures auctoritates
+        </p>
+        <p xml:id="pg-b2q8-d1e178">
+          <lb ed="#L"/><pc type="#pilcrow"/>prima conclusio licet virgo beata fuerit concepta sine originali culpa tamen hoc 
+          <lb ed="#L"/>non est evidenter probabile ex scriptura sacra <pc type="#punctus"/> prima pars potest persuaderi 
+          <lb ed="#L"/>per scripturam <pc type="virgula">/</pc> primo quia fuit sine <quote xml:id="pg-b2q8-Qd1e193" ana="#lc1_28"><sic>ve</sic> gratia plena</quote> luce 1o
+        </p>
+        <p xml:id="pg-b2q8-d1e199">
+          <pc type="virgula">/</pc>2o quia fuit 
+          <lb ed="#L"/>formata absque macula canticorum 4o
+        </p>
+        <p xml:id="pg-b2q8-d1e207">
+          <pc type="virgula">/</pc> 3o quia secundum <ref xml:id="pg-b2q8-Rd1e212" target="http://scta.info/resource/anselmdeconvirg"><name>anselmum</name> de conceptu virginali</ref>
+          <lb ed="#L"/>ipsa intuit ea puritate qua sub deo christo maior nequit intelligi
+        </p>
+        <p xml:id="pg-b2q8-d1e220">
+          <lb ed="#L"/>Item cum maior pars doctorum et scolarum hoc teneat et in scripturis 
+          <lb ed="#L"/>relinquat et ecclesia non obviat sed potius videtur consentire cum eius 
+          <lb ed="#L"/>festum colat sequitur quod hoc est tenendum quamvis non pro determinato
+        </p>
+        <p xml:id="pg-b2q8-d1e230">
+          <pc type="#pilcrow"/>2a pars 
+          <lb ed="#L"/>conclusionis probatur quia hoc magis videtur sonare sacra scriptura quam eius oppositum 
+          <lb ed="#L"/>ut ostendit <ref xml:id="pg-b2q8-Rd1e238"><name>doctor noster frater aegidius</name> 8o quodlibet quaestione 20</ref> et facimus <ref xml:id="pg-b2q8-Rd1e243">libro 
+          3o quaestio 6a</ref> <pc type="#pilcrow"/>confirmatur quia omnes auctoritates sacrae scripturae loquentes 
+          <lb ed="#L"/>de conceptus modo naturali humano sunt universales virginem non excludentes 
+          <lb ed="#L"/>nec alium
+        </p>
+        <p xml:id="pg-b2q8-d1e254">
+          <pc type="#pilcrow"/>primum corollarium non stat alicui communicari totam gratiam virginis totaliter 
+          <lb ed="#L"/>nisi pariat et concipiat aliquod dominum suppositum corporaliter <pc type="virgula">/</pc> prima pars patet quia 
+          <lb ed="#L"/>in rebus per tempus ortis illa est maxima gratia ut ille homo uniretur et 
+          <lb ed="#L"/>assumeretur filio dei prout dicit <ref xml:id="pg-b2q8-Rd1e268" target="http://scta.info/resource/adt-l13"><name>augustinus</name> 13o <title>de trinitate</title> capitulo 29o</ref> allegat 
+          <lb ed="#L"/>eum <ref xml:id="pg-b2q8-Rd1e278" target="http://scta.info/resource/">magister libro 3o capitulo 2o distinctionis 12ae</ref> <pc type="virgula">/</pc> 2a pars patet quia materitas virginis 
+          <lb ed="#L"/>materiae fuit singularis gratia ergo antecedens videtur innuere angelus luce 1o dicens 
+          <lb ed="#L"/><quote xml:id="pg-b2q8-Qd1e288" ana="#lc1_30 #lc1_31">invenisti gratiam apud Deum ecce concipies et paries filium</quote>
+        </p>
+        <p xml:id="pg-b2q8-d1e292">
+          <pc type="#pilcrow"/>2m 
+          <lb ed="#L"/>corollarium si virgo fuisset in originali culpa concepta tamen secundum legem 
+          <lb ed="#L"/>aeternam non fuisset minus digna nec minus deo accepta patet quia secundum 
+          <pb ed="#L" n="175-v"/>
+          <lb ed="#L"/><ref xml:id="pg-b2q8-Rd1e303" target="http://scta.info/resource/adt-l1"><name>beatum augustinum</name> primo <title>de trinitate</title> capitulo 25o</ref> et ultimo<!-- is part of ref or new ref --> deus diligit hominem etiam cum 
+          <lb ed="#L"/>est in peccatis et nullum ex tempore incipit diligere ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e317">
+          <pc type="#pilcrow"/>3m corollarium licet 
+          <lb ed="#L"/>virgo non fuit culpa originali infecta tamen ipsa fuit per christum a
+          <lb ed="#L"/>poenis et peccatis redempta primam partem reliquo ex dictis sed probo 2am 
+          <lb ed="#L"/>nam legitur in sacra scriptura quod christus est reconsiliator et pacificator 
+          <lb ed="#L"/>angelorum ergo non obstante virginis puritate ad hoc christus potest dici 
+          <lb ed="#L"/>eius redemptor ymmo secundum <ref xml:id="pg-b2q8-Rd1e332"><name>bernardum</name> super canticorum</ref> <quote xml:id="pg-b2q8-Qd1e337">christus est redemptor 
+          <lb ed="#L"/>angelorum non solvendo sed servando a peccatis</quote>
+        </p>
+        <p xml:id="pg-b2q8-d1e343">
+          <pc type="#pilcrow"/>2a conclusio licet ex culpa <name>adae</name> et <name>evae</name> iuste 
+          <lb ed="#L"/>causaliter inficiantur posteri ac puniantur tamen si sola <name>eva</name> peccasset filii 
+          <lb ed="#L"/>sui non fuissent nati miseri prima pars probatur quibusdam exemplis et similtu<lb ed="#L"/>dinibus 
+          nam illud quod communitas et civitas aut collegium facit et ordinat 
+          <lb ed="#L"/>quilibet pertinens ad aliquod illorum dicitur facere
+        </p>
+        <p xml:id="pg-b2q8-d1e366">
+          <pc type="virgula">/</pc>Item illud quod princeps or<lb ed="#L"/>dinatur 
+          et facit dicitur quod subdiri faciunt et ordinant vel acceptant 
+        </p>
+        <p xml:id="pg-b2q8-d1e375">
+          <pc type="virgula">/</pc>Item illud quod facit unum membrum corporis imputatur toti corpori et 
+          <lb ed="#L"/>cuilibet membro nam ratione furti vel homicidii perepetrati a manu 
+          <lb ed="#L"/>punitur totus homo <pc type="virgula">/</pc> modo ad propositum <name>adam</name> fuit quasi collegium capud 
+          <lb ed="#L"/>et princeps totius humani generis
+        </p>
+        <p xml:id="pg-b2q8-d1e394">
+          <pc type="virgula">/</pc> Item principale membrum aliquo descen<lb ed="#L"/>dimus 
+          omnis seminaliter et concupiantur ergo malum quoddam fecit iuste im<lb ed="#L"/>putatur 
+          cuilibet membro seu supposito nato modo communi deciso ab ipso 
+          <lb ed="#L"/><name>aam</name> ac etiam iuste pro illo punitur malo <pc type="virgula">/</pc> 2a pars probatur quia solus pater ad<lb ed="#L"/>ministrat 
+          materiam seminalem unde generatur et formatur homo ergo si in patre non prius 
+          <lb ed="#L"/>fuisset infectio peccati filii sui ab eo geniti non fuisset culpa infecti
+        </p>
+        <p xml:id="pg-b2q8-d1e416">
+          Item si deus nunc formaret corpus hominis ex muliere sine actu generationis 
+          <lb ed="#L"/>et infunderet ei animam humanam talis homo non conciperetur in originali culpa ergo 
+          <lb ed="#L"/>a simili si <name>eva</name> peccasset et <name>adam</name> non peccasset filii eorum non fuisset in 
+          <lb ed="#L"/>peccato originali nati
+        </p>
+        <p xml:id="pg-b2q8-d1e431">
+          <pc type="#pilcrow"/>primum corollarium licet peccatum originale sit pena ex 
+          <lb ed="#L"/>culpa <name>adae</name> causaliter proveniens tamen in <name>adam</name> sic pro creato non fuit nec 
+          <lb ed="#L"/>esse potuit culpa originalis <name>adam</name> inficiens <pc type="virgula">/</pc> prima patet quia <name>adam</name> vel eius 
+          <lb ed="#L"/>peccatum est causa quare omnes descendentes ab eo per concubitum viri et 
+          <lb ed="#L"/>mulieris nascuntur omnis in originali peccato sed hoc est penosum ergo <pc type="virgula">/</pc> 2a 
+          <lb ed="#L"/>pars patet quia <name>adam</name> creatus rectus rectitudine repugnante originali 
+          <lb ed="#L"/>culpae ergo in ipso originale peccatum esse non potuit nisi fuisset genitus 
+          <lb ed="#L"/>ab alio patre qui perdidisset innoscentiam originalem
+        </p>
+        <p xml:id="pg-b2q8-d1e473">
+          <pc type="#pilcrow"/>2m corollarium quod originalis 
+          <lb ed="#L"/>peccati materiale est concupiscentiam seu formes aut quodam inclinativum peccandi 
+          <lb ed="#L"/>existens in anima subiective ab infectione carnis morbide seu more<lb ed="#L"/>bunde 
+          proveniens causaliter effective patet quia sicut in peccato actuali est 
+          <lb ed="#L"/>quoddam materiale scilicet qualitas quaedam ut odium vel aliqua alia qualitas positiva
+          <pb ed="#L" n="176-r"/>
+          <lb ed="#L"/>et etiam aliquod formale scilicet ipsum agere difformiter legi dei et recte rationi et utrumque 
+          <lb ed="#L"/>peccatum vocatur sic suo modo in peccato originali est quoddam materiale scilicet concupiscentia 
+          <lb ed="#L"/>quae a qualitate morbida existente in carne causatur in anima quae reddit per 
+          <lb ed="#L"/>nullum concupiscibilem et aptum ad concupiscendum adultum vero concu<lb ed="#L"/>piscentem 
+          faciliter secundum <name>augustinum</name> formale vero in originali est carentia 
+          <lb ed="#L"/>iustitiae originalis cum obligatione seu debito habendi eam
+        </p>
+        <p xml:id="pg-b2q8-d1e505">
+          <pc type="#pilcrow"/>3m 
+          <lb ed="#L"/>corollarium licet carere originali iustitia cum debito habendi eam sit formale 
+          <lb ed="#L"/>originalis malitiae tamen peccatum originale simpliciter non est convertibiliter 
+          <lb ed="#L"/>privatio originalis iustitiae prima pars patet per dicta 2a probatur quidam fuit pri<lb ed="#L"/>vatus 
+          originali iustitia nec tamen habuit peccatum originale 
+        </p>
+        <p xml:id="pg-b2q8-d1e519">
+          Item quilibet existens 
+          <lb ed="#L"/>in mortali culpa privatur originali et suo aequivalenti scilicet gratia et tamen non 
+          <lb ed="#L"/>quilibet talis est in originali peccato
+        </p>
+        <p xml:id="pg-b2q8-d1e526">
+          <pc type="#pilcrow"/> Aliud corollarium peccatum originale est 
+          <lb ed="#L"/>hominem esse ex <name>adam</name> ad innoscentiam originalem hereditarie obligatum 
+          <lb ed="#L"/>et servitudinem a deo aversum esse capititum taliter ut administret corpus 
+          <lb ed="#L"/>ex pecato <name>adae</name> moribundum secundum desideria carnis et contra legem dei et 
+          <lb ed="#L"/>rectae rationis <pc type="virgula">/</pc> pro quo notandum eset quod post quam puer est baptizatus non amplius est 
+          <lb ed="#L"/>obligatus ex <name>adam</name> ad originalem iustitiam sed ex tunc moritur 
+          <lb ed="#L"/>peccato <name>adae</name> et vivit deo scilicet vita gratiae ad quam <del>milbus</del> de cetero o<lb ed="#L"/>bligatur 
+          et sic efficitur filius novi testamenti
+        </p>
+        <p xml:id="pg-b2q8-d1e565">
+          <pc type="#pilcrow"/>Nota etiam quod cum 
+          <lb ed="#L"/>dicitur ut administret corpus ad vivendum secundum desideria carnis 
+          <lb ed="#L"/>brutaliter seu bestialiter in hoc notatur effectus peccati originalis
+        </p>
+        <p xml:id="pg-b2q8-d1e574">
+          <pc type="#pilcrow"/>3a conclusio quod peur sine baptismo decedens per carentiam visionis 
+          <lb ed="#L"/>entis suppositum tantum a deo punitur per illam carentiam quantum vel quantae 
+          <lb ed="#L"/>illa carentia seu per huiusmodi privationem meretur puniri probatur quia 
+          <lb ed="#L"/>puer tantum vel tantae punitur quantum vel quantae illa carentia est sibi 
+          <lb ed="#L"/>debita in esse sed illa carentia est sibi tantae debita in esse quantum 
+          <lb ed="#L"/>originale est malum ergo tantum punitur puer carentia visionis 
+          <lb ed="#L"/>divinae quantum meruit puniri per illam carentiam
+        </p>
+        <p xml:id="pg-b2q8-d1e592">
+          <pc type="#pilcrow"/>primum corollarium quod 
+          <lb ed="#L"/>puer pro originali non solum meruit beatitudine aeterna privari sed 
+          <lb ed="#L"/>aeterna poena sensus ex condigno meruit puniri patet quia deus mi<lb ed="#L"/>sericorditer 
+          unit quemlibet dampnatum ergo cuilibet relaxat aliquam 
+          <lb ed="#L"/>partem poenae quam meruit sed per conclusionem deus tantum punit parvulum per carentiam 
+          <lb ed="#L"/>visionis quantum meruit puniri per illam ergo si sibi relaxat aliquam 
+          <lb ed="#L"/>poenam debitam illa erit sensus et habetur propositum
+        </p>
+        <p xml:id="pg-b2q8-d1e610">
+          <pc type="#pilcrow"/>2m corollarium licet 
+          <lb ed="#L"/>pueri meruerit poena sensus aeternaliter puniri pro originali malitia 
+          <lb ed="#L"/>tamen de facto non puniuntur tali poena prima patet ex dicits 2a patet 
+          per <ref xml:id="pg-b2q8-Rd1e618">decreatlem capitulo maiores</ref>
+        </p>
+        <p xml:id="pg-b2q8-d1e623">
+          <pc type="#pilcrow"/>3m corollarium stat quod puer <unclear>d?m</unclear> et
+          <lb ed="#L"/>beatitudinem et causam suae damnationis cognitive percipiat
+          <pb ed="#L" n="176-v"/>
+          <lb ed="#L"/>et tamen de amissionem beatitudinis nullum dolorem intrinsecum patiatur 
+          <lb ed="#L"/>vel habeat patet quia verisimilem est quod deus non concurrat cum voluntate pueri 
+          <lb ed="#L"/>ad actum doloris vel displicentiae quam alias haberet si deus concurreret
+        </p>
+        <p xml:id="pg-b2q8-d1e642">
+          <lb ed="#L"/><pc type="virgula">/</pc> Item possibile est etiam de lege communi adultus quod in vita sua perdat aliquod bonum 
+          <lb ed="#L"/>magnum et tamen modicum vel nihil de hoc doleat 
+        </p>
+        <p xml:id="pg-b2q8-d1e651">
+          <pc type="virgula">/</pc> Item homo in praesenti vita 
+          <lb ed="#L"/>non videt deum et tamen de tali carentia non dolet ergo sic potest esse de 
+          <lb ed="#L"/>pueris sine baptismo decedentibus
+        </p>
+        <p xml:id="pg-b2q8-d1e661">
+          <pc type="#pilcrow"/>Item sicut multi homines in vita prae<lb ed="#L"/>senti 
+          vident poenas et tormenta aliorum et tamen quandoque non dolent nec 
+          <lb ed="#L"/>tristantur ita stat videre pueros tormenta aliorum et tamen non dolere 
+          <lb ed="#L"/>ex hoc nec tristari
+        </p>
+        <p xml:id="pg-b2q8-d1e672">
+          <pc type="#pilcrow"/>Ex dictis sequitur primo quod licet peccatum originale prolis 
+          <lb ed="#L"/>non sit peccatum <name>adae</name> aut propinquorum parentum tamen peccatum originale est 
+          <lb ed="#L"/>culpa mortalis merens condigne aeternum tormentum prima pars patet quia 
+          <lb ed="#L"/><name>adam</name> est perfecte beatus nullam habens culpam 2a pars probatur ex praemissis 
+        </p>
+        <p xml:id="pg-b2q8-d1e688">
+          <pc type="virgula">/</pc> Item probatur 
+          <lb ed="#L"/>prima pars quia nisi sic sequeretur quod ad multiplicaitonem hominem fieret intensio et mul<lb ed="#L"/>tiplicatio 
+          peccati <name>adae</name> et sic <name>adam</name> conscientiae efficeretur miserior quam unquam fuerit 
+          <lb ed="#L"/>sed quod originale non sit peccatum materis nec patris <add place="above-line">patet</add> quia omnis culpa existens 
+          <lb ed="#L"/>in parentibus est actualis ergo peccatum originale non est peccatum eorum antecedens 
+          <lb ed="#L"/>patet quia baptismus delvit originale in parentibus quo ad culpam 
+        </p>
+        <p xml:id="pg-b2q8-d1e715">
+          <pc type="virgula">/</pc> Item 
+          <lb ed="#L"/>parentes possunt generare sine peccato ergo antecedens patet quia matrimonium ex<lb ed="#L"/>cusat 
+          peccatum
+        </p>
+        <p xml:id="pg-b2q8-d1e725">
+          <pc type="#pilcrow"/> Sequitur 2o quod licet virgine excepta omnis concepti ex on<lb ed="#L"/>cubitu 
+          viri in mulieris concipiantur in culpis aequalibus tamen non omnes 
+          <lb ed="#L"/>poenae pro originali inflictae sunt aequalis in omnibus hominibus prima pars patet quia 
+          <lb ed="#L"/>originalis macula formaliter est privatio originalis iustitiae quae non in<lb ed="#L"/>tenditur 
+          quo ad esse culpae nec ex <unclear>diuti?tate</unclear> temporis vel per mansionis 
+          <lb ed="#L"/>in ipsa nec ex bonitate vel malitia parentum 2a pars probatur quia aliquid homines 
+          <lb ed="#L"/>patiuntur longuas infirmitates et tormenta varia et diversas afflic<lb ed="#L"/>tiones 
+          et passiones et alii non
+        </p>
+        <p xml:id="pg-b2q8-d1e748">
+          <pc type="#pilcrow"/>Item aliqui moriuntur morte magis 
+          <lb ed="#L"/>poenosa et horribili quam alii sed illae sunt poenae originales ergo etc 
+        </p>
+        <p xml:id="pg-b2q8-d1e755">
+          <lb ed="#L"/>Item unus est pronior ad peccandum quam alius sed omnia talia in nobis con<lb ed="#L"/>tingunt 
+          ex rebellione virium inferiorum ad superiores et haec rebel<lb ed="#L"/>lio 
+          provenit ex remotione originale iustitiae seu innoscentiae ergo de primo 
+          <lb ed="#L"/>ad ultimum sequitur quod illae sunt poenae originalis peccati <pc type="virgula">/</pc> ultimo sequitur responsio ad 
+          <lb ed="#L"/>quaestionem affirmative de <unclear>praesenta</unclear> gloriosa virgine
+        </p>
+        <p xml:id="pg-b2q8-d1e775">
+          <pc type="#pilcrow"/>Contra prima conclusio arguitur primo quia virgo 
+          <lb ed="#L"/>non excipitur a communi legel omnium hominum modo communi conceptorum ergo conclusio falsa 
+          <lb ed="#L"/>consequentia patet quia concipi in peccato originali est de lege communi ut patet per <name>augustinum</name> 
+          <lb ed="#L"/>de fide ad petrum capitulo 31o dicentem firmissime tene petre et nullatenus 
+          <lb ed="#L"/>dubites omnem hominem qui per concubitum viri et mulieris concipitur cum 
+          <lb ed="#L"/>peccato originali nasci et filium ire aqua nullus liberatur nisi per fidem 
+          <pb ed="#L" n="177-r"/>
+          <lb ed="#L"/>mediatoris dei et <unclear>hominem</unclear> ihesum christi qui sine peccato conceptus et 
+          <lb ed="#L"/>natus et mortuus est
+        </p>
+        <p xml:id="pg-b2q8-d1e803">
+          <pc type="#pilcrow"/>2o carentia gratiae naturaliter praecedit gratiam 
+          <lb ed="#L"/>ergo prius virgo fuit in culpa quam habuit gratiam tenet consequentia quia gratiae ca<lb ed="#L"/>rentia 
+          infert in apto nato culpam esse et antecedens patet quia creaturae 
+          <lb ed="#L"/>ex se convenit carentia gratiae sed habere gratiam sibi convenit ab ex<lb ed="#L"/>trinseco 
+          ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e817">
+          <pc type="#pilcrow"/> 3o beata virgo in sua conceptione habuit gratiae carentiam 
+          <lb ed="#L"/>et originalis iustitiae cum debito habendi eam ergo tenet consequentia quia illud 
+          <lb ed="#L"/>est peccatum originale vel saltim inferens illud antecedens patet quia <name>adam</name> illam 
+          <lb ed="#L"/>iustitiam perdidit pro se et pro omnibus posteris suis
+        </p>
+        <p xml:id="pg-b2q8-d1e831">
+          <pc type="#pilcrow"/>4o sequeretur quod beata virgo 
+          <lb ed="#L"/>quantum ad immunitatem peccati innoscentiam esset tantae puritatis et digni<lb ed="#L"/>tatis 
+          quantae est anima christi consequens est falsum patet consequentia quia ipsa non peccavit 
+          <lb ed="#L"/>actualiter mortaliter nec venialiter
+        </p>
+        <p xml:id="pg-b2q8-d1e842">
+          <pc type="#pilcrow"/>5o sequitur quod ipsa virgo non fuerit 
+          <lb ed="#L"/>membrum christi consequens est falsum patet consequentia quia secundum <name>augustinum</name> in de baptismo 
+          <lb ed="#L"/>parvulorum solus christus fuit sine peccato et nullum membrum eius
+        </p>
+        <p xml:id="pg-b2q8-d1e854"> <!-- almost verbatim from Thomas de Argentina; sse http://www.agustinosvalladolid.es/estudio/investigacion/estudioagustiniano/estudiofondos/estudio1975/estudio_1975_1_01.pdf -->
+          <pc type="#pilcrow"/>6o 
+          <lb ed="#L"/><name>augustinus</name> super iohannem sermone 4o exponens illud <quote xml:id="pg-b2q8-Qd1e864" ana="#io1_29">ecce agnus dei</quote> 
+          <lb ed="#L"/>dicit <quote xml:id="pg-b2q8-Qd1e870" source="http://scta.info/resource/iuy75t-d1e75">omnes ex illa radice veniunt de qua cantat gemens david <!-- t4, n.10; http://www.augustinus.it/latino/commento_vsg/index2.htm -->
+          <lb ed="#L"/>ecce in iniquitatibus conceptus sum</quote> et subdit quod <quote xml:id="pg-b2q8-Qd1e877" source="http://scta.info/resource/iuy75t-d1e75">solus ille agnus 
+          <lb ed="#L"/>est qui non sic venit</quote> ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e883">
+          <pc type="#pilcrow"/>7o idem sentit contra iulianum dicentem 
+          <lb ed="#L"/><quote xml:id="pg-b2q8-Qd1e888" source="http://scta.info/resource/p9i8y6-d1e67" type="paraphrase">ysaac fuisse conceptum sine originale quia mater sua sterilis fuit 
+          <lb ed="#L"/>naturaliter quae eum concepit</quote><!-- contra iulianum 1.3, c. 11, n. 22-23 PL 44, 713-714 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e895">
+          <pc type="#pilcrow"/>8o idem <name>augustinus</name> tractans illud psalmum <quote xml:id="pg-b2q8-Qd1e902" ana="#ps87_6">solus 
+            <lb ed="#L"/>inter mortuos liber</quote> 13o <title>de trinitate</title> capitulo 14o dicit <quote xml:id="pg-b2q8-Qd1e910" source="http://scta.info/resource/adt-l13">solus christus liber 
+          <lb ed="#L"/>est a debitis mortis quia solus sine peccato nam mors inflicta est propter peccatum 
+          <lb ed="#L"/>inflicta</quote>
+          <!-- 1, 13, c. 14, n. 18 PL 42 1028; possibily in Thomas de Argentina, IN 3 Sent, d. 3, q. 1. a1; see Mateos, Estudio Agustiniano, v. 10-->
+        </p>
+        <p xml:id="pg-b2q8-d1e921">
+          <pc type="#pilcrow"/>10 per <name>ieromium</name> super illud psalmum 21 <quote xml:id="pg-b2q8-Qd1e928" ana="#ps21_21">de manu canis unicam 
+          <lb ed="#L"/>meam</quote> dicit enim sic unica est anima christi quia sola sine peccato et a pec<lb ed="#L"/>cato 
+          immunis
+          <!-- breviarum in psalmos, ps. 21, 20: Pl 26, 882 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e938">
+          <pc type="#pilcrow"/>11o <pc type="virgula">/</pc> videtur idem sentire <ref xml:id="pg-b2q8-Rd1e945"><name>ambrosius</name> in suo <title>exameron</title> 
+          <lb ed="#L"/>libro primo</ref> dicens <quote xml:id="pg-b2q8-Qd1e955">solus christus sine peccato solus sine vanitate</quote>
+          <!-- book 1, c. 4, n. 15, PL 14, 130 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e961">
+          <lb ed="#L"/>Item etiam <ref xml:id="pg-b2q8-Rd1e965"><name>leo papa</name> in sermone nativitatis</ref> christi solus itaque inter filios 
+          <lb ed="#L"/>hominum homo christus ihesus innoscens natus est quia solus sine carnalis 
+          <lb ed="#L"/>concupiscientiae polutione conceptus factus est homo
+          <!-- Sermo XXI: In nativitate Domini nostri Iesu Christi I, c. 1: PL 54: 191 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e977">
+          <pc type="#pilcrow"/>Item <name>anselmus</name> libro secundo <title>cur deus 
+            <lb ed="#L"/>homo</title> capitulo 15o dicit <quote xml:id="pg-b2q8-Qd1e989" source="http://scta.info/resource/u8ue3d-d1e516">virgo bene assumptus est christus in iniquitatibus concepta 
+          <lb ed="#L"/>est et in peccatis concepit eam mater eius et in originali peccato nata 
+          <lb ed="#L"/>est quoniam et ipsa in <name>adam</name> peccavit in quo omnes peccaverunt</quote>
+          <!-- book 2, c. 16, PL 158, 416 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e1002">
+          <pc type="#pilcrow"/>13 sequeretur 
+          <lb ed="#L"/>quod non indignisset redemptore beata vrigo consequens est falsum quia christus 
+          <lb ed="#L"/>fuit universalis omnis redeptor secundum <name>gregorium</name>
+        </p>
+        <p xml:id="pg-b2q8-d1e1014">
+          <pc type="#pilcrow"/>Ad hoc est <ref xml:id="pg-b2q8-Rd1e1018"><name>damascenus</name> 
+            <lb ed="#L"/>libro primo capitulo 3o</ref> dicens <quote xml:id="pg-b2q8-Qd1e1025" source="http://scta.info/resource/jddfo-l3c2">spiritus sanctus supervenit purgans virginens sed pur<lb ed="#L"/>gatio 
+            praesupponit culpam et cum non habuerit actualem sequitur quod originalem</quote> 
+          <!-- dfo 3, c. 2, PG 94:896 -->
+        </p>
+        <p xml:id="pg-b2q8-d1e1034">
+          <lb ed="#L"/><pc type="#pilcrow"/>15o contra conclusionem est <ref xml:id="pg-b2q8-Rd1e1039"><name>henricus gandavensis</name> quodlibet quaestione 13</ref> ubi ponit quod ipsa
+          <pb ed="#L" n="177-v"/>
+          <lb ed="#L"/>fuit concepta in originali peccato ita quod in primo signo instantis suae con<lb ed="#L"/>ceptionis 
+          fuit virgo inmacula originali sine gratia sanctificationis
+          <lb ed="#L"/>in 2o signo illius instantis gratia et culpa firmiter simul in virgine non 
+          <lb ed="#L"/>in esse perfecto sed incompleto et quasi in quodam transitu In 3o signo 
+          <lb ed="#L"/>illius instantis virgo habuit gratiam in esse completo et culpa fuit 
+          <lb ed="#L"/>expulsa totaliter <pc type="virgula">/</pc> sed quod culpa et gratia illo modo simul sint ipse probat 
+          <lb ed="#L"/>sic quia excellens et expulsum oportet esse simul sed gratia expellit 
+          <lb ed="#L"/>culpa ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e1068">
+          <pc type="#pilcrow"/>16o christum decebat matrem suam a peccato liberare quam 
+          <lb ed="#L"/>cito poterat sed immediate post primum instans sui esse potuit ipsam li<lb ed="#L"/>berare 
+          ergo 2a pars antecedentis patet quia transitus de culpa in gratiam fit a 
+          <lb ed="#L"/>deo per liberam et instantaneam gratiae infusionem
+        </p>
+        <p xml:id="pg-b2q8-d1e1079">
+          <pc type="#pilcrow"/>17o deus potest facere 
+          <lb ed="#L"/>quod homo per solum instans sit in gratia et per totum tempus sequens sit sine gratia 
+          <lb ed="#L"/>igitur poterit facere quod existens in culpa sit in ipsa per solum instans antecedens 
+          <lb ed="#L"/>patet quia agens naturale libere per voluntatem cuius <unclear>actio</unclear> non est successiva potest 
+          <lb ed="#L"/>per unum solum instans agere et per totum tempus sequens ab agendo ces<lb ed="#L"/>sare
+        </p>
+        <p xml:id="pg-b2q8-d1e1098">
+          <pc type="#pilcrow"/>Pro solutione rationum et auctoritatum praefatarum et similium 
+          <lb ed="#L"/>est notandum quod est multiplex modus solvendi <pc type="virgula">/</pc> primus quod scriptura lo<lb ed="#L"/>quens 
+          de conceptione hominum loquitur secundum legem naturalem modo ex privile<lb ed="#L"/>gio 
+          speciali concessum est virgini unde <ref xml:id="pg-b2q8-Rd1e1112"><name>doctor noster</name> libro 3o distinctione 3a prima 
+          <lb ed="#L"/>parte quaestione 2a dubio 2o</ref> dicit cum de omnibus loquimur semper beata virgo 
+          <lb ed="#L"/>videtur esse excepta <pc type="#pilcrow"/>confirmatur quia non minus excipitur beata virgo cum 
+          <lb ed="#L"/>scriptura loquitur dicens <quote xml:id="pg-b2q8-Qd1e1125">omnes nascimur filii irae<!-- eph 2:3 ?? --></quote> <pc type="virgula">/</pc> Ad hoc facit dictum 
+          <lb ed="#L"/>augustini in sermone de <name>sancto iohanne baptista</name> dicens quod nullius hominis na<lb ed="#L"/>tivitate 
+          legimus celebrari nisi solam <name>iohannis baptistae</name> et tamen 
+          <lb ed="#L"/>constat ex pluribus eius sermonibus quod tunc nativitas <name>beatae virginis</name> 
+          <lb ed="#L"/>celebrabatur ex quo patet quod ipse non includebat eam in suis 
+          <lb ed="#L"/>locutionibus generalibus
+        </p>
+        <p xml:id="pg-b2q8-d1e1154">
+          <pc type="#pilcrow"/>2us modus esse posset dicendo quod aliquem con<lb ed="#L"/>cipi 
+          in originali peccato potest intelligi dupliciter <pc type="virgula">/</pc> uno modo in se formaliter 
+          <lb ed="#L"/>et in proprio esse <pc type="virgula">/</pc> alio modo in suis causis radicaliter et dispositive et improprie 
+          <lb ed="#L"/><pc type="virgula">/</pc> 2o modo virgo fuit in originali peccato concepta sed primo modo non sed tantum ceteri 
+          <lb ed="#L"/>homines alii a christo qui nec primo nec 2o modo fuit in originali conceptus 
+          <lb ed="#L"/>istum modum tangit <ref xml:id="pg-b2q8-Rd1e1177"><name>durandus</name> libro 3o distinctione quaestione prima</ref>
+        </p>
+        <p xml:id="pg-b2q8-d1e1183">
+          <pc type="virgula">/</pc> 3us modus esse 
+          <lb ed="#L"/>potest dicendo quod in originali concipi potest tripliciter intelligi <pc type="virgula">/</pc> uno modo quia potest 
+          <lb ed="#L"/>contrahere peccatum originale et contrahit de facto <pc type="virgula">/</pc> 2o modo quia potest sed non contra<lb ed="#L"/>hit 
+          <pc type="virgula">/</pc> 3o modo quia nec contrahit nec potest contrahere <pc type="virgula">/</pc> in primo modo sumus nos omnes 
+          <lb ed="#L"/>in 2o sola virgo <pc type="virgula">/</pc> in 3o solus christus
+        </p>
+        <p xml:id="pg-b2q8-d1e1214">
+          <pc type="#pilcrow"/>4tus modus est dicendo quod aliquid potest 
+          <lb ed="#L"/>dici concipi in originali vel quo ad materiale vel quo ad formale
+          <pb ed="#L" n="178-r"/>
+          <lb ed="#L"/>formale originalis est carentia innoscentiae originalis cum obligatione ad 
+          <lb ed="#L"/>ipsam ut dictum est <pc type="virgula">/</pc> materiale vero est massa concepta ex libidinosa 
+          <lb ed="#L"/>commixtione parentum et sic posset dici quod virgo fuit concepta in originali 
+          <lb ed="#L"/>quo ad materiale illius non aut quo ad formale suum quia gratia praeventa fuit
+        </p>
+        <p xml:id="pg-b2q8-d1e1235">
+          <lb ed="#L"/><pc type="#pilcrow"/> 5tus modus est quod virgo potest dici concepta in peccato originali id est in poena 
+          <lb ed="#L"/>vel cum poena peccati originalis sed non in culpa nam saepe in scriptura 
+          <lb ed="#L"/>sumitur peccatum pro poena vel pro causa peccati cum ergo virgo fuerit concepta 
+          <lb ed="#L"/>per libidinem parentum quae est causa peccati originalis et eius poena etiam sal<lb ed="#L"/>tim 
+          partialis sequitur propositum
+        </p>
+        <p xml:id="pg-b2q8-d1e1249">
+          <pc type="#pilcrow"/>sed si dicatur quod similiter <unclear>diceretur</unclear> christus conceptus in 
+          <lb ed="#L"/>peccato originali <pc type="virgula">/</pc> dicitur quod non quia licet christus poenas peccati originalis assu<lb ed="#L"/>meret 
+          nullam tamen assumpsit quae simul sit poena et culpa vel causa 
+          <lb ed="#L"/>culpae <pc type="virgula">/</pc> per ista dicta possunt solvi omnes auctoritates et rationes prius positae 
+          <lb ed="#L"/>tamen pro clariori solutione
+        </p>
+        <p xml:id="pg-b2q8-d1e1272">
+          <pc type="virgula">/</pc>ad primum potest negari antecedens ad <name>augustinum</name> dicitur quod ibi 
+          <lb ed="#L"/>non includebat virginem sicut quando dicit nullius hominis nativitatem legimus etc
+        </p>
+        <p xml:id="pg-b2q8-d1e1283">
+          <lb ed="#L"/><pc type="virgula">/</pc> 2o dicunt quidem alii quod secundum consuetudinem scripturae nomine hominis intelligitur 
+          <lb ed="#L"/>vir et non mulier
+        </p>
+        <p xml:id="pg-b2q8-d1e1292">
+          <pc type="#pilcrow"/>Ad 2m negatur <sic>negatur</sic> consequentia loquendo in antecedente de prioritate non 
+          <lb ed="#L"/>temporis sed naturae vel originis sicut enim non sequitur materia naturaliter est prius informis quam 
+          <lb ed="#L"/>formata ergo aliquando materia est vel fuit sine forma sic in proposito
+        </p>
+        <p xml:id="pg-b2q8-d1e1305">
+          <pc type="#pilcrow"/>Ad 3m 
+          <lb ed="#L"/>negatur antecedens quia et si non habuisset iustitiam illam praecisine tamen habuit aequale 
+          <lb ed="#L"/>vel melius scilicet gratiam 
+        </p>
+        <p xml:id="pg-b2q8-d1e1314">
+          <pc type="virgula">/</pc> 2o potest dici quod deus potest absolvere animam a debito 
+          <lb ed="#L"/>habendi talem iustitiam et praeservare eam a culpa si vellet
+        </p>
+        <p xml:id="pg-b2q8-d1e1322">
+          <pc type="#pilcrow"/>Ad 4m 
+          <lb ed="#L"/>negatur consequentia quia christus propria virtute fuit purus a peccato sed virgo non sua 
+          <lb ed="#L"/>sed divina virtute a culpa fuit praeservata
+        </p>
+        <p xml:id="pg-b2q8-d1e1331">
+          <pc type="#pilcrow"/> Ad 5 6 7 8 9 10 11 12 
+          <lb ed="#L"/>quae sunt sanctorum auctoritates dicitur eodem modo quod omnes loquuntur de communi lege 
+          <lb ed="#L"/>et de eo quod solet evenire naturaliter secundum conceptionem naturalem hominis a qua 
+          <lb ed="#L"/>lege virgo fuit exempta divino <sic>praeivilegio</sic> speciali
+        </p>
+        <p xml:id="pg-b2q8-d1e1345">
+          Et si dicatur quod 
+          <lb ed="#L"/>scriptura nullam facit mentionem de tali privilegio ergo minus bene 
+          <lb ed="#L"/>ponitur
+        </p>
+        <p xml:id="pg-b2q8-d1e1352">
+          Ad hoc respondetur quod sicut in evangelico fit mentio de sanctificatione 
+          <lb ed="#L"/><name>iohannis baptimatae</name> in utero et non de sanctificatione virginis et tamen omnes cre<lb ed="#L"/>dunt 
+          et tenent eam in utero sanctificata fuisse sic etiam licet scriptura non 
+          <lb ed="#L"/>facit mentionem specialem de illa praeservatione sue privilegio quia 
+          <lb ed="#L"/>quilibet fidelis pro vero pie debet tenere et supponere illud <pc type="virgula">/</pc> tamen ad dictum 
+          <lb ed="#L"/><name>anselmi</name> dicitur specialiter quod non ista determinative sed loquitur ibi in persona
+          <lb ed="#L"/>discipuli quaerentis
+        </p>
+        <p xml:id="pg-b2q8-d1e1376">
+          <pc type="#pilcrow"/>Ad 13m negatur consequentia ymmo eam gloriosius redemit 
+          <lb ed="#L"/>quam quaecumque alium hominem quia non minus <unclear>com?enda</unclear> est medicinam perser<lb ed="#L"/>vativa 
+          quam restaurativa unde si corpus alicuius hominis sic esset dis<lb ed="#L"/>positum 
+          quod non posset generare filium nisi leprosum medicinus qui lepram 
+          <lb ed="#L"/>prolis generandaeremediendo praeveniret talis prolem a lepra perfectius 
+          <pb ed="#L" n="178-v"/>
+          <lb ed="#L"/>redimeret quam si prolem infici permisisset et post infectionem a lepra cu<lb ed="#L"/>raret 
+          sic in proposito de redemptione virginis
+        </p>
+        <p xml:id="pg-b2q8-d1e1399">
+          <pc type="#pilcrow"/>Ad <name>damascenus</name> dicendum est quod 
+          <lb ed="#L"/>spiritus sanctus praeveniens in virgine eam purgavit non a culpa quam habuit 
+          <lb ed="#L"/>sed quam habuisset si gratia spiritus sancti non praevenisset <pc type="virgula">/</pc> sicut etiam dicitur quod matrimonium 
+          <lb ed="#L"/>excusat peccatum non quod fit actu <unclear>sed<!--possibility deleted --></unclear> quia talis actus potest fieri sine 
+          <lb ed="#L"/>peccato ymmo meritorie sed excusat peccatum sic quia si virtus matrimonium 
+          <lb ed="#L"/>non esset talis actus sine peccato nullo modo fieri posset
+        </p>
+        <p xml:id="pg-b2q8-d1e1425">
+          <pc type="#pilcrow"/>Ad rationes illius 
+          <lb ed="#L"/>opinionis dicendum est quod eius ymaginatio est falsa et impossibilis quia si istans esset 
+          <lb ed="#L"/>sic divisibile indiversa signa sequeretur quod instans non esset mensura simpliciter 
+          <lb ed="#L"/>indivisibilis cuius oppositum asserunt omnes philosophi
+        </p>
+        <p xml:id="pg-b2q8-d1e1436">
+          <pc type="virgula">/</pc> Item sequitur quod pro eodem et in eodem 
+          <lb ed="#L"/>instanti contradictoria versificarentur quod patet quia affirmatio posset fieri in primo signo 
+          <lb ed="#L"/>instantis et nego in 2o vel in 3o signo instantis eiusdem <pc type="#punctus"/> In ad rationem 
+          <lb ed="#L"/>cum arguunt expellens etc <pc type="virgula">/</pc> dicitur quod antecedens est verum de expellente 
+          <lb ed="#L"/>effective quod aliquo modo simul est cum expulso saltim secundum operationem tamen 
+          <lb ed="#L"/>non est verum de expellente formaliter sicut est gratia respectu culpae ymmo 
+          <lb ed="#L"/>positio unius est remotio alterius
+        </p>
+        <p xml:id="pg-b2q8-d1e1460">
+          <pc type="#pilcrow"/>Ad 16m cum arguitur decebat christum etc 
+          <lb ed="#L"/>hic posset primo dici quod ratio supponit mariam quandcumque in culpa fuisse 
+          <lb ed="#L"/>quod negat conclusio ideo non concludit ratio In pro material illius rationis est sciendum 
+          <lb ed="#L"/>quod licet deus agat libere adextra tamen effectus non patitur quod aliqua res 
+          <lb ed="#L"/>permanens praecise habeat esse per unum solum instans quia talis res non 
+          <lb ed="#L"/>esset actu sed tantum potentia unde <ref xml:id="pg-b2q8-Rd1e1475" target="http://scta.info/resource/cnag1q-d1e110">commentator 8o physicorum comment 2o</ref> super illo verbo 
+          <lb ed="#L"/><name>aristotelis</name> inter duos motus contrarios oportet dare quietem mediam dicit sic 
+          <lb ed="#L"/>si ad motum ad albedinem statim moveretur ad formam oppositam in 
+          <lb ed="#L"/>illo subiecto non erit albedo nisi in potentia sic in proposito dico quod si in virgine 
+          <lb ed="#L"/>fuisset originale per instans solum et statim mota fuisset seu <unclear>numerata</unclear> ad 
+          <lb ed="#L"/>formam oppositam scilicet gratiam ipsa numquam fuisset in illa macula actualiter 
+          <lb ed="#L"/>sed solum potentialiter et hoc non esset contra conclusionem quia in sua conceptione habuit potentiam 
+          <lb ed="#L"/>ad habendum originale sed illa potentia non fuit reducta ad actum propter 
+          <lb ed="#L"/>praeventionem gratiae patet ergo quomodo virgo sine originali macula fuit 
+          <lb ed="#L"/>concepta <pc type="#punctus"/> et hoc etiam approbare videtur ecclesia quae festum eiusdem sollempniter 
+          <lb ed="#L"/>celebrat
+        </p>
+        <p xml:id="pg-b2q8-d1e1508">
+          <pc type="#pilcrow"/>Sed adhuc dicunt adversarii quod ecclesia ponit in 
+          <lb ed="#L"/>certum pro certo quia deberet vocari festum sanctificationis eius sed quia non 
+          <lb ed="#L"/>est certum quando fuit sanctificata ideo vocat festum conceptionis <pc type="virgula">/</pc> sed hoc non 
+          <lb ed="#L"/>valet quia ecclesia solemniter colit nativitates plurimorum sanctorum scilicet quando ab 
+          <lb ed="#L"/>hac vita ad caelum migraverunt de quibus nescitur quo die obi<lb ed="#L"/>erunt 
+        </p>
+        <p xml:id="pg-b2q8-d1e1528">
+          Item angelus missus ad <name>albatem helsmum</name> illud festum nomina<lb ed="#L"/>vit 
+          festum conceptionis et manifestum est quod poterat sanctificationis 
+          <pb ed="#L" n="179-r"/>
+          <lb ed="#L"/>diem sicut conceptionis revelare et verisimilem est quod illud sic no<lb ed="#L"/>minavit 
+          ad denotandum omnibus ipsam fuisse immunem ab omni peccato 
+        </p>
+        <p xml:id="pg-b2q8-d1e1542">
+          <lb ed="#L"/>Item determinate expressit tempus conceptionis scilicet sextus ydus decembris 
+          <lb ed="#L"/>ab illo enim die usque ad virginis nativitatem sunt novem menses 
+          <lb ed="#L"/>complete
+        </p>
+        <p xml:id="pg-b2q8-d1e1551">
+          <pc type="#pilcrow"/> Item aut fit festum ratione illius quia massa corporis virginis 
+          <lb ed="#L"/>sint animata vita sensitiva et vixit vita embrionis vel ratione vi<lb ed="#L"/>sionis 
+          animae ad corpus non primo modo quia tunc fieret festum in ecclesia de re 
+          <lb ed="#L"/>non intellectiva et quae numquam fuit coniuncta rei intellective et sic pari 
+          <lb ed="#L"/>ratione posset fieri licite festum de bruto quocumque <pc type="virgula">/</pc> nec 2m quia inter primam 
+          <lb ed="#L"/>conceptionem et animae rationalis introductionem in corpus organizatum 
+          <lb ed="#L"/>non fluxerunt nisi 84 dies et sic festum illud deberet celebrari 
+          <lb ed="#L"/>die 25 mensis februaris eo quod secundum philosophos anima infunditur <unclear>in femellam</unclear> 
+          <lb ed="#L"/>84 die post conceptionem primam
+        </p>
+        <p xml:id="pg-b2q8-d1e1579">
+          <pc type="#pilcrow"/>Item dicunt oppositum opiniantes quod ecclesia 
+          <lb ed="#L"/>romana non celebrat sed celebrare permittit in quibusdam ecclesiis 
+          <lb ed="#L"/>allegantes <ref xml:id="pg-b2q8-Rd1e1587">glosam decretorum de consecratione distinctione 3a capitulo primo pro<lb ed="#L"/>nuntiandum</ref> 
+          est ubi dicit glosa quod festum <del rend="strikethrough">non</del> conceptionis non est <unclear>cele?dum</unclear> 
+        </p>
+        <p xml:id="pg-b2q8-d1e1600">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad quod dicitur quod si glosa dicit illa verba hodie tamen essent ob <unclear>roga?a</unclear> 
+          <lb ed="#L"/>quia de scitu et consensu ratione ecclesiae per totam christianitatem celebrantur illud 
+          <lb ed="#L"/>festum
+        </p>
+        <p xml:id="pg-b2q8-d1e1613">
+          <pc type="#pilcrow"/>2o notandum quod licet virgo fuerit sanctificata in utero matris et iterum in 
+          <lb ed="#L"/>conceptione filii siu ille sanctificationes non operabantur alicuius fomitis 
+          <lb ed="#L"/>vel vitii ligationem vel exturpationem ut dicunt sed tantummodo virtutis 
+          <lb ed="#L"/>et pulchritudinis insertionem 
+        </p>
+        <p xml:id="pg-b2q8-d1e1625">
+          <pc type="virgula">/</pc>Item illae sanctificationes valuerunt sibi ad 
+          <lb ed="#L"/>meritorum multiplicationem et primorum acumulationem et sic ultra si quaeritur 
+          <lb ed="#L"/>quid spiritus sanctus in die pentechostes contulit cum apostolos replevit 
+          <lb ed="#L"/>et ipsa erat iam gratia plena <pc type="virgula">/</pc> posset reponderi per permissa aliqualiter 
+          <lb ed="#L"/>quod recit eam ferventius diligere quam prius et sic actuant gratiam receptam 
+          <lb ed="#L"/>et eius voluntatem ad intensius diligendum
+        </p>
+        <p xml:id="pg-b2q8-d1e1645">
+          <pc type="virgula">/</pc> Item non tantam gratiam rece<lb ed="#L"/>perat
+          prius quin maiorem posset recipere sicut etiam dicitur quod capacitates omnium 
+          <lb ed="#L"/>beatorum sunt replete quia satiate sufficiter tamen quilibet posset recipere gloriam 
+          <lb ed="#L"/>maiorem si deo placeret quam habeat
+        </p>
+        <p xml:id="pg-b2q8-d1e1657">
+          <pc type="#pilcrow"/>Contra conclusionem 2am et corollaria arguitur 
+          <lb ed="#L"/>primo quod peccatum originale non sit ponendum quia tunc sequeretur quod deus faceret animam 
+          <lb ed="#L"/>parvuli malam consequens est falsum patet consequentia quia non prius anima esset quam esset <unclear>mala</unclear> 
+          <lb ed="#L"/>cum simul creetur infundatur et maculetur
+        </p>
+        <p xml:id="pg-b2q8-d1e1671">
+          <pc type="virgula">/</pc> 2o anima in primo instanti esse 
+          <lb ed="#L"/>sui non potest agere nec pati nec per viciosum habitum mutari autem in<lb ed="#L"/>clinari 
+          ergo nec peccato maculari tenet consequentia quia ad esse in peccato originali 
+          <lb ed="#L"/>sequitur aliquod illorum
+        </p>
+        <p xml:id="pg-b2q8-d1e1683">
+          <pc type="#pilcrow"/>3o si ex coniunctione animae cum corpore contrahat peccatum 
+          <lb ed="#L"/>sequitur quod si anima lini iterum infunderetur corpori suo iterum contraheret originale 
+          <pb ed="#L" n="179-v"/>
+          <lb ed="#L"/>patet quia non videtur maior ratio quantae anima de novo creata maculetur de 
+          <lb ed="#L"/>originali si corpus generetur ex infectis parentibus quam una anima quae 
+          <lb ed="#L"/>prius fuisset creata
+        </p>
+        <p xml:id="pg-b2q8-d1e1699">
+          <pc type="#pilcrow"/> Item 4o possibile est aliquem concipi sine fervore libidinis 
+          <lb ed="#L"/>naturaliter ergo sine peccato patet consequentia sed antecedens patet de quadam muliere quae fertur 
+          <lb ed="#L"/>concepisse suscipiendo semen in balneo sine viro
+        </p>
+        <p xml:id="pg-b2q8-d1e1709">
+          <pc type="#pilcrow"/>Item 5o si non 
+          <lb ed="#L"/>fuisset in ordinata delectatio in <name>adam</name> posteri non fuisset maculati 
+          <lb ed="#L"/>originali peccato ergo si parentes habeant sanctam intentionem in genendo prolem 
+          <lb ed="#L"/>sine delectatione in ordinata sicut videtur possibile sequitur quod filius conceptus esset 
+          <lb ed="#L"/>sine originali peccato
+        </p>
+        <p xml:id="pg-b2q8-d1e1726">
+          <pc type="#pilcrow"/>6o vel originale est minus quam veniale vel maius vel 
+          <lb ed="#L"/>aequale non minus quia originale punitur aeterna poena damni non autem ve<lb ed="#L"/>niale 
+          de per se nec potest dici maius quia aliquis plus punitur in inferno pro 
+          <lb ed="#L"/>mortali et veniali quam pro aequali mortali cum originali patet quia veniale 
+          <lb ed="#L"/>punitur aeterna poena sensus in primo homine et originale non sic punitur in 2o
+        </p>
+        <p xml:id="pg-b2q8-d1e1739">
+          <lb ed="#L"/><pc type="#pilcrow"/> 7o sequitur quod hoc esset ex peccato <name>adae</name> consequens est falsum quia si <name>adam</name> plus vel in<lb ed="#L"/>tensius 
+          peccasset maiorem in iustitiam in posterios transfudisset quod est 
+          <lb ed="#L"/>falsum iterum
+        </p>
+        <p xml:id="pg-b2q8-d1e1755">
+          <pc type="#pilcrow"/> 8o sequitur quod puritas parentum proximorum et sanctitas poterit prolem 
+          <lb ed="#L"/>purgare et bonificare patet consequentia quia cum sit sui diffusivum sequitur quod 
+          <lb ed="#L"/>bonitas parentum non minus erit efficax respectu prolis quam malitita <name>adae</name> 
+          <lb ed="#L"/>licet multi sunt nati ex sanctis parentibus ergo non in originali peccato
+        </p>
+        <p xml:id="pg-b2q8-d1e1769">
+          <pc type="#pilcrow"/>conclusio 
+          <lb ed="#L"/>actus matrimonialis factus ratione prolis non causa libidinis sed ex caritate 
+          <lb ed="#L"/>talis est meritorius ergo fetus taliter conceptus non est infectus consequentia patet quia si 
+          <lb ed="#L"/>radix sancta et rami <ref xml:id="pg-b2q8-Rd1e1779">ad romanos 9o</ref> et <ref xml:id="pg-b2q8-Rd1e1783">matthaeos 7o</ref> dicitur <quote xml:id="pg-b2q8-Qd1e1786" ana="#mt7_17">non potest arbor 
+          <lb ed="#L"/>bona fructus malos facere</quote> antecedens patet in <ref xml:id="pg-b2q8-Rd1e1791"><title>decretalis</title></ref> et <ref xml:id="pg-b2q8-Rd1e1795">4o sententiarum</ref>
+        </p>
+        <p xml:id="pg-b2q8-d1e1799">
+          <pc type="#pilcrow"/>10 
+          <lb ed="#L"/>parentes christiani non habent originale ergo proles abe eis non inficitur hoc 
+          <lb ed="#L"/>peccato patet consequentia quia nemo dat quod non habet
+        </p>
+        <p xml:id="pg-b2q8-d1e1809">
+          <pc type="#pilcrow"/>11o poenitentia <name>adae</name> non fuit 
+          <lb ed="#L"/>pro omnibus posteris ergo eius in obedientia non nocuit eis omnibus patet consequentia quia 
+          <lb ed="#L"/>ad puniendum deus non est pronior quam ad miserendum
+        </p>
+        <p xml:id="pg-b2q8-d1e1821">
+          <pc type="virgula">/</pc> 12 incarnatio christi 
+          <lb ed="#L"/>non prosint omnibus ergo nec <name>adae</name> peccatum nocuit omnibus tenet consequentia quia secundum 
+          <lb ed="#L"/><ref xml:id="pg-b2q8-Rd1e1832"><name>augustinum</name> libro de baptismo parvulorum</ref> non plus nocuit praevaricatio primi 
+          <lb ed="#L"/>praevaricatoris quam valuit incarnatio christi redemptoris antecedens patet quia 
+          <lb ed="#L"/>multi dampnantur
+        </p>
+        <p xml:id="pg-b2q8-d1e1843">
+          <pc type="#pilcrow"/>13o per <name>ambrosium</name> dicentem de <name>iohanne baptista</name> 
+          <lb ed="#L"/>quod <unclear>nundum</unclear> illi inerat spiritus vitae et iam ei inerat spiritus gratiae sed 
+          <lb ed="#L"/>originale non potest homini inesse antequam vivat ergo <name>iohannes baptista</name> fuit 
+          <lb ed="#L"/>immunis ad hoc peccato <pc type="virgula">/</pc> et confirmatur per illud priusquam te formare 
+          <lb ed="#L"/>in utero novi te quia ibi loquitur de notitia approbationis
+        </p>
+        <p xml:id="pg-b2q8-d1e1872">
+          <pc type="#pilcrow"/>15o paren<lb ed="#L"/>tes 
+          possunt generare sine libidine ergo sine originale in prole tenet conselquentia quia 
+          <lb ed="#L"/>secundum <ref xml:id="pg-b2q8-Rd1e1880"><name>augustinum</name> libro <title>de nuptiis et concupiscentia</title></ref> peccatum transmittit in prolem 
+          <lb ed="#L"/>non propago sed libido
+        </p>
+        <p xml:id="pg-b2q8-d1e1890">
+          <pc type="#pilcrow"/>16o filius non debet portare iniquitatem patris 
+          <pb ed="#L" n="180-r"/>
+          <lb ed="#L"/>igitur propter culpam <name>adae</name> poseteri non deberet puniri nec culpa infici 
+          <lb ed="#L"/>antecedens patet <ref xml:id="pg-b2q8-Rd1e1904">ezechiel 18o</ref>
+        </p>
+        <p xml:id="pg-b2q8-d1e1908">
+          <pc type="#pilcrow"/>17 creatio non est susceptiva originalis maculae ergo 
+          <lb ed="#L"/>ab ipso <name>adam</name> non habemus causaliter originale tenet consequentia quia ab <name>adam</name> et <c>a</c> 
+          <lb ed="#L"/>parentibus non habemus nisi carnem per traducem
+        </p>
+        <p xml:id="pg-b2q8-d1e1928">
+          <pc type="#pilcrow"/>Ad primum conceditur consequens 
+          <lb ed="#L"/>adhuc sensum quod deus creat animam quae est mala sed si intelligatur 
+          <lb ed="#L"/>quod deus faciat ipsam esse malam id est eam maculat negatur sic consequens et consequentia 
+          <lb ed="#L"/>et ad probationem etiam negatur consequentia quia ordine naturae prius est animam esse quam ipsam 
+          <lb ed="#L"/>esse infectam sicut prius natura est ipsam causari quam corpori uniri ex cuisu contactu 
+          <lb ed="#L"/>in corpore maculatur anima in infusione
+        </p>
+        <p xml:id="pg-b2q8-d1e1944">
+          <pc type="#pilcrow"/>Ad 2m dicitur quod ad hoc quod anima sic 
+          <lb ed="#L"/>maculetur sufficit quod illi habitui vicioso sit coniuncta qui est in carne 
+          <lb ed="#L"/>qua anima apta nata est inclinari ad agendum secundum opera carnis etc 
+          <lb ed="#L"/>redditur concupiscibilis
+        </p>
+        <p xml:id="pg-b2q8-d1e1955">
+          <pc type="#pilcrow"/>Ad 3m negatur consequentia quia anima lini iam habuit <del rend="strikethrough">originalem</del> 
+          <lb ed="#L"/>iustitiam actualem quae repugnat iniustitiae originali ideo non est simile de 
+          <lb ed="#L"/>anima creata
+        </p>
+        <p xml:id="pg-b2q8-d1e1967">
+          <pc type="virgula">/</pc> 2o dicitur quod possibile est aliquem hominem noviter nasci qui 
+          <lb ed="#L"/>haberet peccatum mortale actuale si deus animam dampnati infunderet 
+          <lb ed="#L"/>corpori novo sed hoc esset praeter legem
+        </p>
+        <p xml:id="pg-b2q8-d1e1977">
+          <pc type="#pilcrow"/>Ad 4m dicitur quod licet mulier susceperit 
+          <lb ed="#L"/>talem semen sine fervore libidiosa tamen illud semen fuit decisum 
+          <lb ed="#L"/>a parente cum fervore libidinis
+        </p>
+        <p xml:id="pg-b2q8-d1e1986">
+          <pc type="#pilcrow"/>Ad 5m negatur consequentia quia de communi lege 
+          <lb ed="#L"/>non est possibile aliquem esse tam sanctum tam frigidem quin si generet habeat 
+          <lb ed="#L"/>talem motum inordinatum et libidinosum nec tamen sequitur quod generans 
+          <lb ed="#L"/>semper peccet quia matrimonium excusat
+        </p>
+        <p xml:id="pg-b2q8-d1e1998">
+          <pc type="#pilcrow"/>Ad 6m dicitur quod originale est maius 
+          <lb ed="#L"/>quam veniale et ad probationem negatur consequentia quia dato quod veniale puniatur 
+          <lb ed="#L"/>poena sensus aeterna hoc non est per se sed per accidens ratione mortalis et finalis 
+          <lb ed="#L"/>rapinae cui iungitur
+        </p>
+        <p xml:id="pg-b2q8-d1e2009">
+          <pc type="#pilcrow"/>2o dicitur quod pro originali datur poena dampni aeterna 
+          <lb ed="#L"/>quae non datur pro veniali et illa est magna poena
+        </p>
+        <p xml:id="pg-b2q8-d1e2016">
+          <pc type="#pilcrow"/>Ad 7m negatur consequentia 
+          <lb ed="#L"/>quia eandem iustitiam potuisset amisisse permaius vel intensius peccatum
+        </p>
+        <p xml:id="pg-b2q8-d1e2023">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 8m negatur consequentia ad probationem dicitur quod pater vel mater accipit a deo 
+          <lb ed="#L"/>bonitatem et puritatem tamquam singularis persona <name>adam</name> vero accepit inno<lb ed="#L"/>scentiam 
+          originalem ut principium omnium nostrum ideo perdita illa olbigat 
+          <lb ed="#L"/>nos ad illam <unclear>rehabendam</unclear> <pc type="virgula">/</pc> exemplum patet in grando mundo a palea <unclear>quodam</unclear> 
+          <lb ed="#L"/>generat aliud granum palea involutum
+        </p>
+        <p xml:id="pg-b2q8-d1e2050">
+          <pc type="#pilcrow"/>Ad 9m negatur consequentia quia licet talis 
+          <lb ed="#L"/>actus meritorius ut <!-- possible transposition here ?? --> ut est et personalis non inficiat ipsum gentium tamen ex 
+          <lb ed="#L"/>tali actu potest causari infectio ut est naturalis et ut eset homo talem naturam 
+          <lb ed="#L"/>consequens a primo parente generatam 
+        </p>
+        <p xml:id="pg-b2q8-d1e2063">
+          <pc type="#pilcrow"/>Ad 10m negatur consequentia et patet solutio sicut 
+          <lb ed="#L"/>ad 8m quia saltim sequitur ad prolem actum <!-- possible transposition correction here --> infectam concipi
+        </p>
+        <p xml:id="pg-b2q8-d1e2073">
+          <pc type="#pilcrow"/>Ad 11m negatur 
+          <lb ed="#L"/>consequentia quia bonum primae fuit gratia sibi data tamquam personae privatae sed 
+          <lb ed="#L"/>malum originale fuit in eo ut erat principium omnem sicut etiam originalis 
+          <lb ed="#L"/>iustitia data ei fuerat tamquam universali et originali principio a quoa debuit 
+          <lb ed="#L"/>transfudi in posterios et ideo eam perdendo pro se perdidit eam pro omnibus posteris 
+        </p>
+        <p xml:id="pg-b2q8-d1e2086">
+          <pb ed="#L" n="180-v"/>
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 12m negatur consequentia et ad <name>augustinum</name> dicitur quod vult dicere quod incarnatio christi in 
+          <lb ed="#L"/>hoc plus profuit in hiis qui non ponunt obicem male voluntatis 
+          <lb ed="#L"/>in statu constituit altiori quam <name>adam</name> fuerit antequam pectaret et sic 
+          <lb ed="#L"/>posset dici quod licet peccatum <name>adae</name> plus nocuerit extensive tamen christi incar<lb ed="#L"/>natio 
+          plus profuit intensive
+        </p>
+        <p xml:id="pg-b2q8-d1e2112">
+          <pc type="#pilcrow"/>Ad 13m dicitur quod <name>amborosius</name> vult dicere quod 
+          <lb ed="#L"/><name>iohannes baptista</name> ante habuit spiritum gratiae quam spiritum vitae hoc est quantum ad actum 
+          <lb ed="#L"/>spirandi quam respirandi quia talem actum non habuit in materno utero quia secundum 
+          <lb ed="#L"/>naturales quam diu puer est in utero habet apertum unibilicum et per illam aper<lb ed="#L"/>tura 
+          cor sufficienter refrigeratur et tunc proprie non habet actum spirationis et 
+          <lb ed="#L"/>respirationis modo constat quod fuit sanctificatus per gratiam in utero ergo etc
+        </p>
+        <p xml:id="pg-b2q8-d1e2133">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 14m dicitur quod ille textus vult dicere quod deus novit <name>ieremiam</name> futurum 
+          <lb ed="#L"/>esse bonum antequam formaretur in utero
+        </p>
+        <p xml:id="pg-b2q8-d1e2144">
+          <pc type="#pilcrow"/>Ad 15m dicitur quod filius non debet pati propter 
+          <lb ed="#L"/>iniquitatem patris quantum ad ea quae sibi conveniunt secundum se tamen quantum adea 
+          <lb ed="#L"/>quae sibi derivantur a patre de iure filius patitur pro patre iuste seu pro 
+          <lb ed="#L"/>in iniquitate eius nam si pater propter culpam suam patitur seu privatur aliquo 
+          <lb ed="#L"/>iure hereditario quod ad filios mediate ipso debebat dirivari patre 
+          <lb ed="#L"/>privato omnis filii viridite privantur ut patet in humano usu
+        </p>
+        <p xml:id="pg-b2q8-d1e2160">
+          <pc type="#pilcrow"/>Ad aliud 
+          <lb ed="#L"/>praecedens negatur consequentia quia si non esset libido actalis esset tamen habitualis 
+          <lb ed="#L"/>libido quae est derelicta ab eis et <unclear>fomes</unclear> peccati
+        </p>
+        <p xml:id="pg-b2q8-d1e2173">
+          <pc type="#pilcrow"/>Ad ultimum respondetur 
+          <lb ed="#L"/>negando consequentiam quia licet in carne non sit peccatum formaliter tamen est ibi vir<lb ed="#L"/>tualiter 
+          nam caro infecta ex in mundo semine cum libidine concepta 
+          <lb ed="#L"/>inficit animam cum sibi infunditur sicut cum vires superiores non obediunt 
+          <lb ed="#L"/>plene superioribus viribus animae
+        </p>
+        <p xml:id="pg-b2q8-d1e2186">
+          <pc type="#pilcrow"/>Contra 3am conclusionem et corollaria probatur quod pueri 
+          <lb ed="#L"/>sine baptismo decedentes puniantur de facto poena ignis aeterni 
+        </p>
+        <p xml:id="pg-b2q8-d1e2193">
+          <lb ed="#L"/><pc type="virgula">/</pc> primo per <ref xml:id="pg-b2q8-Rd1e2199"><name>augustinum</name> contra pelagium</ref> exponentem illud nisi qui renatus fuerit 
+          <lb ed="#L"/>ubi ponit duo loca ubi animae primus mortem mittuntur scilicet caelum et 
+          <lb ed="#L"/>infirmum dicendo 3m inquit locum penitus ignoramus ymmo nec in scripturis 
+          <lb ed="#L"/>sacris invenimus
+        </p>
+        <p xml:id="pg-b2q8-d1e2211">
+          <pc type="#pilcrow"/>2o per <quote xml:id="pg-b2q8-Qd1e2215">eundum de fide ad petrum</quote> dicentem firmissime 
+          <lb ed="#L"/>tene non solum homines ratione utentes verum etiam parvulus si sine sacramento 
+          <lb ed="#L"/><unclear>baptismis</unclear> quodam datur in nomine patris et filii et spiritus sancti de hoc saeculo transe<lb ed="#L"/>unt 
+          supplicio ignis aeterni puniendos
+        </p>
+        <p xml:id="pg-b2q8-d1e2227">
+          <pc type="#pilcrow"/>3o ponatur quod sortes moriatur 
+          <lb ed="#L"/>in originali <subst><del rend="strikethrough">un</del> <add place="above-line">cum</add></subst> mortali et plato cum uno aequali mortali sine originali 
+          <lb ed="#L"/>tunc sic <name>sortes</name> et <name>plato</name> inaequaliter punientur et non per carentiam visionis
+          <lb ed="#L"/>divinae ergo poena sensus aeterna correspondet originali
+        </p>
+        <p xml:id="pg-b2q8-d1e2252">
+          <pc type="#pilcrow"/>4o puero morienti sine 
+          <lb ed="#L"/>baptismo erit poena quam habuerunt sancti patres in limbo existentes ergo ultra illam 
+          <lb ed="#L"/>poenam talis puer punietur per aliquam poneam sensus
+        </p>
+        <p xml:id="pg-b2q8-d1e2262">
+          <pc type="#pilcrow"/>5o tam est mala in<lb ed="#L"/>iustitia 
+          originalis quam bona fuisset iustitia originalis sed pro iustitia originali 
+          <lb ed="#L"/>puer habuisset aliquem gradum gloriae ergo pro iniustitia ei opposita dabitur 
+          <pb ed="#L" n="181-r"/>
+          <lb ed="#L"/>aliquis gradus poenae sensus consequentia patet quia poena dampni <add place="above-line">et</add> sensus opponitur 
+          <lb ed="#L"/>simul gloriae
+        </p>
+        <p xml:id="pg-b2q8-d1e2281">
+          <pc type="#pilcrow"/>6o pueri dolebunt de amissione gloriae quam incurrerunt propter 
+          <lb ed="#L"/>originale ergo aliqua nolitio et displicentia erit in illis nam si nes<lb ed="#L"/>cireret 
+          se privari beatitudine propter peccatum sequitur quod non plus puniuntur per 
+          <lb ed="#L"/>illam carentiam quam punitur aliquod irrationale quod non est dicendum
+        </p>
+        <p xml:id="pg-b2q8-d1e2292">
+          <pc type="#pilcrow"/>7o poena de<lb ed="#L"/>betur 
+          illi quod est causa peccati sed causa originalis est caro decisa ab <name>adam</name> ergo 
+          <lb ed="#L"/>sibi debetur poena sed caro non est capax nisi poenae sensus ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e2304">
+          <pc type="#pilcrow"/>
+          <lb ed="#L"/>8o veniale punitur poena sensus ergo patet consequentia quia maiori peccato de<lb ed="#L"/>betur 
+          maior poena 
+        </p>
+        <p xml:id="pg-b2q8-d1e2313">
+          <pc type="#pilcrow"/>9o originale punitur in hac vita poena 
+          <lb ed="#L"/>sensus ergo et in alia vita tenet consequentia quia puniuntur gravius peccata in 
+          <lb ed="#L"/>alia vita quam in ista
+        </p>
+        <p xml:id="pg-b2q8-d1e2322">
+          <pc type="#pilcrow"/>10o si homo pro originali puniretur dampni poena 
+          <lb ed="#L"/>sequitur quod frustra esset productus consequens est falsum patet consequentia quia illud quod non con<lb ed="#L"/>sequitur 
+          finem suum est frustra 2o physicorum sed deum videre et frui est 
+          <lb ed="#L"/>finis ultimus creaturae ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e2334">
+          <pc type="#pilcrow"/>11o gravissima poena non debetur originali 
+          <lb ed="#L"/>sed huiusmodi privatio est gravissima poena ergo maior patet per <name>augustinum</name> et allegatur 
+          <lb ed="#L"/>a <name>magistro</name> distinctione 32a <del rend="strikethrough">2</del> 2i dicente quod <quote xml:id="pg-b2q8-Qd1e2352" source="http://scta.info/resource/pl-l2d33c2-d1e123"><!--likely source in d.33, c. 2; but needs dbcheck -->mitissima poena est eorum qui 
+          <lb ed="#L"/>pro solo originali puniuntur</quote> sed minor patet per <ref xml:id="pg-b2q8-Rd1e2358"><name>crisostum</name> super matthaeus</ref> dicentem 
+          <lb ed="#L"/>quod carentia visionis divinae est maxima poena et intollerabilior quam 
+          <lb ed="#L"/>gehenna <pc type="#pilcrow"/> confirmatur minor illa quia cum poena sit privatio alicuis boni con<lb ed="#L"/>venientis 
+          privato sequitur quod illa est maior poena quae bonum maius 
+          <lb ed="#L"/>tollit sed poena dampni tollit summum bonum hominis ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e2375">
+          <pc type="#pilcrow"/>12o iustitia 
+          <lb ed="#L"/>originalis non dabat divinae essentiae visionem ergo nec originale debet eam 
+          <lb ed="#L"/>tollere tenet consequentia quia privatio non plus tollit quam habitus ponit
+        </p>
+        <p xml:id="pg-b2q8-d1e2384">
+          <pc type="#pilcrow"/>13o per 
+          <lb ed="#L"/>augustinum libro primo de duabus animabus dicentem tenere aliquem reum quia 
+          <lb ed="#L"/>non fecit quod facere non potuit summe iniustitiae et insaniae est ergo 
+          <lb ed="#L"/>deus non punit tamquam reum decedentem cum solo originali quia non po<lb ed="#L"/>tuit 
+          facere quod haberet iustitiam originalem
+        </p>
+        <p xml:id="pg-b2q8-d1e2397">
+          <pc type="#pilcrow"/>14o probatur iterum quod quod originale 
+          <lb ed="#L"/>puniatur poena sensus quia omne voluntati contrarium contristat voluntatem 
+          <lb ed="#L"/>sed omnis poena est contraria voluntati ergo minor patet quia aliter non esset poena 
+          <lb ed="#L"/>sed maior est <ref xml:id="pg-b2q8-Rd1e2407" target="http://scta.info/resource/aristmet-l5">philosophi 5o <title>metaphysicae</title></ref> et per consequens poena dampni affligti voluntatem 
+          <lb ed="#L"/>pueri
+        </p>
+        <p xml:id="pg-b2q8-d1e2416">
+          <pc type="#pilcrow"/>15o non stat aliquam separari ab alio quem desiderat naturaliter et 
+          <lb ed="#L"/>amat quin affligatur et doleat sed anima pueri <!-- possible addition here --> naturaliter amat deum 
+          <lb ed="#L"/>tamquam finem suum ultimum quia naturaliter omnes olunt esse beati ergo
+        </p>
+        <p xml:id="pg-b2q8-d1e2427">
+          <pc type="#pilcrow"/>Ad primum 
+          <lb ed="#L"/>dicitur quod <name>augustinus</name> loquitur de loco poenarum generaliter et vult dicere quod 
+          <lb ed="#L"/>non est locus medius inter locum gloriae et miserie sicut ponebat pe<lb ed="#L"/>lagius 
+          quia stat quod pueri ponantur cum aliis dampnatis in eodem loco 
+          <lb ed="#L"/>et tamen non sentiant nec puniantur poena ignis nec alia sensus poena <pc type="virgula">/</pc> eodem potest 
+          <pb ed="#L" n="181-v"/>
+          <lb ed="#L"/>dici ad 2m
+        </p>
+        <p xml:id="pg-b2q8-d1e2452">
+          <pc type="#pilcrow"/>Ad 3m dicitur quod illi puniretur inaequaliter poena dampni quia 
+          <lb ed="#L"/>in uno est maior indignitas respectu beatitudinis quam in alio unde peius esset 
+          <lb ed="#L"/>privari esse propter maiorem culpam quam propter minorem ex quo patet quod bene stat 
+          <lb ed="#L"/>quod sit aequalis carentia et tamen illa sit inaequaliter poena
+        </p>
+        <p xml:id="pg-b2q8-d1e2463">
+          <pc type="#pilcrow"/>Ad 4m negatur 
+          <lb ed="#L"/>consequentia quia puer est magis indignus gloria quam sancti patres qui praecesserunt 
+          <lb ed="#L"/>christum
+        </p>
+        <p xml:id="pg-b2q8-d1e2472">
+          <pc type="virgula">//</pc>Ad 5m dicitur quod concesso toto argumento non sequitur aliquid contra dicta quia 
+          <lb ed="#L"/>deus punit citra condignum et praemiat ultra
+        </p>
+        <p xml:id="pg-b2q8-d1e2480">
+          <pc type="#pilcrow"/>Ad 6m dicitur sicut supra 
+          <lb ed="#L"/>quod licet scieant se privatos beatitudine propter culpam tamen dolebunt non <!-- possible transposition --> quia veri<lb ed="#L"/>simile 
+          quod deus non concurreret cum eis ad talem actus dolendi
+        </p>
+        <p xml:id="pg-b2q8-d1e2491">
+          <pc type="virgula">/</pc> Ad 7m 
+          <lb ed="#L"/>potest negari antecedens quia licet originale in non descendat per carnalem concu<lb ed="#L"/>piscentiam 
+          tamen non habet rationem culpae donec attingat animam prolis genitae
+        </p>
+        <p xml:id="pg-b2q8-d1e2501">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 8m conceditur quod invita praesenti originale punitur poena sensus sed 
+          <lb ed="#L"/>si in antecedente et consequente intelligitur poena aeterna negatur consequentia et dicitur ad probationem 
+          <lb ed="#L"/>quod non per se sed per accidens veniale punitur aeternaliter sicut originale ut 
+          <lb ed="#L"/>dictum fuit supra
+        </p>
+        <p xml:id="pg-b2q8-d1e2514">
+          <pc type="virgula">/</pc> 2o dicitur quod sicut in veniali est conversio ad aliquod bonum commutabile 
+          quod tamen non est aversio a bono incommutabile ideo punitur poena 
+          <lb ed="#L"/>sensus non autem poena dampni aeterna sic econverso est de originali quod pu<lb ed="#L"/>nitur 
+          poena dampni sed non sensus
+        </p>
+        <p xml:id="pg-b2q8-d1e2524">
+          <pc type="#pilcrow"/>Ad 9m negatur consequentia tum quia poena 
+          <lb ed="#L"/>sensibiles in hac vita non directe sed per accidens sequuntur ad originalem 
+          <lb ed="#L"/>culpam <unclear>arguitur</unclear> etiam quia post hanc vitam carentiam visionis divinae erit 
+          <lb ed="#L"/>sibi poena sed non invita praesenti ideo tunc plus multo punietur quam nunc
+        </p>
+        <p xml:id="pg-b2q8-d1e2538">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 10m negatur consequentia quia deus quantum in se est omnia dirigit in suos 
+          <lb ed="#L"/>proprios fines sed quia homo habet libertatem arbitrii ideo se ipsum sub fine 
+          <lb ed="#L"/>frustrare potest
+        </p>
+        <p xml:id="pg-b2q8-d1e2548">
+          <pc type="virgula">/</pc> 2o potest dici quod dampnati non sunt simpliciter frustrati 
+          <lb ed="#L"/>quia in ipsis relucet divina iustitia
+        </p>
+        <p xml:id="pg-b2q8-d1e2556">
+          <pc type="virgula">/</pc>Item tales pro solo originali pri<lb ed="#L"/>vati 
+          gloria habent evidentem contemplationem de multis et eviden<lb ed="#L"/>tiorem 
+          quam habeurit quicumque philosophus in hac vita et illa contemplatio potest dici 
+          <lb ed="#L"/>finis naturalis hominis virtuosi ut patet <ref xml:id="pg-b2q8-Rd1e2567" target="http://scta.info/resource/aristneth-l10">10 ethicorum</ref>
+        </p>
+        <p xml:id="pg-b2q8-d1e2571">
+          <pc type="#pilcrow"/>Ad 11m negatur minor 
+          <lb ed="#L"/>ad probationem potest dici quod <name>crisostomus</name> lqouitur de dampnatis adultis qui 
+          <lb ed="#L"/>summe doleret de amissione beatitudinis non de pueris <pc type="virgula">/</pc> et consimiliter 
+          <lb ed="#L"/>ad confirmationem dicatur
+        </p>
+        <p xml:id="pg-b2q8-d1e2590">
+          <pc type="#pilcrow"/>Ad 12m posset negari antecedens quia iustitiae originali 
+          <lb ed="#L"/>correspondebat aliquis gradus gloriae
+        </p>
+        <p xml:id="pg-b2q8-d1e2597">
+          <pc type="virgula">/</pc> 2o posset consequentia negari quia licet non 
+          <lb ed="#L"/>plus formaliter privatio privat quam habitus ponat tamen per modum sequellae 
+          <lb ed="#L"/>multa toolit privatio quae non ponit formaliter habitus nam privatus o<lb ed="#L"/>culis 
+          perpetuo privatur sacerdotio et tamen positio non semper ponit nec infert 
+          <lb ed="#L"/>sacerdotium
+        </p>
+        <p xml:id="pg-b2q8-d1e2611">
+          <pc type="#pilcrow"/>Ad 33m dicitur quod licet talis non debeat teneri reus quo ad 
+          <lb ed="#L"/>cruciativam poenitentiam tamen iuste potest teneri reus quo ad poenitentiam prohibitivam
+          <pb ed="#L" n="182-r"/>
+          <lb ed="#L"/>ulterioris promotionis nam caecus natus iuste privatur sacerdotalis 
+          <lb ed="#L"/>dignitatis tame non potuit vitare nec praevenire suam caecitatem
+        </p>
+        <p xml:id="pg-b2q8-d1e2624">
+          <pc type="#pilcrow"/>
+          <lb ed="#L"/>Ad 14m dicitur quod antecedens non est verum de poenam subtractiva alicuius non 
+          <lb ed="#L"/>naturaliter sed supernaturaliter convenientis maxime cum ille cui subtrahitur non 
+          <lb ed="#L"/>habet voluntatem difformem voluntati subtrahentis sicut est de pueris
+        </p>
+        <p xml:id="pg-b2q8-d1e2635">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad ultimum negatur antecedens tum quia deus non concurrit ad actum doloris 
+          <lb ed="#L"/>cum eis <pc type="virgula">/</pc> tum 2o quia conformant voluntatem suam divinae bonitati
+        </p>
+        <p xml:id="pg-b2q8-d1e2646">
+          <pc type="#pilcrow"/>2o dicunt 
+          <lb ed="#L"/>quidem quod animae puerorum decedentium cum solo originali non appetunt 
+          <lb ed="#L"/>beatitudinem sub propria ratione quia ut dicunt non <del rend="strikethrough">appetunt</del> cognoscunt 
+          <lb ed="#L"/>eam nec per lumen gloriae nec per lumen fidei sed bene eam appetunt 
+          <lb ed="#L"/>sub quadem ratione communi talis autem appetituts transiit sine aliqua afflictione 
+          <lb ed="#L"/>ratione perfectionis quam consequuntur ex naturali contemplatione
+        </p>
+        <p xml:id="pg-b2q8-d1e2666">
+          <pc type="virgula">/</pc> 3o dicitur quod dampnati 
+          <lb ed="#L"/>pro actualibus maxime dolent de amissione beatitudinis quia eorum 
+          <lb ed="#L"/>voluntas voluntati divinae maxime est difformis parvulis vero sicut <unclear>invita</unclear> 
+          <lb ed="#L"/>praesenti non difformaverunt voluntatem suam divinae voluntati sic in alia 
+          <lb ed="#L"/>vita non eam non difformant ideo non displicebit eis quidquid deus faciet 
+        </p>
+        <p xml:id="pg-b2q8-d1e2684">
+          <pc type="virgula">/</pc> Item est notandum quod <add place="above-line">si</add> quidem decederet cum solo veniali sine gratia puniretur 
+          <lb ed="#L"/>sensus poena aeterna patet quia non fit remissio nisi in singuine christi 
+          <lb ed="#L"/>cuius meriti nullus est capax sine gratia
+        </p>
+        <p xml:id="pg-b2q8-d1e2697">
+          <pc type="#pilcrow"/>Item notandum quod indignitas proveniens 
+          <lb ed="#L"/>ex originali peccato est alterius rationis ab indignitate actualis mortalis 
+          <lb ed="#L"/>quia prima est indignitas non spontaneae voluntatis 2a vero procedit 
+          <lb ed="#L"/>ex voluntate propria
+        </p>
+        <p xml:id="pg-b2q8-d1e2708">
+          <pc type="#pilcrow"/> Item notandum quod doctores saepe loquuntur exces<lb ed="#L"/>sive 
+          de poena puerorum contra hereses aliquorum dicentium parvulos naturam 
+          <lb ed="#L"/>pati poenam propter originale in de est quod magis large loquendo quandoque 
+          <lb ed="#L"/>dicunt eos puniri poena sensus
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
