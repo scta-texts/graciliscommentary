@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3, Quaestio 2 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3, Quaestio 2 [London Transcription]</title>
+          <date when="2019-06-28">June 28, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="200-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b3q2">
+        <head xml:id="pg-b3q2-Hd1e95">Liber 3, Quaestio 2 [London Transcription]</head>
+        <p xml:id="pg-b3q2-d1e98">
+          <lb ed="#L" n="30"/>Utrum ex <unclear>iii</unclear> unionis naturae humanae
+          <lb ed="#L"/>ad verbum dicere deum hominem esse factum sti verum
+        </p>
+        <p xml:id="pg-b3q2-d1e108">
+          quod non quia 
+          <lb ed="#L"/>natura humana non est incarnata ergo nec verbum est incarnatum 
+          <lb ed="#L"/>tenet consequentia quia non stat verbum incarnari et non naturam cum verbum divinum 
+          <lb ed="#L"/>sit natura divina <pc type="#pilcrow"/> confirmatur quia si verbum divinum etc hoc fuisset pro nostra re<lb ed="#L"/>demptione 
+          consequens est falsum quia tunc si <name>adam</name> non peccasset christus incarnatus 
+          <lb ed="#L"/>non fuisset consequens eset falsum <pc type="virgula">/</pc> Item sequitur quod anima christi certitudinaliter nec ab<lb ed="#L"/>solute 
+          ab aeterno sed causaliter fuisset praedestinata quod est falsum ymmo esset 
+          <lb ed="#L"/>temporale causa aeterni
+        </p>
+        <p xml:id="pg-b3q2-d1e134">
+          <pc type="#pilcrow"/>2o principaliter deus non est factus homo ergo probatur antecedens <pc type="virgula">/</pc> primo 
+          <pb ed="#L" n="201-r"/>
+          <lb ed="#L"/>quia homo non est factus deus secundum <name>damascenus</name> libro 3o non hominem <unclear>deificitum</unclear> 
+          <lb ed="#L"/>dicimus sed deum humanum ergo nec deus factus est homo quia eadem ratio videtur 
+          <lb ed="#L"/>esse utrobique <pc type="virgula">/</pc> 2o probatur antecedens idem quia christus incepisset esset quod est falsum cum 
+          <lb ed="#L"/>sit suppositum aeternum patet consequentia cum omne inceperit esse <pc type="#pilcrow"/> 3o idem antecedens probatur 
+          <lb ed="#L"/>quia si sic illud esset propter ydiomatum communicationem sed illa non est possibilis quia 
+          <lb ed="#L"/>aliter diceremus deum praedestinatum sicut istam naturam assumptam
+        </p>
+        <p xml:id="pg-b3q2-d1e169">
+          <pc type="#pilcrow"/>3o principaliter 
+          <lb ed="#L"/>arguitur verbum non est homo natus de virgine ergo quo falsa <pc type="virgula">/</pc> antecedens probatur primo quia 
+          <lb ed="#L"/>virgo non genuit alium quam creaturam secundum <ref xml:id="pg-b3q2-Rd1e180"><name>augustinus</name> <title>enchiridion</title> 3o capitulo 4o</ref> 
+          <lb ed="#L"/>sed verbum non est creatura ut dicit <ref xml:id="pg-b3q2-Rd1e191"><name>magister</name> distinctione 11 3ii</ref> <pc type="virgula">/</pc> tum 2o quia virgo 
+          <lb ed="#L"/>non genuit deitatem nec humanitatem ergo non <ref xml:id="pg-b3q2-Rd1e201">primum distinctione 8a 3ii</ref> nec 2m 
+          <lb ed="#L"/>quia non genuit corpus et anima tum 3o quia sequeretur quod possibile esse virginem 
+          <lb ed="#L"/>aliquem filium genuisse et eam non esse eius matrem utraque existente 
+          <lb ed="#L"/>inesse <pc type="virgula">/</pc> Item sequeretur quod possibile esset virginem alicuius hominis esse matrem et ipsum 
+          <lb ed="#L"/>numquam genuisse quae videntur inconventientia
+        </p>
+        <p xml:id="pg-b3q2-d1e218">
+          <pc type="#pilcrow"/>In oppositum est <ref xml:id="pg-b3q2-Rd1e222"><name>magister</name> in distinctionibus 
+          <lb ed="#L"/>praemissis</ref> <pc type="virgula">/</pc> Item iohannis primo verbum caro factum est glosa <ref xml:id="pg-b3q2-Rd1e232">1 <!-- id est --></ref> homo factus est
+        </p>
+        <p xml:id="pg-b3q2-d1e237">
+          <lb ed="#L"/><pc type="#pilcrow"/>prima conclusio sicut divina natura in supposito verbi naturae humanae unitae est in<lb ed="#L"/>carnata 
+          sic <name>adae</name> culpa non fuit occasio aut causa quare anima chiristi fuit 
+          <lb ed="#L"/>destinata <pc type="virgula">/</pc> prima pars patet per <ref xml:id="pg-b3q2-Rd1e253"><name>magistrum</name> distinctione 5a 3ii</ref> 2o per <ref xml:id="pg-b3q2-Rd1e258" target="http://scta.info/resource/adt-l2"><name>augustinum</name> 2o de 
+          <lb ed="#L"/>trinitate capitulo 9o</ref> forma dei accepti formam secundum igitur natura accepit 
+          <lb ed="#L"/>naturam consequentia tenet quia nomine formae intelligitur natura secundum <ref xml:id="pg-b3q2-Rd1e267"><name>augustinum</name> <title>de fide et petrum</title> 
+          <lb ed="#L"/>capitulo 4o</ref> dicentem cum inquit de christo audis quia informa dei erat oportet 
+          <lb ed="#L"/>te agnoscere firmissimeque tenere in illo formae nomine naturlaem plenitudinem 
+          <lb ed="#L"/><del rend="strikethrough">gratiae</del> debere intelligi <pc type="#pilcrow"/> 3o per <name>ieromium</name> in explanatione fidei dicentem 
+          <lb ed="#L"/>passus est filius dei non secundum illam substantiam <unclear>quare</unclear> assumpsit sed secundum illam 
+          <lb ed="#L"/>quae est assumpta ex quo patet quod divina substantia accepti humanam substantiam <pc type="virgula">/</pc> 2a 
+          <lb ed="#L"/>pars probatur quia praedestinationis aeternalis nulla potest esse ratio causalis temporalis 
+          <lb ed="#L"/>ut fuit probatum in primo circa materiam de praedestinatione sec culpa <name>adae</name> est 
+          <lb ed="#L"/>ratio temporalis ergo illud est membrum beati augustini quo probat quod deus non prae<lb ed="#L"/>destinat 
+          nos propter merita nostra
+        </p>
+        <p xml:id="pg-b3q2-d1e312">
+          <pc type="#pilcrow"/>primum corollarium licet natura divina unione maxima 
+          <lb ed="#L"/>post primam simpliciter naturae humanae sit unita tamen talis unio non ad eam im<lb ed="#L"/>mediate 
+          sed ad personam verbi est terminata prima pars patet per primam partem conclusionis 
+          <lb ed="#L"/>quia divina natura est incarnata et humanae unita sed quod unio trium personarum 
+          <lb ed="#L"/>in deitate sit maior patet ex unitiva ydemptitate substantiali quia est in una 
+          <lb ed="#L"/>praecise subistantia <pc type="virgula">/</pc> 2o ex summa simplicitate sine graduale distinctione quia ibi 
+          <lb ed="#L"/>est una simplex essentia sine compositione <pc type="virgula">/</pc> 3o ex mutua <unclear>praedicatione</unclear> vocali quia 
+          <lb ed="#L"/>ibi natura praedicatur de persona et econverso non autem sic est de unione ypostatica 
+          <lb ed="#L"/>sed quod unio naturae humanae ad verbum sit maxima post primam patet primo ex 
+          <lb ed="#L"/>aliarum unionum comprehensione quia compraehendit unionem per praesentiam 
+          <lb ed="#L"/>potentiam essentiam gratiam gloriam et ypostaticam quod non faciunt aliae <pc type="virgula">/</pc> 2o patet 
+          <pb ed="#L" n="201-v"/>
+          <lb ed="#L"/>ex immediatione quia nihil mediat inter personam et suppositum suum <pc type="#pilcrow"/> 3o ex 
+          <lb ed="#L"/>intrinseca <unclear>intimitate</unclear> et <unclear>intraneitate</unclear> quia per quamdam illapsum in effabilem et in 
+          <lb ed="#L"/>expressibilem omne alium illapsum exces?tem ei intimatur et unitur 
+          <lb ed="#L"/>2a pars patet quia nisi sic sequeretur quod quaelibet persona esset incarnata quod est falsum
+        </p>
+        <p xml:id="pg-b3q2-d1e370">
+          <lb ed="#L"/><pc type="#pilcrow"/>2m corollarium licet non sit idem formaliter assumpto et unio ypostatica haec tamen 
+          <lb ed="#L"/>unio non est aliqua res una createa vel increatea prima pars patet per <ref xml:id="pg-b3q2-Rd1e377">dominum 
+          <lb ed="#L"/>aegidium distinctione 3a 3ii parte prima quaestione 3a</ref> <pc type="virgula">/</pc> primo ex assumptionis respectu unionis 
+          <lb ed="#L"/>generalitate quia omnis vivens est assumens et non econverso <pc type="#pilcrow"/> 2o ex unionis sequitur 
+          <lb ed="#L"/>assumptionem additione quia assumptio importat actionem assumentis et passionem 
+          <lb ed="#L"/>assumpti sed unio importat ultra hoc quamdem unitorum relationem 3o 
+          <lb ed="#L"/>ex eorum diversa praedicatione nam licet vivens possit dici unitum tamen assu<lb ed="#L"/>mens 
+          non dicitur assumptum <pc type="#pilcrow"/> 2a pars probatur quia si illa unio foret aliqua una 
+          <lb ed="#L"/>res creata vel increata sequitur quod deus non posset naturam assumptam dimit<lb ed="#L"/>tere 
+          nisi talem destrueret quod est falsum 
+        </p>
+        <p xml:id="pg-b3q2-d1e406">
+          <pc type="#pilcrow"/>3m corollarium licet verbi persona 
+          <lb ed="#L"/>sit subsistentis ratio formalis huius unionis terminativa non tamen simpliciter 
+          <lb ed="#L"/>ut sic sed ut naturae assumptae assumptae supositionaliter unita prima pars patet 
+          <lb ed="#L"/>per conclusionem 2a probatur quia aeternaliter hanc visionem aliter terminasset quod patet quia aeter<lb ed="#L"/>naliter 
+          fuit persona
+        </p>
+        <p xml:id="pg-b3q2-d1e419">
+          <pc type="#pilcrow"/>Ex hiis patet quod ipsa unio ypostatica est ipsa 
+          <lb ed="#L"/>unita seu ipsum verbum humanitati unitum <pc type="virgula">/</pc> 2o sequitur quod licet divina natura sit 
+          <lb ed="#L"/>incarnata tamen non quaelibet persona est humanata <pc type="virgula">/</pc> 3o sequitur quod effectus nostrae 
+          <lb ed="#L"/>redemptionis non fuit causa verbi incarnationis patet per 2am parte conclusionis 
+          <lb ed="#L"/>quia pro eodem instanti aeternitatis quo anima christi fuit praedestinata fuit ei 
+          <lb ed="#L"/>natura assumenda electiva praeordinata ergo nulla ratio temporalis potuit 
+          <lb ed="#L"/>esse illius concausa <pc type="virgula">/</pc> 4o sequitur licet verbum sit incarnatum ad delendum originale 
+          <lb ed="#L"/>peccatum et propter reparandum miseriam nostram non tamen tenendo li propter tamquam fi<lb ed="#L"/>nalem 
+          vel motivam causam prima pars patet super illo psalmo propter miseriam inopum 
+          <lb ed="#L"/>et genitum pauperum nunc exurgam 2a patet ex dictis
+        </p>
+        <p xml:id="pg-b3q2-d1e454">
+          <pc type="#pilcrow"/>2a conclusio quod 
+          <lb ed="#L"/>sicut impossibile est esse increatum secundum inmensum gradum ad extra fore con<lb ed="#L"/>creatum 
+          sic deum hominem factum et hominem deum esse simpliciter est concedendum 
+          <lb ed="#L"/>prima pars probatur quia si sic sequeretur quod essent duo immensa quod est impossibile patet consequentia 
+          <lb ed="#L"/>quia implicat essentiam immensam aliter communicari secundum gradum immensum et 
+          <lb ed="#L"/>ipsum non esse immensum <pc type="virgula">/</pc> 2a pars probatur quia primo non erat ita quod deus esset 
+          <lb ed="#L"/>homo et nunc est ita quod deus est homo ergo factum est quod deus est homo <pc type="virgula">/</pc> Item verbum 
+          <lb ed="#L"/>caro id est homo factum est iohannis primo
+        </p>
+        <p xml:id="pg-b3q2-d1e480">
+          <pc type="#pilcrow"/>primum corollarium sicut impossibile est esse in<lb ed="#L"/>creatum 
+          secundum immensum gradum ad extra fore concreatum sit simpliciter est 
+          <lb ed="#L"/>impossibile aliquid esse deum et a deitate esse distinctum prima pars est prima pars conclusionis quia 
+          <lb ed="#L"/>tale quid esset deus recens <pc type="virgula">/</pc> 2o quia sequeretur quod possent esse infiniti 
+          <lb ed="#L"/>dii a se invicem realiter distincti <pc type="virgula">/</pc> 3o quia tunc verbum teneretur diligere naturam 
+          <lb ed="#L"/>assumptam propter se ipsam sicut se ipsum quod est falsum quia tunc creatura esset 
+          <pb ed="#L" n="202-r"/>
+          <lb ed="#L"/>fruendum et consequentia patet ex quo illa creatura esset deus per potentiam
+        </p>
+        <p xml:id="pg-b3q2-d1e506">
+          <pc type="#pilcrow"/>4o tunc 
+          <lb ed="#L"/>quilibet posset rationabiliter durare an aliquid esset quod non esset deus et sic posset 
+          <lb ed="#L"/>dubitare an deberet se ipsum tamquam deum adorare patet quia posset <del>divina a<lb ed="#L"/>dorare</del> 
+          <lb ed="#L"/>deus me assumere in unitatem suppositi me ignoratae meam 
+          <lb ed="#L"/>naturam esse assumptam
+        </p>
+        <p xml:id="pg-b3q2-d1e525">
+          <pc type="#pilcrow"/>2m corollarium licet naturae humanae in christo communicatum sit esse 
+          <lb ed="#L"/>deum in concerto seu concretive tamen nullo modo potest sibi communicari ipsi quod sit 
+          <lb ed="#L"/>verbum aut deus abstractive prima pars patet patet quia verbum ypostatice unitur humanae 
+          <lb ed="#L"/>naturae in denominationem concretivam hominis ergo illi naturae verbum communicatur 
+          <lb ed="#L"/>2o probatur quia virtute communicationis ydiomatum unde <ref xml:id="pg-b3q2-Rd1e538"><name>damascenus</name> libro 3o capitulo 4o</ref> dicit 
+          <lb ed="#L"/>in ypostati utrorumcumque nomina imponimus et sequitur et enim christus quid est utrumque 
+          <lb ed="#L"/>et deus et homo dicitur quod creabilis et particibilis et increabilis et inparticibilis ergo per communi<lb ed="#L"/>cationem 
+          ydiomatum verum est hominem esse deum et per consequens humanae naturae 
+          <lb ed="#L"/>in christo communicatum est esse deum quod est propositum
+        </p>
+        <p xml:id="pg-b3q2-d1e552">
+          <pc type="#pilcrow"/><unclear>primo</unclear> quod <sic>quod</sic> ydioma in 
+          <lb ed="#L"/>proposito est proprietas signativa et distinctiva vel naturae a natura sicut in vertibile et 
+          <lb ed="#L"/>vertibile vel naturae a supposito et econverso sicut producibile et inprodubile productum 
+          <lb ed="#L"/>et inproductum vel suppositi a supposito sicut generare et generari spirative 
+          <lb ed="#L"/>et spirari
+        </p>
+        <p xml:id="pg-b3q2-d1e571">
+          <pc type="virgula">/</pc> 2o notandum quod communicatio ydiomatum est intuitiva probatio talium communicabilium 
+          <lb ed="#L"/>proprietatum de supposito ex assumente et assumpto resultante <pc type="virgula">/</pc> et notantur 
+          <lb ed="#L"/>dicitur communicabilium propter tales proprietates quae communicari non possunt mutuo
+        </p>
+        <p xml:id="pg-b3q2-d1e585">
+          <pc type="#pilcrow"/>Ex 
+          <lb ed="#L"/>dictis sequitur quod sicut christus est vere quid sic secundum quod homo est aliquid prima pars est 
+          <lb ed="#L"/>nota 2a probatur quia christus secundum quod homo est homo ergo christus est aliquid <pc type="virgula">/</pc> confirmatur quia eius 
+          <lb ed="#L"/>opposita est haeretica et dampnata per <ref xml:id="pg-b3q2-Rd1e599"><name>alexandrum </name> 3m de haereticis cum christus</ref>
+        </p>
+        <p xml:id="pg-b3q2-d1e605">
+          <lb ed="#L"/><pc type="#pilcrow"/> 3a conclusio licet de virgine materia natus sit christus verus filius dei tamen divina 
+          <lb ed="#L"/>essentia non debet ex ea nata dici seu numquam verum fuit essentiam divinam 
+          <lb ed="#L"/>de virgine nasci prima pars patet in 3o distinctionibus 4a et 8a ubi magister ex<lb ed="#L"/>presse 
+          ponit christum de virgine natum Item haec pars ponitur in simbolo ecclesiae 
+          <lb ed="#L"/>2a pars patet <ref xml:id="pg-b3q2-Rd1e619">distinctione 2a 3ii</ref> ubi ostendit magister essentia divina non debere 
+          <lb ed="#L"/>dici natam de virgine
+        </p>
+        <p xml:id="pg-b3q2-d1e625">
+          <pc type="#pilcrow"/>primum corollarium non solum compositum ex orpore et 
+          <lb ed="#L"/>anima intellectiva debite organizatum verbo unitum est de virgine et in 
+          <lb ed="#L"/>virgine natum patet ex conclusione quia virgo tunc non genuisset filium dei 
+          <lb ed="#L"/>cum talem compositum non sit filius dei et sic virgo materia non vere diceretur mater 
+          <lb ed="#L"/>dei quod est falsum <pc type="virgula">/</pc> oppositum huius corollarii ponit <ref xml:id="pg-b3q2-Rd1e641"><name>bonsemblatis</name> in suis vesperiis 
+          <lb ed="#L"/>propositione 2a articulo primo</ref>
+        </p>
+        <p xml:id="pg-b3q2-d1e649">
+          <pc type="#pilcrow"/>2m corollarium licet non stet aliquem filium virginis esse 
+          <lb ed="#L"/>et ipsum nullo modo generare vel genuisse tamen possibile eset virginem aliquem finem 
+          <lb ed="#L"/>vere genuisse et tamen filium eius non esse utrobique manente et in 
+          <lb ed="#L"/>vita existente prima pars patet quia solum dicitur illum filium habere quem dicitur vere genere 
+          <lb ed="#L"/>vel genuisse aut peperisse dum in supposito fuit <pc type="virgula">/</pc> 2a pars patet in casu 
+          <lb ed="#L"/>ubi filius dei dimitteret naturam assumptam et filius matrem virginem et naturam 
+          <pb ed="#L" n="202-v"/>
+          <lb ed="#L"/>assumptam dimitteret et conservaret in esse oppositum huius ponit <ref xml:id="pg-b3q2-Rd1e671"><name>magister clekok</name> 
+          <lb ed="#L"/>quaestione prima quolibeti sui</ref>
+        </p>
+        <p xml:id="pg-b3q2-d1e679">
+          <pc type="#pilcrow"/>3m corollarium licet sit omnino idem filius bis generatus 
+          <lb ed="#L"/>et duas habens nativitates tamen non sunt duo filii nec in ipso sunt duae 
+          <lb ed="#L"/>distinctae filiationes prima patet per dicta et est <ref xml:id="pg-b3q2-Rd1e687"><name>magistri</name> 8a distinctione 3ii</ref> <pc type="virgula">/</pc> 2a pars 
+          <lb ed="#L"/>probatur in pluribus passibus sacrae scripturae et 3a pars probatur quia filius est sua <unclear>s&gt;</unclear> 
+          <lb ed="#L"/>filiatio sed filius est unus ergo filiatio est una oppositum huius partis 3ae ponit 
+          <lb ed="#L"/><ref xml:id="pg-b3q2-Rd1e704"><name>magister thomas de argentina</name></ref>
+        </p>
+        <p xml:id="pg-b3q2-d1e709">
+          <pc type="#pilcrow"/>Ex praemissis posset aliqua inferri <pc type="virgula">/</pc> primo sicut 
+          <lb ed="#L"/>stat aliquid incipere esse homo et nihil produci de novo sic aliquid desinere omne 
+          <lb ed="#L"/><del rend="strikethrough">de hono</del> homo et nihil corrumpi de mundo <pc type="virgula">/</pc> prima patet quia si verbum dimitteret 
+          <lb ed="#L"/>assumptam naturam tunc illa primo inciperet esse homo quia ipsa tunc non est 
+          <lb ed="#L"/>homo et tamen nihil ibi produceretur noviter 2a patet in casu quo deus nunc assu<lb ed="#L"/>meret 
+          naturam alicuius hominis constat quod sine cuiuscumque entitatis corrumptione illa 
+          <lb ed="#L"/>humanitas assumpta desineret esse homo
+        </p>
+        <p xml:id="pg-b3q2-d1e736">
+          <pc type="#pilcrow"/>2o ex eodem sequitur quod stat minime 
+          <lb ed="#L"/>unum solum hominem esse et immediate post hoc erunt mille et tamen nihil de 
+          <lb ed="#L"/>novo produceretur inesse et similiter econverso stat nunc mille homines esse 
+          <lb ed="#L"/>et immediate post hoc unum solum est iste et tamen nihil esse desinere nihil nullum 
+          <lb ed="#L"/>ens alid corrumpere patet sicut praecedens ex quibus sequitur pars affirmativa quaestionis
+        </p>
+        <p xml:id="pg-b3q2-d1e749">
+          <lb ed="#L"/><pc type="#pilcrow"/>Contra primam partem conclusionis primae arguitur primo si natura divina esset incarnata 
+          <lb ed="#L"/>sequeretur quod quaelibet persona divina esset incarnata consequens est falsum patet consequentia 
+          <lb ed="#L"/>quia actus naturae convenit cuilibet personae et quidquid dicitur de natura divinae dicitur etiam 
+          <lb ed="#L"/>de omnibus personis in affirmativis
+        </p>
+        <p xml:id="pg-b3q2-d1e761">
+          <pc type="virgula">/</pc>2o actus personalis sicut generare non 
+          <lb ed="#L"/>attribuitur naturae sed assumere humanitatem ypostatice est actus personalis quia proprius 
+          <lb ed="#L"/>personae filii ergo
+        </p>
+        <p xml:id="pg-b3q2-d1e771">
+          <pc type="#pilcrow"/> 3o vel assumeret in unitatem naturae vel personae <pc type="virgula">/</pc> non 
+          <lb ed="#L"/>2m quia natura non est persona nisi ydemptitate nec primum quia esset una natura 
+          <lb ed="#L"/>haec et illa vel fieret una natura ex eis quorum utrumque est impossibile
+        </p>
+        <p xml:id="pg-b3q2-d1e783">
+          <pc type="virgula">/</pc> 4o sequeretur 
+          <lb ed="#L"/>quod natura divina posset dici caro facta consequentia patet quia ut patet <ref xml:id="pg-b3q2-Rd1e790">distinctione 5a 3ii</ref> 
+          <lb ed="#L"/>si idem est incarnari quod carnem <unclear>fieri</unclear> videtur ita posse dici quod sit caro 
+          <lb ed="#L"/>facta sicut incarnata sed consequens est falsum et ipsum negat <ref xml:id="pg-b3q2-Rd1e801"><name>magister</name> 
+          <lb ed="#L"/>ibidem</ref>  ne si sic diceretur convertibilitas naturae in naturam significari putere
+        </p>
+        <p xml:id="pg-b3q2-d1e809">
+          <pc type="#pilcrow"/>5o 
+          <lb ed="#L"/>contra 2am partem arguitur cessante causa cessat effectus sed nulla alia causa fuit 
+          <lb ed="#L"/>christo veniendi nisi redeptio ergo culpa <name>adae</name> fuit occasio quia christus fuit 
+          <lb ed="#L"/>incarnatus et anima eius praedestinata maior nota minor habetur super illo psalmo 
+          <lb ed="#L"/>verbo <ref xml:id="pg-b3q2-Rd1e825">primae ad thymotheum</ref> christus venit in hunc mundum ut peccatores salvos 
+          <lb ed="#L"/>faceret ubi glosa nulla causa fuit christo veniendi nisi peccatores sal<lb ed="#L"/>vos 
+          facere tolle morbos tolle vulnera <pc type="#punctus"/> nulla causa est medicine
+        </p>
+        <p xml:id="pg-b3q2-d1e836">
+          <lb ed="#L"/><pc type="#pilcrow"/>2o idem videtur sentire <name>augustinus</name> super illo <title>matthaeus</title> 18 <quote xml:id="pg-b3q2-Qd1e847">venit filius hominis 
+          <lb ed="#L"/>quaerere</quote> etc. <pc type="virgula">/</pc> super quo dicit <name>augustinus</name> de verbis deum sermone 13o si 
+          <lb ed="#L"/>homo non peccasset filius hominis non venisset
+        </p>
+        <p xml:id="pg-b3q2-d1e862">
+          <pc type="virgula">/</pc> 3o auctoritate <ref xml:id="pg-b3q2-Rd1e867"><name>ambrosii</name>
+          <pb ed="#L" n="203-r"/>
+          <lb ed="#L"/>libro de incarnatione verbi</ref> dicentis quae erat incarnationois causa nisi 
+          <lb ed="#L"/>ut creatura quae peccaverat redimeretur <pc type="virgula">/</pc> Item <ref xml:id="pg-b3q2-Rd1e881"><name>augustinus</name> primo libro de baptismo 
+          <lb ed="#L"/>parvulorum</ref> dicit apparet dominum ihesum christum non ob aliud in carnem venisse nisi 
+          <lb ed="#L"/>ut hominem redimeret a peccato
+        </p>
+        <p xml:id="pg-b3q2-d1e892">
+          <pc type="virgula">/</pc> 4o secundum venialem <name>anselmus</name> <title>cur deus homo</title> 
+          <lb ed="#L"/>hinc parti alludit ad gallathas apostolus dicens misit deus filium suum 
+          <lb ed="#L"/>ut eos qui sub lege erant redimeret
+        </p>
+        <p xml:id="pg-b3q2-d1e908">
+          <pc type="#pilcrow"/>5o hoc videtur approbare ecclesiae quae 
+          <lb ed="#L"/>cavit in christi nativitate factus homo ut homine perditum redimeret 
+          <lb ed="#L"/>et ad caelestia regna revocaret
+        </p>
+        <p xml:id="pg-b3q2-d1e917">
+          <pc type="#pilcrow"/>contra 2am conclusionem arguitur esse personale 
+          <lb ed="#L"/>divinum esse secundum gradum immensum communicabile ergo et quodlibet essentiale est communicabile 
+          <lb ed="#L"/>secundum gradi immensum tenet consequentia quia minus repugnanter se habet esse essentiale 
+          <lb ed="#L"/>ad communicari quam personale
+        </p>
+        <p xml:id="pg-b3q2-d1e928">
+          <pc type="#pilcrow"/>2o quodlibet essentiale est communicabile ad intra  ergo eset communi<lb ed="#L"/>cabile 
+          ad extra consequentia patet quia nulla videtur repugnantia illius ex parte creare 
+          <lb ed="#L"/>nec ex parte divinae essentia ergo
+        </p>
+        <p xml:id="pg-b3q2-d1e938">
+          <pc type="#pilcrow"/>3o deo est attribuendum omne illud 
+          <lb ed="#L"/>ex quo maior bonitas in eo relucet sed si deus esset communicabilis non solum 
+          <lb ed="#L"/>participative sed realiter et entitative maior bonitas in eo reluceret ergo hoc 
+          <lb ed="#L"/>est ponendum cum illud non implicet
+        </p>
+        <p xml:id="pg-b3q2-d1e949">
+          <pc type="#pilcrow"/>contra 2am partem eiusdem conclusionis si deus 
+          <lb ed="#L"/>est factus homo sequitur quod deus est factus patet consequentia in simili nam sequitur sortes est factus 
+          <lb ed="#L"/>homo ergo sortes est factus patet similitudo quia ibi nihil mutatur nisi subiectum
+        </p>
+        <p xml:id="pg-b3q2-d1e958">
+          <pc type="virgula">/</pc> 2o 
+          <lb ed="#L"/>sequitur ille est albus homo ergo ille est <del>homo</del> albus sic videtur sequi ille 
+          <lb ed="#L"/>est factus homo ergo ille est factus quia ille terminus homo non est <unclear>dummmens</unclear> nec 
+          <lb ed="#L"/>distrahens
+        </p>
+        <p xml:id="pg-b3q2-d1e977">
+          <pc type="#pilcrow"/> 3o sequitur quod deus esset factus animal rationale patet per locum a distincto 
+          <lb ed="#L"/>ad diffinitionem et ultra sequitur quod deus est factus animal et substantia animata sensibilis 
+          <lb ed="#L"/>et ultra sequitur quod est factus substantia et ens et aliquid quae sunt falsa patent consequentia sicut prima 
+          <lb ed="#L"/>quia omnis homo est animal et ens et aliquid
+        </p>
+        <p xml:id="pg-b3q2-d1e988">
+          <pc type="#pilcrow"/>4o si haec propositio esset vera deus est factus 
+          <lb ed="#L"/>homo aut li homo supponit pro aliquo creato vel increato non primum quia deus 
+          <lb ed="#L"/>non est aliquod creatum nec 2m quia deus non est factus deus qui nunquam fuit 
+          <lb ed="#L"/>non deus 
+        </p>
+        <p xml:id="pg-b3q2-d1e999">
+          <pc type="#pilcrow"/>Contra quoddam corollarium 3a conclusionis ubi dicitur quod viriginem peperisse etc
+          <lb ed="#L"/>quia dimissa humanitate a verbo aut illa esset idem homo qui prius erat autem 
+          <lb ed="#L"/>aut esset alius homo sed neutrum potest dici
+        </p>
+        <p xml:id="pg-b3q2-d1e1009">
+          <pc type="#pilcrow"/>2o si esset alius homo sequitur 
+          <lb ed="#L"/>tunc quod aliquis homo esset qui nullius esset filius nec fuisset unquam creatus 
+          <lb ed="#L"/>aut genitus sed ista sunt falsa ut videtur ergo
+        </p>
+        <p xml:id="pg-b3q2-d1e1018">
+          <pc type="#pilcrow"/>Ad primum negatur consequentia ad 
+          <lb ed="#L"/>probationem dicitur quod actus naturae conveniens ut natura est convenit tribus personis divinis 
+          <lb ed="#L"/>non autem est verum de actu sibi convenienti non ut natura sed ut persona sicut 
+          <lb ed="#L"/>est in proposito de actu assumendi
+        </p>
+        <p xml:id="pg-b3q2-d1e1029">
+          <pc type="#pilcrow"/>2o posset dici quod actus non est 
+          <lb ed="#L"/>incarnari vel agere sed sequella actionis
+        </p>
+        <p xml:id="pg-b3q2-d1e1036">
+          <pc type="#pilcrow"/>3o dicitur quod essentiam divinam esse 
+          <lb ed="#L"/>incarnatam potest intelligi dupliciter <pc type="virgula">/</pc> primo quod sit ratio terminandi et formalis terminus 
+          <lb ed="#L"/>illius unionis personalitate quaecumque seclusa et sic divina natura non est incarnata 
+          <pb ed="#L" n="203-v"/>
+          <lb ed="#L"/>quia tunc unum suppositum non esset plus incarnatum quam aliud sed deus absolute etc 
+          <lb ed="#L"/>prima consequentia rationis esset bona <pc type="virgula">/</pc> alio modo dicitur esse incarnata sic quod non immediate 
+          <lb ed="#L"/>sed mediate quia ipsa non est terminus illius unionis sed in sola personalitate talis ratio 
+          <lb ed="#L"/>formalis terminandi consistit subsistendi et sic consequentia non valet 
+        </p>
+        <p xml:id="pg-b3q2-d1e1062">
+          <pc type="#pilcrow"/>Ad 2m minor 
+          <lb ed="#L"/>negatur quia summedo assumere humanitatem pro humanari vel incarnari sic 
+          <lb ed="#L"/>dicitur quod non est actus essentialis sed personalis <pc type="virgula">/</pc> si autem sumatur pro active 
+          <lb ed="#L"/>unire humanitatem illam sic non est actus personalis sed essentialis tribus personis 
+          <lb ed="#L"/>communis si autem sumatur pro ad se summere vel pro unire sibi ipsi sic potest 
+          <lb ed="#L"/>dici actus notionalis quia nulla persona unit sibi ipsi illam humanitatem 
+          <lb ed="#L"/>nisi filius licet omnis uniat cum filio active <pc type="virgula">/</pc> et cum dicitur quod actus notionalis 
+          <lb ed="#L"/>non convenit naturae conceditur de actu notionali qui si affirmaretur de essentia in<lb ed="#L"/>ferret 
+          ipsam distingui ab aliquo in divinis sed ille actus in proposto non infert 
+          <lb ed="#L"/>naturam divina distingui ab aliquo supposito divino
+        </p>
+        <p xml:id="pg-b3q2-d1e1093">
+          <pc type="#pilcrow"/>Ad 3m dicitur quod natura divina 
+          <lb ed="#L"/>assumpsit humanam ad unitatem personalem et ad probationem dicitur quod humanitas non 
+          <lb ed="#L"/>unitur essentiae per se primo et immediate ut dictum est sed ex hoc quod est persona ydemptice
+        </p>
+        <p xml:id="pg-b3q2-d1e1103">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 4m dicit <ref xml:id="pg-b3q2-Rd1e1108"><name ref="#Bonaventure">bonaventura</name> distinctione 3a 3ii</ref> quod haec potest concedi <quote xml:id="pg-b3q2-Qd1e1113" source="http://scta.info/resource/bb-d1e5321-d1e194"><!-- III, d. 5, a. 1, q. 5 -->deitas 
+          <lb ed="#L"/>est incarnata id est carni unita</quote>
+        </p>
+        <p xml:id="pg-b3q2-d1e1120">
+          <pc type="virgula">/</pc> 2o dicit quod cum dicitur divina natura est caro facta 
+          <lb ed="#L"/>si intelligitur id est in carnem conversa hoc simpliciter est falsum sed si intelligitur caro facta 
+          <lb ed="#L"/>id est homo ut pars stet pro toto sic verum est quod patet quia natura divina est hic homo ergo 
+          <lb ed="#L"/>natura divina est homo
+        </p>
+        <p xml:id="pg-b3q2-d1e1132">
+          <pc type="#pilcrow"/>Item quia <ref xml:id="pg-b3q2-Rd1e1136"><name>magister</name> videtur dicere oppositum distinctione 5a 3ii</ref> ideo 
+          <lb ed="#L"/>potest dici quod ibi loquimur opinative non determinative
+        </p>
+        <p xml:id="pg-b3q2-d1e1144">
+          <pc type="#pilcrow"/>2o posset dici quod multipliciter 
+          <lb ed="#L"/>intendit dicere quod deitas non unit sibi humanitatem in unitate naturae sed personae 
+          <lb ed="#L"/>filii
+        </p>
+        <p xml:id="pg-b3q2-d1e1153">
+          <pc type="#pilcrow"/>Ad primum dicitur contra 2am partem eiusdem conclusionis negando minorem ad glosam dicitur 
+          <lb ed="#L"/>quod si aliqua causa fuisset hominis ex parte illa fuisset redemptio nostra et hoc 
+          <lb ed="#L"/>intendit glosa
+        </p>
+        <p xml:id="pg-b3q2-d1e1162">
+          <pc type="#pilcrow"/>Ad 2m dicit <name>sanctus thomas</name> et bene qudo christus non venisset 
+          <lb ed="#L"/>in mundum per modum quo venit scilicet per modum passionis et miseriae sed manisisset 
+          <lb ed="#L"/>in statu innocentiae et non sensisset nec habuisset poenam quamcumque et eodem modo 
+          <lb ed="#L"/>potest responderi ad auctoritates <name>ambrosii</name> et aliorum doctorum
+        </p>
+        <p xml:id="pg-b3q2-d1e1181">
+           <pc type="#pilcrow"/>Ad <sic>4m</sic> quod est 
+          <lb ed="#L"/>dictum <name>anselmi</name> tangentis simpliciter difficultate scilicet utrum purus homo potuerit 
+          <lb ed="#L"/>hominem redimere et satisfacere pro peccatis et dicunt communiter doctores 
+          <lb ed="#L"/>quod sic sed convenientius et utilius redempti sumus per christum
+        </p>
+        <p xml:id="pg-b3q2-d1e1199">
+          <pc type="#pilcrow"/>Circa hanc 
+          <lb ed="#L"/>materiam possunt poni aliqua probabiliter <pc type="virgula">/</pc> primo quod possibile sint <choice><orig>alica</orig><reg>aliqua</reg></choice> demerita 
+          <lb ed="#L"/>viatoris fuisset peiora intrinsece quam fuerit meritum christi bonum actuale 
+          <lb ed="#L"/>intrinseca bonitate patet quia quocumque peccato potest dari gravius duplum ad illud 
+          <lb ed="#L"/>sed christi meritum fuit finitum bonum bonitate intrinseca actus quo  christus mere<lb ed="#L"/>batur 
+          sed quod actus christi fuerit bonum finitum intrinsece patet quia fuit finitus 
+          <lb ed="#L"/>actus et incerta speciei bonitatis creatae
+        </p>
+        <p xml:id="pg-b3q2-d1e1226">
+          <pc type="#pilcrow"/> 2a propositio quod actus quem christus 
+          <lb ed="#L"/>habuit inquantum homo non fuit satisfactorius de condigno pro omnibus peccatis in<pb ed="#L" n="204-r"/><lb ed="#L"/>trinseca 
+          sua bonitate patet quia ille actus fuit minus bonus bonitate intrinseca 
+          <lb ed="#L"/>quam peccata omnium peccatorum fuerunt mala ergo illa bonitas actus intrinseca 
+          <lb ed="#L"/>non fuerit respectu illorum satisfactoria de condigno patet consequentia quia non est con<lb ed="#L"/>digna 
+          satisfactio nisi reddatur tantum pro tanto
+        </p>
+        <p xml:id="pg-b3q2-d1e1243">
+          <lb ed="#L"/>3a propositio quod actus 
+          <lb ed="#L"/>creatus quo christus nobis meruit redemptionem extrinseca acceptatione 
+          <lb ed="#L"/>seu denominatione fuit infinite bonitatis meritorie quia actus ille 
+          <lb ed="#L"/>acceptatur ad infinitum et <del rend="strikethrough">eters</del> aeternum bonum ergo est infinitae bonitatis 
+          <lb ed="#L"/>meritoriae tenet consequentia quia ille est extrinsece melior quolibet alio actu 
+          <lb ed="#L"/>qui non ad tantum sed ad minus acceptatur
+        </p>
+        <p xml:id="pg-b3q2-d1e1262">
+          <pc type="#pilcrow"/>Ex dictis sequitur primo quod cum 
+          <lb ed="#L"/>inclusione divinae acceptationis actus christi condigne satisfecti pro re<lb ed="#L"/>demptione 
+          generis humani patet ex probatione propositionis
+        </p>
+        <p xml:id="pg-b3q2-d1e1271">
+          <pc type="#pilcrow"/>2o sequitur quod actus in se non 
+          <lb ed="#L"/>variatus non potest esse tamen bonus quin possit esse melior tali voluntate 
+          <lb ed="#L"/>patet quia non potest esse ad tamen bonum acceptatus quin ad maius bonum esse 
+          <lb ed="#L"/>possit acceptatus
+        </p>
+        <p xml:id="pg-b3q2-d1e1283">
+          <pc type="#pilcrow"/>ex quo sequitur ulterius quod alia est latitudo bonitatis extrinsece 
+          <lb ed="#L"/>actus meritorii et alia eius bonitatis intrinsece patet quia prima procedit ex 
+          <lb ed="#L"/>arguo dei acceptantis 2a autem semper manet uniformis <pc type="virgula">/</pc> ex quo ultra sequitur 
+          <lb ed="#L"/>quod haec consequentia non valet <c>a</c> actus ad maius bonum acceptatur quam <c>b</c> ergo 
+          <lb ed="#L"/><c>a</c> est melior intrinsece quam <c>b</c> quia oppositum consequentis potest stare cum antecedente
+        </p>
+        <p xml:id="pg-b3q2-d1e1311">
+          <pc type="#pilcrow"/>ex 
+          <lb ed="#L"/>quo ultra sequitur quod haec consequentia non valet iste actus est acceptus a deo ergo 
+          <lb ed="#L"/>iste actus est intrinsece bonus vel meritorius licet lege stante sit consequentia 
+          <lb ed="#L"/>bona <pc type="#punctus"/> tamen quia secundum aliuos deus pro actu malo posset dare praemium 
+          <lb ed="#L"/>ideo talis esset actus acceptatus
+        </p>
+        <p xml:id="pg-b3q2-d1e1327">
+          <pc type="#pilcrow"/>Alii vero dicunt quod deus non posset ac<lb ed="#L"/>tum 
+          malum acceptare nec velle dare praemium pro ipso quia sibi placeret 
+          <lb ed="#L"/>actus malus tamen potest dari habenti actum malum <unclear>ad?o</unclear> bonum sicut de facto 
+          <lb ed="#L"/>multis malis deus humanum a poenis suorum peccatorum probatur quia de facto bonum 
+          <lb ed="#L"/>cuiuslibet creaturae factum propter deum acceptatur ad gloriam beatorum sed talis 
+          <lb ed="#L"/>gloria est melior quam remissio peccatorum sit bona igitur actus talis creaturae 
+          <lb ed="#L"/>potuit acceptari ad remissionem omnium poenarum
+        </p>
+        <p xml:id="pg-b3q2-d1e1348">
+          <pc type="#pilcrow"/>confirmatur quia quaelibet 
+          <lb ed="#L"/>actio meritoria creatura quamcumque remissa potuit acceptari a deo pro 
+          <lb ed="#L"/>remissione et indulgentia omnium talium poenarum <pc type="virgula">/</pc> ex hoc sequitur quod poena 
+          <lb ed="#L"/>pura creatura fuisset sufficiens extrinsece ex actu bono ad aper<lb ed="#L"/>tionem 
+          coelestis ianiae
+        </p>
+        <p xml:id="pg-b3q2-d1e1365">
+          <pc type="#pilcrow"/>5a propositio actus in creatus quo christus voluit 
+          <lb ed="#L"/>incarnari sint sufficiens de condigno pro redemptione infinitorum mun<lb ed="#L"/>dorum 
+          patet quia nulla peccata potentialia possunt esse ita mala sicut ille actus 
+          <lb ed="#L"/>est bonus quia simpliciter est infinitae bonitatis ergo fuit sufficiens intrinsece pro 
+          <lb ed="#L"/>redemptione omnium possibilium peccatorum <pc type="virgula">/</pc> confirmatur quia si esset aliquam creatura quae 
+          <lb ed="#L"/>infinite intenso actu deum dilexisset si talem actum a se habuisset 
+          <lb ed="#L"/>infinite meruisset et ille actus fuisset intrinsece infinite bonus sed actus 
+          <pb ed="#L" n="204-v"/>
+          <lb ed="#L"/>quo persona divina voluit incarnari fuit talis ergo
+        </p>
+        <p xml:id="pg-b3q2-d1e1390">
+          <pc type="#pilcrow"/>Sed contra 
+          <lb ed="#L"/>primam propositionem argui posset primo quia actus animae christi fuit actus divini 
+          <lb ed="#L"/>suppositi infiniti igitur fuit intrinsece infinitae bonitatis patet consequentia quia circum<lb ed="#L"/>stantia 
+          dignitatis auget meritum vel demeritum ergo circumstantia in<lb ed="#L"/>finita 
+          infinite auget
+        </p>
+        <p xml:id="pg-b3q2-d1e1404">
+          <pc type="#pilcrow"/>2o rex moriens pro re publica plus meretur 
+          <lb ed="#L"/>quam miles sic moriens sed filius dei infinite excedit valore 
+          <lb ed="#L"/>et dignitate regem creatum ergo ipse per mortem minuit intrinseca bonitate 
+          <lb ed="#L"/>infinitum praemium
+        </p>
+        <p xml:id="pg-b3q2-d1e1415">
+          <pc type="#pilcrow"/>3o si per impossibile anima unita verbo peccasset plus de<lb ed="#L"/>meruisset 
+          in infinitum quam non unita ergo si meruit in infinitum plus meruit 
+          <lb ed="#L"/>verbo unita quam non unita patet consequentia quia illa circumstantia quae auget 
+          <lb ed="#L"/>demeritum etiam et meritum sed antecedens probatur quia illa anima esset infinite in grata 
+          <lb ed="#L"/>cum uniri deo sit maius bonum in infinitum quam uniri creaturae finite
+        </p>
+        <p xml:id="pg-b3q2-d1e1428">
+          <lb ed="#L"/><pc type="#pilcrow"/>4o contra propositionem 2am actus animae christi fuit in infinitum melior quam <unclear>aliquod</unclear> peccatum 
+          <lb ed="#L"/>unquam fuerit malum ergo fuit sufficiens pro redemptione omnium peccatorum 
+          <lb ed="#L"/>antecedens probatur quia actus animae christi fuit beatificus et alterius speciei ymmo in infinitum 
+          <lb ed="#L"/>plus placens deo quam placeat quicumque viator per quemcumque actum ergo est melior 
+          <lb ed="#L"/>in infinitum actu quo diligitur deus a viatore puro antecedens probaatur quia visio 
+          <lb ed="#L"/>clara habet complacentiam alterius speciei quam sit complacentia mediante aenigmate 
+        </p>
+        <p xml:id="pg-b3q2-d1e1448">
+          <lb ed="#L"/><pc type="#pilcrow"/>5o si esset aliquis qui deum videret et ipsum simul odiret in infinitum plus 
+          <lb ed="#L"/>peccaret quam modo quia intuitive videret deum infinite diligendum et econtra 
+          <lb ed="#L"/>faceret ergo a simili actus animae christi deum intuitive videntis est melior quam 
+          <lb ed="#L"/>omnis boni actus possibiles viatoris simul essent boni et per consequens talis 
+          <lb ed="#L"/>actus fuit intrinsece infinitae bonitatis
+        </p>
+        <p xml:id="pg-b3q2-d1e1462">
+          <pc type="#pilcrow"/>6o nisi sic sequeretur quod aliquis viator purus 
+          <lb ed="#L"/>posset esse melior christo consequens est falsum quia omnis boni de plenitutdine 
+          <lb ed="#L"/>acceperunt gratiam per gratia secundum <name>apostolum</name>
+        </p>
+        <p xml:id="pg-b3q2-d1e1474">
+          <pc type="#pilcrow"/>7o sequeretur quod aliquis esset peior quam 
+          <lb ed="#L"/>christus sit bonus falsitas patet quia tunc christus non fuisset sufficiens ad 
+          <lb ed="#L"/>ipsum redimendum probatur consequentia quia si christus habuisset finitam bonitatem mortale 
+          <lb ed="#L"/>sequitur quod malitia luciferi post casum multiplicata potuit devenire ad tantum 
+          <lb ed="#L"/>gradum malitiae quantum christus habuit gradum bonitatis
+        </p>
+        <p xml:id="pg-b3q2-d1e1488">
+          <pc type="#pilcrow"/>8o si quaelibet malitia 
+          <lb ed="#L"/>quae fuit in omnibus divisim poneretur in uno homine ille esset peior quam christus 
+          <lb ed="#L"/>fuerit bonus ergo bonitas actus christi non fuit sufficiens ad redemptionem 
+          <lb ed="#L"/>vel satisfactionem omnium peccatorum quod est falsum
+        </p>
+        <p xml:id="pg-b3q2-d1e1499">
+          <pc type="#pilcrow"/><sic>8o <!-- should be 9o --></sic> contra 4am propositionem videtur 
+          <lb ed="#L"/>esset <ref xml:id="pg-b3q2-Rd1e1508"><name>anselmus</name> primo <title>cur deus homo</title> capitulo 4o</ref> dicens neccesssariam fuit deum incarnari 
+          <lb ed="#L"/>pro generis humani redemptione ergo genus humanum per puram creaturam 
+          <lb ed="#L"/>non potuit redimi
+        </p>
+        <p xml:id="pg-b3q2-d1e1521">
+          <pc type="#pilcrow"/>10 per <name>gregorium</name> 29 <title>moralium</title> capitulo 33o dicentem 
+          <lb ed="#L"/>homo rationabiliter a peccato primi hominis liberari non potuit nisi per 
+          <lb ed="#L"/>deum hominem factum pro nobis intercedente
+        </p>
+        <p xml:id="pg-b3q2-d1e1536">
+          <pc type="#pilcrow"/>11o sequitur quod talis 
+          <lb ed="#L"/>actus redemptivus creaturae est infinite bonus consequens est falsum patet consequentia 
+          <pb ed="#L" n="205-r"/>
+          <lb ed="#L"/>quia omnis actus est tam bonus quantum meritorius sed talis actus fuisset infinite meritorius 
+          <lb ed="#L"/>ergo infinite bonus et sequitur ultra quod ille homo fuisset infinite bonus per 
+          <lb ed="#L"/>illum actum patet consequentia quia accidens tantum denominat suum subiectum quantum ipsum est 
+          <lb ed="#L"/>intensum
+        </p>
+        <p xml:id="pg-b3q2-d1e1554">
+          <pc type="#pilcrow"/>Ad primum negatur consequentia quia actus non solum habet bonitatem ex <sic>cir<lb ed="#L"/>constantia</sic> 
+          sed ex intrinseca ratione sua
+        </p>
+        <p xml:id="pg-b3q2-d1e1564">
+          <pc type="#pilcrow"/>ex quo patet quod anima christi per suum 
+          <lb ed="#L"/>actum non meruit ex natura propria de condigno vitam aeternam sicut dicunt quidam 
+          <lb ed="#L"/>quia si christus dimisisset naturam assumptam cum illo actu non fuisset ac<lb ed="#L"/>cepta 
+          de condigno et sic patet quod dupla <!-- possible transposition here --> solutio circumstantia non semper 
+          <lb ed="#L"/>auget meritum in duplo
+        </p>
+        <p xml:id="pg-b3q2-d1e1581">
+          <pc type="#pilcrow"/>Ad 2m negatur consequentia licet illa circumstantia bene 
+          <lb ed="#L"/>augeat meritum non tamen ad duplationem et sic nec infinita circumstantia 
+          <lb ed="#L"/>infert bonitatem actus infinitam 
+        </p>
+        <p xml:id="pg-b3q2-d1e1590">
+          <pc type="#pilcrow"/>Ad 3m dicitur quod si per impossibile anima vitam 
+          <lb ed="#L"/>peccaret ad huc non peccaret in finito peccato ymmo forte minus pec<lb ed="#L"/>caret 
+          mentiendo quam viator occiendo hominem quia circumstantia visionis 
+          <lb ed="#L"/>non tantum aggraveret quantum certa malitia intrinseca seu species <pc type="virgula">/</pc> et cum 
+          <lb ed="#L"/>dicitur quod uniri deo est infinitum magis bonum etc dicitur quod sic unit <pc type="virgula">/</pc> sine 
+          <lb ed="#L"/>aliquo addito non est infinitum bonum <del rend="strikethrough">ymmo</del> licet si maius bonum quam 
+          <lb ed="#L"/>uniri creaturae cuicumque nec uniri creaturae duple est duplex bonum
+        </p>
+        <p xml:id="pg-b3q2-d1e1617">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 4m dicitur quod ille actus denominatione extrinseca fuit melior et 
+          <lb ed="#L"/>magis acceptus quam actus fuerit malus et de acceptus et ad probationem 
+          <lb ed="#L"/>dicitur quod christus habere potuit et forte de facto habuit multos actus in 
+          <lb ed="#L"/>proprie genere et similiter in verbo qui non fuerunt ita boni intrinsece sicut certum peccatum 
+          <lb ed="#L"/>fuit malum Aliter sequeretur quod christus nos redemisset per velle comedere 
+          <lb ed="#L"/>et per velle ambulare et sic de aliis
+        </p>
+        <p xml:id="pg-b3q2-d1e1634">
+          <pc type="#pilcrow"/> Ad 5m negatur assumptum quia malitita 
+          <lb ed="#L"/>peccati non solum quantificatur penes extrinsecum malitiam vel circumstantiam 
+          <lb ed="#L"/>aut inclinationem sed penes rationem intrinsecam et voluntatis conatum
+        </p>
+        <p xml:id="pg-b3q2-d1e1643">
+          <pc type="#pilcrow"/>Ad 
+          <lb ed="#L"/>6m negatur consequentia quia christus habuit tantam iustitiam quod homo etiam si per infinitos 
+          <lb ed="#L"/>annos viveret invita ista non attingeret ad beatitudinem animae christi 
+          <lb ed="#L"/>quia alterius speciei est iustitia quam christus habuit a iustitia quam habet purus 
+          <lb ed="#L"/>viator ymmo forte iustitia animae christi est alterius speciei a iustitia 
+          <lb ed="#L"/>alterius beati
+        </p>
+        <p xml:id="pg-b3q2-d1e1659">
+          <pc type="#pilcrow"/>Ad 7m negatur consequentia ad probationem dicitur quod licet peccata omnia simul 
+          <lb ed="#L"/>iuncta intrinsece fuisset peiora quam actus christi sit bonus intrinsece per 
+          <lb ed="#L"/>divinam tamen potentiam et acceptationem ille actus fuit in infinitum magis 
+          <lb ed="#L"/>meritorius quam illa mala demeritoria etiam ymaginabile est quod illa 
+          <lb ed="#L"/>iustia fuit supra totam iustitiam beatorum ymmo etiam forte comprehensorum 
+          <lb ed="#L"/>sicut illa claritas qua videt in verbo est super illam qu videt in genere 
+          <lb ed="#L"/>proprio patet per hoc solutio ad 8m
+        </p>
+        <p xml:id="pg-b3q2-d1e1678">
+          <pc type="#pilcrow"/>Ad 9m dicitur quod <name>anselmus</name> loquitur 
+          <lb ed="#L"/>et solum vult quod magis sit congruum ad superandum dyabolum 
+          <pb ed="#L" n="205-v"/>
+          <lb ed="#L"/>ut per deum homo redimeretur ita quod in talibus <unclear>auctoribus</unclear> non <unclear>capitur</unclear> neccessariam 
+          <lb ed="#L"/>pro neccessitate exigentiae sed congruentiae et decentiae quia congruum fuit ut 
+          <lb ed="#L"/>ille qui fuit creator esset redemptor et recreator
+        </p>
+        <p xml:id="pg-b3q2-d1e1703">
+          <pc type="#pilcrow"/>Item ut redemp<lb ed="#L"/>tor 
+          fortior et potentior esset quam perdeitor <pc type="virgula">/</pc> Item ut ille esset redemptor 
+          <lb ed="#L"/>qui erat hominis iustus et verus possessor <pc type="virgula">/</pc> Item homo nobis fuit 
+          <lb ed="#L"/>utilius quia per hoc ad maiorem dei dilectionem inducimur <pc type="virgula">/</pc> Item homo 
+          <lb ed="#L"/>cautior redditur empti enim estis praetio <unclear>magno</unclear> etc <pc type="virgula">/</pc> Item nobis per<lb ed="#L"/>fectio 
+          paciem ostenditur christus factus est pro nobis etc <ref xml:id="pg-b3q2-Rd1e1734">prima petro 2o</ref> <pc type="virgula">/</pc> sed quod per 
+          <lb ed="#L"/>puram creaturam homo potuit reddimi patet quia si christus dimisisset 
+          <lb ed="#L"/>naturam assumptam cum actu suo non videtur quin deus potuit si voluisset 
+          <lb ed="#L"/>quod aliquis angelus posset redimere alios angelos patet quia christus potuit per 
+          <lb ed="#L"/>actus suos mereri redemptionem angelorum sed si angelus assumeretur a verbo ypostatice 
+          <lb ed="#L"/>actus eius posset esse aequaliter meritorius sicut fuit ergo
+        </p>
+        <p xml:id="pg-b3q2-d1e1752">
+          <pc type="#pilcrow"/>Ad 10m dicitur 
+          <lb ed="#L"/>ad gregorium sicut prius quod sumit rationabiliter pro congruitate quamdam quae est inter 
+          <lb ed="#L"/>offendentem et offensum
+        </p>
+        <p xml:id="pg-b3q2-d1e1761">
+          <pc type="#pilcrow"/>Ad 11m negatur consequentia loquendo in consequente de in<lb ed="#L"/>trinseca 
+          bonitate actus dico tamen quod fuisset infinite bonus nobis per denominationem 
+          <lb ed="#L"/>et acceptationem extrinsecam nec illa bonitas denominat subiectum bonum sed 
+          <lb ed="#L"/>intrinseca bonitas ipsius actus
+        </p>
+        <p xml:id="pg-b3q2-d1e1772">
+          <pc type="#pilcrow"/>Ad primum contra 2am conclusionem dicitur quod antecedens potest 
+          <lb ed="#L"/>dupliciter intelligi <pc type="virgula">/</pc> uno modo terminative subsistenter <pc type="virgula">/</pc> alio modo entitative substantialiter <pc type="virgula">/</pc> vel 
+          <lb ed="#L"/>subiective formaliter <pc type="virgula">/</pc> primo modo conceditur antecedens sed negatur consequentia <pc type="virgula">/</pc> 2o modo negatur antecedens et conseqentia 
+          <lb ed="#L"/>dubitatur
+        </p>
+        <p xml:id="pg-b3q2-d1e1799">
+          <pc type="#pilcrow"/>Ad 2m negatur consequentia ratio autem quare sibi repugnat <unclear>communia?tas</unclear> 
+          <lb ed="#L"/>ad extra et non ad intra potest esse quia talis communicatio essentialis subiectiva est 
+          <lb ed="#L"/>neccessario cum ydemptitate naturae et alteritate personae et haec duo repugnant 
+          <lb ed="#L"/>creaturae et per consequens talis communicatio repugnat sibi nota dicta contra hoc
+        </p>
+        <p xml:id="pg-b3q2-d1e1814">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 3m dicitur ad maiorem dicitur quod verum est si illud sit possibile <pc type="virgula">/</pc> 2o posset 
+          <lb ed="#L"/>negari minor quia non videtur quod maior bonitas reluceret in deo 
+          <lb ed="#L"/>ymmo esset perversio proprietatis divinae <pc type="virgula">/</pc> nam eodem mod posset concludi quod deus 
+          <lb ed="#L"/>posset facere essentialiter substantiam accidens et econverso et asinum angelum et converso 
+          <lb ed="#L"/>et de quolibet quodlibet patet quia per hoc maior bonitas reluceret in creaturis 
+        </p>
+        <p xml:id="pg-b3q2-d1e1835">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad 4m negatur consequentia ad probationem dicitur quod non est simile de sorte et de deo 
+          <lb ed="#L"/>quia omne hominem et propositum sorti et ideo sortes non potest fieri homo quin fiat 
+          <lb ed="#L"/>simpliciter sed esse hominem non est sic proprium esse dei quia quandoque fuit non homo 
+          <lb ed="#L"/>et potest esse non homo
+        </p>
+        <p xml:id="pg-b3q2-d1e1847">
+          <pc type="#pilcrow"/>Ad 5m dicitur quod illa regula habet quando determinatio etc
+        </p>
+        <p xml:id="pg-b3q2-d1e1852">
+          <pc type="#pilcrow"/>Ad 6m dicitur quod si rationale sumatur pro natura propria hominis non conveniente 
+          <lb ed="#L"/>deo nec angelo ita quod idem sit dicere quod aliquod animatum anima intellectiva 
+          <lb ed="#L"/>vel cuius anima est pars et sic negatur consequentia quia sic signaretur quod anima rationalis 
+          <lb ed="#L"/>
+          <pb ed="#L" n="206-r"/>esset pars dei formalis ad probationem dicitur quod regula tenet ubi diffinitum univoce 
+          <lb ed="#L"/>sumitur sicut quando de diffinito verficatur diffinitio sua et econverso aliter non <pc type="virgula">/</pc> nam 
+          <lb ed="#L"/>non sequitur digitus est substantia animata sensibilis ergo est animal <pc type="virgula">/</pc> ideo cum dicimus 
+          <lb ed="#L"/>animal est substantia animata sensibilis sumitur ibi praedicatum pro natura tali per se existente 
+          <lb ed="#L"/>in proprio supposito cuius pars formalis est anima modo deus non est sic substantia anima<lb ed="#L"/>ta 
+          sensibilis cuius pars formalis sit anima intellectiva <pc type="virgula">/</pc> Item dicitur quod deus 
+          <lb ed="#L"/>non est aliqua substantia nisi divina et illa non est animata licet sibi uniatur 
+          <lb ed="#L"/>ypostatice talis substantia animata sensibilis
+        </p>
+        <p xml:id="pg-b3q2-d1e1890">
+          <pc type="#pilcrow"/>Item dicitur quod ille tres creatura non est 
+          <lb ed="#L"/>superius ad istum terminum homo nisi quanod homo non competit alicui increato per 
+          <lb ed="#L"/>communicationem ydiomatum ide non sequitur ille est homo ergo est creatura sic forte 
+          <lb ed="#L"/>non sequitur deus est homo ergo deus est substantia animata etc
+        </p>
+        <p xml:id="pg-b3q2-d1e1901">
+          <pc type="#pilcrow"/>Ad 7m dicitur quod supponit 
+          <lb ed="#L"/>pro increato sed non sequitur ergo deus factum est aliquod increatum sed sufficit quod deus 
+          <lb ed="#L"/>sit aliquod increatum quod de novo est homo <pc type="virgula">/</pc> nam in insta sortes nunc factus est 
+          <lb ed="#L"/>albus subiectum et probatum supponunt pro eodem tamen non sequitur sortes nunc factus 
+          <lb ed="#L"/>est albus ergo nunc factus est sortes
+        </p>
+        <p xml:id="pg-b3q2-d1e1919">
+          <pc type="#pilcrow"/>Ad aliud cum quaeritur utrum illa natura dimissa etc 
+          <lb ed="#L"/>dicitur quod esset alius homo in supposito sed non in natura quia esset eadem natura quae prius fuerat 
+          <lb ed="#L"/>assumpta propria suppositatione et personalitate nunc suppositata et personata 
+        </p>
+        <p xml:id="pg-b3q2-d1e1928">
+          <lb ed="#L"/><pc type="#pilcrow"/>Ad aliud conceditur consequens et cum dicitur quod haec genuit virgo hoc est falsum demonstrata 
+          <lb ed="#L"/>natura dimissa quae est homo sed virgo genuit suppositum cui hoc fuit unitum 
+          <lb ed="#L"/>unde sicut nec materia nec forma generatur sic potest dici quod ille homo non est 
+          <lb ed="#L"/>genitus a virgine licet suppositum cui haec natura fuit bruta fuerit genitum <c>a</c> 
+          <lb ed="#L"/>virgine et conceptum in virgine <pc type="virgula">/</pc> patet per hoc ad 3am rationem quaestionis cum dicitur 
+          <lb ed="#L"/>verbum non est homo natus etc naturae antecedens ad <name>augustinum</name> dicitur quod debet intelligi quod 
+          <lb ed="#L"/>filius nullam substantiam vel entitatem habet a matre quae non sit creatura et hoc 
+          <lb ed="#L"/>est verum
+        </p>
+        <p xml:id="pg-b3q2-d1e1958">
+          <pc type="#pilcrow"/>2o nota quod haec propositio christus est homo creatus potest habere duplicem sensum primus 
+          <lb ed="#L"/>quod christus sit homo creatus secundum aliqua naturam suam et sic conceditur alius sensus christus 
+          <lb ed="#L"/>est homo creatus id est suppositum humanum creatum et sic est negandum
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
