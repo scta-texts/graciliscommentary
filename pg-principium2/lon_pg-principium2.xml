@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Principium 2 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Principium 2 [London Transcription]</title>
+          <date when="2019-07-15">July 15th, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-07-15" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="126-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-principium2">
+        <p>
+          <pb ed="#L" n="126-v"/>
+          <lb ed="#L" n="1"/><quote ana="#act10_9">Ascendit <name>petrus</name> in superiora domus</quote> <ref>actuum 10o</ref> <unclear>Reverendi</unclear> patres etc
+          <lb ed="#L"/>contemplanta sedulius indaganti profundius et perquirendi so<lb ed="#L"/>lertius 
+          luce clarius apparebit quod <name ref="#Lombard">magister petrus lumbardus</name> in 
+          <lb ed="#L"/>hoc 2o ut productorum contemplator creationem generalem declarat ut 
+          <lb ed="#L"/>vinciorum <unclear>defestrator</unclear> praesuppositionem materialem  reporbat ut humanorum gu<lb ed="#L"/>bernator 
+          transgressorem noxialem resecat ut electorum convocator di<lb ed="#L"/>rectionem 
+          virtualem propalavit ergo merito ut auditorum summus doctor in 
+          <lb ed="#L"/>cathedram hic ascendit vel celsam sedem hic asendit <pc type="virgula">/</pc> ista 
+          <lb ed="#L"/>consequentia patet quoniam contemplatori speculativo condempnatori reprobatio guber<lb ed="#L"/>natori 
+          ordinativo bono pastori <del>ordinativo</del> informativo debetur 
+          <lb ed="#L"/>locus summus in domo <pc type="virgula">/</pc>
+
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
