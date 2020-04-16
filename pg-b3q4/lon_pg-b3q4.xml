@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,55 +7,71 @@
         <editor>Natalie Tsottles</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2014.01-dev-master">
+        <edition n="0.0.0-dev">
           <title>Book III, Question 4</title>
           <date when="2014-01-27">January 27, 2013</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2014-01-27">January 27, 2013</date>  
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2014-01-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/citationlists/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="211-r"/>
       </div>
     </front>
     <body>
       <div xml:id="pg-b3q4">
-        <head>Book 3, Question 4</head>
+        <head>Quaestio 4</head>
         <p>
-          <!-- actuall seems to start on previous page 211r last line: "Circa distinctionem 23 3ii et sequentes quaeritur -->
-          <pb ed="#L" n="211v"/><lb ed="#L"/>Utrum spes fides caritas quae ad salutem finaliter 
+          <pc type="#pilcrow"/>Circa distinctionem 23 3ii et sequentes quaeritur
+          <pb ed="#L" n="211-v"/>
+          <lb ed="#L"/>Utrum spes fides caritas quae ad salutem finaliter 
           <lb ed="#L"/>requiruntur a spiritus sancti donis ac inter se realiter distinguuntur <g ref="#slash"/> pro non quia 
           <lb ed="#L"/><sic>quia</sic> fides spes caritas non requiruntur ad salutem cuiuslibet viatores ergo 
           <lb ed="#L"/>antecedens probatur quia si fides requireretur hoc esset quia esset virtus et medium merendi sed hoc posset 
           <lb ed="#L"/>falsum cum <corr>sit<del>i</del></corr> habitus intellectus et credere actus voluntatis <g ref="#slash"/> tum 2o quia <name ref="#Christ">Christus</name> habuit 
-          <lb ed="#L"/>omnes virtutes non tamen habuit fidem ergo <sic>fideus</sic> non est virtus </p>
-        
-        <p><g ref="#pilcrow"/> 2o arguitur de 
+          <lb ed="#L"/>omnes virtutes non tamen habuit fidem ergo <sic>fideus</sic> non est virtus 
+        </p>
+        <p>
+          <g ref="#pilcrow"/> 2o arguitur de 
           <lb ed="#L"/>spe quia cum spes secundum <name ref="#Boethius">Boetium</name> sit passio consolatiam[?] sequitur quod non sit virtus ad 
-          <lb ed="#L"/>salutem requisita </p>
-        
-        <p><g ref="#pilcrow"/> 3o probatur de caritate quia caritas non est una virtus ergo non 
+          <lb ed="#L"/>salutem requisita
+        </p>
+        <p>
+          <g ref="#pilcrow"/> 3o probatur de caritate quia caritas non est una virtus ergo non 
           <lb ed="#L"/>est virtus consequentiam tenet per <name ref="#Boethius">Boetium</name> dicentem <quote>omnem quod est ideo est quia unum numero est</quote> 
           <lb ed="#L"/>antecedens probatur quia cum caritas sit forma omnium virtutum oportet eam multiplicari secundum 
-          <lb ed="#L"/>multiplicationem omnem virtutum </p>
-        
-        <p><g ref="#pilcrow"/> 2o principaliter stat aliquem salvari sine virtute 
+          <lb ed="#L"/>multiplicationem omnem virtutum
+        </p>
+        <p>
+          <g ref="#pilcrow"/> 2o principaliter stat aliquem salvari sine virtute 
           <lb ed="#L"/>infusa ergo antecedens probatur quia aliqui invincibilem <name ref="#Christ">christum</name> et legem ignorantes salvabunt 
           <lb ed="#L"/>et tamen non habent virtutem infusam ergo assumptum patet quia stat homines alicuius sectae 
           <lb ed="#L"/>facere quidquid faciunt pro deo et in omnibus credere se obsequium prante[?] 
@@ -94,7 +107,7 @@
           <lb ed="#L"/>ipsius <name ref="#Job">iob</name> dicit significare tres virtutes theologicas scilicet fidem spem et caritatem</p> 
         
         <p><lb ed="#L"/><g ref="#pilcrow"/>Sed quod illae sint distincte inter se patet prime[?] ad corporum[?] 13o nunc autem manent 
-          <pb ed="#L" n="#212r"/><lb ed="#L"/>fides spes caritas tria haec maior autem horum est caritas <g ref="#slash"/> confirmatur quia fi<lb ed="#L"/>des 
+          <pb ed="#L" n="212-r"/><lb ed="#L"/>fides spes caritas tria haec maior autem horum est caritas <g ref="#slash"/> confirmatur quia fi<lb ed="#L"/>des 
           et spes evacuabuntur et non caritas ergo antecedens patet primae[?] coi[?] 13o cum 
           <lb ed="#L"/>venerit quod perfectum est tunc evacuabitur quod ex parte est </p>
         
@@ -150,7 +163,7 @@
           <lb ed="#L"/>salutem tamen nullus sine gratia et virtute debet sperare aeternam salutem 
           <lb ed="#L"/>seu beatitudinem prima pars est in sensu diviso sicut prima pars conclusionis quae patet de se </p>
         
-        <p><pb ed="#L" n="212v"/><lb ed="#L"/><g ref="#pilcrow"/>2a pars probatur quia talis expectatio non foret spes sed praesumptio quae non est alicui 
+        <p><pb ed="#L" n="212-v"/><lb ed="#L"/><g ref="#pilcrow"/>2a pars probatur quia talis expectatio non foret spes sed praesumptio quae non est alicui 
           <lb ed="#L"/>licita secundum quod dicit <name ref="#Lombard">magister</name> 26 distinctione 3ii nam dicit quod sine meritis bea<lb ed="#L"/>tudinem 
           sperare non spes sed praesumptio dici potest </p>
 
@@ -202,7 +215,7 @@
         <p><g ref="#pilcrow"/>2m corollarium sicut non quilibet quamlibet tenetur diligere sic 
           <lb ed="#L"/>inconparabiliter[?] debet suum bonum spirituale plus quam proximi appetere prima pars 
           <lb ed="#L"/>patet quia aliter non esset ordo diligendorum in caritate <g ref="#slash"/> 2a pars probatur quia quilibet debet 
-          <pb ed="#L" n="213r"/><lb ed="#L"/>in infinitum plus suum malum fugere quam cuiuscumque alterius </p> 
+          <pb ed="#L" n="213-r"/><lb ed="#L"/>in infinitum plus suum malum fugere quam cuiuscumque alterius </p> 
         
         <p><g ref="#pilcrow"/>Ex quo patet eciam quod nullus 
           <lb ed="#L"/>debet peccare venialiter ne proximus peccet mortaliter patet sicut praecedens 
@@ -258,7 +271,7 @@
         <p><g ref="#pilcrow"/>2o quia aliquis fidelis existens tempore 
           <lb ed="#L"/><choice><orig>concepcionis</orig><reg>conceptionis</reg></choice> christi post horam incarnationis credidit ipsum incarnandum 
           <lb ed="#L"/>et hoc eadem fide qua credidit ipsum incarnandum antequam esset incarnatus quia vera[?] 
-          <pb ed="#L" n="213v"/><lb ed="#L"/>ipsum latuit momentum <choice><orig>incarnacionis</orig><reg>incarnationis</reg></choice> hoc posito talis falsum credidit <g ref="#slash"/> ergo </p> 
+          <pb ed="#L" n="213-v"/><lb ed="#L"/>ipsum latuit momentum <choice><orig>incarnacionis</orig><reg>incarnationis</reg></choice> hoc posito talis falsum credidit <g ref="#slash"/> ergo </p> 
         
         <p><lb ed="#L"/><g ref="#pilcrow"/>3o actui latriae quam fides imperat potest subesse falsum ergo fidei consequentia bona 
           <lb ed="#L"/>patet antecedens quia fidelis potest adorare hostiam non sacratam ipsam credens 
@@ -319,7 +332,7 @@
           <lb ed="#L"/>moriturum loquebatur secundum cursum naturae secundum dispositionem quam vidit in lumine 
           <lb ed="#L"/>prophetico nec ars nec natura posset ipsum liberare a morte et hoc eciam ex 
           <lb ed="#L"/>parte dei revelantis ipsi regi denuntiavit vicem[?] cum postea propheta 
-          <pb ed="#L" n="214r"/><lb ed="#L"/>praenunciavit ei vitam prolongatam annis 15 <g ref="#dot"/> hoc fuit de divina potentia 
+          <pb ed="#L" n="214-r"/><lb ed="#L"/>praenunciavit ei vitam prolongatam annis 15 <g ref="#dot"/> hoc fuit de divina potentia 
           <lb ed="#L"/>non secundum naturalem influentiam et ideo utrumque dictum fuit verum suo modo <g ref="#slash"/> Item 
           <lb ed="#L"/><name>ezechiae</name> fuit mortuus peccatis ut viveret vita iustitiae <g ref="#slash"/> similiter de <name>iona</name> 
           <lb ed="#L"/>dicitur quod prophetia sua fuit condicionalis saltim conditione sub intellecta scilicet si 
@@ -365,7 +378,7 @@
         
         <p><lb ed="#L"/><g ref="#pilcrow"/>Ad 5m negatur maior quia in dilectione innitimur directioni nostrae cogitationis 
           <lb ed="#L"/>quae est lumen et directorium fallibile sed in fide infusa innitimur directioni divino  
-          <pb ed="#L" n="214v"/><lb ed="#L"/>et lumini increato principaliter motivo[?] et ideo non est similem </p> 
+          <pb ed="#L" n="214-v"/><lb ed="#L"/>et lumini increato principaliter motivo[?] et ideo non est similem </p> 
         
         <p><g ref="#pilcrow"/>2o potest negari minor 
           <lb ed="#L"/>quia caritas infusa non diligit nisi quod debet sed si homo errat in di<lb ed="#L"/>ligendo 
@@ -421,7 +434,7 @@
         <p><g ref="#pilcrow"/>Ad 2m argumentum principale conclusionis quod videtur facere contra dicta in 
           <lb ed="#L"/>2a conclusione negatur antecedens et cum probatur quia aliqui invincibiliter etc <g ref="#slash"/> dicitur primo quod si tales 
           <lb ed="#L"/>infideles facerent quod in se est illuminarentur a deo et virtutes eis infunderentur  
-          <pb ed="#L" n="215r"/><lb ed="#L"/>et ideo tales non ignorant christum ininvincibiliter et quando dicitur quod omem genus 
+          <pb ed="#L" n="215-r"/><lb ed="#L"/>et ideo tales non ignorant christum ininvincibiliter et quando dicitur quod omem genus 
           <lb ed="#L"/>tormenti etc dicitur quod illi stante eorum infidelitate non faciunt aliquid propter deum 
           <lb ed="#L"/>unde potest dici quod si facerent talia propter deum superficialiter aestimative optando 
           <lb ed="#L"/>non tamen libere affective taliter vere virtuose sicut debent opera sua in deum 

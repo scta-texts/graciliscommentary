@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,802 +7,910 @@
         <editor xml:id="CO">Calix Ohara</editor>
       </titleStmt>
       <editionStmt>
-        <edition n="2015.04">
+        <edition n="0.0.0-dev">
           <title>Librum IV, Quaestio 1 [London Transcription]</title>
           <date when="2015-04-10">April 10, 2015</date>
         </edition>
       </editionStmt>
       <publicationStmt>
-        <publisher>Lombard Press</publisher>
-        <pubPlace>Baltimore, MD</pubPlace>
+        <authority>SCTA</authority>
         <availability status="free">
-          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
-        <date when="2015-04-10">April 10, 2015</date>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="L">London, British Museum Royal 10 A I</witness>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
     <revisionDesc status="draft">
       <listChange>
-        <change when="2015-04-10" who="#KB" status="draft" n="2015.04">
-          <p>Created file for the first time.</p>
-          <note type="status">
-            <note type="collobaration">Yes</note>
-            <note type="validating-schema">lbp-0.0.1</note>
-            <note type="transcription-type">documentary</note>
-          </note>
+        <change when="2015-04-10" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
         </change>
       </listChange>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="includeList">
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
-        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="219-v"/>
       </div>
     </front>
-      <body>
-         <p>Circa quartum moveo talem questionem primo
-            <lb ed="#L"/>utrum sacramenta novae legis gratiae causativa causaliter Christi plebis sint 
-            <lb ed="#L"/>iustificativa </p>
-          
-         <p><g ref="#pilcro"/> utrum sicut sacramenta novae legis animas gratificant formaliter
-            <lb ed="#L"/>sic institutus animabus Christi gregis seu plebis aliquid efficiant realiter seu
-            <lb ed="#L"/>causaliter</p>
-         
-         <p><g ref="#pilcro"/> quod non quia nulla sunt novae legis sacramenta patet quia frustra fit per
-            <lb ed="#L"/>plura etc (dot) sed fides et impletio praeceptorum sufficiunt ad salutem ergo sacramentorum
-            <lb ed="#L"/>institutio est frustra sed deus et natura nihil agunt frustra ergo nullum sacramentum
-            <lb ed="#L"/>deus Christis instituit ergo nullum est novae legis sacramentum</p> 
-         
-         <p><g ref="#pilcro"/> secundo quia sacramenta no-<lb ed="#L"/>vae 
-            legis non sunt gratiae creativa <unclear>probatio</unclear> quia cui repugnat virtus creativa (dot)
-            <lb ed="#L"/>eidem repugnat creativum gratiae sed creativa virtus repugnat sacramentis cum sint
-            <lb ed="#L"/>creata ergo maior probatur quia gratia non recipit esse nisi per creationem non enim est
-            <lb ed="#L"/>edictibilis(sic) de potentia materiae sicut aliae qualitatis formae corporales </p>
-         
-         <p><g ref="#pilcro"/> tertio nulla
-            <lb ed="#L"/>virtus spiritualis formaliter in habens sacramentis est ponenda patet quia vel virtus
-            <lb ed="#L"/>unius sacramenti est eiusdem rationis cum virtute alterius vel non si sic sequitur super fluiter
-            <lb ed="#L"/>ponendi tot sacramenta cum virtus unius sufficiat nec 2m quia effectus omnium
-            <lb ed="#L"/>principalis est gratia qui est eiusdem rationis in quolibet sacramento </p>
-         
-         <p><g ref="#pilcro"/> confirmatur quia vel illa
-            <lb ed="#L"/>virtus de potentia subiecti ecucitur vel creatur a deo in sacramento si primum sequitur quod subiectum
-            <lb ed="#L"/>primum sequitur quod subiectum(sic)(rep) fuit prius in potentia naturali ad istam virtutem et sic non esset virtus
-            <lb ed="#L"/>supernaturales si dicitur quod creatur a deo hoc non videtur rationabile scilicet quod creet rem
-            <lb ed="#L"/>tam subito adnihilandam facta actione ergo </p>
-         
-         <p><g ref="#pilcro"/> in oppositum illud quod est
-            <lb ed="#L"/>causa effectus spiritualis vel est spiritus secunda se vel habet virtutem in se spiritualitem 
-            <lb ed="#L"/>sed sacramenta legis novae sunt causa? spiritualis effectus et non sunt spiritus secundum se
-            <lb ed="#L"/>ergo habent spiritualem virtutem maior patet quia aliter effectus esset praestantior sua causa</p>
-         
-         <p><pb ed="#L" n="220r"/><lb ed="#L"/>sed quod sacramenta non sunt spiritus patet quia sunt res corporales quia vero sint causae effectus
-            <lb ed="#L"/>spiritualis patet quia mediantibus ipsis confertur gratia </p>
-         
-         <p><g ref="#pilcro"/> praemitto quod sacramentum est
-            <lb ed="#L"/><choice><orig>in visibilis</orig><reg>invisibilis</reg></choice> gratiae visibilis forma (dot) ut eius ymaginem gerat et causa ex<lb ed="#L"/>istat 
-            <g ref="#slash"/>In hac descriptione ponitur forma pro signo quod habet se tamquam genus 
-            <lb ed="#L"/>quod dicitur sacramentum est sacrae rei signum et illa res sacra est gratia per quam anima
-            <lb ed="#L"/>formaliter gratificatur<g ref="#slash"/> item visibilis capitur comuniter pro quolibet sensibili aliquo
-            <lb ed="#L"/>quinque sensuum exteriorum<g ref="#slash"/> et intelligitur quod sit signum non quo ad esse rei sed quo
-            <lb ed="#L"/>ad fieri seu conferri ut scilicet collatio gratiae per hoc notificetur et per hoc distinguitur
-            <lb ed="#L"/>a multis signis non sacramentalibus</p>
-         
-         <p><g ref="#pilcro"/> prima conclcusio licet necessarium fuerit necessitate
-            <lb ed="#L"/>congruentiae pro distinctis temporum mensuris deum instituere remedia numero
-            <lb ed="#L"/>differentia seu spiritualia iuvamenta tamen pro aliquo statu vel statibus aliquibus
-            <lb ed="#L"/>non decuit nec opertuit? aliqua habere sacramenta <g ref="#slash"/> prima pars probatur quia congruum
-            <lb ed="#L"/>fuit deum creare nostrum salutem per aliqua media seu instrumenta ergo
-            <lb ed="#L"/>consequentia patet quia sacramenta non sunt nisi vasa gratiae contentiva ac <unclear><sic>declarativa</sic></unclear> (dot)
-            <lb ed="#L"/>antecedens probatur quia licet deus in sua actione non egeat causis 2is instramentalibus
-            <lb ed="#L"/>tamen vult propter perfectionem effectuum vel causarum 2arum vel propter prefectionem universi
-            <lb ed="#L"/>operari per causas instramentales creatas</p>
-         
-         <p><g ref="#pilcro"/> confirmatur quia in providentia naturali deus
-            <lb ed="#L"/>operatur mediantibus causis 2is illa quae posset se solo operari ergo et provi<lb ed="#L"/>dentia
-            morali et voluntaria decet eum sic operari tenet consequentia tamen 2a
-            <lb ed="#L"/>non sit minus perfecta quam prima (dot) et antecedens patet ad sensum in effectibus naturalibus 
-            <lb ed="#L"/>causarum 2arum</p>
-         
-         <p><g ref="#pilcro"/> pro quo notandum quod quia deus operatur aliqua per causas 2as instru-<lb ed="#L"/>mentales 
-            hoc cedit quinque ad dignitatem instrumenti sicut humanitas christi
-            <lb ed="#L"/>est instrumenti omni operationem nostrae redemptionis et virgo totius gratiae nobis
-            <lb ed="#L"/>factae et sancti suis orationibus sunt medium nostrae salutis similiter angeli
-            <lb ed="#L"/>superiores illuminationes inferiores et hoc dicit <name>Dennis</name> quod <unclear>dtgressimum</unclear> est dei coopera-<lb ed="#L"/>torem 
-            esse <unclear>ullum</unclear> vero hoc cedit ad malum instrumenti sicut demones
-            <lb ed="#L"/>sunt excecutores dominae iustitiae et <unclear>aliquando</unclear> mali homines solum magistrem
-            <lb ed="#L"/>distinctionem ultima praemi</p>
-         
-         <p><g ref="#pilcro"/><unclear>ullum</unclear> vero non cedit ad dignitatem nec indignitatem
-            <lb ed="#L"/>instrumenti vel causae 2ae sed ad decorem universi sicut est in causis naturalibus non
-            <lb ed="#L"/><unclear>umentibus</unclear> ut in caelo et stellis quae faciunt ad generationem inferiorum</p>
-         
-         <p><g ref="#pilcro"/> <unclear>ullum</unclear>
-            <lb ed="#L"/>vero cedit ad bonum illorum ad quos provenit actio et non ad dignitatem
-            <lb ed="#L"/>vel ad bonum instrumenti etc in proposito de sacramentis ideo dicit magister distinctione
-            <lb ed="#L"/>prima 4i quod triplia de causa sacramenta sunt insituta scilicet propter humiliationem (dot)
-            <lb ed="#L"/>eruditionem et exercitationem scilicet rite suscipientium</p>
-         
-         <p><g ref="#pilcro"/> 2a pars conclusionis 
-            <lb ed="#L"/>probatur quia ubi non est infirmitas vel deffectus ibi non est medicinae sana<lb ed="#L"/>tivae
-            necessitas sed in statu in nocente non fuit aliqua infirmitas ergo
-            <lb ed="#L"/>ergo(sic) nec sacramentorum indigentia <g ref="slash"/> maior patet per magistrum distinctione et non
-            <lb ed="#L"/>est opus valentibus medicus sed male humanitatibus in <unclear>emigrato</unclear> <unclear>scribitur</unclear> <g ref="slash"/> <unclear>vor</unclear>
-            <lb ed="#L"/>patet quia status in nocente fuit sine perfecto sed quod sacramenta sint medicinae patet</p>
-         
-         <p><pb ed="#L" n="220v"/><lb ed="#L"/>tam per magistrem in principio primae distinctionis quam per <unclear>hugonem</unclear> dicens sacramenta sunt
-            <lb ed="#L"/>vasa medicinalia <g ref="slash"/> item pro statu gloriae homo non indiget medicina erg</p>
-         
-         <p><lb ed="#L"/><g ref="#pilcro"/>prima corollarium licet viator ad salutem pluribus indigeat tempore legis
-            <lb ed="#L"/>gratiae quam naturae tamen haec sacramenta <unclear>plurificere</unclear> multum salubre sint viatoribus
-            <lb ed="#L"/>et utile <g ref="slash"/> prima pars patet quia modo aliqua sacramenta sunt viatoribus necessaria ad
-            <lb ed="#L"/>salutem quae non erant necessaria pro lege naturae nec ad illa obligabantur ergo
-            <lb ed="#L"/>pluribus indigemus tempore isto quam etc <g ref="slash"/> secunda pars probatur sacramenta enim novae
-            <lb ed="#L"/>legis sic <unclear>plurificta</unclear> <choice><orig>abreviant</orig><reg>abbreviant</reg></choice>iter viae peregrinationis <unclear>initium</unclear> quod eorum
-            <lb ed="#L"/>devoti cultores <unclear>plus</unclear> mortem corporalem ad caelum evolant quod non
-            <lb ed="#L"/>poterant facere sacramenta legis naturae nec <unclear>e contra</unclear> legis <unclear>inosayce</unclear> quia ianua
-            <lb ed="#L"/>caeli clausa sint usque ergo sacramenta novae legis vigorem <unclear>superserunt</unclear>
-            <lb ed="#L"/>ex aqua et sanguine quae fluxerunt de christi laterae ergo pluralitas sacramentorum
-            <lb ed="#L"/>non impedit sed promonet naturalem salutem</p>
-         
-         <p><g ref="#pilcro"/>2m corollarium licet in statu
-            <lb ed="#L"/>innocente fuerit matrimonium a deo institutum tamen matrimonium quod tunc
-            <lb ed="#L"/>non fuit sacramentum <g ref="slash"/> prima patet per magistrum in <unclear>principio</unclear> quarti ubi ponit quod deus
-            <lb ed="#L"/>tunc matrimonialiter Adam et Evam convinxit et matrimonium instituit
-            <lb ed="#L"/>2a pars patet per conclusionem quia illo statu medicina non fuit necessaria</p>
-         
-         <p><g ref="#pilcro"/> confirmatur
-            <lb ed="#L"/>quia matrimonium ut est sacramentum est institutum in officium et in remedium sed <corr><add place="marginRight"></add></corr>
-            <lb ed="#L"/>tunc non erat aliqua rebellio carius ad spiritualem ergo</p>
-         
-         <p><g ref="#pilcro"/> tertium corollarium quod
-            <lb ed="#L"/>non sint necessarium aut congruum <unclear>aut</unclear> lapsum angelorum aliquod esse aut
-            <lb ed="#L"/>institui sacramentum patet quia nulla erat culpa</p>
-         
-         <p><g ref="#pilcro"/> ex conclusio videtur sequere probabiliter
-            <lb ed="#L"/>quod si adam non <choice><orig>praecasset</orig><reg>praecessit</reg></choice> deus ullum sacramentum ordinasset patet quia <unclear>talia</unclear>
-            <lb ed="#L"/>ordinantur in remissionem peccatorum sed nulla fuissent peccata ut sic <unclear>proposito</unclear>
-            <lb ed="#L"/>ergo licet unum aliquod ordinasset quod nunc est sacramentum quia de sacramento <unclear>aut</unclear> peccatum
-            <lb ed="#L"/>primorum parentum matrimonium ordinaverit</p>
-         
-         <p><g ref="#pilcro"/>secunda conclusio quod sacramenta novae le<lb ed="#L"/>gis
-            realiter et effectivae sunt tam nostrae salutum instrumentaliter et <unclear>dis<lb ed="#L"/>positivae</unclear>
-            nisi sit obex in recipente licet non attingant essentiam gratiae in mediante
-            <lb ed="#L"/>creative <g ref="slash"/> prima pars patet quia mediantibus sacrimentis novae legis confertur gratia
-            <lb ed="#L"/>ergo antecedens patet per doctores quia alitur non different a sacamentis antiquae
-            <lb ed="#L"/>legis quod patet falsum ergo</p>
-         
-         <p><g ref="#pilcro"/><unclear>2oc</unclear> omnis medicina sanativa habet aliquam
-            <lb ed="#L"/>activitatem super sanitate inducenda (dot) sed sacramenta sunt medicinae sana<lb ed="#L"/>tivae
-            ergo sed sanitas animae est formaliter per gratiam ergo se habent actione
-            <lb ed="#L"/>ad gratiae creationem quidam est in <unclear>m</unclear> propositum</p>
-         
-         <p><g ref="#pilcro"/>tertio quod licet instumentum habet ali<lb ed="#L"/>quam
-            activitatem respectu eius effectus ergo <unclear>contracta</unclear> bona quia deus operatur
-            <lb ed="#L"/>nostram salutatem per sacramenta</p>
-         
-         <p><g ref="#pilcro"/>confirmatur quia semen principalis se habet actione <unclear>m</unclear>
-            <lb ed="#L"/><unclear>generatione</unclear> hominis <corr><del rend="strikethrough">ergo</del></corr> et tum non in mediante attingit creationem animae rationalis
-            <lb ed="#L"/>ergo a simili sacramentum post se habere respectu gratiae positivae actione non attingens</p>
-         
-         <p><pb ed="#L" n="221r"/><lb ed="#L"/>ipsam gratiam in mediante <unclear>saltuu</unclear> creativa</p>
-         
-         <p><g ref="#pilcro"/>primum corollarium quod sacramentum legis
-            <lb ed="#L"/>novae non solum est causa sine qua non gratiae infusae (dot) contra <sic>quemdam</sic> <unclear>opinionem</unclear> patet quia 
-            <lb ed="#L"/>sunt causae nostrae salutis seu gratiae realiter et effectivae</p>
-      
-         <p><g ref="#pilcro"/>secundo quia tunc sacramenta 
-            <lb ed="#L"/>essent causae per accedens ipsius gratiae est falsum quia tunc non deberet poni in
-            <lb ed="#L"/>diffinitionae sacramenti cuius oppositionem patet in diffinitione posita</p>
-
-         <p><g ref="#pilcro"/>tertio quia sacramenta sunt
-            <lb ed="#L"/>medicinae contra morbos <corr><del rend="strikethrough">naturales</del></corr> spirituales quae non sunt minus efficaces
-            <lb ed="#L"/>quam medicinae corporales sed medicinae sunt causae per se sanitatis ergo</p>
-         
-         <p><g ref="#pilcro"/>secundum corollarium
-            <lb ed="#L"/>licet in veteri lege circumcisio rite suscepta fuerit originalis peccati mun<lb ed="#L"/>dativa 
-            tamen nec circumcisio nec alia legis observantia fuit realiter et
-            <lb ed="#L"/>effective gratiae causativa (dot) prima patet quia illo tempore fuit circumcisio medicina
-            <lb ed="#L"/>contra originalem maculam <g ref="slash"/> 2a pars probatur quia tunc inter circumcisionem et
-            <lb ed="#L"/>baptismum non esset differentia quod est falsum <choice><orig>ymmo</orig><reg>imo</reg></choice> baptismus non esset perfectior circum<lb ed="#L"/>cisione</p>
-         
-         <p><g ref="#pilcro"/>confimatur per <title>glossam</title> quae habetur <ref><title>ad romanos</title> quarto</ref> ubi dicitur quod <quote>in circum<lb ed="#L"/>cisione
-            remittebantur peccata tantum sed gratia non dabatur</quote> <g ref="slash"/> tamen quia <name>thomas
-            <lb ed="#L"/>de argentina</name> tenet oppositum 2ae partis corollarii respondet ad has rationes et primo
-            <lb ed="#L"/>dicit quod baptismus dignior est circumcisione quia amplior gratia confertur in 
-            <lb ed="#L"/>baptismo quam in circurmcisione et ideo illa sacramenta differunt <g ref="slash"/> Ad <ref><title>glossam</title> allegatum</ref>
-            <lb ed="#L"/>dicit quod loquitur de gratia super <choice><orig>habudanti</orig><reg>abundanti</reg></choice> prout ex virutute mortis 
-            <lb ed="#L"/>apperuit iamiam caeli <g ref="slash"/> sed illa responsio non valet quia secundum omnes sacramenta legis
-            <lb ed="#L"/>novae differunt specie a sacramentis antique modo maius et minus non variant
-            <lb ed="#L"/>speciem secundum gradum ergo non differunt penes maiorem collationem vel minorem
-            <lb ed="#L"/>ut dicit</p>
-         
-         <p><g ref="#pilcro"/>Item nec secundum dictum suum valet unde illa <ref><title>glossa</title> post verba illa
-            <lb ed="#L"/>allegata</ref> dicit per circumcisionem tantem peccatum remittebatur set nec gratia
-            <lb ed="#L"/>ad bene operandum per eam <unclear>praemiabatur</unclear> nec virtutes dabantur In baptismo
-            <lb ed="#L"/>vero omnia peccata dimittuntur et gratia cooperandi confertur et virtutes
-            <lb ed="#L"/>augentur et ibi nulla gratiam ponit nec mentionem facit de ea (dot)
-            <lb ed="#L"/>gratia super <choice><orig>habudanti</orig><reg>abundanti</reg></choice> sed de gratia bene operandi</p>
-         
-         <p><g ref="#pilcro"/>tertium corollarium quod nec ve<lb ed="#L"/>teris
-            nec novae legis salutaribus sacramentis aut statutis comunicata (dot)
-            <lb ed="#L"/> est aut comunicari potest per se efficacia creaturae virtutis paret <name>augustinum</name> in
-            <lb ed="#L"/> <ref><title>de verae innocentia</title> propositione 146</ref> dicentem <quote>nullius rei <unclear>quamvis</unclear> minime
-            <lb ed="#L"/>nisi deum creatorem dici aut credi licet</quote></p>
-         
-         <p><g ref="#pilcro"/>Item idem super <title>genese</title> dicit
-            <lb ed="#L"/><quote>angeli nullam possunt omnino creare naturam sed videtur magis angelos
-            <lb ed="#L"/>posse creare quam ipsa sacramenta seu habere vim creativam</quote> ergo</p>
-         
-         <p><g ref="#pilcro"/>Sed for<lb ed="#L"/>te
-            diceretur quod illa intelliguntur de <unclear>potentia</unclear> ordinata et secundum legem
-            <lb ed="#L"/>et cursum naturae communem <choice><orig>Iset</orig><reg>isset</reg></choice> <unclear>reverenda</unclear> (dot) hoc non valet nec sufficit quia ibidem creare
-            <lb ed="#L"/>posset sed per nullam <unclear>positam</unclear> posset fieri quod <unclear>angelus</unclear> crearet se ispum ergo nec
-            <lb ed="#L"/>patest aliud a se creare et per consequens nec natura inferior angelo creare poterit <g ref="#slash"/></p>
-         
-         <p><pb ed="#L" n="221v"/><lb ed="#L"/><g ref="#pilcro"/>hic tamen <unclear>interrogo</unclear> per creare non solum aliquid de nullo facere sed esse aliquid <choice><orig>indeppen<lb ed="#L"/>denter</orig><reg>indepen<lb ed="#L"/>denter</reg></choice>
-            ex nullo producere <g ref="#slash"/> Item patet per <name>Athanasium</name> <unclear>libro</unclear> quam fecit contra
-            <lb ed="#L"/><unclear>arrium</unclear> ubi dicit creativa creatricem esse non poose nulli omnino es<lb ed="#L"/>timo
-            esse dubium <g ref="#slash"/> notandum tamen quod corollarium intelliter de natura unita non
-            <lb ed="#L"/><choice><orig>ypotheticae</orig><reg>hypotheticae</reg></choice> alicui supposito domino quia homo est creator caeli et terrae licet non sit
-            <lb ed="#L"/>concedendum quod ille sit creatura nisi secundum humanitatem</p>
-         
-         <p><g ref="#pilcro"/>Tertia conclusio quod deus
-            <lb ed="#L"/>non solam per virtutem in creatam spirituali influentia sacramentis assistit sed <unclear>et</unclear> per
-            <lb ed="#L"/>virtute creatam quam ipsis confert seu infudit <unclear>passio</unclear> pars non est dubia
-            <lb ed="#L"/>et <unclear>convenientur</unclear> a doctoribus ponitur</p>
-         
-         <p><g ref="#pilcro"/>Tamen pro intellectu conclusionus notandum quod generaliter
-            <lb ed="#L"/>dei influentia est quoniam deus concurrit cum rebus ad explendas earum operatio<lb ed="#L"/>nes
-            secundum formas ipsis inditas naturales<g ref="#slash"/>Spiritualis <unclear>vero</unclear> quonuam concurrit
-            <lb ed="#L"/>cum eis ad operationes ad quas non habent inclinationem naturale sicut quod subito
-            <lb ed="#L"/>ex ligno fiat <unclear>animal vinum et</unclear> est in proposito nam deus concurrit cum rebus
-            <lb ed="#L"/>naturalibus puta tamen aliquam et verbo nihil oleo  ad productionem effectus supernaturalis
-            <lb ed="#L"/>in anima nostra et imo ibi est influentia spiritualis et supernaturalis sed ultima hoc sacramenta
-            <lb ed="#L"/>habent aliquam virtute <unclear>spiritualem</unclear> dum actu suscipiuntur per quam in animam
-            <lb ed="#L"/>agunt <unclear>dd</unclear> dispositivae quod probatur quia super instrumentum in actione recipit aliquam virtutem
-            <lb ed="#L"/>proportiona tam agenti et subiecto in quod agit sed sacramenta sunt instumenta dei
-            <lb ed="#L"/>agentis in animam ergo</p>
-         
-         <p><g ref="#pilcro"/>secundo sic ignis infernalis in mediante agit in animam
-            <lb ed="#L"/><choice><orig>dampnatam</orig><reg>damnatam</reg></choice> ipsam supernaturaliter puniendo ergo <unclear>et</unclear> sacramentum patet aliquid in anima
-            <lb ed="#L"/>ad preparationem gratiae agendo antecedens patet ex fide sed consequentia probatur quia non
-            <lb ed="#L"/>plus patet ignis ille ex inscientia dei <unclear>punientum</unclear> quam possint sacramenta ex
-            <lb ed="#L"/><unclear>vonite</unclear> dei <unclear>iniserentis</unclear></p>
-         
-         <p><g ref="#pilcro"/>tertio sacramenta habent virtutem et efficaciam ex christi
-            <lb ed="#L"/>passione sed illa virtus non est corporea quia nec forma nec <unclear>materia</unclear> nec accidentia
-            <lb ed="#L"/>aliquam nec aliquid <unclear>tluum</unclear> ergo est virtus spiritualis consequentia patet per sufficientem divisionem
-            <lb ed="#L"/>et antecedens patet per <ref>glossam ad romanos</ref> hoc ubi dicitur quod <quote>sacramenta novae legis
-            <lb ed="#L"/>fluxerunt ex latem christi patientis in cruce et non quo ad aliquod esse cor<lb ed="#L"/>porale ergo quo ad esse spirituale quod est propositionem</quote></p>
-         
-         <p><g ref="#pilcro"/>pro ista parte sunt <unclear>auctoritates</unclear>
-            <lb ed="#L"/>augere dicentis quod tanta est bis <unclear>aliquem</unclear> in bapstismo quod corpus <unclear>tangut</unclear> et animas
-            <lb ed="#L"/>abluat sed illa ablutio animae non potest esse nisi spiritualis ergo <g ref="#slash"/> Item <ref><name>beda</name>
-            <lb ed="#L"/>in quadam omelia</ref> dicit quod christis tamen tactu suae <unclear>inundissimae</unclear> carnis vim
-            <lb ed="#L"/><unclear>regenarativam</unclear> contulit aquis</p>
-         
-         <p><g ref="#pilcro"/>primum corollarium quod non ex <unclear>materia</unclear> promissione
-            <lb ed="#L"/>deus solus operatur in anima habitum gratiae quod animae <unclear>instificacione</unclear> patet quod quia <unclear>papa</unclear>
-            <lb ed="#L"/>reverentur et <unclear>efficiam</unclear> sacramentorum legis ponitur in ipsis <unclear>quidam</unclear> virtus <unclear>activa</unclear>
-            <lb ed="#L"/>spiritualis qua possunt attingere substantiam animae ergo</p>
-         
-         <p><g ref="#pilcro"/>Ad praedictorum
-            <lb ed="#L"/><unclear>confirmationem</unclear> facit quod dictum fuit circa <unclear>principiam</unclear> <unclear>2i</unclear> quod posset deus conferre cuilibet 
-            <lb ed="#L"/>2o agenti virtutem <unclear>productiva cumlibet productiale a dextra</unclear> alterius a se nec tamen sequitur</p>
-         
-         <p><pb ed="#L" n="222r"/><lb ed="#L"/>quod si deus tamen homine produceret <unclear>anglelum</unclear> quod hoc esset creator angeli sed 
-            <lb ed="#L"/>bene esset concreator seu conproductor</p>
-         
-         <p><g ref="#pilcro"/>2m corollarium quod sicut anima vel voluntas 
-            <lb ed="#L"/>humana habet virtutem imperativam motus seu motivam manus aut
-            <lb ed="#L"/>pedis sic deus posset homini conferre huiusmodi virtutem motivam respectu ecclesiae
-            <lb ed="#L"/><name>beate virginis</name> seu palatii regis patet corollarium ex decriptione divine
-            <lb ed="#L"/>influentiae specialis posita in decleratione conclusionis</p>
-         
-         <p><g ref="#pilcro"/>3m corollarium ad integrandum
-            <lb ed="#L"/>aliquod unum sacramentum concurrunt virtutes diversarum rationum patet quia ministri
-            <lb ed="#L"/>verba et elementum sed eadem virtus non potest esse in illis omnibus aliter idem accidens
-            <lb ed="#L"/>esset in diversis substantiis simul<g ref="#slash"/>sed quad ille virtutes sint diversarum rationum
-            <lb ed="#L"/>patet quia receptiva sunt diversarum rationum ergo antecedens patet et consequentia tenet quia inteligibile
-            <lb ed="#L"/>receptivam virtutis recipit intellectualiter et corporale non <unclear>converso</unclear><g ref="#slash"/>ex dictis 
-            <lb ed="#L"/>sequitur affirmativa pars tituli</p>
-         
-         <p><g ref="#pilcro"/>quam primam partem primae conclusionis probatur quod non fuit decens
-            <lb ed="#L"/>tempore gratiae deum sacramenta instituere quia tempore libertatis et vitae spiritualis
-            <lb ed="#L"/>hoc liber non debuit subici virtuti et rebus corporeis sed <unclear>obligari</unclear>
-            <lb ed="#L"/>ad suscipiendum sacramenta quae sunt signa corporalia est servitus et <unclear>sub<lb ed="#L"/>iectio</unclear>
-            rerum corporalium seu <unclear>sensibilium</unclear> ergo maior est apostoli non <unclear>enstis</unclear> servi
-            <lb ed="#L"/>sub lege sed sicut liberi sub gratiam</p>
-         
-         <p><g ref="#pilcro"/>2o quia <unclear>pluralitatis</unclear> non est 
-            <lb ed="#L"/>ponenda sine necessitate sed deus cum <unclear>patientoribus</unclear> <unclear>remedus</unclear> potuit re<lb ed="#L"/>medium
-            homini ad <unclear>hiberni</unclear> ergo dato quod tunc fuint congruum deum insituere
-            <lb ed="#L"/>sacramenta non tamen tot quot de facto sunt instituta</p>
-         
-         <p><g ref="#pilcro"/>3o nulla sunt
-            <lb ed="#L"/>sacramenta <unclear>quin</unclear> de facto a christo fuerint insituta sed confirmato et extrema <unclear>unc<lb ed="#L"/>cio</unclear>
-            ymmo et matrimonium non legitimum a christo instituta ergo illa non sunt
-            <lb ed="#L"/>sacramenta</p>
-         
-         
-         <p><g ref="#pilcro"/>4o sacramenta sunt hominibus causa <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> et occasio ergo in nulla
-            <lb ed="#L"/>lege deubuerunt in statu tenet consequentia quia occasio talis semper est fugienda et
-            <lb ed="#L"/>cavenda (dot) et antecedens probatur per hoc quia spiritualis gratia dicit et dicitur conferri et contineri
-            <lb ed="#L"/>sub illis corporalibus sacramentis posset aliquis credere quod in rebus corporalibus
-            <lb ed="#L"/>sit aliquid deitatis et talia signa seu sacramenta essent us deitas adoranda igitur</p>
-         
-         <p><g ref="#pilcro"/>5o contra 2am partem <unclear>arguitur</unclear> quia quomodocumque statu hoc indiget
-            <lb ed="#L"/>gratia pro eodem statu indiget aut indiguit sacramentis sed in statu in<lb ed="#L"/>nocente
-            hoc indiguit gratia ergo et sacramentis maior patet quia gratia confertur
-            <lb ed="#L"/>homini pro ipsa sacramenta minor patet quia non obstante <unclear>ade</unclear> innocentia numquam
-            <lb ed="#L"/>tamen fuisset <unclear>consequtus</unclear> beatitudinem sine gratia</p>
-         
-         <p><g ref="#pilcro"/>Ad primum ubi tangitur et inqui<lb ed="#L"/>retur
-            de rationabilitate institutionis sacramentorum</p>
-         
-         <p><g ref="#pilcro"/>Ad vertendum quod status gratiae
-            <lb ed="#L"/>est <unclear>quasi</unclear> medius inter statum veterus legis qui fuit status servitutis
-            <lb ed="#L"/>perfectae et corporalitatis et inter statum gloriae quem erit perfectae libertatis
-            <lb ed="#L"/>et spiritualitatis et ideo ille status participat naturam extremorum quia ergo
-            <lb ed="#L"/>hoc instatu statu culpe deum offenderat creatura fruendo et ipsam
-            <lb ed="#L"/>deo proponendo rationabile fuit ut nunc papam deum creaturae se se humiliter subi<lb ed="#L"/>ciendo
-            deum placarent et quia hoc est convinctus corporali <unclear>sensibili</unclear> ut disceret</p>
-         
-         <p><pb ed="#L" n="222v"/><lb ed="#L"/>sensibilia referre in deum et eis debitae uti et non frui nec finem in eis con<lb ed="#L"/>stituere
-            sed per ea insuperiora duci et ordinari ideo debuit sic per sensi<lb ed="#L"/>bilia
-            ad invisibilia manu duci <g ref="#slash"/> et sic patet ad rationem quia ut in maiori
-            <lb ed="#L"/>tangitur in statu potentis vitae non est perfecta libertas nec <unclear>et sic</unclear> ut tan<lb ed="#L"/>gitur
-            in minori obligari ad suscipianda sacramenta est servitus rerum sensibilium
-            <lb ed="#L"/>sed potius servitus dei cui sui re regnare est nec ea devotae suscipae
-            <lb ed="#L"/> est propriae subici eis sed deo ideo non concludit ratio quia minor est falsa</p>
-         
-         <p><g ref="#pilcro"/>Ad
-            <lb ed="#L"/><note type="marginalNote" place="marginLeft">Sufficientiam sacramentorum nota bene</note>2m ubi quaeritur de sufficientia sacramentorum dicitur quod sufficientia congruitatis quo ad
-            <lb ed="#L"/>numerum septenarium potest multipliciter sumi tam ex parte morborum
-            <lb ed="#L"/>contra quos sacramenta sunt medicinalia quia  etiam sunt septem morbi specia<lb ed="#L"/>les
-            et capitales <g ref="#slash"/> quam ex parte remediorum adhibitorum personis
-            <lb ed="#L"/>privatis et comunitati <g ref="#slash"/> unde <name>magister petrus de pallude</name> ponit unum
-            <lb ed="#L"/>bonum modum qui sumiter per comparationem et considerationem necesario
-            <lb ed="#L"/>requisitorum ad bene esse cuiuslibet legis vel sectae <g ref="#slash"/> nam secundum <name>philosophum</name>
-            <lb ed="#L"/>in <title>ethicis</title> latera <unclear>etiam</unclear> cultus deorum est quasi naturae legis et ideo oportet ponere 
-            <lb ed="#L"/>aliquid esse quod offeramus et adoremus in nostra lege et hoc est sacramentum eu<lb ed="#L"/>karistiae
-            <g ref="#slash"/>2o quia propter reverentiam habemus oportet ministros ad hoc esse certos
-            <lb ed="#L"/>et consecratos et hoc est ordinis sacramentum ad hoc insitutum 3o quia oportet huius
-            <lb ed="#L"/>legis homines per aliquid significari et distingui a non talibus sic pro hoc
-            <lb ed="#L"/>est sacramentum baptismatis <g ref="#slash"/> 4o quia oportet pugnantes pro lege confortari potis<lb ed="#L"/>ime 
-            si sint in loco periculi et sic est sacramentum confirmationis ubi spiritus
-            <lb ed="#L"/>sanctus datur ad robur et hoc maxime fuit necessariam tempore persecutionum
-            <lb ed="#L"/>in primititiva  ecclesia <g ref="#slash"/> 5o quia oportet in qualibet lege fieri propagationem et
-            <lb ed="#L"/>crementum per homines illius legis qui magis invicem sibi invicem mercede 
-            <lb ed="#L"/>sunt fideles ideo est sacramentum matrimonii</p>
-         
-         <p><g ref="#pilcro"/>6o quia in qualibet lege dicet
-            <lb ed="#L"/>esse via reconsiliandi rationes ideo statutum est sacramentum <unclear>prime</unclear> <g ref="#slash"/> maior est
-            <lb ed="#L"/>aliquod spirituale in lege nostra per <unclear>quaedam</unclear> ecclesia militans ordinatur ad trium<lb ed="#L"/>phantem 
-            in qua ituri sumus et intraturi sunt legis melatores 
-            <lb ed="#L"/>et ideo indigent salubri conducto <unclear>quaedam</unclear> fit per extrema unitionem et sic
-            <lb ed="#L"/>heremus a (dot) sacramenta <unclear>quae</unclear> nec <choice><orig>defficiunt</orig><reg>deficiunt</reg></choice> nec super <choice><orig>habundant</orig><reg>abundant</reg></choice> et per hoc patet
-            <lb ed="#L"/>ad 2am rationem</p>
-         
-         <p><g ref="#pilcro"/>Ad 3m dicunt quidam quod christis solum instituit sa<lb ed="#L"/>cramenta
-            digniora et principiora <unclear>sic</unclear> baptismi <choice><orig>eukaristiae</orig><reg>eucharistiae</reg></choice> et ordinis quae sunt necessitatis
-            <lb ed="#L"/>et forte sacramentum paenitentiale alia vero sacramenta apostolis constitui comm<lb ed="#L"/>sit
-            <g ref="#slash"/> sed tamen <unclear>continentius</unclear> et melius dicitur quid omnia constituit in propria persona 
-            <lb ed="#L"/>vel similiter et absolute vel <unclear>aliquomodo</unclear> <unclear>approbative</unclear> sed promulgationem ipsorum
-            <lb ed="#L"/>commisit apostolis et ecclesiae et <unclear>ostendit</unclear> hoc magister de quolibet sigillati</p>
-
-         <p><g ref="#pilcro"/>
-            <lb ed="#L"/>Ad 4m negatur antecedens et ad probationem dicitur quid licet per sacramenta conferatur 
-            <lb ed="#L"/>gratia tamen non dicit aestimari quod in eis aliquid sit deitatis essentialiter <g ref="#slash"/> vel</p>
-         
-         <p><pb ed="#L" n="223r"/><lb ed="#L"/>quod sint deus quia deitas non est gratia seu accidens ideo non datur <unclear>materia</unclear>
-            <lb ed="#L"/>nec occasio <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> sed dominum orandi qui per suam minam me<lb ed="#L"/>diantibus
-            sacramentis dedit hominibus gratiam et sic non est ibi materia <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> data licet posset esse accepta per malos</p>
-           
-         <p><g ref="#pilcro"/>Ad 5m dicitur quod licet si hoc mansisset in statu innocentiae <choice><orig>indignisset</orig><reg>indignavisset</reg></choice> <unclear>habitu</unclear> gratiae
-            <lb ed="#L"/>prout gratia virtus dicitur non tamen <choice><orig>indignisset</orig><reg>indignavisset</reg></choice> gratia sacramentali quia ut sic <corr><add place="marginRight">Sacramenta novae legis aliquo <unclear>huere efficariaeg</unclear> suam</add></corr>
-            <lb ed="#L"/>dicitur medicina contra peccatorum vulnera</p>
-         
-         <p><g ref="#pilcro"/>Item circa istam <unclear>materiam</unclear> notandum est
-            <lb ed="#L"/>quod ut <unclear>communiter</unclear> dicitur omnia sacramenta legis novae suas efficias superserunt 
-            <lb ed="#L"/>ex christi passione ut ostendit <ref><name>Augustinus</name> 3o de <title>Civitate Dei</title> capitulo 16o et libro 2o capitulo primo</ref> insignum huius omnia sacramenta praedicta in eius passione
-            <lb ed="#L"/><unclear>aliquo</unclear> apparuerunt <g ref="#slash"/> nam baptismus in aliqua lateris vel ex latere
-            <lb ed="#L"/><g ref="#slash"/> confirmo in spiritu et sanguine <g ref="#slash"/> <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> in toto corpore seu in tota per<lb ed="#L"/>sona 
-            quem fuit deo hostia vera <g ref="#slash"/> paenitentia vero in confirmatione et prima 
-            <lb ed="#L"/>latronis pendentis mixta summum sacerdotum christam <g ref="#slash"/> ordo quia tunc
-            <lb ed="#L"/>exercuit excellentissimum actum sacerdotii <g ref="#slash"/> matrimonium quia ecclesiam
-            <lb ed="#L"/>sibi sponsam confirmavit et acceptavit <g ref="#slash"/> unctio in corporis e contra
-            <lb ed="#L"/>unctione vel potius in linitione sanguinis ex corpore mortuo
-            <lb ed="#L"/>emanentis</p>
-         
-         <p><g ref="#pilcro"/>Item posset notari qui unum sacramentum patet dici alio <corr><add place="marginRight">Unum sacramentum quo est <unclear>dignus</unclear> alio quintupliciter</add></corr>
-            <lb ed="#L"/>dignius diversimode <g ref="#slash"/> uno modo ex <unclear>effectius</unclear> quam <unclear>civitate</unclear> et sic baptismus <unclear>excellit</unclear>
-            <lb ed="#L"/>quia tollit culpam <g ref="#slash"/> 2o modo conferentis dignitate et sic confirmo quia confertur 
-            <lb ed="#L"/>ab episcopis <g ref="#slash"/> 3o modo rei nobilitate sic est <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> quia continet christum <g ref="#slash"/> 4o modo
-            <lb ed="#L"/>significatione sic est matrimonium quia significat unionem christi et ecclesiae et naturarum 
-            <lb ed="#L"/>in christo <g ref="#slash"/> 5o ratione dignitatis recepte sic est ordo quia ordinatus
-            <lb ed="#L"/>ad digniorem gradum in ecclesia reponitur unde versus <g ref="#slash"/> manet <corr><add place="marginRight">8 nota versus</add></corr>
-            <lb ed="#L"/>vel maior in effectu corus in esse <g ref="#slash"/> coniugium <unclear>signo</unclear> maiori chrisma 
-            <lb ed="#L"/>ministro</p>
-         
-         <p><g ref="#pilcro"/>Item posset notari quid inter sacramenta duo sunt volentis
-            <lb ed="#L"/>scilicet order et coniugum reliqua quandoque sunt necessitatis vel in facto vel in voto
-            <lb ed="#L"/>licet non simpliciter et absolute sed diversimode et sensum dei legem ordinata</p>
-         
-         <p><g ref="#pilcro"/>contra 2am conclusionem arguitur primo sic vel sacramenta essent tam sine qua non gratiae
-            <lb ed="#L"/>vel alio modo propriae <g ref="#slash"/> primum non debet duci ut infra dictum est <g ref="#slash"/> nec 2m quia tunc
-            <lb ed="#L"/>gratia haberent causam creativam naturaliter et necessario agentem et sic gratia non
-            <lb ed="#L"/>esset gratia nec adeo <choice><orig>deppendens</orig><reg>dependens</reg></choice> in mediante <g ref="#slash"/> <unclear>Et</unclear> si dicatur quod sacramenta
-            <lb ed="#L"/>non attingunt per dominationem gratiae in mediante sed disponunt <g ref="#slash"/> contra quia si sic ad huc sequetur quod corporem agent in spiritum consequentia patet quia dispositurae
-            <lb ed="#L"/>est agere sed patet falsitas tum quia agens dicet esse praestantius passo
-            <lb ed="#L"/>tum quia corpus non patet agere nisi per contactum corpus autem non patet
-            <lb ed="#L"/>tangere spiritum qua tactus est applicatio extremorum sensum sicut</p>
-         
-         <p><g ref="#pilcro"/>2o qia si</p>
-         
-         <p><g ref="#pilcro"/><pb ed="#L" n="223v"/><lb ed="#L"/>sacramentum ageret vel libere vel naturaliter non 2m quia tunc omnibus aequatur
-            <lb ed="#L"/>ageret quod est falsum quia unus plus alius minus recipit de gratia in sus<lb ed="#L"/>ceptione
-            sacramentorum <g ref="#slash"/> nec primum cum non habeat voluntatem nec intellectum
-            <lb ed="#L"/>quia est signum corporeum</p>
-         
-         <p><g ref="#pilcro"/>3o illa dispositio animae inducta per sacramentum vel educitur de potentia <corr><del rend="strikethrough"><unclear>materiae</unclear></del></corr> animae vel non si no sequetur quod illa creatur et sic 
-            <lb ed="#L"/>virtus creativa de facto communicatur creature <g ref="#slash"/> si  sic vel educitur de potentia
-            <lb ed="#L"/>animae <unclear>obedientiali</unclear> vel naturali <g ref="#slash"/> si 2m cum cuilibet potentiae passivae <corr><del rend="strikethrough">con</del></corr> naturali 
-            <lb ed="#L"/><unclear>corrumpat</unclear> activa naturalis sequetur quod agens naturale posset talem animam dis<lb ed="#L"/>ponere
-            quod esset causa gratiae totalis si primum cum omnia talia a deo solo
-            <lb ed="#L"/>creentur sequetur ut primus quod creatura erit instrumentum creationis et sic sequetur quod 
-            <lb ed="#L"/>deus mediante creatura posset create animam rationalem et angelos patet consequentia 
-            <lb ed="#L"/>quia e contra ad hoc anima est in potentia obidientiali</p>
-         
-         <p><g ref="#pilcro"/>4o talis dispositio per sacramentum in<lb ed="#L"/>ducta
-            vel est necessitatis ad gratiam vel non si primum hoc est falsum quia omnis 
-            <lb ed="#L"/>suscipientes sacramentum reciperent gratiam tunc e contra quia deus necessaretur per
-            <lb ed="#L"/>sacramentum ad dandum homini gratiam quod est falsum <g ref="#slash"/> nec 2m quia tunc foret 
-            <lb ed="#L"/>per accidens an gratia conferetur per sacramentum et sic sacramentum <corr><add>non</add></corr> posset dici causa
-            <lb ed="#L"/>gratiae plus quam alterius rei</p>
-         
-         <p><g ref="#pilcro"/>5o nulla creatura potest creare aut esse
-            <lb ed="#L"/>instrumentum dei seu domine creationis sed gratia gratiam non producitur <unclear>vir</unclear> per
-            <lb ed="#L"/>creationem ergo nullum sacramentum potest <unclear>dispositivae</unclear>  gratiam creare</p>
-         
-         <p><g ref="#pilcro"/>contra primam
-            <lb ed="#L"/>parte 2i <unclear>coru</unclear>  eius arguitur quia <name>Iohannes</name> baptisma non videtur fuisse verum<lb ed="#L"/>datus 
-            ab originali ex vi illius circumcisionis et tamen fuit ante christum
-            <lb ed="#L"/>et tempore circumcisionis ergo maior patet <unclear>ait</unclear> 4o ubi dicit <name>Iohannes</name> christo ego de 
-            <lb ed="#L"/>beo a te baptizari gloria <unclear>iurisperitus</unclear> a peccato originali mundari ergo</p>
-         
-         <p><g ref="#pilcro"/>contra 2am
-            <lb ed="#L"/>parte eiusdem quia a <unclear>quocumque</unclear> deus tollit culpam eidem confert gratiam sed de<lb ed="#L"/>bite
-            suscipientes circumcisionem mundabantur <unclear>acueripa</unclear> ergo confere<lb ed="#L"/>batur
-            gratia</p>
-         
-         <p><g ref="#pilcro"/>contra 3m corollarium arguitur quia de facto agens naturale de speciebus
-            <lb ed="#L"/>panis et vini potest in <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> producere formam vermis substantialem sed illa 
-            <lb ed="#L"/>non educitur de potentia cum ibi nulla sit materia nisi corporis christi 
-            <lb ed="#L"/>igitur illa forma creatur</p>
-         
-         <p><g ref="#pilcro"/>2o  anima rationalis potest fieri a puro homine et
-            <lb ed="#L"/>non potest fieri nisi per creationem quia non est <unclear>educibile</unclear> de potentia materiae <unclear>generalis</unclear>
-            <lb ed="#L"/>maior patet quia nisi sic sequitur quod deus <corr><del rend="strikethrough">non</del></corr> posset eam <unclear><corr><add place="above"></add>nos</corr></unclear> creare quoniam hoc generat
-            <lb ed="#L"/>non inpediendo naturalem actionem hominis in generando <g ref="#slash"/> ponatur igitur quod
-            <lb ed="#L"/>sic fiat tunc sequitur quod hoc naturaliter generaret animal brutum et alterius speciei
-            <lb ed="#L"/>sed consequens istud est falsim <g ref="#slash"/> et probatur consequentia quia cum semen alterius animalis sequitur quod hoc ge<lb ed="#L"/>nerabit
-            aliquod animal et non rationale ergo brutum <g ref="#slash"/> Item sequitur aliter quod species 
-            <lb ed="#L"/>hominis non esset pars essentialis universi nisi hoc posset generare naturaliter
-            <lb ed="#L"/>hominem cum influentia generali quia esset naturalis corporalis nec positionem perpetuari</p>
-         
-         <p><pb ed="#L" n="224r"/><lb ed="#L"/>a se cum generali in fluentia sed illa sunt falsa ergo</p>
-         
-         <p><g ref="#pilcro"/>Ad primum dicitur quod <unclear>ster</unclear> 
-            <lb ed="#L"/>causa <unclear>2omodo</unclear> et cum infertur ergo gratia habet causam necessario agentem causa tam
-            <lb ed="#L"/>conceditur dispositivae scilicet animam <unclear>disponendo</unclear> ad gratiam et naturae ulterior consequentia
-            <lb ed="#L"/>ergo gratia non in mediante <unclear>deppendum</unclear> a deo</p>
-         
-         <p><g ref="#pilcro"/>Item cum infertur ultra
-            <lb ed="#L"/>ergo corporem agit in spiritum conceditur quia <unclear>fantasmata</unclear> naturaliter agunt
-            <lb ed="#L"/>in <unclear>intellectum</unclear> licet in virtute intellectus agentis</p>
-        
-         <p><g ref="#pilcro"/>Item ignis inferni
-            <lb ed="#L"/>in premit aliquam dispositionem in spiritu <choice><orig>dampni</orig><reg>damni</reg></choice> nato</p>
-            
-         <p><g ref="#pilcro"/>item posset dici
-            <lb ed="#L"/>ut supra quod corpus non agit in spiritum rem corporalem sed spiritualem sicut
-            <lb ed="#L"/>obiectum materiale chartam naturaliter principaliter tamen cognitionem <unclear>secundum</unclear>  in intellectu 
-            <lb ed="#L"/>nostro <g ref="#slash"/> et cum infertur ergo gratia non esset cum haberet causam creatam <unclear>2cur</unclear>
-            <lb ed="#L"/>naturae consequentia quia totum est gratuitum quod deus sacramentis confert et
-            <lb ed="#L"/>in ipsis operatur patet ergo quod corpus agit in spiritum non propria virtute
-            <lb ed="#L"/>sed ut instrumentum superioris virtutis sicut dictum est de igne
-            <lb ed="#L"/>inferni <g ref="#slash"/> Et cum dicitur quod agens debet esse <unclear>praestantius</unclear> passo conceditur
-            <lb ed="#L"/>quo ad formam quam debet conferre passo non autem quo ad praestantiam
-            <lb ed="#L"/>aut nobilitatem naturae et dignitatis specie quia tunc ignis numquam 
-            <lb ed="#L"/>posset <unclear>conburere</unclear> vaccam nec leo occidere hominem in ideo licet sacramenta
-            <lb ed="#L"/>in esse naturae et entitatis non sunt perfectiora quam sit anima vel gratia
-            <lb ed="#L"/>quia tamen virtus dei operatur in sacramento et per sacramentum <unclear>huius</unclear> sacramentum habet
-            <lb ed="#L"/>aliquam praestantiam activitatis respectu animae vel gratiae <g ref="#slash"/>2o posset dici quod 
-            <lb ed="#L"/>illa auctoritas intelliter de agente principali et in virtute propria agenti
-            <lb ed="#L"/>non de instrumentali sic est in proposito</p>
-         
-         <p><g ref="#pilcro"/>Ad aliud cum arguitur de con<lb ed="#L"/>tactu
-            <lb ed="#L"/>dicitur quod quia <unclear>talis</unclear> actio est <unclear>aliquomodo</unclear> spirituales ideo ibi non opertet
-            <lb ed="#L"/>quod sit contactus corporeus et situalis seu quam <unclear>titulus</unclear> sed spiritualis
-            <lb ed="#L"/>et virtualis sicut quoniam angelus aliquod movet corpus</p>
-         
-         <p><g ref="#pilcro"/>Ad 2m principale
-            <lb ed="#L"/>posset dici quod utroque modo agit sacramentum quia naturaliter agit <unclear>quantum</unclear>
-            <lb ed="#L"/>est ex se <g ref="#slash"/> et actione libera non sua sed in quantum est ex motione agentis
-            <lb ed="#L"/>superioris et principalis scilicet dei et ministri applicantis seu subiecti <unclear>recipitis</unclear>
-            <lb ed="#L"/>ideo non oportet quod aequaliter agat in omnibus quia non invenit subiectum
-            <lb ed="#L"/>ubique aequaliter dispositum nec aequaliter movetur a principali agen<lb ed="#L"/>te
-            scilicet deo</p>
-         
-         <p><g ref="#pilcro"/>Ad 3m dicitur quod in sacramentis in prementibus caracterem 
-            <lb ed="#L"/>illa disposito patet dici caracter In alius autem quae non in premunt 
-            <lb ed="#L"/>dicitur ornatus aiere licet non habeamus nomen proprium ipsius <unclear>expressimus</unclear>
-            <lb ed="#L"/>quia spiritualia non sunt nobis <unclear>in libro</unclear> cum nota et cum talia a solo
-            <lb ed="#L"/>deo creentur <g ref="#slash"/> dicitur quod duplex est potentia <unclear>obedentialis</unclear> <g ref="#slash"/> quaedum sola <unclear>obedentialis</unclear>
-            <lb ed="#L"/>susceptionis quaedam vero eductionis modo anima non habet nisi <unclear>obendentialem</unclear></p>
-         
-         <p><pb ed="#L" n="224v"/><lb ed="#L"/>potentiam susceptionis respectu gratiae <g ref="#slash"/> gratia vero habet <unclear>obedientialem</unclear> potentiam eductionis
-            <lb ed="#L"/>respectu talis ornatus seu dispositionis ideo bene per causam2am in virtute
-            <lb ed="#L"/>de agentem <unclear>pater</unclear> produci sed non sequitur quod anima posset creare animam vel angelum sed forte posset cum producere cum deo</p>
-         
-         <p><g ref="#pilcro"/>Ad 4m potest dici quod
-            <lb ed="#L"/>supposita sic dei lege et ordinatione est necessaris sed talis necessaris est
-            <lb ed="#L"/>ex fine vel supposito vel <unclear>condicionata</unclear> non <unclear>absolura</unclear> nec sequitur deum esse
-            <lb ed="#L"/>similiter necessitatum ad infundendum gratiam</p>
-         
-         <p><g ref="#pilcro"/>Ad 4m dicitur quod aliqua creantur 
-            <lb ed="#L"/>quae <unclear>nullo modo</unclear> prae supponunt subiectum <g ref="#slash"/> quaedam vero quae prae supponunt nec esse possunt 
-            <lb ed="#L"/>sine subiecto modo ad propositionem maior est vera de creatis <unclear>primo modo</unclear> non de <unclear>2o modo</unclear> <g ref="#slash"/> 2o
-            <lb ed="#L"/>posset maior similiter negari</p>
-         
-         <p><g ref="#pilcro"/>Ad illud contra corollarium de Iohanes baptismata conceditur
-            <lb ed="#L"/>antecedens et netur consequentia quia in utero martyris fuit inundatur ab originali
-            <lb ed="#L"/>et sanctificatus per gratiam luce primo ideo non fuit similem de ipso et de alus 
-            <lb ed="#L"/>Sed contra quia Johanes fuit circumcisus die 8o ut patet luce primo <g ref="#slash"/> vel
-            <lb ed="#L"/>ergo non fuerat mundatus vel circumcisio non erat originalis culpae me<lb ed="#L"/>dicina
-            patet consequentia quia frustra daretur illis medicina qui nullam
-            <lb ed="#L"/>habent infirmitatem nec haberent nec unquam habituri essent quia illa culpa
-            <lb ed="#L"/>non redit in <unclear>recidivante</unclear></p>
-         
-         <p><g ref="#pilcro"/>Ad hoc potest dici quod sicut in lege <unclear>ennaca</unclear>
-            <lb ed="#L"/>licet per baptismum tollatur originale tamen si animas sanctificatus ex utero nasceretur 
-            <lb ed="#L"/>sine peccato <unclear>nihilominus</unclear> deberet baptizari ad satisfaciendum legi et praeceptis
-            <lb ed="#L"/>ecclesiasticae sic licet circumcisio mundaret ab originali peccato eum quem invenit
-            <lb ed="#L"/>infectum in lege veteri si tamne aliquae fuerunt primus mundati ex utero 
-            <lb ed="#L"/>sanctificati sicut <name>Ieremias</name> <name>Iohannes</name> item <unclear>nihilominus</unclear> tamen debebant circumcidi
-            <lb ed="#L"/>et non legi  <choice><orig>difformari</orig><reg>deformari</reg></choice> hac eum de causa christis circumcisus finesse
-            <lb ed="#L"/>dicitur quia non venerat legem solvere sed adimplere Ad glossam quae in 
-            <lb ed="#L"/>ducitur super illo ego debeo a te baptizari <unclear>id est</unclear> a peccato originali 
-            <lb ed="#L"/>mundari <g ref="#slash"/> Dicitur hic quod ante mortem christi quilibet hoc <unclear>quemcumque</unclear> mundatus 
-            <lb ed="#L"/>esset tamen tenebatur rebus pro solutionem debiti quod christis soluit per
-            <lb ed="#L"/>suam passionem et ideo a tali obligatione debuit <name>Iohannes</name> adhoc
-            <lb ed="#L"/>mundari et solui a christo et hoc <unclear>interedit</unclear> illa glossa</p>
-         
-         <p><g ref="#pilcro"/>Ad maiorem contra 
-            <lb ed="#L"/>2am parte eiusdem <unclear>coru</unclear> conceditur assumptionem stante dei ordinatione etiam
-            <lb ed="#L"/>stante tempore veteris legis et novae tamen dicitur quod gratia <unclear>^</unclear> conferebatur quae
-            <lb ed="#L"/>suscipientibus rite suscipientibus circumcisionem non fuit a circumci<lb ed="#L"/>sione
-            nec <choice><orig>deppendebat</orig><reg>dependebat</reg></choice> ab ea realiter causaliter et effectivae <g ref="#slash"/> bene licet
-            <lb ed="#L"/>daretur gratia circumcisis hoc solum fuit ratione operis operantis
-            <lb ed="#L"/>per modum <unclear>videnti</unclear>  non ratione operis operati per modum sacramenti sicut fit
-            <lb ed="#L"/>in baptismo</p>
-         
-         <p><g ref="#pilcro"/>Ad primum contra tertium corollarium dicitur uno modo <unclear>declinando</unclear> antecedens quia si <add place="bottom">4 forma 4 149 codex</add></p>
-         
-         <p><pb ed="#L" n="225r"/><lb ed="#L"/>forma vermis vel alia inducitur deus ibi creat materiam vel 
-            <lb ed="#L"/>recreat de qua educitur et vermis producitur</p>
-         
-         <p><g ref="#pilcro"/>2o potest dici quidquid fit ibi illud fit miraculo se ac si hostia non est <unclear>confectura</unclear> 
-            <lb ed="#L"/>et sic <unclear>quidque</unclear> congelantur ibi species vini etiam</p>
-         
-         <p><g ref="#pilcro"/>3o positionem negari consequentia (dot)
-            <lb ed="#L"/>quia dato quod agens creatum produceret aliquid ex non aliquo tamen non
-            <lb ed="#L"/>crearet quia non in <choice><orig>deppendentur</orig><reg>dependentur</reg></choice> agent nec esset principale agens
-            <lb ed="#L"/>sed cum producens cum deo ut fuit visum in <unclear>2o</unclear></p>
-         
-         <p><g ref="#pilcro"/>Ad 2m netur antecedens
-            <lb ed="#L"/>ad propositionem de anima rationali dicitur sequendo viam praetactam quid purus hoc post
-            <lb ed="#L"/>esse partialis <unclear>conproductor</unclear> animae non tamen creator ipsius <g ref="#slash"/> 2o dicitur <unclear>quidque</unclear> sit
-            <lb ed="#L"/>possibile feri per potentiam dominam absolutam tamen de facto anima creatur
-            <lb ed="#L"/>et producitur a solo deo <g ref="#slash"/> Et cum <unclear>dicatur</unclear> quod hoc <unclear>vim</unclear> <unclear>generativam</unclear> etiam (dot)
-            <lb ed="#L"/>Dicitur hic quod hoc licet potentiam habeat generativam perfectiorem quo ad dis<lb ed="#L"/>postionem
-            materiae quam <unclear>alia</unclear> cetera tamen non quo ad inductionem forem quae est 
-            <lb ed="#L"/>anima rationalis quia deus sic ordinavit <g ref="#slash"/> propter melius ut hoc haberet animam
-            <lb ed="#L"/>nobiliorem a primo principio naturae et anima alia superflueret in homine
-            <lb ed="#L"/>cum pro intellectivam creatam homines possibiliter sufficienter omnis  opositiones
-            <lb ed="#L"/>vitales perficere</p>
-         
-         <p><g ref="#pilcro"/>ad aliud dicitur quod ratio nihil concludit nisi quod species
-            <g ref="#pilcro"/>humana non ita sufficienter ex se est spes essentialis universi eter<lb ed="#L"/>na
-            sicut species ceterae ubi simile producit quo ad formam et hoc 
-            <lb ed="#L"/>deus voluit propter melius</p>
-         
-         <p><g ref="#pilcro"/>contra 3am conclusionem probatur quod deus non confert
-            <lb ed="#L"/>sacramentis aliquam virtutem spiritalem creatam quia vel talis esset perma<lb ed="#L"/>nens
-            vel successiva non primum quia tunc super esset in subiecto stante constantia 
-            <lb ed="#L"/>subiecti et ageret in quemlibet in differuntur quae sunt falsa nec 2m quia tunc esset 
-            <lb ed="#L"/>in <unclear>praedicamento</unclear> qualitatis licet hoc est falsum quia tunc in angelo sicut non potest
-            <lb ed="#L"/>esse albedo vel alia qualitas corporalis sic e contra virtus spiritualis
-            <lb ed="#L"/>seu qualitas non potest esse in aliquo corpore</p>
-         
-         <p><g ref="#pilcro"/>2o si aliqua virtus spiritu<lb ed="#L"/>alis
-            esset in verbis <unclear>sacramentalibus</unclear> vel talis esset tota in toto et tota
-            <lb ed="#L"/>in qualibet parte vel tota in toto et pars in parte vel tota in una parte 
-            <lb ed="#L"/>verborum et non in alia sed neutrum horum <unclear>valet</unclear> dici ergo brevior patet quia non
-            <lb ed="#L"/>primum quia ex eodem sequetur quod tota illa virtus esset in potentia <choice><orig>sillaba</orig><reg>syllaba</reg></choice> et sic
-            <lb ed="#L"/>illa prolata effectus esset productus et sic totam residuum verorum
-            <lb ed="#L"/>superflueret <g ref="#slash"/> nec 2m qua tunc numquam produceretur effectus adunatam
-            <lb ed="#L"/>quod non potest esse hic cum partes ille non sint similis sed successivae
-            <lb ed="#L"/>proferuntur et dum una est alia non est nec potest dari 3m quia
-            <lb ed="#L"/>non est maior ratio quod illa virtus sit <corr><add place="above">in</add></corr> una parte verborum quam in alia</p>
-         
-         <p><pb ed="#L" n="225v"/><lb ed="#L"/>etiam quia tunc illa parte prolata produceretur effectus <unclear>et sic</unclear> aliae partes ver<lb ed="#L"/>borum
-            vel aliae ductiones superfluerent</p>
-         
-         <p><g ref="pilcro"/>3o quia vel talis virtus po<lb ed="#L"/>neretur
-            in sacramentis sequitur quod <unclear>aliquomodo</unclear> continent suum effectum vel igitur ut
-            <lb ed="#L"/>causa univoca vel ut aequivoca non primum cum non sint eiusdem rationis
-            <lb ed="#L"/>nec 2m quia tunc oporteret quod res in animata scilicet sacramentum nobiliori modo
-            <lb ed="#L"/>continent gratiam quam anima consequens est falsum</p>
-         
-         <p><g ref="#pilcro"/>4o contra hoc est 3a ratio principalis
-            <lb ed="#L"/>conclusionis quia vel talis virtus esset eiusdem rationis in omnibus sacramentis vel non
-            <lb ed="#L"/>sed alterius et sic</p>
-         
-         <p><g ref="#pilcro"/>Ad primum dicitur quod illa virtus in aliquibus est permanens 
-            <lb ed="#L"/>aliqualiter scilicet in sacramentis consecratis seu <unclear>consecrateris</unclear> ut in sancto oleo 
-            <lb ed="#L"/><unclear><choice><orig>cirsinatae</orig><reg>circinatae</reg></choice></unclear> et fonte sacro sed cum applicantur ad usum <unclear>moto</unclear> super
-            <lb ed="#L"/>additur sensum illam formam per dominam virtutem medietate tali virtute in<lb ed="#L"/>strumentaliter
-            operante</p>
-         
-         <p><g ref="#pilcro"/>2o posset dici et melius quod talis virtus habet formae 
-            <lb ed="#L"/>proprietatem successivae modo quo successivo potest esse informis spiritualibus
-            <lb ed="#L"/>qui propriae non subiacent tempori patet quia talis virtus est in sacramento per
-            <lb ed="#L"/>modum formae in quodam fieri vel fluxu et <unclear>quoniam</unclear> dicitur an sit qualitas
-            <lb ed="#L"/>corporalis et sic dicitur quod corporalis potest dici ratione subiecti quia recipitur cor<lb ed="#L"/>poraliter
-            et spiritualis ratione agentis et effectus proximi in quem ordinatur
-            <lb ed="#L"/><g ref="#slash"/> et cum dicitur si esset corporalis non posset disponere ad gratiam dicitur quod est
-            <lb ed="#L"/>verum si esset mire corporalis et agent propria virtute <g ref="#slash"/> Et quoniam dicitur quod qua<lb ed="#L"/>litas
-            spiritualis non potest esse in corpore <g ref="#slash"/> dicitur quod formae mire cor<lb ed="#L"/>poreae
-            et quantitates et qualitates actione et passione et consequentes eas non possunt esse in corpore
-            <lb ed="#L"/>tamen cum hoc stat quod deus potest spirituales virtutes conferre corporibus 
-            <lb ed="#L"/>modo praeducto</p>
-         
-         <p><g ref="#pilcro"/>Ad 2m potest dici quod talis virtus est in ultimo verbo quod
-            <lb ed="#L"/>producit totum effectum in virtute <choice><orig>praecedencium</orig><reg>praecedentium</reg></choice> sicut <unclear>ultiam</unclear>gutta
-            <lb ed="#L"/>cavat lapidem et actus ultimus generat habitum in virtute ac
-            <lb ed="#L"/>tuum <choice><orig>praecedencium</orig><reg>praecedentium</reg></choice> <g ref="#slash"/> sed hoc non videtur sufficere rationi quia unum verbum
-            <lb ed="#L"/>non disponit subjectum ad effectum alterius verbi sicut est in actibus 
-            <lb ed="#L"/>quia in se consequentibus relinqueretur aliqua dispositio creata a <corr><del rend="strikethrough"><unclear>ppei</unclear></del></corr> praecedentibus
-            <lb ed="#L"/>quod non est in proposito nam in <unclear>medietatibus</unclear> effectus omni verborum est dispositio
-            <lb ed="#L"/>sed dispositionis non est dispositio ergo</p>
-         
-         <p><g ref="#pilcro"/>Ideo aliter potest dici 2o quod hic
-            <lb ed="#L"/>virtus est tota in toto et tota in qualibet parte nec tamen completur 
-            <lb ed="#L"/>effectus nisi integrato sacramento quod fit completis omnibus verbis
-            <lb ed="#L"/>sicut si anima rationalis successivae in formaret corpus humanum 
-            <lb ed="#L"/>ibi non esset hoc completus <g ref="#slash"/> Item posset dici quod tota veritas</p>
-         
-         <p><pb ed="#L" n="226r"/><lb ed="#L"/><unclear>sc</unclear> in tota propositione et non per partes et <unclear>quoniam dicitur</unclear> cum tota medietas verborum
-            <lb ed="#L"/>est prolata et sic <g ref="#slash"/> dicitur quod ratio bonum concluderet si illa virtus directe mensuraretur 
-            <lb ed="#L"/>tempore nunc autem sic non est <g ref="#slash"/> sed possumus <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod sicut actus
-            <lb ed="#L"/>angeli coexistit alicui toti tempori et non sed participialiter sed in partibiliter
-            <lb ed="#L"/>producitur se de illo actu in medio temporis cui <unclear>coexistunter</unclear> producitur
-            <lb ed="#L"/>quaereretur an aliquod esset productum eius <g ref="#slash"/> vere posset dici quod totus actus est
-            <lb ed="#L"/>in produci actualiter et tamen nulla pars actus nec totus actus esset productus
-            <lb ed="#L"/>seu un esse producto sic est etiam in proposito de virtute verorum <unclear>sacramentalium</unclear></p>
-         
-         <p><g ref="#pilcro"/>Aliud extremum potest esse de figura qui consistit in indivisibili nam nihil eius
-            <lb ed="#L"/>est productum ante ultimum <unclear>instans</unclear> et tamen per totum aliquod certum temporis producitur
-            <lb ed="#L"/>sed instanti quo clauditur positio sensum se totam est producta sic aliquo modo est hic
-            <lb ed="#L"/>licet primum extremum sit magis ad propositionem</p>
-         
-         <p><g ref="#pilcro"/>Ad 3m dicitur quid sacramentum continet
-            <lb ed="#L"/>gratiam sicut <unclear>instrumentalis</unclear> dicitur virtualiter continere aliquem <unclear>effectum</unclear> in quantum
-            <lb ed="#L"/>continet dispositionem aliquam ad ipsam antecedentem non tamen continet effectum
-            <lb ed="#L"/>formaliter ac principaliter et cum dicitur aut continet ut causa uniuoca etiam
-            <lb ed="#L"/>dicitur quod nec sic nec sic quia talis divisio veritatem habet in causis principalibus 
-            <lb ed="#L"/>non instrumentalibus</p>
-         
-         <p><g ref="#pilcro"/>Sed contra posset argui quia ut videtur a simili 
-            <lb ed="#L"/>sequitur quod illa divisio causae non haberet locum in quacumque causa 2a consequens est falsum patet
-            <lb ed="#L"/>consequentia quia omnis creatura est instrumentum dei dum creatura agit sicut sacramentum
-            <lb ed="#L"/>quia quilibet talis est <unclear>moneres</unclear> motum a deo principaliter movente faciente eam
-            <lb ed="#L"/>movere et causare</p>
-         
-         <p>hic reponitur quod non est simile quia agentia creata sunt in<lb ed="#L"/>stumenta
-            dei sic tamen quod ipsa sunt agentia principalia in ratione causarum 2arum
-            <lb ed="#L"/>qui etiam agunt sensum conditionem propriae naturae et formae sicut ignis calefaciendo
-            <lb ed="#L"/>vel etiam hoc bonum faciendo opus</p>
-         
-         <p><g ref="#pilcro"/>Alia vero sic sunt instrumenta dei quod ut
-            <lb ed="#L"/>agant non sensum conditionem propriae naturae sed praecise ut instrumenta (dot)
-            <lb ed="#L"/>sensum virtutem eis inmissam et ita est in proposito bene differenter est instrumentum 
-            <lb ed="#L"/>principalis artificis discipulusp et <choice><orig>maleus</orig><reg>malleus</reg></choice> nam artifex inferior seu discipulus
-            <lb ed="#L"/>potest dici instrumentum principalis magistri est etiam agens quidam agit sed
-            <lb ed="#L"/><choice><orig>maleus</orig><reg>malleus</reg></choice> non est agens quidam agit sed instrumentum praecise quo artirex
-            <lb ed="#L"/>agit et isto modo sacramenta ecclesiastica sunt instrumenta dei in gratiae infusione </p>
-         
-         <p><g ref="#pilcro"/>Ad 4am qui est ratio 3a in oppositionem conclusionis dicitur quod licet effectus remotus
-            <lb ed="#L"/>omni sacramentorum scilicet gratia possit esse eiusdem rationis in pluribus sacramentis
-            <lb ed="#L"/>tamen propinquus et in mediatus effectus eius non est eiusdem rationis quia sicut sa<lb ed="#L"/>cramenta 
-            <unclear>speciatae</unclear> sunt <unclear>distincta</unclear> quantum <unclear>agendus</unclear> sacramentale sicut et eorum virtutes
-            <lb ed="#L"/>quia quilibet virtus est proportionata sui fini seu effectui proximo et etiam
-            <lb ed="#L"/>est aliqualiter similis significatio exteriori alias sacramenta non vere significarent <unclear>quiddam</unclear> 
-            <lb ed="#L"/>continent et e contra <g ref="#slash"/> bene possumus <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod sicut complexoque domus</p> 
-         
-         <p><pb ed="#L" n="226v"/><lb ed="#L"/>et integritatem aliqua concurrunt qui producuntur diversis instrumentis habentibus
-            <lb ed="#L"/>diversas figuras per quas agunt et licet figurea non sit per se activa nec
-            <lb ed="#L"/>passiva tamen per eam <unclear>diversimodae</unclear> agit agens principale <g ref="#slash"/> bene artifex non
-            <lb ed="#L"/>posset perforare cum dolabro sicut cum cerebello nec ego sic in proposito
-            <lb ed="#L"/>ad integritatem et complementum Christiane vitae concurrunt diversi effectus sa<lb ed="#L"/>cramentales
-            diversor instrumentis et virtutibus producti et sic dicitur quod diversa instrumenta 
-            <lb ed="#L"/>possunt concurrere ad eundem effectum remotum licet non propinquum</p>
-         
-         <p><pb ed="#L" n=""/><lb ed="#L"/>Ad confessionem 
-            <lb ed="#L"/>dicitur quod illa virtus a deo creatur et sacramentis confertur <g ref="#slash"/> et cum dicitur quod non videtur
-            <lb ed="#L"/>rationabile <unclear>etiam</unclear> dicitur quod talia spiritualia non mensurantur tempore propriae nisi
-            <lb ed="#L"/>per <unclear>coexistentiam extrinsicam</unclear> ideo durante oppositione exteriori ille virtutes
-            <lb ed="#L"/>durant et transeunte transeunt <g ref="#slash"/> et ultima dicitur quod sicut de columba apparente
-            <lb ed="#L"/>super christam quod expleto officio rediit in pristinam materiam de qua erat
-            <lb ed="#L"/>assumpta sic in proposito plus quam transierit effectus sacramentorum talis virtus
-            <lb ed="#L"/>cessat quia frustra maneret</p>
-         
-         <p><g ref="#pilcro"/>pro ulteriori notitia sacramentorum aliqua possunt
-            <lb ed="#L"/>notari <lb ed="#L"/>positio quod ad integritatem sacramenti novae legis terra concurrunt scilicet
-            <lb ed="#L"/>materia ut elementum est <corr><del rend="strikethrough">in</del></corr> operatio eius et applicatio et forma certa verborum et mini<lb ed="#L"/>stri
-            <unclear>interveniendo</unclear> copulans formam materiae</p>
-         
-         <p><g ref="#pilcro"/>2o notandum quod effectus sacramentorum
-            <lb ed="#L"/>in coni est quod talia sint cuilibet qualis est ille qui accedit ut patet potentia quaestione 
-            <lb ed="#L"/>dominus declaravit <g ref="#slash"/> ubi cavit ecclesia mors est malis vita bonis etiam</p>
-         
-         <p><g ref="#pilcro"/>3o si quaeratur an sacramenta debeant conferri peccatoribus dicitur quod non si sint
-            <lb ed="#L"/>peccata publica sed propter occulta non debet quis publicae negare
-            <lb ed="#L"/>sicut nec christis negavit in de sacramentum corporis sui quia hoc esset pandere
-            <lb ed="#L"/>secretum</p>
-         
-         <p><g ref="#pilcro"/>4o nota quod conferens et suscipiens sacramentum aliquod in peccato peccat 
-            <lb ed="#L"/>mortaliter ut patet distinctione 40 capitulo multi Item distinctione <unclear>cum (dot) et licet (dot) Item (dot) u (dot) conlusione</unclear>
-            <lb ed="#L"/>3a audi similiter et ministri sacramenti ministrans in suo ordine scienter 
-            <lb ed="#L"/><unclear>immortali</unclear> peccat sicut probat <ref><unclear>suprascriptis</unclear> <name>Thomas</name> 4o sententiarum distinctione 24</ref> quia talis 
-            <lb ed="#L"/>facit irreverenter sacramento <g ref="#slash"/> tamen <unclear>secum</unclear> esset si in necessitate levaret sacramentum
-            <lb ed="#L"/>de terra (dot) vel baptizaret in periculo mortis quod etiam <choice><orig>laycum</orig><reg>laicum</reg></choice> facere posset</p>
-         
-         <p><g ref="#pilcro"/>5o nota quod tria sunt sacramenta iterabilia non scilicet baptismus confirmo et ordo
-            <lb ed="#L"/>quia in illis in premitur caracter patet 2a quae potentia <unclear>quaedam quidam</unclear> <g ref="#slash"/> et de con<lb ed="#L"/>secratione
-            distinctione 5a de homine unum quia caracter est indelebile in illis tribus 
-            <lb ed="#L"/>in habentibus <unclear>et</unclear> per morte non debet iterari etiam si quis de morte <unclear>administrans</unclear> 
-            <lb ed="#L"/>resuscitaretur non autem est sic de aliis sacramentis ut patet 32 q (dot) a (dot) licite 
-            <lb ed="#L"/>unum dicunt quidam quod Lazarus plus resuscitationem non potuit licite 
-            <lb ed="#L"/>repetere uxorem nec ipsa eum sed <unclear>potuisseret</unclear> de novo contraxisse ma<lb ed="#L"/>trimonium
-            si vero fuisset sacerdos de novo non fuisset iterum ordinandus
-            <lb ed="#L"/>et licet beneficium quod <unclear>humisset</unclear> <unclear>vaccasset</unclear> tamen de vire non potuisset illud re</p><p><pb ed="#L" n="227r"/><lb ed="#L"/>petuisse</p>
-            
-         <p><g ref="#slash"/> et si contra hoc fiat peccatorem est quia fit in <unclear>matrimonia</unclear> sacramento quasi potentia
-            <lb ed="#L"/>collatio sacramenti non fuisset efficax nec est ibi unum sacramentum sic potest dici
-            <lb ed="#L"/>quod religiosus resuscitatus a morte non tenetur ad votorum obser<lb ed="#L"/>vantiam 
-            quia non fuit obligatus nisi usque ad mortem nec plus obligatur
-            <lb ed="#L"/>quam <unclear>mulier</unclear> viro in matrimonio</p>
-         
-         <p><g ref="#pilcro"/>item potest notari quod cum differentur an aliquis rece<lb ed="#L"/>perit
-            sacramentum non iterabile iterum poterit tali sacramentum conferri subiectum conditione
-            <lb ed="#L"/><unclear>9iter</unclear> quod sic nam non intellectualiter iteratum quod nescitur esse factum  de consecrare
-            <lb ed="#L"/>distinctione potentia <g ref="#slash"/> et si tunc talis non receperat primus nunc vero recipit quia <unclear>con<lb ed="#L"/>dictio</unclear>
-            extat sed si primus receperat nihil efficitur nec tamen peccat quia condictio
-            <lb ed="#L"/>non extat <g ref="#slash"/> Item nota de excellentia  et dignitate sacramentorum inter se ut primus <corr><add place="right">et sic</add></corr>
-            <lb ed="#L"/><g ref="#slash"/>Circa distinctionem 8 et sequentes <unclear>usque</unclear> ad 13 in <unclear>clube</unclear> ubi agitur de sacramento <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> <unclear><corr><add place="right">qne2</add></corr></unclear></p>
-         
-
-      </body>
+    <body>
+      <div xml:id="pg-b4q1">
+        <head xml:id="pg-b4q1-Hd1e95">Quaestio 1</head>
+        <p xml:id="pg-b4q1-d1e98">
+          Circa quartum moveo talem questionem primo
+          <lb ed="#L"/>utrum sacramenta novae legis gratiae causativa causaliter Christi plebis sint 
+          <lb ed="#L"/>iustificativa
+        </p>
+        <p xml:id="pg-b4q1-d1e105">
+          <g ref="#pilcro"/> utrum sicut sacramenta novae legis animas gratificant formaliter
+          <lb ed="#L"/>sic institutus animabus Christi gregis seu plebis aliquid efficiant realiter seu
+          <lb ed="#L"/>causaliter
+        </p>
+        <p xml:id="pg-b4q1-d1e114">
+          <g ref="#pilcro"/> quod non quia nulla sunt novae legis sacramenta patet quia frustra fit per
+          <lb ed="#L"/>plura etc (dot) sed fides et impletio praeceptorum sufficiunt ad salutem ergo sacramentorum
+          <lb ed="#L"/>institutio est frustra sed deus et natura nihil agunt frustra ergo nullum sacramentum
+          <lb ed="#L"/>deus Christis instituit ergo nullum est novae legis sacramentum
+        </p>
+        <p xml:id="pg-b4q1-d1e125">
+          <g ref="#pilcro"/> secundo quia sacramenta no<lb ed="#L"/>vae 
+          legis non sunt gratiae creativa <unclear>probatio</unclear> quia cui repugnat virtus creativa (dot)
+          <lb ed="#L"/>eidem repugnat creativum gratiae sed creativa virtus repugnat sacramentis cum sint
+          <lb ed="#L"/>creata ergo maior probatur quia gratia non recipit esse nisi per creationem non enim est
+          <lb ed="#L"/>edictibilis(sic) de potentia materiae sicut aliae qualitatis formae corporales
+        </p>
+        <p xml:id="pg-b4q1-d1e143">
+          <g ref="#pilcro"/> tertio nulla
+          <lb ed="#L"/>virtus spiritualis formaliter in habens sacramentis est ponenda patet quia vel virtus
+          <lb ed="#L"/>unius sacramenti est eiusdem rationis cum virtute alterius vel non si sic sequitur super fluiter
+          <lb ed="#L"/>ponendi tot sacramenta cum virtus unius sufficiat nec 2m quia effectus omnium
+          <lb ed="#L"/>principalis est gratia qui est eiusdem rationis in quolibet sacramento
+        </p>
+        <p xml:id="pg-b4q1-d1e156">
+          <g ref="#pilcro"/> confirmatur quia vel illa
+          <lb ed="#L"/>virtus de potentia subiecti ecucitur vel creatur a deo in sacramento si primum sequitur quod subiectum
+          <lb ed="#L"/>primum sequitur quod subiectum(sic)(rep) fuit prius in potentia naturali ad istam virtutem et sic non esset virtus
+          <lb ed="#L"/>supernaturales si dicitur quod creatur a deo hoc non videtur rationabile scilicet quod creet rem
+          <lb ed="#L"/>tam subito adnihilandam facta actione ergo 
+        </p>
+        <p xml:id="pg-b4q1-d1e169">
+          <g ref="#pilcro"/> in oppositum illud quod est
+          <lb ed="#L"/>causa effectus spiritualis vel est spiritus secunda se vel habet virtutem in se spiritualitem 
+          <lb ed="#L"/>sed sacramenta legis novae sunt causa? spiritualis effectus et non sunt spiritus secundum se
+          <lb ed="#L"/>ergo habent spiritualem virtutem maior patet quia aliter effectus esset praestantior sua causa
+          <pb ed="#L" n="220-r"/>
+          <lb ed="#L"/>sed quod sacramenta non sunt spiritus patet quia sunt res corporales quia vero sint causae effectus
+          <lb ed="#L"/>spiritualis patet quia mediantibus ipsis confertur gratia
+        </p>
+        <p xml:id="pg-b4q1-d1e187">
+          <g ref="#pilcro"/> praemitto quod sacramentum est
+          <lb ed="#L"/><choice><orig>in visibilis</orig><reg>invisibilis</reg></choice> gratiae visibilis forma (dot) ut eius ymaginem gerat et causa ex<lb ed="#L"/>istat 
+          <g ref="#slash"/>In hac descriptione ponitur forma pro signo quod habet se tamquam genus 
+          <lb ed="#L"/>quod dicitur sacramentum est sacrae rei signum et illa res sacra est gratia per quam anima
+          <lb ed="#L"/>formaliter gratificatur<g ref="#slash"/> item visibilis capitur comuniter pro quolibet sensibili aliquo
+          <lb ed="#L"/>quinque sensuum exteriorum<g ref="#slash"/> et intelligitur quod sit signum non quo ad esse rei sed quo
+          <lb ed="#L"/>ad fieri seu conferri ut scilicet collatio gratiae per hoc notificetur et per hoc distinguitur
+          <lb ed="#L"/>a multis signis non sacramentalibus
+        </p>
+        <p xml:id="pg-b4q1-d1e218">
+          <g ref="#pilcro"/> prima conclusio licet necessarium fuerit necessitate
+          <lb ed="#L"/>congruentiae pro distinctis temporum mensuris deum instituere remedia numero
+          <lb ed="#L"/>differentia seu spiritualia iuvamenta tamen pro aliquo statu vel statibus aliquibus
+          <lb ed="#L"/>non decuit nec opertuit? aliqua habere sacramenta <g ref="#slash"/> prima pars probatur quia congruum
+          <lb ed="#L"/>fuit deum creare nostrum salutem per aliqua media seu instrumenta ergo
+          <lb ed="#L"/>consequentia patet quia sacramenta non sunt nisi vasa gratiae contentiva ac <unclear><sic>declarativa</sic></unclear> (dot)
+          <lb ed="#L"/>antecedens probatur quia licet deus in sua actione non egeat causis 2is instramentalibus
+          <lb ed="#L"/>tamen vult propter perfectionem effectuum vel causarum 2arum vel propter prefectionem universi
+          <lb ed="#L"/>operari per causas instramentales creatas
+        </p>
+        <p xml:id="pg-b4q1-d1e246">
+          <g ref="#pilcro"/> confirmatur quia in providentia naturali deus
+          <lb ed="#L"/>operatur mediantibus causis 2is illa quae posset se solo operari ergo et provi<lb ed="#L"/>dentia
+          morali et voluntaria decet eum sic operari tenet consequentia tamen 2a
+          <lb ed="#L"/>non sit minus perfecta quam prima (dot) et antecedens patet ad sensum in effectibus naturalibus 
+          <lb ed="#L"/>causarum 2arum
+        </p>
+        <p xml:id="pg-b4q1-d1e260">
+          <g ref="#pilcro"/> pro quo notandum quod quia deus operatur aliqua per causas 2as instru-<lb ed="#L"/>mentales 
+          hoc cedit quinque ad dignitatem instrumenti sicut humanitas christi
+          <lb ed="#L"/>est instrumenti omni operationem nostrae redemptionis et virgo totius gratiae nobis
+          <lb ed="#L"/>factae et sancti suis orationibus sunt medium nostrae salutis similiter angeli
+          <lb ed="#L"/>superiores illuminationes inferiores et hoc dicit <name>Dennis</name> quod <unclear>dtgressimum</unclear> est dei coopera-<lb ed="#L"/>torem 
+          esse <unclear>ullum</unclear> vero hoc cedit ad malum instrumenti sicut demones
+          <lb ed="#L"/>sunt excecutores dominae iustitiae et <unclear>aliquando</unclear> mali homines solum magistrem
+          <lb ed="#L"/>distinctionem ultima praemi
+        </p>
+        <p xml:id="pg-b4q1-d1e293">
+          <g ref="#pilcro"/><unclear>ullum</unclear> vero non cedit ad dignitatem nec indignitatem
+          <lb ed="#L"/>instrumenti vel causae 2ae sed ad decorem universi sicut est in causis naturalibus non
+          <lb ed="#L"/><unclear>umentibus</unclear> ut in caelo et stellis quae faciunt ad generationem inferiorum
+        </p>
+        <p xml:id="pg-b4q1-d1e306">
+          <g ref="#pilcro"/> <unclear>ullum</unclear>
+          <lb ed="#L"/>vero cedit ad bonum illorum ad quos provenit actio et non ad dignitatem
+          <lb ed="#L"/>vel ad bonum instrumenti etc in proposito de sacramentis ideo dicit magister distinctione
+          <lb ed="#L"/>prima 4i quod triplia de causa sacramenta sunt insituta scilicet propter humiliationem (dot)
+          <lb ed="#L"/>eruditionem et exercitationem scilicet rite suscipientium
+        </p>
+        <p xml:id="pg-b4q1-d1e323">
+          <g ref="#pilcro"/> 2a pars conclusionis 
+          <lb ed="#L"/>probatur quia ubi non est infirmitas vel deffectus ibi non est medicinae sana<lb ed="#L"/>tivae
+          necessitas sed in statu in nocente non fuit aliqua infirmitas ergo
+          <lb ed="#L"/>ergo(sic) nec sacramentorum indigentia <g ref="slash"/> maior patet per magistrum distinctione et non
+          <lb ed="#L"/>est opus valentibus medicus sed male humanitatibus in <unclear>emigrato</unclear> <unclear>scribitur</unclear> <g ref="slash"/> <unclear>vor</unclear>
+          <lb ed="#L"/>patet quia status in nocente fuit sine perfecto sed quod sacramenta sint medicinae patet
+          <pb ed="#L" n="220-v"/>
+          <lb ed="#L"/>tam per magistrem in principio primae distinctionis quam per <unclear>hugonem</unclear> dicens sacramenta sunt
+          <lb ed="#L"/>vasa medicinalia <g ref="slash"/> item pro statu gloriae homo non indiget medicina ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e364">
+          <lb ed="#L"/><g ref="#pilcro"/>prima corollarium licet viator ad salutem pluribus indigeat tempore legis
+          <lb ed="#L"/>gratiae quam naturae tamen haec sacramenta <unclear>plurificere</unclear> multum salubre sint viatoribus
+          <lb ed="#L"/>et utile <g ref="slash"/> prima pars patet quia modo aliqua sacramenta sunt viatoribus necessaria ad
+          <lb ed="#L"/>salutem quae non erant necessaria pro lege naturae nec ad illa obligabantur ergo
+          <lb ed="#L"/>pluribus indigemus tempore isto quam etc <g ref="slash"/> secunda pars probatur sacramenta enim novae
+          <lb ed="#L"/>legis sic <unclear>plurificta</unclear> <choice><orig>abreviant</orig><reg>abbreviant</reg></choice>iter viae peregrinationis <unclear>initium</unclear> quod eorum
+          <lb ed="#L"/>devoti cultores <unclear>plus</unclear> mortem corporalem ad caelum evolant quod non
+          <lb ed="#L"/>poterant facere sacramenta legis naturae nec <unclear>e contra</unclear> legis <unclear>inosayce</unclear> quia ianua
+          <lb ed="#L"/>caeli clausa sint usque ergo sacramenta novae legis vigorem <unclear>superserunt</unclear>
+          <lb ed="#L"/>ex aqua et sanguine quae fluxerunt de christi laterae ergo pluralitas sacramentorum
+          <lb ed="#L"/>non impedit sed promonet naturalem salutem
+        </p>
+        <p xml:id="pg-b4q1-d1e424">
+          <g ref="#pilcro"/>2m corollarium licet in statu
+          <lb ed="#L"/>innocente fuerit matrimonium a deo institutum tamen matrimonium quod tunc
+          <lb ed="#L"/>non fuit sacramentum <g ref="slash"/> prima patet per magistrum in <unclear>principio</unclear> quarti ubi ponit quod deus
+          <lb ed="#L"/>tunc matrimonialiter Adam et Evam convinxit et matrimonium instituit
+          <lb ed="#L"/>2a pars patet per conclusionem quia illo statu medicina non fuit necessaria
+        </p>
+        <p xml:id="pg-b4q1-d1e444">
+          <g ref="#pilcro"/> confirmatur
+          <lb ed="#L"/>quia matrimonium ut est sacramentum est institutum in officium et in remedium sed <corr><add place="marginRight"/></corr>
+          <lb ed="#L"/>tunc non erat aliqua rebellio carius ad spiritualem ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e456">
+          <g ref="#pilcro"/> tertium corollarium quod
+          <lb ed="#L"/>non sint necessarium aut congruum <unclear>aut</unclear> lapsum angelorum aliquod esse aut
+          <lb ed="#L"/>institui sacramentum patet quia nulla erat culpa
+        </p>
+        <p xml:id="pg-b4q1-d1e468">
+          <g ref="#pilcro"/> ex conclusio videtur sequere probabiliter
+          <lb ed="#L"/>quod si adam non <choice><orig>praecasset</orig><reg>praecessit</reg></choice> deus ullum sacramentum ordinasset patet quia <unclear>talia</unclear>
+          <lb ed="#L"/>ordinantur in remissionem peccatorum sed nulla fuissent peccata ut sic <unclear>proposito</unclear>
+          <lb ed="#L"/>ergo licet unum aliquod ordinasset quod nunc est sacramentum quia de sacramento <unclear>aut</unclear> peccatum
+          <lb ed="#L"/>primorum parentum matrimonium ordinaverit
+        </p>
+        <p xml:id="pg-b4q1-d1e497">
+          <g ref="#pilcro"/>secunda conclusio quod sacramenta novae le<lb ed="#L"/>gis
+          realiter et effectivae sunt tam nostrae salutum instrumentaliter et <unclear>dis<lb ed="#L"/>positivae</unclear>
+          nisi sit obex in recipente licet non attingant essentiam gratiae in mediante
+          <lb ed="#L"/>creative <g ref="slash"/> prima pars patet quia mediantibus sacrimentis novae legis confertur gratia
+          <lb ed="#L"/>ergo antecedens patet per doctores quia alitur non different a sacamentis antiquae
+          <lb ed="#L"/>legis quod patet falsum ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e518">
+          <g ref="#pilcro"/><unclear>2oc</unclear> omnis medicina sanativa habet aliquam
+          <lb ed="#L"/>activitatem super sanitate inducenda (dot) sed sacramenta sunt medicinae sana<lb ed="#L"/>tivae
+          ergo sed sanitas animae est formaliter per gratiam ergo se habent actione
+          <lb ed="#L"/>ad gratiae creationem quidam est in <unclear>m</unclear> propositum
+        </p>
+        <p xml:id="pg-b4q1-d1e534">
+          <g ref="#pilcro"/>tertio quod licet instumentum habet ali<lb ed="#L"/>quam
+          activitatem respectu eius effectus ergo <unclear>contracta</unclear> bona quia deus operatur
+          <lb ed="#L"/>nostram salutatem per sacramenta
+        </p>
+        <p xml:id="pg-b4q1-d1e547">
+          <g ref="#pilcro"/>confirmatur quia semen principalis se habet actione <unclear>m</unclear>
+          <lb ed="#L"/><unclear>generatione</unclear> hominis <corr><del rend="strikethrough">ergo</del></corr> et tum non in mediante attingit creationem animae rationalis
+          <lb ed="#L"/>ergo a simili sacramentum post se habere respectu gratiae positivae actione non attingens
+          <pb ed="#L" n="221-r"/>
+          <lb ed="#L"/>ipsam gratiam in mediante <unclear>saltuu</unclear> creativa
+        </p>
+        <p xml:id="pg-b4q1-d1e573">
+          <g ref="#pilcro"/>primum corollarium quod sacramentum legis
+          <lb ed="#L"/>novae non solum est causa sine qua non gratiae infusae <pc type="#punctus"/> contra <sic>quemdam</sic> <unclear>opinionem</unclear> patet quia 
+          <lb ed="#L"/>sunt causae nostrae salutis seu gratiae realiter et effectivae
+        </p>
+        <p xml:id="pg-b4q1-d1e591">
+          <g ref="#pilcro"/>secundo quia tunc sacramenta 
+          <lb ed="#L"/>essent causae per accedens ipsius gratiae est falsum quia tunc non deberet poni in
+          <lb ed="#L"/>diffinitionae sacramenti cuius oppositionem patet in diffinitione posita
+        </p>
+        <p xml:id="pg-b4q1-d1e600">
+          <g ref="#pilcro"/>tertio quia sacramenta sunt
+          <lb ed="#L"/>medicinae contra morbos <corr><del rend="strikethrough">naturales</del></corr> spirituales quae non sunt minus efficaces
+          <lb ed="#L"/>quam medicinae corporales sed medicinae sunt causae per se sanitatis ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e613">
+          <g ref="#pilcro"/>secundum corollarium
+          <lb ed="#L"/>licet in veteri lege circumcisio rite suscepta fuerit originalis peccati mun<lb ed="#L"/>dativa 
+          tamen nec circumcisio nec alia legis observantia fuit realiter et
+          <lb ed="#L"/>effective gratiae causativa <pc type="#punctus"/> prima patet quia illo tempore fuit circumcisio medicina
+          <lb ed="#L"/>contra originalem maculam <g ref="slash"/> 2a pars probatur quia tunc inter circumcisionem et
+          <lb ed="#L"/>baptismum non esset differentia quod est falsum <choice><orig>ymmo</orig><reg>imo</reg></choice> baptismus non esset perfectior circum<lb ed="#L"/>cisione
+        </p>
+        <p xml:id="pg-b4q1-d1e641">
+          <g ref="#pilcro"/>confimatur per <title>glossam</title> quae habetur <ref xml:id="pg-b4q1-Rd1e648"><title>ad romanos</title> quarto</ref> ubi dicitur quod <quote xml:id="pg-b4q1-Qd1e653">in circum<lb ed="#L"/>cisione
+          remittebantur peccata tantum sed gratia non dabatur</quote> <g ref="slash"/> tamen quia <name>thomas
+          <lb ed="#L"/>de argentina</name> tenet oppositum 2ae partis corollarii respondet ad has rationes et primo
+          <lb ed="#L"/>dicit quod baptismus dignior est circumcisione quia amplior gratia confertur in 
+          <lb ed="#L"/>baptismo quam in circurmcisione et ideo illa sacramenta differunt <g ref="slash"/> Ad <ref xml:id="pg-b4q1-Rd1e672"><title>glossam</title> allegatum</ref>
+          <lb ed="#L"/>dicit quod loquitur de gratia super <choice><orig>habudanti</orig><reg>abundanti</reg></choice> prout ex virutute mortis 
+          <lb ed="#L"/>apperuit iamiam caeli <g ref="slash"/> sed illa responsio non valet quia secundum omnes sacramenta legis
+          <lb ed="#L"/>novae differunt specie a sacramentis antique modo maius et minus non variant
+          <lb ed="#L"/>speciem secundum gradum ergo non differunt penes maiorem collationem vel minorem
+          <lb ed="#L"/>ut dicit
+        </p>
+        <p xml:id="pg-b4q1-d1e698">
+          <g ref="#pilcro"/>Item nec secundum dictum suum valet unde illa <ref xml:id="pg-b4q1-Rd1e702"><title>glossa</title> post verba illa
+          <lb ed="#L"/>allegata</ref> dicit per circumcisionem tantem peccatum remittebatur set nec gratia
+          <lb ed="#L"/>ad bene operandum per eam <unclear>praemiabatur</unclear> nec virtutes dabantur In baptismo
+          <lb ed="#L"/>vero omnia peccata dimittuntur et gratia cooperandi confertur et virtutes
+          <lb ed="#L"/>augentur et ibi nulla gratiam ponit nec mentionem facit de ea (dot)
+          <lb ed="#L"/>gratia super <choice><orig>habudanti</orig><reg>abundanti</reg></choice> sed de gratia bene operandi
+        </p>
+        <p xml:id="pg-b4q1-d1e728">
+          <g ref="#pilcro"/>tertium corollarium quod nec ve<lb ed="#L"/>teris
+          nec novae legis salutaribus sacramentis aut statutis comunicata (dot)
+          <lb ed="#L"/> est aut comunicari potest per se efficacia creaturae virtutis paret <name>augustinum</name> in
+          <lb ed="#L"/> <ref xml:id="pg-b4q1-Rd1e742"><title>de verae innocentia</title> propositione 146</ref> dicentem <quote xml:id="pg-b4q1-Qd1e747">nullius rei <unclear>quamvis</unclear> minime
+          <lb ed="#L"/>nisi deum creatorem dici aut credi licet</quote>
+        </p>
+        <p xml:id="pg-b4q1-d1e756">
+          <g ref="#pilcro"/>Item idem super <title>genese</title> dicit
+          <lb ed="#L"/><quote xml:id="pg-b4q1-Qd1e764">angeli nullam possunt omnino creare naturam sed videtur magis angelos
+          <lb ed="#L"/>posse creare quam ipsa sacramenta seu habere vim creativam</quote> ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e770">
+          <g ref="#pilcro"/>Sed for<lb ed="#L"/>te
+          diceretur quod illa intelliguntur de <unclear>potentia</unclear> ordinata et secundum legem
+          <lb ed="#L"/>et cursum naturae communem <choice><orig>Iset</orig><reg>isset</reg></choice> <unclear>reverenda</unclear> (dot) hoc non valet nec sufficit quia ibidem creare
+          <lb ed="#L"/>posset sed per nullam <unclear>positam</unclear> posset fieri quod <unclear>angelus</unclear> crearet se ispum ergo nec
+          <lb ed="#L"/>potest aliud a se creare et per consequens nec natura inferior angelo creare poterit <g ref="#slash"/>
+          <pb ed="#L" n="221-v"/>
+          <lb ed="#L"/><g ref="#pilcro"/>hic tamen <unclear>interrogo</unclear> per creare non solum aliquid de nullo facere sed esse aliquid <choice><orig>indeppen<lb ed="#L"/>denter</orig><reg>indepen<lb ed="#L"/>denter</reg></choice>
+          ex nullo producere <g ref="#slash"/> Item patet per <name>Athanasium</name> <unclear>libro</unclear> quam fecit contra
+          <lb ed="#L"/><unclear>arrium</unclear> ubi dicit creativa creatricem esse non poose nulli omnino es<lb ed="#L"/>timo
+          esse dubium <g ref="#slash"/> notandum tamen quod corollarium intelliter de natura unita non
+          <lb ed="#L"/><choice><orig>ypotheticae</orig><reg>hypotheticae</reg></choice> alicui supposito domino quia homo est creator caeli et terrae licet non sit
+          <lb ed="#L"/>concedendum quod ille sit creatura nisi secundum humanitatem
+        </p>
+        <p xml:id="pg-b4q1-d1e850">
+          <g ref="#pilcro"/>Tertia conclusio quod deus
+          <lb ed="#L"/>non solam per virtutem in creatam spirituali influentia sacramentis assistit sed <unclear>et</unclear> per
+          <lb ed="#L"/>virtute creatam quam ipsis confert seu infudit <unclear>passio</unclear> pars non est dubia
+          <lb ed="#L"/>et <unclear>convenientur</unclear> a doctoribus ponitur
+        </p>
+        <p xml:id="pg-b4q1-d1e871">
+          <g ref="#pilcro"/>Tamen pro intellectu conclusionus notandum quod generaliter
+          <lb ed="#L"/>dei influentia est quoniam deus concurrit cum rebus ad explendas earum operatio<lb ed="#L"/>nes
+          secundum formas ipsis inditas naturales<g ref="#slash"/>Spiritualis <unclear>vero</unclear> quonuam concurrit
+          <lb ed="#L"/>cum eis ad operationes ad quas non habent inclinationem naturale sicut quod subito
+          <lb ed="#L"/>ex ligno fiat <unclear>animal vinum et</unclear> est in proposito nam deus concurrit cum rebus
+          <lb ed="#L"/>naturalibus puta tamen aliquam et verbo nihil oleo  ad productionem effectus supernaturalis
+          <lb ed="#L"/>in anima nostra et imo ibi est influentia spiritualis et supernaturalis sed ultima hoc sacramenta
+          <lb ed="#L"/>habent aliquam virtute <unclear>spiritualem</unclear> dum actu suscipiuntur per quam in animam
+          <lb ed="#L"/>agunt <unclear>dd</unclear> dispositivae quod probatur quia super instrumentum in actione recipit aliquam virtutem
+          <lb ed="#L"/>proportiona tam agenti et subiecto in quod agit sed sacramenta sunt instumenta dei
+          <lb ed="#L"/>agentis in animam ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e913">
+          <g ref="#pilcro"/>secundo sic ignis infernalis in mediante agit in animam
+          <lb ed="#L"/><choice><orig>dampnatam</orig><reg>damnatam</reg></choice> ipsam supernaturaliter puniendo ergo <unclear>et</unclear> sacramentum patet aliquid in anima
+          <lb ed="#L"/>ad preparationem gratiae agendo antecedens patet ex fide sed consequentia probatur quia non
+          <lb ed="#L"/>plus patet ignis ille ex inscientia dei <unclear>punientum</unclear> quam possint sacramenta ex
+          <lb ed="#L"/><unclear>vonite</unclear> dei <unclear>iniserentis</unclear>
+        </p>
+        <p xml:id="pg-b4q1-d1e943">
+          <g ref="#pilcro"/>tertio sacramenta habent virtutem et efficaciam ex christi
+          <lb ed="#L"/>passione sed illa virtus non est corporea quia nec forma nec <unclear>materia</unclear> nec accidentia
+          <lb ed="#L"/>aliquam nec aliquid <unclear>tluum</unclear> ergo est virtus spiritualis consequentia patet per sufficientem divisionem
+          <lb ed="#L"/>et antecedens patet per <ref xml:id="pg-b4q1-Rd1e960">glossam ad romanos</ref> hoc ubi dicitur quod <quote xml:id="pg-b4q1-Qd1e963">sacramenta novae legis
+          <lb ed="#L"/>fluxerunt ex latem christi patientis in cruce et non quo ad aliquod esse cor<lb ed="#L"/>porale ergo quo ad esse spirituale quod est propositionem</quote>
+        </p>
+        <p xml:id="pg-b4q1-d1e971">
+          <g ref="#pilcro"/>pro ista parte sunt <unclear>auctoritates</unclear>
+          <lb ed="#L"/>augere dicentis quod tanta est bis <unclear>aliquem</unclear> in bapstismo quod corpus <unclear>tangut</unclear> et animas
+          <lb ed="#L"/>abluat sed illa ablutio animae non potest esse nisi spiritualis ergo <g ref="#slash"/> Item <ref xml:id="pg-b4q1-Rd1e991"><name>beda</name>
+          <lb ed="#L"/>in quadam omelia</ref> dicit quod christis tamen tactu suae <unclear>inundissimae</unclear> carnis vim
+          <lb ed="#L"/><unclear>regenarativam</unclear> contulit aquis
+        </p>
+        <p xml:id="pg-b4q1-d1e1006">
+          <g ref="#pilcro"/>primum corollarium quod non ex <unclear>materia</unclear> promissione
+          <lb ed="#L"/>deus solus operatur in anima habitum gratiae quod animae <unclear>instificacione</unclear> patet quod quia <unclear>papa</unclear>
+          <lb ed="#L"/>reverentur et <unclear>efficiam</unclear> sacramentorum legis ponitur in ipsis <unclear>quidam</unclear> virtus <unclear>activa</unclear>
+          <lb ed="#L"/>spiritualis qua possunt attingere substantiam animae ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e1036">
+          <g ref="#pilcro"/>Ad praedictorum
+          <lb ed="#L"/><unclear>confirmationem</unclear> facit quod dictum fuit circa <unclear>principiam</unclear> <unclear>2i</unclear> quod posset deus conferre cuilibet 
+          <lb ed="#L"/>2o agenti virtutem <unclear>productiva cumlibet productiale a dextra</unclear> alterius a se nec tamen sequitur
+          <pb ed="#L" n="222-r"/>
+          <lb ed="#L"/>quod si deus tamen homine produceret <unclear>anglelum</unclear> quod hoc esset creator angeli sed 
+          <lb ed="#L"/>bene esset concreator seu conproductor
+        </p>
+        <p xml:id="pg-b4q1-d1e1066">
+          <g ref="#pilcro"/>2m corollarium quod sicut anima vel voluntas 
+          <lb ed="#L"/>humana habet virtutem imperativam motus seu motivam manus aut
+          <lb ed="#L"/>pedis sic deus posset homini conferre huiusmodi virtutem motivam respectu ecclesiae
+          <lb ed="#L"/><name>beate virginis</name> seu palatii regis patet corollarium ex decriptione divine
+          <lb ed="#L"/>influentiae specialis posita in decleratione conclusionis
+        </p>
+        <p xml:id="pg-b4q1-d1e1082">
+          <g ref="#pilcro"/>3m corollarium ad integrandum
+          <lb ed="#L"/>aliquod unum sacramentum concurrunt virtutes diversarum rationum patet quia ministri
+          <lb ed="#L"/>verba et elementum sed eadem virtus non potest esse in illis omnibus aliter idem accidens
+          <lb ed="#L"/>esset in diversis substantiis simul<g ref="#slash"/>sed quad ille virtutes sint diversarum rationum
+          <lb ed="#L"/>patet quia receptiva sunt diversarum rationum ergo antecedens patet et consequentia tenet quia inteligibile
+          <lb ed="#L"/>receptivam virtutis recipit intellectualiter et corporale non <unclear>converso</unclear><g ref="#slash"/>ex dictis 
+          <lb ed="#L"/>sequitur affirmativa pars tituli
+        </p>
+        <p xml:id="pg-b4q1-d1e1106">
+          <g ref="#pilcro"/>quam primam partem primae conclusionis probatur quod non fuit decens
+          <lb ed="#L"/>tempore gratiae deum sacramenta instituere quia tempore libertatis et vitae spiritualis
+          <lb ed="#L"/>hoc liber non debuit subici virtuti et rebus corporeis sed <unclear>obligari</unclear>
+          <lb ed="#L"/>ad suscipiendum sacramenta quae sunt signa corporalia est servitus et <unclear>sub<lb ed="#L"/>iectio</unclear>
+          rerum corporalium seu <unclear>sensibilium</unclear> ergo maior est apostoli non <unclear>enstis</unclear> servi
+          <lb ed="#L"/>sub lege sed sicut liberi sub gratiam
+        </p>
+        <p xml:id="pg-b4q1-d1e1134">
+          <g ref="#pilcro"/>2o quia <unclear>pluralitatis</unclear> non est 
+          <lb ed="#L"/>ponenda sine necessitate sed deus cum <unclear>patientoribus</unclear> <unclear>remedus</unclear> potuit re<lb ed="#L"/>medium
+          homini ad <unclear>hiberni</unclear> ergo dato quod tunc fuint congruum deum insituere
+          <lb ed="#L"/>sacramenta non tamen tot quot de facto sunt instituta
+        </p>
+        <p xml:id="pg-b4q1-d1e1158">
+          <g ref="#pilcro"/>3o nulla sunt
+          <lb ed="#L"/>sacramenta <unclear>quin</unclear> de facto a christo fuerint insituta sed confirmato et extrema <unclear>unc<lb ed="#L"/>cio</unclear>
+          ymmo et matrimonium non legitimum a christo instituta ergo illa non sunt
+          <lb ed="#L"/>sacramenta
+        </p>
+        <p xml:id="pg-b4q1-d1e1175">
+          <g ref="#pilcro"/>4o sacramenta sunt hominibus causa <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> et occasio ergo in nulla
+          <lb ed="#L"/>lege deubuerunt in statu tenet consequentia quia occasio talis semper est fugienda et
+          <lb ed="#L"/>cavenda (dot) et antecedens probatur per hoc quia spiritualis gratia dicit et dicitur conferri et contineri
+          <lb ed="#L"/>sub illis corporalibus sacramentis posset aliquis credere quod in rebus corporalibus
+          <lb ed="#L"/>sit aliquid deitatis et talia signa seu sacramenta essent us deitas adoranda igitur
+        </p>
+        <p xml:id="pg-b4q1-d1e1195">
+          <g ref="#pilcro"/>5o contra 2am partem <unclear>arguitur</unclear> quia quomodocumque statu hoc indiget
+          <lb ed="#L"/>gratia pro eodem statu indiget aut indiguit sacramentis sed in statu in<lb ed="#L"/>nocente
+          hoc indiguit gratia ergo et sacramentis maior patet quia gratia confertur
+          <lb ed="#L"/>homini pro ipsa sacramenta minor patet quia non obstante <unclear>ade</unclear> innocentia numquam
+          <lb ed="#L"/>tamen fuisset <unclear>consequtus</unclear> beatitudinem sine gratia
+        </p>
+        <p xml:id="pg-b4q1-d1e1219">
+          <g ref="#pilcro"/>Ad primum ubi tangitur et inqui<lb ed="#L"/>retur
+          de rationabilitate institutionis sacramentorum
+        </p>
+        <p xml:id="pg-b4q1-d1e1226">
+          <g ref="#pilcro"/>Ad vertendum quod status gratiae
+          <lb ed="#L"/>est <unclear>quasi</unclear> medius inter statum veterus legis qui fuit status servitutis
+          <lb ed="#L"/>perfectae et corporalitatis et inter statum gloriae quem erit perfectae libertatis
+          <lb ed="#L"/>et spiritualitatis et ideo ille status participat naturam extremorum quia ergo
+          <lb ed="#L"/>hoc instatu statu culpe deum offenderat creatura fruendo et ipsam
+          <lb ed="#L"/>deo proponendo rationabile fuit ut nunc papam deum creaturae se se humiliter subi<lb ed="#L"/>ciendo
+          deum placarent et quia hoc est convinctus corporali <unclear>sensibili</unclear> ut disceret
+          <pb ed="#L" n="222-v"/>
+          <lb ed="#L"/>sensibilia referre in deum et eis debitae uti et non frui nec finem in eis con<lb ed="#L"/>stituere
+          sed per ea insuperiora duci et ordinari ideo debuit sic per sensi<lb ed="#L"/>bilia
+          ad invisibilia manu duci <g ref="#slash"/> et sic patet ad rationem quia ut in maiori
+          <lb ed="#L"/>tangitur in statu potentis vitae non est perfecta libertas nec <unclear>et sic</unclear> ut tan<lb ed="#L"/>gitur
+          in minori obligari ad suscipianda sacramenta est servitus rerum sensibilium
+          <lb ed="#L"/>sed potius servitus dei cui sui re regnare est nec ea devotae suscipae
+          <lb ed="#L"/> est propriae subici eis sed deo ideo non concludit ratio quia minor est falsa
+        </p>
+        <p xml:id="pg-b4q1-d1e1273">
+          <g ref="#pilcro"/>Ad
+          <lb ed="#L"/><note type="marginal-note" place="margin-left">Sufficientiam sacramentorum nota bene</note>2m ubi quaeritur de sufficientia sacramentorum dicitur quod sufficientia congruitatis quo ad
+          <lb ed="#L"/>numerum septenarium potest multipliciter sumi tam ex parte morborum
+          <lb ed="#L"/>contra quos sacramenta sunt medicinalia quia  etiam sunt septem morbi specia<lb ed="#L"/>les
+          et capitales <g ref="#slash"/> quam ex parte remediorum adhibitorum personis
+          <lb ed="#L"/>privatis et comunitati <g ref="#slash"/> unde <name>magister petrus de pallude</name> ponit unum
+          <lb ed="#L"/>bonum modum qui sumiter per comparationem et considerationem necesario
+          <lb ed="#L"/>requisitorum ad bene esse cuiuslibet legis vel sectae <g ref="#slash"/> nam secundum <name>philosophum</name>
+          <lb ed="#L"/>in <title>ethicis</title> latera <unclear>etiam</unclear> cultus deorum est quasi naturae legis et ideo oportet ponere 
+          <lb ed="#L"/>aliquid esse quod offeramus et adoremus in nostra lege et hoc est sacramentum eu<lb ed="#L"/>karistiae
+          <g ref="#slash"/>2o quia propter reverentiam habemus oportet ministros ad hoc esse certos
+          <lb ed="#L"/>et consecratos et hoc est ordinis sacramentum ad hoc insitutum 3o quia oportet huius
+          <lb ed="#L"/>legis homines per aliquid significari et distingui a non talibus sic pro hoc
+          <lb ed="#L"/>est sacramentum baptismatis <g ref="#slash"/> 4o quia oportet pugnantes pro lege confortari potis<lb ed="#L"/>ime 
+          si sint in loco periculi et sic est sacramentum confirmationis ubi spiritus
+          <lb ed="#L"/>sanctus datur ad robur et hoc maxime fuit necessariam tempore persecutionum
+          <lb ed="#L"/>in primititiva  ecclesia <g ref="#slash"/> 5o quia oportet in qualibet lege fieri propagationem et
+          <lb ed="#L"/>crementum per homines illius legis qui magis invicem sibi invicem mercede 
+          <lb ed="#L"/>sunt fideles ideo est sacramentum matrimonii
+        </p>
+        <p xml:id="pg-b4q1-d1e1344">
+          <g ref="#pilcro"/>6o quia in qualibet lege dicet
+          <lb ed="#L"/>esse via reconsiliandi rationes ideo statutum est sacramentum <unclear>prime</unclear> <g ref="#slash"/> maior est
+          <lb ed="#L"/>aliquod spirituale in lege nostra per <unclear>quaedam</unclear> ecclesia militans ordinatur ad trium<lb ed="#L"/>phantem 
+          in qua ituri sumus et intraturi sunt legis melatores 
+          <lb ed="#L"/>et ideo indigent salubri conducto <unclear>quaedam</unclear> fit per extrema unitionem et sic
+          <lb ed="#L"/>heremus a (dot) sacramenta <unclear>quae</unclear> nec <choice><orig>defficiunt</orig><reg>deficiunt</reg></choice> nec super <choice><orig>habundant</orig><reg>abundant</reg></choice> et per hoc patet
+          <lb ed="#L"/>ad 2am rationem
+        </p>
+        <p xml:id="pg-b4q1-d1e1389">
+          <g ref="#pilcro"/>Ad 3m dicunt quidam quod christis solum instituit sa<lb ed="#L"/>cramenta
+          digniora et principiora <unclear>sic</unclear> baptismi <choice><orig>eukaristiae</orig><reg>eucharistiae</reg></choice> et ordinis quae sunt necessitatis
+          <lb ed="#L"/>et forte sacramentum paenitentiale alia vero sacramenta apostolis constitui comm<lb ed="#L"/>sit
+          <g ref="#slash"/> sed tamen <unclear>continentius</unclear> et melius dicitur quid omnia constituit in propria persona 
+          <lb ed="#L"/>vel similiter et absolute vel <unclear>aliquomodo</unclear> <unclear>approbative</unclear> sed promulgationem ipsorum
+          <lb ed="#L"/>commisit apostolis et ecclesiae et <unclear>ostendit</unclear> hoc magister de quolibet sigillati
+        </p>
+        <p xml:id="pg-b4q1-d1e1429">
+          <g ref="#pilcro"/>
+          <lb ed="#L"/>Ad 4m negatur antecedens et ad probationem dicitur quid licet per sacramenta conferatur 
+          <lb ed="#L"/>gratia tamen non dicit aestimari quod in eis aliquid sit deitatis essentialiter <g ref="#slash"/> vel
+          <pb ed="#L" n="223-r"/>
+          <lb ed="#L"/>quod sint deus quia deitas non est gratia seu accidens ideo non datur <unclear>materia</unclear>
+          <lb ed="#L"/>nec occasio <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> sed dominum orandi qui per suam minam me<lb ed="#L"/>diantibus
+          sacramentis dedit hominibus gratiam et sic non est ibi materia <choice><orig>ydolatrandi</orig><reg>idolatrandi</reg></choice> data licet posset esse accepta per malos
+        </p>
+        <p xml:id="pg-b4q1-d1e1465">
+          <g ref="#pilcro"/>Ad 5m dicitur quod licet si hoc mansisset in statu innocentiae <choice><orig>indignisset</orig><reg>indignavisset</reg></choice> <unclear>habitu</unclear> gratiae
+          <lb ed="#L"/>prout gratia virtus dicitur non tamen <choice><orig>indignisset</orig><reg>indignavisset</reg></choice> gratia sacramentali quia ut sic <corr><add place="marginRight">Sacramenta novae legis aliquo <unclear>huere efficariaeg</unclear> suam</add></corr>
+          <lb ed="#L"/>dicitur medicina contra peccatorum vulnera
+        </p>
+        <p xml:id="pg-b4q1-d1e1497">
+          <g ref="#pilcro"/>Item circa istam <unclear>materiam</unclear> notandum est
+          <lb ed="#L"/>quod ut <unclear>communiter</unclear> dicitur omnia sacramenta legis novae suas efficias superserunt 
+          <lb ed="#L"/>ex christi passione ut ostendit <ref xml:id="pg-b4q1-Rd1e1512"><name>Augustinus</name> 3o de <title>Civitate Dei</title> capitulo 16o et libro 2o capitulo primo</ref> insignum huius omnia sacramenta praedicta in eius passione
+          <lb ed="#L"/><unclear>aliquo</unclear> apparuerunt <g ref="#slash"/> nam baptismus in aliqua lateris vel ex latere
+          <lb ed="#L"/><g ref="#slash"/> confirmo in spiritu et sanguine <g ref="#slash"/> <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> in toto corpore seu in tota per<lb ed="#L"/>sona 
+          quem fuit deo hostia vera <g ref="#slash"/> paenitentia vero in confirmatione et prima 
+          <lb ed="#L"/>latronis pendentis mixta summum sacerdotum christam <g ref="#slash"/> ordo quia tunc
+          <lb ed="#L"/>exercuit excellentissimum actum sacerdotii <g ref="#slash"/> matrimonium quia ecclesiam
+          <lb ed="#L"/>sibi sponsam confirmavit et acceptavit <g ref="#slash"/> unctio in corporis e contra
+          <lb ed="#L"/>unctione vel potius in linitione sanguinis ex corpore mortuo
+          <lb ed="#L"/>emanentis
+        </p>
+        <p xml:id="pg-b4q1-d1e1560">
+          <g ref="#pilcro"/>Item posset notari qui unum sacramentum patet dici alio <corr><add place="marginRight">Unum sacramentum quo est <unclear>dignus</unclear> alio quintupliciter</add></corr>
+          <lb ed="#L"/>dignius diversimode <g ref="#slash"/> uno modo ex <unclear>effectius</unclear> quam <unclear>civitate</unclear> et sic baptismus <unclear>excellit</unclear>
+          <lb ed="#L"/>quia tollit culpam <g ref="#slash"/> 2o modo conferentis dignitate et sic confirmo quia confertur 
+          <lb ed="#L"/>ab episcopis <g ref="#slash"/> 3o modo rei nobilitate sic est <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> quia continet christum <g ref="#slash"/> 4o modo
+          <lb ed="#L"/>significatione sic est matrimonium quia significat unionem christi et ecclesiae et naturarum 
+          <lb ed="#L"/>in christo <g ref="#slash"/> 5o ratione dignitatis recepte sic est ordo quia ordinatus
+          <lb ed="#L"/>ad digniorem gradum in ecclesia reponitur unde versus <g ref="#slash"/> manet <corr><add place="marginRight">8 nota versus</add></corr>
+          <lb ed="#L"/>vel maior in effectu corus in esse <g ref="#slash"/> coniugium <unclear>signo</unclear> maiori chrisma 
+          <lb ed="#L"/>ministro
+        </p>
+        <p xml:id="pg-b4q1-d1e1627">
+          <g ref="#pilcro"/>Item posset notari quid inter sacramenta duo sunt volentis
+          <lb ed="#L"/>scilicet order et coniugum reliqua quandoque sunt necessitatis vel in facto vel in voto
+          <lb ed="#L"/>licet non simpliciter et absolute sed diversimode et sensum dei legem ordinata
+        </p>
+        <p xml:id="pg-b4q1-d1e1636">
+          <g ref="#pilcro"/>contra 2am conclusionem arguitur primo sic vel sacramenta essent tam sine qua non gratiae
+          <lb ed="#L"/>vel alio modo propriae <g ref="#slash"/> primum non debet duci ut infra dictum est <g ref="#slash"/> nec 2m quia tunc
+          <lb ed="#L"/>gratia haberent causam creativam naturaliter et necessario agentem et sic gratia non
+          <lb ed="#L"/>esset gratia nec adeo <choice><orig>deppendens</orig><reg>dependens</reg></choice> in mediante <g ref="#slash"/> <unclear>Et</unclear> si dicatur quod sacramenta
+          <lb ed="#L"/>non attingunt per dominationem gratiae in mediante sed disponunt <g ref="#slash"/> contra quia si sic ad huc sequetur quod corporem agent in spiritum consequentia patet quia dispositurae
+          <lb ed="#L"/>est agere sed patet falsitas tum quia agens dicet esse praestantius passo
+          <lb ed="#L"/>tum quia corpus non patet agere nisi per contactum corpus autem non patet
+          <lb ed="#L"/>tangere spiritum qua tactus est applicatio extremorum sensum sicut
+        </p>
+        <p xml:id="pg-b4q1-d1e1674">
+          <g ref="#pilcro"/>2o quia si <g ref="#pilcro"/>
+          <pb ed="#L" n="223-v"/>
+          <lb ed="#L"/>sacramentum ageret vel libere vel naturaliter non 2m quia tunc omnibus aequatur
+          <lb ed="#L"/>ageret quod est falsum quia unus plus alius minus recipit de gratia in sus<lb ed="#L"/>ceptione
+          sacramentorum <g ref="#slash"/> nec primum cum non habeat voluntatem nec intellectum
+          <lb ed="#L"/>quia est signum corporeum
+        </p>
+        <p xml:id="pg-b4q1-d1e1695">
+          <g ref="#pilcro"/>3o illa dispositio animae inducta per sacramentum vel educitur de potentia <corr><del rend="strikethrough"><unclear>materiae</unclear></del></corr> animae vel non si no sequetur quod illa creatur et sic 
+          <lb ed="#L"/>virtus creativa de facto communicatur creature <g ref="#slash"/> si  sic vel educitur de potentia
+          <lb ed="#L"/>animae <unclear>obedientiali</unclear> vel naturali <g ref="#slash"/> si 2m cum cuilibet potentiae passivae <corr><del rend="strikethrough">con</del></corr> naturali 
+          <lb ed="#L"/><unclear>corrumpat</unclear> activa naturalis sequetur quod agens naturale posset talem animam dis<lb ed="#L"/>ponere
+          quod esset causa gratiae totalis si primum cum omnia talia a deo solo
+          <lb ed="#L"/>creentur sequetur ut primus quod creatura erit instrumentum creationis et sic sequetur quod 
+          <lb ed="#L"/>deus mediante creatura posset create animam rationalem et angelos patet consequentia 
+          <lb ed="#L"/>quia e contra ad hoc anima est in potentia obidientiali
+        </p>
+        <p xml:id="pg-b4q1-d1e1734">
+          <g ref="#pilcro"/>4o talis dispositio per sacramentum in<lb ed="#L"/>ducta
+          vel est necessitatis ad gratiam vel non si primum hoc est falsum quia omnis 
+          <lb ed="#L"/>suscipientes sacramentum reciperent gratiam tunc e contra quia deus necessaretur per
+          <lb ed="#L"/>sacramentum ad dandum homini gratiam quod est falsum <g ref="#slash"/> nec 2m quia tunc foret 
+          <lb ed="#L"/>per accidens an gratia conferetur per sacramentum et sic sacramentum <corr><add>non</add></corr> posset dici causa
+          <lb ed="#L"/>gratiae plus quam alterius rei
+        </p>
+        <p xml:id="pg-b4q1-d1e1756">
+          <g ref="#pilcro"/>5o nulla creatura potest creare aut esse
+          <lb ed="#L"/>instrumentum dei seu domine creationis sed gratia gratiam non producitur <unclear>vir</unclear> per
+          <lb ed="#L"/>creationem ergo nullum sacramentum potest <unclear>dispositivae</unclear>  gratiam creare
+        </p>
+        <p xml:id="pg-b4q1-d1e1771">
+          <g ref="#pilcro"/>contra primam
+          <lb ed="#L"/>parte 2i <unclear>coru</unclear>  eius arguitur quia <name>Iohannes</name> baptisma non videtur fuisse verum<lb ed="#L"/>datus 
+          ab originali ex vi illius circumcisionis et tamen fuit ante christum
+          <lb ed="#L"/>et tempore circumcisionis ergo maior patet <unclear>ait</unclear> 4o ubi dicit <name>Iohannes</name> christo ego de 
+          <lb ed="#L"/>beo a te baptizari gloria <unclear>iurisperitus</unclear> a peccato originali mundari ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e1800">
+          <g ref="#pilcro"/>contra 2am
+          <lb ed="#L"/>parte eiusdem quia a <unclear>quocumque</unclear> deus tollit culpam eidem confert gratiam sed de<lb ed="#L"/>bite
+          suscipientes circumcisionem mundabantur <unclear>acueripa</unclear> ergo confere<lb ed="#L"/>batur
+          gratia
+        </p>
+        <p xml:id="pg-b4q1-d1e1818">
+          <g ref="#pilcro"/>contra 3m corollarium arguitur quia de facto agens naturale de speciebus
+          <lb ed="#L"/>panis et vini potest in <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> producere formam vermis substantialem sed illa 
+          <lb ed="#L"/>non educitur de potentia cum ibi nulla sit materia nisi corporis christi 
+          <lb ed="#L"/>igitur illa forma creatur
+        </p>
+        <p xml:id="pg-b4q1-d1e1836">
+          <g ref="#pilcro"/>2o  anima rationalis potest fieri a puro homine et
+          <lb ed="#L"/>non potest fieri nisi per creationem quia non est <unclear>educibile</unclear> de potentia materiae <unclear>generalis</unclear>
+          <lb ed="#L"/>maior patet quia nisi sic sequitur quod deus <corr><del rend="strikethrough">non</del></corr> posset eam <unclear><corr><add place="above"/>nos</corr></unclear> creare quoniam hoc generat
+          <lb ed="#L"/>non inpediendo naturalem actionem hominis in generando <g ref="#slash"/> ponatur igitur quod
+          <lb ed="#L"/>sic fiat tunc sequitur quod hoc naturaliter generaret animal brutum et alterius speciei
+          <lb ed="#L"/>sed consequens istud est falsim <g ref="#slash"/> et probatur consequentia quia cum semen alterius animalis sequitur quod hoc ge<lb ed="#L"/>nerabit
+          aliquod animal et non rationale ergo brutum <g ref="#slash"/> Item sequitur aliter quod species 
+          <lb ed="#L"/>hominis non esset pars essentialis universi nisi hoc posset generare naturaliter
+          <lb ed="#L"/>hominem cum influentia generali quia esset naturalis corporalis nec positionem perpetuari
+          <pb ed="#L" n="224-r"/>
+          <lb ed="#L"/>a se cum generali in fluentia sed illa sunt falsa ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e1885">
+          <g ref="#pilcro"/>Ad primum dicitur quod <unclear>ster</unclear> 
+          <lb ed="#L"/>causa <unclear>2omodo</unclear> et cum infertur ergo gratia habet causam necessario agentem causa tam
+          <lb ed="#L"/>conceditur dispositivae scilicet animam <unclear>disponendo</unclear> ad gratiam et naturae ulterior consequentia
+          <lb ed="#L"/>ergo gratia non in mediante <unclear>deppendum</unclear> a deo
+        </p>
+        <p xml:id="pg-b4q1-d1e1909">
+          <g ref="#pilcro"/>Item cum infertur ultra
+          <lb ed="#L"/>ergo corporem agit in spiritum conceditur quia <unclear>fantasmata</unclear> naturaliter agunt
+          <lb ed="#L"/>in <unclear>intellectum</unclear> licet in virtute intellectus agentis
+        </p>
+        <p xml:id="pg-b4q1-d1e1924">
+          <g ref="#pilcro"/>Item ignis inferni
+          <lb ed="#L"/>in premit aliquam dispositionem in spiritu <choice><orig>dampni</orig><reg>damni</reg></choice> nato
+        </p>
+        <p xml:id="pg-b4q1-d1e1937">
+          <g ref="#pilcro"/>item posset dici
+          <lb ed="#L"/>ut supra quod corpus non agit in spiritum rem corporalem sed spiritualem sicut
+          <lb ed="#L"/>obiectum materiale chartam naturaliter principaliter tamen cognitionem <unclear>secundum</unclear>  in intellectu 
+          <lb ed="#L"/>nostro <g ref="#slash"/> et cum infertur ergo gratia non esset cum haberet causam creatam <unclear>2cur</unclear>
+          <lb ed="#L"/>naturae consequentia quia totum est gratuitum quod deus sacramentis confert et
+          <lb ed="#L"/>in ipsis operatur patet ergo quod corpus agit in spiritum non propria virtute
+          <lb ed="#L"/>sed ut instrumentum superioris virtutis sicut dictum est de igne
+          <lb ed="#L"/>inferni <g ref="#slash"/> Et cum dicitur quod agens debet esse <unclear>praestantius</unclear> passo conceditur
+          <lb ed="#L"/>quo ad formam quam debet conferre passo non autem quo ad praestantiam
+          <lb ed="#L"/>aut nobilitatem naturae et dignitatis specie quia tunc ignis numquam 
+          <lb ed="#L"/>posset <unclear>conburere</unclear> vaccam nec leo occidere hominem in ideo licet sacramenta
+          <lb ed="#L"/>in esse naturae et entitatis non sunt perfectiora quam sit anima vel gratia
+          <lb ed="#L"/>quia tamen virtus dei operatur in sacramento et per sacramentum <unclear>huius</unclear> sacramentum habet
+          <lb ed="#L"/>aliquam praestantiam activitatis respectu animae vel gratiae <g ref="#slash"/>2o posset dici quod 
+          <lb ed="#L"/>illa auctoritas intelliter de agente principali et in virtute propria agenti
+          <lb ed="#L"/>non de instrumentali sic est in proposito
+        </p>
+        <p xml:id="pg-b4q1-d1e1997">
+          <g ref="#pilcro"/>Ad aliud cum arguitur de con<lb ed="#L"/>tactu
+          <lb ed="#L"/>dicitur quod quia <unclear>talis</unclear> actio est <unclear>aliquomodo</unclear> spirituales ideo ibi non opertet
+          <lb ed="#L"/>quod sit contactus corporeus et situalis seu quam <unclear>titulus</unclear> sed spiritualis
+          <lb ed="#L"/>et virtualis sicut quoniam angelus aliquod movet corpus
+        </p>
+        <p xml:id="pg-b4q1-d1e2021">
+          <g ref="#pilcro"/>Ad 2m principale
+          <lb ed="#L"/>posset dici quod utroque modo agit sacramentum quia naturaliter agit <unclear>quantum</unclear>
+          <lb ed="#L"/>est ex se <g ref="#slash"/> et actione libera non sua sed in quantum est ex motione agentis
+          <lb ed="#L"/>superioris et principalis scilicet dei et ministri applicantis seu subiecti <unclear>recipitis</unclear>
+          <lb ed="#L"/>ideo non oportet quod aequaliter agat in omnibus quia non invenit subiectum
+          <lb ed="#L"/>ubique aequaliter dispositum nec aequaliter movetur a principali agen<lb ed="#L"/>te
+          scilicet deo
+        </p>
+        <p xml:id="pg-b4q1-d1e2047">
+          <g ref="#pilcro"/>Ad 3m dicitur quod in sacramentis in prementibus caracterem 
+          <lb ed="#L"/>illa disposito patet dici caracter In alius autem quae non in premunt 
+          <lb ed="#L"/>dicitur ornatus aiere licet non habeamus nomen proprium ipsius <unclear>expressimus</unclear>
+          <lb ed="#L"/>quia spiritualia non sunt nobis <unclear>in libro</unclear> cum nota et cum talia a solo
+          <lb ed="#L"/>deo creentur <g ref="#slash"/> dicitur quod duplex est potentia <unclear>obedentialis</unclear> <g ref="#slash"/> quaedum sola <unclear>obedentialis</unclear>
+          <lb ed="#L"/>susceptionis quaedam vero eductionis modo anima non habet nisi <unclear>obendentialem</unclear>
+          <pb ed="#L" n="224-v"/>
+          <lb ed="#L"/>potentiam susceptionis respectu gratiae <g ref="#slash"/> gratia vero habet <unclear>obedientialem</unclear> potentiam eductionis
+          <lb ed="#L"/>respectu talis ornatus seu dispositionis ideo bene per causam2am in virtute
+          <lb ed="#L"/>de agentem <unclear>pater</unclear> produci sed non sequitur quod anima posset creare animam vel angelum sed forte posset cum producere cum deo
+        </p>
+        <p xml:id="pg-b4q1-d1e2100">
+          <g ref="#pilcro"/>Ad 4m potest dici quod
+          <lb ed="#L"/>supposita sic dei lege et ordinatione est necessaris sed talis necessaris est
+          <lb ed="#L"/>ex fine vel supposito vel <unclear>condicionata</unclear> non <unclear>absolura</unclear> nec sequitur deum esse
+          <lb ed="#L"/>similiter necessitatum ad infundendum gratiam
+        </p>
+        <p xml:id="pg-b4q1-d1e2118">
+          <g ref="#pilcro"/>Ad 4m dicitur quod aliqua creantur 
+          <lb ed="#L"/>quae <unclear>nullo modo</unclear> prae supponunt subiectum <g ref="#slash"/> quaedam vero quae prae supponunt nec esse possunt 
+          <lb ed="#L"/>sine subiecto modo ad propositionem maior est vera de creatis <unclear>primo modo</unclear> non de <unclear>2o modo</unclear> <g ref="#slash"/> 2o
+          <lb ed="#L"/>posset maior similiter negari
+        </p>
+        <p xml:id="pg-b4q1-d1e2143">
+          <g ref="#pilcro"/>Ad illud contra corollarium de Iohanes baptismata conceditur
+          <lb ed="#L"/>antecedens et netur consequentia quia in utero martyris fuit inundatur ab originali
+          <lb ed="#L"/>et sanctificatus per gratiam luce primo ideo non fuit similem de ipso et de alus 
+          <lb ed="#L"/>Sed contra quia Johanes fuit circumcisus die 8o ut patet luce primo <g ref="#slash"/> vel
+          <lb ed="#L"/>ergo non fuerat mundatus vel circumcisio non erat originalis culpae me<lb ed="#L"/>dicina
+          patet consequentia quia frustra daretur illis medicina qui nullam
+          <lb ed="#L"/>habent infirmitatem nec haberent nec unquam habituri essent quia illa culpa
+          <lb ed="#L"/>non redit in <unclear>recidivante</unclear>
+        </p>
+        <p xml:id="pg-b4q1-d1e2168">
+          <g ref="#pilcro"/>Ad hoc potest dici quod sicut in lege <unclear>ennaca</unclear>
+          <lb ed="#L"/>licet per baptismum tollatur originale tamen si animas sanctificatus ex utero nasceretur 
+          <lb ed="#L"/>sine peccato <unclear>nihilominus</unclear> deberet baptizari ad satisfaciendum legi et praeceptis
+          <lb ed="#L"/>ecclesiasticae sic licet circumcisio mundaret ab originali peccato eum quem invenit
+          <lb ed="#L"/>infectum in lege veteri si tamne aliquae fuerunt primus mundati ex utero 
+          <lb ed="#L"/>sanctificati sicut <name>Ieremias</name> <name>Iohannes</name> item <unclear>nihilominus</unclear> tamen debebant circumcidi
+          <lb ed="#L"/>et non legi  <choice><orig>difformari</orig><reg>deformari</reg></choice> hac eum de causa christis circumcisus finesse
+          <lb ed="#L"/>dicitur quia non venerat legem solvere sed adimplere
+        </p>
+        <p xml:id="pg-b4q1-d1e2211">
+          Ad glossam quae in 
+          <lb ed="#L"/>ducitur super illo ego debeo a te baptizari <unclear>id est</unclear> a peccato originali 
+          <lb ed="#L"/>mundari <g ref="#slash"/> Dicitur hic quod ante mortem christi quilibet hoc <unclear>quemcumque</unclear> mundatus 
+          <lb ed="#L"/>esset tamen tenebatur rebus pro solutionem debiti quod christis soluit per
+          <lb ed="#L"/>suam passionem et ideo a tali obligatione debuit <name>Iohannes</name> adhoc
+          <lb ed="#L"/>mundari et solui a christo et hoc <unclear>interedit</unclear> illa glossa
+        </p>
+        <p xml:id="pg-b4q1-d1e2239">
+          <g ref="#pilcro"/>Ad maiorem contra 
+          <lb ed="#L"/>2am parte eiusdem <unclear>coru</unclear> conceditur assumptionem stante dei ordinatione etiam
+          <lb ed="#L"/>stante tempore veteris legis et novae tamen dicitur quod gratia <unclear>^</unclear> conferebatur quae
+          <lb ed="#L"/>suscipientibus rite suscipientibus circumcisionem non fuit a circumci<lb ed="#L"/>sione
+          nec <choice><orig>deppendebat</orig><reg>dependebat</reg></choice> ab ea realiter causaliter et effectivae <g ref="#slash"/> bene licet
+          <lb ed="#L"/>daretur gratia circumcisis hoc solum fuit ratione operis operantis
+          <lb ed="#L"/>per modum <unclear>videnti</unclear>  non ratione operis operati per modum sacramenti sicut fit
+          <lb ed="#L"/>in baptismo
+        </p>
+        <p xml:id="pg-b4q1-d1e2277">
+          <g ref="#pilcro"/>Ad primum contra tertium corollarium dicitur uno modo <unclear>declinando</unclear> antecedens quia si <add place="bottom">4 forma 4 149 codex</add>
+          <pb ed="#L" n="225-r"/>
+          <lb ed="#L"/>forma vermis vel alia inducitur deus ibi creat materiam vel 
+          <lb ed="#L"/>recreat de qua educitur et vermis producitur
+        </p>
+        <p xml:id="pg-b4q1-d1e2295">
+          <g ref="#pilcro"/>2o potest dici quidquid fit ibi illud fit miraculo se ac si hostia non est <unclear>confectura</unclear> 
+          <lb ed="#L"/>et sic <unclear>quidque</unclear> congelantur ibi species vini etiam
+        </p>
+        <p xml:id="pg-b4q1-d1e2308">
+          <g ref="#pilcro"/>3o positionem negari consequentia <pc type="#punctus"/>
+          <lb ed="#L"/>quia dato quod agens creatum produceret aliquid ex non aliquo tamen non
+          <lb ed="#L"/>crearet quia non in <choice><orig>deppendentur</orig><reg>dependentur</reg></choice> agent nec esset principale agens
+          <lb ed="#L"/>sed cum producens cum deo ut fuit visum in <unclear>2o</unclear>
+        </p>
+        <p xml:id="pg-b4q1-d1e2331">
+          <g ref="#pilcro"/>Ad 2m netur antecedens
+          <lb ed="#L"/>ad propositionem de anima rationali dicitur sequendo viam praetactam quid purus hoc post
+          <lb ed="#L"/>esse partialis <unclear>conproductor</unclear> animae non tamen creator ipsius <g ref="#slash"/> 2o dicitur <unclear>quidque</unclear> sit
+          <lb ed="#L"/>possibile feri per potentiam dominam absolutam tamen de facto anima creatur
+          <lb ed="#L"/>et producitur a solo deo <g ref="#slash"/> Et cum <unclear>dicatur</unclear> quod hoc <unclear>vim</unclear> <unclear>generativam</unclear> etiam (dot)
+          <lb ed="#L"/>Dicitur hic quod hoc licet potentiam habeat generativam perfectiorem quo ad dis<lb ed="#L"/>postionem
+          materiae quam <unclear>alia</unclear> cetera tamen non quo ad inductionem forem quae est 
+          <lb ed="#L"/>anima rationalis quia deus sic ordinavit <g ref="#slash"/> propter melius ut hoc haberet animam
+          <lb ed="#L"/>nobiliorem a primo principio naturae et anima alia superflueret in homine
+          <lb ed="#L"/>cum pro intellectivam creatam homines possibiliter sufficienter omnis  opositiones
+          <lb ed="#L"/>vitales perficere
+        </p>
+        <p xml:id="pg-b4q1-d1e2384">
+          <g ref="#pilcro"/>ad aliud dicitur quod ratio nihil concludit nisi quod species
+          <g ref="#pilcro"/>humana non ita sufficienter ex se est spes essentialis universi eter<lb ed="#L"/>na
+          sicut species ceterae ubi simile producit quo ad formam et hoc 
+          <lb ed="#L"/>deus voluit propter melius
+        </p>
+        <p xml:id="pg-b4q1-d1e2395">
+          <g ref="#pilcro"/>contra 3am conclusionem probatur quod deus non confert
+          <lb ed="#L"/>sacramentis aliquam virtutem spiritalem creatam quia vel talis esset perma<lb ed="#L"/>nens
+          vel successiva non primum quia tunc super esset in subiecto stante constantia 
+          <lb ed="#L"/>subiecti et ageret in quemlibet in differuntur quae sunt falsa nec 2m quia tunc esset 
+          <lb ed="#L"/>in <unclear>praedicamento</unclear> qualitatis licet hoc est falsum quia tunc in angelo sicut non potest
+          <lb ed="#L"/>esse albedo vel alia qualitas corporalis sic e contra virtus spiritualis
+          <lb ed="#L"/>seu qualitas non potest esse in aliquo corpore
+        </p>
+        <p xml:id="pg-b4q1-d1e2416">
+          <g ref="#pilcro"/>2o si aliqua virtus spiritu<lb ed="#L"/>alis
+          esset in verbis <unclear>sacramentalibus</unclear> vel talis esset tota in toto et tota
+          <lb ed="#L"/>in qualibet parte vel tota in toto et pars in parte vel tota in una parte 
+          <lb ed="#L"/>verborum et non in alia sed neutrum horum <unclear>valet</unclear> dici ergo brevior patet quia non
+          <lb ed="#L"/>primum quia ex eodem sequetur quod tota illa virtus esset in potentia <choice><orig>sillaba</orig><reg>syllaba</reg></choice> et sic
+          <lb ed="#L"/>illa prolata effectus esset productus et sic totam residuum verorum
+          <lb ed="#L"/>superflueret <g ref="#slash"/> nec 2m qua tunc numquam produceretur effectus adunatam
+          <lb ed="#L"/>quod non potest esse hic cum partes ille non sint similis sed successivae
+          <lb ed="#L"/>proferuntur et dum una est alia non est nec potest dari 3m quia
+          <lb ed="#L"/>non est maior ratio quod illa virtus sit <add place="above-line">in</add> una parte verborum quam in alia
+          <pb ed="#L" n="225-v"/>
+          <lb ed="#L"/>etiam quia tunc illa parte prolata produceretur effectus <unclear>et sic</unclear> aliae partes ver<lb ed="#L"/>borum
+          vel aliae ductiones superfluerent
+        </p>
+        <p xml:id="pg-b4q1-d1e2468">
+          <g ref="pilcro"/>3o quia vel talis virtus po<lb ed="#L"/>neretur
+          in sacramentis sequitur quod <unclear>aliquomodo</unclear> continent suum effectum vel igitur ut
+          <lb ed="#L"/>causa univoca vel ut aequivoca non primum cum non sint eiusdem rationis
+          <lb ed="#L"/>nec 2m quia tunc oporteret quod res in animata scilicet sacramentum nobiliori modo
+          <lb ed="#L"/>continent gratiam quam anima consequens est falsum
+        </p>
+        <p xml:id="pg-b4q1-d1e2485">
+          <g ref="#pilcro"/>4o contra hoc est 3a ratio principalis
+          <lb ed="#L"/>conclusionis quia vel talis virtus esset eiusdem rationis in omnibus sacramentis vel non
+          <lb ed="#L"/>sed alterius et sic
+        </p>
+        <p xml:id="pg-b4q1-d1e2494">
+          <g ref="#pilcro"/>Ad primum dicitur quod illa virtus in aliquibus est permanens 
+          <lb ed="#L"/>aliqualiter scilicet in sacramentis consecratis seu <unclear>consecrateris</unclear> ut in sancto oleo 
+          <lb ed="#L"/><unclear><choice><orig>cirsinatae</orig><reg>circinatae</reg></choice></unclear> et fonte sacro sed cum applicantur ad usum <unclear>moto</unclear> super
+          <lb ed="#L"/>additur sensum illam formam per dominam virtutem medietate tali virtute in<lb ed="#L"/>strumentaliter
+          operante
+        </p>
+        <p xml:id="pg-b4q1-d1e2521">
+          <g ref="#pilcro"/>2o posset dici et melius quod talis virtus habet formae 
+          <lb ed="#L"/>proprietatem successivae modo quo successivo potest esse informis spiritualibus
+          <lb ed="#L"/>qui propriae non subiacent tempori patet quia talis virtus est in sacramento per
+          <lb ed="#L"/>modum formae in quodam fieri vel fluxu et <unclear>quoniam</unclear> dicitur an sit qualitas
+          <lb ed="#L"/>corporalis et sic dicitur quod corporalis potest dici ratione subiecti quia recipitur cor<lb ed="#L"/>poraliter
+          et spiritualis ratione agentis et effectus proximi in quem ordinatur
+          <lb ed="#L"/><g ref="#slash"/> et cum dicitur si esset corporalis non posset disponere ad gratiam dicitur quod est
+          <lb ed="#L"/>verum si esset mire corporalis et agent propria virtute <g ref="#slash"/> Et quoniam dicitur quod qua<lb ed="#L"/>litas
+          spiritualis non potest esse in corpore <g ref="#slash"/> dicitur quod formae mire cor<lb ed="#L"/>poreae
+          et quantitates et qualitates actione et passione et consequentes eas non possunt esse in corpore
+          <lb ed="#L"/>tamen cum hoc stat quod deus potest spirituales virtutes conferre corporibus 
+          <lb ed="#L"/>modo praeducto
+        </p>
+        <p xml:id="pg-b4q1-d1e2558">
+          <g ref="#pilcro"/>Ad 2m potest dici quod talis virtus est in ultimo verbo quod
+          <lb ed="#L"/>producit totum effectum in virtute <choice><orig>praecedencium</orig><reg>praecedentium</reg></choice> sicut <unclear>ultiam</unclear>gutta
+          <lb ed="#L"/>cavat lapidem et actus ultimus generat habitum in virtute ac
+          <lb ed="#L"/>tuum <choice><orig>praecedencium</orig><reg>praecedentium</reg></choice> <g ref="#slash"/> sed hoc non videtur sufficere rationi quia unum verbum
+          <lb ed="#L"/>non disponit subjectum ad effectum alterius verbi sicut est in actibus 
+          <lb ed="#L"/>quia in se consequentibus relinqueretur aliqua dispositio creata a <corr><del rend="strikethrough"><unclear>ppei</unclear></del></corr> praecedentibus
+          <lb ed="#L"/>quod non est in proposito nam in <unclear>medietatibus</unclear> effectus omni verborum est dispositio
+          <lb ed="#L"/>sed dispositionis non est dispositio ergo
+        </p>
+        <p xml:id="pg-b4q1-d1e2604">
+          <g ref="#pilcro"/>Ideo aliter potest dici 2o quod hic
+          <lb ed="#L"/>virtus est tota in toto et tota in qualibet parte nec tamen completur 
+          <lb ed="#L"/>effectus nisi integrato sacramento quod fit completis omnibus verbis
+          <lb ed="#L"/>sicut si anima rationalis successivae in formaret corpus humanum 
+          <lb ed="#L"/>ibi non esset hoc completus <g ref="#slash"/> Item posset dici quod tota veritas
+          <pb ed="#L" n="226-r"/>
+          <lb ed="#L"/><unclear>sc</unclear> in tota propositione et non per partes et <unclear>quoniam dicitur</unclear> cum tota medietas verborum
+          <lb ed="#L"/>est prolata et sic <g ref="#slash"/> dicitur quod ratio bonum concluderet si illa virtus directe mensuraretur 
+          <lb ed="#L"/>tempore nunc autem sic non est <g ref="#slash"/> sed possumus <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod sicut actus
+          <lb ed="#L"/>angeli coexistit alicui toti tempori et non sed participialiter sed in partibiliter
+          <lb ed="#L"/>producitur se de illo actu in medio temporis cui <unclear>coexistunter</unclear> producitur
+          <lb ed="#L"/>quaereretur an aliquod esset productum eius <g ref="#slash"/> vere posset dici quod totus actus est
+          <lb ed="#L"/>in produci actualiter et tamen nulla pars actus nec totus actus esset productus
+          <lb ed="#L"/>seu un esse producto sic est etiam in proposito de virtute verorum <unclear>sacramentalium</unclear>
+        </p>
+        <p xml:id="pg-b4q1-d1e2663">
+          <g ref="#pilcro"/>Aliud extremum potest esse de figura qui consistit in indivisibili nam nihil eius
+          <lb ed="#L"/>est productum ante ultimum <unclear>instans</unclear> et tamen per totum aliquod certum temporis producitur
+          <lb ed="#L"/>sed instanti quo clauditur positio sensum se totam est producta sic aliquo modo est hic
+          <lb ed="#L"/>licet primum extremum sit magis ad propositionem
+        </p>
+        <p xml:id="pg-b4q1-d1e2677">
+          <g ref="#pilcro"/>Ad 3m dicitur quid sacramentum continet
+          <lb ed="#L"/>gratiam sicut <unclear>instrumentalis</unclear> dicitur virtualiter continere aliquem <unclear>effectum</unclear> in quantum
+          <lb ed="#L"/>continet dispositionem aliquam ad ipsam antecedentem non tamen continet effectum
+          <lb ed="#L"/>formaliter ac principaliter et cum dicitur aut continet ut causa uniuoca etiam
+          <lb ed="#L"/>dicitur quod nec sic nec sic quia talis divisio veritatem habet in causis principalibus 
+          <lb ed="#L"/>non instrumentalibus
+        </p>
+        <p xml:id="pg-b4q1-d1e2699">
+          <g ref="#pilcro"/>Sed contra posset argui quia ut videtur a simili 
+          <lb ed="#L"/>sequitur quod illa divisio causae non haberet locum in quacumque causa 2a consequens est falsum patet
+          <lb ed="#L"/>consequentia quia omnis creatura est instrumentum dei dum creatura agit sicut sacramentum
+          <lb ed="#L"/>quia quilibet talis est <unclear>moneres</unclear> motum a deo principaliter movente faciente eam
+          <lb ed="#L"/>movere et causare
+        </p>
+        <p xml:id="pg-b4q1-d1e2717">
+          hic reponitur quod non est simile quia agentia creata sunt in<lb ed="#L"/>stumenta
+          dei sic tamen quod ipsa sunt agentia principalia in ratione causarum 2arum
+          <lb ed="#L"/>qui etiam agunt sensum conditionem propriae naturae et formae sicut ignis calefaciendo
+          <lb ed="#L"/>vel etiam hoc bonum faciendo opus
+        </p>
+        <p xml:id="pg-b4q1-d1e2726">
+          <g ref="#pilcro"/>Alia vero sic sunt instrumenta dei quod ut
+          <lb ed="#L"/>agant non sensum conditionem propriae naturae sed praecise ut instrumenta (dot)
+          <lb ed="#L"/>sensum virtutem eis inmissam et ita est in proposito bene differenter est instrumentum 
+          <lb ed="#L"/>principalis artificis discipulusp et <choice><orig>maleus</orig><reg>malleus</reg></choice> nam artifex inferior seu discipulus
+          <lb ed="#L"/>potest dici instrumentum principalis magistri est etiam agens quidam agit sed
+          <lb ed="#L"/><choice><orig>maleus</orig><reg>malleus</reg></choice> non est agens quidam agit sed instrumentum praecise quo artirex
+          <lb ed="#L"/>agit et isto modo sacramenta ecclesiastica sunt instrumenta dei in gratiae infusione 
+        </p>
+        <p xml:id="pg-b4q1-d1e2755">
+          <g ref="#pilcro"/>Ad 4am qui est ratio 3a in oppositionem conclusionis dicitur quod licet effectus remotus
+          <lb ed="#L"/>omni sacramentorum scilicet gratia possit esse eiusdem rationis in pluribus sacramentis
+          <lb ed="#L"/>tamen propinquus et in mediatus effectus eius non est eiusdem rationis quia sicut sa<lb ed="#L"/>cramenta 
+          <unclear>speciatae</unclear> sunt <unclear>distincta</unclear> quantum <unclear>agendus</unclear> sacramentale sicut et eorum virtutes
+          <lb ed="#L"/>quia quilibet virtus est proportionata sui fini seu effectui proximo et etiam
+          <lb ed="#L"/>est aliqualiter similis significatio exteriori alias sacramenta non vere significarent <unclear>quiddam</unclear> 
+          <lb ed="#L"/>continent et e contra <g ref="#slash"/> bene possumus <choice><orig>ymaginari</orig><reg>imaginari</reg></choice> quod sicut complexoque domus
+          <pb ed="#L" n="226-v"/>
+          <lb ed="#L"/>et integritatem aliqua concurrunt qui producuntur diversis instrumentis habentibus
+          <lb ed="#L"/>diversas figuras per quas agunt et licet figurea non sit per se activa nec
+          <lb ed="#L"/>passiva tamen per eam <unclear>diversimodae</unclear> agit agens principale <g ref="#slash"/> bene artifex non
+          <lb ed="#L"/>posset perforare cum dolabro sicut cum cerebello nec ego sic in proposito
+          <lb ed="#L"/>ad integritatem et complementum Christiane vitae concurrunt diversi effectus sa<lb ed="#L"/>cramentales
+          diversor instrumentis et virtutibus producti et sic dicitur quod diversa instrumenta 
+          <lb ed="#L"/>possunt concurrere ad eundem effectum remotum licet non propinquum
+        </p>
+        <p xml:id="pg-b4q1-d1e2816">
+          <pc type="#pilcrow"/>Ad confessionem 
+          <lb ed="#L"/>dicitur quod illa virtus a deo creatur et sacramentis confertur <g ref="#slash"/> et cum dicitur quod non videtur
+          <lb ed="#L"/>rationabile <unclear>etiam</unclear> dicitur quod talia spiritualia non mensurantur tempore propriae nisi
+          <lb ed="#L"/>per <unclear>coexistentiam extrinsicam</unclear> ideo durante oppositione exteriori ille virtutes
+          <lb ed="#L"/>durant et transeunte transeunt <g ref="#slash"/> et ultima dicitur quod sicut de columba apparente
+          <lb ed="#L"/>super christam quod expleto officio rediit in pristinam materiam de qua erat
+          <lb ed="#L"/>assumpta sic in proposito plus quam transierit effectus sacramentorum talis virtus
+          <lb ed="#L"/>cessat quia frustra maneret
+        </p>
+        <p xml:id="pg-b4q1-d1e2847">
+          <g ref="#pilcro"/>pro ulteriori notitia sacramentorum aliqua possunt
+          <lb ed="#L"/>notari <lb ed="#L"/>positio quod ad integritatem sacramenti novae legis terra concurrunt scilicet
+          <lb ed="#L"/>materia ut elementum est <corr><del rend="strikethrough">in</del></corr> operatio eius et applicatio et forma certa verborum et mini<lb ed="#L"/>stri
+          <unclear>interveniendo</unclear> copulans formam materiae
+        </p>
+        <p xml:id="pg-b4q1-d1e2868">
+          <g ref="#pilcro"/>2o notandum quod effectus sacramentorum
+          <lb ed="#L"/>in coni est quod talia sint cuilibet qualis est ille qui accedit ut patet potentia quaestione 
+          <lb ed="#L"/>dominus declaravit <g ref="#slash"/> ubi cavit ecclesia mors est malis vita bonis etiam
+        </p>
+        <p xml:id="pg-b4q1-d1e2880">
+          <g ref="#pilcro"/>3o si quaeratur an sacramenta debeant conferri peccatoribus dicitur quod non si sint
+          <lb ed="#L"/>peccata publica sed propter occulta non debet quis publicae negare
+          <lb ed="#L"/>sicut nec christis negavit in de sacramentum corporis sui quia hoc esset pandere
+          <lb ed="#L"/>secretum
+        </p>
+        <p xml:id="pg-b4q1-d1e2891">
+          <g ref="#pilcro"/>4o nota quod conferens et suscipiens sacramentum aliquod in peccato peccat 
+          <lb ed="#L"/>mortaliter ut patet distinctione 40 capitulo multi Item distinctione <unclear>cum (dot) et licet (dot) Item (dot) u (dot) conlusione</unclear>
+          <lb ed="#L"/>3a audi similiter et ministri sacramenti ministrans in suo ordine scienter 
+          <lb ed="#L"/><unclear>immortali</unclear> peccat sicut probat <ref xml:id="pg-b4q1-Rd1e2907"><unclear>suprascriptis</unclear> <name>Thomas</name> 4o sententiarum distinctione 24</ref> quia talis 
+          <lb ed="#L"/>facit irreverenter sacramento <g ref="#slash"/> tamen <unclear>secum</unclear> esset si in necessitate levaret sacramentum
+          <lb ed="#L"/>de terra (dot) vel baptizaret in periculo mortis quod etiam <choice><orig>laycum</orig><reg>laicum</reg></choice> facere posset
+        </p>
+        <p xml:id="pg-b4q1-d1e2931">
+          <g ref="#pilcro"/>5o nota quod tria sunt sacramenta iterabilia non scilicet baptismus confirmo et ordo
+          <lb ed="#L"/>quia in illis in premitur caracter patet 2a quae potentia <unclear>quaedam quidam</unclear> <g ref="#slash"/> et de con<lb ed="#L"/>secratione
+          distinctione 5a de homine unum quia caracter est indelebile in illis tribus 
+          <lb ed="#L"/>in habentibus <unclear>et</unclear> per morte non debet iterari etiam si quis de morte <unclear>administrans</unclear> 
+          <lb ed="#L"/>resuscitaretur non autem est sic de aliis sacramentis ut patet 32 q (dot) a (dot) licite 
+          <lb ed="#L"/>unum dicunt quidam quod Lazarus plus resuscitationem non potuit licite 
+          <lb ed="#L"/>repetere uxorem nec ipsa eum sed <unclear>potuisseret</unclear> de novo contraxisse ma<lb ed="#L"/>trimonium
+          si vero fuisset sacerdos de novo non fuisset iterum ordinandus
+          <lb ed="#L"/>et licet beneficium quod <unclear>humisset</unclear> <unclear>vaccasset</unclear> tamen de vire non potuisset illud re<pb ed="#L" n="227-r"/><lb ed="#L"/>petuisse
+        </p>
+        <p xml:id="pg-b4q1-d1e2978">
+          <g ref="#slash"/> et si contra hoc fiat peccatorem est quia fit in <unclear>matrimonia</unclear> sacramento quasi potentia
+          <lb ed="#L"/>collatio sacramenti non fuisset efficax nec est ibi unum sacramentum sic potest dici
+          <lb ed="#L"/>quod religiosus resuscitatus a morte non tenetur ad votorum obser<lb ed="#L"/>vantiam 
+          quia non fuit obligatus nisi usque ad mortem nec plus obligatur
+          <lb ed="#L"/>quam <unclear>mulier</unclear> viro in matrimonio
+        </p>
+        <p xml:id="pg-b4q1-d1e2998">
+          <g ref="#pilcro"/>item potest notari quod cum differentur an aliquis rece<lb ed="#L"/>perit
+          sacramentum non iterabile iterum poterit tali sacramentum conferri subiectum conditione
+          <lb ed="#L"/><unclear>9iter</unclear> quod sic nam non intellectualiter iteratum quod nescitur esse factum  de consecrare
+          <lb ed="#L"/>distinctione potentia <g ref="#slash"/> et si tunc talis non receperat primus nunc vero recipit quia <unclear>con<lb ed="#L"/>dictio</unclear>
+          extat sed si primus receperat nihil efficitur nec tamen peccat quia condictio
+          <lb ed="#L"/>non extat <g ref="#slash"/> Item nota de excellentia  et dignitate sacramentorum inter se ut primus <corr><add place="right">et sic</add></corr>
+          <lb ed="#L"/><g ref="#slash"/>Circa distinctionem 8 et sequentes <unclear>usque</unclear> ad 13 in <unclear>clube</unclear> ubi agitur de sacramento <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> <add place="right"><unclear>qne2</unclear></add>
+        </p>
+      </div>
+    </body>
   </text>
 </TEI>
