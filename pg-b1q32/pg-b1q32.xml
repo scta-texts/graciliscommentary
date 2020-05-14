@@ -403,13 +403,34 @@
               <supplied>Secunda conclusio</supplied>
             </head> 
             <p xml:id="pgb1q32-d1e3427">
-              <unclear>Secunda <!-- check to see if lon accidentally wrote 3a --></unclear> conclusio: 
+              <app>
+                <lem type="conjecture-corrected"><corr>Secunda</corr></lem>
+                <rdg wit="#L" facs="96r/28">Tertia</rdg>
+              </app>
+              conclusio: 
               licet omnis reprobatus possit finaliter salvari, 
               tamen non omnis praedestinatus 
               potest finaliter dampnari seu poenae aeternae deputari. 
               Prima pars patet 
               quia in sensu diviso est concedenda 
-              secundum <name ref="#Lombard">Magistrum</name>. 
+              secundum 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e453" target="http://scta.info/resource/pll1d40c1-d1e3570">
+                  <name ref="#Lombard">Magistrum</name>
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 40, c. 1, [n. 7]
+                  <!-- TODO: starting at word 71, "In his enim..."
+                    might be nice to be address target as 
+                    http://scta.info/resource/pll1d40c1-d1e3570=>71 or
+                    http://scta.info/resource/pll1d40c1-d1e3570@71 (is @ an allowed character in URLs?)
+                    rdf creator would need to parse this, 
+                    anything using plain text could probably identify this. html marked up text might be harder to pin point -->
+                    --&gt;
+                </bibl>
+              </cit>. 
               Confirmatur 
               quia Deus contingenter
               <app>
@@ -437,14 +458,27 @@
                 <bibl>Romanos 1:4</bibl>
               </cit>.
               Ex quo patet 
-              quod nisi dictum <unclear><name ref="#HughOfStVictor">Hugonis</name></unclear> 
+              quod nisi dictum 
+              <ref xml:id="pg-b1q32-Rd1e501" corresp="#pg-b1q32-Qd1e507">
+                <name ref="#HughOfStVictor">Hugonis</name>
+              </ref> 
               restringeretur ad supposita 
               creata non haberet veritatem, 
-              ubi dicit quod quilibet 
-              qui est beatus potest non 
-              esse electus constat enim 
+              ubi dicit quod 
+              <cit>
+                <quote xml:id="pg-b1q32-Qd1e507">
+                  quilibet 
+                  qui est beatus potest non 
+                  esse electus
+                </quote>
+                <bibl>
+                  Hugo of St. Victor
+                </bibl>
+              </cit>.
+              Constat enim 
               quod Christus est electus 
-              sicut praedestinatus iuxta 
+              sicut praedestinatus, 
+              iuxta 
               <ref xml:id="pg-b1q32-Rd1e468" corresp="#pg-b1q32-Qd1e476">
                 illud <title ref="#cant">Canticum</title>
               </ref>,
@@ -454,14 +488,26 @@
                 </quote>
                 <bibl>Canticos 5:10</bibl>
               </cit> 
-              quod secundum glossam de Christo intelligitur.
+              quod secundum 
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e531">Glossam</ref>
+                <bibl>
+                  Glossa, XXX
+                </bibl>
+              </cit> 
+              de Christo intelligitur.
             </p>
             <p xml:id="pgb1q32-d1e3497">
               <pb ed="#L" n="96-v"/>
               Primum corollarium: 
               aliquid 
               quod Deus nunc vult 
-              potest numquam velle vel volusse sine sui 
+              potest numquam velle vel 
+              <app>
+                <lem type="conjecture-corrected"><corr>voluisse</corr></lem>
+                <rdg wit="#L" facs="96v/1">volusse</rdg>
+              </app> 
+              sine sui 
               mutatione intrinsece. 
               Patet quia nunc praedestinatur elective 
               potest numquam ipsum praedestinasse.
@@ -469,7 +515,7 @@
             <p xml:id="pgb1q32-d1e3505">
               Secundum corollarium: 
               verba diversorum temporum dicta 
-              de Deo non notant tempus <unclear>mensurans <!-- dbcheck --></unclear> Dei actum, 
+              de Deo non notant tempus mensurans Dei actum, 
               sed significat in <unclear>dis?tem</unclear> 
               praesentiam aeternitatis ad omnem temporis fluxum. 
               Patet quia aliter in divino actu 
@@ -495,10 +541,12 @@
               est malorum reprobativa ad perpetuae miseriae calamitatem. 
               Prima patet de se 
               et per 
-              <ref xml:id="pg-b1q32-Rd1e513">
-                <name ref="#Lombard">Magistrum</name>
+              <cit>
+                <ref xml:id="pg-b1q32-Rd1e513">
+                  <name ref="#Lombard">Magistrum</name>
+                </ref>
                 <bibl>XXX</bibl>
-              </ref>. 
+              </cit>. 
               Secunda per 
               <ref xml:id="pg-b1q32-Rd1e514" corresp="#pg-b1q32-Qd1e525">
                 <name ref="#Augustine">Augustinum</name>, 
