@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,10 +47,6 @@
   </teiHeader>
   <text xml:lang="en">
       <front>
-        <div xml:id="include-list">
-          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
-          <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
-        </div>
         <div xml:id="starts-on">
           <pb ed="#L" n="18-r"/>
         </div>
@@ -131,7 +127,7 @@
               <quote xml:id="pg-b1q3-Qd1e3821" source="http://scta.info/resource/pll1d2c5-d1e3677">sed quia singulae poenae syllabae novi Testamenti</quote>
               <bibl><ref target="http://scta.info/resource/pll1d2c5-d1e3677">Lombardus, Sent. I, d. 2, c. 5, [n.5/9], (I, 68, ll. 15).</ref></bibl>
             </cit>. 
-            And this is the distinction.
+            And this is the division.
           </p>
         </div>
         <div xml:id="pg-b1q3-Dd1e3830">
@@ -627,8 +623,6 @@
                 <quote xml:id="pg-b1q3-Qd1e4495" source="http://scta.info/resource/io15_1">I am the true wine</quote>
                 <bibl>Iohannes 15:1</bibl>
               </cit>.
-            </p>
-            <p xml:id="pgb1q3-chqdce">
               This is confirmed because the doctors of the scripture 
               contradict themselves, therefore. 
               The antecedent is clear from 
@@ -750,23 +744,27 @@
             <p xml:id="pgb1q3-d1e706">
               To the fourth: the consequence is denied and for the proof it is said 
               according to 
+              <ref xml:id="pg-b1q3-Rd1e4765"><name ref="#ThomasStrasbourg">Thomas of Argentina</name>, 
+                in the second distinction of the first book, 
+                in the first article, 
+              </ref>
               <cit>
-                <ref xml:id="pg-b1q3-Rd1e4765"><name ref="#ThomasStrasbourg">Thomas of Argentina</name>, 
-                  in the second distinction of the first book, 
-                  in the first article, 
-                </ref>
-                <bibl>Thomas of Strasburg, I, d. 2, a. 1</bibl>
-              </cit> 
-              that <mentioned>it is said</mentioned> is taken in two ways when applied to the divine. 
+                <quote xml:id="pg-b1q3-Qd1e1492">
+                that <mentioned>it is said</mentioned> is taken in two ways when applied to the divine. 
               
               In one mode properly, and in this case it is the same things as grasping the world. 
               And it is in this manner that  
               <cit>
-                <ref xml:id="pg-b1q3-Rd1e4782"><name ref="#Augustine">Augustine</name> <unclear cert="low">VII</unclear> <title ref="#deTrinitate">De Trinitate</title></ref>
+                <ref xml:id="pg-b1q3-Rd1e4782">
+                  <name ref="#Augustine">Augustine</name> 
+                  VII <title ref="#deTrinitate">De Trinitate</title>
+                </ref>
                 <bibl>Augustine, De Trinitate, VII, xxx</bibl>
               </cit> 
-              uses the word when he says that no one but the Father is speaking internally. <!-- is this is quote -->
-              In another mode the word <mentioned>to say</mentioned> is take to mean to understand perfectly, 
+                uses the word when he says that no one but the Father is speaking internally. <!-- is this is quote -->
+                In another mode the word <mentioned>to say</mentioned> is take to mean to understand perfectly,
+              </quote>
+              </cit>
               and thus any person speaks itself,
               and in the same way it could be said about the word <mentioned>to understand</mentioned>. 
               It is in this way that
@@ -858,7 +856,8 @@
               and he offers an example about everything.
             </p>
             <p xml:id="pgb1q3-d1e791">
-              To the confirmation it is said that doctors are not authors of Sacred Scripture, but only expositors.
+              To the confirmation, 
+              it is said that doctors are not authors of Sacred Scripture, but only expositors.
               Concerning the evangelists it is said that in no passage are they really discordant. And accordingly <!-- accordingly for "insignum" --> 
               his book is not called
               <mentioned>on the discord</mentioned> but <mentioned>on the concord of the evangelists</mentioned>.
@@ -867,15 +866,18 @@
               this would not be true and real, but only an assessment or an opinion and mere words.
             </p>
             <p xml:id="pgb1q3-d1e806">
-              To another: the antecedent is denied. If one studies in the way they ought, 
-              for such a person ought not to seek to understand in order to believe, but  
+              To another: 
+              the antecedent is denied, if one studies in the way they ought. 
+              For such a person ought not to seek to understand in order to believe, 
+              but  
               <cit>
                 <quote xml:id="pg-b1q3-Qd1e4896">believe in order to understand</quote>
                 <bibl>Anselm, Prosologion, 1, (I, 100, ll. 18-19)</bibl>
               </cit> 
               as
               <ref xml:id="pg-b1q3-Rd1e4953">
-                <name ref="#Anselm">Anselm</name> says
+                <name ref="#Anselm">Anselm</name> 
+                says
                 at the end of the prologue of his <title ref="#Proslogion">Proslogion</title>
               </ref>.
               To the proof <mentioned>concerning the sayings of the heretics</mentioned>, etc., 
