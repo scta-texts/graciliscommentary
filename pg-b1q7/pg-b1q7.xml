@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xi="http://www.w3.org/2001/XInclude">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -172,7 +172,7 @@
             <head xml:id="pg-b1q7-Hd1e3801">
               <supplied>Rationes principales</supplied>
             </head>
-            <p xml:id="pgb1q7-qnqeon">
+            <p xml:id="pgb1q7-qnqeon" n="Ratio 1">
               Quod non quia Pater producit 
               <app>
                 <lem type="conjecture-supplied"><supplied>naturaliter</supplied></lem>
@@ -198,7 +198,7 @@
                 </bibl>
               </cit>.
             </p>
-            <p xml:id="pgb1q7-d1e146">
+            <p xml:id="pgb1q7-d1e146" n="Ratio 2">
               Secundo, 
               sequeretur quod Filii generatio esset voluntatis operatio. 
               Consequens videtur falsum 
@@ -226,7 +226,7 @@
               quia omnis actus Patris ad intra est actus immanens 
               et per consequens essentialis et toti trinitatis communis.
             </p>
-            <p xml:id="pgb1q7-d1e170">
+            <p xml:id="pgb1q7-d1e170" n="Ratio 3">
               Tertio, Pater nullo modo determinatur 
               ad gignendum Filium, ergo. 
               Antecedens probatur 
@@ -235,7 +235,7 @@
               Probatio antecedentis <supplied>est</supplied> quia a quocumque determinatur aliquid, 
               ab illo est effective productum, vel producitur, vel saltem movetur.
             </p> 
-            <p xml:id="pgb1q7-d1e180">
+            <p xml:id="pgb1q7-d1e180" n="In oppositum">
               In oppositum est 
               <ref xml:id="pg-b1q7-Rd1e4002" corresp="#pg-b1q7-Qd1e3886">
                 <name ref="#Augustinus">Augustinus</name> 
@@ -317,8 +317,10 @@
             </p>
           </div>
           <div xml:id="pg-b1q7-Dd1e3934">
-            <head xml:id="pg-b1q7-Hd1e3936"><supplied>Prima conclusio</supplied></head>
-            <p xml:id="pgb1q7-d1e228">
+            <head xml:id="pg-b1q7-Hd1e3936">
+              <supplied>Prima conclusio</supplied>
+            </head>
+            <p xml:id="pgb1q7-d1e228" n="Conclusio">
               Prima conclusio: 
               licet Verbum infallibile 
               a Patre gignatur immutabiliter 
@@ -337,7 +339,7 @@
               quia pater non potest non gignere Verbum, 
               ergo necessario generat ipsum.
             </p>
-            <p xml:id="pgb1q7-pclpca">
+            <p xml:id="pgb1q7-pclpca" n="Corollarium 1">
               Primum corollarium: 
               licet Pater Verbum gignat necessitate exigentiae, 
               ab hac tamen excluditur necessitas coactionis et indigentiae. 
@@ -345,14 +347,16 @@
               Sed secunda patet quia omnipotens cogi non potest, 
               contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4074"><name ref="#Aureoli">Aureolum</name></ref>
+                <ref xml:id="pg-b1q7-Rd1e4074">
+                  <name ref="#Aureoli">Aureolum</name>
+                </ref>
                 <bibl>
                   <name>Aureolus</name>,
                   non invenimus.
                 </bibl>
               </cit>.
             </p>
-            <p xml:id="pgb1q7-d1e289">
+            <p xml:id="pgb1q7-d1e289" n="Corollarium 2">
               Secundum corollarium: 
               quam repugnat Spiritum Sanctum a Verbo non spirari, 
               tam necessario concurrit amor essentialis ad Verbum generari. 
@@ -380,18 +384,21 @@
               <pb ed="#L" n="29-r"/>
               Ad idem est 
               <ref xml:id="pg-b1q7-Rd1e4105" corresp="#pg-b1q7-Qd1e3981">
-                <name ref="#Dionysius">Dionysius</name> 
+                <name ref="#Dionysius">Dionysius</name>,
                 <title ref="#deDivinisNominibus">De divinis nominibus</title>
               </ref> 
               dicens 
               <cit>
-                <quote xml:id="pg-b1q7-Qd1e3981">amor divinus non dimisit Deum esse sine 
-                  <sic>gignitione germinis <!-- actual text of Dionysius has "sine germine" --></sic></quote>
+                <quote xml:id="pg-b1q7-Qd1e3981" source="http://scta.info/resource/KJde3s-d1e107-d1e162" synch="27-52">
+                  amor divinus non dimisit Deum esse sine 
+                  <sic>gignitione germinis <!-- actual text of Dionysius has "sine germine" --></sic>
+                </quote>
                 <bibl>
                   <name>Pseudo-Dionysius</name>, 
                   <title>De divinis nominibus</title>, 
                   cap. 4 
                   (Dionysiaca I, 201).
+                  <!-- et divinus amore .. . in se ipso manere -->
                 </bibl>
               </cit>. 
               Unde 
@@ -406,9 +413,12 @@
               </cit> 
               etc.
             </p>
-            <p xml:id="pgb1q7-d1e344">
-              Tertium corollarium: Pater, seu fecunditas paternae memoriae, nullo modo, postquam Verbum produxit, 
-              potuit aut voluit Verbum producere. Patet quia aliter ipsum genuisset voluntate 
+            <p xml:id="pgb1q7-d1e344" n="Corollarium 3">
+              Tertium corollarium: 
+              Pater, seu fecunditas paternae memoriae, nullo modo, 
+              postquam Verbum produxit, 
+              potuit aut voluit Verbum producere. 
+              Patet quia aliter ipsum genuisset voluntate 
               antecedente, contra 
               <cit>
                 <ref xml:id="pg-b1q7-Rd1e4147">
@@ -430,19 +440,17 @@
                   <name ref="#Lombard">Magistrum</name> in littera
                 </ref>
                 <bibl>
-                  <ref target="http://scta.info/resource/pl-l1d1c1">
-                    <name>Lombardus</name>, 
-                    <title>Sent.</title> 
-                    I, d. 6, c. 1 
-                    (I, 89-91).
-                  </ref>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 6, c. 1 
+                  (I, 89-91).
                 </bibl>
               </cit>. 
               Item, tunc aliqua prioritas 
               esset in divinis, quod est contra dicta in 
               <cit>
                 <ref xml:id="pg-b1q7-Rd1e4173">alia quaestione</ref>
-                <bibl>Cross-Reference, XXX</bibl>
+                <bibl><!--Cross-Reference,--> XXX</bibl>
               </cit>.
             </p>
           </div>
@@ -450,8 +458,9 @@
             <head xml:id="pg-b1q7-Hd1e4051">
               <supplied>Secunda conclusio</supplied>
             </head>
-            <p xml:id="pgb1q7-d1e370">
-              Secunda conclusio: quam repugnat paternam memoriam 
+            <p xml:id="pgb1q7-d1e370" n="Conclusio">
+              Secunda conclusio: 
+              quam repugnat paternam memoriam 
               verbum fallibile ab aeterno produxisse, tam repugnat omnem actum aeternalem esse 
               notionalem vel fuisse. Prima pars patet per dicta in alia conclusione. 
               Confirmatur tamen quia repugnat 
@@ -463,7 +472,7 @@
               est actus aeternus et non est notionales, 
               immo tribus personis communis, ergo.
             </p>
-            <p xml:id="pgb1q7-d1e387">
+            <p xml:id="pgb1q7-d1e387" n="Corollarium 1">
               Primum corollarium: 
               nullius rei futuritio aut eius privatio 
               caruit simpliciter temporis initio, 
@@ -489,7 +498,8 @@
               nullius rei ab aeterno <unclear cert="low">negatio</unclear> extitit, 
               contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4207">
+                <ref xml:id="pg-b1q7-Rd1e4207" target="http://scta.info/resource/hduv-l2d1q2">
+                  <!-- TODO: temp item level target value -->
                   <name ref="#HugolinoOfOrvieto">Hugolinum</name>, 
                   libro secundo, 
                   quaestione secunda, 
@@ -503,7 +513,7 @@
                 </bibl>
               </cit>.
             </p>
-            <p xml:id="pgb1q7-d1e427">
+            <p xml:id="pgb1q7-d1e427" n="Corollarium 2">
               Secundum corollarium principale: 
               non quilibet actus Patris aeternalis est appropriatus seu notionalis. 
               Patet per secundam partem conclusionis 
@@ -511,7 +521,7 @@
               <supplied>est</supplied> et tribus suppositis communis 
               et per consequens non est notionalis.
             </p>
-            <p xml:id="pgb1q7-d1e435">
+            <p xml:id="pgb1q7-d1e435" n="Corollarium 3">
               Tertium corollarium: non omnis actus Patris 
               cognitivus est Verbi infallibilis productivus. 
               Patet quia aliquis est actus Patris aeternalis 
@@ -523,14 +533,17 @@
             <head xml:id="pg-b1q7-Hd1e4112">
               <supplied>Tertia conclusio</supplied>
             </head>
-            <p xml:id="pgb1q7-d1e446">
+            <p xml:id="pgb1q7-d1e446" n="Conclusio">
               Tertia conclusio: 
               licet memoria paterna sit fecunda complacenter et libere, 
               tamen ad Verbi generationem 
-              non est determinata formaliter et proprie. Patet per 
+              non est determinata formaliter et proprie. 
+              Patet per 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4242" target="http://scta.info/resource/pgb1q7-d1e228">primam conclusionem</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e228">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4242" target="http://scta.info/resource/pgb1q7-d1e228">
+                  primam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit> 
               prima pars. 
               Secunda probatur quia sic 
@@ -541,7 +554,7 @@
               respectu illius prius fuit in potentia quam in actu, 
               sed hoc sonat imperfectionem.
             </p>
-            <p xml:id="pgb1q7-d1e467">
+            <p xml:id="pgb1q7-d1e467" n="Corollarium 1">
               Primum corollarium: 
               quam necessario Pater summa beatitudine fruitur, 
               tam necessario ab eodem Verbum infallibile gignitur. 
@@ -553,12 +566,14 @@
               </ref>, 
               dicit: 
               <cit>
-                <quote xml:id="pg-b1q7-Qd1e4129" source="http://scta.info/resource/mt3_17">Hic est Filius meus dilectus</quote>
+                <quote xml:id="pg-b1q7-Qd1e4129" source="http://scta.info/resource/mt3_17">
+                  Hic est Filius meus dilectus
+                </quote>
                 <bibl>Matthaeus 3:17.</bibl>
               </cit>,
               etc.
             </p>
-            <p xml:id="pgb1q7-scqese">
+            <p xml:id="pgb1q7-scqese" n="Corollarium 2">
               Secundum corollarium: 
               quam repugnat Patri non esse, 
               tam
@@ -572,7 +587,7 @@
               Patet tum quia sua actio est sibi connaturalis, 
               tum etiam quia suum agere est suum esse.
             </p>
-            <p xml:id="pgb1q7-d1e495">
+            <p xml:id="pgb1q7-d1e495" n="Corollarlium 3">
               Tertium corollarium: 
               licet a memoria paterna libere, complacenter, ac naturaliter 
               Verbum aeternum dicatur, 
@@ -588,8 +603,10 @@
             <p xml:id="pgb1q7-d1e505">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4297" target="http://scta.info/resource/pgb1q7-d1e228">primam conclusionem</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e228">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4297" target="http://scta.info/resource/pgb1q7-d1e228">
+                  primam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit> 
               arguitur: 
               Verbum aeternum non potest 
@@ -636,8 +653,10 @@
             <p xml:id="pgb1q7-tctdsp">
               Tertio contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4342" target="http://scta.info/resource/pgb1q7-d1e344">tertium corollarium</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e344">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4342" target="http://scta.info/resource/pgb1q7-d1e344">
+                  tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               videtur esse 
               <ref xml:id="pg-b1q7-Rd1e4350" corresp="#pg-b1q7-Qd1e4214">
@@ -660,7 +679,11 @@
               Item, 
               contra hoc, vide 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4371"><name ref="#Scotus">Scotum</name>, distinctionem 6 primi</ref>
+                <ref xml:id="pg-b1q7-Rd1e4371" target="http://scta.info/resource/jdso8u-d1e619">
+                  <!-- TODO: temp item level target value -->
+                  <name ref="#Scotus">Scotum</name>, 
+                  distinctionem 6 primi
+                </ref>
                 <bibl>
                   <name>Scotus</name>, 
                   <name>Ordinatio</name>, 
@@ -675,7 +698,7 @@
                 <ref xml:id="pg-b1q7-Rd1e4385" target="http://scta.info/resource/pgb1q7-d1e370">
                   secundam partem secundae conclusionis et eius corollaria
                 </ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e370">Vide supra.</ref></bibl>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               si esset aliquis actus aeternalis non notionalis, 
               sequitur quod essent plures dii. 
@@ -690,8 +713,10 @@
             <p xml:id="pgb1q7-d1e562">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4399" target="http://scta.info/resource/pgb1q7-d1e427">secundam corollarium</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e427">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4399" target="http://scta.info/resource/pgb1q7-d1e427">
+                  secundam corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               Spiritus Sanctus eodem amore 
               amat se quo Pater et Filius amant ipsum. 
@@ -704,8 +729,10 @@
             <p xml:id="pgb1q7-d1e572">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4412" target="http://scta.info/resource/pgb1q7-d1e435">tertium corollarium</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e435">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4412" target="http://scta.info/resource/pgb1q7-d1e435">
+                  tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               si Deus agit aliquid ad intra actu essentiali, 
               ergo aliquid 
@@ -723,8 +750,10 @@
             <p xml:id="pgb1q7-d1e585">
               Contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4440" target="http://scta.info/resource/pgb1q7-d1e446">tertiam conclusionem</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e446">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4440" target="http://scta.info/resource/pgb1q7-d1e446">
+                  tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               paterna memoria non potest Filium non producere, 
               ergo necessaria est ipsum producere, 
@@ -762,7 +791,7 @@
                   tertium corollarium primae conclusionis
                 </ref>
                 <bibl>
-                  <ref target="http://scta.info/resource/pgb1q7-d1e344">Vide supra.</ref>
+                  Vide supra.
                 </bibl>
               </cit>. 
               Nec tertium 
@@ -772,8 +801,10 @@
             <p xml:id="pgb1q7-d1e628">
               Tertio contra 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4486" target="http://scta.info/resource/pgb1q7-scqese">secundum corollarium</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-scqese">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4486" target="http://scta.info/resource/pgb1q7-scqese">
+                  secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>: 
               quantam repugnantiam includit 
               <mentioned>Patrem esse et non esse</mentioned>, 
@@ -796,8 +827,10 @@
             </p>
             <p xml:id="pgb1q7-d1e645">
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4517" target="http://scta.info/resource/pgb1q7-d1e505">Ad primam</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e505">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4517" target="http://scta.info/resource/pgb1q7-d1e505">
+                  Ad primam
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>,
               dicitur quod voluntatem concurrere ad Verbi 
               productionem seu voluntatem esse principium productivum 
@@ -813,12 +846,18 @@
             </p>
             <p xml:id="pgb1q7-d1e662">
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4534" target="http://scta.info/resource/pgb1q7-d1e516">Ad secundam</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e516">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4534" target="http://scta.info/resource/pgb1q7-d1e516">
+                  Ad secundam
+                </ref>
+                <bibl>
+                  Vide supra.
+                </bibl>
               </cit>, 
               quod est auctoritas 
               <app>
-                <lem type="conjecture-supplied"><supplied><name ref="#RichardOfStVictor">Richardi</name></supplied></lem>
+                <lem type="conjecture-supplied">
+                  <supplied><name ref="#RichardOfStVictor">Richardi</name></supplied>
+                </lem>
                 <rdg wit="#L">Richardo</rdg>
               </app> 
               cum 
@@ -840,8 +879,10 @@
             </p>
             <p xml:id="pgb1q7-d1e676">
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4569" target="http://scta.info/resource/pgb1q7-tctdsp">Ad tertiam</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-tctdsp">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4569" target="http://scta.info/resource/pgb1q7-tctdsp">
+                  Ad tertiam
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>,
               dicitur 
               quod ibi <name ref="#Augustine">Augustinus</name> 
@@ -854,7 +895,7 @@
                 <ref xml:id="pg-b1q7-Rd1e4585" target="http://scta.info/resource/pgb1q7-d1e548">
                   Ad primam contra secundam conclusionem
                 </ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e548">Vide supra.</ref></bibl>
+                <bibl>Vide supra.</bibl>
               </cit>, 
               negatur consequentia. Ad probationem dicitur quod 
               <ref xml:id="pg-b1q7-Rd1e4593" corresp="#pg-b1q7-Qd1e4360">
@@ -884,7 +925,9 @@
               intelligit quod si ita est, 
               quomodo non sunt in summa essentia tot verba quot sunt dicentes? 
               Et subdit 
-              <ref xml:id="pg-b1q7-Rd1e4614" corresp="#pg-b1q7-Qd1e4375">capitulo 63</ref>, 
+              <ref xml:id="pg-b1q7-Rd1e4614" corresp="#pg-b1q7-Qd1e4375">
+                capitulo 63
+              </ref>, 
               <cit>
                 <quote xml:id="pg-b1q7-Qd1e4375" source="http://scta.info/resource/adcmon-c63-d1e115" synch="176-194">
                   sicut singulus eorum est sciens et intelligens ita singulus 
@@ -917,7 +960,7 @@
             </p>
             <p xml:id="pgb1q7-d1e718">
               Ad idem, est processus 
-              <ref xml:id="pg-b1q7-Rd1e4633">
+              <ref xml:id="pg-b1q7-Rd1e4633" corresp="#pg-b1q7-Qd1e4396">
                 <name ref="#HenryOfGhent">Henrici de Gandavo</name>, 
                 parte prima, articulo 42
               </ref>, 
@@ -946,7 +989,7 @@
                 <ref xml:id="pg-b1q7-Rd1e4662" target="http://scta.info/resource/pgb1q7-d1e585">
                   Ad primam contra tertiam conclusionem
                 </ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e585">Vide supra.</ref></bibl>
+                <bibl>Vide supra.</bibl>
               </cit>, 
               conceditur antecedens et consequens primum, 
               et negatur consequentia secunda, 
@@ -957,8 +1000,10 @@
             </p>
             <p xml:id="pgb1q7-d1e753">
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4681" target="http://scta.info/resource/pgb1q7-d1e604">Ad secundam</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e604">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4681" target="http://scta.info/resource/pgb1q7-d1e604">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>,
               potest dici sicut ad primum 
               contra primam conclusionem 
@@ -975,8 +1020,10 @@
             </p>
             <p xml:id="pgb1q7-d1e770">
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4698" target="http://scta.info/resource/pgb1q7-d1e628">Ad tertiam</ref>
-                <bibl><ref target="http://scta.info/resource/pgb1q7-d1e628">Vide supra.</ref></bibl>
+                <ref xml:id="pg-b1q7-Rd1e4698" target="http://scta.info/resource/pgb1q7-d1e628">
+                  Ad tertiam
+                </ref>
+                <bibl>Vide supra.</bibl>
               </cit>, 
               negatur 
               consequentia quia, 
@@ -1001,7 +1048,7 @@
           <head xml:id="pg-b1q7-Hd1e4450">
             <supplied>Conclusiones</supplied>
           </head> 
-          <p xml:id="pgb1q7-d1e797">
+          <p xml:id="pgb1q7-d1e797" n="Conclusio 1">
             <cit>
               <quote xml:id="pg-b1q7-Qd1e4459" type="lemma">
                 <app>
@@ -1035,7 +1082,7 @@
             nec nolens nec volens ipsum genuit, 
             ad intellectum haeretici.
           </p>
-          <p xml:id="pgb1q7-d1e819">
+          <p xml:id="pgb1q7-d1e819" n="Conclusio 2">
             Secunda conclusio quod, 
             licet in Deo idem sit esse natura et voluntas, 
             non tamen sequitur quod, 
@@ -1047,7 +1094,7 @@
             Nam praescientia est de bonis et malis, 
             voluntas vero tantum de bonis vel respectu bonorum.
           </p>
-          <p xml:id="pgb1q7-d1e831">
+          <p xml:id="pgb1q7-d1e831" n="Conclusio 3">
             Tertia conclusio quod Pater genuit Filium volens sicut et potens, 
             et bonus ipsum genuit et sapiens, 
             non tamen voluntate praecedente vel accedente, 
