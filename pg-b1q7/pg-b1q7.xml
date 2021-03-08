@@ -165,7 +165,7 @@
               Quod non quia Pater producit 
               <app>
                 <lem type="conjecture-supplied"><supplied>naturaliter</supplied></lem>
-                <rdg wit="#L">naturae</rdg>
+                <rdg wit="#L" facs="28v/11">naturae</rdg>
               </app>,
               ergo non libere. 
               Consequentia tenet et antecedens probatur per 
@@ -263,13 +263,12 @@
                 <ref xml:id="pg-b1q7-Rd1e4034" target="http://scta.info/resource/Tud8wa">
                   <!-- temp topLevel target -->
                   <name xml:id="pg-b1q7-Nd1e349" ref="#Augustine">Augustinum</name>,
-                  <title>Super Epistolam ad Ephesios</title>
+                  <title>Super epistolam ad Ephesios</title>
                 </ref>
                 <bibl>
                   <name>Hieronymus</name>, 
                   <title>Commentarius in epistulam ad Ephesios</title>,
-                  <!-- TODO should this be 1, 5; or 1, 1, vs. 5 -->
-                  1, 1, vs. 5 
+                  I, 1:5 <!-- Jerome's book 1, Ephesians chapter 1, verse 5 -->
                   (PL 26, 448-449).
                 </bibl>
               </cit>.
@@ -286,7 +285,7 @@
                   <name>Aristoteles</name>, 
                   <title>Ethica</title>, 
                   I 
-                  
+                  (Non invenimus)
                 </bibl>
               </cit>
               et
@@ -470,7 +469,11 @@
               notionalem vel fuisse. Prima pars patet per dicta in alia conclusione. 
               Confirmatur tamen quia repugnat 
               aliquod fallibile existere et non mensurari tempore. 
-              Ergo nullum tale potuit producit 
+              Ergo nullum tale potuit 
+              <app>
+                <lem type="conjecture-corrected"><corr>produci</corr></lem>
+                <rdg wit="#L" facs="29r/9">producit</rdg>
+              </app> 
               sine <supplied>tempore</supplied>. 
               Secunda pars probatur
               quia actus praedestinationis <name xml:id="pg-b1q7-Nd1e584" ref="#Peter">Petri</name> vel alterius 
@@ -569,7 +572,7 @@
               <ref xml:id="pg-b1q7-Rd1e4253" corresp="#pg-b1q7-Qd1e4129">
                 <title ref="#mt">Matthaeo</title>, tertio
               </ref>, 
-              dicit: 
+              dicit,
               <cit>
                 <quote xml:id="pg-b1q7-Qd1e4129" source="http://scta.info/resource/mt3_17">
                   Hic est Filius meus dilectus
@@ -637,6 +640,7 @@
                   <!-- temp item level source/target -->
                   quamvis uterque, scilicet Filius et Spiritus Sanctus, 
                   a Patre sit, est tamen alius et alius modus procedendi
+                  in sexto et in alio
                 </quote>
                 <bibl>
                   <name>Richardus de Sancto Victore</name>, 
@@ -645,12 +649,7 @@
                   (235, ll.33-37).
                 </bibl>
                 <note>Cf. III, c. 1 (135, ll. 17-21), and VI, c. 17 (250-252).</note>
-              </cit>, 
-              <supplied>et</supplied> 
-              in 
-              <ref xml:id="pg-b1q7-Rd1e4334" corresp="#pg-b1q7-Qd1e4182">sexto</ref>,
-              et 
-              <ref xml:id="pg-b1q7-Rd1e746">in alio</ref>. 
+              </cit>. 
               Sed certum est quod, 
               si Filius producitur libere et complacenter, 
               cum Spiritus Sanctus etiam sic procedat, 
@@ -847,7 +846,7 @@
               productionem seu voluntatem esse principium productivum 
               Filii potest intelligi dicitur 
               uno modo antecedenter principative, 
-              alio modo complacenter seu delectabiliter coexigitive. 
+              alio modo complacenter seu <unclear cert="high">delectanter</unclear> coexigitive. 
               Tunc ad rationem conceditur antecedens principale 
               et negatur consequentia, 
               sumendo <mentioned>concursum voluntatis</mentioned> secundo modo. 
@@ -865,15 +864,11 @@
                 </bibl>
               </cit>, 
               quod est auctoritas 
-              <app>
-                <lem type="conjecture-supplied">
-                  <supplied><name xml:id="pg-b1q7-Nd1e966" ref="#RichardOfStVictor">Richardi</name></supplied>
-                </lem>
-                <rdg wit="#L">Richardo</rdg>
-              </app> 
+              <name xml:id="pg-b1q7-Nd1e966" ref="#RichardOfStVictor">Richardi</name>
+              dico, 
               cum 
               <cit>
-                <ref xml:id="pg-b1q7-Rd1e4555">
+                <ref xml:id="pg-b1q7-Rd1e4555" target="http://scta.info/resource/grvnZZ-ed1e34-d1e697">
                   <name xml:id="pg-b1q7-Nd1e978" ref="#Rimini">Nostro Doctore Gregorio</name>, 
                   libro primo, 
                   distinctione sexta, 
@@ -883,10 +878,18 @@
                   <name>Gregorius Ariminensis</name>, 
                   <title>Lectura</title>, 
                   I, d. 6, a. 2
+                  (Non invenimus)
                 </bibl>
+                <note>
+                  Possible suggestions might be 
+                  "nullus modus producendi alius potest in deo cogitari" (I, 504, l. 7);
+                  <!-- See http://scta.info/resource/grvnZZ-ed1e34-d1e697@45-52 -->
+                  Marcolino, in similar passage in Basel, suggests simply article 3 (I, 505-508)
+                </note>
               </cit>, 
               quod est unicus modus procedendi utriusque, 
-              nec auctoritas huius doctoris in hac parte est credendum.
+              nec auctoritas <name ref="#RichardOfStVictor">huius doctoris</name> 
+              in hac parte est credendum.
             </p>
             <p xml:id="pgb1q7-d1e676">
               <cit>
@@ -955,7 +958,7 @@
                   <name>Anselmus</name>, 
                   <title>Monologion</title>, 
                   63 
-                  (I, 73, ll. 18<!-- TODO: should 18 be 21 --> -28).
+                  (I, 73, ll. 21-28).
                   <!-- stef gives the full quotation as: 
                     "Cum ergo constet quia sicut pertinent ad eius essentiam,
                     scientia et intelligentia, sic eius scire et intelligere non est aliquam dicere, 
@@ -967,8 +970,15 @@
                     nec tamen sint tres dicentes simul, sed unus dicens." -->
                 </bibl>
               </cit>. 
-              Vide ibi 
-              <quote xml:id="pg-b1q7-Qd1e4384">processum <!-- need ref here --></quote>.
+              <cit>
+                <ref>
+                  Vide ibi, 
+                  processum.
+                </ref>
+                <bibl>
+                  Non invenimus
+                </bibl>
+              </cit>
             </p>
             <p xml:id="pgb1q7-d1e718">
               Ad idem, est processus 
@@ -978,8 +988,8 @@
               </ref>, 
               ubi quaerit 
               <cit>
-                <quote xml:id="pg-b1q7-Qd1e4396" source="http://scta.info/resource/vn58an-d1e2864">
-                  utrum intelligere <supplied>Dei</supplied> 
+                <quote xml:id="pg-b1q7-Qd1e4396" source="http://scta.info/resource/vn58an-d1e2864-d1e110" synch="1-29">
+                  utrum intelligere <supplied>in Deo</supplied> 
                   quod non est nisi essentiale
                   correspondeat in Deo aliquod Verbum essentiale
                 </quote>
@@ -1019,9 +1029,11 @@
                 </ref>
                 <bibl>Vide supra.</bibl>
               </cit>,
-              potest dici sicut ad primum 
-              contra primam conclusionem 
-              quia, si intelligitur quod voluntas producat Filium antecedenter principative, 
+              potest dici, 
+              sicut ad primum 
+              contra primam conclusionem,
+              quia, 
+              si intelligitur quod voluntas producat Filium antecedenter principative, 
               negatur consequens et consequentia. 
               Si vero complacenter et coexigitive, 
               sic potest concedi consequens. 
