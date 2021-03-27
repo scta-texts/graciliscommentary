@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,350 +52,399 @@
     <body>
       <div xml:id="pg-b1q10">
         <head>Liber I, Quaestio 10 [London Transcription]</head>
-         <p xml:id="pgb1q10-d1e83">
-           <lb ed="#L" n="30"/><hi rend="dropCapThreeLine">N</hi><hi rend="largeFont">unc ad distinctionem personarum</hi> haec est 9a distinctio huius primi in 
-           <lb ed="#L"/>qua postquam <name ref="#Lombard">magister</name> determinavit de generatione divina nunc determinat de du<lb ed="#L"/>ratione 
-         patris et filii coaeterna <g ref="#slash"/>et dividitur in duas quia ostendit primo eorum 
-           <lb ed="#L"/>coaeternitatem quantum ad modum essendi intrinsecum 2o quantum ad modum dicendi vel significandi 
-           <lb ed="#L"/>extrinsecum 2a ibi hic quaeri potest</p>
-        
+        <p xml:id="pgb1q10-d1e83">
+          <lb ed="#L" n="30"/><hi rend="dropCapThreeLine">N</hi><hi rend="largeFont">unc ad distinctionem personarum</hi> haec est 9a distinctio huius primi in 
+          <lb ed="#L" n="31"/>qua postquam <name ref="#Lombard">magister</name> determinavit de generatione divina nunc determinat de du<lb ed="#L" break="no" n="32"/>ratione 
+          patris et filii coaeterna <g ref="#slash"/>et dividitur in duas quia ostendit primo eorum 
+          <lb ed="#L" n="33"/>coaeternitatem quantum ad modum essendi intrinsecum 2o quantum ad modum dicendi vel significandi 
+          <lb ed="#L" n="34"/>extrinsecum 2a ibi hic quaeri potest
+        </p>
         <p xml:id="pgb1q10-d1e104">
           <g ref="#pilcrow"/>prima dividitur in 4or quia primo praemittit divinarum 
-          <lb ed="#L"/>personarum distinctionem 2o subiungit earum aequalem durationem <g ref="#slash"/>3o inducit contra hoc haereticorum 
-          <lb ed="#L"/>obiectionem 4o fefellit oppositis praesumptionem 2a ibi genitus est enim 3a sed contra hoc 
-          <lb ed="#L"/>4o sed quaeris</p>
-        
-        <p xml:id="pgb1q10-d1e116"><g ref="#pilcrow"/>2a principalis dividitur in tres quia primo movet quamdam disputabilem sententiam 
-          <lb ed="#L"/>2o concordat doctorum apparentem repugnantiam 3o infert conclusionem circa hoc tenendam 
-          <lb ed="#L"/>2a ibi dicamus ergo filium 3a ibi <space exclude="threeWords"/> et haec est divisio huius lectionis</p>
-        
-        <p xml:id="pgb1q10-d1e126"><pb ed="#L" n="36-v"/><lb ed="#L"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> cuilibet supposito seu personae divinae naturae repugnet prioritas cuius<lb ed="#L"/>cumque 
-        durativae mensurae</p>
-        
-        <p xml:id="pgb1q10-qnqsmp">quod non quia verbum est mensura creaturae ergo 
-        <lb ed="#L"/>verbum non est patri coaeternum antecedens patet et consequentia probatur quia mensura debet aequari 
-          <lb ed="#L"/>et mensurative[?] suo mensurato proportionari</p>
-        
-        <p xml:id="pgb1q10-d1e142"><g ref="#pilcrow"/>2o verbum divinum est immensum ergo aeternitate 
-          <lb ed="#L"/>non est mensuratum quia <choice><orig>contradiccio</orig><reg>contradictio</reg></choice> videtur quod immensum mensuretur antecedens est catholicum 
-          <lb ed="#L"/><g ref="#pilcrow"/>confirmatur quia verbum est supra et ultra aeternitatem ergo aeternitate non est mensuratum alias 
-          <lb ed="#L"/>probatur <ref><title ref="#ex">exodi</title> 3o</ref> <quote xml:id="pg-b1q10-Qd1e221" source="http://scta.info/resource/ex15_18">dominus regnabit et ultra</quote></p>
-        
-        <p xml:id="pgb1q10-d1e168"><g ref="#pilcrow"/>3o aeternitas est facta ergo 
-          <lb ed="#L"/>verbum non est aeternitas nec ea mensuratur antecedens patet per <ref><name ref="#Augustine">augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title></ref> ubi dicit 
-          <lb ed="#L"/>deus est auctor aeternitatis Item <name ref="#Boethius">boetius</name> dicit quod sicut nunc fluens facit temporis sic nunc 
-          <lb ed="#L"/>stans et permanens facit aeternitatem</p>
-        
-        <p xml:id="pgb1q10-d1e188"><g ref="#pilcrow"/>In oppositum est <name ref="#Lombard">magister</name> <title ref="#Sentences">sententiarum</title> in hac distinctione Item 
-          <lb ed="#L"/>in simile in hac trinitate nihil prius aut posterius etc</p>
-        
-        <p xml:id="pgb1q10-d1e200"><g ref="#pilcrow"/>prima conclusio licet aeterniter seu aeternitatis 
-          <lb ed="#L"/>duratio in abstracto ad extra non sit communicabilis perfectio ipsa tamen est cuiuslibet producti 
-          <lb ed="#L"/>aeterna et formalis mensuratio prima pars quia sequeretur quod creatura deo posset esse coaeterna 
-          <lb ed="#L"/>vel quod quaelibet creatura esset producta ante quodlibet tempus sed utrumque est falsum impossibile ergo 2a 
-          <lb ed="#L"/>pars probatur quia deo respectu creaturae conveniunt proprietates mensurae proprie et non transumptive 
-          <lb ed="#L"/>solum ergo antecedens ostendit <ref><name ref="#GilesOfRome">aegidius</name> libro 2o distinctione 8 questione 3a parte 2a</ref> quoniam sibi competit 
-          <lb ed="#L"/>ratio numeri temporaliter uniformiter simpliciter et indivisibiliter <g ref="#slash"/>2o quia creaturae competit ratio 
-          <lb ed="#L"/>adaequationis dupliciter scilicet per conformitatem et imitationem ergo sequitur quod deus causaliter formaliter 
-          <lb ed="#L"/>sit mensura cuiuslibet entis producti prima pars conclusionis confirmatur quia nulli creaturae potest compe<lb ed="#L"/>tere 
-          invariabilitas immutabilitas et simultaneitas ergo nec aeternitas patet consequentia quia ille 
-          <lb ed="#L"/>sunt proprietates aeternitatis ut post patebit et antecedens patet quia secundum <name ref="#GregoryGreat">gregorium</name> <quote  xml:id="pg-b1q10-Qeiqvmh">eo ipso quo 
-          <lb ed="#L"/>creatura est vicissitudinem mutabilitatis habet</quote></p>
-        
-        <p xml:id="pgb1q10-d1e236"><g ref="#pilcrow"/>primum corollarium immensitas et 
-          <lb ed="#L"/>aeternitas mensurae non infert immensitatem mensuratae naturae contra <ref><name ref="#Ripa">iohannem de mar<lb ed="#L"/>chia</name> 
-          quaestione prima <title ref="#SentencesRipa">sententiarum</title> determinationi in responsione primae contra 2am conclusionem</ref> patet quia 
-          <lb ed="#L"/>deus immensus est formalis mensura creaturae et tamen creatura non est immensa et per consequens 
-          <lb ed="#L"/>non est ei adaequata proportionaliter ut dicit ibi</p>
-        
-        <p xml:id="pgb1q10-d1e257"><g ref="#pilcrow"/>2m corollarium aeternitatis formalis ratio 
-          <lb ed="#L"/>non est perfectionis simpliciter denominatio patet quia quaelibet talis perfectio est ad extra communicabilis 
-          <lb ed="#L"/>creaturae concretive sed aeternitas non est communicabilis creaturae igitur</p>
-        
-        <p xml:id="pgb1q10-d1e265"><g ref="#slash"/>ex primo corollario <del rend="strikethrough">p</del> et conclusione 
-          <lb ed="#L"/>sequitur quod quaelibet materialis et divisibilis natura mensuratur immateriali et indivisibili mensura 
-          <lb ed="#L"/>aliquo modo et non adaequate</p>
-        
-        <p xml:id="pgb1q10-d1e277"><g ref="#pilcrow"/>3m corollarium licet aeternitas ut sic non sit perfectio ut 
-          <lb ed="#L"/>si simpliciter denotative tamen est modus perfectionis <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> realiter et entitative 
-          <lb ed="#L"/>prima patet per corollarium 2m 2a probatur quia aeternitas essentialiter est deus aeternus</p>
-        
-        <p xml:id="pgb1q10-d1e291"><g ref="#pilcrow"/>2a conclusio sicut 
-          <lb ed="#L"/>summa bonitas est sua supersimplex natura sic sua aeternitas est eius omnis 
-          <lb ed="#L"/>mensura probatur per <ref><name ref="#Anselm">anselmum</name> <title ref="#Monologion">monologii</title> 24</ref> ubi ait summam substantiam constat sine 
-          <lb ed="#L"/>principio et sine fine esse nec habere praesens praeteritum nec futurum</p> 
-        
-        <p xml:id="pgb1q10-d1e309"><g ref="#slash"/>Item <name>alexander</name> 
-          <lb ed="#L"/>libro <title>de memoria rerum difficilium</title> propositione 52 dicit tempus rem a suo principio 
-          <lb ed="#L"/>distare facit aeternitas vero rem suae causae continuat et coniungit in aeternitate 
-          <lb ed="#L"/>non est pars neque prius aut posterius</p>
-        
-        <p xml:id="pgb1q10-d1e328"><g ref="#pilcrow"/>Item propositione 44 dicit quod nullum immutabile mensuratur 
-          <pb ed="#L" n="37-r"/><lb ed="#L"/>mensura successiva aut succedente sed aeterna</p> 
-        
-        <p xml:id="pgb1q10-d1e340">prima corollarium mensura cuiuslibet divinae operationis 
-          <lb ed="#L"/>seu causalitatis est instans semper praesens et indivisibile aeternitatis patet quia deus est sua 
-          <lb ed="#L"/>operatio nominaliter et active sumpta ergo <g ref="#pilcrow"/>confirmatur quia tam deus quam creatura mensurantur 
-          <lb ed="#L"/>aeternitate et per consequens eius instanti quia sunt idem praecisive</p>
-        
-        <p xml:id="pgb1q10-d1e346"><g ref="#pilcrow"/>2m corollarium quam repugnat 
-          <lb ed="#L"/>pluralitas deorum divinitati tam repugnat multiplicitas signorum aeternitati patet quia sum<lb ed="#L"/>ma 
+          <lb ed="#L" n="35"/>personarum distinctionem 2o subiungit earum aequalem durationem <g ref="#slash"/>3o inducit contra hoc haereticorum 
+          <lb ed="#L" n="36"/>obiectionem 4o fefellit oppositis praesumptionem 2a ibi genitus est enim 3a sed contra hoc 
+          <lb ed="#L" n="37"/>4o sed quaeris
+        </p>
+        <p xml:id="pgb1q10-d1e116">
+          <g ref="#pilcrow"/>2a principalis dividitur in tres quia primo movet quamdam disputabilem sententiam 
+          <lb ed="#L" n="38"/>2o concordat doctorum apparentem repugnantiam 3o infert conclusionem circa hoc tenendam 
+          <lb ed="#L" n="39"/>2a ibi dicamus ergo filium 3a ibi <space exclude="threeWords"/> et haec est divisio huius lectionis
+        </p>
+        <p xml:id="pgb1q10-d1e126">
+          <pb ed="#L" n="36-v"/>
+          <lb ed="#L" n="1"/><hi rend="dropCapThreeLines">U</hi><hi rend="largeFont">trum</hi> cuilibet supposito seu personae divinae naturae repugnet prioritas cuius<lb ed="#L" break="no" n="2"/>cumque 
+          durativae mensurae
+        </p>
+        <p xml:id="pgb1q10-qnqsmp">
+          quod non quia verbum est mensura creaturae ergo 
+          <lb ed="#L" n="3"/>verbum non est patri coaeternum antecedens patet et consequentia probatur quia mensura debet aequari 
+          <lb ed="#L" n="4"/>et mensurative suo mensurato proportionari
+        </p>
+        <p xml:id="pgb1q10-d1e142">
+          <g ref="#pilcrow"/>2o verbum divinum est immensum ergo aeternitate 
+          <lb ed="#L" n="5"/>non est mensuratum quia <choice><orig>contradiccio</orig><reg>contradictio</reg></choice> videtur quod immensum mensuretur antecedens est catholicum 
+          <lb ed="#L" n="6"/><g ref="#pilcrow"/>confirmatur quia verbum est supra et ultra aeternitatem ergo aeternitate non est mensuratum alias 
+          <lb ed="#L" n="7"/>probatur <ref><title ref="#ex">exodi</title> 3o</ref> <quote xml:id="pg-b1q10-Qd1e221" source="http://scta.info/resource/ex15_18">dominus regnabit et ultra</quote>
+        </p>
+        <p xml:id="pgb1q10-d1e168">
+          <g ref="#pilcrow"/>3o aeternitas est facta ergo 
+          <lb ed="#L" n="8"/>verbum non est aeternitas nec ea mensuratur antecedens patet per <ref><name ref="#Augustine">augustinum</name> <title ref="#deDiversisQuaestionibus">83 quaestionibus</title></ref> ubi dicit 
+          <lb ed="#L" n="9"/>deus est auctor aeternitatis Item <name ref="#Boethius">boetius</name> dicit quod sicut nunc fluens facit temporis sic nunc 
+          <lb ed="#L" n="10"/>stans et permanens facit aeternitatem
+        </p>
+        <p xml:id="pgb1q10-d1e188">
+          <g ref="#pilcrow"/>In oppositum est <name ref="#Lombard">magister</name> <title ref="#Sentences">sententiarum</title> in hac distinctione Item 
+          <lb ed="#L" n="11"/>in simile in hac trinitate nihil prius aut posterius etc
+        </p>
+        <p xml:id="pgb1q10-d1e200">
+          <g ref="#pilcrow"/>prima conclusio licet aeterniter seu aeternitatis 
+          <lb ed="#L" n="12"/>duratio in abstracto ad extra non sit communicabilis perfectio ipsa tamen est cuiuslibet producti 
+          <lb ed="#L" n="13"/>aeterna et formalis mensuratio prima pars quia sequeretur quod creatura deo posset esse coaeterna 
+          <lb ed="#L" n="14"/>vel quod quaelibet creatura esset producta ante quodlibet tempus sed utrumque est falsum impossibile ergo 2a 
+          <lb ed="#L" n="15"/>pars probatur quia deo respectu creaturae conveniunt proprietates mensurae proprie et non transumptive 
+          <lb ed="#L" n="16"/>solum ergo antecedens ostendit <ref><name ref="#GilesOfRome">aegidius</name> libro 2o distinctione 8 questione 3a parte 2a</ref> quoniam sibi competit 
+          <lb ed="#L" n="17"/>ratio numeri tripliciter uniformiter simpliciter et indivisibiliter <g ref="#slash"/>2o quia creaturae competit ratio 
+          <lb ed="#L" n="18"/>adaequationis dupliciter scilicet per conformitatem et imitationem ergo sequitur quod deus causaliter formaliter 
+          <lb ed="#L" n="19"/>sit mensura cuiuslibet entis producti prima pars conclusionis confirmatur quia nulli creaturae potest compe<lb ed="#L" break="no" n="20"/>tere 
+          invariabilitas immutabilitas et simultaneitas ergo nec aeternitas patet consequentia quia illae 
+          <lb ed="#L" n="21"/>sunt proprietates aeternitatis ut post patebit et antecedens patet quia secundum <name ref="#GregoryGreat">gregorium</name> <quote xml:id="pg-b1q10-Qeiqvmh">eo ipso quo 
+          <lb ed="#L" n="22"/>creatura est vicissitudinem mutabilitatis habet</quote>
+        </p>
+        <p xml:id="pgb1q10-d1e236">
+          <g ref="#pilcrow"/>primum corollarium immensitas et 
+          <lb ed="#L" n="23"/>aeternitas mensurae non infert immensitatem mensuratae naturae contra <ref><name ref="#Ripa">iohannem de mar<lb ed="#L" break="no" n="24"/>chia</name> 
+          quaestione prima <title ref="#SentencesRipa">sententiarum</title> determinationum in responsione rationis primae contra 2am conclusionem</ref> patet quia 
+          <lb ed="#L" n="25"/>deus immensus est formalis mensura creaturae et tamen creatura non est immensa et per consequens 
+          <lb ed="#L" n="26"/>non est ei adaequata proportionaliter ut dicit ibi
+        </p>
+        <p xml:id="pgb1q10-d1e257">
+          <g ref="#pilcrow"/>2m corollarium aeternitatis formalis ratio 
+          <lb ed="#L" n="27"/>non est perfectionis simpliciter denominatio patet quia quaelibet talis perfectio est ad extra communicabilis 
+          <lb ed="#L" n="28"/>creaturae concretive sed aeternitas non est communicabilis creaturae igitur
+        </p>
+        <p xml:id="pgb1q10-d1e265">
+          <g ref="#slash"/>ex primo corollario <del rend="strikethrough">p</del> et conclusione 
+          <lb ed="#L" n="29"/>sequitur quod quaelibet materialis et divisibilis natura mensuratur immateriali et indivisibili mensura 
+          <lb ed="#L" n="30"/>aliquo modo et non adaequate
+        </p>
+        <p xml:id="pgb1q10-d1e277">
+          <g ref="#pilcrow"/>3m corollarium licet aeternitas ut sic non sit perfectio ut 
+          <lb ed="#L" n="31"/>si simpliciter denotative tamen est modus perfectionis <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> realiter et entitative 
+          <lb ed="#L" n="32"/>prima patet per corollarium 2m 2a probatur quia aeternitas essentialiter est deus aeternus
+        </p>
+        <p xml:id="pgb1q10-d1e291">
+          <g ref="#pilcrow"/>2a conclusio sicut 
+          <lb ed="#L" n="33"/>summa bonitas est sua supersimplex natura sic sua aeternitas est eius omnis 
+          <lb ed="#L" n="34"/>mensura probatur per <ref><name ref="#Anselm">anselmum</name> <title ref="#Monologion">monologii</title> 24</ref> ubi ait summam substantiam constat sine 
+          <lb ed="#L" n="35"/>principio et sine fine esse nec habere praesens praeteritum nec futurum <g ref="#slash"/>Item <name>alexander</name> 
+          <lb ed="#L" n="36"/>libro <title>de memoria rerum difficilium</title> propositione 52 dicit tempus rem a suo principio 
+          <lb ed="#L" n="37"/>distare facit aeternitas vero rem suae causae continuat et coniungit in aeternitate 
+          <lb ed="#L" n="38"/>non est pars neque prius aut posterius <g ref="#pilcrow"/>Item propositione 44 dicit quod nullum immutabile mensuratur 
+          <pb ed="#L" n="37-r"/><lb ed="#L" n="1"/>mensura successiva aut succedente sed aeterna
+        </p> 
+        <p xml:id="pgb1q10-d1e340">
+          prima corollarium mensura cuiuslibet divinae operationis 
+          <lb ed="#L" n="2"/>seu causalitatis est instans semper praesens et indivisibile aeternitatis patet quia deus est sua 
+          <lb ed="#L" n="3"/>operatio nominaliter et active sumpta ergo <g ref="#pilcrow"/>confirmatur quia tam deus quam creatura mensurantur 
+          <lb ed="#L" n="4"/>aeternitate et per consequens eius instanti quia sunt idem praecisive
+        </p>
+        <p xml:id="pgb1q10-d1e346">
+          <g ref="#pilcrow"/>2m corollarium quam repugnat 
+          <lb ed="#L" n="5"/>pluralitas deorum divinitati tam repugnat multiplicitas signorum aeternitati patet quia sum<lb ed="#L" break="no" n="6"/>ma 
           natura est eius omnis mensura ergo quaelibet eius mensura est sibi adaequata totaliter 
-          <lb ed="#L"/>sed quodlibet signum vel instans aeternitatis est eius propria mensura <g ref="#dot"/> ergo quodlibet talem est simplex 
-          <lb ed="#L"/>non multiplex et intelligo per mensuram aequalem cum deo <choice><orig>permanenciam</orig><reg>permanentiam</reg></choice> durativam 
-          <lb ed="#L"/>supersimplicem et <choice><orig>indeppendentem</orig><reg>independentem</reg></choice> et principio carentem</p>
-        
-        <p xml:id="pgb1q10-d1e375"><g ref="#pilcrow"/>3m corollarium sicut aeternitas est 
-          <lb ed="#L"/>pluralitatem signorum mensura intrinsece excludens sic instans aeternitatis est omnem 
-          <lb ed="#L"/>successionem durativam contentive includens prima pars est contra <name ref="#Scotus">scotum</name> in locis pluribus 
-          <lb ed="#L"/>quae probatur sic quia aliter tota trinitas foret multiplicior eius significans quod est falsum et contra 
-          <lb ed="#L"/>2m corollarium Item illud signum esset simplicius eius aeternitate quod est falsum</p>
-        
-        <p xml:id="pgb1q10-d1e390"><g ref="#pilcrow"/>2a pars est contra 
-          <lb ed="#L"/><name ref="#HugolinoOfOrvieto">hugolinum</name> quae probatur quia instans aeternitatis est adaequate ipsa aeternitatis ergo cuiuscumque 
-          <lb ed="#L"/><seg type="correction">aeternit<subst><del>as</del><add>atis</add></subst></seg> est praecontentiva instans aeternitatis est illud contentive includens et illud 
-          <lb ed="#L"/>inclusive continens sed aeternitas praecontinet et includit omnem moram dura<lb ed="#L"/>tivam 
-          successivam realem et <choice><orig>ymaginativam</orig><reg>imaginativam</reg></choice> ergo</p>
-        
-        <p xml:id="pgb1q10-d1e417"><g ref="#pilcrow"/>3a conclusio aeterni verbi generatio seu aeternum 
-          <lb ed="#L"/>generari instanti aeternitatis censendum est mensurari haec patet per <ref><name ref="#JohnDamascenus">damescenus</name> libro primo capitulo 8o</ref> 
-          <lb ed="#L"/><quote xml:id="pg-b1q10-Qgdenoe">generatio divina est sine <choice><orig>inicio</orig><reg>initio</reg></choice> et <choice><sic>aeternae</sic><corr>aeterna</corr></choice> naturae opus existens</quote> <g ref="#slash"/>Item probatur ratione quia haec generatio 
-          <lb ed="#L"/>est invariabilis incorruptibilis simultanea absque successione sed istae sunt proprietates 
-          <lb ed="#L"/>aeternitatis ergo prima pars antecedentis patet et 2a per <ref><name ref="#Augustine">augustinum</name> 3o <title ref="#deTrinitate">de trinitate</title> capitulo 3o</ref> dicentem quod <quote xml:id="pg-b1q10-Qd1e464">deus est 
-            <lb ed="#L"/>vera aeternitas</quote> <g ref="#dot"/> Item <ref>4o <title ref="#deTrinitate">de trinitate</title> capitulo 19</ref> <quote xml:id="pg-b1q10-Qviiiea">vera illius incommutabilis ipsa est aeternitas</quote> 
-          <lb ed="#L"/><g ref="#slash"/>Ad idem est dicens <ref><name ref="#GilesOfRome">aegidius</name> distinctione 8 primi parte 2a quaestione 2a</ref> ubi ponit has proprietates 
-          <lb ed="#L"/>inforam[?]</p>
-          
-        <p xml:id="pgb1q10-d1e472"><g ref="#pilcrow"/>primum corollarium non stat verbum pro <choice><orig>alico</orig><reg>aliquo</reg></choice> signo posse dici et in illo ipsum per 
-         <lb ed="#L"/>generationem non produci contra <ref><name ref="#Scotus">scotum</name> distinctione 22 primi quaestione 2a</ref> probatur quia si in aliquo signo pater posset 
-          <lb ed="#L"/>generare filium et pro illo non generaret eum sequitur quod generatio non mensuraretur instanti 
-          <lb ed="#L"/>carente principio consequens est falsum per dicta patet consequentia quia primum signum in quo persona prima 
-          <lb ed="#L"/>habitualiter est fecunda praecederet generationem filii et per consequens pro illo foret negatio verbi 
-          <lb ed="#L"/>praecedens quod est falsum</p>
-        
-        <!-- check signo versus significato -->
-        
+          <lb ed="#L" n="7"/>sed quodlibet signum vel instans aeternitatis est eius propria mensura <g ref="#dot"/> ergo quodlibet talem est simplex 
+          <lb ed="#L" n="8"/>non multiplex et intelligo per mensuram aequalem cum deo <choice><orig>permanenciam</orig><reg>permanentiam</reg></choice> durativam 
+          <lb ed="#L" n="9"/>supersimplicem et <choice><orig>indeppendentem</orig><reg>independentem</reg></choice> et principio carentem
+        </p>
+        <p xml:id="pgb1q10-d1e375">
+          <g ref="#pilcrow"/>3m corollarium sicut aeternitas est 
+          <lb ed="#L" n="10"/>pluralitatem signorum mensura intrinsece excludens sic instans aeternitatis est omnem 
+          <lb ed="#L" n="11"/>successionem durativam contentive includens prima pars est contra <name ref="#Scotus">scotum</name> in locis pluribus 
+          <lb ed="#L" n="12"/>quae probatur sic quia aliter tota trinitas foret multiplicior eius significans quod est falsum et contra 
+          <lb ed="#L" n="13"/>2m corollarium Item illud signum esset simplicius eius aeternitate quod est falsum <g ref="#pilcrow"/>2a pars est contra 
+          <lb ed="#L" n="14"/><name ref="#HugolinoOfOrvieto">hugolinum</name> quae probatur quia instans aeternitatis est adaequate ipsa aeternitatis ergo cuiuscumque 
+          <lb ed="#L" n="15"/><seg type="correction">aeternit<subst><del>as</del><add>atis</add></subst></seg> est praecontentiva instans aeternitatis est illud contentive includens et illud 
+          <lb ed="#L" n="16"/>inclusive continens sed aeternitas praecontinet et includit omnem moram dura<lb ed="#L" break="no" n="17"/>tivam 
+          successivam realem et <choice><orig>ymaginativam</orig><reg>imaginativam</reg></choice> ergo
+        </p>
+        <p xml:id="pgb1q10-d1e417">
+          <g ref="#pilcrow"/>3a conclusio aeterni verbi generatio seu aeternum 
+          <lb ed="#L" n="18"/>generari instanti aeternitatis censendum est mensurari haec patet per <ref><name ref="#JohnDamascenus">damescenus</name> libro primo capitulo 8o</ref> 
+          <lb ed="#L" n="19"/><quote xml:id="pg-b1q10-Qgdenoe">generatio divina est sine <choice><orig>inicio</orig><reg>initio</reg></choice> et <choice><sic>aeternae</sic><corr>aeterna</corr></choice> naturae opus existens</quote> <g ref="#slash"/>Item probatur ratione quia haec generatio 
+          <lb ed="#L" n="20"/>est invariabilis incorruptibilis simultanea absque successione sed istae sunt proprietates 
+          <lb ed="#L" n="21"/>aeternitatis ergo prima pars antecedentis patet et 2a per <ref><name ref="#Augustine">augustinum</name> 3o <title ref="#deTrinitate">de trinitate</title> capitulo 3o</ref> dicentem quod <quote xml:id="pg-b1q10-Qd1e464">deus est 
+          <lb ed="#L" n="22"/>vera aeternitas</quote> <g ref="#dot"/> Item <ref>4o <title ref="#deTrinitate">de trinitate</title> capitulo 19</ref> <quote xml:id="pg-b1q10-Qviiiea">vera illius incommutabilis ipsa est aeternitas</quote> 
+          <lb ed="#L" n="23"/><g ref="#slash"/>Ad idem est dicens <ref><name ref="#GilesOfRome">aegidius</name> distinctione 8 primi parte 2a quaestione 2a</ref> ubi ponit has proprietates 
+          <lb ed="#L" n="24"/>in forma
+        </p>
+        <p xml:id="pgb1q10-d1e472">
+          <g ref="#pilcrow"/>primum corollarium non stat verbum pro <choice><orig>alico</orig><reg>aliquo</reg></choice> signo posse dici et in illo ipsum per 
+          <lb ed="#L" n="25"/>generationem non produci contra <ref><name ref="#Scotus">scotum</name> distinctione 22 primi quaestione 2a</ref> probatur quia si in aliquo signo pater posset 
+          <lb ed="#L" n="26"/>generare filium et pro illo non generaret eum sequitur quod generatio non mensuraretur instanti 
+          <lb ed="#L" n="27"/>carente principio consequens est falsum per dicta patet consequentia quia primum signum in quo persona prima 
+          <lb ed="#L" n="28"/>habitualiter est fecunda praecederet generationem filii et per consequens pro illo foret negatio verbi 
+          <lb ed="#L" n="29"/>praecedens quod est falsum
+          <!-- check signo versus significato -->
+        </p>
         <p xml:id="pgb1q10-d1e501">2m corollarium pro quocumque signo pater generat unigenitum pro eodem 
-          <lb ed="#L"/>signo filius spirat spiritum sanctum contra <name ref="#Scotus">scotum</name> ubi supra probatur signo primum signum ori<lb ed="#L"/>ginis 
+          <lb ed="#L" n="30"/>signo filius spirat spiritum sanctum contra <name ref="#Scotus">scotum</name> ubi supra probatur signo primum signum ori<lb ed="#L" break="no" n="31"/>ginis 
           in quo pater est fecundus et filius non secundum eum et sit illud signum <c>a</c><g ref="#dot"/> et 2m signum 
-          <lb ed="#L"/>in quo filius est fecundus et sit <c>b</c><g ref="#dot"/> tunc sic <c>a</c><g ref="#dot"/> habet annexam negationem fecunditatis 
-          <lb ed="#L"/>filii ergo in <c>a</c> <g ref="#dot"/> non est filius fecundus et <c>a</c><g ref="#dot"/> est prius <c>b</c><g ref="#dot"/> ergo filius prius est non fecundus quam 
-          <lb ed="#L"/>fecundus patet consequentia quia <c>a</c> est prius <c>b</c> posterius aliter <g ref="#dot"/><c>a</c><g ref="#dot"/> non esset primum et <c>b</c> 2m ut dicit 
-          <lb ed="#L"/>sed hoc consequens est falsum quia tunc filius inciperet esse fecundus et non sine <choice><orig>inicio</orig><reg>initio</reg></choice> esset 
-          <lb ed="#L"/>fecundus contra dictam ergo verum est corollarium</p>
-        
-        <p xml:id="pgb1q10-d1e569"><g ref="#pilcrow"/>3m corollarium est titulus quaestionis affirmativus quod probat  
-          <lb ed="#L"/><ref><name ref="#AlphonsusVargas">dominus alphonsus</name> distinctione prima</ref> vide ibi <g ref="#pilcrow"/>confirmatur quia in divinis non est <choice><orig>alica</orig><reg>aliqua</reg></choice> prioritas praeter ori<lb ed="#L"/>ginis 
-          aliquo non in quo quam non intendo negare per dicta in quaestione quia solum loquor 
-          <lb ed="#L"/>de prioritate mensurativa contra modum ponendi <name ref="#Scotus">scoti</name> qui <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in 
-          <pb ed="#L" n="37-v"/><lb ed="#L"/>instanti aeternitatis sunt tria signa originis in primo sunt omnia essentialia scilicet scientia sapientia 
-          <lb ed="#L"/>bonitas etc <g ref="#slash"/>In 2o pater generat filium in 3o spirat spiritum sanctum et dicit consequenter quod pater 
-          <lb ed="#L"/>prius origine spirat spiritum sanctum quam filius vide <ref><name ref="#AlphonsusVargas">alphonsum</name> distinctione 9 primi</ref> <g ref="#dot"/> 
-          <lb ed="#L"/><g ref="#slash"/>corollarium responsivum probat <name ref="#AlphonsusVargas">alphonsus</name> sic virtualiter filio et cuilibet personae divinae 
-          <lb ed="#L"/>pro quocumque signo originis vel naturae repugnat non esse ergo et posterius esse ergo nulla 
-          <lb ed="#L"/>persona divina est prior alia antecedens patet quia quaelibet est summe <choice><orig>neccesse</orig><reg>necesse</reg></choice> esset et consequentia patet si 
-          <lb ed="#L"/>enim pro aliquo signo una persona est prior alia posterior aut igitur in illo signo filius 
-          <lb ed="#L"/>habet esse aut non si sic ergo in illo pater non est prior eo si non ergo filius habet esse post 
-          <lb ed="#L"/>non esse et sic producitur de non esse ad esse patet consequentia quia in 2o habet esse <choice><orig>ymmo</orig><reg>immo</reg></choice> 
-          <lb ed="#L"/>sequitur quod filio non repugnat non esse quod est oppositum antecedentis</p>
-        
-        <p xml:id="pgb1q10-d1e651"><g ref="#pilcrow"/>Contra primam conclusionem 
-          <lb ed="#L"/>deus non est eiusdem generis cum creatis ergo earum non est mensura haec consequentiam patet per <ref><name ref="#Aristotle">philosophum</name> 
-          <lb ed="#L"/>10 <title ref="#Metaphysics">metaphysicae</title></ref> dicentem mensura debet esse unigena id est unius generis cum mensurato</p> 
-        
+          <lb ed="#L" n="32"/>in quo filius est fecundus et sit <c>b</c><g ref="#dot"/> tunc sic <c>a</c><g ref="#dot"/> habet annexam negationem fecunditatis 
+          <lb ed="#L" n="33"/>filii ergo in <c>a</c> <g ref="#dot"/> non est filius fecundus et <c>a</c><g ref="#dot"/> est prius <c>b</c><g ref="#dot"/> ergo filius prius est non fecundus quam 
+          <lb ed="#L" n="34"/>fecundus patet consequentia quia <c>a</c> est prius <c>b</c> posterius aliter <g ref="#dot"/><c>a</c><g ref="#dot"/> non esset primum et <c>b</c> 2m ut dicit 
+          <lb ed="#L" n="35"/>sed hoc consequens est falsum quia tunc filius inciperet esse fecundus et non sine <choice><orig>inicio</orig><reg>initio</reg></choice> esset 
+          <lb ed="#L" n="36"/>fecundus contra dictam ergo verum est corollarium
+        </p>
+        <p xml:id="pgb1q10-d1e569">
+          <g ref="#pilcrow"/>3m corollarium est titulus quaestionis affirmativus quod probat  
+          <lb ed="#L" n="37"/><ref><name ref="#AlphonsusVargas">dominus alphonsus</name> distinctione prima</ref> vide ibi <g ref="#pilcrow"/>confirmatur quia in divinis non est <choice><orig>alica</orig><reg>aliqua</reg></choice> prioritas praeter ori<lb ed="#L" break="no" n="38"/>ginis 
+          aliquo non in quoquam non intendo negare per dicta in quaestione quia solum loquor 
+          <lb ed="#L" n="39"/>de prioritate mensurativa contra modum ponendi <name ref="#Scotus">scoti</name> qui <choice><orig>ymaginatur</orig><reg>imaginatur</reg></choice> quod in 
+          <pb ed="#L" n="37-v"/><lb ed="#L" n="1"/>instanti aeternitatis sunt tria signa originis in primo sunt omnia essentialia scilicet scientia sapientia 
+          <lb ed="#L" n="2"/>bonitas etc <g ref="#slash"/>In 2o pater generat filium in 3o spirat spiritum sanctum et dicit consequenter quod pater 
+          <lb ed="#L" n="3"/>prius origine spirat spiritum sanctum quam filius vide <ref><name ref="#AlphonsusVargas">alphonsum</name> distinctione 9 primi</ref> <g ref="#dot"/> 
+          <lb ed="#L" n="4"/><g ref="#slash"/>corollarium responsivum probat <name ref="#AlphonsusVargas">alphonsus</name> sic virtualiter filio et cuilibet personae divinae 
+          <lb ed="#L" n="5"/>pro quocumque signo originis vel naturae repugnat non esse ergo et posterius esse ergo nulla 
+          <lb ed="#L" n="6"/>persona divina est prior alia antecedens patet quia quaelibet est summe <choice><orig>neccesse</orig><reg>necesse</reg></choice> esset et consequentia patet si 
+          <lb ed="#L" n="7"/>enim pro aliquo signo una persona est prior alia posterior aut igitur in illo signo filius 
+          <lb ed="#L" n="8"/>habet esse aut non si sic ergo in illo pater non est prior eo si non ergo filius habet esse post 
+          <lb ed="#L" n="9"/>non esse et sic producitur de non esse ad esse patet consequentia quia in 2o habet esse <choice><orig>ymmo</orig><reg>immo</reg></choice> 
+          <lb ed="#L" n="10"/>sequitur quod filio non repugnat non esse quod est oppositum antecedentis
+        </p>
+        <p xml:id="pgb1q10-d1e651">
+          <g ref="#pilcrow"/>Contra primam conclusionem 
+          <lb ed="#L" n="11"/>deus non est eiusdem generis cum creatis ergo earum non est mensura haec consequentiam patet per <ref><name ref="#Aristotle">philosophum</name> 
+          <lb ed="#L" n="12"/>10 <title ref="#Metaphysics">metaphysicae</title></ref> dicentem mensura debet esse unigena id est unius generis cum mensurato
+        </p> 
         <p xml:id="pgb1q10-sdnmpe">
           <g ref="#slash"/>2o 
-          <lb ed="#L"/>deus non est creaturae proportionalis
+          <lb ed="#L" n="13"/>deus non est creaturae proportionalis Item non est replicabilis <g ref="#slash"/>Item quantitas non convenit 
+          <lb ed="#L" n="14"/>deo vel aeternitati sed istae sunt mensurae proprietates ergo
         </p>
-        <p xml:id="pgb1q10-inener">
-          Item non est replicabilis
-        </p>
-        <p xml:id="pgb1q10-iqnmpe">
-          <g ref="#slash"/>Item quantitas non convenit 
-          <lb ed="#L"/>deo vel aeternitati sed istae sunt mensurae proprietates ergo
-        </p>
-        
-        <p xml:id="pgb1q10-d1e675"><g ref="#pilcrow"/>contra 2am conclusionem et corollaria eius 
-          <lb ed="#L"/>si mensura aeterna foret propria cuilibet operationi divinae intrinsece sequitur quod facere divinum 
-          <lb ed="#L"/>esset aeternum consequens non videtur verum sed apparet consequentia quia tum velle divinum sit aeternum et divi<lb ed="#L"/>num 
+        <p xml:id="pgb1q10-d1e675">
+          <g ref="#pilcrow"/>contra 2am conclusionem et corollaria eius 
+          <lb ed="#L" n="15"/>si mensura aeterna foret propria cuilibet operationi divinae intrinsece sequitur quod facere divinum 
+          <lb ed="#L" n="16"/>esset aeternum consequens non videtur verum sed apparet consequentia quia tum velle divinum sit aeternum et divi<lb ed="#L" break="no" n="17"/>num 
           velle sit facere sequitur divinum facere esse aeternum et sic ab eo aeterno omnia 
-          <lb ed="#L"/>facta fuissent</p>
-        
-        <p xml:id="pgb1q10-d1e687"><g ref="#slash"/>2o sequitur quod duo contradictoria in instanti aeternitatis sint simul vera consequens 
-          <lb ed="#L"/>est falsum consequentia probatur quia deus non vult modo christum pati et illud non velle est aeternum 
-          <lb ed="#L"/>et voluit christum pati ergo illud velle fuit aeternum et sic in eodem instanti illud voluit 
-          <lb ed="#L"/>et noluit seu non voluit quae sunt contradictoria</p>
-        
-        <p xml:id="pgb1q10-d1e698"><g ref="#pilcrow"/>3o si aeque praesens velle fu<lb ed="#L"/>turum 
-          esse esset et praeteritum esse praeteritum sequitur quod aeque <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> esset unum sicut re<lb ed="#L"/>liquum 
-          consequens est falsum</p>
-        
-        <p xml:id="pgb1q10-d1e712"><g ref="#pilcrow"/>4o contra corollaria omne illud quod dicit indivisibile esse indivisibiliter 
-          <lb ed="#L"/>est simplicius illo quod dicit indivisibile esse et non indivisibiliter sed signum vel 
-          <lb ed="#L"/>instans aeternitatis dicit indivisibile indivisibiliter aeternitas vero indivisibile sed non in<lb ed="#L"/>divisibiliter 
-          ergo etc</p>
-        
-        <p xml:id="pgb1q10-d1e722"><g ref="#pilcrow"/>5o contra 2m et 3m corollarium videtur esse illud <ref><title ref="#io">iohannis</title> 16</ref> ubi dicitur 
-          <lb ed="#L"/>de spiritu <quote source="http://scta.info/resource/io16_13">quaecumque audiet loquetur</quote> sed certum est quod illud futurum non potest referri 
-          <lb ed="#L"/>nisi ad aliquod signum aeternale et sic erunt plura in aeternitate signa <g ref="#slash"/>Item <ref><title ref="#io">Iohannis</title> <sic>12o</sic></ref> 
-          <lb ed="#L"/><quote source="http://scta.info/resource/io17_5" xml:id="pg-b1q10-Qd1e644">clarifica me pater claritate quam habui priusquam mundus fient</quote> Item contra conclusionem 
-          <lb ed="#L"/>est dictum <subst><del rend="strikethrough"><name ref="#Augustine">augustini</name></del><add><name ref="#Boethius">boecii</name></add></subst>  superius allegati quia si aeternitas est facta sequitur quod 
-          <lb ed="#L"/>non sit deus Item auctoritas <name ref="#Augustine">augustini</name></p>
-        
-        <p xml:id="pgb1q10-d1e766"><g ref="#pilcrow"/>contra 3am conclusionem est ratio facta in oppositum quia verbum divinum etc.</p>
-        
-        <p xml:id="pgb1q10-d1e770"><lb ed="#L"/><g ref="#pilcrow"/>2o per illud <ref><title ref="#ex">exodi</title> 3o</ref> <quote source="http://scta.info/resource/ex15_18">dominus regnabit et ultra</quote></p>
-        
-        <p xml:id="pgb1q10-d1e782"><g ref="#pilcrow"/>3o generatio passiva et 
-          <lb ed="#L"/>filius habet principium ergo eius duratio habet principium patet consequentia quia sunt idem antecedens patet 
-          <lb ed="#L"/>per <ref><name ref="#Augustine">augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title> 14</ref> dicentem pater est principium filii</p>
-        
-        <p xml:id="pgb1q10-d1e799">4o in divinis est numerus[?] 
-          <lb ed="#L"/>antecedens patet quia trinitas et consequentia patet quia in quolibet numero dualitas sequitur unitatem 
-          <lb ed="#L"/>et unitas praecedit eam</p>
-        
-        <p xml:id="pgb1q10-d1e806"><g ref="#pilcrow"/>5o quidquid est primo propinquius illud videtur prius sed filius 
-          <lb ed="#L"/>est propinquior primo quia <choice><orig>immediacior</orig><reg>immediatior</reg></choice> patri igitur filius est prior spiritu sancto et pari 
-          <lb ed="#L"/>passu pater filio maior nota et minor probatur quia spiritus sanctus procedit a patrem mediantem filio</p>
-        
-          <p xml:id="pgb1q10-d1e820"><pb ed="#L" n="38-r"/><lb ed="#L"/><g ref="#pilcrow"/>pro <choice><orig>solucione</orig><reg>solutione</reg></choice> rationum contra primam conclusionem notandum quod mensura dicitur multipliciter <g ref="#slash"/>uno modo per ipsius 
-            <lb ed="#L"/>mensurae replicationem et sic sumitur <ref>10 <title ref="#Metaphysics">metaphysicae</title></ref> de ponderibus</p>
-        
-        <p xml:id="pgb1q10-d1e841"><g ref="#pilcrow"/>2o modo per assimulationem 
-          <lb ed="#L"/>et approximationem aliorum ad ipsum et <choice><orig>imitacionem</orig><reg>imitationem</reg></choice></p> 
-        
-        <p xml:id="pgb1q10-d1e852">3o sumitur secundum causalitatem prioritatem 
-          <lb ed="#L"/>et determinationem et sic dicitur ars mensura <unclear>artificienti[?]</unclear> sic dicitur <ref>5o <title ref="#Metaphysics">metaphysicae</title></ref> de intelligibili <g ref="#slash"/></p>
-        
-        <p xml:id="pgb1q10-d1e863">
-          <lb ed="#L"/>4o modo secundum formalem reformationem seu receptationem et sic scientia dicitur mensura scitorum
+          <lb ed="#L" n="18"/>facta fuissent
+        </p>
+        <p xml:id="pgb1q10-d1e687">
+          <g ref="#slash"/>2o sequitur quod duo contradictoria in instanti aeternitatis sint simul vera consequens 
+          <lb ed="#L" n="19"/>est falsum consequentia probatur quia deus non vult modo christum pati et illud non velle est aeternum 
+          <lb ed="#L" n="20"/>et voluit christum pati ergo illud velle fuit aeternum et sic in eodem instanti illud voluit 
+          <lb ed="#L" n="21"/>et noluit seu non voluit quae sunt contradictoria
+        </p>
+        <p xml:id="pgb1q10-d1e698">
+          <g ref="#pilcrow"/>3o si aeque praesens velle fu<lb ed="#L" break="no" n="22"/>turum 
+          esse esset et praeteritum esse praeteritum sequitur quod aeque <choice><orig>neccessariam</orig><reg>necessariam</reg></choice> esset unum sicut re<lb ed="#L" break="no" n="23"/>liquum 
+          consequens est falsum
+        </p>
+        <p xml:id="pgb1q10-d1e712">
+          <g ref="#pilcrow"/>4o contra corollaria omne illud quod dicit indivisibile esse indivisibiliter 
+          <lb ed="#L" n="24"/>est simplicius illo quod dicit indivisibile esse et non indivisibiliter sed signum vel 
+          <lb ed="#L" n="25"/>instans aeternitatis dicit indivisibile indivisibiliter aeternitas vero indivisibile sed non in<lb ed="#L" break="no" n="26"/>divisibiliter 
+          ergo etc
+        </p>
+        <p xml:id="pgb1q10-d1e722">
+          <g ref="#pilcrow"/>5o contra 2m et 3m corollarium videtur esse illud <ref><title ref="#io">iohannis</title> 16</ref> ubi dicitur 
+          <lb ed="#L" n="27"/>de spiritu <quote source="http://scta.info/resource/io16_13">quaecumque audiet loquetur</quote> sed certum est quod illud futurum non potest referri 
+          <lb ed="#L" n="28"/>nisi ad aliquod signum aeternale et sic erunt plura in aeternitate signa <g ref="#slash"/>Item <ref><title ref="#io">Iohannis</title> <sic>12o</sic></ref> 
+          <lb ed="#L" n="29"/><quote source="http://scta.info/resource/io17_5" xml:id="pg-b1q10-Qd1e644">clarifica me pater claritate quam habui priusquam mundus fient</quote> Item contra conclusionem 
+          <lb ed="#L" n="30"/>est dictum <subst><del rend="strikethrough"><name ref="#Augustine">augustini</name></del><add><name ref="#Boethius">boecii</name></add></subst>  superius allegati quia si aeternitas est facta sequitur quod 
+          <lb ed="#L" n="31"/>non sit deus Item auctoritas <name ref="#Augustine">augustini</name>
+        </p>
+        <p xml:id="pgb1q10-d1e766">
+          <g ref="#pilcrow"/>contra 3am conclusionem est ratio facta in oppositum quia verbum divinum etc.
+        </p>
+        <p xml:id="pgb1q10-d1e770">
+          <lb ed="#L" n="32"/><g ref="#pilcrow"/>2o per illud <ref><title ref="#ex">exodi</title> 3o</ref> <quote source="http://scta.info/resource/ex15_18">dominus regnabit et ultra</quote>
+        </p>
+        <p xml:id="pgb1q10-d1e782">
+          <g ref="#pilcrow"/>3o generatio passiva et 
+          <lb ed="#L" n="33"/>filius habet principium ergo eius duratio habet principium patet consequentia quia sunt idem antecedens patet 
+          <lb ed="#L" n="34"/>per <ref><name ref="#Augustine">augustinum</name> 5o <title ref="#deTrinitate">de trinitate</title> 14</ref> dicentem pater est principium filii
+        </p>
+        <p xml:id="pgb1q10-d1e799">
+          4o in divinis est numerus 
+          <lb ed="#L" n="35"/>antecedens patet quia trinitas et consequentia patet quia in quolibet numero dualitas sequitur unitatem 
+          <lb ed="#L" n="36"/>et unitas praecedit eam
+        </p>
+        <p xml:id="pgb1q10-d1e806">
+          <g ref="#pilcrow"/>5o quidquid est primo propinquius illud videtur prius sed filius 
+          <lb ed="#L" n="37"/>est propinquior primo quia <choice><orig>immediacior</orig><reg>immediatior</reg></choice> patri igitur filius est prior spiritu sancto et pari 
+          <lb ed="#L" n="38"/>passu pater filio maior nota et minor probatur quia spiritus sanctus procedit a patrem mediante filio
+        </p>
+        <p xml:id="pgb1q10-d1e820">
+          <pb ed="#L" n="38-r"/>
+          <lb ed="#L" n="1"/><g ref="#pilcrow"/>pro <choice><orig>solucione</orig><reg>solutione</reg></choice> rationum contra primam conclusionem notandum quod mensura dicitur multipliciter <g ref="#slash"/>uno modo per ipsius 
+          <lb ed="#L" n="2"/>mensurae replicationem et sic sumitur <ref>10 <title ref="#Metaphysics">metaphysicae</title></ref> de ponderibus
+        </p>
+        <p xml:id="pgb1q10-d1e841">
+          <g ref="#pilcrow"/>2o modo per assimulationem 
+          <lb ed="#L" n="3"/>et approximationem aliorum ad ipsum et <choice><orig>imitacionem</orig><reg>imitationem</reg></choice>
         </p> 
-          
-        <p xml:id="pgb1q10-d1e867"><lb ed="#L"/>5o modo per situs interpositionem et altitudo istius situs est mensura tantae vel tantae <choice><orig>dis<lb ed="#L"/>tanciae</orig><reg>dis<lb ed="#L"/>tantiae</reg></choice></p> 
-        
-        <p xml:id="pgb1q10-d1e880"><g ref="#slash"/>primo et ultimo modis deus non dicitur mensura licet bene 2o 3o et 4o modis est men<lb ed="#L"/>sura 
-        rerum</p>
-        
-        <p xml:id="pgb1q10-d1e886"><g ref="#pilcrow"/>ad primum dico quod sumendo genus large pro quocumque communi verificante de pluribus 
-          <lb ed="#L"/>sive univoce vel aequivoce sic potest concedi <del rend="strikethrough">deum</del> esse eiusdem generis cum creaturis 
-          <lb ed="#L"/>quia isto modo ens dicitur de creaturis et deo <g ref="#slash"/>si vero genus sumatur stricte et proprie pro 
-          <lb ed="#L"/>aliquo quod dicitur de pluribus univoce tantum sic conceditur antecedens et negatur consequentia primo pro illo sensu 
-          <lb ed="#L"/>sed in alio non</p>
-        
-        <p xml:id="pgb1q10-d1e904"><g ref="#slash"/>Ad 2m dicitur quod licet inter deum et creaturas non sit proportio quantitative 
-          <lb ed="#L"/>adaequationis tamen inter ea est <choice><orig>proporcio</orig><reg>proportio</reg></choice> ordinis seu exemplaris <choice><orig>imitacionis</orig><reg>imitationis</reg></choice> et hoc 
-          <lb ed="#L"/>sufficit ad hoc quod sit rerum mensura</p>
-        
-        <p xml:id="pgb1q10-d1e924"><g ref="#pilcrow"/>Ad 3m negatur consequentia et ad probationem dicitur 
-          <lb ed="#L"/>quod replicatio non est de ratione mensurae simpliciter sed tantum mensurae quantitative</p>
-        
-        <p xml:id="pgb1q10-d1e930"><g ref="#pilcrow"/>Ad 
-          <lb ed="#L"/>4m negatur consequentia quia licet nomen quantitatis fuerit in potentiam rebus quantitatis primo et proprie 
-          <lb ed="#L"/>tamen cum hoc stat quod significatum possit deo competere</p>
-        
-        <p xml:id="pgb1q10-d1e939"><g ref="#pilcrow"/>Ad primum contra 2am conclusionem conceditur 
-          <lb ed="#L"/>consequens sed tamen non est aeternum facere loquendo de facere dei ad extra <g ref="#slash"/>posset etiam dici 
-          <lb ed="#L"/>quod non omne velle dei est facere licet <del rend="expunctuated">non</del> econverso</p>
-        
-        <p xml:id="pgb1q10-d1e953"><g ref="#pilcrow"/>Ad 2m negatur consequentia ad probationem dico 
-          <lb ed="#L"/>quod christum pati potest dupliciter sumi uno modo pro dicto seu pro hac propositione christus patitur 2o modo 
-          <lb ed="#L"/>pro re dicti scilicet pro instanti pro quo christus <choice><orig>paciebatur</orig><reg>patiebatur</reg></choice> et passione christi si primo modo sumitur non 
-          <lb ed="#L"/>probatur consequentia quia illae propositiones non aeternaliter fuerunt si 2o modo tunc dicitur quod deus vult 
-          <lb ed="#L"/>quidquid unquam voluit et omnem volitum est praesens in suo praesenti instanti aeternitatis 
-          <lb ed="#L"/>ubi nullus est fluxus praeteriti vel futuri et per illam <choice><orig>solucionem</orig><reg>solutionem</reg></choice> possunt solvi plura 
-          <lb ed="#L"/>argumenta similia in hac materia</p>
-        
-        <p xml:id="pgb1q10-d1e982"><g ref="#pilcrow"/>Ad 3m negatur consequentia quia talis <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> temporis praeteriti non provenit 
-          <lb ed="#L"/>ex intrinseco notitiae divinae sed <choice><orig>pocius</orig><reg>potius</reg></choice> ab extrinseceo puta quia res posita est inesse 
-          <lb ed="#L"/>actuali</p>
-        
-        <p xml:id="pgb1q10-d1e1002"><g ref="#pilcrow"/>Ad 4m negatur minor quia tam simplex et tam indivisibiliter est aeternitas quam simplex 
-          <lb ed="#L"/>vel indivisibile est signum vel instans aeternitatis et econverso</p>
-        
-        <p xml:id="pgb1q10-d1e1008"><g ref="#pilcrow"/>Ad 5m de spiritu sancto hic respondet 
-          <lb ed="#L"/><ref><name ref="#Augustine">augustinus</name> omelia 45 <title>super Iohannem</title></ref> ostendens quod vere dicimus de deo fuit et erit quia 
-          <lb ed="#L"/>numquam de eo deerit numquam defuit non quidem quod aliqua signorum pluralitas in 
-          <lb ed="#L"/>ipso sit</p>
-        
-        <p xml:id="pgb1q10-d1e1024"><g ref="#pilcrow"/>Aliter potest dici quod deus licet proprie non sit in tempore et personae quia non vari<lb ed="#L"/>atur 
-          secundum tempus per accidens tamen est in tempore quia est quando tempus est ideo verba praeteriti et fu<lb ed="#L"/>turi 
+        <p xml:id="pgb1q10-d1e852">
+          3o sumitur secundum causalitatem prioritatem 
+          <lb ed="#L" n="4"/>et determinationem et sic dicitur ars mensura artificienti sic dicitur <ref>5o <title ref="#Metaphysics">metaphysicae</title></ref> de intelligibili <g ref="#slash"/>
+        </p>
+        <p xml:id="pgb1q10-d1e863">
+          <lb ed="#L" n="5"/>4o modo secundum formalem reformationem seu receptationem et sic scientia dicitur mensura scitorum
+        </p> 
+        <p xml:id="pgb1q10-d1e867">
+          <lb ed="#L" n="6"/>5o modo per situs interpositionem et altitudo istius situs est mensura tantae vel tantae <choice><orig>dis<lb ed="#L" break="no" n="7"/>tanciae</orig><reg>dis<lb ed="#L" break="no" n="7"/>tantiae</reg></choice>
+        </p>
+        <p xml:id="pgb1q10-d1e880">
+          <g ref="#slash"/>primo et ultimo modis deus non dicitur mensura licet bene 2o 3o et 4o modis est men<lb ed="#L" break="no" n="8"/>sura 
+          rerum
+        </p>
+        <p xml:id="pgb1q10-d1e886">
+          <g ref="#pilcrow"/>ad primam dico quod sumendo genus large pro quocumque communi verificante de pluribus 
+          <lb ed="#L" n="9"/>sive univoce vel aequivoce sic potest concedi <del rend="strikethrough">deum</del> esse eiusdem generis cum creaturis 
+          <lb ed="#L" n="10"/>quia isto modo ens dicitur de creaturis et deo <g ref="#slash"/>si vero genus sumatur stricte et proprie pro 
+          <lb ed="#L" n="11"/>aliquo quod dicitur de pluribus univoce tantum sic conceditur antecedens et negatur consequentia primo pro illo sensu 
+          <lb ed="#L" n="12"/>sed in alio non
+        </p>
+        <p xml:id="pgb1q10-d1e904">
+          <g ref="#slash"/>Ad 2m dicitur quod licet inter deum et creaturas non sit proportio quantitative 
+          <lb ed="#L" n="13"/>adaequationis tamen inter ea est <choice><orig>proporcio</orig><reg>proportio</reg></choice> ordinis seu exemplaris <choice><orig>imitacionis</orig><reg>imitationis</reg></choice> et hoc 
+          <lb ed="#L" n="14"/>sufficit ad hoc quod sit rerum mensura
+        </p>
+        <p xml:id="pgb1q10-d1e924">
+          <g ref="#pilcrow"/>Ad 3m negatur consequentia et ad probationem dicitur 
+          <lb ed="#L" n="15"/>quod replicatio non est de ratione mensurae simpliciter sed tantum mensurae quantitative
+        </p>
+        <p xml:id="pgb1q10-d1e930">
+          <g ref="#pilcrow"/>Ad 
+          <lb ed="#L" n="16"/>4m negatur consequentia quia licet nomen quantitatis fuerit in potentiam rebus quantitatis primo et proprie 
+          <lb ed="#L" n="17"/>tamen cum hoc stat quod significatum possit deo competere
+        </p>
+        <p xml:id="pgb1q10-d1e939">
+          <g ref="#pilcrow"/>Ad primam contra 2am conclusionem conceditur 
+          <lb ed="#L" n="18"/>consequens sed tamen non est aeternum facere loquendo de facere dei ad extra <g ref="#slash"/>posset etiam dici 
+          <lb ed="#L" n="19"/>quod non omne velle dei est facere licet <del rend="expunctuated">non</del> econverso
+        </p>
+        <p xml:id="pgb1q10-d1e953">
+          <g ref="#pilcrow"/>Ad 2m negatur consequentia ad probationem dico 
+          <lb ed="#L" n="20"/>quod christum pati potest dupliciter sumi uno modo pro dicto seu pro hac propositione christus patitur 2o modo 
+          <lb ed="#L" n="21"/>pro re dicti scilicet pro instanti pro quo christus <choice><orig>paciebatur</orig><reg>patiebatur</reg></choice> et passione christi si primo modo sumitur non 
+          <lb ed="#L" n="22"/>probatur consequentia quia illae propositiones non aeternaliter fuerunt si 2o modo tunc dicitur quod deus vult 
+          <lb ed="#L" n="23"/>quidquid unquam voluit et omnem volitum est praesens in suo praesenti instanti aeternitatis 
+          <lb ed="#L" n="24"/>ubi nullus est fluxus praeteriti vel futuri et per illam <choice><orig>solucionem</orig><reg>solutionem</reg></choice> possunt solvi plura 
+          <lb ed="#L" n="25"/>argumenta similia in hac materia
+        </p>
+        <p xml:id="pgb1q10-d1e982">
+          <g ref="#pilcrow"/>Ad 3m negatur consequentia quia talis <choice><orig>neccessitatis</orig><reg>necessitatis</reg></choice> temporis praeteriti non provenit 
+          <lb ed="#L" n="26"/>ex intrinseco notitiae divinae sed <choice><orig>pocius</orig><reg>potius</reg></choice> ab extrinseceo puta quia res posita est inesse 
+          <lb ed="#L" n="27"/>actuali
+        </p>
+        <p xml:id="pgb1q10-d1e1002">
+          <g ref="#pilcrow"/>Ad 4m negatur minor quia tam simplex et tam indivisibiliter est aeternitas quam simplex 
+          <lb ed="#L" n="28"/>vel indivisibile est signum vel instans aeternitatis et econverso
+        </p>
+        <p xml:id="pgb1q10-d1e1008">
+          <g ref="#pilcrow"/>Ad 5m de spiritu sancto hic respondet 
+          <lb ed="#L" n="29"/><ref><name ref="#Augustine">augustinus</name> omelia 45 <title>super Iohannem</title></ref> ostendens quod vere dicimus de deo fuit et erit quia 
+          <lb ed="#L" n="30"/>numquam de eo deerit numquam defuit non quidem quod aliqua signorum pluralitas in 
+          <lb ed="#L" n="31"/>ipso sit
+        </p>
+        <p xml:id="pgb1q10-d1e1024">
+          <g ref="#pilcrow"/>Aliter potest dici quod deus licet proprie non sit in tempore et personae quia non vari<lb ed="#L" break="no" n="32"/>atur 
+          secundum tempus per accidens tamen est in tempore quia est quando tempus est ideo verba praeteriti et fu<lb ed="#L" break="no" n="33"/>turi 
           temporis de deo dici possunt haec responsio trahitur ex dictis <ref><name ref="#GilesOfRome">aegidi</name> libro primo distinctione 
-          <lb ed="#L"/>hac parte 3a quaestione 4a</ref></p>
-        
-        <p xml:id="pgb1q10-tpdcii"><g ref="#slash"/>3o potest dici quod li <mentioned>antequam mundus fieret</mentioned> potest se habere habitualiter 
-          <lb ed="#L"/>hoc est si fuisset tempus ante mundum habuisset claritatem in illo</p>
-        
-        <p xml:id="pgb1q10-d1e1048"><g ref="#pilcrow"/>4o posset dici quod si 
-          <lb ed="#L"/>recipitur tempus pro quacumque <choice><orig>ymaginaria</orig><reg>imaginaria</reg></choice> successione possibili positiva vel privativa tunc infinitum tempus 
-          <lb ed="#L"/>fuit ante mundum quia talia possunt capi pro talibus signis illius <choice><orig>ymaginarii</orig><reg>imaginarii</reg></choice> successus</p>
-        
-        <p xml:id="pgb1q10-abdapp"><lb ed="#L"/><g ref="#slash"/>Ad <name ref="#Boethius">boetium</name> dicentem quod nunc stans etc conceditur quantum ad nostrae mentis apprehensionem sive 
-          <lb ed="#L"/>quantum ad nostri intellectus cogitationem <g ref="#slash"/>Ad <name ref="#Augustine">augustini</name> dicitur quod loquitur de aeternitate participata et 
-          <lb ed="#L"/>secundum quid non autem de aeternitate simpliciter seu loquitur de aeternitate a parte post</p>
-        
-        <p xml:id="pgb1q10-d1e1084"><g ref="#pilcrow"/>Ad primum contra 3am 
-          <pb ed="#L" n="38-v"/><lb ed="#L"/>conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta tamen dicitur mensum men<lb ed="#L"/>sura 
-          quae est sua aeternitas prout ostendit <ref><name ref="#GilesOfRome">aegidius</name> distinctione 8 primi parte 3a quaestione 3a</ref> <g ref="#slash"/></p>
-        
-        <p xml:id="pgb1q10-d1e1099"><lb ed="#L"/><g ref="#pilcrow"/>Ad illud <ref><title ref="#ex">exodi</title> 3o</ref> dicitur quod sumitur aeternitas dupliciter uno modo primo per pro <choice><orig>peryodo</orig><reg>periodo</reg></choice> unius cuiusque 
-          <lb ed="#L"/>vitae naturalis <g ref="#slash"/>2o modo pro uniformi et immobili simultanea existentia primo modo conceditur simpliciter 
-          <lb ed="#L"/>sed 2o modo negatur <g ref="#slash"/>2o posset dici secundum <ref><name ref="#Anselm">anselmum</name> <title ref="#Proslogion">prosologion</title> capitulo 3o</ref> quod deus est  <quote xml:id="pg-b1q10-Quiqdvn">ultra illa <g ref="#dot"/> 
-          <lb ed="#L"/>quae <choice><orig>eciam</orig><reg>etiam</reg></choice> finem non habebunt tum quia illa nullatenus sine eo esse possunt ipse autem 
-          <lb ed="#L"/>non minus esse si omnia in nihilum irent <g ref="#slash"/>tum 2o quia illa possunt cogitari habere finem deus 
-          <lb ed="#L"/>vero nequaquam tum etiam quia dei et eorum aeternitas est deo tota sed eis non</quote> <g ref="#slash"/></p>
-        
-        <p xml:id="pgb1q10-d1e1145"><g ref="#pilcrow"/>Ad 3m primo 
-          <lb ed="#L"/>negatur consequentia quia similiter posset argui quod essentia haberet principium quia ipsa est idem filio Item 
-          <lb ed="#L"/>posset dici quod si sumatur <mentioned>principium</mentioned> pro <choice><orig>duracionis</orig><reg>durationis</reg></choice> sic filius et spiritus sanctus habent 
-          <lb ed="#L"/>principium quia sicut pater communicat filio deitatem ita et aeternitatem si autem sumatur pro <choice><orig>du<lb ed="#L"/>racionis</orig><reg>du<lb ed="#L"/>rationis</reg></choice> 
-          <choice><orig>limitacione</orig><reg>limitatione</reg></choice> sic nulla persona divina habet principium</p>
-        
-        <p xml:id="pgb1q10-d1e1178"><g ref="#pilcrow"/>Ad 4m de numero 
-          <lb ed="#L"/>dicitur quod sicut in divinis est sapientia magnitudo tamen non qualitas aut quantitas sic est ibi 
-          <lb ed="#L"/>ternarius non tamen proprie dictus numeris et de hoc videbitur infra</p>
-        
-        <p xml:id="pgb1q10-d1e1186"><g ref="#pilcrow"/>Ad 5m negatur minor 
-          <lb ed="#L"/>quia non ideo dicitur quod pater producit spiritum sanctum mediante filio quia pater non immediate producit 
-          <lb ed="#L"/>ipsum sed quia filius habet a patre virtutem spirativam sed contra hoc obicitur per <name ref="#Augustine">augustinum</name> libro 
-          <lb ed="#L"/>de triplici habitaculo ubi dicit <quote xml:id="pg-b1q10-Qiipnso">iusti in patria videbunt quid inter est inter generationem et 
-          <lb ed="#L"/>spirationem et videbunt quod pater praecedit filium non natura sed origine</quote></p>
-        
-        <p xml:id="pgb1q10-d1e1202"><g ref="#pilcrow"/>Ad hoc tamen 
-          <lb ed="#L"/>dicit <name ref="#AlphonsusVargas">alphonsus</name> quod <name ref="#Augustine">augustinus</name> vult dicere quod inter patrem et filium est prioritas originis 
-          <lb ed="#L"/>non in quo sed a quo id est quod filius ordine naturae est a patre non tamen est ibi prioritas signorum 
-          <lb ed="#L"/>realis durativa et mensurativa ut <name ref="#Scotus">scotus</name> et sequaces sui nituntur probare quorum rationes 
-          <lb ed="#L"/>solvit <ref><name ref="#AlphonsusVargas">alphonsus</name> in hac distinctione 9a</ref> vide ibi</p>
-        
-        <p xml:id="pgb1q10-d1e1229"><g ref="#pilcrow"/><hi rend="largeFont">nunc ad distinctionem personarum</hi> 
-          <lb ed="#L"/>haec distinctio continet 9 conclusiones prima quod pater et filius et spiritus sanctus sunt unus deus natura 
-          <lb ed="#L"/>tamen pater non est filius nec filius est pater nec spiritus sanctus est pater vel filius</p>
-        
-        <p xml:id="pgb1q10-d1e1239"><g ref="#pilcrow"/>2a conclusio una 
-          <lb ed="#L"/>essentia est patris et filii et spiritus sancti in qua non est aliud pater aliud filius aliud spiritus sanctus 
-          <lb ed="#L"/>licet personaliter alius sit pater alius filius alius spiritus sanctus</p>
-        
-        <p xml:id="pgb1q10-d1e1247"><g ref="#pilcrow"/>3a conclusio licet filius sit genitus a 
-          <lb ed="#L"/>patre tamen pater non fuit antequam filius sed omnes illae tres personae sunt sibi 
-          <lb ed="#L"/>coaeternae et coaequales</p>
-        
-        <p xml:id="pgb1q10-d1e1255"><g ref="#pilcrow"/>4or conclusio sicut splendor qui gignitur ab igne coaeternus 
-          <lb ed="#L"/>est igni seu esset coaeternus sic filius est patri</p>
-        
-        <p xml:id="pgb1q10-d1e1261"><g ref="#pilcrow"/>5a conclusio cum patrem dicimus vel 
-          <lb ed="#L"/>nominamus filium designamus quia nemo sibi ipsi est pater cum vero filium nominamus 
-          <lb ed="#L"/>etiam patrem fatemur quia nemo sibi ipsi filius est ex quo sequitur quod nec filius sine patre 
-          <lb ed="#L"/>nec pater sine filio esse potest semper ergo pater semper et filius</p>
-        
-        <p xml:id="pgb1q10-d1e1272"><g ref="#pilcrow"/>6a conclusio quod filii dei generatio est in<lb ed="#L"/>effabilis 
-        quia non plene exemplificari vel intelligi potest a quocumque mortalium licet aliquid de 
-          <lb ed="#L"/>ipsa potest intelligi et dici</p>
-        
-        <p xml:id="pgb1q10-d1e1280"><g ref="#pilcrow"/>7a conclusio licet possit concedi quod filius semper nascitur de patre 
-          <lb ed="#L"/>tamen congruentius dicitur semper natus</p>
-        
-        <p xml:id="pgb1q10-d1e1286">8a conclusio quod confitemur natum unigenitum deum 
-          <lb ed="#L"/>ante tempus nec ante esse quam natum nec ante natum quam esse et sic de ista distinctione</p>
-        
+          <lb ed="#L" n="34"/>hac parte 3a quaestione 4a</ref>
+        </p>
+        <p xml:id="pgb1q10-tpdcii">
+          <g ref="#slash"/>3o potest dici quod li <mentioned>antequam mundus fieret</mentioned> potest se habere habitualiter 
+          <lb ed="#L" n="35"/>hoc est si fuisset tempus ante mundum habuisset claritatem in illo
+        </p>
+        <p xml:id="pgb1q10-d1e1048">
+          <g ref="#pilcrow"/>4o posset dici quod si 
+          <lb ed="#L" n="36"/>recipitur tempus pro quacumque <choice><orig>ymaginaria</orig><reg>imaginaria</reg></choice> successione possibili positiva vel privativa tunc infinitum tempus 
+          <lb ed="#L" n="37"/>fuit ante mundum quia talia possunt capi pro talibus signis illius <choice><orig>ymaginarii</orig><reg>imaginarii</reg></choice> successus
+        </p>
+        <p xml:id="pgb1q10-abdapp">
+          <lb ed="#L" n="38"/><g ref="#slash"/>Ad <name ref="#Boethius">boetium</name> dicentem quod nunc stans etc conceditur quantum ad nostrae mentis apprehensionem sive 
+          <lb ed="#L" n="39"/>quantum ad nostri intellectus cogitationem <g ref="#slash"/>Ad <name ref="#Augustine">augustini</name> dicitur quod loquitur de aeternitate participata et 
+          <lb ed="#L" n="40"/>secundum quid non autem de aeternitate simpliciter seu loquitur de aeternitate a parte post
+        </p>
+        <p xml:id="pgb1q10-d1e1084">
+          <g ref="#pilcrow"/>Ad primam contra 3am 
+          <pb ed="#L" n="38-v"/>
+          <lb ed="#L" n="1"/>conclusionem dicitur quod licet verbum divinum sit immensum mensura ab eo distincta tamen dicitur mensum men<lb ed="#L" break="no" n="2"/>sura 
+          quae est sua aeternitas prout ostendit <ref><name ref="#GilesOfRome">aegidius</name> distinctione 8 primi parte 3a quaestione 3a</ref> <g ref="#slash"/>
+        </p>
+        <p xml:id="pgb1q10-d1e1099">
+          <lb ed="#L" n="3"/><g ref="#pilcrow"/>Ad illud <ref><title ref="#ex">exodi</title> 3o</ref> dicitur quod sumitur aeternitas dupliciter uno modo primo per pro <choice><orig>peryodo</orig><reg>periodo</reg></choice> unius cuiusque 
+          <lb ed="#L" n="4"/>vitae naturalis <g ref="#slash"/>2o modo pro uniformi et immobili simultanea existentia primo modo conceditur simpliciter 
+          <lb ed="#L" n="5"/>sed 2o modo negatur <g ref="#slash"/>2o posset dici secundum <ref><name ref="#Anselm">anselmum</name> <title ref="#Proslogion">prosologion</title> capitulo 3o</ref> quod deus est  <quote xml:id="pg-b1q10-Quiqdvn">ultra illa <g ref="#dot"/> 
+          <lb ed="#L" n="6"/>quae <choice><orig>eciam</orig><reg>etiam</reg></choice> finem non habebunt tum quia illa nullatenus sine eo esse possunt ipse autem 
+          <lb ed="#L" n="7"/>non minus esse si omnia in nihilum irent <g ref="#slash"/>tum 2o quia illa possunt cogitari habere finem deus 
+          <lb ed="#L" n="8"/>vero nequaquam tum etiam quia dei et eorum aeternitas est deo tota sed eis non</quote> <g ref="#slash"/>
+        </p>
+        <p xml:id="pgb1q10-d1e1145">
+          <g ref="#pilcrow"/>Ad 3m primo 
+          <lb ed="#L" n="9"/>negatur consequentia quia similiter posset argui quod essentia haberet principium quia ipsa est idem filio Item 
+          <lb ed="#L" n="10"/>posset dici quod si sumatur <mentioned>principium</mentioned> pro <choice><orig>duracionis</orig><reg>durationis</reg></choice> sic filius et spiritus sanctus habent 
+          <lb ed="#L" n="11"/>principium quia sicut pater communicat filio deitatem ita et aeternitatem si autem sumatur pro <choice><orig>du<lb ed="#L" break="no" n="12"/>racionis</orig><reg>du<lb ed="#L" break="no" n="12"/>rationis</reg></choice> 
+          <choice><orig>limitacione</orig><reg>limitatione</reg></choice> sic nulla persona divina habet principium
+        </p>
+        <p xml:id="pgb1q10-d1e1178">
+          <g ref="#pilcrow"/>Ad 4m de numero 
+          <lb ed="#L" n="13"/>dicitur quod sicut in divinis est sapientia magnitudo tamen non qualitas aut quantitas sic est ibi 
+          <lb ed="#L" n="14"/>ternarius non tamen proprie dictus numeris et de hoc videbitur infra
+        </p>
+        <p xml:id="pgb1q10-d1e1186">
+          <g ref="#pilcrow"/>Ad 5m negatur minor 
+          <lb ed="#L" n="15"/>quia non ideo dicitur quod pater producit spiritum sanctum mediante filio quia pater non immediate producit 
+          <lb ed="#L" n="16"/>ipsum sed quia filius habet a patre virtutem spirativam sed contra hoc obicitur per <name ref="#Augustine">augustinum</name> libro 
+          <lb ed="#L" n="17"/>de triplici habitaculo ubi dicit <quote xml:id="pg-b1q10-Qiipnso">iusti in patria videbunt quid interest inter generationem et 
+          <lb ed="#L" n="18"/>spirationem et videbunt quod pater praecedit filium non natura sed origine</quote>
+        </p>
+        <p xml:id="pgb1q10-d1e1202">
+          <g ref="#pilcrow"/>Ad hoc tamen 
+          <lb ed="#L" n="19"/>dicit <name ref="#AlphonsusVargas">alphonsus</name> quod <name ref="#Augustine">augustinus</name> vult dicere quod inter patrem et filium est prioritas originis 
+          <lb ed="#L" n="20"/>non in quo sed a quo id est quod filius ordine naturae est a patre non tamen est ibi prioritas signorum 
+          <lb ed="#L" n="21"/>realis durativa et mensurativa ut <name ref="#Scotus">scotus</name> et sequaces sui nituntur probare quorum rationes 
+          <lb ed="#L" n="22"/>solvit <ref><name ref="#AlphonsusVargas">alphonsus</name> in hac distinctione 9a</ref> vide ibi
+        </p>
+        <p xml:id="pgb1q10-d1e1229">
+          <g ref="#pilcrow"/><hi rend="largeFont">nunc ad distinctionem personarum</hi> 
+          <lb ed="#L" n="23"/>haec distinctio continet 9 conclusiones prima quod pater et filius et spiritus sanctus sunt unus deus natura 
+          <lb ed="#L" n="24"/>tamen pater non est filius nec filius est pater nec spiritus sanctus est pater vel filius
+        </p>
+        <p xml:id="pgb1q10-d1e1239">
+          <g ref="#pilcrow"/>2a conclusio una 
+          <lb ed="#L" n="25"/>essentia est patris et filii et spiritus sancti in qua non est aliud pater aliud filius aliud spiritus sanctus 
+          <lb ed="#L" n="26"/>licet personaliter alius sit pater alius filius alius spiritus sanctus
+        </p>
+        <p xml:id="pgb1q10-d1e1247">
+          <g ref="#pilcrow"/>3a conclusio licet filius sit genitus a 
+          <lb ed="#L" n="27"/>patre tamen pater non fuit antequam filius sed omnes illae tres personae sunt sibi 
+          <lb ed="#L" n="28"/>coaeternae et coaequales
+        </p>
+        <p xml:id="pgb1q10-d1e1255">
+          <g ref="#pilcrow"/>4or conclusio sicut splendor qui gignitur ab igne coaeternus 
+          <lb ed="#L" n="29"/>est igni seu esset coaeternus sic filius est patri
+        </p>
+        <p xml:id="pgb1q10-d1e1261">
+          <g ref="#pilcrow"/>5a conclusio cum patrem dicimus vel 
+          <lb ed="#L" n="30"/>nominamus filium designamus quia nemo sibi ipsi est pater cum vero filium nominamus 
+          <lb ed="#L" n="31"/>etiam patrem fatemur quia nemo sibi ipsi filius est ex quo sequitur quod nec filius sine patre 
+          <lb ed="#L" n="32"/>nec pater sine filio esse potest semper ergo pater semper et filius
+        </p>
+        <p xml:id="pgb1q10-d1e1272">
+          <g ref="#pilcrow"/>6a conclusio quod filii dei generatio est in<lb ed="#L" break="no" n="33"/>effabilis 
+          quia non plene exemplificari vel intelligi potest a quocumque mortalium licet aliquid de 
+          <lb ed="#L" n="34"/>ipsa potest intelligi et dici
+        </p>
+        <p xml:id="pgb1q10-d1e1280">
+          <g ref="#pilcrow"/>7a conclusio licet possit concedi quod filius semper nascitur de patre 
+          <lb ed="#L" n="35"/>tamen congruentius dicitur semper natus
+        </p>
+        <p xml:id="pgb1q10-d1e1286">
+          8a conclusio quod confitemur natum unigenitum deum 
+          <lb ed="#L" n="36"/>ante tempus nec ante esse quam natum nec ante natum quam esse et sic de ista distinctione
+        </p>
       </div>  
     </body>
   </text>
