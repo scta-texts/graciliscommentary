@@ -313,6 +313,7 @@
                     parte secunda
                   </ref>
                   <bibl>
+                    <!-- TODO: dbcheck ref -->
                     <name>Aegidius Romanus</name>
                     <title>Sent.</title>,
                     Sent. I, d. 8, p. 1, princ. 2, q. 1, a. 3 
@@ -403,8 +404,8 @@
                 Tertium corollarium: 
                 licet aeternitas ut sic non sit perfectio ut 
                 si simpliciter denotative, 
-                tamen est modus perfectionis identitate, 
-                realiter et entitative. 
+                tamen est modus perfectionis 
+                identitate, realiter, et entitative. 
                 Prima patet per 
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4111" target="http://scta.info/resource/pgb1q10-d1e257">
@@ -678,13 +679,16 @@
                 foret negatio Verbi praecedens, 
                 quod est falsum.
               </p>
-              <!-- check signo versus significato -->
               <p xml:id="pgb1q10-d1e501" n="Corollarium 1">
                 Secundum corollarium: 
                 pro quocumque signo Pater generat unigenitum, 
                 pro eodem signo Filius spirat Spiritum Sanctum, 
                 contra <name xml:id="pg-b1q10-Nd1e799" ref="#Scotus">Scotum</name>,
-                ubi supra probatur signo primum signum originis 
+                <cit>
+                  <ref target="http://scta.info/resource/pgb1q10-d1e472" synch="26-49">ubi supra</ref>
+                  <bibl>Vide supra</bibl>
+                </cit> 
+                probatur signo primum signum originis 
                 in quo Pater est fecundus et Filius non secundum eum 
                 et sit illud signum <c>a</c> et secundum signum 
                 in quo Filius est fecundus et sit <c>b</c>, 
@@ -742,7 +746,9 @@
                 </cit>.
                 Corollarium responsivum probat 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e880"><name xml:id="pg-b1q10-Nd1e881" ref="#AlphonsusVargas">Alphonsus</name></ref>
+                  <ref xml:id="pg-b1q10-Rd1e880">
+                    <name xml:id="pg-b1q10-Nd1e881" ref="#AlphonsusVargas">Alphonsus</name>
+                  </ref>
                   <bibl>
                     <name>Alphonsus Vargas Toletanus</name>,
                     <title>Sent.</title> 
@@ -921,9 +927,11 @@
                 sequitur quod non sit Deus. 
                 Item, 
                 <cit>
-                  <ref xml:id="pg-b1q10-Rd1e1035">auctoritas <name xml:id="pg-b1q10-Nd1e1052" ref="#Augustine">Augustini</name></ref>
+                  <ref xml:id="pg-b1q10-Rd1e1035" target="http://scta.info/resource/pgb1q10-d1e168" synch="16-24">
+                    auctoritas <name xml:id="pg-b1q10-Nd1e1052" ref="#Augustine">Augustini</name>
+                  </ref>
                   <bibl>
-                    Non invenimus
+                    <bibl>Vide supra.</bibl>
                   </bibl>
                 </cit>.
               </p>
@@ -1066,19 +1074,7 @@
                   <bibl>Vide supra</bibl>
                 </cit>, 
                 dico quod sumendo <mentioned>genus</mentioned> large pro quocumque communi verificante de pluribus 
-                <app>
-                  <lem>aequivoce</lem>
-                  <rdg wit="#L" type="variation-choice" facs="38r/9">
-                    <choice>
-                      <seg>univoce</seg>
-                      <seg>aequivoce</seg>
-                    </choice>
-                  </rdg>
-                  <note xml:lang="eng">In the witness L, the editor seems to indicate uncertainty about the correct reading by 
-                  writing "sive univoce vel aequivoce" as if giving the reader a choice between two options. Given that below 
-                  speaking "strictly" is associated with the univocal meaning, it seems clear here that the "loose" meaning 
-                  should be associated with speaking equivocally.</note>
-                </app>, 
+                sive univoce vel aequivoce, 
                 sic potest concedi 
                 <app>
                   <lem n="concedi"/>
@@ -1274,6 +1270,8 @@
                 dicentem quod <mentioned>nunc stans</mentioned>, etc., 
                 conceditur quantum ad nostrae mentis apprehensionem sive 
                 quantum ad nostri intellectus cogitationem.
+              </p>
+              <p xml:id="pgb1q10-cau2cm">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e1357" target="http://scta.info/resource/pgb1q10-d1e722" synch="70-72">
                     Ad <name xml:id="pg-b1q10-Nd1e1430" ref="#Augustine">Augustini</name>
@@ -1462,7 +1460,8 @@
             Haec distinctio continet nona conclusiones. 
             Prima quod 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e1644">
+              <quote xml:id="pg-b1q10-Qd1e1644" source="http://scta.info/resource/AuGch8-dd88aa-d1e391" synch="4-37">
+                <!-- NOTE: taken range is approximate -->
                 Pater, et Filius, et Spiritus Sanctus sunt unus Deus, 
                 natura tamen Pater non est Filius, 
                 nec Filius est Pater, 
@@ -1479,7 +1478,8 @@
           <p xml:id="pgb1q10-d1e1239" n="Conclusio 2">
             Secunda conclusio: 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e1664">
+              <quote xml:id="pg-b1q10-Qd1e1664" source="http://scta.info/resource/AuGch8-dd88aa-d1e391" synch="38-73">
+                <!-- NOTE: token range is approximate -->
                 una 
                 essentia est Patris et Filii et Spiritus Sancti 
                 in qua non est aliud Pater, aliud Filius, aliud Spiritus Sanctus, 
@@ -1496,7 +1496,7 @@
           <p xml:id="pgb1q10-d1e1247" n="Conclusio 3">
             Tertia conclusio: 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e1684">
+              <quote xml:id="pg-b1q10-Qd1e1684" source="http://scta.info/resource/pll1d9c2-d1e3477" synch="1-22">
                 licet Filius sit genitus a 
                 Patre, tamen Pater non fuit antequam Filius, 
                 sed omnes illae tres personae sunt sibi 
@@ -1560,14 +1560,36 @@
           </p>
           <p xml:id="pgb1q10-d1e1272" n="Conclusio 6">
             Sexta conclusio: 
-            quod Filii Dei generatio est ineffabilis 
+            quod 
+            <cit>
+              <quote source="http://scta.info/resource/pll1d9c3-d1e3477" synch="113-117">
+                Filii Dei generatio est ineffabilis
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title> 
+                I, d. 9 c. 3 
+                (I, 105, ll. 13–14). 
+              </bibl>
+            </cit> 
             quia non plene exemplificari vel intelligi potest a quocumque mortalium, 
             licet aliquid de ipsa potest intelligi et dici.
           </p>
           <p xml:id="pgb1q10-d1e1280" n="Conclusio 7">
             Septima conclusio: 
-            licet possit concedi quod Filius semper nascitur de Patre, 
-            tamen congruentius dicitur semper natus.
+            licet possit concedi quod 
+            <cit>
+              <quote>
+                Filius semper nascitur de Patre, 
+                tamen congruentius dicitur semper natus
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 9, c. 4 
+                (I, 109, ll. 6–8).
+              </bibl>
+            </cit>.
           </p>
           <p xml:id="pgb1q10-d1e1286" n="Conclusio 8">
             Octava conclusio: 
@@ -1580,10 +1602,12 @@
                 quam natum nec ante natum quam esse
               </quote>
               <bibl>
-                <!-- I have this actually as a quote from Hillary -->
-                <name>Lombardus</name>, 
+                <name>Hilarius</name>, 
+                <title>De Trinitate</title>, 
+                XXX, n. 22-26 (PL 10:466 et seq.)<!-- TODO: numers and lines come from bigger Lombard quote, should be reduced to match smaller quote here -->
+                <!--quoted through <name>Lombardus</name>, 
                 <title>Sent.</title> 
-                I, d. 9 c. 5 (I, 110, ll. 7–9).
+                I, d. 9 c. 5 (I, 110, ll. 7–9).-->
               </bibl>
             </cit>. 
             Et sic de ista distinctione.
