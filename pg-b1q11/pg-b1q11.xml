@@ -1074,7 +1074,8 @@
                   <name>Thomas de Argentina</name>, 
                   <title>Sent.</title> 
                   I, d. 11, q. 2, a. 2 
-                  (Genoa 1585, 62ra, 15-16).
+                  (Venice 1564, 61ra)
+                  <!--(Genoa 1585, 62ra, 15-16).-->
                 </bibl>
               </cit>, 
               ergo generatio passiva non concerneret 
@@ -1092,19 +1093,10 @@
               </app>, 
               ergo eandem esset persona 
               genita et spirata. 
-              <cit>
-                <!-- TODO is this a ref for the quote above or a separate ref??? -->
-                <ref xml:id="pg-b1q11-Rd1e777">
-                  <name xml:id="pg-b1q11-Nd1e1138" ref="#ThomasStrasbourg">Thomas</name> 
-                  ubi supra
-                </ref>
-                <bibl>
-                  <name>Thomas de Argentina</name>, 
-                  <title>Sent.</title> 
-                  I, d. 11, q. 2, a. 2 
-                  (Venice 1564, 61ra).
-                </bibl>
-              </cit>.
+              <ref xml:id="pg-b1q11-Rd1e777" corresp="#pg-b1q11-Qd1e1118">
+                <name xml:id="pg-b1q11-Nd1e1138" ref="#ThomasStrasbourg">Thomas</name> 
+                ubi supra
+              </ref>.
             </p>
             <p xml:id="pgb1q11-d1e826">
               Contra 
@@ -1124,7 +1116,8 @@
               Antecedens probatur tripliciter. 
               Primo quia, 
               <cit>
-                <quote xml:id="pg-b1q11-Qd1e1169" source="http://scta.info/resource/jdso8u-d1e783" synch="160-180">
+                <!--<quote xml:id="pg-b1q11-Qd1e1169" source="http://scta.info/resource/jdso8u-d1e783" synch="160-180">-->
+                <quote xml:id="pg-b1q11-Qd1e1169" source="http://scta.info/resource/grvnZZ-ed1e46-d1e683" synch="87-104">
                   <!-- NOTE: source somewhat unstable; range definitely unstable  -->
                   si Spiritus Sanctus non procederet a Filio, 
                   non esset donum Patris et Filii
@@ -1134,7 +1127,6 @@
                   <title>Sent.</title> 
                   I, d. 11, q. 1, a. 2 
                   (Trapp II, 186, ll. 17-18).
-                  <!--(Trapp II, 186, ll. 12-13, 17-18). (John had this, but I'm not sure first line range is needed -->
                 </bibl>
               </cit>, 
               igitur nec Spiritus Sanctus. 
@@ -1187,12 +1179,6 @@
                 11 distinctione primi, 
                 articulo 2
               </ref>.
-              <!--to be deleted <bibl>
-                <name>Gregorius Ariminiensis</name>,
-                <title>Sent.</title> 
-                I, d. 11, q. 1, a. 2 
-                (Trapp II, 186, ll. 6-7).
-              </bibl>-->
             </p>
             <p xml:id="pgb1q11-d1e865">
               Contra 
@@ -1255,8 +1241,9 @@
                 <bibl>
                   <name>Scotus</name>,
                   <title>Ordinatio</title> 
-                  I, d. 10 <!-- q. 1???  dcheck with john --> 
-                  (Vatican IV, 341, ll. 21- 342, ll. 18).
+                  I, d. 10, q. 1 
+                  (Vatican IV, 341, ll. 21 - 342, ll. 18).
+                  <!-- incipit/explicit: "et ex his ultra....intellectus, ergo etc." -->
                 </bibl>
               </cit>.
               <app>
@@ -1447,7 +1434,6 @@
                   <title>Summa Theologiae</title> 
                   I, q. 36, a. 4, ad 7. 
                   (Leonine IV, 384b).
-                  <!-- [29945] http://www.corpusthomisticum.org/sth1028.html#29945 -->
                 </bibl>
               </cit>.
             </p>
@@ -1546,11 +1532,11 @@
               notandum quod habetur in 
               <ref xml:id="pg-b1q11-Rd1e1020" corresp="#pg-b1q11-Qsspass #pg-b1q11-Quspepa">
                 <title>glosa cardinalis Extra</title>, 
-                de summa trinitate
+                De summa Trinitate
               </ref>,
               ubi supra super illo verbo 
               <cit>
-                <quote xml:id="pg-b1q11-Qd1e1609" source="http://scta.info/resource/wef6td-d1e68-d1e122" synch="28-29">
+                <quote xml:id="pg-b1q11-Qd1e1609" source="http://scta.info/resource/wef6td-d1e68-d1e122" synch="28-29" type="lemma">
                   <!-- pointing here to formal source; not material source -->
                   unica spiratione
                 </quote>
@@ -1573,17 +1559,12 @@
                   <title>Glossa aurea super Sexto</title> 
                   I, 1, 1 (Paris 1535, 11r-v).
                 </bibl>
-                <note>
-                  Cf. Iohannes Andreae, Novella super Sexto I, 1, 1, (Lyon 1527, 3va).
-                  <!-- is this needed; Andreas seemed to be author ordinary gloss on liber sextus
-                  monachus seems to be what Gracilis refers to as the "Cardinal gloss -->
-                </note>
               </cit>. 
               Respondet glosa dicens, 
               <cit>
                 <quote xml:id="pg-b1q11-Quspepa" type="paraphrase" source="http://scta.info/resource/vBQQh7-d1e98">
                   <!-- NOTE: temporarily pointing to item level id -->
-                  ubi sint plura supposita et plures rationes agendi, 
+                  ubi sunt plura supposita et plures rationes agendi, 
                   ibi sunt plures actiones, 
                   ubi sunt plura supposita et unica ratio agendi, 
                   non oportet ibi esse plures actiones
@@ -1593,7 +1574,6 @@
                   <title>Glossa aurea super Sexto</title> 
                   I, 1, 1 (Paris 1535, 11r-v).
                 </bibl>
-                <!-- dbcheck and comapre to above; -->
               </cit>, 
               sicut est in proposito 
               quia, licet Pater et Filius spirent, 
@@ -1622,7 +1602,7 @@
               sicut fuit expositum 
               <cit>
                 <ref xml:id="pg-b1q11-Rdqdqdq">distinctione quinta</ref>
-                <bibl>XXX</bibl>
+                <bibl>Non invenimus</bibl>
               </cit>, 
               loquendo de totalitate termini producti 
               quia Spiritus Sanctus producitur totus a Filio, 
@@ -1650,11 +1630,11 @@
                   <name>Augustinus</name>, 
                   <title>De Trinitate</title> 
                   IV, 20, 29 
-                  (CCSL 50, 199, ll. 95- 200, ll. 114); 
+                  (CCSL 50, 199, ll. 95 - 200, ll. 114); 
                   V, 17, 27 
                   (CCSL 50A, 501, ll. 2-5); 
                   XV, 27, 48 
-                  (CCSL 50A, 529, ll. 1- 530, ll. 37).
+                  (CCSL 50A, 529, ll. 1 - 530, ll. 37).
                 </bibl>
               </cit> 
               et 
@@ -1737,7 +1717,9 @@
               ratio fundatur super falsa imaginatione 
               quia imaginatur quod personae divinae non se ipsis 
               sed solum relationibus distinguuntur, 
-              quod negatur. 
+              quod negatur.
+            </p>
+            <p xml:id="pgb1q11-vih2ba">
               Secundo, hoc concesso, 
               non tamen solum relationibus oppositis 
               sed etiam disparatis.
@@ -1752,7 +1734,8 @@
               negatur consequentia quia 
               illa non est ratio 
               <cit>
-                <quote xml:id="pg-b1q11-Qd1e1737" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3661">
+                <quote xml:id="pg-b1q11-Qd1e1737" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3661" synch="30-94">
+                  <!-- NOTE: word range is unstable -->
                   quare paternitas et spiratio activa 
                   non constituit duas personas 
                   quia non sunt relationes oppositae, 
@@ -1767,12 +1750,8 @@
                 <bibl>
                   <name xml:id="pg-b1q11-Nd1e1850">Alphonsus Vargas Toletanus</name>, 
                   <title>Sent.</title> 
-                  I, d. 11, a. 2, c. 1 [n. 21]
-                  <!-- John has
-                  I, d. 11, q. 2, a. 3 (Venice 1564, 61ra-va).
-                  but there is no question 2 here 
-                  something is off
-                  -->
+                  I, d. 11-12, q. 1, q. 2 a. 2
+                  (Venice 1490, 400-401).
                 </bibl>
               </cit> 
               quia Filio non opponitur spirationi passivae. 
@@ -1934,7 +1913,9 @@
               </cit>, 
               dico primo quod voluntas 
               non est formale principium productivum, 
-              saltim ad intra. 
+              saltim ad intra.
+            </p>
+            <p xml:id="pgb1q11-c9nina">
               Secundo, potest dici quod, cum 
               <pb ed="#L" n="42-r"/> 
               nulla res se ipsam gignat vel producat, 
@@ -2069,9 +2050,6 @@
               primo quod non est standum 
               sententiae <name xml:id="pg-b1q11-Nd1e2135" ref="#JohnDamascenus">Damasceni</name> 
               quia ipse fuit Graecus.
-            </p>
-            <!-- pragraph breaks here -->
-            <p xml:id="pgb1q11-d1e1506">
               Aliter dicit 
               <cit>
                 <ref xml:id="pg-b1q11-Rtatata">
@@ -2084,17 +2062,22 @@
                   (Venice 1521, 64rb-va).
                 </bibl>
                 <note xml:lang="en">
-                  Gracilis appears to have made a mistake in his attribution to Thomas of Argentina.
+                  Gracilis appears to have made a mistake 
+                  in his attribution to Thomas of Argentina.
                 </note>
               </cit>, 
-              salvando dictum <name xml:id="pg-b1q11-Nd1e2164" ref="#JohnDamascenus">Damesceni</name>, 
+              salvando dictum 
+              <name xml:id="pg-b1q11-Nd1e2164" ref="#JohnDamascenus">Damesceni</name>, 
               quod Graeci bene crediderunt et credidissent hunc articulum, 
-              sed quia non fuerunt vocati ad consilium ubi illud credere fuit ordinatum, 
+              sed quia non fuerunt vocati 
+              ad consilium ubi illud credere fuit ordinatum, 
               ideo credere noluerunt. 
               Secundo dicit quod illae dictiones 
-              <mentioned>a</mentioned> vel <mentioned>ab</mentioned> et <mentioned>ex</mentioned> 
-              significant apud Graecos principiantem 
-              quamdam quae principiatas, 
+              <mentioned>a</mentioned> vel 
+              <mentioned>ab</mentioned> et 
+              <mentioned>ex</mentioned> 
+              significant apud Graecos principalitatem 
+              quamdam quae principalitas, 
               Filio non convenit 
               quare non negant Spiritum Sanctum procedere a Filio, 
               sed negant ipsum principaliter procedere ab ipso, 
@@ -2143,20 +2126,15 @@
                 </bibl>
               </cit>, 
               ideo potest excusari de hoc 
-              quia, 
+              quia 
               supposito quod crediderit 
               Spiritum Sanctum non
               <app>
-                <!--DBCHECK: does this even need a correction -->
                 <lem type="conjecture-corrected"><corr>procedere</corr></lem>
                 <rdg wit="#L" facs="42r/22">producere</rdg>
               </app>
-              a Filio, 
-              <app>
-                <lem n="Filio"/>
-                <rdg wit="#L" type="variation-present" cause="repetition" facs="42r/22">quia</rdg>
-                <!-- first instance of quia happens above at "de hoc quia..." -->
-              </app> 
+              a Filio 
+              quia 
               nondum per ecclesiam extiterat determinatum 
               quod ab utroque procedit.
             </p>
@@ -2198,6 +2176,12 @@
               <quote xml:id="pg-b1q11-Qd1e2330" source="http://scta.info/resource/adt-l15-d1e1877" synch="47-54">
                 qua Pater et Filius se invicem diligunt et nos
               </quote>
+              <bibl>
+                <name>Augustinus</name>, 
+                <title>De Trinitate</title> XV, 17, 27 
+                (CCSL 50A, 501, ll. 4-5).
+                <!--qua invicem... insinuat caritatem.-->
+              </bibl>
             </cit>.
           </p>
           <p xml:id="pgb1q11-d1e1590" n="Conclusio 2">
@@ -2230,6 +2214,12 @@
                 ita et nomen tenet proprie 
                 quod Patri et Filio quodammodo communiter congruitur
               </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> I, d. 10, c. 3 
+                (I, 113, ll. 21-24). 
+                <!--Spiritus Sanctus in ... quodam modo congruit.-->
+              </bibl>
             </cit>.
           </p>
           <p xml:id="pgb1q11-d1e1606" n="Conclusio 1"> 
@@ -2258,9 +2248,19 @@
             licet Graeci confiteantur 
             et concedant Spiritum Sanctum 
             esse spiritum Filii, 
-            tamen dicunt Spiritum Sanctum 
-            tantum a Patre procedere 
-            et non a Filio.
+            <cit>
+              <quote source="http://scta.info/resource/pll1d11c1-d1e3568" synch="1-13">
+                tamen dicunt Spiritum Sanctum 
+                tantum a Patre procedere 
+                et non a Filio
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                Sent. I, d. 11, c. 1 
+                (I, 115, ll. 5-6).
+                <!--Graeci tamen dicunt... non a Filio.-->
+              </bibl>
+            </cit>.
           </p>
           <p xml:id="pgb1q11-d1e1625" n="Conclusio 3">
             Tertio conclusio: 
@@ -2286,9 +2286,9 @@
           <p xml:id="pgb1q11-d1e1633" n="Conclusio 4">
             Quarta conclusio: 
             Graeci concedentes Spiritum Sanctum 
-            esse spiritum Filii conveniunt 
+            esse Spiritum Filii conveniunt 
             nobiscum in fide sententiam eandem 
-            quia non est aliud esse spiritum Patris vel Filii quam 
+            quia non est aliud esse Spiritum Patris vel Filii quam 
             esse vel procedere a Patre et Filio.
           </p>
           <p xml:id="pgb1q11-d1e1641">
