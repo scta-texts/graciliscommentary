@@ -192,7 +192,9 @@
               quia Deo auctore nemo deterior sit 
               secundum 
               <cit>
-                <ref xml:id="pg-b1q18-Rd1e190"><name xml:id="pg-b1q18-Nd1e207" ref="#Augustine">Augustinum</name></ref>
+                <ref xml:id="pg-b1q18-Rd1e190">
+                  <name xml:id="pg-b1q18-Nd1e207" ref="#Augustine">Augustinum</name>
+                </ref>
                 <bibl>
                   <name>Augustinus</name>, 
                   Non invenimus.
@@ -205,7 +207,7 @@
                 <ref xml:id="pg-b1q18-Rd1e200">
                   <name xml:id="pg-b1q18-Nd1e221" ref="#Anselm">Anselmus</name>,
                   libro <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>,
-                  capitulo 4
+                  capitulo <sic>4</sic>
                 </ref>
                 <bibl>
                   <name>Anselmus</name>, 
@@ -392,12 +394,12 @@
                 <ref xml:id="pg-b1q18-Rd1e308">
                   <name xml:id="pg-b1q18-Nd1e372" ref="#Augustine">Augustinum</name>,
                   <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, 
-                  quaestione 5
+                  quaestione <sic>5</sic>
                 </ref>
                 <bibl>
                   <name>Augustinus</name>, 
                   <title>83 questiones</title>, 
-                  q. 5.
+                  non invenimus.
                 </bibl>
               </cit>.
               Secunda probatur quia omne 
@@ -606,13 +608,17 @@
               qui non de bonis gaudet operationibus, 
               ut habetur 
               <cit>
-                <ref xml:id="pg-b1q18-Rd1e414">
+                <ref xml:id="pg-b1q18-Rd1e414" target="http://scta.info/resource/ArNeTH-d1e101-d1e848/cod-MaEth8@143-159">
                   I <title ref="#Ethics">Ethicorum</title>
                 </ref>
                 <bibl>
                   <name>Aristoteles</name>, 
                   <title>Ethica Nicomachea</title>, 
                    I, 9 (1099a 17-18).
+                  <!-- 
+                    http://scta.info/resource/ArNeTH-d1e101-d1e848/cod-MaEth8@143-159 
+                    incipit: quia si haec ita sint...sunt voluptati atque iucundae 
+                  -->
                 </bibl>
               </cit>.
             </p>
@@ -643,12 +649,21 @@
               stat rectitudo voluntatis cum peccato mortali, 
               ergo non includit gratiam gratificantem. 
               Patet consequentia et antecedens patet per
+              <ref xml:id="pg-b1q18-Rd1e429" corresp="#pg-b1q18-Qd1e440">
+                <name xml:id="pg-b1q18-Nd1e587" ref="#Anselm">Anselmum</name>, 
+                <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>, 
+                capitulo 13
+              </ref>,
+              dicentem,
               <cit>
-                <ref xml:id="pg-b1q18-Rd1e429" corresp="#pg-b1q18-Qd1e440">
-                  <name xml:id="pg-b1q18-Nd1e587" ref="#Anselm">Anselmum</name>, 
-                  <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>, 
-                  capitulo 13
-                </ref>
+                <!-- we are experimentiong with "paraphrase-high" a type that is more extreme than other paraphrases
+                  visually paraphrase-hight should not receive quotations marks, while type=paraphrase (at the present) 
+                  still receives quotation marks; after more data collection, perhaps paraphrase and paraphrase collapsed into 
+                  one type that does not typically recieve quotation marks -->
+                <quote xml:id="pg-b1q18-Qd1e440" type="paraphrase-high">
+                  volens habere rectitudinem 
+                  habet rectitudinem
+                </quote>
                 <bibl>
                   <name>Anselmus</name>, 
                   De libertate arbitrii 
@@ -658,9 +673,6 @@
                     -->
                 </bibl>
               </cit>,
-              dicentem,
-              volens habere rectitudinem 
-              habet rectitudinem,
               sed existens in mortali peccato 
               potest velle habere rectitudinem,
               ergo.
@@ -779,6 +791,8 @@
               sed negatur consequentia 
               quia tunc omnia evenirent de necessitate, 
               quod est falsum. 
+            </p>
+            <p xml:id="pg-b1q18-d1e735">
               Secundo, 
               potest dici quod 
               <mentioned>lex</mentioned> potest sumi dupliciter, 
@@ -880,8 +894,7 @@
             </p>
             <p xml:id="pgb1q18-d1e809">
               <!-- reference unclear -->
-              Ad aliam 
-              <mentioned>sequitur Deum non esse iustum retributorem</mentioned> etc., 
+              Ad aliam sequitur Deum non esse iustum retributorem, etc., 
               hic dicit 
               <ref xml:id="pg-b1q18-Rd1e556">
                 <name xml:id="pg-b1q18-Nd1e849" ref="#Rimini">Gregorius</name>, 
@@ -892,11 +905,11 @@
                 conclusionis secundae
               </ref>, 
               <cit>
-                <quote source="http://scta.info/resource/grvnZZ-ed1e5X-d1e1375@6-31">
+                <quote xml:id="pg-b1q18-Qd1e859" source="http://scta.info/resource/grvnZZ-ed1e5X-d1e1375@6-31">
                   quod nec vitae aeternae 
                   nec cuiuscumque praemii 
                   aeterni vel temporalis aliquis actus hominis 
-                  ex quacumque caritate elicitus est 
+                  ex quantacumque caritate elicitus est 
                   ex condigno meritorius apud Deum
                 </quote>
                 <bibl>
@@ -910,7 +923,7 @@
               sed oppositum huius tenet 
               <cit>
                 <ref xml:id="pg-b1q18-Rbsepnc">
-                  <name xml:id="pg-b1q18-Nd1e867" ref="#BonsemblantesBaduarius">Bonsemblates</name>
+                  <name xml:id="pg-b1q18-Nd1e867" ref="#BonsemblantesBaduarius">Bonsemblantes</name>
                 </ref>
                 <bibl>
                   <name>Bonsemblantes</name>, 
@@ -934,9 +947,28 @@
               nec sic 
               nec sic sed non volendo huius rectitudinem servare.
               Aliter dicit 
-              <name xml:id="pg-b1q18-Nd1e890" ref="#Wodeham">Adam</name> 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e903" target="http://scta.info/resource/b1-d1-q6">
+                  <!-- temp target at item level; replace when paragraph ids exists -->
+                  <name xml:id="pg-b1q18-Nd1e890" ref="#Wodeham">Adam</name></ref>
+                <bibl>
+                  <name>Adam de Wodeham</name>, 
+                  <title>Lectura Oxoniensis</title> 
+                  I, d. 1, q. 6, a. 2 (Paris 193, fol. 34ra-rb).
+                  <!--- TODO : need incipit/explicit to exact passage -->
+                </bibl>
+              </cit> 
               et 
-              <name xml:id="pg-b1q18-Nd1e893" ref="#BonsemblantesBaduarius">Bonsemblantes</name> 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e924">
+                  <name xml:id="pg-b1q18-Nd1e893" ref="#BonsemblantesBaduarius">Bonsemblantes</name>
+                </ref>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Lectura</title> 
+                  (non extant).
+                </bibl>
+              </cit> 
               quod volens, 
               et conceditur consequens 
               quod infertur in sensu diviso. 
@@ -961,6 +993,8 @@
                 </rdg>
               </app> 
               simpliciter dicta.
+            </p>
+            <p xml:id="pg-b1q18-d1e974">
               Secundo, 
               potest dici quod velle est duplex, 
               primum est efficax indicativum, 
@@ -1044,7 +1078,7 @@
             sed hi illa, alii alia, 
             quamvis omnes habeant ipsum donum, 
             scilicet Spiritum Sanctum 
-            a quo omnia dona <unclear>cuiusquaque</unclear> dividuntur.
+            a quo omnia dona cuiusquaque dividuntur.
           </p>
         </div>
       </div>  
