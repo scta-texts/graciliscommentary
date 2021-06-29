@@ -2,13 +2,14 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber I, Quaestio 11</title>
+        <title>Lectio 11</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Liber I, Quaestio 11</title>
+          <title>Lectio 11</title>
           <date when="2014-05-02">May 02, 2014</date>
         </edition>
       </editionStmt>
@@ -48,8 +49,8 @@
     </front>
     <body>
       <div xml:id="pg-b1q11">
-        <head xml:id="pg-b1q11-Hd1e95">Liber I, Quaestio 11</head>
-        <div xml:id="pg-b1q11-Dd1e98">
+        <head xml:id="pg-b1q11-Hd1e95">Lectio 11</head>
+        <div xml:id="pg-b1q11-Dd1e98" type="circa-textum">
           <head xml:id="pg-b1q11-Hd1e100">
             <supplied>Circa textum</supplied>
           </head>
@@ -183,7 +184,7 @@
             Et haec sit divisio harum distinctionum duarum.
           </p>
         </div>
-        <div xml:id="pg-b1q11-Dd1e213">
+        <div xml:id="pg-b1q11-Dd1e213" type="quaestio">
          <head xml:id="pg-b1q11-Hd1e215">Quaestio</head>
           <p xml:id="pgb1q11-d1e177">
             Utrum Pater et Filius eodem modo agendi indistincto Spiritum Sanctum producant in supposito 
@@ -193,7 +194,7 @@
             <head xml:id="pg-b1q11-Hd1e220">
               <supplied>Rationes principales</supplied>
             </head>
-            <p xml:id="pgb1q11-qnqsnd">
+            <p xml:id="pgb1q11-qnqsnd" n="Ratio 1">
               Quod non 
               quia tunc sequitur primo 
               quod tantum repugnaret Spiritum Sanctum a Filio 
@@ -218,7 +219,7 @@
               spiraret, 
               nec distingueretur.
             </p>
-            <p xml:id="pgb1q11-d1e201">
+            <p xml:id="pgb1q11-d1e201" n="Ratio 2">
               Secundo, 
               Filius non spirat Spiritum Sanctum 
               probatur auctoritate 
@@ -245,7 +246,7 @@
               Ergo, si nota est ex Filio, 
               non videtur procedere ab eo.
             </p>
-            <p xml:id="pgb1q11-d1e216">
+            <p xml:id="pgb1q11-d1e216" n="Ratio 3">
               Tertio, 
               si sic, 
               sequeretur quod ab eis naturaliter procederet. 
@@ -259,7 +260,7 @@
               si Spiritus Sanctus ab aliquo procedat, 
               hoc erit naturaliter et non libere.
             </p>
-            <p xml:id="pgb1q11-d1e231">
+            <p xml:id="pgb1q11-d1e231" n="In oppositum">
               Ad oppositum est 
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e280" target="http://scta.info/resource/pll1d11c1-d1e3477" synch="4-16">
@@ -659,7 +660,7 @@
                   (I, 120, ll. 8-9).
                 </bibl>
                 <note xml:lang="en">
-                  This a significant paraphrase, 
+                  This is a significant paraphrase, 
                   but it seem clear that Gracilis is performing a quotation, 
                   though it doesn't align perfectly with anything in Lombard. 
                   The provided reference is our best guess 
@@ -686,7 +687,7 @@
               <ref xml:id="pg-b1q11-Rd1e557" corresp="#pg-b1q11-Qevnsss">
                 <name xml:id="pg-b1q11-Nd1e721" ref="#Lombard">Magister</name> in textu
               </ref>,
-              ubi dicit 
+              ubi dicit,
               <cit>
                 <quote xml:id="pg-b1q11-Qevnsss" source="http://scta.info/resource/pll1d18c3-d1e3541" synch="32-41">
                   ex virtute naturae in naturam eandem processionem
@@ -855,7 +856,7 @@
           </div>
           <div xml:id="pg-b1q11-Dd1e658">
             <head xml:id="pg-b1q11-Hd1e660">
-              <supplied>Obiectiones et Responsiones</supplied>
+              <supplied>Obiectiones</supplied>
             </head>
             <p xml:id="pgb1q11-d1e624">
               Contra 
@@ -1354,6 +1355,9 @@
               non producitur naturaliter, 
               ergo consequentia fuit bona.
             </p>
+          </div>
+          <div xml:id="pg-b1q11-Dd1e1407">
+            <head xml:id="pg-b1q11-Hd1e1409">Responsiones</head>
             <p xml:id="pgb1q11-d1e984">
               <cit>
                 <ref xml:id="pg-b1q11-Rd1e1035" target="http://scta.info/resource/pgb1q11-d1e624">Ad primam</ref>
@@ -2140,7 +2144,7 @@
             </p>
           </div>
         </div>
-        <div xml:id="pg-b1q11-Dd1e1266">
+        <div xml:id="pg-b1q11-Dd1e1266" type="et-conclusiones">
           <head xml:id="pg-b1q11-Hd1e1268">
             <supplied>Conclusiones</supplied>
           </head>
@@ -2249,7 +2253,7 @@
             et concedant Spiritum Sanctum 
             esse spiritum Filii, 
             <cit>
-              <quote source="http://scta.info/resource/pll1d11c1-d1e3568" synch="1-13">
+              <quote xml:id="pg-b1q11-Qd1e2374" source="http://scta.info/resource/pll1d11c1-d1e3568" synch="1-13">
                 tamen dicunt Spiritum Sanctum 
                 tantum a Patre procedere 
                 et non a Filio

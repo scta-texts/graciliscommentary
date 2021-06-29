@@ -2,14 +2,14 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber I, Quaestio 10</title>
+        <title>Lectio 10</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
         <editor>John T. Slotemaker</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Liber I, Quaestio 10</title>
+          <title>Lectio 10</title>
           <date when="2014-05-01">May 01, 2014</date>
         </edition>
       </editionStmt>
@@ -50,8 +50,8 @@
     </front>
     <body>
       <div xml:id="pg-b1q10">
-        <head xml:id="pg-b1q10-Hd1e94">Liber I, Quaestio 10</head>
-        <div xml:id="pg-b1q10-Dd1e97">
+        <head xml:id="pg-b1q10-Hd1e94">Lectio 10</head>
+        <div xml:id="pg-b1q10-Dd1e97" type="circa-textum">
           <head xml:id="pg-b1q10-Hd1e99">
             <supplied>Circa textum</supplied>
           </head>
@@ -175,7 +175,7 @@
             Et haec est divisio huius lectionis.
           </p>
           </div>
-          <div xml:id="pg-b1q10-Dd1e189">
+          <div xml:id="pg-b1q10-Dd1e189" type="quaestio">
             <head xml:id="pg-b1q10-Hd1e191">
               <supplied>Quaestio</supplied>
             </head>
@@ -208,9 +208,14 @@
                 Antecedens est catholicum. 
                 Confirmatur quia Verbum est supra et ultra aeternitatem, 
                 ergo aeternitate non est mensuratum. 
-                Alias probatur <ref xml:id="pg-b1q10-Rd1e3986"><title ref="#ex">Exodi</title> <sic>tertio</sic>:</ref> 
+                Alias probatur 
+                <ref xml:id="pg-b1q10-Rd1e3986">
+                  <title ref="#ex">Exodi</title> <sic>tertio</sic>
+                </ref>,
                 <cit>
-                  <quote xml:id="pg-b1q10-Qd1e221" source="http://scta.info/resource/ex15_18">Dominus regnabit et ultra</quote>
+                  <quote xml:id="pg-b1q10-Qd1e221" source="http://scta.info/resource/ex15_18">
+                    Dominus regnabit et ultra
+                  </quote>
                   <bibl>Exodus 15:18</bibl>
                 </cit>.
               </p>
@@ -224,7 +229,7 @@
                   <name xml:id="pg-b1q10-Nd1e300" ref="#Augustine">Augustinum</name>, 
                   <title ref="#deDiversisQuaestionibus">83 quaestionibus</title>
                 </ref> 
-                ubi dicit: 
+                ubi dicit,
                 <cit>
                   <quote xml:id="pg-b1q10-Qd1e240" source="http://scta.info/resource/a83-q23">
                     Deus est auctor aeternitatis
@@ -236,7 +241,7 @@
                     (CCSL 44A, 27, ll. 11-12).
                   </bibl>
                 </cit>.
-                Item 
+                Item,
                 <ref xml:id="pg-b1q10-Rd1e4025" corresp="#pg-b1q10-Qd1e253">
                   <name xml:id="pg-b1q10-Nd1e324" ref="#Boethius">Boetius</name>
                 </ref> 
@@ -313,7 +318,6 @@
                     parte secunda
                   </ref>
                   <bibl>
-                    <!-- TODO: dbcheck ref -->
                     <name>Aegidius Romanus</name>
                     <title>Sent.</title>,
                     Sent. I, d. 8, p. 1, princ. 2, q. 1, a. 3 
@@ -463,7 +467,9 @@
                     (Baeumker, 64, ll. 21-24).
                     <!-- see https://books.google.com/books?id=Am0-AAAAYAAJ&lpg=PA68&ots=7QyImf9WiQ&dq=nullum%20immutabile%20mensuratur&pg=PA64#v=onepage&q=tempus%20rem%20a%20suo%20principio&f=false --></bibl>
                 </cit>.
-                Item <ref xml:id="pg-b1q10-Rd1e4173">propositione 44</ref> dicit quod 
+                Item, 
+                <ref xml:id="pg-b1q10-Rd1e4173">propositione 44</ref> 
+                dicit quod 
                 <cit>
                   <quote xml:id="pg-b1q10-Qd1e4178">
                     nullum immutabile mensuratur 
@@ -679,13 +685,13 @@
                 foret negatio Verbi praecedens, 
                 quod est falsum.
               </p>
-              <p xml:id="pgb1q10-d1e501" n="Corollarium 1">
+              <p xml:id="pgb1q10-d1e501" n="Corollarium 2">
                 Secundum corollarium: 
                 pro quocumque signo Pater generat unigenitum, 
                 pro eodem signo Filius spirat Spiritum Sanctum, 
                 contra <name xml:id="pg-b1q10-Nd1e799" ref="#Scotus">Scotum</name>,
                 <cit>
-                  <ref target="http://scta.info/resource/pgb1q10-d1e472" synch="26-49">ubi supra</ref>
+                  <ref xml:id="pg-b1q10-Rd1e788" target="http://scta.info/resource/pgb1q10-d1e472" synch="26-49">ubi supra</ref>
                   <bibl>Vide supra</bibl>
                 </cit> 
                 probatur signo primum signum originis 
@@ -775,7 +781,7 @@
             </div>
             <div xml:id="pg-b1q10-Dd1e572">
               <head xml:id="pg-b1q10-Hd1e574">
-                <supplied>Obiectiones et Responsiones</supplied>
+                <supplied>Obiectiones</supplied>
               </head> 
               <p xml:id="pgb1q10-d1e651">
                 Contra 
@@ -988,12 +994,14 @@
                   <bibl>
                     <name>Augustinus</name>, 
                     <title>De Trinitate</title>, 
-                    V, 13, 14 (CCSL 50, 220, ll. 1 - 221, ll. 15).
+                    V, 13, 14 
+                    (CCSL 50, 220, ll. 1 - 221, ll. 15).
                   </bibl>
                 </cit>.
               </p>
               <p xml:id="pgb1q10-d1e799">
-                Quarto, in divinis est numerus. 
+                Quarto, 
+                in divinis est numerus. 
                 Antecedens patet quia Trinitas. 
                 Et consequentia patet 
                 quia in quolibet numero dualitas sequitur unitatem 
@@ -1068,6 +1076,9 @@
                 licet bene secundo, tertio, et quarto modis 
                 est mensura rerum.
               </p> 
+            </div>
+            <div xml:id="pg-b1q10-Dd1e1204">
+              <head xml:id="pg-b1q10-Hd1e1206">Responsiones</head>
               <p xml:id="pgb1q10-d1e886">
                 <cit>
                   <ref xml:id="pg-b1q10-Rd1e4667" target="http://scta.info/resource/pgb1q10-d1e651">Ad primam</ref>
@@ -1441,7 +1452,7 @@
               </p>
             </div>
           </div>
-        <div xml:id="pg-b1q10-Dd1e943">
+        <div xml:id="pg-b1q10-Dd1e943" type="et-conclusiones">
           <head xml:id="pg-b1q10-Hd1e945">
             <supplied>Conclusiones</supplied>
           </head>
@@ -1562,7 +1573,7 @@
             Sexta conclusio: 
             quod 
             <cit>
-              <quote source="http://scta.info/resource/pll1d9c3-d1e3477" synch="113-117">
+              <quote xml:id="pg-b1q10-Qd1e1753" source="http://scta.info/resource/pll1d9c3-d1e3477" synch="113-117">
                 Filii Dei generatio est ineffabilis
               </quote>
               <bibl>
@@ -1579,7 +1590,7 @@
             Septima conclusio: 
             licet possit concedi quod 
             <cit>
-              <quote>
+              <quote xml:id="pg-b1q10-Qd1e1771">
                 Filius semper nascitur de Patre, 
                 tamen congruentius dicitur semper natus
               </quote>
@@ -1595,7 +1606,7 @@
             Octava conclusio: 
             quod 
             <cit>
-              <quote xml:id="pg-b1q10-Qd1e1753">
+              <quote xml:id="pg-b1q10-Qd1e175X">
                 confitemur
                 natum unigenitum Deum 
                 ante tempus nec ante esse 
