@@ -1,17 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Liber I, Quaestio 15</title>
+        <title>Lectio 15</title>
         <author>Peter Gracilis</author>
         <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Liber I, Quaestio 15</title>
+          <title>Lectio 15</title>
           <date when="2015-11-22">November 22, 2015</date>
         </edition>
       </editionStmt>
@@ -51,8 +49,8 @@
     </front>
     <body>
       <div xml:id="pg-b1q15">
-        <head xml:id="pg-b1q15-Hd1e95">Quaestio 15</head>
-        <div xml:id="pg-b1q15-Dd1e98">
+        <head xml:id="pg-b1q15-Hd1e95">Lectio 15</head>
+        <div xml:id="pg-b1q15-Dd1e98" type="circa-textum">
           <head xml:id="pg-b1q15-Hd1e100">
             <supplied>Circa textum</supplied>
           </head>
@@ -68,7 +66,7 @@
                 (I, 138, ll. 4).
               </bibl>
             </cit>.
-            Postquam <name ref="#Lombard">Magister</name> 
+            Postquam <name xml:id="pg-b1q15-Nd1e126" ref="#Lombard">Magister</name> 
             determinavit de temporalis missionis principio, 
             nunc determinat de huiusmodi missionis modo vario, 
             et dividitur in duas partes 
@@ -118,7 +116,7 @@
             Tertia ibi 
             <cit>
               <quote xml:id="pg-b1q15-Qd1e149" source="http://scta.info/resource/pll1d16c2-d1e3579" type="lemma">
-                <name ref="#HilaryOfPoitiers">Hilarius</name>
+                <name xml:id="pg-b1q15-Nd1e166" ref="#HilaryOfPoitiers">Hilarius</name>
               </quote>
               <bibl>
                 <name>Lombardus</name>,
@@ -131,11 +129,11 @@
             Et haec divisio et sententia in generali praesentis distinctionis circa quam, etc.
           </p>
         </div>
-        <div xml:id="pg-b1q15-Dd1e160">
+        <div xml:id="pg-b1q15-Dd1e160" type="quaestio">
           <head xml:id="pg-b1q15-Hd1e162">
             <supplied>Quaestio</supplied>
           </head>
-          <head type="question-title">
+          <head xml:id="pg-b1q15-Hd1e190" type="question-title">
             Utrum species, 
             in quibus Spiritus Sanctus missus apparuit visibiliter, 
             fuerunt entitates potentias creatas immutantes realiter?
@@ -207,7 +205,7 @@
               Et antecedens patet per 
               <cit>
                 <ref xml:id="pg-b1q15-Rd1e218">
-                  <name ref="#Ripa">Iohannem de Ripa</name>. 
+                  <name xml:id="pg-b1q15-Nd1e245" ref="#Ripa">Iohannem de Ripa</name>. 
                   quaestione 2, articulo 3, distinctione 2
                 </ref> 
                 <bibl>
@@ -223,7 +221,7 @@
               fuerunt imaginariae et non reales, ergo. 
               Antecedens patet quia secundum 
               <ref xml:id="pg-b1q15-Rd1e232" corresp="#pg-b1q15-Qd1e232">
-                <name ref="#Augustine">Beatum Augustinum</name> 
+                <name xml:id="pg-b1q15-Nd1e264" ref="#Augustine">Beatum Augustinum</name> 
                 II 
                 <title ref="#deTrinitate">De Trinitate</title>, 
                 capitulo 5
@@ -279,7 +277,7 @@
               in genere efficientis.
               Secunda probatur quia secundum 
               <ref xml:id="pg-b1q15-Rd1e283" corresp="#pg-b1q15-Qd1e293">
-                <name ref="#Dionysius">Dionysium</name> 
+                <name xml:id="pg-b1q15-Nd1e320" ref="#Dionysius">Dionysium</name> 
                 in <title ref="#deCoelestiHierarchia">De angelica hierarchia</title>
               </ref>, 
               <cit>
@@ -406,7 +404,7 @@
               et actuat ipsum obiectaliter et causaliter. Patet quantum ad species extrinsece existentes per 
               <cit>
                 <ref xml:id="pg-b1q15-Rd1e385">
-                  <name ref="#Augustine">Beatum Augustinum</name> in 
+                  <name xml:id="pg-b1q15-Nd1e436" ref="#Augustine">Beatum Augustinum</name> in 
                   <title ref="#DeVeraReligione">De vera religione</title>, 
                   capitulo 6
                 </ref>
@@ -433,7 +431,7 @@
               Item, 
               patet per 
               <ref xml:id="pg-b1q15-Rd1e412" corresp="#pg-b1q15-Qd1e421">
-                <name ref="#Aristotle">Philosophum</name> in 
+                <name xml:id="pg-b1q15-Nd1e473" ref="#Aristotle">Philosophum</name> in 
                 <title>De memoria et reminiscentia</title>
               </ref>, 
               ubi dicit 
@@ -466,7 +464,7 @@
               ut patet per 
               <cit>
                 <ref xml:id="pg-b1q15-Rd1e436">
-                  <name ref="#Augustine">Beatum Augustinum</name> 
+                  <name xml:id="pg-b1q15-Nd1e499" ref="#Augustine">Beatum Augustinum</name> 
                   ubi supra
                 </ref>
                 <bibl>Vide supra.</bibl>
@@ -492,7 +490,7 @@
               et illud movens esse praesens intellectui realiter vel situaliter. 
               Patet per 
               <ref xml:id="pg-b1q15-Rd1e454" corresp="#pg-b1q15-Qd1e463">
-                <name ref="#Augustine">Beatum Augustinum</name> 
+                <name xml:id="pg-b1q15-Nd1e517" ref="#Augustine">Beatum Augustinum</name> 
                 in <title ref="#DeVeraReligione">De vera religione</title>
               </ref>, 
               ubi dicit, 
@@ -545,7 +543,7 @@
               fuisse rem realem scriptura exprimit aut asserit. 
               Prima pars patet per 
               <ref xml:id="pg-b1q15-Rd1e498" corresp="#pg-b1q15-Qd1e507">
-                <name ref="#Augustine">Beatum Augustinum</name> 
+                <name xml:id="pg-b1q15-Nd1e567" ref="#Augustine">Beatum Augustinum</name> 
                 II 
                 <title ref="#deTrinitate">De Trinitate</title>
               </ref>, 
@@ -675,7 +673,7 @@
           </div>
           <div xml:id="pg-b1q15-Dd1e622">
             <head xml:id="pg-b1q15-Hd1e624">
-              <supplied>Obiectiones et responsiones</supplied>
+              <supplied>Obiectiones</supplied>
             </head>
             <p xml:id="pgb1q15-d1e655">
               Contra 
@@ -860,12 +858,15 @@
               Tertio, 
               sequeretur quod Spiritus Sanctus 
               in illis linguis non apparuisset 
-              nisi tantum <name ref="#Apostles">apostolis</name> 
+              nisi tantum <name xml:id="pg-b1q15-Nd1e835" ref="#Apostles">apostolis</name> 
               et viris sanctis qui Spiritum Sanctum receperunt. 
               Consequens falsum quia pluribus 
               aliis existentibus in domo cum 
-              <name ref="#Apostles">apostolis</name> apparuerunt.
+              <name xml:id="pg-b1q15-Nd1e838" ref="#Apostles">apostolis</name> apparuerunt.
             </p>
+          </div>
+          <div xml:id="pg-b1q15-Dd1e843">
+            <head xml:id="pg-b1q15-Hd1e845">Responsiones</head>
             <p xml:id="pgb1q15-d1e815">
               <cit>
                 <ref xml:id="pg-b1q15-Rd1e752" target="http://scta.info/resource/pgb1q15-d1e655">Ad primam</ref>
@@ -1035,7 +1036,7 @@
               Vide 
               <cit>
                 <ref xml:id="pg-b1q15-Rd1e772" target="http://scta.info/resource/HuYgTa-e52807-d1e565" synch="47-116">
-                  <name ref="#ThomasStrasbourg">Thomam de Argentina</name>, 
+                  <name xml:id="pg-b1q15-Nd1e987" ref="#ThomasStrasbourg">Thomam de Argentina</name>, 
                   distinctione 16, 
                   articulo primo
                 </ref>
@@ -1101,7 +1102,7 @@
             </p>
           </div>
         </div>
-        <div xml:id="pg-b1q15-Dd1e806">
+        <div xml:id="pg-b1q15-Dd1e806" type="et-conclusiones">
           <head xml:id="pg-b1q15-Hd1e808">
             <supplied>Conclusiones</supplied>
           </head>
@@ -1192,7 +1193,7 @@
             Septima conclusio: 
             quod secundum 
             <ref xml:id="pg-b1q15-Rhpehed" corresp="#pg-b1q15-Qpemued">
-              <name ref="#HilaryOfPoitiers">Hilarium</name>
+              <name xml:id="pg-b1q15-Nd1e1108" ref="#HilaryOfPoitiers">Hilarium</name>
             </ref> 
             <cit>
               <quote xml:id="pg-b1q15-Qpemued">
@@ -1228,7 +1229,7 @@
             quia Filius illam perfectionem 
             habet a Patre et non econverso. 
             Notat etiam quod 
-            <name ref="#HilaryOfPoitiers">Hilarius</name> 
+            <name xml:id="pg-b1q15-Nd1e1145" ref="#HilaryOfPoitiers">Hilarius</name> 
             non concedit Filium minorem Patre tum 
             quia minoritas videtur importare indignitatem 
             tum quia voluit subtrahere 
@@ -1246,7 +1247,6 @@
                 It's not clear if it is a name of a person some other transitional marking.
               </note>
             </app>
-            
           </p>
         </div>
       </div>  
