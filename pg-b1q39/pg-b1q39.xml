@@ -1,7 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -169,28 +166,35 @@
               Consequens est falsum, 
               sed patet consequentia quoniam est bonum cum sit 
               quoddam verum. 
-              Confirmatur quia omnis motio 
-              vel motus est bonitas sicut est entitas 
+              Confirmatur quia 
+              omnis motio vel motus est bonitas 
+              sicut est entitas,
               sed aliquod peccatum est motus animi, 
               ergo.
             </p>
             <p xml:id="pgb1q39-d1e3292" n="Ratio 2">
               Secundo, 
               quia tunc sequeretur 
-              quod possibile esset possibile <c>a</c> 
-              divina voluntate effective. 
-              Consequens est falsum quia omne possibile ab aeterno fuit 
-              possibile aliter quandoque possibile fuisset impossibile. 
-              Consequentia patet quia aliquod possibile esse possibile 
-              est verum et bonum ut puta <name xml:id="pg-b1q39-Nd1e224" ref="#Sortes">Sortem</name> posse mereri et salvari et posse 
-              unde agere. 
+              quod possibile esset possibile 
+              a divina voluntate effective. 
+              Consequens est falsum 
+              quia omne possibile ab aeterno fuit possibile, 
+              aliter quandoque possibile fuisset impossibile. 
+              Consequentia patet 
+              quia aliquod possibile esse possibile 
+              est verum et bonum, 
+              ut puta 
+              <name xml:id="pg-b1q39-Nd1e224" ref="#Sortes">Sortem</name> 
+              posse mereri et salvari 
+              et posse bene agere. 
               Confirmatio quia, 
               si sic, 
               sequeretur quod Deus posset infinitam delectationem 
-              de obiecto creato <unclear cert="high">in mente <!-- immediate --></unclear> creata causare. 
+              de obiecto creato in mente creata causare. 
               Consequens est falsum 
               quia sic mens in aliquo citra 
-              Deum posset beatifice quietari contra 
+              Deum posset beatifice quietari, 
+              contra 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e236"><name xml:id="pg-b1q39-Nd1e234" ref="#Augustine">Augustinum</name></ref>
                 <bibl>Augustinus, xxx</bibl>
@@ -206,23 +210,29 @@
               quaelibet suum effectum quod non est dicendum. 
               Patet consequentia 
               quia causa quae non potest impediri necessario causat suum effectum. 
-              Confirmatur quia vult omnem 
-              hominem salvuum fieri 
-              et hoc non fit ergo divina voluntas est impedibilis 
+              Confirmatur quia 
+              <cit>
+                <quote xml:id="pg-b1q39-Qd1e232" source="http://scta.info/resource/Itim2_4@2-6">
+                  vult omnem hominem salvum fieri
+                </quote>
+                <bibl>I Tim 2:4</bibl>
+              </cit>, 
+              et hoc non fit ergo divina voluntas est impedibilis,
               et per consequens non quodlibet 
-              bonum possibile aliud a se potest ponere inesse.
+              bonum possibile aliud a se 
+              potest ponere in esse.
             </p>
             <p xml:id="pgb1q39-d1e3355" n="In oppositum">
-              In oppositum 
-              est illud 
+              In oppositum, 
+              est illud,
               <ref xml:id="pg-b1q39-Rd1e250">
                 <title ref="#est">Hester</title> 13
-              </ref> 
+              </ref>,
               <cit>
                 <quote xml:id="pg-b1q39-Qd1e258" source="http://scta.info/resource/est13_9">
                   <!-- note that this verse is not going to get indexed because 
                     my current latin bibles do not include these additional chapters -->
-                  domine deus in ditione tua cuncta sunt posita 
+                  Domine Deus in ditione tua cuncta sunt posita 
                   et non est qui possit resistere tuae voluntati
                 </quote>
                 <bibl>Hester 13:9</bibl>
@@ -230,7 +240,8 @@
               Item, 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e268">
-                  <name xml:id="pg-b1q39-Nd1e268" ref="#Lombard">Magister</name> in hac distinctione
+                  <name xml:id="pg-b1q39-Nd1e268" ref="#Lombard">Magister</name> 
+                  in hac distinctione
                 </ref>
                 <bibl>
                   <name>Lombardus</name>,
@@ -255,29 +266,37 @@
               scienter contra conscientiam suam 
               peccat peccato non delectabili nec utili, 
               igitur illa pars est vera. 
-              Consequentia bona et antecedens apparet 
-              de scienter <unclear>invido <!-- dbcheck in lon against "in vido" --></unclear> 
+              Consequentia bona, 
+              et antecedens apparet 
+              de scienter invido 
               contra illum cui scit se non posse nocere, 
               et tamen invidet et vellet nocere. 
-              Item aliquis potest appetere, 
-              immo de facto appetit facere 
-              quod non est in se 
+              Item, 
+              aliquis potest appetere, 
+              immo de facto appetit, 
+              facere quod non est in se 
               <pb ed="#L" n="120-v"/> 
               existens nec apparens, 
               ergo. 
-              Antecedens patet de mentientibus sola mentiendi libidine 
+              Antecedens patet de mentientibus 
+              sola mentiendi libidine, 
               et habetur in 
               <cit>
-                <ref xml:id="pg-b1q39-Rd1e306">
+                <ref xml:id="pg-b1q39-Rd1e306" source="http://scta.info/resource/gd-p2c22q2-d1e135">
                   <title>Canone</title> 22, 
-                  quaestione 2</ref>
-                <bibl>XXX</bibl>
-              </cit> 
+                  quaestione 2
+                </ref>
+                <bibl>
+                  <!-- could be canone 22, q. 2; it could also be the "dictum" 
+                    that follows canon 2 (see gd-p2c22q2-Dd1e148) where Gratian is talking about lying 
+                    -->
+                </bibl>
+              </cit>, 
               et 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e318">
                   III <title ref="#Sentences">Sententiarum</title>, 
-                  distinctionem 35
+                  <unclear>distinctionem<!-- why accusative --></unclear> 35
                 </ref>
                 <bibl>
                   <name>Lombardus</name>,
@@ -287,10 +306,11 @@
               </cit>.
               Item, 
               obstinati 
-              voluit malum sub ratione mali, 
+              volunt malum sub ratione mali, 
               ergo. 
-              Secunda pars in sensu praemisso 
-              in alia quaestione patet 
+              Secunda pars 
+              in sensu praemisso in alia quaestione 
+              patet 
               per 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e337">
@@ -308,43 +328,44 @@
               <ref xml:id="pg-b1q39-Rd1e353">
                 articulum dampnatum <unclear>7m</unclear> 
                 in ordine novellorum
-              </ref> 
-              dicentem quod 
+              </ref>,
+              dicentem quod, 
               <cit>
                 <quote xml:id="pg-b1q39-Qd1e361">
-                  peccantem Deus vult peccare error
+                  peccantem Deus vult peccare, error
                 </quote>
                 <bibl>xxx</bibl>
               </cit>.
               Ad idem est 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e370">
-                  <name xml:id="pg-b1q39-Nd1e365" ref="#Augustine">Augustinus</name> 
+                  <name xml:id="pg-b1q39-Nd1e365" ref="#Augustine">Augustinus</name>,
                   super illo verbo <title ref="#ps">Psalmi</title>
                 </ref>
                 <bibl/>
-              </cit> 
+              </cit>,
               <cit>
                 <quote xml:id="pg-b1q39-Qd1e384" source="http://scta.info/resource/ps16_4">
                   ut non loquatur os meum opera hominum
                 </quote>
                 <bibl>Psalmus 16:4</bibl>
-              </cit> 
+              </cit>,
               etc., 
               et in pluribus 
-              aliis locis oppositum huius partis tenet 
+              aliis locis. 
+              Oppositum huius partis tenet 
               <cit>
                 <ref xml:id="pg-b1q39-Rd1e393">
                   <title ref="#Bradwardine">Doctor Profundus</title>, 
-                  primo libro <title ref="#CausaDei">summae</title> 
-                  suae capitulis 33 et 34
+                  primo libro <title ref="#CausaDei">summae</title> suae, 
+                  capitulis 33 et 34
                 </ref>
                 <bibl>
                   <name>Bradwardine</name>, 
                   <title>De causa dei</title>,
                   cc. 33 et 34
                 </bibl>
-              </cit>
+              </cit>.
             </p>
             <p xml:id="pg-b1q39-d1e410" n="Corollarium 1">
               Primum corollarium: 
@@ -743,7 +764,7 @@
             <p xml:id="pgb1q39-d1e3825">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3530">
+                <ref xml:id="pg-b1q39-Rd1e772" target="http://scta.info/resource/pgb1q39-d1e3530">
                   secundam
                   <app>
                     <lem n="secundam"/>
@@ -806,7 +827,7 @@
             <p xml:id="pgb1q39-d1e3890">
               Contra 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3633">tertiam conclusionem</ref>
+                <ref xml:id="pg-b1q39-Rd1e819" target="http://scta.info/resource/pgb1q39-d1e3633">tertiam conclusionem</ref>
               </cit>, 
               arguitur primo intelligibile est per 
               <app>
@@ -867,11 +888,11 @@
               ergo divinum velle est impedibile.
             </p>
           </div>
-          <div>
-            <head>Responsiones</head>
+          <div xml:id="pg-b1q39-Dd1e889">
+            <head xml:id="pg-b1q39-Hd1e891">Responsiones</head>
             <p xml:id="pgb1q39-d1e3968">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3745">Ad primam</ref>
+                <ref xml:id="pg-b1q39-Rd1e898" target="http://scta.info/resource/pgb1q39-d1e3745">Ad primam</ref>
               </cit> 
               respondet 
               <cit>
@@ -908,7 +929,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4005">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3756">Ad secundam</ref>
+                <ref xml:id="pg-b1q39-Rd1e942" target="http://scta.info/resource/pgb1q39-d1e3756">Ad secundam</ref>
                 <bibl>XXX</bibl>
               </cit>, 
               negatur consequentia 
@@ -920,7 +941,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4011">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3768">Ad tertiam</ref>
+                <ref xml:id="pg-b1q39-Rd1e955" target="http://scta.info/resource/pgb1q39-d1e3768">Ad tertiam</ref>
                 <bibl>XXX</bibl>
               </cit>, 
               dicitur quod 
@@ -943,11 +964,11 @@
             <p xml:id="pgb1q39-d1e4035">
               Ad 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3793">quintam</ref>
+                <ref xml:id="pg-b1q39-Rd1e990" target="http://scta.info/resource/pgb1q39-d1e3793">quintam</ref>
               </cit> 
               et 
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3774">quartam</ref>
+                <ref xml:id="pg-b1q39-Rd1e996" target="http://scta.info/resource/pgb1q39-d1e3774">quartam</ref>
               </cit>, 
               dicitur simul quod, 
               si intelligitur quod peccatum in se sit aliquod bonum, 
@@ -964,7 +985,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4052">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3825">
+                <ref xml:id="pg-b1q39-Rd1e1007" target="http://scta.info/resource/pgb1q39-d1e3825">
                   Ad primam contra secundam conclusionem
                 </ref>
               </cit>, 
@@ -977,7 +998,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4064">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3846">Ad secundam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1016" target="http://scta.info/resource/pgb1q39-d1e3846">Ad secundam</ref>
               </cit>, 
               dicitur quod improprie in Deo dicitur 
               summus gradus seu agere secundum ultimum posse sui, 
@@ -990,7 +1011,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4076">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3863">Ad tertiam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1025" target="http://scta.info/resource/pgb1q39-d1e3863">Ad tertiam</ref>
               </cit>, 
               negatur consequentia 
               quia non sequitur omnis pars continui 
@@ -1000,7 +1021,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4087">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3869">Ad quartam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1038" target="http://scta.info/resource/pgb1q39-d1e3869">Ad quartam</ref>
               </cit>, 
               dicitur quod non implicat infinitam <sic>magnem</sic> vel 
               multitudinem loco contineri, 
@@ -1016,7 +1037,7 @@
             </p> <!-- unclear about reference here -->
             <p xml:id="pgb1q39-d1e4117">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3876">Ad quintam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1065" target="http://scta.info/resource/pgb1q39-d1e3876">Ad quintam</ref>
               </cit>, 
               negatur consequentia. 
               Ad probationem dicitur 
@@ -1029,7 +1050,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4129">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3882">Ad sextum</ref>
+                <ref xml:id="pg-b1q39-Rd1e1077" target="http://scta.info/resource/pgb1q39-d1e3882">Ad sextum</ref>
               </cit>, 
               dico quod quidam concedunt consequens et 
               quod mens tantum delectaretur in illo obiecto creato sicut in Deo, 
@@ -1056,7 +1077,7 @@
             </p> 
             <p xml:id="pgb1q39-d1e4165">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3890">Ad primam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1103" target="http://scta.info/resource/pgb1q39-d1e3890">Ad primam</ref>
               </cit> 
               dicitur quod deformitas proprie 
               non dicitur fieri cum nihil sit sed potius est de 
@@ -1064,7 +1085,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4171">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3904">Ad secundam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1112" target="http://scta.info/resource/pgb1q39-d1e3904">Ad secundam</ref>
               </cit>, 
               negatur antecedens ad probationem dicitur 
               quod causam impedire potest esse dupliciter.
@@ -1082,7 +1103,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4198">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3917">Ad tertiam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1121" target="http://scta.info/resource/pgb1q39-d1e3917">Ad tertiam</ref>
               </cit>, 
               negatur antecedens de voluntate efficaci loquendo, 
               sed non de voluntate signi, 
@@ -1116,7 +1137,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4224">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3932">Ad quartam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1167" target="http://scta.info/resource/pgb1q39-d1e3932">Ad quartam</ref>
               </cit>, 
               negatur antecedens de voluntate 
               efficaci quia,
@@ -1134,7 +1155,7 @@
             </p>
             <p xml:id="pgb1q39-d1e4248">
               <cit>
-                <ref target="http://scta.info/resource/pgb1q39-d1e3938">Ad quintam</ref>
+                <ref xml:id="pg-b1q39-Rd1e1184" target="http://scta.info/resource/pgb1q39-d1e3938">Ad quintam</ref>
               </cit>, 
               dicitur quod stat Deum velle voluntate signi 
               seu praecepti <name xml:id="pg-b1q39-Nd1e1080" ref="#Sortes">Sortem</name> mereri 
@@ -1186,7 +1207,7 @@
             tamen fiunt praeter eam, 
             et haec voluntas 
             <cit>
-              <quote source="http://scta.info/resource/pll1d47c1-d1e3510@18-24">
+              <quote xml:id="pg-b1q39-Qd1e1255" source="http://scta.info/resource/pll1d47c1-d1e3510@18-24">
                 de homine semper impletur quocumque se vertat
               </quote>
               <bibl>
@@ -1204,7 +1225,7 @@
             et bene facimus aut de nobis cum 
             contra voluntatem Dei facimus quae est signi 
            <cit>
-             <quote source="http://scta.info/resource/pll1d47c1-d1e3518@40-58">
+             <quote xml:id="pg-b1q39-Qd1e1273" source="http://scta.info/resource/pll1d47c1-d1e3518@40-58">
                et sic de homine semper implet Deus 
                suam voluntatem quia nihil facit homo de quo 
                non operetur Deus quod vult
