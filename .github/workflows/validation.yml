@@ -46,8 +46,41 @@ jobs:
       
       - name: get tdf 
         run: wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'
-          
+
+      - name: test jing
+        run: java -jar jing.jar schema/critical.rng pg-b1q1/en_pg-b1q1.xml
+
       # Runs check
       - name: run validation checks
-        run: for file in */*.xml; do schema=$(grep -o "lbp-.*-1.0.0" $file); if [[ $file = *"transcriptions.xml"* ]]; then echo $file; elif [[ $schema = *"diplomatic"* ]]; then echo "checking diplomatic for $file"; java -jar jing.jar schema/diplomatic.rng $file; if [[ $? -ne 0 ]]; then exit 1; fi; elif [[ $schema = *"critical"* ]]; then echo "checking critical for $file"; java -jar jing.jar schema/critical.rng $file; if [[ $? -ne 0 ]]; then exit 1; fi; else echo "nothing run"; fi; echo $?; done;
+        run: |
+          for file in */*.xml; 
+            do 
+              echo "start";
+              echo $file;
+              if [[ $(grep -o "lbp-.*-1.0.0" $file) ]];
+                then schema=$(grep -o "lbp-.*-1.0.0" $file);
+              else
+                schema="none"
+              fi;
+              echo "schema before conditionals"
+              echo $schema;
+              if [[ $file = *"transcriptions.xml"* ]]; 
+                then echo $file; 
+              elif [[ $schema = *"diplomatic"* ]]; 
+                then echo "checking diplomatic for $file"; 
+                java -jar jing.jar schema/diplomatic.rng $file; 
+                if [[ $? -ne 0 ]]; 
+                  then exit 1; 
+                fi; 
+              elif [[ $schema = *"critical"* ]]; 
+                then echo "checking critical for $file"; 
+                java -jar jing.jar schema/critical.rng $file; 
+                if [[ $? -ne 0 ]]; 
+                 then exit 1; 
+                fi; 
+              else 
+                echo "nothing run"; 
+              fi; 
+            echo $?; 
+          done;
       
