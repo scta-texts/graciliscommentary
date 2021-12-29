@@ -37,10 +37,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: get lbp schemas and save to directory
         run: |
-          mkdir -p schema/,
-          wget -O schema/critical.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng',
-          wget -O schema/diplomatic.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng',
-          wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'.
+          mkdir -p schema/
+          wget -O schema/critical.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng'
+          wget -O schema/diplomatic.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng'
+          wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'
           
       # Runs check
       - name: run validation checks
