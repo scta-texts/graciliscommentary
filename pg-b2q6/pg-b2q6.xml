@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 6</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Quaestio 6</title>
+          <date when="2022-01-26">January 26, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-01-26" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#L" n="163-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q6">
+        <head xml:id="pg-b2q6-Hd1e95">Quaestio 6</head>
+        <p xml:id="pg-b2q6-d1e98">
+          Utrum humanae libertatis creatum 
+          arbitrium cogi possit per divinum imperium  utrum creatae libertatis 
+          arbitrium cogi possit per divinae voluntatis divinum
+        </p>
+        <div xml:id="pg-b2q6-Dd1e94" type="rationes-principales">
+        <p xml:id="pg-b2q6-d1e96">
+          Quod sic quia 
+          voluntas non potest non velle suam beatitudinem, 
+          ergo neccessario vult eam, 
+          et per consequens cogitur eam velle 
+          et non nisi a Deo, 
+          ergo. 
+          Conclusio vera. 
+          Consequentiae patent. 
+          Et antecedens patet per 
+          <ref xml:id="pg-b2q6-Rd1e119" corresp="#pg-b2q6-Qd1e127">
+            <name xml:id="pg-b2q6-Nd1e100">Augustinum</name> 
+            XIII <title>De Trinitate</title> 
+            capitulo 23o
+          </ref>, 
+          dicentem, 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e127" source="http://scta.info/resource/adt-l13">
+              proverissimo et certissimo posuimus beate vivere omnes homines velle
+            </quote>
+          </cit>.
+        </p>
+        <p xml:id="pg-b2q6-d1e133">
+          Secundo, 
+          voluntas non potest velle contra iudicium rationis 
+          sed respectu alicuius obiecti voluntas 
+          non potest non habere actum, 
+          ergo si ratio iudicat illum <unclear>daxbumi</unclear> esse volendum, 
+          sequitur quod voluntas cogetur illud velle. 
+          Consequentia bona. 
+          Maior patet per 
+          <ref xml:id="pg-b2q6-Rd1e147">
+            <name xml:id="pg-b2q6-Nd1e118">Philosophum</name>, 
+            VII <title>Ethicorum</title>, 
+            capitulo 7
+          </ref>, 
+          dicentem quod 
+          <!-- quote ? -->
+          habita cognitione in universali 
+          quod omne dulce est gustandum 
+          et iterum iudicio sensitivo 
+          quod hoc est dulce neccessario concluditur appetivus 
+          et per consequens voluntas 
+          non potest agere contra iudici. 
+          Minor patuit supra 
+          quia si praeciperetur tibi 
+          quod respectu pomi tibi praesentati nullum habeas 
+          <pb ed="#L" n="163-v"/>
+          velle quanto plus conaris 
+          <app>
+            <lem>obedire</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del>odire</del>
+                <add>obedire</add>
+              </subst>
+              </rdg>
+          </app> 
+          tanto magis habet actum.
+        </p>
+        <p xml:id="pg-b2q6-d1e175">
+          Tertio,
+          aliquis in voluntarie 
+          potest esse bonus et malus moraliter successive ergo talis potest cogi 
+          patet consequentia quia quidquid accidit nobis involuntarie hoc videtur esse contra voluntatem 
+          et coacte et antecedens probatur quia puer existens in originale est malus 
+          et in statu dampnationis et statim post baptismum est bonus et in statu salvationis 
+          et non voluntarie cum usu rationis careat ergo in voluntarie
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e147">
+          <head xml:id="pg-b2q6-Hd1e149">Conclusio 1</head>
+        <p xml:id="pg-b2q6-d1e191" n="Conclusio">
+          Prima conclusio, 
+          licet voluntas humana non possit velle 
+          nisi quod apparet bonum 
+          vel existit tamen voluntas potest nolle illud bonum 
+          quod omnem bonitatis rationem in se <unclear>caludit</unclear> 
+          et in quo omne bonum eminenter ex consistit. 
+          Prima pars probatur 
+          quia, 
+          si sic, 
+          sequitur quod omnes res aequaliter a voluntate essent diligibiles.
+          Consequens est falsum, 
+          et per consequens aequaliter 
+          <app>
+            <lem n="aequaliter"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del>diligibiles</del>
+            </rdg>
+          </app>
+          sibi delectabiles. 
+          Patet consequentia prima 
+          quia quantum una res potest diligi 
+          tantum et alia secundum illam viam. 
+          Et secundum patet 
+          quia quod diligitur necessario 
+          secum gerit delectationem.
+          Secundo, 
+          sequitur quod aliquis posset per se 
+          velle malum etiam sub ratione mali. 
+          Consequens est falsum. 
+          Probatio consequentiae falsitatis 
+          quia tunc aliquis posset alium diligere 
+          propter puram malitiam non habendo respectum 
+          aliquo modo ad bonum. 
+          Consequens est contra 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e228">
+            <name xml:id="pg-b2q6-Nd1e169">Aristotelem</name>,
+            II <title>Ethicorum</title>
+          </ref>
+          </cit> 
+          et contra 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e236">
+            <name xml:id="pg-b2q6-Nd1e179" n="#Cicero">Tullium</name> 
+              in 
+            <title>De vera amicitia</title> 
+          </ref>
+          </cit>, 
+          contra 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e246">
+              <name xml:id="pg-b2q6-Nd1e190" ref="#Seneca">Seneca</name> 
+              <title>De beneficiis</title>
+            </ref>
+          </cit>, 
+          immo contra theologos et philosophos de 
+          <sic>de</sic> amicitia tractantes 
+          quo omnes dicunt causam amicitiae bonum esse 
+          bonum apparens vel existens. 
+          Tertio, 
+          probatur per 
+          <ref xml:id="pg-b2q6-Rd1e264">
+            <name xml:id="pg-b2q6-Nd1e202">Dyonisium</name>, 
+            <title>de divinis nominibus</title>, 
+            capitulo 6
+          </ref>, 
+          dicentem  
+          <!-- quote -->
+          et si bonum et optimum appetunt <unclear>omniam</unclear> 
+          quaecumque faciunt et omnes speculatio 
+          principium et finem habet optimum 
+          neque in mali naturam respiciens facit 
+          quod facit et in eodem modo 
+          dicit etiam malis principium erit 
+          et finis bonum
+          nam propter bonum quaecumque bona 
+          et quaecumque contraria agimus, 
+          nemo enim malum aspiciens 
+          facit malum quod facit. 
+          Secunda pars probatur 
+          quia voluntas creata potest odire 
+          deum ergo patet antecedens per illud <unclear>prius</unclear> malia eorum qui te aderunt 
+          ascendit semper. 
+          Item, 
+          Christus dicit si mundus vos odit scitote 
+          quia me priorem vobis odio habuit. 
+          Item Deus potest apprehendi 
+          ab aliquo sub ratione displicibilis 
+          ergo potest odiri. 
+          Tenet consequentia. 
+          Antecedens probatur 
+          quia potest apprehendi sub ratione 
+          punitoris et sub trahentis bonum optatum, 
+          ut patet in dampnatis.
+        </p>
+        <p xml:id="pg-b2q6-d1e312" n="Corollarium 1">
+          Primum corollarium,
+          licet creata voluntas quodlibet obiectum possit velle per suum arbitrium liberum, 
+          tamen voluntas non potest velle propter se summam miseria autem suum 
+          esse miserum. 
+          Prima pars patet 
+          quia quodlibet obiectum 
+          propter se 
+          vel propter aliud per se 
+          vel per accidens potest velle, 
+          ergo. 
+          Tenet consequentia. 
+          Antecedens probatur 
+          quia etiam quodlibet malum voluntati 
+          ostensum ipsa potest appetere propter bonum 
+          vel propter maius malum fugiendum 
+          vel quia Deus vult quod homo faciat ad experiendum suam libertatem 
+          vel propter aliquid huiusmodi 
+          Secunda pars probatur 
+          quia voluntas non potest velle malum sub ratione mali qua est vel apparet.
+          Confirmatur auctoritate 
+          <ref xml:id="pg-b2q6-Rd1e341" corresp="#pg-b2q6-Qd1e349">
+            <name xml:id="pg-b2q6-Nd1e218">Augustini</name>, 
+            <title>Enchiridion</title> 86 capitulo
+          </ref>, 
+          ubi dicit 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e349" source="http://scta.info/resource/augen-d1e268-d1e119@62-76">
+              beati esse 
+              volumus ut miseri esse 
+              non solum nolumus sed nec velle possumus
+            </quote>
+          </cit>, 
+          scilicet 
+          <pb ed="#L" n="164-r"/>
+          propter se. 
+          Confirmatur 
+          prima pars corollarii quia. 
+          si sic, 
+          voluntas non posset velle 
+          suam miseriam. 
+          Sed falsitas huiusmodi patet per
+          <ref xml:id="pg-b2q6-Rd1e363">
+            <name xml:id="pg-b2q6-Nd1e233">Augustinum</name>, 
+            III <title>De libero arbitrio</title>
+          </ref>,
+          dicentem, 
+          si voluntas necessitaretur omnino legere 
+          vel non esse vel miserum esse 
+          quacumque miseria pene citius 
+          et rationabilius eligeret secundum quam primum, 
+          ergo miseria potest eligi propter fugam maioris mali.
+        </p>
+        <p xml:id="pg-b2q6-d1e378" n="Corollarium 2">
+          Secundum corollarium, 
+          sicut nullus de communi 
+          lege potest velle propter se incommodum <sic>incommodum</sic> 
+          et directe suam miseriam,
+          sic nullus potest velle directe 
+          et propter se eligere peccatum propter ipsam <unclear>malititam</unclear>.
+          Prima pars 
+          probatur quia 
+          sit sortes qui habeat praecise notitiam unius rei quae sit <c>a</c> 
+          et appareat <c>a</c> sorti malum et incommodum, 
+          tunc quaeritur aut sortes potest 
+          velle <c>a</c> aut non. 
+          Si non, habetur intentum. 
+          Si sic, contra omnem volitum est 
+          volitum sub ratione boni, 
+          ut dicit conclusio. 
+          Sed <c>a</c> non apparet Sorti sub aliqua ratione 
+          boni vel commodi nec propter aliud bonum sortes potest velle <c>a</c> cum nullam aliam 
+          rem cognoscat ut ponit casus, 
+          ergo. 
+          Secunda pars probatur 
+          quia si sic, 
+          sequitur quod aliquis 
+          posset odire Deum propter se. 
+          Patet quia peccare est displicere Deo et odire Deum. 
+          Sed falsitas consequentis 
+          patet per 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e258">
+              glosam <name xml:id="pg-b2q6-Nd1e260">Augustini</name> 
+              super illo 
+              <ref xml:id="pg-b2q6-Rd1e262"><title>Iohannis</title></ref> 
+              <quote xml:id="pg-b2q6-Qd1e433">qui odit me et patrem meum</quote>
+            </ref>
+          </cit>. 
+          Item, 
+          per 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e272">
+            glosam super illo 
+            <ref xml:id="pg-b2q6-Rd1e274"><title>Matthaeo</title> 6</ref> 
+            <quote xml:id="pg-b2q6-Qd1e278" source="http://scta.info/resource/mt6_24@1-5" type="incipit">
+              nemo potest duobus dominus servire
+            </quote>
+          </ref>
+          </cit>, 
+          ubi dicit 
+          <!-- gloss quote -->
+          neque enim a parte aliquis unquam odio habuit Deum 
+          sed omnis eum se amare <unclear>fatentur</unclear> et diaboli naturam exsequuntur 
+          quasi viciosum tyrannum super se dominantem Deum 
+          vero odio non habent victi concupiscientia sua persuasione diabolica.
+          <!-- possible end of quotation -->
+        </p>
+        <p xml:id="pg-b2q6-d1e456">
+          Tertium corollarium, 
+          sicut voluntas 
+          nihil nisi sub ratione boni potest appetere, 
+          sic voluntas sic voluntas nihil 
+          nisi sub ratione <seg type="correction"><del>ve</del>niali</seg> potest respuere. 
+          Prima pars patet per dicta. 
+          Secunda pars probatur 
+          quia, 
+          sicut primum et adaequatum obiectum nostrae voluntatis 
+          est bonum vel apparens quo ad prosecutionem, 
+          ita primum et adaequatum nostrae fuge obiectum et detestationis 
+          est malum autem apparens malum. 
+          Patet per similem.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e298">
+          <head xml:id="pg-b2q6-Hd1e300">Conclusio 2</head>
+        <p xml:id="pg-b2q6-d1e477" n="Conclusio">
+          2a conclusio licet 
+          non quaelibet libertas posset cuilibet dictamini rationis contrariae obviari tamen 
+          voluntas viatrix potest velle contra rationis dictamen et sic illi difformari 
+          prima pars probatur quia iudicet aliquis quod purum malum sub ratione mali praecise 
+          sit nolendum tunc sic talis stante iudicio illo sine alio non potest 
+          se illi contrarie difformante ergo non quaelibet libertas etiam in via potest cuilibet etc 
+          consequentia tenet et antecedens probatur quia alias quis posset velle malum sub ratione mali 
+          contra praedicta 2a pars probatur quia si non sequitur quod numquam quis ageret contra 
+          dictam rectum et conscientiam rectam consequens est falsum quia videmus multos 
+          unde et bona praedicatae et docere scientes quid est bonum et quid malum 
+          prosequendum vel fugiendum qui tamen scienter malum agunt et oppositum 
+          suae doctrinae faciunt iuxta illud <unclear>euvanglium</unclear> quae dicunt facitae sed non 
+          quae faciunt  cofirmatur de pylato de quo dicit ecclesia in quodam sermone 
+          <pb ed="#L" n="164-v"/>
+          de cena deum praeses contra conscientiam hiis placere voluit quos ex scientia 
+          debuit cohercere constat enim quod sciebat christum innocentem esse 
+          sicut met ostendit in locutione mannum et tamen ipsum ad mortem sententiavit 
+          et per consequens contra conscientiam egit. 
+          Tertio,
+          probatur per 
+          <ref xml:id="pg-b2q6-Rd1e532">
+            <name xml:id="pg-b2q6-Nd1e310">Aristotelem</name> 
+            libro <title>Ethicorum</title>
+          </ref>,
+          dicentem 
+          <!-- quote -->
+          quod in continens habet rationem rectam 
+          et tamen vult et facit contra illam ergo. 
+          Quarto, 
+          probatur 
+          quia aliquod potest esse iudicium cui 
+          voluntas numquam per aliquam actum potest 
+          se conformare, ergo. 
+          Antecedens patet de illo iudicio 
+          quo quis iudicaret quod nullus 
+          actus est ab eo habendus 
+          vel eliciendus constat 
+          quod voluntas illi se non potest conformare 
+          quia, 
+          si vellet se conformare, 
+          haberet actum et hoc esset difformare se illi.
+        </p>
+        <p xml:id="pg-b2q6-d1e558">
+          Primum corollarium, 
+          quod rectitudo dictaminis rationis naturalis non infert 
+          necessario rectitudinem voluntatis se volitionis patet quia voluntas potest velle 
+          et agere contra rectum dictamen. 
+          Item, 
+          per 
+          <ref xml:id="pg-b2q6-Rd1e320">articulum</ref>, 
+          dicentem,
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e324" source="http://scta.info/resource/z88d99-avn8u2-d1e1174@2-8">
+              si ratio recta et voluntas recta, error
+            </quote>
+            <bibl>Articulus 130</bibl>
+          </cit>
+        </p>
+        <p xml:id="pg-b2q6-d1e573" n="Corollarium 2">
+          Secundum corollarium, 
+          licet stet aliquem agere contra conscientiam sponte 
+          et libere tamen non stat aliquem agere sic et non culpabiliter defficere prima 
+          pars patet per conclusionem. 
+          Secunda probatur per 
+          <ref xml:id="pg-b2q6-Rd1e333">
+            glosam super 
+            illo apostoli 
+            <quote xml:id="pg-b2q6-Qd1e335" source="http://scta.info/resource/rom14_23@12-19" type="incipit">
+              omne quod non est ex fide peccatum est
+            </quote>
+          </ref>,
+          ubi dicit glosa, 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e341">
+              omne quod est contra conscientiam aedificat ad gehemiam
+            </quote>
+          </cit>.
+          Confirmatur 
+          quia conscientia est lex mentis nostrae mediente 
+          contra subicimur legi divinae, 
+          ergo facere contra conscientiam rectam vel erroneam 
+          est spernere divinam legem, 
+          et per consequens peccatum, 
+          ergo propositum.
+        </p>
+        <p xml:id="pg-b2q6-d1e594">
+          Tertium corollarium, 
+          sicut voluntas 
+          non cuilibet dictamini recto potest se 
+          pro qualibet mensura conformare 
+          sic voluntas <unclear>aliter</unclear> rationis iudicio 
+          non potest se similiter vel totaliter 
+          difformare. 
+          Prima patet quia si ratio dictaret 
+          quod abstinendum est ab omni actu constat 
+          quod non est in potestate voluntatis 
+          pro qualibet morula se facere esse 
+          sine actu quia, 
+          si conceditur esse sine actu, 
+          iam habet actum. 
+          Secunda pars probatur 
+          de illo iudicio <c>a</c> est volendum vel non volendum, 
+          constat enim quod voluntas 
+          potest se difformare illi iudicio 
+          quia illud iudicium est de partibus contradictoriis,
+          et per consequens voluntas necessario volet vel non volet <c>a</c>, 
+          tamen contingenter volet si vellit 
+          et contingenter non volet si non vellit.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e356">
+          <head xml:id="pg-b2q6-Hd1e358">Conclusio 3</head>
+        <p xml:id="pg-b2q6-d1e631" n="Conclusio">
+          Tertia conclusio,
+          licet stet aliquem esse bonum vel malum 
+          moraliter in cuius voluntatis 
+          potestate non est nec unquam fuit 
+          ipsum esse bonum vel malum, 
+          tamen nulla voluntas creata existens in via 
+          cogi potest ad eliciendum suum actum 
+          liberum malum vel bonum. 
+          Prima pars probatur 
+          quia de facto aliquis est bonus et malus successive 
+          qui nullum actum liberum determinatum habuit, 
+          autem habere potest respectu bonitatis vel malitiae, 
+          ergo illa pars vera. 
+          Consequentia patet quia, 
+          si in eius potestate esset vel fuisset illa malitia, 
+          sequitur quod libere posset aut 
+          potuisset illam vitare, 
+          quod est oppositum antecedentis. 
+          Et antecedens patet de pueris ante baptismum 
+          qui sunt in peccato originali, 
+          et per consequens in malitia mortali 
+          <pb ed="#L" n="165-r"/>
+          et in statu damnationis, 
+          nam secundum <name xml:id="pg-b2q6-Nd1e364">apostolum</name>
+          omnes nascimur 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e668" source="http://scta.info/resource/eph2_3@21-22">
+              filii irae</quote>
+          </cit> 
+          <unclear>partem</unclear> pueri statim baptizati 
+          sunt in statu gratiae <sic>gratumfacientis</sic>, 
+          ergo boni et in statu salutis 
+          et non per aliquem bonum actum elicitum per eos, 
+          ergo talis bonitas 
+          non est nec est nec fuit 
+          in potestate voluntatis eorumdem. 
+          Antecedens patet per 
+          <ref xml:id="pg-b2q6-Rd1e377">
+            <name xml:id="pg-b2q6-Nd1e379">Augustinum</name>
+          </ref>, 
+          dicentem, 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e384" source="http://scta.info/resource/augen-d1e293-d1e110@3-25">
+              caritas in quocumque maior est tanto illo melior est in quo est
+            </quote>
+          </cit>.
+          Secunda pars probatur 
+          quia secundum 
+          <ref xml:id="pg-b2q6-Rd1e695">
+            <name xml:id="pg-b2q6-Nd1e390">Magistrum</name>, 
+            libro 2, 
+            distinctione 24
+          </ref>, 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e700">
+            voluntas creata libera est a coactione per naturam
+            <!-- can't find, quot emay continue -->
+            </quote>
+          </cit>
+          ergo stante natura 
+          voluntatis ipsa non potest cogi ad liberum actum bonum vel malum. 
+          Item, 
+          patet per 
+          <ref xml:id="pg-b2q6-Rd1e401">
+            <name xml:id="pg-b2q6-Nd1e403">Ricardum de Sancto Victore</name> <unclear>expositum</unclear> illud 
+            <quote xml:id="pg-b2q6-Qd1e407" source="http://scta.info/resource/is1_5@8-10" type="incipit">omne caput languidum</quote> 
+            etc.
+          </ref>, 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e413">
+              si inquit Deus superiorem non habet 
+              nec habere potest 
+              ita liberum arbitrium divinum non patitur 
+              nec <unclear>pat</unclear> potest
+            </quote>
+            <!-- quote boundaries a little unclear -->
+          </cit>,
+          et patet quod loquitur de divino cactio.
+          Item, 
+          per 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e424">
+              <name xml:id="pg-b2q6-Nd1e426">Beatum Augustinum</name> II <title>libero arbitrio</title>
+            </ref>
+          </cit>, 
+          ubi probat quod liberum arbitrium cogi non potest 
+          a superiori nec ab aequali nec ab inferiori, 
+          ergo nullo modo cogi potest
+        </p>
+        <p xml:id="pg-b2q6-d1e735" n="Corollarium 1">
+          Primum corollarium, 
+          sicut quilibet actus voluntatis 
+          libere elicitus est liber a necessitate coactionis, 
+          sic quilibet actus meritorius et demeritorius est 
+          libere elicitus libertate contradictionis. 
+          Patet 
+          quia nullus demeretur in eo 
+          quod nullo modo potes vitare aut potuit 
+          secundum 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e437">
+              <name xml:id="pg-b2q6-Nd1e439">Augustinum</name>
+            </ref>
+          </cit>. 
+          Item, 
+          aliter sequeretur quod beati et damnati 
+          continue mererentur et demererentur, 
+          quod est falsum
+        </p>
+        <p xml:id="pg-b2q6-d1e753" n="Corollarium 2">
+          Secundum corollarium, 
+          licet aliquis possit esse bonus moraliter 
+          vel malus in voluntarie id est sine quocumque actu elicito per voluntatem,
+          tamen de lege communi nullus potest esse bonus moraliter involuntarie 
+          nolendo positive suam propriam bonitatem. 
+          Prima pars patet 
+          de pueris ante annos discretionis. 
+          Secunda patet 
+          quia nolle esse bonum esse peccatum, 
+          ergo habens nolle respectu bonitatis suae est malus moraliter. 
+          Tenet consequentia, 
+          et antecedens probatur 
+          tum quia tale nolle est contradictamen rationis rectae 
+          et contra bonos mores, 
+          tum quia secundum 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e448">
+              <name xml:id="pg-b2q6-Nd1e450">Bernardum</name>
+            </ref>
+          </cit> 
+          ubi vis esse melior desinis esse bonus.
+        </p>
+        <p xml:id="pg-b2q6-d1e782" n="Corollarium 3">
+          Tertium corollarium, 
+          licet aliquem esse moraliter malum non sit in potestate suae 
+          voluntatis tamen omnem peccatum habet originem a radice creatae libertatis 
+          prima pars patet pertendentia. 
+          Secunda patet per 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e459">
+              <name xml:id="pg-b2q6-Nd1e461">Beatum Augustinum</name> 
+              in pluribus locis
+            </ref>
+          </cit> 
+          et 
+          ipsum allegat 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e467">
+              <name xml:id="pg-b2q6-Nd1e469">Magister</name> in libro 2 distinctio 41
+            </ref>
+          </cit>
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e475">
+              libro primo <unclear>de duabus animabus</unclear> capitulo 14
+            </ref>
+          </cit>. 
+          Item, 
+          <ref xml:id="pg-b2q6-Rd1e481">
+            <name xml:id="pg-b2q6-Nd1e483">Augustinus</name>, 
+            III <title>De libero arbitrio</title>, 
+            capitulo 8
+          </ref>
+          <!-- quote -->
+          non est cui 
+          recte imputetur peccatum nisi voluntati et hoc maxime verum est 
+          de peccatis actualibus,
+          <!-- end quote -->
+          de originali vero dicunt communiter doctores 
+          cum 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e495"><name xml:id="pg-b2q6-Nd1e496">Magistro</name> libro 2o distinctione 10</ref>
+          </cit> 
+          <!-- quote -->
+          quod illud habuit ortum a voluntate 
+          primorum parentum et sic potest dici voluntarium.
+        </p>
+        <p xml:id="pg-b2q6-d1e824">
+          Ex quibus sequitur 
+          responsio quod, 
+          licet voluntas creata possit respectu sui actus aliqualiter difficultari,
+          tamen ipsa ad nullum actum suum liberum potest coacte necessitari.
+          <pb ed="#L" n="165-v"/>
+          Prima patuit supra in alia quaestione. 
+          Et confirmatur 
+          quia voluntas potest facilitari ad 
+          actum ergo et difficultari. 
+          Tenet consequentia 
+          quia si nunc facilius eliciat suum actum quam prius,
+          ergo prius difficilius elicuit. 
+          Antecedens probatur 
+          quia voluntas 
+          potest habilitari, 
+          ergo patet consequentia 
+          quia secundum 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e510">
+            <name xml:id="pg-b2q6-Nd1e512">Philosophum</name> III <title>Ethicorum</title>
+            </ref>
+          </cit> 
+          habitus est quo quis faciliter operatur prompte expedite et delectabiliter. 
+          Secunda pars patet ex 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e520" target="http://scta.info/resource/pg-b2q6-d1e631@25-41">
+              secunda parte conclusionis tertiae
+            </ref>
+          </cit>.
+          Et confirmatur 
+          quia sequeretur aliter quod opus meritorium 
+          vel demeritorium esset non voluntarium contra
+          <name xml:id="pg-b2q6-Nd1e524">Augustinum</name>. 
+          Immo sequitur quod 
+          voluntas nollendo simul vellet idem, 
+          quod implicat. 
+          Et econverso confirmatio 
+          quia sua libertas est natura sua et essentia, 
+          non ergo stat ipsam esse et liberam non esse a coactione.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e528">
+          <head xml:id="pg-b2q6-Hd1e530">Obiectiones</head>
+          <p xml:id="pg-b2q6-d1e872">
+            Contra primam conlusionem, 
+            arguitur primo sic contra partem eius primam, 
+            si voluntas non posset diligere 
+            nisi quod apparet sibi bonum, 
+            sequitur etiam quod non posset odire nisi 
+            quod apparet sibi malum et sub ratine mali. 
+            Consequentia patet per similem et posset probari 
+            per dicta. 
+            Sed falsitas consequentis patet 
+            quia eadem res potest apparere alicui bona 
+            et placibilis secundum unam conditionem 
+            et mala et displicibilis secundum aliam, 
+            et sic sequitur quod ab eadem voluntate 
+            simul potest esse dilecta et ordinata 
+            et sic homo idem poterit simul rem illam prosequi et fugere, 
+            quod est falsum.
+          </p>
+          <p xml:id="pg-b2q6-d1e890">
+            Secundo, 
+            sequitur quod voluntas 
+            non esset libera probatio 
+            quia non posset aliquod obiectum velle 
+            nisi moveretur ad illud 
+            volendum nisi sub ratione boni.
+          </p>
+          <p xml:id="pg-b2q6-d1e897">
+            Tertio, 
+            aliquid potest apparere nec bonum nec malum.
+            Sed illud potest voluntas velle vel nolle, 
+            ergo voluntas potest aliquid velle vel 
+            nolle sive quacumque ratione boni vel mali. 
+            Probatur antecedens <unclear>quo ad <!-- combine --></unclear> 
+            secundam partem illud est 
+            obiectum diligibile vel odibile.
+        </p>
+        <p xml:id="pg-b2q6-d1e908">
+          Quarto, 
+          contra primum corollarium, 
+          si aliquis posset velle quodlibet obiectum, 
+          sequitur quod aliquis posset velle occidere 
+          infinitos homines iniuste si essent.
+          Consequens est falsum 
+          quia tunc aliquis posset peccare peccato 
+          infinite malitiae quod probatur 
+          quia ponatur quod <name xml:id="pg-b2q6-Nd1e547">Sortes</name> vellit occidere <c>a</c> hominem 
+          et <name xml:id="pg-b2q6-Nd1e551">Plato</name> <c>b</c> et <name xml:id="pg-b2q6-Nd1e555">Cicero</name> utrumque vellit, 
+          tunc si <name xml:id="pg-b2q6-Nd1e558">sortes</name> tantum peccatu volendo occidere <c>a</c> 
+          quantum <name xml:id="pg-b2q6-Nd1e562">plato</name> volendo occidere <c>b</c>, 
+          ergo 
+          <app>
+            <lem n="ergo"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del>p</del>
+            </rdg>
+          </app> 
+          <name xml:id="pg-b2q6-Nd1e576">Cicero</name> volendo occidere utrumque 
+          in duplo plus pectat quam <name xml:id="pg-b2q6-Nd1e579">Sortes</name>, 
+          et sic posset argui de infinitis hominibus.
+        </p>
+        <p xml:id="pg-b2q6-d1e927">
+          Quinto, 
+          contra secundam partem eiusdem corollarii est illud 
+          quod legitur de <unclear>discipulo</unclear> <name xml:id="pg-b2q6-Nd1e587">Beati Gregorii</name> 
+          cui cum revelata fuisset eius damnatio dixisse fertur se contentari 
+          quia divina voluntas non nisi 
+          quod iustum est volebat 
+          ergo aliquis potest velle 
+          suam miseriam. 
+        </p>
+        <p xml:id="pg-b2q6-d1e947">
+          Sexto, 
+          contra idem si voluntas non posset velle suam miseriam 
+          propter se hoc maxime esset, 
+          sicut dicit 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e953">
+              <name xml:id="pg-b2q6-Nd1e596">Anselmus</name>,
+              <title>De veritate</title>,
+              capitulo 2
+            </ref>
+          </cit> 
+          quia omnino nihil 
+          volumus nisi sit aliquod cur propter 
+          quod sic vellimus, 
+          sed hoc est falsum, 
+          ergo quia aut <name xml:id="pg-b2q6-Nd1e602">Anselmus</name> intelligit 
+          quod illud cur sit distinctum a voluntatis imperio 
+          aut illud est voluntatis imperium sine alio cur. 
+          Non primum 
+          quia libertas competit communiter divinae et humanae creatae et increatae
+          si igitur esset de essentia voluntatis habere 
+          cur voluntas divina haberet cur a se distinctum sicut nostra, 
+          quod est falsum. 
+          Si detur secundum, 
+          ergo libertas voluntatis 
+          cum sit indifferens respectu
+          <pb ed="#L" n="166-r"/>
+          cuiuslibet obiecti poterit eligere 
+          summam miseriam sive suum esse miserium, 
+          quod est oppositum.
+        </p>
+        <p xml:id="pg-b2q6-d1e985"> <!-- 7?-->
+          Item, 
+          alio multi occidunt se ipsos voluntarie ergo 
+        </p>
+        <p xml:id="pg-b2q6-d1e990"> <!-- 8?-->
+          Item, 
+          quando aliqui optant se esse in inferno 
+          si essent vindicati de eorum 
+          inimicis <unclear>ad nutum</unclear>
+        </p>
+        <p xml:id="pg-b2q6-d1e1003"> <!-- 9?-->
+          Item, 
+          aliqui numquam vellent intrare caelum si haberent 
+          mundum ad votum suum 
+        </p>
+        <p xml:id="pg-b2q6-d1e1011"> <!-- 10? -->
+          Item, 
+          aliquis potest optare suum incommodum proprium,
+          sicut legitur de illo qui petiit a rege 
+          ut erueretur sibi unus 
+          oculus ut suo socio ambo eruerentur. 
+        </p>
+        <p xml:id="pg-b2q6-d1e1021"> <!-- 9 -->
+          Contra secundam partem secundi corollarii, 
+          arguitur auctoritate 
+          <ref xml:id="pg-b2q6-Rd1e1027">
+            <name xml:id="pg-b2q6-Nd1e636">Isidorii</name>, 
+            libro II
+            <title>De summo bono</title>, 
+            capitulo 21
+          </ref>, 
+          ubi dicit
+          <!-- quote-->
+          non nulli peccatum voluntarie committunt non necessitate, 
+          et sequitur nec enim ipsam rem amant quam appetunt 
+          sed ipsa tantum peccati malitia delectantur.
+        </p>
+        <p xml:id="pg-b2q6-d1e1041"> <!-- 10? -->
+          Item, 
+          quia sequitur <name xml:id="pg-b2q6-Nd1e648">Sortes</name> vult facere talem actum 
+          puta occidere,
+          ergo peccat. 
+          Consequentia est formalis,
+          et <name xml:id="pg-b2q6-Nd1e650">Sortes</name> scit consequentiam esse bonam, 
+          et per se vult antecedens, ergo per se vult consequens, 
+          et per consequens <name xml:id="pg-b2q6-Nd1e652">Sortes</name> vult ipsum peccatum 
+          et ipsam malitiam.
+        </p>
+        <p xml:id="pg-b2q6-d1e1059">
+          11o contra secundam partem conclusionis, 
+          si voluntas potest habere nolle respectu 
+          <unclear>su?mum</unclear> est quod ipsum posset odire positive. 
+          Consequens est falsum. 
+          Patet consequentia 
+          quia sicut velle est quod diligere, 
+          sic nolle est odire. 
+          Sed falsitas probatur per 
+          <ref xml:id="pg-b2q6-Rd1e1069" corresp="#pg-b2q6-Qd1e1087">
+            <!-- dbcheck that next cit/quote inside ref is working ok -->
+            glosam super illo 
+            <ref xml:id="pg-b2q6-Rd1e1075" corresp="#pg-b2q6-Qd1e1082">
+              <title>Matthei</title> 
+              <sic>16o</sic>
+            </ref>
+            <cit>
+              <quote xml:id="pg-b2q6-Qd1e1082" source="http://scta.info/resource/mt6_24" type="incipit">
+                nemo potest servire deo et mammonae
+              </quote>
+            </cit>
+          </ref>
+          ubi 
+          glosa
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e1087">
+              nullus enim conscientia deum odisse potest sed contempnit dum minas 
+              eius suis cupiditatibus <sic>posponit</sic>.
+            </quote>
+          </cit>
+        </p>
+        <p xml:id="pg-b2q6-d1e1093">
+          12, 
+          sequitur quod aliquis scienter potuisset 
+          occidisse Christum. 
+          Consequens est falsum 
+          per 
+          <ref xml:id="pg-b2q6-Rd1e1099">
+            <name xml:id="pg-b2q6-Nd1e690">Beatum Anselmum</name>, 
+            II <title>cur deus homo</title>, 
+            capitulo 15
+          </ref>, 
+          dicentem,
+          <!-- quote -->
+          nulli scienter potuerunt occidere Christum, 
+          <!-- end quote -->
+          et hoc videtur favere 
+          <ref xml:id="pg-b2q6-Rd1e699">
+            dictum <name xml:id="pg-b2q6-Nd1e701">Apostoli</name>
+          </ref> 
+          <cit>
+            <quote xml:id="pg-b2q6-Qd1e706" source="http://scta.info/resource/Icor2_8@7-13">
+              si <unclear>dominum</unclear> gloriae cognovisset numquam ipsum crucifixeret
+            </quote>
+          </cit>.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e714">
+          <head xml:id="pg-b2q6-Hd1e716">Responsiones</head>
+        <p xml:id="pg-b2q6-d1e1116">
+          Ad primum, 
+          conceditur consequens. 
+          Et ad improbationem, 
+          respondet <name xml:id="pg-b2q6-Nd1e720">quidem doctor</name>. 
+          Concedo consequens et 
+          ponit exemplum 
+          quia Iudaei simul odiebant illud suppositum Christi quod videbant, 
+          et tamen Deum aliqualiter diligebant. 
+          Unde in persecutione Christi et 
+          <unclear>disciplinorum</unclear> arbitrabantur obsequium se 
+          <unclear>pra?re</unclear> Deo, 
+          ut habetur 
+          <ref xml:id="pg-b2q6-Rd1e1137">
+            <title>Iohannis</title> 16
+          </ref>, 
+          tunc sic arguitur 
+          hunc Deum dilexerunt 
+          hunc hominem Deum 
+          <app>
+            <lem>oderunt</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del>odierunt</del>
+                <add>oderunt</add>
+              </subst>
+            </rdg>
+          </app>,
+          ergo hunc Deum simul oderunt et dilexerunt. 
+          Item, 
+          adducit exemplum de bono patre 
+          qui vellet mallum filium non esse propter malas 
+          conditiones incorrigibiles, 
+          et tamen diligit eum plusquam quoscumque alios et vellet bonum suum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1160">
+          Secundo, 
+          posset dici aliter et forte melius 
+          quod tali homini volo plus de bono quam de malo, 
+          et tunc simpliciter diligo ipsum 
+          vel plus de malo sibi vollo 
+          quod de bono 
+          et tunc simpliciter odio ipsum 
+          vel tantum volo sibi de bono, 
+          sicut de malo, 
+          et econverso, 
+          et sic nec odio ipsum nec diligo.
+        </p>
+        <p xml:id="pg-b2q6-d1e1174">
+          Ad secundam, 
+          negatur consequentia. 
+          Et ad probationem dicitur 
+          quod illud non infringit 
+          libertatem voluntatis 
+          quia sic nec Deus nec beati essent liberi 
+          cum non possint velle nisi bonum sunt tamen liberiores nobis. 
+          Unde 
+          <ref xml:id="pg-b2q6-Rd1e1185">
+            <name xml:id="pg-b2q6-Nd1e754">Anselmus</name>
+            <pb ed="#L" n="166-v"/>
+            in 
+            <title>de libero arbitrio</title>
+          </ref> 
+          nec libertas
+          nec pars libertatis est peccandi potestas,
+          et hoc allegatur a 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e763">
+              <name xml:id="pg-b2q6-Nd1e765">doctore solemni</name>
+            </ref>
+          </cit> 
+          addens unum scilicet quod libertas voluntatis in hoc consistit 
+          quod nulla acti potest impedire 
+          quin in bonum virgat si vellit.
+        </p>
+        <p xml:id="pg-b2q6-d1e1205">
+          Ad tertiam, 
+          dicitur quod nullum est obiectum 
+          quin voluntas possit imperare 
+          intellectui habere aliquod iudicium 
+          vel dictamen de illo sic quod 
+          appareat voluntati aliquo modo tamquam bonum 
+          vel malum apparens vel existens.
+        </p>
+        <p xml:id="pg-b2q6-d1e1214">
+          Ad quartam, 
+          conceditur consequens, 
+          et negatur consequentia ista, 
+          ergo talis peccaret 
+          et sic quia peccati
+          gravitas non praecise attenditur penes magnitudinem obiecti 
+          sed etiam penes intentionem odii vel conatum voluntatis. 
+          Unde quilibet ordinate Deum diligens, 
+          licet eum praeponat infinitis bonis creatis diligentibus si essent, 
+          tamen eius meritum non est infinita. 
+          Et ad probationem concesso antecedente toto. 
+          Negatur consequentia. 
+          Ratio quia, 
+          licet obiectum dupletur in peccato <name xml:id="pg-b2q6-Nd1e776">Ciceronis</name>, 
+          non tamen duplatur conatus voluntatis, 
+          immo cum remissiori per conatu potest velle occere 
+          duos homines quam <name xml:id="pg-b2q6-Nd1e778">Plato</name> 
+          et sic poterit minus peccare quam <name xml:id="pg-b2q6-Nd1e780">Plato</name>.
+        </p>
+        <p xml:id="pg-b2q6-d1e1248">
+          Ad quintam, 
+          dicitur quod non sub ratione damnationis et miseriae volebat ille 
+          discipulus suam damnationem 
+          si aut volebat illam hoc erat sub ratione iusti et boni, 
+          et sic non appetebat miseriam per se, 
+          sed potius volebat divinae volitionis impletionem 
+          et hoc bonum illi videbatur.
+        </p>
+        <p xml:id="pg-b2q6-d1e1260">
+          Ad sextam, 
+          quod est dictum <name xml:id="pg-b2q6-Nd1e788">Anselmi</name>. 
+          Negatur consequens 
+          scilicet quod omnis voluntas eliciens actum habet aliquod cur. 
+          Et cum quaeritur de intellectu <name xml:id="pg-b2q6-Nd1e790">Anselmi</name>, 
+          dicitur quod intelligit per tale 
+          cur alicuius boni apparentiam si aliquod vult 
+          et apparentiam alicuius mali si illud vult 
+          et hoc competit omni voluntati, 
+          sed tamen illa apparentia in Deo est ipse Deus in creatura 
+          vero est aliquod accidens 
+          seu aliquod iudicium complexum vel incomplexum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1287">
+          Ad septimam, 
+          dicitur quod tales eligunt suam miseriam non propter se 
+          sed propter aliquid quod ipsi magis <del>opp</del> optant propter passiones ducti
+        </p>
+        <p xml:id="pg-b2q6-d1e1298">
+          Secundo, 
+          dicitur quod credibile est 
+          quod si aliquis esset expertus summam miseriam seu dampnationem 
+          numquam posset illam velle 
+          nec per se nec per accidens 
+          seu propter quodcumque aliud et 
+          sic dicitur quod illi velleret suam miseriam inducere 
+          et per accidens propter <unclear>vidicare</unclear> 
+          se de inimicis.
+        </p>
+        <p xml:id="pg-b2q6-d1e1315">
+          Ad octavam, 
+          dicitur quod quodlibet iustum est aliquod commodum et ille 
+          res voluit perdere unum oculum propter bonum iusti 
+          et honesti ut filio remaneret unus oculus. 
+          Similiter dicitur de illo invido quod unum voluit perdere 
+          oculum ut alius ambos perderet et hoc videbatur sibi commodum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1329">
+          Ad nonam, 
+          quod est dictum <name xml:id="pg-b2q6-Nd1e809">Isidorii</name> sic intelligitur 
+          quod aliquid mali ex sui offectus malitia 
+          peccat et cum minori motivo non ex maiori malitia et minori 
+          infinite quam alii et etiam aliquid alii quaerunt occasiones peccandi 
+          et hoc vocat <name xml:id="pg-b2q6-Nd1e811">Isidorus</name> delectationem in malitia peccati, 
+          non tamen sequitur ex hoc quod 
+          tales <sic>vellint</sic> ipsum peccare propter se et directe
+        </p>
+        <p xml:id="pg-b2q6-d1e1351">
+          Ad decimam, 
+          conceditur consequentia 
+          et ultra cum arguitur, 
+          sed <name xml:id="pg-b2q6-Nd1e818">sortes</name>, etc., 
+          igitur negatur consequentia quia licet sortes per se vellit 
+          <pb ed="#L" n="167-r"/>
+          actum qui est odium tamen non vult consequentiam esse bonam licet hoc siat nec 
+          etiam vult ipsum antecedens secundum totale situm significatum 
+          quia non vult deformitatem implicatam 
+          et <unclear>cogno?tam</unclear> in ipso nisi per accidens et indirecte.
+        </p>
+        <p xml:id="pg-b2q6-d1e1370">
+          Ad 11m, 
+          dicitur quod Deus non potest odire 
+          tamquam obiectum dans per se occasionem odii 
+          sed bene potest odiri occasione accepta. 
+          Primo modo loquitur glosa, 
+          secundo modo vero intelligitur 
+          secunda pars conclusionis.  
+          Et si dicatur contra 
+          quia nihil habens quod non accepisci a Deo 
+          ergo si quis habet talem occasionem odii Deus illam dedit hic dicitur quod occasionem 
+          odii dare non est aliud quam digne esse odibile vel malum sed summe 
+          occasionem odii est summe odium ubi non est seu apprehendere rationem et 
+          causam odii ubi nulla talis est ratio odii nec mali 
+          et quia in Deo nullam potest esse ratio mali ideo 
+          <ref xml:id="pg-b2q6-Rd1e1400"><title>Glosa</title></ref> dicit 
+          quod nullus potest ipsum odire.
+        </p>
+        <p xml:id="pg-b2q6-d1e1406">
+          Ad ultimum,
+          conceditur consequens. 
+          Unde super illud evangelicum hic est <unclear>h?s</unclear> occidamus etc. 
+          dicit glosa Iudaeos Christum cognovisse 
+          sed invidia fuerunt excaecati et 
+          iudicium rationis fuit in eis perversum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1420">
+          Ad auctoritatem <name xml:id="pg-b2q6-Nd1e838">Anselmi</name>, 
+          dicitur quod loquitur 
+          ibi de quibusdam iudaeis simplicibus qui zaelum Dei habebant 
+          et qui forte in hoc arbitrabantur 
+          se <unclear>pra?re</unclear> obsequium Deo.
+        </p>
+        <p xml:id="pg-b2q6-d1e1436">
+          Sed adhuc contra hoc instatur 
+          quia etiam secundum <name xml:id="pg-b2q6-Nd1e845">Anselmum</name> libro <title>Cur Deus homo</title> illud fuisset peccatum 
+          infinitum et irrimissibile 
+          sed nullum talem peccatum a viatore committi potest, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q6-d1e1454">
+          Hic dicitur quod loquitur ibi <name xml:id="pg-b2q6-Nd1e853">Anselmus</name> modo excessivo, 
+          sicut scriptura= saepe sumit infinitum pro magno. 
+          Unde libro iosue dicitur quod aedificavit 
+          altare infinite magnitudinis id est valde magnum.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e915">
+          <head xml:id="pg-b2q6-Hd1e917">Obiectiones</head>
+        <p xml:id="pg-b2q6-d1e1466">
+          Contra 2am conclusionem arguitur 
+          quia si voluntas posset velle contra iudicium rationis, 
+          sequitur quod non omnis malitia 
+          procederet ex ignorantia. 
+          Consequens est falsum, 
+          ut patet 
+          <ref xml:id="pg-b2q6-Rd1e1474">
+            V <title>Ethicorum</title>. capitulo 5
+          </ref> 
+          ubi probatur
+          <!-- possible quote -->
+          quod omnis malitia saltim actualis procedit 
+          et generatur ex ignorantia. 
+          Et sic concluditur 
+          quod omnis malus ignorans, 
+          et per consequens habita cognitione per iudicium malitia 
+          non generabitur ex ignorantia, 
+          ergo contra iudicium rationis nullus potest velle.
+        </p>
+        <p xml:id="pg-b2q6-d1e1488">
+          Secundo, 
+          sequitur 
+          quod voluntas libere posset facere contra iudicium erroneum falsitas huius improbatur 
+          quia tunc <unclear>int?perantus</unclear> habens iudicium perversum posset libere velle oppositum illius 
+          quod dictat, 
+          et per consequens sic volendo peccaret 
+          quia faceret contra conscientiam 
+          et ex alio agit secundum perversum iudicium 
+          etiam peccat quia iudicat faciendum 
+          quod non est faciendum, 
+          ergo neccessario peccabit sine faciat 
+          secundum illud iudicium 
+          sine non et sic aliquis poterit esse 
+          vere perplexus inter duo peccata mortalia.
+        </p>
+        <p xml:id="pg-b2q6-d1e1512">
+          Tertio, 
+          sequitur quod voluntas poterit elicere alium actum in duplo
+          et in triplo maiorem et sic sine statu, 
+          et ultra sequitur quod voluntas contra iudicium 
+          rationis poterit habere actum ita malum 
+          quod ex tali actum quis erit totaliter 
+          ignorans,
+          quod implicat. 
+          Et patet illa consequentia 
+          quia si ignoranter producit nescit se producere. 
+          Et ex alio 
+          si producit illum actum 
+          contra iudicium rationis ipse 
+          scit quod talem actum producit, 
+          ergo simul scit et nescit se producere
+          <pb ed="#L" n="167-v"/>
+          talem actum.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e940">
+          <head xml:id="pg-b2q6-Hd1e942">Responsiones</head>
+        <p xml:id="pg-b2q6-d1e1535">
+          Ad primum, 
+          dicitur quod dictum <name xml:id="pg-b2q6-Nd1e878">Aristotelis</name> debet intelligi sic, 
+          quod omnis male agens aliqualiter apprehendit, 
+          ut bonum illud quod est malum et 
+          ut prosequendum quod est fugiendum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1547">
+          Secundo, 
+          dicitur quod non repugnat quod 
+          intellectus dictet per unum iudicium hoc esse malum 
+          et per aliam concupiscentiam 
+          ortam vel aliunde apprehendit illud ut bonum, 
+          et sic conceditur quod omnis malus 
+          aliqualiter ignoranter apprehendit rem 
+          et iudicat de ipsa male et hoc 
+          vere vel interpretative.
+        </p>
+        <p xml:id="pg-b2q6-d1e1563">
+          Ad secundum, 
+          conceditur consequens, 
+          et cum improbatur 
+          quia intemperatus etc 
+          dicitur ad hoc quod talis potest 
+          et debet dimittere illud iudicium erroneum 
+          et sic non erit perplexus 
+          et sic non faciet secundum illud 
+          nec contra illud.
+        </p>
+        <p xml:id="pg-b2q6-d1e1572">
+          Secundo, 
+          <unclear>dicit</unclear> 
+          quod dato quod non posset dimittere 
+          illud iudicium erroneum, 
+          tamen adhuc peccaret 
+          quia in illam impossibilitatem peccandi 
+          seu peccatum vitandi incidit 
+          ex sua culpa.
+        </p>
+        <p xml:id="pg-b2q6-d1e1586">
+          Ad tertium, 
+          dicitur quod possibile esset aliquem posset tandiu et 
+          taliter male operari et male habituari 
+          quod in eo generabitur ignorantia invincibilis 
+          et quod peccabit novo peccato 
+          quod ei imputabitur quia in hac ignorantiam 
+          incidit ex sua culpa seu saltim peccabit per sequellam peccati 
+          quia semper erit in peccato, 
+          licet non semper committat novum peccatum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1600">
+          Secundo,  
+          dicitur quod intemperatus 
+          vel alius malus poterit tot et tales actus facere 
+          quod peribit in eo iudicium rationis 
+          et tunc talis faceret contra iudicium rectum 
+          non suum quod in se habet, 
+          sed contra iudicium rationis 
+          quod alius bene iudicans habet 
+          aut contra illud 
+          quod ipse alias habuit aut habere potuit.
+        </p>
+        <p xml:id="pg-b2q6-d1e1613">
+          Tertio, 
+          dicitur quod 
+          ex dictis et concessis 
+          non sequitur quod possit agere ignoranter contra 
+          iudicium rationis quod habet 
+          sic quod iudicet non esse faciendum 
+          sic et faciat 
+          sic ignoranter 
+          et maxime si advertat ad actiones suas 
+          quia si fiat totaliter ignorans 
+          tunc perdit iudicium rationis.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e972">
+          <head xml:id="pg-b2q6-Hd1e974">Obiectiones</head>
+        <p xml:id="pg-b2q6-d1e1626">
+          Contra tertiam conclusionem, 
+          arguitur primo sic nullus peccat in eo 
+          quod vitare non potest ergo non stat aliquem esse malum malitia mortali 
+          quin sit vel fuerit in sua potestate illud vitare.
+          Consequentia patet, 
+          et antecedens ponitur a 
+          <ref xml:id="pg-b2q6-Rd1e1636">
+            <name xml:id="pg-b2q6-Nd1e906">Beato Augustino</name> 
+            libro <title>de duabus animabus</title>
+          </ref> 
+          et 
+          <ref xml:id="pg-b2q6-Rd1e1644">III 
+            <title>de libero arbitrio</title>, 
+            capitulo 28
+          </ref>, 
+          ubi dicit haec tene quaecumque causa potestatis sit id est volitionis 
+          si non ei <sic>reisisti</sic> potest sine peccato ei ceditur 
+          et infra non enim peccatur 
+          in eo quod nullo modo vitari potest.
+        </p>
+        <p xml:id="pg-b2q6-d1e1660">
+          Secundo, 
+          sequeretur quod aliquis obligaretur ad impossibile 
+          consequens est contra <name xml:id="pg-b2q6-Nd1e922">Beatum Ieromum</name>. 
+          Et patet consequentia 
+          quia Deus obligat quemlibet hominem ad 
+          non esse in peccato mortali sub poena peccati et damnationis, 
+          sed secundum conclusionem non est in potestate hominis 
+          quod sit bonus vel malus, 
+          ergo Deus ipsum obligat ad impossibile.
+        </p>
+        <p xml:id="pg-b2q6-d1e1677">
+          Tertio, 
+          si aliquis posset esse malus eo 
+          non voluntate sequitur quod pari ratione 
+          posset non esse eo non volente in duplo peior, 
+          et sic aliquis homo posset esse ita malus sicut daemon 
+          et tamen numquam male voluisset quod non videtur concedendum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1688">
+          Quarto, 
+          si aliquis posset esse bonus bonitate morali sine suo 
+          velle sequitur eadem ratione quod aliquis posset esse bonus bonitate meritoria 
+          <pb ed="#L" n="168-r"/>
+          in primo instanti sui esse et sic aliquis posset mereri in primo instanti sui 
+          esse consequens supra fuit improbatum falsitas patet quia nullus potest mereri nisi 
+          quando potest amittere iustitiam sed nullus in primo instanti sui esse potest 
+          iustitiam amittere, ergo. 
+          Maior est 
+          <ref xml:id="pg-b2q6-Rd1e1705">
+            <name xml:id="pg-b2q6-Nd1e934">Anselmi</name> 
+            <title>de casu dyaboli</title>, 
+            capitulo 5o circa principium
+          </ref>. 
+          Sed minor probatur 
+          quia si quis in primo instanti sui esse potest amittere iustitiam 
+          sequitur quod illa iustitia numquam fuisset. 
+          Patet consequentia 
+          quia si amittitur in primo instanti, 
+          tunc non est nec unquam ante hoc fuit, 
+          ergo vel oporteret dicere 
+          quod illa iustitia amissa numquam fuit 
+          vel quod in eodem instanti fuit et non fuit, 
+          quod implicat.
+        </p>
+        </div>
+        <div xml:id="pg-b2q6-Dd1e1018">
+          <head xml:id="pg-b2q6-Hd1e1020">Responsiones</head>
+        <p xml:id="pg-b2q6-d1e1723">
+          Ad primum, 
+          quod est dictum <name xml:id="pg-b2q6-Nd1e942">Augustini</name> dicitur primo quod 
+          intelligitur de actuali peccato non de originali. 
+          Item, 
+          dicitur quod per illam 
+          nebam intelligitur una affirmativa 
+          scilicet de lege communi peccantes possunt 
+          vitare illa quae committunt per actus elicitos. 
+          Unde illi qui cognoscuntur 
+          totaliter ad aliquem actum 
+          qui nullo modo est voluntarius tales 
+          in hoc non peccant sicut 
+          si quis violenter inclinaret hominem 
+          coram ydolo <del>ad</del> aut 
+          si quis <sic>de floraret</sic> virginem ea invita.
+        </p>
+        <p xml:id="pg-b2q6-d1e1753">
+          Tertio, 
+          modo dicitur quod nullus peccat 
+          in eo quod nullo modo 
+          et per nullam potentiam vitari 
+          potest et sic omnem peccatum 
+          saltem per potentiam divinam vitari potest, 
+          nam non est dicendum quod in omni illo non pecces 
+          quod ex tuis viribus vitare non potes 
+          quia secundum doctores nullum peccatum quantumcumque modicum homo 
+          potest vitare ex viribus suis sine auxilio speciali Dei maxime 
+          si de illo peccato fuerit temptatus.
+        </p>
+        <p xml:id="pg-b2q6-d1e1773">
+          Item, 
+          dicunt quidem nemo 
+          peccat in eo quod vitare potest nec potuit modo existens in peccato 
+          et cadens in aliud potuit vitare primum et per consequens secundum.
+        </p>
+        <p xml:id="pg-b2q6-d1e1782">
+          Item, 
+          peccatum 
+          originale non potuisti vitare ex veribus tuis quia non 
+          potuisti facere
+          quin <name xml:id="pg-b2q6-Nd1e958">Adam</name> peccaverit 
+          et quin descenderis ab 
+          ipso et quin anima tua fuerit coniuncta massae contagiosae.
+        </p>
+        <p xml:id="pg-b2q6-d1e1796">
+          Item, 
+          secundum multos homo potest necessitari ad peccandum ex culpa propria, 
+          sicut de multis ebriis et aliis ponitur exemplum 
+        </p>
+        <p xml:id="pg-b2q6-d1e1797">
+          Item, 
+          dum aliquis male vult et peccat 
+          non potest non peccare secundum aliquos et secundum 
+          ipsos neccessario tenebit malam voluntatem per tempus  Item nullus 
+          ex se poterit facere quin in praesenti vita peccet venialiter bene 
+          <cit>
+            <ref xml:id="pg-b2q6-Rd1e1812">
+              <name xml:id="pg-b2q6-Nd1e970">Augustinus</name> 
+              libro contra caelestinum 
+              in quadam responsione
+            </ref>
+          </cit>, 
+          dicit 
+          <!-- begin quote ?? -->
+          per arbitrii libertatem factum est ut homo esse causa peccati 
+          sed iam penalis vitiositas 
+          subsecuta ex libertate fecit neccessitatem unde ad deum 
+          fidelis clamat de neccessaribus meis erue me sub quibus 
+          positi non possumus quod volumus intelligere vel quod intelligimus 
+          et volumus non possumus implere. <!-- end quote ?? --> 
+          Idem ostendit 
+          <ref xml:id="pg-b2q6-Rd1e1831">
+            libro 
+            <title>
+              de gratia et 
+              <pb ed="#L" n="168-v"/>
+              et natura
+            </title> 
+            circa secundum capitulum
+          </ref> 
+          ergo ex quibus patet quod homo saepe pectat
+          in eo quod ex se vitare non potest, 
+          et sic non intelligit <name xml:id="pg-b2q6-Nd1e986">Augustini</name> dictum 
+          illud sed dicto modo.
+        </p>
+        <p xml:id="pg-b2q6-d1e1846">
+          Ad secundam, 
+          potest concedi consequens ad <name xml:id="pg-b2q6-Nd1e991">ieromium</name>
+          dicitur quod intelligit quod homines 
+          sufficienter excusantur in foro iudiciali ecclesiastico 
+          si non faciunt quod numquam potuerunt 
+          nec possunt facere ubi illa impossibilitas non provenit ex sua culpa.
+        </p>
+        <p xml:id="pg-b2q6-d1e1861">
+          Secundo, 
+          dicitur quod homo non obligatur 
+          ad impossibile simpliciter 
+          quia Deus nulli praecipit 
+          quod per nullam potentiam fieri potest.
+        </p>
+        <p xml:id="pg-b2q6-d1e1868">
+          Tertio, 
+          potest dici quod cum hoc stat 
+          quod deus possit aliquid praecipere 
+          <unclear>aliter</unclear> in poenam peccatorum suorum 
+          quod nulla potentia impleri potest 
+          sicut si praecipieret peccatori 
+          quod simul esset et non esset
+        </p>
+        <p xml:id="pg-b2q6-d1e1880">
+          Item, 
+          aliquis in poena sui peccati videtur quodammodo se obligare ad contradictoria 
+          sicut patet de perplexo secundum fatuam aestimationem suam inter duo peccata 
+          quia non tenetur facere contra conscientiam 
+          et tenetur non peccare.
+        </p>
+        <p xml:id="pg-b2q6-d1e1890">
+          Ad tertiam,
+          posset negari consequentia 
+          quia peccatum originale 
+          de quo loquimur non intenditur 
+          nec remittitur sed in omnibus est aequale.
+        </p>
+        <p xml:id="pg-b2q6-d1e1899">
+          Item, 
+          potest dici quod esse malum 
+          potest dupliciter intelligi,
+          uno modo per actum proprium elicitum actualiter, 
+          alio modo quid est malus originaliter. 
+          Prima malitia improportionabiliter excedit secundam 
+          si sit mortalis culpa, 
+          et ideo quantumcumque intenderetur originalis 
+          malitia numquam deveniret 
+          ad aequalitatem primae malitiae eo quod 
+          illae distinguuntur specie, 
+          et ideo non sequitur 
+          quod aliquis posset esse ita malus eo 
+          non volente sicut daemon.
+        </p>
+        <p xml:id="pg-b2q6-d1e1920">
+          Ad quartam, 
+          dicerent aliqui concedo consequens 
+          de potentia absoluta 
+          sicut fuit de facto de anima christi. 
+          Et ad probationem dicitur 
+          quod si per iustitiam intelligitur 
+          aliquod positivum informans animam illud negatur, 
+          si vero intelligitur per eam sola iustitia originalis 
+          quae nihil addit positivum super naturalem bonitatem 
+          sic conceditur antecedens 
+          quia eo ipso quo quis peccat iam non est innoscens 
+          et sic dicitur perdere innoscentiam naturalem 
+          et prius vera non <unclear>tempore</unclear> potuit innoscentiam servare 
+          et sic perdit eam quia nunc facit ne sit innoscens et sic simul tempore est bonum et malum, 
+          tamen prius natura bonum quam malum nec verba <name xml:id="pg-b2q6-Nd1e1016">Anselmus</name> 
+          debet intelligi ad litteram 
+          quia tunc qui nullam iustitiam positivam 
+          haberet peccare non posset, 
+          quod est falsum, 
+          et ideo per perdere iustitiam 
+          intelligit fieri iniustus de iusto 
+          aut fieri magis iniustus quam prius.
+        </p>
+        <p xml:id="pg-b2q6-d1e1959">
+          Aliter posset dici consequentiam negando 
+          quia non est simile de bonitate meritoria 
+          quae est vel concernit actu absolute elicitum 
+          et voluntate originali quae est gratia a Deo solo infusa, 
+          ideo conformiter ad dicta neganda est consequentia.
+        </p>
+        <p xml:id="pg-b2q6-d1e1971">
+          Ad primum in oppositum, 
+          quidquid sit de antecedente. 
+          Negatur consequentia 
+          quia immutabilitatis necessariis 
+          et complacentiae non repugnat libertati voluntatis 
+          nec infert coactionem.
+        </p>
+        <p xml:id="pg-b2q6-d1e1980">
+          Secundo, 
+          posset dici quod licet voluntas sciens 
+          quid 
+          <pb ed="#L" n="169-r"/>
+          est beatitudo et actualiter apprehendens 
+          vellit ipsum vere vel interpretative 
+          tamen non cogitur ipsam velle.
+        </p>
+        <p xml:id="pg-b2q6-d1e1992">
+          Ad secundum, 
+          dicitur quod si voluntas vellit 
+          quod omne dulce est gustandum 
+          et hoc sciat esse dulce et non sit 
+          alia volitio impediens, 
+          si tunc sequitur <unclear>gustatio</unclear> 
+          non propter hoc sequitur 
+          quod voluntas cogatur.
+        </p>
+        <p xml:id="pg-b2q6-d1e2006">
+          Secundo, 
+          dico quod non obstante quocumque iudicio voluntas 
+          potest avertere intellectum 
+          et imperare taliter, 
+          quod non sequitur actus exterior.
+        </p>
+        <p xml:id="pg-b2q6-d1e2013">
+          Ad tertiam, 
+          negatur consequentia 
+          nec antecedens probationis est verum <unclear>summendo</unclear> in voluntarie privative, 
+          id est sine actu elicito a voluntate 
+          quia pueri nullum actum eliciendo 
+          denominantur mali 
+          et peccatores dum sunt in originali, 
+          quorum tamen actus non cognoscuntur.
+        </p>
+        </div>
+        <!-- "<pc type="#pilcrow"/>circa distinctiones 26 27 28 2i libri" I think  belongs to next lecture --> 
+      </div>
+    </body>
+  </text>
+</TEI>
