@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 9</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Quaestio 9 </title>
+          <date when="2022-02-17">February 17, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-17" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="182-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q9">
+        <head xml:id="pg-b2q9-Hd1e95">Liber 2, Quaestio 9</head>
+        <p xml:id="pg-b2q9-d1e98">
+          Utrum quaelibet actualis mortalis malitia 
+          aequaliter mereatur puniri a divina iustitia
+        </p>
+        <div type="rationes-principales">
+          <head>Rationes principales</head>
+        <p xml:id="pg-b2q9-d1e105">
+          Quod non quia 
+          sequeretur quod omnia peccata mortalia essent aequalia consequens est falsum patet 
+          consequentia quia iustitia divina punit peccata secundum proportionem gravitatis eorum
+        </p>
+        <p xml:id="pg-b2q9-d1e115">
+          Secundo, 
+          sequeretur quod divina iustitia puniret aequaliter omnes dampnatos pro peccatis actualibus 
+          mortalibus consequens est falsum patet consequentia quia aequaliter merentes <unclear>praemiari</unclear> 
+          aequaliter praemiat ergo aequaliter merentes puniri aequaliter punit.
+        </p>
+        <p xml:id="pg-b2q9-d1e128">
+          Tertio, 
+          sequeretur 
+          quod proportio et excessus poenarum non sequeretur proportionem et excessum culparum 
+          consequens est falsum quia pro duplo peccato datur dupla poena et patet consequentia quia 
+          divina iustitia non plus punit peccata quam debeant puniri.
+        </p>
+        <p xml:id="pg-b2q9-d1e140">
+          In oppositum, 
+          arguitur 
+          quia qualibet mortalis actualis malititia meretur puniri infinite extensive 
+          et intensive ergo equaliter patet consequentia quia non magis quam infinite intensive 
+          <pb ed="#L" n="182-v"/>
+          et extensive quis puniri potest sed antecedens patet quia tantae meretur puniri quantae 
+          obligatur non peccare.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 1</head>
+        <p xml:id="pg-b2q9-d1e156" n="Conclusio">
+          Prima conclusio licet peccatum mortale actuale inesse 
+          culpae sit intrinsece praecise finitae malitiae tamen quodlibet tale habet infinitam 
+          latitudinem inesse mali inutilis seu ut est demeritorius est infinite 
+          miseriae prima pars probatur quia unum peccatum excedit aliud in gradu et specie
+        </p>
+        <p xml:id="pg-b2q9-d1e167">
+          Item quolibet mortali dato potest dari gravius quia quilibet finite peccans 
+          vult et conatur agere contra legem dei aeternam  2a pars probatur quia per 
+          quodlibet tale meretur quilibet perdere bonum infinitum igitur peccanti est infinite 
+          nocivum et inutile
+        </p>
+        <p xml:id="pg-b2q9-d1e181">
+          Item, 
+          pro mortali quis meretur infinitam poenam 
+          extensive et intensive
+        </p>
+        <p xml:id="pg-b2q9-d1e189" n="Corollarium 1">
+          Primum corollarium, 
+          quodlibet mortale actuale est infinite 
+          magis demeritorium quam sit sua intrinseca deformitas seu quam sit malum 
+          voluntarium patet quia quodlibet mortale est infinite demeritorium quantae quis puniri 
+          meretur pro quolibet mortali tali
+        </p>
+        <p xml:id="pg-b2q9-d1e200" n="Corollarium 2">
+          Secundum corollarium, 
+          non penes <unclear>quantae</unclear> 
+          poenae qua quis meretur puniri debet peccati gravitas attendi aut peccantis 
+          malitia metiri patet quia quilibet pro quolibet mortali meretur poena 
+          infinita puniri sed unum mortale est alio gravius ergo
+        </p>
+        <p xml:id="pg-b2q9-d1e215">
+          Tertium corollarium. 
+          non praecise poenes magnitudinem obiectorum est attenda 
+          proportio seu gravitas peccatorum 
+          patet quia tunc quodlibet mortale esset alteri aequale 
+          in esse malitiae, 
+          quod est falsum. 
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 2</head>
+        <p xml:id="pg-b2q9-d1e224" n="Conclusio">
+          Secunda conclusio, 
+          licet totalis poena dampnati sit tam mala quam culpa eius 
+          est mala et fugibilis tamen nulla culpa mortalis est tantum quantum meretur 
+          puniri punibilis prima pars patet quia culpa est peccanti poena ergo consequentia 
+          bona antecedens patet per 
+          <ref xml:id="pg-b2q9-Rd1e237">
+            <name>Augustinum</name>, 
+            libro <title>Confessionum</title>
+          </ref>, 
+          dicentem 
+          <cit>
+            <quote xml:id="pg-b2q9-Qd1e244" source="http://scta.info/resource/aconf-l1">
+              <sic>iusisti</sic> domine et 
+              sic est ut omnis inordinatus 
+              animus sibi ipsi poena sit 
+            </quote>
+            <bibl>
+              <name>Augustinus</name>, 
+              <title>Confessionum</title>,
+              XII, 19 (PL 32: XXX)
+              <!-- I confessions 12, 19 (PL 32) -->
+            </bibl>
+          </cit> 
+        </p>
+        <p xml:id="pg-b2q9-d1e253">
+          Item,
+          <ref xml:id="pg-b2q9-Rd1e258">
+            <name>Boetius</name> 
+            <title>De consolatio</title>,
+            prosa 4
+          </ref>, 
+          sicut 
+          <cit>
+            <quote xml:id="pg-b2q9-Qd1e268" source="http://scta.info/resource/hy7y6y-d1e75-d1e358">
+              probis probitas est praemium ita in probis 
+              inprobitis est supplicium
+            </quote>
+          </cit>.
+        </p>
+          <!-- collapse into above -->
+        <p xml:id="pg-b2q9-d1e271">
+          Secunda pars, 
+          probatur quia actuale mortale infinite simpliciter intensive meretur puniri
+          et sic <!-- possible transposition marked here -->potest non puniri 
+          cum creatura non sit infinitae 
+          poenae perceptiva.
+        </p>
+        <p xml:id="pg-b2q9-d1e282" n="Corollarium 1">
+           primum corollarium sicut non stat aliquem bene merentem 
+          de condigno praemiari sic repugnat aliquem pro peccato acctuali mortali 
+          condigne puniri prima pars patet quia si creatura posset pro actu meritorio 
+          de condigno praemiari vel hoc esset a deo vel a creatura non a deo 
+          tamen quia nulli creaturae obligatur tamen quia meritum est dei donum ergo 
+          potius creaturam obligat deo quam econverso  nec etiam a creatura loquendo 
+          de praemio distincto ab actu tali quia omne praemium a pura creatura 
+          condabile est minus bonum et eligibile quam illud meritum sit bonum et eligibile 
+          2a pars probatur ex 2a parte conclusionis
+        </p>
+        <p xml:id="pg-b2q9-d1e307">
+           Item quia meruit adnihilationem et poenam 
+          aeternam sensus simul et sic puniri non potest
+        </p>
+        <p xml:id="pg-b2q9-d1e316" n="Corollarium 2">
+          2m corollarium non stat 
+          aliquem peccare mortaliter et ipsum non puniri actualiter patet quia pec<pb ed="#L" n="183-r"/>catum
+          necessario est poena peccantis
+        </p>
+        <p xml:id="pg-b2q9-d1e326" n="Corollarium 3">
+          Tertium corollarium, 
+          peccator peiori poena 
+          punit se ipsum immundo 
+          quam posset puniri a Deo in inferno. 
+          Patet quia punit se poena culpae 
+          et illa est de superiori specie mali ad malum 
+          poenae inflictae, 
+          ergo.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 3</head>
+        <p xml:id="pg-b2q9-d1e337" n="Conclusio 3">
+          Tertia conclusio, 
+          licet poena inflicta et mortalis malitia 
+          non sint proprie proportionalia, 
+          tamen omne actuale mortale 
+          punitur secundum latitudinem 
+          suae malitiae a divina iustitia. 
+          Prima pars probatur 
+          quia malum culpae et malum 
+          poenae inflictae sunt diversarum specierum, 
+          ergo quantumcumquoe unum augebitur numquam 
+          erit alteri aequale. 
+          Confirmatur si poena inflicta 
+          et culpa essent proprie proportionalia, 
+          sequitur quod posset dari <choice><orig>alica</orig><reg>aliqua</reg></choice> poena inflicta peior aliqua certa 
+          culpa mortali. 
+          Patet consequentia 
+          quia sit a poena inflicta et <c>b</c> culpa mortalis 
+          et excedat <c>b</c> ipsum <c>a</c> praecise in duplo, 
+          tunc detur dupla poena ad <c>a</c> quae sit <c>c</c> 
+          tunc quaeritur ante <c>b</c> et <c>c</c> sint aequalia 
+          an non si sic igitur dupla poena ad <c>c</c> erit peior 
+          et <unclear>fugi?or</unclear> quam <c>b</c> et habetur propositum 
+          si non hoc supposito repugnat 
+          quia <c>a</c> exceditur ab ipso <c>b</c> praecise in duplo.
+        </p>
+          <!-- combine with above -->
+        <p xml:id="pg-b2q9-d1e410">
+          Secunda pars conclusionis 
+          patet per illud 
+          <ref>
+            <title>Apocalypsis</title> 18
+          </ref>, 
+          <cit>
+            <quote xml:id="pg-b2q9-Qd1e419" source="http://scta.info/resource/ap18_7">
+              quantum glorificavit se in deliciis 
+              tantum datae illi tormentum et <sic>lutum</sic>
+            </quote>
+          </cit>.
+        </p>
+        <p xml:id="pg-b2q9-d1e427" n="Corollarium 1">
+          Prima corollarium, 
+          sicut proportio unius 
+          <app>
+            <lem>poenae</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del>ppoenae</del>
+                <add>poenae</add>
+              </subst>
+            </rdg>
+          </app>
+          sensus ad aliam 
+          sequitur proportionem malitiae ad malitiam 
+          sic distinctis speciebus culparum 
+          correspondent distinctae species poenarum. 
+          Prima pars probatur 
+          quia aliter sequeretur 
+          quod aliqua duo moralia se haberent 
+          secundum proportionem duplam, 
+          et tamen eorum poenae sensuales non se haberent 
+          secundum duplam proportionem in inferno falsitas huius. 
+          Patet per illud allegatum 
+          quantum glorificavit se homo, 
+          etc.
+        </p>
+        <p xml:id="pg-b2q9-d1e450">
+          Item, 
+          per 
+          <ref>
+            Glosam super illud 
+            <title>Matthaeus</title> 
+            <quote xml:id="pg-b2q9-Qd1e457" source="http://scta.info/resource/mt7_2">
+              in qua mensura <sic>messi</sic> fueritis
+            </quote> 
+            etc.,
+          </ref>,
+          dicentem, 
+          <cit>
+            <quote xml:id="pg-b2q9-Qd1e464">secundum mensuram culpae erit mensura poenae</quote>
+            <bibl>XXX</bibl>
+          </cit>.
+        </p>
+          <!-- collapse into above -->
+        <p xml:id="pg-b2q9-d1e469">
+          Secunda pars, 
+          probatur quia si peccata 
+          distincta specie punirentur in inferno poena inflicta eiusdem specie sequitur quod 
+          mendacium tantum ibi puniretur quantum puniatur homicidium patet consequentia 
+          quia si inter illas poenas praecise sit excessus gradualis et non specificus 
+          sit ergo poena homicidii ut 8 et certi mendacii ut 4or tunc 
+          sit aliquod mendacium potest esse duplum ad illud primum mendacium ergo poena 
+          ei correspondens erit dupla sed poena dupla est 8o ergo illi mendacio 
+          correspondet tanta poena sicut homicidio quod est propositum
+        </p>
+        <p xml:id="pg-b2q9-d1e490" n="Corollarium 2">
+          Secundum corollarium, 
+          quantumcumque 
+          intendatur poena correspondens peccato mendacii 
+          vel adulterii numquam tantum 
+          puniet quantum punit 
+          et affligit poena homicidii. 
+          Patet quia sicut homicidium 
+          est superioris speciei ad mendacium vel adulterium, 
+          sicut etiam poena 
+          illorum diversarum sunt rationum.
+        </p>
+        <p xml:id="pg-b2q9-d1e503">
+          Tertium corollarium, 
+          licet omnia <unclear>moralia<!-- mortalia? --></unclear> accidentalia 
+          <unclear>mererint</unclear> puniri penae inflicta aequali, 
+          tamen divina iustitia iuste statuit in aequalia moralia inaequaliter puniri. 
+          Prima patet quia quodlibet mortale 
+          de condigno meretur omnem poenam ymaginalem extensivam et intensivam
+          <pb ed="#L" n="183-v"/>
+          et non maiorem potest mereri aliud mortale. 
+          Secunda patet 
+          quia mortalia puniuntur 
+          iuste secundum proportionem 
+          suae <unclear>malititiae</unclear> intrinsece et gravitatis.
+        </p>
+        <p xml:id="pg-b2q9-d1e519">
+          Item,
+          unum magnum mortale intensius et multiplicius 
+          meruit omnem poenam imaginabilem quam parvum mortale, 
+          ergo iuste Deus punit 
+          unum magis graviter quam aliud.
+        </p>
+        <p xml:id="pg-b2q9-d1e531">
+          Ex hoc sequitur 
+          quod non penes quantitatem poenae meritae 
+          dimissae debet mensurari gravitas intrinseca offentae commissae. 
+          Patet quia Deus 
+          cuilibet dampnato relaxat infinitam poenam, 
+          et tamen nec omnis offensae 
+          sunt eiusdem gravitatis 
+          nec aliqua simpliciter 
+          est infinite malitiae intrinsecae.
+        </p>
+        <p xml:id="pg-b2q9-d1e542">
+          Ex hoc sequitur, 
+          affirmative ad quaestionem respondendum 
+          <unclear>summendo</unclear> aequaliter, 
+          id est aequali poena. 
+          Patet 
+          quia omnem poenam possibilem 
+          et imaginabilem quaelibet mortalis culpa actualis meretur, 
+          si tamen li aequaliter determinaret modum merendi, 
+          et non poenam sic posset 
+          negative responderi 
+          quia, 
+          licet aequalem poenam meruerit fur et homicida, 
+          tamen intensius et multiplicius illam meruit homicida 
+          quam fur sicut Christus pluries meruit idem <unclear>primum<!-- praemium--></unclear>, 
+          tamen tantum meruit in incarnationem sicut in passionem.
+        </p>
+        <p xml:id="pg-b2q9-d1e564">
+          Ex quo patet duos aequali poena puniri meruisse, 
+          et tamen illos in aequaliter punitos 
+          esse iustissime.
+        </p>
+        <p xml:id="pg-b2q9-d1e573">
+          Contra primam conclusionem, 
+          arguitur in quolibet mortali peccato est 
+          una circumstantia infinita peccati naturaliter aggravativa, 
+          ergo quodlibet actuale mortale 
+          est infinitae malitiae. 
+          Patet consequentia 
+          quia ex quo naturaliter et non libere aggravat,
+          sequitur quod tantum aggravat quantum potest, 
+          et antecedens patet quia deus est circumstantia 
+          quodlibet <unclear>accidentale</unclear> 
+          mortale aggravans.
+        </p>
+        <p xml:id="pg-b2q9-d1e590">
+          Secundo, 
+          in honorare Deum est infinite gravius 
+          quam regem franciae in honorare, 
+          ergo in honorare Deum est infinite malitiae. 
+          Probatur antecedens quia 
+          si non sit praecise in duplo gravius, 
+          sequitur quod contempnere regem erit gravius 
+          vel tam grave peccatum sicut contempnere Deum 
+          quia unus contemptus regis poterit esse duplus ad alium 
+          vel triplus quo posito habetur propositum.
+        </p>
+        <p xml:id="pg-b2q9-d1e606">
+          Tertio, 
+          sic peccatum mortale in infinitum excedit veniale, 
+          ergo mortale est infinite malitiae. 
+          Antecedens probatur 
+          quia si non sequitur 
+          quod aliquod veniale poterit esse mortale, 
+          quod implicat.
+        </p>
+        <p xml:id="pg-b2q9-d1e615">
+          Quarto, 
+          Deus remittit peccanti infinitam poenam debitam 
+          ergo confert sibi infinitum beneficium, 
+          ergo si peccat committit infinitum malum. 
+          Patet consequentia 
+          quia infinite est ingratus 
+          sed infinita ingratitudo est infinitum peccatum, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q9-d1e626">
+          Quinto, 
+          aliquid potest scire Christum esse Deum 
+          et velle ipsum occidere, 
+          ergo aliquis potest infinito peccato peccare. 
+          Consequentia tenet 
+          quia secundum <name>Augustinum</name>, 
+          si aliquis scivisset 
+          christum esse deum et ipsum occidisset peccato maximo 
+          et irremissibili peccasset. 
+          Confirmatur quia si aliquis Christum 
+          scienter occidisset in infinitum plus peccasset 
+          quam si puram creaturam occidisset, ergo.
+        </p>
+        <p xml:id="pg-b2q9-d1e645">
+          Sexto, 
+          quodlibet mortale habet infinitas partes 
+          quarum quaelibet est gravior quolibet 
+          <app>
+            <lem n="quolibet"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">luorli</del>
+            </rdg>
+          </app> 
+          peccato veniali, 
+          ergo quodlibet mortale 
+          aequipolet peccatis infinitis venialibus si essent 
+          sed infinita venialia essent infinite 
+          malitiae vel infinita malitia, 
+          ergo. 
+        </p>
+        <p xml:id="pg-b2q9-d1e659">
+          Septimo, 
+          quaelibet creatura peccans 
+          <pb ed="#L" n="184-r"/>
+          tam graviter peccat 
+          quantum obligatur non peccare sed creatura infinite obligatur 
+          non peccare,
+          ergo. 
+          Maior patet 
+          quia solvens obligationem divinam vel 
+          falsans illam peccat, 
+          ergo solvens maiorem magis peccat, 
+          et per consequens 
+          solvens infinitam infinite peccat. 
+          Patet tum quia Deus infinite obligat 
+          creaturam ad Deum non odiendum 
+          sed diligendum tum 
+          quia in nullo casu 
+          licet creaturae peccare, 
+          ergo infinite et indispensabiliter obligatur 
+          ad non peccandum.
+        </p>
+        <p xml:id="pg-b2q9-d1e681">
+          Contra secundam conclusionem, 
+          quilibet dampnatus reddet usque ad 
+          ultimum quandratem et habebit iudicium 
+          sine minima sed nullus punitur infinita poena intensive, 
+          ergo nullus dampnatus meruit in finitam poenam.
+        </p>
+        <p xml:id="pg-b2q9-d1e692">
+          Secundo, 
+          sequeretur quod neccessario 
+          Deus faceret peccanti in infinitum bonum. 
+          Patet consequentia 
+          quia remittere aliquam poenam peccanti est bonum, 
+          ergo remittere infinitam 
+          est infinitum bonum.
+        </p>
+        <p xml:id="pg-b2q9-d1e701">
+          Tertio, 
+          sequitur quod peccator esset potentior ad demerendum 
+          quam Deus ad puniendum. 
+          Patet quia creatura meretur infinitam poenam intensive 
+          et Deus non potest peccatum tantum punire 
+          quantum meruit puniri.
+        </p>
+        <p xml:id="pg-b2q9-d1e710">
+          Quinto, 
+          sequitur quod Deus summe est misericors necessario 
+          et solum iustus finite.
+          consequens est falsum. 
+          Et patet consequentia 
+          quia quantitas minime attenditur 
+          penes quantitatem poenae 
+          dimissae et quantitas iustitiae 
+          penes quantitatem poenae inflictae.
+        </p>
+        <p xml:id="pg-b2q9-d1e722">
+          Sexto, 
+          sequitur 
+          quod non plus dimittet uni quam alteri de poena. 
+          Consequens est falsum 
+          quia cum magis peccante 
+          et magis minima indigente 
+          Deus magis misericorditer agit.
+        </p>
+        <p xml:id="pg-b2q9-d1e733">
+          Item, 
+          falsitas patet parabolam Christi approbantis responsionem symonis 
+          dicentis quod ille plus diligere 
+          tenetur cui plus dimittitur.
+          Sed consequentia patet 
+          quia omnibus peccantibus dimittit aequalem poenam 
+          quia infinitam.
+        </p>
+        <p xml:id="pg-b2q9-d1e740">
+          Septimo, 
+          Deus praescivit quemlibet dampnatum 
+          quantum vult ipsum punire ergo ad condignum. 
+          Tenet consequentia 
+          quia suum velle aequipollet in satisfactione cuilibet poenae datae vel dabili. 
+          Et per consequens per finitam poenam 
+          quam infligit satisfacit 
+          regulae iustitiae ad condignum.
+        </p>
+        <p xml:id="pg-b2q9-d1e752">
+          Octavo, 
+          Deus sufficienter punit dampnatum 
+          ergo ad condignum probatur antecedens 
+          quia aliter deus insufficienter aliquod faceret 
+          et non esset sufficiens punitor.
+        </p>
+        <p xml:id="pg-b2q9-d1e761">
+          Contra tertiam conclusionem, 
+          sequeretur quod existens in purgatorio 
+          tantum puniretur uno die pro homicidio quantum existens in 
+          inferno punitur pro furto aeternaliter. 
+          Consequentia patet 
+          quia per conclusionem quantumcumque intendatur 
+          poena furti numquam tantum affliget 
+          quantum causabit poena homicidii, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q9-d1e772">
+          Secundo, 
+          nullus idem ignis potest causare dolores diversarum specierum, 
+          ergo poena inflictae non differunt specie sicut peccat.
+          Consequentia tenet 
+          quia quodlibet actuale mortale 
+          puniretur poena ignis. 
+          Patet antecedens 
+          quia aliter albedo eadem potest causare 
+          diversarum specierum visiones, 
+          quod non videtur possibile.
+        </p>
+        <p xml:id="pg-b2q9-d1e785">
+          Tertio, 
+          peccatum veniale 
+          punietur poena aeterna ignis in moritne cum mortali, 
+          ergo. 
+          Tenet consequentia,
+          et antecedens patet 
+          quia illud veniale numquam remittetur.
+        </p>
+        <p xml:id="pg-b2q9-d1e794">
+          Quarto, 
+          contra corollarium nulla 
+          culpa mortalis specie distinguitur
+          <app>
+            <lem n="distinguitur"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">ergo</del>
+            </rdg>
+          </app> 
+          ab alia, 
+          ergo. 
+          Tenet consequentia. 
+          Et antecedens probatur 
+          <pb ed="#L" n="184-v"/>
+          quia ratio formalis omnium culparum mortalium est eadem 
+          sed omnis distinctio est a forma, 
+          ergo. 
+          Maior patet 
+          quia ratio formalis peccati mortalis 
+          actualis est contemptus Dei 
+          seu etiam sic agere 
+          vel taliter operari contra legem Dei aeternam 
+          et contra rationis dictamen, 
+          sed hoc est in quolibet actuali morali.
+        </p>
+        <p xml:id="pg-b2q9-d1e815">
+          Quinto, 
+          si quodlibet 
+          tale meretur infinitam poenam intensive, 
+          sequeretur quod omnia mortalia <unclear>accidentalia</unclear> 
+          eadem poena deberent puniri, 
+          ergo ibi non debet esse excessus poenarum 
+          nec specificus nec gradualis 
+          aliter iniuste Deus puniret dampnatos.
+        </p>
+        <p xml:id="pg-b2q9-d1e829">
+          Sexto, 
+          si <c>b</c> peccatum infinite puniretur, 
+          sequitur quod unum alio non plus 
+          puniretur aliter unum infinitum esset duplum 
+          ad aliud quod negatur a multis.
+        </p>
+        <p xml:id="pg-b2q9-d1e838">
+          Ad primum, 
+          negatur consequentia 
+          quia licet sit circumstantia infinita, 
+          tamen finite aggravat sic Deus ipse est 
+          obiectum infinitum visionis finitae. 
+          Ad probationem quia Deus 
+          ut circumstantia infinita agit 
+          de necessitate naturae, 
+          ergo hoc antecedente admisso, 
+          negatur consequentia 
+          quia conatus voluntatis est tria principalis 
+          aggravans peccatum ideo tantum finite aggravat.
+        </p>
+        <p xml:id="pg-b2q9-d1e851">
+          Item, 
+          sequeretur quod veniale 
+          esset infinitae malitiae ea ratione 
+          quia fit contra Deum aliter non esset 
+          contra praeceptum divinum, 
+          quod est falsum.
+        </p>
+        <p xml:id="pg-b2q9-d1e860">
+          Ad secundum, 
+          dicitur quod infinitae gravitatis 
+          est contempnere Deum 
+          non tantum quin plus, 
+          et tamen nullum contempnare est gravitatis infinitae 
+          quia quodlibet contempnare est finitum. 
+          
+        </p>
+        <p xml:id="pg-b2q9-d1e868">
+          Secundo, 
+          dicitur quod contempnere Deum in casu est 
+          minus grave certo contemptu creare 
+          quia quis posset cum intenso conatu regem contempnere 
+          et cum multis circumstnatiis malis 
+          et Deum remisso conatu contempnere 
+          et cum circumstantiis paucioribus malis.
+        </p>
+        <p xml:id="pg-b2q9-d1e881">
+          Ad tertium, 
+          negatur consequentia 
+          quia illae malitiae 
+          sunt diversarum rationum.
+        </p>
+        <p xml:id="pg-b2q9-d1e888">
+          Ad quartum, 
+          negatur consequentia. 
+          Et ad probationem dicitur 
+          quod gravitas peccati 
+          non debet attendi praecise penes quantitatem beneficii, 
+          sed penes voluntatem itensam 
+          qua beneficiatus dicitur ingratus.
+        </p>
+        <p xml:id="pg-b2q9-d1e897">
+          Secundo, 
+          dicitur quod relaxatio poenae 
+          <app>
+            <lem n="poenae"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">non</del>
+            </rdg>
+          </app> 
+          infinite non est infinitum bonum 
+          nec infinitum benficium.
+        </p>
+        <p xml:id="pg-b2q9-d1e908">
+          Ad quintam, 
+          negatur consequentia. 
+          Ad <name>Anselmum</name> 
+          dicitur quod loquimur per modum excessivum 
+          et vult dicere 
+          quod multum <unclear>gravites</unclear> 
+          peccasset et peccatum difficiliter fuisset remissum.
+        </p>
+        <p xml:id="pg-b2q9-d1e924">
+          Ad sextum, 
+          negatur consequentia secunda 
+          quia infinite partes faciunt tantum unum finitum 
+          sicut infinitae partes 
+          tantum faciunt unum finitum continuum, 
+          nam si ratio valeret.
+          Similiter probaretur 
+          quod quilibet actus meritorius meretur infinite praemiari 
+          et esset meritorius infinite. 
+          Patet quia non pauciores 
+          partes sunt in actu bono quam mala.
+        </p>
+        <p xml:id="pg-b2q9-d1e938">
+          Ad septimam, 
+          negatur maior 
+          quia licet illa obligatio sit infinita,
+          tamen commitens finitum actum contra infinitam obligationem 
+          non infinite peccat sed finite.
+          Et ad probationem, 
+          negatur consequentia 
+          quia ad duplum peccatum requiritur duplex 
+          conatus voluntatis
+        </p>
+        <p xml:id="pg-b2q9-d1e949">
+          Ad primum contra secundam conclusionem, 
+          dicitur quod debet intelligi 
+          sic id est quodlibet peccatum totaliter, 
+          non tamen aliquod tantum punietur 
+          quantum meruit iuste et condigne puniri.
+        </p>
+        <p xml:id="pg-b2q9-d1e958">
+          Ad secundam, 
+          negatur consequentia. 
+          Et cum probatur quia remittere,
+          ergo remittere infinitum gradum poenae privativum, 
+          et per accidens quia caret 
+          <pb ed="#L" n="185-r"/>
+          infinito malo poena sibi debite, 
+          sed non sequitur igitur 
+          de illo bono infinite gaudet.
+        </p>
+        <p xml:id="pg-b2q9-d1e971">
+          Posset etiam dici 
+          quod Deus non relaxat infinitam poenam 
+          quam dampnatus posset recipere 
+          quia solum finitam poenam creatura 
+          potest recipere seu percipere.
+        </p>
+        <p xml:id="pg-b2q9-d1e980">
+          Ad tertium, 
+          posset negari consequentia 
+          quia licet Deus non possit poenam omne 
+          quam demeruit peccator infligere, 
+          tamen hoc non provenit ex in potentia Dei omnipotentis, 
+          sed ex limitatione creatae perceptibilitatis.
+        </p>
+        <p xml:id="pg-b2q9-d1e990">
+          Secundo, 
+          posset concedi 
+          consequens quia posset demereri 
+          de se non dicit perfectionem 
+          simpliciter sed imperfectionem, 
+          ideo non est 
+          <app>
+            <lem n="est"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">q</del>
+            </rdg>
+          </app> 
+          inconveniens si creatura plus posset de 
+          mereri quam a deo posset puniri.
+        </p>
+        <p xml:id="pg-b2q9-d1e1003">
+          Ad quartam, 
+          negatur consequentia 
+          quia licet non possit 
+          ipsum tantum punire quantum meretur puniri, 
+          tamen Deus sufficienter peccatum 
+          punitive reordinat per quamcumque parvam poenam 
+          quam placeret sibi infligere.
+        </p>
+        <p xml:id="pg-b2q9-d1e1014">
+          Ad quintam, 
+          negatur consequentia 
+          quia tantum est iustus 
+          quantum misericors 
+          quia si Deus aliter miseretur iustum est 
+          ut illi misereatur 
+          ideo sumendo absolute 
+          iustitiam non contracte. 
+          Negatur consequentia 
+          sed si sumatur iustitia 
+          ut praescindit a minima sic potest concedi 
+          quod in aliquo apparent maioris 
+          effectus minime quam iustitiae 
+          quia maiorem poenam relaxat dampnatis quod infligat, 
+          ut patet per 
+          <cit>
+            <ref xml:id="pg-b2q9-Rd1e1031"><name>Magistrum</name> in 4</ref>
+            <bibl>XXX</bibl>
+          </cit>
+        </p>
+        <p xml:id="pg-b2q9-d1e1037">
+          Ad sextam, 
+          posset concedi consequens, 
+          et cum probatur, 
+          quia cum magis peccante etc., 
+          ergo negatur consequentia.
+        </p>
+        <p xml:id="pg-b2q9-d1e1044">
+          Secundo, 
+          potest dici 
+          quod quantitas minime 
+          non attenditur penes quantitatem poenae dimisse, 
+          sed pones quantitatem poenae inflictae. 
+          Unde pro peccato in duplo minori Deus 
+          poenam infligit in duplo minorem, 
+          ideo potest dici quod Deus misericordius agit cum eo in duplo 
+          quia pro sub duplo peccato non meruit 
+          tam intense omne poenam possibilem 
+          et imaginabilem,
+          sicut pro duplo 
+          ideo minorem in duplo infligit.
+        </p>
+        <p xml:id="pg-b2q9-d1e1063">
+          Ad septimam, 
+          negatur consequentia 
+          sumendo <mentioned>condignum</mentioned> 
+          pro puniri tantum quantum meruit puniri 
+          ex malitia operis.
+        </p>
+        <p xml:id="pg-b2q9-d1e1071">
+          Secundo, 
+          pro probatione dicitur 
+          quod licet velle divinum sit aequipollenter satisfactorium 
+          pro omni poena debita tamen illa condignitas vel satisfactio 
+          non provenit ex parte peccati poenae vel peccantis 
+          sed ex parte Dei illam acceptantis et miserentis.
+        </p>
+        <p xml:id="pg-b2q9-d1e1082">
+          Ad octavam, 
+          negatur consequentia 
+          quia licet puniat quantum iustitia minime Dei exigit, 
+          tamen posset ipsum ulterius iuste punire si sibi placeret, 
+          immo si non puniret sufficienter erraret.
+        </p>
+        <p xml:id="pg-b2q9-d1e1093">
+          Ad primam, 
+          contra tertiam conclusionem, 
+          si proportio poenarum, 
+          sequitur proportionem culparum, etc., 
+          dicitur quod existens in purgatorio 
+          habet dolorem alterius speciei, 
+          scilicet <unclear>vermem</unclear> conscientiae 
+          qui secundum diversitatem peccatorum diversificatur in mulis, 
+          sicut detestatio unius peccati est alterius speciei 
+          a detestatione alterius 
+          et ille dolor est quidem ignis 
+          ardens intrinsece mentes dampnatorum.
+        </p>
+        <p xml:id="pg-b2q9-d1e1110">
+          Secundo, 
+          dicitur pro <unclear>materia</unclear> 
+          quod magis fugibile esset pati 
+          quattuor gradus poenae sensus aeternaliter 
+          quam infinitam poenam sensus simul si illa esset. 
+          Patet quia 
+          minus fugibile esset pati 
+          quattuor gradus poenae uno die 
+          quam pati 
+          <pb ed="#L" n="185-v"/>
+          duo per tres dies ratio est 
+          quia perceptio mensurae 
+          etiam affligit patientem 
+          et non posset esse 
+          quod propter infinitam poenam inflictam apparet 
+          sibi dies infinitus,
+          licet sibi appareat maior et longior 
+          propter poenam graviorem.
+        </p>
+        <p xml:id="pg-b2q9-d1e1136">
+          Ad secundum, 
+          negatur consequentia 
+          tamen quia ignis variatur specifice 
+          tamen quia alias poenas multas patiuntur, 
+          sicut summam frigiditatem 
+          summam siccitatem, etc.
+        </p>
+        <p xml:id="pg-b2q9-d1e1145">
+          Secundo, 
+          posset negari antecedens 
+          quia ille ignis est 
+          instrumentum Dei, 
+          ideo mediante concursu vario 
+          divinae potentiae potest causare dolores 
+          et calores diversarum rationum, 
+          sicut communiter dicitur 
+          quod eadem gratia creata inclinat 
+          et efficit actus meritorios diversarum rationum 
+          nota de igne camini trium puerorum qui <unclear>causatabant</unclear> et causabat eis 
+          refrigerium. 
+          Et si inferatur 
+          ex hoc quod Deus agat continue in 
+          inferno miracula, 
+          dicitur quod illud non debet reputari miraculum 
+          quod non fit praeter consuetum modu 
+          nec ut raro sed continue nam a 
+          simili posset dici miraculum 
+          quod ignis agat in spiritum, 
+          et tamen omnis concedunt 
+          quod ignis agat in animas 
+          et spiritus dampnatos nec dicunt 
+          illud esse miraculum. 
+          Patet ergo quod ignis 
+          potest causare tot dolores 
+          quot sunt peccatorum species.
+        </p>
+        <p xml:id="pg-b2q9-d1e1184">
+          Ad tertiam, 
+          negatur consequentia 
+          quia quod veniale 
+          puniatur sic non est de per se 
+          sed ratione mortalis sibi coniuncti.
+        </p>
+        <p xml:id="pg-b2q9-d1e1191">
+          Secundo,
+          dicitur quod veniale punietur aeternaliter <unclear>verme</unclear> conscientiae 
+          alterius rationis et forte alterius generis 
+          a verme mortali correspondente.
+        </p>
+        <p xml:id="pg-b2q9-d1e1204">
+          Item, 
+          nota quod si essent infinita venialia sine Dei contemptu, 
+          licet mererentur poenitentiam 
+          infinitam alterius speciei a poena mortalis, 
+          tamen <add place="above-line">???</add> 
+          mererentur <name>Adae</name> separationem.
+        </p>
+        <p xml:id="pg-b2q9-d1e1220">
+          Ad quartam, 
+          negatur antecedens. 
+          Et ad probationem 
+          quia ratio formalis etc., 
+          hoc negatur. 
+          Ad probationem posset dici quod, 
+          licet contemptus sit in quolibet mortali, 
+          tamen ille contemptus non est differentia 
+          faciens specificam differentiam inter unum 
+          mortale et aliud sed solum 
+          ponit differentiam <unclear>g?mcam</unclear> 
+          inter veniale et mortale.
+        </p>
+        <p xml:id="pg-b2q9-d1e1238">
+          Secundo, 
+          diceret <name>Thomas de Argentina</name>, 
+          quod licet peccata actualia 
+          mortalia quo ad suum materiale 
+          quod est peccans se converti, 
+          tamen peccata considerata 
+          secundum suum esse formale 
+          quod est averti a bono incommunicabili,
+          sic omnia mortalia accidentalia sunt 
+          eiusdem speciei et rationis.
+        </p>
+        <p xml:id="pg-b2q9-d1e1253">
+          Ad quintam, 
+          negatur consequentia 
+          quia unum mortale intensius meretur 
+          omne poenam ymaginabilem quam aliud.
+        </p>
+        <p xml:id="pg-b2q9-d1e1263">
+          Ad ultimum, 
+          negatur consequentia 
+          quia unum infinitum potest esse duplum ad 
+          aliud infinitum in eadem specie et triplum et quadruplum, 
+          sicut aeterna poena unius dampnati 
+          ad aeternam poenam alterius.
+        </p>
+        <p xml:id="pg-b2q9-d1e1270">
+          Ad rationes in oppositum, 
+          patet solutio per dicta in quaestione.
+        </p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
