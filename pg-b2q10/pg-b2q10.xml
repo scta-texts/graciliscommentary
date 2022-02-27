@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 2, Quaestio 10</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 2, Quaestio 10</title>
+          <date when="2022-02-23">February 23, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-02-23" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="185-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b2q10">
+        <head xml:id="pg-b2q10-Hd1e95">Liber 2, Quaestio 10</head>
+        <p xml:id="pg-b2q10-d1e98">
+          Circa 30 distinctionem 21 quaeritur
+          Utrum aliquod purum obmittere sit per se mortaliter 
+          defficere 
+        </p>
+        <div type="rationes-principales">
+          <head>Rationes principales</head>
+        <p xml:id="pg-b2q10-d1e108">
+          Quia sic quia, 
+          si non sequitur quod obmittens facere 
+          quoddam sua conscientia dictat faciendum non peccaret.
+          Consequens est falsum 
+          <pb ed="#L" n="186-r"/>
+          quia talis difformat se conscientiae suae, 
+          et per consequens aedificat ad gehennam.
+        </p>
+        <p xml:id="pg-b2q10-d1e117">
+          Secundo, 
+          sequitur quod pura ignorantia 
+          non esset peccatum. 
+          Consequens est falsum 
+          quia tunc infidelis 
+          non credens articulos fidei 
+          non peccaret per non credere. 
+          Patet tamen consequentia 
+          quia ignorantia non est 
+          nisi privatio scientiae 
+          vel obmissio aliqua sciendi.
+        </p>
+        <p xml:id="pg-b2q10-d1e128">
+          Tertio, 
+          sequitur quod nulla esset differentia 
+          inter peccatum obmissionis et commissionis. 
+          Consequens est falsum, 
+          patet tamen consequentia 
+          quia potior differentia inter illa peccata assignabilis 
+          est quia commissio actum includit et obmissio ipsum excludit.
+        </p>
+        <p xml:id="pg-b2q10-d1e140">
+          In oppositum, 
+          nullus meretur praescise per non 
+          agere ergo nullus demeretur per 
+          purum obmittere. 
+          Consequentia patet 
+          per similem sed antecedens. 
+          Probatur quia omne meritum 
+          consistit in aliquo gradu actus voluntatis 
+          aliter dormientes mererentur et demererentur, 
+          quod est falsum.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 1</head>
+        <p xml:id="pg-b2q10-d1e153" n="Conclusio">
+          Prima conclusio, 
+          licet omnis <unclear>consientia</unclear> dictans aliquid fore 
+          faciendum contra divinum praeceptum sit erronea et debeat deponi, 
+          tamen stat aliquem agere secundum dictamine conscientiae erroneae 
+          et ipsum in sic agendo mereri. 
+          Prima pars probatur 
+          tum quia aliter sequeretur quod Sortes habens conscientiam erroneam dictantem 
+          quod Deus est odiendus licite posset 
+          secundum illam facere et Deum odire. 
+          Patet 
+          <app>
+            <lem n="patet"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">conforma</del>
+            </rdg>
+          </app> 
+          consequentia quia talis conscientia dictat aliquid faciendum 
+          contra divinum praecpetum. 
+          Secunda probatur 
+          quia habens conscientiam dictantem quod 
+          <app>
+            <lem n="quod"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del>deus est odiendus</del>
+            </rdg>
+          </app> 
+          sub poena peccati mortalis 
+          tenetur omnia bona sua temporalia 
+          propter Deum in caritate est mereri, 
+          ergo.
+        </p>
+          <!-- collapse above -->
+        <p xml:id="pg-b2q10-d1e181">
+          Item, 
+          quis credens quod de necessitate 
+          salutis tenetur servare virginitatem 
+          et carnis integritatem talis 
+          habet conscientiam erroneam 
+          quia credit quod consilium sit praeceptum et tamen 
+          faciens secundum illam servando virginitatem 
+          propter Deum meretur, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q10-d1e192" n="Corollarium 1">
+          Primum corollarium,
+          sicut stat viatorem faciendo 
+          secundum conscientiam erroneam esse merentem sic 
+          non quaelibet conscientia opposita conscientiae erroneae ad faciendum secundum illam 
+          obligat se habentem prima pars patet per conclusionem. 
+          Secunda patet 
+          quia habens conscientiam 
+          quod continentia sit cuilibet 
+          ad salutem neccessaria non obligatur 
+          ad non servandum 
+          continentiam aliter 
+          continens peccaret continendo se 
+          ab actu coniungali.
+        </p>
+        <p xml:id="pg-b2q10-d1e210" n="Corollarium 2">
+          Secundum corollarium, 
+          licitum est viatorem aliquid facere vel committere secundum 
+          dictamen conscientiae erroneae quam 
+          etiam tenetur de positione patet quia habens conscientiam 
+          dictantem quod quilibet de necessitate salutis tenetur intrare religionem 
+          et sic facere secundum illam, 
+          et tamen illam conscientiam tenetur deponere quia sic 
+          credere est error et dicere implicite 
+          quod consilia sunt praecepta quod non est tutum.
+        </p>
+        <p xml:id="pg-b2q10-d1e223">
+          Tertium corollarium, 
+          licet non sit licitum facere contra conscientiam erroneam 
+          quamcumque aut contra rationis dictamen tamen nulli licet facere secundum conscientiam 
+          erroneam circa neccessaria ad salutem. 
+          Prima pars patet quia quilibet faciens contra 
+          quamcumque conscientiam suam pectat, 
+          ergo ei non licet. 
+          Antecedens patet 
+          quia talis facit 
+          contra illud quod aestimat esse faciendum 
+          et contra illud quod credit divinae 
+          legi conforme. 
+          Secunda pars 
+          probatur quia aliter faciens habens conscientiam quod 
+          <pb ed="#L" n="186-v"/>
+          Deus non est trinus in personis 
+          non peccaret si illud crederet, 
+          quod est falsum. 
+        </p>
+        <p xml:id="pg-b2q10-d1e243">
+          Ex hiis 
+          sequitur quod licet habens conscientiam erroneam conscientiam erroneam se sciat 
+          habere tamen nullus scit se habere conscientiam erroneam patet quia hanc conscientiam 
+          scit se habere tamen nescit quod ipsa scit erronea.
+        </p>
+        <p xml:id="pg-b2q10-d1e254">
+          Ex hoc videtur sequi 
+          quod aliquod peccatum est possibile quod nullus potest scienter committere patet de scientia erronea 
+          circa neccessaria ad salutem quia nullus potest scire se errare quia si sic iam non 
+          erraret tamen homo potest scire se errasse et errando peccasse
+        </p>
+        <p xml:id="pg-b2q10-d1e265">
+          Secunda conclusio:
+          sicut nulla ignorantia de se est culpa aut imputabilis culpabiliter 
+          sic aliqua ignorantia a tanto culpam excusat et aliqua totaliter prima pars 
+          probatur quia ignorantia ut sic escusat culpam ergo ignorantia de se non est 
+          culpa  consequentia tenet quia nulla culpa excusat culpam aliam antecedens patet 
+          per <name>Apostolum</name>, 
+          dicentem, 
+          <cit>
+            <quote xml:id="pg-b2q10-Qd1e285" source="http://scta.info/resource/Itim1_13">
+              misericordiam consecutus sum quia ignorans feci
+            </quote>
+          </cit>.
+        </p>
+        <p xml:id="pg-b2q10-d1e289">
+          Secundo, omne 
+          peccatum est involuntate sed ignorantia non est involuntate ymmo in intellectu sicut 
+          scientia quae sibi opponitur
+        </p>
+        <p xml:id="pg-b2q10-d1e299">
+          Tertio, 
+          omne peccatum aut est originale aut actuale 
+          sed ignorantia non est originale 
+          quia tunc tolleretur in baptismo nec etiam est accidentale 
+          cum sit deffectus scientiae 
+          et per consequens pertinens ad intellectum et non ad voluntatem 
+          ergo 4o scire secundum se non est meritorium 
+          ergo nec ignorare scienda est de meritorium 
+          et per consequens nec peccatum. 
+          Antecedens patet quia scire articulos et alia neccessaria 
+          ad salutem stat cum peccato mortali.
+        </p>
+        <p xml:id="pg-b2q10-d1e315">
+          Secunda pars conclusionis 
+          probatur quia ignorantia minuit 
+          peccatum ergo excusat a tanto. 
+          Antecedens patet quia aliter peccatum ex certa 
+          malitia commissum et scientia  et ex ignorantia essent aequalia in eadem consequens 
+          est falsum quia semper ignorantia pro aliquali excusatione ab omnibus praetenditur.
+          Confirmatur per 
+          <ref xml:id="pg-b2q10-Rd1e334">
+            <name>Magistrum</name>, 
+            libro 2, 
+            distinctione 22
+          </ref>, 
+          dicente quod 
+          <quote xml:id="pg-b2q10-Qd1e339" type="paraphrase" source="http://scta.info/resource/pl-l2d22c5-d1e108">
+            ignorantia vincibilis non affectata in parte excusat peccatum
+          </quote>. 
+          Tertio, 
+          confirmatur per 
+          <cit>
+            <ref>
+              <title>Decretum</title> 34, 
+              quaestione 2a in lectu
+            </ref>
+          </cit> 
+          ubi dicitur in lectum mariti absente 
+          <app>
+            <lem n="absente"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">ab</del>
+            </rdg>
+          </app> 
+          uxore soror uxoris intravit 
+          quam maritus uxorem suam putans dormuit 
+          cum ea super hoc visum fuit 
+          si ipse per securitatem veram hoc probaverit 
+          quia <unclear>inscius</unclear> fecit hoc scelus poenitentiam 
+          quae sibi data fuerit agat 
+          legitamum suum coniugium habere permittatur, 
+          illa vero digna unidicta 
+          affligatur in aeternum privetur coniungio 
+          ex quibus patet ignorantiam minuere peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e370">
+          Tertia pars 
+          probatur quia ignorantia invincibilis excusat totaliter peccatum. 
+          Patet quia illud quod nullo modo est voluntarium nullo modo est imputabile 
+          ad culpam sed quodlibet factum ex ignorantia invincibili nullo modo est voluntarium 
+          <app>
+            <lem>ergo</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="margin-right">ergo</add>
+            </rdg>
+          </app>.
+          Confirmatur per 
+          <ref xml:id="pg-b2q10-Rd1e387">
+            <title>Decretum</title> 15, 
+            quaestione prima capitulo
+          </ref>, 
+          aliquis et sunt verba <name>Augustini</name>, 
+          ubi dicitur scimus 
+          subito dementes factos ferro fuste lapidibus morsibus multos 
+          nocuisse quosdam occidisse captos aut et iudici oblatos minime 
+          reos factos eo quod non voluntate sed impellente ut nescio quare haec gesserunt
+          <pb ed="#L" n="187-r"/>
+          nesciens quomodo enim reus constituitur qui nescit quid fecerit.
+        </p>
+        <p xml:id="pg-b2q10-d1e407">
+          Primum corollarium,
+          licet ignorantia quolibet alio secluso non sit culpa tamen ignorantia secundum 
+          se potest esse peccati causa prima pars patet per dicta 2a probatur quia aliqua peccata procedunt 
+          ex ignorantia sicut aliqua ex infirmitate, 
+          ut patet per <name>Magistrum</name>, 
+          igitur.
+        </p>
+        <p xml:id="pg-b2q10-d1e421">
+          Secundum corollarium, 
+          licet ignorantia affectata ut est ignorantia a tanto et non a toto 
+          excuset peccantem tamen peccatum sic ignoranter plus aggravatur ratione materiale 
+          affectionis quam excusetur per ignorantiam communicantem prima pars patet per probationem primae 
+          partis conclusionis  2a pars probatur quia non tamen bonum est ignorantia quantum mala est 
+          affectio mala ad aggravandum peccatum ipsius ignorantiae ergo non tantum prodest 
+          ad excusandum quantum nocet eius affectio ad aggravandum peccatum
+        </p>
+        <p xml:id="pg-b2q10-d1e441">
+          Tertium corollarium, 
+          licet homo possit peccare ex ignorantia quam ex culpa sua <add place="above-line">non</add> incurrit 
+          tamen furiosus si ex culpa sua furiam non incipit quantumlibet malum 
+          egerit novum peccatum non committit prima pars patet quia aliquias potest credere 
+          aliquod peccatum esse minus grave quam sit et alis ignorantia est multis occasio 
+          peccandi quia si scirent quandoque quam grave est peccatum tale nullo modo commiterent 
+          Secunda pars patet per tertiam partem conclusionis. 
+          Confirmatur per 
+          <ref xml:id="pg-b2q10-Rd1e462">
+            Decretum, 
+            35 quaestione prima capitulo
+          </ref>,
+          si quis informa de sacerdote qui in furia commiserat homicidium
+          dico tamen sicut quiddam dicunt quod furiosus ad sensum reversus fuerit debet 
+          poenitere et dolere de hiis quae in furiam sua commisit maxime si aliquid fecerit, 
+          unde sequitur malum rei publice ut puta si occiderit sapientem consiliarium.
+        </p>
+        <p xml:id="pg-b2q10-d1e477">
+          Secundo, 
+          notandum quod furiosus qui ex culpa propria furiam incidit 
+          ipsa manente licet peccare non possit noviter imputabiliter, 
+          tamen quamdiu erit in furia tali semper manebit in culpa seu maculatus culpabiliter. 
+          Prima patet per dicta secunda probatur 
+          quia durante furia poenitere non sufficit nec potest, 
+          ergo. 
+          Antecedens patet cum careat rationis usu. 
+          Patet consequentia quia accidentale mortale sine poenitentia non dimmititur, 
+          ut dicit 
+          <ref>
+            <name>Augustinus</name> de fide ad petrum
+            et ponitur 15 quaestione prima capitulo 
+          </ref>
+          merito firmissime inquit tene et nullatenus dubites 
+          exceptis qui pro Christi nomine suo sanguinem baptizatur nullum hominem 
+          accepturum vitam aeternam qui non hic a malis suis per poenitentiam fuerit 
+          ad fidem conversus.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 3</head>
+        <p xml:id="pg-b2q10-d1e508" n="Conclusio">
+          Tertia conclusio, 
+          licet non cuiuslibet 
+          <seg type="correction"><add place="above-line">ob</add><del>com</del>missionis</seg> 
+          causa sit aliquis actus 
+          commissionis tamen 
+          ut plurimum aliquis actus voluntatis <unclear>atecedit</unclear> causaliter peccatum obmissionis. 
+          Prima pars patet 
+          quia Deus dampnat et punit aeternaliter pro pura obmissione. 
+          Patet 
+          <ref xml:id="pg-b2q10-Rd1e529">Matthaeus 25</ref> 
+          ubi dicit 
+          <cit>
+            <quote xml:id="pg-b2q10-Qd1e532">christus esurivi et non dedistis mihi</quote>
+          </cit> 
+          etc.
+        </p>
+        <p xml:id="pg-b2q10-d1e537">
+          Item, 
+          surgere ad <unclear>matui?m</unclear> potest non surgere 
+          absque hoc quod vellit vel voluerit non surgere.
+        </p>
+        <p xml:id="pg-b2q10-d1e547">
+          Item, 
+          obmittens conteri de peccato commisso 
+          sine actu voluntatis peccat mortaliter 
+        </p>
+        <p xml:id="pg-b2q10-d1e555">
+          Item, 
+          occupatus circa illicita 
+          obmittens dictae horas ad quas tenetur sic quod nihil de horis dicendum
+          <pb ed="#L" n="187-v"/>
+          cogitet peccat mortaliter ergo quicumque obligatur aliquid aliquid 
+          si illud obmittit totaliter 
+          et ipse est causa illius obmissionis talis peccat. 
+          Secunda pars probatur 
+          quia ut plurimum culpabiliter obmittentes advertenter 
+          et deliberate obmittunt,
+          ergo. 
+          Antecedens patet 
+          quia saepe tales obmissiones praecedit autem concomitantur actus 
+          aliquis voluntarius vere vel interpretative per quem 
+          quis impeditur ne faciat quod facere tenetur 
+          et per consequens talis actus est 
+          causa illius ombissionis culpabilis.
+        </p>
+        <p xml:id="pg-b2q10-d1e578">
+          Primum corollarium, 
+          sicut stat aliquem mortaliter defficere 
+          et tamen nullum actum voluntatis 
+          elicere sic peccatum obmissionis quantum est 
+          de sua ratione non dicit aliquem 
+          actum elicitum vel imperatum a voluntate. 
+          Prima pars est praecedens conclusio. 
+          Secunda probatur 
+          quia aliter omne peccatum obmissionis est peccatum commissionis. 
+          Confirmatur prima pars 
+          quia dictet ratio sortis 
+          quod aliquid est ab eo volendum vel nolendum illa hora 
+          tunc sic iste potest illi iudicio se difformare et non per actum voluntatis 
+          ergo sine actu voluntatis potest peccare. 
+          Maior nota. 
+          Minor patet quia 
+          dato quocumque 
+          actu voluntatis in voluntate sortis, 
+          sequitur Sortem se non difformare, 
+          sed conformare se illi dictamini.
+        </p>
+        <p xml:id="pg-b2q10-d1e615">
+          Secundum corollarium, 
+          stat aliquam penam sensus aeternaliter
+          puniri et cruciari qui nullum actum habuit 
+          qui ad culpam debeat imputari. 
+          Patet quia aliquis potest mortaliter peccare obmittendo 
+          sine quocumque malo
+          actu voluntatis praecedente vel sequentem,
+          ut patet per dicta.
+        </p>
+        <p xml:id="pg-b2q10-d1e626">
+          Tertium corollarium, 
+          sequitur quod in casu qui minus male vel mala pauciora fecit plus punietur 
+          quam ille qui plura mala commisit. 
+          Patet quia possibile est aliquem multotiens 
+          mortaliter obmittere et raro 
+          vel numquam peccatum commisisse.
+        </p>
+        <p xml:id="pg-b2q10-d1e613">
+          Ex quo patet 
+          <app>
+            <lem n="patet"/>
+            <rdg wit="#L"><sic>patet</sic></rdg>
+          </app> 
+          quod stat viatorem suam gratiam amittere 
+          et nullum actum legi aut 
+          gratiae repugnantem committere 
+          patet ex eodem.
+        </p>
+        <p xml:id="pg-b2q10-d1e622">
+          Secundo, 
+          sequitur respondeo ad quaestionem 
+          quod licet 
+          nullum purum obmittere sit meritorie proficere, 
+          tamen aliquod purum obmittere 
+          est mortaliter defficere. 
+          Prima pars patet 
+          quia aliter sequeretur quod quotiens existens in gratia 
+          obmitteret peccatum quod posset committere totiens mereretur. 
+          Consequens est falsum 
+          quia sic dormiens mereretur 
+          et etiam furiosus in casu continue 
+          quod non est dicendum nec est simile de merito 
+          et peccato quia plura admeritum requiruntur 
+          quam ad de meritum 
+          nam prius est causaliter diligere iustitiam 
+          quam meritorie odire vel iniquitatem vitare, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q10-d1e642">
+          Confirmatur quia si purum obmitter esset meritum vel mereri hoc 
+          maxime esset de impletionem praecepti negativi sed ex non furari praecise non 
+          diligenter voluntas dei praecipientis nec diligenter iustitia nec servatur praeceptum 
+          ut patet per <name>augustinum</name> super psalmus 128
+        </p>
+        <p xml:id="pg-b2q10-d1e654">
+          Confirmatur quia finis praecepti est caritas 
+          vel dilectio ergo
+        </p>
+        <p xml:id="pg-b2q10-d1e662">
+          Ex dictis posset inferri aliqualiter quod licet per potentiam 
+          puram obmissionem quis efficiatur peior mortaliter tamen per exteriorem 
+          oportet sine interiori actu voluntatis nullus redditur malus culpabiliter 
+          prima pars patet per dicta 2a probatur quia secundum 
+          <ref xml:id="pg-b2q10-Rd1e672" target="http://scta.info/resource/aristneth-l5">
+            <name>Philosophum</name>,
+            V <title>Ethicorum</title>, 
+            tractatu 2o, 
+            capitulo 3o
+          </ref> 
+          iniustificatio nequaquamerit si non voluntarium assit. 
+          Etiam patet per 
+          <pb ed="#L" n="188-r"/>
+          Augustinum de minus reus etc.
+        </p>
+        <p xml:id="pg-b2q10-d1e688">
+          Secundo, 
+          sequitur quod licet actu exteriori malo non 
+          correspondeat distincta malitia a malitia interiorum, 
+          tamen actus exterior est 
+          circumstantia faciens, 
+          ut plurimum peccatum esse maioris intensionis.
+        </p>
+        <p xml:id="pg-b2q10-d1e698">
+          Secunda pars, 
+          patet quia volens furari aut fornicari 
+          quando furatur aut fornicatur 
+          ervor aut libido intenditur magis 
+          quam si opus exterius non sequeretur.
+        </p>
+        <p xml:id="pg-b2q10-d1e708">
+          Notandum tamen quod hoc habet veritatem in <unclear>opo?inbus</unclear> <unclear>delectativus</unclear> non aut in 
+          hiis quae habent horrorem annexum sicut est hominis mutiliatio vel interfectio 
+          quia in talibus propter horrorem facti saepe libido remittitur 
+        </p>
+        <p xml:id="pg-b2q10-d1e725">
+          Tertio, 
+          sequitur quod sicut actus 
+          interior et exterior sunt mali malitia eadem et eadem 
+          sic etiam apud Deum demerentur puniri eadem miseria poenali. 
+          Prima patet quia utrique actus dicitu malus et peccatum 
+          et duabus distinctis malitiis, 
+          ut patet ex dictis. 
+          Secunda pars patet ex eodem.
+        </p>
+        <p xml:id="pg-b2q10-d1e737">
+          Quarto, 
+          sequitur licet eandem poenam quis
+          mereatur per interiorem actum et per <sic>opari<!-- operari?? --></sic> exterius elective, 
+          tamen per illos duos actus non plus meretur 
+          quis puniri quam per unum intensive.
+        </p>
+        <p xml:id="pg-b2q10-d1e750">
+          Quinto, 
+          sequitur quod licet a Deo pro actu interiori 
+          et exteriori simul homo ceteris paribus non plus puniatur 
+          quam pro solo interiori, 
+          tamen pro utroque actu 
+          homo iuste plus punitur in foro ecclesiae seu exteriori. 
+          Probatur pars secunda 
+          quia ecclesia solum iudicat de visis 
+          et apparentibus per actus exteriores in foro exteriori 
+          Deus vero iudicat de interioribus cui sunt manifesta cordium consilia.
+        </p>
+        <p xml:id="pg-b2q10-d1e766">
+          Contra prima conclusionem, 
+          arguitur si aliquis haberet conscientiam 
+          erroneam sequitur quod esset nocens et innoscens, 
+          quod implicat. 
+          Consequentia probatur 
+          ponendo quod 
+          aliquis sit in gratia habens conscientiam 
+          quod sit in peccato tunc sic talis 
+          non tenetur facere contra conscientiam, 
+          ergo tenetur conteri de peccato.
+        </p>
+        <p xml:id="pg-b2q10-d1e777">
+          Item, 
+          ille dicit se esse in peccato 
+          et scit quod tenetur poenitere de peccato, 
+          igitur peccat nisi poeniteat de peccato 
+          et habetur propositum.
+        </p>
+        <p xml:id="pg-b2q10-d1e786">
+          Secundo, 
+          sequitur quod aliquis vere contritus 
+          non esset in statu salutis. 
+          Consequens est falsum probatur consequentia si quis sufficienter 
+          contritus credat quod iterum teneatur conteri de peccatis eiusdem nam si 
+          tunc obmittat peccat et non est in statu salutis ergo antecedens patet quia si 
+          non conteritur cum credat quod teneatur conteri ipse contempnit deum et eius perceptum 
+          et voluntatem
+        </p>
+        <p xml:id="pg-b2q10-d1e803">
+          Tertio, 
+          sequitur quod seclusa dispari acceptatione divinae 
+          voluntatis quilibet homo posset salvari in lege sua. 
+          Consequens est falsum, 
+          ut patet 
+          <ref xml:id="pg-b2q10-Rd1e811">
+            <title>Extra</title>,
+            de summa trinitate et fide catholica
+          </ref>, 
+          probatur tamen consequentia 
+          quia conscientia 
+          erronea et invincibilis excusat a peccato fit, 
+          ergo aliquis puer baptizatus 
+          et ponatur cum infidelibus 
+          et credat in aetate adulta sicut illi credunt 
+          tunc sic talis facit omne quod in se est ut sciat quae sit vera fides 
+          ergo sic credendo excusatur et salvatur. 
+          Patet consequentia quia si aufferret regi 
+          <unclear>auricalrum</unclear> credens firmiter se 
+          offerre aurum bonus rex haberet 
+          pro tam grato ac si verum aurum offerret, 
+          igitur a simili.
+        </p>
+        <p xml:id="pg-b2q10-d1e830">
+          Quarto, 
+          si quis adoraret
+          <pb ed="#L" n="188-v"/>
+          militem credens se adorare regem bonus 
+          et pius haberet pro tam grato 
+          ac si sibi honorem fecisset, 
+          ergo simplex homo adorans creaturam quam 
+          credit esse deum meretur.
+        </p>
+        <p xml:id="pg-b2q10-d1e843">
+          Quinto, 
+          sequeretur quod possibile esset quod <unclear>gt</unclear> paganus 
+          diu vivens secundum legem <name>machometi</name> 
+          et moriens in illa non pateretur 
+          maiorem poenam quam puer decedens sine baptismo. 
+          Consequentia patet quia est 
+          possibile quod aliquis paganus 
+          unde vixerit secundum legem suam et praeservaverit se 
+          a peccato <unclear>accidentali <!-- actuali ?? --></unclear> 
+          ergo si non addidit ad illud  peccatum aliud sequitur propositum 
+        </p>
+        <p xml:id="pg-b2q10-d1e873">
+          Sexto, 
+          probatur quod quilibet habens conscientiam erroneam 
+          tenetur facere secundum illam, 
+          et per consequens licitum est habenti facere secundum illam. 
+          Patet quia habens conscientiam erroneam peccat 
+          si non facit secundum illam, 
+          ergo tenetur facere secundum illam. 
+          Tenet consequentia 
+          quia 
+          nullus peccat nisi 
+          qui facit quod non debet facere 
+          vel quia non facit quod debet facere.
+        </p>
+        <p xml:id="pg-b2q10-d1e887">
+          Secundo, 
+          facere secundum invincibilem conscientiam suam est meritorium 
+          vel ergo illud est meritum praecepti vel consilii, 
+          non 2m quia obmittens opus consimilii 
+          non peccat sed obmittens facere 
+          secundum conscientiam suam peccat cum dictet 
+          sic esse faciendum, 
+          si dicitur primum sequeretur 
+          quod obligat habentem quod est propositum.
+        </p>
+        <p xml:id="pg-b2q10-d1e905">
+          Octavo, 
+          omne peccatum est contra legem Dei aeternam 
+          sed facere contra quamcumque conscientiam 
+          est facere contra legem dei ergo maior est Augustini 
+          et ultra omnis lex dei obligat 
+          quamlibet facere secundum illam, 
+          ergo conscientiam obligat facere habentem secundum illam.
+        </p>
+        <p xml:id="pg-b2q10-d1e916">
+          Nono, 
+          ponatur quod sortes habeat conscientiam 
+          quod proximus sit odiendus tunc sic 
+          iste tenetur obedire praecepto diliges proximum 
+          sicut te ergo non tenetur 
+          facere secundum conscientiam ergo faciendo ad quod tenetur peccat. 
+          Patet quia faciendo ad quod 
+          tenetur facit contra conscientiam.
+        </p>
+        <p xml:id="pg-b2q10-d1e928">
+          Decimo, 
+          illa lex est iustissima <unclear>q?e</unclear> 
+          obligat habentem ad faciendum aliquid 
+          quod si facit peccat sed illa lex 
+          est huiusmodi, 
+          ergo. 
+          Minor patet quia 
+          si diligit proximum facit 
+          contra conscientiam.
+        </p>
+        <p xml:id="pg-b2q10-d1e940">
+          11o lex dei hominem obligat ad non faciendum 
+          secundum conscientiam suam erroneam, 
+          et tamen si faceret secundum illam conscientiam peccaret, 
+          ergo lex Dei obligat ad peccandum.
+        </p>
+        <p xml:id="pg-b2q10-d1e951">
+          Confirmatur 
+          quia illud facere est peccatum ad illud obligatur 
+          homo ex Dei lege, 
+          ergo obligatur ad peccandum.
+        </p>
+        <p xml:id="pg-b2q10-d1e958">
+          Contra secundam conclusionem, 
+          arguitur quod ignorantia peccatum sit primo per 
+          <name>Apostolum</name> primae Corinthios 3o 
+          <quote xml:id="pg-b2q10-Qd1e967" source="http://scta.info/resource/Icor14_38">
+            ignorans ignorabitur
+          </quote>, 
+          sed nullus ignoratur a Deo 
+          nisi propter peccatum, 
+          ergo. 
+          Minor patet 
+          quia eius ignorare est reprobare, 
+          ut patet de fatuis virginibus dicitur 
+          <cit>
+            <quote xml:id="pg-b2q10-Qd1e975" source="http://scta.info/resource/mt25_12">
+              nescio vos
+            </quote>
+          </cit>,
+          <ref xml:id="pg-b2q10-Rd1e980">Matthaeus 25</ref>.
+        </p>
+        <p xml:id="pg-b2q10-d1e984">
+          Secundo, 
+          <ref xml:id="pg-b2q10-Rd1e988">
+            <title>Isaiae</title> 5
+          </ref>, 
+          dictum est 
+          <cit>
+            <quote xml:id="pg-b2q10-Qd1e993" source="http://scta.info/resource/is5_13">
+              propter ea captivus ductus est populus meus quia non habuit scientiam
+            </quote>
+          </cit>, 
+          sed spiritualis captivitas est praecise
+          ratione peccati, 
+          ergo carentia scientiae debite est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1002">
+          Tertio, 
+          per 
+          <ref>Ambrosium</ref> 
+          et 
+          ponitur in 
+          <ref>
+            glosa super illud
+            <quote source="http://scta.info/resource/rom2_4@10-17">
+              an ignorans quia patiam dei ad poenitentiam 
+              te adducit
+            </quote>
+          </ref>, 
+          ubi dicit 
+          <cit>
+            <quote source="http://scta.info/resource/gom-rom2-d1e160@4-17">
+              peccas quia inpunitatem tibi promittis gravius 
+              quia contempnis gravissime 
+              quia ignorans te contempnere
+            </quote>
+            <!-- v. 4, p. 1059r of strasburg edition -->
+            <!-- not clear if gloss is quoting ambrose or not -->
+          </cit>
+        </p>
+        <p xml:id="pg-b2q10-d1e1016">
+          Quarto, 
+          non facere ea 
+          <pb ed="#L" n="189-r"/>
+          quae tenemur est peccatum 
+          ergo non scire ea quae tenemur est peccatum, 
+          ergo ignorantia est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1027">
+          Quinto, 
+          quilibet tenetur non ignorare ea 
+          quae pertinent ad salutem,
+          ergo talem ignorantia est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1034">
+          Sexto, 
+          scientia quae est donum Spiritus Sancti est virtus,
+          ergo eius ignorantia opposita est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1041">
+          Contra secundam partem eiusdem conclusionis, 
+          arguitur quia si ignorantia excusaret 
+          aliquo modo peccatum aut peccatum quod est aut 
+          peccatum quod non est non primum 
+          quia peccans aliquo peccato non excusatur ab illo, 
+          immo reus est illo nec secundum 
+          quia nullus reus peccati 
+          quod non est nec 
+          sint nec plus excusatur ab illo 
+          quam unus alius homo 
+          sed frivolum esset 
+          dicere quod ignorantia sortis platonem excusaret 
+          a peccato igitur frivolum 
+          est dicere quod ignorantia sortis sortem excuset 
+          a peccato quod numquam commisit 
+          nec committere cogitavit.
+        </p>
+        <p xml:id="pg-b2q10-d1e1061">
+          Secundo, 
+          si ignorantia minuit peccatum sequitur quod nullus 
+          ex illa ignorantia poterit peccare venialiter. 
+          Consequens est contra 
+          <cit>
+            <ref>
+              <name>Augustinum</name>, 
+              libro 
+              <title>de libero arbitrio</title>
+            </ref>
+          </cit>. 
+          Consequentia patet 
+          quia cum ignorantia minuat mortale sequitur quod aufert aliquam 
+          portionem mortalis sed quaelibet portio mortalis est peior quacumque culpa 
+          veniali igitur si ignorantia iungatur veniali totaliter tollet venialis 
+          malitiam patet consequentia quia facilius est aufferre totam malitiam venialis 
+          quam quamcumque parvam portionem mortalis.
+        </p>
+        <p xml:id="pg-b2q10-d1e1083">
+          Tertio, 
+          si aufert aliquam partem sequitur 
+          eadem ratione quod aufert quamcumque 
+          quia non est maior ratio de una quam de alia.
+        </p>
+        <p xml:id="pg-b2q10-d1e1090">
+          Quarto, 
+          <unclear>Lameth</unclear> videtur plus peccasse occidendo <name>Cayin</name> quam <name>Cayin</name> occidendo 
+          <name>Abel</name> et tamen 
+          <app>
+            <lem n="tamen"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">ab</del>
+            </rdg>
+          </app> 
+          <name>Lameth</name> peccavit ex ignorantia, 
+          ut patet 
+          <ref><name>Genesis</name> 4o</ref>, 
+          ergo ignorantia non excusat. 
+        </p>
+        <p xml:id="pg-b2q10-d1e1121">
+          Quinto, 
+          si aliqua ignorantia excusaret peccatum totaliter 
+          sequitur quod tunc esset melior <unclear>contradictio</unclear> ignorantium quam scientium. 
+          Consequens est falsum. 
+          Patet consequentia 
+          quia ille status qui esset de se auferens peccatum 
+          videtur eligibilior quam ille qui non auferent sed augeret.
+        </p>
+        <p xml:id="pg-b2q10-d1e1135">
+          Sexto, 
+          contra hoc videtur propheta orans 
+          et petens veniam de peccatis ignorantiae 
+          dicens de licta iuventutis meae
+          et ignorans meas ne memineris
+        </p>
+        <p xml:id="pg-b2q10-d1e1144">
+          Septimo, 
+          ignorantia non excusat infidelem 
+          perseverantem in perfidia sua ergo. 
+          Antecedens patet 
+          5o quaestione prima capitulo 
+          ex voluntate in 9a 
+          quaestione frequenter innuitur 
+          quod ignorantia non excusat.
+        </p>
+        <p xml:id="pg-b2q10-d1e1153">
+          Octavo, 
+          sequitur quod Iudaei occidentes 
+          Christum ex ignorantia non peccassent. 
+          Consequens dampnatur inter 
+          haereses <name ref="#Abelard">Petri Abelardi</name>.
+        </p>
+        <p xml:id="pg-b2q10-d1e1166">
+          Nono, 
+          sequitur quod aliquis reportaret fucrum ex peccato 
+          suo seu ex ignorantia sua, 
+          quod est falsum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1173">
+          <sic>7o <!-- shouldn't this be 10o --></sic> dormiens peccat in 
+          sompniis ergo ignorans non excusatur a peccato. 
+          Tenet consequentia. 
+          Antecedens patet in 
+          <cit>
+            <ref target="http://scta.info/resource/gd-p1d6-d1e123">canone distinctione 6a capitulo 
+              <quote type="incipit" source="http://scta.info/resource/gd-p1d6-d1e123@12-12">testamentum</quote>
+            </ref>
+            <!-- imprecise target; not sure if there is an exact quote here somewhere -->
+          </cit>, 
+          ubi dicitur quod pollutio in sompniis est peccatum. 
+          Item, 
+          <cit>
+            <ref target="http://scta.info/resource/gd-p2c32q7-d1e252@18-26">
+              32 questione, 
+              7 capitulo 
+              <quote type="incipit" source="http://scta.info/resource/gd-p2c32q7-d1e252@10-10">
+                <sic>quamadmodum</sic>
+              </quote>
+            </ref>
+            <bibl>
+              Gratianus,
+              Decretum,
+              p. 2, causa 32, q. 7, c. 10
+            </bibl>
+          </cit>, 
+          dicitur,
+          <cit>
+            <quote>
+              sunt enim peccata ignorantium quamvis 
+              minora quam scientium
+            </quote>
+            <bibl>
+              Augustinus, 
+              de Adulterinis, 
+              I, c. 9
+            </bibl>
+          </cit>.
+        </p>
+        <p xml:id="pg-b2q10-d1e1189">
+          XIo, 
+          sequitur quod ignorantia invincibilis esset affectanda.
+          Patet quia illud est affectandum et bonum per quodam vitatur peccatum. 
+          Sed consequens 
+          est contra 
+          <ref>
+            <name>Augustinum</name>, 
+            <title>ad Valentinum</title>
+          </ref>,
+          et recitat 
+          <cit>
+            <ref target="http://scta.info/resource/pl-l2d22c5-d1e116@26-39">
+            <name>Magister</name>, 
+              libro 
+              <app>
+                <lem>2</lem>
+                <rdg wit="#L" type="correction-substitution" facs="189r/37">
+                <subst>
+                  <del>22</del>
+                  <add>2</add>
+                </subst>
+              </rdg>
+              </app>, 
+              distinctione 22a
+            </ref>
+            <bibl>
+              <name>Lombardus</name>,
+              II <title>Sent.</title>, 
+              d. 22, c. 5
+              (XXX)
+              
+              
+            </bibl>
+          </cit>, 
+          ubi inquit <name>Augustinus</name>, 
+          <cit>
+            <quote>
+              non ideo confugiendum est ad ignorantiae tenebras 
+              ut in eis quisquam excusationem requirat
+            </quote>
+            <bibl>
+              <name>Augustinus</name>, 
+              <title>Ad valentinum</title>
+            </bibl>
+          </cit> 
+          etc.
+        </p>
+        <p xml:id="pg-b2q10-d1e1215">
+          12o contra unum corollarium,
+          <pb ed="#L" n="189-v"/>
+          si furiosus excusaretur a peccato commisso in furia quam incidit ex sua talis 
+          prima hoc esset ideo quia vitare non posset. 
+          Sed hoc non sufficit, 
+          ut per 
+          <ref xml:id="pg-b2q10-Rd1e1225">
+            <name>Anselmum</name>,
+            libro <title>Cur Deus Homo 24</title>
+          </ref>, 
+          dicente discipulo qui deo quod debet non reddit 
+          si illud reddere potest iniustus est si reddere non potest quomodo iniustus est, 
+          cui respondet <name>Anselmus</name> si nulla inquit est causa <unclear>impotentiae</unclear> in ipso aliquatenus 
+          excusari potest sed proprie in potentia culpa est sicut non alleviat peccatum 
+          ita non excusat non reddere debitum  nam si quis iniungat aliquod 
+          opus servo suo et praecipiat ei ne <unclear>dei?ceat</unclear> se <unclear>in foneam</unclear> quam illi modo 
+          strat unde nullo modo exire possit et ille contempnens praeceptum deum 
+          se <unclear>inmittat</unclear> in monstratum fossam et nullo modo possit <unclear>invinctum</unclear> facere 
+          putas ne istam impotentiam aliquatenus vallere ad excusationem cum opus 
+          <unclear>invinctum</unclear> non faciet quasi diceret quod non ergo
+        </p>
+        <p xml:id="pg-b2q10-d1e1278">
+          13o, 
+          motus carnis imputatur ad culpam, 
+          et tamen non sunt in potestate voluntatis 
+          ergo a simili illa quae in furia committantur. 
+          Antecedens patet per eundem 
+          <ref xml:id="pg-b2q10-Rd1e1286">
+            <name>Anselmum</name> 
+            <title>De concordia</title>, 
+            capitulo 7o
+          </ref>.
+        </p>
+        <p xml:id="pg-b2q10-d1e1295">
+          14o, 
+          furiosis imponitur poenitentia 
+          et post furiam puniuntur, 
+          ergo.
+        </p>
+        <p xml:id="pg-b2q10-d1e1303">
+          Contra tertiam conclusionem, 
+          arguitur si pura 
+          obmissio esset peccatum, 
+          sequeretur quod obmittens aliquid 
+          ad <unclear>quoddam</unclear> tenetur per aliquod 
+          tempus et per partes omnes illius temporis 
+          infinite peccaret intensive. 
+          Consequens est falsum. 
+          Consequentia probatur 
+          quia in qualibet parte illius temporis est culpabilis.
+        </p>
+        <p xml:id="pg-b2q10-d1e1317">
+          Secundo, 
+          sequitur quod ceteris paribus plus peccaret 
+          qui maius bonum obmitteret quam qui minus. 
+          Consequens est falsum 
+          quia tunc obmissio consiliorum esset peior obmissione praeceptorum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1328">
+          Tertio, 
+          pura obmissio non est voluntaria, 
+          ergo non est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1334">
+          Quarto, 
+          sequitur quod dormiens peccaret et demeretur apparet 
+          de illo qui tenetur surgere 
+          ad <unclear>matutinum</unclear> nam ipsum tunc surgere 
+          non est in potestate sua nec talis in 
+          potentia provenit ex culpa sua ut supponitur.
+        </p>
+        <p xml:id="pg-b2q10-d1e1348">
+          Quinto, 
+          sequitur quod quilibet obmittens 
+          malum propter Deum infinite meretur. 
+          Consequens est falsum. 
+          Probatur consequentia 
+          quia non minus meritorium est obmittere malum 
+          quam sit demeritorium obmittere 
+          bonum sed quilibet obmittens malum obmittit infinitum malum, 
+          ergo infinite meretur.
+        </p>
+        <p xml:id="pg-b2q10-d1e1361">
+          Sexto, 
+          praecipiatur <name>Sorti</name> quod faciat <c>a</c> actum ante <c>b</c> et obmittat 
+          sortes <c>a</c> et sit in <c>b</c> mortus tunc arguitur quod <name>Sortes</name> numquam peccavit 
+          peccato obmissionis quia numquam peccavit ante <c>b</c> nec in <c>b</c> nec post 
+          <c>b</c> ergo non primum quia si sic sit ergo <c>c</c> instans in quo peccavit ante <c>b</c> 
+          tunc sic inter <c>c</c> et <c>b</c> est tempus medium et in illo potuit <c>a</c> actum facere 
+          ergo non peccavit in <c>c</c> et sic arguitur de quolibet <unclear>alio <!-- 7o ? --></unclear> instanti inter c 26
+          et ante <c>c</c> sed quod nec 2m nec 3m possunt dici patet quia praecise ante <c>b</c> tenebatur 
+          facere et non in <c>b</c> nec post <c>b</c>  nota rationes quod actus exterior addat 
+          malitiam in fine
+        </p>
+        <p xml:id="pg-b2q10-d1e1447">
+          Ad primum, 
+          conceditur consequens tamquam possibile, 
+          et negatur consequentia quod aliquis 
+          simul esset nocens etc quia ubi sua conscientia dictat quod sub poena peccati 
+          <pb ed="#L" n="190-r"/>
+          debet de peccatis conteri si non conteratur cum potest peccat et sic de innoscente fit 
+          nocens. 
+          Et si dicitur 
+          quod talis poenitendo se <sic>in iuste</sic> puniret, 
+          dicitur quod non 
+          quia etiam <name>Iohannes Baptista</name> non <unclear>peccavera</unclear>, 
+          et tamen se affligebat et non iniuste.
+          Ad confirmationem, 
+          dicunt quidem 
+          quod consequentia non est necessaria.
+        </p>
+        <p xml:id="pg-b2q10-d1e1479">
+          Secundo,
+          posset dici quod dum <name>Sortes</name> considerat 
+          quod est in peccato mortali et deliberat non 
+          potest ita cito poenitere, 
+          ideo consequentia posset negari 
+          nisi adderetur habet conscientiam 
+          quod est in peccato per tempus 
+          quod sufficit ad contritionem 
+          et non conteritur 
+          ergo peccat nam talis consideratio 
+          habet praecedere contritionem 
+          ad quam etiam requiritur tempus certum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1499">
+          Ad secundam, 
+          negatur consequentia. 
+          Et ad probationem, 
+          dicitur quod in illo casu 
+          debet iterum conteri 
+          et sic posset dici quod non quilibet contritionis gradus 
+          sufficeret ad salutem conterentis 
+          sic <unclear>r?cedentis</unclear>
+        </p>
+        <p xml:id="pg-b2q10-d1e1511">
+          Ad tertiam, 
+          posset concedi 
+          consequens maxime 
+          si illa conscientia erronea 
+          circa legem talem esset omnino invincibilis.
+        </p>
+        <p xml:id="pg-b2q10-d1e1520">
+          Tertio, 
+          dicitur de primo baptizato posito inter infideles et 
+          credente <unclear>adolente</unclear> modo infidelium dicitur 
+          quod si in aetate adulta fecit 
+          quod in se est lege stante Deus eum illuminabit et inspirabit, 
+          quae sit fides vera, 
+          et lex nisi sit in poena peccati sui, 
+          et sic accipiet baptismum flaminis
+        </p>
+        <p xml:id="pg-b2q10-d1e1540">
+          Ad quatam, 
+          posset dici quod possibile est aliquem tantum mereri adorando dyabolum 
+          sicut adorando dum 
+          quia actus interior et mens ad 
+          deum erigitur et fertur 
+          non ad hoc quod corporaliter 
+          videtur se gestus exteriores
+          ad visibile <unclear>tierentur</unclear>.
+        </p>
+        <p xml:id="pg-b2q10-d1e1554">
+          Ad quintam, 
+          consimiliter dicitur sicut prius quod si talis 
+          non esset illuminatus a deo mente 
+          vel immediate nec per homines 
+          nec per aliud si non fecisset aliud peccatum.
+          Posset concedi consequens,
+          sed difficile esset ipsum sic vivere.
+        </p>
+        <p xml:id="pg-b2q10-d1e1565">
+          Secundo, 
+          dicitur quod lege nostra stante 
+          si ille fecerit 
+          quod in se est illuminabitur 
+          a Deo nisi sit in poena peccati.
+        </p>
+        <p xml:id="pg-b2q10-d1e1573">
+          Ad sextam, 
+          posset negari consequentia 
+          quia tenetur talem conscientiam 
+          deponere et tunc non difformabit se, 
+          et cum probatur, 
+          <cit>
+            <quote source="http://scta.info/resource/pg-b2q10-d1e873@39-41">
+              quia nullus peccat
+            </quote>
+          </cit>, 
+          etc. 
+          dicitur ad hoc quod aliquis peccat faciendo 
+          id quod tenetur facere non 
+          quia facit illud 
+          sed quia illud facit contra 
+          iudicium rationis et 
+          quia facit illud ad quod credit obligari ex divina lege 
+          nam habens conscientiam erroneam 
+          et faciens contra illam facit 
+          contra illud ad quod credit obligari, 
+          ideo peccat.
+        </p>
+        <p xml:id="pg-b2q10-d1e1597">
+          Ad septimam, 
+          dicitur quod est 
+          meritum praecepti vel aequipolens <unclear>illid</unclear> 
+          quia habens talem conscientiam credit 
+          se secundum conscientiam debere facere 
+          ideo quantum ad observantiam aequipolet merito praecepti.
+        </p>
+        <p xml:id="pg-b2q10-d1e1608">
+          Ad octavam, 
+          posset negari maior, 
+          licet omne peccatum sit contra legem aeternam 
+          vel contra illud quod putatur esse lex vel conforme legi aeternae modo 
+          habens conscientiam erroneam credit 
+          quod lex sit bona et non erronea.
+          Et ad probationem 
+          dicitur quod omne peccatum est dictum 
+          contra legem dei aeterna 
+          vel contra illud quod putatur esse lex.
+        </p>
+        <p xml:id="pg-b2q10-d1e1622">
+          Ad nonam, 
+          conceditur consequens 
+          ut prius quia quamvis teneatur diligere proximum, 
+          tamen ipse credit se non teneri ad hoc, 
+          sed
+          <pb ed="#L" n="190-v"/>
+          ad oppositum ideo peccat faciendo 
+          contra illud ad quod credit obligari 
+          sed contra quia iste non agit difformiter legi divinae 
+          ergo non peccat antecedens patet 
+          quia facit quod lex iubet.
+        </p>
+        <p xml:id="pg-b2q10-d1e1669">
+          Ad hoc, 
+          dicitur quod, 
+          licet non agat difformiter ad legem divinam, 
+          tamen agit difformiter ad illud quod putat esse legem 
+          divinam nam si sortes vellet et crederet interficere regem et occideret 
+          loco eius militem vel alium rex multum haberet pro malo si scieret 
+          sortis intentionem.
+        </p>
+        <p xml:id="pg-b2q10-d1e1680">
+          Item, 
+          si sortes deberet occidere platonem ex 
+          praecepto regis et sortem putando occidere regem occideret platonem 
+          ipse faceret quod deberet et tamen graviter peccaret et graviter puniendus esset 
+          si regi constaret modo deus scit intentiones homini.
+        </p>
+        <p xml:id="pg-b2q10-d1e1691">
+          Ad decimam, 
+          conceditur antecedens si talis lex obligaret habentem 
+          ad faciendum aliquid quod putaret 
+          conscientiam illam esse legem Dei 
+          sed sic non est in proposito. 
+        </p>
+        <p xml:id="pg-b2q10-d1e1701">
+          Ad 11m, 
+          posset negari 
+          <app>
+            <lem n="negari"/>
+            <rdg wit="#L">
+              <del>consquentia</del>
+            </rdg>
+          </app> 
+          minor ratio est 
+          quia tenetur de ponere illam conscientiam,
+          et tunc si non facit secundum illam non peccat 
+          quia non difformat se illi cum non sit.
+        </p>
+        <p xml:id="pg-b2q10-d1e1715">
+          Ad 13m, 
+          dicitur quod diligere 
+          proximum non est de se peccare vel peccatum 
+          sed diligere ipsum cum <unclear>difformate</unclear> 
+          ad illud quod putatur esse lex illud est 
+          peccatum modo ad sic facere 
+          non obligat lex divina, 
+          ideo non sequitur quod lex 
+          aliquem obliget ad peccandum 
+          quia quod <unclear>peccare</unclear> non est ex lege 
+          quia <unclear>facio</unclear> 
+          quod lex praecipit sed 
+          quia facio illud, 
+          quod puto esse contra legem Dei.
+        </p>
+        <p xml:id="pg-b2q10-d1e1736">
+          Ad primum contra 2am conclusionem, 
+          conceditur antecedens, 
+          non tamen ignorantur 
+          quia ignorare de 
+          se est peccare 
+          sed quia est effectus peccati.
+        </p>
+        <p xml:id="pg-b2q10-d1e1744">
+          Pro solutione tamen omnium rationum,
+          est notandum quod <mentioned>ignorantia</mentioned> sumitur dupliciter. 
+          Uno modo pro opposito scientiae. 
+          Secundo modo indirecte 
+          pro vitio voluntatis nolentis scire. 
+          Primus modus sub dividitur in duo membra 
+          quia quandoque capitur proprie pro opposito <unclear>privativo</unclear> ipsius 
+          scientiae quod est nescire vel non scire, 
+          capitur quandoque pro opposito contrario 
+          ad scire scilicet pro errore positivo, 
+          et vocatur quandoque ignorantia dispositionis 
+          circa ea quae quis debet scire. 
+          Adhuc <mentioned>ignorantia</mentioned> privative sumpta capitur 
+          tripliciter. 
+          Primo modo generaliter pro simplici nesciam respectu illorum quae non tenetur 
+          quis scire. 
+          Secundo modo pro nesciam eorum 
+          quae sunt circa agibilia ad moralem 
+          vitam pertinentia quae quis tenetur scire. 
+          Tertio modo respectu eorum quae quis 
+          scire tenetur et iubetur.
+        </p>
+          <!-- collapse -->
+        <p xml:id="pg-b2q10-d1e1794">
+          Et similiter posset tripliciter sui ignorantia contraria 
+          quia error posset esse circa ea 
+          quae quis non tenetur scire vel circa principia 
+          agibilium vel circa credenda.
+        </p>
+        <p xml:id="pg-b2q10-d1e1803">
+          Item, 
+          quaedam est ignorantia affectata et vincibilis 
+          quaedam invincibilis 
+          pro tunc et quaedam invincibilis simpliciter. 
+          De primo dicitur in psalmo noluit intelligere ut bene agent. 
+          De secunda, 
+          dicit apostolus ut 
+          supra ignorans ignorabitur. 
+          De tertia, 
+          dicitur communiter quod excusat totaliter.
+        </p>
+        <p xml:id="pg-b2q10-d1e1823">
+           Item, 
+           quaedam dicitur ignorantia iuris quaedam facti.
+        </p>
+        <p xml:id="pg-b2q10-d1e1830">
+          Item, 
+          quaedam est ignorantia
+          <pb ed="#L" n="191-r"/>
+          iuris divini ut credere trinitatem. 
+          Alia est iuris positivi quod est ius canonicum, 
+          ut confiteri sacerdoti.
+        </p>
+        <p xml:id="pg-b2q10-d1e1639">
+          Item, 
+          ignorantia facti quaedam est 
+          circa neccessaria ad salutem 
+          ut me esse baptistum alia vero non 
+          ut me esse confirmatum 
+          quia non est sacramentum neccessitatis simpliciter.
+        </p>
+        <p xml:id="pg-b2q10-d1e1648">
+          Ad secundum, 
+          quod est dictum <name>Ambrosii</name> dicitur 
+          quod debet exponi gravissime peccans, 
+          id est <unclear>periculossime</unclear> quis peccat ex ignorantia 
+          quia ignorans peccatum suum non quaerit medicinam 
+          non tamen ignorantia de se est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1664">
+          Ad tertium, 
+          quod est dictum <name>Isidorum</name> 
+          dicitur quod captivatio spiritualis 
+          non est propter ignorantiam simpliciter et principaliter, 
+          sed propter peccatum praecedens quod non excusatur per ipsam. 
+        </p>
+        <p xml:id="pg-b2q10-d1e1676">
+          Ad quartam, 
+          negatur consequentia quis scire 
+          quid debemus facere 
+          ut sic non est meritum, 
+          licet sit antecedens ad meritum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1686">
+          Ad quintam, 
+          negatur consequentia, 
+          sed bene sequitur 
+          conceptus vel neglimentia 
+          sciendi illa est peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1695">
+          Ad sextam, 
+          negatur antecedens sumpta scientia 
+          cum praescisione. 
+          Secundo, 
+          potest consequentia negari.
+        </p>
+        <p xml:id="pg-b2q10-d1e1702">
+          Ad primum contra secundam partem conclusionis, 
+          dicendum quod excusat 
+          peccatum quod esset 
+          si illa ignorantia sit invincibilis.
+        </p>
+        <p xml:id="pg-b2q10-d1e1709">
+          Item, 
+          minuit peccatum 
+          quia seclusa ignorantia 
+          si peccatum fieret esset maius 
+          quam cum fit cum tali ignorantia.
+        </p>
+        <p xml:id="pg-b2q10-d1e1719">
+          Sed contra 
+          quia tunc a simili malitia excusaret 
+          quia minus peccat magnus peccator 
+          si mentitur quam perfectus homo 
+          si etiam mentitur ergo videtur <c>a</c> 
+          simili quod quanto quis erit maior peccator tanto minus peccabi, 
+          quod est falsum. 
+          Hic negatur consequentia 
+          quia dempta omni malitia nullum esset peccatum 
+          cum peccatum sit malitia, 
+          licet enim perfectio hominis cadentis in culpam 
+          sit circumstantia aggravans propter ingratitudinem 
+          et inclinationem ad oppositum cum malitia in peccante praeexistens est 
+          et circumstantia non minuens 
+          sed aggravans peccatum tantum vel plus.
+        </p>
+        <p xml:id="pg-b2q10-d1e1745">
+          Secundo,
+          sumendo <mentioned>excusare</mentioned> vel <mentioned>minuere</mentioned> 
+          large pro minus imputari sic concederent 
+          aliquid quod malitia excusat peccatum et maior magis.
+        </p>
+        <p xml:id="pg-b2q10-d1e1754">
+          Ad secundam, 
+          negatur consequentia. 
+          Ad probationem,
+          dicitur etiam 
+          quod consequentia non valet 
+          quia nec etiam sequitur iste meretur vitam aeternam, 
+          ergo meretur venailis remissionem, 
+          et tamen prima est magis quam secundum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1764">
+          Secundo,
+          dicitur quod sufficiet quod ignorantia excuset 
+          et <unclear>inniat?</unclear> veniale aliqualiter suo modo, 
+          licet non totaliter.
+        </p>
+        <p xml:id="pg-b2q10-d1e1776">
+          Ad tertiam, 
+          negatur consequentia 
+          quia non excusat nec tollit aliquem partem peccati 
+          quae sit vel fuerit commissa sed quae fuisset si ignorantia non esset adiuncta. 
+          Unde si ratio valeat solum habet locum in diminutione proprie dicta.
+        </p>
+        <p xml:id="pg-b2q10-d1e1788">
+          Ad quartam, 
+          de <name>Lameth</name> dicitur quod non habuit ignorantiam invincibilem 
+          quia non apposuit diligentiam 
+          quam debuit et potuit et dabat 
+          ut videtur operam rei illicitae saltem ei 
+          quia caecus non licebat sibi credere puero 
+          ipsum ducenti cum parva ex animatione.
+        </p>
+        <p xml:id="pg-b2q10-d1e1802">
+          Ad 5m, 
+          negatur consequentia 
+          quia licet ignorantia aliquando 
+          pro sit per accidens et scientia obsit indirecte 
+          tamen absolute et per se scientia est apta nata 
+          magis proficere habenti ideo melius est
+          <pb ed="#L" n="191-v"/>
+          simpliciter scire quam ignorare.
+        </p>
+        <p xml:id="pg-b2q10-d1e1815">
+          Ad sextam, 
+          potest concedi quod 
+          ignorantia potest esse occasio peccati,
+          ideo propheta orat sibi illa ignosci.
+        </p>
+        <p xml:id="pg-b2q10-d1e1822">
+          Secundo, 
+          posset dici quod sumit 
+          ignorantiam pro vitio voluntatis 
+          nollentis scire etc.
+        </p>
+        <p xml:id="pg-b2q10-d1e1831">
+          Ad septimam, 
+          dicitur quod,
+          licet infideles non excusentur, 
+          tamen actus eorum 
+          qui ex ignorantia invincibili 
+          procedunt non imputantur eis 
+          ad novam culpam vel ad demeritum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1842">
+          Ad octavam, 
+          negatur consequentia quia ipsi non <unclear>haberunt</unclear> invincibilem ignorantiam 
+          simpliciter cum ex actibus Christi virtutem creatae naturae excedentibus sufficientius 
+          inferre potuisset Christum verum deum esse et hominem.
+        </p>
+        <p xml:id="pg-b2q10-d1e1851">
+          Ad nonam, 
+          dicitur quod per accidens et occasionaliter 
+          aliquis potest reportare <unclear>luc?m</unclear> ex ignorantia, 
+          non tamen de per se 
+          quia per scientiam homo potest peccatum vitare 
+          et magis proficere.
+        </p>
+        <p xml:id="pg-b2q10-d1e1863">
+          Ad 10m,
+          negaret consequentia 
+          quia dormiens simpliciter non est ignorans. 
+          Ad decretum, 
+          dicitur quod intelligitur 
+          quod aliqua sunt peccata 
+          nescientium vincibiliter, 
+          non invincibiliter.
+        </p>
+        <p xml:id="pg-b2q10-d1e1872">
+          Ad 11m, 
+          negatur consequentia. 
+          Unde licet excuset ignorantia, 
+          si tamen esset affectata 
+          non excusaret sed aggraveret. 
+          Ex quo patet 
+          quod non omne illud est affectandum 
+          quod si esset excusaret peccatum.
+        </p>
+        <p xml:id="pg-b2q10-d1e1885">
+          Ad <unclear>1m <!--13m--></unclear>, 
+          dicitur concedendo consequens ad <name>Anselmum</name> 
+          dicitur quod in potentia non excusat a peccato 
+          per quod homo incidit 
+          in illam in potentiam ita nec 
+          <app>
+            <lem>furia</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del>infuria</del>
+                <add>furia</add>
+              </subst>
+            </rdg>
+          </app> 
+          excusat a peccato per quod homo incidit infuriam. 
+          Unde ille 
+          qui proiecit se <unclear>infoneam</unclear> 
+          primo peccavit volendo se proicere <unclear>infoneam</unclear>, 
+          contra prohibitionem factam sibi. 
+        </p>
+        <p xml:id="pg-b2q10-d1e1912">
+          Secundo, 
+          peccavit volendo se non 
+          implere opus sibi invinctum a domino suo 
+          et ab illis peccatis non excusatur 
+          propter in potentiam suam immo rationabiliter est puniendus <unclear>produ?ci</unclear> transgressione 
+          quia utrumque praeceptum transgredi voluit saltim interpretative, 
+          sed sic intelligit <name>Anselmus</name> 
+          nec est contra dicta.
+        </p>
+        <p xml:id="pg-b2q10-d1e1935">
+          Ad 13m, 
+          dicitur quod nec illi 
+          qui vere nec illi 
+          qui interpretative sunt voluntari 
+          nec sunt peccata nec imputantur,
+          tamen ex fomite malo 
+          qui non est in potestate nostra frequenter voluntarie 
+          peccamus et illum fomitem dicebat apostolus invite se habere 
+          quia non poterat facere quin illum haberet.
+        </p>
+        <p xml:id="pg-b2q10-d1e1948">
+          Ad ultimum, 
+          dicitur quod tales furiosi 
+          non puniuntur quia peccaverunt infuria 
+          sed quia ut ulterius horreant 
+          peccatum committere per quod incurrunt talemm furiam 
+          et etiam quia totum tempus 
+          conclusio fuerit infuria perdiderunt.
+        </p>
+        <p xml:id="pg-b2q10-d1e1959">
+          Item, 
+          eius imponitur poenitentia 
+          quia utile est cuilibet de male factis poenitere 
+          et si non peccaverit in tali facto 
+          tamen peccat, 
+          in alio et etiam meretur insuscipiendo poenitentia.
+        </p>
+        <p xml:id="pg-b2q10-d1e1971">
+          Ad primum
+          contra 3am conclusionem, 
+          negatur consequentia. 
+          Et ad probationem dicitur 
+          quod non meretur maiorem poenam 
+          intensive sed bene extensive 
+          quia multiplicius meretur eadem poenam.
+        </p>
+        <p xml:id="pg-b2q10-d1e1980">
+          Ad secundam, 
+          conceditur consequens. 
+          Et cum arguitur, 
+          quia una privatio non est peior alia, 
+          hoc negatur. 
+          Et cum infertur quod, 
+          tunc obmissio consiliorum etc., 
+          hoc negatur 
+          quia creata 
+          non sunt parai 
+          quia consilia 
+          non sic obligant.
+        </p>
+        <p xml:id="pg-b2q10-d1e1992">
+          Ad tertium, 
+          negatur consequentia.
+          <pb ed="#L" n="192-r"/>
+          Secundo, 
+          posset dici quod <mentioned>voluntarium</mentioned> potest accipi multipliciter. 
+          Primo modo pro omni actu 
+          elicito vel imperato a voluntate. 
+          Secundo, 
+          modo pro eo cuius causa et principium 
+          fuit actus talis. 
+          Tertio modo, 
+          pro omni positivo 
+          quod est in libera potestate voluntatis.
+          Et tunc posset dici quod secundo et tertio modis 
+          omnis obmissio est voluntaria 
+          et dicitur sic obmissio voluntaria non ratione actus eliciti vel imperati 
+          ipsam praecedentis aut concomitantis 
+          sed quia voluntas non cogitur ad obmittendum praeceptum, 
+          sicut etiam non cogitur ad committendum actum contra praeceptum.
+        </p>
+        <p xml:id="pg-b2q10-d1e2029">
+          Ad quartam, 
+          negatur consequentia 
+          quia pura obmissio non solum notat 
+          carentiam alicuius debiti 
+          sed etiam requiritur 
+          quod voluntas et arbitrium fuit in tali dispositione 
+          quod in potestate voluntatis 
+          sic obmittere et non obmittere, 
+          quod non est in voluntate dormientis.
+        </p>
+        <p xml:id="pg-b2q10-d1e2040">
+          Ad quintam, 
+          negatur consequentia. 
+          Et cum probatur 
+          quia quilibet obmittens malum etc., 
+          negatur consequentia 
+          quia non penes quantitatem vel proportionem 
+          mali obmissi attenditur proportio meriti 
+          quia sic quilibet merens infinite 
+          meretur sed attenditur potius penes conatum voluntatis 
+          quo quis vult 
+          <app>
+            <lem n="vult"></lem>
+            <rdg wit="#L" type="correction-deletion">
+              <del>d</del>
+            </rdg>
+          </app> 
+          propter Deum malum obmittere.
+        </p>
+        <p xml:id="pg-b2q10-d1e2057">
+          Ad sextam, 
+          admittitur casus, 
+          et negatur quod numquam peccaverit <c>a</c>. 
+          Et ad probationem, 
+          secundum aliquos dicitur quod peccavit 
+          immediate ante <c>b</c>. 
+          Secundum alios 
+          dicitur quod peccavit in toto illo tempore 
+          sumendo totum catholice. 
+          Tertio, 
+          potest dici quod in tali tempore 
+          peccavit successive 
+          peccato obmissionis 
+          sic actus fuisset continue acquisitus 
+          quia actus habuisset 
+          partes quarum obmissiones sunt peccatum obmissionois, 
+          et tunc in ultimo instanti 
+          suum peccatum haberet esse completum.
+        </p>
+        <p xml:id="pg-b2q10-d1e2091">
+          Quarto, 
+          dicitur quod cum non quodlibet 
+          tempus sufficiat ad eliciendum actu <c>a</c> 
+          et sit quod tenetur deliberare 
+          ut eliciat <c>a</c> si renuit deliberare ipse peccat. 
+          Tenendo ergo quod pura obmissio 
+          sine actu voluntatis sit peccatum sic potest 
+          dici quod <name>Sortes</name> in <c>b</c> primo peccabit 
+          in illo casu si autem poneretur quod 
+          <name>Sortes</name> ultra <c>b</c> <unclear>unn?eret</unclear>, 
+          tunc esset variatio casus. 
+          Et haec de quaestione sufficiant, 
+          et per consequens de omnibus quaestionibus huius secundi 
+          causa <unclear>veritatis</unclear>.
+        </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
