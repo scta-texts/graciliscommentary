@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber IV, Quaestio 2 [London Transcription]</title>
+        <author>Peter Gracilis</author>
+        <editor xml:id="JW">Jeffrey C. Wittk</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber IV, Quaestio 2 [London Transcription]</title>
+          <date when="2022-04-19">April 19, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-19" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="227-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b4q2">
+        <p xml:id="pg-b4q2-d1e98">
+          Circa distinctionem 8 et sequentes usque ad 13 inclusive ubi agitur de sacramento <choice><orig>eukaristia</orig><reg>eucharistia</reg></choice> quaeritur
+          Utrum sub speciebus panis et vini
+          visibilibus realiter existat verum corpus christi cum suis dimensionibus
+        </p>
+        <div xml:id="pg-b4q2-Dd1e96" type="rationes-principales">
+          <head xml:id="pg-b4q2-Hd1e98">Rationes principales</head>
+        <p xml:id="pg-b4q2-d1e110">
+          Quod non 
+          quia hoc esset per conversionem panis et vini in corpus Christi,
+          sed talis conversio est impossibilis 
+          quod per quia facta tali conversione, 
+          queritur autem manet panis aut non. 
+          Si primum, 
+          ergo non est conversus nec <unclear>transubstantus</unclear>. 
+          Si secundum, 
+          sequitur quod panis est adnihilatus, 
+          quod est falsum. 
+          Patet consequentia, 
+          si enim aliquid fuit panis
+          et modo nihil est panis nec materia nec forma panis, 
+          sequitur propositum 
+          quia non posset dici corruptus 
+          nisi alia generaretur in materia.
+        </p>
+        <p xml:id="pg-b4q2-d1e120">
+          Secundo, 
+          corpus Christi non existit realiter sub illis speciebus, 
+          ergo etc. 
+          Antecedens probatur 
+          quia vel illae species in 
+          essent suis substantiis aut non. 
+          Si sic, 
+          sequitur quod corpus Christi simul esset cum substantia panis in sacramento, 
+          quod est falsum. 
+          Si non sequitur 
+          quod ex illis non posset
+          generari substantia vermis, 
+          quod est falsum per experientiam. 
+          Patet consequentia 
+          quia de solis accidentibus
+          sine substantia materiae 
+          non potest generari substantia.
+        </p> 
+        <p xml:id="pg-b4q2-d1e136">
+          Tertio, 
+          dimensiones corporis Christi non
+          sunt sub speciebus panis et vini probatur 
+          quia tunc corpus Christi dimensionaliter
+          et quantitative esset in sacramento, 
+          et sic non totum corpus esset in tota hostia 
+          et in qualibet parte hostiae, 
+          quod videtur falsum.
+        </p>
+        <p xml:id="pg-b4q2-d1e147">
+          In oppositam, 
+          dimensiones corporis Christi si non essent sub speciebus panis et vini, 
+          sequeretur quod Christi verum corpus non esset sub sacramento. 
+          Consequens est haereticum. 
+          Consequentia probatur 
+          quia verum corpus Christi
+          constat ex tribus dimensionibus 
+          sicut quodlibet aliud corpus, 
+          ut patet 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e115">
+              primo <title>Caeli</title>, 
+              capitulo primo</ref>
+            <bibl>XXX</bibl>
+          </cit>.
+        </p>
+        </div>
+        <div xml:id="pg-b4q2-Dd1e125">
+          <head xml:id="pg-b4q2-Hd1e127">Conclusio 1</head>
+        <p xml:id="pg-b4q2-d1e158" n="Conclusio">
+          Prima conclusio, 
+          licet Deus quodlibet creatum transubstantiare 
+          possit in aliud et nihil in Deum,
+          tamen panem sine sui totali adnihilatione 
+          in corpus Christi est verum  <!-- possible inversion here --> converti.
+          Prima pars probatur 
+          quia quodlibet creatum est <unclear>divinae</unclear> potentiae obiectaliter subiectam, 
+          ergo Deus potest quodlibet tale in aliud convertere. 
+          Patet consequentia 
+          quia illud non est repugnans aut impossibile.
+        </p> 
+        <p xml:id="pg-b4q2-d1e170">
+          Secundo, 
+          aeque facile est Deo creaturam transubstantiare in aliam, 
+          sicut creare vel adnihilare.
+          <!-- para break? or collapse-->
+          Secunda pars probatur 
+          quia, 
+          si sic, 
+          sequeretur quod Deus posset transubstantiari in aliud, 
+          quod est falsum. 
+          Patet consequentia
+          quia in transubstantione quidquid potest esse terminus 
+          a quo potest esse terminus ad quem et econverso.
+        </p>
+          <!-- para break? or collapse-->
+        <p xml:id="pg-b4q2-d1e181">
+          <pb ed="#L" n="227-v"/>
+          Tertia pars probatur 
+          quia si panis adnihilaretur, 
+          sequeretur quod terminus transubstantionis panis esset purus nihil. 
+          Consequens est falsum 
+          quia eius terminus est verum Christi corpus. 
+        </p>
+        <p xml:id="pg-b4q2-d1e190" n="Corollarium 1">
+          Primum corollarium, 
+          quod conversio panis qua Christi corpus transubstantiatur 
+          nec active nec ex vi sacramenti ad essentiam divinam terminatur. 
+          Patet quia panis transubstantiatur in id ad quod terminatur, 
+          sed panis non potest in Deum transubstantiari, 
+          ergo nec conversio ad eum terminari.
+        </p>
+        <p xml:id="pg-b4q2-d1e201" n="Corollarium 2">
+          Secundum corollarium, 
+          licet talis conversio non terminatur ad deitatem 
+          vel animam christi convertibiliter seu conversive
+          tamen terminatur ad illa inseparabiliter concomitantur seu illationem. 
+          Prima pars patet dicta. 
+          Secunda pars probatur 
+          quia nullibi est corpus Christi 
+          quin sit animatum 
+          ergo nullibi est quin ibi sit eius anima 
+          et similiter de deitate et sanguine eius est dicendum 
+          quia ibi deitas est per concomitantiam, 
+          sed sanguis est sub speciebus vini per realem transubstantionem.
+        </p>
+        <p xml:id="pg-b4q2-d1e219" n="Corollarium 3">
+          Tertium corollarium, 
+          licet Deus plus creaturis quam una alteri posset intimari, 
+          non tamen potest Deus in aliquam creaturam converti et transubstantiari.
+          Prima patet 
+          quia Deus potest creaturae illabi 
+          et nulla creatura tanta unione
+          sicut est illapsus potest creaturae uniri extremis remanentibus, 
+          ergo. 
+          Secunda pars probatur quia 
+          minus esset impossibile creaturam converti 
+          in deum et transubstantiari 
+          quod deus in creaturam 
+          sed primum esset simpliciter inpossibile, 
+          ergo et secundum. 
+        </p>
+        <p xml:id="pg-b4q2-d1e237">
+          Ex dictis posset inferri 
+          primo quod non
+          plus homini est eligibile transubstantiari 
+          in angelum bonum quam transubstantiari in asinum
+          vel in aliquod aliud brutum. 
+          Patet quia aequaliter utrobique ipse homo desinit esse,
+          et per consequens 
+          non <unclear>maius</unclear> bonum sequitur ex uno quam ex alio.
+        </p>
+        <p xml:id="pg-b4q2-d1e252">
+          Secundo, 
+          sequitur ex hoc quod
+          si panis esset intellectivus 
+          qui convertatur in corpus Christi magis deberet 
+          de sua conversione dolere quam gaudere. 
+          Patet quia nullum bonum consequitur
+          sibi sed malum quia privatur suo esse.
+        </p>
+        <p xml:id="pg-b4q2-d1e263">
+          Tertio, 
+          sequitur quod eligibilius esset converti in
+          christum mentaliter quam in corpus eius transubstantiari essentialiter 
+          <app>
+            <lem n="essentialiter"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">patet</del>
+            </rdg>
+          </app> 
+          si tamen converti in corpus eius sit aliquo modo eligibile 
+          <app>
+            <lem>patet</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del rend="strikethrough">prima</del> 
+                <add>patet</add>
+              </subst>
+            </rdg>
+          </app> 
+          corollarium 
+          quia ex prima conversione magna sequitur utilitas ipsi converso. 
+          Sed ex secunda non nec aliquod bonum positive 
+          sequitur quia 
+          desinit esse, 
+          posset tamen sequi aliquod bonum per accidens 
+          sicut est evasio poenae 
+          sicut dicitur quod minus malum est adnihilari 
+          quam perpetuo dampnari, 
+          et sic forte dampnati vellent converti in lapidem 
+          ne sentirent tormenta.
+        </p>
+        <p xml:id="pg-b4q2-d1e298">
+          Quarto, 
+          sequitur quod stat rem praesentem verti substantialiter in rem praeteritam aut futuram. 
+          Patet de uxore 
+          <name xml:id="pg-b4q2-Nd1e199" ref="#Lot">Loth</name> 
+          quae sunt conversa in rem non existentem ante eius conversionem futuram
+          scilicet in statuam salis. 
+          Item, 
+          patet de virga <name xml:id="pg-b4q2-Nd1e202" ref="#Moses">Moysi</name> conversa in colubrum 
+          qui coluber ante eius conversionem fuit futurus 
+          et non fuerat sed quod in praeteritam. 
+          Patet de conversione colubri in virgam, 
+          tunc non existentem sed praeteritam.
+        </p>
+        <p xml:id="pg-b4q2-d1e329">
+          Quinto, 
+          sequitur sed res 
+          quae fuit in instanti <c>a</c> possit fieri res 
+          quae nunquam fuit in <c>a</c> instanti, 
+          tamen rem quae fuit in <c>a</c> instanti 
+          nunquam fuisse in <c>a</c> instanti 
+          implicat contradictionem. 
+          Prima patet quia 
+          si homo lignum existens convertitur in lapidem 
+          qui numquam fuit in aliquo instanti praeterito.
+          Secunda patet 
+          quia praeteritum nunquam fuisse implicat.
+        </p>
+        <p xml:id="pg-b4q2-d1e355">
+          Sexto, s
+          sequitur quod, 
+          licet res quae
+          non est proprie praeterita possit fieri praeterita, 
+          tamen non praeteritum fuisse praeteritum implicat
+          <pb ed="#L" n="228-r"/>
+          contradictionem. 
+          Patet per dicta. 
+          Et nota quod aliud est verti substantialiter in aliud 
+          et aliud transubstantiari in aliud, 
+          nam omnis transubstantio est substantialis versio 
+          sed non econtra.
+          Unde rem transubstantiari est essentialiter et intrinsece 
+          mutari tali mutatione 
+          qua desinit res esse secundum se et quodlibet sui essentiale et intrinsecum 
+          cuius terminus ad quem est aliquid quod actualiter praefuit. 
+          Sed substantialis versio 
+          non semper praesupponit terminum ad quem praefuisse.
+        </p> 
+        </div>
+        <div xml:id="pg-b4q2-Dd1e223">
+          <head xml:id="pg-b4q2-Hd1e225">Conclusio 2</head>
+        <p xml:id="pg-b4q2-d1e381" n="Conclusio">
+          Secunda conclusio, 
+          licet consecratione facta accidentia maneant sine subiecto, 
+          tamen illa accidentia sunt activa et passiva 
+          ac si subiecto inhaereret proprio.
+          Prima patet 
+          quia, 
+          si sic, 
+          vel 
+          <seg type="correction">tale<del rend="strikethrough">m</del></seg> subiectum est substantia panis et vini 
+          vel corporis Christi. 
+          Sed nullum horum est dicendum, ergo. 
+          Non primum nec secundum quia facta consecratione 
+          non manet substantia panis nec vini.
+          Nec tertium 
+          quia corpus Christi non est in 
+          sacramento quantitative 
+          nec modo quantitativo, 
+          ergo non potest esse subiectum talium accidentium 
+          quae in sacramento apparent modo quantitativo et extenso, 
+          nec etiam illa accidentia sunt in aere propinquo 
+          quia aer propter sui raritatem 
+          non posset esse subiectum coloris 
+          asperitatis et duritiei et multorum accidentium in bene dicto sacramento existentium.
+          Haec pars et patet per 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e411">
+              Magistrum,
+              distinctione 12 quarti
+            </ref>
+            <bibl>
+              XXX
+            </bibl>
+          </cit>.
+          Item, 
+          per ecclesiam unde cavit accidentia 
+          etiam sine subiecto existunt 
+          ut fides locum habeat. 
+          Secunda pars probatur, 
+          nam altitudo 
+          ibi existens agit in visum dulcedo in gustum gravitas in tactum,
+          et sic de aliis, 
+          sed quod sint passiva 
+          quia aequae congelantur vel tale 
+          fiunt post consecrationem sicut ante.
+        </p>
+        <p xml:id="pg-b4q2-d1e430" n="Corollarium 1">
+          Primum corollarium, 
+          licet deus quodlibet accidens 
+          absolutum possit facere existere 
+          sine inhaerentia actuali, 
+          tamen non stat deum facere accidens 
+          sine inhaerentia habituali vel aptitudinali.
+          Prima patet 
+          quia sicut facit de accidentibus sacramenti 
+          sic posset de aliis absolutis.
+        </p>
+        <p xml:id="pg-b4q2-d1e445">
+          Secundo, 
+          quia omnem entitatem distinctam 
+          ab alia deus potest sine tali conservare 
+          quae non est pars eius nec dat sibi formale esse 
+          sed sic est de ipso accidente absoluto, 
+          ergo.
+        </p>
+        <p xml:id="pg-b4q2-d1e453" n="Corollarium 2">
+          Secundum corollarium, 
+          quod non quamlibet indigentiam rei indigentis 
+          extrinsece potest Deus se ipso supplere perfecte et libere. 
+          Patet quia sequitur quod 
+          Deus posset supplere inhaerentiam aptitudinalem accidentis, 
+          quod est falsum. 
+          Et patet consequentia 
+          quia talis inhaerentia est 
+          quaedam indigentia accidentis existentis.
+        </p>
+        <p xml:id="pg-b4q2-d1e467" n="Corollarium 3">
+          Tertium corollarium, 
+          quod non totum accidentis esse est 
+          formaliter et actualiter subiecto <unclear>inesse</unclear>.
+        </p>
+        <p xml:id="pg-b4q2-d1e475">
+          Ex dictis, 
+          sequitur primo quod accidentia non habent activitatem ex eo 
+          praecise quod inhaerenter sunt convincta subiecto vel materiae. 
+          Patet quia tunc cum essent 
+          a subiecto separata vel a materia non haberent actionem, 
+          quod per dicta patet falsum.
+        </p>
+        <p xml:id="pg-b4q2-d1e484">
+          Secundo, 
+          sequitur quod absque requisitione 
+          cuiuscumque materiae agens creatum potest 
+          formam substantialem corrumpere in passum. 
+          Patet quia in hoc sacramento accidentiam sunt sine materia, 
+          et tamen agens naturale potest ipsa corrumpere et formam aliam 
+          inducere ergo
+        </p>
+        <p xml:id="pg-b4q2-d1e497">
+          Tertio, 
+          sequitur quod sicut accidentia huiusmodi sacramenti vere possunt agere et 
+          corrumpi ita ex ipsis potest vere substantia generari. 
+          Patet quia possunt corrumpi ergo 
+          aliquid ibi potest generari 
+          et non solum accidens ergo substantia. 
+          Item, nutrire possunt 
+          <pb ed="#L" n="228-v"/>
+          et satiare famelicum.
+        </p>
+        <p xml:id="pg-b4q2-d1e514">
+          Quarto, 
+          videtur sequi quod Deus sua activitate infinita 
+          potest facere esse materiam sine forma. 
+          Patet quia sicut suplet <unclear>manu
+          tenentiam <!-- one word? --></unclear> accidentium causalem sine subiecto, 
+          sic posset conservare materiam sine 
+          forma danda sibi perfectius esse 
+          quam det forma sibi propria, 
+          ergo. 
+        </p>
+        </div>
+        <div xml:id="pg-b4q2-Dd1e277">
+          <head xml:id="pg-b4q2-Hd1e279">Conclusio 3</head>
+        <p xml:id="pg-b4q2-d1e530">
+          Tertia conclusio, 
+          licet corpus Christi contineatur realiter sub speciebus panis et vini continentia praesentiali, 
+          tamen localiter ac commensurative ipsum esse sub illis speciebus 
+          non est ponendum nec modo dimensionali. 
+          Prima patet quia 
+          post consecrationem corpus Christi 
+          est realiter praesens infra ambitum quantitatis panis 
+          conversi in corpus Christi, 
+          <app>
+            <lem>igitur</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">igitur</add>
+            </rdg>
+          </app>. 
+          Consequentia tenet 
+          et antecedens patet ex fide, 
+          tamen manifestatur consequentia 
+          quia quidquid infra abitum alicuius est realiter praesens, 
+          hoc continetur ab eo continentia praesentiali
+        </p>
+        <p xml:id="pg-b4q2-d1e552">
+          Item, 
+          haec pars patet 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e556" target="http://scta.info/resource/cice-l1t1-d1e119">
+              <title>Extra</title>, 
+              de summa trinitate et fide catholica, 
+              capitulo <quote xml:id="pg-b4q2-Qd1e303" source="http://scta.info/resource/cice-l1t1-d1e119" type="incipit">firmiter</quote>
+            </ref>
+          </cit>, 
+          ubi dicitur quod corpus Christi verum realiter est in eucharistia praesens. 
+          Secunda pars probatur 
+          quia, 
+          Si christi corpus localiter esset in sacramento, 
+          sequeretur quod pars corporis esset in parte hostiae 
+          et non totum in tota hostia nec totum in qualibet parte hostiae. 
+          Consequens est falsum ex fide, 
+          et consequentia patet.
+        </p>
+        <p xml:id="pg-b4q2-d1e575" n="Corollarium 1">
+          Primum corollarium,
+          licet corpus christi 
+          extensum sit in sacramento 
+          et etiam corpus Christi 
+          quod est in sacramento sit extensum,
+          tamen sine corporis Christi partium confusione 
+          non extensum vel non extense est in sacramento. 
+          Prima pars patet 
+          quia corpus Christi quod est in caelo est 
+          extensum in sacramento et corpus Christi 
+          quod est in sacramento est extensum in caelo, 
+          ergo. 
+          Secunda pars probatur 
+          quia si sic ibi esset dimensionaliter et quantitative, 
+          quod falsum patet per dicta. 
+          Sed quod ibi non sit partium confusio 
+          patet quia adhuc remanet partium ordo in toto 
+          et ad totum suum et ad se in <unclear>motione</unclear>,
+          licet ibi non sit ordo partium in loco 
+          quia in quocumque est pes et manus, 
+          etc.
+        </p>
+        <p xml:id="pg-b4q2-d1e609" n="Corollarium 2">
+          Secundum corollarium, 
+          sicut in eodem puncto sunt omnes partes corporis sic inter
+          partes corporis Christi in sacramento non est ordo superioris et inferioris. 
+          Prima patet quia, 
+          si una pars corporis esset ubi non esset alia, 
+          sequitur quod corpus Christi esset ibi dimensive, 
+          quod est contra dicta. 
+          Secunda pars probatur 
+          quia, 
+          si sic, 
+          sequeretur quod esset ibi ordo partium corporis Christi ad locum. 
+          Consequens est falsum.
+          Patet consequentia 
+          quia isti termini inferior et superior 
+          ex suo significato talem ordinem important.
+          Aliter, 
+          si esset aliquod corpus cuius partes non concernerent locum, 
+          possemus dicere quod una pars esset sursum alia deorsum, 
+          quod non videtur imaginabile.
+        </p>
+        <p xml:id="pg-b4q2-d1e633">
+          Ex quo videtur sequi quod 
+          minus proprie loquitur <name xml:id="pg-b4q2-Nd1e320">Hugolinus</name> circa istam materiam 
+          dicens quod 
+          <!-- possible quote -->
+          qualitercumque hostia vertatur semper Christi 
+          <unclear>capdem</unclear> manebit sursum supra colum 
+          et pedes deorsum patet 
+          quia sic ponere est dicere situm in ordine ad partes.
+        </p>
+        <p xml:id="pg-b4q2-d1e327" n="Corollarium 3">
+          Tertium corollarium, 
+          quod ad Deum posse facere infinitum institutio 
+          huius sacramenti facta per Christum est sufficiens argumentum. 
+          Patet 
+          quia non est minoris potentiae infinitas partes 
+          alicuius corporis in eodem puncto ponere 
+          quam infinitas partes ad 
+          <pb ed="#L" n="229-r"/>
+          in finita puncta movere et facere 
+          sed primum facit in sacramento, 
+          ergo secundum facere potest.
+        </p>
+        <p xml:id="pg-b4q2-d1e655">
+          Ex dictis 
+          sequitur pars affirmativa quaestionis, 
+          scilicet quod sub panis et vini speciebus visibilibus 
+          et sensibilibus realiter stat verum corpus Christi 
+          cum suis <unclear>dimensionalibus</unclear> 
+          quia non stat aliquid esse corpus et verum 
+          nisi habeat longitudinem latitudinem et profunditatem, etc.
+        </p>
+        </div>
+        <div xml:id="pg-b4q2-Dd1e344">
+          <head xml:id="pg-b4q2-Hd1e346">Obiectiones</head>
+        <p xml:id="pg-b4q2-d1e668">
+          Contra primam partem primae conclusionis, 
+          arguitur primo 
+          quia, si esset vera, 
+          sequeretur quod Deus posset totum 
+          mundum convertere in substantiam vinus rosae, 
+          immo sequitur quod posset omnem substantiam 
+          ponere sub specie alterius, 
+          et sic posset ponere asinum sub specie hominis, 
+          et sic sequitur ultra quod periret omnis ratio experientiae 
+          et genero scientiae per experientias quod est 
+          contra 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e682" target="http://scta.info/resource/aristmet-l7">
+              <name xml:id="pg-b4q2-Nd1e340">Philosophum</name> 
+              VII 
+              <title>Metaphysicae</title>
+            </ref>
+          </cit>. 
+          Consequentia patet 
+          quia ex quo sumus certi 
+          quod Deus illud potest 
+          non constat nobis quod de facto non fecerit,
+          et sic habemus dubitare 
+          an hoc sit lignum vel homo,
+          nec sufficimus dicere inter hominem 
+          et non hominem, 
+          quae sunt falsa.
+        </p>
+        <p xml:id="pg-b4q2-d1e694">
+          Secundo, 
+          corpus non potest converti in spiritum 
+          nec econverso, 
+          ergo quaestio falsa. 
+          Antecedens patet per 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e700">
+              <name xml:id="pg-b4q2-Nd1e347">Augustinum</name>, 
+              VII <title>Super Genesem</title>
+            </ref>
+          </cit> 
+          et per 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e705">
+              <name xml:id="pg-b4q2-Nd1e351">Boetium</name>, 
+              libro de duabus naturis et una persona Christi
+            </ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b4q2-d1e713">
+          Tertio, 
+          sequeretur quod dampnata natura 
+          posset in beatam converti et econtra. 
+          Consequens est falsum 
+          quia tunc beatus non esset beatus 
+          quia de sua beatitudine semper 
+          haberet dubitare, 
+          quod iterum est falsum.
+        </p>
+        <p xml:id="pg-b4q2-d1e722">
+          Quarto 
+          contra secundam partem eiusdem conclusionis, 
+          quia ad hoc 
+          quod Deus sit terminus alicuius transubstantionis, 
+          non sequitur aliqua mutatio in ipse, ergo. 
+          Consequentia patet 
+          quia immutabilitas Dei videtur maxima causa 
+          quare de ipso hoc negatur. 
+          Antecedens probatur 
+          quia nulla variatio est in corpore Christi 
+          propter hoc quod corpus in ipsum tansubstantiatur.
+        </p>
+        <p xml:id="pg-b4q2-d1e738">
+          Quinto, 
+          non videtur maius inconveniens 
+          quod persona divina sit 
+          terminus transubstantionis 
+          quam incarnationis 
+          sed persona divina est terminus incarnationis, 
+          ergo. 
+        </p>
+        <p xml:id="pg-b4q2-d1e745">
+          Sexto, 
+          si talis transmutatio fieret in sacramento 
+          hoc esset mediante intentione sacerdotis 
+          cum aliis requisitis, 
+          sed hoc est falsum. 
+          Probatio quia ponatur quod sacerdos 
+          coram se habeat quattuor hostias 
+          et non intendat consecrare nisi duas, 
+          tunc quaeritur an consecravit vel non. 
+          Si non, 
+          contra hic est materia debita et forma et intentio faciendi 
+          quod ecclesia consuevit, 
+          ergo.
+        </p>
+        <p xml:id="pg-b4q2-d1e762">
+          Item, 
+          secundo, 
+          si non, 
+          hoc esset 
+          quia eius intentio videretur nimis generalis et indeterminata,
+          sed hoc non impedit 
+          quia dato quod sacerdos determinate intendat consecrare hanc hostiam, 
+          oportet concedere 
+          quod intendat consecrare infinitas partes ita indistincte 
+          quod non potest intendere distincte 
+          istam consecrare ista intentione et aliam alia intentione, 
+          et sic in infinitum, 
+          ergo sufficit generalis intentio et indeterminata.
+        </p>
+        <p xml:id="pg-b4q2-d1e791">
+          Item,
+          sacerdotes in die pasche communiter 
+          multas consecrant hostias centum vel plures 
+          et constat quod non possunt de qualibet cogitare distincte, 
+          ergo sufficit intentio generalis. 
+          Si vero dicatur quod consecravit illas 
+          quia duas de illis intendebat consecrare 
+          et non est maior ratio de istis quam de illis, 
+          ergo omnes vel nullas. 
+          Non omnis 
+          quia intendebat tantum duas, 
+          ergo nullas, 
+          quod est propositum.
+        </p>
+        <p xml:id="pg-b4q2-d1e810">
+          Secundo, 
+          si sit hoc esset virtute verborum sacramentalium 
+          a quolibet sacerdote prolatorum.
+          Patet per dicta, 
+          sed hoc est falsum probatio 
+          quia prima quaestione prima opponitur, 
+          ubi dicitur quod suspenso
+          <pb ed="#L" n="229-v"/>
+          vel deposito sacerdote nulla ei relinquitur potestas, 
+          ergo nullus talis habet potentiam conficiendi.
+        </p>
+        <p xml:id="pg-b4q2-d1e825">
+          Septimo, 
+          aut virtute verborum esset ibi corpus Christi et 
+          anima aut corpus solum. 
+          Si secundum, 
+          sequitur quod ibi esset corpus Christi mortuum. 
+          Patet consequentia 
+          quia non aliter dicitur corpus Christi fuisse mortuum in sepulcro 
+          nisi quia corpore ibi existente anima fuit ad infernum.
+        </p>
+        <p xml:id="pg-b4q2-d1e836">
+          Item, 
+          eadem ratione qua Christus 
+          diceretur unius quia anima Christi coniuncta est eius corpori 
+          in caelo eadem ratione diceretur mortuus 
+          quia interis anima esset a corpore separata, 
+          nec potest dici primum 
+          quia verborum virtute non fit conversio panis 
+          nisi in corpus praecise, 
+          nec vini nisi in sanguinem, 
+          ergo cum virtute verborum non sit 
+          nisi illud in quo substantia panis et vini convertuntur, 
+          sequitur quod virtute illorum verborum non sit 
+          ibi coniunctum ex corpore et anima. 
+          Antecedens est 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e853">
+              <name xml:id="pg-b4q2-Nd1e419">Magistri</name>, 
+              distinctione 5 quarti, 
+              capitulo 12
+            </ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b4q2-d1e857">
+          Nono, 
+          si virtute verborum esset ibi totus Christus, 
+          sequitur quod etiam fuisset in cena quando 
+          Christum illum sacramentum instituit, 
+          et per consequens, 
+          si hostia illa reservata fuisset usque post mortem, 
+          adhuc fuisset ibi totum coniunctum, 
+          et per consequens non fuisset Christus mortuus. 
+          Patet consequentia 
+          quia si anima fuisset corpori coniuncta 
+          in sacramento per triduum mortis suae 
+          si Christus fuisset vere mortuus idem fuisset 
+          vere vinum et mortuum, 
+          quod est falsum.
+        </p>
+        <p xml:id="pg-b4q2-d1e873">
+          Decimo, 
+          si quis disciplinorum consecrasset 
+          in triduo mortis et verba sacramentalia 
+          cum intentione vera, 
+          protulisset vere confecisset. 
+          Patet quia 
+          nunc non sunt maioris efficaciae verba illa quam tunc,
+          sed probatur falsitas 
+          quia tunc corpus Christi perfectius habuisset esse in sacramento 
+          quam in speciei propria 
+          quod videtur non videtur. 
+          Patet tamen consequentia 
+          quia fuisset vinum in hostia 
+          et mortuum in sepulcro 
+          ubi erat in specie propria.
+        </p>
+        <p xml:id="pg-b4q2-d1e889">
+          Ad primam, 
+          respondent quidem concedo consequens 
+          quia Deus potest plus facere 
+          quam noster intellectus intelligere.
+          Item, 
+          concedunt quod Deus potest ponere hominem in specie asini et econverso, 
+          sed tunc non manebit homo. 
+          Et cum infertur, 
+          ergo periret certitudo scientiae etc., 
+          negatur consequentia.
+          <!-- break -->
+          Secundo, posset concedi idem consequens 
+          quia nulla est notitia creata tam vera vel 
+          certa de aliqua re creata <unclear>signabilis</unclear> 
+          per propositionem de in esse vocalem 
+          et de praesenti 
+          quin possit esse falsa bene 
+          licet haec sit vera notitia 
+          qua ergo <unclear>assentio</unclear> 
+          modo hoc est lignum, 
+          haec tamen sic est certitudo 
+          quod haec propositio potest esse falsa per 
+          mutationem rei in aliud. 
+          Et cum infertur, 
+          sequitur quod haberem durare etc., 
+          hic dicitur secundum eodem 
+          consequenter quod <mentioned>durare</mentioned> sumitur dupliciter. 
+          Uno modo prout distinguitur contra credere, 
+          alio modo ut distinguitur contra scire. 
+          Secundo modo ille qui neutrum oppositorum 
+          scit diceretur durare de utroque, 
+          sic durare compatitur <unclear>secum <!-- secum vs secus ?? --></unclear> credere 
+          et sic quilibet posset durare tales 
+          hoc est lignum hoc est homo. 
+          Alio modo sumitur <mentioned>durare</mentioned> 
+          prout distinguitur contra dicere 
+          ita quod talis cognoscens est 
+          ita simpliciter indifferens ad sensum 
+          sicut est ista rex sedet 
+          quae est mihi simpliciter neutra 
+          et isto modo non oportet nec debeo durare. 
+          Alia est responsio <unclear>quo</unclear> non habeo durare 
+          <pb ed="#L" n="230-r"/>
+          quod hoc sit lignum 
+          quia est mihi sufficienter persuasum 
+          quod Deus talia non 
+          <unclear>transubstantiabant</unclear> in aliud tum 
+          quia hoc nulli revelavit cum 
+          quia non apparet aliqua utilitas 
+          quare facere debuerit tales transubstantiones.
+        </p>
+        <p xml:id="pg-b4q2-d1e967">
+          Ad secundum, 
+          negatur antecedens. 
+          Ad probationem dicitur quod 
+          <name xml:id="pg-b4q2-Nd1e410">Augustinus</name> 
+          et <name xml:id="pg-b4q2-Nd1e412">Boetius</name> loquuntur de potentia naturali 
+          creaturae non de potentia Dei.
+          Sed contra 
+          quia nec creatura potest convertere unum 
+          corpus in aliud licet agens corporale 
+          possit unum corpus generare ex 
+          alio tamen non <unclear>transubstantiare<!-- possible correction from/to passive here--></unclear> in aliud  hic dicitur quod sicut dicimus illud esse possibilius 
+          quod pluries causas possibilitatis habet 
+          puta gradus vel modos congruentiae 
+          ad hoc quod ponatur in esse, 
+          et licet impossibile sit quod virtus creata transubstantiat 
+          unum corpus in aliud, 
+          tamen impossibilius videtur 
+          quod convertat corpus in spiritum et econverso 
+          quia illa est manifestior repugnantia 
+          quia minor est conformitas 
+          corporis ad spiritum 
+          quam corporis ad corpus 
+          et istam impossibilitatem volunt 
+          exprimere sancti pluribus modis <unclear>continentem</unclear> 
+          dicens quod nullo modo potest converti corpus in spiritum 
+          ita quod illud signum universale negativum distribuit modos 
+          impossibilitatis respectu potentiae creatae 
+          non modos potentiae universaliter.
+        </p>
+        <p xml:id="pg-b4q2-d1e1024">
+          Ad tertium, 
+          conceditur consequens de potentia Dei absoluta.
+        </p>
+        <p xml:id="pg-b4q2-d1e1031">
+          Secundo, 
+          posset dici quod esse dampnatum 
+          vel salvatum non sunt proprie entia incomplexa,
+          et conclusio intelligitur de entibus incomplexis, 
+          et ideo ratio non concludit 
+          quia esse salvatum est quodam esse sic complexe.
+        </p>
+        <p xml:id="pg-b4q2-d1e1042">
+          Ad quarto, 
+          dicunt quidem quod talis 
+          mutatio non est causa sed disproportio 
+          et distantia perfectionalis immensa extremorum, 
+          scilicet creatoris et creaturae.
+        </p>
+        <p xml:id="pg-b4q2-d1e1053">
+          Secundo, 
+          dicitur quod sic esse terminum transubstantionis 
+          repugnat immutabilitati et infiniti 
+          quia termini conversionis mutuo 
+          sunt convertibiles 
+          et ideo qua ratione aliquid converteretur in Deum eadem potentia Deus 
+          posset converti in illud 
+          et sic de necessitate esset mutabilis 
+          quia perderet suum esse et aliud haberet esse.
+        </p>
+        <p xml:id="pg-b4q2-d1e1066">
+          Ad quintum, 
+          negatur consequentia 
+          quia <unclear>substentatio</unclear> naturae 
+          humanae fit per modum activi transubstantio, 
+          vero per modum passivi.
+        </p>
+        <p xml:id="pg-b4q2-d1e1073">
+          Secundo, 
+          non est simile 
+          quia natura in supposito non <unclear>desivit</unclear> esse, 
+          sed sic non est in transubstatione.
+        </p>
+        <p xml:id="pg-b4q2-d1e1082">
+          Tertio, 
+          dicit 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e1086">
+            <name xml:id="pg-b4q2-Nd1e446">Scotus</name>, 
+            distinctione 5, 
+            quaestione 2 auarti
+          </ref>
+          </cit>, 
+          quod 
+          <!-- possible quote -->
+          verbum esse incarnatum non dicit verbum esse terminum 
+          alicuius actionis de genere actionis,
+          sicut est de transubstantione.
+        </p>
+        <p xml:id="pg-b4q2-d1e1096">
+          Quarto, 
+          dicit 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e1100">
+              <name xml:id="pg-b4q2-Nd1e453">Thomas de Argentina</name>
+            </ref>
+          </cit> 
+          quod incarnatio 
+          potest accipi tripliciter. 
+          Uno modo pro actu totius trinitatis quo corpus Christi 
+          fuit formatum in utero virginis 
+          et sic verbum non fuit terminus alicuius sed 
+          humanitas seu christi corpus. 
+          Alio modo capitur pro actu quo verbum fuit 
+          formaliter unitum, 
+          et sic adhuc dupliciter. 
+          Uno modo active et sic verbum 
+          non terminat actionem incarnationis 
+          sed est ipsamet vino  alio formaliter 
+          pro ipsa unione terminative 
+          et sic verbum terminat incarnationem 
+          et sic nulla est similitudo in proposito.
+        </p>
+        <p xml:id="pg-b4q2-d1e1133">
+          Ad sextum, 
+          conceditur consequens 
+          et ad casum quod ponitur 
+          <pb ed="#L" n="230-v"/>
+          communiter dicitur 
+          quod sacerdos non consecrat quia actus consecrandi requirit 
+          intentionem determinatam 
+          circa materiam istam. 
+          Ad probationem dicitur 
+          quod non est ibi intentio 
+          quae sufficiat. 
+          Et cum dicitur,
+          quia tunc oporteret quod sacerdos etc., 
+          dicitur quod verbum est 
+          quia ista hostia est infinitae partes 
+          et hanc hostiam intendit 
+          determinate consecrare.
+        </p>
+        <p xml:id="pg-b4q2-d1e1157">
+          Secundo, 
+          dicitur quod cum sacerdos in die paschae consecrat 
+          multas hostias simul non est necesse 
+          quod sciat numerum hostiarum, 
+          et tamen consecrat 
+          quia sufficit quod intendat consecrare 
+          hanc multitudinem quam habet ante se.
+        </p>
+        <p xml:id="pg-b4q2-d1e1168">
+          Ad septimam, 
+          conceditur consequens. 
+          Et ad probationem, 
+          conceditur consequentia. 
+          Et probatur de suspensio etc., 
+          dicitur quod illa auctoritas canonis est intelligenda 
+          sic nulla tali relinquitur potestas, 
+          id est nulla ei dimittitur potestas ordinata 
+          quia et si habeat potentiam conficiendi, 
+          tamen <unclear>excecutio</unclear> sibi est interdicta, 
+          et ita de iure sibi non relinquitur nec 
+          <name xml:id="pg-b4q2-Nd1e466">Magister</name> 
+          tenetur communiter dicens oppositum, 
+          scilicet quod talis non conficit.
+        </p>
+        <p xml:id="pg-b4q2-d1e1189">
+          Ad octavam, 
+          dicitur quod virtute 
+          verborum est ibi corpus et anima 
+          quia virtus verborum est virtus divina 
+          quae operatur in verbis et per verba. 
+          Et ad probationem, 
+          concesso antecedente naturae consequentia 
+          quia virtute divina totum coniunctum 
+          ex corpore et anima fit ibi praesens.
+        </p>
+        <p xml:id="pg-b4q2-d1e1201">
+          Ad nonam, 
+          conceditur consequens. 
+          Et cum infertur 
+          quod Christus tunc non fuisset mortuus in cruce 
+          quia, 
+          licet anima fuisset coniuncta corpori in sacramento, 
+          tamen talis coniunctio non fuisset sufficiens ad vivificandum corpus 
+          nec unio illa fuisset corporis vivificativa, 
+          sicut etiam cum angelis assumit aliquod corpus ad explendum 
+          <unclear>misterium</unclear> aliquod unitur 
+          aliquo modo corpori, 
+          et tamen ex corpore et angelo 
+          non fit aliquod unum suppositum 
+          vere similiter nauta unitur navi 
+          et ex ipso et nauta non resultat aliquod suppositum ita esse 
+          potuit quod anima Christi 
+          in illo triduo fuisset unita corpori mortuo 
+          tam in sacramento 
+          quam in sepulcro et tamen corpus non vivificasset. 
+        </p>
+        <p xml:id="pg-b4q2-d1e1225">
+          Ad decimam, 
+          conceditur consequens, 
+          et cum infertur quod Christus perfectius habuisset 
+          esse in sacramento quam etc., 
+          negatur consequentia dato 
+          enim quod anima ibi fuisset 
+          cum corpore non sequitur quod corpus fuisset vivum 
+          nec Christus unius. 
+          Sed communiter solet quaeri 
+          quid <unclear>demonstraretur</unclear> per li hoc non corpus Christi 
+          quia tunc ex vi verborum non fieret consecratio 
+          quia iam esset ibi corpus nec aliud a corpore Christi 
+          quia aliud a corpore Christi esset corpus Christi, 
+          quod est falsum.
+        </p>
+        <p xml:id="pg-b4q2-d1e1247">
+          Ad hoc, 
+          dicunt quidem quod quando sacerdos illa verba dicit 
+          illud pro nomine hoc non facit aliquam demonstrationem 
+          quia sacerdos illa non profert significative 
+          sed multipliciter et 
+          <app>
+            <lem n="et"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">significative</del>
+            </rdg>
+          </app> 
+          recitative.
+        </p>
+        <p xml:id="pg-b4q2-d1e1259">
+          Sed contra hoc arguit 
+          <name xml:id="pg-b4q2-Nd1e491">Thomas de Argentina</name> 
+          quia tunc illa verba non plus 
+          aspicerent materiam praesentem quam absentem 
+          et sic non conficeretur 
+          quia secundum <name xml:id="pg-b4q2-Nd1e493">Augustinum</name> 
+          eo quod verbum accedit ad elementum fit sacramentum.
+        </p>
+        <p xml:id="pg-b4q2-d1e1265">
+          Secundo, 
+          Christus
+          <pb ed="#L" n="231-r"/>
+          saltim illa verba dicit significativa,
+          ergo per illa aliquid demonstrabat et redit argumentum.
+        </p>
+        <p xml:id="pg-b4q2-d1e1283">
+          Et qui vellet tenere primam responsionem posset dicere 
+          ad primum dictum <name xml:id="pg-b4q2-Nd1e503">Thomae</name> 
+          quod consequentia non valet 
+          quia 
+          <app>
+            <lem n="quia"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">non</del>
+            </rdg>
+          </app> 
+          placet Deo quod ad solam recitationem verborum 
+          cum intentione sacerdotis recitantis 
+          fiat transubstantio.
+        </p>
+        <p xml:id="pg-b4q2-d1e1301">
+          Ad secunda, 
+          dicitur quod Christus demonstravit ad sensum et 
+          ad intellectum in uno instanti pro alio, 
+          et sic vere demonstravit corpus suum in 
+          instanti prolationis dicens,
+          <cit>
+            <quote xml:id="pg-b4q2-Qd1e598" source="http://scta.info/resource/mc14_22@16-19 http://scta.info/resource/lc22_19@12-15 http://scta.info/resource/mt26_26@19-22">
+              hoc est corpus meum
+            </quote>
+          </cit>.
+        </p>
+        <p xml:id="pg-b4q2-d1e1311">
+          Alii dicunt quod 
+          solum sit ibi demonstratio ad sensum, 
+          et demonstratur non simpliciter 
+          sed secundum <unclear>quod <!-- quid; dbcheck--></unclear> est transubstantiatus 
+          in corpus Christi
+        </p>
+        <p xml:id="pg-b4q2-d1e1320">
+          Alii dicunt quod est demonstratio 
+          partim ad sensum, 
+          partim ad intellectum, 
+          et est sensus 
+          hoc est corpus 
+          id est illud in quod transubstantiatum est 
+          hoc vel transmutatum est corpus meum. 
+          Hanc tenet 
+          <cit>
+            <ref xml:id="pg-b4q2-Rd1e615">
+              <name xml:id="pg-b4q2-Nd1e518">Thomas de Argentina</name>
+            </ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b4q2-d1e1332">
+          Ad formam, 
+          ergo rationis dicitur quod li 
+          <mentioned>hoc</mentioned> significat corpus Christi, 
+          et negatur consequentia 
+          quia li <mentioned>hoc</mentioned> 
+          non demonstrat corpus Christi <!--<space unit="chars" quantity="5"/>--> 
+          sic quod quando profertur demonstrative 
+          ibi sit praesentialiter corpus Christi 
+          sed quia ibi erit 
+          cum substantia panis fuerit transubstantiata 
+          in corpus Christi.
+        </p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>
