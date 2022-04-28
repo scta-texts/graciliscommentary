@@ -1,0 +1,2830 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Principium</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Principium</title>
+          <date when="2022-04-27">April 27, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-principium1">
+        <div>
+        <head>Collatio</head>
+        <p xml:id="pg-b1princ-d1e95">
+          <pb ed="#L" n="1-r"/>
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e100" source="http://scta.info/resource/act10_9@10-13">
+              Ascendit <name>Petrus</name> in superiora domus
+            </quote>
+          </cit> 
+          <ref xml:id="pg-b1princ-Rd1e106" corresp="#pg-b1princ-Qd1e100">
+            <title ref="#act">Actuum</title> 10 capitulo
+          </ref>.
+          Reverendi patres et domini ordinator sapientiae summusque architector 
+          orbis ac omnium artifex <unclear>dus</unclear> antequam archania verba scripturae 
+          per <name ref="#Lombard">Magistrum Petrum Lombardum</name> nobis revelaret 
+          priusquam domum sapientiae pro tuitione defensione ac explanatione fidei 
+          orthodoxae super septem columnis construeret ac mea turrim 
+          davidicam clipeis munitam ostenderet intra se ut arbitror sic 
+          <!-- 8 lines are in the body of text that don't seem to continue the line of thought; actual text moves around them -->
+          aiebat 
+          quibus quaestionibus 
+          respondebat ipsemet 
+          artifex increatus dicens  
+          hanc autem quaestionem responsionem 
+          innuit ipse 
+          Christus dicens <name>Petro</name> 
+          <ref xml:id="pg-b1princ-Rd1e158" corresp="#pg-b1princ-Qd1e164">
+            <title ref="#mt">Matthaeus</title> 16o
+          </ref> 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e164" source="http://scta.info/resource/mt16_18@6-22 http://scta.info/resource/mt16_19@1-6">
+              tu es <name ref="#Petrus">Petrus</name> 
+              et super hanc petram aedificabo ecclesiam meam 
+              et portae inferi non praevalebunt 
+              adversus eam et tibi dabo claves regni caelorum
+            </quote>
+          </cit>,
+          ut pro primo 
+          dicamus 
+          <quote xml:id="pg-b1princ-Qd1e180" source="http://scta.info/resource/mt16_18@6-12">
+            tu est <name>Petrus</name>
+            et super hanc petram
+          </quote> 
+          nam <mentioned>petrus</mentioned> 
+          dicitur <mentioned>a petra</mentioned> 
+          non <mentioned>petra a petro</mentioned> 
+          quasi diceret Christus 
+          <mentioned>ego aedificabo te super me non me super te</mentioned>, 
+          cui correspondet una thematis pars, 
+          scilicet <name>petrus</name> 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e194" source="http://scta.info/resource/io1_42">
+              tu vocaberis cephas quod interpretatur petrus
+            </quote>
+          </cit> 
+          <ref xml:id="pg-b1princ-Rd1e199" corresp="#pg-b1princ-Qd1e194">
+            <title ref="#io">Iohannis</title> primo
+          </ref>.
+          Pro 2o dicatur 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e206" source="http://scta.info/resource/mt16_18@14-15">
+              ecclesiam meam
+            </quote>
+          </cit>, 
+          id est, 
+          facultatem theologicam seu magistrorum bachallariorum et scolarium congregationem 
+          de qua ecclesia seu domo 
+          ait Christus 
+          <ref xml:id="pg-b1princ-Rd1e214" corresp="#pg-b1princ-Qd1e219">
+            <title ref="#lc">Luce</title> 19
+          </ref> 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e219" source="http://scta.info/resource/lc19_46">
+              domus mea domus orationis
+            </quote>
+          </cit> 
+          vocabitur in ea omnis qui petit accipit, 
+          scilicet dubiorum solutionem et qui quaerit invenit 
+          scilicet profundorum manifestationem et pulsanti, 
+          id est <unclear>perservanti</unclear> aperietur id est dabitur 
+          laboris primum per gradus <unclear>magistralis</unclear> adeptionem. 
+          Pro 3o dicitur et 
+          <quote xml:id="pg-b1princ-Qd1e237" source="http://scta.info/resource/mt16_18@17-22">
+            portae inferi non praevalebunt adversus eam
+          </quote>, 
+          quasi diceret Christus ideo portae ineri id est haeretic 
+          mortiferi vel sophisticae verbosi ac philosophi pestiferi non praevalebunt adversus 
+          theologiam seu contra theologorum congregationem 
+          quia hunc <name ref="#Lombard">Petrum Lombardum</name>
+        </p>
+        <!-- another insertion within text distinct from main text; four lines; might be text of Lombard -->
+        <p xml:id="pg-b1princ-d1e253">
+          Et huic consonat alia 
+          pars thematis 
+          qua dicitur 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e259" source="http://scta.info/resource/act10_9@10-10">
+              ascendit
+            </quote>
+          </cit> 
+          nam ascendi primus 
+          et factus est princeps 
+          Ascendit enim primus <name>Magister Petrus <!-- pretty sure this is reference to Gracilis --></name> 
+          in hac celebri universitate parisiensis 
+          quoniam ipse fuit unus de primis et potioribus magistris huius almae universitatis 
+          in qua etiam factus est princeps ecclesiasticus 
+          quia huius nobilis civitatis factus est 
+          praesul dignissimus.
+          <!-- para break -->
+          Pro 4o dicitur et 
+          <cit>
+            <quote source="http://scta.info/resource/mt16_19@2-6">
+              tibi dabo calves regni caelorum
+            </quote>
+          </cit>, 
+          id est 
+          cognitionem divinorum secretorum 
+          quae cognitio est via lux esse clavis regni caelorum 
+          quoniam sicut cognitio est necessaria ad nostrum meritum 
+          sic eadem est necessaria adultis 
+          aditum, 
+          dicente beato patre nostro <name ref="#Augustine">Augustino</name> invisa diligere possumus incognita 
+          <pb ed="#L" n="1-v"/>
+          autem nequaquam  cui correspondet 
+          <app>
+            <lem>et</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="aboveLine">et</add>
+            </rdg>
+          </app> 
+          alludit quod dicebatur in <unclear>themetae</unclear> 
+          quod 
+          <cit>
+            <quote source="http://scta.info/resource/mt16_19@2-6">
+              ascendit in superiora
+            </quote>
+          </cit> 
+          tamquam divinorum speculator et caelorum reservator 
+          ideo 
+          <ref corresp="#pg-b1princ-Qd1e328">
+            <name ref="#Paul">Apostolus</name> 
+            <title ref="#col">Ad Colossenses</title>
+          </ref> 
+          <quote xml:id="pg-b1princ-Qd1e328" source="http://scta.info/resource/col3_2">
+            quae sursum sunt sapite
+          </quote>, 
+          igitur ascendit <name ref="#Peter">Petrus</name> in superiora domus.
+        </p>
+        <p xml:id="pg-b1princ-d1e337">
+          Quae verba aliter possunt introduci sic scientia nostra in 4or sententiarum 
+          libris contenta <!-- group of lines of text inserted in the body text --> Ista consequentia aliqualiter 
+          patet per dictum <name>innocentii papae</name> et ponitur 
+          in canone 24 quaestione 
+          prima <corr><del>quotiescumque ratio</del></corr> 
+          ergo claret per assumptum seu cognitionem <name ref="#Lombard">Petri docti Lumbardorum</name> 
+          ventillatur eam arbitror omnes fratres et <name>co episcopos</name> non nisi ad <name ref="#Petrum">petrum</name>
+          in altum ipse enim in altissimis et arduissimis quaestionibus et materiis 
+          transtulit et duxit intellectum suum et hoc pro probatione consequentiae sufficiat Ratione 
+          vero 2ae partis consequentiae dicit nobis <name ref="#Lombard">magister petrus lumbarus</name> illud <ref xml:id="pg-b1princ-Rd1e385"><title ref="#is">ysa</title> 2o</ref> 
+          <quote xml:id="pg-b1princ-Qd1e391">venite ascendamus ad montem deum et ad donum dei <name ref="#Jacob">iacob</name> et dosyon 
+          exibit lex et verbum deum de ierusalem</quote> nam verbo deum caeli firmati 
+          sunt et spiritu oris eius omnis virtus eorum in <unclear>psalmos</unclear>
+        </p>
+        <p xml:id="pg-b1princ-d1e407">
+          Ratione tertiae partis consequentiae 
+          dicitur 
+          <ref xml:id="pg-b1princ-Rd1e413">
+            <title ref="#act">actuum</title> 3o</ref> 
+          quod 
+          <name ref="#Peter">petrus</name> et <name ref="#John">Iohannes</name> 
+          ascendebant in templum, 
+          nam <name ref="#Peter">petrus</name>, 
+          id est cognitio, 
+          praecedit gratiam, 
+          id est <name ref="#John">iohannem</name>, 
+          quae secundum 
+          <name ref="#Augustine">Beatum Patrem Nostram Augustinum</name> 
+          in rebus per tempus ortis maxima censetur 
+          qua videlicet factum est ut hominem 
+          deus in unitate personae assumeret sicque hominem proscriptum et caeli 
+          regno exulatum revocaret ibique ad beatorum consortium ascenderet.
+        </p>
+        <p xml:id="pg-b1princ-d1e445">
+          Ratione quarti 
+          dicitur de <name ref="#Lombard">Nostro Praesule Doctissimo Magistro Petro Lombardo</name> 
+          illud <unclear>imcheae <!-- biblical book ?? --> </unclear> 
+          2o ascende superius et erit tibi gratia scilicet intra cetum 
+          beatorum seu intra congregationem omnium thesaurum ex his aliqualiter. 
+          Patet consequentia 
+          Sed antecedens quo ad singulans partes declaratur, 
+          nam primo dixi quod 
+          <ref><name ref="#Lombard">Magister Petrus</name> in primo sententiarum libro</ref> 
+          elevat cognitionem supra modum humanorum 
+          nam ibi ostendit et tractat 
+          de his quae sunt ultra creatum conceptum non 
+          solum hominum sed etiam angelorum ut testatur <name>ambrosus</name> 
+          et allegat eum 
+          <ref xml:id="pg-b1princ-Rd1e490">
+            <name ref="#Lombard">Magister</name> ibidem distinctione 9
+          </ref>, 
+          nam in primo principaliter 
+          <name ref="#Lombard">Magister</name> 
+          <!-- addition of 4 lines which are not part of main text --> 
+          sibi etiam docetur aetenra filii 
+          genero spiritus sancti processio  divinarum 
+          personarum identitas in essentia 
+          aequalitas in potentia ipsarum ad 
+          invicem relatio  personarum praedestinatio se electio et malorum reprobatio 
+          de quibus <unclear>atthanorum</unclear> scrutator 
+          <name ref="#Paul">paulus</name> 
+          <title ref="#Icor">Ad Corinthios primae</title> 
+          <unclear>n?o</unclear> dicebat 
+          <quote xml:id="pg-b1princ-Qd1e538" source="http://scta.info/resource/rom11_33@1-16">
+            o altitudo divitiarum sapientiae et scientiae dei quam incomprehensibilia 
+            <pb ed="#L" n="2-r"/>
+            sunt iudicia eius et investigabiles me eius
+          </quote>, 
+          sequitur quis enim cognovit sensum <unclear>do?tur</unclear>.
+          Et posset huic conclusioni responderi quod 
+          <name ref="#Lombard">Magister Petrus Lumbardus</name> illum cognovit 
+          <name ref="#Lombard">Petrus</name> enim cognoscens interpretur 
+          cuius sensus satis liquet in 
+          <ref xml:id="pg-b1princ-Rd1e558">primo <title>Sententiarum</title> libro</ref>  
+          Revera non sicut cognovit sensum <unclear>deum</unclear> <name ref="#Arius">arrius</name> negans patris et filii 
+          coaeternitatem non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">ut</add>
+            </rdg>
+          </app> 
+          <name ref="#Sabellius">Sabelius</name> fingens inter patrem et filium personalem 
+          identitatem non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">ut</add>
+            </rdg>
+          </app> 
+          <ref><name ref="#Averroes">Averroes</name></ref> 
+          ponens 
+          <!-- quote -->
+          Deum extra se nihil intelligere nec curam 
+          de inferioribus gerere  non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">ut</add>
+            </rdg>
+          </app> 
+          <name ref="#Pelagius">Pellagius</name> praesumens divinam gratiam in bonis 
+          meritis voluntatem humanam non praevenire subsequi et adiuvare  non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">ut</add>
+            </rdg>
+          </app> 
+          <name>Manicheus</name> 
+          dicens 
+          <!-- quote -->
+          unum Deum bonorum et alium malorum non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="aboveLine">ut</add>
+            </rdg>
+          </app> 
+          <name>Apolinaris</name> 
+          negans in Christo anima humanam  non 
+          <app>
+            <lem>ut</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="above-line">ut</add>
+            </rdg>
+          </app> 
+          <name>Euticius</name> 
+          ab negans in Christo 
+          naturam divinam 
+          <add place="margin-bottom">
+            <unclear>a?ien</unclear> ut <name ref="#Nestorius">nestorius</name> qui <name>mariam</name> matrem divini <corr><add place="aboveLine">nostri Ihesu christi</add></corr> solum genuisse 
+            dixit homine et non deum Quam haeresim post modum <unclear>suscit?ivit</unclear> 
+            ille nephandissimus <name ref="#Muhammad">machomet</name> cuius nequitia atque 
+            perversitas tantum invaluit quod abolito christi nomine inter saraccenos 
+            eius detestanda traditio quasi magni prophetae <unclear>diu</unclear> praedicatur 
+          </add> 
+          hos enim omnes et quam plures haereticos cum suis sequacibus 
+          sensum deum non intelligentibus pater caelestis per 
+          <name ref="#Lombard">Magistrum Petrum Lumbardum</name> 
+          vel de parvulos impotentes et inscios allidit ad petram ut fuerat 
+          <unclear>prophetatum</unclear> in <title>psalmos</title> tenebit  
+          et allides parvulos suos ad petram 
+          quod designatur in prima parte thematis qua dicitur 
+          <name ref="#Peter">petrus</name> tu est <name ref="#Peter">petrus</name> et super 
+          hanc petram aedificabo ecclesiam 
+          <ref><title ref="#mt">matthaeus</title> 16</ref> 
+          et hoc de primo antecedentis.
+        </p>
+        <p xml:id="pg-b1princ-d1e708">
+          Secundo dicebatur 
+          in secunda parte antecedentis 
+          quod <name ref="#Lombard">Magister Petrus</name> in 2o <title>sententiarum</title> 
+          reserat productionem infram polum 
+          <name ref="#Averroes">commentatoris</name> 
+          quod immutatur in hac praepositione <mentioned>in</mentioned>, 
+          nam praepositio haec significat locum 
+          qui naturaliter non est sine corpore contento et locato eo 
+          quod natura vacuum abhoreat quoniam <unclear>2m<!-- is this part of reference Book 2 or "secundum" --></unclear> 
+          <ref><title ref="#Physics">Physicorum</title></ref> doctrinam in omni loco 
+          est corpus et omne corpus saltim naturaliter est in loco 
+          et quia locus se habet ad 
+          locatum relative, 
+          sequitur quod per hanc praepositionem 
+          <mentioned>in</mentioned> productorum creatio <unclear>in portetur <!-- importetur --></unclear> 
+          seu cognoscitur de quorum productionem temporali 
+          <name ref="#Lombard">magister</name> ordinate per tractat 
+          in hoc primo ibi namque docet 
+          et in secundo ostendit 
+          <name ref="#Lombard">Magister</name>. <!-- four line inclusion in body of text --> 
+          Item, 
+          ostendit <name ref="#Lombard">Magister</name> qualiter 
+          Pater caelestis per verbi 
+          aeterni sapientiam gyrum 
+          caeli condidit abissum 
+          et fontes formavit 
+          creaturam rationalem angelicam, 
+          scilicet et humanam gratiam et donis dotavit mirabili 
+          namque opere caeli ornatum spheram ambitum et in his contenta ex 
+          nihilo producens singulans suas peryodos et suos situs tribuens ordinavit 
+          quoniam ex ipso et per ipsum 
+          et in ipso sunt omnia ipse enim universa fecit 
+          quae caeli ambitu continentur 
+          <cit>
+            <ref xml:id="pg-b1princ-Rd1e798">
+              <title ref="#est">hester</title> 13o
+            </ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b1princ-d1e804">
+          Tertio, 
+          in antecedente dicebatur 
+          quod 
+          <ref><name ref="#Lombard">Magister</name> in tertio</ref> 
+          declarat reductionem 
+          extra regnum proscriptorum  ibi enim ostendit 
+           <!-- three line passage in body of text --> 
+          Item, ibidem ostendit quomodo die filius 
+          descensum in utero virginis naturam 
+          humanam sibi univit inseperabiliter 
+          per cuius mortem totum genus 
+          <pb ed="#L" n="2-v"/>
+          humanum a morte per primos parentes inducta redemit sicque caeleste 
+          regnum perdictum filiis <name ref="#Adam">Adae</name> restituit et in sua ad caelum ascensione 
+          quando naturam assumptam super angelos elevavit a regno proscriptos 
+          secum ad caelestem haereditatem revocavit et reduxit dicente 
+          propheta ascendens christus in altum captivam duxit captibilem dedit 
+          dona hominibus quod notatur in themate cum icitur ascendit scilicet <name ref="#Lombard">magister petrus</name> principaliter 
+          ad contemplandum huius benedicte unionis mysterium de quo <name ref="#John">iohannes</name> 
+          intonavit dicens,
+          <app>
+            <lem n="dicens"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">in primum</del>
+            </rdg>
+          </app> 
+          <quote xml:id="pg-b1princ-Qd1e864">
+            verbum caro factum est
+          </quote> 
+          qui secundum <name ref="#Augustine">Beatum Augustinum</name> 
+          si altius intonasset totus mundus eum capere non potuisset 
+          ut merito de <name ref="#Lombard">Magistro Petro</name> 
+          dicamus quod ascendit super <sic>cherubin</sic> 
+          qui plenitudo scientiae 
+          <unclear>interpretatur</unclear> altum illud misterium apprehendo 
+          et nobis in hoc tertio revelando. 
+        </p>
+        <p xml:id="pg-b1princ-d1e888">
+          Quarto, 
+          in hac auctoritate dicebatur quod 
+          <ref xml:id="pg-b1princ-Rd1e892">
+            <name ref="#Lombard">Magister Petrus</name> 
+            in hoc 4o <title>sententiarum</title> libro
+          </ref> 
+          demonstrat 
+          distinctionem situum seu praemiorum beatorum locationem seu locationem 
+          electorum viatorum. 
+          In hoc enim 4o ostendit quod notatur in ultimo thematis 
+          <!-- four line list inserted into main text --> 
+          verbo quo dicitur domus de qua 
+          domo 
+          <ref xml:id="pg-b1princ-Rd1e910" corresp="#pg-b1princ-Qd1e915">
+            <title ref="#io">Iohannis</title> 14
+          </ref> 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e915" source="http://scta.info/resource/io14_2">
+              in domo patris mei mansiones multae sunt
+            </quote>
+          </cit> 
+          id est praemiorum distinctiones seu varietates 
+          potest etiam hoc domus significare ecclesiam multitudinem 
+          de qua proverbiorum cum dicitur sapientia 
+          aedificavit sibi domum excidit columnas septem quae sunt septem 
+          ecclesiae sacramenta medicinalia 
+          quae ad huius domus sustentationem increata sapientia 
+          instituit de quibus
+          <ref>
+            <name ref="#Lombard">Magister</name> 
+            in hoc quarto</ref> pulchre determinat 
+          <!-- quote -->
+          hoc est igitur domus 
+          <unclear cert="high">domini</unclear> firmiter aedificata benefundata est 
+          supra firmam petram  doctrina  enim 
+          huius 4ti super praedictis est fundata ideo portae inferi non praevalebunt 
+          adversus eam id est sinistrae ac peregrinae doctrinae seu haereses non vincent 
+          neque subvertent eam quia 
+          <name ref="#Lombard">Magister Petrus</name> 
+          pro eius defensione <unclear>artum <!-- arcum --></unclear> veritatis 
+          contra invasores tetendit, 
+          et ideo dicitur in themate 
+          quod ipse in superiora huius domus ascendit.
+        </p>
+        <p xml:id="pg-b1princ-d1e976">
+          In quibus verbis iuxta 4or principales materias in 4or 
+          <title ref="#Sentences">Sententiarum</title> 
+          libris contentas 4or videre possumus, 
+          videmus enim in praelibatis verbis 
+          <!-- four line text inserted in body here --> 
+          seu speritali exulatos 
+          vel vagam gentem colocari  
+          deitas revelatur dum 
+          <name ref="#Lombard">Petrus</name> hic notatur notitiae 
+          in posito quia dicitur 
+          <name ref="#Lombard">Petrus</name> 
+          qui cognoscens <sic>interpretur</sic> 
+          pro primo libro  <unclear cert="low">entitas</unclear> praestatur 
+          dum locus situs notatur pro omni composito 
+          quia subiungitur haec propositio in pro 2o libro.
+        </p>
+        <p xml:id="pg-b1princ-d1e1018">
+          Unitas sublimatur dum homo personatur divino supposito 
+          cum adiungitur ascendit pro 3o libro. 
+          Civitas populatur cum domus habitatur <unclear>ti?ore</unclear> 
+          deposito immo gaudio apposito 
+          quia domus pro 4o libro
+        </p>
+        <p xml:id="pg-b1princ-d1e1041">
+          In primo ergo ostenditur 
+          scola subtilior et immensa disputationis studiose in primo 
+          quia <name ref="#Peter">Petrus</name> 
+          <pb ed="#L" n="3-r"/>
+          planta facilior et extensa situationis operosae in 2o in  scala sublimior 
+          e protensa elevationis amorose in 3o quia ascendit  aula 
+          <unclear>libior</unclear> non offensa  praemiationis gloriosae 
+          <unclear>in 4o</unclear> quia domus
+        </p>
+        <p xml:id="pg-b1princ-d1e1070">
+          Exercitium 
+          magistrale altae intelligentiae 
+          quia <name ref="#Peter">petrus</name> aedificium mundiale temporale late 
+          circumferentiae in  pro motorium divinale vel supernaturale infinitae potentiae 
+          quia ascendit 
+          Receptionem aeternale solidae <unclear>perma?cie</unclear> 
+          quia domus
+        </p>
+        <p xml:id="pg-b1princ-d1e1090">
+          Dimissis ergo tribus 
+          ultimis pro aliis principiis, 
+          dico primo in principali distinctione 
+          quod in verbis intueor 
+          in lumine supernaturali deitatem revelari, 
+          nam deitas revelatur dum <name ref="#Peter">Petrus</name> hic 
+          notatur nomine in posito ideo praemittitur 
+          hoc nomen <unclear>papam</unclear> <name ref="#Lombard">petrus</name> 
+          qui interpretur cognoscens 
+           <name ref="#Lombard">petrus</name> enim supernorum sectorum notitiam <unclear>habuit</unclear> dicente sibi christo post confessionem 
+          duarum naturarum in ipso 
+          <ref>
+            <name ref="#mt">matthaeus</name> 16
+          </ref> 
+          <cit>
+            <quote source="http://scta.info/resource/mt16_17@6-24">
+              beatus est <name>symon variona<!-- simon bar --></name> quia 
+              caro et sanguis non revelavit tibi 
+              sed pater meus qui est in caelis
+            </quote>
+          </cit> 
+          quod 
+          proprie dici potest et potuit 
+          <name>magistro petro</name> sententiarum <unclear>econverso</unclear> 
+          cuius doctrina correspondet 
+          nomini et non vitae et operi 
+          quoniam ipse lucide novit 
+          et ostendit in primo sententiarum sententiarum 
+          principaliter sex  ad intelligendum difficilia 
+          quae per sex litteras in nomine petrus 
+          contentas designificantur, 
+          ibi enim ostendit 
+          pro <c>p</c> primum esse substantivum divini culminis 
+          quo ad essentiam simpliciter impertitam  
+          pro <c>e</c> aequum posse productivum  non 
+          clausum terminis quo ad potentiam totaliter expeditam in nihilo impeditam  
+          pro <c>t</c> termen 
+          ad se relativi debiti ordinis quo ad hypostasim realiter tripartitam  
+          pro <c>r</c> 
+          radiosam certitudinem cuncta <unclear>c?nendo</unclear> clare 
+          quo ad scientiam et praescientiam 
+          pro <c>u</c> <unclear>vic?osam</unclear> gratitudinem praedestinando dotare 
+          conclusio ad praedestinationis materiam 
+          pro <c>s</c> seriosam rectitudinem 
+          nos regulando iure pure vere sane mire,
+          scilicet per divinam voluntatem 
+          cui nostra voluntas se conformans debite recta censetur 
+          istae sex materiae ut sit merito sex litteris huius nominis 
+          <name ref="#Petrus">petrus</name> designificatae, 
+          sicut illi sex gradus quibus thronus sapientissimi <name>salomnis</name> 
+          id est quibus attingitur 
+          notitia trinitatis immense 
+          quod per sacrae theologiae studium nos attingere faciat 
+          christus Amen  
+          ut pro gratiarum actione ad tam utilem doctorem scilicet 
+          <name ref="#Lombard">Magistrum Petrum</name> 
+          nos convertamus utendo verbis prosperi <unclear>scripentis</unclear> 
+          <name ref="#Augustine">Beato Augustino</name> 
+          patri nec ac dicentis  nue pater et doctor ecclesiae sanctae dei  ave eiusdem 
+          splendor et fundamentum  ave columpna mundi genus sapientiae  archa 
+          novae et antiquae legis  ave puerorum virga puellarum norma   coniugatorum 
+          magister viduarum dux cunctorum vita  ave gramaticorum 
+          liber logicorum veritas philosophorum via <unclear>Retherecorum</unclear> calamus astrologorum 
+          laus medicorum santias theologorum profunditas  ave haereticorum <unclear>gla?us</unclear> 
+          iudeorum lancea paganorum stimulus christianorum clipeus et cunctorum 
+          protector et auxiliator in tempore tribulationis cuius antichristum in veritatis acquisitione 
+          nobis concedat christus  Amen 
+        </p>
+        <p xml:id="pg-b1princ-d1e1280">
+          Iuxta terminum thematis primo sententiarum libro correspondentem ac etiam 
+          iuxta eius interpretationem moveo talem dubitationem 
+          scilicet
+        </p>
+      </div>
+      <div>
+        <head>Quaestio</head>
+        <!-- end of collatio[?] beginning of question -->
+        <p xml:id="pg-b1princ-d1e1292">
+          <pb ed="#L" n="3-v"/>
+          Utrum <name ref="#Peter">Beatus Petrus</name> 
+          per suae visionis beatificae <unclear>limpitudinem</unclear> 
+          necessario videat in verbo 
+          alicuius perfectionis specificae latitudinem.
+        </p> 
+      <div>
+        <head>Rationes principales</head>
+       <p xml:id="pg-b1princ-d1e1315">
+         Quod non primo 
+         quia, 
+         si sic, 
+         sequeretur quod <name ref="#Peter">Beatus Petrus</name> 
+         posset videre in verbo omnem creaturam possibilem de facto 
+         esse productam consequentia patet 
+         <app>
+           <lem n="patet"/>
+           <rdg wit="#L" type="correction-deletion">
+             <del rend="strikethrough">quia</del>
+           </rdg>
+         </app> 
+         cum quodlibet verum ideatum
+         seu praesentatum in verbo 
+         aeque possit ostendi clare 
+         <name ref="#Peter">Petro Beato</name> 
+         sed illud est quoddam verum, 
+         ut patebit infra, 
+         igitur. 
+         Verumtamen illud consequens 
+         reputat falsum 
+         <ref>
+           <name>bachalarius praedicatorum</name>, 
+           in secunda conclusione 
+           secundi sui articuli primi principii
+         </ref>,
+         ubi dicit impossibile est Deum tot creaturas 
+         per se ipsum, 
+         scilicet mediante creatura producere inesse 
+         quod in essentia divina idealiter repraesentari est necesse.
+       </p>
+        <p xml:id="pg-b1princ-d1e1373">
+          Secundo, 
+          si quo esset vera, 
+          sequeretur quod <name ref="#Lombard">Beatus Petrus</name> 
+          vident verbum visione simplici et 
+          incomplexa patet consequentia 
+          quia clare et limpide visioni correspondet 
+          aliquis simplex conceptus visus rei,
+          sed falsitas consequentis probatur 
+          cum visio clara deitatis seu verbi sit communicabilis 
+          coniuncto intellectui, 
+          ut patuit in paulo.
+        </p>
+        <p xml:id="pg-b1princ-d1e1388">
+          Tertio, 
+          sequitur quod intellectus coniunctus aliquid 
+          posset incomplexe cognoscere, 
+          sed illud consequens reputat falsum 
+          <ref>
+            <name>bachalarius numerorum</name> in 
+            tertia conclusione cuiusdam sui articuli
+          </ref>, 
+          ubi dicit omne quod ab intellectu coniuncto est intelligibile 
+          ab eodem praecise est complexe cognoscibile.
+        </p>
+        <p xml:id="pg-b1princ-d1e1404">
+          Tertio, 
+          si <name ref="#Lombard">Beatus Petrus</name> 
+          videret in verbo aliquam perfectionem specificam, 
+          sequeretur quod videret illam perfectionem tantum 
+          distare a suo primo et immediate efficiente 
+          quantum distat quaecumque 
+          alia species creata aut creabilis. 
+          Consequentia patet 
+          quia clare videns Deum videt ipsum esse immense perfectum 
+          et clare videns aliquod creatum videt ipsum imperfectione limitatum 
+          et mensum aliter non vere 
+          nec clare videret, 
+          sed tamen consequens primum reputat falsum 
+          <ref>
+            <name>bachallarius carmelitarum</name> 
+            in primo corporo secundae conclusionis secundi articuli, 
+            ubi dicit in secunda parte eiusdem <unclear>cor?</unclear>
+          </ref>,
+          necesse est non 
+          omnia specifice differentia aequaliter 
+          ab immediato efficiente distare.
+        </p>
+        <p xml:id="pg-b1princ-d1e1448">
+          Item, 
+          si quo esset vera, 
+          sequeretur quod videret 
+          vel videre posset se necesse obligari lege rationis seu 
+          naturalis acuminis ad Deum super alia diligendum 
+          et beatificae utendum. 
+          Patet consequentia 
+          quia ratio recta homini indita seu concreata dictat 
+          et obligat <unclear>indispensaire</unclear> 
+          creaturam rationalem summum bonum 
+          super omnia diligendum igitur verum. 
+          Falsitas primi consequentis 
+          videtur patere per  
+          <ref>
+            <name>Reverendum Magistrum Petrum de Allyaco</name> 
+            <unclear>dicentem</unclear> 
+            in quadam propositione praeambula 
+            suae primae conclusionis
+          </ref> 
+          sic possibile est creaturam rationalem 
+          obligari a divina bonitate 
+          et non ab alia lege.
+        </p>
+        <p xml:id="pg-b1princ-d1e1480">
+          Quarto sequitur quod verbum non 
+          prius causaliter potuisset possibilitatem illius perfectionis producere 
+          quam illa possibilitas habuit esse. 
+          Consequentia patet 
+          quia illa possibilitas fuit aeternaliter 
+          sed verbum non influxit ad extra aeternaliter 
+          sed solum temporaliter, 
+          ut patet per 
+          <ref><name>Bachalarium Bernardum</name></ref>, 
+          ergo. 
+          Consequentia bona, 
+          nihilominus consequens primum dicit 
+          falsum esse in 
+          <ref>
+            conclusione prima sui secundi articuli
+          </ref> 
+          ubi dicit prius causaliter 
+          est in essentia divina producendi potans 
+          quam insit creaturae de per se potestas 
+          essendi vel non essendi 
+          sed solum extrinsece denotative.
+        </p>
+        <p xml:id="pg-b1princ-d1e1502">
+          Quinto, 
+          sequeretur quod non 
+          staret <name>Beatum Petrum</name> esse 
+          et ipse suae beatitudinis notitiam non habere 
+          consequentia 
+          patet quia inter res creatas notitia suae beatitudinis formalis 
+          videtur sibi magis necessaria 
+          cum certitudo perpetuitatis illam includat 
+          et concernat necessaria, 
+          ut patebit verum, 
+          tamen consequens reputat falsum 
+          <ref>
+            <name>
+            Reverenuds Bachalarius Giradus 
+            <pb ed="#L" n="4-r"/>
+            de Hoysen
+          </name> 
+          in primo corollario 
+            <unclear>7</unclear> conclusionis suae
+          </ref>, 
+          ubi dicit stat creaturam perfecte esse 
+          beatam et non cognoscere se deum 
+          videre et eo frui.
+        </p>
+        <p xml:id="pg-b1princ-d1e1543">
+          <app>
+            <lem type="conjecture-corrected"><corr>Sexto</corr></lem>
+            <rdg wit="#L">Septimo</rdg>
+          </app>, 
+          sequeretur quod non posset 
+          videre beatifice 
+          et clare filium sine patre. 
+          Consequentia patet 
+          quia videns clare filium 
+          videt filii generationem passivam, 
+          et per consequens videt Patrem a quo <unclear>beneratur</unclear>. 
+          Sed falsitas consequentis 
+          videtur sequi ex dictis 
+          <ref>
+            <name>Magistri Nicholay de Meserero</name> 
+            in primo corollario secundae conclusionis tertii articuli
+          </ref>,
+          dicentis,
+          <!-- quote -->
+          possibile est intellectum causam aliquam cognoscere 
+          et eius effectum quemlibet ignorare.
+          Sed non videtur maior ratio de causa respectu sui 
+          effectus et patre respectu filii, 
+          cum videns clarissime causam videat eam esse causam.
+        </p>
+        <p xml:id="pg-b1princ-d1e1575">
+          Septimo, 
+          sequitur quod nullus viator manens viator posset divinum verbum 
+          <name>Beato Petro</name> videre limpidius. 
+          Consequentia patet 
+          quia visio patriae improportionaliter excedit 
+          quamlibet visionem viatori communicabilem, 
+          ut viator est cum sit perfectoris speciei, 
+          verum tamen consequens dicit esset falsum 
+          <ref>
+            <name>Bachalarius Vallis Scolarium</name>, 
+            dicens in conclusione 
+            secunda articuli secundi
+          </ref> 
+          quod stat viatoris animam 
+          qualibet creatura beata limpidius 
+          videre divinam essentiam.
+        </p>
+        <p xml:id="pg-b1princ-d1e1596">
+          Octavo, 
+          si sic, 
+          sequeretur quod stante iudicio in anima <name>Petri</name> 
+          de Deo beatifice est fruendum voluntas ipsa dimissa suae naturae 
+          non posset se illi iudicio 
+          <app>
+            <lem n="iudicio"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">dis?nare</del>
+            </rdg>
+          </app> 
+          conformare. 
+          Consequentia patet 
+          quia cum deo frui beatifice sit finis ultimus 
+          et supernaturalis creaturae illae finis non <unclear>p?</unclear> a creatura ex puris naturalibus attingere, 
+          verum tamen falsitas consequentis
+          patet per 
+          <ref>
+            <name>
+              Bachallarium ordinis servorum beatae mariae
+            </name> 
+            dicentem in secunda conclusione secundi articuli
+          </ref>
+          quod tanta est libertas volitive creatae quod dimissa 
+          sibi et a nullo impedita 
+          cuilibet dictamini rectae rationis 
+          in volendo se potest conformare.
+        </p>
+        <p xml:id="pg-b1princ-d1e1631">
+          Nono et ultimo, 
+          sic sequitur quod <name>Beatus Petrus</name> 
+          videret seu videre posset se 
+          non posset simul esse beatum et miserum, 
+          et per consequens sciret impossibilitatem actualis meriti 
+          et actualis demeriti. 
+          Consequentia prima patet 
+          quia de hoc habuit vel saltem habere potuit 
+          notitiam in via, 
+          igitur et in patria. 
+          Secunda consequentia 
+          probatur 
+          quia ad incompossibilitatem terminorum 
+          sequitur repugnantia motuum ad illos terminos, 
+          ut docet 
+          <ref>
+            <name ref="#Aristotle">Philosophus</name> 
+            in libro <title>Physicorum</title>
+          </ref>,
+          si ergo <name>Petrus</name> scit se non posset 
+          simul esse beatum et miserum, 
+          sequitur quod etiam scit 
+          se non posset moveri 
+          ad illos terminos simul oppositos 
+          sed tamen illud consequens falsum 
+          videtur reputare 
+          <ref xml:id="pg-b1princ-Rd1e1665">
+            <name>Bachalarius Collegii Maioris Monasterii</name> 
+            in prima parte primae 
+            conclusionis primi articuli
+          </ref> 
+          dicens,
+          <!-- quote -->
+          cum gratia actualiter operante actum meritorium potest 
+          viator peccare venialiter 
+          sed mereri et peccare seu demereri videntur motus 
+          ad contrarios terminos 
+          quia unus ad miseriam 
+          <ref>
+            <name>Apostolus</name> <title>Ad galatam</title>
+          </ref>.
+        </p>
+        <p xml:id="pg-b1princ-d1e1684">
+          In oppositum, 
+          arguitur 
+          quia non stat aliquem esse beatum et non videre in verbo se et suam beatitudinem formalem 
+          igitur necessario, 
+          saltim necessitate contradictionata <name>Beatus Petrus</name> 
+          per suae visionis etc. 
+          Consequentia probatur 
+          quia quodlibet individuum est 
+          aeque perfectum simpliciter et essentialiter, 
+          sicut sua species et 
+          antecedens in sequentibus probabitur
+        </p>
+        <p xml:id="pg-b1princ-d1e1714">
+          Pro testationibus praelibatis 
+          venio ad quaestionem propositam 
+          in qua sine <sic>longua</sic> quaestionis de articulatione 
+          aut decisione si permissus 
+          <unclear>fuero</unclear> propono sic procedere. 
+          Nam primo praeponam seu perferam iuxtam materiam quaestionis 
+          argumentorum factorum conclusiones probabiles non in toto asservias.
+          Secundo inferam 
+          ex qualibet conclusione 
+          unam vel duas propositiones 
+          cum reverendum patribus collativas.
+        </p>
+        <!-- collapse into above -->
+        <p xml:id="pg-b1princ-d1e1737">
+          <pb ed="#L" n="4-v"/>
+          Tertio proferam ad rationes ipsorum quasdam, 
+          licet debiles et frivolas solutiones evasivas.
+          Quarto, 
+          referam honoris impensi ordini in persona mea gratiarum 
+          actiones conclusivas.
+        </p>
+      </div>
+        <div>
+          <head>Conclusio 1</head>
+        
+        <p xml:id="pg-b1princ-d1e1753">
+          Pro primo sit haec prima conclusio, 
+          sicut stat verbum divinum omnem 
+          latitudinem visionis creabilis causaliter efficere, 
+          sic stat per verbum divinum 
+          omnem latitudinem entis creabilis actualiter existere 
+          utraque pars probatur medio communi 
+          quoniam quilibet gradus entis creabilis est a verbo in esse producibilis 
+          et nullus gradus illius latitudinis est alteri 
+          repugnans aut incompossibilis, 
+          ergo tota conclusio vera. 
+          Tenet consequentia 
+          quia ex quo non est repugnantia 
+          ex parte verbi potentis producere 
+          nec ex parte creaturae quo ad actualiter existere 
+          sequitur quod verbum immense activum potest illud facere, 
+          antecedens vero patet 
+          quia productio aut existentia unius entitatis positivae 
+          alterius <unclear>productivum</unclear> 
+          non videtur repugnare.
+        </p>
+        <p xml:id="pg-b1princ-d1e1778">
+          Primum corollarium, 
+          licet omne ens positivum creabile et complexum 
+          a verbo poni inesse sit possibile, 
+          tamen non quodlibet quod aliquo modo est factibile a verbo in esse est ponibile. 
+          Prima pars patet ex conclusione. 
+          Secunda probatur quia 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e1793" source="http://scta.info/resource/io1_3">
+              sine verbo factum est nihil
+            </quote>
+          </cit>,
+          <ref xml:id="pg-b1princ-Rd1e1796" corresp="#pg-b1princ-Qd1e1793">
+            <title ref="#io">Iohannis</title> primo
+          </ref>.
+        </p>
+        <p xml:id="pg-b1princ-d1e1802">
+          Secundum corollarium, 
+          si verbum divinum 
+          omnem creaturam ad extra producibile produceret 
+          non ex hoc minus potens 
+          intrinsece aut extrinsece 
+          redderetur aut existeret. 
+          Patet per conclusionem. 
+          Confirmatur 
+          tum quia quamlibet producibili entitate pota inesse 
+          adhuc verbum potest illam annihilare et 
+          reproducere seu recreare, 
+          tum secundo 
+          quia, 
+          si ignis omne combustibile combuxisset 
+          non propter hoc eius activitas intrinsece 
+          mutata autem remissa esset ergo a simili.
+        </p>
+        <p xml:id="pg-b1princ-d1e1830" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra <unclear>praedicatorum <!-- his he referring to dominican socius here ? --></unclear> 
+          quod verbum divinum producere inesse tot creaturas  
+          per se ipsum vel mediante creatura actualiter 
+          non repugnat <unclear>quot</unclear> creaturas 
+          idem verbum seu creatrix 
+          essentia necessario idealiter 
+          idem repraesentat. 
+          Patet per conclusionem, 
+          et probationem.
+        </p>
+        <!-- collapse ? -->
+        <p xml:id="pg-b1princ-d1e1861">
+          Confirmatur 
+          quia verbum divinum seu divina essentia 
+          non plures creaturas repraesentat idealiter 
+          quam tota latitudo entis producibilis 
+          continet actualiter sed tota illa 
+          latitudo secundum se 
+          et quodlibet sui est per verbum inesse ponibilis, 
+          ut probatum est, 
+          ergo.
+          Antecedens est praedicti patris in probatione 
+          primi corollarii secundae conclusionis secundi articuli.
+          
+          Quarto, 
+          ex dictis infero contra eundem 
+          quod licet hoc sit possibilis verbum omnem creaturam producit independenter, 
+          tamen hoc est impossibilis verbum agit ad extra necessari 
+          et non <unclear>habetur</unclear> 
+          satis patet per dicta, 
+          verum quod oppositum 
+          <cit>
+            <ref>tertii mei corollarii</ref>
+          </cit> 
+          ponit 
+          <ref>dictus pater in secunda conclusione secundi articuli</ref> 
+          dicens, 
+          <!-- quote -->
+          impossibile est Deum tot creaturas per se ipsum vel mediate 
+          creatura producere inesse  
+          quot in essentia divina idealiter repraesentari est necesse 
+          et hoc potest multum efficaciter sic  
+          quia infinitas creaturas repraesentari in essentia divina 
+          est necesse idealiter, 
+          et impossibile est ipsum infinitas creaturas producere, ergo. 
+          Respondetur 
+          negando secundam partem antecedentis 
+          quia oppositum probavi in 
+          <app>
+            <lem>media</lem>
+            <rdg wit="#L" type="correction-substitution">
+              <subst>
+                <del>medi</del>
+                <add>media</add>
+              </subst>
+            </rdg>
+          </app>
+          conclusione 
+          et videtur quod assumat 
+          quod deberet probare 
+          sine alia probatione.
+        </p>
+        <p xml:id="pg-b1princ-d1e1953">
+          Item, 
+          <name>praedictus pater</name> 
+          posuit 
+          oppositum <ref>secundi corollarii</ref> 
+          per me illati contra ipsum in 
+          <cit>
+            <ref>
+              tertio corollario primae conclusionis secundi articuli
+            </ref>
+          </cit>
+          dicens 
+          <!-- quote -->
+          formaliter in prima parte illius sic  
+          necesse est quamlibet creaturam a Deo produci 
+          vel emanari et pro probatione illius dicit quod id patet ex fide. 
+          Cui respondeo 
+          <pb ed="#L" n="5-r"/>
+          quod fides magis dicit oppositum quam propositum posset, 
+          enim ex fide faciliter deduci creaturam a Deo contingenter produci seu emanari 
+          et non necessario ut ipse dicit,
+          credo tamen ipsum habere bonum intellectum.
+        </p>
+        <p xml:id="pg-b1princ-d1e1987">
+          Et posset illud reduci contra primum dictum suum 
+          sic necesse est quamlibet creaturam a Deo produci, 
+          ergo Deus quamlibet creaturam necessario producit,
+          ergo possibile est dictum tot creaturas producere inesse 
+          quod in essentia divina repraesentari est necesse. 
+          Tenet prima consequentia a passiva ad activam,
+          et secunda patet quia a necesse 
+          sequitur possibile 
+          et hoc contra istum patrem 
+          sicut dicta.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 2</head>
+        <p xml:id="pg-b1princ-d1e2025">
+          Circa materiam secundi argumenti sic, 
+          haec secunda conclusio 
+          sicut possibile est a viatore Deum intuitive et clare videri 
+          sic possibile est a viatore conceptum simplicem de Deo haberi.
+          Probatur conclusio 
+          quia secundum 
+          <name ref="#Augustine">Augustinum</name> 
+          et communem scolam 
+          <name ref="#Paul">Paulus</name> 
+          et 
+          <app>
+            <lem n="et"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">l</del>
+            </rdg>
+          </app> 
+          <name ref="#Moses">Moses</name> 
+          viderunt clare Deum in via 
+          sed non beatifice 
+          sed clare visioni seu rei clare visae 
+          in se absolute 
+          correspondet aliquis simplex 
+          conceptus eiusdem rei, 
+          ergo.
+        </p>
+        <p xml:id="pg-b1princ-d1e2054">
+          Confirmatur 
+          quia intellectus 
+          cognoscens Deum sub ratione bonitatis habet notitiam 
+          illius bonitatis sed illa est 
+          Deus igitur intellectus habet notitiam de Deo simplicem 
+          sed quod notitia quam habet de bonitate 
+          sit simplex et incomplexa. 
+          Patet quia aut talis intellectus cognoscit talem bonitatem 
+          sub illa ratione aut sub alia. 
+          Si primum, 
+          habetur propositum 
+          quod illa est notitia simplex et incomplexa. 
+          Si secundum,
+          tunc oportet ponere processum in infinitum in rationibus illis.
+        </p>
+        <p xml:id="pg-b1princ-d1e2070" n="Corollarium 1">
+          Primum corollarium,
+          licet nulla rei 
+          <app>
+            <lem n="rei"/>
+            <rdg wit="#L">
+              <del rend="strikethrough/expunctuated">substantia</del>
+            </rdg>
+          </app> 
+          notitia clara simplex et intuitiva possit ex se praecise 
+          causare in vidente odium seu displicentiam, 
+          tamen aliqua simplex et intuitiva 
+          notitia potest causare in vidente dilectionem et complacentiam. 
+          Prima patet quia ad 
+          hoc quod res visa causet odium vel displicentiam requiritur 
+          quod apprehendatur sub 
+          aliqua ratione <unclear>displicibili</unclear> 
+          sed talis cognitio vel est vel includit iudicium complexum, 
+          igitur.
+          Secunda pars probatur 
+          quia quaelibet res in se intuitive visa 
+          in suo primo aspectu habet rationem 
+          bonitatis et diligitis.
+        </p>
+          <p xml:id="pg-b1princ-d1e2109" n="Corollarium 2">
+          Secundum corollarium, 
+          infero contra minorem <!-- like refering to franciscan socius (or minor premise) but socius seems more likely--> quod non quodlibet ab intellectu 
+          coniuncto cognoscibile 
+          ab eodem praecise est complexe intelligibile. 
+          Patet ex conclusione et probationibus.
+        </p>
+        <p xml:id="pg-b1princ-d1e2120">
+          Et confirmatur 
+          quia intellectus habens notitiam complexam 
+          de aliquo habet notitiam incomlexam 
+          terminorum seu significatorum per terminos illius complexi 
+          sed notitia partialis est simplex et incomplexa, 
+          igitur.
+        </p>
+        <p xml:id="pg-b1princ-d1e2133">
+          Secundo, 
+          contra eundem infero quod 
+          haec consequentia est formalis <c>a</c>  
+          est ab intellectu demonstrative scitum 
+          autem clare visum ergo ab eodem intellectu aliqualiter cognitum. 
+          Patet quia oppositum consequentis 
+          formaliter infert oppositum antecedentis, 
+          ergo antecedens probatur 
+          quia sumendo oppositum consequentis 
+          sequitur <c>a</c>, 
+          non est ab intellectu aliqualiter cognitum, 
+          igitur <c>a</c>, 
+          ab eodem intellectu nullo modo 
+          est cognitum igitur <c>a</c>  
+          non est ab illo intellectu demonstrative scitum seu cognitum 
+          quod est oppositum antecedentis informa. 
+          Secunda consequentia est nota 
+          et prima patet 
+          quia negatio quam ipse praeponit 
+          habet negare essentiam modum sciendi seu cognoscendi 
+          ab illo intellectu secundum bonam logicam.
+        </p>
+        <p xml:id="pg-b1princ-d1e2175">
+          Ex hoc clare sequitur 
+          quod quodlibet ab anima coniuncta est demonstrative 
+          scitum est ab eadem aliqualiter cognitum, 
+          oppositum tamen horum posuit praenominatus pater, 
+          nam oppositum primi ponit in 
+          <ref>
+            tertia conclusione tertii articuli
+          </ref>, 
+          dicens omne quod ab intellectu 
+          coniuncto est intelligibile 
+          ab eodem praecise est complexe cognoscibile 
+          quod probat sufficienter 
+          <pb ed="#L" n="5-v"/>
+          sic quia omne quod intelligit vel intelligit distincte 
+          secundum omnem rationem quam habet vel 
+          praecise secundum aliquam et sine sic 
+          vel sic intelligit semper complex igitur.
+        </p>
+        <p xml:id="pg-b1princ-d1e2196">
+          Ad quam <unclear>responsio<!-- respondeo --></unclear> 
+          negando antecedens ratione insufficientis divisionis 
+          intellectus potest rem apprehendere conceptu simplici 
+          et incomplexo non fundato in aliqua ratione 
+          seu conditione rei apprehensa ab intellectu illo.
+        </p>
+        <p xml:id="pg-b1princ-d1e2207">
+          Secundo, 
+          pro materia argumenti dico quod, 
+          licet in visione animae beatae simplex apprehensio intuitiva 
+          divinae essentiae praecedat natura 
+          vel origine complexum iudiciium quo intellectus 
+          iudicat deum esse summum bonum et ipsum esse trinum in personis, 
+          tamen illa simplex apprehensio esse non praecedit 
+          talem iudiciium tempore ex quo patet quod non quaelibet cognitio 
+          qua intellectus cognoscit est complexa.
+        </p>
+        <p xml:id="pg-b1princ-d1e2219">
+          Reduco ergo rationem 
+          contra <name>istum patrem</name> <!-- seems like he is using patrem for socius --> 
+          sic omne quod intellectus intelligit vel intelligit 
+          distincte secundum quamlibet rationem quam habet vel 
+          praecise secundum aliquam sed sive detur primum sive 2m intelligit 
+          illud incomplexe ergo non quodlibet etc.
+          quod est oppositum suae conclusionis 
+          et prima pars antecedentis sua et secunda probata est 
+          quia si intelligit rem sub aliqua ratione 
+          sequitur quod intellectus intelligit illam rationem 
+          autem ergo intelligit illam per aliam rationem 
+          et sic erit processus infinitus in ilis rationibus 
+          aut intelligit illam rationem secundum naturam aliam rationem 
+          sed in se absolute, 
+          et sic sequitur quod intelligit illam incomplexe 
+          et habetur contra eum.
+        </p>
+        <p xml:id="pg-b1princ-d1e2247">
+          Item, 
+          ponit oppositum <ref>tertii corollarii mei</ref> in 
+          <ref>
+            tertio corollario 
+            suae conclusionis secundae 
+            eiusdem articuli
+          </ref> 
+          dicens 
+          <!-- quote -->
+          non quodlibet quod ab anima coniuncta est demonstrative scitum est 
+          ab eadem anima aliqualiter cognitum 
+          quod sic probat 
+          quia oppositum illius est falsum 
+          quia istae propositiones idem 
+          significant quodlibet 
+          quod est ab anima demonstrative scitum est ab eadem aliqualiter cognitum 
+          et ista copulativa quodlibet est ab anima intellectiva demonstrative scitum 
+          et quodlibet ab anima intellectiva est aliqualiter cognitum 
+          sed ista copulativa est falsa, 
+          ergo prima pars quae est 
+          oppositum corollarii, 
+          hic dico negando antecedens 
+          quoniam oppositum sufficienter probavi in 
+          <ref>corollario meo</ref>.
+          Et ad probationem antecedentis, 
+          dicitur quod illae propositiones non idem significant 
+          quia utraque pars <unclear>copulativae</unclear> 
+          false significat nisi forte vellet dicere 
+          quod secunda pars antecedentis posset verificari in anima Christi 
+          quae secundum 
+          <name rend="#Lombard">Magistrum</name> habet <unclear>param</unclear> scientiam 
+          cum verbo quo ad numerum scitorum,
+          sed hoc non faceret ad propositum,
+          nec probaret intentum, 
+          et haec contra <name>istum patrem</name>. 
+        </p>
+        </div>
+      <div>
+        <head>Conclusio 3</head>
+        <!-- 3rd conclusion -->
+        <p xml:id="pg-b1princ-d1e2287">
+          Circa materiam tertiae rationis sit haec tertia conclusio, 
+          licet una creatura sit alia perfectior simpliciter 
+          tamen omnis creatura a primo distat aequaliter. 
+          Prima pars probatur 
+          quia unum creatum plus 
+          participat et mittatur naturam etiam primi simpliciter perfecti 
+          quam aliud ergo. 
+          Tenet consequentia 
+          quia tanta est perfectio creaturae 
+          quantum ipsa participat primum.
+        </p>
+        <p xml:id="pg-b1princ-d1e2299">
+          Secunda pars probatur 
+          quia quodlibet creatum 
+          tantum distat a perfectione primi 
+          quantum ipsum primum ens quodlibet creatum imperfectione 
+          transcendit et excedit 
+          sed primum quodlibet creatum exedit immense 
+          quia se toto ergo a quolibet immense distat, 
+          ergo quodlibet ab eo aliud aequaliter distat.
+        </p>
+        <p xml:id="pg-b1princ-d1e2310" n="Corollarium 1">
+          Primum corollarium 
+          quod non proprie penes distantiam a primo attenditur perfectio in ente creato.
+          Patet quia tunc omnia aequaliter essent perfecta 
+          cum omnia aequaliter distent ab ipso.
+          Confirmatur 
+          quia illa distantia est creaturae extrinseca, 
+          ergo non proprie eius dicitur misera.
+        </p>
+        <p xml:id="pg-b1princ-d1e2324" n="Corollarium 2">
+          Secundum corollarium, 
+          penes <unclear>imittationem</unclear> 
+          seu participationem perfectionis vel bonitatis 
+          divinae attenditur perfectio cuiuslibet entitatis creatae. 
+          Patet ex probatione 
+          <cit>
+            <ref>primae partis conclusionis</ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b1princ-d1e2336">
+          <pb ed="#L" n="6-r"/>
+          Confirmatur quia quaelibet creatura 
+          quanto magis accedit ad ens primum seu <unclear>imitatur</unclear> 
+          ipsum tanto perfectius esset habet ergo. 
+          Tenet consequentia 
+          quia ad ipsum accedere et ipsum <unclear>imittari</unclear> 
+          est a creatura perfectionem ipsius participari.
+        </p>
+        <p xml:id="pg-b1princ-d1e2356" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra 
+          <name>carmelitam</name> <!-- carmelite socius -->  
+          quam repugnat individua diversarum specierum ad ens primum se habere 
+          aequaliter tam repugnat unum creatum minus alio distare a primo ente simpliciter.
+          Prima pars probatur 
+          quia non stat individua diversarum rationum aequaliter primum ens 
+          <unclear>imitari <!-- possible corrected --></unclear> 
+          seu aequaliter eius perfectionem participare ostendo eorum repugnantiam 
+          et incompossibilitatem, 
+          ergo
+        </p>
+        <p xml:id="pg-b1princ-d1e2381">
+          Secunda pars 
+          contra istum patrem probatur, 
+          sic quod quodlibet extremum remotissimum 
+          quod deus attingit infinite distat 
+          a suo fontali principio ergo quodlibet 
+          creatum seu creabile infinite 
+          et immense distat a tali principio sue ab ente 
+          primo ergo nullum creatum distat ab eo plus aut minus alio. 
+          Tenet prima consequentia 
+          quia fontale principium cuiuslibet creati est Deus,
+          et secunda patet 
+          quia una distantia immensa non 
+          est maior aut minor alia, 
+          antecedens vero informa est 
+          <ref>secunda pars secundae conclusionis secundi articuli</ref> 
+          in qua dicit quod quamvis creatum simpliciter 
+          primum attingat extremum remotissimum illud 
+          tamen nihilominus deficit infinite 
+          seu distat citra summum fontale principium.
+        </p>
+        <p xml:id="pg-b1princ-d1e2407">
+          Confirmatur 
+          quia quodlibet creatum est extremum a Deo, 
+          ergo nullum est ab eo remotius alio. 
+          Tenet consequentia 
+          quia remotissimo nihil est remotius, 
+          et antecedens est <unclear>suum</unclear> in eadem conclusione.
+        </p>
+        <p xml:id="pg-b1princ-d1e2418">
+          Tertio, 
+          probatur corollarium tertium 
+          quia Deus nullum effectum ad extra creare potest 
+          quin si illum produceret 
+          ab eo infinite distaret et immense, 
+          ergo omnia et specie differentia immense et qualiter 
+          distant ab immediato suo efficiente. 
+          Tenet consequentia quia immediatum suum efficiens cuiuslibet 
+          effectus est Deus et una distantia infinita 
+          non est maior alia, ergo. 
+          Antecedens vero 
+          informa est suum improbatione illius secundae conclusionis, 
+          ex quo patet quod non solum de facto 
+          immo de possibili nititur <!-- dbcheck earlier "immitatur"'s against nititur --> 
+          probare oppositum corollarii sui verumtamen oppositum huius 
+          ponit 
+          <ref>
+            <name>Reverendus Pater Praefatus</name> 
+            in secunda parte secundi corollarii 
+            secundae conclusionis secundi articuli
+          </ref>, 
+          dicens sic, 
+          <!-- quote -->
+          necesse 
+          est non omnia specie differentia aequaliter 
+          ab immediato principio distare 
+          et ego dico quod necesse est omnia specie differentia 
+          et genere aequaliter distant ab ipso primo sed <name>pater ille</name> 
+          multum bene probat dictum suum 
+          contra me sic per quaecumque essentialiter et intrinsecus specie differentia 
+          una species dicitur a Deo 
+          quod illa distat essentialiter 
+          ab eodem et intrinsece 
+          sed hoc est per intrinsecas et essentiales specierum 
+          differentias secundum 
+          <ref>
+            <name ref="#Porphyry">Porphirium</name>
+          </ref> 
+          et alios philosophos et ultra 
+          sed cum res distantes a Deo de facto sunt inaequales essentialiter, 
+          ergo inaequaliter distant a Deo. 
+          Ad hanc rationem <unclear>patet<!-- potest --></unclear> dici 
+          concedo totum antecedens 
+          et negando consequentiam 
+          Ratio quia dato quod res seu species creatae differant et distent a deo per suas 
+          intrinsecas et essentiales differentias, 
+          tamen non praecise distant quantum sunt perficere quia 
+          sic nulla creatura infinite deficeret et distaret a suo fontali principio 
+          cuius oppositum ipsemet informa dicit in 
+          <cit>
+            <ref>secunda parte conclusionis secundae articuli secundi</ref>
+          </cit> 
+          quod probat sic quia 
+          nullum effectum adextra Deus producere potest 
+          quin si illum produceret ab eo infinite 
+          distaret et immense 
+          ubi patet quod manifeste ex intentione nititur probare oppositum, 
+          licet forte assumat 
+          quod debet probare sine alia probatione, 
+          dico ergo cum ipso in illa conclusione contra eum in corporo suo 
+          quod res creatae non praecise distant 
+          <pb ed="#L" n="6-v"/>
+          a Deo per latitudinem suarum perfectionum essentialium 
+          quin immo et per totam distantiam 
+          quae est inter illas et Deum quam 
+          per totam latitudinem specierum producibilium 
+          inter illas et Deum.
+        </p>
+        <p xml:id="pg-b1princ-d1e2534">
+          Secundo, 
+          pater meus illud dictum confirmat sit nota 
+          minus secundum se totum distat quilibet talium graduum 
+          a gradu essendi simpliciter 
+          primo quam linea pedalis a puncto 
+          sed linea minor semper minori distantia distat a puncto 
+          quam maior igitur a simili.
+        </p>
+        <p xml:id="pg-b1princ-d1e2546">
+          Hic dico concedo primam partem 
+          antecedentis seu maiorem 
+          sed negando minorem 
+          quia quotienscumque et quantumcumque replicaretur 
+          punctus seu multiplicaretur 
+          numquam faceret aut redderet lineam quantumcumque 
+          parvam et econverso quantumcumque parva linea 
+          minoraretur numquam efficeretur punctus 
+          ideo ratio non concludit, 
+          haec ratio posset reduci contra facientem <unclear>formando</unclear> aliam 
+          minorem sub sua maiore sic  
+          non minus secundum se totum distat quilibet 
+          gradus etc. 
+          sed linea minor non minori 
+          nec maiori distantia distat 
+          a puncto quam maior 
+          igitur minor gradus specificus non minus 
+          nec plus distat 
+          a Deo quam maior seu perfectior maior est sua et minor est vera  
+          et probata et econverso 
+          est contra eum ergo 
+          et hoc sit contra <name>istum patrem</name>
+        </p>
+      </div>
+        <div>
+          <head>Conclusio 4</head>
+        <p xml:id="pg-b1princ-d1e2583">
+          Circa materiam 4ti absoluti sit haec 
+          <!-- break ? -->
+          Quarta conclusio, 
+          non stat creaturam rationalem peccare mortaliter seu agere difformiter 
+          et ipsam non obmittere seu commitere legi rationis vel naturae difformiter  haec conclusio 
+          probatur supponendo quod talis creatura habeat notitiam ultimi finis et principiorum 
+          moralium quia dato quod nullum esset praeceptum divinum creaturae adhuc 
+          creatura rationalis lege rationis seu dictaminis naturalis indispensabiliter 
+          obligaretur sub poena peccati deo reddere honorem et obedientiam seu 
+          ei obedire et ipsum non odire ergo conclusio vera consequentia bona quia quod obligat 
+          stante constantia subiecti obligabilis antecedens probatur quia lex naturalis est immutabilis 
+          et indelebilis in suis principiis quae sunt bonum facere et malum fugere ut 
+          ostendit 
+          <ref>
+            <name ref="#Aquinas">Sanctus Thomas</name> 
+            primae secundae, 
+            quaestione 49,  
+            quarto et sexto articulo
+          </ref>,
+          unde articulo sexto allegat,
+          <ref xml:id="pg-b1princ-Rd1e2621">
+            <name ref="#Augustine">Augustinum</name> 
+            II <title ref="#Confessions">Confessionum</title>
+          </ref> 
+          dicentem, 
+          <cit>
+            <quote source="http://scta.info/resource/aconf-l2-d1e136@8-18">
+              lex scripta est in cordibus hominum quod nec 
+              quidem delet iniquitas
+            </quote>
+          </cit>,
+          sed lex scripta in cordibus hominum 
+          est lex naturalis, 
+          ergo lex naturalis deleri non potest hanc rationem, 
+          informa facit 
+          <name ref="#Aquinas">Sanctus Doctor</name> 
+          ubi supra.
+        </p>
+        <p xml:id="pg-b1princ-d1e2644">
+          Confirmatur secundo per 
+          <cit>
+            <ref xml:id="pg-b1princ-Rd1e2648">
+              <name ref="#Augustine">Beatum Augustinum</name>,
+              secundo libro 
+              <title>de sermone domini in monte</title>
+            </ref>
+          </cit>,
+          ubi dicit nulla est anima quamvis perversa 
+          quae tum ratiocinari possit in cuius 
+          conscientia non loquatur Deus, 
+          quis enim scripsit legem naturalem in cordibus 
+          hominum nisi Deus de qua 
+          <name ref="#Paul">Apostolus</name> gentes 
+          quae legem non habent naturaliter 
+          ea quae legis sunt faciunt 
+          super quo verbo dicit 
+          etiam glossa lex naturalis est illa 
+          <unclear>qua quisque</unclear> intelligit 
+          quid malum sit et quid bonum.
+        </p>
+          <p xml:id="pg-b1princ-d1e2676" n="Corollarium 1">
+          Primum corollarium quam necessario verbum 
+          est creaturae lex vel ars observatoria seu conservativa tam necessaria 
+          verbum est creaturae lex vel ars obligatoria seu obligativa  
+          patet de necessitate conditionata quia non stat creaturam esse et ipsam a verbo 
+          non conservari sed non stat ipsam conservari et ratione conservationis secundum 
+          <pb ed="#L" n="7-r"/>
+          <sic>secundum</sic> legem recti dictaminis deo non obligari ergo corollarium verum
+        </p>
+          <p xml:id="pg-b1princ-d1e2715" n="Corollarium 2">
+          Secundum corollarium, 
+          non stat creaturam inesse consistere seu in esse existentiae conservari 
+          et ipsam duplici obligatione non obligari. 
+          Patet quia, 
+          si ipsa creatura est ipsa est obligata divina 
+          lege malum vitare et lege naturali seu rationis.
+        </p>
+          <p xml:id="pg-b1princ-d1e2726" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra 
+          <cit>
+            <ref><name>Magistrum Petrum de Allyaco</name></ref>
+          </cit> 
+          quod impossibile est creaturam rationalem obligari a divino velle 
+          et eam non obligari aliqua alia lege patet ex conclusione. 
+          Et corollario patet etiam 
+          quia non stat creaturam 
+          rationalem obmittere vel committere 
+          contra Deum et non contra dictam rationis rectae, 
+          ergo non stat eam ad aliquid obligari per deum 
+          quin ad idem obligetur 
+          a dictamine rectae rationis. 
+          Confirmatur per <name>eundem <!-- d'ailly --></name> 
+          quia in mente rationalis creaturae est 
+          proprie lex se regula iuste vitae 
+          sed regula menti rationali intrinseca est lex ditaminis 
+          rectae rationis quae indissolubiliter obligat creaturam ad nihil agendum 
+          contra conscientiam, 
+          ergo corollarium verum. 
+          Antecedens est 
+          <ref>secunda corollarii primi suae tertiae conclusionis</ref>, 
+          ubi dicit sic 
+          virtus iustitiae solum est in mente et non in scripto vel voce sic in ipsa est proprie lex 
+          seu regula iustae vitae, 
+          oppositum tamen mei corollarii ponit 
+          <ref>
+            <name>praefatus <unclear>dominus</unclear> <!-- still d'ailly --></name> 
+            in quadam proportione praeambulae 
+            primae conclusionis suae
+          </ref>, 
+          ubi dicit possibile est rem aliquam obligari a divina 
+          bonitate et no ab aliqua lege et per rem obligabilem intelligit creaturam 
+          rationalem quia nec alia creatura est obligabilis, 
+          ut patet in 
+          <cit>
+            <ref>
+              quarta propositione praeambula 
+              secundae conclusionis suae
+            </ref>
+          </cit>. 
+          Et istam propositionem suam probat multum subtiliter sunt, 
+          sicut prima causa quidquid cum lege alia potest obligare se sola potest 
+          sed divina voluntas est lex simpliciter prima, 
+          ergo.
+        </p>
+        <p xml:id="pg-b1princ-d1e2806">
+          Ad hanc rationem fortem diceretur <unclear>evadendo</unclear> cum correctione quod inter obligare 
+          et effective causare est magna dissimilitudo et differentia quia non quodlibet obligare 
+          est agere seu action quod patet quia lex scripta obligat ad sui observantiam et 
+          tamen illa non videtur ad producere vel agere obligando
+        </p>
+        <p xml:id="pg-b1princ-d1e2820">
+          Secundo, 
+          potest dici quod 
+          <mentioned>aliquam legem obligare creaturam</mentioned> potest dupliciter intelligi, 
+          uno modo principaliter et effective,
+          alio modo multipliciter et obiective. 
+          Primo modo concederetur maior, 
+          sed negatur minor, saltim quo ad secundam partem,
+          quia videtur implicare contradictionem 
+          quod creatura habeat usum rationis 
+          et non obligatur per illam vel secundum illam, 
+          et per hoc ad formam rationis negatur maior. 
+          Sed secunda pars antecedentis 
+          ratione dissimilitudinis 
+          quae est inter causare effective et obligare, 
+          unde, sicut non sequitur, 
+          deus cum causa secunda beatificat creaturam vel <sic>albificat</sic> parietem, 
+          igitur se solo potest beatificare 
+          creaturam et <sic>albefacere </sic> parietem sine albedine, 
+          sic in proposito non valet, 
+          Deus cum lege alia a se obligat creaturam, 
+          igitur se solo potest sic creaturam beatificare. 
+          Et haec sint exiliter dicta contra <name>istum <!-- d'ailly ? --></name>.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 5</head>
+        <p xml:id="pg-b1princ-d1e2866">
+          Circa materiam quinti articuli sit haec 5 conclusio 
+          nullius creaturae possibilitas aut futuritio fuit 
+          aut est a verbo causaliter sine 
+          sui principio seu initio 
+          probatur quia 
+          autem rei possibilitas vel futuritio 
+          sunt aliquid aut nihil aut aliqua. 
+          Si nihil, 
+          sequitur quod numquam fuerunt, 
+          et per consequens non fuerunt a verbo causaliter fine 
+          initio. 
+          Si aliquid, 
+          vel aliqua, 
+          aut ergo deus, 
+          et hoc non, 
+          aut aliquid citra Deum ab ipso 
+          productum, 
+          et hoc non 
+          quia tunc divinum influere ad extra 
+          non esset solum temporale, 
+          quod negat opinio. 
+          Contraria patet 
+          quia nullius rei possibilitas 
+          cepit esse ex tempore.
+         </p>
+        <p xml:id="pg-b1princ-d1e2896">
+          Confirmatur 
+          <pb ed="#L" n="7-v"/>
+          quia, 
+          si sic, 
+          sequeretur quod verbum divinum ageret ad extra de necessitate. 
+          Patet consequentia 
+          quia nullius rei 
+          potestas potest desinere esse aliter possibile fieri posset impossibile simpliciter, 
+          quod est falsum.
+          Item, 
+          sequeretur 
+          quod esset causa possibilitatis peccati 
+          quod etiam est falsum.
+        </p>
+          <p xml:id="pg-b1princ-d1e2921" n="Corollarium 1">
+          Primum corollarium, 
+          quamvis omne possibile 
+          incomplexum possit poni in esse per divini verbum activitatem, 
+          tamen possibile inesse 
+          possibilitatis nullum habet esse divini verbi causalitatem. 
+          Patet per <name ref="#Averroes">Commentatorem</name>, 
+          et eius probationem.
+        </p>
+          <p xml:id="pg-b1princ-d1e2933" n="Corollarium 2">
+          Secundum corollarium 
+          contra 
+            <name ref="#per-aw4gin">Robertum de Voto Bernadum</name>, 
+          quod ponere Deum respectu possibiltiatis aeternae 
+          se habere effective causaliter etiam ipsum ad extra 
+          solum influere temporaliter est ponere 
+          incompossibilia formaliter, 
+          aut saltim virtualiter. 
+          Patet quia sequitur Deus producit aeternaliter 
+          hanc possibilitatem, 
+          ergo influxit ad extra 
+          non solum temporaliter, 
+          immo aeternaliter.
+        </p>
+        <p xml:id="pg-b1princ-d1e2955">
+          Ex alia parte, 
+          sequitur Deus a extra solum influxit temporaliter, 
+          ergo nihil ad extra producit aeternaliter.
+          Tenent consequentiae 
+          quia opposita consequentium inferunt opposita antecedentium. 
+          Confirmatur autem illa possibilitas 
+          pro aliqua mensura habuit non esse vel non.
+          Si primum, 
+          sequitur quod possibilitas esse cepit, 
+          et sic non fuit ab aeterno, 
+          quod est contra eum. 
+          Si secundum, 
+          sequitur quod Deus aeternaliter produxit illam in esset, 
+          et sic Deus aeternaliter influxit ad extra 
+          quod iterum est contra eum in dictis suos
+        </p>
+          <p xml:id="pg-b1princ-d1e2981" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra eundem 
+          quod, 
+          sicut creatura non habet a Deo causaliter sui esse possibilitatem, 
+          sic creatura de se habet in nihil 
+          seu in non esse vertibilitatem. 
+          Prima patet per dicta. 
+          Secunda pars 
+          probatur quia 
+          secluso quolibet extrinseco creaturae ipsa creatura non esset 
+          seu haberet non esse 
+          ergo creaturae de se in est possibilitas non essendi 
+          quia illud dicitur in esse alicui de per se 
+          quod sibi derelictum quolibet alio <unclear>scemoto</unclear> 
+          sibi in est seu de ipso vere praedicatur 
+          sed creatura sibi derelicta et dei manutenentia 
+          subtracta creatura nullum habet esset 
+          sed solum non esse igitur.
+        </p>
+        <p xml:id="pg-b1princ-d1e3004">
+          Confirmatur 
+          quia, 
+          si nullus Deus esset <unclear>aequae <!-- aeque--> </unclear> 
+          non esset antichristus, 
+          sicut modo non est 
+          sed tunc deus non esset causa 
+          non esse antichristi 
+          ergo nec modo est causa positiva illius plura dicta 
+          <name ref="#Augustine">Augustini</name> 
+          et <name ref="#GregoryGreat">Gregorii</name> 
+          possunt ad hoc adduci 
+          sed <unclear>verumtatis</unclear> causa obmitto.
+        </p>
+        <p xml:id="pg-b1princ-d1e3025">
+          Verumptamen oppositum 
+          <ref>corollarii mei secundi</ref> ponit 
+          <ref>
+            <name>pater praeditus</name> 
+            in prima conclusio secundi articuli
+          </ref>, 
+          dicens,
+          <!--quote -->
+          prius causaliter et naturaliter 
+          est in essentia divina adextra producendi possibilitas 
+          quam insit creaturae essendi 
+          potestas hanc probavit 
+          sic quia sicut creaturam sub tanto gradu vel tanto posse 
+          esse est ex hoc 
+          quod agens sub tanto gradu potest agere, 
+          ita de posse simpliciter esse ad posse agere.
+        </p>
+        <p xml:id="pg-b1princ-d1e3041">
+          Hic dicitur quod, 
+          si intelligi secundam partem sui antecedentis sic, 
+          quod creatura 
+          quae non est et potest esse 
+          ideo potest poni inesse 
+          quia Deus potest ipsam 
+          producere inesse 
+          sic conceditur tota ratio 
+          sed non probat suam conclusionem. 
+          Si vero intelligeret sic,
+          quod creatura quod non est et potest esse 
+          ante suum existere habet aliquod esse possibile seu aliquam 
+          possibilitatem a tali creatura et a Deo distinctam 
+          respectu cuius Deus se habeat causaliter, 
+          sicut sonat, 
+          sic negatur tota ratio 
+          seu similitudo quam adduxit 
+          quam debet probare.
+        </p>
+        <p xml:id="pg-b1princ-d1e3069">
+          Oppositum vero <ref>tertii corollarii</ref> ponit 
+          <ref>
+            <name>idem <!-- same as above --></name> 
+            in corollario primo eiusdem conclusionis
+          </ref>, 
+          dicens,
+          <!-- quote -->
+          nulli creaturae de per se inest 
+          potestas essendi vel non essendi sed solum extrinsece et denotative. 
+          Patet conclusio 
+          quia nullum est intrinsece potens 
+          esse vel potens non esse, 
+          ergo. 
+          Hic dicitur quod creatura quae 
+          est <sic>est</sic> intrinsece potens non esse 
+          sic intelligendo quod quolibet extrinseco <unclear>scemoto</unclear> et 
+          <pb ed="#L" n="8-r"/>
+          qualibet influentia <sic>scemota</sic> de se habet non esse 
+          seu non est vel est nihil 
+          quia sic etiam potest dici 
+          quod per nullam potentiam potest fieri 
+          quin creatura quae non 
+          est possit producit <unclear>in esse <!-- review earlier instances of in esse vs inesse --></unclear> 
+          per deum nulla tamen creatura habet in se principium 
+          intrinsecum producendi se <unclear>in esse <!-- inesse --></unclear>.
+        </p>
+        </div>
+        <div>
+        <head>Conclusio 6</head>
+        <p xml:id="pg-b1princ-d1e3118">
+          Iuxta materiam <ref>sexta rationis</ref> sit 
+          haec sexta conclusio, 
+          non stat sine videre 
+          et diligere seu absque visione 
+          et dilectione creaturam beatificari, 
+          sic repugnat aliquem esse beatum perfecte 
+          et ipsum de perpetuitate suae beatitudinis non certificari. 
+          Prima pars probatur 
+          quia beatitudo formalis consistit 
+          secundum 
+          <cit>
+            <ref>decretalem</ref>
+          </cit> 
+          Deum benedictis in illis duobus actibus, 
+          scilicet in visione et 
+          fruitione 
+          seu in clare videre et frui perfecte. 
+          Secunda patet per 
+          <cit>
+            <ref>
+              <name ref="#Augustine">Augustinum</name> 
+              XII <title ref="#CityOfGod">De civitate Dei</title> 
+              capitulo 12
+            </ref>
+            <!-- cant find quote 
+              maybe here: http://scta.info/resource/adcd-l5-d1e702@323-325 ?? 
+              -->
+          </cit>, 
+          dicens, 
+          beatus non est qui de sua beatitudine certus non est. 
+          Confirmatur 
+          quia aliter sequitur 
+          quod <name ref="#Paul">Paulus</name> 
+          in raptu fuisset beatus. 
+          Consequens non admittitur,
+          et probatur consequentia 
+          pro tanto enim negatur ipsum fuisse beatum 
+          quia non habuit de illa 
+          visione certitudinem et permanentiam.
+        </p>
+          <p xml:id="pg-b1princ-d1e3156" n="Corollarium 1">
+          Primum corollarium, 
+          quaelibet anima beata 
+          possit numquam fuisse beata, 
+          tamen quilibet beatus numquam erit non beatus.
+          Prima patet 
+          quia beatus potest non esse beatus, 
+          ergo beatus potest numquam fuisse beatus. 
+          Tenet consequentia 
+          quia si non esset beatus numquam prius fuisset beatus 
+          quia numquam fuisset de perpetuitate 
+          suae beatitudinis certificatus. 
+          Secunda pars, 
+          patet per conclusionem 
+          quia beatitudo includit perpetuitatem.
+        </p>
+          <p xml:id="pg-b1princ-d1e3170" n="Corollarium 2">
+          Secundum corollarium, 
+          quod beatitudo formalis ipsius creatae essentiae 
+          non consistit in unico agere creato possibile. 
+          Probatur quia, 
+          si consisteret in unico actu vel agere aut ille 
+          actus esset sola visio sine dilectione, 
+          et hoc non quia talis visio est viatori communicabilis, 
+          et tamen per ipsam non redditur beatus vel ille actus esset dilectio 
+          visione seclusa, 
+          et hoc non 
+          quia tunc voluntas incognitum diligeret 
+          contra
+            <cit>
+              <ref><name ref="#Augustine">Augustinum</name></ref>
+            </cit>.
+        </p>
+          <p xml:id="pg-b1princ-d1e3189" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra 
+            <cit>
+              <ref>
+                <name>Magistrum 
+                <app>
+                  <lem n="Magistrum"/>
+                  <rdg wit="#L" type="correction-deletion">
+                    <del>robertum</del>
+                  </rdg>
+                </app> 
+                Gerardum Heynen 
+              <!-- see haymo name in penn 727 anonymous manuscript; 
+                probably not the same -->
+            </name>
+              </ref>
+            </cit>
+          quod ad perfectam beatitudinem creaturae rationalis, 
+          sequitur ipsam habere 
+            <app>
+              <lem n="habere"/>
+              <rdg wit="#L">
+                <del rend="strikethrough">certitudinem</del>
+              </rdg>
+            </app> 
+          cognitionem fruitionis suae aeternalis. 
+          Patet ex conclusione 
+          quia repugnat creaturam esse 
+          beatam perfecte et eandem non certificari 
+          de habitione perpetua suae beatitudinis 
+          sed non stat creaturam esse certificatam de aliqua re 
+          et illam nescire seu ignorare, 
+          ergo non stat quod anima certificetur de aliqua reputa de 
+          perpetuitate suae fruitionis 
+          quin habeat illius notitiam in se. 
+          Antecedens probatur quia certitudo 
+          perpetuitatis gloriae est Dei eius intrinseca ratione 
+          aliter <name ref="#Paul">paulus</name> in raptu fuisset 
+          beatus quod non conceditur, 
+          oppositum tamen huius corollarii ponit 
+            <cit>
+              <ref>
+                <name>Praelibatus Bachallarius</name> 
+                in primo corollario 7 conclusionis suae
+              </ref>
+            </cit> 
+            dicens quod stat creaturam perfecte esse beatam
+            et non cognoscere se deum videre nec eo frui, 
+            et hoc probat sic,
+            quia rationes obiectales
+            actuum reflexorum sunt distinctae 
+            a rationibus obiectalibus actuum 
+            rectorum et sunt posteriores actibus rectis, 
+            ergo non repugnat creaturam 
+            intellectualem esse solum recte cognoscitivam 
+            et reflexionem seu experientiam 
+            suorum actuum non habere, 
+            ergo stat creaturam etc. 
+            Patet haec consequentia 
+            quia talis species 
+            rationalis creaturae 
+            non esset capax secundum conditionem suae speciei reflexionis 
+            illius seu experientiae suorum actuum.
+        </p>
+        <p xml:id="pg-b1princ-d1e3258">
+          Ad istam rationem, 
+          cum sua regula posset dici 
+          quod non universaliter actus reflexi sunt posteriores actibus 
+          <pb ed="#L" n="8-v"/>
+          actibus rectis et maxime imperfectam beatitudine 
+          quia non prius tempore intellectus 
+          videt deum quam sit securus de sua beatitudine concesso, 
+          ergo quod ibi unum esset prius alio origine 
+          vel natura, 
+          non tamen inter illa est prioritas temporis.
+        </p>
+        <p xml:id="pg-b1princ-d1e3276">
+          Secundo, 
+          potest dici quod deus <unclear>creat</unclear> seu creare potest 
+          in anima simul cum visione 
+          beatifica iudicium complexum 
+          quo anima iudicabit se habere dei visionem 
+          et illius securitatem et permanentiam 
+          et potest esse actus distinctus a visione beatifica.
+        </p>
+        <p xml:id="pg-b1princ-d1e3286">
+          Tertio, 
+          potest dici quod, 
+          non sequitur haec res distinguitur 
+          ab illa ergo potest esse sine ea nam visio intuitiva realiter 
+          et essentialiter distinguitur ab obiecto visio, 
+          et tamen non potest esse sine obiecto praesente ipsi potentiae, 
+          et sic de multis aliis potest dari exemplum.
+        </p>
+        <p xml:id="pg-b1princ-d1e3297">
+          Ad formam, 
+          ergo concessa prima parte antecedentis, 
+          negatur secunda pars universaliter quia 
+          dato quod ibi esset cognitio reflexa, 
+          non tamen esset posterior tempore cognitione recta.
+          Si autem intelligi de prioritate originis aut naturae, 
+          tunc negatur consequentia ultima 
+          qua infertur ergo stat creaturam perfecte esse beatam etc 
+          quia si illa creatura 
+          est perfecte beata necessario sit se certificatam 
+          de huius perfectam beatitudinem 
+          et illud includit necessario cognitionem visionis suae beatificae 
+          sive ille sit actus rectus sive reflexus 
+          aliter creatura aliqua esset certa de re et simul 
+          illam rem ignoraret quod videtur implicare.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 7</head>
+        <p xml:id="pg-b1princ-d1e3329">
+          Circa materiam <ref><!-- seems like this matches up with 7th argument corrected to 6th -->7 argumenti</ref> sit 
+          haec conclusio septima, 
+          non stat aliquam divinarum personarum 
+          ab intellectu creato beatifice 
+          videri et eundem intellectum aliquam reliquarum 
+          non intueri seu contemplari.
+          Probatur quia non stat 
+          intellectum creatum clare videre filium et eius emanationem 
+          passivam et activam non percipere clare 
+          sed ille emanationes non possunt 
+          sic percipi sine visione patris et spiritus sancti.
+        </p>
+          <p xml:id="pg-b1princ-d1e3345" n="Corollarium 1">
+          Primum corollarium, 
+          licet visio 
+          verbi beatifica inferat visionem rei ab ipso distincte realiter, 
+          tamen beatifica visio verbi non arguit visionem rei identice sibi 
+          totaliter seu ab ipso indistincte simpliciter.
+          Prima patet 
+          quia non stat intellectum creatum beatifice videre filium 
+          et non patrem ex conclusione. 
+          Secunda pars probatur 
+          quia stat clare intellectum videre filium 
+          et non videre filium velle <c>b</c> futurum evenire 
+          sed illud velle est idem filio realiter 
+          et totaliter, 
+          ergo.
+        </p>
+          <p xml:id="pg-b1princ-d1e3376" n="Corollarium 2">
+          Secundum corollarium, 
+          sola identitas essentialis non est adaequata ratio 
+          quare ab intellectu creato pater non potest videri sine filio. 
+          Patet quia emanatio filii 
+          est potior ratio. 
+          Confirmatur quia volito quam filius vult me loqui 
+          tam est eadem filio 
+          quam idem essentialiter est filio pater, 
+          et tamen visio filii infert visionem 
+          patris et non huius 
+          quod est filium me velle loqui, 
+          igitur.
+        </p>
+          <p xml:id="pg-b1princ-d1e3398" n="Corollarium 3">
+          3m corollarium, 
+          si per possibile vel impossibile, 
+          intellectus beatus originationem filii a patre 
+          non percipieret talis intellectus 
+          inter patrem et filium non desineret seu distingueret. 
+          Patet quia omnis discretio seu distinguo, 
+          saltim personalis in divinis 
+          fundatur super originem seu origines 
+          secundum distinctam.
+        </p>
+        <p xml:id="pg-b1princ-d1e3412">
+          Ex dictis posset inferri
+          contra 
+          <ref>
+            <!-- this ref is weird cod-abq11a; needs correction -->
+            <name ref="#cod-abq11a">bachallarium hariciurae magistrum 
+            nycholaum de meseryo
+            </name>
+          </ref> 
+          quod non stat intellectum causam aliquam clarissime 
+          cognoscere et eius effectum quemlibet ignorare aliqualiter. 
+          Patet per dicta confirmatur 
+          <pb ed="#L" n="9-r"/>
+          quia omnis clarissime cognoscens causam 
+          cognoscit ipsam esse causam, 
+          licet hoc non potest cognosci 
+          quin cognoscat explicite vel implicite, 
+          saltim aliquid cuius est causa.
+        </p>
+        <p xml:id="pg-b1princ-d1e3433">
+          Secundo, 
+          confirmatur quia causa 
+          et effectus cum sint relativa sunt simul intelligentia, 
+          ergo unus cognitio clarissima 
+          non stat cum alterius ignorantia. 
+          Patet consequentia 
+          quia ignorantia respectu alicuius negat 
+          omnem modum scientiae vel sciendi 
+          respectu illius scibilis in eodem intellectu. 
+          Et antecedens patet per dicta, 
+          oppositum tamen huius corollarii 
+          ponit 
+          <ref>
+            <name>Praefatus Bachallarius</name> 
+            in primo corollario 3ae 
+            conclusionis 3ii articuli
+          </ref>, 
+          dicens,
+          quod possibile est intellectum causam aliquam 
+          cognoscere et eius effectum quemlibet ignorare 
+          quod probat multum difficulter 
+          quia causa et effectus distinguitur realiter 
+          et earum cognitiones similiter, 
+          ergo causa sine effectu suo 
+          et effectus sine causa potest cognosci.
+        </p>
+        <p xml:id="pg-b1princ-d1e3465">
+          Ad hanc rationem, 
+          posset primo dici negando 
+          secundam partem antecedentis 
+          quia ut patet ex dictis in conclusione clare cognoscens 
+          filium necessario cognoscit patrem eadem cognitione 
+          et tamen pater et filius distinguitur realiter.
+        </p>
+        
+        <p xml:id="pg-b1princ-d1e3480">
+          Item, 
+          eadem visione videt quis 
+          per <sic>gamenum</sic> album et in castum nigrum 
+          et notum est illa distingui realiter.
+        </p>
+        <p xml:id="pg-b1princ-d1e3490">
+          Item, 
+          intellectus simul cognoscit fiem 
+          et ea quae sunt ad finem et voluntas eadem simul 
+          <app>
+            <lem n="simul"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del rend="strikethrough">sunt</del>
+            </rdg>
+          </app> 
+          vult.
+        </p>
+        <p xml:id="pg-b1princ-d1e3499">
+          Tertio, 
+          dico quod non sequitur formaliter 
+          visiones sunt distinctae, 
+          ergo una potest esse sine alia. 
+          Patet instantia de beatifica visione simplici 
+          et complexa divinae essentiae, 
+          et sic potest negari consequentia 
+          et haec sint leviter dicta contra 
+          <cit>
+            <ref>
+              <name>istum patrem reverendum</name>
+            </ref>
+          </cit>.
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 8</head>
+        <p xml:id="pg-b1princ-d1e3512">
+          Circa materiam octavi argumenti sit 
+          haec octava conclusio 
+          ad verbum divinum clarius 
+          et limpidius videri, 
+          non sequitur formaliter videntem 
+          plures veritates in ipso intueri probatur 
+          quia si sic, 
+          sequitur quod simplex multipliciter 
+          decedens cum pluribus <unclear>meritis</unclear> sciret plures conclusiones 
+          theologicas deducere 
+          et oppositas rationes melius solvere 
+          quam quicumque doctor 
+          decedens cum paucioribus meritis. 
+          Consequens est falsum 
+          quia <name>Doctor Thomas</name> per acquisitas 
+          notitias et habitus in eo derelictos et remanentes multo plura 
+          cognoscere debet 
+          quam talis <unclear cert="high">mulier</unclear>, 
+          licet propter illas non sit beator essentiali beatitudine. 
+          Consequentia patet talis 
+          <unclear cert="high">mulier</unclear> divinam essentiam intuetur 
+          limpidius quam <name>doctor minorem <!-- a socius?? --></name> 
+          habens gratiam et pauciora merita confirmatur 
+          quia deus potest concurrere cum habente minus 
+          claram visionem, 
+          ut plura videat quam habens minorem 
+          et de se clariorem visionem.
+        </p>
+          <p xml:id="pg-b1princ-d1e3558" n="Corollarium 1">
+          Primum corollarium contra 
+            <name>bachallarium vall? scolarium</name>, 
+            quod sicut non stat quemcumque 
+            comprehensiorem ab aliquo viatore verius 
+            et certius doceri sic non stat 
+            divinam essentiam a viatore quolibet beato clarius videri partes huius sunt <unclear>transpo?tae</unclear>, 
+            Patet quia 
+            ex opposito huius corollarii, 
+            sequitur Christum posse a viatore doceri et viatorem 
+            limpidius Christo divinam essentiam posset intueri, 
+            et sic Christus non 
+            <app>
+              <lem>sciret</lem>
+              <rdg wit="#L" type="correction-substitution">
+                <subst>
+                  <del>posset</del>
+                  <add place="in-line">sciret</add>
+                </subst>
+              </rdg>
+            </app> 
+            omnia nec esset immense beatus 
+            quae non videtur vera.
+        </p>
+          <p xml:id="pg-b1princ-d1e3592" n="Corollarium 2">
+          Secundum corollarium 
+          quod pluritas 
+          seu maioritas meritorum 
+          non semper infert in <unclear>patrai</unclear> pluralitatem cognitorum. 
+          Patet de simplici fideli 
+          et doctore subtili.
+        </p>
+          <p xml:id="pg-b1princ-d1e3601" n="Corollarium 3">
+          Tertium corollarium, 
+          quod si de ratione 
+          viatoris sit deum cognoscere aenigmatice 
+          non stat ipsum attingere genus visionis cherubice. 
+          Patet quia eundem simul videre 
+          idem obiectum clare et obscure 
+          includit repugnantiam, 
+          ergo. 
+          Confirmatur 
+          quia genus visionis cherubice est beatificum 
+          sed secundum 
+            <cit>
+              <ref>
+                <name>praedictum dominum <!-- socius --></name>
+              </ref>
+            </cit> 
+            non stat viatorem manente 
+            infra terminos viae 
+          <pb ed="#L" n="9-v"/>
+          attingere genus visionis beatifice, 
+          ergo.
+        </p>
+        <p xml:id="pg-b1princ-d1e3625">
+          Verumtamen oppositum 
+          <ref>corollarii mei primi</ref> 
+          ponit 
+          <cit>
+            <ref>
+              <name>Praedictus Pater</name> 
+              in quadam conclusione sui secundi articuli
+            </ref>
+          </cit>, 
+          ubi dicit stat viatoris 
+          animam qualibet creatura beata limpidius videre divinam essentiam 
+          quod probat supponendo cum 
+          <name ref="#Augustine">Beato Augustino</name> 
+          quod 
+          <name ref="#Paul">paulus</name> 
+          et <name ref="#Moses">Moses</name> 
+          viderunt in via divinam 
+          essentiam, 
+          ita clare sicut sancti post hanc vitam videbunt 
+          et vident tunc arguit, 
+          sic Deus potest intendere visionem animae beatricis 
+          qua potest videre essentiam divinam 
+          ut excedit omnem visionem naturae intellectualis essentiam divinam clare videntis, 
+          ergo conclusio vera. 
+          Consequentia patet,
+          et antecedens probatur 
+          per hoc quod stat animam beatricem talis visionis 
+          esse capacem hic posset dici primo 
+          quod licet 
+          <name ref="#Paul">Paulus</name> 
+          et <name ref="#Moses">Moses</name> 
+          clare viderunt deitatem in via 
+          tamen alia specie clare visionis illam viderunt 
+          quae erat minus perfecta quam species visionis clare 
+          qua beati eam vident ideo quantumcumque 
+          illa intendentur in sua specie numquam devenirent 
+          ad perfectionem visionis beatorum.
+          Item, nota quod verbum est natura intellectualis 
+          cuius visio a nullo potest excedi 
+          ideo falsum assumit.
+        </p>
+        <p xml:id="pg-b1princ-d1e3680">
+          Ad dictum <name ref="#Augustine">Augustini</name>, 
+          dicitur quod 
+          li <mentioned>sicut</mentioned> denotat similitudinem non omnimode 
+          quod patet quia, 
+          si sic, 
+          illa visio fuisset perpetua et stabilis, 
+          et per consequens perpetua beatifica 
+          quod ipse negat et bene, 
+          sufficit ergo <name ref="#Augustine">Augustino</name> 
+          quod clare viderit sed tamen alia speciei claritatis 
+          seu clarae visionis a specie visionis beatificae, 
+          et tunc patet quod sua deductio non procedit 
+          quia dato quod in gradu aequae bene claro 
+          vel clariori viator videret deitatem, 
+          tamen non ita limpide quo ad speciem 
+          nec ita perfecte.
+        </p>
+        <p xml:id="pg-b1princ-d1e3710">
+          Ulterius 
+          <ref>
+            <name>iste pater</name> 
+            dicit in sexta conclusione 
+            eius de articuli
+          </ref> 
+          quod possibile est quod viator sit maior theologus in via 
+          quam quicumque beatus clare videns Deum in patria. 
+          Ex qua conclusione infert quod 
+          stat viatorem pro statu viae docere 
+          quamcumque videntem Deum beatifice, 
+          ubi patet quod non excludit Christum, 
+          et per consequens ita dicta sic absolute posita non habent 
+          veritatem nec rationes efficaciam. 
+          Unde ipse arguit sic stat viatoris 
+          animam qualibus creatura beata clarius videre divinam essentiam, 
+          ergo conclusio cum corollario vera. 
+          Consequentia nota, 
+          et antecedens patet ex praecedente conclusione sua. 
+          <unclear>Ad</unclear> hoc patet responsio 
+          ex dictis in 
+          <ref>mea conclusione</ref> 
+          quoniam supposita veritate antecedentis adhuc 
+          non haec anima clarius 
+          videt divinam essentiam, 
+          ergo plura cognoscit in ipsa 
+          quam alius minus clare videns ipsam. 
+          Patet ergo quod consequentia sua nulla est.
+        </p>
+        <p xml:id="pg-b1princ-d1e3749">
+          Secundo, 
+          arguit sic, 
+          possibile est maiori latitudine notitiae anima viatoris sic illustrata 
+          quam quis beatus clare videns Deum sit illustratus, 
+          ergo etc. 
+          Hic dicitur quod, 
+          si intelligit antecedens de maioritate notitiae quo ad speciem, 
+          negatur antecedens. 
+          Si de maioritate gradus, 
+          negatur consequentia. 
+          Et ad probationem, 
+          cum dicit quod cuiuslibet beati latitudo notitiae est finita, 
+          ergo stat quod maiori latitudine notitiae 
+          anima viatoris sit illustrata.
+        </p>
+        <p xml:id="pg-b1princ-d1e3766">
+          Hic negatur consequentia, 
+          nam sicut non sequitur homo non 
+          est perfectus simpliciter infinite, 
+          <sic>infinite</sic> ergo stat aliquem equum esse ita perfectum 
+          vel perfectiorem homine, 
+          sic in proposito consequentia sua non valet. 
+          Contra istum <unclear>sufficiat <!-- sufficiant --></unclear>
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 9</head>
+        <p xml:id="pg-b1princ-d1e3785">
+          <pb ed="#L" n="10-r"/>
+          Circa materiam <unclear>novi <!-- noni --></unclear> argumenti 
+          sit haec conclusio <unclear>nova <!-- nona --></unclear>, 
+          sicut voluntas creata sine gratia vel auxilio 
+          speciali non cuilibet dictamini recto potest se conformare, 
+          sic beatitudine apprehensa ab 
+          intellectu creato voluntas non potest illam respuere nolle aut refutare. 
+          Prima pars conclusionis probatur 
+          quia, 
+          si sic, 
+          sequitur quod ex puris naturalibus potest 
+          quis Deum diligere meritorie. 
+          Consequens est 
+          error <name ref="#Pelagius">Pellagii</name>. 
+          Consequentia patet 
+          quia voluntas sibi dimissa supposita,. 
+          tamen generali influentia potest habere iudicium 
+          et dictamen quod Deus est ordinate diligendus 
+          et meritorie et cetera propter ipsum ex caritate.
+        </p>
+        <p xml:id="pg-b1princ-d1e3809">
+          Secunda pars probatur 
+          quia homo non potest non velle beatitudinem ergo non potest 
+          esse nolle. 
+          Tenet consequentia 
+          quia a non posse non velle <c>a</c>, 
+          sequitur non posse nolle <c>a</c>.
+          Antecedens vero est 
+          <ref xml:id="pg-b1princ-Rd1e3826">
+            <name ref="#Augustine">Augustinus</name>
+            <title>super psalmos</title>
+          </ref>, 
+          dicens, 
+          <cit>
+            <quote>
+              peccatoribus <unclear>reliquatae</unclear>, 
+              inquit, 
+              iniquitatem qui non 
+              potestis reliquare beatitudinis voluntatem
+            </quote>
+          </cit>. 
+          Confirmatur quia 
+          nullus potest velle suam perpetuam 
+          miseriam directe, 
+          igitur nec nolle beatitudinem apprehensam. 
+          Tenet consequentia 
+          quia per opinionem contrariam,
+          sicut voluntas se habet ad velle beatitudinem, 
+          sic se habet ad nolle suam miseriam et <unclear>alius <!-- alias --></unclear>.
+          Patet quia aliter damnatus 
+          et quilibet afflictus posset se liberare a poena sensus 
+          quam patitur, 
+          quod est falsum. 
+          Et patet consequentia per 
+          <ref xml:id="pg-b1princ-Rd1e3872">
+            <name ref="#Anselm">Anselmum</name> 
+            <title ref="#deConceptuVirginali">
+            de conceptu virginali</title>, 
+            capitulo 4o
+          </ref>, 
+          dicentem,
+          quod nihil est poena alicui 
+          nisi quod est vel infertur 
+          contra eius voluntatem tristitia, 
+          enim est de his quae nobis nolentibus accidunt dicit 
+          <name ref="#Aristotle">Philosophus</name>.
+        </p>
+          <p xml:id="pg-b1princ-d1e3894" n="Corollarium 1">
+          Primum corollarium 
+          contra 
+            <name ref="#per-VVNsc3">
+              bachallarium servorum beatae mariae fratrem iohannem de florentia
+            </name>,
+            quod libertas voluntatis creatae a nullo 
+          impedita dimissa suae naturae non cuilibet recto dictamini <unclear>in volendo</unclear> 
+            se potest conformare. 
+          Patet ex conclusione et eius profectione.
+        </p>
+          <p xml:id="pg-b1princ-d1e3912" n="Corollarium 2">
+          Secundum corollarium, 
+          contra eundem sicut voluntas creata suam beatitudinem 
+          non potest non velle sic se esse miseram non potest velle.
+          Patet ex conclusione. 
+          Confirmatur quia miseria 
+          ut sic nullam habet bonitatem, 
+          ergo nullam habet eligibilitatem autem appetitatem.
+        </p>
+          <p xml:id="pg-b1princ-d1e3923" n="Corollarium 3">
+          Tertium corollarium, 
+          contra eundem, 
+          licet non stet sine dono gratifico Deum 
+          super omnia diligi a creata voluntate, 
+          tamen stat creatam voluntatem Deum gratifice diligere 
+          sine creata caritate.
+          Prima pars probatur 
+          quia quilibet Deum diligens super omnia 
+          diligit deum plus quam se ipsum, 
+          et per consequens praeponit voluntatem 
+            <app>
+              <lem>divinam</lem>
+              <rdg wit="#L" type="correction-substitution">
+                <subst>
+              <del rend="strikethrough">suam</del> 
+              <add place="in-line">divinam</add>
+            </subst>
+              </rdg>
+            </app> 
+            suae voluntati igitur cum talis sciat 
+            deum velle ipsum esse in caritate, 
+            sequitur quod ipse facit omne quod in se est ut habeat caritatem, 
+            et sic deus confert sibi caritatem, 
+            et sic ultra sequitur quod talis voluntas creata 
+            non diligit deum sine dono gratifico. 
+            Confirmatur quia supposito quod sine caritate 
+            creata hoc posset, 
+            non tamen sine dono gratifico complexo. 
+            Patet quia oportet quod Deus suppleret 
+            per se vel per aliud causalitatem caritatis creaturae 
+            sed illa <unclear>supple?o</unclear> est donum gratuitum complexum 
+            quia est voluntatem sic agi vel iuvari a Deo specialiter, 
+            licet non sit aliqua una <unclear>entitias</unclear> realis incomplexa 
+            seu qualitas spiritualis animae infusa, 
+            ergo. 
+            Secunda pars probatur 
+            quia cuiuslibet 2i agentis Deus potest causalitatem efficientem supplere, 
+            ergo talis 
+            <app>
+              <lem n="talis"/>
+              <rdg wit="#L" type="correction-deletion">
+                <del rend="strikethrough">caritas</del>
+              </rdg>
+            </app> 
+            voluntas sine 
+            caritate creata poterit Deum beatifice amare. 
+            Consequentia <unclear>notitia<!-- nota --></unclear> 
+            et antecedens est communis scola.
+        </p>
+        <p xml:id="pg-b1princ-d1e3982">
+          Oppositum tamen primi corollarii 
+          ponit 
+          <cit>
+            <ref>
+              <name>dictus pater</name> 
+              in secunda conclusione secundi articuli
+            </ref>
+          </cit>, 
+          dicens, 
+          <!-- quote -->
+          tanta est libertas 
+          volitive create 
+          quod sibi dimissa et a nullo impedita cuilibet dictamini 
+          rationis in volendo se potest conformare, 
+          Hanc conclusionem probat 
+          sic quia,
+          si voluntas hoc non 
+          posset vel hoc esset ex parte Dei omnipotentis volentis cogere eam 
+          et hoc non quia secundum 
+          <cit>
+            <ref>
+              <name ref="#Augustine">Augustinum</name>
+            </ref>
+          </cit> voluntas cogi non potest, 
+          vel ex parte obiecti difficultatis 
+          et hoc non quia, 
+          licet 
+          <pb ed="#L" n="10-v"/>
+          obiectum possit diffinire, 
+          non tamen cogere 
+          vel esset ex parte voluntatis non potentis 
+          se conformare sic ex sui natura 
+          et hoc non quia non esset libera.
+        </p>
+        <p xml:id="pg-b1princ-d1e4012">
+          Ad hanc 
+          rationem dicitur quod ex parte voluntatis non potentis se conformare cuilibet talis sine speciali 
+          dei adiutorio. 
+          Et cum dicitur, 
+          sequitur quod voluntas tunc non sit libera, 
+          negatur consequentia 
+          quia similiter probaretur 
+          quod divina voluntas non esset libera. 
+          Patet arguendo, 
+          sicut sua ratio quia voluntas non 
+          potest velle deformitatem et se non esse vel aliquod aliud impossibile, 
+          ergo non est libera nec actus eius volitivus esset liber. 
+          Patet quod consequentiae non <sic>vallent</sic> et similiter nec sua.
+        </p>
+        <p xml:id="pg-b1princ-d1e4041">
+          Item, 
+          secundo ad idem arguit sic, 
+          non est minoris ambitus ipsa volitiva potentia quam intellectiva,
+          ergo si intellectus potest dictare aliquid esse volendum 
+          et voluntas illud potest velle 
+          vel propter se vel propter aliud.
+        </p>
+        <p xml:id="pg-b1princ-d1e4051">
+          Hic respondetur negando consequentiam intellecto consequente universaliter, 
+          sic quod omnis voluntas sibi dimissa possit 
+          cuilibet dictamini se conformare. 
+          Et patet consequentiam non <sic>vallere</sic> 
+          quia intellectus divinus et voluntas sunt aequalis ambitus,
+          et tamen intellectus divinus multa intelligit 
+          quae voluntas divina non potest velle ut peccata.
+        </p>
+        <p xml:id="pg-b1princ-d1e4069">
+          Secundo, 
+          posset concedi consequens secundum quod <unclear>iacet</unclear>, 
+          sed tunc non probat conclusionem per illud medium sufficienter 
+          quia voluntas potest cum adiutorio speciali Dei 
+          sed sibi dimissa non potest.
+        </p>
+        <p xml:id="pg-b1princ-d1e4079">
+          Reduco ergo rationem contra eum 
+          cuilibet dictamini intellectus potest se voluntas conformare 
+          sed intellectus potest dictare sine caritate Deum esse diligendum 
+          super omnia seu se posset diligere 
+          ergo voluntatem sine caritate Deum super omnia diligere est possibile. 
+          Maior est sua et minor est vera, 
+          et superius probata et converso est opposita 
+          quartae propositioni suae conclusionis.
+        </p>
+        <p xml:id="pg-b1princ-d1e4091">
+          Secundo, 
+          <name>idem pater</name> oppositum 
+          <ref>secundi corollarii</ref> 
+          <corr>pos<del>s</del><add>u</add>it</corr> 
+          in 
+          <cit>
+            <ref>
+              quarta 
+              <app>
+                <lem>propositione</lem>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
+                    <del rend="strikethrough">conclusione</del>
+                    <add place="in-line">propositione</add>
+                  </subst>
+                </rdg>
+              </app>
+              eiusdem conclusionis
+            </ref>
+          </cit>, 
+          ubi dicit 
+          sicut voluntas creata suam beatitudinem potest nolle 
+          sic se esse miseram potest velle 
+          et non posset esse ut dicit in conclusione 
+          nisi quia intellectus potest sibi dictare sic esse volendum,
+          ergo. 
+          Antecedens patet 
+          quia multis dictatum bonum esse malum et malum bonum, 
+          hic dicitur primo quod intellectus rationabiliter 
+          non potest dictare miseriam perpetuam proprie et per se 
+          esse volendam et beatitudinem fugiendam, 
+          et sic posset negari antecedens. 
+          Hoc probat quia, 
+          licet aliqui dixerint bonum malum etc. 
+          illud tamen non fuit dictamen rectae rationis, 
+          sed error et defectus rationis.
+        </p>
+        <p xml:id="pg-b1princ-d1e4138">
+          Item, 
+          posset dici quod si intellectus rationabiliter 
+          dictaret miseriam volendam quam si vellet propter Deum meritorie ageret, 
+          tunc consequentiam negare intellectus hoc dictat esse volendum, 
+          igitur voluntas potest se illi dictamini 
+          conformare propter causam iam dictam.
+        </p>
+        <p xml:id="pg-b1princ-d1e4149">
+          Ad secundam, 
+          cum dicit Deus potest ordinare quod desiderans 
+          poenam sensus et damni sit amicus Dei, 
+          sed tunc intellectus potest rationaliter 
+          dictare hoc esse volendum, 
+          ergo voluntas potest se illi conformare 
+          cum praetendat rationem 
+          boni existentis vel appentis, 
+          saltim per accidens, 
+          ergo,
+          hic dicitur quod, 
+          si Deus posset 
+          hoc staturere et creatura rationabiliter optare, 
+          tamen creatura non propter hoc vellet principaliter 
+          et primo suam miseriam sed Dei amititiam, 
+          ut consequeretur suam beatitudinem, 
+          et sic non haberet nolle suae beatitudinis 
+          sed potius velle saltim implicite. 
+          Et hoc patet 
+          <app>
+            <lem>quia</lem>
+            <rdg wit="#L" type="correction-addition">
+              <add place="below-line">quia</add>
+            </rdg>
+          </app> 
+          propter Dei amicitiam vellet subire illam poenam 
+          sicut sancti martiria 
+          <pb ed="#L" n="11-r"/>
+          propter vitam aeternam optabant.
+        </p>
+        <p xml:id="pg-b1princ-d1e4197">
+          Item, 
+          secundo 
+          posset dici quod si huius poena sensus et 
+          dampni esset perpetua, 
+          forte Deus non posset illud statutum ponere, 
+          scilicet quod vellet creaturam velle suam perpetuam miseriam 
+          quia ad sic Deum velle, 
+          sequitur creaturam numquam beatam fore 
+          nec beatitudinem appetere.
+        </p>
+        <p xml:id="pg-b1princ-d1e4215">
+          Item, 
+          sequitur quod vellet creaturam in peccato fore 
+          cum non sinat sine culpa poenas inflictas 
+          maxime aeternas, 
+          et haec dicta exilia sufficiant 
+          contra istum patrem etc. 
+        </p>
+        </div>
+        <div>
+          <head>Conclusio 10</head>
+        <p xml:id="pg-b1princ-d1e4232">
+          Circa materiam 10 articuli sit haec 10a conclusio, 
+          probabilis quod, 
+          sicut repugnat eandem caritatem 
+          simul intendi et remitti, 
+          sic non stat aliquem venialiter peccare 
+          et non esse transgressorem divini praecepti, 
+          vel sit conclusio, 
+          sicut non stat eandem caritatem 
+          simul intendi et remitti, 
+          sic repugnat eundem esse simul transgressorem et inpletorem 
+          divini praecepti. 
+          Prima pars probatur 
+          quia sequitur <c>a</c>  caritas intenditur, 
+          ergo immediate post hoc erit maior seu intensior quam prius fecerit. 
+          Ex alia parte sequitur <c>a</c> caritas remittitur, 
+          ergo immediate post hoc erit minor quod repugnat respectu eiusdem. 
+          Secunda pars probatur 
+          quoniam per illud praeceptum non falsum testimonium dices prohibetur 
+          omne mendacium, 
+          ut dicit <name ref="#Augustine">Augustinus</name>, 
+          ut dicit 
+          <cit>
+            <ref>
+              <name ref="#Augustine">Augustinus</name> <title>Super Exodus</title>, 
+              quaestione 26
+            </ref>
+          </cit>, 
+          sed non omne 
+          <app>
+            <lem n="omne"/>
+            <rdg wit="#L" type="correction-deletion">
+              <del>p</del>
+            </rdg>
+          </app> 
+          mendacium 
+          est peccatum mortale, 
+          ut patet per 
+          <cit>
+            <ref>
+              <name ref="#Lombard">Magistrum</name>, 
+              distinctione 38 tertii
+            </ref>
+          </cit> 
+          et qua ratione unum veniale 
+          prohibetur eadem ratione quodlibet ergo peccans venialiter transgreditur aliquod praeceptum 
+          divinum. 
+          Item, 
+          secundo non omne est peccatum mortale, 
+          ut patet extra de furtis, 
+          ubi dicitur quod cum quis furatur ex aliquali magna necessitate 
+          non punitur tamquam peccans 
+          mortaliter sed quasi pro peccato veniali, 
+          tamen omne furtum prohibetur illo divino 
+          praecepto non furtum facies ergo conclusio vera.
+        </p>
+        <p xml:id="pg-b1princ-d1e4307" n="Corollarium 1">
+          Primum corollarium, 
+          stat viatorem divinum 
+          praeceptum transgredi actualiter, 
+          et per hoc non demereri vitam aeternam seu puniri 
+          aeternaliter patet de veniali.
+        </p>
+          <p xml:id="pg-b1princ-d1e4316" n="Corollarium 2">
+          Secundum corollarium, 
+          quod si quis simul meretur et venialiter 
+          peccaret simul idem praeceptum transgrederetur 
+          et impleret seu implere posset. 
+          Patet quia posset committere mendacium iocosum seu oficiosum vel veniale et 
+          velle abstinere a mendacio mortali propter Deum ex caritate.
+        </p>
+          <p xml:id="pg-b1princ-d1e4327" n="Corollarium 3">
+          Tertium corollarium, 
+          infero contra 
+            <name>bachallarium maioris monasterii</name> 
+            quod non stat viatorem in merito actualiter 
+          proficere et eundem simul venialiter peccare seu per peccatum deficere. 
+          Patet quia 
+          tunc caritas eadem simul intenderetur et remitteretur. 
+          Patet consequentia 
+          quia meritum ex una parte intenderet et peccatum 
+          ex alia remitteret saltim quo ad fervorem.
+        </p>
+        <p xml:id="pg-b1princ-d1e4350">
+          Confirmatur quia 
+          caritas et cupiditas in eadem anima 
+          simul intendentur et remitterentur 
+          quod patet quia caritas augetur 
+          per merita et cupiditas per demerita
+        </p>
+        <p xml:id="pg-b1princ-d1e4361">
+          Confirmatur tertio 
+          quia sequitur quod idem homo simul et semel eidem legi, 
+          immo eidem praecepto se conformaret et deformaret 
+          quod videtur implicare.
+        </p>
+        <p xml:id="pg-b1princ-d1e4380">
+          Oppositum tamen huius corollarii ponit 
+          <ref>
+            <name>praedictus</name>, 
+            prima parte primae conclusionis tertii articuli sui
+          </ref>, 
+          dicens, 
+          cum gratia actualiter operante actum meritorium 
+          potest viator venialiter peccare 
+          et hoc probat subtiliter sic prout potui retinere audiendo 
+          quia mihi non <unclear>misit</unclear> in scriptis non plus repugnat aliquem 
+          simul mereri primum temporale 
+          <pb ed="#L" n="11-v"/>
+          et peccare mortaliter quam repugnat aliquem simul mereri 
+          praemium aeternum et peccare venialiter 
+          sed primum est possibile, 
+          ut patet de mendacio obstetricum 
+          secundum 
+          <cit>
+            <ref>
+              <name ref="#GregoryGreat"><!-- pretty sure this is gregory the great --> Gregorium</name>
+            </ref>
+          </cit>.
+        </p>
+        <p xml:id="pg-b1princ-d1e4406">
+          Hic potest dici quod 
+          quidquid sit de prima parte antecedentis 
+          quod secunda est falsa et impossibilis eundem 
+          simul mereri vitam aeternam et peccare venialiter 
+          quia illi sunt motus contrarii 
+          nam unus est recessus a Deo aliqualiter 
+          et alius est accessus ad ipsum. 
+          Item, 
+          termini contrarii sunt eo quod unus est poena et alius est gloria. 
+          Secundo, 
+          arguit per 
+          <ref>
+            <name ref="#Paul">Apostolum</name> 
+            <title ref="#rom">Ad Romanos</title> 
+            7
+          </ref> 
+          dicens 
+          <cit>
+            <quote xml:id="pg-b1princ-Qd1e4436" source="http://scta.info/resource/rom7_25@11-18">
+              mente servio legi dei corpori vero lege peccati
+            </quote>
+          </cit>, 
+          sed serviere legi dei 
+          mente est mereri vitam aeternam servire vero corpore legi peccati est peccare 
+          venialiter, 
+          igitur. 
+          Hoc potest dici 
+          quod <name ref="#Paul">Apostolus</name> intendit ostendere rebellionem carnis 
+          ad spiritum quasi vellet dicere quod <unclear>specie</unclear> 
+          cum mens inclinatur ad serviendum 
+          Deo retrahitur per corpus 
+          quod aggravat animam et quandoque trahit mentem ad peccandum, 
+          non tamen intendit 
+          quod simul peccet et vitam mereatur aeternam 
+          vel posset dici quod per servire legi peccati intelligit subiectionem 
+          contra corpus humanum et subiectum miseriis et poenis 
+          quae sunt <sic>quae sunt</sic> quaedam leges et poenitentiae 
+          peccati originalis et peccatorum actualium 
+          et haec sint dicta faciliter contra 
+          istum patrem cui me redeundo. Amen. Explicit primum principium.
+        </p>
+          </div>
+          </div>
+      </div>
+    </body>
+  </text>
+</TEI>
