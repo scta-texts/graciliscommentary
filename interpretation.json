@@ -1,0 +1,114 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-04T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-ancestors-v1",
+    "source_commit": "4af94851b9a708fdf399c4f5f20ad8d69e6e9974",
+    "generation_method": "hierarchical",
+    "scope": "Ancestors of the Book 1 prologue (pg-b1q1) and of Book 1, distinction 37 (pg-b1q29): the prologue division, distinction 37, Book 1, and the whole work. Book 1 and the work are partial."
+  },
+  "pg-l1prol": {
+    "summary": "Gracilis's treatment of Lombard's prologue is a single lectio (Lectio 1). He divides the prologue into Lombard's excuse, his rebuke of envious detractors, his commendation of the work by its four causes, and his exhortation to readers. He reads the excuse as zeal for the Church overcoming diffidence before arduous matter, and names God as principal and Lombard as instrumental efficient cause of the Sentences. The prologue's theme of divine matter exceeding human capacity becomes the question whether a wayfarer can, without a special gift, scientifically assent to every supernatural truth. Gracilis answers that under the present law such assent requires a special light. He grounds this in a theory of assent: theological assent is the mental proposition itself, distinguished in species from a same-term non-assent, and its object is the complexe significabile 'sic esse vel non esse'. Without faith, the theological habit does not make a theologian. A science is that by which things are known, not what is known. Infused habits need not be perceived by those who have them.",
+    "claims": [
+      "Under the present law, a wayfarer cannot assent to theological truths without a special light.",
+      "Theological assent is identical with the mental proposition.",
+      "The object of assent and of science is 'sic esse vel non esse'.",
+      "Faith and theology are distinct habits, and without faith one is not a theologian."
+    ],
+    "concepts": [
+      "prologue",
+      "theological assent",
+      "special light",
+      "complexe significabile",
+      "habitus theologicus",
+      "four causes"
+    ],
+    "_metadata": {
+      "level": "liber1-prologus",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pg-b1q1"
+      ],
+      "partial": false,
+      "source_structure": "~/Projects/scta/scta-projectfiles/pg-projectdata.xml"
+    }
+  },
+  "pg-l1d37": {
+    "summary": "Gracilis treats distinction 37 in a single lectio (Lectio 29), on God's being in things. Lombard's distinction moves from things' being in God's knowledge to God's being in things, generally by nature and specially by grace. The question asks whether God, as necessary principle, is necessarily in every being. Gracilis answers that God is necessarily present to whatever exists by essence, presence, and power, but contingently in any given place. Against Scotus, presence by power entails presence by essence, so God cannot act at a distance. No place contains or circumscribes him, and presence-talk about God connotes his diverse effects in creatures. A long debate denies that God is present in the imaginary void beyond the heavens. It reads Augustine's appeal to infinite space as ad hominem and treats all new divine presence as change in the creature alone. The lectio ends with conclusions restating Lombard's teaching on God's indwelling by grace, in the saints and supremely in Christ, and on the distinct ways bodies, spirits, and God are in place.",
+    "claims": [
+      "God is necessarily present to every existing creature by essence, presence, and power.",
+      "Divine presence by power entails presence by essence.",
+      "God is not present in the imaginary void beyond the heavens.",
+      "Changes in God's presence are changes in creatures alone."
+    ],
+    "concepts": [
+      "omnipresence",
+      "divine immensity",
+      "imaginary space",
+      "divine immutability",
+      "inhabitatio",
+      "modes of presence"
+    ],
+    "_metadata": {
+      "level": "distinctio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pg-b1q29"
+      ],
+      "partial": false,
+      "source_structure": "~/Projects/scta/scta-projectfiles/pg-projectdata.xml"
+    }
+  },
+  "pg-book1": {
+    "summary": "Partial summary of Book 1. It rests only on the prologue (Lectio 1) and distinction 37 (Lectio 29). Principium 1 and the other 37 distinction groupings are not yet interpreted, so the book's treatment of the Trinity, divine knowledge, will, and power is not represented. In the prologue, Gracilis holds that under the present law theological assent requires a special light. He builds a theory of assent on which the assent is the mental proposition itself and its object is the complexe significabile 'sic esse vel non esse'. Faith and theology are distinct habits, and without faith one is not a theologian. In distinction 37, he argues that God is necessarily present by essence, presence, and power to whatever exists, and only contingently in any place. Against Scotus, presence by power entails presence by essence. God is not present in the imaginary void beyond the heavens, and any new divine presence is a change in the creature alone. Both lectiones combine careful conceptual distinctions with attention to what holds 'stante lege'.",
+    "claims": [
+      "Under the present law, theological assent requires a special light (prologue).",
+      "God is necessarily present to every existing creature by essence, presence, and power (d. 37).",
+      "God is not present in extramundane imaginary space (d. 37)."
+    ],
+    "concepts": [
+      "theological assent",
+      "special light",
+      "complexe significabile",
+      "omnipresence",
+      "imaginary space",
+      "divine immutability"
+    ],
+    "_metadata": {
+      "level": "liber",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pg-l1prol",
+        "pg-l1d37"
+      ],
+      "partial": true,
+      "coverage": "2 of 39 direct children have interpretations (Principium 1 and 36 other distinction groupings lack them)",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pg-projectdata.xml"
+    }
+  },
+  "graciliscommentary": {
+    "summary": "Partial summary of Peter Gracilis's Commentarius in libros Sententiarum. It rests on Book 1 alone, and within Book 1 only on the prologue and distinction 37. Books 2–4 and most of Book 1 are not represented. Gracilis's lectiones pair a literal division of Lombard's text with a scholastic question. In the material covered, the questions treat the epistemology of theology and divine omnipresence. Gracilis holds that under the present law theological assent requires a special light. Assent is the mental proposition itself, and its object is the complexe significabile 'sic esse vel non esse'. God is necessarily present by essence, presence, and power to whatever exists, but not in the imaginary void beyond the heavens. In these lectiones he argues against or draws on Scotus, Thomas of Strasbourg, Alphonsus Vargas, Gerard of Siena, and Hugolino of Orvieto.",
+    "claims": [
+      "Under the present law, theological assent requires a special light.",
+      "God is necessarily present to every existing creature but not to extramundane imaginary space."
+    ],
+    "concepts": [
+      "Sentences commentary",
+      "theological assent",
+      "complexe significabile",
+      "omnipresence",
+      "imaginary space"
+    ],
+    "_metadata": {
+      "level": "work",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "pg-book1"
+      ],
+      "partial": true,
+      "coverage": "1 of 4 direct children have interpretations (and that child is itself partial)",
+      "source_structure": "~/Projects/scta/scta-projectfiles/pg-projectdata.xml"
+    }
+  }
+}
